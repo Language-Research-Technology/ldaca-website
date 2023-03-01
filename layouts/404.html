@@ -1,0 +1,15 @@
+{{- define "title" }}
+    {{- T "pageNotFound" | printf "404 %v" }} - {{ .Site.Title -}}
+{{- end -}}
+
+{{- define "content" -}}
+    <div class="page" id="content-404">
+        {{- with .Site.Params.image404 -}}
+            {{- dict "Src" . "Class" "image404" | partial "plugin/img.html" -}}
+        {{- end -}}
+        <p class="error-text">
+            {{- T "pageNotFoundText" -}}&nbsp;
+            <a href="javascript:void(0);" title="{{ T `back` }}" onclick="window.history.back();"><i class="far fa-hand-point-left fa-fw" aria-hidden="true"></i></a>
+        </p>
+    </div>    
+{{- end -}}
