@@ -32,8 +32,8 @@ This is the source repository for an LDaCA based website
 Example:
 
 ```sh
-git clone git@github.com:Language-Research-Technology/ldaca-base-website.git
-cd ldaca-base-website
+git clone git@github.com:Language-Research-Technology/ya-ldaca-website.git
+cd ya-ldaca-website
 git submodule update --init --recursive
 ```
 
