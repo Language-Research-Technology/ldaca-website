@@ -69,7 +69,7 @@ And all your refs like:
 
 ```md
 ## This is a #ref on a page
-`
+```
 
 will have a contents dropdown on the page
 
