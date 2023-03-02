@@ -5,6 +5,14 @@
     font-size: 2em !important;
 }
 
+// Do not add a hash before the h2 header-mark!
+
+.content {
+  > h2 > .header-mark::before {
+    content: "" !important;
+  }
+}
+
 // Increase size of the logo on a desktop view 
 
 #header-desktop {
