@@ -1,9 +1,8 @@
 ---
-#title: 'License - International Corpus of English'
+title: 'License - Data License for International Corpus of English (Aus) - Text'
 date: "2023-01-01"
 draft: false
 ---
 
-### License - International Corpus of English
 
-placeholder for: License - International Corpus of English
+placeholder for: License - Data License for International Corpus of English (Aus) - Text
