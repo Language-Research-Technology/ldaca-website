@@ -1,10 +1,10 @@
 ---
-title: 'Language data in Australia - Mapping a conceptual landscape'
-date: '2022-12-07T15:28:35+10:00'
+title: "Language data in Australia - Mapping a conceptual landscape"
+date: "2022-12-07T15:28:35+10:00"
 draft: false
-tags: ['Australia', 'langauge data']
-topics: ['Language in Australia']
-author: 'Simon Musgrave'
+tags: ["Australia", "langauge data"]
+topics: ["Language in Australia"]
+author: "Simon Musgrave"
 ---
 
 The data which is being made accessible through the Language Data Commons of Australia will contribute to the task of documenting language use and language behaviour in Australia. But what does this include? We are aware of many data sources and, in the short term, the important questions are about priorities:
@@ -49,9 +49,14 @@ Even the question of what should be considered 'Australian language data' does n
 
 _This post is based on presentations given to the LaTrobe University Linguistics Program (27 May 2021) and to the Monash University Linguistics Program (10 May 2022). I am grateful for helpful comments from both those audiences, and for comments on the draft of this post from Leah Gustafson, Sara King and Harriet Sheppard._
 
-**References**:<br>
-Baker, Sidney (1945) _The Australian Language_. Sydney: Angus and Robertson.<br>
-Corbyn, Charles Adam (1854) _Sydney Revels of Bacchus, Cupid, and Momus_. Sydney: Hawksley & Williamson.<br>
-Fritz, Clemens WA. (2007) _From English in Australia to Australian English: 1788-1900_. Peter Lang Frankfurt.<br>
-Noone, V. (2012). _Hidden Ireland in Victoria_. Ballarat: Ballarat Heritage Services.<br>
-O’Farrell, Patrick (1988) _The Irish in Australia_. Kensington, N.S.W.: New South Wales University Press.<br>
+**References**:
+
+Baker, Sidney (1945) _The Australian Language_. Sydney: Angus and Robertson.
+
+Corbyn, Charles Adam (1854) _Sydney Revels of Bacchus, Cupid, and Momus_. Sydney: Hawksley & Williamson.
+
+Fritz, Clemens WA. (2007) _From English in Australia to Australian English: 1788-1900_. Peter Lang Frankfurt.
+
+Noone, V. (2012). _Hidden Ireland in Victoria_. Ballarat: Ballarat Heritage Services.
+
+O’Farrell, Patrick (1988) _The Irish in Australia_. Kensington, N.S.W.: New South Wales University Press.

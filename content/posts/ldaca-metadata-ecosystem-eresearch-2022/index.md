@@ -34,7 +34,6 @@ We will demonstrate current ways of describing items in a variety of languages a
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide01.png' alt='The Language Data Commons of Australia (LDaCA) and Australian Text Analytics Platform (ATAP) projects received investment (https://doi.org/10.47486/DP768 and https://doi.org/10.47486/PL074) from the Australian Research Data Commons (ARDC). The ARDC is funded by the National Collaborative Research Infrastructure Strategy (NCRIS).   ARC LIEF LE210100013 (2021-2024) Nyingarn: a platform for primary sources in Australian Indigenous languages  ' title='Slide: 1' border='1'  width='85%%'/>
 
-
 This work is supported by the Australian Research Data Commons.
 
 </section>
@@ -63,7 +62,7 @@ PARADISEC (the Pacific And Regional Archive for Digital Sources in Endangered Cu
 
 </section>
 
-![alt text](Slide04.png "")
+![alt text](Slide04.png)
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide04.png' alt='  ' title='Slide: 4' border='1'  width='85%%'/>
@@ -96,7 +95,7 @@ The Auslan Corpus holds great value as an educational tool for Auslan users and 
 
 </section>
 
-![alt text](Slide07.png "")
+![alt text](Slide07.png)
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide07.png' alt='' title='Slide: 7' border='1'  width='85%%'/>
@@ -105,16 +104,16 @@ For all of the collections we are working with data is discoverable via some kin
 
 </section>
 
-![alt text](Slide08.png "")
+![alt text](Slide08.png)
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide08.png' alt='' title='Slide: 8' border='1'  width='85%%'/>
 
-The LDaCA services we are building use an API to drive the data portals. The API can be used for direct access with appropriate access control – see [another eResearch presentation](posts/fair-care-eresearch-2022) which explains this in detail. These screenshots show code notebooks (running in BinderHub on the Nectar cloud) accessing language resources.
+The LDaCA services we are building use an API to drive the data portals. The API can be used for direct access with appropriate access control – see [another eResearch presentation](../fair-care-eresearch-2022) which explains this in detail. These screenshots show code notebooks (running in BinderHub on the Nectar cloud) accessing language resources.
 
 </section>
 
-![alt text](Slide09.png "")
+![alt text](Slide09.png)
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide09.png' alt='' title='Slide: 9' border='1'  width='85%%'/>
@@ -133,7 +132,7 @@ The UTS team presented on this at [eResearch Australasia 2019](https://ptsefton.
 
 </section>
 
-![alt text](Slide10.png "")
+![alt text](Slide10.png)
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide10.png' alt='  ' title='Slide: 10' border='1'  width='85%%'/>
@@ -148,7 +147,7 @@ The LDaCA repositories use the Oxford Common File Layout ([OCFL](https://ocfl.io
 
 </section>
 
-![alt text](Slide11.png "{&quot;conformsTo&quot;: &quot;http://purl.archive.org/language-data-commons/profile&quot;}")
+![alt text](Slide11.png '{"conformsTo": "http://purl.archive.org/language-data-commons/profile"}')
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide11.png' alt='{    &quot;conformsTo&quot;: &quot;http://purl.archive.org/language-data-commons/profile&quot; }  ' title='Slide: 11' border='1'  width='85%%'/>
@@ -177,8 +176,7 @@ The dataset may contain any kind of data resource about anything, in any format 
 
 </section>
 
-![alt text](Slide14.png "")
-
+![alt text](Slide14.png)
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide14.png' alt=' ' title='Slide: 14' border='1'  width='85%%'/>
@@ -196,7 +194,7 @@ Here is the same page from the previous slide seen in a working model of an RO-C
 
 </section>
 
-![alt text](Slide16.png "")
+![alt text](Slide16.png)
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide16.png' alt='  ' title='Slide: 16' border='1'  width='85%%'/>
@@ -207,7 +205,7 @@ RO-Crate has a growing number of [tools and software libraries](https://www.rese
 
 </section>
 
-![alt text](Slide17.png "")
+![alt text](Slide17.png)
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide17.png' alt=' ' title='Slide: 17' border='1'  width='85%%'/>
@@ -216,7 +214,7 @@ The base vocabulary for the JSON-LD used in RO-Crate is schema.org - a widely us
 
 </section>
 
-![alt text](Slide18.png "")
+![alt text](Slide18.png)
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide18.png' alt='  ' title='Slide: 18' border='1'  width='85%%'/>
@@ -229,7 +227,7 @@ As part of a LIEF project (2022-23, led by author Thieberger), revisions to the 
 
 </section>
 
-![alt text](Slide19.png "")
+![alt text](Slide19.png)
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide19.png' alt='  ' title='Slide: 19' border='1'  width='85%%'/>
@@ -240,7 +238,7 @@ These terms have been modernised and mainstreamed from previous ways of describi
 
 </section>
 
-![alt text](Slide20.png "")
+![alt text](Slide20.png)
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide20.png' alt='  ' title='Slide: 20' border='1'  width='85%%'/>
@@ -251,7 +249,7 @@ Before we come back in detail to how RO-Crate works we will discuss the structur
 
 </section>
 
-![alt text](Slide21.png "")
+![alt text](Slide21.png)
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide21.png' alt=' ' title='Slide: 21' border='1'  width='85%%'/>
@@ -262,7 +260,7 @@ For small, stable collections of data an entire collection (often referred to a 
 
 </section>
 
-![alt text](Slide22.png "")
+![alt text](Slide22.png)
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide22.png' alt='  ' title='Slide: 22' border='1'  width='85%%'/>

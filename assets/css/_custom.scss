@@ -1,121 +1,128 @@
 // Place title of page on the left
 
 .single-title {
-    text-align: left !important;
-    font-size: 2em !important;
+  text-align: left !important;
+  font-size: 2em !important;
 }
 
-// Increase size of the logo on a desktop view 
+// Do not add a hash before the h2 header-mark!
+
+.content {
+  > h2 > .header-mark::before {
+    content: "" !important;
+  }
+}
+
+// Increase size of the logo on a desktop view
 
 #header-desktop {
-    height: auto !important;
-    background-color: transparent;
-    .header-title {
-        a {
-            display: block;
-            width: auto !important;
-        }
-        .logo {
-            height: fit-content;
-            max-height: 5em;
-            max-width: 60%;
-            padding: .2em;
-            padding-top: .5em;
-        }
+  height: auto !important;
+  background-color: transparent;
+  .header-title {
+    a {
+      display: block;
+      width: auto !important;
     }
-    
+    .logo {
+      height: fit-content;
+      max-height: 5em;
+      max-width: 60%;
+      padding: 0.2em;
+      padding-top: 0.5em;
+    }
+  }
 }
 
 // Strech content on the articles (all) to fit the screen
 
 .page {
-    max-width: 1300px;
-    width: 80%;
+  max-width: 1300px;
+  width: 80%;
 }
 
 @media only screen and (max-width: 1440px) {
-    .page {
-      width: 92%;
-    }
+  .page {
+    width: 92%;
   }
-  
-  @media only screen and (max-width: 1200px) {
-    .page {
-      width: 82%;
-    }
-  
-    #header-desktop .header-wrapper {
-      padding-right: 1rem;
-    }
-  
-    .search-dropdown.desktop {
-      right: 1rem;
-    }
+}
+
+@media only screen and (max-width: 1200px) {
+  .page {
+    width: 82%;
   }
-  
-  @media only screen and (max-width: 960px) {
-    #toc-auto {
-      display: none;
-    }
-  
-    #toc-static {
-      display: block;
-    }
-  
-    .page {
-      width: 85%;
-    }
-  
-    #header-desktop .header-wrapper {
-      padding-left: 1rem;
-    }
+
+  #header-desktop .header-wrapper {
+    padding-right: 1rem;
   }
-  
-  @media only screen and (max-width: 680px) {
-    #header-desktop {
-      display: none;
+
+  .search-dropdown.desktop {
+    right: 1rem;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  #toc-auto {
+    display: none;
+  }
+
+  #toc-static {
+    display: block;
+  }
+
+  .page {
+    width: 85%;
+  }
+
+  #header-desktop .header-wrapper {
+    padding-left: 1rem;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  #header-desktop {
+    display: none;
+  }
+
+  #header-mobile {
+    display: block;
+  }
+
+  body.blur {
+    overflow: hidden;
+  }
+
+  .page {
+    width: 100%;
+
+    [data-header-mobile] & {
+      padding-top: var(--header-height);
     }
-  
-    #header-mobile {
-      display: block;
+
+    [data-header-mobile="normal"] & {
+      padding-top: 0;
     }
-  
-    body.blur {
-      overflow: hidden;
-    }
-  
-    .page {
-      width: 100%;
-  
-      [data-header-mobile] & {
-        padding-top: var(--header-height);
-      }
-  
-      [data-header-mobile=normal] & {
-        padding-top: 0;
-      }
-  
-      .categories-card {
-        .card-item {
-          width: 100%;
-        }
-      }
-    }
-  
-    .copyright {
-      .copyright-line {
-        .icp-splitter {
-          display: none;
-        }
-        .icp-br {
-          display: block;
-        }
+
+    .categories-card {
+      .card-item {
+        width: 100%;
       }
     }
   }
 
+  .copyright {
+    .copyright-line {
+      .icp-splitter {
+        display: none;
+      }
+      .icp-br {
+        display: block;
+      }
+    }
+  }
+}
+
 // Twitter Timeline
-  
+
 // .twitter {
 //     float: right;
 //     height: 1000px;
