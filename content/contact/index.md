@@ -21,4 +21,4 @@ We share a [Twitter account](https://twitter.com/LDaCA_Program) with the [Austra
         Tweets from https://twitter.com/LDaCA_Program
     </a>
 </div>
-{{< raw >}}
+{{< /raw >}}
