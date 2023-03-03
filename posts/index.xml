@@ -1,0 +1,934 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>All Posts - LDaCA</title><link>https://www.ldaca.edu.au/posts/</link><description>All Posts | LDaCA</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>info@ldaca.edu.au (Language Data Commons of Australia)</managingEditor><webMaster>info@ldaca.edu.au (Language Data Commons of Australia)</webMaster><lastBuildDate>Wed, 07 Dec 2022 15:28:35 +1000</lastBuildDate><atom:link href="https://www.ldaca.edu.au/posts/" rel="self" type="application/rss+xml"/><item><title>Language data in Australia - Mapping a conceptual landscape</title><link>https://www.ldaca.edu.au/posts/data-map/</link><pubDate>Wed, 07 Dec 2022 15:28:35 +1000</pubDate><author>Simon Musgrave</author><guid>https://www.ldaca.edu.au/posts/data-map/</guid><description><![CDATA[<p>The data which is being made accessible through the Language Data Commons of Australia will contribute to the task of documenting language use and language behaviour in Australia. But what does this include? We are aware of many data sources and, in the short term, the important questions are about priorities:</p>
+<ul>
+<li>What will be immediately useful?</li>
+<li>What data is stored precariously?</li>
+<li>What relationships can be leveraged?</li>
+</ul>
+<p>But in thinking for the long term, there is value in asking the question from a more conceptual point of view:</p>
+<ul>
+<li>What were the possibilities for making records of language use over our history and what has resulted (and not resulted) from those possibilities?</li>
+</ul>
+<p>I will try to at least start answering that question by providing a conceptual map of a metaphorical landscape and this will be structured around two themes: demography and technology. Demography is important because what languages were being used at any particular time depends on who was living in Australia at that time. On this dimension, the major point of articulation is the arrival of non-Indigenous people. The places of origin of those non-Indigenous people have changed over time, and that has had linguistic consequences, but not on the same scale as the initial change. Technology is important because the kinds of records which might exist of language use depend on the means which were available to make such records at a given time. And on this dimension, I think that there are three points of articulation that are important: the possibility of making written records, the possibility of recording sound and vision, and the possibility of digital records.</p>
+<p>Before European contact, Australia had a very diverse linguistic ecology. Credible estimates of the number of distinct languages range from around <a href="https://aiatsis.gov.au/explore/living-languages" target="_blank" rel="noopener noreffer ">250</a> up to as many as <a href="https://twitter.com/anggarrgoon/status/1381642291455086594?lang=en" target="_blank" rel="noopener noreffer ">490</a>, with many more dialects. Contact between language groups was common and therefore multilingualism and multidialectalism were also common. We know that there was contact between Indigenous Australians and fishermen from the Indonesian archipelago (especially Makassarese people) from the evidence of loan words. But the only record which existed of this period in the linguistic history of the continent was what was passed from one generation to another by oral transmission.</p>
+<p>The presence of Europeans on the Australian continent brought a huge change to both dimensions of the map I am developing. Europeans landed on parts of Australia from some time in the 17th century, but I will take two dates in the 18th century to be crucial. Although earlier visitors may have recorded a few words which they heard from Indigenous Australians, written records of the languages only start properly (and even then to a limited extent) with Cook&rsquo;s expedition in 1770, reflecting perhaps the scientific orientation of Joseph Banks. This is the first point of technological articulation in the language data landscape which introduced the possibility of making language records independent of human memory. And then from 1788, there has been a continuous non-Indigenous presence in Australia representing a huge demographic articulation point.</p>
+<p>During the 19th century (and into the 20th century), written records of Australian languages were produced by a variety of people such as explorers, missionaries, administrators (in fact, pretty much anyone who could be bothered). These records are scattered and new material continues to be found (for example, Des Crump&rsquo;s ongoing work in the <a href="https://www.slq.qld.gov.au/get-involved/fellowships-awards-residencies/queensland-memory-awards/state-library-queensland-medal" target="_blank" rel="noopener noreffer ">State Library of Queensland</a> and the Queensland State Archives). If you would like to get a flavour of some records of this kind, the <a href="https://nyingarn.net" target="_blank" rel="noopener noreffer ">Nyingarn project</a> is making many of them available online. (Nyingarn builds on earlier work which presented the Indigenous language materials collected by Daisy Bates as an <a href="http://www.bates.org.au/" target="_blank" rel="noopener noreffer ">online resource</a>.) However the efforts of these early recorders were sporadic, uncoordinated and poorly focused. In 1945, Sydney Baker wrote: &ldquo;Records of their languages are extremely deficient for instance, no exhaustive grammar of an aboriginal language has been published. There is no comprehensive or even partially comprehensive dictionary of reference to aboriginal dialects&rdquo; (p218). And this record did not reflect the richness of the oral tradition or of language use. For example, it is very difficult to make an accurate record of conversation when contemporaneous writing is your only technological resource.</p>
+<p>The non-Indigenous group who arrived in 1788 were the First Fleet, the first group of convicts transported from the United Kingdom with their jailers - English has had a permanent presence in Australia since that date. Written records are all that we have until the end of the 19th century, but they are extensive and a sample of them is available in the COrpus of Oz Early English (<a href="https://data.atap.edu.au/collection?id=arcp://name,cooee-corpus/corpus/root&amp;_crateId=arcp://name,cooee-corpus/corpus/root" target="_blank" rel="noopener noreffer ">COOEE</a>, Fritz 2007). This collection, and indeed the overall record, has the problems we expect to be associated with written sources. The authors are not a representative group, and the material is biased towards non-vernacular styles. Material such as Corbyn&rsquo;s more-or-less verbatim accounts of court scenes in mid-century Sydney is uncommon (Corbyn 1854), and it would be of great value to those researching the development of Australian English if more informal material (personal letters, diaries) could be made accessible.</p>
+<p>From 1788 on, speakers of non-Indigenous languages other than English have been present in Australia. Within the convict population (and then also amongst free settlers), a significant minority of the European population in Australia knew Irish. Speakers of other languages were occasionally present in the first part of the 19th century, and then, after the discovery of gold in the middle of the century, speakers of many languages, including major European languages and Sinitic languages, were present in Australia. The written records of these languages, represented by periodical publications, are diverse. But before turning to those records, a few words about the relative absence of Irish in the written record.</p>
+<p>As mentioned, a large proportion, probably around one third, of those who arrived in Australia from the United Kingdom were Irish. Many had some knowledge of the language, even up to half of the Irish immigrants to Victoria according to Noone (2012). But some Irish transportees were political prisoners and use of the language was viewed with suspicion; speaking Irish could even be construed as a subversive act. There is evidence that the language continued to be spoken: Irish-speaking priests were needed to hear confessions, and interpreters were used in court occasionally. The written record, however, is limited. As O&rsquo;Farrell (1988) points out, Irish was not even used on tombstones, one place where Irish could be used without consequences. A bilingual magazine was published in Melbourne in the 1920s, but, rather than continuing a tradition, this is a manifestation of the <a href="https://en.wikipedia.org/wiki/Gaelic_revival" target="_blank" rel="noopener noreffer ">Gaelic revival</a>.</p>
+<p>Other non-Indigenous languages were also present from quite early in the post-invasion period, but increasingly so after the gold rushes of the mid 19th century. The crucial evidence here is the record of newspapers published in such languages, and here I rely on the <a href="https://glam-workbench.net/trove-newspapers/#finding-non-english-newspapers-in-trove" target="_blank" rel="noopener noreffer ">research of Tim Sherratt</a> using the resources of the National Library of Australia. German and Chinese were both well represented by published material from at least the middle of the 19th century and French and Italian were also present. Most of us probably think of Greek migration to Australia as a post-WW2 phenomenon, but publication in Greek started in 1931. Greek and Italian had important newspaper publications in the second half of the 20th century, as did Chinese but rather later.</p>
+<p>I have suggested that technology is an important factor in mapping out this data landscape and in considering this it is important to track not just the availability of technologies but also who controlled them and to what ends. The interplay of these considerations is evident in the informal and unsystematic approach to making records of Indigenous languages described previously, and it is also evident in the almost complete lack of data on contact varieties which have existed at various times in Australia. Early contact between Europeans and Indigenous people led to the use of pidgins, but there are only minimal accounts of these in early records. Aboriginal Englishes are a range of contact varieties which are in use and still developing today, while Kriol is a contact language spoken in northern Australia. Good records of any of these varieties only began to be made in the 1980s. At least two contact varieties developed in specific social settings. Queensland Kanaka English originated with the presence of approximately 60,000 Melanesian agricultural workers in Queensland between 1860 and 1906, and Broome Pidgin developed when pearl divers from Asia, for whom Malay was a <em>lingua franca</em>, worked in Broome between about 1900 and 1930. In both cases, we know almost nothing except that these varieties existed and were used. As in the case of Indigenous languages, these varieties were of little interest to those who controlled the technology used to make records.</p>
+<p>The second point of technological articulation is the possibility of making records of sounds and images. These technologies make it possible to document the sounds of speech, and then movement including gesture. Audio recording technologies were developed in the latter part of the 19th century and the earliest sound recording in the National Film and Sound Archive (NFSA) catalogue is from 1888. The first recordings of speech (&lsquo;comic monologue&rsquo;) are catalogued as c1896. The first NFSA catalogue entry for an Australian language is for 1899; the material is a selection from the three cylinder recordings of 1899 of Fanny Cochrane Smith, who claimed to be &rsquo;the last of the [Aboriginal] Tasmanians&rsquo;. The earliest catalogue entry at the Australian Institute for Aboriginal and Torres Strait Islander Studies (AIATSIS) is for 1898; these are recordings from the Cambridge Anthropological Expedition to Torres Straits (1898). There is a continuing audio record for Australian languages from this point on. Much of this material is curated by AIATSIS, but there is also material elsewhere.</p>
+<p>Although audio recordings of English in Australia begin in the 19th century, the first systematic <a href="https://speech.library.sydney.edu.au/" target="_blank" rel="noopener noreffer ">set of materials</a> recorded with the intention of documenting Australian English was not made until 1959-60 when A.G. Mitchell and Arthur Delbridge carried out a survey of the speech habits of young Australians. Of course, recordings of Australians speaking exist from earlier, but it is not obvious where they might be. Again, the questions about who controls technology are relevant: who would have an interest in a) making recordings and b) preserving them? Two answers to these questions seem interesting, and they are also relevant in the case of other non-Indigenous languages. Firstly, media organisations make recordings and may preserve them, and secondly, preservation of recorded material is an important aim for oral historians. For English, the ABC has a substantial archive including radio recordings starting in 1932 and television material starting in 1956. The ABC treats most of this material as a commercial resource and therefore access and use conditions are not simple - but there is an enormous amount of material there. And since at least the 1980s, considerable amounts of material have been collected by oral historians, an example which shows the benefit of looking for language data beyond what linguists have collected. For other non-Indigenous languages, SBS Radio has existed since 1975 and broadcasts in 68 languages today. The extent of their archive and how it might be accessed are questions we are exploring. Oral history is also likely to be an important source of data for these languages. A range of material from informal recordings to oral history interviews exists, mostly held by individuals but community associations may be a gateway.</p>
+<p>Technology to record moving images developed a little later than audio recording. The NFSA catalogue does not specify whether material is silent or has sound, and I have yet to establish the earliest video record of Indigenous language stored by that institution. At AIATSIS, the earliest materials are recordings made at Ernabella by Norman Tindale in 1933, consisting of silent film with an accompanying wax cylinder audio recording. The first clear instance of film of Indigenous language use which I have traced to date is a film called <em>Aborigines of the sea coast</em> produced by the Australian Commonwealth Film Unit in 1948. <a href="https://shop.nfsa.gov.au/aborigines-of-the-sea-coast" target="_blank" rel="noopener noreffer ">This film</a> is a record of a 1948 expedition to Arnhem Land led by anthropologist Charles Mountford. It depicts the ancestral fishing, hunting, building and boatmaking techniques used by the communities of the region. For English, the NFSA has a substantial collection of filmed material created in Australia and again the ABC archives are potentially a valuable source, especially for non-scripted material (such as interviews and the like).</p>
+<p>The digital revolution of the last few decades is the third point of technological articulation and it has fundamentally altered our relationship to language data. This is true both for how we acquire and handle data and for what data is available. Pre-digital audio and video content required expensive equipment, the recorded media had to be stored very carefully and using the recordings caused them to deteriorate. Today, cheap (and very portable) equipment can produce excellent results for multimodal data, the resulting data can be replicated, edited and disseminated easily and without degradation, and any problems relating to storage of data are (largely) general ones. How we collect and view written data has also changed in various ways. Optical Character Recognition (OCR) can transform the printed record into machine readable text (and increasingly can access handwritten material), and new genres of writing have come into existence. These developments mean that the amount of data available is enormous and continues to expand. These large bodies of data would be intractable using traditional methods; fortunately, new tools have also been developed which allow us to analyse large collections of data.</p>
+<p>As a result of these changes, we face new and different problems in how we approach language data. Finding data is simple, but choosing what part of the data and/or how much of the data we should acquire may not be simple. Control of data has become complex when the definition of Public Domain has to accommodate new modes of dissemination and large collections of data are considered commercial assets.</p>
+<p>Even the question of what should be considered &lsquo;Australian language data&rsquo; does not have an obvious answer in this digital world. Does the language of an Australian resident from a South Asian background contributing to social media in Sri Lanka come under the term? What about the tweets of someone who was born in Australia and grew up here but has lived in Europe for a number of years? The landscape of this latest phase in language data is still emerging and finding good answers to these questions (and many others) will be needed before we can map the new landscape clearly.</p>
+<p><em>This post is based on presentations given to the LaTrobe University Linguistics Program (27 May 2021) and to the Monash University Linguistics Program (10 May 2022). I am grateful for helpful comments from both those audiences, and for comments on the draft of this post from Leah Gustafson, Sara King and Harriet Sheppard.</em></p>
+<p><strong>References</strong>:</p>
+<p>Baker, Sidney (1945) <em>The Australian Language</em>. Sydney: Angus and Robertson.</p>
+<p>Corbyn, Charles Adam (1854) <em>Sydney Revels of Bacchus, Cupid, and Momus</em>. Sydney: Hawksley &amp; Williamson.</p>
+<p>Fritz, Clemens WA. (2007) <em>From English in Australia to Australian English: 1788-1900</em>. Peter Lang Frankfurt.</p>
+<p>Noone, V. (2012). <em>Hidden Ireland in Victoria</em>. Ballarat: Ballarat Heritage Services.</p>
+<p>O’Farrell, Patrick (1988) <em>The Irish in Australia</em>. Kensington, N.S.W.: New South Wales University Press.</p>
+]]></description></item><item><title>Designing a metadata ecosystem for language research based on Research Object Crate (RO-Crate)</title><link>https://www.ldaca.edu.au/posts/ldaca-metadata-ecosystem-eresearch-2022/</link><pubDate>Fri, 25 Nov 2022 00:00:00 +0000</pubDate><author>Peter Sefton</author><guid>https://www.ldaca.edu.au/posts/ldaca-metadata-ecosystem-eresearch-2022/</guid><description><![CDATA[<p><a href="/posts/ldaca-metadata-ecosystem-eresearch-2022/ldaca-metadata-ecosystem-eresearch-2022.pdf" rel="">PDF version</a>
+<figure><a class="lightgallery" href="/posts/ldaca-metadata-ecosystem-eresearch-2022/Slide00.png" title="alt text" data-thumbnail="/posts/ldaca-metadata-ecosystem-eresearch-2022/Slide00.png" data-sub-html="<h2>Designing a metadata ecosystem for language research based on Research Object Crate (RO-Crate) Peter Sefton, Nick Thieberger, Marco La Rosa, Simon Musgrave, River Tae Smith, Moises Sacal Bonequi</h2><p>alt text</p>">
+        
+    </a><figcaption class="image-caption">Designing a metadata ecosystem for language research based on Research Object Crate (RO-Crate) Peter Sefton, Nick Thieberger, Marco La Rosa, Simon Musgrave, River Tae Smith, Moises Sacal Bonequi</figcaption>
+    </figure></p>
+<!-- raw HTML omitted -->
+<p>By Peter Sefton, Nick Thieberger, Marco La Rosa, Simon Musgrave, River Tae Smith, Moises Sacal Bonequi – delivered by Peter Sefton at eResearch 2022 in Brisbane</p>
+<p>This work is licensed under CC BY 4.0. To view a copy of this license, visit <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreffer ">http://creativecommons.org/licenses/by/4.0/</a></p>
+<p>This presentation will look at how a Metadata Standard - RO-Crate - with Metadata Profile (the Language Data Commons) is being developed and implemented. Two major collections are collaborating on the standard, PARADISEC and the Language Data Commons of Australia (LDaCA). This ongoing standardisation effort for language data is designed to improve interoperability, reduce costs for data migration and allow storage on disk, object storage or in archival repositories.</p>
+<p><a href="https://www.researchobject.org/ro-crate/" target="_blank" rel="noopener noreffer ">RO-Crate</a> is a linked-data metadata system which allows discovery metadata (Who, what where) based on the widely adopted Schema.org vocabulary to be seamlessly integrated with more discipline specific metadata. RO-Crate uses metadata profiles to provide guidance for packaging resources for particular disciplines and purposes.</p>
+<p>In this presentation we will introduce a RO-Crate metadata profile for language data which extends the core RO-Crate standard with new vocabulary terms adapted from pre-linked-data discipline specific metadata efforts, particularly the Open Language Archives Community (OLAC) standards. The profile has English-language guidance on how to structure collections of resources in a repository with links between them, such that they can be indexed and displayed via APIs and search/browse portals. The profile is also implemented as a series of machine-readable profiles for the Describo Online metadata description system.</p>
+<p>We will demonstrate current ways of describing items in a variety of languages and modes (spoken, written and signed), from a large set of heterogeneous language resources held by PARADISEC and LDaCA. We will also show how to access them via API calls and a search portal, and how resources may be stored in simple storage systems using the Arkisto platform (a set of standards and principles).</p>
+<!-- raw HTML omitted -->
+<p><figure><a class="lightgallery" href="/posts/ldaca-metadata-ecosystem-eresearch-2022/Slide01.png" title="alt text" data-thumbnail="/posts/ldaca-metadata-ecosystem-eresearch-2022/Slide01.png" data-sub-html="<h2>The Language Data Commons of Australia (LDaCA) and Australian Text Analytics Platform (ATAP) projects received investment (https://doi.org/10.47486/DP768 and https://doi.org/10.47486/PL074) from the Australian Research Data Commons (ARDC). The ARDC is funded by the National Collaborative Research Infrastructure Strategy (NCRIS).   ARC LIEF LE210100013 (2021-2024) Nyingarn: a platform for primary sources in Australian Indigenous languages</h2><p>alt text</p>">
+        
+    </a><figcaption class="image-caption">The Language Data Commons of Australia (LDaCA) and Australian Text Analytics Platform (ATAP) projects received investment (https://doi.org/10.47486/DP768 and https://doi.org/10.47486/PL074) from the Australian Research Data Commons (ARDC). The ARDC is funded by the National Collaborative Research Infrastructure Strategy (NCRIS).   ARC LIEF LE210100013 (2021-2024) Nyingarn: a platform for primary sources in Australian Indigenous languages</figcaption>
+    </figure></p>
+<!-- raw HTML omitted -->
+<p>This work is supported by the Australian Research Data Commons.</p>
+<!-- raw HTML omitted -->
+<p><figure><a class="lightgallery" href="/posts/ldaca-metadata-ecosystem-eresearch-2022/Slide02.png" title="alt text" data-thumbnail="/posts/ldaca-metadata-ecosystem-eresearch-2022/Slide02.png" data-sub-html="<h2>With thanks for their contribution: Partner Institutions:</h2><p>alt text</p>">
+        
+    </a><figcaption class="image-caption">With thanks for their contribution: Partner Institutions:</figcaption>
+    </figure></p>
+<!-- raw HTML omitted -->
+<p>The Language Data Commons of Australia Data Partnerships (<a href="https://doi.org/10.47486/HIR001" target="_blank" rel="noopener noreffer ">LDaCA</a>) and the Australian Text Analytics Platform (<a href="https://doi.org/10.47486/PL074" target="_blank" rel="noopener noreffer ">ATAP</a>) are building towards a scalable and flexible language data and analytics commons. These projects will be part of the Humanities and Social Sciences Research Data Commons (HASS RDC).</p>
+<p>The Data Commons will focus on preservation and discovery of distributed multi-modal language data collections under a variety of governance frameworks. This will include access control that reflects ethical constraints and intellectual property rights, including those of Aboriginal and Torres Strait Islander, migrant and Pacific communities.</p>
+<p>The platform will provide workbench services to support computational research, starting with code-notebooks with no-code research tools provided in later phases. Research artefacts such as code and derived data will be made available as fully documented research objects that are re-runnable and rigorously described. Metrics to demonstrate the impact of the platform are projected to include usage statistics, data and article citations. These projects are led by Professor Michael Haugh of the School of Languages and Culture at the University of Queensland with several partner institutions.</p>
+<!-- raw HTML omitted -->
+<p><figure><a class="lightgallery" href="/posts/ldaca-metadata-ecosystem-eresearch-2022/Slide03.png" title="alt text" data-thumbnail="/posts/ldaca-metadata-ecosystem-eresearch-2022/Slide03.png" data-sub-html="<h2>Pacific and Regional Archive for Digital Sources in Endangered Cultures Running for 20 years  1,337 languages represented 675 collections 37,510 items 405,289 files 15,540 hours (audio) 2,465 hours (video) 193 TB  October 2022</h2><p>alt text</p>">
+        
+    </a><figcaption class="image-caption">Pacific and Regional Archive for Digital Sources in Endangered Cultures Running for 20 years  1,337 languages represented 675 collections 37,510 items 405,289 files 15,540 hours (audio) 2,465 hours (video) 193 TB  October 2022</figcaption>
+    </figure></p>
+<!-- raw HTML omitted -->
+<p>This page shows a <a href="https://www.youtube.com/watch?v=CX-CODBwOVU&amp;t=7s" target="_blank" rel="noopener noreffer ">YouTube demo of the PARADISEC web site</a>.</p>
+<p>PARADISEC (the Pacific And Regional Archive for Digital Sources in Endangered Cultures) is a digital archive of records of some of the many small cultures and languages of the world and it has developed models to ensure that the archive can provide access to interested communities while also conforming with emerging international standards for digital archiving. Australian researchers have been making unique and irreplaceable audiovisual recordings in the region since portable field recorders became available in the mid-twentieth century, yet until the establishment of PARADISEC there was no Australian repository for these invaluable research recordings.</p>
+<!-- raw HTML omitted -->
+<p></p>
+<!-- raw HTML omitted -->
+<p>Goal: Be able to store data with an eye on preservation</p>
+<p>In an archive like PARADISEC - it is important to be be able to maintain resources over the long term. For example, much material which falls within the scope of PARADISEC is stored on legacy media. PARADISEC archives tapes from a range of sources, such as the agencies in the Pacific shown in the images above. Such material needs to be digitised and returned to the source with meaningful metadata.</p>
+<!-- raw HTML omitted -->
+<p><figure><a class="lightgallery" href="/posts/ldaca-metadata-ecosystem-eresearch-2022/Slide05.png" title="alt text" data-thumbnail="/posts/ldaca-metadata-ecosystem-eresearch-2022/Slide05.png" data-sub-html="<h2>PARADISEC ACCESS  https://language-archives.services/about/data-loader</h2><p>alt text</p>">
+        
+    </a><figcaption class="image-caption">PARADISEC ACCESS  https://language-archives.services/about/data-loader</figcaption>
+    </figure></p>
+<!-- raw HTML omitted -->
+<p>PARADISEC has learned the importance of making the collection self-describing so it is not dependent on a database as the sole metadata source. It does use a database for administrative services, from which a text file with metadata for any item can be exported. This allows us to select an arbitrary set of items, put them on a hard disk, and use the dataloader application to generate an html catalog of just those items, drawing on the internal metadata file describing each item. This can be delivered on a hard disk to a local community or cultural organisation, or on a raspberry pi wifi local network to allow access on phones, as seen here in Erakor village in central Vanuatu.</p>
+<!-- raw HTML omitted -->
+<p><figure><a class="lightgallery" href="/posts/ldaca-metadata-ecosystem-eresearch-2022/Slide06.png" title="alt text" data-thumbnail="/posts/ldaca-metadata-ecosystem-eresearch-2022/Slide06.png" data-sub-html="<h2>ELAR: limited search capability, non-standard metadata schema, no ability to index annotation files, no bulk download LDaCA: rich metadata-first search, portable RO-Crate metadata, indexed annotations, bulk downloading of search results AUSLAN CORPUS ACCESS</h2><p>alt text</p>">
+        
+    </a><figcaption class="image-caption">ELAR: limited search capability, non-standard metadata schema, no ability to index annotation files, no bulk download LDaCA: rich metadata-first search, portable RO-Crate metadata, indexed annotations, bulk downloading of search results AUSLAN CORPUS ACCESS</figcaption>
+    </figure></p>
+<!-- raw HTML omitted -->
+<p>Another example of how good metadata practice can improve community access is the Auslan (Australian Sign Language) corpus, for which community access is very important.</p>
+<p>The Auslan Corpus has been stored with the Endangered Languages Archive (<a href="https://www.elararchive.org/" target="_blank" rel="noopener noreffer ">ELAR</a>) since 2008. However, ELAR does not currently suit the access needs of the Auslan corpus; it has low discoverability, and files must be downloaded individually. The corpus, along with the Auslan SignBank dictionary, is being included in LDaCA.</p>
+<p>The Auslan Corpus holds great value as an educational tool for Auslan users and learners, both Deaf and hearing, and the move to LDaCA will allow further development of educational tools. One such tool is the ability, still under development, for Auslan Signbank dictionary to pull real-world examples of signs out of the corpus to show alongside dictionary entries.</p>
+<!-- raw HTML omitted -->
+<p></p>
+<!-- raw HTML omitted -->
+<p>For all of the collections we are working with data is discoverable via some kind of web portal which indexes and displays the archive (repository) of data. These screenshots are of work in progress at LDaCA.</p>
+<!-- raw HTML omitted -->
+<p></p>
+<!-- raw HTML omitted -->
+<p>The LDaCA services we are building use an API to drive the data portals. The API can be used for direct access with appropriate access control – see <a href="../fair-care-eresearch-2022" rel="">another eResearch presentation</a> which explains this in detail. These screenshots show code notebooks (running in BinderHub on the Nectar cloud) accessing language resources.</p>
+<!-- raw HTML omitted -->
+<p></p>
+<!-- raw HTML omitted -->
+<p>Having looked at the user-facing products, websites and APIs, we turn our attention to how data is managed on disk.</p>
+<p>In the PARADISEC system this is achieved by storing files on disk in a simple hierarchy - with metadata and other resources stored together in a directory - this scheme allows for hands-on management of data resources, independently of the software used to serve them.</p>
+<p>This approach means that if the PARADISEC software-stack becomes un-maintainable for financial or technical reasons the important resources, the data, are stored safely on disk with their metadata and a new access portal could be constructed relatively easily.</p>
+<p>Despite the valuable features of this solution, it is not generalisable. The metadata.xml is custom to PARADISEC, as is the software stack.</p>
+<p>In 2019 PARADISEC and the eResearch team at UTS received small grants from the Australian National Data Service and began collaborating on an approach to managing archival repositories which built on this PARADISEC approach of storing metadata with data.</p>
+<p>The UTS team presented on this at <a href="https://ptsefton.com/2019/11/05/FAIR%20Repo%20-%20eResearch%20Presentation/index.html" target="_blank" rel="noopener noreffer ">eResearch Australasia 2019</a></p>
+<!-- raw HTML omitted -->
+<p></p>
+<!-- raw HTML omitted -->
+<p>For this Research Data Commons work we are using the Arkisto Platform (introduced <a href="http://ptsefton.com/2020/11/23/Arkisto/index.html" target="_blank" rel="noopener noreffer ">at eResearch 2020</a>).</p>
+<p>Arkisto aims to ensure the long term preservation of data independently of code and services, recognizing the ephemeral nature of software and platforms. We know that sustaining software platforms can be hard and aim to make sure that important data assets are not locked up in databases or hard-coded logic of some hard-to-maintain application.</p>
+<p>Inspired by PARADISEC’s approach the Arkisto platform is based on the idea of storing data in simple easy to manage file or object storage systems with metadata in an easily readable standard format.</p>
+<p>The LDaCA repositories use the Oxford Common File Layout (<a href="https://ocfl.io/" target="_blank" rel="noopener noreffer ">OCFL</a>) standard which is backed and used by a number of universities and has multiple implementations while PARADISEC data will be migrated to a simpler data storage approach <a href="https://github.com/CoEDL/nocfl-js" target="_blank" rel="noopener noreffer ">NOCFL</a>, which is a single-library implementation, inspired by some of the same aims, but with different implementation choices to avoid data being obfuscated by OCFL’s layout, which is a product of its commitment to immutable, write-once file management.</p>
+<!-- raw HTML omitted -->
+<p><figure><a class="lightgallery" href="/posts/ldaca-metadata-ecosystem-eresearch-2022/Slide11.png" title="alt text" data-thumbnail="/posts/ldaca-metadata-ecosystem-eresearch-2022/Slide11.png" data-sub-html="<h2>{&#34;conformsTo&#34;: &#34;http://purl.archive.org/language-data-commons/profile&#34;}</h2><p>alt text</p>">
+        
+    </a><figcaption class="image-caption">{"conformsTo": "http://purl.archive.org/language-data-commons/profile"}</figcaption>
+    </figure></p>
+<!-- raw HTML omitted -->
+<p>Now to the main focus of this presentation - the metadata “Profile” we are jointly developing to ensure that language resources can be described in a way that is interoperable between software, and re-usable over time.</p>
+<p>The Profile is an “RO-Crate Profile”, a kind of Cook Book for how to describe and package language data.</p>
+<!-- raw HTML omitted -->
+<p><figure><a class="lightgallery" href="/posts/ldaca-metadata-ecosystem-eresearch-2022/Slide12.png" title="alt text" data-thumbnail="/posts/ldaca-metadata-ecosystem-eresearch-2022/Slide12.png" data-sub-html="<h2>☁️ 📂  📄 ID? Title? Description?  👩‍🔬👨🏿‍🔬Who created this data? 📄What parts does it have?  📅 When?  🗒️ What is it about?  ♻️ How can it be reused? 🏗️ As part of which project?  💰 Who funded it? ⚒️ How was it made?  Addressable resources Local Data  👩🏿‍🔬 https://orcid.org/0000-0001-2345-6789 🔬 https://en.wikipedia.org/wiki/Scanning_electron_microscope</h2><p>alt text</p>">
+        
+    </a><figcaption class="image-caption">☁️ 📂  📄 ID? Title? Description?  👩‍🔬👨🏿‍🔬Who created this data? 📄What parts does it have?  📅 When?  🗒️ What is it about?  ♻️ How can it be reused? 🏗️ As part of which project?  💰 Who funded it? ⚒️ How was it made?  Addressable resources Local Data  👩🏿‍🔬 https://orcid.org/0000-0001-2345-6789 🔬 https://en.wikipedia.org/wiki/Scanning_electron_microscope</figcaption>
+    </figure></p>
+<!-- raw HTML omitted -->
+<p>RO-Crate is method for describing a dataset as a digital object using a <strong>single linked-data metadata document</strong></p>
+<!-- raw HTML omitted -->
+<p><figure><a class="lightgallery" href="/posts/ldaca-metadata-ecosystem-eresearch-2022/Slide13.png" title="alt text" data-thumbnail="/posts/ldaca-metadata-ecosystem-eresearch-2022/Slide13.png" data-sub-html="<h2>📂  🔬 🔭 📹 💽 🖥️ ⚙️🎼🌡️🔮🎙️🔍🌏📡💉🏥💊🌪️ </h2><p>alt text</p>">
+        
+    </a><figcaption class="image-caption">📂  🔬 🔭 📹 💽 🖥️ ⚙️🎼🌡️🔮🎙️🔍🌏📡💉🏥💊🌪️ </figcaption>
+    </figure></p>
+<!-- raw HTML omitted -->
+<p>The dataset may contain any kind of data resource about anything, in any format as a file or URL</p>
+<!-- raw HTML omitted -->
+<p></p>
+<!-- raw HTML omitted -->
+<p>The RO-Crate standard also strongly recommends that JSON metadata is supplemented with an HTML preview - above we show what that looks like for a PARADISEC item. This is a screenshot of an HTML view of a PARADISEC Item generated using <a href="https://github.com/UTS-eResearch/ro-crate-html-js" target="_blank" rel="noopener noreffer ">an HTML rendering tool for RO-Crate</a>. The important point here is that this is a <em>generic</em> viewer that can understand any RO-Crate. It may not be glamorous but it could be included in an archive as a way to provide human-readable access in the absence of portals that are data specific (but cost money to build and maintain).</p>
+<!-- raw HTML omitted -->
+<p><figure><a class="lightgallery" href="/posts/ldaca-metadata-ecosystem-eresearch-2022/Slide15.png" title="alt text" data-thumbnail="/posts/ldaca-metadata-ecosystem-eresearch-2022/Slide15.png" data-sub-html="<h2>https://mod.paradisec.org.au</h2><p>alt text</p>">
+        
+    </a><figcaption class="image-caption">https://mod.paradisec.org.au</figcaption>
+    </figure></p>
+<!-- raw HTML omitted -->
+<p>Here is the same page from the previous slide seen in a working model of an RO-Crate set exported from the current PARADISEC catalog, with a single page viewer using an elastic search. The two pages shown here are generated directly from metadata that was stored in an RO-Crate in a storage system using PARADISEC specific, rather than generic code.</p>
+<!-- raw HTML omitted -->
+<p></p>
+<!-- raw HTML omitted -->
+<p>The <a href="https://www.researchobject.org/ro-crate/1.1/structure.html" target="_blank" rel="noopener noreffer ">structure of an RO-Crate</a> is very similar to the PARADISEC example above, but with a json file instead of XML, and an optional preview in HTML.</p>
+<p>RO-Crate has a growing number of <a href="https://www.researchobject.org/ro-crate/tools/" target="_blank" rel="noopener noreffer ">tools and software libraries</a> which means that a team such as PARADISEC do not have to maintain their own bespoke software.</p>
+<!-- raw HTML omitted -->
+<p></p>
+<!-- raw HTML omitted -->
+<p>The base vocabulary for the JSON-LD used in RO-Crate is schema.org - a widely used linked data standard. RO-Crate uses a handful of terms from other ontologies but importantly it allows for seamless extensibility with domain specific vocabularies, which is what we will talk about next.</p>
+<!-- raw HTML omitted -->
+<p></p>
+<!-- raw HTML omitted -->
+<p>The PARADISEC metadata model is based on the Open Language Archives (OLAC) metadata standard. This is an XML based standard, but has good online documentation, which is perfect for migrating to a Linked Data approach.</p>
+<p>We used the OLAC terms, including <a href="http://www.language-archives.org/REC/type-20020628.html" target="_blank" rel="noopener noreffer ">some that were proposed but withdrawn</a> as the basis for a new vocabulary.</p>
+<p>As part of a LIEF project (2022-23, led by author Thieberger), revisions to the OLAC scheme are planned, together with rebuilding the OLAC metadata harvester and aggregator.</p>
+<!-- raw HTML omitted -->
+<p></p>
+<!-- raw HTML omitted -->
+<p>The new Langauge Data Terms have been published at <a href="https://purl.archive.org/language-data-commons/terms" target="_blank" rel="noopener noreffer ">https://purl.archive.org/language-data-commons/terms</a></p>
+<p>These terms have been modernised and mainstreamed from previous ways of describing resources, for example instead of describing the main item of interest as a PrimaryText (where text is any kind of communicative resource – not a bitstream of characters) we use the term PrimaryResource. And in the example in the image, the type of genre <em>Informational</em> has been added to the set proposed in the OLAC vocabulary.</p>
+<!-- raw HTML omitted -->
+<p></p>
+<!-- raw HTML omitted -->
+<p>(Image prompt DALL-E a hierarchical whale skeleton digital art)</p>
+<p>Before we come back in detail to how RO-Crate works we will discuss the structure or skeleton of our language collections stored in a repository</p>
+<!-- raw HTML omitted -->
+<p></p>
+<!-- raw HTML omitted -->
+<p>Broadly speaking there are two ways that an Arkisto-style repository can be structured and the profile sets out criteria for choosing one of the options.</p>
+<p>For small, stable collections of data an entire collection (often referred to a ‘corpus’ by linguists) can be stored in a single directory or directory-like structure in an object store.</p>
+<!-- raw HTML omitted -->
+<p></p>
+<!-- raw HTML omitted -->
+<p>For larger collections the approach used by PARADISEC and most LDaCA collections is to store each Object or Item (typically a related set of recordings, or a single document) in a directory (or directory-like thing).</p>
+<p>In this mode, each Object MUST link back to the Collection Object.</p>
+<p>A Collection Object MAY have explicit listing of hasMember properties - which makes it possible to construct repository navigation (such as websites) more cheaply. This is the approach used in PARADISEC, while in LDaCA these links are constructed by an indexer servicer or summarizer application.</p>
+<!-- raw HTML omitted -->
+<p><figure><a class="lightgallery" href="/posts/ldaca-metadata-ecosystem-eresearch-2022/Slide23.png" title="alt text" data-thumbnail="/posts/ldaca-metadata-ecosystem-eresearch-2022/Slide23.png" data-sub-html="<h2>Describo Screenshot editing a collection record (PT)</h2><p>alt text</p>">
+        
+    </a><figcaption class="image-caption">Describo Screenshot editing a collection record (PT)</figcaption>
+    </figure></p>
+<!-- raw HTML omitted -->
+<p>This screenshot shows the Language Data Commons RO-Crate Profile in action. This is the <a href="https://github.com/Arkisto-Platform/describo-online" target="_blank" rel="noopener noreffer ">Describo Online</a> metadata editor, with configuration that reflects the profile being used to describe a language data collection using linked-data metadata.</p>
+<p>In this case the description is of the collection object.</p>
+<p><figure><a class="lightgallery" href="/posts/ldaca-metadata-ecosystem-eresearch-2022/Slide24.png" title="alt text" data-thumbnail="/posts/ldaca-metadata-ecosystem-eresearch-2022/Slide24.png" data-sub-html="<h2>LDaCA</h2><p>alt text</p>">
+        
+    </a><figcaption class="image-caption">LDaCA</figcaption>
+    </figure></p>
+<!-- raw HTML omitted -->
+<p>Once the data is described, we ingest it into a repository, as a set of files on disk or object storage and index it in a portal, as you can see in these screenshots.</p>
+<!-- raw HTML omitted -->
+<p><figure><a class="lightgallery" href="/posts/ldaca-metadata-ecosystem-eresearch-2022/Slide25.png" title="alt text" data-thumbnail="/posts/ldaca-metadata-ecosystem-eresearch-2022/Slide25.png" data-sub-html="<h2>Demo</h2><p>alt text</p>">
+        
+    </a><figcaption class="image-caption">Demo</figcaption>
+    </figure></p>
+<!-- raw HTML omitted -->
+<p><a href="https://www.youtube.com/watch?v=p-GZbe-Kzww&amp;t=5s" target="_blank" rel="noopener noreffer ">Video of browsing a collection in an LDaCA repo</a> showing:</p>
+<ul>
+<li>Going to the portal</li>
+<li>Selecting a collection</li>
+<li>Searching for content</li>
+<li>Selecting a notebook</li>
+<li>Launching Binder</li>
+</ul>
+<p>This example notebook explores the collection via the rest API.</p>
+<h1 id="conclusion">Conclusion</h1>
+<p>In this presentation we have shown the major components of an ecosystem for storing, discovering and analysing language data using common standards for describing objects in a repository. The <a href="https://www.researchobject.org/ro-crate/" target="_blank" rel="noopener noreffer ">RO-Crate</a> standard is used as the key metadata container, with a common vocabulary of language specific terms for describing data. This approach should reduce development costs and increase data reuse. The approach can also be adapted to other disciplines and domains with the development only of new profiles..</p>
+<!-- raw HTML omitted -->
+]]></description></item><item><title>A CARE and FAIR-ready distributed access control system for human-created data using the Australian Access Federation and beyond</title><link>https://www.ldaca.edu.au/posts/fair-care-eresearch-2022/</link><pubDate>Wed, 16 Nov 2022 00:00:00 +0000</pubDate><author>Peter Sefton</author><guid>https://www.ldaca.edu.au/posts/fair-care-eresearch-2022/</guid><description><![CDATA[<p>This work is licensed under a <!-- raw HTML omitted -->Creative Commons Attribution 4.0 International License<!-- raw HTML omitted -->.</p>
+<p><a href="/posts/fair-care-eresearch-2022/fair-care-eresearch-2022.pdf" rel="">Download as PDF</a></p>
+<p></p>
+<!-- raw HTML omitted -->
+<p>This is write-up of a talk given at eResearch Australasia 2022, delivered by Peter Sefton, with some additional detail.</p>
+<p>By: Peter Sefton, Jenny Fewster, Moises Sacal Bonequi, Cale Johnstone, Catherine Travis, River Tae Smith, Patrick Carnuccio</p>
+<p>Edited by: Simon Musgrave</p>
+<!-- raw HTML omitted -->
+<p><figure><a class="lightgallery" href="/posts/fair-care-eresearch-2022/Slide01.png" title="alt text" data-thumbnail="/posts/fair-care-eresearch-2022/Slide01.png" data-sub-html="<h2>Project Team(alphabetical order) Michael D’Silva  Marco Fahmi Leah Gustafson  Michael Haugh Cale Johnstone  Kathrin Kaiser  Sara King  Marco La Rosa  Mel Mistica  Simon Musgrave  Joel Nothman  Moises Sacal  Martin Schweinberger  PT Sefton   With thanks for their contribution: Partner Institutions:</h2><p>alt text</p>">
+        
+    </a><figcaption class="image-caption">Project Team(alphabetical order) Michael D’Silva  Marco Fahmi Leah Gustafson  Michael Haugh Cale Johnstone  Kathrin Kaiser  Sara King  Marco La Rosa  Mel Mistica  Simon Musgrave  Joel Nothman  Moises Sacal  Martin Schweinberger  PT Sefton   With thanks for their contribution: Partner Institutions:</figcaption>
+    </figure></p>
+<!-- raw HTML omitted -->
+<p>The Language Data Commons of Australia Data Partnerships (LDaCA) and the Australian Text Analytics Platform (ATAP) are building towards a scalable and flexible language data and analytics commons. These projects will be part of the Humanities and Social Sciences Research Data Commons (HASS RDC).</p>
+<p>The Data Commons will focus on preservation and discovery of distributed multi-modal language data collections under a variety of governance frameworks. This will include access control that reflects ethical constraints and intellectual property rights, including those of Aboriginal and Torres Strait Islander, migrant and Pacific communities.</p>
+<p>The platform will provide workbench services to support computational research, starting with code-notebooks with no-code research tools provided in later phases. Research artefacts such as code and derived data will be made available as fully documented research objects that are re-runnable and rigorously described. Metrics to demonstrate the impact of the platform are projected to include usage statistics, data and article citations. These projects are led by Professor Michael Haugh of the School of Languages and Culture at the University of Queensland with several partner institutions.</p>
+<!-- raw HTML omitted -->
+<p><figure><a class="lightgallery" href="/posts/fair-care-eresearch-2022/Slide02.png" title="alt text" data-thumbnail="/posts/fair-care-eresearch-2022/Slide02.png" data-sub-html="<h2>The Language Data Commons of Australia (LDaCA) and Australian Text Analytics Platform (ATAP) projects received investment (https://doi.org/10.47486/DP768 and https://doi.org/10.47486/PL074) from the Australian Research Data Commons (ARDC). The ARDC is funded by the National Collaborative Research Infrastructure Strategy (NCRIS).</h2><p>alt text</p>">
+        
+    </a><figcaption class="image-caption">The Language Data Commons of Australia (LDaCA) and Australian Text Analytics Platform (ATAP) projects received investment (https://doi.org/10.47486/DP768 and https://doi.org/10.47486/PL074) from the Australian Research Data Commons (ARDC). The ARDC is funded by the National Collaborative Research Infrastructure Strategy (NCRIS).</figcaption>
+    </figure></p>
+<!-- raw HTML omitted -->
+<p>This work is supported by the Australian Research Data Commons.</p>
+<!-- raw HTML omitted -->
+<p></p>
+<!-- raw HTML omitted -->
+<p>Last year at eResearch Australasia, the Language Data Commons of Australia (LDaCA) team presented a design for a distributed access control system which could look after the A-is-for-accessible in FAIR data; in this presentation we describe and demonstrate a pilot system based on that design, showing how data licenses that allow access by identified groups of people to language data collections can be used with an AAF pilot system (CILogon) to give the right people access to data resources.</p>
+<p>The ARDC have invested in a pilot of this work as part of the HASS Research Data Commons and Indigenous Research Capability Program integration activities.</p>
+<p>The system has to be able to implement data access policies with real-world complexity and one of our challenges has been developing a data access policy that works across a range of different collections of language data. Here we present a pilot data access policy that we have developed, describing how this policy captures the decisions that must be made by a range of data providers to ensure data accessibility that complies with diverse legal, moral and ethical considerations.
+We will discuss how the <a href="https://www.gida-global.org/care" target="_blank" rel="noopener noreffer ">CARE</a> and <a href="https://www.nature.com/articles/sdata201618" target="_blank" rel="noopener noreffer ">FAIR</a> principles underpin this work, and compare this work to other projects such as <a href="https://ardc.edu.au/project/cadre/" target="_blank" rel="noopener noreffer ">CADRE</a>, which promise to deliver more complex solutions in the future. Initial work is with collections curated in a research context but we will also address community access to these resources.</p>
+<p>The idea is to separate safe storage of data from its delivery. Each item in a repository is stored with licensing information in natural language (English at the moment, but could be other languages) and the repository defers access decisions to an Authorization system, where data custodians can design whatever process they like for granting license access. This can range from simple click-through licenses where anyone can agree to license terms, to detailed multi-step workflows where applicants are vetted based on whatever criteria the rights holder wishes; qualifications, membership of a cultural group, have they paid a subscription fee, etc</p>
+<!-- raw HTML omitted -->
+<p></p>
+<!-- raw HTML omitted -->
+<p>Regarding rights, our project is informed by the <a href="https://www.gida-global.org/care" target="_blank" rel="noopener noreffer ">CARE</a> principles for Indigenous data which also describe the level of respect which should be given to any data collected from individuals or communities.</p>
+<blockquote>
+<p>The current movement toward open data and open science does not fully engage with Indigenous Peoples rights and interests. Existing principles within the open data movement (e.g. FAIR: findable, accessible, interoperable, reusable) primarily focus on characteristics of data that will facilitate increased data sharing among entities while ignoring power differentials and historical contexts. The emphasis on greater data sharing alone creates a tension for Indigenous Peoples who are also asserting greater control over the application and use of Indigenous data and Indigenous Knowledge for collective benefit</p>
+</blockquote>
+<!-- raw HTML omitted -->
+<p></p>
+<!-- raw HTML omitted -->
+<p>We are designing the system so that it can work with diverse ways of expressing access rights, for example we are considering how the approach described here could be extended based on the likes of the <a href="https://localcontexts.org/labels/traditional-knowledge-labels/" target="_blank" rel="noopener noreffer ">Tribal Knowledge labels</a>, incorporating them into the data licensing framework we discuss below.</p>
+<!-- raw HTML omitted -->
+<p><figure><a class="lightgallery" href="/posts/fair-care-eresearch-2022/Slide06.png" title="alt text" data-thumbnail="/posts/fair-care-eresearch-2022/Slide06.png" data-sub-html="<h2>Case Study - Sydney Speaks</h2><p>alt text</p>">
+        
+    </a><figcaption class="image-caption">Case Study - Sydney Speaks</figcaption>
+    </figure></p>
+<!-- raw HTML omitted -->
+<p>In this talk we look at a case-study with the <a href="https://slll.cass.anu.edu.au/sydney-speaks" target="_blank" rel="noopener noreffer ">Sydney Speaks project</a> via LDaCA steering committee member Professor <a href="https://orcid.org/0000-0002-1410-3268" target="_blank" rel="noopener noreffer ">Catherine Travis</a>.</p>
+<blockquote>
+<p>This project seeks to document and explore Australian English, as spoken in Australia’s largest and most ethnically and linguistically diverse city – Sydney.
+The title “Sydney Speaks” captures a key defining feature of the project: the data come from recorded conversations between Sydney siders, as they tell stories about their lives and experiences, their opinions and attitudes. This allows us to measure how their lived experiences impact their speech patterns.
+Working within the framework of variationist sociolinguistics, we examine variation in phonetics, grammar and discourse, in an effort to answer questions of fundamental interest both to Australian English, and language variation and change more broadly, including:</p>
+<ul>
+<li>How has Australian English as spoken in Sydney changed over the past 100 years?</li>
+<li>Has the change in the ethnic diversity over that time period (and in particular, over the past 40 years) had any impact on the way Australian English is spoken?</li>
+<li>What affects the way variation and change spread through society - Who are the initiators and who are the leaders in change? - How do social networks function in a modern metropolis? - What social factors are relevant to Sydney speech today, and over time (gender? class? region? ethnic identity?)
+A better understanding of what kind of variation exists in Australian English, and of how and why Australian English has changed over time can help society be more accepting of speech variation and even help address prejudices based on ways of speaking.
+Source: <a href="http://www.dynamicsoflanguage.edu.au/sydney-speaks/" target="_blank" rel="noopener noreffer ">http://www.dynamicsoflanguage.edu.au/sydney-speaks/</a></li>
+</ul>
+</blockquote>
+<p>The collection contains recordings of people speaking, both contemporary and historic.</p>
+<p>Because this involved human participants there are restrictions on the distribution of data - a situation we see with lots of studies involving people in a huge range of disciplines.</p>
+<!-- raw HTML omitted -->
+<p><figure><a class="lightgallery" href="/posts/fair-care-eresearch-2022/Slide07.png" title="alt text" data-thumbnail="/posts/fair-care-eresearch-2022/Slide07.png" data-sub-html="<h2>Sydney Speaks Licenses</h2><p>alt text</p>">
+        
+    </a><figcaption class="image-caption">Sydney Speaks Licenses</figcaption>
+    </figure></p>
+<!-- raw HTML omitted -->
+<p>There are four tiers of data access we need to enforce and observe for this data based on the participant agreements and ethics arrangements under which the data were collected.</p>
+<p>Concerns about rights and interests are important for any data involving people - and a large amount the data both indigenous and non-indigenous we are using will require access control that ensures that data is shared with the right users under the right conditions.</p>
+<!-- raw HTML omitted -->
+<p></p>
+<!-- raw HTML omitted -->
+<p>(Image generated by DALLE - prompt: A NSW Driver license for a wolfhound pup named Floki)</p>
+<p>Lets go over some basics, starting with <em>licences</em>.</p>
+<p>A licence in this context is <em>a natural language document</em> in which a copyright holder sets out the terms and conditions of use for data. Licences <em>may</em> have metadata that describes them, eg a property to say that this is an open licence (and does not require a check when serving data).</p>
+<p>A license is not a computer program, or configuration, or an AI entity that can make decisions, it’s a legal document. You may also know this as a “data sharing agreement” or “terms of use”. Examples of licenses we see all the time are the GNU GPL or the various Creative Commons licenses which grant rights to others to redistribute a creative work, and specifies conditions on what changes are permitted.</p>
+<p>That said, metadata <em>about</em> a license can be used to automate decision making - if it is labelled as being an open license, then a repository can serve data and include that data, if it is labeled as “closed” or more aptly, “authorization-required” then repository software can perform an authorization step, which we cover in detail later.</p>
+<p>In the world of research data generated by or about human participants, licenses can’t always allow unauthenticated access and data redistribution, and they may permit distribution only to certain people, or classes or person. Some data, for example (particularly that which has not been or cannot be de-identified) can only be made available to the original research team.</p>
+<!-- raw HTML omitted -->
+<p></p>
+<!-- raw HTML omitted -->
+<p>(Dall-e prompt : A sad dog sitting on an iceberg, XKCD)</p>
+<p>So, a license is a document that expresses conditions such as “Data can be used by other researchers”, but unfortunately we don’t have systems in the research-data ecosystem which can automatically identify a user as “a researcher” (this may be surprising to some, but the Australian Access Federation can, at this stage, only say that someone has an account with an institution - it can’t tell a professor from a student administration officer and there are certainly no lists of “certified linguists”).</p>
+<p>Here are some cold hard facts:</p>
+<p>We don’t have an authority that can identify someone as a researcher,</p>
+<p>Or a “linguist”,</p>
+<p>Or an “anthropologist”,</p>
+<p>Or a member of an ARC (Australian Research Council) research project,</p>
+<p>The <a href="https://ardc.edu.au/project/cadre/" target="_blank" rel="noopener noreffer ">CADRE</a> project is working on systems that will eventually support all these things, but they are not available as services yet, and their initial focus is on government data, so we have to work out ways for our data custodians to make decisions on who is considered an “other researcher” in the absence of attribute-based authentication.</p>
+<!-- raw HTML omitted -->
+<p></p>
+<!-- raw HTML omitted -->
+<p>The access control system we have been prototyping is based on licenses.</p>
+<p>For any data object, which could be an entire collection, or one set of recordings of a speaker in a speech study, or a set of hand written linguistic field notes from the 1950s, or a novel etc we store a license with it. This means that future archivists / librarians and researchers can work out how to manage the data if the systems we build today for automated access are no longer operational and we give the license an ID which is a URL we can use to identify it uniquely.</p>
+<p>This diagram shows how a license is explicitly linked to the data using a metadata description standard known as “Research Object Crate” <a href="http://ptsefton.com/2019/11/05/RO-Crate%20eResearch%20Australasia%202019/index.html" target="_blank" rel="noopener noreffer ">RO-Crate</a> . Each object in the repository is a crate, with a metadata file that describes the object and (optionally) its component files, including the data license.</p>
+<!-- raw HTML omitted -->
+<p></p>
+<!-- raw HTML omitted -->
+<p>(This diagram has been updated from the one presented at eResearch to show two portals instead of one)</p>
+<p>Every item in a repository has a license, which may be an open one like CC Share Alike or a custom license derived from the ethics and participants agreements for a study in the context of local laws and institutional policy.</p>
+<p>Using this license, distributed access portals in our architecture can check against an authorization system for each request for data. The portals may both host data with the same licensing but do not need to maintain access control lists.</p>
+<!-- raw HTML omitted -->
+<p></p>
+<!-- raw HTML omitted -->
+<p>(Images: Various baskets of puppies by DALL-E)</p>
+<p>When we first developed access controls for LDaCA in 2021 it was a requirement that data licensing and access control decisions be decoupled from each other, and from particular repository software. The usual approach in repositories is to build in a local access-control system, but this is tied to a particular implementation and will not work in a distributed environment where there are multiple different repositories, and services such as computational resources that researchers need to access to process data.</p>
+<p>We could not find an available open source system for managing license-based access to data, so our starting approach used groups as a proxy for granting licences on that basis that all common user-directory services such as LDAP include the concept of user groups.</p>
+<p>Scope:</p>
+<ul>
+<li>
+<p>simplest possible license based approach to access control</p>
+</li>
+<li>
+<p>NOT attempting to be attribute based as that is not currently feasible within our project scope (see <a href="https://ardc.edu.au/project/cadre/" target="_blank" rel="noopener noreffer ">CADRE</a> for progress in that direction)</p>
+</li>
+</ul>
+<!-- raw HTML omitted -->
+<p></p>
+<!-- raw HTML omitted -->
+<p>The first prototype, which we presented at eResearch Australasia last year was a proof-of-concept Github based system. This demonstrated that authorization can be delegated from a repository to an external service. For each of the Sydney Speaks licenses there was a Github group (organization). The repository, when requested to serve data would get the user to login using the Github Authentication services, then check if the user was in the correct license group.</p>
+<p>This worked, but there were issues with this approach:</p>
+<ul>
+<li>
+<p>There are no workflow options (unless we build a workflow system), just adding people to a Github organisation to pre-authorize them</p>
+</li>
+<li>
+<p>The system only supported a single logon service, which is not widely used in academia or by community groups</p>
+</li>
+</ul>
+<p>So, we talked to the our colleagues at the Australian Access Federation (AAF), about a supported, research-sector-wide service.</p>
+<!-- raw HTML omitted -->
+<p></p>
+<!-- raw HTML omitted -->
+<p>The AAF, as it happened were already working with other research groups on a service called <a href="https://www.cilogon.org/" target="_blank" rel="noopener noreffer ">CILogon</a> (hosted in the USA initially, but soon to be hosted in Australia), like Github, this service has groups (which was our way of associating users with licenses in the absence of a specific license-granting service), but also allows users to log in with a variety of Authentication providers, including research institutions, via the Australian Access Federation as well as social logins such as Google and Microsoft (and our old friend Github).</p>
+<p>Again this worked, but the current version of CILogon does not have particularly easy-to-use ways for a license-holder to create groups - there are a number of abstract constructs to deal with and there is currently no way to build an approval workflow using the web interface, so as with the Github trial we would have needed to build this part (all of this may change, as the software is under constant development).</p>
+<p>There is a <a href="https://youtu.be/xEWXiM-jUfY" target="_blank" rel="noopener noreffer ">nine minute silent video</a> of what this looked like on YouTube for those who are really interested.</p>
+<p>AAF is engaging with our project on the following:</p>
+<ul>
+<li>a cloud-based authentication and authorisation infrastructure (AAI) to support the needs of the project</li>
+<li>understand and develop business process documentation for authorising access to data and services</li>
+<li>configure the AAI to support these business processes and to develop extensions to facilitate new functionality that may be required</li>
+<li>create a set of policies, standards and guidelines for managing researchers’ identity and access management</li>
+<li>develop support documentation, train community representatives to operate the platform, and provide support to the community managers.
+The AAF has recommended CILogon &amp; REMS as potential solutions to investigate &amp; prototype</li>
+</ul>
+<p>CILogon is a federated identity management platform that provides the following features:
+support for institutional and community logins
+cross-institutional and community collaboration
+federated identity and group management
+a community management dashboard
+OIDC connectors for downstream services that support authorisation claims for services like
+REMS
+BinderHub
+JupyterHub
+LDaCA Dashboard</p>
+<p>REMS (Resource Entitlement Management System) is a tool to help researchers browse resources such as datasets relevant to their research and to manage the application process for access to the resources.</p>
+<!-- raw HTML omitted -->
+<p></p>
+<!-- raw HTML omitted -->
+<p>Recently (after the abstract for this presentation was submitted) the AAF team made us aware of the Resource Entitlement Management System, <a href="https://github.com/CSCfi/rems" target="_blank" rel="noopener noreffer ">REMS</a>, which is an open source application out of Finland. This software is the missing link for LDaCA in that it allows a data custodian to grant licenses to users. And it works with CILogon as an Authentication layer so we can let users log in using a variety of services.</p>
+<p>At the core of REMS is a set of Licenses which can then be associated with Resources - in our design this is (almost always) a one-to-one correspondence, for example we would have a licence “Sydney Speaks Data Researcher Access License” corresponding to resource that represents ALL data with that licence. These Resources can then be made available through a catalog, and workflows can be set up for pre-authorization processes ranging from single-click authorizations where a user just accepts a licence and a bot approves it, to complex forms where users upload credentials and one or more data custodians approve their request, and grant them the licence.</p>
+<p>It also has features for revoking permissions, and has a full API so admin tasks can be automated (for us that’s in the future).</p>
+<p>Once a user has been granted a license in a pre-authorization process then a repository can authorize access to a resource by checking with REMS to see if a given user is pre-authorized. That is, has been granted a license. Note that users do not have to find REMS on their own - they will be directed to it from data and computing services when they need to apply for pre-authorization.</p>
+<!-- raw HTML omitted -->
+<p></p>
+<!-- raw HTML omitted -->
+<p>This interaction diagram shows the flow involved in a user applying for a data license via REMS.</p>
+<p>Not shown here are some design and preparation steps:</p>
+<ul>
+<li>
+<p>The research team read their ethics approval and participant agreements and craft one or more access agreements (AKA licenses) for a data set (NOTE: If the data can be made available automatically with just a license attached, such as when all parties have agreed that data can be Creative commons licensed, or the data is in the public domain then the following steps are not required)</p>
+</li>
+<li>
+<p>The research team and support staff add the license to REMS, creating a “resource” a virtual offering that corresponds to any dataset that has the above license</p>
+</li>
+<li>
+<p>The research team add a workflow to REMS - this could range from an auto-approved click through where users can agree to license terms, through to detailed (manual) checking of their credentials.</p>
+</li>
+</ul>
+<p>The next slide shows the interactions involved in accessing data once a user has been granted the license license.</p>
+<!-- raw HTML omitted -->
+<p></p>
+<!-- raw HTML omitted -->
+<p>This diagram shows the “access-control dance” for a user who has been granted a license in REMS obtaining access to a dataset at a data portal which gives access to data in a repository or archive.</p>
+<!-- raw HTML omitted -->
+<p><figure><a class="lightgallery" href="/posts/fair-care-eresearch-2022/Slide18.png" title="alt text" data-thumbnail="/posts/fair-care-eresearch-2022/Slide18.png" data-sub-html="<h2>Demo</h2><p>alt text</p>">
+        
+    </a><figcaption class="image-caption">Demo</figcaption>
+    </figure></p>
+<!-- raw HTML omitted -->
+<p>In this video we demonstrate how to use REMS and how does a user request access to an LDaCA resource.</p>
+<!-- raw HTML omitted -->
+<p><figure><a class="lightgallery" href="/posts/fair-care-eresearch-2022/Slide19.png" title="alt text" data-thumbnail="/posts/fair-care-eresearch-2022/Slide19.png" data-sub-html="<h2>FAQ</h2><p>alt text</p>">
+        
+    </a><figcaption class="image-caption">FAQ</figcaption>
+    </figure></p>
+<!-- raw HTML omitted -->
+<p>(This section was added after the conference, to try to summarize the discussion and clarify requirements by starting an FAQ on this approach)</p>
+<h2 id="q-why-not-just-implement-an-access-control-list-acl-in-the-repository">Q Why not &ldquo;just&rdquo; implement an access control list (ACL) in the repository?</h2>
+<p>There are a few reasons for the distributed approach we have taken in LDaCA:</p>
+<ol>
+<li>
+<p>ACLs need maintenance over time - people&rsquo;s identities change, they retire and die, so storing a list of identifiers such as email addresses alongside content is not a viable long-term preservation strategy. Rather, we will encourage data custodians to describe in words what are permitted uses for the data, and by whom, in a license, then allow whomever is the current data custodian to manage that access in a separate administrative system. We expect these administrative systems to be ephemeral, and change over time but also to generate less friction over time as standards are developed. Expected future benefits of concentrating these processes will include that people do not have to prove the same claims they make about themselves multiple times and that it is easier for data custodians to authorize access.</p>
+</li>
+<li>
+<p>LDaCA data will be stored in a variety of places with separate portal applications serving data for specific purposes; if these systems all have in-built authorization schemes, even if they are the same, then we have the problem of synchronizing access control lists around a network of services.</p>
+</li>
+<li>
+<p>Accessing data that requires some sort of authorization process is not language or humanities specific, so working with an existing application that can handle pre-authorization workflows and access-control authorization decisions is an attractive choice and should allow LDaCA to take advantage of centrally managed services with functionality that improves over time rather than having to develop and maintain our own systems.</p>
+</li>
+<li>
+<p>If complex access controls are implemented inside a system then there is a risk that data becomes stranded inside that system and cannot be reused without completely re-implementing the access control. For example, imagine an archive of cultural material with complex access controls encoded into the business logic such as “this item is accessible only to male initiates”. Applications like this need to store user accounts with attributes on both data and user records that can be used to authorize access. There is a high risk of data being stranded in a system such as this if it is no longer supported. This will be mitigated somewhat if the rules are also expressed as licenses, perhaps a composition of Traditional Knowledge (TK) Labels - but the access system is baked-in to the application and not portable.</p>
+</li>
+</ol>
+<h2 id="q-yes-but-why-does-data-need-to-have-a-license-if-we-already-have-access-controls">Q: Yes but why does data need to have a license if we already have access controls?</h2>
+<p>The point of Research Data Commons projects like LDaCA is to create an ecosystem where data can be re-used. For language data, this means that users, including researchers and community members, will be able to download data for certain authorised purposes and activities. The license is the way that data custodians communicate to data users (and future administrators) what those purposes activities are.</p>
+<p>A license, which is always packaged with data will allow:</p>
+<ul>
+<li>
+<p>A user to inspect a five-year-old dataset in their downloads folder and work out what they are allowed to do with it.</p>
+</li>
+<li>
+<p>An IT professional to clean up laptop that has been handed in by (or seized from – it happens) a departing faculty member.</p>
+</li>
+<li>
+<p>A developer to re-create an access control replacing a decommissioned system.</p>
+</li>
+</ul>
+<h2 id="q-so-many-licenses-sounds-like-a-lot-of-work">Q So many licenses! Sounds like a lot of work!</h2>
+<p>We expect that the overhead of writing licenses will diminish greatly over time and standard clauses and complete licenses will be established. A data depositor will be able to choose from a set of standard license terms (such as a standard “restricted to CIs and participants license” for a given repository, using that as a template to mint their own license for a given data set with its own name and ID. The user can choose a standard way of adding pre-authorized licensees (such as email invitations). This ID can then be used by an authorization system.</p>
+<h2 id="q-so-you-have-centralized-authorization-into-a-system-that-grants-licenses-doesnt-that-mean-you-are-locked-in-to-that-system">Q So you have centralized authorization into a system that grants licenses doesn&rsquo;t that mean you are locked-in to that system?</h2>
+<p>No, and Yes</p>
+<p><strong>No</strong>, there is no lock in regarding the list of Licenses and pre-authorized users; licenses and access control lists can be exported via an API so it is possible to import them into another system or save them for audit purposes.</p>
+<p><strong>Yes</strong>, there is lockin, in that at this stage the workflow used to give access to users is specific to the system (such as REMS)</p>
+<p><strong>But</strong>, because our process requires a governance step <em>first</em> in writing a license, then there is a statement of intent for re-building those processes later if needed - a step which is very likely to be missing in a system with built-in access control.</p>
+<p>Also, over time, we expect the administrative burden of constructing workflows will become less as standards are developed for a couple of things:</p>
+<ol>
+<li>
+<p>Licenses can be made less complex (particularly in the context of academic studies) if they specify re-use by particular known cohorts in advance - this comes down to improving the design of studies to encourage data reuse. This may also help to simplify academic ethics processes in the medium to long term.</p>
+</li>
+<li>
+<p>The CADRE project is looking to improve pre-authorization workflows that automatically source relevant information about potential users - fetching their publication record, and potentially remembering what certifications they have, so these attributes can be used and reused for decision making. It is conceivable that this approach might be useful in cultural contexts as well to allow data custodians to manage data sharing - this is a discussion we have yet to have in the broader HASS RDC.</p>
+</li>
+</ol>
+<h2 id="q-what-if-i-have-a-really-simple-requirement-like-giving-access-to-just-a-couple-of-people---doesnt-this-license-approach-just-add-complexity">Q What if I have a really simple requirement like giving access to just a couple of people - doesn’t this license approach just add complexity?</h2>
+<p>If a data item needs to be locked down to a small group of people, say the chief investigator and the participants in a recorded dialogue then an obvious implementation is to maintain a small access control list (ACL) for the item. But all of the issues identified above with application-specific ACLs are the same, no matter the size of the cohort: the data set can’t be access controlled outside of its home system. If the system is no longer running then the data may be completely inaccessible, and if there is no license document stored with the data setting out terms of re-use in general terms then there is no indication to future administrators about who, if anyone, should have access of the data.</p>
+<h2 id="q-we-dont-need-a-license-we-have-a-terms-of-use">Q: We don’t need a license, we have a “terms of use”</h2>
+<p>Same thing. Terms of use for data are what a license does. We are designing our systems so that all the relevant terms and conditions go in one place to minimize confusion.</p>
+<!-- raw HTML omitted -->
+<p>The final three slides have been contributed by co-author Patrick.</p>
+<p>These slides briefly outline the AAF process for the next phase that will provide the foundations for the development of the service and the creation of those policies to support the community and the service.</p>
+<p><figure><a class="lightgallery" href="/posts/fair-care-eresearch-2022/Slide20.png" title="alt text" data-thumbnail="/posts/fair-care-eresearch-2022/Slide20.png" data-sub-html="<h2>Next Steps in the AAF Engagement ….. Revisit and consolidate the project’s vision through interviews and engagement with stakeholders,  collaborators and  community participants This next phase will provide the foundations for the development of policies to support the community. These will assist in creating a trusted community for access to sensitive data that supports the good practice and protocols. These activities are outlined in the following slides …</h2><p>alt text</p>">
+        
+    </a><figcaption class="image-caption">Next Steps in the AAF Engagement ….. Revisit and consolidate the project’s vision through interviews and engagement with stakeholders,  collaborators and  community participants This next phase will provide the foundations for the development of policies to support the community. These will assist in creating a trusted community for access to sensitive data that supports the good practice and protocols. These activities are outlined in the following slides …</figcaption>
+    </figure></p>
+<!-- raw HTML omitted -->
+<p>This process will support the project to deliver a viable service that meets researchers’ needs and is trusted by the community and the participants to safely distribute data to authorised persons.</p>
+<!-- raw HTML omitted -->
+<p><figure><a class="lightgallery" href="/posts/fair-care-eresearch-2022/Slide21.png" title="alt text" data-thumbnail="/posts/fair-care-eresearch-2022/Slide21.png" data-sub-html="<h2>The AAF&amp;#x27;s business analyst conducts interviews with stakeholders and community members to discover and formalise the community&amp;#x27;s processes and requirements</h2><p>alt text</p>">
+        
+    </a><figcaption class="image-caption">The AAF&#x27;s business analyst conducts interviews with stakeholders and community members to discover and formalise the community&#x27;s processes and requirements</figcaption>
+    </figure></p>
+<!-- raw HTML omitted -->
+<p>The AAF’s business analyst is conducting interviews with the key stakeholders.
+This discovery process will collect information on the current and the “to-be” state of the service.</p>
+<p>Together these will establish goals and expectations and provide the basis for further prototyping a service that meets stakeholder needs.</p>
+<p>The process will facilitate the building of a service that empowers the data custodians, the communities and participants to manage access.</p>
+<!-- raw HTML omitted -->
+<p><figure><a class="lightgallery" href="/posts/fair-care-eresearch-2022/Slide22.png" title="alt text" data-thumbnail="/posts/fair-care-eresearch-2022/Slide22.png" data-sub-html="<h2>These feeds into the prototyping &amp;amp; implementing phase</h2><p>alt text</p>">
+        
+    </a><figcaption class="image-caption">These feeds into the prototyping &amp; implementing phase</figcaption>
+    </figure></p>
+<!-- raw HTML omitted -->
+<p>The basis for prototyping is iterative:
+Identify
+Prioritise
+Pilot
+Review
+Update requirements</p>
+<p>This leads to a production service that meets participant, community and researcher requirements and unifies the services, policies and trust framework for the community.</p>
+<!-- raw HTML omitted -->
+]]></description></item><item><title>HASS RDC Technical Advisory Group Meeting LDaCA &amp; ATAP Intro</title><link>https://www.ldaca.edu.au/posts/rdc-tech-meeting/</link><pubDate>Wed, 08 Jun 2022 15:28:35 +1000</pubDate><author>Peter Sefton</author><guid>https://www.ldaca.edu.au/posts/rdc-tech-meeting/</guid><description><![CDATA[<p>This is a presentation Peter Sefton gave to the
+<a href="https://ardc.edu.au/collaborations/strategic-activities/hass-and-indigenous-research-data-commons/" target="_blank" rel="noopener noreffer ">Humanities, Arts and Social Sciences Research Data Commons and Indigenous Research Capability Program</a>  Technical Advisory Group on Friday 11th February 2022.</p>
+<p>Thanks to Simon Musgrave for reviewing this and adding a little detail here
+and there.</p>
+<p>(This is also available on <a href="https://ptsefton.com/2022/02/18/hass_rdc_tech_advisory/index.html" target="_blank" rel="noopener noreffer ">Dr Sefton&rsquo;s site</a>)</p>
+<p><a href="/posts/rdc-tech-meeting/HASS%20RDC%20Technical%20Advisory%20Group%20Meeting%20LDaCA%20&amp;%20ATAP%20Intro.pdf" rel="">PDF version</a></p>
+<p></p>
+<p>The Language Data Commons of Australia Data Partnerships (LDaCA) and the Australian Text Analytics Platform (ATAP) are establishing a scalable and flexible language data and analytics commons. These projects will be part of the Humanities and Social Sciences Research Data Commons (HASS RDC).
+The Data Commons will focus on preservation and discovery of distributed multi-modal language data collections under a variety of governance frameworks. This will include access control that reflects ethical constraints and intellectual property rights, including those of Aboriginal and Torres Strait Islander, migrant and Pacific communities.</p>
+<p></p>
+<p>For this Research Data Commons work we are using the Arkisto Platform
+(introduced <a href="http://ptsefton.com/2020/11/23/Arkisto/index.html" target="_blank" rel="noopener noreffer ">at eResearch 2020</a>).</p>
+<p>Arkisto aims to secure the long term preservation of data independently of
+code and services - recognizing the ephemeral nature of software and platforms.
+We know that sustaining software platforms can be hard and aim to make sure
+that important data assets are not locked up in database or hard-coded logic
+of some hard-to-maintain application.</p>
+<p>We are using three key standards on this project …</p>
+<p></p>
+<p>The first standard is the <a href="https://ocfl.io/1.0/spec/" target="_blank" rel="noopener noreffer ">Oxford Common File Layout</a> -
+this is a way of keeping version controlled digital objects on a plain old
+filesystem or object store.</p>
+<p>Here’s the introduction to the spec:</p>
+<blockquote>
+<p><strong>Introduction</strong></p>
+<p>This section is non-normative.</p>
+<p>This Oxford Common File Layout (OCFL) specification describes an application-independent approach to the storage of digital objects in a structured, transparent, and predictable manner. It is designed to promote long-term access and management of digital objects within digital repositories.</p>
+<p><strong>Need</strong></p>
+<p>The OCFL initiative began as a discussion amongst digital repository practitioners to identify well-defined, common, and application-independent file management for a digital repository&rsquo;s persisted objects and represents a specification of the community’s collective recommendations addressing five primary requirements: completeness, parsability, versioning, robustness, and storage diversity.</p>
+<p><strong>Completeness</strong></p>
+<p>The OCFL recommends storing metadata and the content it describes together so the OCFL object can be fully understood in the absence of original software. The OCFL does not make recommendations about what constitutes an object, nor does it assume what type of metadata is needed to fully understand the object, recognizing those decisions may differ from one repository to another. However, it is recommended that when making this decision, implementers consider what is necessary to rebuild the objects from the files stored.</p>
+<p><strong>Parsability</strong></p>
+<p>One goal of the OCFL is to ensure objects remain fixed over time. This can be difficult as software and infrastructure change, and content is migrated. To combat this challenge, the OCFL ensures that both humans and machines can understand the layout and corresponding inventory regardless of the software or infrastructure used. This allows for humans to read the layout and corresponding inventory, and understand it without the use of machines. Additionally, if existing software were to become obsolete, the OCFL could easily be understood by a light weight application, even without the full feature repository that might have been used in the past.</p>
+<p><strong>Versioning</strong></p>
+<p>Another need expressed by the community was the need to update and change objects, either the content itself or the metadata associated with the object. The OCFL relies heavily on the prior art in the [Moab] Design for Digital Object Versioning which utilizes forward deltas to track the history of the object. Utilizing this schema allows implementers of the OCFL to easily recreate past versions of an OCFL object. Like with objects, the OCFL remains silent on when versioning should occur recognizing this may differ from implementation to implementation.</p>
+<p><strong>Robustness</strong></p>
+<p>The OCFL also fills the need for robustness against errors, corruption, and migration. The versioning schema ensures an OCFL object is robust enough to allow for the discovery of human errors. The fixity checking built into the OCFL via content addressable storage allows implementers to identify file corruption that might happen outside of normal human interactions. The OCFL eases content migrations by providing a technology agnostic method for verifying OCFL objects have remained fixed.</p>
+<p><strong>Storage diversity</strong>
+Finally, the community expressed a need to store content on a wide variety of storage technologies. With that in mind, the OCFL was written with an eye toward various storage infrastructures including cloud object stores.</p>
+</blockquote>
+<p></p>
+<p>The second standard is Research Object Crate. (RO-Crate) a method for
+describing any dataset of local or remote resources as a digital object using
+a <strong>single linked-data metadata document</strong>.</p>
+<p>RO-Crate is used in our platform both for describing data objects in the OCFL
+repository, and for delivering metadata over the API (which we’ll show in
+architecture diagrams and screenshots below).</p>
+<p></p>
+<p>RO-Crates may contain any kind of data resource about anything, in any format
+as a file or URL - it’s not just for language data; there are also many
+projects in the sciences starting to
+<a href="https://www.researchobject.org/ro-crate/in-use/" target="_blank" rel="noopener noreffer ">use RO-Crate</a>.</p>
+<p></p>
+<p>This image is taken from a
+<a href="https://slideplayer.com/slide/3919920/" target="_blank" rel="noopener noreffer ">presentation on digital preservation</a>.</p>
+<p><a href="https://pcdm.org/2016/04/18/models" target="_blank" rel="noopener noreffer ">Models</a>
+The third key standard for Arkisto is the Portland Common Data Model. Like
+OCFL, this was developed by members of the digital library/repository
+community. It was devised as a way to do interchange between repository
+systems, most of which, it turned out had evolved very similar ways of having
+nested collections, digital objects that aggregate related files. Using this
+very simple ontology allows us to store data in the OCFL layer in a very
+flexible way - depending on factors like data size, licensing and whether
+data is likely to change or need to be withdrawn, we can store entire
+collections as OCFL objects or across many OCFL objects with PCDM used to
+show the structure of the data collections regardless of how they happen to
+be stored.</p>
+<p></p>
+<p>Back to RO-Crates.</p>
+<p>RO-Crates are self-documenting and can ship with a HTML file that allows a
+consumer of the crated data to see whatever documentation the crate authors
+have added.</p>
+<p>This crate contains an entire collection (RepositoryCollection is the RO-
+Crate term that corresponds to pcdm:Collection).</p>
+<p>Crates must have license information that set out how data may be used and if
+it may be redistributed. As we are dealing with language data which is (almost
+) always created by people, it is important that their intellectual property
+rights and privacy are respected. More on this later.</p>
+<p></p>
+<p>This shows a page for what we’re calling an Object (RepositoryObject). A
+RepositoryObject is a single “thing” such as a document, a conversation, a
+session in a speech study. (this was called an item in Alveo but given that
+both the Portland Common Data model and Oxford Common File Layout use “Object
+” we are using that term at least for now).</p>
+<p>This shows that the system is capable of dealing with unicode characters -
+which is good, as you would expect as it’s 2022 and this is a Language Data
+Commons, but there are still challenges, like dealing with mixtures of left
+to right and right to left text, and we need to find or define metadata terms
+to keep track of “language”, “writing system”, and the difference between
+things that started as orthographic (written) text, vs spoken or signed etc.
+There’s a group of us working on that, currently led by Nick Thieberger and
+Peter Sefton.</p>
+<p>Simon Musgrave and Peter Sefton
+<a href="https://ptsefton.com/2022/01/27/DAMTA_Slides_v1/" target="_blank" rel="noopener noreffer ">presented our progress with multilingual text</a>
+at a virtual workshop run by ANU in January.</p>
+<p>
+Here’s another screenshot showing one of the government documents in PDF
+format - with a link back to the abstract RepositoryObject that houses all of
+the manifestations of the document in various languages.</p>
+<p></p>
+<p>The above diagram takes a big-picture view of research data management in the
+context of <em>doing</em> research. It makes a distinction between managed
+repository storage and the places where work is done - “workspaces”.
+Workspaces are where researchers collect, analyse and describe data.
+Examples  include the most basic of research IT services, file storage as
+well as analytical tools such as Jupyter notebooks (the backbone of ATAP -
+the text analytics platform). Other examples of workspaces include code
+repositories such as GitHub or GitLab (a slightly different sense of the word
+repository), survey tools, electronic (lab) notebooks and bespoke code
+written for particular research programmes - these workspaces are essential
+research systems but usually are not set up for long term management of data.</p>
+<p>The cycle in the centre of  this diagram shows an idealised research practice
+where data are collected and described and deposited into a repository
+frequently. Data are made findable and accessible  as soon as possible and
+can be “re-collected” for use and re-use.</p>
+<p>For data to be re-usable by humans and machines (such as ATAP notebook code
+that consumes datasets in a predictable way) it must be well described. The
+ATAP and LDaCA approach to this is to use the Research Object Crate (RO-Crate
+) specification. RO-Crate is essentially a guide to using a number of
+standards and standard approaches to describe both data and re-runnable
+software such as workflows or notebooks.</p>
+<p></p>
+<p>This rather messy slide captures the overall high-level architecture for the
+LDaCA Research Data Commons  - there will be an analytical workbench (left of
+the diagram) which is the basis of the Australian Text Analytics (ATAP)
+project - this will focus on notebook-style programming using one of the
+emerging Jupyter notebook platforms in that space. (This is not 100% decided
+yet, but that has not stopped the team from starting to collect and develop
+notebooks that open up text analytics to new coders from the linguistics
+community.) Our engagement lead, Dr Simon Musgrave sees the ATAP work as
+primarily an educational enterprise encouraging researchers to adopt new
+research practices - which will be underpinned by services built on the
+Arkisto standards that allow for rigorous, re-runnable research.</p>
+<p></p>
+<p>In this presentation we are going to focus on the portal/repository
+architecture more than on the ATAP notebook side of things. We know that we
+will be using (at least) the SWAN Jupyter notebook service perceived by
+AARNet but we are still scoping how notebooks will be made portable between
+systems and where they will be stored at various stages of their development.
+We will be supporting and encouraging researchers to archive notebooks
+wrapped in RO-Crates with re-use information OUTSIDE of the SWAN platform
+though - it’s a workspace, not a repository; it does not have governance in
+place for long term preservation.</p>
+<p></p>
+<p>This is a much simpler view zooming in on the core infrastructure components
+that we have built so far. We are starting with bulk ingest of existing
+collections and will add one-by-one deposit of individual items after that.</p>
+<p>This show the OCFL repository at the bottom - with a Data &amp; Access API that
+mediates access. This API understands the RO-Crate format and in particular
+its use of the Portland Common Data Model to structure data. The API also
+enforces access control to objects; every repository object has a license
+setting out the terms of use and re-use for its data, which will reflect the
+way the data were collected - whether participants signed agreements, ethics
+approvals and privacy law are all relevant here. Each license will correspond
+to a group of people who have agreed to and/or been selected by a data
+custodian. We are in negotiations with the
+<a href="https://aaf.edu.au/" target="_blank" rel="noopener noreffer ">Australian Access Federation (AAF)</a> to use their
+<a href="https://www.cilogon.org/" target="_blank" rel="noopener noreffer ">CILogon</a> service for this authorization step and
+for authentication of users across a wide variety of services including the
+AAF itself and Google, Microsoft, GitHub etc.</p>
+<p>There’s also an access portal which will be based on a full-text index (at
+this stage we’re using ElasticSearch) which is designed to help people find
+data they might be interested in using. This follows current conventions for
+browse/search interfaces which we’re familiar with from shopping sites - you
+can search for text and/or drill down using <em>facets</em> (which are called
+aggregations in Elastic-land). eg which language am in interested in or do I
+want [ ] Spoken or [ ] Written material?</p>
+<p></p>
+<p>This architecture is very modular and designed to operate in a distributed
+fashion, potentially with distributed file and/or object based repositories
+all being indexed by a centralised service. There may also be other ‘flavours’
+of index such as triple or graph stores, relational databases that ingest
+tabular data or domain specific discovery tools such as corpus analysis
+software. And, there may be collection specific portals that show a slice of
+a bigger repository with features or branding specific to a subset of data.</p>
+<p></p>
+<p>This implementation of the Arkisto standards-stack is known as Oni.  That’s
+not really an acronym any more though it once stood for OCFL, Ngnix (a web
+server) or Node (a Javascript framework)  and an Index. An Oni is a kind of
+Japanese demon. 👹</p>
+<p></p>
+<p>But how will data get into the OCFL repository? At the moment we’re loading
+data using a series of scripts which are being developed at our github
+organization.</p>
+<p>This diagram and the next come from the
+<a href="https://arkisto-platform.github.io/use-cases/" target="_blank" rel="noopener noreffer ">Arkisto Use cases page</a> it
+show how we will be converting data from existing collections into a form
+where they can be preserved in an OCFL repository and be part of a bigger
+collection, ALWAYS with access control based on licenses.</p>
+<p></p>
+<p>This is a screenshot our github repository showing the corpus migration tools
+we’ve started developing (there are six, and one general purpose text-
+cleaning tool). These repositories have not all been made public yet, but
+they will be - they contain tools to build Arkisto-ready file repositories
+that can be made available in one or more portals</p>
+<p></p>
+<p>Here’s our portal which give a browse interface to allow drill-down data discovery.</p>
+<p>But wait! That’s not the LDaCA portal - that’s Alveo!</p>
+<p>Oh yes, so it is.</p>
+<p>Alveo was built ten years ago - and has not seen a much uptake.</p>
+<p></p>
+<p>This screenshot shows some of the browse facets for the COOEE corpus, which
+contains early Australian <strong>written</strong> English materials. But facets like <code> Written Mode</code> and <code>Communication Medium</code> both of which are known for COOEE
+are not populated.</p>
+<p>There are a quite few things that were wrong with Alveo - like we obviously
+didn’t get all the metadata populated to the level that it would make these
+browse facets actually useful for filtering. But more importantly, there was
+not enough work done to check which browse facets <em>are</em> useful and not enough
+of the budget was able to be spent on user engagement and training rather
+than software development.</p>
+<p>One of my current LDaCA senior colleagues said to me a couple of years ago
+that Alveo was useless:  “I just wanted to get all the data” they siad. Me, I
+was thinking “but it has an API so you CAN get all the data - what’s the
+problem?”. We have tried not to repeat this mistake by making sure that the
+API delivers entire collections and we have some demonstrations of doing this
+for real work.</p>
+<p>Another colleague who was actually on the Alveo team said that this interface
+was &ldquo;equally useless for everyone&rdquo;, and they later built a custom interface
+for one of the collections.</p>
+<p>We’re taking these lessons to heart in designing the LDaCA infrastructure -
+making sure that as we go we have people using the software - it helps that
+we have an in house (though distributed) development team rather than an
+external contractor so feedback is very fast - we can jump onto a call and
+demo stuff at any time.</p>
+<p></p>
+<p>We decided to build from the data API first.</p>
+<p>In this demo developer Moises Sacal Bonequi is looking at the API via the
+Postman tool. This demonstration shows how the API can be used to find
+collections (that conform to our metadata profile)</p>
+<ol>
+<li>First he lists the collections, then chooses one</li>
+<li>He then gets a collection with the <code>&amp;resolve</code> parameter, meaning that the
+API will internally traverse the PCDM collection hierarchy and return ALL
+the metadata for the collection - down to the file level</li>
+<li>He then downloads a file (for which he has a license that most of you
+reading this don’t have - hence the obfuscation of the
+dialogue)</li>
+</ol>
+<p>This API has been used and road tested at ANU to develop techniques for topic
+modelling on the Sydney Speaks corpus (more about which corpus below) - by a
+student Marcel Reverter-Rambaldi under the supervision of  Prof Catherine
+Travis at ANU - we are hoping to publish this work as a re-usable notebook
+that can be adapted for other projects, and to allow the techniques the ANU
+team have been developing to be applied to other similar data in LDaCA.</p>
+<p></p>
+<p>And one of the data scientists who was working with us at UQ, Mel Mistica,
+developed a <a href="https://github.com/Australian-Text-Analytics-Platform/ro-crate-metadata/blob/main/ro-crate-metadata.ipynb" target="_blank" rel="noopener noreffer ">demonstration notebook</a>
+with our tech team that used the API to access another full collection (which
+is also suitable for the ANU topic modelling approach) - this notebook gets
+all the metadata for a small social history collection which contains
+transcribed interviews with women in Western Sydney and shows how a data
+scientist might explore what’s in it and start asking questions about the data,
+like the age distribution of the participants and start digging in to what
+they were talking about.</p>
+<p></p>
+<p>This screencast shows a work-in-progress snapshot of the Oni portal we talked
+about above in action, showing how search and browse might be used to find
+repository objects from the index - in this case searching for Arabic words
+in a small set of Australian Government documents.</p>
+<p></p>
+<p>Hang on!</p>
+<p>You keep talking about
+<a href="http://ptsefton.com/2012/02/14/an-australian-research-data-repository/" target="_blank" rel="noopener noreffer ">“repositories”</a>,
+don’t you always say stuff like, &ldquo;A repository is not just a software
+application. It’s a lifestyle. It’s not just for Christmas?&rdquo;</p>
+<p>That’s right - we’ve been talking about repository software architectures
+here but it is important to remember that a repository needs to be considered
+an institution rather than a software stack or collection of files, more
+&ldquo;University Library&rdquo; than &ldquo;My Database&rdquo;.</p>
+<p></p>
+<p>The next half a dozen slides are based on
+<a href="https://ptsefton.com/2021/10/12/ldaca2021/index.html" target="_blank" rel="noopener noreffer ">a presentation</a>
+I gave at eResearch Australasia 2021 with Moises Sacal Bonequi</p>
+<p>Today we will look in detail at one important part of this architecture -
+access control. How can we make sure that in a distributed system, with
+multiple data repositories and registries residing with different data
+custodians, the right people have access to the right data?</p>
+<p>I didn’t spell this out in the recorded conference presentation, but for data
+that resides in the repositories at the right of the diagram we want to
+encourage research processes that clearly separate data from code. Notebooks
+and other code workflows that use data will fetch a version-controlled
+reference copy from a repository - using an access key if needed, process the
+data and produce results that are then deposited into an appropriate
+repository alongside the code itself.  Given that a lot of the data in the
+language world is NOT available under open licenses such as Creative Commons
+it is important to establish this practice - each user of the data must
+negotiate or be granted access individually. Research can still be
+reproducible using this model, but without a culture of sharing datasets
+without regard for the rights of those who were involved in the creation of
+the data.</p>
+<p>
+Regarding rights, our project is informed by the
+<a href="https://www.gida-global.org/care" target="_blank" rel="noopener noreffer ">CARE principles</a> for Indigenous data.</p>
+<blockquote>
+<p>The current movement toward open data and open science does not fully
+engage with Indigenous Peoples rights and interests. Existing principles
+within the open data movement (e.g. FAIR: findable, accessible, interoperable
+, reusable) primarily focus on characteristics of data that will facilitate
+increased data sharing among entities while ignoring power differentials and
+historical contexts. The emphasis on greater data sharing alone creates a
+tension for Indigenous Peoples who are also asserting greater control over
+the application and use of Indigenous data and Indigenous Knowledge for
+collective benefit</p>
+</blockquote>
+<p>But we do not see the CARE principles as only applying to Indigenous data and
+knowledge. Most language data is a record of the behaviour of people who have
+moral rights in the material (even if they do not have legal rights) and
+taking the CARE principles as relevant in such cases ensures serious thinking
+about the protection of tose moral rights.</p>
+<p>
+<a href="https://localcontexts.org/labels/traditional-knowledge-labels/" target="_blank" rel="noopener noreffer ">Traditional Knowledge Labels</a></p>
+<p>We are designing the system so that it can work with diverse ways of
+expressing access rights, for example licensing like the Tribal Knowledge
+labels.The idea is to separate safe storage of data with a license on each
+item, which may reference the TK labels from a system that is administered by
+the data custodians who can make decisions about who is allowed to access data.</p>
+<p>
+We are working on a case-study with the
+<a href="http://www.dynamicsoflanguage.edu.au/sydney-speaks/" target="_blank" rel="noopener noreffer ">Sydney Speaks project</a>
+via steering committee member Catherine Travis.</p>
+<blockquote>
+<p>This project seeks to document and explore Australian English, as spoken in
+Australia’s largest and most ethnically and linguistically diverse city – Sydney.
+The title “Sydney Speaks” captures a key defining feature of the project:
+the data come from recorded conversations between Sydney siders, as they tell
+stories about their lives and experiences, their opinions and attitudes. This
+allows us to measure how their lived experiences impact their speech
+patterns.
+Working within the framework of variationist sociolinguistics, we examine
+variation in phonetics, grammar and discourse, in an effort to answer
+questions of fundamental interest both to Australian English, and language
+variation and change more broadly, including:</p>
+<ul>
+<li>How has Australian English as spoken in Sydney changed over the past 100 years?</li>
+<li>Has the change in the ethnic diversity over that time period (and in particular, over the past 40 years) had any impact on the way Australian English is spoken?</li>
+<li>What affects the way variation and change spread through society
+<ul>
+<li>Who are the initiators and who are the leaders in change?</li>
+<li>How do social networks function in a modern metropolis?</li>
+<li>What social factors are relevant to Sydney speech today, and over time (gender? class? region? ethnic identity?)
+A better understanding of what kind of variation exists in Australian
+English, and of how and why Australian English has changed over time can
+help society be more accepting of speech variation and even help address
+prejudices based on ways of speaking.
+Source: <a href="http://www.dynamicsoflanguage.edu.au/sydney-speaks/" target="_blank" rel="noopener noreffer ">http://www.dynamicsoflanguage.edu.au/sydney-speaks/</a></li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<p>The collection contains recordings of people speaking both contemporary and
+historic.</p>
+<p>Because this involved human participants there are restrictions on the
+distribution of data - a situation we see with lots of studies involving
+people in a huge range of disciplines.</p>
+<p>
+There are four tiers of data access we need to enforce and observe for this
+data based on the participant agreements and ethics arrangements under which
+the data were collected.</p>
+<p>Concerns about rights and interests are important for any data involving
+people - and a large amount the data both indigenous and non-indigenous we
+are using will require access control that ensures that data sharing is
+appropriate.</p>
+<p></p>
+<p>In this example demo we uploaded various collections and are authorising with
+Github organisations</p>
+<p>In a our production release we will use AAF to authorise different groups.</p>
+<p>Let&rsquo;s find a dataset: The Sydney Speaks Corpus.</p>
+<p>As you can see we cannot see any data</p>
+<p>Lets login… We authorise Github…</p>
+<p>Now you can see we have access sub corpus data and I am just opening a couple of items</p>
+<p>—</p>
+<p>Now in Github we can see the group management example.</p>
+<p>I have given access to all the licences to myself, as you can see here and
+given access to licence A to others.</p>
+<p></p>
+<p>This diagram is a sketch of the interaction that took place in the demo - it
+shows how a repository can delegate authorization to an external system - in
+this case Github rather than CILogon. But we are working with the ARDC to set
+up a trial with the Australian Access Federation to allow CILogon access for
+the HASS Research Data Commons so we can pilot group-based access control.</p>
+<p></p>
+<p>There’s a lot still to do.</p>
+]]></description></item><item><title>What are the FAIR and CARE principles and why should corpus linguists know about them?</title><link>https://www.ldaca.edu.au/posts/fair-and-care/</link><pubDate>Tue, 08 Feb 2022 15:28:35 +1000</pubDate><author>Simon Musgrave</author><guid>https://www.ldaca.edu.au/posts/fair-and-care/</guid><description><![CDATA[<h1 id="fair-and-care">FAIR and CARE</h1>
+<p>Data is becoming increasingly important in today’s world, so corpus linguists might feel that the rest of the world is finally catching up. But the rest of the world are bringing with them new approaches to how data is handled. This means that fields such as corpus linguistics may need to reassess their practices. Such reassessment includes addressing concerns about how data is stored and who can access it (data stewardship) – concerns that are a part of the <a href="https://en.wikipedia.org/wiki/Open_science" target="_blank" rel="noopener noreffer ">Open Science</a> movement, ultimately grounded on principles of equity and accountability.</p>
+<p>The most influential approach to data stewardship today is the <a href="https://www.go-fair.org/" target="_blank" rel="noopener noreffer ">FAIR</a> principles.
+According to these principles, data should be:</p>
+<ul>
+<li><em>Findable</em>
+<!-- raw HTML omitted -->
+  Metadata and data should be easy to find for both humans and computers.</li>
+<li><em>Accessible</em>
+<!-- raw HTML omitted -->
+  Once the user finds the required data, she/he/they need to know how can they be accessed, possibly including authentication and authorisation.</li>
+<li><em>Interoperable</em>
+<!-- raw HTML omitted -->
+  The data usually need to be integrated with other data. In addition, the data need to interoperate with applications or workflows for analysis, storage, and processing.</li>
+<li><em>Reusable</em>
+<!-- raw HTML omitted -->
+  The ultimate goal of FAIR is to optimise the reuse of data. To achieve this, metadata and data should be well-described so that they can be replicated and/or combined in different settings.
+<!-- raw HTML omitted --><!-- raw HTML omitted --></li>
+</ul>
+<p>In general, corpus linguists do well on the interoperability criterion. Corpus data is usually stored in non-proprietary formats; even when some structure is imposed on the data, this is almost always in a form which is saved as a simple text file (e.g. csv files or xml annotations). Data stored in such formats is easy to move between applications. But what about the other three criteria?</p>
+<p>Some corpus data is easy to discover; it is findable. For example CLARIN, the <a href="https://www.clarin.eu/content/data" target="_blank" rel="noopener noreffer ">portal</a> to the European Union language resource infrastructure, provides access to many large data collections, as does the <a href="https://www.ldc.upenn.edu/" target="_blank" rel="noopener noreffer ">Linguistic Data Consortium</a> in the USA. However, some data is never made part of a large collection and often remains under the control of individual researchers or research teams. Such data may be almost impossible to find. Even if we can find such data, it is unlikely to be accompanied by good descriptions of the data and metadata, making reusability problematic. Of course, big corpora such as the <a href="http://www.natcorp.ox.ac.uk/" target="_blank" rel="noopener noreffer ">British National Corpus</a> will be both findable and accompanied by comprehensive corpus manuals. However, it is worth considering how to make other corpora more findable, including the provision of corpus manuals or corpus descriptions. Corpus resource databases such as <a href="https://varieng.helsinki.fi/CoRD/" target="_blank" rel="noopener noreffer ">CoRD</a> do aim to work towards this principle.</p>
+<p>Accessibility may also be an issue for some data. Copyright law may allow use of material for individual research but prohibit any further distribution of the material. The FAIR approach to such cases is that metadata should be available so that interested parties can know that a data holding exists (F), and the metadata will include information about the conditions under which the data may or may not be shared or reused (A and R).</p>
+<p></p>
+<p>Image from Global Indigenous Data Alliance (<a href="https://www.gida-global.org/" target="_blank" rel="noopener noreffer ">https://www.gida-global.org/</a>)
+<!-- raw HTML omitted --><!-- raw HTML omitted -->
+For linguists, there is another very important set of principles concerning data, the CARE principles developed by the Global Indigenous Data Alliance:
+<!-- raw HTML omitted --></p>
+<ul>
+<li><em>Collective Benefit</em>
+<!-- raw HTML omitted -->
+  Data ecosystems shall be designed and function in ways that enable Indigenous Peoples to derive benefit from the data.
+<!-- raw HTML omitted --></li>
+<li><em>Authority to control</em>
+<!-- raw HTML omitted -->
+ Indigenous Peoples’ rights and interests in Indigenous data must be recognised and their authority to control such data be empowered.
+<!-- raw HTML omitted --></li>
+<li><em>Responsibility</em>
+<!-- raw HTML omitted -->
+ Those working with Indigenous data have a responsibility to share how those data are used to support Indigenous Peoples’ self-determination and collective benefit.
+<!-- raw HTML omitted --></li>
+<li><em>Ethics</em>
+<!-- raw HTML omitted -->
+ Indigenous Peoples’ rights and wellbeing should be the primary concern at all stages of the data life cycle and across the data ecosystem.</li>
+</ul>
+<!-- raw HTML omitted -->
+<p>Corpus data is often written language. We have already mentioned that copyright law is relevant to some such material, and that body of law protects at least some rights for the creators of the material. But corpus linguists also work with other kinds of data such as spoken language (spontaneous or produced as a response to some prompt) or written material produced by research participants according to some protocol. In such cases, ethical research practice should include addressing the issues raised by the CARE principles. Some aspects of this practice will fall under institutional ethics requirements (for example, thinking carefully about what permissions we request on consent forms), but other questions must be part of the relationship between the researcher and the research participants. Corpus linguists working with spoken, computer-mediated, or otherwise particularly sensitive data have been aware of at least some of these issues, but the CARE principles offer an opportunity to go further.</p>
+<p>Acquiring data for linguistic research takes effort and often that means money. It is therefore a good use of resources if any data we collect can be used by others. The FAIR principles provide a framework to make sharing and reusing data easier, and applying the CARE principles where relevant helps to ensure that our research has a sound ethical basis.</p>
+<!-- raw HTML omitted -->
+<p>Note: This post is based on the presentation ‘Advance Australia FAIR’,  given by Simon Musgrave and Michael Haugh to the 4th Forum on Englishes in Australia (LaTrobe University, August 27, 2021).</p>
+<!-- raw HTML omitted -->
+<p>Thanks to Leah Gustafson and Monika Bednarek for helpful comments on drafts.</p>
+<!-- raw HTML omitted -->
+<p><strong>Reference:</strong>
+Cameron, Deborah, Elizabeth Frazer, Penelope Harvey, Ben Rampton &amp; Kay Richardson. 1993. Ethics, advocacy and empowerment: Issues of method in researching language. Language &amp; Communication 13(2). 81–94. <a href="https://doi.org/10.1016/0271-5309%2893%2990001-4" target="_blank" rel="noopener noreffer ">https://doi.org/10.1016/0271-5309(93)90001-4</a></p>
+]]></description></item></channel></rss>
