@@ -54,6 +54,6 @@ Kala Lagaw Ya is a language spoken in the Torres Strait Islands. The language ha
 </table>
 
 <br />
-{{< raw >}}
+{{< /raw >}}
 
 Back to [Background](/background/information/)
