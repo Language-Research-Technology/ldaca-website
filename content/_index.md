@@ -36,7 +36,7 @@ collections and digital infrastructure.
 <div style="text-align: center;"><h3>LDaCA acknowledges and pays respects to the Elders and Traditional Owners of the lands on which we live and work.</h3></div>
 
 {{</raw>}}
-![Acknowledgement](AcknowledgeARDC.png)
+{{< image src="/AcknowledgeARDC.png" height=200 >}}
 
 The Language Data Commons of Australia (LDaCA) project received investment
 ([1](https://doi.org/10.47486/DP768) and [2](https://doi.org/10.47486/HIR001))
