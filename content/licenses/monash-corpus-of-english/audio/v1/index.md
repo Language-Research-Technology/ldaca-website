@@ -1,5 +1,5 @@
 ---
-title: 'License - Monash Corpus Of English Audio'
+title: 'Data License for Monash Corpus of English - Audio'
 date: "2023-01-01"
 draft: false
 ---

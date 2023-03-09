@@ -4,7 +4,7 @@ date: "2023-01-01"
 draft: false
 ---
 
-<!-- [Download as PDF](AusNC_Terms_of_Use_of_Braided_Channels.pdf) -->
+[Download as PDF](AusNC_Terms_of_Use_Braided_Channels.pdf)
 
 In order to access the **Braided Channels** collection, the user must read and agree to AusNC Terms of Use as follows. 
 
