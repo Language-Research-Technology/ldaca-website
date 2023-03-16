@@ -6,9 +6,18 @@ draft: false
 
 by Harriet Sheppard
 
-![Harriet on an outrigger boat off Vanatɨna](HS-sailing-outrigger-small.jpg)
+{{<raw>}}
+<br />
+<img src="HS-sailing-outrigger-small.jpg" title="Harriet on an outrigger boat off Vanatɨna" height="400" class="center_image" />
 
-Harriet on an outrigger boat off Vanatɨna
+{{</raw>}}
+{{<raw>}}
+
+<div style="text-align: center;"><h4>Harriet on an outrigger boat off Vanatɨna</h4></div>
+<br />
+{{</raw>}}
+
+<!-- ![Harriet on an outrigger boat off Vanatɨna](HS-sailing-outrigger-small.jpg) -->
 
 My fieldwork experience, in many ways, conforms to stereotypes of language
 fieldwork – a community outsider working with a smaller language community
@@ -28,7 +37,18 @@ described languages. Rather, it is an account of some of the types of
 considerations and procedures that need to be considered when collecting
 language data and how I handled them in this instance.
 
-![Map of Louisiade Archipelago](map-louisiade.jpg)
+{{<raw>}}
+<br />
+<img src="map-louisiade.jpg" title="Map of Louisiade Archipelago" height="400" class="center_image" />
+
+{{</raw>}}
+{{<raw>}}
+
+<div style="text-align: center;"><h4>Map of Louisiade Archipelago.</h4></div>
+<br />
+{{</raw>}}
+
+<!-- ![Map of Louisiade Archipelago](map-louisiade.jpg) -->
 
 Before recording with a speaker for the first time, I would explain the
 project to the speaker and their rights as contributors to the project. I
@@ -49,7 +69,17 @@ levels. It also has the advantage of being a more durable format compared
 with a paper consent form, particularly when working in a hot and humid
 climate and it can also be easily backed up.
 
-![Transcription session with Abel Sam](transcription-session-small.jpg)
+{{<raw>}}
+<br />
+<img src="transcription-session-small.jpg" title="Transcription session with Abel Sam" height="400" class="center_image" />
+
+{{</raw>}}
+{{<raw>}}
+
+<div style="text-align: center;"><h4>Transcription session with Abel Sam.</h4></div>
+<br />
+{{</raw>}}
+<!-- ![Transcription session with Abel Sam](transcription-session-small.jpg) -->
 
 Each time I made a recording with a speaker or speakers, I played the
 recording back to them to check that they were happy with the recording and
@@ -69,7 +99,17 @@ registered users of the archive, or only for researchers and speakers, or
 just for speakers. They could also choose to have a text embargoed for a
 certain period of time.
 
-![Transcription session with Abel Sam](elicitation-session-notes-small.jpg)
+{{<raw>}}
+<br />
+<img src="elicitation-session-notes-small.jpg" title="Notes from an elicitation session" height="500" class="center_image" />
+
+{{</raw>}}
+{{<raw>}}
+
+<div style="text-align: center;"><h4>Notes from an elicitation session.</h4></div>
+<br />
+{{</raw>}}
+<!-- ![Transcription session with Abel Sam](elicitation-session-notes-small.jpg) -->
 
 When I was preparing my ethics application for the university, I applied and
 received ethics approval to work with minors. I didn’t plan to collect data
@@ -145,7 +185,17 @@ used by linguists. Both text and EAF files are some of the standard file
 formats for transcriptions and annotations that are generally accepted by
 language archives today.
 
-![Setting up for a recording session](recording-setup-small.jpg)
+{{<raw>}}
+<br />
+<img src="recording-setup-small.jpg" title="Setting up for a recording session" height="500" class="center_image" />
+
+{{</raw>}}
+{{<raw>}}
+
+<div style="text-align: center;"><h4>Setting up for a recording session.</h4></div>
+<br />
+{{</raw>}}
+<!-- ![Setting up for a recording session](recording-setup-small.jpg) -->
 
 When collecting metadata, I adopted the Component MetaData Infrastructure (
 CMDI) schema used by the archive where I was planning to deposit my data. The
@@ -231,7 +281,17 @@ least I managed to back up all the files! For subsequent fieldtrips, I
 invested in a battery and solar panel for charging equipment and backing up
 data although I still had to cross rivers with crocodiles from time to time.
 
-![Crossing the Veora river](crossing-river-small.jpg)
+{{<raw>}}
+<br />
+<img src="crossing-river-small.jpg" title="Crossing the Veora river" height="400" class="center_image" />
+
+{{</raw>}}
+{{<raw>}}
+
+<div style="text-align: center;"><h4>Crossing the Veora river.</h4></div>
+<br />
+{{</raw>}}
+<!-- ![Crossing the Veora river](crossing-river-small.jpg) -->
 
 In order to secure the corpus of texts into the future and make sure that it
 doesn’t get lost on an old hard drive, I have uploaded it to a language
@@ -289,6 +349,15 @@ standards change with much of the change led by Indigenous and First Nations
 researchers. Best practices from a decade ago are not those of today and this
 is a good thing!
 
-![Vuwo village](Vuwo.JPG)
+{{<raw>}}
+<br />
+<img src="Vuwo.JPG" title="Vuwo village" height="600" class="center_image" />
+
+{{</raw>}}
+{{<raw>}}
+
+<div style="text-align: center;"><h4>Vuwo village.</h4></div>
+<br />
+{{</raw>}}
 
 Back to [Language Data](../data/)

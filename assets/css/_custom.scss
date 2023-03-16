@@ -13,7 +13,7 @@
   }
 }
 
-// Increase size of the logo on a desktop view 
+// Increase size of the logo on a desktop view
 
 #header-desktop {
   height: auto !important;
@@ -121,9 +121,10 @@
   }
 }
 
-// Twitter Timeline
-
-// .twitter {
-//     float: right;
-//     height: 1000px;
-// }
+// class to centre images
+.center_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
