@@ -4,7 +4,7 @@ date: 2022-10-28T17:13:28+10:00
 draft: false
 ---
 
-You can contact the Language Data Commons of Australia by [email](mailto:info@ldaca.edu.au) or subscribe to the newsletter bellow: 
+You can contact the Language Data Commons of Australia by [email](mailto:info@ldaca.edu.au) or subscribe to the newsletter below: 
 
 {{< raw >}}
 <div class="sender-form-field" data-sender-form-id="lg4n8nd3dp99webf0bz"></div>
