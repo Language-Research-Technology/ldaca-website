@@ -1,5 +1,5 @@
 ---
-title: 'Data License for AusLit'
+title: 'Data License for AustLit'
 date: "2023-01-01"
 draft: false
 ---

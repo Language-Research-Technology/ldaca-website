@@ -58,7 +58,7 @@ draft: false
   added regularly as more communities around Australia become involved. For
   each language you can hear the words spoken via a map that shows the
   general location of the language.
-- [Gambay](https://www.abc.net.au/indigenous/gambay-languages-map): a map of
+- [Gambay](https://www.gambay.com.au): a map of
   Australia's first languages.
 - [Australian Indigenous language collections](https://www.nla.gov.au/research-guides/indigenous-language-resources#):
   a guide to materials held in the National Library of Australia, with links
