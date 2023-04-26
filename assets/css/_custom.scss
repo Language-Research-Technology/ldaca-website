@@ -1,3 +1,15 @@
+// Color Variables from Logo
+$water_green: #79a38d;
+$land_green: #91a96d;
+$clear_blue: #537ec0;
+$storm_blue: #566777;
+$sandstone: #FFCC79;
+$deep_rock: #653C2C;
+$light_rock: #653C2C;
+$color_list: ($water_green, $land_green, $clear_blue, $storm_blue, $sandstone, $deep_rock, $light_rock);
+$color_count: 1;
+
+
 // Place title of page on the left
 
 .single-title {
@@ -134,4 +146,13 @@
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   font-size: 80%;
+}
+
+a.menu-item {
+  padding: 0.5em;
+  border-radius: 5px;
+
+  .delimiter {
+    padding: 0;
+  }
 }
