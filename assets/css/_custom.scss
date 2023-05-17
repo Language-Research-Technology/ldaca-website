@@ -9,6 +9,14 @@ $light_rock: #653C2C;
 $color_list: ($water_green, $land_green, $clear_blue, $storm_blue, $sandstone, $deep_rock, $light_rock);
 $color_count: 1;
 
+.main {
+  background: url("/BackgroundIMGs/Blog.png") repeat-y left top;
+  background-size: 100% auto;
+}
+
+.organisation {
+  background: red;
+}
 
 // Place title of page on the left
 
