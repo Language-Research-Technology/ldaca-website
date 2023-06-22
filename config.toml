@@ -275,6 +275,7 @@ enableRobotsTXT = true
         # someJavascript = "https://cdn.example.com/some.js"
         twitterWidgets = "https://platform.twitter.com/widgets.js"
         senderWidgets = "sender.js"
+        mailchimplocal = "mailchimp.js"
     # LoveIt CHANGED | 0.2.10 Page SEO config
     [params.page.seo]
       # image URL
