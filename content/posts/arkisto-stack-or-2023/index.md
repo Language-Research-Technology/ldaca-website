@@ -1,7 +1,7 @@
 ---
     title:  >
       Towards a Generic Research Data Commons: A highly scalable standard-based repository framework for Language and other Humanities data
-    date: "2023-06-16"
+    date: "2023-06-14"
     slug: arkisto-stack-or-2023
     category: ["Access"]
     author: Peter Sefton
