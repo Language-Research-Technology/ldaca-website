@@ -8,7 +8,7 @@
 ---
 
 [PDF version](ldaca-metadata-ecosystem-eresearch-2022.pdf)
-![alt text](Slide00.png "Designing a metadata ecosystem for language research based on Research Object Crate (RO-Crate) Peter Sefton, Nick Thieberger, Marco La Rosa, Simon Musgrave, River Tae Smith, Moises Sacal Bonequi")
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide00.png' alt='Designing a metadata ecosystem for language research based on Research Object Crate (RO-Crate) Peter Sefton, Nick Thieberger, Marco La Rosa, Simon Musgrave, River Tae Smith, Moises Sacal Bonequi   ' title='Slide: 0' border='1'  width='85%%'/>
@@ -29,7 +29,7 @@ We will demonstrate current ways of describing items in a variety of languages a
 
 </section>
 
-![alt text](Slide01.png "The Language Data Commons of Australia (LDaCA) and Australian Text Analytics Platform (ATAP) projects received investment (https://doi.org/10.47486/DP768 and https://doi.org/10.47486/PL074) from the Australian Research Data Commons (ARDC). The ARDC is funded by the National Collaborative Research Infrastructure Strategy (NCRIS).   ARC LIEF LE210100013 (2021-2024) Nyingarn: a platform for primary sources in Australian Indigenous languages")
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide01.png' alt='The Language Data Commons of Australia (LDaCA) and Australian Text Analytics Platform (ATAP) projects received investment (https://doi.org/10.47486/DP768 and https://doi.org/10.47486/PL074) from the Australian Research Data Commons (ARDC). The ARDC is funded by the National Collaborative Research Infrastructure Strategy (NCRIS).   ARC LIEF LE210100013 (2021-2024) Nyingarn: a platform for primary sources in Australian Indigenous languages  ' title='Slide: 1' border='1'  width='85%%'/>
@@ -38,7 +38,7 @@ This work is supported by the Australian Research Data Commons.
 
 </section>
 
-![alt text](Slide02.png "With thanks for their contribution: Partner Institutions:")
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide02.png' alt=' With thanks for their contribution: Partner Institutions: ' title='Slide: 2' border='1'  width='85%%'/>
@@ -51,7 +51,7 @@ The platform will provide workbench services to support computational research, 
 
 </section>
 
-![alt text](Slide03.png "Pacific and Regional Archive for Digital Sources in Endangered Cultures Running for 20 years  1,337 languages represented 675 collections 37,510 items 405,289 files 15,540 hours (audio) 2,465 hours (video) 193 TB  October 2022")
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide03.png' alt='Pacific and Regional Archive for Digital Sources in Endangered Cultures Running for 20 years  1,337 languages represented 675 collections 37,510 items 405,289 files 15,540 hours (audio) 2,465 hours (video) 193 TB  October 2022  ' title='Slide: 3' border='1'  width='85%%'/>
@@ -62,7 +62,7 @@ PARADISEC (the Pacific And Regional Archive for Digital Sources in Endangered Cu
 
 </section>
 
-![alt text](Slide04.png)
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide04.png' alt='  ' title='Slide: 4' border='1'  width='85%%'/>
@@ -73,7 +73,7 @@ In an archive like PARADISEC - it is important to be be able to maintain resourc
 
 </section>
 
-![alt text](Slide05.png "PARADISEC ACCESS  https://language-archives.services/about/data-loader")
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide05.png' alt='PARADISEC ACCESS  https://language-archives.services/about/data-loader ' title='Slide: 5' border='1'  width='85%%'/>
@@ -82,7 +82,7 @@ PARADISEC has learned the importance of making the collection self-describing so
 
 </section>
 
-![alt text](Slide06.png "ELAR: limited search capability, non-standard metadata schema, no ability to index annotation files, no bulk download LDaCA: rich metadata-first search, portable RO-Crate metadata, indexed annotations, bulk downloading of search results AUSLAN CORPUS ACCESS")
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide06.png' alt='ELAR: limited search capability, non-standard metadata schema, no ability to index annotation files, no bulk download LDaCA: rich metadata-first search, portable RO-Crate metadata, indexed annotations, bulk downloading of search results AUSLAN CORPUS ACCESS  ' title='Slide: 6' border='1'  width='85%%'/>
@@ -95,7 +95,7 @@ The Auslan Corpus holds great value as an educational tool for Auslan users and 
 
 </section>
 
-![alt text](Slide07.png)
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide07.png' alt='' title='Slide: 7' border='1'  width='85%%'/>
@@ -104,7 +104,7 @@ For all of the collections we are working with data is discoverable via some kin
 
 </section>
 
-![alt text](Slide08.png)
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide08.png' alt='' title='Slide: 8' border='1'  width='85%%'/>
@@ -113,7 +113,7 @@ The LDaCA services we are building use an API to drive the data portals. The API
 
 </section>
 
-![alt text](Slide09.png)
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide09.png' alt='' title='Slide: 9' border='1'  width='85%%'/>
@@ -132,7 +132,7 @@ The UTS team presented on this at [eResearch Australasia 2019](https://ptsefton.
 
 </section>
 
-![alt text](Slide10.png)
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide10.png' alt='  ' title='Slide: 10' border='1'  width='85%%'/>
@@ -147,7 +147,7 @@ The LDaCA repositories use the Oxford Common File Layout ([OCFL](https://ocfl.io
 
 </section>
 
-![alt text](Slide11.png '{"conformsTo": "http://purl.archive.org/language-data-commons/profile"}')
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide11.png' alt='{    &quot;conformsTo&quot;: &quot;http://purl.archive.org/language-data-commons/profile&quot; }  ' title='Slide: 11' border='1'  width='85%%'/>
@@ -158,7 +158,7 @@ The Profile is an “RO-Crate Profile”, a kind of Cook Book for how to describ
 
 </section>
 
-![alt text](Slide12.png "☁️ 📂  📄 ID? Title? Description?  👩‍🔬👨🏿‍🔬Who created this data? 📄What parts does it have?  📅 When?  🗒️ What is it about?  ♻️ How can it be reused? 🏗️ As part of which project?  💰 Who funded it? ⚒️ How was it made?  Addressable resources Local Data  👩🏿‍🔬 https://orcid.org/0000-0001-2345-6789 🔬 https://en.wikipedia.org/wiki/Scanning_electron_microscope")
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide12.png' alt='☁️ 📂  📄 ID? Title? Description?  👩‍🔬👨🏿‍🔬Who created this data? 📄What parts does it have?  📅 When?  🗒️ What is it about?  ♻️ How can it be reused? 🏗️ As part of which project?  💰 Who funded it? ⚒️ How was it made?  Addressable resources Local Data  👩🏿‍🔬 https://orcid.org/0000-0001-2345-6789 🔬 https://en.wikipedia.org/wiki/Scanning_electron_microscope ' title='Slide: 12' border='1'  width='85%%'/>
@@ -167,7 +167,7 @@ RO-Crate is method for describing a dataset as a digital object using a **single
 
 </section>
 
-![alt text](Slide13.png "📂  🔬 🔭 📹 💽 🖥️ ⚙️🎼🌡️🔮🎙️🔍🌏📡💉🏥💊🌪️ ")
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide13.png' alt='📂  🔬 🔭 📹 💽 🖥️ ⚙️🎼🌡️🔮🎙️🔍🌏📡💉🏥💊🌪️ ' title='Slide: 13' border='1'  width='85%%'/>
@@ -176,7 +176,7 @@ The dataset may contain any kind of data resource about anything, in any format 
 
 </section>
 
-![alt text](Slide14.png)
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide14.png' alt=' ' title='Slide: 14' border='1'  width='85%%'/>
@@ -185,7 +185,7 @@ The RO-Crate standard also strongly recommends that JSON metadata is supplemente
 
 </section>
 
-![alt text](Slide15.png "https://mod.paradisec.org.au")
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide15.png' alt=' https://mod.paradisec.org.au ' title='Slide: 15' border='1'  width='85%%'/>
@@ -194,7 +194,7 @@ Here is the same page from the previous slide seen in a working model of an RO-C
 
 </section>
 
-![alt text](Slide16.png)
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide16.png' alt='  ' title='Slide: 16' border='1'  width='85%%'/>
@@ -205,7 +205,7 @@ RO-Crate has a growing number of [tools and software libraries](https://www.rese
 
 </section>
 
-![alt text](Slide17.png)
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide17.png' alt=' ' title='Slide: 17' border='1'  width='85%%'/>
@@ -214,7 +214,7 @@ The base vocabulary for the JSON-LD used in RO-Crate is schema.org - a widely us
 
 </section>
 
-![alt text](Slide18.png)
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide18.png' alt='  ' title='Slide: 18' border='1'  width='85%%'/>
@@ -227,7 +227,7 @@ As part of a LIEF project (2022-23, led by author Thieberger), revisions to the 
 
 </section>
 
-![alt text](Slide19.png)
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide19.png' alt='  ' title='Slide: 19' border='1'  width='85%%'/>
@@ -238,7 +238,7 @@ These terms have been modernised and mainstreamed from previous ways of describi
 
 </section>
 
-![alt text](Slide20.png)
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide20.png' alt='  ' title='Slide: 20' border='1'  width='85%%'/>
@@ -249,7 +249,7 @@ Before we come back in detail to how RO-Crate works we will discuss the structur
 
 </section>
 
-![alt text](Slide21.png)
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide21.png' alt=' ' title='Slide: 21' border='1'  width='85%%'/>
@@ -260,7 +260,7 @@ For small, stable collections of data an entire collection (often referred to a 
 
 </section>
 
-![alt text](Slide22.png)
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide22.png' alt='  ' title='Slide: 22' border='1'  width='85%%'/>
@@ -273,7 +273,7 @@ A Collection Object MAY have explicit listing of hasMember properties - which ma
 
 </section>
 
-![alt text](Slide23.png "Describo Screenshot editing a collection record (PT)")
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide23.png' alt='Describo Screenshot editing a collection record (PT)  ' title='Slide: 23' border='1'  width='85%%'/>
@@ -284,7 +284,7 @@ In this case the description is of the collection object.
 
 [describo online]: https://github.com/Arkisto-Platform/describo-online
 
-![alt text](Slide24.png "LDaCA")
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide24.png' alt='LDaCA ' title='Slide: 24' border='1'  width='85%%'/>
@@ -293,7 +293,7 @@ Once the data is described, we ingest it into a repository, as a set of files on
 
 </section>
 
-![alt text](Slide25.png "Demo")
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide25.png' alt='Demo ' title='Slide: 25' border='1'  width='85%%'/>
