@@ -14,10 +14,10 @@ This work is licensed under a <a rel="license" href="http://creativecommons.org/
 
 [Download as PDF](fair-care-eresearch-2022.pdf)
 
-![alt text](Slide00.png "")
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='/fair-care-eresearch-2022/Slide00.png' title='Slide: 0' border='1'  width='85%%'/>
+<img src='Slide00.png' title='Slide: 0' border='1'  width='85%%'/>
 
 This is write-up of a talk given at eResearch Australasia 2022, delivered by Peter Sefton, with some additional detail.
 
@@ -27,11 +27,11 @@ Edited by: Simon Musgrave
 
 </section>
 
-![alt text](Slide01.png "Project Team(alphabetical order) Michael D’Silva  Marco Fahmi Leah Gustafson  Michael Haugh Cale Johnstone  Kathrin Kaiser  Sara King  Marco La Rosa  Mel Mistica  Simon Musgrave  Joel Nothman  Moises Sacal  Martin Schweinberger  PT Sefton   With thanks for their contribution: Partner Institutions:")
+
 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='/fair-care-eresearch-2022/Slide01.png' alt='Project Team(alphabetical order) Michael D’Silva  Marco Fahmi Leah Gustafson  Michael Haugh Cale Johnstone  Kathrin Kaiser  Sara King  Marco La Rosa  Mel Mistica  Simon Musgrave  Joel Nothman  Moises Sacal  Martin Schweinberger  PT Sefton   With thanks for their contribution: Partner Institutions: ' title='Slide: 1' border='1'  width='85%%'/>
+<img src='Slide01.png' alt='Project Team(alphabetical order) Michael D’Silva  Marco Fahmi Leah Gustafson  Michael Haugh Cale Johnstone  Kathrin Kaiser  Sara King  Marco La Rosa  Mel Mistica  Simon Musgrave  Joel Nothman  Moises Sacal  Martin Schweinberger  PT Sefton   With thanks for their contribution: Partner Institutions: ' title='Slide: 1' border='1'  width='85%%'/>
 
 The Language Data Commons of Australia Data Partnerships (LDaCA) and the Australian Text Analytics Platform (ATAP) are building towards a scalable and flexible language data and analytics commons. These projects will be part of the Humanities and Social Sciences Research Data Commons (HASS RDC).
 
@@ -41,19 +41,19 @@ The platform will provide workbench services to support computational research, 
 
 </section>
 
-![alt text](Slide02.png "The Language Data Commons of Australia (LDaCA) and Australian Text Analytics Platform (ATAP) projects received investment (https://doi.org/10.47486/DP768 and https://doi.org/10.47486/PL074) from the Australian Research Data Commons (ARDC). The ARDC is funded by the National Collaborative Research Infrastructure Strategy (NCRIS).")
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='/fair-care-eresearch-2022/Slide02.png' alt='The Language Data Commons of Australia (LDaCA) and Australian Text Analytics Platform (ATAP) projects received investment (https://doi.org/10.47486/DP768 and https://doi.org/10.47486/PL074) from the Australian Research Data Commons (ARDC). The ARDC is funded by the National Collaborative Research Infrastructure Strategy (NCRIS). ' title='Slide: 2' border='1'  width='85%%'/>
+<img src='Slide02.png' alt='The Language Data Commons of Australia (LDaCA) and Australian Text Analytics Platform (ATAP) projects received investment (https://doi.org/10.47486/DP768 and https://doi.org/10.47486/PL074) from the Australian Research Data Commons (ARDC). The ARDC is funded by the National Collaborative Research Infrastructure Strategy (NCRIS). ' title='Slide: 2' border='1'  width='85%%'/>
 
 This work is supported by the Australian Research Data Commons.
 
 </section>
 
-![alt text](Slide03.png "")
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='/fair-care-eresearch-2022/Slide03.png' alt='  ' title='Slide: 3' border='1'  width='85%%'/>
+<img src='Slide03.png' alt='  ' title='Slide: 3' border='1'  width='85%%'/>
 
 Last year at eResearch Australasia, the Language Data Commons of Australia (LDaCA) team presented a design for a distributed access control system which could look after the A-is-for-accessible in FAIR data; in this presentation we describe and demonstrate a pilot system based on that design, showing how data licenses that allow access by identified groups of people to language data collections can be used with an AAF pilot system (CILogon) to give the right people access to data resources.
 
@@ -68,10 +68,10 @@ The idea is to separate safe storage of data from its delivery. Each item in a r
 
 </section>
 
-![alt text](Slide04.png "")
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='/fair-care-eresearch-2022/Slide04.png' alt='  ' title='Slide: 4' border='1'  width='85%%'/>
+<img src='Slide04.png' alt='  ' title='Slide: 4' border='1'  width='85%%'/>
 
 Regarding rights, our project is informed by the [CARE] principles for Indigenous data which also describe the level of respect which should be given to any data collected from individuals or communities.
 
@@ -81,19 +81,19 @@ Regarding rights, our project is informed by the [CARE] principles for Indigenou
 
 </section>
 
-![alt text](Slide05.png "")
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='/fair-care-eresearch-2022/Slide05.png' alt='  ' title='Slide: 5' border='1'  width='85%%'/>
+<img src='Slide05.png' alt='  ' title='Slide: 5' border='1'  width='85%%'/>
 
 We are designing the system so that it can work with diverse ways of expressing access rights, for example we are considering how the approach described here could be extended based on the likes of the [Tribal Knowledge labels](https://localcontexts.org/labels/traditional-knowledge-labels/), incorporating them into the data licensing framework we discuss below.
 
 </section>
 
-![alt text](Slide06.png "Case Study - Sydney Speaks")
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='/fair-care-eresearch-2022/Slide06.png' alt='Case Study - Sydney Speaks  ' title='Slide: 6' border='1'  width='85%%'/>
+<img src='Slide06.png' alt='Case Study - Sydney Speaks  ' title='Slide: 6' border='1'  width='85%%'/>
 
 In this talk we look at a case-study with the [Sydney Speaks project](https://slll.cass.anu.edu.au/sydney-speaks) via LDaCA steering committee member Professor [Catherine Travis](https://orcid.org/0000-0002-1410-3268).
 
@@ -113,10 +113,10 @@ Because this involved human participants there are restrictions on the distribut
 
 </section>
 
-![alt text](Slide07.png "Sydney Speaks Licenses")
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='/fair-care-eresearch-2022/Slide07.png' alt='Sydney Speaks Licenses ' title='Slide: 7' border='1'  width='85%%'/>
+<img src='Slide07.png' alt='Sydney Speaks Licenses ' title='Slide: 7' border='1'  width='85%%'/>
 
 There are four tiers of data access we need to enforce and observe for this data based on the participant agreements and ethics arrangements under which the data were collected.
 
@@ -124,10 +124,10 @@ Concerns about rights and interests are important for any data involving people 
 
 </section>
 
-![alt text](Slide08.png "")
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='/fair-care-eresearch-2022/Slide08.png' alt='' title='Slide: 8' border='1'  width='85%%'/>
+<img src='Slide08.png' alt='' title='Slide: 8' border='1'  width='85%%'/>
 
 (Image generated by DALLE - prompt: A NSW Driver license for a wolfhound pup named Floki)
 
@@ -143,10 +143,10 @@ In the world of research data generated by or about human participants, licenses
 
 </section>
 
-![alt text](Slide09.png "")
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='/fair-care-eresearch-2022/Slide09.png' alt='  ' title='Slide: 9' border='1'  width='85%%'/>
+<img src='Slide09.png' alt='  ' title='Slide: 9' border='1'  width='85%%'/>
 
 (Dall-e prompt : A sad dog sitting on an iceberg, XKCD)
 
@@ -168,10 +168,10 @@ The [CADRE] project is working on systems that will eventually support all these
 
 </section>
 
-![alt text](Slide10.png "")
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='/fair-care-eresearch-2022/Slide10.png' alt='' title='Slide: 10' border='1'  width='85%%'/>
+<img src='Slide10.png' alt='' title='Slide: 10' border='1'  width='85%%'/>
 
 The access control system we have been prototyping is based on licenses.
 
@@ -183,10 +183,10 @@ This diagram shows how a license is explicitly linked to the data using a metada
 
 </section>
 
-![alt text](Slide11.png "")
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='/fair-care-eresearch-2022/Slide11.png' alt='' title='Slide: 11' border='1'  width='85%%'/>
+<img src='Slide11.png' alt='' title='Slide: 11' border='1'  width='85%%'/>
 
 (This diagram has been updated from the one presented at eResearch to show two portals instead of one)
 
@@ -196,10 +196,10 @@ Using this license, distributed access portals in our architecture can check aga
 
 </section>
 
-![alt text](Slide12.png "")
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='/fair-care-eresearch-2022/Slide12.png' alt='' title='Slide: 12' border='1'  width='85%%'/>
+<img src='Slide12.png' alt='' title='Slide: 12' border='1'  width='85%%'/>
 
 (Images: Various baskets of puppies by DALL-E)
 
@@ -215,10 +215,10 @@ Scope:
 
 </section>
 
-![alt text](Slide13.png "")
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='/fair-care-eresearch-2022/Slide13.png' alt='' title='Slide: 13' border='1'  width='85%%'/>
+<img src='Slide13.png' alt='' title='Slide: 13' border='1'  width='85%%'/>
 
 The first prototype, which we presented at eResearch Australasia last year was a proof-of-concept Github based system. This demonstrated that authorization can be delegated from a repository to an external service. For each of the Sydney Speaks licenses there was a Github group (organization). The repository, when requested to serve data would get the user to login using the Github Authentication services, then check if the user was in the correct license group.
 
@@ -232,10 +232,10 @@ So, we talked to the our colleagues at the Australian Access Federation (AAF), a
 
 </section>
 
-![alt text](Slide14.png "")
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='/fair-care-eresearch-2022/Slide14.png' alt='' title='Slide: 14' border='1'  width='85%%'/>
+<img src='Slide14.png' alt='' title='Slide: 14' border='1'  width='85%%'/>
 
 The AAF, as it happened were already working with other research groups on a service called [CILogon] (hosted in the USA initially, but soon to be hosted in Australia), like Github, this service has groups (which was our way of associating users with licenses in the absence of a specific license-granting service), but also allows users to log in with a variety of Authentication providers, including research institutions, via the Australian Access Federation as well as social logins such as Google and Microsoft (and our old friend Github).
 
@@ -269,10 +269,10 @@ REMS (Resource Entitlement Management System) is a tool to help researchers brow
 
 </section>
 
-![alt text](Slide15.png "")
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='/fair-care-eresearch-2022/Slide15.png' alt='REMS ' title='Slide: 15' border='1'  width='85%%'/>
+<img src='Slide15.png' alt='REMS ' title='Slide: 15' border='1'  width='85%%'/>
 
 Recently (after the abstract for this presentation was submitted) the AAF team made us aware of the Resource Entitlement Management System, [REMS](https://github.com/CSCfi/rems), which is an open source application out of Finland. This software is the missing link for LDaCA in that it allows a data custodian to grant licenses to users. And it works with CILogon as an Authentication layer so we can let users log in using a variety of services.
 
@@ -284,10 +284,10 @@ Once a user has been granted a license in a pre-authorization process then a rep
 
 </section>
 
-![alt text](Slide16.png "")
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='/fair-care-eresearch-2022/Slide16.png' alt='  ' title='Slide: 16' border='1'  width='85%%'/>
+<img src='Slide16.png' alt='  ' title='Slide: 16' border='1'  width='85%%'/>
 
 This interaction diagram shows the flow involved in a user applying for a data license via REMS.
 
@@ -303,28 +303,28 @@ The next slide shows the interactions involved in accessing data once a user has
 
 </section>
 
-![alt text](Slide17.png "")
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='/fair-care-eresearch-2022/Slide17.png' alt='  ' title='Slide: 17' border='1'  width='85%%'/>
+<img src='Slide17.png' alt='  ' title='Slide: 17' border='1'  width='85%%'/>
 
 This diagram shows the “access-control dance” for a user who has been granted a license in REMS obtaining access to a dataset at a data portal which gives access to data in a repository or archive.
 
 </section>
 
-![alt text](Slide18.png "Demo")
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='/fair-care-eresearch-2022/Slide18.png' alt='Demo ' title='Slide: 18' border='1'  width='85%%'/>
+<img src='Slide18.png' alt='Demo ' title='Slide: 18' border='1'  width='85%%'/>
 
 In this video we demonstrate how to use REMS and how does a user request access to an LDaCA resource.
 
 </section>
 
-![alt text](Slide19.png "FAQ")
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='/fair-care-eresearch-2022/Slide19.png' alt='FAQ  ' title='Slide: 19' border='1'  width='85%%'/>
+<img src='Slide19.png' alt='FAQ  ' title='Slide: 19' border='1'  width='85%%'/>
 
 (This section was added after the conference, to try to summarize the discussion and clarify requirements by starting an FAQ on this approach)
 
@@ -387,19 +387,19 @@ The final three slides have been contributed by co-author Patrick.
 These slides briefly outline the AAF process for the next phase that will provide the foundations for the development of the service and the creation of those policies to support the community and the service.
 
 
-![alt text](Slide20.png "Next Steps in the AAF Engagement ….. Revisit and consolidate the project’s vision through interviews and engagement with stakeholders,  collaborators and  community participants This next phase will provide the foundations for the development of policies to support the community. These will assist in creating a trusted community for access to sensitive data that supports the good practice and protocols. These activities are outlined in the following slides …")
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='/fair-care-eresearch-2022/Slide20.png' alt='Next Steps in the AAF Engagement ….. Revisit and consolidate the project’s vision through interviews and engagement with stakeholders,  collaborators and  community participants This next phase will provide the foundations for the development of policies to support the community. These will assist in creating a trusted community for access to sensitive data that supports the good practice and protocols. These activities are outlined in the following slides … ' title='Slide: 20' border='1'  width='85%%'/>
+<img src='Slide20.png' alt='Next Steps in the AAF Engagement ….. Revisit and consolidate the project’s vision through interviews and engagement with stakeholders,  collaborators and  community participants This next phase will provide the foundations for the development of policies to support the community. These will assist in creating a trusted community for access to sensitive data that supports the good practice and protocols. These activities are outlined in the following slides … ' title='Slide: 20' border='1'  width='85%%'/>
 
 This process will support the project to deliver a viable service that meets researchers’ needs and is trusted by the community and the participants to safely distribute data to authorised persons.
 
 </section>
 
-![alt text](Slide21.png "The AAF&#x27;s business analyst conducts interviews with stakeholders and community members to discover and formalise the community&#x27;s processes and requirements")
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='/fair-care-eresearch-2022/Slide21.png' alt='The AAF&#x27;s business analyst conducts interviews with stakeholders and community members to discover and formalise the community&#x27;s processes and requirements ' title='Slide: 21' border='1'  width='85%%'/>
+<img src='Slide21.png' alt='The AAF&#x27;s business analyst conducts interviews with stakeholders and community members to discover and formalise the community&#x27;s processes and requirements ' title='Slide: 21' border='1'  width='85%%'/>
 
 The AAF’s business analyst is conducting interviews with the key stakeholders.
 This discovery process will collect information on the current and the “to-be” state of the service.
@@ -410,10 +410,10 @@ The process will facilitate the building of a service that empowers the data cus
 
 </section>
 
-![alt text](Slide22.png "These feeds into the prototyping &amp; implementing phase")
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='/fair-care-eresearch-2022/Slide22.png' alt='These feeds into the prototyping &amp; implementing phase   ' title='Slide: 22' border='1'  width='85%%'/>
+<img src='Slide22.png' alt='These feeds into the prototyping &amp; implementing phase   ' title='Slide: 22' border='1'  width='85%%'/>
 
 The basis for prototyping is iterative:
 Identify

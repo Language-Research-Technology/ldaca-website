@@ -4,6 +4,8 @@ title = 'LDaCA'
 theme = "LoveIt"
 enableRobotsTXT = true
 
+[markup.goldmark.renderer]
+  unsafe = true
 
 # Author config
 [author]
@@ -81,7 +83,7 @@ enableRobotsTXT = true
     [params.home.posts]
       enable = false
       # special amount of posts in each home posts page
-      paginate = 6
+      paginate = 20
       # LoveIt DELETED | 0.2.0 replaced with hiddenFromHomePage in params.page
       # default behavior when you don't set "hiddenFromHomePage" in front matter
       defaultHiddenFromHomePage = false
