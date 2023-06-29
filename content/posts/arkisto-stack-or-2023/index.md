@@ -117,7 +117,7 @@ This is the overall architecture for data storage and delivery — missing is ho
 
 <img src='Slide10.png' alt='  ' title='Slide: 10' border='1'  width='85%%'/>
 
-At this point I will introduce one of the themes of this talk. In March this year, [this blog post was published](https://bibwild.wordpress.com/2023/03/21/ocfl-and-source-of-truth-two-options/) - looking at the pros and cons of using OCFL (the Oxford Common File Layout as the “source of truth” for a system (say a repository).
+At this point I will introduce one of the themes of this talk. In March this year, [this blog post was published](https://bibwild.wordpress.com/2023/03/21/ocfl-and-source-of-truth-two-options/) - looking at the pros and cons of using OCFL (the Oxford Common File Layout) as the “source of truth” for a system (say a repository).
 
 We are very much taking the OCFL (that is file-in-storage-as-the-source-of-truth) approach in LDaCA. Which begs the question: “But doesn’t that mean that it’s very specific to language data?” No, because we’re using a very flexible, extensible, discipline-neutral format for data description – yes, we have ways to specialise metadata and interfaces to language and other cultural metadata, but NO, the systems are not locked-in to that mode of operation. This means we should be able to share development and maintenance more broadly than with a single archive.
 
