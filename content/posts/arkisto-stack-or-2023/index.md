@@ -17,13 +17,19 @@ This presentation was delivered by Peter Sefton at the [Open Repositories 2023](
 
 This contains the slides and complete speaker notes, which have been edited after the conference.
 
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
-<img src='Slide00.png' alt='Towards a Generic Research Data Commons: A highly scalable standard-based repository framework for Language and other Humanities data Peter Sefton1, Simon Musgrave2, Nick Thieberger3 1,2University of Queensland, Australia; 2Monash University, Australia; 3University of Melbourne, Australia  ' title='Slide: 0' border='1'  width='85%%'/>
 
-We will present a standards-based generalized architecture for large-scale data repositories for research and preservation illustrated with real world examples drawn from a number of languages and cultural archive projects. This work is taking place in the context of the Australian Humanities and Social Sciences Research Data Commons, particularly the Language Data component thereof and the long-established PARADISEC cultural archive. The standards used include the Oxford Common File Layout for storage, Research Object CRATE (RO-Crate) for consistent linked-data description of FAIR digital objects, and a language data metadata profile to ensure long-term interoperability between systems and re-usability over time. We also discuss data licensing and authorization for access to non-open resources. We suggest that the approach shown here may be used in other disciplines or for other kinds of digital library, repository or archival systems.
+We will present a standards-based generalized architecture for large-scale data* repositories for research and preservation illustrated with real world examples drawn from a number of languages and cultural archive projects. This work is taking place in the context of the Australian Humanities and Social Sciences Research Data Commons, particularly the Language Data component thereof and the long-established PARADISEC cultural archive. The standards used include the Oxford Common File Layout for storage, Research Object CRATE (RO-Crate) for consistent linked-data description of FAIR digital objects, and a language data metadata profile to ensure long-term interoperability between systems and re-usability over time. We also discuss data licensing and authorization for access to non-open resources. We suggest that the approach shown here may be used in other disciplines or for other kinds of digital library, repository or archival systems.
 
-</section>
+
+*The submitted abstract did not have the word data here - added for clarity
+
+
+
+
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -91,7 +97,10 @@ This is a taster of what data looks like in the kids of repositories we are talk
 
 <img src='Slide08.png' alt='' title='Slide: 8' border='1'  width='85%%'/>
 
+
 The LDaCA services we are building use an API to drive the data portals. The API can be used for direct access with appropriate access control – see [another eResearch presentation](posts/fair-care-eresearch-2022) which explains this in detail. These screenshots show code notebooks running in BinderHub on the Nectar cloud accessing language resources.
+
+This  work has also been [written up](https://digital.library.unt.edu/ark:/67531/metadc2114304/) for the June 30th at the the *2nd International Workshop on Digital Language Archives (LangArc 2023) virtual workshop on digital language archives* 2023-06-30 
 
 </section>
 
@@ -156,7 +165,8 @@ In the early days of the “Open Repositories” movement repositories had Dubli
 
 <img src='Slide15.png' alt=' Using a domain specific profile extends the core RO-Crate for a specific type of data – eg language data, computational workflows or “cultural collections”  (You can use more than one profile) ' title='Slide: 15' border='1'  width='85%%'/>
 
-These days, using linked data, it is no longer necessary to have a bevy of XML schemas with incompatible encodings to store data from different schemas - an environment is emerging. In which
+
+These days using linked data it is no longer necessary to have a bevy of XML schemas with incompatible encodings to store data from different schemas, different voclabularies and ontologies can co-exist and be expressed in a common way.
 
 </section>
 
@@ -164,9 +174,9 @@ These days, using linked data, it is no longer necessary to have a bevy of XML s
 
 <img src='Slide16.png' alt='' title='Slide: 16' border='1'  width='85%%'/>
 
-In the PARADISEC system, this is achieved by storing files on disk in a simple hierarchy - with metadata and other resources stored together in a directory. This scheme allows for hands-on management of data resources, independently of the software used to serve them.
 
-(This slide and the next are from a [previous presentation](https://www.ldaca.edu.au/posts/ldaca-metadata-ecosystem-eresearch-2022/))
+In the PARADISEC system this is achieved by storing files on disk in a simple hierarchy - with metadata and other resources stored together in a directory - this scheme allows for hands-on management of data resources, independently of the software used to serve them. 
+
 
 This approach means that if the PARADISEC software-stack becomes un-maintainable for financial or technical reasons the important resources, the data, are stored safely on disk with their metadata and a new access portal could be constructed relatively easily.
 
@@ -175,6 +185,8 @@ Despite the valuable features of this solution, it is not generalisable. The met
 In 2019 PARADISEC and the eResearch team at UTS received small grants from the Australian National Data Service and began collaborating on an approach to managing archival repositories which built on this PARADISEC approach of storing metadata with data.
 
 The UTS team presented on this at [eResearch Australasia 2019](https://ptsefton.com/2019/11/05/FAIR%20Repo%20-%20eResearch%20Presentation/index.html)
+
+
 
 </section>
 
@@ -192,7 +204,7 @@ RO-Crate has a growing number of [tools and software libraries](https://www.rese
 
 <img src='Slide18.png' alt='  ' title='Slide: 18' border='1'  width='85%%'/>
 
-Here, for comparison is [how Fedora 6 would store an object (an Atomic Resource in Fedora-speak) like this with multiple files](https://wiki.lyrasis.org/display/FEDORA6x/Fedora+OCFL+Object+Structure#FedoraOCFLObjectStructure-FedoraAtomicResource-Container). Like RO-Crate this uses linked-data but in this case split up into multiple files containing RDF triples. (This is similar to the pre-RO-Crate approach taken by the Research Object spec).
+Here, for comparison is [how Fedora 6 would store an object (an Atomic Resource in Fedora-speak) like this with multiple files](https://wiki.lyrasis.org/display/FEDORA6x/Fedora+OCFL+Object+Structure#FedoraOCFLObjectStructure-FedoraAtomicResource-Container). Like RO-Cratee this uses linked-dataa but in this case split up into multiple files containing RDF triples. (This is similar to the pre-RO-Crate approach taken by the Research Object spec).
 
 This also shows some of what an OCFL repository looks like – this is an OCFL object with a single version.
 
@@ -201,6 +213,7 @@ This also shows some of what an OCFL repository looks like – this is an OCFL o
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide19.png' alt=' This is an RO-Crate Object which is stored as an OCFL Object ' title='Slide: 19' border='1'  width='85%%'/>
+
 
 This screenshot shows an example of an Arkisto-style use of OCFL (all of the metadata is stored in the ro-crate-metadata.json rather than spread out as in Fedora).
 
@@ -274,7 +287,7 @@ In the first phase of the LDaCA project, work focused on batch import of data us
 
 This slide shows some JSON-LD metadata that describes the way this RO-Crate metadata was created – illustrating how RO-Crate can be used to record provenance.
 
-(UPDATE: I didn't explain [JSON-LD](https://json-ld.org/) during the presentation. JSON-LD is a method of encoding linked-data (which can be quite esoteric and unapproachable) in JSON a method of describing data in simple text, which is widely used and understood by programmers.)
+(UPDATE: I didn't explain [JSON-LD](https://json-ld.org/) properly during the presentation. JSON-LD is a method of encoding linked-data (which can be quite esoteric and unapproachable) in JSON a method of describing data in simple text, which is widely used and understood by programmers.)
 
 </section>
 
@@ -317,6 +330,10 @@ Here’s another repository that uses RO-Crate metadata (from the Language Data 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide32.png' alt=' SCREENSHOT OF NOTEBOOK  ' title='Slide: 32' border='1'  width='85%%'/>
+
+
+This is a screenshot of a Jupyter notebook that can process data from a repository via its API.
+
 
 </section>
 
