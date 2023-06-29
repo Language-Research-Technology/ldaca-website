@@ -262,7 +262,7 @@ This slide shows how we have abstracted the “A” for Access in FAIR out of th
 - Each repository only needs an authoritative list of licenses and trusted license management systems to be able to serve the data.
 - License management is handled by a dedicated system that can deal with application and invitation workflows to grant licenses (including simple self-serve click-through license agreements)
 
-Note that our work is also informed by the [CARE principles for Indigenous data Governance (Collective benefit, Authority to control, Responsibility, Ethics)](https://www.gida-global.org/care) which frame the way FAIR protocols are implemented.
+Note that our work is also informed by the [CARE principles for Indigenous data Governance (Collective benefit, Authority to control, Responsibility, Ethics)](https://www.gida-global.org/care) which frame the way FAIR protocols are implemented. Again, see the [LangArc workshop write-up](https://digital.library.unt.edu/ark:/67531/metadc2114304/).
 
 </section>
 
