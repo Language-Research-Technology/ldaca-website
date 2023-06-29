@@ -27,6 +27,7 @@ We will present a standards-based generalized architecture for large-scale data*
 *The submitted abstract did not have the word data here - added for clarity
 
 
+By: Peter Sefton (University of Queensland), Simon Musgrave (University of Queensland & Monash University) & Nick Thieberger (University of Melbourne)
 
 
 
