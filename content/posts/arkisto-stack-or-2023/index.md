@@ -302,6 +302,9 @@ Here we see the Crate-O metadata tool (which is a zero-install web application t
 
 We hope to work with other editor projects (eg [Describo](https://describo.github.io/#/)) to make editor profiles as compatible as possible.
 
+
+
+
 </section>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
