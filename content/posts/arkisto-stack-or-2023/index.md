@@ -21,7 +21,7 @@ This contains the slides and complete speaker notes, which have been edited afte
 
 We will present a standards-based generalized architecture for large-scale data\* repositories for research and preservation illustrated with real world examples drawn from a number of languages and cultural archive projects. This work is taking place in the context of the Australian Humanities and Social Sciences Research Data Commons, particularly the Language Data component thereof and the long-established PARADISEC cultural archive. The standards used include the Oxford Common File Layout for storage, Research Object CRATE (RO-Crate) for consistent linked-data description of FAIR digital objects, and a language data metadata profile to ensure long-term interoperability between systems and re-usability over time. We also discuss data licensing and authorization for access to non-open resources. We suggest that the approach shown here may be used in other disciplines or for other kinds of digital library, repository or archival systems.
 
-\*The submitted abstract did not have the word data here - added for clarity
+\*The submitted abstract did not have the word data here - added for clarity.
 
 By: Peter Sefton (University of Queensland), Simon Musgrave (University of Queensland & Monash University) & Nick Thieberger (University of Melbourne)
 
