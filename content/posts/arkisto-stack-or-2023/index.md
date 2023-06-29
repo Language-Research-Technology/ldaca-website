@@ -101,7 +101,7 @@ This is a taster of what data looks like in the kids of repositories we are talk
 
 The LDaCA services we are building use an API to drive the data portals. The API can be used for direct access with appropriate access control – see [another eResearch presentation](posts/fair-care-eresearch-2022) which explains this in detail. These screenshots show code notebooks running in BinderHub on the Nectar cloud accessing language resources.
 
-This  work has also been [written up](https://digital.library.unt.edu/ark:/67531/metadc2114304/) for the June 30th at the the *2nd International Workshop on Digital Language Archives (LangArc 2023) virtual workshop on digital language archives* 2023-06-30 
+This  work has also been [written up](https://digital.library.unt.edu/ark:/67531/metadc2114304/) for the *2nd International Workshop on Digital Language Archives (LangArc 2023) virtual workshop on digital language archives* 2023-06-30.
 
 </section>
 
