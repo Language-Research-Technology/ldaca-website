@@ -14,6 +14,18 @@ $color_count: 1;
   background-size: 100% auto;
 }
 
+[theme=dark] .single .content {
+  a {
+    color: $storm_blue;
+  }
+}
+
+.single .content {
+  a {
+    color: $storm_blue;
+  }
+}
+
 .organisation {
   background: red;
 }
