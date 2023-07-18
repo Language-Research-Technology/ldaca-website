@@ -4,6 +4,8 @@ title = 'LDaCA'
 theme = "LoveIt"
 enableRobotsTXT = true
 
+[markup.goldmark.renderer]
+  unsafe = true
 
 # Author config
 [author]
@@ -83,7 +85,7 @@ enableRobotsTXT = true
     [params.home.posts]
       enable = false
       # special amount of posts in each home posts page
-      paginate = 6
+      paginate = 20
       # LoveIt DELETED | 0.2.0 replaced with hiddenFromHomePage in params.page
       # default behavior when you don't set "hiddenFromHomePage" in front matter
       defaultHiddenFromHomePage = false
@@ -277,6 +279,7 @@ enableRobotsTXT = true
         # someJavascript = "https://cdn.example.com/some.js"
         twitterWidgets = "https://platform.twitter.com/widgets.js"
         senderWidgets = "sender.js"
+        mailchimplocal = "mailchimp.js"
         stylingWidgets = "styling.js"
     # LoveIt CHANGED | 0.2.10 Page SEO config
     [params.page.seo]
@@ -320,12 +323,12 @@ enableRobotsTXT = true
 
   # LoveIt NEW | 0.2.0 Analytics config
   [params.analytics]
-    enable = false
+    enable = true
     # Google Analytics
     [params.analytics.google]
       id = "G-C3GSGXCYV6"
       # whether to anonymize IP
-
+      anonymizeIP = true
 # Menu
 [menu]
   [[menu.main]]
