@@ -14,8 +14,6 @@ This work is licensed under a <a rel="license" href="http://creativecommons.org/
 
 [Download as PDF](fair-care-eresearch-2022.pdf)
 
-
-
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide00.png' title='Slide: 0' border='1'  width='85%%'/>
 
@@ -27,9 +25,6 @@ Edited by: Simon Musgrave
 
 </section>
 
-
-
-
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide01.png' alt='Project Team(alphabetical order) Michael D’Silva  Marco Fahmi Leah Gustafson  Michael Haugh Cale Johnstone  Kathrin Kaiser  Sara King  Marco La Rosa  Mel Mistica  Simon Musgrave  Joel Nothman  Moises Sacal  Martin Schweinberger  PT Sefton   With thanks for their contribution: Partner Institutions: ' title='Slide: 1' border='1'  width='85%%'/>
 
@@ -37,11 +32,9 @@ The Language Data Commons of Australia Data Partnerships (LDaCA) and the Austral
 
 The Data Commons will focus on preservation and discovery of distributed multi-modal language data collections under a variety of governance frameworks. This will include access control that reflects ethical constraints and intellectual property rights, including those of Aboriginal and Torres Strait Islander, migrant and Pacific communities.
 
-The platform will provide workbench services to support computational research, starting with code-notebooks with no-code research tools provided in later phases. Research artefacts such as code and derived data will be made available as fully documented research objects that are re-runnable and rigorously described. Metrics to demonstrate the impact of the platform are projected to include usage statistics, data and article citations. These projects are led by Professor Michael Haugh of the School of Languages and Culture at the University of Queensland with several partner institutions.
+The platform will provide workbench services to support computational research, starting with code-notebooks with no-code research tools provided in later phases. Research artefacts such as code and derived data will be made available as fully documented research objects that are re-runnable and rigorously described. Metrics to demonstrate the impact of the platform are projected to include usage statistics, data and article citations. These projects are led by Professor Michael Haugh of the School of Languages and Culture at The University of Queensland with several partner institutions.
 
 </section>
-
-
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide02.png' alt='The Language Data Commons of Australia (LDaCA) and Australian Text Analytics Platform (ATAP) projects received investment (https://doi.org/10.47486/DP768 and https://doi.org/10.47486/PL074) from the Australian Research Data Commons (ARDC). The ARDC is funded by the National Collaborative Research Infrastructure Strategy (NCRIS). ' title='Slide: 2' border='1'  width='85%%'/>
@@ -49,8 +42,6 @@ The platform will provide workbench services to support computational research, 
 This work is supported by the Australian Research Data Commons.
 
 </section>
-
-
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide03.png' alt='  ' title='Slide: 3' border='1'  width='85%%'/>
@@ -68,8 +59,6 @@ The idea is to separate safe storage of data from its delivery. Each item in a r
 
 </section>
 
-
-
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide04.png' alt='  ' title='Slide: 4' border='1'  width='85%%'/>
 
@@ -81,16 +70,12 @@ Regarding rights, our project is informed by the [CARE] principles for Indigenou
 
 </section>
 
-
-
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide05.png' alt='  ' title='Slide: 5' border='1'  width='85%%'/>
 
 We are designing the system so that it can work with diverse ways of expressing access rights, for example we are considering how the approach described here could be extended based on the likes of the [Tribal Knowledge labels](https://localcontexts.org/labels/traditional-knowledge-labels/), incorporating them into the data licensing framework we discuss below.
 
 </section>
-
-
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide06.png' alt='Case Study - Sydney Speaks  ' title='Slide: 6' border='1'  width='85%%'/>
@@ -113,8 +98,6 @@ Because this involved human participants there are restrictions on the distribut
 
 </section>
 
-
-
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide07.png' alt='Sydney Speaks Licenses ' title='Slide: 7' border='1'  width='85%%'/>
 
@@ -123,8 +106,6 @@ There are four tiers of data access we need to enforce and observe for this data
 Concerns about rights and interests are important for any data involving people - and a large amount the data both indigenous and non-indigenous we are using will require access control that ensures that data is shared with the right users under the right conditions.
 
 </section>
-
-
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide08.png' alt='' title='Slide: 8' border='1'  width='85%%'/>
@@ -142,8 +123,6 @@ That said, metadata _about_ a license can be used to automate decision making - 
 In the world of research data generated by or about human participants, licenses can’t always allow unauthenticated access and data redistribution, and they may permit distribution only to certain people, or classes or person. Some data, for example (particularly that which has not been or cannot be de-identified) can only be made available to the original research team.
 
 </section>
-
-
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide09.png' alt='  ' title='Slide: 9' border='1'  width='85%%'/>
@@ -168,8 +147,6 @@ The [CADRE] project is working on systems that will eventually support all these
 
 </section>
 
-
-
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide10.png' alt='' title='Slide: 10' border='1'  width='85%%'/>
 
@@ -183,8 +160,6 @@ This diagram shows how a license is explicitly linked to the data using a metada
 
 </section>
 
-
-
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide11.png' alt='' title='Slide: 11' border='1'  width='85%%'/>
 
@@ -195,8 +170,6 @@ Every item in a repository has a license, which may be an open one like CC Share
 Using this license, distributed access portals in our architecture can check against an authorization system for each request for data. The portals may both host data with the same licensing but do not need to maintain access control lists.
 
 </section>
-
-
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide12.png' alt='' title='Slide: 12' border='1'  width='85%%'/>
@@ -215,8 +188,6 @@ Scope:
 
 </section>
 
-
-
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide13.png' alt='' title='Slide: 13' border='1'  width='85%%'/>
 
@@ -232,8 +203,6 @@ So, we talked to the our colleagues at the Australian Access Federation (AAF), a
 
 </section>
 
-
-
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide14.png' alt='' title='Slide: 14' border='1'  width='85%%'/>
 
@@ -245,12 +214,12 @@ There is a [nine minute silent video](https://youtu.be/xEWXiM-jUfY) of what this
 
 AAF is engaging with our project on the following:
 
--  a cloud-based authentication and authorisation infrastructure (AAI) to support the needs of the project
--  understand and develop business process documentation for authorising access to data and services
--  configure the AAI to support these business processes and to develop extensions to facilitate new functionality that may be required
--  create a set of policies, standards and guidelines for managing researchers’ identity and access management
--  develop support documentation, train community representatives to operate the platform, and provide support to the community managers.
-The AAF has recommended CILogon & REMS as potential solutions to investigate & prototype
+- a cloud-based authentication and authorisation infrastructure (AAI) to support the needs of the project
+- understand and develop business process documentation for authorising access to data and services
+- configure the AAI to support these business processes and to develop extensions to facilitate new functionality that may be required
+- create a set of policies, standards and guidelines for managing researchers’ identity and access management
+- develop support documentation, train community representatives to operate the platform, and provide support to the community managers.
+  The AAF has recommended CILogon & REMS as potential solutions to investigate & prototype
 
 CILogon is a federated identity management platform that provides the following features:
 support for institutional and community logins
@@ -269,8 +238,6 @@ REMS (Resource Entitlement Management System) is a tool to help researchers brow
 
 </section>
 
-
-
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide15.png' alt='REMS ' title='Slide: 15' border='1'  width='85%%'/>
 
@@ -283,8 +250,6 @@ It also has features for revoking permissions, and has a full API so admin tasks
 Once a user has been granted a license in a pre-authorization process then a repository can authorize access to a resource by checking with REMS to see if a given user is pre-authorized. That is, has been granted a license. Note that users do not have to find REMS on their own - they will be directed to it from data and computing services when they need to apply for pre-authorization.
 
 </section>
-
-
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide16.png' alt='  ' title='Slide: 16' border='1'  width='85%%'/>
@@ -303,8 +268,6 @@ The next slide shows the interactions involved in accessing data once a user has
 
 </section>
 
-
-
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide17.png' alt='  ' title='Slide: 17' border='1'  width='85%%'/>
 
@@ -312,16 +275,12 @@ This diagram shows the “access-control dance” for a user who has been grante
 
 </section>
 
-
-
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide18.png' alt='Demo ' title='Slide: 18' border='1'  width='85%%'/>
 
 In this video we demonstrate how to use REMS and how does a user request access to an LDaCA resource.
 
 </section>
-
-
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide19.png' alt='FAQ  ' title='Slide: 19' border='1'  width='85%%'/>
@@ -386,17 +345,12 @@ The final three slides have been contributed by co-author Patrick.
 
 These slides briefly outline the AAF process for the next phase that will provide the foundations for the development of the service and the creation of those policies to support the community and the service.
 
-
-
-
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide20.png' alt='Next Steps in the AAF Engagement ….. Revisit and consolidate the project’s vision through interviews and engagement with stakeholders,  collaborators and  community participants This next phase will provide the foundations for the development of policies to support the community. These will assist in creating a trusted community for access to sensitive data that supports the good practice and protocols. These activities are outlined in the following slides … ' title='Slide: 20' border='1'  width='85%%'/>
 
 This process will support the project to deliver a viable service that meets researchers’ needs and is trusted by the community and the participants to safely distribute data to authorised persons.
 
 </section>
-
-
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide21.png' alt='The AAF&#x27;s business analyst conducts interviews with stakeholders and community members to discover and formalise the community&#x27;s processes and requirements ' title='Slide: 21' border='1'  width='85%%'/>
@@ -409,8 +363,6 @@ Together these will establish goals and expectations and provide the basis for f
 The process will facilitate the building of a service that empowers the data custodians, the communities and participants to manage access.
 
 </section>
-
-
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide22.png' alt='These feeds into the prototyping &amp; implementing phase   ' title='Slide: 22' border='1'  width='85%%'/>

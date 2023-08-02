@@ -1,18 +1,18 @@
 ---
-title: 'Data License for Monash Corpus of English - Transcripts'
+title: "Data License for Monash Corpus of English - Transcripts"
 date: "2023-01-01"
 draft: false
 ---
 
 [Download as PDF](MCE_data_license_transcripts.pdf)
 
-In order to access the **Monash Corpus of English**, the user must read and agree to AusNC Terms of Use as follows. 
+In order to access the **Monash Corpus of English**, the user must read and agree to AusNC Terms of Use as follows.
 
 1.  The parties:
 
     1.  The Licensor: Linguistics Program, Monash University
 
-    2.  Data steward: Simon Musgrave, s.musgrave@uq.edu.au Engagement and Partnerships Manager, School of Languages and Cultures, University of Queensland
+    2.  Data steward: Simon Musgrave, s.musgrave@uq.edu.au Engagement and Partnerships Manager, School of Languages and Cultures, The University of Queensland
 
     3.  The Licensee: hereinafter referred to as 'You'.
 
@@ -48,20 +48,21 @@ In order to access the **Monash Corpus of English**, the user must read and agre
 5.  All intellectual property rights are reserved by the Owners and
     Licensees of those rights.
 
-6.  Suggested citation: 
-   
-    Bradshaw, Julie, Burridge, Kate and Clyne, Michael (2010) \'The Monash Corpus of Spoken Australian English.\' Proceedings of the 2008
-Conference of the Australian Linguistics Society. https://ses.library.usyd.edu.au/handle/2123/7099
+6.  Suggested citation:
 
-1.  You must maintain adequate data storage measures to ensure the
+        Bradshaw, Julie, Burridge, Kate and Clyne, Michael (2010) \'The Monash Corpus of Spoken Australian English.\' Proceedings of the 2008
+
+    Conference of the Australian Linguistics Society. https://ses.library.usyd.edu.au/handle/2123/7099
+
+7.  You must maintain adequate data storage measures to ensure the
     security of the Material.
 
-2.  The Material is provided 'as is' and the Licensor is not liable for
+8.  The Material is provided 'as is' and the Licensor is not liable for
     the accuracy, content, legality, completeness, availability and
     reliability of the Material.
 
-3.  This Licence Agreement is governed by and to be construed in
+9.  This Licence Agreement is governed by and to be construed in
     accordance with the laws of Australia and the Licensee will submit
     to the jurisdiction of Australian Courts.
 
-4.  The Licensor may terminate this License Agreement without notice.
+10. The Licensor may terminate this License Agreement without notice.

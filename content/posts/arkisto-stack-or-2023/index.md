@@ -23,7 +23,7 @@ We will present a standards-based generalized architecture for large-scale data\
 
 \*The submitted abstract did not have the word data here - added for clarity.
 
-By: Peter Sefton (University of Queensland), Simon Musgrave (University of Queensland & Monash University) & Nick Thieberger (University of Melbourne)
+By: Peter Sefton (The University of Queensland), Simon Musgrave (The University of Queensland & Monash University) & Nick Thieberger (University of Melbourne)
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -41,7 +41,7 @@ The Language Data Commons of Australia Data Partnerships (LDaCA) and the Austral
 
 The Data Commons will focus on preservation and discovery of distributed multi-modal language data collections under a variety of governance frameworks. This will include access control that reflects ethical constraints and intellectual property rights, including those of Aboriginal and Torres Strait Islander, migrant and Pacific communities.
 
-The platform will provide workbench services to support computational research, starting with code-notebooks with no-code research tools provided in later phases. Research artefacts such as code and derived data will be made available as fully documented research objects that are re-runnable and rigorously described. Metrics to demonstrate the impact of the platform are projected to include usage statistics, data and article citations. These projects are led by Professor Michael Haugh of the School of Languages and Cultures at the University of Queensland with several partner institutions.
+The platform will provide workbench services to support computational research, starting with code-notebooks with no-code research tools provided in later phases. Research artefacts such as code and derived data will be made available as fully documented research objects that are re-runnable and rigorously described. Metrics to demonstrate the impact of the platform are projected to include usage statistics, data and article citations. These projects are led by Professor Michael Haugh of the School of Languages and Cultures at The University of Queensland with several partner institutions.
 
 We would like to acknowledge the traditional custodians of the lands on which we live and work and the importance of indigenous knowledge, culture and language to the these projects. Peter Sefton lives and works on Wiradjuri land, and for Nick Thieberger and Simon Musgrave it's the land of the Kulin nation.
 
@@ -83,7 +83,7 @@ This is the data triage process we have been going through in LDaCA — and it s
 
 <img src='Slide07.png' alt='  ' title='Slide: 7' border='1'  width='85%%'/>
 
-This is a taster of what data looks like in the kids of repositories we are talking about. This site contains harvested metadata about holdings on Australian Indigenous Languages in University of Queensland Libraries.
+This is a taster of what data looks like in the kids of repositories we are talking about. This site contains harvested metadata about holdings on Australian Indigenous Languages in The University of Queensland Libraries.
 
 </section>
 
