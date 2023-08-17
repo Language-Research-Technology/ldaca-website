@@ -346,17 +346,23 @@ enableRobotsTXT = true
     identifier = "resources"
     name = "Resources"
     url = "/resources/"
-    weight = 3   
+    weight = 3  
+  [[menu.main]]
+    identifier = "Events"
+    name = "Events"
+    url = "/events/events"
+    weight = 4
+ 
   [[menu.main]]
     identifier = "organisation"
     name = "Organisation"
     url = "/organisation/"
-    weight = 5
+    weight = 6
   [[menu.main]]
     identifier = "contact"
     name = "Contact us"
     url = "/contact/"
-    weight = 6    
+    weight = 7    
 
     #  Search config
   [params.search]
