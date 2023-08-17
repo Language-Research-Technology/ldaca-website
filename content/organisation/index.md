@@ -15,8 +15,13 @@ The LDaCA project received investment from ARDC through two of its programs:
 
 # Partner Institutions:
 
+
 - **The University of Queensland** (DP, HASS-RDC): Professor Michael Haugh, Professor Clint Bracknell
 - **Australian National University** (DP, HASS-RDC): Professor Catherine Travis
+
+- **The University of Queensland** (DP, HASS-RDC): Professor Michael Haugh, Professor Clint Bracknell
+- **Australian National University** (DP, HASS-RDC): [Professor Catherine Travis](https://researchers.anu.edu.au/researchers/travis-ce)
+
 - **Monash University** (DP, HASS-RDC): Associate Professor Louisa Willoughby
 - **University of Melbourne** (DP, HASS-RDC): Associate Professor Nick Thieberger
 - **University of Sydney** (HASS-RDC): Professor Monika Bednarek (Sydney Corpus Lab)
