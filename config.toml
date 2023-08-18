@@ -333,30 +333,35 @@ enableRobotsTXT = true
     url = "/"
     weight = 1
   [[menu.main]]
-    identifier = "Blog"
-    name = "Blog"
-    url = "/posts/"
+    identifier = "accessing-data"
+    name = "Accessing Data"
+    url = "/accessing-data/"
     weight = 4
   [[menu.main]]
-    identifier = "background_information"
-    name = "Background"
-    url = "/background/information/"
+    identifier = "getting-started"
+    name = "Getting Started"
+    url = "/getting-started/"
     weight = 2
   [[menu.main]]
-    identifier = "resources"
-    name = "Resources"
-    url = "/resources/"
+    identifier = "browsing-searching"
+    name = "Browsing and Searching"
+    url = "/browsing-searching/"
     weight = 3   
   [[menu.main]]
-    identifier = "organisation"
-    name = "Organisation"
-    url = "/organisation/"
+    identifier = "other-resources"
+    name = "Other Resources"
+    url = "/other-resources/"
     weight = 5
+  [[menu.main]]
+    identifier = "faqs"
+    name = "FAQs"
+    url = "/faqs/"
+    weight = 6
   [[menu.main]]
     identifier = "contact"
     name = "Contact us"
     url = "/contact/"
-    weight = 6    
+    weight = 7    
 
     #  Search config
   [params.search]
