@@ -18,7 +18,7 @@ enableRobotsTXT = true
   # website description for RSS, SEO, Open Graph and Twitter Cards
   description = "The Language Data Commons of Australia (LDaCA) will make nationally significant language data available for academic and non-academic use and provide a model for ensuring continued access with appropriate community control."
   # website images for Open Graph and Twitter Cards
-  images = ["/logo.png"]
+  images = ["/logo.png", "/logo_dark.png"]
   # error page image website, place image in static folder if required add a image404 class in _custom.scss
   image404 = '/alpaca.svg'
 
@@ -40,6 +40,8 @@ enableRobotsTXT = true
       typeit = false
       # URL of the LOGO
       logo = "/logo.png"
+      # URL of the dark LOGO
+      logo_dark = "/logo_dark.png"
   # LoveIt NEW | 0.2.0 App icon config
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
@@ -277,6 +279,8 @@ enableRobotsTXT = true
         # someJavascript = "https://cdn.example.com/some.js"
         twitterWidgets = "https://platform.twitter.com/widgets.js"
         senderWidgets = "sender.js"
+        mailchimplocal = "mailchimp.js"
+        stylingWidgets = "styling.js"
     # LoveIt CHANGED | 0.2.10 Page SEO config
     [params.page.seo]
       # image URL
@@ -333,6 +337,7 @@ enableRobotsTXT = true
     url = "/"
     weight = 1
   [[menu.main]]
+<<<<<<< HEAD
     identifier = "accessing-data"
     name = "Accessing Data"
     url = "/accessing-data/"
@@ -341,6 +346,11 @@ enableRobotsTXT = true
     identifier = "getting-started"
     name = "Getting Started"
     url = "/getting-started/"
+=======
+    identifier = "background_information"
+    name = "Background"
+    url = "/background/information/"
+>>>>>>> 8735a0323f9489904156345cd7bd52a1830b8a6c
     weight = 2
   [[menu.main]]
     identifier = "browsing-searching"
@@ -348,10 +358,27 @@ enableRobotsTXT = true
     url = "/browsing-searching/"
     weight = 3   
   [[menu.main]]
+<<<<<<< HEAD
     identifier = "other-resources"
     name = "Other Resources"
     url = "/other-resources/"
     weight = 5
+=======
+    identifier = "blog"
+    name = "Blog"
+    url = "/posts/"
+    weight = 4
+  [[menu.main]]
+    identifier = "events"
+    name = "Events"
+    url = "/events/events"
+    weight = 5
+  [[menu.main]]
+    identifier = "organisation"
+    name = "Organisation"
+    url = "/organisation/"
+    weight = 6
+>>>>>>> 8735a0323f9489904156345cd7bd52a1830b8a6c
   [[menu.main]]
     identifier = "faqs"
     name = "FAQs"
