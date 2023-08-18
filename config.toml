@@ -337,11 +337,6 @@ enableRobotsTXT = true
     url = "/"
     weight = 1
   [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/posts/"
-    weight = 4
-  [[menu.main]]
     identifier = "background_information"
     name = "Background"
     url = "/background/information/"
@@ -352,15 +347,25 @@ enableRobotsTXT = true
     url = "/resources/"
     weight = 3   
   [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/posts/"
+    weight = 4
+  [[menu.main]]
+    identifier = "events"
+    name = "Events"
+    url = "/events/events"
+    weight = 5
+  [[menu.main]]
     identifier = "organisation"
     name = "Organisation"
     url = "/organisation/"
-    weight = 5
+    weight = 6
   [[menu.main]]
     identifier = "contact"
     name = "Contact us"
     url = "/contact/"
-    weight = 6    
+    weight = 7    
 
     #  Search config
   [params.search]
