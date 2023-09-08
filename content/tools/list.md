@@ -11,3 +11,5 @@ draft: false
 ### [Australian Text Analytics Platform](https://www.atap.edu.au)
 
 ### [Other Resources](/tools/other-resources)
+
+### [Other Tools](/tools/other-resources#tools)
