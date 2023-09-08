@@ -336,21 +336,26 @@ enableRobotsTXT = true
     name = "Home"
     url = "/"
     weight = 1
-  [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/posts/"
-    weight = 4
-  [[menu.main]]
+   [[menu.main]]
     identifier = "background_information"
     name = "Background"
     url = "/background/information/"
     weight = 2
   [[menu.main]]
-    identifier = "resources"
-    name = "Resources"
-    url = "/resources/"
+    identifier = "tools"
+    name = "Tools"
+    url = "/tools/list"
     weight = 3   
+ [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/posts/"
+    weight = 4
+ [[menu.main]]
+    identifier = "events"
+    name = "Events"
+    url = "/events/events"
+    weight = 5
   [[menu.main]]
     identifier = "organisation"
     name = "Organisation"
