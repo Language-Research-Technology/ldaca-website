@@ -13,4 +13,8 @@ Harriet Sheppard's [account](../../fieldwork-png/) of collecting data on a remot
 
 <br />
 
+[Sydney Speaks](../../sydney-speaks/): Catherine Travis and Cale Johnstone explain the complexities of handling data from three periods in a 40 year span.
+
+<br />
+
 Back to [Background](/background/information/)
