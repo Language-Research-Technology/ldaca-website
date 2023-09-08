@@ -342,9 +342,9 @@ enableRobotsTXT = true
     url = "/background/information/"
     weight = 2
   [[menu.main]]
-    identifier = "resources"
-    name = "Resources"
-    url = "/resources/"
+    identifier = "tools"
+    name = "Tools"
+    url = "/tools/list/"
     weight = 3   
   [[menu.main]]
     identifier = "blog"
