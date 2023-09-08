@@ -3,18 +3,10 @@ $water_green: #79a38d;
 $land_green: #91a96d;
 $clear_blue: #537ec0;
 $storm_blue: #566777;
-$sandstone: #ffcc79;
-$deep_rock: #653c2c;
-$light_rock: #653c2c;
-$color_list: (
-  $water_green,
-  $land_green,
-  $clear_blue,
-  $storm_blue,
-  $sandstone,
-  $deep_rock,
-  $light_rock
-);
+$sandstone: #FFCC79;
+$deep_rock: #653C2C;
+$light_rock: #653C2C;
+$color_list: ($water_green, $land_green, $clear_blue, $storm_blue, $sandstone, $deep_rock, $light_rock);
 $color_count: 1;
 
 .main {
@@ -22,15 +14,15 @@ $color_count: 1;
   background-size: 100% auto;
 }
 
-[theme="dark"] .single .content {
+[theme=dark] .single .content {
   a {
-    color: $clear_blue;
+    color: $storm_blue;
   }
 }
 
 .single .content {
   a {
-    color: $clear_blue;
+    color: $storm_blue;
   }
 }
 
