@@ -365,7 +365,8 @@ enableRobotsTXT = true
     identifier = "contact"
     name = "Contact us"
     url = "/contact/"
-    weight = 6    
+    weight = 6 
+
 
     #  Search config
   [params.search]

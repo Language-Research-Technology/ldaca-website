@@ -3,7 +3,8 @@
       Towards a Generic Research Data Commons: A highly scalable standard-based repository framework for Language and other Humanities data
     date: "2023-06-29"
     slug: arkisto-stack-or-2023
-    category: ["Access"]
+    category: ["LDaCA"]
+    tag: ["Access"]
     author: Peter Sefton
     toc:
       enable: true
@@ -301,9 +302,6 @@ Here we see the Crate-O metadata tool (which is a zero-install web application t
 <img src='Slide30.png' alt='  ' title='Slide: 30' border='1'  width='85%%'/>
 
 We hope to work with other editor projects (eg [Describo](https://describo.github.io/#/)) to make editor profiles as compatible as possible.
-
-
-
 
 </section>
 
