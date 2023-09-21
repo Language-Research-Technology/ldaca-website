@@ -3,6 +3,7 @@ title: "Interview with our Chief Investigators - Part 1"
 date: "2023-04-26T15:28:35+10:00"
 draft: false
 tags:
+categories: ["LDaCA"]
 topics:
 author: "Kelvin Lee"
 ---

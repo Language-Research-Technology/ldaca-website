@@ -3,6 +3,7 @@ title: "What are the FAIR and CARE principles and why should corpus linguists kn
 date: "2022-02-08T15:28:35+10:00"
 draft: false
 tags: ["FAIR", "CARE"]
+categories: ["LDaCA"]
 topics: ["Data Use Principles"]
 author: "Simon Musgrave"
 ---

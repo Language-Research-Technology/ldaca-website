@@ -3,8 +3,8 @@
       A CARE and FAIR-ready distributed access control system for human-created data using the Australian Access Federation and beyond
     date: "2022-11-16"
     slug: fair-care-eresearch-2022
-    category: ["Access"]
-    tag: ["Access"]
+    categories: ["LDaCA"]
+    tags: ["Access"]
     author: Peter Sefton
     toc:
       enable: true
