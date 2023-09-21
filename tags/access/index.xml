@@ -1,0 +1,435 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Access - Tag - LDaCA</title><link>https://www.ldaca.edu.au/tags/access/</link><description>Access - Tag - LDaCA</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>info@ldaca.edu.au (Language Data Commons of Australia)</managingEditor><webMaster>info@ldaca.edu.au (Language Data Commons of Australia)</webMaster><lastBuildDate>Thu, 29 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ldaca.edu.au/tags/access/" rel="self" type="application/rss+xml"/><item><title>Towards a Generic Research Data Commons: A highly scalable standard-based repository framework for Language and other Humanities data</title><link>https://www.ldaca.edu.au/posts/arkisto-stack-or-2023/</link><pubDate>Thu, 29 Jun 2023 00:00:00 +0000</pubDate><author>Peter Sefton</author><guid>https://www.ldaca.edu.au/posts/arkisto-stack-or-2023/</guid><description><![CDATA[<p><a href="/posts/arkisto-stack-or-2023/arkisto-stack-or-2023.pdf" rel="">Download as PDF</a></p>
+<p>This presentation was delivered by Peter Sefton at the <a href="https://or2023.openrepositories.org/" target="_blank" rel="noopener noreffer ">Open Repositories 2023</a> conference in South Africa on 2023-06-14 in the <a href="https://www.conftool.net/or2023/index.php?page=browseSessions&amp;form_session=460&amp;presentations=show" target="_blank" rel="noopener noreffer ">Presentations: Discipline specific systems with FAIR principles
+</a> session.</p>
+<p>This contains the slides and complete speaker notes, which have been edited after the conference.</p>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+<p>We will present a standards-based generalized architecture for large-scale data* repositories for research and preservation illustrated with real world examples drawn from a number of languages and cultural archive projects. This work is taking place in the context of the Australian Humanities and Social Sciences Research Data Commons, particularly the Language Data component thereof and the long-established PARADISEC cultural archive. The standards used include the Oxford Common File Layout for storage, Research Object CRATE (RO-Crate) for consistent linked-data description of FAIR digital objects, and a language data metadata profile to ensure long-term interoperability between systems and re-usability over time. We also discuss data licensing and authorization for access to non-open resources. We suggest that the approach shown here may be used in other disciplines or for other kinds of digital library, repository or archival systems.</p>
+<p>*The submitted abstract did not have the word data here - added for clarity</p>
+<p>By: Peter Sefton (University of Queensland), Simon Musgrave (University of Queensland &amp; Monash University) &amp; Nick Thieberger (University of Melbourne)</p>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>This work is supported by the Australian Research Data Commons.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>The Language Data Commons of Australia Data Partnerships (LDaCA) and the Australian Text Analytics Platform (ATAP) are building towards a scalable and flexible language data and analytics commons. These projects will be part of the HASS (Humanities and Social Sciences) and Indigenous Research Data Commons (HASS+I RDC).</p>
+<p>The Data Commons will focus on preservation and discovery of distributed multi-modal language data collections under a variety of governance frameworks. This will include access control that reflects ethical constraints and intellectual property rights, including those of Aboriginal and Torres Strait Islander, migrant and Pacific communities.</p>
+<p>The platform will provide workbench services to support computational research, starting with code-notebooks with no-code research tools provided in later phases. Research artefacts such as code and derived data will be made available as fully documented research objects that are re-runnable and rigorously described. Metrics to demonstrate the impact of the platform are projected to include usage statistics, data and article citations. These projects are led by Professor Michael Haugh of the School of Languages and Cultures at the University of Queensland with several partner institutions.</p>
+<p>We would like to acknowledge the traditional custodians of the lands on which we live and work and the importance of indigenous knowledge, culture and language to the these projects. Peter Sefton lives and works on Wiradjuri land, and for Nick Thieberger and Simon Musgrave it&rsquo;s the land of the Kulin nation.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>PARADISEC is an online archive of cultural data which has been maintained for twenty years, in this presentation we will look at some of the lessons learned from PARADISEC. In summary – the PARADISEC approach to simple data and metadata storage is something we want to continue in LDaCA, while the high cost for PARADISEC of commissioning and maintaining its own software stack is something we want to address by taking a more standards-based approach to managing language and other data over the coming decades.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>The Arkisto platform started in 2019 as a way to capture the lessons of PARADISEC and other projects such as Alveo (another language data project similar in scope to LDaCA) which was presented at OR 2014: Sefton PM, Estival D, Cassidy S, Burnham D, Berghold J. The Human Communication Science Virtual Lab (HCS vLab): A repository microclimate in a rapidly evolving research-ecosystem. In: Open Repositories 2014. Helsinki; 2014 [cited 2016 Jul 19]. Available from: <a href="http://www.doria.fi/handle/10024/97740" target="_blank" rel="noopener noreffer ">http://www.doria.fi/handle/10024/97740</a></p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>This diagram was used in the bid documents that established LDaCA - it shows the progression of data from end-of life projects and active repositories into a standards-based data-commons.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>This is the data triage process we have been going through in LDaCA — and it should be noted that of all the data we are presented with, most of it needs to be reworked into the Arkisto Standards Stack. Even PARADISEC which in 2019 received the international <a href="https://www.coretrustseal.org/why-certification/certified-repositories/" target="_blank" rel="noopener noreffer ">Core Trust Seal</a> based on the <a href="http://www.coretrustseal.org/requirements/" target="_blank" rel="noopener noreffer ">DSA-WDS Core Trustworthy Data Repositories Requirements</a> is still in the process of migrating data to more sustainable formats.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>This is a taster of what data looks like in the kids of repositories we are talking about. This site contains harvested metadata about holdings on Australian Indigenous Languages in University of Queensland Libraries.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>The LDaCA services we are building use an API to drive the data portals. The API can be used for direct access with appropriate access control – see <a href="posts/fair-care-eresearch-2022" rel="">another eResearch presentation</a> which explains this in detail. These screenshots show code notebooks running in BinderHub on the Nectar cloud accessing language resources.</p>
+<p>This work has also been <a href="https://digital.library.unt.edu/ark:/67531/metadc2114304/" target="_blank" rel="noopener noreffer ">written up</a> for the <em>2nd International Workshop on Digital Language Archives (LangArc 2023) virtual workshop on digital language archives</em> 2023-06-30.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>This is the overall architecture for data storage and delivery — missing is how data gets into to the repository, but we’ll come to that later.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>At this point I will introduce one of the themes of this talk. In March this year, <a href="https://bibwild.wordpress.com/2023/03/21/ocfl-and-source-of-truth-two-options/" target="_blank" rel="noopener noreffer ">this blog post was published</a> - looking at the pros and cons of using OCFL (the Oxford Common File Layout) as the “source of truth” for a system (say a repository).</p>
+<p>We are very much taking the OCFL (that is file-in-storage-as-the-source-of-truth) approach in LDaCA. Which begs the question: “But doesn’t that mean that it’s very specific to language data?” No, because we’re using a very flexible, extensible, discipline-neutral format for data description – yes, we have ways to specialise metadata and interfaces to language and other cultural metadata, but NO, the systems are not locked-in to that mode of operation. This means we should be able to share development and maintenance more broadly than with a single archive.</p>
+<p>Two main points we want to get across in this presentation:</p>
+<ul>
+<li>We are taking seriously the idea that data-in-storage should be “batteries included” – everything needed to preserve and use the data is stored together and systems can be reconstituted from this storage.</li>
+<li>This approach IS generic – different vocabularies / schemas can be plugged-in by design.</li>
+</ul>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>So lets now start looking at the standards involved in the Arkisto approach. This is a slide from “What is RO-Crate” – The dataset may contain any kind of data resource about anything, in any format as a file or URL</p>
+<p>Stian Soiland-Reyes, Peter Sefton, Mercè Crosas, Leyla Jael Castro, Frederik Coppens, José M. Fernández, Daniel Garijo, Björn Grüning, Marco La Rosa, Simone Leo, Eoghan Ó Carragáin, Marc Portier, Ana Trisovic, RO-Crate Community, Paul Groth, Carole Goble (2022):Packaging research artefacts with RO-Crate.Data Science 5(2)https://doi.org/10.3233/DS-210053</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>The core standard for this work is RO-Crate (Research Object Crate) in which all data is input, stored and output. This a big step for eresearch systems – no longer is there a transformation step on data onboarding (we used the term ingest, but some project members and partners found the metaphor distasteful).</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>This screenshot is a bit of (undated) DSpace documentation found following a tip from Kim Sheppard – we have included it here to illustrate that storing additional metadata (in this case METS) for an object was done by convention. Using a linked-data system means that we no longer have to do this kind of thing – there’s still one magic file name in RO-Crate but it’s only one for the metadata and one for the HTML preview – everything else is labelled and extensible.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>In the early days of the “Open Repositories” movement repositories had Dublin Core metadata (a standard with a few different flavours).</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>These days using linked data it is no longer necessary to have a bevy of XML schemas with incompatible encodings to store data from different schemas, different voclabularies and ontologies can co-exist and be expressed in a common way.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>In the PARADISEC system this is achieved by storing files on disk in a simple hierarchy - with metadata and other resources stored together in a directory - this scheme allows for hands-on management of data resources, independently of the software used to serve them.</p>
+<p>This approach means that if the PARADISEC software-stack becomes un-maintainable for financial or technical reasons the important resources, the data, are stored safely on disk with their metadata and a new access portal could be constructed relatively easily.</p>
+<p>Despite the valuable features of this solution, it is not generalisable. The metadata.xml is custom to PARADISEC, as is the software stack.</p>
+<p>In 2019 PARADISEC and the eResearch team at UTS received small grants from the Australian National Data Service and began collaborating on an approach to managing archival repositories which built on this PARADISEC approach of storing metadata with data.</p>
+<p>The UTS team presented on this at <a href="https://ptsefton.com/2019/11/05/FAIR%20Repo%20-%20eResearch%20Presentation/index.html" target="_blank" rel="noopener noreffer ">eResearch Australasia 2019</a></p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>The <a href="https://www.researchobject.org/ro-crate/1.1/structure.html" target="_blank" rel="noopener noreffer ">structure of an RO-Crate</a> is very similar to the PARADISEC example above, but with a json file instead of XML, and an optional preview in HTML.</p>
+<p>RO-Crate has a growing number of <a href="https://www.researchobject.org/ro-crate/tools/" target="_blank" rel="noopener noreffer ">tools and software libraries</a> which means that a team such as PARADISEC does not have to maintain their own bespoke software.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>Here, for comparison is <a href="https://wiki.lyrasis.org/display/FEDORA6x/Fedora&#43;OCFL&#43;Object&#43;Structure#FedoraOCFLObjectStructure-FedoraAtomicResource-Container" target="_blank" rel="noopener noreffer ">how Fedora 6 would store an object (an Atomic Resource in Fedora-speak) like this with multiple files</a>. Like RO-Cratee this uses linked-dataa but in this case split up into multiple files containing RDF triples. (This is similar to the pre-RO-Crate approach taken by the Research Object spec).</p>
+<p>This also shows some of what an OCFL repository looks like – this is an OCFL object with a single version.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>This screenshot shows an example of an Arkisto-style use of OCFL (all of the metadata is stored in the ro-crate-metadata.json rather than spread out as in Fedora).</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>Now we come to the second core standard in our stack the <a href="https://ocfl.io" target="_blank" rel="noopener noreffer ">Oxford Common File Layout</a> – which is something we found out about via OpenRepositories – I couldn’t make the presentation, but I got a corridor briefing on this from Neil Jeffries in Bozeman at OR 2018.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>This slide shows the interface between our core standards – a compliant OCFL repository has Objects within it that conform to the RO-Crate specification.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>This slide illustrates the flexibility of the approach we’re taking. As LDaCA is a national project, our archival repositories and those of our partners such as PARADISEC will be distributed with differences of governance, varying by organisation, language type and discipline, though there is still a desire to be able to aggregate data into services that make it findable.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>The storage services may not all be the same in this model, some may be file systems, some may be object stores, and they may be hosted by and governed by a variety of organizations.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>This slide shows how we have abstracted the “A” for Access in FAIR out of the repository and into a separate centralised or at least <em>concentrated</em> system. We have a <a href="https://www.ldaca.edu.au/posts/fair-care-eresearch-2022/" target="_blank" rel="noopener noreffer ">full write-up of this approach from the 2022 eResearch Australasia conference</a> and we don’t have time to go through it in detail here, but in summary:</p>
+<ul>
+<li>Every object in the repository has a Data Reuse License with some management metadata.</li>
+<li>Each repository only needs an authoritative list of licenses and trusted license management systems to be able to serve the data.</li>
+<li>License management is handled by a dedicated system that can deal with application and invitation workflows to grant licenses (including simple self-serve click-through license agreements)</li>
+</ul>
+<p>Note that our work is also informed by the <a href="https://www.gida-global.org/care" target="_blank" rel="noopener noreffer ">CARE principles for Indigenous data Governance (Collective benefit, Authority to control, Responsibility, Ethics)</a> which frame the way FAIR protocols are implemented. Again, see the <a href="https://digital.library.unt.edu/ark:/67531/metadc2114304/" target="_blank" rel="noopener noreffer ">LangArc workshop write-up</a>.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>Let’s revisit this diagram. What’s missing?</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>In the first phase of the LDaCA project, work focused on batch import of data using tools to convert collections – this approach was used on contemporary collections as well as for “rescuing” collections from older repository system.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>This slide shows some JSON-LD metadata that describes the way this RO-Crate metadata was created – illustrating how RO-Crate can be used to record provenance.</p>
+<p>(UPDATE: I didn&rsquo;t explain <a href="https://json-ld.org/" target="_blank" rel="noopener noreffer ">JSON-LD</a> properly during the presentation. JSON-LD is a method of encoding linked-data (which can be quite esoteric and unapproachable) in JSON a method of describing data in simple text, which is widely used and understood by programmers.)</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>This part of the architecture we are working on now…</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>Here we see the Crate-O metadata tool (which is a zero-install web application that runs in Chrome and other browsers that support the new FilesystemAPI) being used to add an Organization as the Affiliation for a Person entity. Having imported this &ldquo;Context Entity&rdquo; (that&rsquo;s the RO-Crate term) it can then be re-used within the crate which we see here as the schema.org <code>publisher</code> property is linked to the same organization.</p>
+<p>(At this stage Crate-O is still to be connected to the repository stack - that will happen in the second half of 2023)</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>We hope to work with other editor projects (eg <a href="https://describo.github.io/#/" target="_blank" rel="noopener noreffer ">Describo</a>) to make editor profiles as compatible as possible.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>The next few slides show some examples of our approach implemented in a variety of contexts.</p>
+<p>Here’s another repository that uses RO-Crate metadata (from the Language Data Commons of Australia / Australian Text Analytics Platform) – here users can launch a Jupyter notebook containing Python code (and explanatory text) that processes a dataset.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>This is a screenshot of a Jupyter notebook that can process data from a repository via its API.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>This slide shows the Arkisto stack powering the University of Technology Sydney’s Research Data Repository.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>This page shows some screenshots of an internal-only application at UTS which gives academic staff access to successful research grant proposals – the data are stored in the same kind of Arkisto standards-based storage stack as we have presented here – with an interface that is tuned for this use case, with some custom access control to make sure that staff are <em>very</em> aware that these are sensitive and confidential documents.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>This is a screenshot of data from a history project <a href="https://expertnation.org/" target="_blank" rel="noopener noreffer ">Expert Nation</a> exported to RO-Crate format and <a href="https://expertnation.research.uts.edu.au/" target="_blank" rel="noopener noreffer ">put online to support a book</a>.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>In conclusion, we have given a quick tour of a standards-based repository stack (loosely called Arkisto) and illustrated it with current work at the Language Data Commons of Australia and PARADISEC projects, but along the way have tried to emphasise that this is generic, re-usable architecture – and is based on standards. By using an extensible metadata standard with a growing community, and a storage-layer standard forged from an acquired aversion to systems migration we aim to reduce the risk to very important cultural data by working with as many communities as possible on software tools, so that we reduce cost and risk for all of us.</p>
+</section>
+]]></description></item><item><title>A CARE and FAIR-ready distributed access control system for human-created data using the Australian Access Federation and beyond</title><link>https://www.ldaca.edu.au/posts/fair-care-eresearch-2022/</link><pubDate>Wed, 16 Nov 2022 00:00:00 +0000</pubDate><author>Peter Sefton</author><guid>https://www.ldaca.edu.au/posts/fair-care-eresearch-2022/</guid><description><![CDATA[<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+<p><a href="/posts/fair-care-eresearch-2022/fair-care-eresearch-2022.pdf" rel="">Download as PDF</a></p>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>This is write-up of a talk given at eResearch Australasia 2022, delivered by Peter Sefton, with some additional detail.</p>
+<p>By: Peter Sefton, Jenny Fewster, Moises Sacal Bonequi, Cale Johnstone, Catherine Travis, River Tae Smith, Patrick Carnuccio</p>
+<p>Edited by: Simon Musgrave</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>The Language Data Commons of Australia Data Partnerships (LDaCA) and the Australian Text Analytics Platform (ATAP) are building towards a scalable and flexible language data and analytics commons. These projects will be part of the Humanities and Social Sciences Research Data Commons (HASS RDC).</p>
+<p>The Data Commons will focus on preservation and discovery of distributed multi-modal language data collections under a variety of governance frameworks. This will include access control that reflects ethical constraints and intellectual property rights, including those of Aboriginal and Torres Strait Islander, migrant and Pacific communities.</p>
+<p>The platform will provide workbench services to support computational research, starting with code-notebooks with no-code research tools provided in later phases. Research artefacts such as code and derived data will be made available as fully documented research objects that are re-runnable and rigorously described. Metrics to demonstrate the impact of the platform are projected to include usage statistics, data and article citations. These projects are led by Professor Michael Haugh of the School of Languages and Culture at the University of Queensland with several partner institutions.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>This work is supported by the Australian Research Data Commons.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>Last year at eResearch Australasia, the Language Data Commons of Australia (LDaCA) team presented a design for a distributed access control system which could look after the A-is-for-accessible in FAIR data; in this presentation we describe and demonstrate a pilot system based on that design, showing how data licenses that allow access by identified groups of people to language data collections can be used with an AAF pilot system (CILogon) to give the right people access to data resources.</p>
+<p>The ARDC have invested in a pilot of this work as part of the HASS Research Data Commons and Indigenous Research Capability Program integration activities.</p>
+<p>The system has to be able to implement data access policies with real-world complexity and one of our challenges has been developing a data access policy that works across a range of different collections of language data. Here we present a pilot data access policy that we have developed, describing how this policy captures the decisions that must be made by a range of data providers to ensure data accessibility that complies with diverse legal, moral and ethical considerations.
+We will discuss how the <a href="https://www.gida-global.org/care" target="_blank" rel="noopener noreffer ">CARE</a> and <a href="https://www.nature.com/articles/sdata201618" target="_blank" rel="noopener noreffer ">FAIR</a> principles underpin this work, and compare this work to other projects such as <a href="https://ardc.edu.au/project/cadre/" target="_blank" rel="noopener noreffer ">CADRE</a>, which promise to deliver more complex solutions in the future. Initial work is with collections curated in a research context but we will also address community access to these resources.</p>
+<p>The idea is to separate safe storage of data from its delivery. Each item in a repository is stored with licensing information in natural language (English at the moment, but could be other languages) and the repository defers access decisions to an Authorization system, where data custodians can design whatever process they like for granting license access. This can range from simple click-through licenses where anyone can agree to license terms, to detailed multi-step workflows where applicants are vetted based on whatever criteria the rights holder wishes; qualifications, membership of a cultural group, have they paid a subscription fee, etc</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>Regarding rights, our project is informed by the <a href="https://www.gida-global.org/care" target="_blank" rel="noopener noreffer ">CARE</a> principles for Indigenous data which also describe the level of respect which should be given to any data collected from individuals or communities.</p>
+<blockquote>
+<p>The current movement toward open data and open science does not fully engage with Indigenous Peoples rights and interests. Existing principles within the open data movement (e.g. FAIR: findable, accessible, interoperable, reusable) primarily focus on characteristics of data that will facilitate increased data sharing among entities while ignoring power differentials and historical contexts. The emphasis on greater data sharing alone creates a tension for Indigenous Peoples who are also asserting greater control over the application and use of Indigenous data and Indigenous Knowledge for collective benefit</p>
+</blockquote>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>We are designing the system so that it can work with diverse ways of expressing access rights, for example we are considering how the approach described here could be extended based on the likes of the <a href="https://localcontexts.org/labels/traditional-knowledge-labels/" target="_blank" rel="noopener noreffer ">Tribal Knowledge labels</a>, incorporating them into the data licensing framework we discuss below.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>In this talk we look at a case-study with the <a href="https://slll.cass.anu.edu.au/sydney-speaks" target="_blank" rel="noopener noreffer ">Sydney Speaks project</a> via LDaCA steering committee member Professor <a href="https://orcid.org/0000-0002-1410-3268" target="_blank" rel="noopener noreffer ">Catherine Travis</a>.</p>
+<blockquote>
+<p>This project seeks to document and explore Australian English, as spoken in Australia’s largest and most ethnically and linguistically diverse city – Sydney.
+The title “Sydney Speaks” captures a key defining feature of the project: the data come from recorded conversations between Sydney siders, as they tell stories about their lives and experiences, their opinions and attitudes. This allows us to measure how their lived experiences impact their speech patterns.
+Working within the framework of variationist sociolinguistics, we examine variation in phonetics, grammar and discourse, in an effort to answer questions of fundamental interest both to Australian English, and language variation and change more broadly, including:</p>
+<ul>
+<li>How has Australian English as spoken in Sydney changed over the past 100 years?</li>
+<li>Has the change in the ethnic diversity over that time period (and in particular, over the past 40 years) had any impact on the way Australian English is spoken?</li>
+<li>What affects the way variation and change spread through society - Who are the initiators and who are the leaders in change? - How do social networks function in a modern metropolis? - What social factors are relevant to Sydney speech today, and over time (gender? class? region? ethnic identity?)
+A better understanding of what kind of variation exists in Australian English, and of how and why Australian English has changed over time can help society be more accepting of speech variation and even help address prejudices based on ways of speaking.
+Source: <a href="http://www.dynamicsoflanguage.edu.au/sydney-speaks/" target="_blank" rel="noopener noreffer ">http://www.dynamicsoflanguage.edu.au/sydney-speaks/</a></li>
+</ul>
+</blockquote>
+<p>The collection contains recordings of people speaking, both contemporary and historic.</p>
+<p>Because this involved human participants there are restrictions on the distribution of data - a situation we see with lots of studies involving people in a huge range of disciplines.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>There are four tiers of data access we need to enforce and observe for this data based on the participant agreements and ethics arrangements under which the data were collected.</p>
+<p>Concerns about rights and interests are important for any data involving people - and a large amount the data both indigenous and non-indigenous we are using will require access control that ensures that data is shared with the right users under the right conditions.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>(Image generated by DALLE - prompt: A NSW Driver license for a wolfhound pup named Floki)</p>
+<p>Lets go over some basics, starting with <em>licences</em>.</p>
+<p>A licence in this context is <em>a natural language document</em> in which a copyright holder sets out the terms and conditions of use for data. Licences <em>may</em> have metadata that describes them, eg a property to say that this is an open licence (and does not require a check when serving data).</p>
+<p>A license is not a computer program, or configuration, or an AI entity that can make decisions, it’s a legal document. You may also know this as a “data sharing agreement” or “terms of use”. Examples of licenses we see all the time are the GNU GPL or the various Creative Commons licenses which grant rights to others to redistribute a creative work, and specifies conditions on what changes are permitted.</p>
+<p>That said, metadata <em>about</em> a license can be used to automate decision making - if it is labelled as being an open license, then a repository can serve data and include that data, if it is labeled as “closed” or more aptly, “authorization-required” then repository software can perform an authorization step, which we cover in detail later.</p>
+<p>In the world of research data generated by or about human participants, licenses can’t always allow unauthenticated access and data redistribution, and they may permit distribution only to certain people, or classes or person. Some data, for example (particularly that which has not been or cannot be de-identified) can only be made available to the original research team.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>(Dall-e prompt : A sad dog sitting on an iceberg, XKCD)</p>
+<p>So, a license is a document that expresses conditions such as “Data can be used by other researchers”, but unfortunately we don’t have systems in the research-data ecosystem which can automatically identify a user as “a researcher” (this may be surprising to some, but the Australian Access Federation can, at this stage, only say that someone has an account with an institution - it can’t tell a professor from a student administration officer and there are certainly no lists of “certified linguists”).</p>
+<p>Here are some cold hard facts:</p>
+<p>We don’t have an authority that can identify someone as a researcher,</p>
+<p>Or a “linguist”,</p>
+<p>Or an “anthropologist”,</p>
+<p>Or a member of an ARC (Australian Research Council) research project,</p>
+<p>The <a href="https://ardc.edu.au/project/cadre/" target="_blank" rel="noopener noreffer ">CADRE</a> project is working on systems that will eventually support all these things, but they are not available as services yet, and their initial focus is on government data, so we have to work out ways for our data custodians to make decisions on who is considered an “other researcher” in the absence of attribute-based authentication.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>The access control system we have been prototyping is based on licenses.</p>
+<p>For any data object, which could be an entire collection, or one set of recordings of a speaker in a speech study, or a set of hand written linguistic field notes from the 1950s, or a novel etc we store a license with it. This means that future archivists / librarians and researchers can work out how to manage the data if the systems we build today for automated access are no longer operational and we give the license an ID which is a URL we can use to identify it uniquely.</p>
+<p>This diagram shows how a license is explicitly linked to the data using a metadata description standard known as “Research Object Crate” <a href="http://ptsefton.com/2019/11/05/RO-Crate%20eResearch%20Australasia%202019/index.html" target="_blank" rel="noopener noreffer ">RO-Crate</a> . Each object in the repository is a crate, with a metadata file that describes the object and (optionally) its component files, including the data license.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>(This diagram has been updated from the one presented at eResearch to show two portals instead of one)</p>
+<p>Every item in a repository has a license, which may be an open one like CC Share Alike or a custom license derived from the ethics and participants agreements for a study in the context of local laws and institutional policy.</p>
+<p>Using this license, distributed access portals in our architecture can check against an authorization system for each request for data. The portals may both host data with the same licensing but do not need to maintain access control lists.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>(Images: Various baskets of puppies by DALL-E)</p>
+<p>When we first developed access controls for LDaCA in 2021 it was a requirement that data licensing and access control decisions be decoupled from each other, and from particular repository software. The usual approach in repositories is to build in a local access-control system, but this is tied to a particular implementation and will not work in a distributed environment where there are multiple different repositories, and services such as computational resources that researchers need to access to process data.</p>
+<p>We could not find an available open source system for managing license-based access to data, so our starting approach used groups as a proxy for granting licences on that basis that all common user-directory services such as LDAP include the concept of user groups.</p>
+<p>Scope:</p>
+<ul>
+<li>
+<p>simplest possible license based approach to access control</p>
+</li>
+<li>
+<p>NOT attempting to be attribute based as that is not currently feasible within our project scope (see <a href="https://ardc.edu.au/project/cadre/" target="_blank" rel="noopener noreffer ">CADRE</a> for progress in that direction)</p>
+</li>
+</ul>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>The first prototype, which we presented at eResearch Australasia last year was a proof-of-concept Github based system. This demonstrated that authorization can be delegated from a repository to an external service. For each of the Sydney Speaks licenses there was a Github group (organization). The repository, when requested to serve data would get the user to login using the Github Authentication services, then check if the user was in the correct license group.</p>
+<p>This worked, but there were issues with this approach:</p>
+<ul>
+<li>
+<p>There are no workflow options (unless we build a workflow system), just adding people to a Github organisation to pre-authorize them</p>
+</li>
+<li>
+<p>The system only supported a single logon service, which is not widely used in academia or by community groups</p>
+</li>
+</ul>
+<p>So, we talked to the our colleagues at the Australian Access Federation (AAF), about a supported, research-sector-wide service.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>The AAF, as it happened were already working with other research groups on a service called <a href="https://www.cilogon.org/" target="_blank" rel="noopener noreffer ">CILogon</a> (hosted in the USA initially, but soon to be hosted in Australia), like Github, this service has groups (which was our way of associating users with licenses in the absence of a specific license-granting service), but also allows users to log in with a variety of Authentication providers, including research institutions, via the Australian Access Federation as well as social logins such as Google and Microsoft (and our old friend Github).</p>
+<p>Again this worked, but the current version of CILogon does not have particularly easy-to-use ways for a license-holder to create groups - there are a number of abstract constructs to deal with and there is currently no way to build an approval workflow using the web interface, so as with the Github trial we would have needed to build this part (all of this may change, as the software is under constant development).</p>
+<p>There is a <a href="https://youtu.be/xEWXiM-jUfY" target="_blank" rel="noopener noreffer ">nine minute silent video</a> of what this looked like on YouTube for those who are really interested.</p>
+<p>AAF is engaging with our project on the following:</p>
+<ul>
+<li>a cloud-based authentication and authorisation infrastructure (AAI) to support the needs of the project</li>
+<li>understand and develop business process documentation for authorising access to data and services</li>
+<li>configure the AAI to support these business processes and to develop extensions to facilitate new functionality that may be required</li>
+<li>create a set of policies, standards and guidelines for managing researchers’ identity and access management</li>
+<li>develop support documentation, train community representatives to operate the platform, and provide support to the community managers.
+The AAF has recommended CILogon &amp; REMS as potential solutions to investigate &amp; prototype</li>
+</ul>
+<p>CILogon is a federated identity management platform that provides the following features:
+support for institutional and community logins
+cross-institutional and community collaboration
+federated identity and group management
+a community management dashboard
+OIDC connectors for downstream services that support authorisation claims for services like
+REMS
+BinderHub
+JupyterHub
+LDaCA Dashboard</p>
+<p>REMS (Resource Entitlement Management System) is a tool to help researchers browse resources such as datasets relevant to their research and to manage the application process for access to the resources.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>Recently (after the abstract for this presentation was submitted) the AAF team made us aware of the Resource Entitlement Management System, <a href="https://github.com/CSCfi/rems" target="_blank" rel="noopener noreffer ">REMS</a>, which is an open source application out of Finland. This software is the missing link for LDaCA in that it allows a data custodian to grant licenses to users. And it works with CILogon as an Authentication layer so we can let users log in using a variety of services.</p>
+<p>At the core of REMS is a set of Licenses which can then be associated with Resources - in our design this is (almost always) a one-to-one correspondence, for example we would have a licence “Sydney Speaks Data Researcher Access License” corresponding to resource that represents ALL data with that licence. These Resources can then be made available through a catalog, and workflows can be set up for pre-authorization processes ranging from single-click authorizations where a user just accepts a licence and a bot approves it, to complex forms where users upload credentials and one or more data custodians approve their request, and grant them the licence.</p>
+<p>It also has features for revoking permissions, and has a full API so admin tasks can be automated (for us that’s in the future).</p>
+<p>Once a user has been granted a license in a pre-authorization process then a repository can authorize access to a resource by checking with REMS to see if a given user is pre-authorized. That is, has been granted a license. Note that users do not have to find REMS on their own - they will be directed to it from data and computing services when they need to apply for pre-authorization.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>This interaction diagram shows the flow involved in a user applying for a data license via REMS.</p>
+<p>Not shown here are some design and preparation steps:</p>
+<ul>
+<li>
+<p>The research team read their ethics approval and participant agreements and craft one or more access agreements (AKA licenses) for a data set (NOTE: If the data can be made available automatically with just a license attached, such as when all parties have agreed that data can be Creative commons licensed, or the data is in the public domain then the following steps are not required)</p>
+</li>
+<li>
+<p>The research team and support staff add the license to REMS, creating a “resource” a virtual offering that corresponds to any dataset that has the above license</p>
+</li>
+<li>
+<p>The research team add a workflow to REMS - this could range from an auto-approved click through where users can agree to license terms, through to detailed (manual) checking of their credentials.</p>
+</li>
+</ul>
+<p>The next slide shows the interactions involved in accessing data once a user has been granted the license license.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>This diagram shows the “access-control dance” for a user who has been granted a license in REMS obtaining access to a dataset at a data portal which gives access to data in a repository or archive.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>In this video we demonstrate how to use REMS and how does a user request access to an LDaCA resource.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>(This section was added after the conference, to try to summarize the discussion and clarify requirements by starting an FAQ on this approach)</p>
+<h2 id="q-why-not-just-implement-an-access-control-list-acl-in-the-repository">Q Why not &ldquo;just&rdquo; implement an access control list (ACL) in the repository?</h2>
+<p>There are a few reasons for the distributed approach we have taken in LDaCA:</p>
+<ol>
+<li>
+<p>ACLs need maintenance over time - people&rsquo;s identities change, they retire and die, so storing a list of identifiers such as email addresses alongside content is not a viable long-term preservation strategy. Rather, we will encourage data custodians to describe in words what are permitted uses for the data, and by whom, in a license, then allow whomever is the current data custodian to manage that access in a separate administrative system. We expect these administrative systems to be ephemeral, and change over time but also to generate less friction over time as standards are developed. Expected future benefits of concentrating these processes will include that people do not have to prove the same claims they make about themselves multiple times and that it is easier for data custodians to authorize access.</p>
+</li>
+<li>
+<p>LDaCA data will be stored in a variety of places with separate portal applications serving data for specific purposes; if these systems all have in-built authorization schemes, even if they are the same, then we have the problem of synchronizing access control lists around a network of services.</p>
+</li>
+<li>
+<p>Accessing data that requires some sort of authorization process is not language or humanities specific, so working with an existing application that can handle pre-authorization workflows and access-control authorization decisions is an attractive choice and should allow LDaCA to take advantage of centrally managed services with functionality that improves over time rather than having to develop and maintain our own systems.</p>
+</li>
+<li>
+<p>If complex access controls are implemented inside a system then there is a risk that data becomes stranded inside that system and cannot be reused without completely re-implementing the access control. For example, imagine an archive of cultural material with complex access controls encoded into the business logic such as “this item is accessible only to male initiates”. Applications like this need to store user accounts with attributes on both data and user records that can be used to authorize access. There is a high risk of data being stranded in a system such as this if it is no longer supported. This will be mitigated somewhat if the rules are also expressed as licenses, perhaps a composition of Traditional Knowledge (TK) Labels - but the access system is baked-in to the application and not portable.</p>
+</li>
+</ol>
+<h2 id="q-yes-but-why-does-data-need-to-have-a-license-if-we-already-have-access-controls">Q: Yes but why does data need to have a license if we already have access controls?</h2>
+<p>The point of Research Data Commons projects like LDaCA is to create an ecosystem where data can be re-used. For language data, this means that users, including researchers and community members, will be able to download data for certain authorised purposes and activities. The license is the way that data custodians communicate to data users (and future administrators) what those purposes activities are.</p>
+<p>A license, which is always packaged with data will allow:</p>
+<ul>
+<li>
+<p>A user to inspect a five-year-old dataset in their downloads folder and work out what they are allowed to do with it.</p>
+</li>
+<li>
+<p>An IT professional to clean up laptop that has been handed in by (or seized from – it happens) a departing faculty member.</p>
+</li>
+<li>
+<p>A developer to re-create an access control replacing a decommissioned system.</p>
+</li>
+</ul>
+<h2 id="q-so-many-licenses-sounds-like-a-lot-of-work">Q So many licenses! Sounds like a lot of work!</h2>
+<p>We expect that the overhead of writing licenses will diminish greatly over time and standard clauses and complete licenses will be established. A data depositor will be able to choose from a set of standard license terms (such as a standard “restricted to CIs and participants license” for a given repository, using that as a template to mint their own license for a given data set with its own name and ID. The user can choose a standard way of adding pre-authorized licensees (such as email invitations). This ID can then be used by an authorization system.</p>
+<h2 id="q-so-you-have-centralized-authorization-into-a-system-that-grants-licenses-doesnt-that-mean-you-are-locked-in-to-that-system">Q So you have centralized authorization into a system that grants licenses doesn&rsquo;t that mean you are locked-in to that system?</h2>
+<p>No, and Yes</p>
+<p><strong>No</strong>, there is no lock in regarding the list of Licenses and pre-authorized users; licenses and access control lists can be exported via an API so it is possible to import them into another system or save them for audit purposes.</p>
+<p><strong>Yes</strong>, there is lockin, in that at this stage the workflow used to give access to users is specific to the system (such as REMS)</p>
+<p><strong>But</strong>, because our process requires a governance step <em>first</em> in writing a license, then there is a statement of intent for re-building those processes later if needed - a step which is very likely to be missing in a system with built-in access control.</p>
+<p>Also, over time, we expect the administrative burden of constructing workflows will become less as standards are developed for a couple of things:</p>
+<ol>
+<li>
+<p>Licenses can be made less complex (particularly in the context of academic studies) if they specify re-use by particular known cohorts in advance - this comes down to improving the design of studies to encourage data reuse. This may also help to simplify academic ethics processes in the medium to long term.</p>
+</li>
+<li>
+<p>The CADRE project is looking to improve pre-authorization workflows that automatically source relevant information about potential users - fetching their publication record, and potentially remembering what certifications they have, so these attributes can be used and reused for decision making. It is conceivable that this approach might be useful in cultural contexts as well to allow data custodians to manage data sharing - this is a discussion we have yet to have in the broader HASS RDC.</p>
+</li>
+</ol>
+<h2 id="q-what-if-i-have-a-really-simple-requirement-like-giving-access-to-just-a-couple-of-people---doesnt-this-license-approach-just-add-complexity">Q What if I have a really simple requirement like giving access to just a couple of people - doesn’t this license approach just add complexity?</h2>
+<p>If a data item needs to be locked down to a small group of people, say the chief investigator and the participants in a recorded dialogue then an obvious implementation is to maintain a small access control list (ACL) for the item. But all of the issues identified above with application-specific ACLs are the same, no matter the size of the cohort: the data set can’t be access controlled outside of its home system. If the system is no longer running then the data may be completely inaccessible, and if there is no license document stored with the data setting out terms of re-use in general terms then there is no indication to future administrators about who, if anyone, should have access of the data.</p>
+<h2 id="q-we-dont-need-a-license-we-have-a-terms-of-use">Q: We don’t need a license, we have a “terms of use”</h2>
+<p>Same thing. Terms of use for data are what a license does. We are designing our systems so that all the relevant terms and conditions go in one place to minimize confusion.</p>
+</section>
+<p>The final three slides have been contributed by co-author Patrick.</p>
+<p>These slides briefly outline the AAF process for the next phase that will provide the foundations for the development of the service and the creation of those policies to support the community and the service.</p>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>This process will support the project to deliver a viable service that meets researchers’ needs and is trusted by the community and the participants to safely distribute data to authorised persons.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>The AAF’s business analyst is conducting interviews with the key stakeholders.
+This discovery process will collect information on the current and the “to-be” state of the service.</p>
+<p>Together these will establish goals and expectations and provide the basis for further prototyping a service that meets stakeholder needs.</p>
+<p>The process will facilitate the building of a service that empowers the data custodians, the communities and participants to manage access.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>The basis for prototyping is iterative:
+Identify
+Prioritise
+Pilot
+Review
+Update requirements</p>
+<p>This leads to a production service that meets participant, community and researcher requirements and unifies the services, policies and trust framework for the community.</p>
+</section>
+]]></description></item></channel></rss>

@@ -1,0 +1,144 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Metadata - Tag - LDaCA</title><link>https://www.ldaca.edu.au/tags/metadata/</link><description>Metadata - Tag - LDaCA</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>info@ldaca.edu.au (Language Data Commons of Australia)</managingEditor><webMaster>info@ldaca.edu.au (Language Data Commons of Australia)</webMaster><lastBuildDate>Fri, 25 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ldaca.edu.au/tags/metadata/" rel="self" type="application/rss+xml"/><item><title>Designing a metadata ecosystem for language research based on Research Object Crate (RO-Crate)</title><link>https://www.ldaca.edu.au/posts/ldaca-metadata-ecosystem-eresearch-2022/</link><pubDate>Fri, 25 Nov 2022 00:00:00 +0000</pubDate><author>Peter Sefton</author><guid>https://www.ldaca.edu.au/posts/ldaca-metadata-ecosystem-eresearch-2022/</guid><description><![CDATA[<p><a href="/posts/ldaca-metadata-ecosystem-eresearch-2022/ldaca-metadata-ecosystem-eresearch-2022.pdf" rel="">PDF version</a></p>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>By Peter Sefton, Nick Thieberger, Marco La Rosa, Simon Musgrave, River Tae Smith, Moises Sacal Bonequi – delivered by Peter Sefton at eResearch 2022 in Brisbane</p>
+<p>This work is licensed under CC BY 4.0. To view a copy of this license, visit <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreffer ">http://creativecommons.org/licenses/by/4.0/</a></p>
+<p>This presentation will look at how a Metadata Standard - RO-Crate - with Metadata Profile (the Language Data Commons) is being developed and implemented. Two major collections are collaborating on the standard, PARADISEC and the Language Data Commons of Australia (LDaCA). This ongoing standardisation effort for language data is designed to improve interoperability, reduce costs for data migration and allow storage on disk, object storage or in archival repositories.</p>
+<p><a href="https://www.researchobject.org/ro-crate/" target="_blank" rel="noopener noreffer ">RO-Crate</a> is a linked-data metadata system which allows discovery metadata (Who, what where) based on the widely adopted Schema.org vocabulary to be seamlessly integrated with more discipline specific metadata. RO-Crate uses metadata profiles to provide guidance for packaging resources for particular disciplines and purposes.</p>
+<p>In this presentation we will introduce a RO-Crate metadata profile for language data which extends the core RO-Crate standard with new vocabulary terms adapted from pre-linked-data discipline specific metadata efforts, particularly the Open Language Archives Community (OLAC) standards. The profile has English-language guidance on how to structure collections of resources in a repository with links between them, such that they can be indexed and displayed via APIs and search/browse portals. The profile is also implemented as a series of machine-readable profiles for the Describo Online metadata description system.</p>
+<p>We will demonstrate current ways of describing items in a variety of languages and modes (spoken, written and signed), from a large set of heterogeneous language resources held by PARADISEC and LDaCA. We will also show how to access them via API calls and a search portal, and how resources may be stored in simple storage systems using the Arkisto platform (a set of standards and principles).</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>This work is supported by the Australian Research Data Commons.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>The Language Data Commons of Australia Data Partnerships (<a href="https://doi.org/10.47486/HIR001" target="_blank" rel="noopener noreffer ">LDaCA</a>) and the Australian Text Analytics Platform (<a href="https://doi.org/10.47486/PL074" target="_blank" rel="noopener noreffer ">ATAP</a>) are building towards a scalable and flexible language data and analytics commons. These projects will be part of the Humanities and Social Sciences Research Data Commons (HASS RDC).</p>
+<p>The Data Commons will focus on preservation and discovery of distributed multi-modal language data collections under a variety of governance frameworks. This will include access control that reflects ethical constraints and intellectual property rights, including those of Aboriginal and Torres Strait Islander, migrant and Pacific communities.</p>
+<p>The platform will provide workbench services to support computational research, starting with code-notebooks with no-code research tools provided in later phases. Research artefacts such as code and derived data will be made available as fully documented research objects that are re-runnable and rigorously described. Metrics to demonstrate the impact of the platform are projected to include usage statistics, data and article citations. These projects are led by Professor Michael Haugh of the School of Languages and Culture at the University of Queensland with several partner institutions.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>This page shows a <a href="https://www.youtube.com/watch?v=CX-CODBwOVU&amp;t=7s" target="_blank" rel="noopener noreffer ">YouTube demo of the PARADISEC web site</a>.</p>
+<p>PARADISEC (the Pacific And Regional Archive for Digital Sources in Endangered Cultures) is a digital archive of records of some of the many small cultures and languages of the world and it has developed models to ensure that the archive can provide access to interested communities while also conforming with emerging international standards for digital archiving. Australian researchers have been making unique and irreplaceable audiovisual recordings in the region since portable field recorders became available in the mid-twentieth century, yet until the establishment of PARADISEC there was no Australian repository for these invaluable research recordings.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>Goal: Be able to store data with an eye on preservation</p>
+<p>In an archive like PARADISEC - it is important to be be able to maintain resources over the long term. For example, much material which falls within the scope of PARADISEC is stored on legacy media. PARADISEC archives tapes from a range of sources, such as the agencies in the Pacific shown in the images above. Such material needs to be digitised and returned to the source with meaningful metadata.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>PARADISEC has learned the importance of making the collection self-describing so it is not dependent on a database as the sole metadata source. It does use a database for administrative services, from which a text file with metadata for any item can be exported. This allows us to select an arbitrary set of items, put them on a hard disk, and use the dataloader application to generate an html catalog of just those items, drawing on the internal metadata file describing each item. This can be delivered on a hard disk to a local community or cultural organisation, or on a raspberry pi wifi local network to allow access on phones, as seen here in Erakor village in central Vanuatu.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>Another example of how good metadata practice can improve community access is the Auslan (Australian Sign Language) corpus, for which community access is very important.</p>
+<p>The Auslan Corpus has been stored with the Endangered Languages Archive (<a href="https://www.elararchive.org/" target="_blank" rel="noopener noreffer ">ELAR</a>) since 2008. However, ELAR does not currently suit the access needs of the Auslan corpus; it has low discoverability, and files must be downloaded individually. The corpus, along with the Auslan SignBank dictionary, is being included in LDaCA.</p>
+<p>The Auslan Corpus holds great value as an educational tool for Auslan users and learners, both Deaf and hearing, and the move to LDaCA will allow further development of educational tools. One such tool is the ability, still under development, for Auslan Signbank dictionary to pull real-world examples of signs out of the corpus to show alongside dictionary entries.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>For all of the collections we are working with data is discoverable via some kind of web portal which indexes and displays the archive (repository) of data. These screenshots are of work in progress at LDaCA.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>The LDaCA services we are building use an API to drive the data portals. The API can be used for direct access with appropriate access control – see <a href="../fair-care-eresearch-2022" rel="">another eResearch presentation</a> which explains this in detail. These screenshots show code notebooks (running in BinderHub on the Nectar cloud) accessing language resources.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>Having looked at the user-facing products, websites and APIs, we turn our attention to how data is managed on disk.</p>
+<p>In the PARADISEC system this is achieved by storing files on disk in a simple hierarchy - with metadata and other resources stored together in a directory - this scheme allows for hands-on management of data resources, independently of the software used to serve them.</p>
+<p>This approach means that if the PARADISEC software-stack becomes un-maintainable for financial or technical reasons the important resources, the data, are stored safely on disk with their metadata and a new access portal could be constructed relatively easily.</p>
+<p>Despite the valuable features of this solution, it is not generalisable. The metadata.xml is custom to PARADISEC, as is the software stack.</p>
+<p>In 2019 PARADISEC and the eResearch team at UTS received small grants from the Australian National Data Service and began collaborating on an approach to managing archival repositories which built on this PARADISEC approach of storing metadata with data.</p>
+<p>The UTS team presented on this at <a href="https://ptsefton.com/2019/11/05/FAIR%20Repo%20-%20eResearch%20Presentation/index.html" target="_blank" rel="noopener noreffer ">eResearch Australasia 2019</a></p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>For this Research Data Commons work we are using the Arkisto Platform (introduced <a href="http://ptsefton.com/2020/11/23/Arkisto/index.html" target="_blank" rel="noopener noreffer ">at eResearch 2020</a>).</p>
+<p>Arkisto aims to ensure the long term preservation of data independently of code and services, recognizing the ephemeral nature of software and platforms. We know that sustaining software platforms can be hard and aim to make sure that important data assets are not locked up in databases or hard-coded logic of some hard-to-maintain application.</p>
+<p>Inspired by PARADISEC’s approach the Arkisto platform is based on the idea of storing data in simple easy to manage file or object storage systems with metadata in an easily readable standard format.</p>
+<p>The LDaCA repositories use the Oxford Common File Layout (<a href="https://ocfl.io/" target="_blank" rel="noopener noreffer ">OCFL</a>) standard which is backed and used by a number of universities and has multiple implementations while PARADISEC data will be migrated to a simpler data storage approach <a href="https://github.com/CoEDL/nocfl-js" target="_blank" rel="noopener noreffer ">NOCFL</a>, which is a single-library implementation, inspired by some of the same aims, but with different implementation choices to avoid data being obfuscated by OCFL’s layout, which is a product of its commitment to immutable, write-once file management.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>Now to the main focus of this presentation - the metadata “Profile” we are jointly developing to ensure that language resources can be described in a way that is interoperable between software, and re-usable over time.</p>
+<p>The Profile is an “RO-Crate Profile”, a kind of Cook Book for how to describe and package language data.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>RO-Crate is method for describing a dataset as a digital object using a <strong>single linked-data metadata document</strong></p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>The dataset may contain any kind of data resource about anything, in any format as a file or URL</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>The RO-Crate standard also strongly recommends that JSON metadata is supplemented with an HTML preview - above we show what that looks like for a PARADISEC item. This is a screenshot of an HTML view of a PARADISEC Item generated using <a href="https://github.com/UTS-eResearch/ro-crate-html-js" target="_blank" rel="noopener noreffer ">an HTML rendering tool for RO-Crate</a>. The important point here is that this is a <em>generic</em> viewer that can understand any RO-Crate. It may not be glamorous but it could be included in an archive as a way to provide human-readable access in the absence of portals that are data specific (but cost money to build and maintain).</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>Here is the same page from the previous slide seen in a working model of an RO-Crate set exported from the current PARADISEC catalog, with a single page viewer using an elastic search. The two pages shown here are generated directly from metadata that was stored in an RO-Crate in a storage system using PARADISEC specific, rather than generic code.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>The <a href="https://www.researchobject.org/ro-crate/1.1/structure.html" target="_blank" rel="noopener noreffer ">structure of an RO-Crate</a> is very similar to the PARADISEC example above, but with a json file instead of XML, and an optional preview in HTML.</p>
+<p>RO-Crate has a growing number of <a href="https://www.researchobject.org/ro-crate/tools/" target="_blank" rel="noopener noreffer ">tools and software libraries</a> which means that a team such as PARADISEC do not have to maintain their own bespoke software.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>The base vocabulary for the JSON-LD used in RO-Crate is schema.org - a widely used linked data standard. RO-Crate uses a handful of terms from other ontologies but importantly it allows for seamless extensibility with domain specific vocabularies, which is what we will talk about next.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>The PARADISEC metadata model is based on the Open Language Archives (OLAC) metadata standard. This is an XML based standard, but has good online documentation, which is perfect for migrating to a Linked Data approach.</p>
+<p>We used the OLAC terms, including <a href="http://www.language-archives.org/REC/type-20020628.html" target="_blank" rel="noopener noreffer ">some that were proposed but withdrawn</a> as the basis for a new vocabulary.</p>
+<p>As part of a LIEF project (2022-23, led by author Thieberger), revisions to the OLAC scheme are planned, together with rebuilding the OLAC metadata harvester and aggregator.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>The new Langauge Data Terms have been published at <a href="https://purl.archive.org/language-data-commons/terms" target="_blank" rel="noopener noreffer ">https://purl.archive.org/language-data-commons/terms</a></p>
+<p>These terms have been modernised and mainstreamed from previous ways of describing resources, for example instead of describing the main item of interest as a PrimaryText (where text is any kind of communicative resource – not a bitstream of characters) we use the term PrimaryResource. And in the example in the image, the type of genre <em>Informational</em> has been added to the set proposed in the OLAC vocabulary.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>(Image prompt DALL-E a hierarchical whale skeleton digital art)</p>
+<p>Before we come back in detail to how RO-Crate works we will discuss the structure or skeleton of our language collections stored in a repository</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>Broadly speaking there are two ways that an Arkisto-style repository can be structured and the profile sets out criteria for choosing one of the options.</p>
+<p>For small, stable collections of data an entire collection (often referred to a ‘corpus’ by linguists) can be stored in a single directory or directory-like structure in an object store.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>For larger collections the approach used by PARADISEC and most LDaCA collections is to store each Object or Item (typically a related set of recordings, or a single document) in a directory (or directory-like thing).</p>
+<p>In this mode, each Object MUST link back to the Collection Object.</p>
+<p>A Collection Object MAY have explicit listing of hasMember properties - which makes it possible to construct repository navigation (such as websites) more cheaply. This is the approach used in PARADISEC, while in LDaCA these links are constructed by an indexer servicer or summarizer application.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>This screenshot shows the Language Data Commons RO-Crate Profile in action. This is the <a href="https://github.com/Arkisto-Platform/describo-online" target="_blank" rel="noopener noreffer ">Describo Online</a> metadata editor, with configuration that reflects the profile being used to describe a language data collection using linked-data metadata.</p>
+<p>In this case the description is of the collection object.</p>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p>Once the data is described, we ingest it into a repository, as a set of files on disk or object storage and index it in a portal, as you can see in these screenshots.</p>
+</section>
+<section typeof='http://purl.org/ontology/bibo/Slide'>
+
+<p><a href="https://www.youtube.com/watch?v=p-GZbe-Kzww&amp;t=5s" target="_blank" rel="noopener noreffer ">Video of browsing a collection in an LDaCA repo</a> showing:</p>
+<ul>
+<li>Going to the portal</li>
+<li>Selecting a collection</li>
+<li>Searching for content</li>
+<li>Selecting a notebook</li>
+<li>Launching Binder</li>
+</ul>
+<p>This example notebook explores the collection via the rest API.</p>
+<h1 id="conclusion">Conclusion</h1>
+<p>In this presentation we have shown the major components of an ecosystem for storing, discovering and analysing language data using common standards for describing objects in a repository. The <a href="https://www.researchobject.org/ro-crate/" target="_blank" rel="noopener noreffer ">RO-Crate</a> standard is used as the key metadata container, with a common vocabulary of language specific terms for describing data. This approach should reduce development costs and increase data reuse. The approach can also be adapted to other disciplines and domains with the development only of new profiles..</p>
+</section>
+]]></description></item></channel></rss>

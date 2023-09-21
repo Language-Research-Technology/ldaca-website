@@ -626,7 +626,7 @@ Update requirements</p>
 <p>This leads to a production service that meets participant, community and researcher requirements and unifies the services, policies and trust framework for the community.</p>
 </section>
 ]]></description></item><item><title>HASS RDC Technical Advisory Group Meeting LDaCA &amp; ATAP Intro</title><link>https://www.ldaca.edu.au/posts/rdc-tech-meeting/</link><pubDate>Wed, 08 Jun 2022 15:28:35 +1000</pubDate><author>Peter Sefton</author><guid>https://www.ldaca.edu.au/posts/rdc-tech-meeting/</guid><description><![CDATA[<p>This is a presentation Peter Sefton gave to the
-<a href="https://ardc.edu.au/collaborations/strategic-activities/hass-and-indigenous-research-data-commons/" target="_blank" rel="noopener noreffer ">Humanities, Arts and Social Sciences Research Data Commons and Indigenous Research Capability Program</a>  Technical Advisory Group on Friday 11th February 2022.</p>
+<a href="https://ardc.edu.au/collaborations/strategic-activities/hass-and-indigenous-research-data-commons/" target="_blank" rel="noopener noreffer ">Humanities, Arts and Social Sciences Research Data Commons and Indigenous Research Capability Program</a> Technical Advisory Group on Friday 11th February 2022.</p>
 <p>Thanks to Simon Musgrave for reviewing this and adding a little detail here
 and there.</p>
 <p>(This is also available on <a href="https://ptsefton.com/2022/02/18/hass_rdc_tech_advisory/index.html" target="_blank" rel="noopener noreffer ">Dr Sefton&rsquo;s site</a>)</p>
@@ -729,16 +729,16 @@ the manifestations of the document in various languages.</p>
 context of <em>doing</em> research. It makes a distinction between managed
 repository storage and the places where work is done - “workspaces”.
 Workspaces are where researchers collect, analyse and describe data.
-Examples  include the most basic of research IT services, file storage as
+Examples include the most basic of research IT services, file storage as
 well as analytical tools such as Jupyter notebooks (the backbone of ATAP -
 the text analytics platform). Other examples of workspaces include code
 repositories such as GitHub or GitLab (a slightly different sense of the word
 repository), survey tools, electronic (lab) notebooks and bespoke code
 written for particular research programmes - these workspaces are essential
 research systems but usually are not set up for long term management of data.</p>
-<p>The cycle in the centre of  this diagram shows an idealised research practice
+<p>The cycle in the centre of this diagram shows an idealised research practice
 where data are collected and described and deposited into a repository
-frequently. Data are made findable and accessible  as soon as possible and
+frequently. Data are made findable and accessible as soon as possible and
 can be “re-collected” for use and re-use.</p>
 <p>For data to be re-usable by humans and machines (such as ATAP notebook code
 that consumes datasets in a predictable way) it must be well described. The
@@ -748,7 +748,7 @@ standards and standard approaches to describe both data and re-runnable
 software such as workflows or notebooks.</p>
 <p></p>
 <p>This rather messy slide captures the overall high-level architecture for the
-LDaCA Research Data Commons  - there will be an analytical workbench (left of
+LDaCA Research Data Commons - there will be an analytical workbench (left of
 the diagram) which is the basis of the Australian Text Analytics (ATAP)
 project - this will focus on notebook-style programming using one of the
 emerging Jupyter notebook platforms in that space. (This is not 100% decided
@@ -801,9 +801,9 @@ tabular data or domain specific discovery tools such as corpus analysis
 software. And, there may be collection specific portals that show a slice of
 a bigger repository with features or branding specific to a subset of data.</p>
 <p></p>
-<p>This implementation of the Arkisto standards-stack is known as Oni.  That’s
+<p>This implementation of the Arkisto standards-stack is known as Oni. That’s
 not really an acronym any more though it once stood for OCFL, Ngnix (a web
-server) or Node (a Javascript framework)  and an Index. An Oni is a kind of
+server) or Node (a Javascript framework) and an Index. An Oni is a kind of
 Japanese demon. 👹</p>
 <p></p>
 <p>But how will data get into the OCFL repository? At the moment we’re loading
@@ -836,7 +836,7 @@ not enough work done to check which browse facets <em>are</em> useful and not en
 of the budget was able to be spent on user engagement and training rather
 than software development.</p>
 <p>One of my current LDaCA senior colleagues said to me a couple of years ago
-that Alveo was useless:  “I just wanted to get all the data” they siad. Me, I
+that Alveo was useless: “I just wanted to get all the data” they siad. Me, I
 was thinking “but it has an API so you CAN get all the data - what’s the
 problem?”. We have tried not to repeat this mistake by making sure that the
 API delivers entire collections and we have some demonstrations of doing this
@@ -865,7 +865,7 @@ dialogue)</li>
 </ol>
 <p>This API has been used and road tested at ANU to develop techniques for topic
 modelling on the Sydney Speaks corpus (more about which corpus below) - by a
-student Marcel Reverter-Rambaldi under the supervision of  Prof Catherine
+student Marcel Reverter-Rambaldi under the supervision of Prof Catherine
 Travis at ANU - we are hoping to publish this work as a re-usable notebook
 that can be adapted for other projects, and to allow the techniques the ANU
 team have been developing to be applied to other similar data in LDaCA.</p>
@@ -908,7 +908,7 @@ encourage research processes that clearly separate data from code. Notebooks
 and other code workflows that use data will fetch a version-controlled
 reference copy from a repository - using an access key if needed, process the
 data and produce results that are then deposited into an appropriate
-repository alongside the code itself.  Given that a lot of the data in the
+repository alongside the code itself. Given that a lot of the data in the
 language world is NOT available under open licenses such as Creative Commons
 it is important to establish this practice - each user of the data must
 negotiate or be granted access individually. Research can still be
@@ -960,18 +960,12 @@ variation and change more broadly, including:</p>
 <ul>
 <li>How has Australian English as spoken in Sydney changed over the past 100 years?</li>
 <li>Has the change in the ethnic diversity over that time period (and in particular, over the past 40 years) had any impact on the way Australian English is spoken?</li>
-<li>What affects the way variation and change spread through society
-<ul>
-<li>Who are the initiators and who are the leaders in change?</li>
-<li>How do social networks function in a modern metropolis?</li>
-<li>What social factors are relevant to Sydney speech today, and over time (gender? class? region? ethnic identity?)
+<li>What affects the way variation and change spread through society - Who are the initiators and who are the leaders in change? - How do social networks function in a modern metropolis? - What social factors are relevant to Sydney speech today, and over time (gender? class? region? ethnic identity?)
 A better understanding of what kind of variation exists in Australian
 English, and of how and why Australian English has changed over time can
 help society be more accepting of speech variation and even help address
 prejudices based on ways of speaking.
 Source: <a href="http://www.dynamicsoflanguage.edu.au/sydney-speaks/" target="_blank" rel="noopener noreffer ">http://www.dynamicsoflanguage.edu.au/sydney-speaks/</a></li>
-</ul>
-</li>
 </ul>
 </blockquote>
 <p>The collection contains recordings of people speaking both contemporary and
