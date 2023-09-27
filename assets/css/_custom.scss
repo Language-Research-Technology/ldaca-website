@@ -1,11 +1,11 @@
 // Color Variables from Logo
-$water_green: #79a38d;
-$land_green: #91a96d;
-$clear_blue: #537ec0;
-$storm_blue: #566777;
-$sandstone: #ffcc79;
-$deep_rock: #653c2c;
-$light_rock: #653c2c;
+$water_green: rgb(121, 163, 141);
+$land_green: rgb(145, 169, 109);
+$clear_blue: rgb(83, 126, 192);
+$storm_blue: rgb(86, 103, 119);
+$sandstone: rgb(255, 204, 121);
+$deep_rock: rgb(101, 60, 44);
+$light_rock: rgb(101, 60, 44);
 $color_list: (
   $water_green,
   $land_green,
@@ -52,6 +52,34 @@ $color_count: 1;
     content: "" !important;
   }
 }
+
+div {
+  #home_list_bg {
+    background-color: rgba(86, 103, 119, 0.4); // Storm blue with alpha value
+    margin: 3% 0%;
+  }
+  #home_list {
+    padding: 3%;
+  }
+  .container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 0%;
+    background-color: rgba(255,255,255,0.3);
+    gap: 10%;
+    img {
+      width: 40%;
+    }
+  }
+}
+
+.container {
+  
+  padding: 10% 0%;
+}
+
 
 // Increase size of the logo on a desktop view
 
