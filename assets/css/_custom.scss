@@ -69,14 +69,16 @@ div {
     padding: 10% 0%;
     background-color: rgba(255,255,255,0.3);
     gap: 10%;
-    img {
-      width: 40%;
+    .flex_item {
+      max-width: 40%;
+      min-width: 300px;
+      flex-basis: 40%;
+      flex-grow: 1;
     }
   }
 }
 
 .container {
-  
   padding: 10% 0%;
 }
 
@@ -126,7 +128,23 @@ div {
   .search-dropdown.desktop {
     right: 1rem;
   }
+
+  .slideshow_div {
+    display: none;
+  }
+  div {
+    .container {
+      flex-flow: row wrap;
+      .flex_item {
+        max-width: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+      }
+    }
+  }
 }
+
 
 @media only screen and (max-width: 960px) {
   #toc-auto {
@@ -210,5 +228,207 @@ a.menu-item {
 
   .delimiter {
     padding: 0;
+  }
+}
+
+// Slideshow Styling
+// Number of slides
+$slide-count: 5;
+
+// Tab colours (must be same as number of slides)
+$c-slides: #2E112D #540032 #820333 #C9283E #F0433A;
+
+// Slide backgrounds (if used, must be same as number of slides, otherwise false)
+$b-slides: url('https://via.placeholder.com/1000x2000/2E112D/fff?text=1') url('https://via.placeholder.com/1000x2000/540032/fff?text=2') url('https://via.placeholder.com/1000x2000/820333/fff?text=3') url('https://via.placeholder.com/1000x2000/C9283E/fff?text=4') url('https://via.placeholder.com/1000x2000/F0433A/fff?text=5');
+// $b-slides: false;
+
+// Total duration of slide animation
+$animation-duration: 1s;
+
+// Dimensions of the slides
+$slide-width: 50%;
+$slide-height: 100%;
+
+// Slide content overflow (auto or hidden)
+$slide-overflow: auto;
+
+// Slide content colours
+$c-black: #000;
+$c-grey: #AAA;
+$c-light-grey: #DDD;
+
+// Other colours
+$c-background: #101010;
+$c-text: $c-light-grey;
+$c-label-text: $c-grey;
+
+/****************************************/
+
+.slideshow_div {
+  padding: 3% 0 50%;
+}
+
+.slideshow {
+  width: 100%;
+  height: 30%;
+  border: 0px;
+  padding: 0px;
+  margin: 0 auto;
+  background-color: $c-black;
+  overflow: hidden;
+  counter-reset: slide;
+  position: absolute;
+}
+
+input {
+  position: absolute;
+  opacity: 0;
+  top: -25px;
+  counter-increment: slide;
+    
+  &:checked + .slide {
+    transform: translateX(0px);
+    transition: transform #{$animation-duration / 2} ease-in-out;
+    
+    .slide__content {
+      width: 100%;
+      display: block;
+      
+      &:before {
+        color: #FFF;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        content: counter(slide) ' of #{$slide-count}';
+        padding: 5px 10px;
+        background-color: rgba(255,255,255,0.1);
+        border-radius: 4px;
+        text-align: right;
+      }
+    }
+  }
+  
+  @for $i from 1 through $slide-count {
+    &:checked:nth-of-type(#{$i}) ~ nav label:nth-child(#{$i}) {
+      color: white;
+    }
+  }
+}
+
+@mixin slide-popout {
+  position: absolute;
+  margin: auto;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.slide {
+  transform: translateX(#{-$slide-width * 2});
+  position: absolute;
+  width: $slide-width;
+  height: $slide-height;
+  background-size: $slide-width $slide-height;
+  transition: transform #{$animation-duration / 2} ease-in-out;
+  
+  &__content {
+    box-sizing: border-box;
+    height: 100%;
+    overflow: $slide-overflow;
+    padding: 50px;
+    color: $c-text;
+    position: absolute;
+    left: 100%;
+    display: none;
+    animation-name: fade-in;
+    animation-duration: $animation-duration;
+    animation-iteration-count: 1;
+    opacity: 1;
+  }
+  
+  @if $b-slides {
+    $i: 2;
+    @each $slide in $b-slides {
+      &__html { display: none; }
+      
+      &:nth-child(#{$i}) {
+        background: $slide;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+
+        &:after {
+          @include slide-popout;
+        }
+      }
+      $i: $i + 2;
+    }
+  } @else {
+    
+    &__html {
+      @include slide-popout;
+    }
+  }
+}
+
+nav {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 60px;
+  overflow: auto;
+  background-size: 100%;
+  height: 60px;
+  background: linear-gradient(to bottom, rgba(0,0,0,0), $c-background 10%)
+}
+
+label {
+  box-sizing: border-box;
+  color: $c-label-text;
+  font-weight: bold;
+  display: block;
+  width: calc((100% / #{$slide-count}) - 2%);
+  margin: 5px 1% 5px 1%;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: solid 4px $c-grey;
+  text-align: center;
+  float: left;
+  text-transform: uppercase;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  
+  &:hover {
+    cursor: pointer;
+    color: #FFF;
+    border-bottom: solid 4px #FFF;
+  }
+  
+  $i: 1;
+  @each $slide in $c-slides {
+    &:nth-child(#{($i)}) {
+      left: calc(50% + (#{$i - 1} * (50% / #{$slide-count})));
+      border-bottom-color: $slide;
+    }
+    $i: $i + 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
   }
 }

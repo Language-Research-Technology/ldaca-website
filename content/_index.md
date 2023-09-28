@@ -4,8 +4,85 @@
 
 <h1>The Language Data Commons of Australia (LDaCA) will make nationally significant language data available for academic and non-academic use and provide a model for ensuring continued access with appropriate community control.</h1>
 
+<div class="slideshow_div">
+<fieldset class="slideshow">
+
+  <!-- Slide 1 -->
+  <input type="radio" id="slideCheckbox1" name="slide" checked autofocus></input>
+  <div class="slide">
+    <div class="slide__html">
+      <!-- You can include HTML instead of a background image using .slide__html -->
+    </div>
+    <div class="slide__content">
+      <h1>Slideshow Concept V2 (No JS)</h1>
+      <p>A pure CSS and HTML slideshow concept.</p>
+      <p>To add or remove slides:</p>
+      <ul>
+        <li>Add a new slide template and label in the HTML</li>
+        <li>Update the <code>$slide-count</code> SCSS variable</li>
+        <li>Tab colours: Update the <code>$c-slides</code> SCSS variable</li>
+        <li>Slide popout images: Update the <code>$b-slides</code> SCSS variable</li>
+      </ul>
+      <p>Use the tabs below to change slide</p>
+      <p><strong style="color: #0F0">NEW:</strong> Arrow keys work too after your first selection.</p>
+      <p>Et voila.</p>
+    </div>  
+  </div>
+
+  <!-- Slide 2 -->
+  <input type="radio" id="slideCheckbox2" name="slide"></input>
+  <div class="slide">
+    <div class="slide__content">
+      <h1>More</h1>
+      <p>More here</p>
+    </div> 
+  </div>
+
+  <!-- Slide 3 -->
+  <input type="radio" id="slideCheckbox3" name="slide"></input>
+  <div class="slide">
+    <div class="slide__content">
+      <h1>Yet More</h1>
+      <p>Yet more here</p>
+    </div>  
+  </div>
+
+  <!-- Slide 4 -->
+  <input type="radio" id="slideCheckbox4" name="slide"></input>
+  <div class="slide">
+    <div class="slide__content">
+      <h1>Zzz</h1>
+      <p>Yada yada</p>
+    </div>   
+  </div>
+
+  <!-- Slide 5 -->
+  <input type="radio" id="slideCheckbox5" name="slide"></input>
+  <div class="slide">
+    <div class="slide__content">
+      <h1>The end</h1>
+      <p>It's over</p>
+    </div>  
+  </div>
+
+  <!-- Add more slides here! -->
+
+  <nav>
+    
+    <!-- Add slide labels here! -->
+    
+    <label class="slide-button" for="slideCheckbox1">Intro</label>
+    <label class="slide-button" for="slideCheckbox2">More</label>
+    <label class="slide-button" for="slideCheckbox3">Yet More</label>
+    <label class="slide-button" for="slideCheckbox4">Zzz</label>
+    <label class="slide-button" for="slideCheckbox5">The End</label>
+  </nav>
+
+</fieldset>
+</div>
+
 <div class="container">
-  <p style="width: 40%;">
+  <p class="flex_item">
     Australia is a massively multilingual country in one of the world’s most
     linguistically diverse regions. Significant collections of this intangible
     cultural heritage have been amassed, including collections of Australian
@@ -18,7 +95,7 @@
     culturally, ethically and legally appropriate manner guided by FAIR and CARE
     principles.
   </p>
-  <img src="https://www.ldaca.edu.au/logo.png" alt="LDaCA Logo">
+  <img class="flex_item" src="https://www.ldaca.edu.au/logo.png" alt="LDaCA Logo">
 </div>
 
 <div id="home_list_bg">
