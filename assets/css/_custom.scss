@@ -6,6 +6,7 @@ $storm_blue: rgb(86, 103, 119);
 $sandstone: rgb(255, 204, 121);
 $deep_rock: rgb(101, 60, 44);
 $light_rock: rgb(101, 60, 44);
+$dark: rgb(41, 42, 45);
 $color_list: (
   $water_green,
   $land_green,
@@ -18,7 +19,7 @@ $color_list: (
 $color_count: 1;
 
 .main {
-  background: url("/BackgroundIMGs/Blog.png") repeat-y left top;
+  background: url("/BackgroundIMGs/Contact.png") repeat-y left top;
   background-size: 100% auto;
 }
 
@@ -236,11 +237,11 @@ a.menu-item {
 $slide-count: 5;
 
 // Tab colours (must be same as number of slides)
-$c-slides: #2E112D #540032 #820333 #C9283E #F0433A;
+$c-slides: $water_green, $land_green, $clear_blue, $storm_blue, $sandstone;
 
 // Slide backgrounds (if used, must be same as number of slides, otherwise false)
-$b-slides: url('https://via.placeholder.com/1000x2000/2E112D/fff?text=1') url('https://via.placeholder.com/1000x2000/540032/fff?text=2') url('https://via.placeholder.com/1000x2000/820333/fff?text=3') url('https://via.placeholder.com/1000x2000/C9283E/fff?text=4') url('https://via.placeholder.com/1000x2000/F0433A/fff?text=5');
-// $b-slides: false;
+$b-slides: url("/SlideshowIMGs/oral_histories_presentation.jpg") url("/SlideshowIMGs/tools_aigenerated.png") url("/SlideshowIMGs/blog_aigenerated.png") url("/SlideshowIMGs/anu_workshop_data.jpg") url("/SlideshowIMGs/sicss_presentation.jpg");
+//$b-slides: $water_green, $land_green, $clear_blue, $storm_blue, $sandstone;
 
 // Total duration of slide animation
 $animation-duration: 1s;
@@ -265,7 +266,7 @@ $c-label-text: $c-grey;
 /****************************************/
 
 .slideshow_div {
-  padding: 3% 0 50%;
+  padding: 3% 0 52%;
 }
 
 .slideshow {
@@ -274,7 +275,7 @@ $c-label-text: $c-grey;
   border: 0px;
   padding: 0px;
   margin: 0 auto;
-  background-color: $c-black;
+  background-color: $dark;
   overflow: hidden;
   counter-reset: slide;
   position: absolute;
@@ -376,6 +377,7 @@ input {
 
 nav {
   position: absolute;
+  font-size: 0.8vw;
   bottom: 0;
   right: 0;
   width: 50%;

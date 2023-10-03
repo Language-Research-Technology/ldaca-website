@@ -13,56 +13,63 @@
     <div class="slide__html">
       <!-- You can include HTML instead of a background image using .slide__html -->
     </div>
-    <div class="slide__content">
-      <h1>Slideshow Concept V2 (No JS)</h1>
-      <p>A pure CSS and HTML slideshow concept.</p>
-      <p>To add or remove slides:</p>
-      <ul>
-        <li>Add a new slide template and label in the HTML</li>
-        <li>Update the <code>$slide-count</code> SCSS variable</li>
-        <li>Tab colours: Update the <code>$c-slides</code> SCSS variable</li>
-        <li>Slide popout images: Update the <code>$b-slides</code> SCSS variable</li>
-      </ul>
-      <p>Use the tabs below to change slide</p>
-      <p><strong style="color: #0F0">NEW:</strong> Arrow keys work too after your first selection.</p>
-      <p>Et voila.</p>
-    </div>  
+    <a href="./background/information/">
+      <div class="slide__content">
+        <h1>Background</h1>
+        <h3>More information about the LDaCA Project, including:</h3>
+        <ul>
+          <li>Principles</li>
+          <li>Technologies</li>
+          <li>Metadata</li>
+          <li>Sample Collection</li>
+          <li>Case Studies</li>
+        </ul>
+      </div>  
+    </a>
   </div>
 
   <!-- Slide 2 -->
   <input type="radio" id="slideCheckbox2" name="slide"></input>
   <div class="slide">
-    <div class="slide__content">
-      <h1>More</h1>
-      <p>More here</p>
-    </div> 
+    <a href="./tools/list/">
+      <div class="slide__content">
+        <h1>Tools</h1>
+        <p>Find a list of the tools relevant to the LDaCA project.</p>
+      </div> 
+    </a>
   </div>
 
   <!-- Slide 3 -->
   <input type="radio" id="slideCheckbox3" name="slide"></input>
   <div class="slide">
-    <div class="slide__content">
-      <h1>Yet More</h1>
-      <p>Yet more here</p>
-    </div>  
+    <a href="./posts/">
+      <div class="slide__content">
+        <h1>Blog</h1>
+        <p>Posts written by our team members relevant to the Language Technologies space.</p>
+      </div> 
+    </a> 
   </div>
 
   <!-- Slide 4 -->
   <input type="radio" id="slideCheckbox4" name="slide"></input>
   <div class="slide">
-    <div class="slide__content">
-      <h1>Zzz</h1>
-      <p>Yada yada</p>
-    </div>   
+    <a href="./events/events/">
+      <div class="slide__content">
+        <h1>Events</h1>
+        <p>Find out more about the exciting events we have coming up.</p>
+      </div>   
+    </a>
   </div>
 
   <!-- Slide 5 -->
   <input type="radio" id="slideCheckbox5" name="slide"></input>
   <div class="slide">
-    <div class="slide__content">
-      <h1>The end</h1>
-      <p>It's over</p>
-    </div>  
+    <a href="./organisation/">
+      <div class="slide__content">
+        <h1>Organisation</h1>
+        <p>Learn more about our organisation, our partnerships, investors, advising and consulting partners.</p>
+      </div>  
+    </a>
   </div>
 
   <!-- Add more slides here! -->
@@ -71,11 +78,11 @@
     
     <!-- Add slide labels here! -->
     
-    <label class="slide-button" for="slideCheckbox1">Intro</label>
-    <label class="slide-button" for="slideCheckbox2">More</label>
-    <label class="slide-button" for="slideCheckbox3">Yet More</label>
-    <label class="slide-button" for="slideCheckbox4">Zzz</label>
-    <label class="slide-button" for="slideCheckbox5">The End</label>
+    <label class="slide-button" for="slideCheckbox1">Background</label>
+    <label class="slide-button" for="slideCheckbox2">Tools</label>
+    <label class="slide-button" for="slideCheckbox3">Blog</label>
+    <label class="slide-button" for="slideCheckbox4">Events</label>
+    <label class="slide-button" for="slideCheckbox5">Organisation</label>
   </nav>
 
 </fieldset>
