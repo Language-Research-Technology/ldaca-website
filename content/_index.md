@@ -88,7 +88,7 @@
 </fieldset>
 </div>
 
-<div class="container">
+<div class="flex_container">
   <p class="flex_item">
     Australia is a massively multilingual country in one of the world’s most
     linguistically diverse regions. Significant collections of this intangible
@@ -102,7 +102,7 @@
     culturally, ethically and legally appropriate manner guided by FAIR and CARE
     principles.
   </p>
-  <img class="flex_item" src="https://www.ldaca.edu.au/logo.png" alt="LDaCA Logo">
+  <img class="flex_item logo" src="https://www.ldaca.edu.au/logo.png" alt="LDaCA Logo">
 </div>
 
 <div id="home_list_bg">

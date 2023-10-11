@@ -60,6 +60,15 @@ function checkStyle() {
         logo.alt = "logo_dark"
       }
     }
+    let flex_containers = document.getElementsByClassName("flex_container");
+    for (flex of flex_containers) {
+      if (theme_light == true) {
+        flex.style.background = 'rgba(255,255,255,0.5)';
+        console.log("flex containeer now dark?");
+      } else {
+        flex.style.background = 'rgba(0,0,0,0.3)';
+      }
+    }
 
   menuItems.forEach((menuItem) => {
     if (theme_light == true) {
@@ -79,7 +88,6 @@ var observer = new MutationObserver(function(mutations) {
       if (mutation.attributeName === "theme") {
         theme_light = !theme_light;
         checkStyle();
-        console.log("Theme is light: " + theme_light);
       }
     });
   });
