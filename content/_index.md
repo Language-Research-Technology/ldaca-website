@@ -68,7 +68,7 @@
       <div class="slide__content">
         <h1>Organisation</h1>
         <p>Learn more about our organisation, our partnerships, investors, advising and consulting partners.</p>
-      </div>  
+      </div>
     </a>
   </div>
 
