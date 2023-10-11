@@ -332,6 +332,7 @@ input {
   position: absolute;
   width: $slide-width;
   height: $slide-height;
+  max-width: 50%;
   background-size: $slide-width $slide-height;
   transition: transform #{$animation-duration / 2} ease-in-out;
   

@@ -64,7 +64,6 @@ function checkStyle() {
     for (flex of flex_containers) {
       if (theme_light == true) {
         flex.style.background = 'rgba(255,255,255,0.5)';
-        console.log("flex containeer now dark?");
       } else {
         flex.style.background = 'rgba(0,0,0,0.3)';
       }
