@@ -338,29 +338,29 @@ enableRobotsTXT = true
     weight = 1
    [[menu.main]]
     identifier = "background_information"
-    name = "Background"
+    name = "About"
     url = "/background/information/"
     weight = 2
   [[menu.main]]
     identifier = "tools"
-    name = "Tools"
+    name = "Resources"
     url = "/tools/list"
     weight = 3   
  [[menu.main]]
     identifier = "blog"
-    name = "Blog"
-    url = "/posts/"
+    name = "News"
+    url = "/news/"
     weight = 4
- [[menu.main]]
-    identifier = "events"
-    name = "Events"
-    url = "/events/events"
-    weight = 5
-  [[menu.main]]
-    identifier = "organisation"
-    name = "Organisation"
-    url = "/organisation/"
-    weight = 5
+# [[menu.main]]
+#    identifier = "events"
+#    name = "Events"
+#    url = "/events/events"
+#    weight = 5
+#  [[menu.main]]
+#    identifier = "organisation"
+#    name = "Organisation"
+#    url = "/organisation/"
+#    weight = 5
   [[menu.main]]
     identifier = "contact"
     name = "Contact us"
