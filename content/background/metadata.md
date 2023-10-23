@@ -2,6 +2,7 @@
 title: "Metadata"
 date: 2022-02-15T17:13:28+10:00
 draft: false
+description: "Information about the approach to metadata being taken by LDaCA."
 ---
 
 Metadata is often defined as 'data about data'. High quality metadata is important in making data FAIR:

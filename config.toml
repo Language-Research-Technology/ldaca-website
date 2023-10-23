@@ -339,7 +339,7 @@ enableRobotsTXT = true
    [[menu.main]]
     identifier = "background_information"
     name = "About"
-    url = "/background/information/"
+    url = "/background/"
     weight = 2
   [[menu.main]]
     identifier = "tools"

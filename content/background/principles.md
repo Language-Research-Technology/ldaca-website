@@ -3,6 +3,7 @@ title: "Principles"
 date: 2022-02-15T17:13:28+10:00
 draft: false
 weight: 1
+description: "Information about the principles on which the work of LDaCA is based."
 ---
 
 The Language Data Commons of Australia aims to ensure long-term access to language data collections for analysis and reuse. Sustainable management of and access to these significant collections of intangible cultural heritage are underpinned by two sets of complementary guiding principles of data management and stewardship, namely the FAIR and CARE principles.

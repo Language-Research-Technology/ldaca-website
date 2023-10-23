@@ -1,7 +1,7 @@
 ---
 title: "Language Data - Background Information"
 date: 2022-02-15T17:13:28+10:00
-draft: false
+draft: true
 --- 
 ### [Principles](/background/principles/)
 Information about the principles on which the work of LDaCA is based.

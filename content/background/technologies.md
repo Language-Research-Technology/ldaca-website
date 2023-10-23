@@ -2,6 +2,7 @@
 title: "Technologies"
 date: 2022-02-15T17:13:28+10:00
 draft: false
+description: "Information about the technologies being used in LDaCA."
 ---
 LDaCA is basing its data storage on the two technologies described below. The overall approach is informed by the [Arkisto](https://arkisto-platform.github.io/) platform, taking the view that research data has interest and value that extends beyond funding cycles and its long term preservation and accessibility must continue to be managed. [This presentation](https://ptsefton.com/2022/02/18/hass_rdc_tech_advisory/index.html) gives further details of the technical architecture.
 
