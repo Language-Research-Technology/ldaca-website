@@ -13,6 +13,16 @@
     <div class="slide__html">
       <!-- You can include HTML instead of a background image using .slide__html -->
     </div>
+    <a href="./">
+      <div class="slide__content">
+        <h1>Home</h1>
+      </div>  
+    </a>
+  </div>
+
+  <!-- Slide 2 -->
+  <input type="radio" id="slideCheckbox2" name="slide"></input>
+  <div class="slide">
     <a href="./background/information/">
       <div class="slide__content">
         <h1>Background</h1>
@@ -24,17 +34,7 @@
           <li>Sample Collection</li>
           <li>Case Studies</li>
         </ul>
-      </div>  
-    </a>
-  </div>
-
-  <!-- Slide 2 -->
-  <input type="radio" id="slideCheckbox2" name="slide"></input>
-  <div class="slide">
-    <a href="./tools/list/">
-      <div class="slide__content">
-        <h1>Tools</h1>
-        <p>Find a list of the tools relevant to the LDaCA project.</p>
+        <h3>As well as information about our organisation, our partnerships, investors, advising and consulting partners.</h3>
       </div> 
     </a>
   </div>
@@ -42,9 +42,9 @@
   <!-- Slide 3 -->
   <input type="radio" id="slideCheckbox3" name="slide"></input>
   <div class="slide">
-    <a href="./posts/">
+    <a href="./tools/list/">
       <div class="slide__content">
-        <h1>Blog</h1>
+        <h1>Resources</h1>
         <p>Posts written by our team members relevant to the Language Technologies space.</p>
       </div> 
     </a> 
@@ -53,10 +53,15 @@
   <!-- Slide 4 -->
   <input type="radio" id="slideCheckbox4" name="slide"></input>
   <div class="slide">
-    <a href="./events/events/">
+    <a href="./news/">
       <div class="slide__content">
-        <h1>Events</h1>
-        <p>Find out more about the exciting events we have coming up.</p>
+        <h1>News</h1>
+        <p>Find out what's happening in our project, with </p>
+        <ul>
+          <li>Upcoming and Past Events</li>
+          <li>Recent Newsletters</li>
+          <li>Blog Posts</li>
+        </ul>
       </div>   
     </a>
   </div>
@@ -64,7 +69,7 @@
   <!-- Slide 5 -->
   <input type="radio" id="slideCheckbox5" name="slide"></input>
   <div class="slide">
-    <a href="./organisation/">
+    <a href="./contact/">
       <div class="slide__content">
         <h1>Organisation</h1>
         <p>Learn more about our organisation, our partnerships, investors, advising and consulting partners.</p>
@@ -78,11 +83,11 @@
     
     <!-- Add slide labels here! -->
     
-    <label class="slide-button" for="slideCheckbox1">Background</label>
-    <label class="slide-button" for="slideCheckbox2">Tools</label>
-    <label class="slide-button" for="slideCheckbox3">Blog</label>
-    <label class="slide-button" for="slideCheckbox4">Events</label>
-    <label class="slide-button" for="slideCheckbox5">Organisation</label>
+    <label class="slide-button" for="slideCheckbox1">Home</label>
+    <label class="slide-button" for="slideCheckbox2">About</label>
+    <label class="slide-button" for="slideCheckbox3">Resources</label>
+    <label class="slide-button" for="slideCheckbox4">News</label>
+    <label class="slide-button" for="slideCheckbox5">Contact Us</label>
   </nav>
 
 </fieldset>

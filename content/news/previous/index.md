@@ -2,9 +2,12 @@
 title: "Previous Workshops"
 date: 2022-02-15T17:13:28+10:00
 draft: false
+description: "Browse our project's past events."
 ---
 
 If your university or organisation would like to host a workshop, please [contact us](mailto:info@atap.edu.au).
+
+[Forthcoming workshops](../events/) &emsp;&emsp;
 
 #### Workshop on Language Corpora in Australia
 
