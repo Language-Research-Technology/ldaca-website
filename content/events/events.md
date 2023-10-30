@@ -11,43 +11,62 @@ draft: false
 
 ### Forthcoming workshops {#forthcoming-workshops}
 
-#### Workshop on immigrant language corpora in Australia
+#### Workshop on community language corpora in Australia
 
-Australia has long been seen as one of the world’s most multilingual and multicultural societies, with more than 490 languages coming from around 300 ancestries and cultural traditions (ABS, 2021, 2022). For decades, the language and cultural maintenance of various immigrant groups have been under investigation by many scholars, not only in linguistics but also in history, sociology, anthropology, and many other disciplines. This work has amassed a large body of immigrant language data, that provides information about how Australia’s immigration history has contributed to the country today.
+Australia is a highly multilingual and multicultural society, with more than 490 languages coming from around 300 ancestries and cultural traditions (ABS, 2021, 2022). For decades, the language and cultural maintenance of various immigrant groups have been under investigation by many scholars, not only in linguistics but also in history, sociology, anthropology, and other disciplines. This work has amassed a large body of data reflecting the languages of these communities, providing information about how Australia’s immigration history has contributed to the country today.
 
 The purpose of this workshop is to bring together scholars working with language corpora from across different disciplines. The workshop is being run as part of the Language Data Commons of Australia (LDaCA), which is working to build national research infrastructure for the Humanities and Social Sciences, facilitating sustainable access to and controlled use of digital language corpora for linguists, scholars across the Humanities and Social Sciences, and non-academics.
 
-The workshop would consist of two main parts:
-
-1. presentations on Australian immigrant language data collected from scholars across disciplines, and
-2. a panel discussion on needs and challenges around managing and archiving immigrant language data in a way that is ethical, legal and culturally sensitive, and how LDaCA can help support that
-
-**Invited speakers**:
-
-- [John Hajek](https://findanexpert.unimelb.edu.au/profile/13831-john-hajek)
-- [Ingrid Piller](https://researchers.mq.edu.au/en/persons/ingrid-piller)
-- [Sophie Loy-Wilson](https://www.sydney.edu.au/arts/about/our-people/academic-staff/sophie-loy-wilson.html)
-- [Adrian Vickers](https://www.sydney.edu.au/arts/about/our-people/academic-staff/adrian-vickers.html)
+The workshop will consist of presentations on language data collected from Australian immigrant communities for different research purposes, and will close with a panel discussion on needs and challenges around managing and archiving community language data in a way that is ethical, legal and culturally sensitive, and how LDaCA can help support that.
 
 **When**: 9-10 November 2023
 
-**Where**: On campus, ANU
-
-**Abstract submission**:
-
-We welcome papers from linguistics and other disciplines. Abstracts should be of 250-300 words (excluding references) either in English, or in a community language with English translation and should include:
-
-- Description of the language data (e.g. sociolinguistic corpora, oral histories, written collections, etc.), and the relevant community / communities
-- Questions that this data has allowed us to probe and answers that have come out of it, e.g.:
-  - immigrant language practice patterns, both for community languages and their English varieties
-  - immigrant contemporary language use and its relationship with culture, society and politics in Australia
-  - the discourse and policies around Australian immigrant languages
-  - immigrant community formation in Australian society
-  - immigrant voice in the history of Australia
-
-Submit your abstract to: https://forms.gle/bH8aHxkVxsV4cTEM8 by **3 October 2023** (notification of acceptance: 17 October 2023)
+**Where**: Engma Room (3.165 HC Coombs Building, ANU)
 
 **Organisers**: [Li Nguyen](mailto:li.nguyen@anu.edu.au) & Catherine Travis
+
+#### Program ([pdf](../Workshop_CommunityLanguages_2023-program&abstracts.pdf) with abstracts)
+
+{{<raw>}}
+
+<table>
+<tr><td><b>Thursday 9 Nov</b></td><td><b>Session 1</b></td><td></td></tr>
+<tr><td>11:20</td><td>Li Nguyen & Catherine Travis</td><td>Introduction and Welcome</td></tr>
+<tr><td>11:30</td><td><b>Invited speaker: <a href = "https://www.sydney.edu.au/arts/about/our-people/academic-staff/adrian-vickers.html" target = "_blank"> Adrian Vickers</a></b></td><td>Creating a Multi-lingual On-line Archive</td></tr>
+<tr><td>12:10</td><td>Simon Musgrave</td><td>	
+Government documents as a parallel multilingual corpus:
+An opportunity which may be disappearing</td></tr>
+<tr><td>12:35</td><td>Van Tran, Sharynne McLeod,
+Sarah Verdon, Kate Margetson</td><td>	
+Vietnamese language use and maintenance in Australia</td></tr>
+<tr><td>1:00</td><td><b>Lunch</b></td><td></td></tr>
+<tr><td></td><td><b>Session 2</b></td><td></td></tr>
+<tr><td>2:00</td><td>Antonia Rubino</td><td>Exploring the trilingualism of Italian migrants in Australia:
+Evolving data, methodologies and insights</td></tr>
+<tr><td>2:25</td><td>Li Nguyen</td><td>CanVEC: The Canberra Vietnamese English corpus</td></tr>
+<tr><td>2:50</td><td>Paola Escudero, Gloria Pino Escobar, Milena Hernandez Gallego, Chloé Diskin-Holdaway, John Hajek</td><td>The Little Multilingual Minds corpus:
+Educators’ and children’s speech in heritage languages</td></tr>
+<tr><td>3:15</td><td><b>Afternoon Tea</b></td><td></td></tr>
+<tr><td></td><td><b>Session 3</b></td><td></td></tr>
+<tr><td>3:45</td><td><b>Invited Speaker: <a href = "https://findanexpert.unimelb.edu.au/profile/13831-john-hajek" target = "_blank">John Hajek</a></b></td><td>The many corpora of Michael Clyne, his students and colleagues</td></tr>
+<tr><td>4:25</td><td>Eleni Elefterias-Kostakidis</td><td>The Greek-Australian Oral Archive Project</td></tr>
+<tr><td>4:50</td><td>Jaime Hunt and Sacha Davis</td><td>	
+‘Oh, wunderbar, ein bisschen Deutsch!’ German-speakers in Newcastle and the Hunter Valley through the lenses of oral history and linguistics</td></tr>
+<tr><td>5:15</td><td><b>Close Day 1</b></td><td></td></tr>
+<tr><td><b>Friday 10 Nov</b></td><td><b>Session 4</b></td><td></td></tr>
+<tr><td>9:20</td><td>Li Nguyen & Catherine Travis</td><td>Welcome Day 2</td></tr>
+<tr><td>9:30</td><td><b>Invited Speaker: <a href = "https://researchers.mq.edu.au/en/persons/ingrid-piller" target ="_blank">Ingrid Piller</a></b></td><td>Life in a new language: Data-sharing and re-use across multiple sociolinguistic ethnographies</td></tr>
+<tr><td>10:10</td><td>James Walker, Stavroula Nikoloudis</td><td>Corpora of Greek in Melbourne</td></tr>
+<tr><td>10:35</td><td>Ksenia Gnevsheva, Catherine Travis</td><td>A spoken corpus of Australian English by Russian and Chinese speakers</td></tr>
+<tr><td>11:00</td><td>	
+Chloé Diskin-Holdaway</td><td>The Superdiversity corpus</td></tr>
+<tr><td>11:25</td><td><b>Morning Tea</b></td><td></td></tr>
+<tr><td></td><td><b>Session 5</b></td><td></td></tr>
+<tr><td>11:55</td><td>Francesco Ricatti, Adrian Vickers, John Hajek, Ingrid Piller</td><td><b>Panel Discussion</b></td></tr>
+<tr><td>12:45</td><td><b>Lunch</b></td><td></td></tr>
+<tr><td>2:00</td><td><b>Close</b></td><td></td></tr>
+</table>
+{{</raw>}}
 
 ### Previous Webinars {#webinars}
 
