@@ -5,3 +5,5 @@ draft: false
 type: "custom"
 layout: "root_list"
 ---
+
+# What is LDaCA?

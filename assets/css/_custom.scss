@@ -4,7 +4,7 @@ $land_green: rgb(145, 169, 109);
 $clear_blue: rgb(83, 126, 192);
 $storm_blue: rgb(86, 103, 119);
 $sandstone: rgb(255, 204, 121);
-$deep_rock: rgb(101, 60, 44);
+$deep_rock: rgb(87, 52, 38);
 $light_rock: rgb(101, 60, 44);
 $dark: rgb(41, 42, 45);
 $color_list: (
@@ -226,10 +226,55 @@ div {
 a.menu-item {
   padding: 0.5em;
   border-radius: 5px;
+  margin: none;
 
   .delimiter {
     padding: 0;
   }
+}
+
+.menu {
+  padding-right: 2%;
+}
+
+.menu-item-button {
+  padding: 5px 10px;
+  margin: auto 10px;
+  border-radius: 5px;
+  max-height: 36px;
+  color: lightgray;
+  line-height: normal;
+  vertical-align: middle;
+  justify-self: right;
+}
+
+#atap {
+  background-color: $light_rock;
+  border: 2px solid $deep_rock;
+}
+
+#portal {
+  background-color: $clear_blue;
+  border: 2px solid $storm_blue;
+}
+
+#top-banner {
+  overflow: unset;
+  display: flex;
+  align-items: center;
+  min-height: 30px;
+  max-height: 50px;
+  background-color: rgba(126, 73, 47, 0.4);
+  padding-left: 3%;
+  
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#banner-title {
+  margin-right: 50%;
+  max-height: 100%;
 }
 
 // Slideshow Styling

@@ -344,7 +344,7 @@ enableRobotsTXT = true
   [[menu.main]]
     identifier = "tools"
     name = "Resources"
-    url = "/tools/list"
+    url = "/resources/"
     weight = 3   
  [[menu.main]]
     identifier = "blog"
@@ -363,7 +363,7 @@ enableRobotsTXT = true
 #    weight = 5
   [[menu.main]]
     identifier = "contact"
-    name = "Contact us"
+    name = "Contact"
     url = "/contact/"
     weight = 6 
 
