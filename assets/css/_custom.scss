@@ -242,7 +242,11 @@ a.menu-item {
   margin: auto 10px;
   border-radius: 5px;
   max-height: 36px;
-  color: lightgray;
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  border: 2px solid $deep_rock;
+
   line-height: normal;
   vertical-align: middle;
   justify-self: right;
@@ -275,6 +279,7 @@ a.menu-item {
 #banner-title {
   margin-right: 50%;
   max-height: 100%;
+  font-weight: bolder;
 }
 
 // Slideshow Styling
@@ -285,7 +290,7 @@ $slide-count: 5;
 $c-slides: $water_green, $land_green, $clear_blue, $storm_blue, $sandstone;
 
 // Slide backgrounds (if used, must be same as number of slides, otherwise false)
-$b-slides: url("/SlideshowIMGs/oral_histories_presentation.jpg") url("/SlideshowIMGs/tools_aigenerated.png") url("/SlideshowIMGs/blog_aigenerated.png") url("/SlideshowIMGs/anu_workshop_data.jpg") url("/SlideshowIMGs/sicss_presentation.jpg");
+$b-slides: url("/SlideshowIMGs/Hand_Writing.jpeg") url("/SlideshowIMGs/Braille_Reading.jpeg") url("/SlideshowIMGs/Speech.jpeg") url("/SlideshowIMGs/Coding_Language.jpeg") url("/SlideshowIMGs/Phonetic_Learning.jpeg");
 //$b-slides: $water_green, $land_green, $clear_blue, $storm_blue, $sandstone;
 
 // Total duration of slide animation
@@ -404,7 +409,7 @@ input {
       &:nth-child(#{$i}) {
         background: $slide;
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: cover;
         background-position: center;
 
         &:after {
