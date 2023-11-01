@@ -1,5 +1,5 @@
 ---
-title: "Case-studies"
+title: "Case Studies"
 date: 2022-02-15T17:13:28+10:00
 draft: false
 weight: 5

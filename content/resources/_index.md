@@ -6,8 +6,8 @@ type: "custom"
 layout: "root_list"
 ---
 
-- [Data Guidance](#data-guidance)
-- [General Resources](#general-resources)
+- [Data Guidance](./data-guidance/)
+- [General Resources](./general-resources/)
 - [Case Studies](./case-studies/)
 - [Metadata](./metadata/)
 - [Indigenous Knowledge](#indigenous-knowledge)
@@ -17,15 +17,13 @@ layout: "root_list"
 - [Australian Organisations](#australian-organisations)
 - [International Organisations](#international-organisations)
 - [Publications](#publications)
-- [Tools](#tools)
+- [Other Tools](./other-tools/)
 
 ---
 
-# Data Guidance {#data-guidance}
-
 # General Resources {#general-resources}
 
-# Indigenous knowledge {#indigenous-knowledge}
+# Indigenous Knowledge {#indigenous-knowledge}
 
 - [Protocols](https://australiacouncil.gov.au/wp-content/uploads/2021/07/protocols-for-using-first-nati-5f72716d09f01.pdf)
   for using First Nations Cultural and Intellectual Property in the Arts (Australia Council)
@@ -159,12 +157,3 @@ publications.
   _Living Languages_ is an Open Access journal.
 
 - [Pacific Linguistics](http://sealang.net/archives/pl/): a digital archive of many Pacific Linguistics publications up to 2012.
-
-# Tools {#tools}
-
-- [Audacity](https://www.audacityteam.org/): Audacity is a free, easy-to-use, multi-track audio editor and recorder for Windows, macOS, GNU/Linux and other operating systems.
-- [ELAN](https://archive.mpi.nl/tla/elan): a tool for making time-aligned annotations on audio and video recordings.
-- [Praat](https://www.fon.hum.uva.nl/praat/): Free software for doing phonetics by computer.
-- [FieldWorks](https://software.sil.org/fieldworks/): Software tools for managing linguistic and cultural data. FieldWorks supports tasks ranging from the initial entry of collected data through to the preparation of data for publication, including dictionary development, interlinearization of texts, morphological analysis, and other publications.
-- [Toolbox](https://software.sil.org/toolbox/): Toolbox is a data management and analysis tool for field linguists. It is especially useful for maintaining lexical data, and for parsing and interlinearizing text, but it can be used to manage virtually any kind of data.
-- [AntConc](https://www.laurenceanthony.net/software/antconc/): A freeware corpus analysis toolkit for concordancing and text analysis.
