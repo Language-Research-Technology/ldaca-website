@@ -5,9 +5,9 @@ draft: false
 description: ""
 ---
 
-- [Case Studies](./case-studies/)
-- [Metadata](./metadata/)
-- [Other Tools](./other-tools/)
+- [Case Studies](../case-studies/)
+- [Metadata](../metadata/)
+- [Other Tools](../other-tools/)
 - [Indigenous Knowledge](#indigenous-knowledge)
 - [Indigenous Languages of Australia](#indigenous-languages-of-australia)
 - [Ethics](#ethics)
