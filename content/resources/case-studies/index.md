@@ -6,16 +6,12 @@ weight: 5
 description: "Accounts by collectors of various kinds of language data illustrating the different solutions they have adopted for the problems encountered in the process."
 ---
 
-## Fieldwork in Papua New Guinea
+<br>
 
-<br />
+### [Fieldwork in Papua New Guinea](../../fieldwork-png/)
+Harriet Sheppard's account of collecting data on a remote island in Papua New Guinea.
 
-Harriet Sheppard's [account](../../fieldwork-png/) of collecting data on a remote island in Papua New Guinea.
+<br>
 
-<br />
-
-[Sydney Speaks](../../sydney-speaks/): Catherine Travis and Cale Johnstone explain the complexities of handling data from three periods in a 40 year span.
-
-<br />
-
-Back to [Background](/background/information/)
+### [Sydney Speaks](../../sydney-speaks/)
+Catherine Travis and Cale Johnstone explain the complexities of handling data from three periods in a 40 year span.

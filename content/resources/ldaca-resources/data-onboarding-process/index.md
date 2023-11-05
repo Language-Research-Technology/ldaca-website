@@ -2,6 +2,7 @@
 title: "Data Onboarding Process"
 date: 2023-10-03T13:59:34+11:00
 draft: false
+description: "Outlines the standards and processes that support the onboarding of data collections to LDaCA."
 ---
 
 <br>
@@ -60,7 +61,7 @@ Contact between LDaCA and the Data Steward is initiated with the aim of identify
 5. Discuss needs and goals for onboarding to LDaCA.
 
 ##### Additional resources relevant to this step:
-- TODO: [Initial Contact Checklist](/resources/data-guidance/initial-contact-checklist/)
+- TODO: [Initial Contact Checklist](/resources/ldaca-resources/initial-contact-checklist/)
 
 <br>
 
@@ -81,7 +82,7 @@ At this stage, it is important to share key information and resources about the 
 
 ##### Additional resources relevant to this step:
 - TODO: ADD Work Plan template
-- TODO: [Terms of Use](/resources/data-guidance/terms-of-use/)
+- TODO: [Terms of Use](/resources/ldaca-resources/terms-of-use/)
 - TODO: ADD LDaCA Privacy Policy (being finalised)
 
 <br>
@@ -104,10 +105,10 @@ A persistent identifier for the collection must also be provided to support sust
 5. Provide a persistent identifier for the collection (obtaining a DOI if necessary).
 
 ##### Additional resources relevant to this step:
-- [Access Policy](/resources/data-guidance/access-policy/)
-- [Guidance for Data Governance Decisions](/resources/data-guidance/guidance-for-data-governance-decisions/)
-- [Determining Access Conditions](/resources/data-guidance/determining-access-conditions/)
-- [Obtaining a DOI](/resources/data-guidance/obtaining-doi/)
+- [Access Policy](/resources/ldaca-resources/access-policy/)
+- [Guidance for Data Governance Decisions](/resources/ldaca-resources/guidance-for-data-governance-decisions/)
+- [Determining Access Conditions](/resources/ldaca-resources/determining-access-conditions/)
+- [Obtaining a DOI](/resources/ldaca-resources/obtaining-doi/)
 
 <br>
 

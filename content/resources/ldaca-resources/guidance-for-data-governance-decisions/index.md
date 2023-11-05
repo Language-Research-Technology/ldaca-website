@@ -2,6 +2,7 @@
 title: "Guidance for Data Governance Decisions"
 date: 2023-10-18T12:09:10+11:00
 draft: false
+description: "Defines policies, roles, responsibilities and procedures for ongoing use and storage of data, as well as for access to data."
 ---
 
 <br>

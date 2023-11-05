@@ -2,6 +2,7 @@
 title: "Access Policy"
 date: 2023-10-03T12:49:58+11:00
 draft: false
+description: "Outlines the LDaCA Access Policy, making data appropriately accessible in accordance with legal, moral and ethical considerations of data sharing."
 ---
 
 <br>
@@ -56,7 +57,7 @@ __Authorization Required__<br>Different levels of implementation:<ol><li>click-t
 
 In accordance with the Access Policy, LDaCA has an established process for onboarding to LDaCA. Throughout this process, the LDaCA team will work with the Data Steward to develop an effective strategy for managing access, in accordance with relevant legal, moral and ethical considerations applying to that data.
 
-[Data Onboarding Process](/resources/data-guidance/data-onboarding-process/)
+[Data Onboarding Process](/resources/ldaca-resources/data-onboarding-process/)
 
 <br>
 
@@ -71,7 +72,7 @@ In accordance with the Access Policy, LDaCA has an established process for onboa
 ### Data Steward Responsibilities
 
 1. Providing a persistent identifier for the data. If the collection does not have an existing persistent identifier, LDaCA recommends getting a DOI (Digital Object Identifier), which is becoming the default identifier for research datasets. A DOI makes a collection citable; it ensures that it is findable even if moved to a different location; and it establishes its relationship to other objects and entities in the academic research environment (e.g. researchers, funders, organisations, academic publications, software and other datasets).
-See [Obtaining a DOI](/resources/data-guidance/obtaining-doi/) for more information.
+See [Obtaining a DOI](/resources/ldaca-resources/obtaining-doi/) for more information.
 2. Providing metadata that is organised with a consistent structure, and includes descriptors, definitions and contextual information where relevant. This includes metadata at the level of the collection (e.g. collection name, a narrative description of the corpus, the subject language(s), author(s) or Collector(s), publication year, access conditions, etc.), file (e.g. length in minutes, words) and participants (e.g. age, gender).<br>
 LDaCA technologies enable programmatic detection, extraction and summarisation of existing metadata in a dataset; in order for this to work effectively, the metadata must be standardised.<br>
 Metadata are mapped to open schemas including the Open Language Archives Community (OLAC) vocabularies for describing language data and Schema.org for generic descriptions (e.g. Name, Identifier, Description). This approach allows many metadata terms to be linked to openly available and widely used definitions.<br>
@@ -85,7 +86,7 @@ A strategy for ongoing access and data management of the collection in LDaCA mus
 
 Both LDaCA and the Data Steward are jointly responsible for ongoing maintenance of the collection in LDaCA, and updating the Work Plan as needed.
 
-[Data Onboarding Process](/resources/data-guidance/data-onboarding-process/)
+[Data Onboarding Process](/resources/ldaca-resources/data-onboarding-process/)
 
 <br>
 
@@ -108,7 +109,7 @@ The key points included in the Terms of Use are:
 6. LDaCA may change the site and suspend or cancel user access without notice.
 7. LDaCA is not responsible for any breaches of legal, moral or ethical standards by users.
 
-TODO: The Terms of Use can be viewed [here](/resources/data-guidance/terms-of-use/).
+TODO: The Terms of Use can be viewed [here](/resources/ldaca-resources/terms-of-use/).
 
 <br>
 

@@ -6,7 +6,7 @@ type: "custom"
 layout: "root_list"
 ---
 
-- [Data Guidance](./data-guidance/)
+- [LDaCA Resources](./ldaca-resources/)
 - [General Resources](./general-resources/)
 - [Case Studies](./case-studies/)
 - [Metadata](./metadata/)
