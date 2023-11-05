@@ -337,17 +337,17 @@ enableRobotsTXT = true
     url = "/"
     weight = 1
    [[menu.main]]
-    identifier = "background_information"
+    identifier = "about"
     name = "About"
-    url = "/background/"
+    url = "/about/"
     weight = 2
   [[menu.main]]
-    identifier = "tools"
+    identifier = "resources"
     name = "Resources"
     url = "/resources/"
     weight = 3   
  [[menu.main]]
-    identifier = "blog"
+    identifier = "news"
     name = "News"
     url = "/news/"
     weight = 4

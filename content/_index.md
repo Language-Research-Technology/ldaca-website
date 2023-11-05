@@ -42,7 +42,7 @@
   <!-- Slide 3 -->
   <input type="radio" id="slideCheckbox3" name="slide"></input>
   <div class="slide">
-    <a href="./tools/list/">
+    <a href="./resources/">
       <div class="slide__content">
         <h1>Resources</h1>
         <p>Posts written by our team members relevant to the Language Technologies space.</p>
@@ -93,6 +93,9 @@
 </fieldset>
 </div>
 
+<br>
+<br>
+<br>
 <div class="flex_container">
   <p class="flex_item">
     Australia is a massively multilingual country in one of the world’s most
