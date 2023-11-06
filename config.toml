@@ -349,13 +349,13 @@ enableRobotsTXT = true
   [[menu.main]]
     identifier = "ldaca-resources"
     name = "LDaCA Resources"
-    url = "/resources/ldaca/"
+    url = "/resources/ldaca-resources/"
     parent = "resources"
     weight = 1   
   [[menu.main]]
     identifier = "general-resources"
     name = "General Resources"
-    url = "/resources/general/"
+    url = "/resources/general-resources/"
     parent = "resources"
     weight = 2   
   [[menu.main]]
