@@ -34,44 +34,16 @@
         </div>
         <div class="menu">
                 <div class="menu-inner">
-                    <ul class="menu__list">
-                        {{- $currentNode := . }}
-                        {{- range .Site.Menus.main }}
-                        {{- if .Name }}
-                        {{- if .HasChildren }}
-                        <li class="menu__item menu__dropdown{{ if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} menu__item--active{{ end }}">
-                          <a class="menu-item" href="{{ .URL }}">
-                            {{ .Pre }}
-                            <span class="menu__text">{{ .Name }}</span>
-                            <!-- <label class="drop-icon" for="{{ .Name }}"></label> -->
-                            {{ .Post }}
-                          </a>
-                          <!-- <input type="checkbox" id="{{ .Name }}"> -->
-                          <ul class="submenu__list">
-                            {{ range .Children }}
-                              <li class="menu__item{{ if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} menu__item--active{{ end }}">
-                              <a class="menu-item" href="{{ .URL }}">
-                                {{ .Pre }}
-                                <span class="menu__text">{{ .Name }}</span>
-                                {{ .Post }}
-                              </a>
-                              </li>
-                            {{ end }}
-                          </ul>
-                        </li>
-                        {{- else }}
-                        <li class="menu__item{{ if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} menu__item--active{{ end }}">
-                          <a class="menu-item" href="{{ .URL }}">
-                            {{ .Pre }}
-                              <span class="menu__text">{{ .Name }}</span>
-                            {{ .Post }}
-                          </a>
-                        </li>
-                        {{- end }}
-                        {{- end }}
-                        {{- end }}
-
-                        {{- if .Site.Menus.main -}}
+                {{- range .Site.Menus.main -}}
+                    {{- $url := .URL | relLangURL -}}
+                    {{- with .Page -}}
+                        {{- $url = .RelPermalink -}}
+                    {{- end -}}
+                    <a class="menu-item{{ if $.IsMenuCurrent `main` . | or ($.HasMenuCurrent `main` .) | or (eq $.RelPermalink $url) }} active{{ end }}" href="{{ $url }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if (urls.Parse $url).Host }} rel="noopener noreffer" target="_blank"{{ end }}>
+                        {{- .Pre | safeHTML }} {{ .Name }} {{ .Post | safeHTML -}}
+                    </a>
+                {{- end -}}
+                {{- if .Site.Menus.main -}}
                     <span class="menu-item delimiter"></span>
                 {{- end -}}
 
@@ -114,8 +86,6 @@
                     </select>
                 </a>
             {{- end -}}
-                      </ul>
-                
             </div>
         </div>
     </div>

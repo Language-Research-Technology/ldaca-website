@@ -343,24 +343,26 @@ enableRobotsTXT = true
     weight = 2
   [[menu.main]]
     identifier = "resources"
-    name = "Resources"
+    name = "Resources ▾"
     url = "/resources/"
     weight = 3   
- [[menu.main]]
+  [[menu.main]]
+    identifier = "ldaca-resources"
+    name = "LDaCA Resources"
+    url = "/resources/ldaca/"
+    parent = "resources"
+    weight = 1   
+  [[menu.main]]
+    identifier = "general-resources"
+    name = "General Resources"
+    url = "/resources/general/"
+    parent = "resources"
+    weight = 2   
+  [[menu.main]]
     identifier = "news"
     name = "News"
     url = "/news/"
     weight = 4
-# [[menu.main]]
-#    identifier = "events"
-#    name = "Events"
-#    url = "/events/events"
-#    weight = 5
-#  [[menu.main]]
-#    identifier = "organisation"
-#    name = "Organisation"
-#    url = "/organisation/"
-#    weight = 5
   [[menu.main]]
     identifier = "contact"
     name = "Contact"
