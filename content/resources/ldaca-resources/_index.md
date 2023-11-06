@@ -6,3 +6,9 @@ type: "custom"
 layout: "root_list"
 description: "Information and guidance for data custodians and data collectors produced by LDaCA."
 ---
+
+<br>
+
+> Information and guidance for data custodians and data collectors produced by LDaCA.
+
+<br>

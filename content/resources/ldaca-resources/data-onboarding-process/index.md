@@ -17,7 +17,7 @@ description: "Outlines the standards and processes that support the onboarding o
 
 <br>
 
-See the [LDaCA Glossary](https://docs.ldaca.edu.au/other-resources/glossary/) for definitions of key terms and concepts.
+> See the [LDaCA Glossary](https://docs.ldaca.edu.au/other-resources/glossary/) for definitions of key terms and concepts.
 
 <br>
 
