@@ -47,6 +47,9 @@ checkStyle();
 // Checks the color of the menu text depending on the theme
 function checkStyle() {
   let logos = document.getElementsByClassName("logo");
+  let flex_containers = document.getElementsByClassName("flex_container");
+  let submenus = document.getElementsByClassName("submenu__list");
+  let banner_buttons = document.getElementsByClassName("banner_button");
     for (logo of logos) {
       if (theme_light == true) {
         logo.src = "/logo.png";
@@ -60,12 +63,25 @@ function checkStyle() {
         logo.alt = "logo_dark"
       }
     }
-    let flex_containers = document.getElementsByClassName("flex_container");
     for (flex of flex_containers) {
       if (theme_light == true) {
         flex.style.background = 'rgba(255,255,255,0.5)';
       } else {
         flex.style.background = 'rgba(0,0,0,0.3)';
+      }
+    }
+    for (sub of submenus) {
+      if (theme_light == true) {
+        sub.style.background = 'rgba(255,255,255,0.8)';
+      } else {
+        sub.style.background = '#292a2d';
+      }
+    }
+    for (butt of banner_buttons) {
+      if (theme_light == true) {
+        butt.style.background = 'rgb(255,255,255)';
+      } else {
+        butt.style.background = '#292a2d';
       }
     }
 
