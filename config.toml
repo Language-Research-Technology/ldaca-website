@@ -360,9 +360,27 @@ enableRobotsTXT = true
     weight = 2   
   [[menu.main]]
     identifier = "news"
-    name = "News"
+    name = "News ▾"
     url = "/news/"
     weight = 4
+  [[menu.main]]
+    identifier = "events"
+    name = "Events"
+    url = "/news/events/"
+    parent = "news"
+    weight = 1   
+  [[menu.main]]
+    identifier = "newsletter"
+    name = "Newsletter"
+    url = "/news/newsletter/"
+    parent = "news"
+    weight = 2  
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/news/posts/"
+    parent = "news"
+    weight = 3   
   [[menu.main]]
     identifier = "contact"
     name = "Contact"

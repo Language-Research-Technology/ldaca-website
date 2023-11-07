@@ -29,6 +29,10 @@ $color_count: 1;
   }
 }
 
+[theme="dark"] .banner-button {
+  color: black;
+}
+
 .single .content {
   a {
     color: $clear_blue;
@@ -509,6 +513,10 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
   border-radius: 5px;
   overflow: visible;
   padding: 0;
+
+  .menu__item {
+    padding: 0;
+  }
 }
 
 .menu__list,
@@ -622,5 +630,98 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
     display: block;
     position: relative;
     max-width: 100%;
+  }
+}
+
+// Footer Styling
+
+.footer-line {
+  align-content: center;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 10px;
+  font-size: small;
+  a {
+    color: white;
+  }
+  a:hover {
+    color: #2d96bd;
+  }
+}
+
+.footer {
+  background-image: linear-gradient(rgba(86, 103, 119,0), rgba(86, 103, 119,1), rgba(86, 103, 119,1), rgba(86, 103, 119,1), rgba(86, 103, 119,1), rgba(86, 103, 119,1), rgba(41, 42, 45,1));
+  color: #fefefe;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.footer .heading {
+  color: #fefefe;
+  max-width: 1010px;
+  width: 90%;
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-bottom: 0rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.footer .content {
+  display: flex;
+  justify-content: space-evenly;
+  margin: .5rem;
+}
+
+.footer .content p {
+  margin-bottom: 1.3rem;
+}
+
+.footer .content a {
+  text-decoration: none;
+  color: #fefefe;
+}
+
+.footer .content a:hover {
+  border-bottom: 1px solid white;
+}
+
+.footer .content h4 {
+  margin-bottom: 1.3rem;
+  font-size: 19px;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+footer hr {
+  margin: 2rem 0;
+}
+
+@media (max-width: 767px) {
+  .footer .content {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+  }
+
+  .footer {
+    position: unset;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer .content,
+  .footer {
+    font-size: 14px;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 500px) {
+  .footer {
+    position: unset;
   }
 }
