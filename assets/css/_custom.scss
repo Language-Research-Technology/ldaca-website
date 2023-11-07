@@ -29,8 +29,16 @@ $color_count: 1;
   }
 }
 
-[theme="dark"] .banner-button {
+[theme="dark"] a.banner-button {
   color: black;
+}
+
+[theme="dark"] a.banner-button:hover {
+  color: $clear_blue;
+}
+
+[theme="dark"] #banner-title {
+  color: white;
 }
 
 .single .content {
