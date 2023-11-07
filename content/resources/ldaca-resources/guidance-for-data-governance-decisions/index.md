@@ -17,7 +17,7 @@ description: "Defines policies, roles, responsibilities and procedures for ongoi
 
 <br>
 
-See the [LDaCA Glossary](https://docs.ldaca.edu.au/other-resources/glossary/) for definitions of key terms and concepts.
+> See the [LDaCA Glossary](https://docs.ldaca.edu.au/other-resources/glossary/) for definitions of key terms and concepts.
 
 <br>
 
