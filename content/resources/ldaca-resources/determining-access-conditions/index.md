@@ -32,7 +32,7 @@ LDaCA recommends the following workflow to determine the access conditions to be
 
 <br>
 
-![Access Conditions Flowchart 1](/resources/AccessConditions_Flow1.jpg)
+![Access Conditions Flowchart 1](/determining-access-conditions/AccessConditions_Flow1.jpg)
 
 <br>
 
@@ -71,7 +71,7 @@ What authorisation is required for users to access this license?
 
 <br>
 
-![Access Conditions Flowchart 2](/resources/AccessConditions_Flow2.jpg)
+![Access Conditions Flowchart 2](/determining-access-conditions/AccessConditions_Flow2.jpg)
 
 <br>
 

@@ -29,7 +29,7 @@ This document provides guidance on some components of data governance that are k
 
 <br>
 
-> ![thought-bubble](/resources/thought-bubble.png) **Questions for reflection:**<br>
+> ![Thought bubble](/guidance-for-data-governance-decisions/thought-bubble.png) **Questions for reflection:**<br>
 > In each section, you will find a thought bubble marking some questions for reflection that will help you start to explore these data governance topics. This content is designed as guidance for Data Stewards considering how to manage their data into the future.
 
 <br>
@@ -62,7 +62,7 @@ Copyright provides two types of rights:
 
 <br>
 
-> ![thought-bubble](/resources/thought-bubble.png) **Questions for reflection:**<br>
+> ![Thought bubble](/guidance-for-data-governance-decisions/thought-bubble.png) **Questions for reflection:**<br>
 > How can I identify the copyright owner of a language collection?
 
 <br>
@@ -85,7 +85,7 @@ The copyright owner of a language collection can be identified by considering th
 
 <br>
 
-> ![thought-bubble](/resources/thought-bubble.png) **Questions for reflection:**<br>
+> ![Thought bubble](/guidance-for-data-governance-decisions/thought-bubble.png) **Questions for reflection:**<br>
 > Does copyright apply to this language collection?
 
 <br>
@@ -170,7 +170,7 @@ In brief, the four principles are:
 
 <br>
 
-> ![thought-bubble](/resources/thought-bubble.png) **Questions for reflection:**<br>
+> ![Thought bubble](/guidance-for-data-governance-decisions/thought-bubble.png) **Questions for reflection:**<br>
 > What ethical and moral questions need to be considered before sharing this collection?
 
 <br>
@@ -205,7 +205,7 @@ Licensing allows the copyright owner to share the right to access and use the da
 
 <br>
 
-> ![thought-bubble](/resources/thought-bubble.png) **Questions for reflection:**<br>
+> ![Thought bubble](/guidance-for-data-governance-decisions/thought-bubble.png) **Questions for reflection:**<br>
 > Is there an existing data license?
 
 <br>
@@ -220,11 +220,11 @@ Licensing allows the copyright owner to share the right to access and use the da
 
 <br>
 
-![Key parts of a data license](/resources/data-license-figure.png)
+![Key parts of a data license](/guidance-for-data-governance-decisions/data-license-figure.png)
 
 <br>
 
-> ![thought-bubble](/resources/thought-bubble.png) **Questions for reflection:**<br>
+> ![Thought bubble](/guidance-for-data-governance-decisions/thought-bubble.png) **Questions for reflection:**<br>
 > What information needs to be included in the license?
 
 <br>
@@ -269,7 +269,7 @@ An example of a DOI for a data collection (obtained via the university library) 
 
 <br>
 
-> ![thought-bubble](/resources/thought-bubble.png) **Questions for reflection:**<br>
+> ![Thought bubble](/guidance-for-data-governance-decisions/thought-bubble.png) **Questions for reflection:**<br>
 > Who can get a DOI? How?
 
 <br>
@@ -301,7 +301,7 @@ Where a customised metadata strategy is used, metadata terms should be clearly d
 
 <br>
 
-> ![thought-bubble](/resources/thought-bubble.png) **Questions for reflection:**<br>
+> ![Thought bubble](/guidance-for-data-governance-decisions/thought-bubble.png) **Questions for reflection:**<br>
 > What does it mean to apply standards to metadata?
 
 <br>

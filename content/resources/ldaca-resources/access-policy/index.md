@@ -113,7 +113,7 @@ TODO: The Terms of Use can be viewed [here](/resources/ldaca-resources/terms-of-
 
 <br>
 
-![LDaCA Terms of Use: key points](/resources/LDaCA%20Terms%20of%20Use-updated.jpg)
+![LDaCA Terms of Use: Key Points](/access-policy/LDaCA%20Terms%20of%20Use-updated.jpg)
 
 <br>
 
