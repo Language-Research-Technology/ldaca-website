@@ -1,6 +1,6 @@
 ---
     title:  >
-      Towards a Generic Research Data Commons: A highly scalable standard-based repository framework for Language and other Humanities data
+      Towards a Generic Research Data Commons: A highly scalable standards-based repository framework for Language and other Humanities data
     date: "2023-06-29"
     slug: arkisto-stack-or-2023
     categories: ["LDaCA"]
@@ -193,7 +193,7 @@ RO-Crate has a growing number of [tools and software libraries](https://www.rese
 
 <img src='Slide18.png' alt='  ' title='Slide: 18' border='1'  width='85%%'/>
 
-Here, for comparison is [how Fedora 6 would store an object (an Atomic Resource in Fedora-speak) like this with multiple files](https://wiki.lyrasis.org/display/FEDORA6x/Fedora+OCFL+Object+Structure#FedoraOCFLObjectStructure-FedoraAtomicResource-Container). Like RO-Cratee this uses linked-dataa but in this case split up into multiple files containing RDF triples. (This is similar to the pre-RO-Crate approach taken by the Research Object spec).
+Here, for comparison is [how Fedora 6 would store an object (an Atomic Resource in Fedora-speak) like this with multiple files](https://wiki.lyrasis.org/display/FEDORA6x/Fedora+OCFL+Object+Structure#FedoraOCFLObjectStructure-FedoraAtomicResource-Container). Like RO-Cratee this uses linked-data but in this case split up into multiple files containing RDF triples. (This is similar to the pre-RO-Crate approach taken by the Research Object spec).
 
 This also shows some of what an OCFL repository looks like – this is an OCFL object with a single version.
 

@@ -291,7 +291,7 @@ of the budget was able to be spent on user engagement and training rather
 than software development.
 
 One of my current LDaCA senior colleagues said to me a couple of years ago
-that Alveo was useless: “I just wanted to get all the data” they siad. Me, I
+that Alveo was useless: “I just wanted to get all the data” they said. Me, I
 was thinking “but it has an API so you CAN get all the data - what’s the
 problem?”. We have tried not to repeat this mistake by making sure that the
 API delivers entire collections and we have some demonstrations of doing this
@@ -413,7 +413,7 @@ about the protection of tose moral rights.
 
 We are designing the system so that it can work with diverse ways of
 expressing access rights, for example licensing like the Tribal Knowledge
-labels.The idea is to separate safe storage of data with a license on each
+labels. The idea is to separate safe storage of data with a license on each
 item, which may reference the TK labels from a system that is administered by
 the data custodians who can make decisions about who is allowed to access data.
 

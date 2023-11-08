@@ -74,7 +74,7 @@ Regarding rights, our project is informed by the [CARE] principles for Indigenou
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide05.png' alt='  ' title='Slide: 5' border='1'  width='85%%'/>
 
-We are designing the system so that it can work with diverse ways of expressing access rights, for example we are considering how the approach described here could be extended based on the likes of the [Tribal Knowledge labels](https://localcontexts.org/labels/traditional-knowledge-labels/), incorporating them into the data licensing framework we discuss below.
+We are designing the system so that it can work with diverse ways of expressing access rights, for example we are considering how the approach described here could be extended based on the likes of the [Traditional Knowledge labels](https://localcontexts.org/labels/traditional-knowledge-labels/), incorporating them into the data licensing framework we discuss below.
 
 </section>
 
@@ -265,7 +265,7 @@ Not shown here are some design and preparation steps:
 
 - The research team add a workflow to REMS - this could range from an auto-approved click through where users can agree to license terms, through to detailed (manual) checking of their credentials.
 
-The next slide shows the interactions involved in accessing data once a user has been granted the license license.
+The next slide shows the interactions involved in accessing data once a user has been granted the license.
 
 </section>
 
@@ -302,7 +302,7 @@ There are a few reasons for the distributed approach we have taken in LDaCA:
 
 ## Q: Yes but why does data need to have a license if we already have access controls?
 
-The point of Research Data Commons projects like LDaCA is to create an ecosystem where data can be re-used. For language data, this means that users, including researchers and community members, will be able to download data for certain authorised purposes and activities. The license is the way that data custodians communicate to data users (and future administrators) what those purposes activities are.
+The point of Research Data Commons projects like LDaCA is to create an ecosystem where data can be re-used. For language data, this means that users, including researchers and community members, will be able to download data for certain authorised purposes and activities. The license is the way that data custodians communicate to data users (and future administrators) what those purposes and activities are.
 
 A license, which is always packaged with data will allow:
 

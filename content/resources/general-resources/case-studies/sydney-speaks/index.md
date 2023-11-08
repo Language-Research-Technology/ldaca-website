@@ -126,11 +126,13 @@ Horvath, Barbara. 1985. _Variation in Australian English: The sociolects of Sydn
 
 <br>
 
-### Sub corpus overview
+#### Sub corpus overview
 
 The Sydney Social Dialect Survey (SSDS) is a collection of 177 sociolinguistic interviews with adult and teenage Australians from Anglo-Celtic, Greek, and Italian background, recorded in Sydney between 1977 and 1980, as part of an ARC-funded project led by Barbara Horvath, of the Department of Linguistics at the University of Sydney. For the Sydney Speaks project, recordings from Anglo-Celtic adults (born in the 1930s) and from Anglo-Celtic, Greek and Italian Teenagers (born in the 1960s) were included. The recordings with Greek and Italian adults were set aside, as they arrived in Australia as adults and speak English as a second language, and thus raise a different set of questions for the study of language variation and change. There were 7 participants who did not meet the Sydney Speaks participant criteria (e.g., one of their parents was not of the target ethnic groups), leaving a total of 20 adults and 72 teenagers for inclusion.
 Like the contemporary linguistic data, the Sydney Social Dialect Survey comprises sociolinguistic interviews, but these are more interview-like: the interviewers were not community members, and they did not typically know the participants; and the topics were more defined (some common topics being games, layout of the school, nicknames, and language).
-Recordings and transcripts
+
+#### Recordings and transcripts
+
 Interviews were conducted in the 1970s with a cassette recorder and made available to the Sydney Speaks project directly by the lead researcher. The audio cassettes, type-written transcripts, and demographic information of the participants were stored in boxes in Horvath’s garage in Sydney and passed on to Catherine Travis in 2013. The cassettes (pictured in Figure 6) were digitised using PARADISEC equipment in the College of Asia Pacific Studies at the ANU to create wav files (96.1 kHz, resampled using Audacity into smaller files of 44.1 kHz). Fortuitously, the cassettes had been preserved very well, and nearly all of them (124/130) were able to be digitised, and with further refinement, it was possible to conduct acoustic analyses (though in some cases, this presented considerable challenges that did not arise with the new recordings). The typewritten transcripts were scanned and digitised as pdfs, but it was not possible to convert them into machine-readable transcripts, partly because they had been marked up by hand for transcript corrections, coding and annotation, as can be seen in the sample in Figure 7. They were therefore re-transcribed in Elan by the Sydney Speaks team, following the protocols applied for the contemporary data (see sample Elan rendition of part of Figure 7 in Figure 8).
 
 <br>
@@ -289,7 +291,7 @@ Lausberg, Hedda and Han Sloetjes. 2009. Coding gestural behavior with the NEUROG
 
 ## Sydney Speaks Corpus and Publications {#corpus}
 
-Travis, Catherine E. 2014-2022. _Sydney Speaks_. Australian Research Council Centre of Excellence for the Dynamics of Language, Australian National University. [https://dx.doi.org/10.25911/m03c-yz22](https://dx.doi.org/10.25911/m03c-yz22)
+Travis, Catherine E. 2014-2022. _Sydney Speaks_. Australian Research Council Centre of Excellence for the Dynamics of Language, Australian National University. https://dx.doi.org/10.25911/m03c-yz22
 <br />
 <br />
 Gonzalez, Simon, James Grama and Catherine E. Travis. 2020. Comparing the performance of forced aligners used in sociophonetic research. Linguistics Vanguard 6(1). https://doi.org/10.1515/lingvan-2019-0058
