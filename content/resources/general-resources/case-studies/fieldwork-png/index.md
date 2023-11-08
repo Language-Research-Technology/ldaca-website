@@ -13,7 +13,7 @@ by Harriet Sheppard
 
 {{<raw>}}
 
-<div><h4>Harriet on an outrigger boat off Vanatɨna</h4></div>
+<div style=""><h4>Harriet on an outrigger boat off Vanatɨna</h4></div>
 <br />
 {{</raw>}}
 
@@ -27,7 +27,7 @@ My fieldwork experience, in many ways, conforms to stereotypes of language field
 
 {{<raw>}}
 
-<div><h4>Map of Louisiade Archipelago.</h4></div>
+<div style=""><h4>Map of Louisiade Archipelago.</h4></div>
 <br />
 {{</raw>}}
 
@@ -41,7 +41,7 @@ Before recording with a speaker for the first time, I would explain the project 
 
 {{<raw>}}
 
-<div><h4>Transcription session with Abel Sam.</h4></div>
+<div style=""><h4>Transcription session with Abel Sam.</h4></div>
 <br />
 {{</raw>}}
 <!-- ![Transcription session with Abel Sam](transcription-session-small.jpg) -->
@@ -54,7 +54,7 @@ Each time I made a recording with a speaker or speakers, I played the recording 
 
 {{<raw>}}
 
-<div><h4>Notes from an elicitation session.</h4></div>
+<div style=""><h4>Notes from an elicitation session.</h4></div>
 <br />
 {{</raw>}}
 <!-- ![Transcription session with Abel Sam](elicitation-session-notes-small.jpg) -->
@@ -72,7 +72,7 @@ When collecting spoken or signed language data, the best practice is to make aud
 
 {{<raw>}}
 
-<div><h4>Setting up for a recording session.</h4></div>
+<div style=""><h4>Setting up for a recording session.</h4></div>
 <br />
 {{</raw>}}
 <!-- ![Setting up for a recording session](recording-setup-small.jpg) -->
@@ -93,7 +93,7 @@ To secure data, ideally, I would also make backup copies of all new recordings a
 
 {{<raw>}}
 
-<div><h4>Crossing the Veora river.</h4></div>
+<div style=""><h4>Crossing the Veora river.</h4></div>
 <br />
 {{</raw>}}
 <!-- ![Crossing the Veora river](crossing-river-small.jpg) -->
@@ -113,6 +113,6 @@ In future research projects I might work in, I can build on my past experiences 
 
 {{<raw>}}
 
-<div><h4>Vuwo village.</h4></div>
+<div style=""><h4>Vuwo village.</h4></div>
 <br />
 {{</raw>}}

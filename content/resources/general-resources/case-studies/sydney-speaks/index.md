@@ -37,9 +37,8 @@ Since 2015, the Sydney Speaks project has recorded the spontaneous speech of Syd
 
 {{<raw>}}
 
-<div><h4>Figure 1: Sub-corpora included in the Sydney Speaks project:
-Sydney Speaks 2010s; Sydney Social Dialect Survey; NSW Bicentennial Oral History Project
-</h4></div>
+<div style=""><h4>Figure 1: Sub-corpora included in the Sydney Speaks project:
+Sydney Speaks 2010s; Sydney Social Dialect Survey; NSW Bicentennial Oral History Project</h4></div>
 <br />
 {{</raw>}}
 
@@ -73,8 +72,7 @@ Interviews are recorded using a Zoom H4N digital recording device in wav format 
 
 {{<raw>}}
 
-<div><h4>Figure 2: Sample SydS transcript in Elan, time aligned at the level of the Intonation Unit [SydS_CYM_061_Mark]
-</h4></div>
+<div style=""><h4>Figure 2: Sample SydS transcript in Elan, time aligned at the level of the Intonation Unit [SydS_CYM_061_Mark]</h4></div>
 <br />
 {{</raw>}}
 
@@ -82,8 +80,7 @@ Interviews are recorded using a Zoom H4N digital recording device in wav format 
 
 {{<raw>}}
 
-<div><h4>Figure 3: Sample SydS transcript in Praat, downloaded from LaBB-CAT, where it has been automatically aligned at the level of the word and phoneme, and broken down by morpheme [SydS_CYM_061_Mark]
-</h4></div>
+<div style=""><h4>Figure 3: Sample SydS transcript in Praat, downloaded from LaBB-CAT, where it has been automatically aligned at the level of the word and phoneme, and broken down by morpheme [SydS_CYM_061_Mark]</h4></div>
 <br />
 {{</raw>}}
 
@@ -99,8 +96,7 @@ Detailed speaker metadata is collected via a demographic form that includes info
 
 {{<raw>}}
 
-<div><h4>Figure 4: Sample Sydney Speaks demographic information form
-</h4></div>
+<div style=""><h4>Figure 4: Sample Sydney Speaks demographic information form</h4></div>
 <br />
 {{</raw>}}
 
@@ -118,7 +114,7 @@ Participants are told that the data may be shared, with approval from the lead r
 
 {{<raw>}}
 
-<div><h4>Figure 5: Written consent checklist for Sydney Speaks participants</h4></div>
+<div style=""><h4>Figure 5: Written consent checklist for Sydney Speaks participants</h4></div>
 <br />
 {{</raw>}}
 
@@ -143,7 +139,7 @@ Interviews were conducted in the 1970s with a cassette recorder and made availab
 
 {{<raw>}}
 
-<div><h4>Figure 6: SSDS cassette collection</h4></div>
+<div style=""><h4>Figure 6: SSDS cassette collection</h4></div>
 <br />
 {{</raw>}}
 
@@ -151,7 +147,7 @@ Interviews were conducted in the 1970s with a cassette recorder and made availab
 
 {{<raw>}}
 
-<div><h4>Figure 7: Sample SSDS transcript with annotations [SSDS_ITF_120_Sara]</h4></div>
+<div style=""><h4>Figure 7: Sample SSDS transcript with annotations [SSDS_ITF_120_Sara]</h4></div>
 <br />
 {{</raw>}}
 
@@ -159,7 +155,7 @@ Interviews were conducted in the 1970s with a cassette recorder and made availab
 
 {{<raw>}}
 
-<div><h4>Figure 8: Sample SSDS transcript time-aligned in Elan [SSDS_ITF_120_Sara]</h4></div>
+<div style=""><h4>Figure 8: Sample SSDS transcript time-aligned in Elan [SSDS_ITF_120_Sara]</h4></div>
 <br />
 {{</raw>}}
 
@@ -175,7 +171,7 @@ Metadata for each speaker was extracted from original type-written profiles that
 
 {{<raw>}}
 
-<div><h4>Figure 9: Sample demographic information: Sydney Social Dialect Survey</h4></div>
+<div style=""><h4>Figure 9: Sample demographic information: Sydney Social Dialect Survey</h4></div>
 <br />
 {{</raw>}}
 
@@ -211,7 +207,7 @@ The original audio of each interview was recorded on cassette tape and was made 
 
 {{<raw>}}
 
-<div><h4>Figure 10: Sample transcript from Bicentennial Oral History Project [BCNT_AEF_032_Camila]</h4></div>
+<div style=""><h4>Figure 10: Sample transcript from Bicentennial Oral History Project [BCNT_AEF_032_Camila]</h4></div>
 <br />
 {{</raw>}}
 
@@ -219,7 +215,7 @@ The original audio of each interview was recorded on cassette tape and was made 
 
 {{<raw>}}
 
-<div><h4>Figure 11: Sample Bicentennial Oral History Project transcript time-aligned in Elan [BCNT_AEF_032_Camila]</h4></div>
+<div style=""><h4>Figure 11: Sample Bicentennial Oral History Project transcript time-aligned in Elan [BCNT_AEF_032_Camila]</h4></div>
 <br />
 {{</raw>}}
 
@@ -235,7 +231,7 @@ Demographic data was collected at the time of the interview for each participant
 
 {{<raw>}}
 
-<div><h4>Figure 12: Sample demographic information: Bicentennial Oral History Project</h4></div>
+<div style=""><h4>Figure 12: Sample demographic information: Bicentennial Oral History Project</h4></div>
 <br />
 {{</raw>}}
 
