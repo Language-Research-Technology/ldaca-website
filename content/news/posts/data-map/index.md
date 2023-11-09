@@ -8,6 +8,8 @@ topics: ["Language in Australia"]
 author: "Simon Musgrave"
 ---
 
+<br>
+
 The data which is being made accessible through the Language Data Commons of Australia will contribute to the task of documenting language use and language behaviour in Australia. But what does this include? We are aware of many data sources and, in the short term, the important questions are about priorities:
 
 - What will be immediately useful?
@@ -49,6 +51,8 @@ As a result of these changes, we face new and different problems in how we appro
 Even the question of what should be considered 'Australian language data' does not have an obvious answer in this digital world. Does the language of an Australian resident from a South Asian background contributing to social media in Sri Lanka come under the term? What about the tweets of someone who was born in Australia and grew up here but has lived in Europe for a number of years? The landscape of this latest phase in language data is still emerging and finding good answers to these questions (and many others) will be needed before we can map the new landscape clearly.
 
 _This post is based on presentations given to the LaTrobe University Linguistics Program (27 May 2021) and to the Monash University Linguistics Program (10 May 2022). I am grateful for helpful comments from both those audiences, and for comments on the draft of this post from Leah Gustafson, Sara King and Harriet Sheppard._
+
+<br>
 
 **References**:
 {{<raw>}}

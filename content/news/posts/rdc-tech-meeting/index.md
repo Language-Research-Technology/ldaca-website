@@ -7,6 +7,8 @@ tags: ["Repositories"]
 author: Peter Sefton
 ---
 
+<br>
+
 This is a presentation Peter Sefton gave to the
 [Humanities, Arts and Social Sciences Research Data Commons and Indigenous Research Capability Program](https://ardc.edu.au/collaborations/strategic-activities/hass-and-indigenous-research-data-commons/) Technical Advisory Group on Friday 11th February 2022.
 
@@ -17,10 +19,14 @@ and there.
 
 [PDF version](HASS%20RDC%20Technical%20Advisory%20Group%20Meeting%20LDaCA%20&%20ATAP%20Intro.pdf)
 
+<br>
+
 ![Hass RDC Technical Avisory Group Meeting](Slide00.png)
 
 The Language Data Commons of Australia Data Partnerships (LDaCA) and the Australian Text Analytics Platform (ATAP) are establishing a scalable and flexible language data and analytics commons. These projects will be part of the Humanities and Social Sciences Research Data Commons (HASS RDC).
 The Data Commons will focus on preservation and discovery of distributed multi-modal language data collections under a variety of governance frameworks. This will include access control that reflects ethical constraints and intellectual property rights, including those of Aboriginal and Torres Strait Islander, migrant and Pacific communities.
+
+<br>
 
 ![Slide01](Slide01.png)
 
@@ -34,6 +40,8 @@ that important data assets are not locked up in a database or hard-coded logic
 of some hard-to-maintain application.
 
 We are using three key standards on this project …
+
+<br>
 
 ![Slide02](Slide02.png)
 
@@ -72,6 +80,8 @@ Here’s the introduction to the spec:
 > **Storage diversity**
 > Finally, the community expressed a need to store content on a wide variety of storage technologies. With that in mind, the OCFL was written with an eye toward various storage infrastructures including cloud object stores.
 
+<br>
+
 ![Slide03](Slide03.png)
 
 The second standard is Research Object Crate. (RO-Crate) a method for
@@ -82,12 +92,16 @@ RO-Crate is used in our platform both for describing data objects in the OCFL
 repository, and for delivering metadata over the API (which we’ll show in
 architecture diagrams and screenshots below).
 
+<br>
+
 ![Slide04](Slide04.png)
 
 RO-Crates may contain any kind of data resource about anything, in any format
 as a file or URL - it’s not just for language data; there are also many
 projects in the sciences starting to
 [use RO-Crate](https://www.researchobject.org/ro-crate/in-use/).
+
+<br>
 
 ![Slide05](Slide05.png)
 
@@ -107,6 +121,8 @@ collections as OCFL objects or across many OCFL objects with PCDM used to
 show the structure of the data collections regardless of how they happen to
 be stored.
 
+<br>
+
 ![Slide06](Slide06.png)
 
 Back to RO-Crates.
@@ -122,6 +138,8 @@ Crates must have license information that set out how data may be used and if
 it may be redistributed. As we are dealing with language data which is (almost
 ) always created by people, it is important that their intellectual property
 rights and privacy are respected. More on this later.
+
+<br>
 
 ![Slide07](Slide07.png)
 
@@ -144,10 +162,15 @@ Simon Musgrave and Peter Sefton
 [presented our progress with multilingual text](https://ptsefton.com/2022/01/27/DAMTA_Slides_v1/)
 at a virtual workshop run by ANU in January.
 
+<br>
+
 ![Slide08](Slide08.png)
+
 Here’s another screenshot showing one of the government documents in PDF
 format - with a link back to the abstract RepositoryObject that houses all of
 the manifestations of the document in various languages.
+
+<br>
 
 ![Slide09](Slide09.png)
 
@@ -175,6 +198,8 @@ ATAP and LDaCA approach to this is to use the Research Object Crate (RO-Crate
 standards and standard approaches to describe both data and re-runnable
 software such as workflows or notebooks.
 
+<br>
+
 ![Slide10](Slide10.png)
 
 This rather messy slide captures the overall high-level architecture for the
@@ -189,6 +214,8 @@ primarily an educational enterprise encouraging researchers to adopt new
 research practices - which will be underpinned by services built on the
 Arkisto standards that allow for rigorous, re-runnable research.
 
+<br>
+
 ![Slide11](Slide11.png)
 
 In this presentation, we are going to focus on the portal/repository
@@ -200,6 +227,8 @@ We will be supporting and encouraging researchers to archive notebooks
 wrapped in RO-Crates with re-use information OUTSIDE of the SWAN platform
 though - it’s a workspace, not a repository; it does not have governance in
 place for long-term preservation.
+
+<br>
 
 ![Slide12](Slide12.png)
 
@@ -229,6 +258,8 @@ can search for text and/or drill down using _facets_ (which are called
 aggregations in Elastic-land). e.g. which language am interested in or do I
 want [ ] Spoken or [ ] Written material?
 
+<br>
+
 ![Slide13](Slide13.png)
 
 This architecture is very modular and designed to operate in a distributed
@@ -239,12 +270,16 @@ tabular data or domain-specific discovery tools such as corpus analysis
 software. And, there may be collection-specific portals that show a slice of
 a bigger repository with features or branding specific to a subset of data.
 
+<br>
+
 ![Slide14](Slide14.png)
 
 This implementation of the Arkisto standards-stack is known as Oni. That’s
 not really an acronym anymore though it once stood for OCFL, Ngnix (a web
 server) or Node (a Javascript framework) and an Index. An Oni is a kind of
 Japanese demon. 👹
+
+<br>
 
 ![Slide15](Slide15.png)
 
@@ -258,6 +293,8 @@ shows how we will be converting data from existing collections into a form
 where they can be preserved in an OCFL repository and be part of a bigger
 collection, ALWAYS with access control based on licenses.
 
+<br>
+
 ![Slide16](Slide16.png)
 
 This is a screenshot of our GitHub repository showing the corpus migration tools
@@ -265,6 +302,8 @@ we’ve started developing (there are six, and one general purpose text-
 cleaning tool). These repositories have not all been made public yet, but
 they will be - they contain tools to build Arkisto-ready file repositories
 that can be made available in one or more portals
+
+<br>
 
 ![Slide17](Slide17.png)
 
@@ -275,6 +314,8 @@ But wait! That’s not the LDaCA portal - that’s Alveo!
 Oh yes, so it is.
 
 Alveo was built ten years ago - and has not seen much uptake.
+
+<br>
 
 ![Slide18](Slide18.png)
 
@@ -307,6 +348,8 @@ we have an in-house (though distributed) development team rather than an
 external contractor so feedback is very fast - we can jump onto a call and
 demo stuff at any time.
 
+<br>
+
 ![Slide19](Slide19.png)
 
 We decided to build from the data API first.
@@ -330,6 +373,8 @@ Travis at ANU - we are hoping to publish this work as a re-usable notebook
 that can be adapted for other projects, and to allow the techniques the ANU
 team have been developing to be applied to other similar data in LDaCA.
 
+<br>
+
 ![Slide20](Slide20.png)
 
 And one of the data scientists who was working with us at UQ, Mel Mistica,
@@ -342,12 +387,16 @@ scientist might explore what’s in it and start asking questions about the data
 like the age distribution of the participants and start digging in to what
 they were talking about.
 
+<br>
+
 ![Slide21](Slide21.png)
 
 This screencast shows a work-in-progress snapshot of the Oni portal we talked
 about above in action, showing how search and browse might be used to find
 repository objects from the index - in this case, searching for Arabic words
 in a small set of Australian Government documents.
+
+<br>
 
 ![Slide22](Slide22.png)
 
@@ -362,6 +411,8 @@ That’s right - we’ve been talking about repository software architectures
 here but it is important to remember that a repository needs to be considered
 an institution rather than a software stack or collection of files, more
 "University Library" than "My Database".
+
+<br>
 
 ![Slide23](Slide23.png)
 
@@ -388,7 +439,10 @@ reproducible using this model, but without a culture of sharing datasets
 without regard for the rights of those who were involved in the creation of
 the data.
 
+<br>
+
 ![Slide24](Slide24.png)
+
 Regarding rights, our project is informed by the
 [CARE principles](https://www.gida-global.org/care) for Indigenous data.
 
@@ -408,7 +462,10 @@ moral rights in the material (even if they do not have legal rights) and
 taking the CARE principles as relevant in such cases ensures serious thinking
 about the protection of those moral rights.
 
+<br>
+
 ![Slide25](Slide25.png)
+
 [Traditional Knowledge Labels](https://localcontexts.org/labels/traditional-knowledge-labels/)
 
 We are designing the system so that it can work with diverse ways of
@@ -417,7 +474,10 @@ labels. The idea is to separate safe storage of data with a license on each
 item, which may reference the TK labels from a system that is administered by
 the data custodians who can make decisions about who is allowed to access data.
 
+<br>
+
 ![Slide26](Slide26.png)
+
 We are working on a case study with the
 [Sydney Speaks project](http://www.dynamicsoflanguage.edu.au/sydney-speaks/)
 via steering committee member Catherine Travis.
@@ -450,7 +510,10 @@ Because this involved human participants there are restrictions on the
 distribution of data - a situation we see with lots of studies involving
 people in a huge range of disciplines.
 
+<br>
+
 ![Slide27](Slide27.png)
+
 There are four tiers of data access we need to enforce and observe for this
 data based on the participant agreements and ethics arrangements under which
 the data were collected.
@@ -459,6 +522,8 @@ Concerns about rights and interests are important for any data involving
 people - and a large amount of the data both Indigenous and non-Indigenous we
 are using will require access control that ensures that data sharing is
 appropriate.
+
+<br>
 
 ![Slide28](Slide28.png)
 
@@ -482,6 +547,8 @@ Now in GitHub we can see the group management example.
 I have given access to all the licences to myself, as you can see here and
 given access to licence A to others.
 
+<br>
+
 ![Slide29](Slide29.png)
 
 This diagram is a sketch of the interaction that took place in the demo - it
@@ -489,6 +556,8 @@ shows how a repository can delegate authorization to an external system - in
 this case, GitHub rather than CILogon. But we are working with the ARDC to set
 up a trial with the Australian Access Federation to allow CILogon access for
 the HASS Research Data Commons so we can pilot group-based access control.
+
+<br>
 
 ![Slide30](Slide30.png)
 

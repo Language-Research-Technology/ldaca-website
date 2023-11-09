@@ -11,6 +11,8 @@
       auto: true
 ---
 
+<br>
+
 [Download as PDF](arkisto-stack-or-2023.pdf)
 
 This presentation was delivered by Peter Sefton at the [Open Repositories 2023](https://or2023.openrepositories.org/) conference in South Africa on 2023-06-14 in the [Presentations: Discipline specific systems with FAIR principles
@@ -26,6 +28,8 @@ We will present a standards-based generalized architecture for large-scale data\
 
 By: Peter Sefton (University of Queensland), Simon Musgrave (University of Queensland & Monash University) & Nick Thieberger (University of Melbourne)
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide01.png' alt='The Language Data Commons of Australia (LDaCA) and Australian Text Analytics Platform (ATAP) projects received investment (https://doi.org/10.47486/DP768 and https://doi.org/10.47486/PL074) from the Australian Research Data Commons (ARDC). The ARDC is funded by the National Collaborative Research Infrastructure Strategy (NCRIS).   ARC LIEF LE210100013 (2021-2024) Nyingarn: a platform for primary sources in Australian Indigenous languages  ' title='Slide: 1' border='1'  width='85%%'/>
@@ -33,6 +37,8 @@ By: Peter Sefton (University of Queensland), Simon Musgrave (University of Queen
 This work is supported by the Australian Research Data Commons.
 
 </section>
+
+<br>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -48,6 +54,8 @@ We would like to acknowledge the traditional custodians of the lands on which we
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide03.png' alt='Pacific and Regional Archive for Digital Sources in Endangered Cultures (PARADISEC) Established 2003 Researchers concerned to digitise, preserve, and make accessible recordings in the many languages of the region around Australia No other agency taking responsibility for these recordings so they were at risk of loss Catalog exposes the existence of these recordings, 38,000 items in 690 collections Currently represent 1,350 languages, in 205 terabytes, with over 16,000 hours of audio recordings, 3,000 hours of video ' title='Slide: 3' border='1'  width='85%%'/>
@@ -55,6 +63,8 @@ We would like to acknowledge the traditional custodians of the lands on which we
 PARADISEC is an online archive of cultural data which has been maintained for twenty years, in this presentation, we will look at some of the lessons learned from PARADISEC. In summary – the PARADISEC approach to simple data and metadata storage is something we want to continue in LDaCA, while the high cost for PARADISEC of commissioning and maintaining its own software stack is something we want to address by taking a more standards-based approach to managing language and other data over the coming decades.
 
 </section>
+
+<br>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -64,6 +74,8 @@ The Arkisto platform started in 2019 as a way to capture the lessons of PARADISE
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide05.png' alt='  ' title='Slide: 5' border='1'  width='85%%'/>
@@ -71,6 +83,8 @@ The Arkisto platform started in 2019 as a way to capture the lessons of PARADISE
 This diagram was used in the bid documents that established LDaCA - it shows the progression of data from end-of-life projects and active repositories into a standards-based data-commons.
 
 </section>
+
+<br>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -80,6 +94,8 @@ This is the data triage process we have been going through in LDaCA — and it s
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide07.png' alt='  ' title='Slide: 7' border='1'  width='85%%'/>
@@ -87,6 +103,8 @@ This is the data triage process we have been going through in LDaCA — and it s
 This is a taster of what data looks like in the kids of repositories we are talking about. This site contains harvested metadata about holdings on Australian Indigenous Languages in University of Queensland Libraries.
 
 </section>
+
+<br>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -98,6 +116,8 @@ This work has also been [written up](https://digital.library.unt.edu/ark:/67531/
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide09.png' alt='  ' title='Slide: 9' border='1'  width='85%%'/>
@@ -105,6 +125,8 @@ This work has also been [written up](https://digital.library.unt.edu/ark:/67531/
 This is the overall architecture for data storage and delivery — missing is how data gets into to the repository, but we’ll come to that later.
 
 </section>
+
+<br>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -121,6 +143,8 @@ Two main points we want to get across in this presentation:
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide11.png' alt='📂  🔬 🔭 📹 💽 🖥️ ⚙️🎼🌡️🔮🎙️🔍🌏📡💉🏥💊🌪️ ' title='Slide: 11' border='1'  width='85%%'/>
@@ -131,6 +155,8 @@ Stian Soiland-Reyes, Peter Sefton, Mercè Crosas, Leyla Jael Castro, Frederik Co
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide12.png' alt='  ' title='Slide: 12' border='1'  width='85%%'/>
@@ -138,6 +164,8 @@ Stian Soiland-Reyes, Peter Sefton, Mercè Crosas, Leyla Jael Castro, Frederik Co
 The core standard for this work is RO-Crate (Research Object Crate) in which all data is input, stored and output. This a big step for eresearch systems – no longer is there a transformation step on data onboarding (we used the term ingest, but some project members and partners found the metaphor distasteful).
 
 </section>
+
+<br>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -147,6 +175,8 @@ This screenshot is a bit of (undated) DSpace documentation found following a tip
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide14.png' alt='Using this core layer gives you interoperability with generic tools and general purpose “Who What Where” metadata ' title='Slide: 14' border='1'  width='85%%'/>
@@ -155,6 +185,8 @@ In the early days of the “Open Repositories” movement repositories had Dubli
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide15.png' alt=' Using a domain-specific profile extends the core RO-Crate for a specific type of data – e.g. language data, computational workflows or “cultural collections”  (You can use more than one profile) ' title='Slide: 15' border='1'  width='85%%'/>
@@ -162,6 +194,8 @@ In the early days of the “Open Repositories” movement repositories had Dubli
 These days using linked data it is no longer necessary to have a bevy of XML schemas with incompatible encodings to store data from different schemas, different vocabularies and ontologies can co-exist and be expressed in a common way.
 
 </section>
+
+<br>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -179,6 +213,8 @@ The UTS team presented on this at [eResearch Australasia 2019](https://ptsefton.
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide17.png' alt='  ' title='Slide: 17' border='1'  width='85%%'/>
@@ -188,6 +224,8 @@ The [structure of an RO-Crate](https://www.researchobject.org/ro-crate/1.1/struc
 RO-Crate has a growing number of [tools and software libraries](https://www.researchobject.org/ro-crate/tools/) which means that a team such as PARADISEC does not have to maintain their own bespoke software.
 
 </section>
+
+<br>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -199,6 +237,8 @@ This also shows some of what an OCFL repository looks like – this is an OCFL o
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide19.png' alt=' This is an RO-Crate Object which is stored as an OCFL Object ' title='Slide: 19' border='1'  width='85%%'/>
@@ -206,6 +246,8 @@ This also shows some of what an OCFL repository looks like – this is an OCFL o
 This screenshot shows an example of an Arkisto-style use of OCFL (all of the metadata is stored in the ro-crate-metadata.json rather than spread out as in Fedora).
 
 </section>
+
+<br>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -215,6 +257,8 @@ Now we come to the second core standard in our stack the [Oxford Common File Lay
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide21.png' alt='  ' title='Slide: 21' border='1'  width='85%%'/>
@@ -222,6 +266,8 @@ Now we come to the second core standard in our stack the [Oxford Common File Lay
 This slide shows the interface between our core standards – a compliant OCFL repository has Objects within it that conform to the RO-Crate specification.
 
 </section>
+
+<br>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -231,6 +277,8 @@ This slide illustrates the flexibility of the approach we’re taking. As LDaCA 
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide23.png' alt='  S3-Style Object store Plain Old File Store ' title='Slide: 23' border='1'  width='85%%'/>
@@ -238,6 +286,8 @@ This slide illustrates the flexibility of the approach we’re taking. As LDaCA 
 The storage services may not all be the same in this model, some may be file systems, some may be object stores, and they may be hosted by and governed by a variety of organizations.
 
 </section>
+
+<br>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -253,6 +303,8 @@ Note that our work is also informed by the [CARE principles for Indigenous data 
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide25.png' alt='  Ok but how does the data get there? ' title='Slide: 25' border='1'  width='85%%'/>
@@ -261,6 +313,8 @@ Let’s revisit this diagram. What’s missing?
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide26.png' alt='  ' title='Slide: 26' border='1'  width='85%%'/>
@@ -268,6 +322,8 @@ Let’s revisit this diagram. What’s missing?
 In the first phase of the LDaCA project, work focused on batch import of data using tools to convert collections – this approach was used on contemporary collections as well as for “rescuing” collections from older repository systems.
 
 </section>
+
+<br>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -279,6 +335,8 @@ This slide shows some JSON-LD metadata that describes the way this RO-Crate meta
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide28.png' alt=' ' title='Slide: 28' border='1'  width='85%%'/>
@@ -286,6 +344,8 @@ This slide shows some JSON-LD metadata that describes the way this RO-Crate meta
 This part of the architecture we are working on now…
 
 </section>
+
+<br>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -297,6 +357,8 @@ Here we see the Crate-O metadata tool (which is a zero-install web application t
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide30.png' alt='  ' title='Slide: 30' border='1'  width='85%%'/>
@@ -304,6 +366,8 @@ Here we see the Crate-O metadata tool (which is a zero-install web application t
 We hope to work with other editor projects (eg [Describo](https://describo.github.io/#/)) to make editor profiles as compatible as possible.
 
 </section>
+
+<br>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -315,6 +379,8 @@ Here’s another repository that uses RO-Crate metadata (from the Language Data 
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide32.png' alt=' SCREENSHOT OF NOTEBOOK  ' title='Slide: 32' border='1'  width='85%%'/>
@@ -322,6 +388,8 @@ Here’s another repository that uses RO-Crate metadata (from the Language Data 
 This is a screenshot of a Jupyter notebook that can process data from a repository via its API.
 
 </section>
+
+<br>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -331,6 +399,8 @@ This slide shows the Arkisto stack powering the University of Technology Sydney�
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide34.png' alt='  ' title='Slide: 34' border='1'  width='85%%'/>
@@ -339,6 +409,8 @@ This page shows some screenshots of an internal-only application at UTS which gi
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide35.png' alt='  ' title='Slide: 35' border='1'  width='85%%'/>
@@ -346,6 +418,8 @@ This page shows some screenshots of an internal-only application at UTS which gi
 This is a screenshot of data from a history project [Expert Nation](https://expertnation.org/) exported to RO-Crate format and [put online to support a book](https://expertnation.research.uts.edu.au/).
 
 </section>
+
+<br>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 

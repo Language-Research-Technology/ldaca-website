@@ -8,6 +8,8 @@ topics:
 author: "Kelvin Lee"
 ---
 
+<br>
+
 The Australian Text Analytics Platform ([ATAP](https://www.atap.edu.au)) and the Language Data Commons of Australia (LDaCA) are collaborative projects led by the University of Queensland and supported by the [Australian Research Data Commons](https://www.ardc.edu.au) to develop infrastructure for researchers who work with language data. In this blog post series, we feature interviews with the Chief Investigators of the two projects. In each post, we present their answers to three questions:
 
 - What is your role in these projects? (What do you/your team do as part of your participation?)
@@ -15,6 +17,8 @@ The Australian Text Analytics Platform ([ATAP](https://www.atap.edu.au)) and the
 - What advice would you give someone who wants to get started with text analytics, corpus linguistics, or language data collection?
 
 This blog post features [Louisa Willoughby](https://research.monash.edu/en/persons/louisa-willoughby) (LW), [Martin Schweinberger](https://languages-cultures.uq.edu.au/profile/4295/martin-schweinberger) (MS) and [Nick Thieberger](https://findanexpert.unimelb.edu.au/profile/18278-nick-thieberger) (NT). The interview was undertaken via email, and we are grateful to Kelvin Lee from the [Sydney Corpus Lab](https://sydneycorpuslab.com/) for his assistance in undertaking the interviews and creating these blog posts.
+
+<br>
 
 ### 1. What is your role in these projects?
 
@@ -24,6 +28,8 @@ This blog post features [Louisa Willoughby](https://research.monash.edu/en/perso
 
 **NT**: I am in charge of work packages 1.1 and 1.2, Indigenous languages of Australia and the Pacific. I worked at [AIATSIS](https://aiatsis.gov.au/) in the past and set up an Aboriginal language centre in Port Hedland ([Wangka Maya](https://www.wangkamaya.org.au/home)). I have worked in Vanuatu, and did my PhD research on [Nafsan](https://glottolog.org/resource/languoid/id/sout2856), a language from Efate, sparking an interest in languages of the Pacific. The work of recording speakers of Nafsan also resulted in a corpus of time-aligned text and media, as well as historical manuscripts that I have been finding in archives around the world. This led me to be concerned that existing records of these languages be made accessible to current speakers and so I helped establish the Pacific and Regional Archive for Digital Sources in Endangered Cultures ([PARADISEC](https://www.paradisec.org.au/)) which has many connections to cultural agencies in the Pacific. I currently lead a project ([Nyingarn](https://nyingarn.net/)) to convert manuscripts in Australian Indigenous languages to text.
 
+<br>
+
 ### 2. What excites you most about the projects?
 
 **LW**: That it is both building an exciting tool for researchers to better understand language variation AND making a resource that is useful for Auslan students and members of the community.
@@ -31,6 +37,8 @@ This blog post features [Louisa Willoughby](https://research.monash.edu/en/perso
 **MS**: One of the most fulfilling aspects of my work is the opportunity to collaborate with researchers from diverse communities and fields or to see how resources I created help people from very different backgrounds in their work. I do take pride in inspiring and enabling researchers to explore the potential of computational methods, whether they are working on projects related to the language sciences, health sciences, social sciences, arts, or beyond. As a quantitative linguist who came to computation as a computerphobe philosopher, I really enjoy creating visualizations that communicate data and results and that provide an intuitive understanding of complex data sets. I also take pleasure in showing others how to perform statistical analyses that help them make informed decisions based on their findings. By optimizing workflows and automating procedures, I help researchers to work more efficiently and effectively, enabling them to achieve their goals more quickly and easily. Through my work, I aim to create an environment where researchers from diverse backgrounds and specializations can benefit from the potential of computational tools, regardless of their field of study or level of experience. I value the opportunity to work collaboratively with researchers to find solutions to complex problems, and to share my expertise with others to promote innovation and growth within the field. Overall, I believe that the application of computational methods is an exciting area of research that has the potential to transform the way we approach scientific inquiry in the humanities and social sciences. By helping researchers to explore the possibilities of these tools, I hope to contribute to a more vibrant and innovative research community.
 
 **NT**: Making textual material in these languages available so that speakers can find records in their own languages. Often there is very little available information for these languages, so every record becomes all the more important, especially in the context of colonial dispossession where the languages are no longer spoken everyday and there are efforts to relearn the language. It is exciting that this work can become part of a national commons, and be supported into the future, so that more and more material can be included. The simple task of locating a language record, digitising it, and making the files available with appropriate licences means that it can be used by speakers, and by researchers for various new purposes.
+
+<br>
 
 ### 3. What advice would you give someone who wants to get started with text analytics, corpus linguistics, or language data collection?
 
@@ -41,6 +49,8 @@ This blog post features [Louisa Willoughby](https://research.monash.edu/en/perso
 **NT**: The first steps in language data collection involve recording speakers, with all appropriate permissions in place, and with a consent form signed by them. Making those recordings as well as possible, following recommendations, doing training and so on, and managing the resulting files so they are not lost. Learn the basics of text querying, searching, and regular expressions. Be aware of the ethical considerations in using material from someone else’s language. But just start now!
 
 (Further information to supplement these suggestions is available from our [Background](../../background/information/) and [Resources](../../resources/) pages and from the ATAP pages introducing [Text Analysis](https://www.atap.edu.au/text-analysis/overview/))
+
+<br>
 
 #### Acknowledgments
 
