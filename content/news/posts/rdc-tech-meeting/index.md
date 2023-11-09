@@ -24,13 +24,13 @@ The Data Commons will focus on preservation and discovery of distributed multi-m
 
 ![Slide01](Slide01.png)
 
-For this Research Data Commons work we are using the Arkisto Platform
+For this Research Data Commons work, we are using the Arkisto Platform
 (introduced [at eResearch 2020](http://ptsefton.com/2020/11/23/Arkisto/index.html)).
 
-Arkisto aims to secure the long term preservation of data independently of
+Arkisto aims to secure the long-term preservation of data independently of
 code and services - recognizing the ephemeral nature of software and platforms.
 We know that sustaining software platforms can be hard and aim to make sure
-that important data assets are not locked up in database or hard-coded logic
+that important data assets are not locked up in a database or hard-coded logic
 of some hard-to-maintain application.
 
 We are using three key standards on this project …
@@ -38,7 +38,7 @@ We are using three key standards on this project …
 ![Slide02](Slide02.png)
 
 The first standard is the [Oxford Common File Layout](https://ocfl.io/1.0/spec/) -
-this is a way of keeping version controlled digital objects on a plain old
+this is a way of keeping version-controlled digital objects on a plain old
 filesystem or object store.
 
 Here’s the introduction to the spec:
@@ -59,7 +59,7 @@ Here’s the introduction to the spec:
 >
 > **Parsability**
 >
-> One goal of the OCFL is to ensure objects remain fixed over time. This can be difficult as software and infrastructure change, and content is migrated. To combat this challenge, the OCFL ensures that both humans and machines can understand the layout and corresponding inventory regardless of the software or infrastructure used. This allows for humans to read the layout and corresponding inventory, and understand it without the use of machines. Additionally, if existing software were to become obsolete, the OCFL could easily be understood by a light weight application, even without the full feature repository that might have been used in the past.
+> One goal of the OCFL is to ensure objects remain fixed over time. This can be difficult as software and infrastructure change, and content is migrated. To combat this challenge, the OCFL ensures that both humans and machines can understand the layout and corresponding inventory regardless of the software or infrastructure used. This allows for humans to read the layout and corresponding inventory, and understand it without the use of machines. Additionally, if existing software were to become obsolete, the OCFL could easily be understood by a lightweight application, even without the full feature repository that might have been used in the past.
 >
 > **Versioning**
 >
@@ -67,7 +67,7 @@ Here’s the introduction to the spec:
 >
 > **Robustness**
 >
-> The OCFL also fills the need for robustness against errors, corruption, and migration. The versioning schema ensures an OCFL object is robust enough to allow for the discovery of human errors. The fixity checking built into the OCFL via content addressable storage allows implementers to identify file corruption that might happen outside of normal human interactions. The OCFL eases content migrations by providing a technology agnostic method for verifying OCFL objects have remained fixed.
+> The OCFL also fills the need for robustness against errors, corruption, and migration. The versioning schema ensures an OCFL object is robust enough to allow for the discovery of human errors. The fixity checking built into the OCFL via content addressable storage allows implementers to identify file corruption that might happen outside of normal human interactions. The OCFL eases content migrations by providing a technology-agnostic method for verifying that OCFL objects have remained fixed.
 >
 > **Storage diversity**
 > Finally, the community expressed a need to store content on a wide variety of storage technologies. With that in mind, the OCFL was written with an eye toward various storage infrastructures including cloud object stores.
@@ -111,7 +111,7 @@ be stored.
 
 Back to RO-Crates.
 
-RO-Crates are self-documenting and can ship with a HTML file that allows a
+RO-Crates are self-documenting and can ship with an HTML file that allows a
 consumer of the crated data to see whatever documentation the crate authors
 have added.
 
@@ -126,12 +126,12 @@ rights and privacy are respected. More on this later.
 ![Slide07](Slide07.png)
 
 This shows a page for what we’re calling an Object (RepositoryObject). A
-RepositoryObject is a single “thing” such as a document, a conversation, a
+RepositoryObject is a single “thing” such as a document, a conversation, or a
 session in a speech study. (this was called an item in Alveo but given that
 both the Portland Common Data model and Oxford Common File Layout use “Object
 ” we are using that term at least for now).
 
-This shows that the system is capable of dealing with unicode characters -
+This shows that the system is capable of dealing with Unicode characters -
 which is good, as you would expect as it’s 2022 and this is a Language Data
 Commons, but there are still challenges, like dealing with mixtures of left
 to right and right to left text, and we need to find or define metadata terms
@@ -160,11 +160,11 @@ well as analytical tools such as Jupyter notebooks (the backbone of ATAP -
 the text analytics platform). Other examples of workspaces include code
 repositories such as GitHub or GitLab (a slightly different sense of the word
 repository), survey tools, electronic (lab) notebooks and bespoke code
-written for particular research programmes - these workspaces are essential
-research systems but usually are not set up for long term management of data.
+written for particular research programs - these workspaces are essential
+research systems but usually are not set up for long-term management of data.
 
 The cycle in the centre of this diagram shows an idealised research practice
-where data are collected and described and deposited into a repository
+where data are collected, described and deposited into a repository
 frequently. Data are made findable and accessible as soon as possible and
 can be “re-collected” for use and re-use.
 
@@ -191,7 +191,7 @@ Arkisto standards that allow for rigorous, re-runnable research.
 
 ![Slide11](Slide11.png)
 
-In this presentation we are going to focus on the portal/repository
+In this presentation, we are going to focus on the portal/repository
 architecture more than on the ATAP notebook side of things. We know that we
 will be using (at least) the SWAN Jupyter notebook service perceived by
 AARNet but we are still scoping how notebooks will be made portable between
@@ -199,7 +199,7 @@ systems and where they will be stored at various stages of their development.
 We will be supporting and encouraging researchers to archive notebooks
 wrapped in RO-Crates with re-use information OUTSIDE of the SWAN platform
 though - it’s a workspace, not a repository; it does not have governance in
-place for long term preservation.
+place for long-term preservation.
 
 ![Slide12](Slide12.png)
 
@@ -207,7 +207,7 @@ This is a much simpler view zooming in on the core infrastructure components
 that we have built so far. We are starting with bulk ingest of existing
 collections and will add one-by-one deposit of individual items after that.
 
-This show the OCFL repository at the bottom - with a Data & Access API that
+This shows the OCFL repository at the bottom - with a Data & Access API that
 mediates access. This API understands the RO-Crate format and in particular
 its use of the Portland Common Data Model to structure data. The API also
 enforces access control to objects; every repository object has a license
@@ -226,23 +226,23 @@ this stage we’re using ElasticSearch) which is designed to help people find
 data they might be interested in using. This follows current conventions for
 browse/search interfaces which we’re familiar with from shopping sites - you
 can search for text and/or drill down using _facets_ (which are called
-aggregations in Elastic-land). eg which language am in interested in or do I
+aggregations in Elastic-land). e.g. which language am interested in or do I
 want [ ] Spoken or [ ] Written material?
 
 ![Slide13](Slide13.png)
 
 This architecture is very modular and designed to operate in a distributed
-fashion, potentially with distributed file and/or object based repositories
+fashion, potentially with distributed file and/or object-based repositories
 all being indexed by a centralised service. There may also be other ‘flavours’
 of index such as triple or graph stores, relational databases that ingest
-tabular data or domain specific discovery tools such as corpus analysis
-software. And, there may be collection specific portals that show a slice of
+tabular data or domain-specific discovery tools such as corpus analysis
+software. And, there may be collection-specific portals that show a slice of
 a bigger repository with features or branding specific to a subset of data.
 
 ![Slide14](Slide14.png)
 
 This implementation of the Arkisto standards-stack is known as Oni. That’s
-not really an acronym any more though it once stood for OCFL, Ngnix (a web
+not really an acronym anymore though it once stood for OCFL, Ngnix (a web
 server) or Node (a Javascript framework) and an Index. An Oni is a kind of
 Japanese demon. 👹
 
@@ -253,14 +253,14 @@ data using a series of scripts which are being developed at our github
 organization.
 
 This diagram and the next come from the
-[Arkisto Use cases page](https://arkisto-platform.github.io/use-cases/) it
-show how we will be converting data from existing collections into a form
+[Arkisto Use cases page](https://arkisto-platform.github.io/use-cases/). It
+shows how we will be converting data from existing collections into a form
 where they can be preserved in an OCFL repository and be part of a bigger
 collection, ALWAYS with access control based on licenses.
 
 ![Slide16](Slide16.png)
 
-This is a screenshot our github repository showing the corpus migration tools
+This is a screenshot of our GitHub repository showing the corpus migration tools
 we’ve started developing (there are six, and one general purpose text-
 cleaning tool). These repositories have not all been made public yet, but
 they will be - they contain tools to build Arkisto-ready file repositories
@@ -268,13 +268,13 @@ that can be made available in one or more portals
 
 ![Slide17](Slide17.png)
 
-Here’s our portal which give a browse interface to allow drill-down data discovery.
+Here’s our portal which gives a browse interface to allow drill-down data discovery.
 
 But wait! That’s not the LDaCA portal - that’s Alveo!
 
 Oh yes, so it is.
 
-Alveo was built ten years ago - and has not seen a much uptake.
+Alveo was built ten years ago - and has not seen much uptake.
 
 ![Slide18](Slide18.png)
 
@@ -303,7 +303,7 @@ for one of the collections.
 
 We’re taking these lessons to heart in designing the LDaCA infrastructure -
 making sure that as we go we have people using the software - it helps that
-we have an in house (though distributed) development team rather than an
+we have an in-house (though distributed) development team rather than an
 external contractor so feedback is very fast - we can jump onto a call and
 demo stuff at any time.
 
@@ -315,13 +315,13 @@ In this demo developer Moises Sacal Bonequi is looking at the API via the
 Postman tool. This demonstration shows how the API can be used to find
 collections (that conform to our metadata profile)
 
-1. First he lists the collections, then chooses one
+1. First, he lists the collections, then chooses one.
 2. He then gets a collection with the `&resolve` parameter, meaning that the
    API will internally traverse the PCDM collection hierarchy and return ALL
-   the metadata for the collection - down to the file level
+   the metadata for the collection - down to the file level.
 3. He then downloads a file (for which he has a license that most of you
    reading this don’t have - hence the obfuscation of the
-   dialogue)
+   dialogue).
 
 This API has been used and road tested at ANU to develop techniques for topic
 modelling on the Sydney Speaks corpus (more about which corpus below) - by a
@@ -346,7 +346,7 @@ they were talking about.
 
 This screencast shows a work-in-progress snapshot of the Oni portal we talked
 about above in action, showing how search and browse might be used to find
-repository objects from the index - in this case searching for Arabic words
+repository objects from the index - in this case, searching for Arabic words
 in a small set of Australian Government documents.
 
 ![Slide22](Slide22.png)
@@ -393,9 +393,9 @@ Regarding rights, our project is informed by the
 [CARE principles](https://www.gida-global.org/care) for Indigenous data.
 
 > The current movement toward open data and open science does not fully
-> engage with Indigenous Peoples rights and interests. Existing principles
-> within the open data movement (e.g. FAIR: findable, accessible, interoperable
-> , reusable) primarily focus on characteristics of data that will facilitate
+> engage with Indigenous Peoples' rights and interests. Existing principles
+> within the open data movement (e.g. FAIR: findable, accessible, interoperable,
+>  reusable) primarily focus on characteristics of data that will facilitate
 > increased data sharing among entities while ignoring power differentials and
 > historical contexts. The emphasis on greater data sharing alone creates a
 > tension for Indigenous Peoples who are also asserting greater control over
@@ -406,19 +406,19 @@ But we do not see the CARE principles as only applying to Indigenous data and
 knowledge. Most language data is a record of the behaviour of people who have
 moral rights in the material (even if they do not have legal rights) and
 taking the CARE principles as relevant in such cases ensures serious thinking
-about the protection of tose moral rights.
+about the protection of those moral rights.
 
 ![Slide25](Slide25.png)
 [Traditional Knowledge Labels](https://localcontexts.org/labels/traditional-knowledge-labels/)
 
 We are designing the system so that it can work with diverse ways of
-expressing access rights, for example licensing like the Tribal Knowledge
+expressing access rights, for example, licensing like the Tribal Knowledge
 labels. The idea is to separate safe storage of data with a license on each
 item, which may reference the TK labels from a system that is administered by
 the data custodians who can make decisions about who is allowed to access data.
 
 ![Slide26](Slide26.png)
-We are working on a case-study with the
+We are working on a case study with the
 [Sydney Speaks project](http://www.dynamicsoflanguage.edu.au/sydney-speaks/)
 via steering committee member Catherine Travis.
 
@@ -456,28 +456,28 @@ data based on the participant agreements and ethics arrangements under which
 the data were collected.
 
 Concerns about rights and interests are important for any data involving
-people - and a large amount the data both indigenous and non-indigenous we
+people - and a large amount of the data both Indigenous and non-Indigenous we
 are using will require access control that ensures that data sharing is
 appropriate.
 
 ![Slide28](Slide28.png)
 
 In this example demo we uploaded various collections and are authorising with
-Github organisations
+GitHub organisations.
 
-In a our production release we will use AAF to authorise different groups.
+In our production release, we will use AAF to authorise different groups.
 
 Let's find a dataset: The Sydney Speaks Corpus.
 
-As you can see we cannot see any data
+As you can see we cannot see any data.
 
-Lets login… We authorise Github…
+Let's login… We authorise GitHub…
 
-Now you can see we have access sub corpus data and I am just opening a couple of items
+Now you can see we have access to sub-corpus data and I am just opening a couple of items.
 
 —
 
-Now in Github we can see the group management example.
+Now in GitHub we can see the group management example.
 
 I have given access to all the licences to myself, as you can see here and
 given access to licence A to others.
@@ -486,7 +486,7 @@ given access to licence A to others.
 
 This diagram is a sketch of the interaction that took place in the demo - it
 shows how a repository can delegate authorization to an external system - in
-this case Github rather than CILogon. But we are working with the ARDC to set
+this case, GitHub rather than CILogon. But we are working with the ARDC to set
 up a trial with the Australian Access Federation to allow CILogon access for
 the HASS Research Data Commons so we can pilot group-based access control.
 

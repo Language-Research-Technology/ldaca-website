@@ -15,7 +15,7 @@ draft: false
 
 ---
 
-# Indigenous knowledge {#indigenous-knowledge}
+# Indigenous Knowledge {#indigenous-knowledge}
 
 - [Protocols](https://australiacouncil.gov.au/wp-content/uploads/2021/07/protocols-for-using-first-nati-5f72716d09f01.pdf)
   for using First Nations Cultural and Intellectual Property in the Arts (Australia Council)
@@ -42,7 +42,7 @@ draft: false
   currently supports a number of organisations, including a network of 20
   language centres. A list of these centres is available from
   [this page](https://www.arts.gov.au/publications/ila-funded-indigenous-language-centres)
-  (pdf or docx format).
+  (PDF or DOCX format).
 - [AustLang](https://collection.aiatsis.gov.au/austlang/about): AustLang
   provides a controlled vocabulary of persistent identifiers, a thesaurus of
   languages and peoples, and information about Aboriginal and Torres Strait
@@ -91,7 +91,7 @@ publications.
 
 - [Glottolog](https://glottolog.org/): Comprehensive reference information for the world's languages, especially the lesser known languages. LDaCA uses Glottolog [language codes](../background/metadata/#glottolog) in our metadata.
 
-- Open Language Archives Community ([OLAC](http://www.language-archives.org/)) is an international partnership of institutions and individuals who are creating a worldwide virtual library of language resources by: (i) developing consensus on best current practice for the digital archiving of language resources, and (ii) developing a network of interoperating repositories and services for housing and accessing such resources. OLAC harvests metadata and their web site has a search facility to find resources for languages. OLAC [metadata recommendations](../background/metadata/#olac) are the basis for some of LDaCA's metadata.
+- Open Language Archives Community ([OLAC](http://www.language-archives.org/)) is an international partnership of institutions and individuals who are creating a worldwide virtual library of language resources by: (i) developing consensus on best current practice for the digital archiving of language resources, and (ii) developing a network of interoperating repositories and services for housing and accessing such resources. OLAC harvests metadata and their website has a search facility to find resources for languages. OLAC [metadata recommendations](../background/metadata/#olac) are the basis for some of LDaCA's metadata.
 
 - [Ethnologue](https://www.ethnologue.com/): _Ethnologue_ provides information about the languages of the world, but operates on a subscription model. The information which is available without a subscription is very limited: the first three lines of individual language entries which include the [ISO 639-3](../background/metadata/#iso-639) code, the classification of the language into a language family, and a link to the language’s OLAC page.
 

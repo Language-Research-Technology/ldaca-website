@@ -28,7 +28,7 @@ This is the source repository for an LDaCA based website
 - To see what your website **really** looks like generate a `public` folder
     - Delete the `public` folder if you have one then
     - Run `hugo`
-    - Then change directory into `public` and run a web server: for example `python3 -m http.server 8000` with python and go to[ http://localhost:8000/](http://localhost:8000/) to see what it looks like. 
+    - Then change directory into `public` and run a web server: for example, `python3 -m http.server 8000` with python and go to[ http://localhost:8000/](http://localhost:8000/) to see what it looks like. 
 
 Example:
 

@@ -59,6 +59,7 @@ AustLang provides a controlled vocabulary of persistent identifiers, a thesaurus
 Kala Lagaw Ya is a language spoken in the Torres Strait Islands. The language has several dialects or varieties and the table below shows how the different code schemes deal with this.
 
 <br>
+
 {{< raw >}}
 
 <table>
