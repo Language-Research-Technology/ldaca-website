@@ -305,7 +305,7 @@ $slide-count: 5;
 $c-slides: $water_green, $land_green, $clear_blue, $storm_blue, $sandstone;
 
 // Slide backgrounds (if used, must be same as number of slides, otherwise false)
-$b-slides: url("/SlideshowIMGs/Hand_Writing.jpeg") url("/SlideshowIMGs/Braille_Reading.jpeg") url("/SlideshowIMGs/Speech.jpeg") url("/SlideshowIMGs/Coding_Language.jpeg") url("/SlideshowIMGs/Phonetic_Learning.jpeg");
+$b-slides: url("/SlideshowIMGs/Braille_Reading.jpeg") url("/SlideshowIMGs/About_Project.png") url("/SlideshowIMGs/Speech.jpeg") url("/SlideshowIMGs/Coding_Language.jpeg") url("/SlideshowIMGs/Phonetic_Learning.jpeg");
 //$b-slides: $water_green, $land_green, $clear_blue, $storm_blue, $sandstone;
 
 // Total duration of slide animation
@@ -648,7 +648,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
   text-align: center;
   margin: auto;
   padding-bottom: 10px;
-  font-size: small;
+  font-size: smaller;
   a {
     color: white;
   }
@@ -664,6 +664,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
   width: 100%;
   bottom: 0;
   left: 0;
+  font-size: smaller;
 }
 
 .footer .heading {
@@ -683,7 +684,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .footer .content p {
-  margin-bottom: 1.3rem;
+  margin: 0.5rem 0;
 }
 
 .footer .content a {
@@ -696,8 +697,8 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .footer .content h4 {
-  margin-bottom: 1.3rem;
-  font-size: 19px;
+  margin: 0.7rem 0;
+  font-size: 16px;
 }
 
 footer {

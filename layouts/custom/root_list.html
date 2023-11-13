@@ -1,12 +1,12 @@
 {{- define "title" }}
-    {{- .Params.Title | default (T .Section) | default .Section | dict "Some" | T "allSome" }} - {{ .Site.Title -}}
+    {{- .Params.Title | default (T .Section) | default .Section }} - {{ .Site.Title -}}
 {{- end -}}
 
 {{- define "content" -}}
     <div class="page archive">
         {{- /* Title */ -}}
         <h2 class="single-title animate__animated animate__pulse animate__faster">
-            {{- .Params.Title | default (T .Section) | default .Section | dict "Some" | T "allSome" -}}
+            {{- .Params.Title | default (T .Section) | default .Section -}}
         </h2>
 
         {{ .Content }}
