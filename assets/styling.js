@@ -72,7 +72,7 @@ function checkStyle() {
     }
     for (sub of submenus) {
       if (theme_light == true) {
-        sub.style.background = 'rgba(255,255,255,0.8)';
+        sub.style.background = 'rgba(255,255,255,0.95)';
       } else {
         sub.style.background = '#292a2d';
       }

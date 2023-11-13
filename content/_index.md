@@ -15,7 +15,8 @@
     </div>
     <a href="./">
       <div class="slide__content">
-        <h1>Home</h1>
+        <h1>What's happening?</h1>
+        <h3>Check out our most recent newsletter or ...</h3>
       </div>  
     </a>
   </div>
@@ -46,6 +47,10 @@
       <div class="slide__content">
         <h1>Resources</h1>
         <p>Posts written by our team members relevant to the Language Technologies space.</p>
+        <h3>LDaCA Resources</h3>
+        <p></p>
+        <h3>General Resources</h3>
+        <p></p>
       </div> 
     </a> 
   </div>
