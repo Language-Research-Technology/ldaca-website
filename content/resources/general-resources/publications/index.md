@@ -36,3 +36,5 @@ _Living Languages_ is an Open Access journal.
 ### [Pacific Linguistics](http://sealang.net/archives/pl/)
   
 A digital archive of many Pacific Linguistics publications up to 2012.
+
+<br>

@@ -40,3 +40,5 @@ The digital language archive of the University of Hawai'i. Founded in 2008, the 
 ### [Digital Endangered Languages and Musics Archives Network (DELAMAN)](https://www.delaman.org/)
 
 An international network of archives of data on linguistic and cultural diversity, in particular on small languages and cultures under pressure.
+
+<br>

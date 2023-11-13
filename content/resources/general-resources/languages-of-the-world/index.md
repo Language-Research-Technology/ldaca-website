@@ -34,3 +34,5 @@ Provides information about the languages of the world, but operates on a subscri
 ### [World Atlas of Linguistic Structures Online (WALS)](https://wals.info/)
 
 A large database of structural (phonological, grammatical, lexical) properties of languages gathered from descriptive materials (such as reference grammars) by a team of 55 authors.
+
+<br>
