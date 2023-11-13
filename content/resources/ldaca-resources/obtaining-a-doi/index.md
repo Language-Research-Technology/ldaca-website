@@ -29,3 +29,5 @@ description: "Outlines steps for acquiring a Digital Object Identifier (DOI) for
 <br>
 
 3. If unsure whether any of the above applies to your context, please [contact LDaCA](/contact) to discuss PIDs for your data.
+
+<br>

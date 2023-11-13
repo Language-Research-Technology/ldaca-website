@@ -136,3 +136,5 @@ The LDaCA Takedown Policy outlines the steps to be taken by users in making a re
 The Takedown Request mechanism supports FAIR and CARE Principles by facilitating a process by which data access may be questioned and discussed by relevant stakeholders.
 
 The policy document is currently under development. TODO: Link will be posted here when available.
+
+<br>

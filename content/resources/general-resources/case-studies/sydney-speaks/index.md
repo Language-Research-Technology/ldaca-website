@@ -313,3 +313,5 @@ Sheard, Elena. 2022. Longevity of an ethnolectal marker in Australian English: W
 Sheard, Elena. 2023. Explaining language change over the lifespan: A panel and trend analysis of Australian English. PhD thesis, School of Literature, Languages and Linguistics, Australian National University. http://hdl.handle.net/1885/292110
 
 Travis, Catherine E., James Grama and Benjamin Purser. 2023. Stability and change in (ing): Ethnic and grammatical variation over time in Australian English. English World-Wide 44(3): 429-463. https://doi.org/10.1075/eww.22043.tra
+
+<br>

@@ -22,3 +22,5 @@ description: ""
 - [Tromsø recommendations for citation of research data in linguistics](https://www.rd-alliance.org/group/linguistics-data-ig/outcomes/troms%C3%B8-recommendations-citation-research-data-linguistics)
 
   Language and linguistics datasets are often not cited, or cited imprecisely, because of confusion surrounding the proper methods for citing them. For the use of researchers and scholars in the field working with datasets, the Tromsø recommendations propose components of data citation for referencing language data, both in the bibliography and in the text of linguistics publications.
+
+<br>

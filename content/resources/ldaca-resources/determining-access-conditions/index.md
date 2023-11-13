@@ -91,3 +91,5 @@ Access by application can be managed in a number of formats:
 - PDF application form, i.e. provide a dynamic PDF form that the user can download, complete and re-upload.
 - Document upload request, i.e. request a copy of the user’s research ethics approval or proof of affiliation.
 - Link to external service, i.e. Google Forms, payment service.
+
+<br>

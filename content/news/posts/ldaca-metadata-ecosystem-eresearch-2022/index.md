@@ -317,3 +317,5 @@ This example notebook explores the collection via the rest API.
 In this presentation, we have shown the major components of an ecosystem for storing, discovering and analysing language data using common standards for describing objects in a repository. The [RO-Crate](https://www.researchobject.org/ro-crate/) standard is used as the key metadata container, with a common vocabulary of language-specific terms for describing data. This approach should reduce development costs and increase data reuse. The approach can also be adapted to other disciplines and domains with the development only of new profiles.
 
 </section>
+
+<br>
