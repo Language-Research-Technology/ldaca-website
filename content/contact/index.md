@@ -1,5 +1,5 @@
 ---
-title: 'Contact us'
+title: 'Contact Us'
 date: 2022-10-28T17:13:28+10:00
 draft: false
 ---

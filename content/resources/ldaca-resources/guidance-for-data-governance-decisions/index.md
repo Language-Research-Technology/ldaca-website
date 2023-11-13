@@ -29,7 +29,7 @@ This document provides guidance on some components of data governance that are k
 
 <br>
 
-> ![thought-bubble](/resources/thought-bubble.png) **Questions for reflection:**<br>
+> ![Thought bubble](/guidance-for-data-governance-decisions/thought-bubble.png) **Questions for reflection:**<br>
 > In each section, you will find a thought bubble marking some questions for reflection that will help you start to explore these data governance topics. This content is designed as guidance for Data Stewards considering how to manage their data into the future.
 
 <br>
@@ -62,7 +62,7 @@ Copyright provides two types of rights:
 
 <br>
 
-> ![thought-bubble](/resources/thought-bubble.png) **Questions for reflection:**<br>
+> ![Thought bubble](/guidance-for-data-governance-decisions/thought-bubble.png) **Questions for reflection:**<br>
 > How can I identify the copyright owner of a language collection?
 
 <br>
@@ -85,7 +85,7 @@ The copyright owner of a language collection can be identified by considering th
 
 <br>
 
-> ![thought-bubble](/resources/thought-bubble.png) **Questions for reflection:**<br>
+> ![Thought bubble](/guidance-for-data-governance-decisions/thought-bubble.png) **Questions for reflection:**<br>
 > Does copyright apply to this language collection?
 
 <br>
@@ -170,16 +170,16 @@ In brief, the four principles are:
 
 <br>
 
-> ![thought-bubble](/resources/thought-bubble.png) **Questions for reflection:**<br>
+> ![Thought bubble](/guidance-for-data-governance-decisions/thought-bubble.png) **Questions for reflection:**<br>
 > What ethical and moral questions need to be considered before sharing this collection?
 
 <br>
 
 | Question                                                                                                                                     | Further Information                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | -------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Does the research ethics proposal (or other relevant documents such as a grant agreement) include data sharing constraints?<ul><li>Yes<li>No | What are the conditions for data management and sharing?<br>List the additional constraints which data access must adhere to as they appear in the project / collection documentation.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Does the research ethics proposal (or other relevant documents such as a grant agreement) include data sharing constraints?<ul><li>Yes<li>No | What are the conditions for data management and sharing?<br>List the additional constraints which data access must adhere to as they appear in the project/collection documentation.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | How is participant consent considered in the governance decisions?                                                                           | Consider the following questions.<ul><li>Was informed participant consent documented during data collection?<li>Are there specific constraints for sharing data? In what format? With which audience?<li>Is there a risk of harm, discomfort or inconvenience to the participants by making the data available? (e.g. will public access to the data run the risk of amplifying existing negative stereotypes about the participant or the social group(s) they are identified with, will their personal information be easily deduced/tracked in any way, etc.)<li>What is the protocol for de-identification and the expectations of the participants? Have these been met?                                           |
-| Are the FAIR principles being upheld?<ul><li>Yes<li>No                                                                                       | Consider some more specific questions:<ul><li>Does the collection have a persistent identifier?<li>Are access conditions clearly defined?<li>Are the data formats widely compatible?<li>Is the metadata detailed and well-described?<li>Is the metadata searchable?<li>Does the metadata use a common metadata schema / vocabulary?<li>How has the collection been used previously?<li>Is there a record of publications and research findings that have used the collection?                                                                                                                                                                                                                                           |
+| Are the FAIR principles being upheld?<ul><li>Yes<li>No                                                                                       | Consider some more specific questions:<ul><li>Does the collection have a persistent identifier?<li>Are access conditions clearly defined?<li>Are the data formats widely compatible?<li>Is the metadata detailed and well-described?<li>Is the metadata searchable?<li>Does the metadata use a common metadata schema/vocabulary?<li>How has the collection been used previously?<li>Is there a record of publications and research findings that have used the collection?                                                                                                                                                                                                                                           |
 | Have the CARE principles been considered and implemented?<ul><li>Yes<li>No                                                                   | Consider some more specific questions:<ul><li>How have communities or individuals been involved in data management?<li>How do participants and their communities benefit collectively from the sharing of this data?<li>Do participants and their communities have the authority to make decisions about the governance of the collection?<li>Are relationships with participants and their communities being nurtured?<li>Are the rights and wellbeing of participants and their communities prioritised?<li>Does the data governance plan consider the role of participants and their communities?<li>Does the use of the data reflect community values?<li>What cultural meanings of sensitive content are relevant? |
 
 <br>
@@ -205,7 +205,7 @@ Licensing allows the copyright owner to share the right to access and use the da
 
 <br>
 
-> ![thought-bubble](/resources/thought-bubble.png) **Questions for reflection:**<br>
+> ![Thought bubble](/guidance-for-data-governance-decisions/thought-bubble.png) **Questions for reflection:**<br>
 > Is there an existing data license?
 
 <br>
@@ -220,11 +220,11 @@ Licensing allows the copyright owner to share the right to access and use the da
 
 <br>
 
-![Key parts of a data license](/resources/data-license-figure.png)
+![Key parts of a data license](/guidance-for-data-governance-decisions/data-license-figure.png)
 
 <br>
 
-> ![thought-bubble](/resources/thought-bubble.png) **Questions for reflection:**<br>
+> ![Thought bubble](/guidance-for-data-governance-decisions/thought-bubble.png) **Questions for reflection:**<br>
 > What information needs to be included in the license?
 
 <br>
@@ -269,7 +269,7 @@ An example of a DOI for a data collection (obtained via the university library) 
 
 <br>
 
-> ![thought-bubble](/resources/thought-bubble.png) **Questions for reflection:**<br>
+> ![Thought bubble](/guidance-for-data-governance-decisions/thought-bubble.png) **Questions for reflection:**<br>
 > Who can get a DOI? How?
 
 <br>
@@ -301,7 +301,7 @@ Where a customised metadata strategy is used, metadata terms should be clearly d
 
 <br>
 
-> ![thought-bubble](/resources/thought-bubble.png) **Questions for reflection:**<br>
+> ![Thought bubble](/guidance-for-data-governance-decisions/thought-bubble.png) **Questions for reflection:**<br>
 > What does it mean to apply standards to metadata?
 
 <br>

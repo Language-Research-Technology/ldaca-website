@@ -27,7 +27,7 @@ This document outlines the standards and processes that support the onboarding o
  
  <br>
 
-![Data Management & Governance Capacity](/resources/DataManagement&GovernanceCapacity.jpg)
+![Data Management and Governance Capacity](/data-onboarding-process/DataManagement&GovernanceCapacity.jpg)
 
 <br>
 

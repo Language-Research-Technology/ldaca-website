@@ -1,6 +1,6 @@
 ---
     title:  >
-      Towards a Generic Research Data Commons: A highly scalable standard-based repository framework for Language and other Humanities data
+      Towards a Generic Research Data Commons: A highly scalable standards-based repository framework for Language and other Humanities data
     date: "2023-06-29"
     slug: arkisto-stack-or-2023
     categories: ["LDaCA"]
@@ -11,6 +11,8 @@
       auto: true
 ---
 
+<br>
+
 [Download as PDF](arkisto-stack-or-2023.pdf)
 
 This presentation was delivered by Peter Sefton at the [Open Repositories 2023](https://or2023.openrepositories.org/) conference in South Africa on 2023-06-14 in the [Presentations: Discipline specific systems with FAIR principles
@@ -20,11 +22,13 @@ This contains the slides and complete speaker notes, which have been edited afte
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
-We will present a standards-based generalized architecture for large-scale data\* repositories for research and preservation illustrated with real world examples drawn from a number of languages and cultural archive projects. This work is taking place in the context of the Australian Humanities and Social Sciences Research Data Commons, particularly the Language Data component thereof and the long-established PARADISEC cultural archive. The standards used include the Oxford Common File Layout for storage, Research Object CRATE (RO-Crate) for consistent linked-data description of FAIR digital objects, and a language data metadata profile to ensure long-term interoperability between systems and re-usability over time. We also discuss data licensing and authorization for access to non-open resources. We suggest that the approach shown here may be used in other disciplines or for other kinds of digital library, repository or archival systems.
+We will present a standards-based generalized architecture for large-scale data\* repositories for research and preservation illustrated with real-world examples drawn from a number of languages and cultural archive projects. This work is taking place in the context of the Australian Humanities and Social Sciences Research Data Commons, particularly the Language Data component thereof and the long-established PARADISEC cultural archive. The standards used include the Oxford Common File Layout for storage, Research Object CRATE (RO-Crate) for consistent linked-data description of FAIR digital objects, and a language data metadata profile to ensure long-term interoperability between systems and re-usability over time. We also discuss data licensing and authorization for access to non-open resources. We suggest that the approach shown here may be used in other disciplines or for other kinds of digital library, repository or archival systems.
 
 \*The submitted abstract did not have the word data here - added for clarity
 
 By: Peter Sefton (University of Queensland), Simon Musgrave (University of Queensland & Monash University) & Nick Thieberger (University of Melbourne)
+
+<br>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -33,6 +37,8 @@ By: Peter Sefton (University of Queensland), Simon Musgrave (University of Queen
 This work is supported by the Australian Research Data Commons.
 
 </section>
+
+<br>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -44,17 +50,21 @@ The Data Commons will focus on preservation and discovery of distributed multi-m
 
 The platform will provide workbench services to support computational research, starting with code-notebooks with no-code research tools provided in later phases. Research artefacts such as code and derived data will be made available as fully documented research objects that are re-runnable and rigorously described. Metrics to demonstrate the impact of the platform are projected to include usage statistics, data and article citations. These projects are led by Professor Michael Haugh of the School of Languages and Cultures at the University of Queensland with several partner institutions.
 
-We would like to acknowledge the traditional custodians of the lands on which we live and work and the importance of indigenous knowledge, culture and language to the these projects. Peter Sefton lives and works on Wiradjuri land, and for Nick Thieberger and Simon Musgrave it's the land of the Kulin nation.
+We would like to acknowledge the traditional custodians of the lands on which we live and work and the importance of Indigenous knowledge, culture and language to these projects. Peter Sefton lives and works on Wiradjuri land, and for Nick Thieberger and Simon Musgrave, it's the land of the Kulin nation.
 
 </section>
+
+<br>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide03.png' alt='Pacific and Regional Archive for Digital Sources in Endangered Cultures (PARADISEC) Established 2003 Researchers concerned to digitise, preserve, and make accessible recordings in the many languages of the region around Australia No other agency taking responsibility for these recordings so they were at risk of loss Catalog exposes the existence of these recordings, 38,000 items in 690 collections Currently represent 1,350 languages, in 205 terabytes, with over 16,000 hours of audio recordings, 3,000 hours of video ' title='Slide: 3' border='1'  width='85%%'/>
 
-PARADISEC is an online archive of cultural data which has been maintained for twenty years, in this presentation we will look at some of the lessons learned from PARADISEC. In summary – the PARADISEC approach to simple data and metadata storage is something we want to continue in LDaCA, while the high cost for PARADISEC of commissioning and maintaining its own software stack is something we want to address by taking a more standards-based approach to managing language and other data over the coming decades.
+PARADISEC is an online archive of cultural data which has been maintained for twenty years, in this presentation, we will look at some of the lessons learned from PARADISEC. In summary – the PARADISEC approach to simple data and metadata storage is something we want to continue in LDaCA, while the high cost for PARADISEC of commissioning and maintaining its own software stack is something we want to address by taking a more standards-based approach to managing language and other data over the coming decades.
 
 </section>
+
+<br>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -64,13 +74,17 @@ The Arkisto platform started in 2019 as a way to capture the lessons of PARADISE
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide05.png' alt='  ' title='Slide: 5' border='1'  width='85%%'/>
 
-This diagram was used in the bid documents that established LDaCA - it shows the progression of data from end-of life projects and active repositories into a standards-based data-commons.
+This diagram was used in the bid documents that established LDaCA - it shows the progression of data from end-of-life projects and active repositories into a standards-based data-commons.
 
 </section>
+
+<br>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -80,6 +94,8 @@ This is the data triage process we have been going through in LDaCA — and it s
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide07.png' alt='  ' title='Slide: 7' border='1'  width='85%%'/>
@@ -87,6 +103,8 @@ This is the data triage process we have been going through in LDaCA — and it s
 This is a taster of what data looks like in the kids of repositories we are talking about. This site contains harvested metadata about holdings on Australian Indigenous Languages in University of Queensland Libraries.
 
 </section>
+
+<br>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -98,6 +116,8 @@ This work has also been [written up](https://digital.library.unt.edu/ark:/67531/
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide09.png' alt='  ' title='Slide: 9' border='1'  width='85%%'/>
@@ -106,30 +126,36 @@ This is the overall architecture for data storage and delivery — missing is ho
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide10.png' alt='  ' title='Slide: 10' border='1'  width='85%%'/>
 
-At this point I will introduce one of the themes of this talk. In March this year, [this blog post was published](https://bibwild.wordpress.com/2023/03/21/ocfl-and-source-of-truth-two-options/) - looking at the pros and cons of using OCFL (the Oxford Common File Layout) as the “source of truth” for a system (say a repository).
+At this point, I will introduce one of the themes of this talk. In March this year, [this blog post was published](https://bibwild.wordpress.com/2023/03/21/ocfl-and-source-of-truth-two-options/) - looking at the pros and cons of using OCFL (the Oxford Common File Layout) as the “source of truth” for a system (say a repository).
 
 We are very much taking the OCFL (that is file-in-storage-as-the-source-of-truth) approach in LDaCA. Which begs the question: “But doesn’t that mean that it’s very specific to language data?” No, because we’re using a very flexible, extensible, discipline-neutral format for data description – yes, we have ways to specialise metadata and interfaces to language and other cultural metadata, but NO, the systems are not locked-in to that mode of operation. This means we should be able to share development and maintenance more broadly than with a single archive.
 
 Two main points we want to get across in this presentation:
 
 - We are taking seriously the idea that data-in-storage should be “batteries included” – everything needed to preserve and use the data is stored together and systems can be reconstituted from this storage.
-- This approach IS generic – different vocabularies / schemas can be plugged-in by design.
+- This approach IS generic – different vocabularies/schemas can be plugged in by design.
 
 </section>
+
+<br>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide11.png' alt='📂  🔬 🔭 📹 💽 🖥️ ⚙️🎼🌡️🔮🎙️🔍🌏📡💉🏥💊🌪️ ' title='Slide: 11' border='1'  width='85%%'/>
 
-So lets now start looking at the standards involved in the Arkisto approach. This is a slide from “What is RO-Crate” – The dataset may contain any kind of data resource about anything, in any format as a file or URL
+So let's now start looking at the standards involved in the Arkisto approach. This is a slide from “What is RO-Crate” – The dataset may contain any kind of data resource about anything, in any format as a file or URL
 
-Stian Soiland-Reyes, Peter Sefton, Mercè Crosas, Leyla Jael Castro, Frederik Coppens, José M. Fernández, Daniel Garijo, Björn Grüning, Marco La Rosa, Simone Leo, Eoghan Ó Carragáin, Marc Portier, Ana Trisovic, RO-Crate Community, Paul Groth, Carole Goble (2022):Packaging research artefacts with RO-Crate.Data Science 5(2)https://doi.org/10.3233/DS-210053
+Stian Soiland-Reyes, Peter Sefton, Mercè Crosas, Leyla Jael Castro, Frederik Coppens, José M. Fernández, Daniel Garijo, Björn Grüning, Marco La Rosa, Simone Leo, Eoghan Ó Carragáin, Marc Portier, Ana Trisovic, RO-Crate Community, Paul Groth, Carole Goble (2022): Packaging research artefacts with RO-Crate.Data Science 5(2)https://doi.org/10.3233/DS-210053
 
 </section>
+
+<br>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -139,6 +165,8 @@ The core standard for this work is RO-Crate (Research Object Crate) in which all
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide13.png' alt='  Here the mechanism is to use the ‘magic’ name METS.xml to store some extra metadata – with a fully linked-data system this kind of thing is not needed ' title='Slide: 13' border='1'  width='85%%'/>
@@ -146,6 +174,8 @@ The core standard for this work is RO-Crate (Research Object Crate) in which all
 This screenshot is a bit of (undated) DSpace documentation found following a tip from Kim Sheppard – we have included it here to illustrate that storing additional metadata (in this case METS) for an object was done by convention. Using a linked-data system means that we no longer have to do this kind of thing – there’s still one magic file name in RO-Crate but it’s only one for the metadata and one for the HTML preview – everything else is labelled and extensible.
 
 </section>
+
+<br>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -155,19 +185,23 @@ In the early days of the “Open Repositories” movement repositories had Dubli
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
-<img src='Slide15.png' alt=' Using a domain specific profile extends the core RO-Crate for a specific type of data – eg language data, computational workflows or “cultural collections”  (You can use more than one profile) ' title='Slide: 15' border='1'  width='85%%'/>
+<img src='Slide15.png' alt=' Using a domain-specific profile extends the core RO-Crate for a specific type of data – e.g. language data, computational workflows or “cultural collections”  (You can use more than one profile) ' title='Slide: 15' border='1'  width='85%%'/>
 
-These days using linked data it is no longer necessary to have a bevy of XML schemas with incompatible encodings to store data from different schemas, different voclabularies and ontologies can co-exist and be expressed in a common way.
+These days using linked data it is no longer necessary to have a bevy of XML schemas with incompatible encodings to store data from different schemas, different vocabularies and ontologies can co-exist and be expressed in a common way.
 
 </section>
+
+<br>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide16.png' alt='' title='Slide: 16' border='1'  width='85%%'/>
 
-In the PARADISEC system this is achieved by storing files on disk in a simple hierarchy - with metadata and other resources stored together in a directory - this scheme allows for hands-on management of data resources, independently of the software used to serve them.
+In the PARADISEC system, this is achieved by storing files on disk in a simple hierarchy - with metadata and other resources stored together in a directory - this scheme allows for hands-on management of data resources, independently of the software used to serve them.
 
 This approach means that if the PARADISEC software-stack becomes un-maintainable for financial or technical reasons the important resources, the data, are stored safely on disk with their metadata and a new access portal could be constructed relatively easily.
 
@@ -179,25 +213,31 @@ The UTS team presented on this at [eResearch Australasia 2019](https://ptsefton.
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide17.png' alt='  ' title='Slide: 17' border='1'  width='85%%'/>
 
-The [structure of an RO-Crate](https://www.researchobject.org/ro-crate/1.1/structure.html) is very similar to the PARADISEC example above, but with a json file instead of XML, and an optional preview in HTML.
+The [structure of an RO-Crate](https://www.researchobject.org/ro-crate/1.1/structure.html) is very similar to the PARADISEC example above, but with a JSON file instead of XML, and an optional preview in HTML.
 
 RO-Crate has a growing number of [tools and software libraries](https://www.researchobject.org/ro-crate/tools/) which means that a team such as PARADISEC does not have to maintain their own bespoke software.
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide18.png' alt='  ' title='Slide: 18' border='1'  width='85%%'/>
 
-Here, for comparison is [how Fedora 6 would store an object (an Atomic Resource in Fedora-speak) like this with multiple files](https://wiki.lyrasis.org/display/FEDORA6x/Fedora+OCFL+Object+Structure#FedoraOCFLObjectStructure-FedoraAtomicResource-Container). Like RO-Cratee this uses linked-dataa but in this case split up into multiple files containing RDF triples. (This is similar to the pre-RO-Crate approach taken by the Research Object spec).
+Here, for comparison is [how Fedora 6 would store an object (an Atomic Resource in Fedora-speak) like this with multiple files](https://wiki.lyrasis.org/display/FEDORA6x/Fedora+OCFL+Object+Structure#FedoraOCFLObjectStructure-FedoraAtomicResource-Container). Like RO-Crate this uses linked-data but in this case, split up into multiple files containing RDF triples. (This is similar to the pre-RO-Crate approach taken by the Research Object spec).
 
 This also shows some of what an OCFL repository looks like – this is an OCFL object with a single version.
 
 </section>
+
+<br>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -207,6 +247,8 @@ This screenshot shows an example of an Arkisto-style use of OCFL (all of the met
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide20.png' alt='  ' title='Slide: 20' border='1'  width='85%%'/>
@@ -214,6 +256,8 @@ This screenshot shows an example of an Arkisto-style use of OCFL (all of the met
 Now we come to the second core standard in our stack the [Oxford Common File Layout](https://ocfl.io) – which is something we found out about via OpenRepositories – I couldn’t make the presentation, but I got a corridor briefing on this from Neil Jeffries in Bozeman at OR 2018.
 
 </section>
+
+<br>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -223,6 +267,8 @@ This slide shows the interface between our core standards – a compliant OCFL r
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide22.png' alt='  ' title='Slide: 22' border='1'  width='85%%'/>
@@ -231,6 +277,8 @@ This slide illustrates the flexibility of the approach we’re taking. As LDaCA 
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide23.png' alt='  S3-Style Object store Plain Old File Store ' title='Slide: 23' border='1'  width='85%%'/>
@@ -238,6 +286,8 @@ This slide illustrates the flexibility of the approach we’re taking. As LDaCA 
 The storage services may not all be the same in this model, some may be file systems, some may be object stores, and they may be hosted by and governed by a variety of organizations.
 
 </section>
+
+<br>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -253,6 +303,8 @@ Note that our work is also informed by the [CARE principles for Indigenous data 
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide25.png' alt='  Ok but how does the data get there? ' title='Slide: 25' border='1'  width='85%%'/>
@@ -261,13 +313,17 @@ Let’s revisit this diagram. What’s missing?
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide26.png' alt='  ' title='Slide: 26' border='1'  width='85%%'/>
 
-In the first phase of the LDaCA project, work focused on batch import of data using tools to convert collections – this approach was used on contemporary collections as well as for “rescuing” collections from older repository system.
+In the first phase of the LDaCA project, work focused on batch import of data using tools to convert collections – this approach was used on contemporary collections as well as for “rescuing” collections from older repository systems.
 
 </section>
+
+<br>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -279,6 +335,8 @@ This slide shows some JSON-LD metadata that describes the way this RO-Crate meta
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide28.png' alt=' ' title='Slide: 28' border='1'  width='85%%'/>
@@ -286,6 +344,8 @@ This slide shows some JSON-LD metadata that describes the way this RO-Crate meta
 This part of the architecture we are working on now…
 
 </section>
+
+<br>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -297,6 +357,8 @@ Here we see the Crate-O metadata tool (which is a zero-install web application t
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide30.png' alt='  ' title='Slide: 30' border='1'  width='85%%'/>
@@ -305,15 +367,19 @@ We hope to work with other editor projects (eg [Describo](https://describo.githu
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide31.png' alt='  ' title='Slide: 31' border='1'  width='85%%'/>
 
 The next few slides show some examples of our approach implemented in a variety of contexts.
 
-Here’s another repository that uses RO-Crate metadata (from the Language Data Commons of Australia / Australian Text Analytics Platform) – here users can launch a Jupyter notebook containing Python code (and explanatory text) that processes a dataset.
+Here’s another repository that uses RO-Crate metadata (from the Language Data Commons of Australia/Australian Text Analytics Platform) – here users can launch a Jupyter notebook containing Python code (and explanatory text) that processes a dataset.
 
 </section>
+
+<br>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -323,6 +389,8 @@ This is a screenshot of a Jupyter notebook that can process data from a reposito
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide33.png' alt='  ' title='Slide: 33' border='1'  width='85%%'/>
@@ -330,6 +398,8 @@ This is a screenshot of a Jupyter notebook that can process data from a reposito
 This slide shows the Arkisto stack powering the University of Technology Sydney’s Research Data Repository.
 
 </section>
+
+<br>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -339,6 +409,8 @@ This page shows some screenshots of an internal-only application at UTS which gi
 
 </section>
 
+<br>
+
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <img src='Slide35.png' alt='  ' title='Slide: 35' border='1'  width='85%%'/>
@@ -346,6 +418,8 @@ This page shows some screenshots of an internal-only application at UTS which gi
 This is a screenshot of data from a history project [Expert Nation](https://expertnation.org/) exported to RO-Crate format and [put online to support a book](https://expertnation.research.uts.edu.au/).
 
 </section>
+
+<br>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 

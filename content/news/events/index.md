@@ -38,7 +38,7 @@ The workshop would consist of two main parts:
 
 We welcome papers from linguistics and other disciplines. Abstracts should be of 250-300 words (excluding references) either in English, or in a community language with English translation and should include:
 
-- Description of the language data (e.g. sociolinguistic corpora, oral histories, written collections, etc.), and the relevant community / communities
+- Description of the language data (e.g. sociolinguistic corpora, oral histories, written collections, etc.), and the relevant community/communities
 - Questions that this data has allowed us to probe and answers that have come out of it, e.g.:
   - immigrant language practice patterns, both for community languages and their English varieties
   - immigrant contemporary language use and its relationship with culture, society and politics in Australia
@@ -71,7 +71,7 @@ Barbara McGillivray is a Turing Research Fellow at [The Alan Turing Institute](h
 
 #### 4 April 2022 - Keoni Mahelona: A practical approach to Indigenous data sovereignty
 
-Keoni Mahelona is the Chief Technical Officer of [Te Hiku Media](https://tehiku.nz/) where he is a part of the team developing the Kaitiakitanga Licence. This licence seeks to balance the importance of publicly accessible data with the reality that indigenous peoples may not have access to the resources that enable them to benefit from public data. By simply opening access to data and knowledge, indigenous people could be further colonised and taken advantage of in a digital, modern world. Therefore Keoni is committed to devising data governance regimes which enable Indigenous people to reclaim and maintain sovereignty over indigenous data.
+Keoni Mahelona is the Chief Technical Officer of [Te Hiku Media](https://tehiku.nz/) where he is a part of the team developing the Kaitiakitanga Licence. This licence seeks to balance the importance of publicly accessible data with the reality that Indigenous Peoples may not have access to the resources that enable them to benefit from public data. By simply opening access to data and knowledge, Indigenous People could be further colonised and taken advantage of in a digital, modern world. Therefore Keoni is committed to devising data governance regimes which enable Indigenous people to reclaim and maintain sovereignty over Indigenous data.
 
 ### Office Hours {#office-hours}
 

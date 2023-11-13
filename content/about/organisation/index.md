@@ -24,7 +24,7 @@ The LDaCA project received investment from ARDC through two of its programs:
 - **AARNet** (HASS-RDC)
 - **First Languages Australia** (HASS-RDC): Beau Williams
 
-# Advisory / Consultative Partners
+# Advisory/Consultative Partners
 
 - [PARADISEC](https://www.paradisec.org.au)
 - [ARC Centre of Excellence for the Dynamics of Language](https://legacy.dynamicsoflanguage.edu.au/)

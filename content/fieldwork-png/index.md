@@ -116,7 +116,7 @@ received ethics approval to work with minors. I didn’t plan to collect data
 from children (although I did want the option of recording older teens if any
 showed an interest in recording), but included minors in my ethics
 application because of the potential for children to be inadvertently filmed,
-for example if they walk into frame or come up to a parent while the parent
+for example, if they walk into frame or come up to a parent while the parent
 is being recorded. The ethics approval meant that if such instances arose
 during a recording, the recording could still be kept and archived (
 assuming approval from the speaker making the recording). While such
@@ -236,7 +236,7 @@ information that I didn’t include, for example, is the exact location of the
 speaker and their orientation in space. Were they facing towards the north?
 North-west? Since my original fieldwork, I have begun to research the use of
 co-speech gestures in the language, that is, gestures that occur at the same
-time as someone is speaking. Frequently, speakers point to real world
+time as someone is speaking. Frequently, speakers point to real-world
 locations while they are talking but this can be hard to identify if you don’
 t know exactly how the speaker was positioned in relation to where they are
 gesturing. Luckily, by watching the videos I can still identify the direction
