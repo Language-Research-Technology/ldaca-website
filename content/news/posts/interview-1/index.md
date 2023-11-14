@@ -48,7 +48,7 @@ This blog post features [Louisa Willoughby](https://research.monash.edu/en/perso
 
 **NT**: The first steps in language data collection involve recording speakers, with all appropriate permissions in place, and with a consent form signed by them. Making those recordings as well as possible, following recommendations, doing training and so on, and managing the resulting files so they are not lost. Learn the basics of text querying, searching, and regular expressions. Be aware of the ethical considerations in using material from someone else’s language. But just start now!
 
-(Further information to supplement these suggestions is available from our [Background](../../background/information/) and [Resources](../../resources/) pages and from the ATAP pages introducing [Text Analysis](https://www.atap.edu.au/text-analysis/overview/))
+(Further information to supplement these suggestions is available from our [Resources](/resources/) page and from the ATAP pages introducing [Text Analysis](https://www.atap.edu.au/text-analysis/overview/))
 
 <br>
 

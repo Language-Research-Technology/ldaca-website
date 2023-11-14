@@ -2,12 +2,18 @@
 title: "Previous Workshops"
 date: 2022-02-15T17:13:28+10:00
 draft: false
-description: "Browse our project's past events."
+description: "Browse the project's past events."
 ---
 
-If your university or organisation would like to host a workshop, please [contact us](mailto:info@atap.edu.au).
+<br>
 
-[Forthcoming workshops](../events/) &emsp;&emsp;
+>If your university or organisation would like to host a workshop, please [contact us](mailto:info@ldaca.edu.au).
+
+<br>
+
+[Forthcoming Workshops](../events/) &emsp;&emsp;
+
+<br>
 
 #### Workshop on Language Corpora in Australia
 
@@ -19,7 +25,9 @@ Over decades of work in Australia, significant collections of language data have
 
 **Organisers**: Catherine Travis, Li Nguyen
 
-**[Program](../Workshop_LanguageCorporaInAus_2023.pdf)**
+**[Program](../events/Workshop_LanguageCorporaInAus_2023.pdf)**
+
+<br>
 
 #### Australian Text Analytics Platform: New tools for text analysis
 
@@ -33,6 +41,8 @@ The main means of delivery for ATAP is Jupyter notebooks and this half-day works
 
 **More information**: This workshop was a satellite event of the 7th Conference of the International Society for the Linguistics of English (ISLE7) - see the [conference website](https://languages-cultures.uq.edu.au/isle7) for further details.
 
+<br>
+
 #### Exploring Digital Text Collections with Juxtorpus: A Taster Webinar on the Latest ATAP Text Analysis Tool
 
 Join us for a hybrid taster webinar on the latest addition to the suite of ATAP text analysis tools - Juxtorpus. Developed to provide a unified framework for managing and exploring text contents and metadata, Juxtorpus offers a Corpus package that enables flexible building, exploration, and slicing of your corpus while maintaining its shape, and a Jux package that allows for easy comparison and highlighting of differences between any two corpora with tools and visualisations that come off-the-shelf. During the webinar, we'll also show you how to use other ATAP tools in combination with the Corpus to create a reusable workflow that will boost your analysis capabilities.
@@ -44,6 +54,8 @@ This 1.5-hour webinar will come with minimal hands-on opportunities, and we invi
 **Length**: 90 minutes
 
 **Facilitator**: Chao Sun
+
+<br>
 
 #### Jefferson Transcript Search Tool
 
@@ -57,6 +69,8 @@ The workshop was presented by Evelyn Ansell and is an outcome of her Career Deve
 
 **Facilitator**: Evelyn Ansell
 
+<br>
+
 #### A hands-on guide to Semantic Tagger for your text data analysis
 
 The Australian Text Analytics Platform (ATAP) project is a project that aims to provide researchers with the tools and training for analysing, processing, and exploring text. As part of this project, we have adapted with permission, a Semantic Tagger, developed by the University Centre for Computer Corpus Research on Language ([UCREL](https://ucrel.lancs.ac.uk/)) at Lancaster University. This tool uses the Python Multilingual UCREL Semantic Analysis System ([PyMUSAS](https://pypi.org/project/pymusas/)) to tag your text data so that you can extract token level semantic tags from your text. In addition to the USAS tags, this tool can also recognize Multi Word Expressions (MWE), i.e., expressions formed by two or more words that behave like a unit such as 'South Australia', and identifies lemmas and Part-of-Speech (POS) tags in the text. For example, in the sentence ‘President Joe Biden attended two meetings today’, the tool will tag each token with its semantic tag like this -> ‘President Joe Biden’: MWE of [Personal names], ‘attended’: [Participating], ‘two’: [Number], ‘meetings’: [Participating] and ‘today’: [Time: Present; simultaneous]. This tool is available in both English and multi-lingual (Chinese, Italian and Spanish) versions and supports saving the results locally for further analysis, enabling you to gain meaningful insights into your research questions.
@@ -66,6 +80,8 @@ The Australian Text Analytics Platform (ATAP) project is a project that aims to 
 **Length**: 90 minutes
 
 **Facilitator**: Sony Jufri
+
+<br>
 
 #### Australian Text Analytics Platform tools: Discursis, Juxtorpus, Quotation tool and Semantic tagger
 
@@ -79,6 +95,8 @@ The workshop demonstrated and taught several recently or soon-to-be-released too
 
 **Facilitators**: Staff of the Sydney Informatics Hub
 
+<br>
+
 #### HASS Research Data Commons and IRC Computational Skills Summer School
 
 The Australian Research Data Commons ([ARDC](https://www.ardc.edu.au)) through the HASS Research Data Commons and Indigenous Research Capability (HASS RDC and IRC Program) offered a Computational Skills Summer School in Sydney, February 7 and 8, 2023.
@@ -88,6 +106,8 @@ The Summer School featured skills development workshops to help researchers use 
 The projects from the HASS RDC and IRC Program presented workshops on using the tools and platforms.
 
 [Program](https://ardc.edu.au/wp-content/uploads/2023/02/hass-computational-skills-summer-school-agenda_-7-8-feb.pdf)
+
+<br>
 
 #### Pre-conference workshop (before the 2022 Conference of the Australian Linguistic Society)
 
@@ -101,6 +121,8 @@ The Australian Text Analytics Platform and the [Language Data Commons of Austral
 
 [Further details](https://www.ldaca.edu.au/pre-als-activities) (including full program)
 
+<br>
+
 #### Geolocating Australian Historical Resources
 
 This workshop was part of the Australian Society of Archivists 2022 Conference
@@ -111,6 +133,8 @@ This workshop was part of the Australian Society of Archivists 2022 Conference
 
 **Facilitators**: Michael Niemann, Fiannuala Morgan (ANU), Simon Musgrave
 
+<br>
+
 #### Learn how to collect and analyse comments on YouTube videos using the open-source tools Youte and Discursis
 
 **Date**: September 21 2022 <br>
@@ -119,6 +143,8 @@ This workshop was part of the Australian Society of Archivists 2022 Conference
 
 **Facilitators**: Boyd Nguyen (ADO), Sam Hames (ATAP)
 
+<br>
+
 #### Finding quotes and speakers in text using the ATAP quotation tools
 
 **Date**: September 8 2022 <br>
@@ -126,6 +152,8 @@ This workshop was part of the Australian Society of Archivists 2022 Conference
 **Length**: 1 hour <br>
 
 **Facilitators**: Sony Jufri
+
+<br>
 
 #### Advance care planning for your research data
 
@@ -147,6 +175,8 @@ This workshop was part of the Australian Society of Archivists 2022 Conference
 
 **Facilitators**: Sam Hames, Ben Foley
 
+<br>
+
 #### Computational Thinking in the Humanities
 
 The workshop Computational Thinking in the Humanities was a 3-hour online workshop featuring two plenary talks, lightning presentations, as well as a panel discussion. The workshop was co-organized by the Australian Text Analytics Platform ([ATAP](https://www.atap.edu.au/)), [FIN-CLARIAH](https://www.kielipankki.fi/organization/fin-clariah/) and its UEF representatives, and the [Australian Digital Observatory](https://www.digitalobservatory.net.au/).
@@ -156,6 +186,8 @@ The workshop Computational Thinking in the Humanities was a 3-hour online worksh
 **Length**: 3 hours <br>
 
 [Further details](https://ladal.edu.au/compthink.html)
+
+<br>
 
 #### Network analysis and Topic Modeling on Twitter data using R
 
@@ -167,6 +199,8 @@ The workshop Computational Thinking in the Humanities was a 3-hour online worksh
 
 **Facilitators**: Alice Miller, Simon Musgrave
 
+<br>
+
 #### Monotreme Mania! Comparative text analytics on Twitter data
 
 **Date**: 16 March 2022 <br>
@@ -176,6 +210,8 @@ The workshop Computational Thinking in the Humanities was a 3-hour online worksh
 **Length**: 3 hours <br>
 
 **Facilitators**: Sam Hames, Simon Musgrave
+
+<br>
 
 #### An introduction to Jupyter notebooks for text analysis: Virtual workshop for absolute beginners
 
@@ -206,3 +242,5 @@ The workshop Computational Thinking in the Humanities was a 3-hour online worksh
 **Length**: 3 hours <br>
 
 **Facilitators**: Sara King, Simon Musgrave
+
+<br>
