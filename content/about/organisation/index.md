@@ -5,6 +5,8 @@ draft: false
 description: "Learn more about our project's structure and partnerships. "
 ---
 
+<br>
+
 LDaCA is one strand of the partnership between the Australian Research Data Commons ([ARDC](https://ardc.edu.au/)) and the [School of Languages and Cultures](https://languages-cultures.uq.edu.au/) at the [University of Queensland](https://www.uq.edu.au/). This partnership includes a number of projects that explore language-related technologies, data collection infrastructure and Indigenous capability programs. These projects are being led out of the Language Technology and Data Analytics Lab ([LADAL](https://slcladal.github.io/index.html)), which is overseen by [Professor Michael Haugh](https://languages-cultures.uq.edu.au/profile/1498/michael-haugh) and [Dr Martin Schweinberger](https://languages-cultures.uq.edu.au/profile/4295/martin-schweinberger).
 
 The LDaCA project received investment from ARDC through two of its programs:
@@ -12,9 +14,9 @@ The LDaCA project received investment from ARDC through two of its programs:
 1. Australian Data Partnerships Program: Developing policy and technology foundations of a nationally integrated research infrastructure for language data collections of high strategic importance for the Australian research community ([DP](https://ardc.edu.au/project/language-data-commons-of-australia-ldaca/)).
 2. HASS Research Data Commons and Indigenous Research Capability Program: Capitalising on existing infrastructure, securing vulnerable and dispersed collections and linking with improved analysis environments for new research outcomes ([HASS-RDC](https://ardc.edu.au/news/announcing-3-successful-projects-ardc-hass-rdc/)).
 
----
+<br>
 
-# Partner Institutions:
+# Partner Institutions
 
 - **University of Queensland** (DP, HASS-RDC): Professor Michael Haugh, Professor Clint Bracknell
 - **Australian National University** (DP, HASS-RDC): [Professor Catherine Travis](https://researchers.anu.edu.au/researchers/travis-ce)
@@ -24,9 +26,13 @@ The LDaCA project received investment from ARDC through two of its programs:
 - **AARNet** (HASS-RDC)
 - **First Languages Australia** (HASS-RDC): Beau Williams
 
+<br>
+
 # Advisory/Consultative Partners
 
 - [PARADISEC](https://www.paradisec.org.au)
 - [ARC Centre of Excellence for the Dynamics of Language](https://legacy.dynamicsoflanguage.edu.au/)
 - [Australian Digital Observatory](https://www.digitalobservatory.net.au/)
 - [CLARIN](https://www.clarin.eu)
+
+<br>

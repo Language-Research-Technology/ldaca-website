@@ -6,12 +6,13 @@ weight: 1
 description: "Information about the principles on which the work of LDaCA is based."
 ---
 
+<br>
+
 The Language Data Commons of Australia aims to ensure long-term access to language data collections for analysis and reuse. Sustainable management of and access to these significant collections of intangible cultural heritage are underpinned by two sets of complementary guiding principles of data management and stewardship, namely the FAIR and CARE principles.
-<br />
+
+<br>
 
 ## FAIR Principles
-
-<br />
 
 The FAIR principles were [first published](https://www.nature.com/articles/sdata201618) by a group of stakeholders representing academia, industry, funding agencies, and scholarly publishers. The principles aim to address issues surrounding data management and stewardship, focusing on four areas (which provide the FAIR acronym).
 <br />
@@ -23,8 +24,8 @@ Metadata and data should be easy to find for both humans and computers. Making t
 - (Meta)data are assigned a globally unique and persistent identifier
 - Data are described with rich metadata
 - Metadata clearly and explicitly include the identifier of the data they
-  describe.
-- (Meta)data are registered or indexed in a searchable resource.
+  describe
+- (Meta)data are registered or indexed in a searchable resource
   <br />
 
 ### Accessible
@@ -58,6 +59,8 @@ The ultimate goal of FAIR is to optimise the reuse of data. To achieve this, met
 
 The Australian Research Data Commons ([ARDC](https://ardc.edu.au/)) supports FAIR data practices and initiatives that make data and related research outputs FAIR. At the same time, the ARDC acknowledges that the implementation of the principles will look different across disciplines and will need discipline-specific approaches and standards.
 
+<br>
+
 ## CARE Principles
 
 The [CARE Principles for Indigenous Data Governance](https://www.gida-global.org/care) were developed by the Global Indigenous Alliance (GIDA); they are a response to the FAIR principles and aim to complement them. GIDA highlights how the FAIR principles and the open data movement focus on increasing data sharing among researchers and entities but do not take into account power differentials and historical contexts or fully engage with Indigenous Peoples’ rights and interests. These include the rights to generate value from Indigenous data in ways that are grounded in Indigenous worldviews and to advance Indigenous innovation and self-determination. The CARE Principles also focus on four areas.
@@ -78,7 +81,7 @@ Indigenous Peoples’ rights and interests in Indigenous data must be recognised
 
 - Recognizing rights and interests
 - Data for governance
-- Governance of data.
+- Governance of data
   <br />
 
 ### Responsibility
@@ -87,7 +90,7 @@ Those working with Indigenous data have a responsibility to share how those data
 
 - For positive relationships
 - For expanding capability and capacity
-- For Indigenous languages and worldviews.
+- For Indigenous languages and worldviews
   <br />
 
 ### Ethics
@@ -96,6 +99,6 @@ Indigenous Peoples’ rights and wellbeing should be the primary concern at all 
 
 - For minimizing harm and maximizing benefit
 - For justice
-- For future use.
+- For future use
 
-Back to [Background](/background/information/)
+<br>

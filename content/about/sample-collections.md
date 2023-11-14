@@ -5,6 +5,8 @@ draft: false
 description: "Information about the first datasets which have been added to LDaCA."
 ---
 
+<br>
+
 LDaCA has begun adding data sets, including:
 
 - Corpus of Oz Early English [COOEE](https://varieng.helsinki.fi/CoRD/corpora/COOEE/basic.html): a collection of texts written in Australia between 1788 and 1900. The corpus is divided into four time periods (1788–1825, 1826–1850, 1851–1875 and 1876–1900) each holding about 500,000 words. Four registers were defined for CoOEE: the Speech-based Register (SB), the Private Written Register (PrW), the Public Written Register (PcW) and the register of Government English (GE). In every Period 1-4 there is a similar number of words in the different registers.
@@ -16,6 +18,6 @@ We have also ingested a collection of government documents in various languages.
 Work is under way to make the data from other earlier projects accessible through LDaCA:
 
 - The Australian National Corpus
-- [AusTalk](https://austalk.edu.au/)
+- AusTalk
 
-Back to [Background](/background/information/)
+<br>
