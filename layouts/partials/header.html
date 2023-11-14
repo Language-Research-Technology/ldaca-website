@@ -50,11 +50,11 @@
                           <ul class="submenu__list">
                             {{ range .Children }}
                               <li class="menu__item{{ if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} menu__item--active{{ end }}">
-                              <a class="menu-item" href="{{ .URL }}">
-                                {{ .Pre }}
-                                <span class="menu__text">{{ .Name }}</span>
-                                {{ .Post }}
-                              </a>
+                                <a class="menu-item" href="{{ .URL }}">
+                                    {{ .Pre }}
+                                    <span class="menu__text">{{ .Name }}</span>
+                                    {{ .Post }}
+                                </a>
                               </li>
                             {{ end }}
                           </ul>

@@ -2,14 +2,14 @@
 title: "Languages of the World"
 date: 2023-11-06T14:18:25+11:00
 draft: false
-description: ""
+description: "Projects involved in the documentation of the world's languages. "
 ---
 
 <br>
 
 ### [Glottolog](https://glottolog.org/)
 
-Comprehensive reference information for the world's languages, especially the lesser-known languages. LDaCA uses Glottolog [language codes](../background/metadata/#glottolog) in our metadata.
+Comprehensive reference information for the world's languages, especially the lesser-known languages. LDaCA uses Glottolog [language codes](../resources/metadata/#glottolog) in our metadata.
 
 <br>
 
@@ -21,7 +21,7 @@ An international partnership of institutions and individuals who are creating a 
   
 (ii) developing a network of interoperating repositories and services for housing and accessing such resources.
   
-OLAC harvests metadata and their website has a search facility to find resources for languages. OLAC [metadata recommendations](../background/metadata/#olac) are the basis for some of LDaCA's metadata.
+OLAC harvests metadata and their website has a search facility to find resources for languages. OLAC [metadata recommendations](../resources/metadata/#olac) are the basis for some of LDaCA's metadata.
 
 <br>
 

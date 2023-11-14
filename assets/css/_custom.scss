@@ -100,6 +100,7 @@ div {
 
 #header-desktop {
   height: auto !important;
+  position: sticky;
   background-color: transparent;
   .header-title {
     a {
@@ -542,6 +543,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
   opacity: 0;
   display: none;
   position: fixed;
+  z-index: 100;
   transition: all 0.5s ease; 
   overflow: visible; 
 }
@@ -554,6 +556,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
   visibility: visible;
   opacity: 1;
   display: block;
+  overflow: visible; 
 }
 
 .menu__link:hover {

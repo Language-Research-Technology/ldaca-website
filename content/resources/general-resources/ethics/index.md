@@ -2,7 +2,7 @@
 title: "Ethics"
 date: 2023-11-06T14:18:11+11:00
 draft: false
-description: ""
+description: "Information about ethical practices, especially in the research of language and First Nations cultures."
 ---
 
 <br>

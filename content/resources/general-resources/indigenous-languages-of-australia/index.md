@@ -2,7 +2,7 @@
 title: "Indigenous Languages of Australia"
 date: 2023-11-06T14:18:01+11:00
 draft: false
-description: ""
+description: "Learn more about the state of Indigenous language work in Australia through key projects in the space."
 ---
 
 <br>
