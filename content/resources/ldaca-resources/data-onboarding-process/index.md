@@ -61,7 +61,7 @@ Contact between LDaCA and the Data Steward is initiated with the aim of identify
 5. Discuss needs and goals for onboarding to LDaCA.
 
 ##### Additional resources relevant to this step:
-- TODO: [Initial Contact Checklist](/resources/ldaca-resources/initial-contact-checklist/)
+- [Initial Contact Checklist](/content/resources/ldaca-resources/data-onboarding-process/Initial_Contact_Checklist.pdf)
 
 <br>
 
