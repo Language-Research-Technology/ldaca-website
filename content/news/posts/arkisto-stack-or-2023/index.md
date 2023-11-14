@@ -110,7 +110,7 @@ This is a taster of what data looks like in the kids of repositories we are talk
 
 <img src='Slide08.png' alt='' title='Slide: 8' border='1'  width='85%%'/>
 
-The LDaCA services we are building use an API to drive the data portals. The API can be used for direct access with appropriate access control – see [another eResearch presentation](posts/fair-care-eresearch-2022) which explains this in detail. These screenshots show code notebooks running in BinderHub on the Nectar cloud accessing language resources.
+The LDaCA services we are building use an API to drive the data portals. The API can be used for direct access with appropriate access control – see [another eResearch presentation](../fair-care-eresearch-2022) which explains this in detail. These screenshots show code notebooks running in BinderHub on the Nectar cloud accessing language resources.
 
 This work has also been [written up](https://digital.library.unt.edu/ark:/67531/metadc2114304/) for the _2nd International Workshop on Digital Language Archives (LangArc 2023) virtual workshop on digital language archives_ 2023-06-30.
 
@@ -293,7 +293,7 @@ The storage services may not all be the same in this model, some may be file sys
 
 <img src='Slide24.png' alt='  ' title='Slide: 24' border='1'  width='85%%'/>
 
-This slide shows how we have abstracted the “A” for Access in FAIR out of the repository and into a separate centralised or at least _concentrated_ system. We have a [full write-up of this approach from the 2022 eResearch Australasia conference](https://www.ldaca.edu.au/posts/fair-care-eresearch-2022/) and we don’t have time to go through it in detail here, but in summary:
+This slide shows how we have abstracted the “A” for Access in FAIR out of the repository and into a separate centralised or at least _concentrated_ system. We have a [full write-up of this approach from the 2022 eResearch Australasia conference](../fair-care-eresearch-2022/) and we don’t have time to go through it in detail here, but in summary:
 
 - Every object in the repository has a Data Reuse License with some management metadata.
 - Each repository only needs an authoritative list of licenses and trusted license management systems to be able to serve the data.
@@ -363,7 +363,7 @@ Here we see the Crate-O metadata tool (which is a zero-install web application t
 
 <img src='Slide30.png' alt='  ' title='Slide: 30' border='1'  width='85%%'/>
 
-We hope to work with other editor projects (eg [Describo](https://describo.github.io/#/)) to make editor profiles as compatible as possible.
+We hope to work with other editor projects (e.g. [Describo](https://describo.github.io/#/)) to make editor profiles as compatible as possible.
 
 </section>
 
