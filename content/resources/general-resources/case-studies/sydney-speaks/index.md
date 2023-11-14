@@ -1,6 +1,6 @@
 ---
 title: "Sydney Speaks"
-date: 2023-08-08T17:13:28+10:00
+date: 2023-11-13T15:53:30+11:00
 draft: false
 description: "Catherine Travis and Cale Johnstone explain the complexities of handling data from three periods in a 40 year span."
 ---

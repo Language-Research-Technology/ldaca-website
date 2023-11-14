@@ -1,6 +1,6 @@
 ---
 title: "Fieldwork in Papua New Guinea"
-date: 2022-02-15T17:13:28+10:00
+date: 2023-11-13T15:55:01+11:00
 draft: false
 description: "Harriet Sheppard's account of collecting data on a remote island in Papua New Guinea."
 ---
