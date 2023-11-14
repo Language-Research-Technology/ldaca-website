@@ -125,7 +125,7 @@ publications.
 
 - Endangered Languages Documentation Program ([ELDP](https://www.eldp.net/)) supports the documentation and preservation of endangered languages through granting, training and outreach activities. The collections compiled through our funding are freely accessible at the [Endangered Languages Archive](#language-archives).
 
-- The Linguistic Data Consortium ([LDC](https://www.ldc.upenn.edu/)) is an open consortium of universities, libraries, corporations and government research laboratories. LDC was formed in 1992 to address the critical data shortage then facing language technology research and development. Initially, LDC's primary role was as a repository and distribution point for language resources. but with the help of its members, LDC has grown into an organization that creates and distributes a wide array of language resources.
+- The Linguistic Data Consortium ([LDC](https://www.ldc.upenn.edu/)) is an open consortium of universities, libraries, corporations and government research laboratories. LDC was formed in 1992 to address the critical data shortage then facing language technology research and development. Initially, LDC's primary role was as a repository and distribution point for language resources, but with the help of its members, LDC has grown into an organization that creates and distributes a wide array of language resources.
 
 # Publications {#publications}
 
