@@ -6,3 +6,5 @@ type: "custom"
 layout: "root_list"
 description: "A collection of resources related to the general domain of language work."
 ---
+
+>A collection of resources related to the general domain of language work.

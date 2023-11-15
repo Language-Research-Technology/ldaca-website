@@ -2,7 +2,7 @@
 title: "Language Archives"
 date: 2023-11-06T14:18:36+11:00
 draft: false
-description: "Existing archives of language, in numerous forms from recorded speech, text, images, books and music. "
+description: "Existing archives of language in numerous forms, including recorded speech, text, images, books and music."
 ---
 
 <br>

@@ -2,7 +2,7 @@
 title: "Languages of the World"
 date: 2023-11-06T14:18:25+11:00
 draft: false
-description: "Projects involved in the documentation of the world's languages. "
+description: "Projects involved in the documentation of the world's languages."
 ---
 
 <br>
