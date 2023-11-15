@@ -72,7 +72,6 @@ Kala Lagaw Ya is a language spoken in the Torres Strait Islands. The language ha
 <tr><td>Kawalgaw Ya</td><td></td><td></td><td>Y5</td><td>Austlang: Kaurareg is an alternative name (probably the same as Glottolog kawr1234).</td></tr>
 </table>
 
-<br />
 {{< /raw >}}
 
 <br>

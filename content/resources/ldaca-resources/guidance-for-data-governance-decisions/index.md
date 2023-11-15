@@ -140,7 +140,7 @@ In Australia, research ethics are defined in key frameworks such as:
 
 Research carried out in Australian universities and similar institutions using public funds and involving human participants must be approved by Human Research Ethics Committees (HRECs). Research ethics proposals outline the conditions for collecting, analysing, sharing, managing, and potentially disposing of research data. A review of the research ethics proposal under which the data was collected and other relevant documents, such as grant agreements, is necessary when determining data access conditions for a collection.
 
-While ethical constraints are often binding, several international frameworks have been developed to further promote data reusability and to address key issues such as Indigenous rights and interests. The FAIR and CARE principles are widely accepted standards (see [LDaCA principles](/background/principles/) for more information).
+While ethical constraints are often binding, several international frameworks have been developed to further promote data reusability and to address key issues such as Indigenous rights and interests. The FAIR and CARE principles are widely accepted standards (see [LDaCA principles](/about/principles/) for more information).
 
 <br>
 

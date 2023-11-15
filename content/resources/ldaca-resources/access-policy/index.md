@@ -72,11 +72,11 @@ In accordance with the Access Policy, LDaCA has an established process for onboa
 ### Data Steward Responsibilities
 
 1. Providing a persistent identifier for the data. If the collection does not have an existing persistent identifier, LDaCA recommends getting a DOI (Digital Object Identifier), which is becoming the default identifier for research datasets. A DOI makes a collection citable; it ensures that it is findable even if moved to a different location; and it establishes its relationship to other objects and entities in the academic research environment (e.g. researchers, funders, organisations, academic publications, software and other datasets).
-See [Obtaining a DOI](/resources/ldaca-resources/obtaining-doi/) for more information.
+See [Obtaining a DOI](/resources/ldaca-resources/obtaining-a-doi/) for more information.
 2. Providing metadata that is organised with a consistent structure, and includes descriptors, definitions and contextual information where relevant. This includes metadata at the level of the collection (e.g. collection name, a narrative description of the corpus, the subject language(s), author(s) or Collector(s), publication year, access conditions, etc.), file (e.g. length in minutes, words) and participants (e.g. age, gender).<br>
 LDaCA technologies enable programmatic detection, extraction and summarisation of existing metadata in a dataset; in order for this to work effectively, the metadata must be standardised.<br>
 Metadata are mapped to open schemas including the Open Language Archives Community (OLAC) vocabularies for describing language data and Schema.org for generic descriptions (e.g. Name, Identifier, Description). This approach allows many metadata terms to be linked to openly available and widely used definitions.<br>
-Some metadata may be specific to a corpus or difficult to map to existing vocabulary terms. LDaCA makes use of the Language Data Ontology, which has been developed in consultation with OLAC and metadata specialists, to ensure consistency across terms. See [Metadata](/resources/metadata) for more information.
+Some metadata may be specific to a corpus or difficult to map to existing vocabulary terms. LDaCA makes use of the Language Data Ontology, which has been developed in consultation with OLAC and metadata specialists, to ensure consistency across terms. See [Metadata](/resources/ldaca-resources/metadata) for more information.
 
 <br>
 

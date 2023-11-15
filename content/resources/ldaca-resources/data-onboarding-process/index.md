@@ -61,7 +61,7 @@ Contact between LDaCA and the Data Steward is initiated with the aim of identify
 5. Discuss needs and goals for onboarding to LDaCA.
 
 ##### Additional resources relevant to this step:
-- [Initial Contact Checklist](/content/resources/ldaca-resources/data-onboarding-process/Initial_Contact_Checklist.pdf)
+- [Initial Contact Checklist](../Initial_Contact_Checklist.pdf)
 
 <br>
 
@@ -81,7 +81,7 @@ At this stage, it is important to share key information and resources about the 
 2. Collaborate with LDaCA on the development of the Work Plan.
 
 ##### Additional resources relevant to this step:
-- TODO: ADD Work Plan template
+- [Work Plan template](../WorkPlan_Template.docx)
 - TODO: [Terms of Use](/resources/ldaca-resources/terms-of-use/)
 - TODO: ADD LDaCA Privacy Policy (being finalised)
 
@@ -108,7 +108,7 @@ A persistent identifier for the collection must also be provided to support sust
 - [Access Policy](/resources/ldaca-resources/access-policy/)
 - [Guidance for Data Governance Decisions](/resources/ldaca-resources/guidance-for-data-governance-decisions/)
 - [Determining Access Conditions](/resources/ldaca-resources/determining-access-conditions/)
-- [Obtaining a DOI](/resources/ldaca-resources/obtaining-doi/)
+- [Obtaining a DOI](/resources/ldaca-resources/obtaining-a-doi/)
 
 <br>
 
@@ -126,8 +126,8 @@ LDaCA coordinates with the Data Steward to apply standards to the collection to 
 3. Provide metadata and collaborate with metadata mapping.
 
 ##### Additional resources relevant to this step:
-- Information on [Metadata](/resources/metadata/)
-- TODO: Update to about. Information on [RO-Crate](/background/technologies/)
+- Information on [Metadata](/resources/ldaca-resources/metadata/)
+- Information on [RO-Crate](/about/technologies/)
 
 <br>
 
