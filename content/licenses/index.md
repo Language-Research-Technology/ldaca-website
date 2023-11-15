@@ -42,6 +42,6 @@ All content: [Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https:
 <br>
 
 ### The speech of Australian adolescents: research data and recordings collected by A.G. Mitchell and Arthur Delbridge in 1959 and 1960
-All content: [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+All content: [Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 <br>
