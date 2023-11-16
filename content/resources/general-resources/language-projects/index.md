@@ -1,5 +1,5 @@
 ---
-title: "Languages"
+title: "Language Projects"
 date: 2023-11-06T14:18:01+11:00
 draft: false
 description: "Learn more about Indigenous language work in Australia through key projects in the space, as well as projects involved in the documentation of the world's languages."
@@ -83,7 +83,7 @@ A lexical database (a database with words from different languages). Currently, 
 
 ### [Glottolog](https://glottolog.org/)
 
-Comprehensive reference information for the world's languages, especially the lesser-known languages. LDaCA uses Glottolog [language codes](../resources/metadata/#glottolog) in our metadata.
+Comprehensive reference information for the world's languages, especially the lesser-known languages. LDaCA uses Glottolog [language codes](/resources/ldaca-resources/metadata/#glottolog) in our metadata.
 
 <br>
 
@@ -95,13 +95,13 @@ An international partnership of institutions and individuals who are creating a 
   
 (ii) developing a network of interoperating repositories and services for housing and accessing such resources.
   
-OLAC harvests metadata and their website has a search facility to find resources for languages. OLAC [metadata recommendations](../resources/metadata/#olac) are the basis for some of LDaCA's metadata.
+OLAC harvests metadata and their website has a search facility to find resources for languages. OLAC [metadata recommendations](/resources/ldaca-resources/metadata/#olac) are the basis for some of LDaCA's metadata.
 
 <br>
 
 ### [Ethnologue](https://www.ethnologue.com/)
 
-Provides information about the languages of the world, but operates on a subscription model. The information that is available without a subscription is very limited: the first three lines of individual language entries which include the [ISO 639-3](/resources/metadata/#iso-639) code, the classification of the language into a language family, and a link to the language’s OLAC page.
+Provides information about the languages of the world, but operates on a subscription model. The information that is available without a subscription is very limited: the first three lines of individual language entries which include the [ISO 639-3](/resources/ldaca-resources/metadata/#iso-639) code, the classification of the language into a language family, and a link to the language’s OLAC page.
 
 <br>
 
