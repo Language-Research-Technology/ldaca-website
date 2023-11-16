@@ -70,7 +70,7 @@ Barbara McGillivray is a Turing Research Fellow at [The Alan Turing Institute](h
 
 #### 4 April 2022 - Keoni Mahelona: A practical approach to Indigenous data sovereignty
 
-Keoni Mahelona is the Chief Technical Officer of [Te Hiku Media](https://tehiku.nz/) where he is a part of the team developing the Kaitiakitanga Licence. This licence seeks to balance the importance of publicly accessible data with the reality that Indigenous Peoples may not have access to the resources that enable them to benefit from public data. By simply opening access to data and knowledge, Indigenous People could be further colonised and taken advantage of in a digital, modern world. Therefore Keoni is committed to devising data governance regimes which enable Indigenous people to reclaim and maintain sovereignty over Indigenous data.
+Keoni Mahelona is the Chief Technical Officer of [Te Hiku Media](https://tehiku.nz/) where he is a part of the team developing the Kaitiakitanga Licence. This licence seeks to balance the importance of publicly accessible data with the reality that Indigenous Peoples may not have access to the resources that enable them to benefit from public data. By simply opening access to data and knowledge, Indigenous Peoples could be further colonised and taken advantage of in a digital, modern world. Therefore Keoni is committed to devising data governance regimes which enable Indigenous Peoples to reclaim and maintain sovereignty over Indigenous data.
 
 ### Office Hours {#office-hours}
 
