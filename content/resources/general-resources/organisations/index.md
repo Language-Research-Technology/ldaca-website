@@ -1,9 +1,13 @@
 ---
-title: "Australian Organisations"
+title: "Organisations"
 date: 2023-11-06T14:18:49+11:00
 draft: false
-description: "Australian organisations that are active in the language research space."
+description: "Australian organisations that are active in the language research space, as well as international organisations working in the global language space."
 ---
+
+<br>
+
+## Australian Organisations
 
 <br>
 
@@ -34,5 +38,27 @@ A scientific association that aims to advance the understanding of speech scienc
 ### [Australian Institute of Aboriginal and Torres Strait Islander Studies (AIATSIS)](https://aiatsis.gov.au/)
 
 An Indigenous-led, national institute that celebrates, educates and inspires people from all walks of life to connect with the knowledge, heritage and cultures of Australia’s First Peoples.
+
+<br>
+
+## International Organisations
+
+<br>
+
+### [Common Language Resources and Technology Infrastructure (CLARIN)](https://www.clarin.eu/)
+
+A research infrastructure that was initiated from the vision that all digital language resources and tools from all over Europe and beyond are accessible through an online environment for the support of researchers in the humanities and social sciences.
+
+<br>
+
+### [Endangered Languages Documentation Program (ELDP)](https://www.eldp.net/)
+
+Supports the documentation and preservation of endangered languages through granting, training and outreach activities. The collections compiled through their funding are freely accessible at the [Endangered Languages Archive](#language-archives).
+
+<br>
+
+### [Linguistic Data Consortium (LDC)](https://www.ldc.upenn.edu/)
+
+An open consortium of universities, libraries, corporations and government research laboratories. LDC was formed in 1992 to address the critical data shortage then facing language technology research and development. Initially, LDC's primary role was as a repository and distribution point for language resources, but with the help of its members, LDC has grown into an organization that creates and distributes a wide array of language resources.
 
 <br>
