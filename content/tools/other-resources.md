@@ -156,7 +156,8 @@ publications.
 - [OCFL](https://ocfl.io/): A specification for laying out digital collections on file or object storage. It is designed with long-term preservation principles in mind and does not rely on specialised software. Amongst the benefits of using OCFL with RO-Crate objects are:
   - completeness: a repository can be re-indexed from the files it stores
   - versioning: repositories can make changes to objects and still allow their history to persist
-- [Oni](): A portal for discovery of RO-Crated data.
+- [LDaCA Portal](https://data.ldaca.edu.au/search): The online interface of the Language Data Commons of Australia where users can discover and access language collections.
+- [Oni](https://github.com/Language-Research-Technology/oni): A web application which provides indexing, searching and access to secure data repositories which follow the Arkisto model.
 - [Audacity](https://www.audacityteam.org/): Audacity is a free, easy-to-use, multi-track audio editor and recorder for Windows, macOS, GNU/Linux and other operating systems.
 - [ELAN](https://archive.mpi.nl/tla/elan): a tool for making time-aligned annotations on audio and video recordings.
 - [Praat](https://www.fon.hum.uva.nl/praat/): Free software for doing phonetics by computer.
