@@ -152,6 +152,11 @@ publications.
 
 # Tools {#tools}
 
+- [Crate-O](https://language-research-technology.github.io/crate-o/#/): A tool that allows you to create and update RO-Crates. It provides researchers with a relatively simple way to describe their data using the best practices in formal metadata description.
+- [OCFL](https://ocfl.io/): A specification for laying out digital collections on file or object storage. It is designed with long-term preservation principles in mind and does not rely on specialised software. Amongst the benefits of using OCFL with RO-Crate objects are:
+  - completeness: a repository can be re-indexed from the files it stores
+  - versioning: repositories can make changes to objects and still allow their history to persist
+- [Oni](): A portal for discovery of RO-Crated data.
 - [Audacity](https://www.audacityteam.org/): Audacity is a free, easy-to-use, multi-track audio editor and recorder for Windows, macOS, GNU/Linux and other operating systems.
 - [ELAN](https://archive.mpi.nl/tla/elan): a tool for making time-aligned annotations on audio and video recordings.
 - [Praat](https://www.fon.hum.uva.nl/praat/): Free software for doing phonetics by computer.
