@@ -43,10 +43,8 @@
                           <a class="menu-item" href="{{ .URL }}">
                             {{ .Pre }}
                             <span class="menu__text">{{ .Name }}</span>
-                            <!-- <label class="drop-icon" for="{{ .Name }}"></label> -->
                             {{ .Post }}
                           </a>
-                          <!-- <input type="checkbox" id="{{ .Name }}"> -->
                           <ul class="submenu__list">
                             {{ range .Children }}
                               <li class="menu__item{{ if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} menu__item--active{{ end }}">
