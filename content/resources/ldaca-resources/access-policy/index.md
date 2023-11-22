@@ -109,7 +109,7 @@ The key points included in the Terms of Use are:
 6. LDaCA may change the site and suspend or cancel user access without notice.
 7. LDaCA is not responsible for any breaches of legal, moral or ethical standards by users.
 
-TODO: The Terms of Use can be viewed [here](/resources/ldaca-resources/terms-of-use/).
+<!-- TODO: The Terms of Use can be viewed [here](/resources/ldaca-resources/terms-of-use/). -->
 
 <br>
 
@@ -125,7 +125,7 @@ Information collected by LDaCA may include home organisation, social login provi
 
 The LDaCA Privacy Policy outlines the limitations of the use of personal information and the measures taken to protect user privacy.
 
-The policy document is currently under development. TODO: Link will be posted here when available.
+The policy document is currently under development. <!-- TODO: Link will be posted here when available. -->
 
 <br>
 
@@ -135,6 +135,6 @@ The LDaCA Takedown Policy outlines the steps to be taken by users in making a re
 
 The Takedown Request mechanism supports FAIR and CARE Principles by facilitating a process by which data access may be questioned and discussed by relevant stakeholders.
 
-The policy document is currently under development. TODO: Link will be posted here when available.
+The policy document is currently under development. <!-- TODO: Link will be posted here when available. -->
 
 <br>

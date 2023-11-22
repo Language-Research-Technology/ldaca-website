@@ -82,8 +82,8 @@ At this stage, it is important to share key information and resources about the 
 
 ##### Additional resources relevant to this step:
 - [Work Plan template](../WorkPlan_Template.docx)
-- TODO: [Terms of Use](/resources/ldaca-resources/terms-of-use/)
-- TODO: ADD LDaCA Privacy Policy (being finalised)
+<!-- - TODO: [Terms of Use](/resources/ldaca-resources/terms-of-use/)
+- TODO: ADD LDaCA Privacy Policy (being finalised) -->
 
 <br>
 
@@ -146,6 +146,6 @@ Finally, we implement ongoing engagement by outlining shared responsibilities an
 3. Update the Work Plan as relevant, with responsibilities for ongoing maintenance of the collection in LDaCA.
 
 ##### Additional resources relevant to this step:
-- TODO: ADD Takedown policy (being finalised)
+<!-- - TODO: ADD Takedown policy (being finalised) -->
 
 <br>
