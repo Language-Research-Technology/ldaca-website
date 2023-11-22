@@ -2,12 +2,12 @@
 title: "LDaCA Software Tools"
 date: 2023-11-22T14:51:49+11:00
 draft: false
-description: "A variety of LDaCA open-source tools availble on GitHub"
+description: "A variety of LDaCA open-source tools available on GitHub"
 ---
 
 <br>
 
-A variety of LDaCA open-source tools are availble at our [GitHub organisation](https://github.com/Language-Research-Technology/ocfl-js). Highlights include:
+A variety of LDaCA open-source tools are available at our [GitHub organisation](https://github.com/Language-Research-Technology/ocfl-js). Highlights include:
 
 <br>
 
