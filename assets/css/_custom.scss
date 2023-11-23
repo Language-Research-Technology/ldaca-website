@@ -95,8 +95,11 @@ div {
   padding: 10% 0%;
 }
 
-.archive-item-description {
+.archive-item-description, .archive-item-title {
   text-wrap: wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
 }
 
 // Increase size of the logo on a desktop view

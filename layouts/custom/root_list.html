@@ -24,7 +24,7 @@
                 {{- range .Pages.ByTitle -}}
                     <article class="archive-item">
                         <a href="{{ .RelPermalink }}" class="archive-item-link">
-                           <h2> {{- .Title | emojify -}} </h2>
+                           <h2 class="archive-item-title"> {{- .Title | emojify -}} </h2>
                            <p class="archive-item-description"> {{ .Description }} </p>
                         </a>
                     </article>
