@@ -6,7 +6,7 @@ weight: 1
 ---
 
 <raw>
-<a href="/newsletter"><button>Back to Newsletters</button></a>
+<a href="/news/newsletter/" class="banner-button">Back to Newsletters</a>
 
 <html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraph.org/schema/"><head>
         

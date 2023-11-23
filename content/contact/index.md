@@ -12,13 +12,21 @@ We share a [Twitter account](https://twitter.com/LDaCA_Program) with the [Austra
 
 
 {{< raw >}}
-<div class="twitter"> 
-    <a class="twitter-timeline"
-        href="https://twitter.com/LDaCA_Program"
-        data-height="1000"
-        data-width="600"
-        data-chrome="nofooter noborders">
-        Tweets from https://twitter.com/LDaCA_Program
-    </a>
+<div class="flex_container">
+    <div class="flex_item">
+        <h2>Our Team</h2>
+        <p>Our team is spread throughout Australia, with connections to our partner institutions and projects. </p>
+        <img src="/contact/ldaca-team.png">
+    </div>
+    <div class="twitter flex_item"> 
+        <a class="twitter-timeline"
+            href="https://twitter.com/LDaCA_Program"
+            data-height="1000"
+            data-width="600"
+            data-chrome="nofooter noborders">
+            Tweets from https://twitter.com/LDaCA_Program
+        </a>
+    </div>
 </div>
+
 {{< /raw >}}

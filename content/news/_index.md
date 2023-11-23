@@ -6,6 +6,5 @@ type: "custom"
 layout: "root_list"
 ---
 
-<br>
 
->Have a browse of what's new with LDaCA, including upcoming and past events, our recent newsletters and our blog posts. 
+Have a browse of what's new with LDaCA, including upcoming and past events, our recent newsletters and our blog posts. 

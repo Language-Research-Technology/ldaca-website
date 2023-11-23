@@ -13,29 +13,28 @@
     <div class="slide__html">
       <!-- You can include HTML instead of a background image using .slide__html -->
     </div>
-    <a href="./">
+    <div>
       <div class="slide__content">
-        <h1>What's happening?</h1>
-        <h3>Check out our most recent newsletter or ...</h3>
+        <h1>What's new?</h1>
+        <h3>Check out our most <a href="./news/newsletter/newsletter-q4-2023/">recent newsletter</a> or take a deep dive into the <a href="./about/technologies/">technology supporting our project.</a></h3>
       </div>  
-    </a>
+    </div>
   </div>
 
   <!-- Slide 2 -->
   <input type="radio" id="slideCheckbox2" name="slide"></input>
   <div class="slide">
-    <a href="./background/information/">
+    <a href="./about/">
       <div class="slide__content">
-        <h1>Background</h1>
+        <h1>About</h1>
         <h3>More information about the LDaCA Project, including:</h3>
         <ul>
+          <li>Collections</li>
+          <li>Organisation</li>
           <li>Principles</li>
-          <li>Technologies</li>
-          <li>Metadata</li>
-          <li>Sample Collection</li>
-          <li>Case Studies</li>
+          <li>Technology</li>
         </ul>
-        <h3>As well as information about our organisation, our partnerships, investors, advising and consulting partners.</h3>
+        <h3>As well as information about our project's aims, our partnerships, investors, advising and consulting partners.</h3>
       </div> 
     </a>
   </div>
@@ -46,11 +45,12 @@
     <a href="./resources/">
       <div class="slide__content">
         <h1>Resources</h1>
-        <p>Posts written by our team members relevant to the Language Technologies space.</p>
+        <h3>A collection of helpful resources to support people in the Language Research space. </h3>
+        <br>
         <h3>LDaCA Resources</h3>
-        <p></p>
+        <p>Supporting materials specific to the LDaCA project.</p>
         <h3>General Resources</h3>
-        <p></p>
+        <p>Supporting materials related to the general language research domain.</p>
       </div> 
     </a> 
   </div>
@@ -61,12 +61,13 @@
     <a href="./news/">
       <div class="slide__content">
         <h1>News</h1>
-        <p>Find out what's happening in our project, with </p>
-        <ul>
-          <li>Upcoming and Past Events</li>
-          <li>Recent Newsletters</li>
-          <li>Blog Posts</li>
-        </ul>
+        <h3>Find out what's happening in our project:</h3>
+        <h3>Upcoming and Past Events</h3>
+        <p>Events such as workshops, panels and talks.</p>
+        <h3>Recent Newsletters</h3>
+        <p>Our newsletter is where you can learn more about our projects updates and other happenings in the language research space. </p>
+        <h3>Recent Posts</h3>
+        <p>Read articles written by members of our team about a variety of topics in the domain of language research. </p>
       </div>   
     </a>
   </div>
@@ -76,8 +77,8 @@
   <div class="slide">
     <a href="./contact/">
       <div class="slide__content">
-        <h1>Organisation</h1>
-        <p>Learn more about our organisation, our partnerships, investors, advising and consulting partners.</p>
+        <h1>Contact Us</h1>
+        <h3>Get in contact, sign up for our newsletter and check out our socials.</h3>
       </div>
     </a>
   </div>
@@ -88,7 +89,7 @@
     
     <!-- Add slide labels here! -->
     
-    <label class="slide-button" for="slideCheckbox1">Home</label>
+    <label class="slide-button" for="slideCheckbox1">Updates</label>
     <label class="slide-button" for="slideCheckbox2">About</label>
     <label class="slide-button" for="slideCheckbox3">Resources</label>
     <label class="slide-button" for="slideCheckbox4">News</label>

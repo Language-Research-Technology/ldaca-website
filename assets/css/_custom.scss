@@ -289,16 +289,21 @@ a.menu-item.theme-switch {
   min-height: 30px;
   max-height: 50px;
   background-color: rgba(126, 73, 47, 0.4);
-  padding-left: 3%;
+  padding-left: 6.7%;
+  padding-right: 4%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 #banner-title {
-  margin-right: 50%;
   max-height: 100%;
   font-weight: bolder;
+  font-size: 18px;
+}
+
+#banner-spacer {
+  flex-grow: 2;
 }
 
 // Slideshow Styling
@@ -348,6 +353,10 @@ $c-label-text: $c-grey;
   overflow: hidden;
   counter-reset: slide;
   position: absolute;
+}
+
+.single .content a:hover {
+  color: #2d96bd;
 }
 
 input {
@@ -656,7 +665,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
   padding-bottom: 10px;
   font-size: smaller;
   a {
-    color: white;
+    color: black;
   }
   a:hover {
     color: #2d96bd;
@@ -664,8 +673,8 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .footer {
-  background-image: linear-gradient(rgba(86, 103, 119,0), rgba(86, 103, 119,1), rgba(86, 103, 119,1), rgba(86, 103, 119,1), rgba(86, 103, 119,1), rgba(86, 103, 119,1), rgba(41, 42, 45,1));
-  color: #fefefe;
+  background-color: rgba(126, 73, 47, 0.4);
+  color: black;
   position: relative;
   width: 100%;
   bottom: 0;
@@ -674,7 +683,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .footer .heading {
-  color: #fefefe;
+  color: black;
   max-width: 1010px;
   width: 90%;
   text-transform: uppercase;
@@ -695,11 +704,11 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 
 .footer .content a {
   text-decoration: none;
-  color: #fefefe;
+  color: black;
 }
 
 .footer .content a:hover {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid black;
 }
 
 .footer .content h4 {
