@@ -13,7 +13,7 @@ Information and guidance for data custodians and data collectors produced by LDa
 
 ### [Data Onboarding Process](./data-onboarding-process/)
 
-### [Advice on Determiing Access Conditions](./determining-access-conditions/)
+### [Advice on Determining Access Conditions](./determining-access-conditions/)
 
 ### [Guidance for Data Governance Decisions](./guidance-for-data-governance-decisions/)
 
@@ -21,4 +21,4 @@ Information and guidance for data custodians and data collectors produced by LDa
 
 ### [Obtaining a DOI](./obtaining-a-doi/)
 
-### [LDaCA Software Tools](./ldaca-software-tools/)
+### [LDaCA Software Tools](./ldaca-software/)

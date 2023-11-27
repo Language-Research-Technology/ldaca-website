@@ -9,7 +9,7 @@ description: "Information about the approach to metadata being taken by LDaCA."
 
 Metadata is often defined as 'data about data'. High-quality metadata is important in making data **FAIR**:
 
-- **Findable**: metadata is the starting point for searching data collections. For example, if we want to find data in a particular language, this will only be possible for data that has a language recorded in its metadata. (Tracking languages is in itself problematic, see [below](#identifying-codes-for-languages).)
+- **Findable**: metadata is the starting point for searching data collections. For example, if we want to find data in a particular language, this will only be possible for data that has a language recorded in its metadata. (Tracking languages is in itself problematic, see [example](/tools/ldaca-resources/metadata/language-codes/).)
 - **Accessible**: access conditions that apply to data should be part of the associated metadata.
 - **Interoperable**: information about the format of data and whether it requires specific software to be usable should be part of the associated metadata.
 - **Reusable**: all of the aspects of metadata mentioned above contribute to making data reusable. The more we know about some data, the easier it is to know whether it will be useful to us or not.
@@ -34,4 +34,4 @@ LDaCA's vocabulary for describing language data is available in our [Github repo
 
 <br>
 
-Assigning identifiers to languages is an important metadata problem for langauge data. You can read about the problems which can arise in doing this in an [example](/tools/ldaca-resources/metadata/language-codes/).
+<br>
