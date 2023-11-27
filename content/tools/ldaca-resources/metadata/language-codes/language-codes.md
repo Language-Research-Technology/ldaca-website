@@ -1,0 +1,50 @@
+---
+title: "Metadata Example - Identifying Codes for Languages"
+date: 2023-11-13T15:49:31+11:00
+draft: false
+description: "Example of metadata"
+---
+
+One very important piece of metadata for language data is a description of the language or languages that the data represent. This is not a simple problem because the relationship between languages and names for them is not one-to-one. Some languages have more than one name: for example, _Farsi_ and _Persian_ can both be used to refer to the same language. Some names refer to more than one language: for example, there are languages called _Buru_ used in Nigeria and in Indonesia. To avoid the confusion that can arise from such situations, various systems have been developed to assign unique identifiers to languages. None of these systems gives a comprehensive list of languages and all such systems struggle with another problem, the distinction between separate languages and dialects of one language, as can be seen in the case study below. LDaCA includes identifiers from each of the three systems below where they are available and relevant.
+
+<br>
+
+### [ISO-639](https://iso639-3.sil.org/) {#iso-639}
+
+This system is recognised as a standard by the International Standards Organisation. An earlier version of this system used two-letter codes to identify languages; more recent versions use three-letter codes (referred to as ISO 639-3). These codes are used by [Ethnologue](https://www.ethnologue.com/), which is a catalogue of the languages of the world, and in many other contexts. The ISO 639-3 code for French is **fra**, and Warlpiri is **wbp**.
+
+<br>
+
+### [Glottolog](https://glottolog.org/) {#glottolog}
+
+Glottolog is an alternative catalogue of the world's languages, language families and dialects - Glottolog uses the term _languoid_ to cover all of these. Each languoid is assigned a unique identifier consisting of four alphanumeric characters and four digits. For example, (standard) French has the code **stan1290**, and Warlpiri is **warl1254**.
+
+<br>
+
+### [Austlang](https://collection.aiatsis.gov.au/austlang/about)
+
+AustLang provides a controlled vocabulary of persistent identifiers, a thesaurus of languages and peoples, and information about Aboriginal and Torres Strait Islander languages which has been assembled from referenced sources. Alphanumeric codes are used as persistent identifiers, while associated text strings are changeable and can reflect community preferences (including alternative names and spellings). In Austlang, Warlpiri has two codes: **C15** for the language in general, and **C15.1** for the variety named as Wakirti Warlpiri. (French is not covered by Austlang.)
+
+<br>
+
+### Case study - Kala Lagaw Ya
+
+Kala Lagaw Ya is a language spoken in the Torres Strait Islands. The language has several dialects or varieties and the table below shows how the different code schemes deal with this.
+
+<br>
+
+{{< raw >}}
+
+<table>
+<tr><td><b>Name</b></td><td><b>ISO 639</b></td><td><b>Glottolog</b></td><td><b>Austlang</b></td><td><b>Notes</b></td></tr>
+<tr><td>Kala Lagaw Ya</td><td>mwp</td><td>kala1377</td><td>Y1</td><td>Austlang: Marked with symbol ^ which indicates that the name is used to refer to a language and a dialect of the language.</td></tr>
+<tr><td>Kalaw Kawaw Ya</td><td></td><td>kala1378</td><td>Y2</td><td>Ethnologue: Kalaw Kawaw is a dialect.</td></tr>
+<tr><td>Kawrareg</td><td></td><td>kawr1234</td><td></td><td></td></tr>
+<tr><td>Kulkalgau Ya</td><td></td><td>kulk1234</td><td>Y4</td><td></td></tr>
+<tr><td>Mabuyag</td><td></td><td>mabu1234</td><td></td><td>Ethnologue: Mabuiag is an alternate name.</td></tr>
+<tr><td>Kawalgaw Ya</td><td></td><td></td><td>Y5</td><td>Austlang: Kaurareg is an alternative name (probably the same as Glottolog kawr1234).</td></tr>
+</table>
+
+{{< /raw >}}
+
+<br>

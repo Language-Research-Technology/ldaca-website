@@ -6,9 +6,9 @@ draft: false
 
 ### [Language Data Commons of Australia data portal](https://data.ldaca.edu.au/search)
 
-### [Guidance for data collectors and data custodians](/tools/guidance/)
-
 ### [Australian Text Analytics Platform](https://www.atap.edu.au)
+
+### [LDaCA Resources](/tools/ldaca-resources/)
 
 ### [Other Resources](/tools/other-resources)
 
