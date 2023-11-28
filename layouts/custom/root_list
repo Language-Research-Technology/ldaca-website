@@ -1,0 +1,37 @@
+{{- define "title" }}
+{{- .Params.Title | default (T .Section) | default .Section }} -
+{{ .Site.Title -}}
+{{- end -}}
+
+{{- define "content" -}}
+<div class="page archive">
+  {{- /* Title */ -}}
+  <h2 class="single-title animate__animated animate__pulse animate__faster">
+    {{- .Params.Title | default (T .Section) | default .Section -}}
+  </h2>
+
+  {{ .Content }}
+
+  {{- /* Paginate */ -}}
+  {{- if .Pages -}}
+  {{- $pages := .Pages.GroupByDate "2006" -}}
+  {{- with .Site.Params.section.paginate | default .Site.Params.paginate -}}
+  {{- $pages = $.Paginate $pages . -}}
+  {{- else -}}
+  {{- $pages = .Paginate $pages -}}
+  {{- end -}}
+  {{- range $pages.PageGroups -}}
+  <!-- <h3 class="group-title">{{ .Key }}</h3> -->
+  {{- range .Pages.ByTitle -}}
+  <article class="archive-item">
+    <a href="{{ .RelPermalink }}" class="archive-item-link">
+      <h2 class="archive-item-title">{{- .Title | emojify -}}</h2>
+      <p class="archive-item-description">{{ .Description }}</p>
+    </a>
+  </article>
+  {{- end -}}
+  {{- end -}}
+  {{- partial "paginator.html" . -}}
+  {{- end -}}
+</div>
+{{- end -}}
