@@ -11,62 +11,25 @@ draft: false
 
 ### Forthcoming workshops {#forthcoming-workshops}
 
-#### Workshop on community language corpora in Australia
+#### HASS and Indigenous Research Data Commons Computational Skills Summer School 2024
 
-Australia is a highly multilingual and multicultural society, with more than 490 languages coming from around 300 ancestries and cultural traditions (ABS, 2021, 2022). For decades, the language and cultural maintenance of various immigrant groups have been under investigation by many scholars, not only in linguistics but also in history, sociology, anthropology, and other disciplines. This work has amassed a large body of data reflecting the languages of these communities, providing information about how Australia’s immigration history has contributed to the country today.
+The 2024 HASS and Indigenous RDC Computational Skills Summer School aims to empower participants with practical knowledge, build digital skills, and help inspire new research outcomes within these research communities.
 
-The purpose of this workshop is to bring together scholars working with language corpora from across different disciplines. The workshop is being run as part of the Language Data Commons of Australia (LDaCA), which is working to build national research infrastructure for the Humanities and Social Sciences, facilitating sustainable access to and controlled use of digital language corpora for linguists, scholars across the Humanities and Social Sciences, and non-academics.
+Participation is aimed at researchers in the humanities, arts, social sciences and Indigenous fields of study. Themed streams will explore geosocial and geospatial data applications in humanities, arts, social sciences, and Indigenous research, using ARDC tools and services. You’ll gain experience through seminars and workshops and will be guided through hands-on use of free tools and platforms provided by the ARDC and its partners.
 
-The workshop will consist of presentations on language data collected from Australian immigrant communities for different research purposes, and will close with a panel discussion on needs and challenges around managing and archiving community language data in a way that is ethical, legal and culturally sensitive, and how LDaCA can help support that.
+For the ARDC Summer School, IDN and LDaCA will lead a stream on the governance, management and usage of data, especially Indigenous data.
 
-**When**: 9-10 November 2023
+- A series of seminars will focus on sustainability, storage, usability and description of data.
+- A case study will highlight how data is being managed for long-term access
+- A hands-on session will use Python code notebooks to analyse data.
 
-**Where**: Engma Room (3.165 HC Coombs Building, ANU)
+The case study and hands-on session will focus on geospatial aspects of data. Prior coding knowledge is not required for the hands-on session.
 
-**Organisers**: [Li Nguyen](mailto:li.nguyen@anu.edu.au) & Catherine Travis
+**When**: 7-9 February 2024
 
-#### Program ([pdf](../Workshop_CommunityLanguages_2023-program&abstracts.pdf) with abstracts)
+**Where**: Naarm/Melbourne, Monash University Caulfield Campus
 
-{{<raw>}}
-
-<table>
-<tr><td><b>Thursday 9 Nov</b></td><td><b>Session 1</b></td><td></td></tr>
-<tr><td>11:20</td><td>Li Nguyen & Catherine Travis</td><td>Introduction and Welcome</td></tr>
-<tr><td>11:30</td><td><b>Invited speaker: <a href = "https://www.sydney.edu.au/arts/about/our-people/academic-staff/adrian-vickers.html" target = "_blank"> Adrian Vickers</a></b></td><td>Creating a Multi-lingual On-line Archive</td></tr>
-<tr><td>12:10</td><td>Simon Musgrave</td><td>	
-Government documents as a parallel multilingual corpus:
-An opportunity which may be disappearing</td></tr>
-<tr><td>12:35</td><td>Van Tran, Sharynne McLeod,
-Sarah Verdon, Kate Margetson</td><td>	
-Vietnamese language use and maintenance in Australia</td></tr>
-<tr><td>1:00</td><td><b>Lunch</b></td><td></td></tr>
-<tr><td></td><td><b>Session 2</b></td><td></td></tr>
-<tr><td>2:00</td><td>Antonia Rubino</td><td>Exploring the trilingualism of Italian migrants in Australia:
-Evolving data, methodologies and insights</td></tr>
-<tr><td>2:25</td><td>Li Nguyen</td><td>CanVEC: The Canberra Vietnamese English corpus</td></tr>
-<tr><td>2:50</td><td>Paola Escudero, Gloria Pino Escobar, Milena Hernandez Gallego, Chloé Diskin-Holdaway, John Hajek</td><td>The Little Multilingual Minds corpus:
-Educators’ and children’s speech in heritage languages</td></tr>
-<tr><td>3:15</td><td><b>Afternoon Tea</b></td><td></td></tr>
-<tr><td></td><td><b>Session 3</b></td><td></td></tr>
-<tr><td>3:45</td><td><b>Invited Speaker: <a href = "https://findanexpert.unimelb.edu.au/profile/13831-john-hajek" target = "_blank">John Hajek</a></b></td><td>The many corpora of Michael Clyne, his students and colleagues</td></tr>
-<tr><td>4:25</td><td>Eleni Elefterias-Kostakidis</td><td>The Greek-Australian Oral Archive Project</td></tr>
-<tr><td>4:50</td><td>Jaime Hunt and Sacha Davis</td><td>	
-‘Oh, wunderbar, ein bisschen Deutsch!’ German-speakers in Newcastle and the Hunter Valley through the lenses of oral history and linguistics</td></tr>
-<tr><td>5:15</td><td><b>Close Day 1</b></td><td></td></tr>
-<tr><td><b>Friday 10 Nov</b></td><td><b>Session 4</b></td><td></td></tr>
-<tr><td>9:20</td><td>Li Nguyen & Catherine Travis</td><td>Welcome Day 2</td></tr>
-<tr><td>9:30</td><td><b>Invited Speaker: <a href = "https://researchers.mq.edu.au/en/persons/ingrid-piller" target ="_blank">Ingrid Piller</a></b></td><td>Life in a new language: Data-sharing and re-use across multiple sociolinguistic ethnographies</td></tr>
-<tr><td>10:10</td><td>James Walker, Stavroula Nikoloudis</td><td>Corpora of Greek in Melbourne</td></tr>
-<tr><td>10:35</td><td>Ksenia Gnevsheva, Catherine Travis</td><td>A spoken corpus of Australian English by Russian and Chinese speakers</td></tr>
-<tr><td>11:00</td><td>	
-Chloé Diskin-Holdaway</td><td>The Superdiversity corpus</td></tr>
-<tr><td>11:25</td><td><b>Morning Tea</b></td><td></td></tr>
-<tr><td></td><td><b>Session 5</b></td><td></td></tr>
-<tr><td>11:55</td><td>Francesco Ricatti, Adrian Vickers, John Hajek, Ingrid Piller</td><td><b>Panel Discussion</b></td></tr>
-<tr><td>12:45</td><td><b>Lunch</b></td><td></td></tr>
-<tr><td>2:00</td><td><b>Close</b></td><td></td></tr>
-</table>
-{{</raw>}}
+**[Details and Registration](https://www.eventbrite.com.au/e/hass-and-indigenous-rdc-summer-school-tickets-753040463297)**
 
 ### Previous Webinars {#webinars}
 
