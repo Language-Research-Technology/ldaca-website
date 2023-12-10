@@ -63,7 +63,7 @@ The Australian Research Data Commons ([ARDC](https://ardc.edu.au/)) supports FAI
 
 ## CARE Principles
 
-The [CARE Principles for Indigenous Data Governance](https://www.gida-global.org/care) were developed by the Global Indigenous Alliance (GIDA); they are a response to the FAIR principles and aim to complement them. GIDA highlights how the FAIR principles and the open data movement focus on increasing data sharing among researchers and entities but do not take into account power differentials and historical contexts or fully engage with Indigenous Peoples’ rights and interests. These include the rights to generate value from Indigenous data in ways that are grounded in Indigenous worldviews and to advance Indigenous innovation and self-determination. The CARE Principles also focus on four areas.
+The [CARE Principles for Indigenous Data Governance](https://www.gida-global.org/care) were developed by the Global Indigenous Data Alliance (GIDA); they are a response to the FAIR principles and aim to complement them. GIDA highlights how the FAIR principles and the open data movement focus on increasing data sharing among researchers and entities but do not take into account power differentials and historical contexts or fully engage with Indigenous Peoples’ rights and interests. These include the rights to generate value from Indigenous data in ways that are grounded in Indigenous worldviews and to advance Indigenous innovation and self-determination. The CARE Principles also focus on four areas.
 <br />
 
 ### Collective Benefit
