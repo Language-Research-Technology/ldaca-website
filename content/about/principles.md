@@ -55,7 +55,8 @@ The ultimate goal of FAIR is to optimise the reuse of data. To achieve this, met
   - (Meta)data are released with a clear and accessible data usage license
   - (Meta)data are associated with detailed provenance
   - (Meta)data meet domain-relevant community standards
-    <br />
+
+<br>
 
 The Australian Research Data Commons ([ARDC](https://ardc.edu.au/)) supports FAIR data practices and initiatives that make data and related research outputs FAIR. At the same time, the ARDC acknowledges that the implementation of the principles will look different across disciplines and will need discipline-specific approaches and standards.
 
