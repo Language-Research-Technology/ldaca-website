@@ -16,7 +16,9 @@
     <div>
       <div class="slide__content">
         <h1>What's new?</h1>
-        <h3>Check out our most <a href="./news/newsletter/newsletter-q4-2023/">recent newsletter</a> or take a deep dive into the <a href="./about/technologies/">technology supporting our project.</a></h3>
+        <h4></h4>
+        <h3>We've just released a <a href="./news/newsletter/newsletter-q4-2023/">new newsletter</a> for Q4 of 2023, with all sorts of information relating to our project and the language research space.</h3>
+        <h3> You can learn more about the technologies that form the foundation of our data storage <a href="./about/technologies/">right here.</a> </h3>
       </div>  
     </div>
   </div>
@@ -42,34 +44,39 @@
   <!-- Slide 3 -->
   <input type="radio" id="slideCheckbox3" name="slide"></input>
   <div class="slide">
-    <a href="./resources/">
       <div class="slide__content">
         <h1>Resources</h1>
-        <h3>A collection of helpful resources to support people in the Language Research space. </h3>
-        <br>
-        <h3>LDaCA Resources</h3>
-        <p>Supporting materials specific to the LDaCA project.</p>
-        <h3>General Resources</h3>
+        <h4>A collection of helpful resources to support people in the Language Research space. </h4>
+        <a href="./resources/ldaca-resources/">
+          <h3>LDaCA Resources</h3>
+        </a>
+          <p>Supporting materials specific to the LDaCA project.</p>
+        <a href="./resources/general-resources/">
+          <h3>General Resources</h3>
+        </a>
         <p>Supporting materials related to the general language research domain.</p>
       </div> 
-    </a> 
   </div>
 
   <!-- Slide 4 -->
   <input type="radio" id="slideCheckbox4" name="slide"></input>
   <div class="slide">
-    <a href="./news/">
-      <div class="slide__content">
-        <h1>News</h1>
-        <h3>Find out what's happening in our project:</h3>
+    <div class="slide__content">
+      <h1>News</h1>
+      <h4>Find out what's happening in our project:</h4>
+      <a href="./news/events/">
         <h3>Upcoming and Past Events</h3>
-        <p>Events such as workshops, panels and talks.</p>
+      </a>
+      <p>Events such as workshops, panels and talks.</p>
+      <a href="./news/newsletter/">
         <h3>Recent Newsletters</h3>
-        <p>Our newsletter is where you can learn more about our projects updates and other happenings in the language research space. </p>
+      </a>
+      <p>Our newsletter is where you can learn more about our projects updates and other happenings in the language research space. </p>
+      <a href="./news/posts/">
         <h3>Recent Posts</h3>
-        <p>Read articles written by members of our team about a variety of topics in the domain of language research. </p>
-      </div>   
-    </a>
+      </a>
+      <p>Read articles written by members of our team about a variety of topics in the domain of language research. </p>
+    </div>
   </div>
 
   <!-- Slide 5 -->
