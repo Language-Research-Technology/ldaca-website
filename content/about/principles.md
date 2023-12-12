@@ -58,7 +58,7 @@ The ultimate goal of FAIR is to optimise the reuse of data. To achieve this, met
 
 <br>
 
-The Australian Research Data Commons ([ARDC](https://ardc.edu.au/)) supports FAIR data practices and initiatives that make data and related research outputs FAIR. At the same time, the ARDC acknowledges that the implementation of the principles will look different across disciplines and will need discipline-specific approaches and standards.
+The Australian Research Data Commons ([ARDC](https://ardc.edu.au/)) and LDaCA support FAIR data practices and initiatives that make data and related research outputs FAIR. At the same time, the ARDC and LDaCA acknowledge that the implementation of the principles will look different across disciplines and will need discipline-specific approaches and standards.
 
 <br>
 
@@ -101,5 +101,9 @@ Indigenous Peoples’ rights and wellbeing should be the primary concern at all 
 - For minimizing harm and maximizing benefit
 - For justice
 - For future use
+
+<br>
+
+The Australian Research Data Commons ([ARDC](https://ardc.edu.au/)) and LDaCA support the CARE principles to further extend data management principles, ensuring that Indigenous communities benefit from the data, and that authority to control Indigenous data is held by Indigenous Peoples. We have a responsibility to share how data is used to collectively benefit Indigenous Peoples, and that Indigenous Peoples' rights and wellbeing are the primary concern at all stages of the data life cycle.
 
 <br>
