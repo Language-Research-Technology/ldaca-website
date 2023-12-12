@@ -123,7 +123,7 @@
     culturally, ethically and legally appropriate manner guided by FAIR and CARE
     principles.
   </p>
-  <img class="flex_item logo" src="https://www.ldaca.edu.au/logo.png" alt="LDaCA Logo">
+  <img class="flex_item logo" src="logo.png" alt="LDaCA Logo">
 </div>
 
 <div id="home_list_bg">

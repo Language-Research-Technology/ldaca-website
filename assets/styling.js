@@ -50,6 +50,7 @@ function checkStyle() {
   let flex_containers = document.getElementsByClassName("flex_container");
   let submenus = document.getElementsByClassName("submenu__list");
   let banner_buttons = document.getElementsByClassName("banner_button");
+  let footer_items = document.getElementsByClassName("footer");
     for (logo of logos) {
       if (theme_light == true) {
         logo.src = "/logo.png";
@@ -84,6 +85,13 @@ function checkStyle() {
         butt.style.background = '#292a2d';
       }
     }
+    // for (item of footer_items) {
+    //   if (theme_light == true) {
+    //     item.style.color = 'black';
+    //   } else {
+    //     item.style.color = 'white';
+    //   }
+    // }
 
   menuItems.forEach((menuItem) => {
     if (theme_light == true) {
