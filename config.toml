@@ -362,7 +362,7 @@ enableRobotsTXT = true
   [[menu.main]]
     identifier = "technologies"
     name = "Technologies"
-    url = "/about/principles/"
+    url = "/about/technologies/"
     parent = "about"
     weight = 1  
   [[menu.main]]
