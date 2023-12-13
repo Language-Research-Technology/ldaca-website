@@ -338,9 +338,33 @@ enableRobotsTXT = true
     weight = 1
    [[menu.main]]
     identifier = "about"
-    name = "About"
+    name = "About ▾"
     url = "/about/"
     weight = 2
+  [[menu.main]]
+    identifier = "collections"
+    name = "Collections"
+    url = "/about/sample-collections/"
+    parent = "about"
+    weight = 1
+  [[menu.main]]
+    identifier = "organisation"
+    name = "Organisation"
+    url = "/about/organisation/"
+    parent = "about"
+    weight = 1  
+  [[menu.main]]
+    identifier = "principles"
+    name = "Principles"
+    url = "/about/principles/"
+    parent = "about"
+    weight = 1  
+  [[menu.main]]
+    identifier = "technologies"
+    name = "Technologies"
+    url = "/about/principles/"
+    parent = "about"
+    weight = 1  
   [[menu.main]]
     identifier = "resources"
     name = "Resources ▾"
