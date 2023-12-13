@@ -73,7 +73,7 @@
       </a>
       <p>Our newsletter is where you can learn more about our projects updates and other happenings in the language research space. </p>
       <a href="./news/posts/">
-        <h3>Recent Posts</h3>
+        <h3>New Posts</h3>
       </a>
       <p>Read articles written by members of our team about a variety of topics in the domain of language research. </p>
     </div>
