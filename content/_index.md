@@ -162,3 +162,5 @@ The Language Data Commons of Australia (LDaCA) project received investment
 ([1](https://doi.org/10.47486/DP768) and [2](https://doi.org/10.47486/HIR001))
 from the Australian Research Data Commons (ARDC). The ARDC is funded by the
 National Collaborative Research Infrastructure Strategy (NCRIS).
+
+<br>
