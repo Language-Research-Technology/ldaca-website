@@ -21,5 +21,5 @@ The design of the LDaCA logo came from my own experience researching the Waanyi 
 
 The colours utilised in this design draw from those that are seen in my peoples land of Boodjamulla, in the Gulf of Carpentaria. They reflect the connections between the Sky, the People and the Land in the hope that these connections continue to strengthen indefinitely.
 
-**My Bio**
+**Bio**
 My name is Otis Carmichael and I am a proud Waanyi man living in Meanjin. My designs reflect my appreciation of the past and my hope for the future.
