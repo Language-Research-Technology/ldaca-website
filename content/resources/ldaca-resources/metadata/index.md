@@ -9,11 +9,12 @@ description: "Information about the approach to metadata being taken by LDaCA."
 
 Metadata is often defined as 'data about data'. High-quality metadata is important in making data __FAIR__:
 
-- __Findable__: metadata is the starting point for searching data collections. For example, if we want to find data in a particular language, this will only be possible for data that has a language recorded in its metadata. (Tracking languages is in itself problematic, see [below](#identifying-codes-for-languages).)
-- __Accessible__: access conditions that apply to data should be part of the associated metadata.
-- __Interoperable__: information about the format of data and whether it requires specific software to be usable should be part of the associated metadata.
-- __Reusable__: all of the aspects of metadata mentioned above contribute to making data reusable. The more we know about some data, the easier it is to know whether it will be useful to us or not.
+- __Findable__: Metadata is the starting point for searching data collections. For example, if we want to find data in a particular language, this will only be possible for data that has a language recorded in its metadata. (Tracking languages is in itself problematic, see [below](#identifying-codes-for-languages).)
+- __Accessible__: Access conditions that apply to data should be part of the associated metadata.
+- __Interoperable__: Information about the format of data and whether it requires specific software to be usable should be part of the associated metadata.
+- __Reusable__: All of the aspects of metadata mentioned above contribute to making data reusable. The more we know about some data, the easier it is to know whether it will be useful to us or not.
 
+### RO-Crate Profiles
 RO-Crates in general have basic metadata requirements, but it is possible to specify a **profile** for crates for specific purposes. LDaCA is developing such a profile for our data; we are basing this largely on previous work in the area. An important aspect of the RO-Crate approach is that it uses the principles of [Linked Open Data](https://en.wikipedia.org/wiki/Linked_data#Linked_open_data). This means that terms used in our metadata will (whenever possible) link to an openly available definition. In developing the profile, we are drawing on two existing attempts to provide vocabularies for describing language data.
 
 <br>

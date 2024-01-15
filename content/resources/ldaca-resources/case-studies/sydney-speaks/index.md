@@ -2,13 +2,13 @@
 title: "Sydney Speaks"
 date: 2023-08-08T17:13:28+10:00
 draft: false
+description: "Sydney Speaks is a large-scale sociolinguistic project, funded through the ARC Centre of Excellence for the Dynamics of English (2014-2022), led by Catherine Travis at the ANU."
 ---
 
-by Catherine Travis and Cale Johnstone
+by [Catherine Travis](https://researchers.anu.edu.au/researchers/travis-ce) and [Cale Johnstone](https://slll.cass.anu.edu.au/people/cale-johnstone)
 
-## Introducing the Sydney Speaks project
 
-Sydney Speaks is a large-scale sociolinguistic project, funded through the ARC Centre of Excellence for the Dynamics of English (2014-2022), led by Catherine Travis at the ANU.
+## Contents
 
 ##### [The Sydney Speaks Corpora](#corpora)
 
@@ -23,6 +23,10 @@ Sydney Speaks is a large-scale sociolinguistic project, funded through the ARC C
 ##### [References](#references)
 
 ##### [Sydney Speaks Corpus and Publications](#corpus)
+
+## Introducing the Sydney Speaks project
+
+Sydney Speaks is a large-scale sociolinguistic project, funded through the ARC Centre of Excellence for the Dynamics of English (2014-2022), led by Catherine Travis at the ANU.
 
 Since 2015, the Sydney Speaks project has recorded the spontaneous speech of Sydneysiders for the purpose of documenting and exploring Australian English as spoken in Australia’s largest and most ethnically and linguistically diverse city. In order to study language change in real time, the project also incorporates legacy data from two sources: a sociolinguistic project carried out in the late 1970s and an oral history collection created during the 1980s. Altogether, the birth years of the participants span over a century, from the 1890s to the 1990s, and five age groups are represented, as captured in Figure 1.
 
