@@ -5,7 +5,7 @@ draft: false
 description: "Read about Harriet Sheppards of the fieldwork she conducted on the islands of Vanatinai."
 ---
 
-by [Harriet Sheppard](https://languages-cultures.uq.edu.au/profile/7875/harriet-sheppard)
+by [Harriet Sheppard](https://orcid.org/0000-0002-8525-5699)
 
 {{<raw>}}
 <br />
