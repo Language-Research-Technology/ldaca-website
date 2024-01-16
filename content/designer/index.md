@@ -3,8 +3,7 @@ title: 'Otis Carmichael'
 date: 2022-11-07T17:13:28+10:00
 draft: false
 ---
-
-![LDaCA logo](logo-dark.png)
+<img src="logo-dark.png" width="600">
 
 ### Otis Carmichael
 
@@ -14,7 +13,7 @@ The design of the LDaCA logo came from my own experience researching the Waanyi 
 
 **D** - Data is depicted by these specks of raw information, undecipherable before processing but heavy with power.
 
-**a** - This data is not just numbers and words but signals from the Universe, such as animal tracks.
+**a** - This data is not just numbers and words but aspects of cultures and knowledge with connections to the land. 
 
 **C** - Whilst research often appears niche in these commons, there is no limit to the range of it’s influence, the ripples of which disrupt everything it touches.
 
@@ -22,5 +21,5 @@ The design of the LDaCA logo came from my own experience researching the Waanyi 
 
 The colours utilised in this design draw from those that are seen in my peoples land of Boodjamulla, in the Gulf of Carpentaria. They reflect the connections between the Sky, the People and the Land in the hope that these connections continue to strengthen indefinitely.
 
-**My Bio**
+**Bio**
 My name is Otis Carmichael and I am a proud Waanyi man living in Meanjin. My designs reflect my appreciation of the past and my hope for the future.

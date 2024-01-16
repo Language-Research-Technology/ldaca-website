@@ -38,3 +38,8 @@ _Living Languages_ is an Open Access journal.
 A digital archive of many Pacific Linguistics publications up to 2012.
 
 <br>
+
+### [Guidance for Data Governance Decisions (pdf)](./LDaCA_GuidanceDataGovernance_230906.pdf)
+
+A guide for data custodians and data collectors for ethical practices. 
+

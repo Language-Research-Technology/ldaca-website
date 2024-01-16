@@ -91,6 +91,10 @@ div {
   }
 }
 
+[theme="dark"] .flex_container {
+  background-color: #292a2d;
+}
+
 .flex_container {
   padding: 10% 0%;
 }
@@ -667,8 +671,11 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
   margin: auto;
   padding-bottom: 10px;
   font-size: smaller;
-  a {
+  [theme="light"] a {
     color: black;
+  }
+  [theme="dark"] a {
+    color: white;
   }
   a:hover {
     color: #2d96bd;
@@ -677,12 +684,21 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 
 .footer {
   background-color: rgba(126, 73, 47, 0.4);
-  color: black;
   position: relative;
   width: 100%;
   bottom: 0;
   left: 0;
   font-size: smaller;
+  [theme="dark"] {
+    color: #a9a9b3;
+  }
+  [theme="light"] {
+    color: black;
+  }
+}
+
+[theme="dark"] .footer .content a:hover {
+  border-bottom: 1px solid white;
 }
 
 .footer .heading {
@@ -707,8 +723,13 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 
 .footer .content a {
   text-decoration: none;
-  color: black;
-}
+  [theme="dark"] {
+    color: white;
+  }
+  [theme="light"] {
+    color: black;
+  }
+  }
 
 .footer .content a:hover {
   border-bottom: 1px solid black;
