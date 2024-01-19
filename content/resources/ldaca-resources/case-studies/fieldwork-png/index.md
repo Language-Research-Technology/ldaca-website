@@ -2,9 +2,10 @@
 title: "Fieldwork in Papua New Guinea"
 date: 2022-02-15T17:13:28+10:00
 draft: false
+description: "Read about Harriet Sheppards of the fieldwork she conducted on the islands of Vanatinai."
 ---
 
-by Harriet Sheppard
+by [Harriet Sheppard](https://orcid.org/0000-0002-8525-5699)
 
 {{<raw>}}
 <br />
@@ -360,4 +361,4 @@ is a good thing!
 <br />
 {{</raw>}}
 
-Back to [Language Data](../data/)
+Back to [Case Studies](../)
