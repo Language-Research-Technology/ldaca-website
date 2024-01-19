@@ -122,7 +122,7 @@ The key points included in the Terms of Use are:
 
 <br>
 
-![LDaCA Terms of Use: Key Points](/access-policy/LDaCA%20Terms%20of%20Use-updated.jpg)
+![LDaCA Terms of Use: Key Points](/access-policy/terms-of-use-key-points.png)
 
 <br>
 

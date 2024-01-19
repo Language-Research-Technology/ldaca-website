@@ -36,7 +36,7 @@ LDaCA recommends the following workflow to determine the access conditions to be
 
 <br>
 
-![Access Conditions Flowchart 1](/determining-access-conditions/AccessConditions_Flow1.jpg)
+![Access Conditions Flowchart 1](/determining-access-conditions/access-conditions-flow.png)
 
 <br>
 
