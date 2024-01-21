@@ -7,13 +7,13 @@ description: "Information and guidance for data custodians and data collectors p
 
 ## Information and guidance for data custodians and data collectors produced by LDaCA.
 
-### [LDaCA Data Access Policy](./access-policy/data-access)
+### [LDaCA Data Access Policy](./access-policy)
 
-### [Data Onboarding Process](./data-onboarding-process/data-onboarding)
+### [Data Onboarding Process](./data-onboarding-process/)
 
-### [Advice on Determining Access Conditions](./determining-access-conditions/access-conditions)
+### [Advice on Determining Access Conditions](./determining-access-conditions/)
 
-### [Guidance for Data Governance Decisions](./guidance-for-data-governance-decisions/governance-decisions)
+### [Guidance for Data Governance Decisions](./guidance-for-data-governance-decisions/)
 
 ### [LDaCA's Approach to Metadata](./metadata/metadata)
 
