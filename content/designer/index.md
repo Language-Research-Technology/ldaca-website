@@ -9,6 +9,8 @@ My name is Otis Carmichael and I am a proud Waanyi man living in Meanjin. My des
 
 The design of the LDaCA logo came from my own experience researching the Waanyi language, the language of [my mob](https://en.wikipedia.org/wiki/Waanyi). The design flows from the beginning to the end, where it flows back into itself at the beginning, representing the cyclical nature of life and the Land. The strands of language interweave with themselves, influenced by everything that touches them until they become something entirely their own. The complexity of these languages is a thing of beauty and their preservation, study and proliferation lays claim to this unceded land. 
 
+<img src="logo-dark.png" width="500" alt="LDaCA Logo">
+
 **The inspiration of the design is as follows:**
 
 **L** (Language) - Language is shown as a flow of words that can be merged, split and rearranged to create different meanings, just as these lines can be.
@@ -24,18 +26,16 @@ The design of the LDaCA logo came from my own experience researching the Waanyi 
 The colours utilised in this design draw from those that are seen in my peoples land of Boodjamulla, in the Gulf of Carpentaria (see below). They reflect the connections between the Sky, the People and the Land in the hope that these connections continue to strengthen indefinitely.
 
 {{< raw >}}
-<div class="flex_container">
-    <div class="item">
-        <img src="logo-dark.png" width="500" alt="LDaCA Logo">
+
+<div class="grid">
+    <div class="item left">
+        <img src="boodjamulla1.jpg" alt="Cliffs at Boodjamulla National Park">
     </div>
-    <div class="item">
-        <img src="boodjamulla2.jpg" height="500" alt="Cliffs at Boodjamulla National Park">
+    <div class="item upper_right">
+        <img src="boodjamulla2.jpg" alt="Gorge at Boodjamulla National Park">
     </div>
-    <div class="item">
-        <img src="boodjamulla1.jpg" width="500" alt="Gorge at Boodjamulla National Park">
-    </div>
-    <div class="item">
-        <img src="boodjamulla3.jpg" width="500" alt="Creek at Boodjamulla National Park">
+    <div class="item lower_right">
+        <img src="boodjamulla3.jpg" alt="Creek at Boodjamulla National Park">
     </div>
 </div>
 
