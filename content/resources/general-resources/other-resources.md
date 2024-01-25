@@ -150,8 +150,20 @@ publications.
 
 - [Pacific Linguistics](http://sealang.net/archives/pl/): a digital archive of many Pacific Linguistics publications up to 2012.
 
-# Tools {#tools}
+# Software Tools {#tools}
+ - A variety of LDaCA Open Source tools are availble at our [GitHub organisation](https://github.com/Language-Research-Technology/ocfl-js). Highlights include:
 
+    - **Metadata Editor**:
+    
+      [Crate-O](https://language-research-technology.github.io/crate-o/#/): A tool that allows you to create and update RO-Crates using a web interface, and with metadata spreadsheets. It provides researchers with a relatively simple way to describe their data using the best practices in formal metadata description.
+    - **Data Storage**:
+    
+      [OCFL-js](https://github.com/Language-Research-Technology/ocfl-js), a library that implements [OCFL](https://ocfl.io/): A specification for laying out digital collections on file or object storage. It is designed with long-term preservation principles in mind and does not rely on specialised software. Amongst the benefits of using OCFL with RO-Crate objects are:
+      - completeness: a repository can be re-indexed from the files it stores
+      - versioning: repositories can make changes to objects and still allow their history to persist
+    - **Data Portal and Access API**:
+    
+      [Oni](https://github.com/Language-Research-Technology/oni): A web application that provides indexing, searching and access to secure data repositories following the Arkisto model. This is used to build the [LDaCA Portal](https://data.ldaca.edu.au/search): The online interface of the Language Data Commons of Australia where users can discover and access language collections.
 - [Audacity](https://www.audacityteam.org/): Audacity is a free, easy-to-use, multi-track audio editor and recorder for Windows, macOS, GNU/Linux and other operating systems.
 - [ELAN](https://archive.mpi.nl/tla/elan): a tool for making time-aligned annotations on audio and video recordings.
 - [Praat](https://www.fon.hum.uva.nl/praat/): Free software for doing phonetics by computer.
