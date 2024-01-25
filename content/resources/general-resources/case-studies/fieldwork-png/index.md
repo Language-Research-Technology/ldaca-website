@@ -5,7 +5,7 @@ draft: false
 description: "Harriet Sheppard's account of collecting data on a remote island in Papua New Guinea."
 ---
 
-by Harriet Sheppard
+by [Harriet Sheppard](https://orcid.org/0000-0002-8525-5699)
 
 <br>
 
