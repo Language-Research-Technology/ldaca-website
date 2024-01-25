@@ -79,7 +79,7 @@ div {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    padding: 5% 0%;
+    padding: 0% 0% 5%;
     background-color: rgba(255,255,255,0.5);
     gap: 10%;
     .flex_item {
@@ -321,7 +321,9 @@ $slide-count: 5;
 $c-slides: $water_green, $land_green, $clear_blue, $storm_blue, $sandstone;
 
 // Slide backgrounds (if used, must be same as number of slides, otherwise false)
-$b-slides: url("/SlideshowIMGs/Braille_Reading.jpeg") url("/SlideshowIMGs/About_Project.png") url("/SlideshowIMGs/Speech.jpeg") url("/SlideshowIMGs/Coding_Language.jpeg") url("/SlideshowIMGs/Phonetic_Learning.jpeg");
+$b-slides: url("/SlideshowIMGs/fingerposts.jpg") url("/SlideshowIMGs/about.jpg")
+url("/SlideshowIMGs/data-migration.jpg") url("/SlideshowIMGs/trove.png")
+url("/SlideshowIMGs/ldaca-meeting.png");
 //$b-slides: $water_green, $land_green, $clear_blue, $storm_blue, $sandstone;
 
 // Total duration of slide animation
@@ -347,7 +349,7 @@ $c-label-text: $c-grey;
 /****************************************/
 
 .slideshow_div {
-  padding: 3% 0 30%;
+  padding: 3% 0 40%;
 }
 
 .slideshow {

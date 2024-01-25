@@ -84,8 +84,28 @@
 </fieldset>
 </div>
 
-<div style="text-align: center; padding: 0% 0% 3% 0%;"><h3>
-LDaCA acknowledges Traditional Owners of Country throughout Australia and recognises the continuing connection to lands, waters and communities. We pay our respects to their Ancestors and their descendants, who continue cultural and spiritual connections to Country.</h3></div>
+<br>
+<br>
+<br>
+<div class="flex_container">
+  <p class="flex_item">
+    Australia is a massively multilingual country in one of the world’s most
+    linguistically diverse regions. Significant collections of this intangible
+    cultural heritage have been amassed, including collections of Australian
+    Indigenous languages, regional languages of the Pacific, and of Australian
+    English, as well as collections important for cyber-security and for
+    emergency communication. LDaCA will integrate this existing work into a
+    national research infrastructure while also securing collections which remain
+    under-utilised or at risk. LDaCA will thus ensure long-lasting access for
+    analysis and reuse of these invaluable data, and will manage the data in a
+    culturally, ethically and legally appropriate manner guided by FAIR and CARE
+    principles.
+  </p>
+  <img class="flex_item logo" src="logo.png" alt="LDaCA Logo">
+</div>
+
+<div style="text-align: center; padding: 3% 0%;"><h2>
+LDaCA acknowledges Traditional Owners of Country throughout Australia and recognises the continuing connection to lands, waters and communities. We pay our respects to their Ancestors and their descendants, who continue cultural and spiritual connections to Country.</h2></div>
 
 <img src="/AcknowledgeARDC.png" height="100" class="center_image" />
 
