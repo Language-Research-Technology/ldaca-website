@@ -47,6 +47,10 @@ checkStyle();
 // Checks the color of the menu text depending on the theme
 function checkStyle() {
   let logos = document.getElementsByClassName("logo");
+  let flex_containers = document.getElementsByClassName("flex_container");
+  let submenus = document.getElementsByClassName("submenu__list");
+  let banner_buttons = document.getElementsByClassName("banner_button");
+  let footer_items = document.getElementsByClassName("footer");
     for (logo of logos) {
       if (theme_light == true) {
         logo.src = "/logo.png";
@@ -60,6 +64,34 @@ function checkStyle() {
         logo.alt = "logo_dark"
       }
     }
+    for (flex of flex_containers) {
+      if (theme_light == true) {
+        flex.style.background = 'rgba(255,255,255,0.5)';
+      } else {
+        flex.style.background = 'rgba(0,0,0,0.3)';
+      }
+    }
+    for (sub of submenus) {
+      if (theme_light == true) {
+        sub.style.background = 'rgba(255,255,255,0.95)';
+      } else {
+        sub.style.background = '#292a2d';
+      }
+    }
+    for (butt of banner_buttons) {
+      if (theme_light == true) {
+        butt.style.background = 'rgb(255,255,255)';
+      } else {
+        butt.style.background = '#292a2d';
+      }
+    }
+    // for (item of footer_items) {
+    //   if (theme_light == true) {
+    //     item.style.color = 'black';
+    //   } else {
+    //     item.style.color = 'white';
+    //   }
+    // }
 
   menuItems.forEach((menuItem) => {
     if (theme_light == true) {
@@ -79,7 +111,6 @@ var observer = new MutationObserver(function(mutations) {
       if (mutation.attributeName === "theme") {
         theme_light = !theme_light;
         checkStyle();
-        console.log("Theme is light: " + theme_light);
       }
     });
   });
@@ -89,3 +120,28 @@ var observer = new MutationObserver(function(mutations) {
   }
 )
   
+'use strict';
+
+(function iifeMenu(document, window, undefined) {
+	var menuBtn = document.querySelector('.menu__btn');
+	var	menu = document.querySelector('.menu__list');
+
+	function toggleMenu() {
+		menu.classList.toggle('menu__list--active');
+		menu.classList.toggle('menu__list--transition');
+		this.classList.toggle('menu__btn--active');
+		this.setAttribute(
+			'aria-expanded',
+			this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'
+		);
+	}
+
+	function removeMenuTransition() {
+		this.classList.remove('menu__list--transition');
+	}
+
+	if (menuBtn && menu) {
+		menuBtn.addEventListener('click', toggleMenu, false);
+		menu.addEventListener('transitionend', removeMenuTransition, false);
+	}
+}(document, window));
