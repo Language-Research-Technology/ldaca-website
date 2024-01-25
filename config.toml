@@ -20,7 +20,7 @@ enableRobotsTXT = true
   # website images for Open Graph and Twitter Cards
   images = ["/logo.png", "/logo_dark.png"]
   # error page image website, place image in static folder if required add a image404 class in _custom.scss
-  image404 = '/alpaca.svg'
+  image404 = '/alpaca_404.svg'
 
 # Header config
   [params.header]
