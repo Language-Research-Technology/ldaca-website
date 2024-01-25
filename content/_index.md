@@ -5,7 +5,7 @@
 
 <ul>
 <h2><li>Making nationally significant language data available for academic and non-academic use</li></h2>
-<h2><li>Providing a model for ensuring continued access with appropriate community control.</li></h2>
+<h2><li>Providing a model for ensuring continued access with appropriate community control</li></h2>
 </ul>
 
 <div class="slideshow_div">
