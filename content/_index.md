@@ -1,5 +1,6 @@
 ---
 ---
+
 {{<raw>}}
 
 <ul>
@@ -11,7 +12,9 @@
 <fieldset class="slideshow">
 
   <!-- Slide 1 -->
-  <input type="radio" id="slideCheckbox1" name="slide" checked autofocus></input>
+
+<input type="radio" id="slideCheckbox1" name="slide" checked autofocus></input>
+
   <div class="slide">
     <div class="slide__html">
       <!-- You can include HTML instead of a background image using .slide__html -->
@@ -58,14 +61,14 @@
   </div>
 
   <!-- Slide 5 -->
-  <input type="radio" id="slideCheckbox5" name="slide"></input>
+
+<input type="radio" id="slideCheckbox5" name="slide"></input>
+
   <div class="slide">
-    <!-- <a href="./contact/"> -->
       <div class="slide__content">
         <h1>Contact Us</h1>
         <h3>How to <a href="./contact/">get in touch with LDaCA</a> and get involved in our activities.</h3>
       </div>
-    <!-- </a> -->
   </div>
 
   <!-- Add more slides here! -->
@@ -80,13 +83,9 @@
     <label class="slide-button" for="slideCheckbox4">News</label>
     <label class="slide-button" for="slideCheckbox5">Contact Us</label>
   </nav>
-
 </fieldset>
 </div>
 
-<br>
-<br>
-<br>
 <div class="flex_container">
   <p class="flex_item">
     Australia is a massively multilingual country in one of the world’s most
@@ -115,5 +114,3 @@ The Language Data Commons of Australia (LDaCA) project received investment
 ([1](https://doi.org/10.47486/DP768) and [2](https://doi.org/10.47486/HIR001))
 from the Australian Research Data Commons (ARDC). The ARDC is funded by the
 National Collaborative Research Infrastructure Strategy (NCRIS).
-
-<br>
