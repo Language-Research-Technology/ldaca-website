@@ -7,7 +7,7 @@ description: "Browse the project's past events."
 
 <br>
 
->If your university or organisation would like to host a workshop, please [contact us](mailto:info@ldaca.edu.au).
+> If your university or organisation would like to host a workshop, please [contact us](mailto:info@ldaca.edu.au).
 
 <br>
 
@@ -119,7 +119,7 @@ The Australian Text Analytics Platform and the [Language Data Commons of Austral
 - a workshop on using Discursis, a tool for tracking topics in interactive use of language
 - the opportunity to influence future work by exploring and providing feedback on the data interface which we are building.
 
-[Further details](https://www.ldaca.edu.au/pre-als-activities) (including full program)
+[Program](ALS2022-program.pdf)
 
 <br>
 

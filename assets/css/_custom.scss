@@ -79,7 +79,7 @@ div {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    padding: 10% 0%;
+    padding: 5% 0%;
     background-color: rgba(255,255,255,0.5);
     gap: 10%;
     .flex_item {
@@ -778,4 +778,40 @@ footer hr {
   .footer {
     position: unset;
   }
+}
+
+// 404 Page
+#content-404 {
+  position: absolute;
+  bottom: 60%;
+}
+
+// Designer image grid
+.grid {
+  display: grid;
+  grid-template-columns: calc(66% - 5px) calc(34% - 5px);
+  grid-template-rows:    calc(50% - 5px) calc(50% - 5px);
+  grid-gap: 10px;
+  aspect-ratio: 16 / 9;
+}
+
+.grid .left {
+  grid-column: 1 / 2;
+  grid-row:    1 / span 2;
+}
+
+.grid .upper_right {
+  grid-column: 2 / 2;
+  grid-row:    1 / 2;
+}
+
+.grid .lower_right {
+  grid-column: 2 / 2;
+  grid-row:    2 / 2;
+}
+
+.grid .item img {
+  width:  100%;
+  height: 100%;
+  object-fit: cover;
 }

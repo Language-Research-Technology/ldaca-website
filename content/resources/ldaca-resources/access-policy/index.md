@@ -55,9 +55,7 @@ __Authorization Required__<br>Different levels of implementation:<ol><li>click-t
 
 ## 2. Onboarding Data to LDaCA
 
-In accordance with the Access Policy, LDaCA has an established process for onboarding to LDaCA. Throughout this process, the LDaCA team will work with the Data Steward to develop an effective strategy for managing access, in accordance with relevant legal, moral and ethical considerations applying to that data.
-
-[Data Onboarding Process](/resources/ldaca-resources/data-onboarding-process/)
+In accordance with the Access Policy, LDaCA has an established process for onboarding to LDaCA. Throughout this process, the LDaCA team will work with the Data Steward to develop an effective strategy for managing access, in accordance with relevant legal, moral and ethical considerations applying to that data. Read more about [our data onboarding process.](/resources/ldaca-resources/data-onboarding-process/)
 
 <br>
 
@@ -84,9 +82,7 @@ Some metadata may be specific to a corpus or difficult to map to existing vocabu
 
 A strategy for ongoing access and data management of the collection in LDaCA must be developed in collaboration with the Data Steward. Responsibilities and processes must be clearly outlined specifying that Data Stewards will respond appropriately to access requests, system updates and user feedback. This is key for collections that require access approval on a case-by-case basis and for those collections that may introduce data updates, such as additional data, edits to existing data, transcription, or annotation etc.
 
-Both LDaCA and the Data Steward are jointly responsible for ongoing maintenance of the collection in LDaCA, and updating the Work Plan as needed.
-
-[Data Onboarding Process](/resources/ldaca-resources/data-onboarding-process/)
+Both LDaCA and the Data Steward are jointly responsible for ongoing maintenance of the collection in LDaCA, and updating the Work Plan as needed. Read more about [our ongoing engagement.](/resources/ldaca-resources/data-onboarding-process/#5-ongoing-engagement)
 
 <br>
 

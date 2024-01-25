@@ -8,9 +8,9 @@ description: "Browse the project's upcoming events."
 <br>
 
 [Forthcoming Workshops](#forthcoming-workshops) &emsp;&emsp;
-[Previous Workshops](../previous) &emsp;&emsp;
+[Office Hours](#office-hours)&emsp;&emsp;
 [Webinars](#webinars) &emsp;&emsp;
-[Office Hours](#office-hours)
+[Previous Workshops](#previous-workshops)
 
 <br>
 
@@ -58,7 +58,15 @@ Submit your abstract to: https://forms.gle/bH8aHxkVxsV4cTEM8 by **3 October 2023
 
 <br>
 
-### Previous Webinars {#webinars}
+### Office Hours {#office-hours}
+
+We invite Australian researchers working with linguistics, text analytics, digital and computational methods, social media and web archives, and much more to attend our regular online office hours, jointly hosted with the [Digital Observatory](https://research.qut.edu.au/digitalobservatory/). Bring your technical questions, research problems and rough ideas and get advice and feedback from the combined expertise of our ARDC research infrastructure projects. No question is too small, and even if we don’t know the answer we are likely to be able to point you to someone who does.
+
+These sessions run over Zoom from 2-3pm (Australia/Sydney time) every second Tuesday - [details](https://research.qut.edu.au/digitalobservatory/office-hours/).
+
+<br>
+
+### Webinars {#webinars}
 
 Our webinar series is a joint initiative with the Language Technology and Data Analysis Laboratory ([LADAL](https://slcladal.github.io/index.html)), (School of Languages and Cultures, The University of Queensland).
 
@@ -91,10 +99,4 @@ Keoni Mahelona is the Chief Technical Officer of [Te Hiku Media](https://tehiku.
 
 <br>
 
-### Office Hours {#office-hours}
-
-We invite Australian researchers working with linguistics, text analytics, digital and computational methods, social media and web archives, and much more to attend our regular online office hours, jointly hosted with the [Digital Observatory](https://research.qut.edu.au/digitalobservatory/). Bring your technical questions, research problems and rough ideas and get advice and feedback from the combined expertise of our ARDC research infrastructure projects. No question is too small, and even if we don’t know the answer we are likely to be able to point you to someone who does.
-
-These sessions run over Zoom from 2-3pm (Australia/Sydney time) every second Tuesday - [details](https://research.qut.edu.au/digitalobservatory/office-hours/).
-
-<br>
+### Past Workshops {#past-workshops}
