@@ -80,7 +80,7 @@ div {
     justify-content: center;
     align-items: center;
     padding: 5% 0%;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     gap: 10%;
     .flex_item {
       max-width: 40%;
@@ -99,7 +99,8 @@ div {
   padding: 10% 0%;
 }
 
-.archive-item-description, .archive-item-title {
+.archive-item-description,
+.archive-item-title {
   text-wrap: wrap;
   word-wrap: break-word;
   overflow-wrap: break-word;
@@ -168,7 +169,6 @@ div {
     }
   }
 }
-
 
 @media only screen and (max-width: 960px) {
   #toc-auto {
@@ -321,7 +321,9 @@ $slide-count: 5;
 $c-slides: $water_green, $land_green, $clear_blue, $storm_blue, $sandstone;
 
 // Slide backgrounds (if used, must be same as number of slides, otherwise false)
-$b-slides: url("/SlideshowIMGs/Braille_Reading.jpeg") url("/SlideshowIMGs/About_Project.png") url("/SlideshowIMGs/Speech.jpeg") url("/SlideshowIMGs/Coding_Language.jpeg") url("/SlideshowIMGs/Phonetic_Learning.jpeg");
+$b-slides: url("/SlideshowIMGs/Braille_Reading.jpeg")
+  url("/SlideshowIMGs/about.jpg") url("/SlideshowIMGs/data-migration.jpg")
+  url("/SlideshowIMGs/trove.png") url("/SlideshowIMGs/ldaca-meeting.png");
 //$b-slides: $water_green, $land_green, $clear_blue, $storm_blue, $sandstone;
 
 // Total duration of slide animation
@@ -336,8 +338,8 @@ $slide-overflow: auto;
 
 // Slide content colours
 $c-black: #000;
-$c-grey: #AAA;
-$c-light-grey: #DDD;
+$c-grey: #aaa;
+$c-light-grey: #ddd;
 
 // Other colours
 $c-background: #101010;
@@ -352,7 +354,7 @@ $c-label-text: $c-grey;
 
 .slideshow {
   width: 100%;
-  height: 30%;
+  height: 60%;
   border: 0px;
   padding: 0px;
   margin: 0 auto;
@@ -371,29 +373,29 @@ input {
   opacity: 0;
   top: -25px;
   counter-increment: slide;
-    
+
   &:checked + .slide {
     transform: translateX(0px);
     transition: transform #{$animation-duration / 2} ease-in-out;
-    
+
     .slide__content {
       width: 100%;
       display: block;
-      
+
       &:before {
-        color: #FFF;
+        color: #fff;
         position: absolute;
         top: 10px;
         right: 10px;
-        content: counter(slide) ' of #{$slide-count}';
+        content: counter(slide) " of #{$slide-count}";
         padding: 5px 10px;
-        background-color: rgba(255,255,255,0.1);
+        background-color: rgba(255, 255, 255, 0.1);
         border-radius: 4px;
         text-align: right;
       }
     }
   }
-  
+
   @for $i from 1 through $slide-count {
     &:checked:nth-of-type(#{$i}) ~ nav label:nth-child(#{$i}) {
       color: white;
@@ -420,7 +422,7 @@ input {
   max-width: 50%;
   background-size: $slide-width $slide-height;
   transition: transform #{$animation-duration / 2} ease-in-out;
-  
+
   &__content {
     box-sizing: border-box;
     height: 100%;
@@ -435,12 +437,14 @@ input {
     animation-iteration-count: 1;
     opacity: 1;
   }
-  
+
   @if $b-slides {
     $i: 2;
     @each $slide in $b-slides {
-      &__html { display: none; }
-      
+      &__html {
+        display: none;
+      }
+
       &:nth-child(#{$i}) {
         background: $slide;
         background-repeat: no-repeat;
@@ -454,7 +458,6 @@ input {
       $i: $i + 2;
     }
   } @else {
-    
     &__html {
       @include slide-popout;
     }
@@ -471,7 +474,7 @@ nav {
   overflow: auto;
   background-size: 100%;
   height: 60px;
-  background: linear-gradient(to bottom, rgba(0,0,0,0), $c-background 10%)
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), $c-background 10%);
 }
 
 label {
@@ -490,13 +493,13 @@ label {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  
+
   &:hover {
     cursor: pointer;
-    color: #FFF;
-    border-bottom: solid 4px #FFF;
+    color: #fff;
+    border-bottom: solid 4px #fff;
   }
-  
+
   $i: 1;
   @each $slide in $c-slides {
     &:nth-child(#{($i)}) {
@@ -531,7 +534,8 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
   box-shadow: none;
 }
 
-.menu__item, .menu__list {
+.menu__item,
+.menu__list {
   height: 100%;
 }
 
@@ -556,17 +560,15 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
   border: 0;
 }
 
-
 .menu__list .menu__item .submenu__list {
   visibility: hidden;
   opacity: 0;
   display: none;
   position: fixed;
   z-index: 100;
-  transition: all 0.5s ease; 
-  overflow: visible; 
+  transition: all 0.5s ease;
+  overflow: visible;
 }
-
 
 .menu__list .menu__item:hover > .submenu__list,
 .menu__list .menu__item:focus-within > .submenu__list,
@@ -575,7 +577,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
   visibility: visible;
   opacity: 1;
   display: block;
-  overflow: visible; 
+  overflow: visible;
 }
 
 .menu__link:hover {
@@ -600,14 +602,16 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .menu__list--transition {
-  transition: visibility 0.15s ease, transform 0.15s ease, -webkit-transform 0.15s ease;
+  transition: visibility 0.15s ease, transform 0.15s ease,
+    -webkit-transform 0.15s ease;
 }
 
 @media screen and (min-width: 767px) {
   .menu__btn {
     display: none;
   }
-  .menu__list, .js .menu__list {
+  .menu__list,
+  .js .menu__list {
     position: relative;
     display: -webkit-flex;
     display: flex;
@@ -617,7 +621,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
     border: 0;
     -webkit-transform: none;
     transform: none;
-	}
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -714,7 +718,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 .footer .content {
   display: flex;
   justify-content: space-evenly;
-  margin: .5rem;
+  margin: 0.5rem;
 }
 
 .footer .content p {
@@ -729,7 +733,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
   [theme="light"] {
     color: black;
   }
-  }
+}
 
 .footer .content a:hover {
   border-bottom: 1px solid black;
