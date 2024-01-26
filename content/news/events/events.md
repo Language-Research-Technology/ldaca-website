@@ -7,7 +7,7 @@ draft: false
 [Forthcoming workshops](#forthcoming-workshops) &emsp;&emsp;
 [Previous workshops](../previous) &emsp;&emsp;
 [Webinars](#webinars) &emsp;&emsp;
-[Office Hours](#office-hours)
+[Advice for researchers](#advice)
 
 ### Forthcoming workshops {#forthcoming-workshops}
 
@@ -49,7 +49,6 @@ Submit your abstract to: https://forms.gle/bH8aHxkVxsV4cTEM8 by **3 October 2023
 
 **[Details and Registration](https://www.eventbrite.com.au/e/hass-and-indigenous-rdc-summer-school-tickets-753040463297)**
 
-
 ### Previous Webinars {#webinars}
 
 Our webinar series is a joint initiative with the Language Technology and Data Analysis Laboratory ([LADAL](https://slcladal.github.io/index.html)), (School of Languages and Cultures, The University of Queensland).
@@ -73,8 +72,8 @@ Barbara McGillivray is a Turing Research Fellow at [The Alan Turing Institute](h
 
 Keoni Mahelona is the Chief Technical Officer of [Te Hiku Media](https://tehiku.nz/) where he is a part of the team developing the Kaitiakitanga Licence. This licence seeks to balance the importance of publicly accessible data with the reality that Indigenous Peoples may not have access to the resources that enable them to benefit from public data. By simply opening access to data and knowledge, Indigenous Peoples could be further colonised and taken advantage of in a digital, modern world. Therefore Keoni is committed to devising data governance regimes which enable Indigenous Peoples to reclaim and maintain sovereignty over Indigenous data.
 
-### Office Hours {#office-hours}
+### Advice for researchers {#advice}
 
-We invite Australian researchers working with linguistics, text analytics, digital and computational methods, social media and web archives, and much more to attend our regular online office hours, jointly hosted with the [Digital Observatory](https://research.qut.edu.au/digitalobservatory/). Bring your technical questions, research problems and rough ideas and get advice and feedback from the combined expertise of our ARDC research infrastructure projects. No question is too small, and even if we don’t know the answer we are likely to be able to point you to someone who does.
+LDaCA has previously run regular online office hours, jointly hosted with the [Digital Observatory](https://research.qut.edu.au/digitalobservatory/). This activity will not continue in 2024, but together with ADO we are developing an alternative model to help Australian researchers working with linguistics, text analytics, digital and computational methods, social media and web archives.
 
-These sessions run over Zoom from 2-3pm (Australia/Sydney time) every second Tuesday - [details](https://research.qut.edu.au/digitalobservatory/office-hours/).
+In the meantime, you are welcome to contact us by [email](mailto:ldaca@uq.edu.au) at ldaca@uq.edu.au with your technical questions, research problems and rough ideas to get advice and feedback from the combined expertise of our ARDC research infrastructure projects. No question is too small, and even if we don’t know the answer we are likely to be able to point you to someone who does.
