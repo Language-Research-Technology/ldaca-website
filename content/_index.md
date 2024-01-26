@@ -24,15 +24,17 @@
         <h1>What's new?</h1>
         <h4></h4>
         <ul>
-        <h3><li>HASS and Indigenous Research Data Commons Receives $25 Million (<a href = "https://ardc.edu.au/article/hass-and-indigenous-research-data-commons-receives-25-million/">read more....</a>)</li></h3>
-        <h3><li>LDaCA will launch in Melbourne, February 6 2024 (<a href = "./news/events/">read more....</a>)</li></h3>
+        <h3><li>Co-Design Workshops for the HASS and Indigenous Research Data Commons (<a href = "https://ardc.edu.au/event/co-design-workshops-for-the-hass-and-indigenous-research-data-commons/">read more....</a>)</li></h3>
+        <h3><li>Computational Skills Summer School 2024 in Naarm/Melbourne, February 2024  (<a href = "./news/events/">read more....</a>)</li></h3>
         </ul>
       </div>  
     </div>
   </div>
 
   <!-- Slide 2 -->
-  <input type="radio" id="slideCheckbox2" name="slide"></input>
+
+<input type="radio" id="slideCheckbox2" name="slide"></input>
+
   <div class="slide">
     <!-- <a href="./about/"> -->
       <div class="slide__content">
@@ -43,7 +45,9 @@
   </div>
 
   <!-- Slide 3 -->
-  <input type="radio" id="slideCheckbox3" name="slide"></input>
+
+<input type="radio" id="slideCheckbox3" name="slide"></input>
+
   <div class="slide">
       <div class="slide__content">
         <h1>Resources</h1>
@@ -52,7 +56,9 @@
   </div>
 
   <!-- Slide 4 -->
-  <input type="radio" id="slideCheckbox4" name="slide"></input>
+
+<input type="radio" id="slideCheckbox4" name="slide"></input>
+
   <div class="slide">
     <div class="slide__content">
       <h1>News</h1>
@@ -110,7 +116,5 @@ LDaCA acknowledges Traditional Owners of Country throughout Australia and recogn
 
 {{</raw>}}
 
-The Language Data Commons of Australia (LDaCA) project received investment
-([1](https://doi.org/10.47486/DP768) and [2](https://doi.org/10.47486/HIR001))
-from the Australian Research Data Commons (ARDC). The ARDC is funded by the
-National Collaborative Research Infrastructure Strategy (NCRIS).
+The Language Data Commons of Australia (LDaCA) project receives [investment](https://doi.org/10.47486/HIR001)
+from the Australian Research Data Commons (ARDC) through its [HASS and Indigenous Research Data Commons](https://ardc.edu.au/hass-and-indigenous-research-data-commons/) program. The ARDC is funded by the National Collaborative Research Infrastructure Strategy (NCRIS).

@@ -2,7 +2,7 @@
 title: "Fieldwork in Papua New Guinea"
 date: 2023-11-13T15:55:01+11:00
 draft: false
-description: "Harriet Sheppard's account of collecting data on a remote island in Papua New Guinea."
+description: "LDaCA team member Harriet Sheppard describes collecting data on a remote island in Papua New Guinea."
 ---
 
 by [Harriet Sheppard](https://orcid.org/0000-0002-8525-5699)

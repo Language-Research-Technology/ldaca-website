@@ -2,7 +2,7 @@
 title: "Events"
 date: 2023-10-18T11:12:10+10:00
 draft: false
-description: "Browse the project's upcoming events." 
+description: "Browse the project's upcoming events."
 ---
 
 <br>
@@ -17,6 +17,26 @@ description: "Browse the project's upcoming events."
 ### Forthcoming Workshops {#forthcoming-workshops}
 
 <br>
+
+#### HASS and Indigenous Research Data Commons Computational Skills Summer School 2024
+
+The 2024 HASS and Indigenous RDC Computational Skills Summer School aims to empower participants with practical knowledge, build digital skills, and help inspire new research outcomes within these research communities.
+
+Participation is aimed at researchers in the humanities, arts, social sciences and Indigenous fields of study. Themed streams will explore geosocial and geospatial data applications in humanities, arts, social sciences, and Indigenous research, using ARDC tools and services. You’ll gain experience through seminars and workshops and will be guided through hands-on use of free tools and platforms provided by the ARDC and its partners.
+
+For the ARDC Summer School, IDN and LDaCA will lead a stream on the governance, management and usage of data, especially Indigenous data.
+
+- A series of seminars will focus on sustainability, storage, usability and description of data.
+- A case study will highlight how data is being managed for long-term access
+- A hands-on session will use Python code notebooks to analyse data.
+
+The case study and hands-on session will focus on geospatial aspects of data. Prior coding knowledge is not required for the hands-on session.
+
+**When**: 7-9 February 2024
+
+**Where**: Naarm/Melbourne, Monash University Caulfield Campus
+
+**[Details and Registration](https://www.eventbrite.com.au/e/hass-and-indigenous-rdc-summer-school-tickets-753040463297)**
 
 #### Workshop on immigrant language corpora in Australia
 
