@@ -12,7 +12,7 @@ description: Find answers to the most commonly asked questions about the project
     <b>What is LDaCA?</b>
     </summary>
   <p>
-    The Language Data Commons of Australia is research infrastructure which aims to bring people, both academic and non-academic users, and data together.The data is nationally significant collections which represent language use in Australia, now and in our history. (See also ‘<a href="#what-is-a-data-commons">What is a data commons</a>?')
+    The Language Data Commons of Australia is research infrastructure which aims to bring people, both academic and non-academic users, and data together. The data is nationally significant collections which represent language use in Australia, now and in our history. (See also ‘<a href="#what-is-a-data-commons">What is a data commons</a>?')
   </p>
 </details>
 
@@ -22,8 +22,7 @@ description: Find answers to the most commonly asked questions about the project
     </summary>
     <p>
         Metadata is the information that defines and describes data.
-        It is often referred to as data about data or information about data because it provides data users with information about the purpose, processes, and methods involved in the data collection. (Source: Australian Bureau of Statistics > <a href="https://www.abs.gov.au/statistics/understanding-statistics/statistical-terms-and-concepts/metadata">
-    Metadata</a>).
+        It is often referred to as data about data or information about data because it provides data users with information about the purpose, processes, and methods involved in the data collection. (Source: Australian Bureau of Statistics > <a href="https://www.abs.gov.au/statistics/understanding-statistics/statistical-terms-and-concepts/metadata" target="_blank">Metadata</a>). See also the <a href="../../resources/ldaca-resources/metadata/">metadata page on this site</a>.
     </p>
 </details>
 
