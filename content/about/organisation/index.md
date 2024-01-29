@@ -28,8 +28,7 @@ from the Australian Research Data Commons (ARDC) through its [HASS and Indigenou
 
 # Advisory/Consultative Partners
 
-- [PARADISEC](https://www.paradisec.org.au)
-- [ARC Centre of Excellence for the Dynamics of Language](https://legacy.dynamicsoflanguage.edu.au/)
+- [Pacific and Regional Archive for Digital Sources in Endangered Cultures](https://www.paradisec.org.au) (PARADISEC)
 - [Australian Digital Observatory](https://www.digitalobservatory.net.au/)
 - [CLARIN](https://www.clarin.eu)
 
