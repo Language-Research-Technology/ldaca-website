@@ -71,7 +71,7 @@ description: Find answers to the most commonly asked questions about the project
         While the FAIR principles are about making it easier to share and reuse data, the CARE principles ensure that data is used ethically.
     </p>
     <p>
-         We have more information about these principles on our <a href="https://www.ldaca.edu.au/background/principles/">website</a> and in our <a href="https://www.ldaca.edu.au/posts/fair-and-care/">blog</a>.
+         We have more information about these principles on our <a href="https://www.ldaca.edu.au/about/principles/">website</a> and in our <a href="https://www.ldaca.edu.au/news/posts/fair-and-care/">blog</a>.
     </p>
 
 </details> 
