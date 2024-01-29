@@ -388,8 +388,8 @@ Our webinar series is a joint initiative with the Language Technology and Data A
 
 ### Advice for researchers {#advice}
 
-LDaCA has previously run regular online office hours, jointly hosted with the [Digital Observatory](https://research.qut.edu.au/digitalobservatory/). This activity will not continue in 2024, but together with ADO we are developing an alternative model to help Australian researchers working with linguistics, text analytics, digital and computational methods, social media and web archives.
+LDaCA has previously run regular online office hours, jointly hosted with the [Digital Observatory](https://research.qut.edu.au/digitalobservatory/) (DO). This activity will not continue in 2024, but LDaCA and DO are developing an alternative model to help Australian researchers working with linguistics, text analytics, digital and computational methods, social media and web archives.
 
-In the meantime, you are welcome to contact us by [email](mailto:ldaca@uq.edu.au) at ldaca@uq.edu.au with your technical questions, research problems and rough ideas to get advice and feedback from the combined expertise of our ARDC research infrastructure projects. No question is too small, and even if we don’t know the answer we are likely to be able to point you to someone who does.
+In the meantime, you are welcome to contact us by email at [ldaca@uq.edu.au](mailto:ldaca@uq.edu.au) with your technical questions, research problems and rough ideas to get advice and feedback from the combined expertise of our ARDC research infrastructure projects. No question is too small, and even if we don’t know the answer we are likely to be able to point you to someone who does.
 
 <br>
