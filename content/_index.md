@@ -39,7 +39,7 @@
     <!-- <a href="./about/"> -->
       <div class="slide__content">
         <h1>About</h1>
-        <h3>Learn more <a href=".about/">about LDacA</a>, what it does and who is involved in the project.</h3>
+        <h3>Learn more <a href="about/">about LDacA</a>, what it does and who is involved in the project.</h3>
       </div> 
     <!-- </a> -->
   </div>
