@@ -4,14 +4,14 @@ date: 2024-01-10T09:00:00+10:00
 draft: false
 ---
 
-In 2018, when he was working at The University of Queensland's Research Computing Centre, Marco Fahmi initiated a [Graduate Digital Research Fellowship](https://rcc.uq.edu.au/article/2018/07/six-students-become-uq%E2%80%99s-first-graduate-digital-research-fellows) program focused on researchers in the Hunmanities and Social Sciences (HASS). The program has run in some years since then, hosted by the RCC ([2019](https://rcc.uq.edu.au/article/2019/03/second-round-graduate-digital-research-fellows-announced)) and also by the UQ Graduate School ([2020](https://rcc.uq.edu.au/article/2019/11/apply-now-uq-graduate-digital-research-fellowship-2020)).
+In 2018, when he was working at The University of Queensland's (UQ) Research Computing Centre ([RCC](https://rcc.uq.edu.au/)), Marco Fahmi (former LDaCA Project Manager) initiated a [Graduate Digital Research Fellowship](https://rcc.uq.edu.au/article/2018/07/six-students-become-uq%E2%80%99s-first-graduate-digital-research-fellows) (GDRF) program focused on researchers in the Humanities and Social Sciences (HASS). The program has run in some years since then, hosted by the RCC ([2019](https://rcc.uq.edu.au/article/2019/03/second-round-graduate-digital-research-fellows-announced)) and also by the UQ Graduate School ([2020](https://rcc.uq.edu.au/article/2019/11/apply-now-uq-graduate-digital-research-fellowship-2020)).
 
 In 2023, the program ran again, this time under the auspices of the Australian Text Analytics Program ([ATAP](https://www.atap.edu.au)). Two UQ staff members, [Sam Hames](https://languages-cultures.uq.edu.au/profile/8379/sam-hames) (Postdoctoral Research Fellow in Computational Humanities) and [Simon Musgrave](https://auslanguage.net/simon-musgrave/) (Engagement Lead for ATAP and for the [Language Data Commons of Australia](https://www.ldaca.edu.au)) led the program, and four students participated.
 
 The program supports research students to explore the possibilities of digital scholarship, particularly in HASS. Our Fellows are students undertaking extended research projects who spent 12-15 weeks learning about digital and computational skills in order to enhance their current research/thesis topic or to work on an independent digital project. They explored digital research methods in areas including
 
 - Computational analysis of text
-- Creating new software tools to support their specific research area
+- Creation of new software tools to support their specific research area
 - Social media analytics
 - Assessment and analysis of digital environments including mobile apps
 - Online games as social and cultural objects
@@ -30,7 +30,7 @@ In Eve's words:
 
 > I cannot speak highly enough of Simon and Sam. They enthusiastically share their domains of knowledge, but also engage with us about our own work. To have access to experts willing to talk through current projects, future scoping, frustrations, and wild ideas is incredibly valuable.
 
-> Its easy to forget how much of our research work happens in the digital space. It's not just the data, it's how we interface with it. The GDRF taught me to think differently about how I treat my research workflow at almost every point.
+> It's easy to forget how much of our research work happens in the digital space. It's not just the data, it's how we interface with it. The GDRF taught me to think differently about how I treat my research workflow at almost every point.
 
 #### Mengyan (Kelly) Hou (UQ, Electrical Engineering and Computer Science):
 
@@ -38,7 +38,7 @@ The core of Kelly's PhD project is designing an app to support young people who 
 
 #### Christina Maxwell (UQ, Psychology):
 
-Christina's research investigates where cisgender women create the boundaries for ‘womanhood’ in relation to transgender women within the context of feminist social movements. In her work as Fellow, Christina looked at whether social media data, in this case from Twitter, could be another source of data to investigate the boundary creation issue. Similar to Kelly, Christina's work involved considering methodological issues: what methods for analysing texts could usefully be applied to the Twitter data? It is exciting for all of us involved in the program that Christina (with co-authors) presented this research to the [SASP-ACPID Conference 2023](https://sasp-acpid.squarespace.com/). To quote the abstract for that presentation: "As both anti-inclusion and pro-inclusion feminists are increasingly turning to social media to communicate their messages, we will collect data from Twitter to map out each movement online and how they position themselves and their goals in relation to the inclusion of transgender women. This exploratory mixed-methods project will use topic modelling, thematic analysis, and Linguistic Inquiry and Word Count...".
+Christina's research investigates where cisgender women create the boundaries for ‘womanhood’ in relation to transgender women within the context of feminist social movements. In her work as a Fellow, Christina looked at whether social media data, in this case from Twitter, could be another source of data to investigate the boundary creation issue. Similar to Kelly, Christina's work involved considering methodological issues: what methods for analysing texts could usefully be applied to the Twitter data? It is exciting for all of us involved in the program that Christina (with co-authors) presented this research to the [SASP-ACPID Conference 2023](https://sasp-acpid.squarespace.com/). To quote the abstract for that presentation: "As both anti-inclusion and pro-inclusion feminists are increasingly turning to social media to communicate their messages, we will collect data from Twitter to map out each movement online and how they position themselves and their goals in relation to the inclusion of transgender women. This exploratory mixed-methods project will use topic modelling, thematic analysis, and Linguistic Inquiry and Word Count...".
 
 In Christina's words:
 
