@@ -8,7 +8,7 @@ You can contact the Language Data Commons of Australia by email at [ldaca@uq.edu
 
 Our logo was designed by Otis Carmichael. [Read more](/designer/) about Otis and the ideas behind his design.
 
-We share a [Twitter account](https://twitter.com/LDaCA_Program) with the [Australian Text Analytics Platform](https://www.atap.edu.au):<br>
+We have a page on [LinkedIn](https://www.linkedin.com/company/ldaca/) and we share a [Twitter account](https://twitter.com/LDaCA_Program) with the [Australian Text Analytics Platform](https://www.atap.edu.au):<br>
 
 {{< raw >}}
 
