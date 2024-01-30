@@ -22,7 +22,7 @@ We have a page on [LinkedIn](https://www.linkedin.com/company/ldaca/) and we sha
     <div class="twitter flex_item">
         <a class="twitter-timeline"
             href="https://twitter.com/LDaCA_Program"
-            data-height="1000"
+            data-height="600"
             data-width="600"
             data-chrome="nofooter noborders">
             Tweets from https://twitter.com/LDaCA_Program
