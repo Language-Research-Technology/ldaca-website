@@ -18,31 +18,51 @@ description: "Browse the project's upcoming events."
 
 <br>
 
-#### HASS and Indigenous Research Data Commons Computational Skills Summer School 2024
+#### Language Data Commons of Australia – Co-Design Workshops
 
-The 2024 HASS and Indigenous RDC Computational Skills Summer School aims to empower participants with practical knowledge, build digital skills, and help inspire new research outcomes within these research communities.
+The Australian Research Data Commons (ARDC) invites the research community to join 2 workshops to co-design a national research infrastructure program that will support the Language Data Commons of Australia.
 
-Participation is aimed at researchers in the humanities, arts, social sciences and Indigenous fields of study. Themed streams will explore geosocial and geospatial data applications in humanities, arts, social sciences, and Indigenous research, using ARDC tools and services. You’ll gain experience through seminars and workshops and will be guided through hands-on use of free tools and platforms provided by the ARDC and its partners.
+We will be holding 2 open co-design workshops to better understand the current challenges around establishing the Language Data Commons of Australia. We will discuss the investment opportunity that ARDC has identified, with the aim of learning:
 
-For the ARDC Summer School, IDN and LDaCA will lead a stream on the governance, management and usage of data, especially Indigenous data.
+- what outcomes and developments would be of most benefit
+- what will be both valuable and feasible
+- how our investments can align with other activity in the sector.
 
-- A series of seminars will focus on sustainability, storage, usability and description of data.
-- A case study will highlight how data is being managed for long-term access
-- A hands-on session will use Python code notebooks to analyse data.
+Workshop participants are expected to actively participate in discussions. We encourage participants to attend both workshops if possible. A summary of the discussions will be made available after each workshop.
 
-The case study and hands-on session will focus on geospatial aspects of data. Prior coding knowledge is not required for the hands-on session.
+**When**: Workshop 1: February 22 2024, 2PM- 4PM (AEDT); Workshop 2: March 7 2024, 1PM-3PM (AEDT)
 
-**When**: 7-9 February 2024
+**Where**: Online
 
-**Where**: Naarm/Melbourne, Monash University Caulfield Campus
-
-**[Details and Registration](https://www.eventbrite.com.au/e/hass-and-indigenous-rdc-summer-school-tickets-753040463297)**
+**[Details and Registration](https://www.eventbrite.com.au/e/language-data-commons-of-australia-co-design-workshops-tickets-802153060397)**
 
 <br>
 
 ### Previous Workshops {#previous-workshops}
 
 {{<raw>}}
+
+<details>
+    <summary>
+        <b>HASS and Indigenous Research Data Commons Computational Skills Summer School 2024</b>
+    </summary>
+    <p>
+    The 2024 HASS and Indigenous RDC Computational Skills Summer School aimed to empower participants with practical knowledge, build digital skills, and help inspire new research outcomes within these research communities.</p>
+
+    <p>Participation wass aimed at researchers in the humanities, arts, social sciences and Indigenous fields of study. Themed streams explored geosocial and geospatial data applications in humanities, arts, social sciences, and Indigenous research, using ARDC tools and services. Participants gained experience through seminars and workshops and were guided through hands-on use of free tools and platforms provided by the ARDC and its partners.</p>
+
+    <p>For the ARDC Summer School, IDN and LDaCA led a stream on the governance, management and usage of data, especially Indigenous data.</p>
+    <ul>
+    <li>A series of seminars will focus on sustainability, storage, usability and description of data.</li>
+    <li>A case study will highlight how data is being managed for long-term access.</li>
+    <li>A hands-on session will use Python code notebooks to analyse data.</li>
+
+</ul>
+<p>The case study and hands-on session will focus on geospatial aspects of data. Prior coding knowledge is not required for the hands-on session.</p>
+
+<p><b><a href="https://ardc.edu.au/event/hass-and-indigenous-rdc-summer-school-2024/" target="_blank">More information</a></b></p>
+
+</details>
 
 <details>
     <summary>
