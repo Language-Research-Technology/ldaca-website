@@ -21,7 +21,7 @@ from the Australian Research Data Commons (ARDC) through its [HASS and Indigenou
 - **Monash University**: [Associate Professor Louisa Willoughby](https://research.monash.edu/en/persons/louisa-willoughby)
 - **University of Melbourne**: [Associate Professor Nick Thieberger](https://findanexpert.unimelb.edu.au/profile/18278-nick-thieberger)
 - **University of Sydney**: [Professor Monika Bednarek](https://www.sydney.edu.au/arts/about/our-people/academic-staff/monika-bednarek.html) (Sydney Corpus Lab)
-- **AARNet**
+- **AARNet**: [Adam Bell](https://www.linkedin.com/in/adamjohnbell/)
 - **First Languages Australia**: [Beau Williams](https://www.firstlanguages.org.au/about)
 
 <br>
