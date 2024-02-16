@@ -27,5 +27,6 @@ Work is under way to make data from other earlier projects accessible through LD
 
 - Datasets from [The Australian National Corpus](https://www.ausnc.org.au) not listed above (Monash Corpus of English, Griffith Corpus of Spoken Australian English)
 - [AusTalk](https://researchers.mq.edu.au/en/publications/austalk-an-audio-visual-corpus-of-australian-english)
+- [Corpus of Australian English as a Second Language](https://datacommons.anu.edu.au/DataCommons/rest/display/anudc:6272) (AusESL)
 
 <br>
