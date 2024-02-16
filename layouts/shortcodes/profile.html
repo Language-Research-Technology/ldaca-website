@@ -1,7 +1,8 @@
 {{ $id := .Get "id" }} {{ $tooltip := (index .Site.Data.profiles $id ).biog }}
-<a
-  href="https://orcid.org/0000-0002-8525-5699"
-  title="{{ $tooltip }}"
-  target="_blank"
+{{ $href := (index .Site.Data.profiles $id ).external_link }} {{ if $href }}
+<a href="{{ $href }}" title="{{ $tooltip }}" target="_blank"
   >{{ (index .Site.Data.profiles $id).fullname }}</a
 >
+{{ else }}
+<a title="{{ $tooltip }}">{{ (index .Site.Data.profiles $id).fullname }}</a>
+{{ end}}

@@ -1,0 +1,9 @@
+<table>
+    {{ range .Site.Data.glossary }}
+    <tr>
+      <td><a name="{{ .Name }}"></a><b>{{ .title }}</b></td></td>
+      <td>{{ .content | markdownify }}</td>
+    </tr>
+    {{ end }}
+  </table>
+  
