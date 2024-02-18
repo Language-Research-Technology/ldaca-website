@@ -4,5 +4,5 @@
   >{{ (index .Site.Data.profiles $id).fullname }}</a
 >
 {{ else }}
-<a title="{{ $tooltip }}">{{ (index .Site.Data.profiles $id).fullname }}</a>
+<b title="{{ $tooltip }}">{{ (index .Site.Data.profiles $id).fullname }}</b>
 {{ end}}

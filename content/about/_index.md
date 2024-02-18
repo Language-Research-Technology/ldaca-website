@@ -16,7 +16,7 @@ To accomplish these goals, LDaCA is:
 
 - **Developing a comprehensive language data access policy framework**
 
-  > LDaCA is establishing governance structures guided by FAIR and CARE principles which will ensure that the legal rights and ethical concerns of the providers of data are respected.
+  > LDaCA is establishing governance structures guided by FAIR and {{< glossary_link id="care" >}} principles which will ensure that the legal rights and ethical concerns of the providers of data are respected.
 
 - **Developing shared technical infrastructure and standards across institutions**
 
