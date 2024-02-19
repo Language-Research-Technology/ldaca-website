@@ -1,0 +1,4 @@
+Name: "object"
+"title": "Object"
+"short_description": "A single resource or a group of tightly related resources that record a communicative event."
+"content": "A single resource or a group of tightly related resources that record a communicative event; for example, a dialogue or session in a speech study, a work (document) in a written corpus."
