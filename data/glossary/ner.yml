@@ -1,5 +1,5 @@
 Name: "ner"
 "title": "NER"
 "short_description": "Named-Entity Recognition"
-"content": "Named-Entity Recognition. NER locates and classifies named entities in unstructured text into pre-defined categories such as person names, organisations and locations."
+"content": "Named-Entity Recognition. NER locates and classifies named entities in unstructured text into predefined categories such as person names, organisations and locations."
 "external_link": 
