@@ -22,9 +22,9 @@ Glottolog is an alternative catalogue of the world's languages, language familie
 
 <br>
 
-### [Austlang](https://collection.aiatsis.gov.au/austlang/about)
+### [AustLang](https://collection.aiatsis.gov.au/austlang/about)
 
-AustLang provides a controlled vocabulary of persistent identifiers, a thesaurus of languages and peoples, and information about Aboriginal and Torres Strait Islander languages which has been assembled from referenced sources. Alphanumeric codes are used as persistent identifiers, while associated text strings are changeable and can reflect community preferences (including alternative names and spellings). In Austlang, Warlpiri has two codes: **C15** for the language in general, and **C15.1** for the variety named as Wakirti Warlpiri. (French is not covered by Austlang.)
+AustLang provides a controlled vocabulary of persistent identifiers, a thesaurus of languages and peoples, and information about Aboriginal and Torres Strait Islander languages which has been assembled from referenced sources. Alphanumeric codes are used as persistent identifiers, while associated text strings are changeable and can reflect community preferences (including alternative names and spellings). In AustLang, Warlpiri has two codes: **C15** for the language in general, and **C15.1** for the variety named as Wakirti Warlpiri. (French is not covered by AustLang.)
 
 <br>
 
@@ -37,13 +37,13 @@ Kala Lagaw Ya is a language spoken in the Torres Strait Islands. The language ha
 {{< raw >}}
 
 <table>
-<tr><td><b>Name</b></td><td><b>ISO 639</b></td><td><b>Glottolog</b></td><td><b>Austlang</b></td><td><b>Notes</b></td></tr>
-<tr><td>Kala Lagaw Ya</td><td>mwp</td><td>kala1377</td><td>Y1</td><td>Austlang: Marked with symbol ^ which indicates that the name is used to refer to a language and a dialect of the language.</td></tr>
+<tr><td><b>Name</b></td><td><b>ISO 639</b></td><td><b>Glottolog</b></td><td><b>AustLang</b></td><td><b>Notes</b></td></tr>
+<tr><td>Kala Lagaw Ya</td><td>mwp</td><td>kala1377</td><td>Y1</td><td>AustLang: Marked with symbol ^ which indicates that the name is used to refer to a language and a dialect of the language.</td></tr>
 <tr><td>Kalaw Kawaw Ya</td><td></td><td>kala1378</td><td>Y2</td><td>Ethnologue: Kalaw Kawaw is a dialect.</td></tr>
 <tr><td>Kawrareg</td><td></td><td>kawr1234</td><td></td><td></td></tr>
 <tr><td>Kulkalgau Ya</td><td></td><td>kulk1234</td><td>Y4</td><td></td></tr>
 <tr><td>Mabuyag</td><td></td><td>mabu1234</td><td></td><td>Ethnologue: Mabuiag is an alternate name.</td></tr>
-<tr><td>Kawalgaw Ya</td><td></td><td></td><td>Y5</td><td>Austlang: Kaurareg is an alternative name (probably the same as Glottolog kawr1234).</td></tr>
+<tr><td>Kawalgaw Ya</td><td></td><td></td><td>Y5</td><td>AustLang: Kaurareg is an alternative name (probably the same as Glottolog kawr1234).</td></tr>
 </table>
 
 {{< /raw >}}
