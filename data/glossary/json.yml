@@ -1,0 +1,5 @@
+Name: "json"
+"title": "JSON"
+"short_description": "JavaScript Object Notation"
+"content": "JavaScript Object Notation. A data-interchange text format that is completely language independent but uses conventions that are familiar to programmers of the C-family of languages."
+"external_link": "https://www.json.org"
