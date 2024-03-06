@@ -3,19 +3,23 @@
     <tr>
         {{ if .external_link }}
       <td><a name="{{ .Name }}"></a><b>{{ .title }}</b></td></td>
-      <td>{{ .content | markdownify }}<br><a href="{{ .external_link }}" target="_blank">More information</a></td>
+      <td>{{ .content | markdownify }}<br><a href="{{ .external_link }}" target="_blank">More information</a>
       {{ if .cross_ref }}
-      <br><a href="#{{ index .cross_ref 0 }}">{{ index .cross_ref 1 }}</a>
-      {{ end }}
+      <br />
+        {{ range .cross_ref }}
+        See also: <a href="#{{ index . 0 }}">{{ index . 1 }}</a><br />
+        {{ end }}
+      {{ end }}</td>
     </tr>
     {{ else }}
     <td><a name="{{ .Name }}"></a><b>{{ .title }}</b></td></td>
     <td>{{ .content | markdownify }}
-        {{ if .cross_ref }}
-        {{ $text := index .cross_ref 1 }}
-      <br>See also <a href="#{{ index .cross_ref 0 }}">{{ $text }}</a>
-          {{ end }}
-    </td>
+      {{ if .cross_ref }}
+      <br />
+        {{ range .cross_ref }}
+        See also: <a href="#{{ index . 0 }}">{{ index . 1 }}</a><br />
+        {{ end }}
+      {{ end }}</td>
     {{ end }}
     {{ end }}
   </table>

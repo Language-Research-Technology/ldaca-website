@@ -2,4 +2,5 @@ Name: "rdc"
 "title": "RDC"
 "short_description": "Research Data Commons"
 "content": "Research Data Commons."
-"external_link": 
+"external_link":
+"cross_ref": [["ardc", "ARDC"]]

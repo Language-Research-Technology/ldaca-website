@@ -1,0 +1,4 @@
+{{ $id := "test" }} {{ $data := index .Site.Data.glossary $id }} {{ $cross_refs
+:= $data.cross_refs }} {{ range $cross_refs }} See also:
+<a href="#{{ index . 0 }}">{{ index . 1 }}</a><br />
+{{ end }}
