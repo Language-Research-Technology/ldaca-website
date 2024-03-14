@@ -24,7 +24,7 @@
         <h1>What's new?</h1>
         <h4></h4>
         <ul>
-        <h3><li>Co-Design Workshops for the HASS and Indigenous Research Data Commons (<a href = "https://ardc.edu.au/event/co-design-workshops-for-the-hass-and-indigenous-research-data-commons/">read more....</a>)</li></h3>
+        <h3><li>Draft Project Plans for the HASS and Indigenous Research Data Commons Now Open for Feedback (<a href = "https://ardc.edu.au/article/draft-project-plans-for-the-hass-and-indigenous-rdc/" target="_blank">read more....</a>)</li></h3>
         <h3><li>A blog post on our Graduate Digital Research Fellowship program (<a href = "./news/posts/gdrf">read more....</a>)</li></h3>
         </ul>
       </div>  
