@@ -184,7 +184,6 @@ Share this with a friend
                         throw new Error("Failed to copy text (verify caller was in the context of an event handler)");
                     }
                 });
-
             });
         </script> 
 </body></html>
