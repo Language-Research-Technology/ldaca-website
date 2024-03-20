@@ -7,4 +7,4 @@ layout: "root_list"
 description: "Catch up with LDaCA by reading our past newsletters."
 ---
 
-Coming soon - an archive of our previous newsletters.
+An archive of our previous newsletters.

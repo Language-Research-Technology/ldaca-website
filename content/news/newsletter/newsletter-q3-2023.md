@@ -28,7 +28,14 @@ weight: 1
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>LDaCA Newsletter | Quarter 3, 2023</title>
-<style>          img{-ms-interpolation-mode:bicubic;} 
+<style>
+.single .content .table-wrapper>table th, .single .content .table-wrapper>table td {
+	border: none;
+	padding: 0;
+}
+.single .content .table-wrapper>table {margin: 0;}
+.logo {max-width: 60%;} .about {max-width: 40%;}
+img{-ms-interpolation-mode:bicubic;} 
           table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} 
           .mceStandardButton, .mceStandardButton td, .mceStandardButton td a{mso-hide:all !important;} 
           p, a, li, td, blockquote{mso-line-height-rule:exactly;} 
