@@ -2,7 +2,7 @@
 
 <table>
     {{ range .Site.Data.glossary }}
-    <tr>
+    <tr valign="top">
         {{ if .external_link }}
       <td><a name="{{ .Name }}"></a><b>{{ .title }}</b></td></td>
       <td>{{ .content | markdownify }}<br><a href="{{ .external_link }}" target="_blank">More information</a>
