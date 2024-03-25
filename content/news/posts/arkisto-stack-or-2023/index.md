@@ -6,6 +6,8 @@
     categories: ["LDaCA"]
     tags: ["Access"]
     author: Peter Sefton
+    aliases: 
+    - "/posts/arkisto-stack-or-2023/"
     toc:
       enable: true
       auto: true

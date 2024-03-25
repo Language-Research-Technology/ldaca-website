@@ -6,6 +6,8 @@ tags: ["FAIR", "CARE"]
 categories: ["LDaCA"]
 topics: ["Data Use Principles"]
 author: "Simon Musgrave"
+aliases: 
+- "/posts/fair-and-care/"
 ---
 
 <br>

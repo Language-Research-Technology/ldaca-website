@@ -6,6 +6,8 @@
     categories: ["LDaCA"]
     tags: ["Access"]
     author: Peter Sefton
+    aliases: 
+    - "/posts/fair-care-eresearch-2022/"
     toc:
       enable: true
       auto: true

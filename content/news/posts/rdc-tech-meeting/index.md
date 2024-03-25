@@ -5,6 +5,8 @@ draft: false
 categories: ["LDaCA"]
 tags: ["Repositories"]
 author: Peter Sefton
+aliases: 
+- "/posts/rdc-tech-meeting/"
 ---
 
 <br>
