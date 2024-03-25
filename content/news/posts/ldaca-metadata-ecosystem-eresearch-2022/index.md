@@ -23,9 +23,9 @@ This presentation will look at how a Metadata Standard - RO-Crate - with Metadat
 
 [RO-Crate] is a linked-data metadata system which allows discovery metadata (Who, what where) based on the widely adopted Schema.org vocabulary to be seamlessly integrated with more discipline-specific metadata. RO-Crate uses metadata profiles to provide guidance for packaging resources for particular disciplines and purposes.
 
-In this presentation, we will introduce a RO-Crate metadata profile for language data which extends the core RO-Crate standard with new vocabulary terms adapted from pre-linked-data discipline-specific metadata efforts, particularly the Open Language Archives Community (OLAC) standards. The profile has English-language guidance on how to structure collections of resources in a repository with links between them, such that they can be indexed and displayed via APIs and search/browse portals. The profile is also implemented as a series of machine-readable profiles for the Describo Online metadata description system.
+In this presentation, we will introduce a RO-Crate metadata profile for language data which extends the core RO-Crate standard with new vocabulary terms adapted from pre-linked-data discipline-specific metadata efforts, particularly the Open Language Archives Community (OLAC) standards. The profile has English-language guidance on how to structure collections of resources in a repository with links between them, such that they can be indexed and displayed via {{< glossary_link display="APIs" id="api" >}} and search/browse portals. The profile is also implemented as a series of machine-readable profiles for the Describo Online metadata description system.
 
-We will demonstrate current ways of describing items in a variety of languages and modes (spoken, written and signed), from a large set of heterogeneous language resources held by PARADISEC and LDaCA. We will also show how to access them via API calls and a search portal, and how resources may be stored in simple storage systems using the Arkisto platform (a set of standards and principles).
+We will demonstrate current ways of describing items in a variety of languages and modes (spoken, written and signed), from a large set of heterogeneous language resources held by PARADISEC and LDaCA. We will also show how to access them via {{< glossary_link display="API" id="api" >}} calls and a search portal, and how resources may be stored in simple storage systems using the {{< glossary_link display="Arkisto" id="arkisto" >}} platform (a set of standards and principles).
 
 [ro-crate]: https://www.researchobject.org/ro-crate/
 
@@ -111,7 +111,7 @@ For all of the collections we are working with data is discoverable via some kin
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide08.png' alt='' title='Slide: 8' border='1'  width='85%%'/>
 
-The LDaCA services we are building use an API to drive the data portals. The API can be used for direct access with appropriate access control – see [another eResearch presentation](../fair-care-eresearch-2022) which explains this in detail. These screenshots show code notebooks (running in BinderHub on the Nectar cloud) accessing language resources.
+The LDaCA services we are building use an {{< glossary_link display="API" id="api" >}} to drive the data portals. The {{< glossary_link display="API" id="api" >}} can be used for direct access with appropriate access control – see [another eResearch presentation](../fair-care-eresearch-2022) which explains this in detail. These screenshots show code notebooks (running in BinderHub on the Nectar cloud) accessing language resources.
 
 </section>
 
@@ -120,7 +120,7 @@ The LDaCA services we are building use an API to drive the data portals. The API
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide09.png' alt='' title='Slide: 9' border='1'  width='85%%'/>
 
-Having looked at the user-facing products, websites and APIs, we turn our attention to how data is managed on disk.
+Having looked at the user-facing products, websites and {{< glossary_link display="APIs" id="api" >}}, we turn our attention to how data is managed on disk.
 
 In the PARADISEC system, this is achieved by storing files on disk in a simple hierarchy - with metadata and other resources stored together in a directory - this scheme allows for hands-on management of data resources, independently of the software used to serve them.
 
@@ -139,11 +139,11 @@ The UTS team presented on this at [eResearch Australasia 2019](https://ptsefton.
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide10.png' alt='  ' title='Slide: 10' border='1'  width='85%%'/>
 
-For this Research Data Commons work, we are using the Arkisto Platform (introduced [at eResearch 2020](http://ptsefton.com/2020/11/23/Arkisto/index.html)).
+For this Research Data Commons work, we are using the {{< glossary_link display="Arkisto" id="arkisto" >}} Platform (introduced [at eResearch 2020](http://ptsefton.com/2020/11/23/Arkisto/index.html)).
 
-Arkisto aims to ensure the long-term preservation of data independently of code and services, recognizing the ephemeral nature of software and platforms. We know that sustaining software platforms can be hard and aim to make sure that important data assets are not locked up in databases or hard-coded logic of some hard-to-maintain application.
+{{< glossary_link display="Arkisto" id="arkisto" >}} aims to ensure the long-term preservation of data independently of code and services, recognizing the ephemeral nature of software and platforms. We know that sustaining software platforms can be hard and aim to make sure that important data assets are not locked up in databases or hard-coded logic of some hard-to-maintain application.
 
-Inspired by PARADISEC’s approach the Arkisto platform is based on the idea of storing data in simple easy-to-manage file or object storage systems with metadata in an easily readable standard format.
+Inspired by PARADISEC’s approach the {{< glossary_link display="Arkisto" id="arkisto" >}} platform is based on the idea of storing data in simple easy-to-manage file or object storage systems with metadata in an easily readable standard format.
 
 The LDaCA repositories use the Oxford Common File Layout ([OCFL](https://ocfl.io/)) standard which is backed and used by a number of universities and has multiple implementations while PARADISEC data will be migrated to a simpler data storage approach [NOCFL](https://github.com/CoEDL/nocfl-js), which is a single-library implementation, inspired by some of the same aims, but with different implementation choices to avoid data being obfuscated by OCFL’s layout, which is a product of its commitment to immutable, write-once file management.
 
@@ -256,7 +256,7 @@ Before we come back in detail to how RO-Crate works we will discuss the structur
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide21.png' alt=' ' title='Slide: 21' border='1'  width='85%%'/>
 
-Broadly speaking there are two ways that an Arkisto-style repository can be structured and the profile sets out criteria for choosing one of the options.
+Broadly speaking there are two ways that an {{< glossary_link display="Arkisto" id="arkisto" >}}-style repository can be structured and the profile sets out criteria for choosing one of the options.
 
 For small, stable collections of data, an entire collection (often referred to as a ‘corpus’ by linguists) can be stored in a single directory or directory-like structure in an object store.
 
@@ -308,7 +308,7 @@ Once the data is described, we ingest it into a repository, as a set of files on
 - Selecting a notebook
 - Launching Binder
 
-This example notebook explores the collection via the rest API.
+This example notebook explores the collection via the rest {{< glossary_link display="API" id="api" >}}.
 
 <br>
 

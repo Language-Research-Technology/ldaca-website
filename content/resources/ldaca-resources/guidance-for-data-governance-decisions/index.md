@@ -30,7 +30,7 @@ description: "Defines policies, roles, responsibilities and procedures for ongoi
 
 Data governance defines policies, roles, responsibilities and procedures for ongoing use and storage of data, as well as for access to data. Effective data governance maximises sustainability, while ensuring data integrity and protecting research participants. Long-term sustainability requires a data management plan.
 
-This document provides guidance on some components of data governance that are key to a data management plan, including access conditions, licensing, persistent identifiers, and metadata. The principles below are those employed by LDaCA, but they are widely applicable and represent best practice for data governance, in accordance with the {{< glossary_link display="FAIR" id="fair" >}} and {{< glossary_link display="CARE" id="care" >}} principles.
+This document provides guidance on some components of data governance that are key to a data management plan, including {{< glossary_link display="access conditions" id="access-conditions" >}}, licensing, persistent identifiers, and metadata. The principles below are those employed by LDaCA, but they are widely applicable and represent best practice for data governance, in accordance with the {{< glossary_link display="FAIR" id="fair" >}} and {{< glossary_link display="CARE" id="care" >}} principles.
 
 <br>
 
@@ -41,12 +41,12 @@ This document provides guidance on some components of data governance that are k
 
 ## 1. Access Conditions
 
-Access conditions refer to who can access data and what use is permitted. Defining specific conditions for access supports data reusability and the advancement of the scientific endeavour; it also protects the data from misuse.
+{{< glossary_link display="Access conditions" id="access-conditions" >}} refer to who can access data and what use is permitted. Defining specific conditions for access supports data reusability and the advancement of the scientific endeavour; it also protects the data from misuse.
 
-To determine access conditions, the Data Steward must:
+To determine {{< glossary_link display="access conditions" id="access-conditions" >}}, the Data Steward must:
 
 1. understand the legal, moral, and ethical constraints to sharing data, and
-2. prepare a license outlining access conditions.
+2. prepare a license outlining {{< glossary_link display="access conditions" id="access-conditions" >}}.
 
 <br>
 
@@ -143,7 +143,7 @@ In Australia, research ethics are defined in key frameworks such as:
 - [National Statement on Ethical Conduct in Human Research](https://www.nhmrc.gov.au/about-us/publications/national-statement-ethical-conduct-human-research-2007-updated-2018)
 - [AIATSIS Code of Ethics for Aboriginal and Torres Strait Islander Research](https://aiatsis.gov.au/sites/default/files/2020-10/aiatsis-code-ethics.pdf)
 
-Research carried out in Australian universities and similar institutions using public funds and involving human participants must be approved by Human Research Ethics Committees (HRECs). Research ethics proposals outline the conditions for collecting, analysing, sharing, managing, and potentially disposing of research data. A review of the research ethics proposal under which the data was collected and other relevant documents, such as grant agreements, is necessary when determining data access conditions for a collection.
+Research carried out in Australian universities and similar institutions using public funds and involving human participants must be approved by Human Research Ethics Committees (HRECs). Research ethics proposals outline the conditions for collecting, analysing, sharing, managing, and potentially disposing of research data. A review of the research ethics proposal under which the data was collected and other relevant documents, such as grant agreements, is necessary when determining data {{< glossary_link display="access conditions" id="access-conditions" >}} for a collection.
 
 While ethical constraints are often binding, several international frameworks have been developed to further promote data reusability and to address key issues such as Indigenous rights and interests. The {{< glossary_link display="FAIR" id="fair" >}} and {{< glossary_link display="CARE" id="care" >}} principles are widely accepted standards (see [LDaCA principles](/about/principles/) for more information).
 
@@ -156,9 +156,9 @@ The {{< glossary_link display="FAIR" id="fair" >}} principles provide a set of s
 In brief, the four principles are:
 
 1. Findability: Data is easily findable, via persistent identifiers and rich metadata.
-2. Accessibility: Access conditions are clearly defined, and protocols are developed to facilitate authentication and authorisation.
+2. Accessibility: {{< glossary_link display="Access conditions" id="access-conditions" >}} are clearly defined, and protocols are developed to facilitate authentication and authorisation.
 3. Interoperability: Data can be integrated with other data and applications, through standard data formats and compatible metadata vocabularies.
-4. Reusability: Data and metadata are well-described with clear information on provenance and data access conditions in order to optimise future reuse.
+4. Reusability: Data and metadata are well-described with clear information on provenance and data {{< glossary_link display="access conditions" id="access-conditions" >}} in order to optimise future reuse.
 
 <br>
 
@@ -184,7 +184,7 @@ In brief, the four principles are:
 | -------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Does the research ethics proposal (or other relevant documents such as a grant agreement) include data sharing constraints?<ul><li>Yes<li>No | What are the conditions for data management and sharing?<br>List the additional constraints which data access must adhere to as they appear in the project/collection documentation.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | How is participant consent considered in the governance decisions?                                                                           | Consider the following questions.<ul><li>Was informed participant consent documented during data collection?<li>Are there specific constraints for sharing data? In what format? With which audience?<li>Is there a risk of harm, discomfort or inconvenience to the participants by making the data available? (e.g. will public access to the data run the risk of amplifying existing negative stereotypes about the participant or the social group(s) they are identified with, will their personal information be easily deduced/tracked in any way, etc.)<li>What is the protocol for de-identification and the expectations of the participants? Have these been met?                                           |
-| Are the {{< glossary_link display="FAIR" id="fair" >}} principles being upheld?<ul><li>Yes<li>No                                                                                       | Consider some more specific questions:<ul><li>Does the collection have a persistent identifier?<li>Are access conditions clearly defined?<li>Are the data formats widely compatible?<li>Is the metadata detailed and well-described?<li>Is the metadata searchable?<li>Does the metadata use a common metadata schema/vocabulary?<li>How has the collection been used previously?<li>Is there a record of publications and research findings that have used the collection?                                                                                                                                                                                                                                             |
+| Are the {{< glossary_link display="FAIR" id="fair" >}} principles being upheld?<ul><li>Yes<li>No                                                                                       | Consider some more specific questions:<ul><li>Does the collection have a persistent identifier?<li>Are {{< glossary_link display="access conditions" id="access-conditions" >}} clearly defined?<li>Are the data formats widely compatible?<li>Is the metadata detailed and well-described?<li>Is the metadata searchable?<li>Does the metadata use a common metadata schema/vocabulary?<li>How has the collection been used previously?<li>Is there a record of publications and research findings that have used the collection?                                                                                                                                                                                                                                             |
 | Have the {{< glossary_link display="CARE" id="care" >}} principles been considered and implemented?<ul><li>Yes<li>No                                                                   | Consider some more specific questions:<ul><li>How have communities or individuals been involved in data management?<li>How do participants and their communities benefit collectively from the sharing of this data?<li>Do participants and their communities have the authority to make decisions about the governance of the collection?<li>Are relationships with participants and their communities being nurtured?<li>Are the rights and wellbeing of participants and their communities prioritised?<li>Does the data governance plan consider the role of participants and their communities?<li>Does the use of the data reflect community values?<li>What cultural meanings of sensitive content are relevant? |
 
 <br>
@@ -202,9 +202,9 @@ In brief, the four principles are:
 
 ### 1.2 Licensing
 
-Documenting access conditions is key to ensuring appropriate use of the data over time. Transparency and clarity surrounding access conditions also supports the sustainability of the data and reduces the need for the Data Steward to be available to communicate or enforce the access conditions.
+Documenting {{< glossary_link display="access conditions" id="access-conditions" >}} is key to ensuring appropriate use of the data over time. Transparency and clarity surrounding {{< glossary_link display="access conditions" id="access-conditions" >}} also supports the sustainability of the data and reduces the need for the Data Steward to be available to communicate or enforce the {{< glossary_link display="access conditions" id="access-conditions" >}}.
 
-While access conditions can be documented internally in a data management plan, a common and useful mechanism for documenting and managing access is via licensing.
+While a{{< glossary_link display="access conditions" id="access-conditions" >}} can be documented internally in a data management plan, a common and useful mechanism for documenting and managing access is via licensing.
 
 Licensing allows the copyright owner to share the right to access and use the data without forfeiting or transferring the ownership of the copyright of the work. The license sets out the conditions for who can access the data, how it can be used, and what other conditions are required. While licensing is a legal mechanism, it can also be used to uphold other conditions as determined by the Data Steward.
 
@@ -217,7 +217,7 @@ Licensing allows the copyright owner to share the right to access and use the da
 
 | Question                                                                       | Further Information                                                                                                                                                                                                                                                                                    |
 | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Is there an existing license outlining the access conditions?<ul><li>Yes<li>No | If the collection has already been made available, a license may have already been prepared. Avoid duplicating previous work by checking this first.<br>Although it is best practice to have a single license attached to a collection, multiple licenses can exist as long as they are non-exclusive. |
+| Is there an existing license outlining the {{< glossary_link display="access conditions" id="access-conditions" >}}?<ul><li>Yes<li>No | If the collection has already been made available, a license may have already been prepared. Avoid duplicating previous work by checking this first.<br>Although it is best practice to have a single license attached to a collection, multiple licenses can exist as long as they are non-exclusive. |
 
 <br>
 
@@ -245,7 +245,7 @@ Licensing allows the copyright owner to share the right to access and use the da
 
 <br>
 
-While in some cases it may be necessary to write a custom data license, for other collections it may be possible to apply an already-existing license, such as a Creative Commons license. Creative Commons provides a useful option for promoting data reusability while protecting key access conditions.
+While in some cases it may be necessary to write a custom data license, for other collections it may be possible to apply an already-existing license, such as a Creative Commons license. Creative Commons provides a useful option for promoting data reusability while protecting key {{< glossary_link display="access conditions" id="access-conditions" >}}.
 
 The Creative Commons licenses combine four main elements in different ways:
 

@@ -12,7 +12,7 @@ The Australian Text Analytics Platform ([ATAP](https://www.atap.edu.au)) and the
 - What excites you most about the projects? (What motivates you to participate?)
 - What advice would you give someone who wants to get started with text analytics, corpus linguistics, or language data collection?
 
-This blog post features [Catherine Travis](https://researchers.anu.edu.au/researchers/travis-ce) (CT), [Nicholas Evans](https://researchprofiles.anu.edu.au/en/persons/nicholas-evans) (NE), and [Monika Bednarek](https://www.sydney.edu.au/arts/about/our-people/academic-staff/monika-bednarek.html) (MB). Nick was a Chief Investigator in one of the first ARDC-funded projects for LDaCA under the Australian Data Partnerships program. Although he is not a CI on our current project, Nick remains a friend and supporter of LDaCA.
+This blog post features [Catherine Travis](https://researchers.anu.edu.au/researchers/travis-ce) (CT), [Nicholas Evans](https://researchprofiles.anu.edu.au/en/persons/nicholas-evans) (NE), and [Monika Bednarek](https://www.sydney.edu.au/arts/about/our-people/academic-staff/monika-bednarek.html) (MB). Nick was a Chief Investigator in one of the first {{< glossary_link display="ARDC" id="ardc" >}}-funded projects for LDaCA under the Australian Data Partnerships program. Although he is not a CI on our current project, Nick remains a friend and supporter of LDaCA.
 
 The interview was undertaken via email, and we are grateful to Kelvin Lee from the [Sydney Corpus Lab](https://sydneycorpuslab.com/) for his assistance in undertaking the interviews and creating these blog posts.
 
@@ -44,4 +44,4 @@ My role as director of the Sydney Corpus Lab is crucial for these projects. The 
 
 #### Acknowledgments
 
-The Australian Text Analytics Platform program (https://doi.org/10.47486/PL074) and the HASS Research Data Commons and Indigenous Research Capability Program (https://doi.org/10.47486/HIR001) received investment from the Australian Research Data Commons ([ARDC](https://www.ardc.edu.au)). The ARDC is funded by the National Collaborative Research Infrastructure Strategy ([NCRIS](https://www.education.gov.au/ncris)).
+The Australian Text Analytics Platform program (https://doi.org/10.47486/PL074) and the HASS Research Data Commons and Indigenous Research Capability Program (https://doi.org/10.47486/HIR001) received investment from the Australian Research Data Commons ([ARDC](https://www.ardc.edu.au)). The {{< glossary_link display="ARDC" id="ardc" >}} is funded by the National Collaborative Research Infrastructure Strategy ([NCRIS](https://www.education.gov.au/ncris)).

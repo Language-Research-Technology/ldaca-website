@@ -15,9 +15,9 @@ draft: false
 
 The 2024 HASS and Indigenous RDC Computational Skills Summer School aims to empower participants with practical knowledge, build digital skills, and help inspire new research outcomes within these research communities.
 
-Participation is aimed at researchers in the humanities, arts, social sciences and Indigenous fields of study. Themed streams will explore geosocial and geospatial data applications in humanities, arts, social sciences, and Indigenous research, using ARDC tools and services. You’ll gain experience through seminars and workshops and will be guided through hands-on use of free tools and platforms provided by the ARDC and its partners.
+Participation is aimed at researchers in the humanities, arts, social sciences and Indigenous fields of study. Themed streams will explore geosocial and geospatial data applications in humanities, arts, social sciences, and Indigenous research, using {{< glossary_link display="ARDC" id="ardc" >}} tools and services. You’ll gain experience through seminars and workshops and will be guided through hands-on use of free tools and platforms provided by the {{< glossary_link display="ARDC" id="ardc" >}} and its partners.
 
-For the ARDC Summer School, IDN and LDaCA will lead a stream on the governance, management and usage of data, especially Indigenous data.
+For the {{< glossary_link display="ARDC" id="ardc" >}} Summer School, IDN and LDaCA will lead a stream on the governance, management and usage of data, especially Indigenous data.
 
 - A series of seminars will focus on sustainability, storage, usability and description of data.
 - A case study will highlight how data is being managed for long-term access
@@ -76,4 +76,4 @@ Keoni Mahelona is the Chief Technical Officer of [Te Hiku Media](https://tehiku.
 
 LDaCA has previously run regular online office hours, jointly hosted with the [Digital Observatory](https://research.qut.edu.au/digitalobservatory/) (DO). This activity will not continue in 2024, but LDaCA and DO are developing an alternative model to help Australian researchers working with linguistics, text analytics, digital and computational methods, social media and web archives.
 
-In the meantime, you are welcome to contact us by [email](mailto:ldaca@uq.edu.au) at ldaca@uq.edu.au with your technical questions, research problems and rough ideas to get advice and feedback from the combined expertise of our ARDC research infrastructure projects. No question is too small, and even if we don’t know the answer we are likely to be able to point you to someone who does.
+In the meantime, you are welcome to contact us by [email](mailto:ldaca@uq.edu.au) at ldaca@uq.edu.au with your technical questions, research problems and rough ideas to get advice and feedback from the combined expertise of our {{< glossary_link display="ARDC" id="ardc" >}} research infrastructure projects. No question is too small, and even if we don’t know the answer we are likely to be able to point you to someone who does.

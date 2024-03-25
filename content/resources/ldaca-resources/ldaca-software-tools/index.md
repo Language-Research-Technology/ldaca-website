@@ -28,6 +28,6 @@ A variety of LDaCA open-source tools are available at our [GitHub organisation](
 
 ## Data Portal and Access API
 
-[Oni](https://github.com/Language-Research-Technology/oni): A web application that provides indexing, searching and access to secure data repositories following the Arkisto model. This is used to build the [LDaCA Portal](https://data.ldaca.edu.au/search): The online interface of the Language Data Commons of Australia where users can discover and access language collections.
+[Oni](https://github.com/Language-Research-Technology/oni): A web application that provides indexing, searching and access to secure data repositories following the {{< glossary_link display="Arkisto" id="arkisto" >}} model. This is used to build the [LDaCA Portal](https://data.ldaca.edu.au/search): The online interface of the Language Data Commons of Australia where users can discover and access language collections.
 
 <br>

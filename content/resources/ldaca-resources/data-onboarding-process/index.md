@@ -25,7 +25,7 @@ description: "Outlines the standards and processes that support the onboarding o
 
 ## Purpose
 
-This document outlines the standards and processes that support the onboarding of language collections to LDaCA. A successful onboarding will result in the collection being catalogued with LDaCA and made available in accordance with the specified access conditions. To determine if you are ready to onboard a collection, check this data management and governance capacity flowchart.
+This document outlines the standards and processes that support the onboarding of language collections to LDaCA. A successful onboarding will result in the collection being catalogued with LDaCA and made available in accordance with the specified {{< glossary_link display="access conditions" id="access-conditions" >}}. To determine if you are ready to onboard a collection, check this data management and governance capacity flowchart.
 
  <br>
 
@@ -39,7 +39,7 @@ The LDaCA onboarding process is carried out collaboratively between LDaCA and th
 
 1. Initiating contact between LDaCA and Data Stewards.
 2. Establishing a Work Plan.
-3. Determining the data governance and access conditions appropriate for this collection, and applying that in LDaCA.
+3. Determining the data governance and {{< glossary_link display="access conditions" id="access-conditions" >}} appropriate for this collection, and applying that in LDaCA.
 4. Preparing data for onboarding to LDaCA.
 5. Facilitating ongoing engagement.
 
@@ -96,14 +96,14 @@ At this stage, it is important to share key information and resources about the 
 
 ### 3. Determining appropriate governance and access conditions
 
-LDaCA will collaborate with the Data Steward to (i) understand legal, ethical and moral considerations around data accessibility, and (ii) map the access conditions and how these should be implemented.
+LDaCA will collaborate with the Data Steward to (i) understand legal, ethical and moral considerations around data accessibility, and (ii) map the {{< glossary_link display="access conditions" id="access-conditions" >}} and how these should be implemented.
 
 At this stage, the Data Steward must prepare a data access license that clearly outlines the conditions for data access, sharing and reuse. LDaCA makes available varying levels of access, from open access to restricted access.
 A persistent identifier for the collection must also be provided to support sustainable data management practices.
 
 ##### LDaCA will:
 
-1. Provide guidance and support with regards to data governance, persistent identifiers, determining access conditions, and licensing.
+1. Provide guidance and support with regards to data governance, persistent identifiers, determining {{< glossary_link display="access conditions" id="access-conditions" >}}, and licensing.
 
 ##### Data Steward will:
 

@@ -23,17 +23,17 @@ and there.
 
 ![Hass RDC Technical Avisory Group Meeting](Slide00.png)
 
-The Language Data Commons of Australia Data Partnerships (LDaCA) and the Australian Text Analytics Platform (ATAP) are establishing a scalable and flexible language data and analytics commons. These projects will be part of the Humanities and Social Sciences Research Data Commons (HASS RDC).
+The Language Data Commons of Australia Data Partnerships (LDaCA) and the Australian Text Analytics Platform ({{< glossary_link display="ATAP" id="atap" >}}) are establishing a scalable and flexible language data and analytics commons. These projects will be part of the Humanities and Social Sciences Research Data Commons (HASS RDC).
 The Data Commons will focus on preservation and discovery of distributed multi-modal language data collections under a variety of governance frameworks. This will include access control that reflects ethical constraints and intellectual property rights, including those of Aboriginal and Torres Strait Islander, migrant and Pacific communities.
 
 <br>
 
 ![Slide01](Slide01.png)
 
-For this Research Data Commons work, we are using the Arkisto Platform
+For this Research Data Commons work, we are using the {{< glossary_link display="Arkisto" id="arkisto" >}} Platform
 (introduced [at eResearch 2020](http://ptsefton.com/2020/11/23/Arkisto/index.html)).
 
-Arkisto aims to secure the long-term preservation of data independently of
+{{< glossary_link display="Arkisto" id="arkisto" >}} aims to secure the long-term preservation of data independently of
 code and services - recognizing the ephemeral nature of software and platforms.
 We know that sustaining software platforms can be hard and aim to make sure
 that important data assets are not locked up in a database or hard-coded logic
@@ -89,7 +89,7 @@ describing any dataset of local or remote resources as a digital object using
 a **single linked-data metadata document**.
 
 RO-Crate is used in our platform both for describing data objects in the OCFL
-repository, and for delivering metadata over the API (which we’ll show in
+repository, and for delivering metadata over the {{< glossary_link display="API" id="api" >}} (which we’ll show in
 architecture diagrams and screenshots below).
 
 <br>
@@ -109,7 +109,7 @@ This image is taken from a
 [presentation on digital preservation](https://slideplayer.com/slide/3919920/).
 
 [Models](https://pcdm.org/2016/04/18/models)
-The third key standard for Arkisto is the Portland Common Data Model. Like
+The third key standard for {{< glossary_link display="Arkisto" id="arkisto" >}} is the Portland Common Data Model. Like
 OCFL, this was developed by members of the digital library/repository
 community. It was devised as a way to do interchange between repository
 systems, most of which, it turned out had evolved very similar ways of having
@@ -179,7 +179,7 @@ context of _doing_ research. It makes a distinction between managed
 repository storage and the places where work is done - “workspaces”.
 Workspaces are where researchers collect, analyse and describe data.
 Examples include the most basic of research IT services, file storage as
-well as analytical tools such as Jupyter notebooks (the backbone of ATAP -
+well as analytical tools such as Jupyter notebooks (the backbone of {{< glossary_link display="ATAP" id="atap" >}} -
 the text analytics platform). Other examples of workspaces include code
 repositories such as GitHub or GitLab (a slightly different sense of the word
 repository), survey tools, electronic (lab) notebooks and bespoke code
@@ -191,9 +191,9 @@ where data are collected, described and deposited into a repository
 frequently. Data are made findable and accessible as soon as possible and
 can be “re-collected” for use and re-use.
 
-For data to be re-usable by humans and machines (such as ATAP notebook code
+For data to be re-usable by humans and machines (such as {{< glossary_link display="ATAP" id="atap" >}} notebook code
 that consumes datasets in a predictable way) it must be well described. The
-ATAP and LDaCA approach to this is to use the Research Object Crate (RO-Crate
+{{< glossary_link display="ATAP" id="atap" >}} and LDaCA approach to this is to use the Research Object Crate (RO-Crate
 ) specification. RO-Crate is essentially a guide to using a number of
 standards and standard approaches to describe both data and re-runnable
 software such as workflows or notebooks.
@@ -204,22 +204,22 @@ software such as workflows or notebooks.
 
 This rather messy slide captures the overall high-level architecture for the
 LDaCA Research Data Commons - there will be an analytical workbench (left of
-the diagram) which is the basis of the Australian Text Analytics (ATAP)
+the diagram) which is the basis of the Australian Text Analytics ({{< glossary_link display="ATAP" id="atap" >}})
 project - this will focus on notebook-style programming using one of the
 emerging Jupyter notebook platforms in that space. (This is not 100% decided
 yet, but that has not stopped the team from starting to collect and develop
 notebooks that open up text analytics to new coders from the linguistics
-community.) Our engagement lead, Dr Simon Musgrave sees the ATAP work as
+community.) Our engagement lead, Dr Simon Musgrave sees the {{< glossary_link display="ATAP" id="atap" >}} work as
 primarily an educational enterprise encouraging researchers to adopt new
 research practices - which will be underpinned by services built on the
-Arkisto standards that allow for rigorous, re-runnable research.
+{{< glossary_link display="Arkisto" id="arkisto" >}} standards that allow for rigorous, re-runnable research.
 
 <br>
 
 ![Slide11](Slide11.png)
 
 In this presentation, we are going to focus on the portal/repository
-architecture more than on the ATAP notebook side of things. We know that we
+architecture more than on the {{< glossary_link display="ATAP" id="atap" >}} notebook side of things. We know that we
 will be using (at least) the SWAN Jupyter notebook service perceived by
 AARNet but we are still scoping how notebooks will be made portable between
 systems and where they will be stored at various stages of their development.
@@ -236,9 +236,9 @@ This is a much simpler view zooming in on the core infrastructure components
 that we have built so far. We are starting with bulk ingest of existing
 collections and will add one-by-one deposit of individual items after that.
 
-This shows the OCFL repository at the bottom - with a Data & Access API that
-mediates access. This API understands the RO-Crate format and in particular
-its use of the Portland Common Data Model to structure data. The API also
+This shows the OCFL repository at the bottom - with a Data & Access {{< glossary_link display="API" id="api" >}} that
+mediates access. This {{< glossary_link display="API" id="api" >}} understands the RO-Crate format and in particular
+its use of the Portland Common Data Model to structure data. The {{< glossary_link display="API" id="api" >}} also
 enforces access control to objects; every repository object has a license
 setting out the terms of use and re-use for its data, which will reflect the
 way the data were collected - whether participants signed agreements, ethics
@@ -274,7 +274,7 @@ a bigger repository with features or branding specific to a subset of data.
 
 ![Slide14](Slide14.png)
 
-This implementation of the Arkisto standards-stack is known as Oni. That’s
+This implementation of the {{< glossary_link display="Arkisto" id="arkisto" >}} standards-stack is known as Oni. That’s
 not really an acronym anymore though it once stood for OCFL, Ngnix (a web
 server) or Node (a Javascript framework) and an Index. An Oni is a kind of
 Japanese demon. 👹
@@ -300,7 +300,7 @@ collection, ALWAYS with access control based on licenses.
 This is a screenshot of our GitHub repository showing the corpus migration tools
 we’ve started developing (there are six, and one general purpose text-
 cleaning tool). These repositories have not all been made public yet, but
-they will be - they contain tools to build Arkisto-ready file repositories
+they will be - they contain tools to build {{< glossary_link display="Arkisto" id="arkisto" >}}-ready file repositories
 that can be made available in one or more portals
 
 <br>
@@ -333,9 +333,9 @@ than software development.
 
 One of my current LDaCA senior colleagues said to me a couple of years ago
 that Alveo was useless: “I just wanted to get all the data” they said. Me, I
-was thinking “but it has an API so you CAN get all the data - what’s the
+was thinking “but it has an {{< glossary_link display="API" id="api" >}} so you CAN get all the data - what’s the
 problem?”. We have tried not to repeat this mistake by making sure that the
-API delivers entire collections and we have some demonstrations of doing this
+{{< glossary_link display="API" id="api" >}} delivers entire collections and we have some demonstrations of doing this
 for real work.
 
 Another colleague who was actually on the Alveo team said that this interface
@@ -352,21 +352,21 @@ demo stuff at any time.
 
 ![Slide19](Slide19.png)
 
-We decided to build from the data API first.
+We decided to build from the data {{< glossary_link display="API" id="api" >}} first.
 
-In this demo developer Moises Sacal Bonequi is looking at the API via the
-Postman tool. This demonstration shows how the API can be used to find
+In this demo developer Moises Sacal Bonequi is looking at the {{< glossary_link display="API" id="api" >}} via the
+Postman tool. This demonstration shows how the {{< glossary_link display="API" id="api" >}} can be used to find
 collections (that conform to our metadata profile)
 
 1. First, he lists the collections, then chooses one.
 2. He then gets a collection with the `&resolve` parameter, meaning that the
-   API will internally traverse the PCDM collection hierarchy and return ALL
+   {{< glossary_link display="API" id="api" >}} will internally traverse the PCDM collection hierarchy and return ALL
    the metadata for the collection - down to the file level.
 3. He then downloads a file (for which he has a license that most of you
    reading this don’t have - hence the obfuscation of the
    dialogue).
 
-This API has been used and road tested at ANU to develop techniques for topic
+This {{< glossary_link display="API" id="api" >}} has been used and road tested at ANU to develop techniques for topic
 modelling on the Sydney Speaks corpus (more about which corpus below) - by a
 student Marcel Reverter-Rambaldi under the supervision of Prof Catherine
 Travis at ANU - we are hoping to publish this work as a re-usable notebook
@@ -379,7 +379,7 @@ team have been developing to be applied to other similar data in LDaCA.
 
 And one of the data scientists who was working with us at UQ, Mel Mistica,
 developed a [demonstration notebook](https://github.com/Australian-Text-Analytics-Platform/ro-crate-metadata/blob/main/ro-crate-metadata.ipynb)
-with our tech team that used the API to access another full collection (which
+with our tech team that used the {{< glossary_link display="API" id="api" >}} to access another full collection (which
 is also suitable for the ANU topic modelling approach) - this notebook gets
 all the metadata for a small social history collection which contains
 transcribed interviews with women in Western Sydney and shows how a data
@@ -553,7 +553,7 @@ given access to licence A to others.
 
 This diagram is a sketch of the interaction that took place in the demo - it
 shows how a repository can delegate authorization to an external system - in
-this case, GitHub rather than CILogon. But we are working with the ARDC to set
+this case, GitHub rather than CILogon. But we are working with the {{< glossary_link display="ARDC" id="ardc" >}} to set
 up a trial with the Australian Access Federation to allow CILogon access for
 the HASS Research Data Commons so we can pilot group-based access control.
 

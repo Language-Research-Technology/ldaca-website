@@ -33,7 +33,7 @@ Edited by: Simon Musgrave
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide01.png' alt='Project Team(alphabetical order) Michael D’Silva  Marco Fahmi Leah Gustafson  Michael Haugh Cale Johnstone  Kathrin Kaiser  Sara King  Marco La Rosa  Mel Mistica  Simon Musgrave  Joel Nothman  Moises Sacal  Martin Schweinberger  PT Sefton   With thanks for their contribution: Partner Institutions: ' title='Slide: 1' border='1'  width='85%%'/>
 
-The Language Data Commons of Australia Data Partnerships (LDaCA) and the Australian Text Analytics Platform (ATAP) are building towards a scalable and flexible language data and analytics commons. These projects will be part of the Humanities and Social Sciences Research Data Commons (HASS RDC).
+The Language Data Commons of Australia Data Partnerships (LDaCA) and the Australian Text Analytics Platform ({{< glossary_link display="ATAP" id="atap" >}}) are building towards a scalable and flexible language data and analytics commons. These projects will be part of the Humanities and Social Sciences Research Data Commons (HASS RDC).
 
 The Data Commons will focus on preservation and discovery of distributed multi-modal language data collections under a variety of governance frameworks. This will include access control that reflects ethical constraints and intellectual property rights, including those of Aboriginal and Torres Strait Islander, migrant and Pacific communities.
 
@@ -57,7 +57,7 @@ This work is supported by the Australian Research Data Commons.
 
 Last year at eResearch Australasia, the Language Data Commons of Australia (LDaCA) team presented a design for a distributed access control system which could look after the A-is-for-accessible in {{< glossary_link display="FAIR" id="fair" >}} data; in this presentation, we describe and demonstrate a pilot system based on that design, showing how data licenses that allow access by identified groups of people to language data collections can be used with an AAF pilot system (CILogon) to give the right people access to data resources.
 
-The ARDC have invested in a pilot of this work as part of the HASS Research Data Commons and Indigenous Research Capability Program integration activities.
+The {{< glossary_link display="ARDC" id="ardc" >}} have invested in a pilot of this work as part of the HASS Research Data Commons and Indigenous Research Capability Program integration activities.
 
 The system has to be able to implement data access policies with real-world complexity and one of our challenges has been developing a data access policy that works across a range of different collections of language data. Here we present a pilot data access policy that we have developed, describing how this policy captures the decisions that must be made by a range of data providers to ensure data accessibility that complies with diverse legal, moral and ethical considerations.
 We will discuss how the [CARE] and [FAIR] principles underpin this work, and compare this work to other projects such as [CADRE], which promise to deliver more complex solutions in the future. Initial work is with collections curated in a research context but we will also address community access to these resources.
@@ -160,7 +160,7 @@ Or a “linguist”,
 
 Or an “anthropologist”,
 
-Or a member of an ARC (Australian Research Council) research project,
+Or a member of an {{< glossary_link display="ARC" id="arc" >}} (Australian Research Council) research project,
 
 The [CADRE] project is working on systems that will eventually support all these things, but they are not available as services yet, and their initial focus is on government data, so we have to work out ways for our data custodians to make decisions on who is considered an “other researcher” in the absence of attribute-based authentication.
 
@@ -278,7 +278,7 @@ Recently (after the abstract for this presentation was submitted) the AAF team m
 
 At the core of REMS is a set of Licenses which can then be associated with Resources - in our design, this is (almost always) a one-to-one correspondence, for example, we would have a licence “Sydney Speaks Data Researcher Access License” corresponding to a resource that represents ALL data with that licence. These Resources can then be made available through a catalogue, and workflows can be set up for pre-authorization processes ranging from single-click authorizations where a user just accepts a licence and a bot approves it, to complex forms where users upload credentials and one or more data custodians approve their request, and grant them the licence.
 
-It also has features for revoking permissions, and has a full API so admin tasks can be automated (for us that’s in the future).
+It also has features for revoking permissions, and has a full {{< glossary_link display="API" id="api" >}} so admin tasks can be automated (for us that’s in the future).
 
 Once a user has been granted a license in a pre-authorization process then a repository can authorize access to a resource by checking with REMS to see if a given user is pre-authorized. That is, has been granted a license. Note that users do not have to find REMS on their own - they will be directed to it from data and computing services when they need to apply for pre-authorization.
 
@@ -368,7 +368,7 @@ We expect that the overhead of writing licenses will diminish greatly over time 
 
 No, and Yes
 
-**No**, there is no lock-in regarding the list of Licenses and pre-authorized users; licenses and access control lists can be exported via an API so it is possible to import them into another system or save them for audit purposes.
+**No**, there is no lock-in regarding the list of Licenses and pre-authorized users; licenses and access control lists can be exported via an {{< glossary_link display="API" id="api" >}} so it is possible to import them into another system or save them for audit purposes.
 
 **Yes**, there is lock-in, in that at this stage the workflow used to give access to users is specific to the system (such as REMS)
 

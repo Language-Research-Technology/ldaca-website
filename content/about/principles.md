@@ -58,7 +58,7 @@ The ultimate goal of {{< glossary_link display="FAIR" id="fair" >}} is to optimi
 
 <br>
 
-The Australian Research Data Commons ([ARDC](https://ardc.edu.au/)) and LDaCA support {{< glossary_link display="FAIR" id="fair" >}} data practices and initiatives that make data and related research outputs {{< glossary_link display="FAIR" id="fair" >}}. At the same time, the ARDC and LDaCA acknowledge that the implementation of the principles will look different across disciplines and will need discipline-specific approaches and standards.
+The Australian Research Data Commons ({{< glossary_link display="ARDC" id="ardc" >}}) and LDaCA support {{< glossary_link display="FAIR" id="fair" >}} data practices and initiatives that make data and related research outputs {{< glossary_link display="FAIR" id="fair" >}}. At the same time, the {{< glossary_link display="ARDC" id="ardc" >}} and LDaCA acknowledge that the implementation of the principles will look different across disciplines and will need discipline-specific approaches and standards.
 
 <br>
 
@@ -104,6 +104,6 @@ Indigenous Peoples’ rights and wellbeing should be the primary concern at all 
 
 <br>
 
-The Australian Research Data Commons ([ARDC](https://ardc.edu.au/)) and LDaCA support the {{< glossary_link display="CARE" id="care" >}} principles to further extend data management principles, ensuring that Indigenous communities benefit from the data, and that authority to control Indigenous data is held by Indigenous Peoples. We have a responsibility to share how data is used to collectively benefit Indigenous Peoples, and that Indigenous Peoples' rights and wellbeing are the primary concern at all stages of the data life cycle.
+The Australian Research Data Commons ({{< glossary_link display="ARDC" id="ardc" >}}) and LDaCA support the {{< glossary_link display="CARE" id="care" >}} principles to further extend data management principles, ensuring that Indigenous communities benefit from the data, and that authority to control Indigenous data is held by Indigenous Peoples. We have a responsibility to share how data is used to collectively benefit Indigenous Peoples, and that Indigenous Peoples' rights and wellbeing are the primary concern at all stages of the data life cycle.
 
 <br>

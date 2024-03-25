@@ -44,7 +44,7 @@ This work is supported by the Australian Research Data Commons.
 
 <img src='Slide02.png' alt=' With thanks for their contribution: Partner Institutions: ' title='Slide: 2' border='1'  width='85%%'/>
 
-The Language Data Commons of Australia Data Partnerships (LDaCA) and the Australian Text Analytics Platform (ATAP) are building towards a scalable and flexible language data and analytics commons. These projects will be part of the HASS (Humanities and Social Sciences) and Indigenous Research Data Commons (HASS+I RDC).
+The Language Data Commons of Australia Data Partnerships (LDaCA) and the Australian Text Analytics Platform ({{< glossary_link display="ATAP" id="atap" >}}) are building towards a scalable and flexible language data and analytics commons. These projects will be part of the HASS (Humanities and Social Sciences) and Indigenous Research Data Commons (HASS+I RDC).
 
 The Data Commons will focus on preservation and discovery of distributed multi-modal language data collections under a variety of governance frameworks. This will include access control that reflects ethical constraints and intellectual property rights, including those of Aboriginal and Torres Strait Islander, migrant and Pacific communities.
 
@@ -70,7 +70,7 @@ PARADISEC is an online archive of cultural data which has been maintained for tw
 
 <img src='Slide04.png' alt='  ' title='Slide: 4' border='1'  width='85%%'/>
 
-The Arkisto platform started in 2019 as a way to capture the lessons of PARADISEC and other projects such as Alveo (another language data project similar in scope to LDaCA) which was presented at OR 2014: Sefton PM, Estival D, Cassidy S, Burnham D, Berghold J. The Human Communication Science Virtual Lab (HCS vLab): A repository microclimate in a rapidly evolving research-ecosystem. In: Open Repositories 2014. Helsinki; 2014 [cited 2016 Jul 19]. Available from: http://www.doria.fi/handle/10024/97740
+The {{< glossary_link display="Arkisto" id="arkisto" >}} platform started in 2019 as a way to capture the lessons of PARADISEC and other projects such as Alveo (another language data project similar in scope to LDaCA) which was presented at OR 2014: Sefton PM, Estival D, Cassidy S, Burnham D, Berghold J. The Human Communication Science Virtual Lab (HCS vLab): A repository microclimate in a rapidly evolving research-ecosystem. In: Open Repositories 2014. Helsinki; 2014 [cited 2016 Jul 19]. Available from: http://www.doria.fi/handle/10024/97740
 
 </section>
 
@@ -90,7 +90,7 @@ This diagram was used in the bid documents that established LDaCA - it shows the
 
 <img src='Slide06.png' alt='  ' title='Slide: 6' border='1'  width='85%%'/>
 
-This is the data triage process we have been going through in LDaCA — and it should be noted that of all the data we are presented with, most of it needs to be reworked into the Arkisto Standards Stack. Even PARADISEC which in 2019 received the international [Core Trust Seal](https://www.coretrustseal.org/why-certification/certified-repositories/) based on the [DSA-WDS Core Trustworthy Data Repositories Requirements](http://www.coretrustseal.org/requirements/) is still in the process of migrating data to more sustainable formats.
+This is the data triage process we have been going through in LDaCA — and it should be noted that of all the data we are presented with, most of it needs to be reworked into the {{< glossary_link display="Arkisto" id="arkisto" >}} Standards Stack. Even PARADISEC which in 2019 received the international [Core Trust Seal](https://www.coretrustseal.org/why-certification/certified-repositories/) based on the [DSA-WDS Core Trustworthy Data Repositories Requirements](http://www.coretrustseal.org/requirements/) is still in the process of migrating data to more sustainable formats.
 
 </section>
 
@@ -110,7 +110,7 @@ This is a taster of what data looks like in the kids of repositories we are talk
 
 <img src='Slide08.png' alt='' title='Slide: 8' border='1'  width='85%%'/>
 
-The LDaCA services we are building use an API to drive the data portals. The API can be used for direct access with appropriate access control – see [another eResearch presentation](../fair-care-eresearch-2022) which explains this in detail. These screenshots show code notebooks running in BinderHub on the Nectar cloud accessing language resources.
+The LDaCA services we are building use an {{< glossary_link display="API" id="api" >}} to drive the data portals. The {{< glossary_link display="API" id="api" >}} can be used for direct access with appropriate access control – see [another eResearch presentation](../fair-care-eresearch-2022) which explains this in detail. These screenshots show code notebooks running in BinderHub on the Nectar cloud accessing language resources.
 
 This work has also been [written up](https://digital.library.unt.edu/ark:/67531/metadc2114304/) for the _2nd International Workshop on Digital Language Archives (LangArc 2023) virtual workshop on digital language archives_ 2023-06-30.
 
@@ -149,7 +149,7 @@ Two main points we want to get across in this presentation:
 
 <img src='Slide11.png' alt='📂  🔬 🔭 📹 💽 🖥️ ⚙️🎼🌡️🔮🎙️🔍🌏📡💉🏥💊🌪️ ' title='Slide: 11' border='1'  width='85%%'/>
 
-So let's now start looking at the standards involved in the Arkisto approach. This is a slide from “What is RO-Crate” – The dataset may contain any kind of data resource about anything, in any format as a file or URL
+So let's now start looking at the standards involved in the {{< glossary_link display="Arkisto" id="arkisto" >}} approach. This is a slide from “What is RO-Crate” – The dataset may contain any kind of data resource about anything, in any format as a file or URL
 
 Stian Soiland-Reyes, Peter Sefton, Mercè Crosas, Leyla Jael Castro, Frederik Coppens, José M. Fernández, Daniel Garijo, Björn Grüning, Marco La Rosa, Simone Leo, Eoghan Ó Carragáin, Marc Portier, Ana Trisovic, RO-Crate Community, Paul Groth, Carole Goble (2022): Packaging research artefacts with RO-Crate.Data Science 5(2)https://doi.org/10.3233/DS-210053
 
@@ -243,7 +243,7 @@ This also shows some of what an OCFL repository looks like – this is an OCFL o
 
 <img src='Slide19.png' alt=' This is an RO-Crate Object which is stored as an OCFL Object ' title='Slide: 19' border='1'  width='85%%'/>
 
-This screenshot shows an example of an Arkisto-style use of OCFL (all of the metadata is stored in the ro-crate-metadata.json rather than spread out as in Fedora).
+This screenshot shows an example of an {{< glossary_link display="Arkisto" id="arkisto" >}}-style use of OCFL (all of the metadata is stored in the ro-crate-metadata.json rather than spread out as in Fedora).
 
 </section>
 
@@ -385,7 +385,7 @@ Here’s another repository that uses RO-Crate metadata (from the Language Data 
 
 <img src='Slide32.png' alt=' SCREENSHOT OF NOTEBOOK  ' title='Slide: 32' border='1'  width='85%%'/>
 
-This is a screenshot of a Jupyter notebook that can process data from a repository via its API.
+This is a screenshot of a Jupyter notebook that can process data from a repository via its {{< glossary_link display="API" id="api" >}}.
 
 </section>
 
@@ -395,7 +395,7 @@ This is a screenshot of a Jupyter notebook that can process data from a reposito
 
 <img src='Slide33.png' alt='  ' title='Slide: 33' border='1'  width='85%%'/>
 
-This slide shows the Arkisto stack powering the University of Technology Sydney’s Research Data Repository.
+This slide shows the {{< glossary_link display="Arkisto" id="arkisto" >}} stack powering the University of Technology Sydney’s Research Data Repository.
 
 </section>
 
@@ -405,7 +405,7 @@ This slide shows the Arkisto stack powering the University of Technology Sydney�
 
 <img src='Slide34.png' alt='  ' title='Slide: 34' border='1'  width='85%%'/>
 
-This page shows some screenshots of an internal-only application at UTS which gives academic staff access to successful research grant proposals – the data are stored in the same kind of Arkisto standards-based storage stack as we have presented here – with an interface that is tuned for this use case, with some custom access control to make sure that staff are _very_ aware that these are sensitive and confidential documents.
+This page shows some screenshots of an internal-only application at UTS which gives academic staff access to successful research grant proposals – the data are stored in the same kind of {{< glossary_link display="Arkisto" id="arkisto" >}} standards-based storage stack as we have presented here – with an interface that is tuned for this use case, with some custom access control to make sure that staff are _very_ aware that these are sensitive and confidential documents.
 
 </section>
 
@@ -425,7 +425,7 @@ This is a screenshot of data from a history project [Expert Nation](https://expe
 
 <img src='Slide36.png' alt='  Want to join us? Your project here?  Get in touch… ' title='Slide: 36' border='1'  width='85%%'/>
 
-In conclusion, we have given a quick tour of a standards-based repository stack (loosely called Arkisto) and illustrated it with current work at the Language Data Commons of Australia and PARADISEC projects, but along the way have tried to emphasise that this is generic, re-usable architecture – and is based on standards. By using an extensible metadata standard with a growing community, and a storage-layer standard forged from an acquired aversion to systems migration we aim to reduce the risk to very important cultural data by working with as many communities as possible on software tools, so that we reduce cost and risk for all of us.
+In conclusion, we have given a quick tour of a standards-based repository stack (loosely called {{< glossary_link display="Arkisto" id="arkisto" >}}) and illustrated it with current work at the Language Data Commons of Australia and PARADISEC projects, but along the way have tried to emphasise that this is generic, re-usable architecture – and is based on standards. By using an extensible metadata standard with a growing community, and a storage-layer standard forged from an acquired aversion to systems migration we aim to reduce the risk to very important cultural data by working with as many communities as possible on software tools, so that we reduce cost and risk for all of us.
 
 </section>
 
