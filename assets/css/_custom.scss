@@ -539,18 +539,12 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
   height: 100%;
 }
 
-.menu__item {
-  position: relative;
-}
-
 .submenu__list {
   background-color: white;
   border: 1px solid grey;
   border-radius: 5px;
   overflow: visible;
   padding: 0;
-  position: absolute;
-  z-index: 100;
 
   .menu__item {
     padding: 0;
@@ -570,6 +564,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
   visibility: hidden;
   opacity: 0;
   display: none;
+  position: fixed;
   z-index: 100;
   transition: all 0.5s ease;
   overflow: visible;
