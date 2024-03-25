@@ -1,0 +1,9 @@
+<!-- use shortcode to make link from word(s) in text to Glossary entry required parameters: display=""(Text to display) id=""(Matches name of data file) -->
+
+{{- $id := .Get "id" -}} {{- $data := index .Site.Data.glossary $id -}} {{-
+$tooltip := $data.short_description -}} {{- $link := print
+"/resources/general-resources/glossary/#" $id -}} {{- $head_word := .Get
+"display" -}}
+<a href="{{ $link }}" title="{{ $tooltip }}" target="_blank"
+  >{{- $head_word -}}</a
+>{{- "" -}}

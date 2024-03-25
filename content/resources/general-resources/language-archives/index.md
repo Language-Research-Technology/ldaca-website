@@ -7,15 +7,15 @@ description: "Existing archives of language in numerous forms, including recorde
 
 <br>
 
-### [Living Archive of Aboriginal Languages (LAAL)](https://livingarchive.cdu.edu.au/)
-  
-A digital archive of endangered literature in Australian Indigenous languages of the Northern Territory. It contains nearly 4,000 books in 50 languages from 40 communities available to read online or download freely. This is a living archive, with connections to the people and communities where the books were created. This will allow for collaborative research work with the Indigenous authorities and communities.
-
-<br>
-
 ### [Pacific and Regional Archive for Digital Sources in Endangered Cultures (PARADISEC)](https://www.paradisec.org.au/)
 
 Holds 14,500 hours of audio recordings and 2,000 hours of video recordings that might otherwise have been lost. These recordings are of performance, narrative, singing, and other oral tradition. This amounts to 150 terabytes and represents 1,315 languages, mainly from the Pacific region.
+
+<br>
+
+### [Living Archive of Aboriginal Languages (LAAL)](https://livingarchive.cdu.edu.au/)
+
+A digital archive of endangered literature in Australian Indigenous languages of the Northern Territory. It contains nearly 4,000 books in 50 languages from 40 communities available to read online or download freely. This is a living archive, with connections to the people and communities where the books were created. This will allow for collaborative research work with the Indigenous authorities and communities.
 
 <br>
 

@@ -2,7 +2,7 @@
 title: "Sydney Speaks"
 date: 2023-11-13T15:53:30+11:00
 draft: false
-description: "Catherine Travis and Cale Johnstone explain the complexities of handling data from three periods in a 40 year span."
+description: "LDaCA Chief Investigator Catherine Travis and former team member Cale Johnstone explain the complexities of handling data from three periods in a 40 year span."
 ---
 
 by Catherine Travis and Cale Johnstone
@@ -11,7 +11,7 @@ by Catherine Travis and Cale Johnstone
 
 ## Introducing the Sydney Speaks project
 
-Sydney Speaks is a large-scale sociolinguistic project, funded through the ARC Centre of Excellence for the Dynamics of English (2014-2022), led by Catherine Travis at the ANU.
+Sydney Speaks is a large-scale sociolinguistic project, funded through the [ARC Centre of Excellence for the Dynamics of Language](https://legacy.dynamicsoflanguage.edu.au/) (2014-2022), led by [Catherine Travis](https://researchers.anu.edu.au/researchers/travis-ce) at the ANU.
 
 ##### [The Sydney Speaks Corpora](#corpora)
 

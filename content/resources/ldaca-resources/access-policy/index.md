@@ -8,13 +8,20 @@ description: "Outlines the LDaCA Access Policy, making data appropriately access
 <br>
 
 #### [Purpose](#purpose)
+
 #### [1. Access Types and Licensing](#1-access-types-and-licensing)
+
 - #### [Classification of Access Types](#classification-of-access-types)
+
 #### [2. Onboarding Data to LDaCA](#2-onboarding-data-to-ldaca)
+
 - #### [LDaCA Responsibilities](#ldaca-responsibilities)
 - #### [Data Steward Responsibilities](#data-steward-responsibilities)
+
 #### [3. Ongoing Data Management Strategy](#3-ongoing-data-management-strategy)
+
 #### [4. Supporting Information](#4-supporting-information)
+
 - #### [LDaCA Terms of Use](#ldaca-terms-of-use)
 - #### [Privacy Policy](#privacy-policy)
 - #### [Takedown Policy](#takedown-policy)
@@ -29,9 +36,10 @@ description: "Outlines the LDaCA Access Policy, making data appropriately access
 
 This document outlines the LDaCA Access Policy, which is developed to accommodate the goal of making data appropriately accessible, in accordance with legal, moral and ethical considerations of data sharing, and tailored to meet the needs and requirements of different data collections.
 
-Access conditions for data in LDaCA are determined by the Data Steward. To assist with this, LDaCA provides: information to help Data Stewards make informed decisions about appropriate access conditions for the data; tools and resources to facilitate this process as collections are onboarded and made available (including for applying standards as required); and mechanisms for managing these once data is onboarded.
+Access conditions for data in LDaCA are determined by the Data Steward. To assist with this, LDaCA provides: information to help Data Stewards make informed decisions about appropriate {{< glossary_link display="access conditions" id="access-condition" >}} for the data; tools and resources to facilitate this process as collections are onboarded and made available (including for applying standards as required); and mechanisms for managing these once data is onboarded.
 
 The Access Policy comprises three key components, as outlined in this document:
+
 - Access types and licensing
 - Onboarding data to LDaCA
 - Ongoing data management
@@ -46,10 +54,10 @@ The foundation of the LDaCA Access Policy is licensing, i.e. the action of setti
 
 ### Classification of Access Types
 
-Type of Access | Description | Basic Process
---- | --- | ---
-__Open access__ | Data is openly available under a Creative Commons license or similar (including for data in the public domain). | The user can read the license and directly access the data.
-__Authorization Required__<br>Different levels of implementation:<ol><li>click-through license<li>by invitation<li>by application (case-by-case approval by Data Steward) | Data is available with some restrictive conditions of use, as outlined in the license. Users must authenticate their identity to access these materials.<br>In some cases, access to the license is limited to specific users, who can be defined by invitation and/or application (note that these are not mutually exclusive – either or both options may be implemented). Such authorisation requires ongoing engagement from the Data Steward in order to manage access lists and approve/decline access requests. | A number of levels of authorization can be implemented depending on the access conditions:<ol><li>__License acceptance__: the user must read and accept the license (click-through) before accessing the data.<li>__By invitation__: the Data Steward invites users to access and accept the license. Only invited users can gain access.<li>__By application__: specific conditions apply, and the user must provide extra information to gain access, which they do through a linked application form which must be reviewed and approved by the Data Steward before access is granted.<br>Approval may be dependent on, for example, the community or academic affiliation of the applicant; the specific use of the data requested; payment of a fee; or other.
+| Type of Access                                                                                                                                                            | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Basic Process                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Open access**                                                                                                                                                           | Data is openly available under a Creative Commons license or similar (including for data in the public domain).                                                                                                                                                                                                                                                                                                                                                                                                        | The user can read the license and directly access the data.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Authorization Required**<br>Different levels of implementation:<ol><li>click-through license<li>by invitation<li>by application (case-by-case approval by Data Steward) | Data is available with some restrictive conditions of use, as outlined in the license. Users must authenticate their identity to access these materials.<br>In some cases, access to the license is limited to specific users, who can be defined by invitation and/or application (note that these are not mutually exclusive – either or both options may be implemented). Such authorisation requires ongoing engagement from the Data Steward in order to manage access lists and approve/decline access requests. | A number of levels of authorization can be implemented depending on the access conditions:<ol><li>**License acceptance**: the user must read and accept the license (click-through) before accessing the data.<li>**By invitation**: the Data Steward invites users to access and accept the license. Only invited users can gain access.<li>**By application**: specific conditions apply, and the user must provide extra information to gain access, which they do through a linked application form which must be reviewed and approved by the Data Steward before access is granted.<br>Approval may be dependent on, for example, the community or academic affiliation of the applicant; the specific use of the data requested; payment of a fee; or other. |
 
 <br>
 
@@ -70,11 +78,11 @@ In accordance with the Access Policy, LDaCA has an established process for onboa
 ### Data Steward Responsibilities
 
 1. Providing a persistent identifier for the data. If the collection does not have an existing persistent identifier, LDaCA recommends getting a DOI (Digital Object Identifier), which is becoming the default identifier for research datasets. A DOI makes a collection citable; it ensures that it is findable even if moved to a different location; and it establishes its relationship to other objects and entities in the academic research environment (e.g. researchers, funders, organisations, academic publications, software and other datasets).
-See [Obtaining a DOI](/resources/ldaca-resources/obtaining-a-doi/) for more information.
+   See [Obtaining a DOI](/resources/ldaca-resources/obtaining-a-doi/) for more information.
 2. Providing metadata that is organised with a consistent structure, and includes descriptors, definitions and contextual information where relevant. This includes metadata at the level of the collection (e.g. collection name, a narrative description of the corpus, the subject language(s), author(s) or Collector(s), publication year, access conditions, etc.), file (e.g. length in minutes, words) and participants (e.g. age, gender).<br>
-LDaCA technologies enable programmatic detection, extraction and summarisation of existing metadata in a dataset; in order for this to work effectively, the metadata must be standardised.<br>
-Metadata are mapped to open schemas including the Open Language Archives Community (OLAC) vocabularies for describing language data and Schema.org for generic descriptions (e.g. Name, Identifier, Description). This approach allows many metadata terms to be linked to openly available and widely used definitions.<br>
-Some metadata may be specific to a corpus or difficult to map to existing vocabulary terms. LDaCA makes use of the Language Data Ontology, which has been developed in consultation with OLAC and metadata specialists, to ensure consistency across terms. See [Metadata](/resources/ldaca-resources/metadata) for more information.
+   LDaCA technologies enable programmatic detection, extraction and summarisation of existing metadata in a dataset; in order for this to work effectively, the metadata must be standardised.<br>
+   Metadata are mapped to open schemas including the Open Language Archives Community (OLAC) vocabularies for describing language data and Schema.org for generic descriptions (e.g. Name, Identifier, Description). This approach allows many metadata terms to be linked to openly available and widely used definitions.<br>
+   Some metadata may be specific to a corpus or difficult to map to existing vocabulary terms. LDaCA makes use of the Language Data Ontology, which has been developed in consultation with OLAC and metadata specialists, to ensure consistency across terms. See [Metadata](/resources/ldaca-resources/metadata) for more information.
 
 <br>
 
@@ -97,6 +105,7 @@ The Access Policy is supported by the LDaCA Terms of Use, Privacy Policy, and Ta
 The LDaCA Terms of Use provide an overarching agreement for all users who interact with the platform in adherence with general legal, ethical and moral standards.
 
 The key points included in the Terms of Use are:
+
 1. Users must adhere to conditions set by the Data Steward.
 2. Users must exercise ethical standards, paying particular attention to potential issues around sensitive data and participant privacy.
 3. Users must uphold the moral rights of data owners.

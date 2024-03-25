@@ -1,0 +1,5 @@
+Name: "glam workbench"
+"title": "GLAM Workbench"
+"short_description": "A suite of Jupyter notebooks to help with exploring and using data from GLAM institutions."
+"content": "A suite of Jupyter notebooks developed by Tim Sherratt to help with exploring and using data from GLAM institutions. Primarily, the notebooks use data from Trove newspaper and magazine collections, but have some extensions beyond this."
+"external_link": "https://glam-workbench.net/"

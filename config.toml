@@ -342,12 +342,6 @@ enableRobotsTXT = true
     url = "/about/"
     weight = 2
   [[menu.main]]
-    identifier = "collections"
-    name = "Collections"
-    url = "/about/sample-collections/"
-    parent = "about"
-    weight = 1
-  [[menu.main]]
     identifier = "organisation"
     name = "Organisation"
     url = "/about/organisation/"
@@ -358,13 +352,19 @@ enableRobotsTXT = true
     name = "Principles"
     url = "/about/principles/"
     parent = "about"
-    weight = 1  
+    weight = 2  
   [[menu.main]]
     identifier = "technologies"
     name = "Technologies"
     url = "/about/technologies/"
     parent = "about"
-    weight = 1  
+    weight = 3  
+  [[menu.main]]
+    identifier = "collections"
+    name = "Collections"
+    url = "/about/sample-collections/"
+    parent = "about"
+    weight = 4
   [[menu.main]]
     identifier = "resources"
     name = "Resources ▾"
@@ -401,7 +401,7 @@ enableRobotsTXT = true
     weight = 2  
   [[menu.main]]
     identifier = "posts"
-    name = "Posts"
+    name = "Blog"
     url = "/news/posts/"
     parent = "news"
     weight = 3   

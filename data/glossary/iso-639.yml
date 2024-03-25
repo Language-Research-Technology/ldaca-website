@@ -1,0 +1,5 @@
+Name: "iso-639"
+"title": "ISO-639"
+"short_description": "A standard by the International Organization for Standardization (ISO) concerned with representation of languages and language groups."
+"content": "A standard by the International Organization for Standardization (ISO) concerned with representation of languages and language groups. An earlier version of this system used two-letter codes to identify languages; more recent versions use three-letter codes (referred to as ISO 639-3). The ISO 639-3 code for French is fra, and Warlpiri is wbp."
+"external_link": "https://iso639-3.sil.org/"

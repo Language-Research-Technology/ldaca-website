@@ -1,81 +1,87 @@
 {{- if ne .Site.Params.footer.enable false -}}
-<br>
-<br>
+<br />
+<br />
 <div class="footer">
-    <div class="heading">
-      <!-- <h2>Language Data Commons Australia</h2> -->
+  <div class="heading">
+    <!-- <h2>Language Data Commons Australia</h2> -->
+  </div>
+  <br />
+  <div class="content">
+    <div class="about">
+      <h4>
+        <a href="/"><img class="logo" src="/logo.png" height="120px" /></a>
+      </h4>
+      <br />
     </div>
-    <br>
-    <div class="content">
-      <div class="about">
-        <h4><a href="/"><img class="logo" src="/logo.png" height="120px"></a></h4>
-        <br>
-        
-      </div>
-      <div class="resources">
-        <h4><a href="/about/">About</a></h4>
-        <p><a href="/about/sample-collections/">Collections</a></p>
-        <p><a href="/about/organisation/">Organisation</a></p>
-        <p><a href="/about/principles/">Principles</a></p>
-        <p><a href="/about/technologies/">Technologies</a></p>
-        
-      </div>
-      <div class="contact">
-        <h4><a href="/resources/">Resources</a></h4>
-        <p>
-          <a href="/resources/general-resources/"
-            > General Resources</a
-          >
-        </p>
-        <p>
-          <a href="/resources/ldaca-resources/"> LDaCA Resources</a>
-        </p>
-      </div>
-      <div class="news">
-        <h4><a href="/news/">News</a></h4>
-        <p><a href="/news/events/">Events</a></p>
-        <p><a href="/news/newsletter/">Newsletters</a></p>
-        <p><a href="/news/posts/">Posts</a></p>
-      </div>
-      <div class="contact">
-        <h4 class="address"><a href="/contact/">Contact</a></h4>
-        <p>
-          <a href="https://ldaca.us13.list-manage.com/subscribe?u=ef8667be63aefb1e35062a797&id=de4b682e46">Subscribe to our newsletter.</a> 
-        </p>
-        <p>Get in touch: <a href="info@ldaca.edu.au">info@ldaca.edu.au</a></p>
-      </div>
+    <div class="about">
+      <h4><a href="/about/">About</a></h4>
+      <p><a href="/about/organisation/">Organisation</a></p>
+      <p><a href="/about/principles/">Principles</a></p>
+      <p><a href="/about/technologies/">Technologies</a></p>
+      <p><a href="/about/sample-collections/">Collections</a></p>
     </div>
-    <div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork">
-      {{- $hugo := printf `<a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo %v">Hugo</a>` hugo.Version -}}
-                    {{- $theme := .Scratch.Get "version" | printf `<a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt %v"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt. </a>` -}}
-                    {{- dict "Hugo" $hugo "Theme" $theme | T "poweredBySome" | safeHTML }}
-      {{- /* Copyright year */ -}}
-      {{- if ne .Site.Params.footer.copyright false -}}
-          <i class="far fa-copyright fa-fw" aria-hidden="true"></i>
-          {{- with .Site.Params.footer.since -}}
-              <span itemprop="copyrightYear">
-                  {{- if lt . now.Year }}{{ . }} - {{ end }}{{ now.Year -}}
-              </span>
-          {{- else -}}
-              <span itemprop="copyrightYear">{{ now.Year }}</span>
-          {{- end -}}
-      {{- end -}}
-
-      {{- /* Author */ -}}
-      {{- if ne .Site.Params.footer.author false -}}
-          <span class="author" itemprop="copyrightHolder">&nbsp;<a href="{{ $.Site.Author.link | default .Site.Home.RelPermalink }}" target="_blank">{{ .Site.Author.name }}</a></span>
-      {{- end -}}
-
-      {{- /* License */ -}}
-      {{- with .Site.Params.footer.license -}}
-          &nbsp;|&nbsp;<span class="license">{{ . | safeHTML }}</span>
-      {{- end -}}
-
-      {{- /* ICP */ -}}
-      {{- with .Site.Params.footer.icp -}}
-          <span class="icp-splitter">&nbsp;|&nbsp;</span><br class="icp-br"/>
-          <span class="icp">{{ . | safeHTML }}</span>
-      {{- end -}}
+    <div class="resources">
+      <h4><a href="/resources/">Resources</a></h4>
+      <p><a href="/resources/ldaca-resources/"> LDaCA Resources</a></p>
+      <p><a href="/resources/general-resources/"> General Resources</a></p>
+    </div>
+    <div class="news">
+      <h4><a href="/news/">News</a></h4>
+      <p><a href="/news/events/">Events</a></p>
+      <p><a href="/news/newsletter/">Newsletters</a></p>
+      <p><a href="/news/posts/">Blog</a></p>
+    </div>
+    <div class="contact">
+      <h4 class="address"><a href="/contact/">Contact</a></h4>
+      <p>
+        <a
+          href="https://ldaca.us13.list-manage.com/subscribe?u=ef8667be63aefb1e35062a797&id=de4b682e46"
+          >Subscribe to our newsletter.</a
+        >
+      </p>
+      <p>Get in touch: <a href="mailto:ldaca@uq.edu.au">ldaca@uq.edu.au</a></p>
+    </div>
+  </div>
+  <div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork">
+    {{- $hugo := printf `<a
+      href="https://gohugo.io/"
+      target="_blank"
+      rel="noopener noreffer"
+      title="Hugo %v"
+      >Hugo</a
+    >` hugo.Version -}} {{- $theme := .Scratch.Get "version" | printf `<a
+      href="https://github.com/dillonzq/LoveIt"
+      target="_blank"
+      rel="noopener noreffer"
+      title="LoveIt %v"
+      ><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i>
+      LoveIt. </a
+    >` -}} {{- dict "Hugo" $hugo "Theme" $theme | T "poweredBySome" | safeHTML
+    }} {{- /* Copyright year */ -}} {{- if ne .Site.Params.footer.copyright
+    false -}}
+    <i class="far fa-copyright fa-fw" aria-hidden="true"></i>
+    {{- with .Site.Params.footer.since -}}
+    <span itemprop="copyrightYear">
+      {{- if lt . now.Year }}{{ . }} - {{ end }}{{ now.Year -}}
+    </span>
+    {{- else -}}
+    <span itemprop="copyrightYear">{{ now.Year }}</span>
+    {{- end -}} {{- end -}} {{- /* Author */ -}} {{- if ne
+    .Site.Params.footer.author false -}}
+    <span class="author" itemprop="copyrightHolder"
+      >&nbsp;<a
+        href="{{ $.Site.Author.link | default .Site.Home.RelPermalink }}"
+        target="_blank"
+        >{{ .Site.Author.name }}</a
+      ></span
+    >
+    {{- end -}} {{- /* License */ -}} {{- with .Site.Params.footer.license -}}
+    &nbsp;|&nbsp;<span class="license">{{ . | safeHTML }}</span>
+    {{- end -}} {{- /* ICP */ -}} {{- with .Site.Params.footer.icp -}}
+    <span class="icp-splitter">&nbsp;|&nbsp;</span><br class="icp-br" />
+    <span class="icp">{{ . | safeHTML }}</span>
+    {{- end -}}
   </div>
 
-{{- end -}}
+  {{- end -}}
+</div>

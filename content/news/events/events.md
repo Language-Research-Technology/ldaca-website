@@ -7,29 +7,27 @@ draft: false
 [Forthcoming workshops](#forthcoming-workshops) &emsp;&emsp;
 [Previous workshops](../previous) &emsp;&emsp;
 [Webinars](#webinars) &emsp;&emsp;
-[Office Hours](#office-hours)
+[Advice for researchers](#advice)
 
 ### Forthcoming workshops {#forthcoming-workshops}
 
-#### Workshop on immigrant language corpora in Australia
+#### HASS and Indigenous Research Data Commons Computational Skills Summer School 2024
 
-Australia has long been seen as one of the world’s most multilingual and multicultural societies, with more than 490 languages coming from around 300 ancestries and cultural traditions (ABS, 2021, 2022). For decades, the language and cultural maintenance of various immigrant groups have been under investigation by many scholars, not only in linguistics but also in history, sociology, anthropology, and many other disciplines. This work has amassed a large body of immigrant language data, that provides information about how Australia’s immigration history has contributed to the country today.
+The 2024 HASS and Indigenous RDC Computational Skills Summer School aims to empower participants with practical knowledge, build digital skills, and help inspire new research outcomes within these research communities.
 
-The purpose of this workshop is to bring together scholars working with language corpora from across different disciplines. The workshop is being run as part of the Language Data Commons of Australia (LDaCA), which is working to build national research infrastructure for the Humanities and Social Sciences, facilitating sustainable access to and controlled use of digital language corpora for linguists, scholars across the Humanities and Social Sciences, and non-academics.
+Participation is aimed at researchers in the humanities, arts, social sciences and Indigenous fields of study. Themed streams will explore geosocial and geospatial data applications in humanities, arts, social sciences, and Indigenous research, using ARDC tools and services. You’ll gain experience through seminars and workshops and will be guided through hands-on use of free tools and platforms provided by the ARDC and its partners.
 
-The workshop would consist of two main parts:
+For the ARDC Summer School, IDN and LDaCA will lead a stream on the governance, management and usage of data, especially Indigenous data.
 
-1. presentations on Australian immigrant language data collected from scholars across disciplines, and
-2. a panel discussion on needs and challenges around managing and archiving immigrant language data in a way that is ethical, legal and culturally sensitive, and how LDaCA can help support that
+- A series of seminars will focus on sustainability, storage, usability and description of data.
+- A case study will highlight how data is being managed for long-term access
+- A hands-on session will use Python code notebooks to analyse data.
 
-**Invited speakers**:
+The case study and hands-on session will focus on geospatial aspects of data. Prior coding knowledge is not required for the hands-on session.
 
-- [John Hajek](https://findanexpert.unimelb.edu.au/profile/13831-john-hajek)
-- [Ingrid Piller](https://researchers.mq.edu.au/en/persons/ingrid-piller)
-- [Sophie Loy-Wilson](https://www.sydney.edu.au/arts/about/our-people/academic-staff/sophie-loy-wilson.html)
-- [Adrian Vickers](https://www.sydney.edu.au/arts/about/our-people/academic-staff/adrian-vickers.html)
+**When**: 7-9 February 2024
 
-**When**: 9-10 November 2023
+**Where**: Naarm/Melbourne, Monash University Caulfield Campus
 
 **Where**: On campus, ANU
 
@@ -48,6 +46,8 @@ We welcome papers from linguistics and other disciplines. Abstracts should be of
 Submit your abstract to: https://forms.gle/bH8aHxkVxsV4cTEM8 by **3 October 2023** (notification of acceptance: 17 October 2023)
 
 **Organisers**: [Li Nguyen](mailto:li.nguyen@anu.edu.au) & Catherine Travis
+
+**[Details and Registration](https://www.eventbrite.com.au/e/hass-and-indigenous-rdc-summer-school-tickets-753040463297)**
 
 ### Previous Webinars {#webinars}
 
@@ -72,8 +72,8 @@ Barbara McGillivray is a Turing Research Fellow at [The Alan Turing Institute](h
 
 Keoni Mahelona is the Chief Technical Officer of [Te Hiku Media](https://tehiku.nz/) where he is a part of the team developing the Kaitiakitanga Licence. This licence seeks to balance the importance of publicly accessible data with the reality that Indigenous Peoples may not have access to the resources that enable them to benefit from public data. By simply opening access to data and knowledge, Indigenous Peoples could be further colonised and taken advantage of in a digital, modern world. Therefore Keoni is committed to devising data governance regimes which enable Indigenous Peoples to reclaim and maintain sovereignty over Indigenous data.
 
-### Office Hours {#office-hours}
+### Advice for researchers {#advice}
 
-We invite Australian researchers working with linguistics, text analytics, digital and computational methods, social media and web archives, and much more to attend our regular online office hours, jointly hosted with the [Digital Observatory](https://research.qut.edu.au/digitalobservatory/). Bring your technical questions, research problems and rough ideas and get advice and feedback from the combined expertise of our ARDC research infrastructure projects. No question is too small, and even if we don’t know the answer we are likely to be able to point you to someone who does.
+LDaCA has previously run regular online office hours, jointly hosted with the [Digital Observatory](https://research.qut.edu.au/digitalobservatory/) (DO). This activity will not continue in 2024, but LDaCA and DO are developing an alternative model to help Australian researchers working with linguistics, text analytics, digital and computational methods, social media and web archives.
 
-These sessions run over Zoom from 2-3pm (Australia/Sydney time) every second Tuesday - [details](https://research.qut.edu.au/digitalobservatory/office-hours/).
+In the meantime, you are welcome to contact us by [email](mailto:ldaca@uq.edu.au) at ldaca@uq.edu.au with your technical questions, research problems and rough ideas to get advice and feedback from the combined expertise of our ARDC research infrastructure projects. No question is too small, and even if we don’t know the answer we are likely to be able to point you to someone who does.
