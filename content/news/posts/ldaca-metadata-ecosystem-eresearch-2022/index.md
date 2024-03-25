@@ -23,7 +23,7 @@ This presentation will look at how a Metadata Standard - RO-Crate - with Metadat
 
 [RO-Crate] is a linked-data metadata system which allows discovery metadata (Who, what where) based on the widely adopted Schema.org vocabulary to be seamlessly integrated with more discipline-specific metadata. RO-Crate uses metadata profiles to provide guidance for packaging resources for particular disciplines and purposes.
 
-In this presentation, we will introduce a RO-Crate metadata profile for language data which extends the core RO-Crate standard with new vocabulary terms adapted from pre-linked-data discipline-specific metadata efforts, particularly the Open Language Archives Community (OLAC) standards. The profile has English-language guidance on how to structure collections of resources in a repository with links between them, such that they can be indexed and displayed via {{< glossary_link display="APIs" id="api" >}} and search/browse portals. The profile is also implemented as a series of machine-readable profiles for the Describo Online metadata description system.
+In this presentation, we will introduce a RO-Crate metadata profile for language data which extends the core RO-Crate standard with new vocabulary terms adapted from pre-linked-data discipline-specific metadata efforts, particularly the Open Language Archives Community (OLAC) standards. The profile has English-language guidance on how to structure collections of resources in a repository with links between them, such that they can be indexed and displayed via {{< glossary_link display="APIs" id="api" >}} and search/browse portals. The profile is also implemented as a series of machine-readable profiles for the {{< glossary_link display="Describo" id="describo" >}} Online metadata description system.
 
 We will demonstrate current ways of describing items in a variety of languages and modes (spoken, written and signed), from a large set of heterogeneous language resources held by PARADISEC and LDaCA. We will also show how to access them via {{< glossary_link display="API" id="api" >}} calls and a search portal, and how resources may be stored in simple storage systems using the {{< glossary_link display="Arkisto" id="arkisto" >}} platform (a set of standards and principles).
 
@@ -45,9 +45,9 @@ This work is supported by the Australian Research Data Commons.
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide02.png' alt=' With thanks for their contribution: Partner Institutions: ' title='Slide: 2' border='1'  width='85%%'/>
 
-The Language Data Commons of Australia Data Partnerships ([LDaCA](https://doi.org/10.47486/HIR001)) and the Australian Text Analytics Platform ([ATAP](https://doi.org/10.47486/PL074)) are building towards a scalable and flexible language data and analytics commons. These projects will be part of the Humanities and Social Sciences Research Data Commons (HASS RDC).
+The Language Data Commons of Australia Data Partnerships ([LDaCA](https://doi.org/10.47486/HIR001)) and the Australian Text Analytics Platform ([ATAP](https://doi.org/10.47486/PL074)) are building towards a scalable and flexible language data and analytics commons. These projects will be part of the Humanities and Social Sciences Research Data Commons ({{< glossary_link display="HASS" id="hass" >}} RDC).
 
-The Data Commons will focus on preservation and discovery of distributed multi-modal language data collections under a variety of governance frameworks. This will include access control that reflects ethical constraints and intellectual property rights, including those of Aboriginal and Torres Strait Islander, migrant and Pacific communities.
+The Data Commons will focus on preservation and discovery of distributed multi-modal language {{< glossary_link display="data collections" id="data-collection" >}} under a variety of governance frameworks. This will include access control that reflects ethical constraints and {{< glossary_link display="intellectual property" id="intellectual-property" >}} rights, including those of Aboriginal and Torres Strait Islander, migrant and Pacific communities.
 
 The platform will provide workbench services to support computational research, starting with code-notebooks with no-code research tools provided in later phases. Research artefacts such as code and derived data will be made available as fully documented research objects that are re-runnable and rigorously described. Metrics to demonstrate the impact of the platform are projected to include usage statistics, data and article citations. These projects are led by Professor Michael Haugh of the School of Languages and Culture at the University of Queensland with several partner institutions.
 
@@ -111,7 +111,7 @@ For all of the collections we are working with data is discoverable via some kin
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide08.png' alt='' title='Slide: 8' border='1'  width='85%%'/>
 
-The LDaCA services we are building use an {{< glossary_link display="API" id="api" >}} to drive the data portals. The {{< glossary_link display="API" id="api" >}} can be used for direct access with appropriate access control – see [another eResearch presentation](../fair-care-eresearch-2022) which explains this in detail. These screenshots show code notebooks (running in BinderHub on the Nectar cloud) accessing language resources.
+The LDaCA services we are building use an {{< glossary_link display="API" id="api" >}} to drive the data portals. The {{< glossary_link display="API" id="api" >}} can be used for direct access with appropriate access control – see [another eResearch presentation](../fair-care-eresearch-2022) which explains this in detail. These screenshots show code notebooks (running in {{< glossary_link display="BinderHub" id="binderhub" >}} on the Nectar cloud) accessing language resources.
 
 </section>
 
@@ -183,7 +183,7 @@ The dataset may contain any kind of data resource about anything, in any format 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide14.png' alt=' ' title='Slide: 14' border='1'  width='85%%'/>
 
-The RO-Crate standard also strongly recommends that JSON metadata is supplemented with an HTML preview - above we show what that looks like for a PARADISEC item. This is a screenshot of an HTML view of a PARADISEC Item generated using [an HTML rendering tool for RO-Crate](https://github.com/UTS-eResearch/ro-crate-html-js). The important point here is that this is a _generic_ viewer that can understand any RO-Crate. It may not be glamorous but it could be included in an archive as a way to provide human-readable access in the absence of portals that are data-specific (but cost money to build and maintain).
+The RO-Crate standard also strongly recommends that {{< glossary_link display="JSON" id="json" >}} metadata is supplemented with an HTML preview - above we show what that looks like for a PARADISEC item. This is a screenshot of an HTML view of a PARADISEC Item generated using [an HTML rendering tool for RO-Crate](https://github.com/UTS-eResearch/ro-crate-html-js). The important point here is that this is a _generic_ viewer that can understand any RO-Crate. It may not be glamorous but it could be included in an archive as a way to provide human-readable access in the absence of portals that are data-specific (but cost money to build and maintain).
 
 </section>
 
@@ -201,7 +201,7 @@ Here is the same page from the previous slide seen in a working model of an RO-C
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide16.png' alt='  ' title='Slide: 16' border='1'  width='85%%'/>
 
-The [structure of an RO-Crate](https://www.researchobject.org/ro-crate/1.1/structure.html) is very similar to the PARADISEC example above, but with a JSON file instead of XML, and an optional preview in HTML.
+The [structure of an RO-Crate](https://www.researchobject.org/ro-crate/1.1/structure.html) is very similar to the PARADISEC example above, but with a {{< glossary_link display="JSON" id="json" >}} file instead of XML, and an optional preview in HTML.
 
 RO-Crate has a growing number of [tools and software libraries](https://www.researchobject.org/ro-crate/tools/) which means that a team such as PARADISEC do not have to maintain their own bespoke software.
 
@@ -280,7 +280,7 @@ A Collection Object MAY have explicit listing of hasMember properties - which ma
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide23.png' alt='Describo Screenshot editing a collection record (PT)  ' title='Slide: 23' border='1'  width='85%%'/>
 
-This screenshot shows the Language Data Commons RO-Crate Profile in action. This is the [Describo Online] metadata editor, with configuration that reflects the profile being used to describe a language data collection using linked-data metadata.
+This screenshot shows the Language Data Commons RO-Crate Profile in action. This is the [Describo Online] metadata editor, with configuration that reflects the profile being used to describe a language {{< glossary_link display="data collection" id="data-collection" >}} using linked-data metadata.
 
 In this case, the description is of the collection object.
 

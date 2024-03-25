@@ -9,7 +9,7 @@ description: "Information about the approach to metadata being taken by LDaCA."
 
 Metadata is often defined as 'data about data'. High-quality metadata is important in making data {{< glossary_link display="FAIR" id="fair" >}}:
 
-- **Findable**: Metadata is the starting point for searching data collections. For example, if we want to find data in a particular language, this will only be possible for data that has a language recorded in its metadata. (Tracking languages is in itself problematic, see [below](#identifying-codes-for-languages).)
+- **Findable**: Metadata is the starting point for searching {{< glossary_link display="data collections" id="data-collection" >}}. For example, if we want to find data in a particular language, this will only be possible for data that has a language recorded in its metadata. (Tracking languages is in itself problematic, see [below](#identifying-codes-for-languages).)
 - **Accessible**: {{< glossary_link display="Access conditions" id="access-conditions" >}} that apply to data should be part of the associated metadata.
 - **Interoperable**: Information about the format of data and whether it requires specific software to be usable should be part of the associated metadata.
 - **Reusable**: All of the aspects of metadata mentioned above contribute to making data reusable. The more we know about some data, the easier it is to know whether it will be useful to us or not.
@@ -28,7 +28,7 @@ OLAC is an international partnership of institutions and individuals; one of the
 
 ### Component Metadata Infrastructure ([CMDI](https://www.clarin.eu/content/component-metadata))
 
-CMDI was developed within the [CLARIN](https://www.clarin.eu) project. It draws on the earlier ISLE Metadata Initiative ([IMDI](https://en.wikipedia.org/wiki/IMDI)), but where IMDI attempted to specify a comprehensive scheme for (multimodal) language data, CMDI adopts a more flexible approach where components are assembled into reusable profiles. This is very similar to the RO-Crate approach described above but with an important difference: the components of a CMDI profile are all drawn from a central registry, whereas components of an RO-Crate profile come from any linkable location.
+{{< glossary_link display="CMDI" id="cmdi" >}} was developed within the [CLARIN](https://www.clarin.eu) project. It draws on the earlier ISLE Metadata Initiative ([IMDI](https://en.wikipedia.org/wiki/IMDI)), but where IMDI attempted to specify a comprehensive scheme for (multimodal) language data, {{< glossary_link display="CMDI" id="cmdi" >}} adopts a more flexible approach where components are assembled into reusable profiles. This is very similar to the RO-Crate approach described above but with an important difference: the components of a {{< glossary_link display="CMDI" id="cmdi" >}} profile are all drawn from a central registry, whereas components of an RO-Crate profile come from any linkable location.
 
 <br>
 
@@ -42,19 +42,19 @@ One very important piece of metadata for language data is a description of the l
 
 ### [ISO-639](https://iso639-3.sil.org/) {#iso-639}
 
-This system is recognised as a standard by the International Standards Organisation. An earlier version of this system used two-letter codes to identify languages; more recent versions use three-letter codes (referred to as ISO 639-3). These codes are used by [Ethnologue](https://www.ethnologue.com/), which is a catalogue of the languages of the world, and in many other contexts. The ISO 639-3 code for French is **fra**, and Warlpiri is **wbp**.
+This system is recognised as a standard by the International Standards Organisation. An earlier version of this system used two-letter codes to identify languages; more recent versions use three-letter codes (referred to as ISO 639-3). These codes are used by [Ethnologue](https://www.ethnologue.com/), which is a catalogue of the languages of the world, and in many other contexts. The ISO639-3 code for French is **fra**, and Warlpiri is **wbp**.
 
 <br>
 
 ### [Glottolog](https://glottolog.org/) {#glottolog}
 
-Glottolog is an alternative catalogue of the world's languages, language families and dialects - Glottolog uses the term _languoid_ to cover all of these. Each languoid is assigned a unique identifier consisting of four alphanumeric characters and four digits. For example, (standard) French has the code **stan1290**, and Warlpiri is **warl1254**.
+{{< glossary_link display="Glottolog" id="glottolog" >}} is an alternative catalogue of the world's languages, language families and dialects - {{< glossary_link display="Glottolog" id="glottolog" >}} uses the term _languoid_ to cover all of these. Each languoid is assigned a unique identifier consisting of four alphanumeric characters and four digits. For example, (standard) French has the code **stan1290**, and Warlpiri is **warl1254**.
 
 <br>
 
 ### [Austlang](https://collection.aiatsis.gov.au/austlang/about)
 
-AustLang provides a controlled vocabulary of persistent identifiers, a thesaurus of languages and peoples, and information about Aboriginal and Torres Strait Islander languages which has been assembled from referenced sources. Alphanumeric codes are used as persistent identifiers, while associated text strings are changeable and can reflect community preferences (including alternative names and spellings). In Austlang, Warlpiri has two codes: **C15** for the language in general, and **C15.1** for the variety named as Wakirti Warlpiri. (French is not covered by Austlang.)
+{{< glossary_link display="AustLang" id="austlang" >}} provides a controlled vocabulary of persistent identifiers, a thesaurus of languages and peoples, and information about Aboriginal and Torres Strait Islander languages which has been assembled from referenced sources. Alphanumeric codes are used as persistent identifiers, while associated text strings are changeable and can reflect community preferences (including alternative names and spellings). In {{< glossary_link display="AustLang" id="austlang" >}}, Warlpiri has two codes: **C15** for the language in general, and **C15.1** for the variety named as Wakirti Warlpiri. (French is not covered by {{< glossary_link display="AustLang" id="austlang" >}}.)
 
 <br>
 
@@ -67,13 +67,13 @@ Kala Lagaw Ya is a language spoken in the Torres Strait Islands. The language ha
 {{< raw >}}
 
 <table>
-<tr><td><b>Name</b></td><td><b>ISO 639</b></td><td><b>Glottolog</b></td><td><b>Austlang</b></td><td><b>Notes</b></td></tr>
-<tr><td>Kala Lagaw Ya</td><td>mwp</td><td>kala1377</td><td>Y1</td><td>Austlang: Marked with symbol ^ which indicates that the name is used to refer to a language and a dialect of the language.</td></tr>
+<tr><td><b>Name</b></td><td><b>ISO 639</b></td><td><b>Glottolog</b></td><td><b>AustLang</b></td><td><b>Notes</b></td></tr>
+<tr><td>Kala Lagaw Ya</td><td>mwp</td><td>kala1377</td><td>Y1</td><td>{{< glossary_link display="AustLang" id="austlang" >}}: Marked with symbol ^ which indicates that the name is used to refer to a language and a dialect of the language.</td></tr>
 <tr><td>Kalaw Kawaw Ya</td><td></td><td>kala1378</td><td>Y2</td><td>Ethnologue: Kalaw Kawaw is a dialect.</td></tr>
 <tr><td>Kawrareg</td><td></td><td>kawr1234</td><td></td><td></td></tr>
 <tr><td>Kulkalgau Ya</td><td></td><td>kulk1234</td><td>Y4</td><td></td></tr>
 <tr><td>Mabuyag</td><td></td><td>mabu1234</td><td></td><td>Ethnologue: Mabuiag is an alternate name.</td></tr>
-<tr><td>Kawalgaw Ya</td><td></td><td></td><td>Y5</td><td>Austlang: Kaurareg is an alternative name (probably the same as Glottolog kawr1234).</td></tr>
+<tr><td>Kawalgaw Ya</td><td></td><td></td><td>Y5</td><td>{{< glossary_link display="AustLang" id="austlang" >}}: Kaurareg is an alternative name (probably the same as {{< glossary_link display="Glottolog" id="glottolog" >}} kawr1234).</td></tr>
 </table>
 
 {{< /raw >}}

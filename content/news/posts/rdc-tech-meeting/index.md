@@ -23,8 +23,8 @@ and there.
 
 ![Hass RDC Technical Avisory Group Meeting](Slide00.png)
 
-The Language Data Commons of Australia Data Partnerships (LDaCA) and the Australian Text Analytics Platform ({{< glossary_link display="ATAP" id="atap" >}}) are establishing a scalable and flexible language data and analytics commons. These projects will be part of the Humanities and Social Sciences Research Data Commons (HASS RDC).
-The Data Commons will focus on preservation and discovery of distributed multi-modal language data collections under a variety of governance frameworks. This will include access control that reflects ethical constraints and intellectual property rights, including those of Aboriginal and Torres Strait Islander, migrant and Pacific communities.
+The Language Data Commons of Australia Data Partnerships (LDaCA) and the Australian Text Analytics Platform ({{< glossary_link display="ATAP" id="atap" >}}) are establishing a scalable and flexible language data and analytics commons. These projects will be part of the Humanities and Social Sciences Research Data Commons ({{< glossary_link display="HASS" id="hass" >}} RDC).
+The Data Commons will focus on preservation and discovery of distributed multi-modal language {{< glossary_link display="data collections" id="data-collection" >}} under a variety of governance frameworks. This will include access control that reflects ethical constraints and {{< glossary_link display="intellectual property" id="intellectual-property" >}} rights, including those of Aboriginal and Torres Strait Islander, migrant and Pacific communities.
 
 <br>
 
@@ -115,10 +115,10 @@ community. It was devised as a way to do interchange between repository
 systems, most of which, it turned out had evolved very similar ways of having
 nested collections, digital objects that aggregate related files. Using this
 very simple ontology allows us to store data in the OCFL layer in a very
-flexible way - depending on factors like data size, licensing and whether
+flexible way - depending on factors like data size, {{< glossary_link display="licensing" id="licensing" >}} and whether
 data is likely to change or need to be withdrawn, we can store entire
 collections as OCFL objects or across many OCFL objects with PCDM used to
-show the structure of the data collections regardless of how they happen to
+show the structure of the {{< glossary_link display="data collections" id="data-collection" >}} regardless of how they happen to
 be stored.
 
 <br>
@@ -136,7 +136,7 @@ Crate term that corresponds to pcdm:Collection).
 
 Crates must have license information that set out how data may be used and if
 it may be redistributed. As we are dealing with language data which is (almost
-) always created by people, it is important that their intellectual property
+) always created by people, it is important that their {{< glossary_link display="intellectual property" id="intellectual-property" >}}
 rights and privacy are respected. More on this later.
 
 <br>
@@ -179,9 +179,9 @@ context of _doing_ research. It makes a distinction between managed
 repository storage and the places where work is done - “workspaces”.
 Workspaces are where researchers collect, analyse and describe data.
 Examples include the most basic of research IT services, file storage as
-well as analytical tools such as Jupyter notebooks (the backbone of {{< glossary_link display="ATAP" id="atap" >}} -
+well as analytical tools such as {{< glossary_link display="Jupyter notebooks" id="jupyter-notebook" >}} (the backbone of {{< glossary_link display="ATAP" id="atap" >}} -
 the text analytics platform). Other examples of workspaces include code
-repositories such as GitHub or GitLab (a slightly different sense of the word
+repositories such as {{< glossary_link display="GitHub" id="github" >}} or GitLab (a slightly different sense of the word
 repository), survey tools, electronic (lab) notebooks and bespoke code
 written for particular research programs - these workspaces are essential
 research systems but usually are not set up for long-term management of data.
@@ -206,7 +206,7 @@ This rather messy slide captures the overall high-level architecture for the
 LDaCA Research Data Commons - there will be an analytical workbench (left of
 the diagram) which is the basis of the Australian Text Analytics ({{< glossary_link display="ATAP" id="atap" >}})
 project - this will focus on notebook-style programming using one of the
-emerging Jupyter notebook platforms in that space. (This is not 100% decided
+emerging {{< glossary_link display="Jupyter notebook" id="jupyter-notebook" >}} platforms in that space. (This is not 100% decided
 yet, but that has not stopped the team from starting to collect and develop
 notebooks that open up text analytics to new coders from the linguistics
 community.) Our engagement lead, Dr Simon Musgrave sees the {{< glossary_link display="ATAP" id="atap" >}} work as
@@ -220,7 +220,7 @@ research practices - which will be underpinned by services built on the
 
 In this presentation, we are going to focus on the portal/repository
 architecture more than on the {{< glossary_link display="ATAP" id="atap" >}} notebook side of things. We know that we
-will be using (at least) the SWAN Jupyter notebook service perceived by
+will be using (at least) the SWAN {{< glossary_link display="Jupyter notebook" id="jupyter-notebook" >}} service perceived by
 AARNet but we are still scoping how notebooks will be made portable between
 systems and where they will be stored at various stages of their development.
 We will be supporting and encouraging researchers to archive notebooks
@@ -248,7 +248,7 @@ custodian. We are in negotiations with the
 [Australian Access Federation (AAF)](https://aaf.edu.au/) to use their
 [CILogon](https://www.cilogon.org/) service for this authorization step and
 for authentication of users across a wide variety of services including the
-AAF itself and Google, Microsoft, GitHub etc.
+AAF itself and Google, Microsoft, {{< glossary_link display="GitHub" id="github" >}} etc.
 
 There’s also an access portal which will be based on a full-text index (at
 this stage we’re using ElasticSearch) which is designed to help people find
@@ -297,7 +297,7 @@ collection, ALWAYS with access control based on licenses.
 
 ![Slide16](Slide16.png)
 
-This is a screenshot of our GitHub repository showing the corpus migration tools
+This is a screenshot of our {{< glossary_link display="GitHub" id="github" >}} repository showing the corpus migration tools
 we’ve started developing (there are six, and one general purpose text-
 cleaning tool). These repositories have not all been made public yet, but
 they will be - they contain tools to build {{< glossary_link display="Arkisto" id="arkisto" >}}-ready file repositories
@@ -469,7 +469,7 @@ about the protection of those moral rights.
 [Traditional Knowledge Labels](https://localcontexts.org/labels/traditional-knowledge-labels/)
 
 We are designing the system so that it can work with diverse ways of
-expressing access rights, for example, licensing like the Tribal Knowledge
+expressing access rights, for example, {{< glossary_link display="licensing" id="licensing" >}} like the Tribal Knowledge
 labels. The idea is to separate safe storage of data with a license on each
 item, which may reference the TK labels from a system that is administered by
 the data custodians who can make decisions about who is allowed to access data.
@@ -528,7 +528,7 @@ appropriate.
 ![Slide28](Slide28.png)
 
 In this example demo we uploaded various collections and are authorising with
-GitHub organisations.
+{{< glossary_link display="GitHub" id="github" >}} organisations.
 
 In our production release, we will use AAF to authorise different groups.
 
@@ -536,13 +536,13 @@ Let's find a dataset: The Sydney Speaks Corpus.
 
 As you can see we cannot see any data.
 
-Let's login… We authorise GitHub…
+Let's login… We authorise {{< glossary_link display="GitHub" id="github" >}}…
 
 Now you can see we have access to sub-corpus data and I am just opening a couple of items.
 
 —
 
-Now in GitHub we can see the group management example.
+Now in {{< glossary_link display="GitHub" id="github" >}} we can see the group management example.
 
 I have given access to all the licences to myself, as you can see here and
 given access to licence A to others.
@@ -553,9 +553,9 @@ given access to licence A to others.
 
 This diagram is a sketch of the interaction that took place in the demo - it
 shows how a repository can delegate authorization to an external system - in
-this case, GitHub rather than CILogon. But we are working with the {{< glossary_link display="ARDC" id="ardc" >}} to set
+this case, {{< glossary_link display="GitHub" id="github" >}} rather than CILogon. But we are working with the {{< glossary_link display="ARDC" id="ardc" >}} to set
 up a trial with the Australian Access Federation to allow CILogon access for
-the HASS Research Data Commons so we can pilot group-based access control.
+the {{< glossary_link display="HASS" id="hass" >}} Research Data Commons so we can pilot group-based access control.
 
 <br>
 

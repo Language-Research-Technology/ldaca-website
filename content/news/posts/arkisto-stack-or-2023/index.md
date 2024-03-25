@@ -22,7 +22,7 @@ This contains the slides and complete speaker notes, which have been edited afte
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
-We will present a standards-based generalized architecture for large-scale data\* repositories for research and preservation illustrated with real-world examples drawn from a number of languages and cultural archive projects. This work is taking place in the context of the Australian Humanities and Social Sciences Research Data Commons, particularly the Language Data component thereof and the long-established PARADISEC cultural archive. The standards used include the Oxford Common File Layout for storage, Research Object CRATE (RO-Crate) for consistent linked-data description of {{< glossary_link display="FAIR" id="fair" >}} digital objects, and a language data metadata profile to ensure long-term interoperability between systems and re-usability over time. We also discuss data licensing and authorization for access to non-open resources. We suggest that the approach shown here may be used in other disciplines or for other kinds of digital library, repository or archival systems.
+We will present a standards-based generalized architecture for large-scale data\* repositories for research and preservation illustrated with real-world examples drawn from a number of languages and cultural archive projects. This work is taking place in the context of the Australian Humanities and Social Sciences Research Data Commons, particularly the Language Data component thereof and the long-established PARADISEC cultural archive. The standards used include the Oxford Common File Layout for storage, Research Object CRATE (RO-Crate) for consistent linked-data description of {{< glossary_link display="FAIR" id="fair" >}} digital objects, and a language data metadata profile to ensure long-term interoperability between systems and re-usability over time. We also discuss data {{< glossary_link display="licensing" id="licensing" >}} and authorization for access to non-open resources. We suggest that the approach shown here may be used in other disciplines or for other kinds of digital library, repository or archival systems.
 
 \*The submitted abstract did not have the word data here - added for clarity
 
@@ -44,9 +44,9 @@ This work is supported by the Australian Research Data Commons.
 
 <img src='Slide02.png' alt=' With thanks for their contribution: Partner Institutions: ' title='Slide: 2' border='1'  width='85%%'/>
 
-The Language Data Commons of Australia Data Partnerships (LDaCA) and the Australian Text Analytics Platform ({{< glossary_link display="ATAP" id="atap" >}}) are building towards a scalable and flexible language data and analytics commons. These projects will be part of the HASS (Humanities and Social Sciences) and Indigenous Research Data Commons (HASS+I RDC).
+The Language Data Commons of Australia Data Partnerships (LDaCA) and the Australian Text Analytics Platform ({{< glossary_link display="ATAP" id="atap" >}}) are building towards a scalable and flexible language data and analytics commons. These projects will be part of the {{< glossary_link display="HASS" id="hass" >}} (Humanities and Social Sciences) and Indigenous Research Data Commons (HASS+I RDC).
 
-The Data Commons will focus on preservation and discovery of distributed multi-modal language data collections under a variety of governance frameworks. This will include access control that reflects ethical constraints and intellectual property rights, including those of Aboriginal and Torres Strait Islander, migrant and Pacific communities.
+The Data Commons will focus on preservation and discovery of distributed multi-modal language {{< glossary_link display="data collections" id="data-collection" >}} under a variety of governance frameworks. This will include access control that reflects ethical constraints and {{< glossary_link display="intellectual property" id="intellectual-property" >}} rights, including those of Aboriginal and Torres Strait Islander, migrant and Pacific communities.
 
 The platform will provide workbench services to support computational research, starting with code-notebooks with no-code research tools provided in later phases. Research artefacts such as code and derived data will be made available as fully documented research objects that are re-runnable and rigorously described. Metrics to demonstrate the impact of the platform are projected to include usage statistics, data and article citations. These projects are led by Professor Michael Haugh of the School of Languages and Cultures at the University of Queensland with several partner institutions.
 
@@ -110,7 +110,7 @@ This is a taster of what data looks like in the kids of repositories we are talk
 
 <img src='Slide08.png' alt='' title='Slide: 8' border='1'  width='85%%'/>
 
-The LDaCA services we are building use an {{< glossary_link display="API" id="api" >}} to drive the data portals. The {{< glossary_link display="API" id="api" >}} can be used for direct access with appropriate access control – see [another eResearch presentation](../fair-care-eresearch-2022) which explains this in detail. These screenshots show code notebooks running in BinderHub on the Nectar cloud accessing language resources.
+The LDaCA services we are building use an {{< glossary_link display="API" id="api" >}} to drive the data portals. The {{< glossary_link display="API" id="api" >}} can be used for direct access with appropriate access control – see [another eResearch presentation](../fair-care-eresearch-2022) which explains this in detail. These screenshots show code notebooks running in {{< glossary_link display="BinderHub" id="binderhub" >}} on the Nectar cloud accessing language resources.
 
 This work has also been [written up](https://digital.library.unt.edu/ark:/67531/metadc2114304/) for the _2nd International Workshop on Digital Language Archives (LangArc 2023) virtual workshop on digital language archives_ 2023-06-30.
 
@@ -161,7 +161,7 @@ Stian Soiland-Reyes, Peter Sefton, Mercè Crosas, Leyla Jael Castro, Frederik Co
 
 <img src='Slide12.png' alt='  ' title='Slide: 12' border='1'  width='85%%'/>
 
-The core standard for this work is RO-Crate (Research Object Crate) in which all data is input, stored and output. This a big step for eresearch systems – no longer is there a transformation step on data onboarding (we used the term ingest, but some project members and partners found the metaphor distasteful).
+The core standard for this work is RO-Crate (Research Object Crate) in which all data is input, stored and output. This a big step for eresearch systems – no longer is there a transformation step on {{< glossary_link display="data onboarding" id="data-onboarding" >}} (we used the term ingest, but some project members and partners found the metaphor distasteful).
 
 </section>
 
@@ -219,7 +219,7 @@ The UTS team presented on this at [eResearch Australasia 2019](https://ptsefton.
 
 <img src='Slide17.png' alt='  ' title='Slide: 17' border='1'  width='85%%'/>
 
-The [structure of an RO-Crate](https://www.researchobject.org/ro-crate/1.1/structure.html) is very similar to the PARADISEC example above, but with a JSON file instead of XML, and an optional preview in HTML.
+The [structure of an RO-Crate](https://www.researchobject.org/ro-crate/1.1/structure.html) is very similar to the PARADISEC example above, but with a {{< glossary_link display="JSON" id="json" >}} file instead of XML, and an optional preview in HTML.
 
 RO-Crate has a growing number of [tools and software libraries](https://www.researchobject.org/ro-crate/tools/) which means that a team such as PARADISEC does not have to maintain their own bespoke software.
 
@@ -299,7 +299,7 @@ This slide shows how we have abstracted the “A” for Access in {{< glossary_l
 - Each repository only needs an authoritative list of licenses and trusted license management systems to be able to serve the data.
 - License management is handled by a dedicated system that can deal with application and invitation workflows to grant licenses (including simple self-serve click-through license agreements)
 
-Note that our work is also informed by the {{< glossary_link display="CARE" id="care" >}} principles for Indigenous data Governance (Collective benefit, Authority to control, Responsibility, Ethics) which frame the way {{< glossary_link display="FAIR" id="fair" >}} protocols are implemented. Again, see the [LangArc workshop write-up](https://digital.library.unt.edu/ark:/67531/metadc2114304/).
+Note that our work is also informed by the {{< glossary_link display="CARE" id="care" >}} principles for Indigenous Data Governance (Collective benefit, Authority to control, Responsibility, Ethics) which frame the way {{< glossary_link display="FAIR" id="fair" >}} protocols are implemented. Again, see the [LangArc workshop write-up](https://digital.library.unt.edu/ark:/67531/metadc2114304/).
 
 </section>
 
@@ -331,7 +331,7 @@ In the first phase of the LDaCA project, work focused on batch import of data us
 
 This slide shows some JSON-LD metadata that describes the way this RO-Crate metadata was created – illustrating how RO-Crate can be used to record provenance.
 
-(UPDATE: I didn't explain [JSON-LD](https://json-ld.org/) properly during the presentation. JSON-LD is a method of encoding linked-data (which can be quite esoteric and unapproachable) in JSON a method of describing data in simple text, which is widely used and understood by programmers.)
+(UPDATE: I didn't explain [JSON-LD](https://json-ld.org/) properly during the presentation. JSON-LD is a method of encoding linked-data (which can be quite esoteric and unapproachable) in {{< glossary_link display="JSON" id="json" >}} a method of describing data in simple text, which is widely used and understood by programmers.)
 
 </section>
 
@@ -351,9 +351,9 @@ This part of the architecture we are working on now…
 
 <img src='Slide29.png' alt='' title='Slide: 29' border='1'  width='85%%'/>
 
-Here we see the Crate-O metadata tool (which is a zero-install web application that runs in Chrome and other browsers that support the new FilesystemAPI) being used to add an Organization as the Affiliation for a Person entity. Having imported this "Context Entity" (that's the RO-Crate term) it can then be re-used within the crate which we see here as the schema.org `publisher` property is linked to the same organization.
+Here we see the {{< glossary_link display="Crate-O" id="crate-o" >}} metadata tool (which is a zero-install web application that runs in Chrome and other browsers that support the new FilesystemAPI) being used to add an Organization as the Affiliation for a Person entity. Having imported this "Context Entity" (that's the RO-Crate term) it can then be re-used within the crate which we see here as the schema.org `publisher` property is linked to the same organization.
 
-(At this stage Crate-O is still to be connected to the repository stack - that will happen in the second half of 2023)
+(At this stage {{< glossary_link display="Crate-O" id="crate-o" >}} is still to be connected to the repository stack - that will happen in the second half of 2023)
 
 </section>
 
@@ -375,7 +375,7 @@ We hope to work with other editor projects (e.g. [Describo](https://describo.git
 
 The next few slides show some examples of our approach implemented in a variety of contexts.
 
-Here’s another repository that uses RO-Crate metadata (from the Language Data Commons of Australia/Australian Text Analytics Platform) – here users can launch a Jupyter notebook containing Python code (and explanatory text) that processes a dataset.
+Here’s another repository that uses RO-Crate metadata (from the Language Data Commons of Australia/Australian Text Analytics Platform) – here users can launch a {{< glossary_link display="Jupyter notebook" id="jupyter-notebook" >}} containing Python code (and explanatory text) that processes a dataset.
 
 </section>
 
@@ -385,7 +385,7 @@ Here’s another repository that uses RO-Crate metadata (from the Language Data 
 
 <img src='Slide32.png' alt=' SCREENSHOT OF NOTEBOOK  ' title='Slide: 32' border='1'  width='85%%'/>
 
-This is a screenshot of a Jupyter notebook that can process data from a repository via its {{< glossary_link display="API" id="api" >}}.
+This is a screenshot of a {{< glossary_link display="Jupyter notebook" id="jupyter-notebook" >}} that can process data from a repository via its {{< glossary_link display="API" id="api" >}}.
 
 </section>
 

@@ -66,7 +66,7 @@ What material can be accessed with this license?
 
 What authorisation is required for users to access this license?
 - __If none__ → all users can accept the click-through license and access the material.
-- __If by invitation__ → only users invited by the Data Steward can accept the license and access the data.
+- __If by invitation__ → only users invited by the {{< glossary_link display="Data Steward" id="data-steward" >}} can accept the license and access the data.
 - __If by application__ → arrange a form or a document with requirements for users to fill in.
 
 <br>

@@ -33,9 +33,9 @@ Edited by: Simon Musgrave
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide01.png' alt='Project Team(alphabetical order) Michael D’Silva  Marco Fahmi Leah Gustafson  Michael Haugh Cale Johnstone  Kathrin Kaiser  Sara King  Marco La Rosa  Mel Mistica  Simon Musgrave  Joel Nothman  Moises Sacal  Martin Schweinberger  PT Sefton   With thanks for their contribution: Partner Institutions: ' title='Slide: 1' border='1'  width='85%%'/>
 
-The Language Data Commons of Australia Data Partnerships (LDaCA) and the Australian Text Analytics Platform ({{< glossary_link display="ATAP" id="atap" >}}) are building towards a scalable and flexible language data and analytics commons. These projects will be part of the Humanities and Social Sciences Research Data Commons (HASS RDC).
+The Language Data Commons of Australia Data Partnerships (LDaCA) and the Australian Text Analytics Platform ({{< glossary_link display="ATAP" id="atap" >}}) are building towards a scalable and flexible language data and analytics commons. These projects will be part of the Humanities and Social Sciences Research Data Commons ({{< glossary_link display="HASS" id="hass" >}} RDC).
 
-The Data Commons will focus on preservation and discovery of distributed multi-modal language data collections under a variety of governance frameworks. This will include access control that reflects ethical constraints and intellectual property rights, including those of Aboriginal and Torres Strait Islander, migrant and Pacific communities.
+The Data Commons will focus on preservation and discovery of distributed multi-modal language {{< glossary_link display="data collections" id="data-collection" >}} under a variety of governance frameworks. This will include access control that reflects ethical constraints and {{< glossary_link display="intellectual property" id="intellectual-property" >}} rights, including those of Aboriginal and Torres Strait Islander, migrant and Pacific communities.
 
 The platform will provide workbench services to support computational research, starting with code-notebooks with no-code research tools provided in later phases. Research artefacts such as code and derived data will be made available as fully documented research objects that are re-runnable and rigorously described. Metrics to demonstrate the impact of the platform are projected to include usage statistics, data and article citations. These projects are led by Professor Michael Haugh of the School of Languages and Culture at the University of Queensland with several partner institutions.
 
@@ -55,14 +55,14 @@ This work is supported by the Australian Research Data Commons.
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide03.png' alt='  ' title='Slide: 3' border='1'  width='85%%'/>
 
-Last year at eResearch Australasia, the Language Data Commons of Australia (LDaCA) team presented a design for a distributed access control system which could look after the A-is-for-accessible in {{< glossary_link display="FAIR" id="fair" >}} data; in this presentation, we describe and demonstrate a pilot system based on that design, showing how data licenses that allow access by identified groups of people to language data collections can be used with an AAF pilot system (CILogon) to give the right people access to data resources.
+Last year at eResearch Australasia, the Language Data Commons of Australia (LDaCA) team presented a design for a distributed access control system which could look after the A-is-for-accessible in {{< glossary_link display="FAIR" id="fair" >}} data; in this presentation, we describe and demonstrate a pilot system based on that design, showing how {{< glossary_link display="data licenses" id="data-license" >}} that allow access by identified groups of people to language {{< glossary_link display="data collections" id="data-collection" >}} can be used with an AAF pilot system (CILogon) to give the right people access to data resources.
 
-The {{< glossary_link display="ARDC" id="ardc" >}} have invested in a pilot of this work as part of the HASS Research Data Commons and Indigenous Research Capability Program integration activities.
+The {{< glossary_link display="ARDC" id="ardc" >}} have invested in a pilot of this work as part of the {{< glossary_link display="HASS" id="hass" >}} Research Data Commons and Indigenous Research Capability Program integration activities.
 
 The system has to be able to implement data access policies with real-world complexity and one of our challenges has been developing a data access policy that works across a range of different collections of language data. Here we present a pilot data access policy that we have developed, describing how this policy captures the decisions that must be made by a range of data providers to ensure data accessibility that complies with diverse legal, moral and ethical considerations.
 We will discuss how the [CARE] and [FAIR] principles underpin this work, and compare this work to other projects such as [CADRE], which promise to deliver more complex solutions in the future. Initial work is with collections curated in a research context but we will also address community access to these resources.
 
-The idea is to separate safe storage of data from its delivery. Each item in a repository is stored with licensing information in natural language (English at the moment, but could be other languages) and the repository defers access decisions to an Authorization system, where data custodians can design whatever process they like for granting license access. This can range from simple click-through licenses where anyone can agree to license terms, to detailed multi-step workflows where applicants are vetted based on whatever criteria the rights holder wishes; qualifications, membership of a cultural group, have they paid a subscription fee, etc
+The idea is to separate safe storage of data from its delivery. Each item in a repository is stored with {{< glossary_link display="licensing" id="licensing" >}} information in natural language (English at the moment, but could be other languages) and the repository defers access decisions to an Authorization system, where data custodians can design whatever process they like for granting license access. This can range from simple click-through licenses where anyone can agree to license terms, to detailed multi-step workflows where applicants are vetted based on whatever criteria the rights holder wishes; qualifications, membership of a cultural group, have they paid a subscription fee, etc
 
 [fair]: https://www.nature.com/articles/sdata201618
 
@@ -135,7 +135,7 @@ Let's go over some basics, starting with _licences_.
 
 A licence in this context is _a natural language document_ in which a copyright holder sets out the terms and conditions of use for data. Licences _may_ have metadata that describes them, e.g. a property to say that this is an open licence (and does not require a check when serving data).
 
-A license is not a computer program, or configuration, or an AI entity that can make decisions, it’s a legal document. You may also know this as a “data sharing agreement” or “terms of use”. Examples of licenses we see all the time are the GNU GPL or the various Creative Commons licenses which grant rights to others to redistribute a creative work, and specifies conditions on what changes are permitted.
+A license is not a computer program, or configuration, or an AI entity that can make decisions, it’s a legal document. You may also know this as a “data sharing agreement” or “terms of use”. Examples of licenses we see all the time are the GNU GPL or the various {{< glossary_link display="Creative Commons licenses" id="creative-commons-licenses" >}} which grant rights to others to redistribute a creative work, and specifies conditions on what changes are permitted.
 
 That said, metadata _about_ a license can be used to automate decision-making - if it is labelled as being an open license, then a repository can serve data and include that data, if it is labelled as “closed” or more aptly, “authorization-required” then repository software can perform an authorization step, which we cover in detail later.
 
@@ -177,7 +177,7 @@ The access control system we have been prototyping is based on licenses.
 
 For any data object, which could be an entire collection, or one set of recordings of a speaker in a speech study, or a set of handwritten linguistic field notes from the 1950s, or a novel etc we store a license with it. This means that future archivists/librarians and researchers can work out how to manage the data if the systems we build today for automated access are no longer operational and we give the license an ID which is a URL we can use to identify it uniquely.
 
-This diagram shows how a license is explicitly linked to the data using a metadata description standard known as “Research Object Crate” [RO-Crate]. Each object in the repository is a crate, with a metadata file that describes the object and (optionally) its component files, including the data license.
+This diagram shows how a license is explicitly linked to the data using a metadata description standard known as “Research Object Crate” [RO-Crate]. Each object in the repository is a crate, with a metadata file that describes the object and (optionally) its component files, including the {{< glossary_link display="data license" id="data-license" >}}.
 
 [ro-crate]: http://ptsefton.com/2019/11/05/RO-Crate%20eResearch%20Australasia%202019/index.html
 
@@ -192,7 +192,7 @@ This diagram shows how a license is explicitly linked to the data using a metada
 
 Every item in a repository has a license, which may be an open one like CC Share Alike or a custom license derived from the ethics and participants agreements for a study in the context of local laws and institutional policy.
 
-Using this license, distributed access portals in our architecture can check against an authorization system for each request for data. The portals may both host data with the same licensing but do not need to maintain access control lists.
+Using this license, distributed access portals in our architecture can check against an authorization system for each request for data. The portals may both host data with the same {{< glossary_link display="licensing" id="licensing" >}} but do not need to maintain access control lists.
 
 </section>
 
@@ -220,11 +220,11 @@ Scope:
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide13.png' alt='' title='Slide: 13' border='1'  width='85%%'/>
 
-The first prototype, which we presented at eResearch Australasia last year was a proof-of-concept GitHub-based system. This demonstrated that authorization can be delegated from a repository to an external service. For each of the Sydney Speaks licenses there was a GitHub group (organization). The repository, when requested to serve data would get the user to log in using the GitHub Authentication services, then check if the user was in the correct license group.
+The first prototype, which we presented at eResearch Australasia last year was a proof-of-concept {{< glossary_link display="GitHub" id="github" >}}-based system. This demonstrated that authorization can be delegated from a repository to an external service. For each of the Sydney Speaks licenses there was a {{< glossary_link display="GitHub" id="github" >}} group (organization). The repository, when requested to serve data would get the user to log in using the {{< glossary_link display="GitHub" id="github" >}} Authentication services, then check if the user was in the correct license group.
 
 This worked, but there were issues with this approach:
 
-- There are no workflow options (unless we build a workflow system), just adding people to a GitHub organisation to pre-authorize them
+- There are no workflow options (unless we build a workflow system), just adding people to a {{< glossary_link display="GitHub" id="github" >}} organisation to pre-authorize them
 
 - The system only supported a single logon service, which is not widely used in academia or by community groups
 
@@ -237,9 +237,9 @@ So, we talked to our colleagues at the Australian Access Federation (AAF) about 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide14.png' alt='' title='Slide: 14' border='1'  width='85%%'/>
 
-The AAF, as it happened were already working with other research groups on a service called [CILogon] (hosted in the USA initially, but soon to be hosted in Australia), like GitHub, this service has groups (which was our way of associating users with licenses in the absence of a specific license-granting service), but also allows users to log in with a variety of Authentication providers, including research institutions, via the Australian Access Federation as well as social logins such as Google and Microsoft (and our old friend GitHub).
+The AAF, as it happened were already working with other research groups on a service called [CILogon] (hosted in the USA initially, but soon to be hosted in Australia), like {{< glossary_link display="GitHub" id="github" >}}, this service has groups (which was our way of associating users with licenses in the absence of a specific license-granting service), but also allows users to log in with a variety of Authentication providers, including research institutions, via the Australian Access Federation as well as social logins such as Google and Microsoft (and our old friend {{< glossary_link display="GitHub" id="github" >}}).
 
-Again this worked, but the current version of CILogon does not have particularly easy-to-use ways for a license-holder to create groups - there are a number of abstract constructs to deal with and there is currently no way to build an approval workflow using the web interface, so as with the GitHub trial we would have needed to build this part (all of this may change, as the software is under constant development).
+Again this worked, but the current version of CILogon does not have particularly easy-to-use ways for a license-holder to create groups - there are a number of abstract constructs to deal with and there is currently no way to build an approval workflow using the web interface, so as with the {{< glossary_link display="GitHub" id="github" >}} trial we would have needed to build this part (all of this may change, as the software is under constant development).
 
 There is a [nine-minute silent video](https://youtu.be/xEWXiM-jUfY) of what this looked like on YouTube for those who are really interested.
 
@@ -258,10 +258,7 @@ cross-institutional and community collaboration
 federated identity and group management
 a community management dashboard
 OIDC connectors for downstream services that support authorisation claims for services like
-REMS
-BinderHub
-JupyterHub
-LDaCA Dashboard
+REMS, {{< glossary_link display="BinderHub" id="binderhub" >}}, JupyterHub, LDaCA Dashboard.
 
 REMS (Resource Entitlement Management System) is a tool to help researchers browse resources such as datasets relevant to their research and to manage the application process for access to the resources.
 
@@ -289,7 +286,7 @@ Once a user has been granted a license in a pre-authorization process then a rep
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide16.png' alt='  ' title='Slide: 16' border='1'  width='85%%'/>
 
-This interaction diagram shows the flow involved in a user applying for a data license via REMS.
+This interaction diagram shows the flow involved in a user applying for a {{< glossary_link display="data license" id="data-license" >}} via REMS.
 
 Not shown here are some design and preparation steps:
 
@@ -378,7 +375,7 @@ Also, over time, we expect the administrative burden of constructing workflows w
 
 1. Licenses can be made less complex (particularly in the context of academic studies) if they specify re-use by particular known cohorts in advance - this comes down to improving the design of studies to encourage data reuse. This may also help to simplify academic ethics processes in the medium to long term.
 
-2. The CADRE project is looking to improve pre-authorization workflows that automatically source relevant information about potential users - fetching their publication record, and potentially remembering what certifications they have, so these attributes can be used and reused for decision-making. It is conceivable that this approach might be useful in cultural contexts as well to allow data custodians to manage data sharing - this is a discussion we have yet to have in the broader HASS RDC.
+2. The {{< glossary_link display="CADRE" id="cadre" >}} project is looking to improve pre-authorization workflows that automatically source relevant information about potential users - fetching their publication record, and potentially remembering what certifications they have, so these attributes can be used and reused for decision-making. It is conceivable that this approach might be useful in cultural contexts as well to allow data custodians to manage data sharing - this is a discussion we have yet to have in the broader {{< glossary_link display="HASS" id="hass" >}} RDC.
 
 <br>
 

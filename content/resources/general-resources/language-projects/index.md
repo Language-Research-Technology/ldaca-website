@@ -83,7 +83,7 @@ A lexical database (a database with words from different languages). Currently, 
 
 ### [Glottolog](https://glottolog.org/)
 
-Comprehensive reference information for the world's languages, especially the lesser-known languages. LDaCA uses Glottolog [language codes](/resources/ldaca-resources/metadata/#glottolog) in our metadata.
+Comprehensive reference information for the world's languages, especially the lesser-known languages. LDaCA uses {{< glossary_link display="Glottolog" id="glottolog" >}} [language codes](/resources/ldaca-resources/metadata/#glottolog) in our metadata.
 
 <br>
 

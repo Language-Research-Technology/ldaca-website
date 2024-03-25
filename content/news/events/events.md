@@ -13,11 +13,11 @@ draft: false
 
 #### HASS and Indigenous Research Data Commons Computational Skills Summer School 2024
 
-The 2024 HASS and Indigenous RDC Computational Skills Summer School aims to empower participants with practical knowledge, build digital skills, and help inspire new research outcomes within these research communities.
+The 2024 {{< glossary_link display="HASS" id="hass" >}} and Indigenous RDC Computational Skills Summer School aims to empower participants with practical knowledge, build digital skills, and help inspire new research outcomes within these research communities.
 
 Participation is aimed at researchers in the humanities, arts, social sciences and Indigenous fields of study. Themed streams will explore geosocial and geospatial data applications in humanities, arts, social sciences, and Indigenous research, using {{< glossary_link display="ARDC" id="ardc" >}} tools and services. You’ll gain experience through seminars and workshops and will be guided through hands-on use of free tools and platforms provided by the {{< glossary_link display="ARDC" id="ardc" >}} and its partners.
 
-For the {{< glossary_link display="ARDC" id="ardc" >}} Summer School, IDN and LDaCA will lead a stream on the governance, management and usage of data, especially Indigenous data.
+For the {{< glossary_link display="ARDC" id="ardc" >}} Summer School, {{< glossary_link display="IDN" id="idn" >}} and LDaCA will lead a stream on the governance, management and usage of data, especially Indigenous data.
 
 - A series of seminars will focus on sustainability, storage, usability and description of data.
 - A case study will highlight how data is being managed for long-term access
@@ -56,7 +56,7 @@ Our webinar series is a joint initiative with the Language Technology and Data A
 #### October 3 2022 - Paweł Kamocki: European Union Data Protection initiatives and their consequences for research
 
 **Abstract**:<br>
-The European Union, with its large population and GDP, is a leading force in regulatory globalisation. This webinar will discuss recent developments in legal frameworks affecting research data in Europe. Apart from the General Data Protection Regulation which, since its entry into application in 2018, has become an international standard of personal data protection, the recent introduction of statutory copyright exceptions for Text and Data Mining will also be discussed. Moreover, the webinar will also include a presentation of the most recent changes in EU law, such as the Data Governance Act and the Artificial Intelligence Act, which are expected to enter into application in the coming years.
+The European Union, with its large population and GDP, is a leading force in regulatory globalisation. This webinar will discuss recent developments in legal frameworks affecting research data in Europe. Apart from the General Data Protection Regulation which, since its entry into application in 2018, has become an international standard of personal data protection, the recent introduction of statutory {{< glossary_link display="copyright" id="copyright" >}} exceptions for Text and Data Mining will also be discussed. Moreover, the webinar will also include a presentation of the most recent changes in EU law, such as the Data Governance Act and the Artificial Intelligence Act, which are expected to enter into application in the coming years.
 
 **Paweł Kamocki** is a legal expert in Leibniz-Institut für Deutsche Sprache, Mannheim. He studied linguistics and law, and in 2017 obtained his doctorate in law from the universities of Paris and Münster for a thesis on legal aspects of data-intensive university research, with a focus on Knowledge Commons. He worked as a research and teaching assistant at the Paris Descartes university (now: Université de Paris), then also in the private sector. He is certified to work as an attorney in France. An active member of the [CLARIN](https://www.clarin.eu/) community since 2012, he currently chairs the CLARIN Legal and Ethical Issues Committee. He also worked with other projects and initiatives in the field of research data policy (RDA, EUDAT) and co-created several LegalTech tools for researchers. One of his main research interests are legal issues in Machine Translation.
 
@@ -70,7 +70,7 @@ Barbara McGillivray is a Turing Research Fellow at [The Alan Turing Institute](h
 
 #### 4 April 2022 - Keoni Mahelona: A practical approach to Indigenous data sovereignty
 
-Keoni Mahelona is the Chief Technical Officer of [Te Hiku Media](https://tehiku.nz/) where he is a part of the team developing the Kaitiakitanga Licence. This licence seeks to balance the importance of publicly accessible data with the reality that Indigenous Peoples may not have access to the resources that enable them to benefit from public data. By simply opening access to data and knowledge, Indigenous Peoples could be further colonised and taken advantage of in a digital, modern world. Therefore Keoni is committed to devising data governance regimes which enable Indigenous Peoples to reclaim and maintain sovereignty over Indigenous data.
+Keoni Mahelona is the Chief Technical Officer of [Te Hiku Media](https://tehiku.nz/) where he is a part of the team developing the Kaitiakitanga Licence. This licence seeks to balance the importance of publicly accessible data with the reality that Indigenous Peoples may not have access to the resources that enable them to benefit from public data. By simply opening access to data and knowledge, Indigenous Peoples could be further colonised and taken advantage of in a digital, modern world. Therefore Keoni is committed to devising {{< glossary_link display="data governance" id="data-governance" >}} regimes which enable Indigenous Peoples to reclaim and maintain sovereignty over Indigenous data.
 
 ### Advice for researchers {#advice}
 

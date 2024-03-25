@@ -1,5 +1,5 @@
 Name: "x-sampa"
 "title": "X-SAMPA"
 "short_description": "Extended Speech Assessment Methods Phonetic Alphabet"
-"content": "Extended Speech Assessment Methods Phonetic Alphabet. A computer-readable phonetic script, designed to extend SAMPA to cover the range of characters in the International Phonetic Alphabet (IPA)."
+"content": 'Extended Speech Assessment Methods Phonetic Alphabet. A computer-readable phonetic script, designed to extend SAMPA to cover the range of characters in the International Phonetic Alphabet ({{< glossary_link display="IPA" id="ipa" >}}).'
 "external_link": 

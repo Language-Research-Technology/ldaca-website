@@ -1,4 +1,4 @@
 Name: "data-onboarding"
 "title": "Data Onboarding"
 "short_description": "The process by which language collections are catalogued in LDaCA."
-"content": "The process by which language collections are catalogued in LDaCA, carried out collaboratively by the Data Steward and LDaCA."
+"content": 'The process by which language collections are catalogued in LDaCA, carried out collaboratively by the {{< glossary_link display="Data Steward" id="data-steward" >}} and LDaCA.'
