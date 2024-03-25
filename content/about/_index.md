@@ -10,13 +10,13 @@ layout: "root_list"
 
 **The Language Data Commons of Australia (LDaCA) is making nationally significant language data available for academic and non-academic use and providing a model for ensuring continued access with appropriate community control.**
 
-Australia is a massively multilingual country, in one of the world’s most linguistically diverse regions. Significant collections of this intangible cultural heritage have been amassed, including collections of Aboriginal and Torres Straight Islander languages, Australian Englishes, and regional languages of the Pacific, as well as collections important for cyber-security and for emergency communication. LDaCA is integrating this existing work into a national research infrastructure while also securing at-risk collections and improving access to under-utilised collections. LDaCA is thus ensuring that these invaluable resources will be available for analysis and reuse in the future, and that they will be managed in a culturally, ethically and legally appropriate manner guided by [FAIR](https://www.go-fair.org/fair-principles/) and [CARE](https://www.gida-global.org/care) principles.
+Australia is a massively multilingual country, in one of the world’s most linguistically diverse regions. Significant collections of this intangible cultural heritage have been amassed, including collections of Aboriginal and Torres Straight Islander languages, Australian Englishes, and regional languages of the Pacific, as well as collections important for cyber-security and for emergency communication. LDaCA is integrating this existing work into a national research infrastructure while also securing at-risk collections and improving access to under-utilised collections. LDaCA is thus ensuring that these invaluable resources will be available for analysis and reuse in the future, and that they will be managed in a culturally, ethically and legally appropriate manner guided by {{< glossary_link display="FAIR" id="fair" >}} and {{< glossary_link display="CARE" id="care" >}} principles.
 
 To accomplish these goals, LDaCA is:
 
 - **Developing a comprehensive language data access policy framework**
 
-  > LDaCA is establishing governance structures guided by {{< glossary_link display="FAIR" id="fair" >}} and CARE principles which will ensure that the legal rights and ethical concerns of the providers of data are respected.
+  > LDaCA is establishing governance structures guided by {{< glossary_link display="FAIR" id="fair" >}} and {{< glossary_link display="CARE" id="care" >}} principles which will ensure that the legal rights and ethical concerns of the providers of data are respected.
 
 - **Developing shared technical infrastructure and standards across institutions**
 

@@ -46,7 +46,7 @@ description: Find answers to the most commonly asked questions about the project
         These are two complementary sets of principles for data management and stewardship.
     </p>
     <p>
-        According to the FAIR principles, data should be:
+        According to the {{< glossary_link display="FAIR" id="fair" >}} principles, data should be:
     </p>
     <ul>
         <li>Findable</li>
@@ -55,7 +55,7 @@ description: Find answers to the most commonly asked questions about the project
         <li>Reuseable</li>
     </ul>
     <p>
-        According to the CARE principles, developed by the Global Indigenous Data Alliance, our use of data should be guided by considering:
+        According to the {{< glossary_link display="CARE" id="care" >}} principles, developed by the Global Indigenous Data Alliance, our use of data should be guided by considering:
     </p>
     <ul>
         <li>Collective Benefit</li>
@@ -64,10 +64,10 @@ description: Find answers to the most commonly asked questions about the project
         <li>Ethics</li>
     </ul>
     <p>
-        The CARE principles were developed in relation to Indigenous data, but we believe that researchers should adopt this approach in all cases where the people who participate in our research can be seen to have some moral rights in the information they have contributed.
+        The {{< glossary_link display="CARE" id="care" >}} principles were developed in relation to Indigenous data, but we believe that researchers should adopt this approach in all cases where the people who participate in our research can be seen to have some moral rights in the information they have contributed.
     </p>
     <p>
-        While the FAIR principles are about making it easier to share and reuse data, the CARE principles ensure that data is used ethically.
+        While the {{< glossary_link display="FAIR" id="fair" >}} principles are about making it easier to share and reuse data, the {{< glossary_link display="CARE" id="care" >}} principles ensure that data is used ethically.
     </p>
     <p>
          We have more information about these principles on our <a href="https://www.ldaca.edu.au/about/principles/">website</a> and in our <a href="https://www.ldaca.edu.au/news/posts/fair-and-care/">blog</a>.

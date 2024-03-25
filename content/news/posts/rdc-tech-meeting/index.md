@@ -444,11 +444,11 @@ the data.
 ![Slide24](Slide24.png)
 
 Regarding rights, our project is informed by the
-[CARE principles](https://www.gida-global.org/care) for Indigenous data.
+{{< glossary_link display="CARE" id="care" >}} principles for Indigenous data.
 
 > The current movement toward open data and open science does not fully
 > engage with Indigenous Peoples' rights and interests. Existing principles
-> within the open data movement (e.g. FAIR: findable, accessible, interoperable,
+> within the open data movement (e.g. {{< glossary_link display="FAIR" id="fair" >}}: findable, accessible, interoperable,
 >  reusable) primarily focus on characteristics of data that will facilitate
 > increased data sharing among entities while ignoring power differentials and
 > historical contexts. The emphasis on greater data sharing alone creates a
@@ -456,10 +456,10 @@ Regarding rights, our project is informed by the
 > the application and use of Indigenous data and Indigenous Knowledge for
 > collective benefit
 
-But we do not see the CARE principles as only applying to Indigenous data and
+But we do not see the {{< glossary_link display="CARE" id="care" >}} principles as only applying to Indigenous data and
 knowledge. Most language data is a record of the behaviour of people who have
 moral rights in the material (even if they do not have legal rights) and
-taking the CARE principles as relevant in such cases ensures serious thinking
+taking the {{< glossary_link display="CARE" id="care" >}} principles as relevant in such cases ensures serious thinking
 about the protection of those moral rights.
 
 <br>

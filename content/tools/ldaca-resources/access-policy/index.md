@@ -142,7 +142,7 @@ The policy document is currently under development. <!-- TODO: Link will be post
 
 The LDaCA Takedown Policy outlines the steps to be taken by users in making a request for data to be removed, or access to be adjusted in some way. LDaCA recognises that licensing and decisions surrounding access to data are made by the Data Steward. Therefore, the Data Steward is also responsible for assessing and determining the outcome of takedown requests.
 
-The Takedown Request mechanism supports FAIR and CARE Principles by facilitating a process by which data access may be questioned and discussed by relevant stakeholders.
+The Takedown Request mechanism supports {{< glossary_link display="FAIR" id="fair" >}} and {{< glossary_link display="CARE" id="care" >}} Principles by facilitating a process by which data access may be questioned and discussed by relevant stakeholders.
 
 The policy document is currently under development. <!-- TODO: Link will be posted here when available. -->
 

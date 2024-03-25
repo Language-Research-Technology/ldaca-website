@@ -7,7 +7,7 @@ description: "Information about the approach to metadata being taken by LDaCA."
 
 <br>
 
-Metadata is often defined as 'data about data'. High-quality metadata is important in making data **FAIR**:
+Metadata is often defined as 'data about data'. High-quality metadata is important in making data {{< glossary_link display="FAIR" id="fair" >}}:
 
 - **Findable**: metadata is the starting point for searching data collections. For example, if we want to find data in a particular language, this will only be possible for data that has a language recorded in its metadata. (Tracking languages is in itself problematic, see [example](/tools/ldaca-resources/metadata/example).)
 - **Accessible**: access conditions that apply to data should be part of the associated metadata.

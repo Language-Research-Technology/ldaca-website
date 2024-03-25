@@ -55,7 +55,7 @@ This work is supported by the Australian Research Data Commons.
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide03.png' alt='  ' title='Slide: 3' border='1'  width='85%%'/>
 
-Last year at eResearch Australasia, the Language Data Commons of Australia (LDaCA) team presented a design for a distributed access control system which could look after the A-is-for-accessible in FAIR data; in this presentation, we describe and demonstrate a pilot system based on that design, showing how data licenses that allow access by identified groups of people to language data collections can be used with an AAF pilot system (CILogon) to give the right people access to data resources.
+Last year at eResearch Australasia, the Language Data Commons of Australia (LDaCA) team presented a design for a distributed access control system which could look after the A-is-for-accessible in {{< glossary_link display="FAIR" id="fair" >}} data; in this presentation, we describe and demonstrate a pilot system based on that design, showing how data licenses that allow access by identified groups of people to language data collections can be used with an AAF pilot system (CILogon) to give the right people access to data resources.
 
 The ARDC have invested in a pilot of this work as part of the HASS Research Data Commons and Indigenous Research Capability Program integration activities.
 
@@ -75,7 +75,7 @@ The idea is to separate safe storage of data from its delivery. Each item in a r
 
 Regarding rights, our project is informed by the [CARE] principles for Indigenous data which also describe the level of respect which should be given to any data collected from individuals or communities.
 
-> The current movement toward open data and open science does not fully engage with Indigenous Peoples' rights and interests. Existing principles within the open data movement (e.g. FAIR: findable, accessible, interoperable, reusable) primarily focus on characteristics of data that will facilitate increased data sharing among entities while ignoring power differentials and historical contexts. The emphasis on greater data sharing alone creates a tension for Indigenous Peoples who are also asserting greater control over the application and use of Indigenous data and Indigenous Knowledge for collective benefit
+> The current movement toward open data and open science does not fully engage with Indigenous Peoples' rights and interests. Existing principles within the open data movement (e.g. {{< glossary_link display="FAIR" id="fair" >}}: findable, accessible, interoperable, reusable) primarily focus on characteristics of data that will facilitate increased data sharing among entities while ignoring power differentials and historical contexts. The emphasis on greater data sharing alone creates a tension for Indigenous Peoples who are also asserting greater control over the application and use of Indigenous data and Indigenous Knowledge for collective benefit
 
 [care]: https://www.gida-global.org/care
 

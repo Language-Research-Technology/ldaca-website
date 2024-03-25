@@ -15,14 +15,14 @@
 
 [Download as PDF](arkisto-stack-or-2023.pdf)
 
-This presentation was delivered by Peter Sefton at the [Open Repositories 2023](https://or2023.openrepositories.org/) conference in South Africa on 2023-06-14 in the [Presentations: Discipline specific systems with FAIR principles
+This presentation was delivered by Peter Sefton at the [Open Repositories 2023](https://or2023.openrepositories.org/) conference in South Africa on 2023-06-14 in the [Presentations: Discipline specific systems with {{< glossary_link display="FAIR" id="fair" >}} principles
 ](https://www.conftool.net/or2023/index.php?page=browseSessions&form_session=460&presentations=show) session.
 
 This contains the slides and complete speaker notes, which have been edited after the conference.
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
-We will present a standards-based generalized architecture for large-scale data\* repositories for research and preservation illustrated with real-world examples drawn from a number of languages and cultural archive projects. This work is taking place in the context of the Australian Humanities and Social Sciences Research Data Commons, particularly the Language Data component thereof and the long-established PARADISEC cultural archive. The standards used include the Oxford Common File Layout for storage, Research Object CRATE (RO-Crate) for consistent linked-data description of FAIR digital objects, and a language data metadata profile to ensure long-term interoperability between systems and re-usability over time. We also discuss data licensing and authorization for access to non-open resources. We suggest that the approach shown here may be used in other disciplines or for other kinds of digital library, repository or archival systems.
+We will present a standards-based generalized architecture for large-scale data\* repositories for research and preservation illustrated with real-world examples drawn from a number of languages and cultural archive projects. This work is taking place in the context of the Australian Humanities and Social Sciences Research Data Commons, particularly the Language Data component thereof and the long-established PARADISEC cultural archive. The standards used include the Oxford Common File Layout for storage, Research Object CRATE (RO-Crate) for consistent linked-data description of {{< glossary_link display="FAIR" id="fair" >}} digital objects, and a language data metadata profile to ensure long-term interoperability between systems and re-usability over time. We also discuss data licensing and authorization for access to non-open resources. We suggest that the approach shown here may be used in other disciplines or for other kinds of digital library, repository or archival systems.
 
 \*The submitted abstract did not have the word data here - added for clarity
 
@@ -293,13 +293,13 @@ The storage services may not all be the same in this model, some may be file sys
 
 <img src='Slide24.png' alt='  ' title='Slide: 24' border='1'  width='85%%'/>
 
-This slide shows how we have abstracted the “A” for Access in FAIR out of the repository and into a separate centralised or at least _concentrated_ system. We have a [full write-up of this approach from the 2022 eResearch Australasia conference](../fair-care-eresearch-2022/) and we don’t have time to go through it in detail here, but in summary:
+This slide shows how we have abstracted the “A” for Access in {{< glossary_link display="FAIR" id="fair" >}} out of the repository and into a separate centralised or at least _concentrated_ system. We have a [full write-up of this approach from the 2022 eResearch Australasia conference](../fair-care-eresearch-2022/) and we don’t have time to go through it in detail here, but in summary:
 
 - Every object in the repository has a Data Reuse License with some management metadata.
 - Each repository only needs an authoritative list of licenses and trusted license management systems to be able to serve the data.
 - License management is handled by a dedicated system that can deal with application and invitation workflows to grant licenses (including simple self-serve click-through license agreements)
 
-Note that our work is also informed by the [CARE principles for Indigenous data Governance (Collective benefit, Authority to control, Responsibility, Ethics)](https://www.gida-global.org/care) which frame the way FAIR protocols are implemented. Again, see the [LangArc workshop write-up](https://digital.library.unt.edu/ark:/67531/metadc2114304/).
+Note that our work is also informed by the {{< glossary_link display="CARE" id="care" >}} principles for Indigenous data Governance (Collective benefit, Authority to control, Responsibility, Ethics) which frame the way {{< glossary_link display="FAIR" id="fair" >}} protocols are implemented. Again, see the [LangArc workshop write-up](https://digital.library.unt.edu/ark:/67531/metadc2114304/).
 
 </section>
 
