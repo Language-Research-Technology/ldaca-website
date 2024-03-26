@@ -8,9 +8,9 @@ description: "Information and guidance for data custodians and data collectors p
 weight: 1
 ---
 
-> Information and guidance for data custodians and data collectors produced by LDaCA.
+Information and guidance for data custodians and data collectors produced by LDaCA.
 
-
+<!-- 
 {{< raw >}}
 
 <article class="archive-item">
@@ -20,4 +20,4 @@ weight: 1
     </a>
 </article>
 
-{{< /raw >}}
+{{< /raw >}} -->
