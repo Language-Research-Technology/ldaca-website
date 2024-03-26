@@ -53,7 +53,7 @@ The ultimate goal of {{< glossary_link display="FAIR" id="fair" >}} is to optimi
 
 - (Meta)data are richly described with a plurality of accurate and relevant attributes
   - (Meta)data are released with a clear and accessible data usage license
-  - (Meta)data are associated with detailed provenance
+  - (Meta)data are associated with detailed {{< glossary_link display="provenance" id="provenance" >}}
   - (Meta)data meet domain-relevant community standards
 
 <br>

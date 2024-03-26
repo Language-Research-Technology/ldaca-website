@@ -33,7 +33,7 @@ Edited by: Simon Musgrave
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide01.png' alt='Project Team(alphabetical order) Michael D’Silva  Marco Fahmi Leah Gustafson  Michael Haugh Cale Johnstone  Kathrin Kaiser  Sara King  Marco La Rosa  Mel Mistica  Simon Musgrave  Joel Nothman  Moises Sacal  Martin Schweinberger  PT Sefton   With thanks for their contribution: Partner Institutions: ' title='Slide: 1' border='1'  width='85%%'/>
 
-The Language Data Commons of Australia Data Partnerships (LDaCA) and the Australian Text Analytics Platform ({{< glossary_link display="ATAP" id="atap" >}}) are building towards a scalable and flexible language data and analytics commons. These projects will be part of the Humanities and Social Sciences Research Data Commons ({{< glossary_link display="HASS" id="hass" >}} RDC).
+The Language Data Commons of Australia Data Partnerships (LDaCA) and the Australian Text Analytics Platform ({{< glossary_link display="ATAP" id="atap" >}}) are building towards a scalable and flexible language data and analytics commons. These projects will be part of the Humanities and Social Sciences Research Data Commons ({{< glossary_link display="HASS" id="hass" >}} {{< glossary_link display="RDC" id="rdc" >}}).
 
 The Data Commons will focus on preservation and discovery of distributed multi-modal language {{< glossary_link display="data collections" id="data-collection" >}} under a variety of governance frameworks. This will include access control that reflects ethical constraints and {{< glossary_link display="intellectual property" id="intellectual-property" >}} rights, including those of Aboriginal and Torres Strait Islander, migrant and Pacific communities.
 
@@ -86,7 +86,7 @@ Regarding rights, our project is informed by the [CARE] principles for Indigenou
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide05.png' alt='  ' title='Slide: 5' border='1'  width='85%%'/>
 
-We are designing the system so that it can work with diverse ways of expressing access rights, for example, we are considering how the approach described here could be extended based on the likes of the [Traditional Knowledge labels](https://localcontexts.org/labels/traditional-knowledge-labels/), incorporating them into the data licensing framework we discuss below.
+We are designing the system so that it can work with diverse ways of expressing access rights, for example, we are considering how the approach described here could be extended based on the likes of the [Traditional Knowledge labels](https://localcontexts.org/labels/traditional-knowledge-labels/), incorporating them into the {{< glossary_link display="data licensing" id="data-license" >}} framework we discuss below.
 
 </section>
 
@@ -203,7 +203,7 @@ Using this license, distributed access portals in our architecture can check aga
 
 (Images: Various baskets of puppies by DALL-E)
 
-When we first developed access controls for LDaCA in 2021 it was a requirement that data licensing and access control decisions be decoupled from each other, and from particular repository software. The usual approach in repositories is to build in a local access-control system, but this is tied to a particular implementation and will not work in a distributed environment where there are multiple different repositories, and services such as computational resources that researchers need to access to process data.
+When we first developed access controls for LDaCA in 2021 it was a requirement that {{< glossary_link display="data licensing" id="data-license" >}} and access control decisions be decoupled from each other, and from particular repository software. The usual approach in repositories is to build in a local access-control system, but this is tied to a particular implementation and will not work in a distributed environment where there are multiple different repositories, and services such as computational resources that researchers need to access to process data.
 
 We could not find an available open-source system for managing license-based access to data, so our starting approach used groups as a proxy for granting licences on that basis that all common user-directory services such as LDAP include the concept of user groups.
 
@@ -250,7 +250,7 @@ AAF is engaging with our project on the following:
 - configure the AAI to support these business processes and to develop extensions to facilitate new functionality that may be required
 - create a set of policies, standards and guidelines for managing researchers’ identity and access management
 - develop support documentation, train community representatives to operate the platform, and provide support to the community managers.
-  The AAF has recommended CILogon & REMS as potential solutions to investigate & prototype
+  The AAF has recommended CILogon & {{< glossary_link display="REMS" id="rems" >}} as potential solutions to investigate & prototype
 
 CILogon is a federated identity management platform that provides the following features:
 support for institutional and community logins
@@ -258,9 +258,9 @@ cross-institutional and community collaboration
 federated identity and group management
 a community management dashboard
 OIDC connectors for downstream services that support authorisation claims for services like
-REMS, {{< glossary_link display="BinderHub" id="binderhub" >}}, JupyterHub, LDaCA Dashboard.
+{{< glossary_link display="REMS" id="rems" >}}, {{< glossary_link display="BinderHub" id="binderhub" >}}, JupyterHub, LDaCA Dashboard.
 
-REMS (Resource Entitlement Management System) is a tool to help researchers browse resources such as datasets relevant to their research and to manage the application process for access to the resources.
+{{< glossary_link display="REMS" id="rems" >}} (Resource Entitlement Management System) is a tool to help researchers browse resources such as datasets relevant to their research and to manage the application process for access to the resources.
 
 [cilogon]: https://www.cilogon.org/
 
@@ -273,11 +273,11 @@ REMS (Resource Entitlement Management System) is a tool to help researchers brow
 
 Recently (after the abstract for this presentation was submitted) the AAF team made us aware of the Resource Entitlement Management System, [REMS](https://github.com/CSCfi/rems), which is an open-source application out of Finland. This software is the missing link for LDaCA in that it allows a data custodian to grant licenses to users. And it works with CILogon as an Authentication layer so we can let users log in using a variety of services.
 
-At the core of REMS is a set of Licenses which can then be associated with Resources - in our design, this is (almost always) a one-to-one correspondence, for example, we would have a licence “Sydney Speaks Data Researcher Access License” corresponding to a resource that represents ALL data with that licence. These Resources can then be made available through a catalogue, and workflows can be set up for pre-authorization processes ranging from single-click authorizations where a user just accepts a licence and a bot approves it, to complex forms where users upload credentials and one or more data custodians approve their request, and grant them the licence.
+At the core of {{< glossary_link display="REMS" id="rems" >}} is a set of Licenses which can then be associated with Resources - in our design, this is (almost always) a one-to-one correspondence, for example, we would have a licence “Sydney Speaks Data Researcher Access License” corresponding to a resource that represents ALL data with that licence. These Resources can then be made available through a catalogue, and workflows can be set up for pre-authorization processes ranging from single-click authorizations where a user just accepts a licence and a bot approves it, to complex forms where users upload credentials and one or more data custodians approve their request, and grant them the licence.
 
 It also has features for revoking permissions, and has a full {{< glossary_link display="API" id="api" >}} so admin tasks can be automated (for us that’s in the future).
 
-Once a user has been granted a license in a pre-authorization process then a repository can authorize access to a resource by checking with REMS to see if a given user is pre-authorized. That is, has been granted a license. Note that users do not have to find REMS on their own - they will be directed to it from data and computing services when they need to apply for pre-authorization.
+Once a user has been granted a license in a pre-authorization process then a repository can authorize access to a resource by checking with {{< glossary_link display="REMS" id="rems" >}} to see if a given user is pre-authorized. That is, has been granted a license. Note that users do not have to find {{< glossary_link display="REMS" id="rems" >}} on their own - they will be directed to it from data and computing services when they need to apply for pre-authorization.
 
 </section>
 
@@ -286,15 +286,15 @@ Once a user has been granted a license in a pre-authorization process then a rep
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide16.png' alt='  ' title='Slide: 16' border='1'  width='85%%'/>
 
-This interaction diagram shows the flow involved in a user applying for a {{< glossary_link display="data license" id="data-license" >}} via REMS.
+This interaction diagram shows the flow involved in a user applying for a {{< glossary_link display="data license" id="data-license" >}} via {{< glossary_link display="REMS" id="rems" >}}.
 
 Not shown here are some design and preparation steps:
 
 - The research team read their ethics approval and participant agreements and craft one or more access agreements (AKA licenses) for a data set (NOTE: If the data can be made available automatically with just a license attached, such as when all parties have agreed that data can be Creative commons licensed, or the data is in the public domain then the following steps are not required)
 
-- The research team and support staff add the license to REMS, creating a “resource” a virtual offering that corresponds to any dataset that has the above license
+- The research team and support staff add the license to {{< glossary_link display="REMS" id="rems" >}}, creating a “resource” a virtual offering that corresponds to any dataset that has the above license
 
-- The research team add a workflow to REMS - this could range from an auto-approved click-through where users can agree to license terms, through to detailed (manual) checking of their credentials.
+- The research team add a workflow to {{< glossary_link display="REMS" id="rems" >}} - this could range from an auto-approved click-through where users can agree to license terms, through to detailed (manual) checking of their credentials.
 
 The next slide shows the interactions involved in accessing data once a user has been granted the license.
 
@@ -305,7 +305,7 @@ The next slide shows the interactions involved in accessing data once a user has
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide17.png' alt='  ' title='Slide: 17' border='1'  width='85%%'/>
 
-This diagram shows the “access-control dance” for a user who has been granted a license in REMS obtaining access to a dataset at a data portal which gives access to data in a repository or archive.
+This diagram shows the “access-control dance” for a user who has been granted a license in {{< glossary_link display="REMS" id="rems" >}} obtaining access to a dataset at a data portal which gives access to data in a repository or archive.
 
 </section>
 
@@ -314,7 +314,7 @@ This diagram shows the “access-control dance” for a user who has been grante
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide18.png' alt='Demo ' title='Slide: 18' border='1'  width='85%%'/>
 
-In this video, we demonstrate how to use REMS and how does a user request access to an LDaCA resource.
+In this video, we demonstrate how to use {{< glossary_link display="REMS" id="rems" >}} and how does a user request access to an LDaCA resource.
 
 </section>
 
@@ -367,7 +367,7 @@ No, and Yes
 
 **No**, there is no lock-in regarding the list of Licenses and pre-authorized users; licenses and access control lists can be exported via an {{< glossary_link display="API" id="api" >}} so it is possible to import them into another system or save them for audit purposes.
 
-**Yes**, there is lock-in, in that at this stage the workflow used to give access to users is specific to the system (such as REMS)
+**Yes**, there is lock-in, in that at this stage the workflow used to give access to users is specific to the system (such as {{< glossary_link display="REMS" id="rems" >}})
 
 **But**, because our process requires a governance step _first_ in writing a license, then there is a statement of intent for re-building those processes later if needed - a step which is very likely to be missing in a system with built-in access control.
 
@@ -375,7 +375,7 @@ Also, over time, we expect the administrative burden of constructing workflows w
 
 1. Licenses can be made less complex (particularly in the context of academic studies) if they specify re-use by particular known cohorts in advance - this comes down to improving the design of studies to encourage data reuse. This may also help to simplify academic ethics processes in the medium to long term.
 
-2. The {{< glossary_link display="CADRE" id="cadre" >}} project is looking to improve pre-authorization workflows that automatically source relevant information about potential users - fetching their publication record, and potentially remembering what certifications they have, so these attributes can be used and reused for decision-making. It is conceivable that this approach might be useful in cultural contexts as well to allow data custodians to manage data sharing - this is a discussion we have yet to have in the broader {{< glossary_link display="HASS" id="hass" >}} RDC.
+2. The {{< glossary_link display="CADRE" id="cadre" >}} project is looking to improve pre-authorization workflows that automatically source relevant information about potential users - fetching their publication record, and potentially remembering what certifications they have, so these attributes can be used and reused for decision-making. It is conceivable that this approach might be useful in cultural contexts as well to allow data custodians to manage data sharing - this is a discussion we have yet to have in the broader {{< glossary_link display="HASS" id="hass" >}} {{< glossary_link display="RDC" id="rdc" >}}.
 
 <br>
 

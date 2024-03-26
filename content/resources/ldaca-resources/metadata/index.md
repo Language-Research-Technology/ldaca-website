@@ -16,23 +16,23 @@ Metadata is often defined as 'data about data'. High-quality metadata is importa
 
 ### RO-Crate Profiles
 
-RO-Crates in general have basic metadata requirements, but it is possible to specify a **profile** for crates for specific purposes. LDaCA is developing such a profile for our data; we are basing this largely on previous work in the area. An important aspect of the RO-Crate approach is that it uses the principles of [Linked Open Data](https://en.wikipedia.org/wiki/Linked_data#Linked_open_data). This means that terms used in our metadata will (whenever possible) link to an openly available definition. In developing the profile, we are drawing on two existing attempts to provide vocabularies for describing language data.
+{{< glossary_link display="RO-Crates" id="ro-crate" >}} in general have basic metadata requirements, but it is possible to specify a **profile** for crates for specific purposes. LDaCA is developing such a profile for our data; we are basing this largely on previous work in the area. An important aspect of the {{< glossary_link display="RO-Crate" id="ro-crate" >}} approach is that it uses the principles of [Linked Open Data](https://en.wikipedia.org/wiki/Linked_data#Linked_open_data). This means that terms used in our metadata will (whenever possible) link to an openly available definition. In developing the profile, we are drawing on two existing attempts to provide vocabularies for describing language data.
 
 <br>
 
 ### Open Language Archives Community ([OLAC](http://www.language-archives.org/)) {#olac}
 
-OLAC is an international partnership of institutions and individuals; one of their activities is developing consensus on best current practice for the digital archiving of language resources and this includes making recommendations for metadata. The OLAC metadata scheme is based on [Dublin Core](https://www.dublincore.org/) (DC), a widely used general metadata schema. OLAC have suggested refinements and extensions of the DC base which make it more useful for describing language resources.
+{{< glossary_link display="OLAC" id="olac" >}} is an international partnership of institutions and individuals; one of their activities is developing consensus on best current practice for the digital archiving of language resources and this includes making recommendations for metadata. The {{< glossary_link display="OLAC" id="olac" >}} metadata scheme is based on [Dublin Core](https://www.dublincore.org/) (DC), a widely used general metadata schema. {{< glossary_link display="OLAC" id="olac" >}} have suggested refinements and extensions of the DC base which make it more useful for describing language resources.
 
 <br>
 
 ### Component Metadata Infrastructure ([CMDI](https://www.clarin.eu/content/component-metadata))
 
-{{< glossary_link display="CMDI" id="cmdi" >}} was developed within the [CLARIN](https://www.clarin.eu) project. It draws on the earlier ISLE Metadata Initiative ([IMDI](https://en.wikipedia.org/wiki/IMDI)), but where IMDI attempted to specify a comprehensive scheme for (multimodal) language data, {{< glossary_link display="CMDI" id="cmdi" >}} adopts a more flexible approach where components are assembled into reusable profiles. This is very similar to the RO-Crate approach described above but with an important difference: the components of a {{< glossary_link display="CMDI" id="cmdi" >}} profile are all drawn from a central registry, whereas components of an RO-Crate profile come from any linkable location.
+{{< glossary_link display="CMDI" id="cmdi" >}} was developed within the [CLARIN](https://www.clarin.eu) project. It draws on the earlier ISLE Metadata Initiative ([IMDI](https://en.wikipedia.org/wiki/IMDI)), but where IMDI attempted to specify a comprehensive scheme for (multimodal) language data, {{< glossary_link display="CMDI" id="cmdi" >}} adopts a more flexible approach where components are assembled into reusable profiles. This is very similar to the {{< glossary_link display="RO-Crate" id="ro-crate" >}} approach described above but with an important difference: the components of a {{< glossary_link display="CMDI" id="cmdi" >}} profile are all drawn from a central registry, whereas components of an {{< glossary_link display="RO-Crate" id="ro-crate" >}} profile come from any linkable location.
 
 <br>
 
-The metadata schema being developed as part of the LDaCA RO-Crate profile can be viewed as an [ontology](https://github.com/Language-Research-Technology/language-data-commons-vocabs/blob/master/ontology.md). We are also developing a more fully documented version as a [Gitbook](https://www.gitbook.com/), [Metadata for Language Data](https://ldaca.gitbook.io/metadata-for-language-data/).
+The metadata schema being developed as part of the LDaCA {{< glossary_link display="RO-Crate" id="ro-crate" >}} profile can be viewed as an [ontology](https://github.com/Language-Research-Technology/language-data-commons-vocabs/blob/master/ontology.md). We are also developing a more fully documented version as a [Gitbook](https://www.gitbook.com/), [Metadata for Language Data](https://ldaca.gitbook.io/metadata-for-language-data/).
 
 # Identifying Codes for Languages
 

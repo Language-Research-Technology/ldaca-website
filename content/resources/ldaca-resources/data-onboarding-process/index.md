@@ -38,7 +38,7 @@ This document outlines the standards and processes that support the onboarding o
 The LDaCA onboarding process is carried out collaboratively between LDaCA and the {{< glossary_link display="Data Steward" id="data-steward" >}}. There are five broad steps to be followed; while the order of these steps is flexible, each step should be appropriately covered.
 
 1. Initiating contact between LDaCA and {{< glossary_link display="Data Stewards" id="data-steward" >}}.
-2. Establishing a Work Plan.
+2. Establishing a {{< glossary_link display="Work Plan" id="work-plan" >}}.
 3. Determining the {{< glossary_link display="data governance" id="data-governance" >}} and {{< glossary_link display="access conditions" id="access-conditions" >}} appropriate for this collection, and applying that in LDaCA.
 4. Preparing data for onboarding to LDaCA.
 5. Facilitating ongoing engagement.
@@ -71,20 +71,20 @@ Contact between LDaCA and the {{< glossary_link display="Data Steward" id="data-
 
 ### 2. Work Plan
 
-Once communication between LDaCA and the {{< glossary_link display="Data Steward" id="data-steward" >}} is in place, a Work Plan is prepared in order to establish the terms according to which the data will be onboarded to LDaCA, including the goals and responsibilities of each party, and the steps and timeline for carrying out the onboarding process.
+Once communication between LDaCA and the {{< glossary_link display="Data Steward" id="data-steward" >}} is in place, a {{< glossary_link display="Work Plan" id="work-plan" >}} is prepared in order to establish the terms according to which the data will be onboarded to LDaCA, including the goals and responsibilities of each party, and the steps and timeline for carrying out the onboarding process.
 
 At this stage, it is important to share key information and resources about the LDaCA project and manage expectations.
 
 ##### LDaCA will:
 
-1. Provide the Work Plan template for onboarding.
-2. Collaborate with the {{< glossary_link display="Data Steward" id="data-steward" >}} on the development of the Work Plan.
+1. Provide the {{< glossary_link display="Work Plan" id="work-plan" >}} template for onboarding.
+2. Collaborate with the {{< glossary_link display="Data Steward" id="data-steward" >}} on the development of the {{< glossary_link display="Work Plan" id="work-plan" >}}.
 3. Provide further information about LDaCA, its services and limitations.
 
 ##### Data Steward will:
 
 1. Confirm their role as the {{< glossary_link display="Data Steward" id="data-steward" >}}.
-2. Collaborate with LDaCA on the development of the Work Plan.
+2. Collaborate with LDaCA on the development of the {{< glossary_link display="Work Plan" id="work-plan" >}}.
 
 ##### Additional resources relevant to this step:
 
@@ -124,17 +124,17 @@ A persistent identifier for the collection must also be provided to support sust
 
 ### 4. Preparing data for cataloguing in LDaCA
 
-LDaCA coordinates with the {{< glossary_link display="Data Steward" id="data-steward" >}} to apply standards to the collection to support its long-term sustainability. The standards applied allow the data to be packaged in RO-Crates, the metadata to be mapped onto LDaCA’s metadata schema, and additional metadata to be added where possible/required.
+LDaCA coordinates with the {{< glossary_link display="Data Steward" id="data-steward" >}} to apply standards to the collection to support its long-term sustainability. The standards applied allow the data to be packaged in {{< glossary_link display="RO-Crates" id="ro-crate" >}}, the metadata to be mapped onto LDaCA’s metadata schema, and additional metadata to be added where possible/required.
 
 ##### LDaCA will:
 
-1. Prepare the data for packaging as RO-Crates.
+1. Prepare the data for packaging as {{< glossary_link display="RO-Crates" id="ro-crate" >}}.
 2. Support the metadata mapping process.
 
 ##### Data Steward will:
 
 1. Provide a copy of the collection data.
-2. Support the RO-Crate packaging by applying standards to the data and reviewing the packaged data.
+2. Support the {{< glossary_link display="RO-Crate" id="ro-crate" >}} packaging by applying standards to the data and reviewing the packaged data.
 3. Provide metadata and collaborate with metadata mapping.
 
 ##### Additional resources relevant to this step:
@@ -152,13 +152,13 @@ Finally, we implement ongoing engagement by outlining shared responsibilities an
 
 1. Incorporate updates to the {{< glossary_link display="data collection" id="data-collection" >}} provided by the {{< glossary_link display="Data Steward" id="data-steward" >}}.
 2. Make the {{< glossary_link display="Data Steward" id="data-steward" >}} aware of any takedown requests.
-3. Update the Work Plan as relevant, with responsibilities for ongoing maintenance of the collection in LDaCA.
+3. Update the {{< glossary_link display="Work Plan" id="work-plan" >}} as relevant, with responsibilities for ongoing maintenance of the collection in LDaCA.
 
 ##### Data Steward will:
 
 1. Make LDaCA aware of any updates to the {{< glossary_link display="data collection" id="data-collection" >}} they wish to incorporate, and work with LDaCA to incorporate them.
 2. Review any takedown requests, make a decision about how to address them, and inform LDaCA of that decision.
-3. Update the Work Plan as relevant, with responsibilities for ongoing maintenance of the collection in LDaCA.
+3. Update the {{< glossary_link display="Work Plan" id="work-plan" >}} as relevant, with responsibilities for ongoing maintenance of the collection in LDaCA.
 
 <!--
 ##### Additional resources relevant to this step:

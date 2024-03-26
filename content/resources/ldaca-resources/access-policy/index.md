@@ -81,8 +81,8 @@ In accordance with the Access Policy, LDaCA has an established process for onboa
    See [Obtaining a DOI](/resources/ldaca-resources/obtaining-a-doi/) for more information.
 2. Providing metadata that is organised with a consistent structure, and includes descriptors, definitions and contextual information where relevant. This includes metadata at the level of the collection (e.g. collection name, a narrative description of the corpus, the subject language(s), author(s) or Collector(s), publication year, {{< glossary_link display="access conditions" id="access-conditions" >}}, etc.), file (e.g. length in minutes, words) and participants (e.g. age, gender).<br>
    LDaCA technologies enable programmatic detection, extraction and summarisation of existing metadata in a dataset; in order for this to work effectively, the metadata must be standardised.<br>
-   Metadata are mapped to open schemas including the Open Language Archives Community (OLAC) vocabularies for describing language data and Schema.org for generic descriptions (e.g. Name, Identifier, Description). This approach allows many metadata terms to be linked to openly available and widely used definitions.<br>
-   Some metadata may be specific to a corpus or difficult to map to existing vocabulary terms. LDaCA makes use of the Language Data Ontology, which has been developed in consultation with OLAC and metadata specialists, to ensure consistency across terms. See [Metadata](/resources/ldaca-resources/metadata) for more information.
+   Metadata are mapped to open schemas including the Open Language Archives Community ({{< glossary_link display="OLAC" id="olac" >}}) vocabularies for describing language data and Schema.org for generic descriptions (e.g. Name, Identifier, Description). This approach allows many metadata terms to be linked to openly available and widely used definitions.<br>
+   Some metadata may be specific to a corpus or difficult to map to existing vocabulary terms. LDaCA makes use of the Language Data Ontology, which has been developed in consultation with {{< glossary_link display="OLAC" id="olac" >}} and metadata specialists, to ensure consistency across terms. See [Metadata](/resources/ldaca-resources/metadata) for more information.
 
 <br>
 
@@ -90,13 +90,13 @@ In accordance with the Access Policy, LDaCA has an established process for onboa
 
 A strategy for ongoing access and data management of the collection in LDaCA must be developed in collaboration with the {{< glossary_link display="Data Steward" id="data-steward" >}}. Responsibilities and processes must be clearly outlined specifying that {{< glossary_link display="Data Stewards" id="data-steward" >}} will respond appropriately to access requests, system updates and user feedback. This is key for collections that require access approval on a case-by-case basis and for those collections that may introduce data updates, such as additional data, edits to existing data, transcription, or annotation etc.
 
-Both LDaCA and the {{< glossary_link display="Data Steward" id="data-steward" >}} are jointly responsible for ongoing maintenance of the collection in LDaCA, and updating the Work Plan as needed. Read more about [our ongoing engagement.](/resources/ldaca-resources/data-onboarding-process/#5-ongoing-engagement)
+Both LDaCA and the {{< glossary_link display="Data Steward" id="data-steward" >}} are jointly responsible for ongoing maintenance of the collection in LDaCA, and updating the {{< glossary_link display="Work Plan" id="work-plan" >}} as needed. Read more about [our ongoing engagement.](/resources/ldaca-resources/data-onboarding-process/#5-ongoing-engagement)
 
 <br>
 
 ## 4. Supporting Information
 
-The Access Policy is supported by the LDaCA Terms of Use, Privacy Policy, and Takedown Policy. These are summarised below; please go to the links to view the actual policies online.
+The Access Policy is supported by the LDaCA Terms of Use, Privacy Policy, and {{< glossary_link display="Takedown Policy" id="takedown-policy" >}}. These are summarised below; please go to the links to view the actual policies online.
 
 <br>
 
@@ -107,7 +107,7 @@ The LDaCA Terms of Use provide an overarching agreement for all users who intera
 The key points included in the Terms of Use are:
 
 1. Users must adhere to conditions set by the {{< glossary_link display="Data Steward" id="data-steward" >}}.
-2. Users must exercise ethical standards, paying particular attention to potential issues around sensitive data and participant privacy.
+2. Users must exercise ethical standards, paying particular attention to potential issues around {{< glossary_link display="sensitive data" id="sensitive-data" >}} and participant privacy.
 3. Users must uphold the moral rights of data owners.
 4. Publicly available metadata in the LDaCA catalogue are licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) license.
 5. Data is provided ‘as is’ and LDaCA provides no guarantee to the accuracy or completeness of the material.
@@ -136,7 +136,7 @@ The policy document is currently under development. <!-- TODO: Link will be post
 
 ### Takedown Policy
 
-The LDaCA Takedown Policy outlines the steps to be taken by users in making a request for data to be removed, or access to be adjusted in some way. LDaCA recognises that {{< glossary_link display="licensing" id="licensing" >}} and decisions surrounding access to data are made by the {{< glossary_link display="Data Steward" id="data-steward" >}}. Therefore, the {{< glossary_link display="Data Steward" id="data-steward" >}} is also responsible for assessing and determining the outcome of takedown requests.
+The LDaCA {{< glossary_link display="Takedown Policy" id="takedown-policy" >}} outlines the steps to be taken by users in making a request for data to be removed, or access to be adjusted in some way. LDaCA recognises that {{< glossary_link display="licensing" id="licensing" >}} and decisions surrounding access to data are made by the {{< glossary_link display="Data Steward" id="data-steward" >}}. Therefore, the {{< glossary_link display="Data Steward" id="data-steward" >}} is also responsible for assessing and determining the outcome of takedown requests.
 
 The Takedown Request mechanism supports {{< glossary_link display="FAIR" id="fair" >}} and {{< glossary_link display="CARE" id="care" >}} Principles by facilitating a process by which data access may be questioned and discussed by relevant stakeholders.
 

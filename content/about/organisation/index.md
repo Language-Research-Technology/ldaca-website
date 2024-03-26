@@ -28,7 +28,7 @@ from the Australian Research Data Commons ({{< glossary_link display="ARDC" id="
 
 # Advisory/Consultative Partners
 
-- [Pacific and Regional Archive for Digital Sources in Endangered Cultures](https://www.paradisec.org.au) (PARADISEC)
+- [Pacific and Regional Archive for Digital Sources in Endangered Cultures](https://www.paradisec.org.au) ({{< glossary_link display="PARADISEC" id="paradisec" >}})
 - [Australian Digital Observatory](https://www.digitalobservatory.net.au/)
 - [CLARIN](https://www.clarin.eu)
 

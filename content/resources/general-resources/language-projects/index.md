@@ -95,13 +95,13 @@ An international partnership of institutions and individuals who are creating a 
   
 (ii) developing a network of interoperating repositories and services for housing and accessing such resources.
   
-OLAC harvests metadata and their website has a search facility to find resources for languages. OLAC [metadata recommendations](/resources/ldaca-resources/metadata/#olac) are the basis for some of LDaCA's metadata.
+{{< glossary_link display="OLAC" id="olac" >}} harvests metadata and their website has a search facility to find resources for languages. {{< glossary_link display="OLAC" id="olac" >}} [metadata recommendations](/resources/ldaca-resources/metadata/#olac) are the basis for some of LDaCA's metadata.
 
 <br>
 
 ### [Ethnologue](https://www.ethnologue.com/)
 
-Provides information about the languages of the world, but operates on a subscription model. The information that is available without a subscription is very limited: the first three lines of individual language entries which include the [ISO 639-3](/resources/ldaca-resources/metadata/#iso-639) code, the classification of the language into a language family, and a link to the language’s OLAC page.
+Provides information about the languages of the world, but operates on a subscription model. The information that is available without a subscription is very limited: the first three lines of individual language entries which include the [ISO 639-3](/resources/ldaca-resources/metadata/#iso-639) code, the classification of the language into a language family, and a link to the language’s {{< glossary_link display="OLAC" id="olac" >}} page.
 
 <br>
 

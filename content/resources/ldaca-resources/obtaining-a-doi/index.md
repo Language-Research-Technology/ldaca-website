@@ -24,10 +24,10 @@ description: "Outlines steps for acquiring a Digital Object Identifier (DOI) for
 
 <br>
 
-2. If the above does not suit the context of the dataset, and the dataset has not been published before, consider depositing it in a data repository like [Zenodo](https://zenodo.org/), a multi-disciplinary open repository that automatically assigns a {{< glossary_link display="DOI" id="doi" >}} to uploaded datasets and publications and hosts landing pages. Zenodo is a proponent of {{< glossary_link display="FAIR" id="fair" >}} Principles and open science; however, it allows upload of data with different access levels: Open, Closed, Restricted, and Embargoed - read the [Zenodo General Policies](https://about.zenodo.org/policies/), [Terms of Use](https://about.zenodo.org/terms/), and [FAQs](https://help.zenodo.org/). The Zenodo {{< glossary_link display="DOI" id="doi" >}} landing page can contain a link to point researchers to the data content in LDaCA.
+2. If the above does not suit the context of the dataset, and the dataset has not been published before, consider depositing it in a data repository like [Zenodo](https://zenodo.org/), a multi-disciplinary open repository that automatically assigns a {{< glossary_link display="DOI" id="doi" >}} to uploaded datasets and publications and hosts landing pages. Zenodo is a proponent of {{< glossary_link display="FAIR" id="fair" >}} Principles and open science; however, it allows upload of data with different access levels: Open, Closed, Restricted, and Embargoed - read the [Zenodo General Policies](https://about.zenodo.org/policies/), [Terms of Use](https://about.zenodo.org/terms/), and [FAQs](https://help.zenodo.org/). The {{< glossary_link display="Zenodo" id="zenodo" >}} {{< glossary_link display="DOI" id="doi" >}} landing page can contain a link to point researchers to the data content in LDaCA.
 
 <br>
 
-3. If unsure whether any of the above applies to your context, please [contact LDaCA](/contact) to discuss PIDs for your data.
+3. If unsure whether any of the above applies to your context, please [contact LDaCA](/contact) to discuss {{< glossary_link display="PIDs" id="pid" >}} for your data.
 
 <br>

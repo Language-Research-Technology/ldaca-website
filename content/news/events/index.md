@@ -47,7 +47,7 @@ Workshop participants are expected to actively participate in discussions. We en
         <b>HASS and Indigenous Research Data Commons Computational Skills Summer School 2024</b>
     </summary>
     <p>
-    The 2024 {{< glossary_link display="HASS" id="hass" >}} and Indigenous RDC Computational Skills Summer School aimed to empower participants with practical knowledge, build digital skills, and help inspire new research outcomes within these research communities.</p>
+    The 2024 {{< glossary_link display="HASS" id="hass" >}} and Indigenous {{< glossary_link display="RDC" id="rdc" >}} Computational Skills Summer School aimed to empower participants with practical knowledge, build digital skills, and help inspire new research outcomes within these research communities.</p>
 
     <p>Participation wass aimed at researchers in the humanities, arts, social sciences and Indigenous fields of study. Themed streams explored geosocial and geospatial data applications in humanities, arts, social sciences, and Indigenous research, using {{< glossary_link display="ARDC" id="ardc" >}} tools and services. Participants gained experience through seminars and workshops and were guided through hands-on use of free tools and platforms provided by the {{< glossary_link display="ARDC" id="ardc" >}} and its partners.</p>
 
@@ -55,7 +55,7 @@ Workshop participants are expected to actively participate in discussions. We en
     <ul>
     <li>A series of seminars will focus on sustainability, storage, usability and description of data.</li>
     <li>A case study will highlight how data is being managed for long-term access.</li>
-    <li>A hands-on session will use Python code notebooks to analyse data.</li>
+    <li>A hands-on session will use {{< glossary_link display="Python" id="python" >}} code notebooks to analyse data.</li>
 
 </ul>
 <p>The case study and hands-on session will focus on geospatial aspects of data. Prior coding knowledge is not required for the hands-on session.</p>
@@ -155,7 +155,7 @@ Workshop participants are expected to actively participate in discussions. We en
         <b>A hands-on guide to Semantic Tagger for your text data analysis</b>
     </summary>
     <p>
-    The Australian Text Analytics Platform ({{< glossary_link display="ATAP" id="atap" >}}) project is a project that aims to provide researchers with the tools and training for analysing, processing, and exploring text. As part of this project, we have adapted with permission, a Semantic Tagger, developed by the University Centre for Computer Corpus Research on Language (<a href="https://ucrel.lancs.ac.uk/" target="_blank">UCREL</a>) at Lancaster University. This tool uses the Python Multilingual UCREL Semantic Analysis System <a href="https://pypi.org/project/pymusas/" target="_blank">PyMUSAS</a>) to tag your text data so that you can extract token level semantic tags from your text. In addition to the USAS tags, this tool can also recognize Multi Word Expressions (MWE), i.e., expressions formed by two or more words that behave like a unit such as 'South Australia', and identifies lemmas and Part-of-Speech (POS) tags in the text. For example, in the sentence ‘President Joe Biden attended two meetings today’, the tool will tag each token with its semantic tag like this -> ‘President Joe Biden’: MWE of [Personal names], ‘attended’: [Participating], ‘two’: [Number], ‘meetings’: [Participating] and ‘today’: [Time: Present; simultaneous]. This tool is available in both English and multi-lingual (Chinese, Italian and Spanish) versions and supports saving the results locally for further analysis, enabling you to gain meaningful insights into your research questions.</p>
+    The Australian Text Analytics Platform ({{< glossary_link display="ATAP" id="atap" >}}) project is a project that aims to provide researchers with the tools and training for analysing, processing, and exploring text. As part of this project, we have adapted with permission, a Semantic Tagger, developed by the University Centre for Computer Corpus Research on Language (<a href="https://ucrel.lancs.ac.uk/" target="_blank">UCREL</a>) at Lancaster University. This tool uses the {{< glossary_link display="Python" id="python" >}} Multilingual UCREL Semantic Analysis System <a href="https://pypi.org/project/pymusas/" target="_blank">PyMUSAS</a>) to tag your text data so that you can extract token level semantic tags from your text. In addition to the USAS tags, this tool can also recognize Multi Word Expressions (MWE), i.e., expressions formed by two or more words that behave like a unit such as 'South Australia', and identifies lemmas and Part-of-Speech (POS) tags in the text. For example, in the sentence ‘President Joe Biden attended two meetings today’, the tool will tag each token with its semantic tag like this -> ‘President Joe Biden’: MWE of [Personal names], ‘attended’: [Participating], ‘two’: [Number], ‘meetings’: [Participating] and ‘today’: [Time: Present; simultaneous]. This tool is available in both English and multi-lingual (Chinese, Italian and Spanish) versions and supports saving the results locally for further analysis, enabling you to gain meaningful insights into your research questions.</p>
     
     <p><b>When</b>: Wednesday March 22 2023</p>
 
@@ -170,7 +170,7 @@ Workshop participants are expected to actively participate in discussions. We en
         <b>Australian Text Analytics Platform tools: Discursis, Juxtorpus, Quotation tool and Semantic tagger</b>
     </summary>
     <p>
-    This workshop was part of the USyd Digital Humanities Day 2023.</p>
+    This workshop was part of the {{< glossary_link display="USyd" id="usyd" >}} Digital Humanities Day 2023.</p>
     <p>The workshop demonstrated and taught several recently or soon-to-be-released tools from the {{< glossary_link display="ATAP" id="atap" >}} text analytic tool collection. These tools include Discursis for analysing human conversational texts, Juxtorpus for advanced corpus slicing and comparison, Semantic Tagger for semantically tagging every word in your text collections, and Quotation Tool for NLP algorithm-based quotation extraction, analysis, and visualisation.</p>
     
     <p><b>When</b>: Tuesday March 14 2023</p>
@@ -186,9 +186,9 @@ Workshop participants are expected to actively participate in discussions. We en
         <b>HASS Research Data Commons and IRC Computational Skills Summer School</b>
     </summary>
     <p>
-    The Australian Research Data Commons (<a href="https://www.ardc.edu.au" target="_blank">ARDC</a>) through the {{< glossary_link display="HASS" id="hass" >}} Research Data Commons and Indigenous Research Capability ({{< glossary_link display="HASS" id="hass" >}} RDC and IRC Program) offered a Computational Skills Summer School in Sydney, February 7 and 8, 2023.</p>
-    <p>The Summer School featured skills development workshops to help researchers use the research infrastructure that is being created in the {{< glossary_link display="HASS" id="hass" >}} RDC and IRC Program.</p>
-    <p>The projects from the {{< glossary_link display="HASS" id="hass" >}} RDC and IRC Program presented workshops on using the tools and platforms.</p>
+    The Australian Research Data Commons (<a href="https://www.ardc.edu.au" target="_blank">ARDC</a>) through the {{< glossary_link display="HASS" id="hass" >}} Research Data Commons and Indigenous Research Capability ({{< glossary_link display="HASS" id="hass" >}} {{< glossary_link display="RDC" id="rdc" >}} and IRC Program) offered a Computational Skills Summer School in Sydney, February 7 and 8, 2023.</p>
+    <p>The Summer School featured skills development workshops to help researchers use the research infrastructure that is being created in the {{< glossary_link display="HASS" id="hass" >}} {{< glossary_link display="RDC" id="rdc" >}} and IRC Program.</p>
+    <p>The projects from the {{< glossary_link display="HASS" id="hass" >}} {{< glossary_link display="RDC" id="rdc" >}} and IRC Program presented workshops on using the tools and platforms.</p>
     <p><a href="https://ardc.edu.au/wp-content/uploads/2023/02/hass-computational-skills-summer-school-agenda_-7-8-feb.pdf" target="_blank">Program</a></p>
     </details>
 

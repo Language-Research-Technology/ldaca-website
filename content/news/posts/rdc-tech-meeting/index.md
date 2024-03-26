@@ -23,7 +23,7 @@ and there.
 
 ![Hass RDC Technical Avisory Group Meeting](Slide00.png)
 
-The Language Data Commons of Australia Data Partnerships (LDaCA) and the Australian Text Analytics Platform ({{< glossary_link display="ATAP" id="atap" >}}) are establishing a scalable and flexible language data and analytics commons. These projects will be part of the Humanities and Social Sciences Research Data Commons ({{< glossary_link display="HASS" id="hass" >}} RDC).
+The Language Data Commons of Australia Data Partnerships (LDaCA) and the Australian Text Analytics Platform ({{< glossary_link display="ATAP" id="atap" >}}) are establishing a scalable and flexible language data and analytics commons. These projects will be part of the Humanities and Social Sciences Research Data Commons ({{< glossary_link display="HASS" id="hass" >}} {{< glossary_link display="RDC" id="rdc" >}}).
 The Data Commons will focus on preservation and discovery of distributed multi-modal language {{< glossary_link display="data collections" id="data-collection" >}} under a variety of governance frameworks. This will include access control that reflects ethical constraints and {{< glossary_link display="intellectual property" id="intellectual-property" >}} rights, including those of Aboriginal and Torres Strait Islander, migrant and Pacific communities.
 
 <br>
@@ -55,40 +55,40 @@ Here’s the introduction to the spec:
 >
 > This section is non-normative.
 >
-> This Oxford Common File Layout (OCFL) specification describes an application-independent approach to the storage of digital objects in a structured, transparent, and predictable manner. It is designed to promote long-term access and management of digital objects within digital repositories.
+> This Oxford Common File Layout ({{< glossary_link display="OCFL" id="ocfl" >}}) specification describes an application-independent approach to the storage of digital objects in a structured, transparent, and predictable manner. It is designed to promote long-term access and management of digital objects within digital repositories.
 >
 > **Need**
 >
-> The OCFL initiative began as a discussion amongst digital repository practitioners to identify well-defined, common, and application-independent file management for a digital repository's persisted objects and represents a specification of the community’s collective recommendations addressing five primary requirements: completeness, parsability, versioning, robustness, and storage diversity.
+> The {{< glossary_link display="OCFL" id="ocfl" >}} initiative began as a discussion amongst digital repository practitioners to identify well-defined, common, and application-independent file management for a digital repository's persisted objects and represents a specification of the community’s collective recommendations addressing five primary requirements: completeness, parsability, versioning, robustness, and storage diversity.
 >
 > **Completeness**
 >
-> The OCFL recommends storing metadata and the content it describes together so the OCFL object can be fully understood in the absence of original software. The OCFL does not make recommendations about what constitutes an object, nor does it assume what type of metadata is needed to fully understand the object, recognizing those decisions may differ from one repository to another. However, it is recommended that when making this decision, implementers consider what is necessary to rebuild the objects from the files stored.
+> The {{< glossary_link display="OCFL" id="ocfl" >}} recommends storing metadata and the content it describes together so the {{< glossary_link display="OCFL" id="ocfl" >}} object can be fully understood in the absence of original software. The {{< glossary_link display="OCFL" id="ocfl" >}} does not make recommendations about what constitutes an object, nor does it assume what type of metadata is needed to fully understand the object, recognizing those decisions may differ from one repository to another. However, it is recommended that when making this decision, implementers consider what is necessary to rebuild the objects from the files stored.
 >
 > **Parsability**
 >
-> One goal of the OCFL is to ensure objects remain fixed over time. This can be difficult as software and infrastructure change, and content is migrated. To combat this challenge, the OCFL ensures that both humans and machines can understand the layout and corresponding inventory regardless of the software or infrastructure used. This allows for humans to read the layout and corresponding inventory, and understand it without the use of machines. Additionally, if existing software were to become obsolete, the OCFL could easily be understood by a lightweight application, even without the full feature repository that might have been used in the past.
+> One goal of the {{< glossary_link display="OCFL" id="ocfl" >}} is to ensure objects remain fixed over time. This can be difficult as software and infrastructure change, and content is migrated. To combat this challenge, the {{< glossary_link display="OCFL" id="ocfl" >}} ensures that both humans and machines can understand the layout and corresponding inventory regardless of the software or infrastructure used. This allows for humans to read the layout and corresponding inventory, and understand it without the use of machines. Additionally, if existing software were to become obsolete, the {{< glossary_link display="OCFL" id="ocfl" >}} could easily be understood by a lightweight application, even without the full feature repository that might have been used in the past.
 >
 > **Versioning**
 >
-> Another need expressed by the community was the need to update and change objects, either the content itself or the metadata associated with the object. The OCFL relies heavily on the prior art in the [Moab] Design for Digital Object Versioning which utilizes forward deltas to track the history of the object. Utilizing this schema allows implementers of the OCFL to easily recreate past versions of an OCFL object. Like with objects, the OCFL remains silent on when versioning should occur recognizing this may differ from implementation to implementation.
+> Another need expressed by the community was the need to update and change objects, either the content itself or the metadata associated with the object. The {{< glossary_link display="OCFL" id="ocfl" >}} relies heavily on the prior art in the [Moab] Design for Digital Object Versioning which utilizes forward deltas to track the history of the object. Utilizing this schema allows implementers of the {{< glossary_link display="OCFL" id="ocfl" >}} to easily recreate past versions of an {{< glossary_link display="OCFL" id="ocfl" >}} object. Like with objects, the {{< glossary_link display="OCFL" id="ocfl" >}} remains silent on when versioning should occur recognizing this may differ from implementation to implementation.
 >
 > **Robustness**
 >
-> The OCFL also fills the need for robustness against errors, corruption, and migration. The versioning schema ensures an OCFL object is robust enough to allow for the discovery of human errors. The fixity checking built into the OCFL via content addressable storage allows implementers to identify file corruption that might happen outside of normal human interactions. The OCFL eases content migrations by providing a technology-agnostic method for verifying that OCFL objects have remained fixed.
+> The {{< glossary_link display="OCFL" id="ocfl" >}} also fills the need for robustness against errors, corruption, and migration. The versioning schema ensures an {{< glossary_link display="OCFL" id="ocfl" >}} object is robust enough to allow for the discovery of human errors. The fixity checking built into the {{< glossary_link display="OCFL" id="ocfl" >}} via content addressable storage allows implementers to identify file corruption that might happen outside of normal human interactions. The {{< glossary_link display="OCFL" id="ocfl" >}} eases content migrations by providing a technology-agnostic method for verifying that {{< glossary_link display="OCFL" id="ocfl" >}} objects have remained fixed.
 >
 > **Storage diversity**
-> Finally, the community expressed a need to store content on a wide variety of storage technologies. With that in mind, the OCFL was written with an eye toward various storage infrastructures including cloud object stores.
+> Finally, the community expressed a need to store content on a wide variety of storage technologies. With that in mind, the {{< glossary_link display="OCFL" id="ocfl" >}} was written with an eye toward various storage infrastructures including cloud object stores.
 
 <br>
 
 ![Slide03](Slide03.png)
 
-The second standard is Research Object Crate. (RO-Crate) a method for
+The second standard is Research Object Crate. ({{< glossary_link display="RO-Crate" id="ro-crate" >}}) a method for
 describing any dataset of local or remote resources as a digital object using
 a **single linked-data metadata document**.
 
-RO-Crate is used in our platform both for describing data objects in the OCFL
+{{< glossary_link display="RO-Crate" id="ro-crate" >}} is used in our platform both for describing data objects in the {{< glossary_link display="OCFL" id="ocfl" >}}
 repository, and for delivering metadata over the {{< glossary_link display="API" id="api" >}} (which we’ll show in
 architecture diagrams and screenshots below).
 
@@ -96,7 +96,7 @@ architecture diagrams and screenshots below).
 
 ![Slide04](Slide04.png)
 
-RO-Crates may contain any kind of data resource about anything, in any format
+{{< glossary_link display="RO-Crates" id="ro-crate" >}} may contain any kind of data resource about anything, in any format
 as a file or URL - it’s not just for language data; there are also many
 projects in the sciences starting to
 [use RO-Crate](https://www.researchobject.org/ro-crate/in-use/).
@@ -110,14 +110,14 @@ This image is taken from a
 
 [Models](https://pcdm.org/2016/04/18/models)
 The third key standard for {{< glossary_link display="Arkisto" id="arkisto" >}} is the Portland Common Data Model. Like
-OCFL, this was developed by members of the digital library/repository
+{{< glossary_link display="OCFL" id="ocfl" >}}, this was developed by members of the digital library/repository
 community. It was devised as a way to do interchange between repository
 systems, most of which, it turned out had evolved very similar ways of having
 nested collections, digital objects that aggregate related files. Using this
-very simple ontology allows us to store data in the OCFL layer in a very
+very simple ontology allows us to store data in the {{< glossary_link display="OCFL" id="ocfl" >}} layer in a very
 flexible way - depending on factors like data size, {{< glossary_link display="licensing" id="licensing" >}} and whether
 data is likely to change or need to be withdrawn, we can store entire
-collections as OCFL objects or across many OCFL objects with PCDM used to
+collections as {{< glossary_link display="OCFL" id="ocfl" >}} objects or across many {{< glossary_link display="OCFL" id="ocfl" >}} objects with PCDM used to
 show the structure of the {{< glossary_link display="data collections" id="data-collection" >}} regardless of how they happen to
 be stored.
 
@@ -127,7 +127,7 @@ be stored.
 
 Back to RO-Crates.
 
-RO-Crates are self-documenting and can ship with an HTML file that allows a
+{{< glossary_link display="RO-Crates" id="ro-crate" >}} are self-documenting and can ship with an HTML file that allows a
 consumer of the crated data to see whatever documentation the crate authors
 have added.
 
@@ -193,8 +193,8 @@ can be “re-collected” for use and re-use.
 
 For data to be re-usable by humans and machines (such as {{< glossary_link display="ATAP" id="atap" >}} notebook code
 that consumes datasets in a predictable way) it must be well described. The
-{{< glossary_link display="ATAP" id="atap" >}} and LDaCA approach to this is to use the Research Object Crate (RO-Crate
-) specification. RO-Crate is essentially a guide to using a number of
+{{< glossary_link display="ATAP" id="atap" >}} and LDaCA approach to this is to use the Research Object Crate ({{< glossary_link display="RO-Crate" id="ro-crate" >}}
+) specification. {{< glossary_link display="RO-Crate" id="ro-crate" >}} is essentially a guide to using a number of
 standards and standard approaches to describe both data and re-runnable
 software such as workflows or notebooks.
 
@@ -224,7 +224,7 @@ will be using (at least) the SWAN {{< glossary_link display="Jupyter notebook" i
 AARNet but we are still scoping how notebooks will be made portable between
 systems and where they will be stored at various stages of their development.
 We will be supporting and encouraging researchers to archive notebooks
-wrapped in RO-Crates with re-use information OUTSIDE of the SWAN platform
+wrapped in {{< glossary_link display="RO-Crates" id="ro-crate" >}} with re-use information OUTSIDE of the SWAN platform
 though - it’s a workspace, not a repository; it does not have governance in
 place for long-term preservation.
 
@@ -236,8 +236,8 @@ This is a much simpler view zooming in on the core infrastructure components
 that we have built so far. We are starting with bulk ingest of existing
 collections and will add one-by-one deposit of individual items after that.
 
-This shows the OCFL repository at the bottom - with a Data & Access {{< glossary_link display="API" id="api" >}} that
-mediates access. This {{< glossary_link display="API" id="api" >}} understands the RO-Crate format and in particular
+This shows the {{< glossary_link display="OCFL" id="ocfl" >}} repository at the bottom - with a Data & Access {{< glossary_link display="API" id="api" >}} that
+mediates access. This {{< glossary_link display="API" id="api" >}} understands the {{< glossary_link display="RO-Crate" id="ro-crate" >}} format and in particular
 its use of the Portland Common Data Model to structure data. The {{< glossary_link display="API" id="api" >}} also
 enforces access control to objects; every repository object has a license
 setting out the terms of use and re-use for its data, which will reflect the
@@ -274,8 +274,8 @@ a bigger repository with features or branding specific to a subset of data.
 
 ![Slide14](Slide14.png)
 
-This implementation of the {{< glossary_link display="Arkisto" id="arkisto" >}} standards-stack is known as Oni. That’s
-not really an acronym anymore though it once stood for OCFL, Ngnix (a web
+This implementation of the {{< glossary_link display="Arkisto" id="arkisto" >}} standards-stack is known as {{< glossary_link display="Oni" id="oni" >}}. That’s
+not really an acronym anymore though it once stood for {{< glossary_link display="OCFL" id="ocfl" >}}, Ngnix (a web
 server) or Node (a Javascript framework) and an Index. An Oni is a kind of
 Japanese demon. 👹
 
@@ -283,14 +283,14 @@ Japanese demon. 👹
 
 ![Slide15](Slide15.png)
 
-But how will data get into the OCFL repository? At the moment we’re loading
+But how will data get into the {{< glossary_link display="OCFL" id="ocfl" >}} repository? At the moment we’re loading
 data using a series of scripts which are being developed at our github
 organization.
 
 This diagram and the next come from the
 [Arkisto Use cases page](https://arkisto-platform.github.io/use-cases/). It
 shows how we will be converting data from existing collections into a form
-where they can be preserved in an OCFL repository and be part of a bigger
+where they can be preserved in an {{< glossary_link display="OCFL" id="ocfl" >}} repository and be part of a bigger
 collection, ALWAYS with access control based on licenses.
 
 <br>
@@ -377,7 +377,7 @@ team have been developing to be applied to other similar data in LDaCA.
 
 ![Slide20](Slide20.png)
 
-And one of the data scientists who was working with us at UQ, Mel Mistica,
+And one of the data scientists who was working with us at {{< glossary_link display="UQ" id="uq" >}}, Mel Mistica,
 developed a [demonstration notebook](https://github.com/Australian-Text-Analytics-Platform/ro-crate-metadata/blob/main/ro-crate-metadata.ipynb)
 with our tech team that used the {{< glossary_link display="API" id="api" >}} to access another full collection (which
 is also suitable for the ANU topic modelling approach) - this notebook gets
@@ -391,7 +391,7 @@ they were talking about.
 
 ![Slide21](Slide21.png)
 
-This screencast shows a work-in-progress snapshot of the Oni portal we talked
+This screencast shows a work-in-progress snapshot of the {{< glossary_link display="Oni" id="oni" >}} portal we talked
 about above in action, showing how search and browse might be used to find
 repository objects from the index - in this case, searching for Arabic words
 in a small set of Australian Government documents.
@@ -471,7 +471,7 @@ about the protection of those moral rights.
 We are designing the system so that it can work with diverse ways of
 expressing access rights, for example, {{< glossary_link display="licensing" id="licensing" >}} like the Tribal Knowledge
 labels. The idea is to separate safe storage of data with a license on each
-item, which may reference the TK labels from a system that is administered by
+item, which may reference the {{< glossary_link display="TK labels" id="tk-labels" >}} from a system that is administered by
 the data custodians who can make decisions about who is allowed to access data.
 
 <br>

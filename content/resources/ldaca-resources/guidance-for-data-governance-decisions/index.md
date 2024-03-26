@@ -158,7 +158,7 @@ In brief, the four principles are:
 1. Findability: Data is easily findable, via persistent identifiers and rich metadata.
 2. Accessibility: {{< glossary_link display="Access conditions" id="access-conditions" >}} are clearly defined, and protocols are developed to facilitate authentication and authorisation.
 3. Interoperability: Data can be integrated with other data and applications, through standard data formats and compatible metadata vocabularies.
-4. Reusability: Data and metadata are well-described with clear information on provenance and data {{< glossary_link display="access conditions" id="access-conditions" >}} in order to optimise future reuse.
+4. Reusability: Data and metadata are well-described with clear information on {{< glossary_link display="provenance" id="provenance" >}} and data {{< glossary_link display="access conditions" id="access-conditions" >}} in order to optimise future reuse.
 
 <br>
 
@@ -262,9 +262,9 @@ A {{< glossary_link display="copyright owner" id="copyright-owner" >}} may also 
 
 ## 2. Persistent Identifiers
 
-Persistent identifiers (PIDs) are digital identifiers that are permanently assigned to physical and digital objects. In contrast to other identifiers that are used online, such as URLs, PIDs are persistent, meaning they point to reliable information in the long term. They have become crucial for research data as they make a collection citable; ensure that it is findable even if moved to a different location; and establish its relationship to other objects and entities in the academic research environment (e.g. researchers, funders, organisations, academic publications, software and other datasets).
+Persistent identifiers ({{< glossary_link display="PIDs" id="pid" >}}) are digital identifiers that are permanently assigned to physical and digital objects. In contrast to other identifiers that are used online, such as URLs, {{< glossary_link display="PIDs" id="pid" >}} are persistent, meaning they point to reliable information in the long term. They have become crucial for research data as they make a collection citable; ensure that it is findable even if moved to a different location; and establish its relationship to other objects and entities in the academic research environment (e.g. researchers, funders, organisations, academic publications, software and other datasets).
 
-While various PID systems have been in use for research data over the last 25 years, including ISBN and ORCiD, the {{< glossary_link display="DOI" id="doi" >}} System has been the most widely used globally to date and is becoming the default identifier for research datasets.
+While various {{< glossary_link display="PID" id="pid" >}} systems have been in use for research data over the last 25 years, including ISBN and ORCiD, the {{< glossary_link display="DOI" id="doi" >}} System has been the most widely used globally to date and is becoming the default identifier for research datasets.
 
 A {{< glossary_link display="DOI" id="doi" >}} is a unique number made up of a prefix and a suffix separated by a forward slash. It is resolvable by displaying it as a link: https://doi.org/10.1000/182.
 
@@ -279,7 +279,7 @@ An example of a {{< glossary_link display="DOI" id="doi" >}} for a {{< glossary_
 
 | Question                                                   | Further Information                                                                                                                                                                                                                                                    |
 | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Does the collection have an existing PID?<ul><li>Yes<li>No | Investigate whether the collection already has an existing PID as this is sometimes automatically generated when the collection is listed or archived with an archive or library.                                                                                      |
+| Does the collection have an existing {{< glossary_link display="PID" id="pid" >}}?<ul><li>Yes<li>No | Investigate whether the collection already has an existing {{< glossary_link display="PID" id="pid" >}} as this is sometimes automatically generated when the collection is listed or archived with an archive or library.                                                                                      |
 | Who can generate a {{< glossary_link display="DOI" id="doi" >}} for the collection?                 | The most common {{< glossary_link display="DOI" id="doi" >}} minting services are universities, research organisations, research libraries and research repositories.<br>You can make enquiries with your university library or the research repository of the organisation that supported the {{< glossary_link display="data collection" id="data-collection" >}}. |
 
 <br>

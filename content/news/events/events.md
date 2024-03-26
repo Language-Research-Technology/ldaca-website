@@ -13,7 +13,7 @@ draft: false
 
 #### HASS and Indigenous Research Data Commons Computational Skills Summer School 2024
 
-The 2024 {{< glossary_link display="HASS" id="hass" >}} and Indigenous RDC Computational Skills Summer School aims to empower participants with practical knowledge, build digital skills, and help inspire new research outcomes within these research communities.
+The 2024 {{< glossary_link display="HASS" id="hass" >}} and Indigenous {{< glossary_link display="RDC" id="rdc" >}} Computational Skills Summer School aims to empower participants with practical knowledge, build digital skills, and help inspire new research outcomes within these research communities.
 
 Participation is aimed at researchers in the humanities, arts, social sciences and Indigenous fields of study. Themed streams will explore geosocial and geospatial data applications in humanities, arts, social sciences, and Indigenous research, using {{< glossary_link display="ARDC" id="ardc" >}} tools and services. You’ll gain experience through seminars and workshops and will be guided through hands-on use of free tools and platforms provided by the {{< glossary_link display="ARDC" id="ardc" >}} and its partners.
 
@@ -21,7 +21,7 @@ For the {{< glossary_link display="ARDC" id="ardc" >}} Summer School, {{< glossa
 
 - A series of seminars will focus on sustainability, storage, usability and description of data.
 - A case study will highlight how data is being managed for long-term access
-- A hands-on session will use Python code notebooks to analyse data.
+- A hands-on session will use {{< glossary_link display="Python" id="python" >}} code notebooks to analyse data.
 
 The case study and hands-on session will focus on geospatial aspects of data. Prior coding knowledge is not required for the hands-on session.
 
