@@ -6,6 +6,8 @@ tags:
 categories: ["LDaCA"]
 topics:
 author: "Kelvin Lee"
+aliases: 
+- "/posts/interview-1/"
 ---
 
 <br>

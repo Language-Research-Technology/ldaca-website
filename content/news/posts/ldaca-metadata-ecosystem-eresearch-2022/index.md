@@ -6,6 +6,8 @@
     categories: ["LDaCA"]
     tags: ["Metadata"]
     author: Peter Sefton
+    aliases: 
+    - "/posts/ldaca-metadata-ecosystem-eresearch-2022/"
 ---
 
 <br>

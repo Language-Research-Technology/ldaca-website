@@ -6,6 +6,8 @@ tags: ["Australia", "language data"]
 categories: ["LDaCA"]
 topics: ["Language in Australia"]
 author: "Simon Musgrave"
+aliases: 
+- "/posts/data-map/"
 ---
 
 <br>
