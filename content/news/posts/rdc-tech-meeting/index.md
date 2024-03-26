@@ -544,8 +544,8 @@ Now you can see we have access to sub-corpus data and I am just opening a couple
 
 Now in {{< glossary_link display="GitHub" id="github" >}} we can see the group management example.
 
-I have given access to all the licences to myself, as you can see here and
-given access to licence A to others.
+I have given access to all the licenses to myself, as you can see here and
+given access to license A to others.
 
 <br>
 
