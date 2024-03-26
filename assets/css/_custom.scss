@@ -23,10 +23,8 @@ $color_count: 1;
   background-size: 100% auto;
 }
 
-[theme="dark"] .single .content {
-  a {
-    color: $clear_blue;
-  }
+[theme="dark"] a {
+  color: $clear_blue;
 }
 
 [theme="dark"] a.banner-button {
@@ -41,10 +39,12 @@ $color_count: 1;
   color: white;
 }
 
-.single .content {
-  a {
-    color: $clear_blue;
-  }
+a {
+  color: $clear_blue;
+}
+
+a.archive-item-link {
+  color: $dark;
 }
 
 .organisation {
@@ -676,14 +676,25 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
   padding-bottom: 10px;
   font-size: smaller;
   [theme="light"] a {
-    color: black;
+    color: $dark;
   }
   [theme="dark"] a {
-    color: white;
+    color: #a9a9b3;
+  }
+  a {
+    color: $dark;
   }
   a:hover {
     color: #2d96bd;
   }
+}
+
+[theme="dark"] .footer-line a {
+  color: #a9a9b3;
+}
+
+[theme="dark"] .footer-line a:hover {
+  color: #2d96bd;
 }
 
 .footer {
@@ -693,7 +704,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
   bottom: 0;
   left: 0;
   font-size: smaller;
-  [theme="dark"] {
+  [theme="dark"] a {
     color: #a9a9b3;
   }
   [theme="light"] {
@@ -725,14 +736,19 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
   margin: 0.5rem 0;
 }
 
+[theme="dark"] .footer .content a {
+  text-decoration: none;
+  color: #a9a9b3;
+}
+
 .footer .content a {
   text-decoration: none;
-  [theme="dark"] {
-    color: white;
-  }
-  [theme="light"] {
-    color: black;
-  }
+  color: $dark;
+}
+
+[theme="light"] .footer .content a {
+  text-decoration: none;
+  color: $dark;
 }
 
 .footer .content a:hover {

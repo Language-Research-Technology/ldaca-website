@@ -3,6 +3,8 @@ title: "Licenses"
 date: 2023-11-15T12:05:32+11:00
 draft: false
 description: "Specifies the license(s) that data contributors have applied to the content of their collection, including the content coverage of that license."
+aliases: 
+- "/resources/ldaca-resources/licenses/"
 ---
 
 <br>

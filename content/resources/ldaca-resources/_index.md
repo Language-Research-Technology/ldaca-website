@@ -10,6 +10,3 @@ weight: 1
 
 > Information and guidance for data custodians and data collectors produced by LDaCA.
 
-> ## [Licenses](../../licenses/)
-
-> Specifies the license(s) that data contributors have applied to the content of their collection, including the content coverage of that license.
