@@ -33,7 +33,7 @@ description: Find answers to the most commonly asked questions about the project
     <p>
     A data commons is cloud-based infrastructure coupled with governance strategies and principles that allow a community to use, share, manage and analyse its data.
     <br>
-    LDaCA is a language data commons serving researchers and community groups that are interested in language data.
+    LDaCA is a language {{< glossary_link display="data commons" id="data-commons" >}} serving researchers and community groups that are interested in language data.
     </p>
 
 </details>

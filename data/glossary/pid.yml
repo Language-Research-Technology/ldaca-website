@@ -1,4 +1,4 @@
 Name: "pid"
 "title": "PID"
 "short_description": "Persistent Identifier"
-"content": 'Persistent Identifier. A digital identifier that is permanently assigned and provides a long-lasting reference to an object or entity, for example a Digital Object Identifier ({{< glossary_link display="DOI" id="doi" >}}).'
+"content": 'Persistent Identifier. A digital identifier that is permanently assigned and provides a long-lasting reference to an {{< glossary_link display="object" id="object" >}} or entity, for example a Digital Object Identifier ({{< glossary_link display="DOI" id="doi" >}}).'
