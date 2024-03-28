@@ -29,7 +29,7 @@ This document outlines the standards and processes that support the onboarding o
 
  <br>
 
-![Data Management and Governance Capacity](/data-onboarding-process/DataManagement&GovernanceCapacity.jpg)
+{{< image Src="/data-onboarding-process/DataManagement&GovernanceCapacity.jpg" Alt="Data Management and Governance Capacity" Desc="Data Management and Governance Capacity" Title="Data Management and Governance Capacity" Ref="LDaCA" >}}
 
 <br>
 
@@ -163,3 +163,5 @@ Finally, we implement ongoing engagement by outlining shared responsibilities an
 <!--
 ##### Additional resources relevant to this step:
  - TODO: ADD Takedown policy (being finalised) -->
+
+<br>

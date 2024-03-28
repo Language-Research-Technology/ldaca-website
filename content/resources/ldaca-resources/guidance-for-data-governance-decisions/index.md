@@ -226,11 +226,9 @@ While a{{< glossary_link display="access conditions" id="access-conditions" >}} 
 
 <br>
 
-**Figure: Key parts of a data license**
+{{< image Src="/guidance-for-data-governance-decisions/data-license-figure.png" Alt="Key parts of a data license" Desc="Key parts of a data license" Title="Key parts of a data license" Ref="LDaCA" >}}
 
 <br>
-
-![Key parts of a data license](/guidance-for-data-governance-decisions/data-license-figure.png)
 
 | Question                                                            | Further Information                                                                                                                                                                                                                                  |
 | ------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
