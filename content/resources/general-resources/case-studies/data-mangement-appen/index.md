@@ -55,15 +55,11 @@ Due to the variety of services, data types and customisation capabilities provid
 
 <br>
 
-__Example of audio with transcription, batched and presented to transcribers in tool:__
-
-![Audio Transcription Interface](/data-management-appen/audio-transcription.png)
+{{< image Src="/data-management-appen/audio-transcription.png" Alt="Audio Transcription Interface" Desc="Figure 1: Example of audio with transcription, batched and presented to transcribers in tool." Title="Audio Transcription Interface" Ref="Appen" >}}
 
 <br>
 
-__Example of the resulting transcription:__
-
-![Audio Transcription Text File](/data-management-appen/tx_example_ENI_ASR003.png)
+{{< image Src="/data-management-appen/tx_example_ENI_ASR003.png" Alt="Audio Transcription Text File" Desc="Figure 2: Example of the resulting transcription text file." Title="Audio Transcription Text File" Ref="Appen" >}}
 
 <br>
 
@@ -71,21 +67,15 @@ __Example of the resulting transcription:__
 
 <br>
 
-__Example of a Hungarian pronunciation lexicon loaded to the tool for native speaker review:__
-
-![Hungarian Pronunciation Lexicon](/data-management-appen/hungarian_appenlex.png)
+{{< image Src="/data-management-appen/hungarian_appenlex.png" Alt="Hungarian Pronunciation Lexicon" Desc="Figure 3: Example of a Hungarian pronunciation lexicon loaded to the tool for native speaker review." Title="Hungarian Pronunciation Lexicon" Ref="Appen" >}}
 
 <br>
 
-__Example of a UK English pronunciation lexicon:__
-
-![UK English Pronunciation Lexicon](/data-management-appen/OTS_lex.jpg)
+{{< image Src="/data-management-appen/OTS_lex.jpg" Alt="UK English Pronunciation Lexicon" Desc="Figure 4: Example of a UK English pronunciation lexicon." Title="UK English Pronunciation Lexicon" Ref="Appen" >}}
 
 <br>
 
-__Example of a UK English part-of-speech lexicon:__
-
-![UK English Part-of-Speech Lexicon](/data-management-appen/POS_example_ENG_GBR.png)
+{{< image Src="/data-management-appen/POS_example_ENG_GBR.png" Alt="UK English Part-of-Speech Lexicon" Desc="Figure 5: Example of a UK English part-of-speech lexicon." Title="UK English Part-of-Speech Lexicon" Ref="Appen" >}}
 
 <br>
 
@@ -115,7 +105,7 @@ One example of these automated spelling standardisation processes is a {{< gloss
 
 <br>
 
-![Pre-Labeled Datasets](/data-management-appen/pre-labeled-datasets.png)
+{{< image Src="/data-management-appen/pre-labeled-datasets.png" Alt="Pre-Labeled Datasets" Desc="Figure 6: Pre-Labeled Dataset Infographic." Title="Pre-Labeled Datasets" Ref="Appen" >}}
 
 <br>
 
@@ -133,13 +123,10 @@ Each listing contains further details about the dataset, particularly related to
 
 <br>
 
-__Catalogue entries for a Danish part-of-speech dataset and a Mongolian pronunciation dictionary:__
-
-![Danish Part-of-Speech Catalogue 1](/data-management-appen/danish-pos-lex-1.png) | ![Danish Part-of-Speech Catalogue 2](/data-management-appen/danish-pos-lex-2.png)
+{{< image Src="/data-management-appen/danish-pos-lex-1.png" Alt="Danish Part-of-Speech Dictionary Catalogue Summary" Desc="Figure 7: Danish Part-of-Speech Dictionary Catalogue Summary." Title="Danish Part-of-Speech Dictionary Catalogue Summary" Ref="Appen" >}} | {{< image Src="/data-management-appen/danish-pos-lex-2.png" Alt="Danish Part-of-Speech Dictionary Catalogue Metadata" Desc="Figure 8: Danish Part-of-Speech Dictionary Catalogue Metadata." Title="Danish Part-of-Speech Dictionary Catalogue Metadata" Ref="Appen" >}}
 --- | ---
 
-
-![Mongolian Pronunciation Dictionary Catalogue 1](/data-management-appen/mongolian-pron-lex-1.png) | ![Mongolian Pronunciation Dictionary Catalogue 2](/data-management-appen/mongolian-pron-lex-2.png)
+{{< image Src="/data-management-appen/mongolian-pron-lex-1.png" Alt="Mongolian Pronunciation Dictionary Catalogue Summary" Desc="Figure 9: Mongolian Pronunciation Dictionary Catalogue Summary." Title="Mongolian Pronunciation Dictionary Catalogue Summary" Ref="Appen" >}} | {{< image Src="/data-management-appen/mongolian-pron-lex-2.png" Alt="Mongolian Pronunciation Dictionary Catalogue Metadata" Desc="Figure 10: Mongolian Pronunciation Dictionary Catalogue Metadata." Title="Mongolian Pronunciation Dictionary Catalogue Metadata" Ref="Appen" >}}
 --- | ---
 
 <br>
