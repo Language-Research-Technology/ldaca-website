@@ -105,7 +105,7 @@ One example of these automated spelling standardisation processes is a {{< gloss
 
 <br>
 
-{{< image Src="/data-management-appen/pre-labeled-datasets.png" Alt="Pre-Labeled Datasets" Desc="Figure 6: Pre-Labeled Dataset Infographic." Title="Pre-Labeled Datasets" Ref="Appen" >}}
+{{< image Src="/data-management-appen/pre-labeled-datasets.png" Alt="Pre-Labeled Datasets" Desc="Figure 6: Visual representation of pre-labeled dataset types." Title="Pre-Labeled Datasets" Ref="Appen" >}}
 
 <br>
 
@@ -123,10 +123,10 @@ Each listing contains further details about the dataset, particularly related to
 
 <br>
 
-{{< image Src="/data-management-appen/danish-pos-lex-1.png" Alt="Danish Part-of-Speech Dictionary Catalogue Summary" Desc="Figure 7: Danish Part-of-Speech Dictionary Catalogue Summary." Title="Danish Part-of-Speech Dictionary Catalogue Summary" Ref="Appen" >}} | {{< image Src="/data-management-appen/danish-pos-lex-2.png" Alt="Danish Part-of-Speech Dictionary Catalogue Metadata" Desc="Figure 8: Danish Part-of-Speech Dictionary Catalogue Metadata." Title="Danish Part-of-Speech Dictionary Catalogue Metadata" Ref="Appen" >}}
+{{< image Src="/data-management-appen/danish-pos-lex-1.png" Alt="Danish Part-of-Speech Dictionary Catalogue Summary" Desc="Figure 7: Danish part-of-speech dictionary catalogue summary." Title="Danish Part-of-Speech Dictionary Catalogue Summary" Ref="Appen" >}} | {{< image Src="/data-management-appen/danish-pos-lex-2.png" Alt="Danish Part-of-Speech Dictionary Catalogue Metadata" Desc="Figure 8: Danish part-of-speech dictionary catalogue metadata." Title="Danish Part-of-Speech Dictionary Catalogue Metadata" Ref="Appen" >}}
 --- | ---
 
-{{< image Src="/data-management-appen/mongolian-pron-lex-1.png" Alt="Mongolian Pronunciation Dictionary Catalogue Summary" Desc="Figure 9: Mongolian Pronunciation Dictionary Catalogue Summary." Title="Mongolian Pronunciation Dictionary Catalogue Summary" Ref="Appen" >}} | {{< image Src="/data-management-appen/mongolian-pron-lex-2.png" Alt="Mongolian Pronunciation Dictionary Catalogue Metadata" Desc="Figure 10: Mongolian Pronunciation Dictionary Catalogue Metadata." Title="Mongolian Pronunciation Dictionary Catalogue Metadata" Ref="Appen" >}}
+{{< image Src="/data-management-appen/mongolian-pron-lex-1.png" Alt="Mongolian Pronunciation Dictionary Catalogue Summary" Desc="Figure 9: Mongolian pronunciation dictionary catalogue summary." Title="Mongolian Pronunciation Dictionary Catalogue Summary" Ref="Appen" >}} | {{< image Src="/data-management-appen/mongolian-pron-lex-2.png" Alt="Mongolian Pronunciation Dictionary Catalogue Metadata" Desc="Figure 10: Mongolian pronunciation dictionary catalogue metadata." Title="Mongolian Pronunciation Dictionary Catalogue Metadata" Ref="Appen" >}}
 --- | ---
 
 <br>
