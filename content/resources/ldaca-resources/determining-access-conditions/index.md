@@ -15,10 +15,6 @@ description: "Defines the workflow for determining the access conditions for a d
 
 <br>
 
-> See the [LDaCA Glossary](https://docs.ldaca.edu.au/other-resources/glossary/) for definitions of key terms and concepts.
-
-<br>
-
 LDaCA recommends the following workflow to determine the {{< glossary_link display="access conditions" id="access-conditions" >}} to be outlined in the license. Examples of existing data access licenses can be found [here](/licenses/).
 
 <br>

@@ -22,10 +22,6 @@ description: "Defines policies, roles, responsibilities and procedures for ongoi
 
 <br>
 
-> See the [LDaCA Glossary](https://docs.ldaca.edu.au/other-resources/glossary/) for definitions of key terms and concepts.
-
-<br>
-
 ## Purpose
 
 {{< glossary_link display="Data governance" id="data-governance" >}} defines policies, roles, responsibilities and procedures for ongoing use and storage of data, as well as for access to data. Effective {{< glossary_link display="data governance" id="data-governance" >}} maximises sustainability, while ensuring data integrity and protecting research participants. Long-term sustainability requires a {{< glossary_link display="data management plan" id="data-management-plan" >}}.

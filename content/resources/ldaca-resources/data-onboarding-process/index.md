@@ -19,10 +19,6 @@ description: "Outlines the standards and processes that support the onboarding o
 
 <br>
 
-> See the [LDaCA Glossary](https://docs.ldaca.edu.au/other-resources/glossary/) for definitions of key terms and concepts.
-
-<br>
-
 ## Purpose
 
 This document outlines the standards and processes that support the onboarding of language collections to LDaCA. A successful onboarding will result in the collection being catalogued with LDaCA and made available in accordance with the specified {{< glossary_link display="access conditions" id="access-conditions" >}}. To determine if you are ready to onboard a collection, check this data management and governance capacity flowchart.
@@ -89,8 +85,8 @@ At this stage, it is important to share key information and resources about the 
 ##### Additional resources relevant to this step:
 
 - [Work Plan template](../WorkPlan_Template.docx)
-<!-- - TODO: [Terms of Use](/resources/ldaca-resources/terms-of-use/)
-- TODO: ADD LDaCA Privacy Policy (being finalised) -->
+- [Terms of Use](https://data.ldaca.edu.au/terms)
+<!-- - TODO: ADD LDaCA Privacy Policy (being finalised) -->
 
 <br>
 
