@@ -47,7 +47,7 @@ Due to the variety of services, data types and customisation capabilities provid
 
 1. The client or project sponsor specifies the parameters for the dataset and its collection in consultation with Appen specialists.
 
-2. Appen carries out {{< glossary_link display="data collection" id="data-collection" >}}, usually in the form of conversational or scripted telephony, {{< glossary_link display="VoIP" id="voip" >}} or microphone recordings with qualified participants from Appen's crowd of more than a million. All participants are provided with a consent form explaining the purpose of the collection and how the data will be used, and only take part in the collection if they are happy and comfortable to do so, and if they sign the consent form. Personal data such as names are anonymised and sensitive personal data is not collected. Conversational data refers to spontaneous or unscripted natural speech on a variety of topics either over the telephone or with both participants in the same room, while for scripted data, participants read and respond to a set text of prompts, curated to facilitate topic, domain, keywords, key phrases and phonetic coverage.
+2. Appen carries out {{< glossary_link display="data collection" id="data-collection" >}}, usually in the form of conversational or scripted telephony, {{< glossary_link display="VoIP" id="voip" >}} or microphone recordings with qualified participants from Appen's crowd of more than a million. Conversational data refers to spontaneous or unscripted natural speech on a variety of topics either over the telephone or with both participants in the same room, while for scripted data, participants read and respond to a set text of prompts, curated to facilitate topic, domain, keywords, key phrases and phonetic coverage. All participants are provided with a consent form explaining the purpose of the collection and how the data will be used, and only take part in the collection if they are happy and comfortable to do so, and if they sign the consent form. Personal data such as names are anonymised and sensitive personal data is not collected.
 
 3. The audio data is then quality-checked to ensure it meets the requirements for the collection, including demographic balance, language and content, background noise levels, audio levels and recording duration.
 
@@ -163,7 +163,7 @@ In terms of dataset storage, collections are catalogued first according to langu
 
 <br>
 
-Both in cases where new datasets are being created and finalised collections made ready for cataloguing, data management is a crucial consideration at Appen and, more broadly, any language technology project. Two main issues that are important to consider for data repositories are:
+Both in cases where new datasets are being created and finalised collections made ready for cataloguing, data management is a crucial consideration at Appen and, more broadly, any language technology project. Two main issues that are important to consider for data collections are:
 
 <br>
 
