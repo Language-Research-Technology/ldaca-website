@@ -9,7 +9,7 @@ by {{< profile id="smith" >}}
 
 <br>
 
-Founded in Sydney in 1996, [Appen](https://www.appen.com/) is a technology company that collects and improves data for the purposes of training and developing machine learning and artificial intelligence systems. During my time at Appen, a significant part of my work involved a diverse range of projects for both automatic speech recognition ({{< glossary_link display="ASR" id="asr" >}}) and text-to-speech ({{< glossary_link display="TTS" id="tts" >}}) technologies, including {{< glossary_link display="phonetic transcription" id="phonetic-transcription" >}}, grapheme-to-phoneme or letter-to-sound (L2S) rule development, and part-of-speech annotation.
+Founded in Sydney in 1996, [Appen](https://www.appen.com/) is a technology company that collects and improves data for the purposes of training and developing machine learning and artificial intelligence systems. During my time at Appen, a significant part of my work involved a diverse range of projects for both automatic speech recognition ({{< glossary_link display="ASR" id="asr" >}}) and text-to-speech ({{< glossary_link display="TTS" id="tts" >}}) technologies, including {{< glossary_link display="phonetic transcription" id="phonetic-transcription" >}}, grapheme-to-phoneme or letter-to-sound (L2S) rule development, and part-of-speech (POS) annotation.
 
 <br>
 
@@ -49,9 +49,9 @@ Due to the variety of services, data types and customisation capabilities provid
 
 2. Appen carries out {{< glossary_link display="data collection" id="data-collection" >}}, usually in the form of conversational or scripted telephony, {{< glossary_link display="VoIP" id="voip" >}} or microphone recordings with qualified participants from Appen's crowd of more than a million. All participants are provided with a consent form explaining the purpose of the collection and how the data will be used, and only take part in the collection if they are happy and comfortable to do so, and if they sign the consent form. Personal data such as names are anonymised and sensitive personal data is not collected. Conversational data refers to spontaneous or unscripted natural speech on a variety of topics either over the telephone or with both participants in the same room, while for scripted data, participants read and respond to a set text of prompts, curated to facilitate topic, domain, keywords, key phrases and phonetic coverage.
 
-3. The audio data is then quality-checked to ensure it meets the requirements for the collection, including balanced demographic, language and content, background noise levels, audio levels and recording duration.
+3. The audio data is then quality-checked to ensure it meets the requirements for the collection, including demographic balance, language and content, background noise levels, audio levels and recording duration.
 
-4. The accepted audio goes through some pre-processing steps to batch the data, then is orthographically transcribed by the transcription (TX) team. Timestamps are checked at this stage as well to ensure correct alignment of the audio, and a variety of labels are added to capture speaker and non-speaker noise events. Rigorous quality assurance processes are applied while the transcription is ongoing and on the resulting complete data set.
+4. The approved audio goes through some pre-processing steps to batch the data into smaller segments, then is orthographically transcribed by the transcription (TX) team. Timestamps are checked at this stage as well to ensure correct alignment of the audio and the transcribed text, and a variety of labels are added to capture speaker and non-speaker noise events (e.g. laugh, cough, background noise). Rigorous quality assurance processes are applied while the transcription is ongoing and on the resulting complete data set.
 
 <br>
 
@@ -63,11 +63,11 @@ Due to the variety of services, data types and customisation capabilities provid
 
 <br>
 
-5. A sorted list of unique word forms (e.g. 'house', 'houses') occurring in the dataset is created from the orthographically transcribed data and sent to the lexicon (LX) team, who work with a group of native speaker linguists to prepare {{< glossary_link display="phonetic transcriptions" id="phonetic-transcription" >}} of the words, either in {{< glossary_link display="X-SAMPA" id="x-sampa" >}} or another phonetic script. If a part-of-speech lexicon is also required for the dataset, this is similarly created from the sorted list of unique word forms and checked by native speaker linguists.
+5. A sorted list of unique word forms (e.g. 'house', 'houses') occurring in the dataset is created from the orthographically transcribed data and sent to the lexicon (LX) team, who work with a group of native speaker linguists to prepare {{< glossary_link display="phonetic transcriptions" id="phonetic-transcription" >}} of the words, either in {{< glossary_link display="X-SAMPA" id="x-sampa" >}} or another phonetic script. If a POS lexicon is also required for the dataset, this is similarly created from the sorted list of unique word forms and checked by native speaker linguists.
 
 <br>
 
-{{< image Src="/data-management-appen/hungarian_appenlex.png" Alt="Hungarian Pronunciation Lexicon" Desc="Figure 3: Example of a Hungarian pronunciation lexicon loaded to the tool for native speaker review." Title="Hungarian Pronunciation Lexicon" Ref="Appen" >}}
+{{< image Src="/data-management-appen/hungarian_appenlex.png" Alt="Hungarian Pronunciation Lexicon" Desc="Figure 3: Example of a Hungarian pronunciation lexicon loaded to the transcription tool for native speaker review." Title="Hungarian Pronunciation Lexicon" Ref="Appen" >}}
 
 <br>
 
@@ -75,7 +75,7 @@ Due to the variety of services, data types and customisation capabilities provid
 
 <br>
 
-{{< image Src="/data-management-appen/POS_example_ENG_GBR.png" Alt="UK English Part-of-Speech Lexicon" Desc="Figure 5: Example of a UK English part-of-speech lexicon." Title="UK English Part-of-Speech Lexicon" Ref="Appen" >}}
+{{< image Src="/data-management-appen/POS_example_ENG_GBR.png" Alt="UK English POS Lexicon" Desc="Figure 5: Example of a UK English POS lexicon." Title="UK English POS Lexicon" Ref="Appen" >}}
 
 <br>
 
@@ -93,7 +93,7 @@ One major challenge in this process is dealing with errors and inconsistencies t
 
 <br>
 
-Once a variation is identified and a decision on approach has been made, this change is applied to the whole of the transcription before an updated wordlist is prepared for the lexicon. This spelling standardisation phase is inherently iterative and in order to reduce the number of iterations, robust processes were developed to automatically identify many variations and then track that the agreed final spelling forms were applied.
+Once a variation is identified and a decision on approach has been made, this change is applied to the whole of the transcription before an updated wordlist is prepared for the lexicon. This spelling standardisation phase is inherently iterative and in order to reduce the number of iterations, robust processes were developed to automatically identify many of the variations and then track that the agreed final spelling forms were applied.
 
 <br>
 
@@ -109,7 +109,7 @@ One example of these automated spelling standardisation processes is a {{< gloss
 
 <br>
 
-At the time of writing, Appen has over 280 audio, image, video and text datasets in over 80 languages available as [pre-labeled datasets](https://datasets.appen.com/). These datasets can be browsed by the public according to several categories: product type, common use cases, language and number of hours of audio, word or image count, if applicable (called Unit in the table below). Combined with a standard search function, this filtering allows interested parties to further refine their query for data most applicable to their needs.
+At the time of writing, Appen has over 280 audio, image, video and text datasets in over 80 languages available as [pre-labeled datasets](https://datasets.appen.com/). These datasets are publicly accessible and can be filtered according to several categories: product type, common use cases, language and number of hours of audio, word or image count, if applicable (called Unit in the table below). Combined with a standard search function, this filtering allows interested parties to further refine their query for data most applicable to their needs.
 
 <br>
 
@@ -119,41 +119,43 @@ At the time of writing, Appen has over 280 audio, image, video and text datasets
 
 <br>
 
-Each listing contains further details about the dataset, particularly related to aspects of the {{< glossary_link display="data collection" id="data-collection" >}}, including the specifics of the language collected, the volume of the dataset, the number of contributors involved, recording conditions and the file formats available. Additional details appear in a pop-up window when you click on the "tile" for a given dataset. For example:
+Each listing contains further details about the dataset, particularly in relation to aspects of the {{< glossary_link display="data collection" id="data-collection" >}}, including the specifics of the language collected, the volume of the dataset, the number of contributors involved, recording conditions and the file formats available. Additional details appear in a pop-up window when you click on the "tile" for a given dataset. For example:
 
 <br>
 
-**Catalogue entries for a Danish part-of-speech dataset and a Mongolian pronunciation dictionary:**
-
-| {{< image Src="/data-management-appen/danish-pos-lex-1.png" Alt="Danish Part-of-Speech Dictionary Catalogue Summary" Desc="Figure 7: Danish part-of-speech dictionary catalogue summary." Title="Danish Part-of-Speech Dictionary Catalogue Summary" Ref="Appen" >}} | {{< image Src="/data-management-appen/danish-pos-lex-2.png" Alt="Danish Part-of-Speech Dictionary Catalogue Metadata" Desc="Figure 8: Danish part-of-speech dictionary catalogue metadata." Title="Danish Part-of-Speech Dictionary Catalogue Metadata" Ref="Appen" >}} |
-| --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-
-| {{< image Src="/data-management-appen/mongolian-pron-lex-1.png" Alt="Mongolian Pronunciation Dictionary Catalogue Summary" Desc="Figure 9: Mongolian pronunciation dictionary catalogue summary." Title="Mongolian Pronunciation Dictionary Catalogue Summary" Ref="Appen" >}} | {{< image Src="/data-management-appen/mongolian-pron-lex-2.png" Alt="Mongolian Pronunciation Dictionary Catalogue Metadata" Desc="Figure 10: Mongolian pronunciation dictionary catalogue metadata." Title="Mongolian Pronunciation Dictionary Catalogue Metadata" Ref="Appen" >}} |
-| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+**Catalogue entries for a Danish POS dataset and a Mongolian pronunciation dictionary:**
 
 <br>
 
-This is a helpful starting point for browsing and refining the dataset selection, but in order to find the most suitable match, clients consult directly with Appen to fully discuss their language technology needs.
+{{< image Src="/data-management-appen/danish-combined.png" Alt="Danish POS Dictionary Catalogue Summary and Metadata" Desc="Figure 7: Danish POS dictionary catalogue summary and metadata." Title="Danish POS Dictionary Catalogue Summary and Metadata" Ref="Appen" >}}
 
 <br>
 
-More detailed {{< glossary_link display="metadata" id="metadata" >}} for each dataset is tracked internally and this is used to further assist client queries and requests. Some of the additional {{< glossary_link display="metadata" id="metadata" >}} categories recorded include the demographics of the contributors for each dataset, such as the age range and gender distribution of the participants, the dialect coverage within a specific language, the year of collection, and the domains or topics discussed in the collection.
+{{< image Src="/data-management-appen/mongolian-combined.png" Alt="Mongolian Pronunciation Dictionary Catalogue Summary and Metadata" Desc="Figure 8: Mongolian pronunciation dictionary catalogue summary and metadata." Title="Mongolian Pronunciation Dictionary Catalogue Summary and Metadata" Ref="Appen" >}}
 
 <br>
 
-Using the {{< glossary_link display="metadata" id="metadata" >}} as further filters, requests can be divided into three alternative outcomes:
+This is a helpful starting point for browsing and refining the dataset selection, but in order to find the most suitable match, clients consult directly with Appen to discuss their language technology needs in full.
 
 <br>
 
-1. Dataset(s) matching all requirements are available and a sample of the data is shared for client confirmation.
+More detailed {{< glossary_link display="metadata" id="metadata" >}} for each dataset is tracked internally and this is used to further assist with client queries and requests. Some of the additional {{< glossary_link display="metadata" id="metadata" >}} categories recorded include the demographics of the contributors for each dataset, such as the age range and gender distribution of the participants, the dialect coverage within a specific language, the year of collection, and the domains or topics discussed in the collection.
+
+<br>
+
+Using the {{< glossary_link display="metadata" id="metadata" >}} as filters, requests can be divided into three alternative outcomes:
+
+<br>
+
+1. Dataset(s) matching all requirements are available and a sample of the data is shared with the client to confirm this is the case.
 
 2. Dataset(s) matching only some of the requirements are available and samples of these are shared in case they are still applicable to the project.
 
-3. No dataset matching the requirements is available and a quote can then be prepared for producing a new dataset ​​or enhancing an existing dataset.
+3. No dataset matching the requirements is available and a quote is then prepared for producing a new dataset ​​or enhancing an existing dataset.
 
 <br>
 
-In terms of dataset storage, collections are catalogued first according to language and second by dataset type. This method works particularly well for pre-labeled datasets, because, if nothing else, clients usually know which language(s) they want data for and other specifics follow from there.
+In terms of dataset storage, collections are catalogued first according to language and second by dataset type. This method works particularly well for pre-labeled datasets, because, if nothing else, clients usually know which language(s) they want data for and other specifics can follow from there.
 
 <br>
 
@@ -161,7 +163,7 @@ In terms of dataset storage, collections are catalogued first according to langu
 
 <br>
 
-Both in cases where new datasets are being created and finalised collections made ready for cataloguing, data management is a crucial element at Appen and, more broadly, any language technology project. Two main issues that are important to consider for data repositories are:
+Both in cases where new datasets are being created and finalised collections made ready for cataloguing, data management is a crucial consideration at Appen and, more broadly, any language technology project. Two main issues that are important to consider for data repositories are:
 
 <br>
 
@@ -175,6 +177,6 @@ These issues are handled in the Appen workflow through the use of iterative semi
 
 <br>
 
-For LDaCA, these issues are of equal relevance for wider data management. To the first point, while it is ultimately the responsibility and prerogative of the data contributor to decide how their data should be organised, LDaCA can also assist with this process. Guidance is available on best practices for data management and organisation of {{< glossary_link display="metadata" id="metadata" >}}, both in the form of the documentation available at [LDaCA Resources](/resources/ldaca-resources/), as well as automated validation of {{< glossary_link display="metadata" id="metadata" >}} category requirements for datasets added and edited through {{< glossary_link display="Crate-O" id="crate-o" >}}. To the second point, in facilitating data management and discoverability through portals that use the {{< glossary_link display="Oni" id="oni" >}} application to access data packaged as {{< glossary_link display="RO-Crates" id="ro-crate" >}}, LDaCA has a responsibility to ensure that these {{< glossary_link display="tools" id="tools" >}} are accessible and intuitive for all. This should be an iterative process, with further improvements to operability implemented based on user feedback and needs.
+For LDaCA, these issues are of equal relevance for wider data management. To the first point, while it is ultimately the responsibility and prerogative of the data contributor to decide how their data should be organised, LDaCA can also assist with this process. Guidance is available on best practices for data management and organisation of {{< glossary_link display="metadata" id="metadata" >}}, both in the form of the documentation available at [LDaCA Resources](/resources/ldaca-resources/), as well as automated validation of {{< glossary_link display="metadata" id="metadata" >}} category requirements for datasets added and edited through {{< glossary_link display="Crate-O" id="crate-o" >}}. To the second point, LDaCA has a responsibility to ensure that {{< glossary_link display="tools" id="tools" >}} to facilitate data management and discoverability are accessible and intuitive for all, including the portals that use the {{< glossary_link display="Oni" id="oni" >}} application to access data packaged as {{< glossary_link display="RO-Crates" id="ro-crate" >}}. This should be an iterative process, with further improvements to operability implemented based on user feedback and needs.
 
 <br>
