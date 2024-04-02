@@ -1,5 +1,5 @@
 Name: "phonetic-transcription"
 "title": "Phonetic Transcription"
 "short_description": "The process of transcribing words in a lexicon according to their sound through the use of a phonetic alphabet."
-"content": "The process of transcribing words in a lexicon according to their sound through the use of a phonetic alphabet such as the International Phonetic Alphabet (IPA) or X-SAMPA."
+"content": 'The process of transcribing words in a lexicon according to their sound through the use of a phonetic alphabet such as the International Phonetic Alphabet ({{< glossary_link display="IPA" id="ipa" >}}) or {{< glossary_link display="X-SAMPA" id="x-sampa" >}}.'
 "external_link": 

@@ -8,7 +8,7 @@ description: "Information about the principles on which the work of LDaCA is bas
 
 <br>
 
-The Language Data Commons of Australia aims to ensure long-term access to language data collections for analysis and reuse. Sustainable management of and access to these significant collections of intangible cultural heritage are underpinned by two sets of complementary guiding principles of data management and stewardship, namely the {{< glossary_link display="FAIR" id="fair" >}} and {{< glossary_link display="CARE" id="care" >}} principles.
+The Language Data Commons of Australia aims to ensure long-term access to language {{< glossary_link display="data collections" id="data-collection" >}} for analysis and reuse. Sustainable management of and access to these significant collections of intangible cultural heritage are underpinned by two sets of complementary guiding principles of data management and stewardship, namely the {{< glossary_link display="FAIR" id="fair" >}} and {{< glossary_link display="CARE" id="care" >}} principles.
 
 <br>
 
@@ -53,12 +53,12 @@ The ultimate goal of {{< glossary_link display="FAIR" id="fair" >}} is to optimi
 
 - (Meta)data are richly described with a plurality of accurate and relevant attributes
   - (Meta)data are released with a clear and accessible data usage license
-  - (Meta)data are associated with detailed provenance
+  - (Meta)data are associated with detailed {{< glossary_link display="provenance" id="provenance" >}}
   - (Meta)data meet domain-relevant community standards
 
 <br>
 
-The Australian Research Data Commons ([ARDC](https://ardc.edu.au/)) and LDaCA support {{< glossary_link display="FAIR" id="fair" >}} data practices and initiatives that make data and related research outputs {{< glossary_link display="FAIR" id="fair" >}}. At the same time, the ARDC and LDaCA acknowledge that the implementation of the principles will look different across disciplines and will need discipline-specific approaches and standards.
+The Australian Research Data Commons ({{< glossary_link display="ARDC" id="ardc" >}}) and LDaCA support {{< glossary_link display="FAIR" id="fair" >}} data practices and initiatives that make data and related research outputs {{< glossary_link display="FAIR" id="fair" >}}. At the same time, the {{< glossary_link display="ARDC" id="ardc" >}} and LDaCA acknowledge that the implementation of the principles will look different across disciplines and will need discipline-specific approaches and standards.
 
 <br>
 
@@ -104,6 +104,6 @@ Indigenous Peoples’ rights and wellbeing should be the primary concern at all 
 
 <br>
 
-The Australian Research Data Commons ([ARDC](https://ardc.edu.au/)) and LDaCA support the {{< glossary_link display="CARE" id="care" >}} principles to further extend data management principles, ensuring that Indigenous communities benefit from the data, and that authority to control Indigenous data is held by Indigenous Peoples. We have a responsibility to share how data is used to collectively benefit Indigenous Peoples, and that Indigenous Peoples' rights and wellbeing are the primary concern at all stages of the data life cycle.
+The Australian Research Data Commons ({{< glossary_link display="ARDC" id="ardc" >}}) and LDaCA support the {{< glossary_link display="CARE" id="care" >}} principles to further extend data management principles, ensuring that Indigenous communities benefit from the data, and that authority to control Indigenous data is held by Indigenous Peoples. We have a responsibility to share how data is used to collectively benefit Indigenous Peoples, and that Indigenous Peoples' rights and wellbeing are the primary concern at all stages of the data life cycle.
 
 <br>

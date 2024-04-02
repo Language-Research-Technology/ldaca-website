@@ -107,4 +107,4 @@ LDaCA acknowledges Traditional Owners of Country throughout Australia and recogn
 {{</raw>}}
 
 The Language Data Commons of Australia (LDaCA) project receives [investment](https://doi.org/10.47486/HIR001)
-from the Australian Research Data Commons (ARDC) through its [HASS and Indigenous Research Data Commons](https://ardc.edu.au/hass-and-indigenous-research-data-commons/) program. The ARDC is funded by the National Collaborative Research Infrastructure Strategy (NCRIS).
+from the Australian Research Data Commons ({{< glossary_link display="ARDC" id="ardc" >}}) through its [HASS and Indigenous Research Data Commons](https://ardc.edu.au/hass-and-indigenous-research-data-commons/) program. The {{< glossary_link display="ARDC" id="ardc" >}} is funded by the National Collaborative Research Infrastructure Strategy ({{< glossary_link display="NCRIS" id="ncris" >}}).

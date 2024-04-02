@@ -1,5 +1,5 @@
 Name: "provenance"
 "title": "Provenance"
 "short_description": "The documented history or chain of custody of materials from their creation to their current location within a collection."
-"content": "The documented history or chain of custody of materials from their creation to their current location within a collection. The full history and ownership of an item from the time of its discovery or creation to the present day, through which authenticity and ownership are determined."
+"content": 'The documented history or chain of custody of materials from their creation to their current location within a {{< glossary_link display="collection" id="collection" >}}. The full history and ownership of an item from the time of its discovery or creation to the present day, through which authenticity and ownership are determined.'
 "external_link": 

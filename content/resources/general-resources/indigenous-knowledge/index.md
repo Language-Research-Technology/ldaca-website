@@ -8,7 +8,7 @@ description: "Further information relating to Indigenous research."
 <br>
 
 - [Protocols](https://australiacouncil.gov.au/wp-content/uploads/2021/07/protocols-for-using-first-nati-5f72716d09f01.pdf)
-  for using First Nations Cultural and Intellectual Property in the Arts (Australia Council).
+  for using First Nations Cultural and {{< glossary_link display="Intellectual Property" id="intellectual-property" >}} in the Arts (Australia Council).
 - Citing Indigenous elders and knowledge keepers:
   - [Templates For Citing Indigenous Elders and Knowledge Keepers](https://kula.uvic.ca/index.php/kula/article/view/135)
     (Lorisia MacLeod)

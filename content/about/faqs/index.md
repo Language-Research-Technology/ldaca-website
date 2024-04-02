@@ -22,7 +22,7 @@ description: Find answers to the most commonly asked questions about the project
     </summary>
     <p>
         Metadata is the information that defines and describes data.
-        It is often referred to as data about data or information about data because it provides data users with information about the purpose, processes, and methods involved in the data collection. (Source: Australian Bureau of Statistics > <a href="https://www.abs.gov.au/statistics/understanding-statistics/statistical-terms-and-concepts/metadata" target="_blank">Metadata</a>). See also the <a href="../../resources/ldaca-resources/metadata/">metadata page on this site</a>.
+        It is often referred to as data about data or information about data because it provides data users with information about the purpose, processes, and methods involved in the {{< glossary_link display="data collection" id="data-collection" >}}. (Source: Australian Bureau of Statistics > <a href="https://www.abs.gov.au/statistics/understanding-statistics/statistical-terms-and-concepts/metadata" target="_blank">Metadata</a>). See also the <a href="../../resources/ldaca-resources/metadata/">metadata page on this site</a>.
     </p>
 </details>
 
@@ -33,7 +33,7 @@ description: Find answers to the most commonly asked questions about the project
     <p>
     A data commons is cloud-based infrastructure coupled with governance strategies and principles that allow a community to use, share, manage and analyse its data.
     <br>
-    LDaCA is a language data commons serving researchers and community groups that are interested in language data.
+    LDaCA is a language {{< glossary_link display="data commons" id="data-commons" >}} serving researchers and community groups that are interested in language data.
     </p>
 
 </details>
