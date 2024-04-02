@@ -7,10 +7,6 @@ description: "Outlines steps for acquiring a Digital Object Identifier (DOI) for
 
 <br>
 
-> See the [LDaCA Glossary](https://docs.ldaca.edu.au/other-resources/glossary/) for definitions of key terms and concepts.
-
-<br>
-
 ## How do I get a DOI for my dataset?
 
 <br>

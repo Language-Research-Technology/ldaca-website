@@ -28,10 +28,6 @@ description: "Outlines the LDaCA Access Policy, making data appropriately access
 
 <br>
 
-> See the [LDaCA Glossary](https://docs.ldaca.edu.au/other-resources/glossary/) for definitions of key terms and concepts.
-
-<br>
-
 ## Purpose
 
 This document outlines the LDaCA Access Policy, which is developed to accommodate the goal of making data appropriately accessible, in accordance with legal, moral and ethical considerations of data sharing, and tailored to meet the needs and requirements of different {{< glossary_link display="data collections" id="data-collection" >}}.
@@ -114,11 +110,11 @@ The key points included in the Terms of Use are:
 6. LDaCA may change the site and suspend or cancel user access without notice.
 7. LDaCA is not responsible for any breaches of legal, moral or ethical standards by users.
 
-<!-- TODO: The Terms of Use can be viewed [here](/resources/ldaca-resources/terms-of-use/). -->
+The Terms of Use can be viewed [here](https://data.ldaca.edu.au/terms).
 
 <br>
 
-![LDaCA Terms of Use: Key Points](/access-policy/LDaCA%20Terms%20of%20Use-updated.jpg)
+{{< image Src="/access-policy/LDaCA%20Terms%20of%20Use-updated.jpg" Alt="LDaCA Terms of Use: Key Points" Desc="LDaCA Terms of Use: Key Points" Title="LDaCA Terms of Use: Key Points" Ref="LDaCA" >}}
 
 <br>
 

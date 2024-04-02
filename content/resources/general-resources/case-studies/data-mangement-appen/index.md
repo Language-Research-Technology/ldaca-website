@@ -55,11 +55,7 @@ Due to the variety of services, data types and customisation capabilities provid
 
 <br>
 
-<!-- **Example of audio with transcription, batched and presented to transcribers in tool:** -->
-
-{{< image Src="/data-management-appen/audio-transcription.png" Alt="Audio Transcription Interface" Desc="Example of audio with transcription, batched and presented to transcribers in tool:" Title="Audio Transcription Interface" Height="500"  Ref="Appen" >}}
-
-<!-- ![Audio Transcription Interface](/data-management-appen/audio-transcription.png) -->
+{{< image Src="/data-management-appen/audio-transcription.png" Alt="Audio Transcription Interface" Desc="Figure 1: Example of audio with transcription, batched and presented to transcribers in tool." Title="Audio Transcription Interface" Ref="Appen" >}}
 
 <br>
 
@@ -117,7 +113,7 @@ One example of these automated spelling standardisation processes is a {{< gloss
 
 <br>
 
-![Pre-Labeled Datasets](/data-management-appen/pre-labeled-datasets.png)
+{{< image Src="/data-management-appen/pre-labeled-datasets.png" Alt="Pre-Labeled Datasets" Desc="Figure 6: Visual representation of pre-labeled dataset types." Title="Pre-Labeled Datasets" Ref="Appen" >}}
 
 <br>
 

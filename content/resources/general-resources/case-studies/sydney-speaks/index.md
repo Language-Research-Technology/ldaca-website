@@ -33,14 +33,9 @@ Since 2015, the Sydney Speaks project has recorded the spontaneous speech of Syd
 
 <br>
 
-![Sub-corpora included in the Sydney Speaks project: Sydney Speaks 2010s; Sydney Social Dialect Survey; NSW Bicentennial Oral History Project](/sydney-speaks/fig-1.png)
+{{< image Src="/sydney-speaks/fig-1.png" Alt="Sub-corpora included in the Sydney Speaks project: Sydney Speaks 2010s; Sydney Social Dialect Survey; NSW Bicentennial Oral History Project" Desc="Figure 1: Sub-corpora included in the Sydney Speaks project: Sydney Speaks 2010s; Sydney Social Dialect Survey; NSW Bicentennial Oral History Project" Title="Sub-corpora included in the Sydney Speaks project: Sydney Speaks 2010s; Sydney Social Dialect Survey; NSW Bicentennial Oral History Project" Ref="Catherine Travis" >}}
 
-{{<raw>}}
-
-<div style=""><h4>Figure 1: Sub-corpora included in the Sydney Speaks project:
-Sydney Speaks 2010s; Sydney Social Dialect Survey; NSW Bicentennial Oral History Project</h4></div>
-<br />
-{{</raw>}}
+<br>
 
 Each of the three sub-corpora of Australian English presents a different set of challenges and issues for data management practices that maximise the value of the data, while protecting the ethical, moral and legal rights of the participants. Below, we present each sub-corpus individually, and provide a summary of each sub-corpus. We describe the ways in which recordings were made and transcription was managed; outline how we were able to get comparable demographic information from participants when this was not standardised across the corpora; and detail how we dealt with participant consent and privacy. We close by reviewing a set of data access concerns around de-identification, data security and access and re-use.
 
@@ -68,21 +63,11 @@ Interviews are recorded using a Zoom H4N digital recording device in WAV format 
 
 <br>
 
-![Sample SydS transcript in Elan, time aligned at the level of the Intonation Unit [SydS_CYM_061_Mark]](/sydney-speaks/fig-2.png)
+{{< image Src="/sydney-speaks/fig-2.png" Alt="Sample SydS transcript in Elan, time aligned at the level of the Intonation Unit [SydS_CYM_061_Mark]" Desc="Figure 2: Sample SydS transcript in Elan, time aligned at the level of the Intonation Unit [SydS_CYM_061_Mark]" Title="Sample SydS transcript in Elan, time aligned at the level of the Intonation Unit [SydS_CYM_061_Mark]" Ref="Catherine Travis" >}}
 
-{{<raw>}}
+<br>
 
-<div style=""><h4>Figure 2: Sample SydS transcript in Elan, time aligned at the level of the Intonation Unit [SydS_CYM_061_Mark]</h4></div>
-<br />
-{{</raw>}}
-
-![Sample SydS transcript in Praat, downloaded from LaBB-CAT, where it has been automatically aligned at the level of the word and phoneme, and broken down by morpheme [SydS_CYM_061_Mark]](/sydney-speaks/fig-3.png)
-
-{{<raw>}}
-
-<div style=""><h4>Figure 3: Sample SydS transcript in Praat, downloaded from LaBB-CAT, where it has been automatically aligned at the level of the word and phoneme, and broken down by morpheme [SydS_CYM_061_Mark]</h4></div>
-<br />
-{{</raw>}}
+{{< image Src="/sydney-speaks/fig-3.png" Alt="Sample SydS transcript in Praat, downloaded from LaBB-CAT, where it has been automatically aligned at the level of the word and phoneme, and broken down by morpheme [SydS_CYM_061_Mark]" Desc="Figure 3: Sample SydS transcript in Praat, downloaded from LaBB-CAT, where it has been automatically aligned at the level of the word and phoneme, and broken down by morpheme [SydS_CYM_061_Mark]" Title="Sample SydS transcript in Praat, downloaded from LaBB-CAT, where it has been automatically aligned at the level of the word and phoneme, and broken down by morpheme [SydS_CYM_061_Mark]" Ref="Catherine Travis" >}}
 
 <br>
 
@@ -92,13 +77,7 @@ Detailed speaker metadata is collected via a demographic form that includes info
 
 <br>
 
-![Sample Sydney Speaks demographic information form](/sydney-speaks/fig-4.png)
-
-{{<raw>}}
-
-<div style=""><h4>Figure 4: Sample Sydney Speaks demographic information form</h4></div>
-<br />
-{{</raw>}}
+{{< image Src="/sydney-speaks/fig-4.png" Alt="Sample Sydney Speaks demographic information form" Desc="Figure 4: Sample Sydney Speaks demographic information form" Title="Sample Sydney Speaks demographic information form" Ref="Catherine Travis" >}}
 
 <br>
 
@@ -110,13 +89,7 @@ Participants are told that the data may be shared, with approval from the lead r
 
 <br>
 
-![Written consent checklist for Sydney Speaks participants](/sydney-speaks/fig-5.png)
-
-{{<raw>}}
-
-<div style=""><h4>Figure 5: Written consent checklist for Sydney Speaks participants</h4></div>
-<br />
-{{</raw>}}
+{{< image Src="/sydney-speaks/fig-5.png" Alt="Written consent checklist for Sydney Speaks participants" Desc="Figure 5: Written consent checklist for Sydney Speaks participants" Title="Written consent checklist for Sydney Speaks participants" Ref="Catherine Travis" >}}
 
 <br>
 
@@ -137,29 +110,15 @@ Interviews were conducted in the 1970s with a cassette recorder and made availab
 
 <br>
 
-![SSDS cassette collection](/sydney-speaks/fig-6.png)
+{{< image Src="/sydney-speaks/fig-6.png" Alt="SSDS cassette collection" Desc="Figure 6: SSDS cassette collection" Title="SSDS cassette collection" Ref="Catherine Travis" >}}
 
-{{<raw>}}
+<br>
 
-<div style=""><h4>Figure 6: SSDS cassette collection</h4></div>
-<br />
-{{</raw>}}
+{{< image Src="/sydney-speaks/fig-7.png" Alt="Sample SSDS transcript with annotations [SSDS_ITF_120_Sara]" Desc="Figure 7: Sample SSDS transcript with annotations [SSDS_ITF_120_Sara]" Title="Sample SSDS transcript with annotations [SSDS_ITF_120_Sara]" Ref="Catherine Travis" >}}
 
-![Sample SSDS transcript with annotations [SSDS_ITF_120_Sara]](/sydney-speaks/fig-7.png)
+<br>
 
-{{<raw>}}
-
-<div style=""><h4>Figure 7: Sample SSDS transcript with annotations [SSDS_ITF_120_Sara]</h4></div>
-<br />
-{{</raw>}}
-
-![Sample SSDS transcript time-aligned in Elan [SSDS_ITF_120_Sara]](/sydney-speaks/fig-8.png)
-
-{{<raw>}}
-
-<div style=""><h4>Figure 8: Sample SSDS transcript time-aligned in Elan [SSDS_ITF_120_Sara]</h4></div>
-<br />
-{{</raw>}}
+{{< image Src="/sydney-speaks/fig-8.png" Alt="Sample SSDS transcript time-aligned in Elan [SSDS_ITF_120_Sara]" Desc="Figure 8: Sample SSDS transcript time-aligned in Elan [SSDS_ITF_120_Sara]" Title="Sample SSDS transcript time-aligned in Elan [SSDS_ITF_120_Sara]" Ref="Catherine Travis" >}}
 
 <br>
 
@@ -169,13 +128,7 @@ Metadata for each speaker was extracted from original type-written profiles that
 
 <br>
 
-![Sample demographic information: Sydney Social Dialect Survey](/sydney-speaks/fig-9.png)
-
-{{<raw>}}
-
-<div style=""><h4>Figure 9: Sample demographic information: Sydney Social Dialect Survey</h4></div>
-<br />
-{{</raw>}}
+{{< image Src="/sydney-speaks/fig-9.png" Alt="Sample demographic information: Sydney Social Dialect Survey" Desc="Figure 9: Sample demographic information: Sydney Social Dialect Survey" Title="Sample demographic information: Sydney Social Dialect Survey" Ref="Catherine Travis" >}}
 
 <br>
 
@@ -205,21 +158,11 @@ The original audio of each interview was recorded on cassette tape and was made 
 
 <br>
 
-![Sample transcript from Bicentennial Oral History Project [BCNT_AEF_032_Camila]](/sydney-speaks/fig-10.png)
+{{< image Src="/sydney-speaks/fig-10.png" Alt="Sample transcript from Bicentennial Oral History Project [BCNT_AEF_032_Camila]" Desc="Figure 10: Sample transcript from Bicentennial Oral History Project [BCNT_AEF_032_Camila]" Title="Sample transcript from Bicentennial Oral History Project [BCNT_AEF_032_Camila]" Ref="Catherine Travis" >}}
 
-{{<raw>}}
+<br>
 
-<div style=""><h4>Figure 10: Sample transcript from Bicentennial Oral History Project [BCNT_AEF_032_Camila]</h4></div>
-<br />
-{{</raw>}}
-
-![Sample Bicentennial Oral History Project transcript time-aligned in Elan [BCNT_AEF_032_Camila]](/sydney-speaks/fig-11.png)
-
-{{<raw>}}
-
-<div style=""><h4>Figure 11: Sample Bicentennial Oral History Project transcript time-aligned in Elan [BCNT_AEF_032_Camila]</h4></div>
-<br />
-{{</raw>}}
+{{< image Src="/sydney-speaks/fig-11.png" Alt="Sample Bicentennial Oral History Project transcript time-aligned in Elan [BCNT_AEF_032_Camila]" Desc="Figure 11: Sample Bicentennial Oral History Project transcript time-aligned in Elan [BCNT_AEF_032_Camila]" Title="Sample Bicentennial Oral History Project transcript time-aligned in Elan [BCNT_AEF_032_Camila]" Ref="Catherine Travis" >}}
 
 <br>
 
@@ -229,13 +172,7 @@ Demographic data was collected at the time of the interview for each participant
 
 <br>
 
-![Sample demographic information: Bicentennial Oral History Project](/sydney-speaks/fig-12.png)
-
-{{<raw>}}
-
-<div style=""><h4>Figure 12: Sample demographic information: Bicentennial Oral History Project</h4></div>
-<br />
-{{</raw>}}
+{{< image Src="/sydney-speaks/fig-12.png" Alt="Sample demographic information: Bicentennial Oral History Project" Desc="Figure 12: Sample demographic information: Bicentennial Oral History Project" Title="Sample demographic information: Bicentennial Oral History Project" Ref="Catherine Travis" >}}
 
 <br>
 

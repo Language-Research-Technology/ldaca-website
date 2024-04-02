@@ -9,55 +9,33 @@ by {{< profile id="sheppard" >}}
 
 <br>
 
-![Harriet on an outrigger boat off Vanatɨna](/fieldwork-png/HS-sailing-outrigger-small.jpg)
+{{< image Src="/fieldwork-png/HS-sailing-outrigger-small.jpg" Alt="Harriet on an outrigger boat off Vanatɨna" Desc="Harriet on an outrigger boat off Vanatɨna" Title="Harriet on an outrigger boat off Vanatɨna" Ref="Harriet Sheppard" >}}
 
-{{<raw>}}
-
-<div style=""><h4>Harriet on an outrigger boat off Vanatɨna</h4></div>
-<br />
-{{</raw>}}
-
-<!-- ![Harriet on an outrigger boat off Vanatɨna](HS-sailing-outrigger-small.jpg) -->
+<br>
 
 My fieldwork experience, in many ways, conforms to stereotypes of language fieldwork – a community outsider working with a smaller language community located far from an urban centre. For my postgraduate research, I documented and described grammatical topics of [Sudest](https://glottolog.org/resource/languoid/id/sude1239) (known as Vanga Vanatɨna by its speakers), an Oceanic language spoken in Papua New Guinea (PNG). The language is spoken on the islands of Vanatinai (also known as Sudest and Tagula) and Yeina in the Louisiade Archipelago, approximately 350 kilometres southeast of the PNG mainland. In the following, I discuss decisions I made and processes I followed related to the collection of language data and archiving the resulting corpus of texts, including ethical considerations, ownership of the data, data formats, {{< glossary_link display="metadata" id="metadata" >}}, and data security and reuse. This is by no means meant as a guide (of best practice) for projects where language data are being collected with speakers of un(der)described languages. Rather, it is an account of some of the types of considerations and procedures that need to be considered when collecting language data and how I handled them in this instance.
 
 <br>
 
-![Map of Louisiade Archipelago](/fieldwork-png/map-louisiade.jpg)
+{{< image Src="/fieldwork-png/map-louisiade.jpg" Alt="Map of Louisiade Archipelago" Desc="Map of Louisiade Archipelago" Title="Map of Louisiade Archipelago" Ref="Harriet Sheppard" >}}
 
-{{<raw>}}
-
-<div style=""><h4>Map of Louisiade Archipelago.</h4></div>
-<br />
-{{</raw>}}
-
-<!-- ![Map of Louisiade Archipelago](map-louisiade.jpg) -->
+<br>
 
 Before recording with a speaker for the first time, I would explain the project to the speaker and their rights as contributors to the project. I would explain how I would use the language recordings, how they would be stored and accessed and how speakers of the language or other researchers might access and use the recordings in the future. This included discussing how they, the person(s) making the recording, would retain ownership over the recording (i.e., intellectual and cultural property rights). They would also be the ones to choose access rights over the text and have the option to withdraw any or all recordings they made from the corpus at any point (more on these below). After these discussions, if the speaker was still interested in the project, I would then record an oral consent form with them. The consent form was in English, the language of wider communication in the province. In cases where the speaker didn’t speak or spoke limited English, we would have a translator present for this process. I chose to use an oral consent form as it is accessible to all participants no matter their literacy levels. It also has the advantage of being a more durable format compared with a paper consent form, particularly when working in a hot and humid climate and it can also be easily backed up.
 
 <br>
 
-![Transcription session with Abel Sam](/fieldwork-png/transcription-session-small.jpg)
+{{< image Src="/fieldwork-png/transcription-session-small.jpg" Alt="Transcription session with Abel Sam" Desc="Transcription session with Abel Sam" Title="Transcription session with Abel Sam" Ref="Harriet Sheppard" >}}
 
-{{<raw>}}
-
-<div style=""><h4>Transcription session with Abel Sam.</h4></div>
-<br />
-{{</raw>}}
-<!-- ![Transcription session with Abel Sam](transcription-session-small.jpg) -->
+<br>
 
 Each time I made a recording with a speaker or speakers, I played the recording back to them to check that they were happy with the recording and so that they could decide on what sort of {{< glossary_link display="access conditions" id="access-conditions" >}} they wanted the archived recording to have. If the speaker was not satisfied with the recording, sometimes they would choose to make another recording and delete the original or simply delete the recording and maybe try again later. If they were happy with the recording, they would decide on the {{< glossary_link display="access conditions" id="access-conditions" >}} they wanted for the archived recording. The possibilities ranged from the most restricted, being that only I, as the original researcher, could access the recordings and use them for my research, to the opposite end of the access continuum where anyone interested could download and listen to the recordings, read any transcriptions, and potentially use them for educational or research purposes. In between these two ends of the continuum, they could opt for other {{< glossary_link display="access conditions" id="access-conditions" >}} such as only allowing access for registered users of the archive, or only for researchers and speakers, or just for speakers. They could also choose to have a text embargoed for a certain period of time.
 
 <br>
 
-![Notes from an elicitation session](/fieldwork-png/elicitation-session-notes-small.jpg)
+{{< image Src="/fieldwork-png/elicitation-session-notes-small.jpg" Alt="Notes from an elicitation session" Desc="Notes from an elicitation session" Title="Notes from an elicitation session" Ref="Harriet Sheppard" >}}
 
-{{<raw>}}
-
-<div style=""><h4>Notes from an elicitation session.</h4></div>
-<br />
-{{</raw>}}
-<!-- ![Transcription session with Abel Sam](elicitation-session-notes-small.jpg) -->
+<br>
 
 When I was preparing my ethics application for the university, I applied and received ethics approval to work with minors. I didn’t plan to collect data from children (although I did want the option of recording older teens if any showed an interest in recording), but included minors in my ethics application because of the potential for children to be inadvertently filmed, for example, if they walk into frame or come up to a parent while the parent is being recorded. The ethics approval meant that if such instances arose during a recording, the recording could still be kept and archived (assuming approval from the speaker making the recording). While such situations didn’t end up arising during my own {{< glossary_link display="data collection" id="data-collection" >}}, this would not have been an ideal fix for this issue. More widely, as a discipline, we don’t have good model(s) regarding how we deal with such scenarios in regards to access and consent. One suggestion I heard was to only make such recordings openly available after obtaining informed consent from any children involved after they turned 18 but, for most circumstances, such an approach is unlikely to be realistic.
 
@@ -68,14 +46,9 @@ When collecting spoken or signed language data, the best practice is to make aud
 
 <br>
 
-![Setting up for a recording session](/fieldwork-png/recording-setup-small.jpg)
+{{< image Src="/fieldwork-png/recording-setup-small.jpg" Alt="Setting up for a recording session" Desc="Setting up for a recording session" Title="Setting up for a recording session" Ref="Harriet Sheppard" >}}
 
-{{<raw>}}
-
-<div style=""><h4>Setting up for a recording session.</h4></div>
-<br />
-{{</raw>}}
-<!-- ![Setting up for a recording session](recording-setup-small.jpg) -->
+<br>
 
 When collecting metadata, I adopted the Component MetaData Infrastructure ({{<glossary_link display="CMDI" id="cmdi">}}) schema used by the archive where I was planning to deposit my data. The logistics of fieldwork can be overwhelming at times and following the archive’s metadata schema meant I would minimally have the metadata required to deposit the corpus. The schema was also practical in that there were some fields that were obligatory (e.g., text title, creation data, country of recording) but many fields are optional (e.g., speaker date of birth/age, education level, address where recording took place). Having optional fields that could be filled in or not worked well for me because collecting more detailed information, particularly biographical information about speaker(s), wasn’t always possible or appropriate. Not all speakers, particularly older speakers, necessarily knew their date or year of birth and they may only know their approximate age. Some speakers I only met when they came to make a recording and getting the detailed biographic information one might like for metadata records is not necessarily culturally appropriate, particularly given the power imbalance between myself, an educated, white researcher from Australia, and speakers I don’t have an established relationship with. Aside from asking about where the speaker grew up, currently lived, and their approximate age, if I didn’t already have an established relationship with the individual, I tended to let information emerge incidentally as volunteered rather than questioning them in depth. One topic I did discuss with speakers regarding metadata was the question of authorship and attribution of the recording and whether they wanted their name to be listed or would like to be given a pseudonym. With small communities, especially when you are recording audio and video of the speaker, complete anonymisation is not really possible if the speaker also wants the recording to be accessible to other speakers and this could be a potential issue. However, in my experiences, (all) speakers chose to have their names listed as the author(s) of the text without anonymisation and were generally excited or proud to be making a record of their language and knowledge.
 
@@ -89,14 +62,9 @@ To secure data, ideally, I would also make backup copies of all new recordings a
 
 <br>
 
-![Crossing the Veora river](/fieldwork-png/crossing-river-small.jpg)
+{{< image Src="/fieldwork-png/crossing-river-small.jpg" Alt="Crossing the Veora river" Desc="Crossing the Veora river" Title="Crossing the Veora river" Ref="Harriet Sheppard" >}}
 
-{{<raw>}}
-
-<div style=""><h4>Crossing the Veora river.</h4></div>
-<br />
-{{</raw>}}
-<!-- ![Crossing the Veora river](crossing-river-small.jpg) -->
+<br>
 
 In order to secure the corpus of texts into the future and make sure that it doesn’t get lost on an old hard drive, I have uploaded it to a language archive. The archive is a digital repository tasked with safeguarding language corpora of languages for which there is limited documented data. As well as keeping copies of the uploaded data, the archive will also ensure that the data continues to be accessible, for example, by converting data files to newer formats if the format a file was uploaded in becomes obsolete. Having the corpus saved in an online archive also means that it is discoverable for other researchers, speakers, and other interested parties.
 It can be found through the search portal of the archive by searching by language name(s), the contributor’s name, or by browsing by country. The corpus can also be found by searching through the Open Language Archive Community ({{< glossary_link display="OLAC" id="olac" >}}) portal which is an online virtual library of information and links to language resources available in a specific language (e.g., grammars, dictionaries, archived texts). The information on {{< glossary_link display="OLAC" id="olac" >}} is automatically collected or ‘harvested’ daily from participating archives meaning that when you upload a file to an archive, it will automatically be listed in {{< glossary_link display="OLAC" id="olac" >}} the next time it is updated. Because there is limited information online about Sudest, keyword searches on most online search engines such as Google also displays links to the corpus quite high up in the results.
@@ -109,12 +77,6 @@ In future research projects I might work in, I can build on my past experiences 
 
 <br>
 
-![Vuwo village](/fieldwork-png/Vuwo.JPG)
-
-{{<raw>}}
-
-<div style=""><h4>Vuwo village.</h4></div>
-<br />
-{{</raw>}}
+{{< image Src="/fieldwork-png/Vuwo.JPG" Alt="Vuwo village" Desc="Vuwo village" Title="Vuwo village" Ref="Harriet Sheppard" >}}
 
 <br>
