@@ -25,7 +25,7 @@
         <h4></h4>
         <ul>
         <h3><li>New Case Study: Data Management in Language Technology (<a href = "./resources/general-resources/case-studies/data-mangement-appen/" target="_blank">read more....</a>)</li></h3>
-        <h3><li>A blog post on our Graduate Digital Research Fellowship program (<a href = "./news/posts/gdrf">read more....</a>)</li></h3>
+        <h3><li>A blog post about what has happened to the Australian National Corpus (<a href = "./news/posts/ausnc">read more....</a>)</li></h3>
         </ul>
       </div>  
     </div>
