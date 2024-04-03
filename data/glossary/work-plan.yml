@@ -1,4 +1,4 @@
-Name: "work plan"
+Name: "work-plan"
 "title": "Work Plan"
 "short_description": "An agreement between LDaCA and the Data Steward establishing the terms according to which the data will be onboarded to LDaCA."
-"content": "An agreement between LDaCA and the Data Steward establishing the terms according to which the data will be onboarded to LDaCA, including the goals and responsibilities of each party, and the steps and timeline for carrying out the onboarding process."
+"content": 'An agreement between {{< glossary_link display="LDaCA" id="ldaca" >}} and the {{< glossary_link display="Data Steward" id="data-steward" >}} establishing the terms according to which the data will be onboarded to {{< glossary_link display="LDaCA" id="ldaca" >}}, including the goals and responsibilities of each party, and the steps and timeline for carrying out the onboarding process.'

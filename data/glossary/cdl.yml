@@ -1,5 +1,5 @@
 Name: "cdl"
 "title": "CDL"
 "short_description": "Community Data Lab"
-"content": "Community Data Lab. CDL shares tools and datasets for collaborative HASS research projects that use data from archives, libraries and collections."
+"content": 'Community Data Lab. CDL shares {{< glossary_link display="tools" id="tools" >}} and datasets for collaborative {{< glossary_link display="HASS" id="hass" >}} research projects that use data from archives, libraries and collections.'
 "external_link": "https://ardc.edu.au/project/ardc-community-data-lab/"

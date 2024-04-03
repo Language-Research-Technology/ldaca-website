@@ -1,5 +1,5 @@
 Name: "riip"
 "title": "RIIP"
 "short_description": "Research Infrastructure Investment Plan"
-"content": "Research Infrastructure Investment Plan (NCRIS). It provides continued support for Australia's National Research Infrastructure facilities, as well as investment in emerging research priorities."
+"content": 'Research Infrastructure Investment Plan ({{< glossary_link display="NCRIS" id="ncris" >}}). It provides continued support for Australia’s National Research Infrastructure facilities, as well as investment in emerging research priorities.'
 "external_link": 

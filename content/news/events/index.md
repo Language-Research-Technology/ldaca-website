@@ -22,9 +22,9 @@ aliases:
 
 #### Language Data Commons of Australia – Co-Design Workshops
 
-The Australian Research Data Commons (ARDC) invites the research community to join 2 workshops to co-design a national research infrastructure program that will support the Language Data Commons of Australia.
+The Australian Research Data Commons ({{< glossary_link display="ARDC" id="ardc" >}}) invites the research community to join 2 workshops to co-design a national research infrastructure program that will support the Language Data Commons of Australia.
 
-We will be holding 2 open co-design workshops to better understand the current challenges around establishing the Language Data Commons of Australia. We will discuss the investment opportunity that ARDC has identified, with the aim of learning:
+We will be holding 2 open co-design workshops to better understand the current challenges around establishing the Language Data Commons of Australia. We will discuss the investment opportunity that {{< glossary_link display="ARDC" id="ardc" >}} has identified, with the aim of learning:
 
 - what outcomes and developments would be of most benefit
 - what will be both valuable and feasible
@@ -49,15 +49,15 @@ Workshop participants are expected to actively participate in discussions. We en
         <b>HASS and Indigenous Research Data Commons Computational Skills Summer School 2024</b>
     </summary>
     <p>
-    The 2024 HASS and Indigenous RDC Computational Skills Summer School aimed to empower participants with practical knowledge, build digital skills, and help inspire new research outcomes within these research communities.</p>
+    The 2024 {{< glossary_link display="HASS" id="hass" >}} and Indigenous {{< glossary_link display="RDC" id="rdc" >}} Computational Skills Summer School aimed to empower participants with practical knowledge, build digital skills, and help inspire new research outcomes within these research communities.</p>
 
-    <p>Participation wass aimed at researchers in the humanities, arts, social sciences and Indigenous fields of study. Themed streams explored geosocial and geospatial data applications in humanities, arts, social sciences, and Indigenous research, using ARDC tools and services. Participants gained experience through seminars and workshops and were guided through hands-on use of free tools and platforms provided by the ARDC and its partners.</p>
+    <p>Participation wass aimed at researchers in the humanities, arts, social sciences and Indigenous fields of study. Themed streams explored geosocial and geospatial data applications in humanities, arts, social sciences, and Indigenous research, using {{< glossary_link display="ARDC" id="ardc" >}} tools and services. Participants gained experience through seminars and workshops and were guided through hands-on use of free tools and platforms provided by the {{< glossary_link display="ARDC" id="ardc" >}} and its partners.</p>
 
-    <p>For the ARDC Summer School, IDN and LDaCA led a stream on the governance, management and usage of data, especially Indigenous data.</p>
+    <p>For the {{< glossary_link display="ARDC" id="ardc" >}} Summer School, {{< glossary_link display="IDN" id="idn" >}} and LDaCA led a stream on the governance, management and usage of data, especially Indigenous data.</p>
     <ul>
     <li>A series of seminars will focus on sustainability, storage, usability and description of data.</li>
     <li>A case study will highlight how data is being managed for long-term access.</li>
-    <li>A hands-on session will use Python code notebooks to analyse data.</li>
+    <li>A hands-on session will use {{< glossary_link display="Python" id="python" >}} code notebooks to analyse data.</li>
 
 </ul>
 <p>The case study and hands-on session will focus on geospatial aspects of data. Prior coding knowledge is not required for the hands-on session.</p>
@@ -107,7 +107,7 @@ Workshop participants are expected to actively participate in discussions. We en
         <b>Australian Text Analytics Platform: New tools for text analysis</b>
     </summary>
     <p>
-    The main means of delivery for ATAP is Jupyter notebooks and this half-day workshop began with a brief introduction to notebooks for participants not already familiar with the technology. The main body of the workshop introduced two tools made available by ATAP, and the session ended with a short summary of other tools being developed in recent work.</p>
+    The main means of delivery for {{< glossary_link display="ATAP" id="atap" >}} is {{< glossary_link display="Jupyter notebooks" id="jupyter-notebook" >}} and this half-day workshop began with a brief introduction to notebooks for participants not already familiar with the technology. The main body of the workshop introduced two tools made available by {{< glossary_link display="ATAP" id="atap" >}}, and the session ended with a short summary of other tools being developed in recent work.</p>
 
     <p><b>When</b>: Monday June 19 2023</p>
 
@@ -124,7 +124,7 @@ Workshop participants are expected to actively participate in discussions. We en
         <b>Exploring Digital Text Collections with Juxtorpus: A Taster Webinar on the Latest ATAP Text Analysis Tool</b>
     </summary>
     <p>
-    Join us for a hybrid taster webinar on the latest addition to the suite of ATAP text analysis tools - Juxtorpus. Developed to provide a unified framework for managing and exploring text contents and metadata, Juxtorpus offers a Corpus package that enables flexible building, exploration, and slicing of your corpus while maintaining its shape, and a Jux package that allows for easy comparison and highlighting of differences between any two corpora with tools and visualisations that come off-the-shelf. During the webinar, we'll also show you how to use other ATAP tools in combination with the Corpus to create a reusable workflow that will boost your analysis capabilities.</p>
+    Join us for a hybrid taster webinar on the latest addition to the suite of {{< glossary_link display="ATAP" id="atap" >}} text analysis tools - Juxtorpus. Developed to provide a unified framework for managing and exploring text contents and metadata, Juxtorpus offers a Corpus package that enables flexible building, exploration, and slicing of your corpus while maintaining its shape, and a Jux package that allows for easy comparison and highlighting of differences between any two corpora with tools and visualisations that come off-the-shelf. During the webinar, we'll also show you how to use other {{< glossary_link display="ATAP" id="atap" >}} tools in combination with the Corpus to create a reusable workflow that will boost your analysis capabilities.</p>
 
   <p>This 1.5-hour webinar will come with minimal hands-on opportunities, and we invite anyone interested in learning how to handle and analyse their digital text collections to join us. No programming knowledge or skills are required.</p>
 
@@ -142,7 +142,7 @@ Workshop participants are expected to actively participate in discussions. We en
     </summary>
     <p>
     The Search Tool project uses programming to explore how to easily search and manipulate transcripts without the need to 'clean' the transcript. A browser-based tool has been developed, designed to be used by researchers unfamiliar with programming. (<a href="WorkshopAnsell.pdf">flier</a>)</p>
-    <p>The workshop was presented by Evelyn Ansell and is an outcome of her Career Development placement with Australia's Academic and Research Network <a href="https://www.aarnet.edu.au/" target="_blank">AARNET</a>. The Jupyter Notebook tool and this workshop have been developed during that placement.</p>
+    <p>The workshop was presented by Evelyn Ansell and is an outcome of her Career Development placement with Australia's Academic and Research Network <a href="https://www.aarnet.edu.au/" target="_blank">AARNET</a>. The {{< glossary_link display="Jupyter Notebook" id="jupyter-notebook" >}} tool and this workshop have been developed during that placement.</p>
 
     <p><b>When</b>: Friday March 17 2023</p>
 
@@ -157,7 +157,7 @@ Workshop participants are expected to actively participate in discussions. We en
         <b>A hands-on guide to Semantic Tagger for your text data analysis</b>
     </summary>
     <p>
-    The Australian Text Analytics Platform (ATAP) project is a project that aims to provide researchers with the tools and training for analysing, processing, and exploring text. As part of this project, we have adapted with permission, a Semantic Tagger, developed by the University Centre for Computer Corpus Research on Language (<a href="https://ucrel.lancs.ac.uk/" target="_blank">UCREL</a>) at Lancaster University. This tool uses the Python Multilingual UCREL Semantic Analysis System <a href="https://pypi.org/project/pymusas/" target="_blank">PyMUSAS</a>) to tag your text data so that you can extract token level semantic tags from your text. In addition to the USAS tags, this tool can also recognize Multi Word Expressions (MWE), i.e., expressions formed by two or more words that behave like a unit such as 'South Australia', and identifies lemmas and Part-of-Speech (POS) tags in the text. For example, in the sentence ‘President Joe Biden attended two meetings today’, the tool will tag each token with its semantic tag like this -> ‘President Joe Biden’: MWE of [Personal names], ‘attended’: [Participating], ‘two’: [Number], ‘meetings’: [Participating] and ‘today’: [Time: Present; simultaneous]. This tool is available in both English and multi-lingual (Chinese, Italian and Spanish) versions and supports saving the results locally for further analysis, enabling you to gain meaningful insights into your research questions.</p>
+    The Australian Text Analytics Platform ({{< glossary_link display="ATAP" id="atap" >}}) project is a project that aims to provide researchers with the tools and training for analysing, processing, and exploring text. As part of this project, we have adapted with permission, a Semantic Tagger, developed by the University Centre for Computer Corpus Research on Language (<a href="https://ucrel.lancs.ac.uk/" target="_blank">UCREL</a>) at Lancaster University. This tool uses the {{< glossary_link display="Python" id="python" >}} Multilingual UCREL Semantic Analysis System <a href="https://pypi.org/project/pymusas/" target="_blank">PyMUSAS</a>) to tag your text data so that you can extract token level semantic tags from your text. In addition to the USAS tags, this tool can also recognize Multi Word Expressions (MWE), i.e., expressions formed by two or more words that behave like a unit such as 'South Australia', and identifies lemmas and Part-of-Speech (POS) tags in the text. For example, in the sentence ‘President Joe Biden attended two meetings today’, the tool will tag each token with its semantic tag like this -> ‘President Joe Biden’: MWE of [Personal names], ‘attended’: [Participating], ‘two’: [Number], ‘meetings’: [Participating] and ‘today’: [Time: Present; simultaneous]. This tool is available in both English and multi-lingual (Chinese, Italian and Spanish) versions and supports saving the results locally for further analysis, enabling you to gain meaningful insights into your research questions.</p>
     
     <p><b>When</b>: Wednesday March 22 2023</p>
 
@@ -172,8 +172,8 @@ Workshop participants are expected to actively participate in discussions. We en
         <b>Australian Text Analytics Platform tools: Discursis, Juxtorpus, Quotation tool and Semantic tagger</b>
     </summary>
     <p>
-    This workshop was part of the USyd Digital Humanities Day 2023.</p>
-    <p>The workshop demonstrated and taught several recently or soon-to-be-released tools from the ATAP text analytic tool collection. These tools include Discursis for analysing human conversational texts, Juxtorpus for advanced corpus slicing and comparison, Semantic Tagger for semantically tagging every word in your text collections, and Quotation Tool for NLP algorithm-based quotation extraction, analysis, and visualisation.</p>
+    This workshop was part of the {{< glossary_link display="USyd" id="usyd" >}} Digital Humanities Day 2023.</p>
+    <p>The workshop demonstrated and taught several recently or soon-to-be-released tools from the {{< glossary_link display="ATAP" id="atap" >}} text analytic tool collection. These tools include Discursis for analysing human conversational texts, Juxtorpus for advanced corpus slicing and comparison, Semantic Tagger for semantically tagging every word in your text collections, and Quotation Tool for NLP algorithm-based quotation extraction, analysis, and visualisation.</p>
     
     <p><b>When</b>: Tuesday March 14 2023</p>
 
@@ -188,9 +188,9 @@ Workshop participants are expected to actively participate in discussions. We en
         <b>HASS Research Data Commons and IRC Computational Skills Summer School</b>
     </summary>
     <p>
-    The Australian Research Data Commons (<a href="https://www.ardc.edu.au" target="_blank">ARDC</a>) through the HASS Research Data Commons and Indigenous Research Capability (HASS RDC and IRC Program) offered a Computational Skills Summer School in Sydney, February 7 and 8, 2023.</p>
-    <p>The Summer School featured skills development workshops to help researchers use the research infrastructure that is being created in the HASS RDC and IRC Program.</p>
-    <p>The projects from the HASS RDC and IRC Program presented workshops on using the tools and platforms.</p>
+    The Australian Research Data Commons (<a href="https://www.ardc.edu.au" target="_blank">ARDC</a>) through the {{< glossary_link display="HASS" id="hass" >}} Research Data Commons and Indigenous Research Capability ({{< glossary_link display="HASS" id="hass" >}} {{< glossary_link display="RDC" id="rdc" >}} and IRC Program) offered a Computational Skills Summer School in Sydney, February 7 and 8, 2023.</p>
+    <p>The Summer School featured skills development workshops to help researchers use the research infrastructure that is being created in the {{< glossary_link display="HASS" id="hass" >}} {{< glossary_link display="RDC" id="rdc" >}} and IRC Program.</p>
+    <p>The projects from the {{< glossary_link display="HASS" id="hass" >}} {{< glossary_link display="RDC" id="rdc" >}} and IRC Program presented workshops on using the tools and platforms.</p>
     <p><a href="https://ardc.edu.au/wp-content/uploads/2023/02/hass-computational-skills-summer-school-agenda_-7-8-feb.pdf" target="_blank">Program</a></p>
     </details>
 
@@ -199,7 +199,7 @@ Workshop participants are expected to actively participate in discussions. We en
         <b>Pre-conference workshop (before the 2022 Conference of the Australian Linguistic Society)</b>
     </summary>
     <p>
-    LDaCA and ATAP presented a day of workshop activities to give ALS conference delegates the opportunity to learn more about the work of the two projects. The day included:</p>
+    LDaCA and {{< glossary_link display="ATAP" id="atap" >}} presented a day of workshop activities to give ALS conference delegates the opportunity to learn more about the work of the two projects. The day included:</p>
     <ul>
     <li>an overview of the projects and the work to date</li>
     <li>reports on specific sub-projects</li>
@@ -234,7 +234,7 @@ Workshop participants are expected to actively participate in discussions. We en
 
     <p><b>Length</b>: 3 hours</p>
 
-    <p><b>Facilitators</b>: Boyd Nguyen (ADO), Sam Hames (ATAP)</p>
+    <p><b>Facilitators</b>: Boyd Nguyen ({{< glossary_link display="ADO" id="ado" >}}), Sam Hames ({{< glossary_link display="ATAP" id="atap" >}})</p>
 
     </details>
 
@@ -297,13 +297,13 @@ Workshop participants are expected to actively participate in discussions. We en
         <b>Network analysis and Topic Modeling on Twitter data using R</b>
     </summary>
 
-    <p><b>Event</b>: Joint event ADO and ATAP</a></p>
+    <p><b>Event</b>: Joint event {{< glossary_link display="ADO" id="ado" >}} and {{< glossary_link display="ATAP" id="atap" >}}</a></p>
 
     <p><b>When</b>: May 18 2022</p>
 
     <p><b>Length</b>: 3 hours</p>
 
-    <p><b>Facilitators</b>: Alice Miller (ADO), Simon Musgrave (ATAP)</p>
+    <p><b>Facilitators</b>: Alice Miller ({{< glossary_link display="ADO" id="ado" >}}), Simon Musgrave ({{< glossary_link display="ATAP" id="atap" >}})</p>
 
     </details>
 
@@ -312,7 +312,7 @@ Workshop participants are expected to actively participate in discussions. We en
         <b>Monotreme Mania! Comparative text analytics on Twitter data</b>
     </summary>
 
-    <p><b>Event</b>: Joint event ADO and ATAP</a></p>
+    <p><b>Event</b>: Joint event {{< glossary_link display="ADO" id="ado" >}} and {{< glossary_link display="ATAP" id="atap" >}}</a></p>
 
     <p><b>When</b>: March 16 2022</p>
 
@@ -381,7 +381,7 @@ Our webinar series is a joint initiative with the Language Technology and Data A
 
 <details>
 <summary><b>October 3 2022 - Paweł Kamocki: European Union Data Protection initiatives and their consequences for research</b></summary>
-<p>The European Union, with its large population and GDP, is a leading force in regulatory globalisation. This webinar will discuss recent developments in legal frameworks affecting research data in Europe. Apart from the General Data Protection Regulation which, since its entry into application in 2018, has become an international standard of personal data protection, the recent introduction of statutory copyright exceptions for Text and Data Mining will also be discussed. Moreover, the webinar will also include a presentation of the most recent changes in EU law, such as the Data Governance Act and the Artificial Intelligence Act, which are expected to enter into application in the coming years.</p>
+<p>The European Union, with its large population and GDP, is a leading force in regulatory globalisation. This webinar will discuss recent developments in legal frameworks affecting research data in Europe. Apart from the General Data Protection Regulation which, since its entry into application in 2018, has become an international standard of personal data protection, the recent introduction of statutory {{< glossary_link display="copyright" id="copyright" >}} exceptions for Text and Data Mining will also be discussed. Moreover, the webinar will also include a presentation of the most recent changes in EU law, such as the Data Governance Act and the Artificial Intelligence Act, which are expected to enter into application in the coming years.</p>
 
 <p><b>Paweł Kamocki</b> is a legal expert in Leibniz-Institut für Deutsche Sprache, Mannheim. He studied linguistics and law, and in 2017 obtained his doctorate in law from the universities of Paris and Münster for a thesis on legal aspects of data-intensive university research, with a focus on Knowledge Commons. He worked as a research and teaching assistant at the Paris Descartes university (now: Université de Paris), then also in the private sector. He is certified to work as an attorney in France. An active member of the <a href="https://www.clarin.eu/" target="_blank">CLARIN</a> community since 2012, he currently chairs the CLARIN Legal and Ethical Issues Committee. He also worked with other projects and initiatives in the field of research data policy (RDA, EUDAT) and co-created several LegalTech tools for researchers. One of his main research interests are legal issues in Machine Translation.</p>
 </details>
@@ -400,7 +400,7 @@ Our webinar series is a joint initiative with the Language Technology and Data A
 
 <details>
 <summary><b>4 April 2022 - Keoni Mahelona: A practical approach to Indigenous data sovereignty</b></summary>
-<p><b>Keoni Mahelona</b> is the Chief Technical Officer of <a href="https://tehiku.nz/" target="_blank">Te Hiku Media</a> where he is a part of the team developing the Kaitiakitanga Licence. This licence seeks to balance the importance of publicly accessible data with the reality that Indigenous Peoples may not have access to the resources that enable them to benefit from public data. By simply opening access to data and knowledge, Indigenous Peoples could be further colonised and taken advantage of in a digital, modern world. Therefore Keoni is committed to devising data governance regimes which enable Indigenous Peoples to reclaim and maintain sovereignty over Indigenous data.</p>
+<p><b>Keoni Mahelona</b> is the Chief Technical Officer of <a href="https://tehiku.nz/" target="_blank">Te Hiku Media</a> where he is a part of the team developing the Kaitiakitanga Licence. This licence seeks to balance the importance of publicly accessible data with the reality that Indigenous Peoples may not have access to the resources that enable them to benefit from public data. By simply opening access to data and knowledge, Indigenous Peoples could be further colonised and taken advantage of in a digital, modern world. Therefore Keoni is committed to devising {{< glossary_link display="data governance" id="data-governance" >}} regimes which enable Indigenous Peoples to reclaim and maintain sovereignty over Indigenous data.</p>
 
 </details>
 
@@ -410,8 +410,8 @@ Our webinar series is a joint initiative with the Language Technology and Data A
 
 ### Advice for researchers {#advice}
 
-LDaCA has previously run regular online office hours, jointly hosted with the Australian Digital Observatory ([ADO](https://research.qut.edu.au/digitalobservatory/)). This activity will not continue in 2024, but LDaCA and ADO are developing an alternative model to help Australian researchers working with linguistics, text analytics, digital and computational methods, social media and web archives.
+LDaCA has previously run regular online office hours, jointly hosted with the Australian Digital Observatory ({{< glossary_link display="ADO" id="ado" >}}). This activity will not continue in 2024, but LDaCA and {{< glossary_link display="ADO" id="ado" >}} are developing an alternative model to help Australian researchers working with linguistics, text analytics, digital and computational methods, social media and web archives.
 
-In the meantime, you are welcome to contact us by email at [ldaca@uq.edu.au](mailto:ldaca@uq.edu.au) with your technical questions, research problems and rough ideas to get advice and feedback from the combined expertise of our ARDC research infrastructure projects. No question is too small, and even if we don’t know the answer we are likely to be able to point you to someone who does.
+In the meantime, you are welcome to contact us by email at [ldaca@uq.edu.au](mailto:ldaca@uq.edu.au) with your technical questions, research problems and rough ideas to get advice and feedback from the combined expertise of our {{< glossary_link display="ARDC" id="ardc" >}} research infrastructure projects. No question is too small, and even if we don’t know the answer we are likely to be able to point you to someone who does.
 
 <br>
