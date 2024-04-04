@@ -29,11 +29,11 @@ The team behind the AusNC always hoped that additional data would be added to th
 
 The Griffith University eResearch Services built the web interface and hosted the data for the AusNC, which was launched in 2012. From 2014, the [Alveo](https://www.alveo.edu.au/about/) virtual laboratory also held a copy of the data and provided alternative ways of interacting with it. However, after the launch of the Alveo version, the Griffith version of the corpus changed in various ways, and the two versions remained out of sync for a time, before both eventually became inaccessible when changes in the underlying technologies meant that maintaining those digital infrastructures was no longer cost effective.
 
-The Alveo virtual laboratory still exists, in principle, but has not been regularly maintained since 2019, and its services are rarely operational. With no ongoing funding and no staff member affiliated with the AusNC project, Griffith University indicated that it could not maintain the AusNC data sets and interface, and closed those facilities when the data was transferred to LDaCA in 2023.<sup>[1](#fn-1)</sup> All the original data sets are now available (or are in the process of being made available) through the LDaCA data portal, and in one case, there is a substantial increase in the amount of data available (see discussion of Mitchell and Delbridge below).
+The Alveo virtual laboratory still exists, in principle, but has not been regularly maintained since 2019, and its services are rarely operational. With no ongoing funding and no staff member affiliated with the AusNC project, Griffith University indicated that it could not maintain the AusNC data sets and interface, and closed those facilities when the data was transferred to LDaCA in 2023.<sup><a name="back-1" >[1](#fn-1)</a></sup> All the original data sets are now available (or are in the process of being made available) through the LDaCA data portal, and in one case, there is a substantial increase in the amount of data available (see discussion of Mitchell and Delbridge below).
 
 <br>
 
-{{< image Src="/ausnc/AusNC-logo.jpg" Alt="The Australian National Corpus logo." Desc="Figure 1: The Australian National Corpus logo." Title="The Australian National Corpus logo." Ref="LDaCA" >}}
+{{< image Src="/ausnc/Frequency.png" Alt="Screenshot of the Australian National Corpus interface showing results of a frequency search." Desc="Figure 1: Results of a frequency search in the Australian National Corpus interface." Title="Results of a frequency search in the Australian National Corpus interface." Ref="LDaCA" Height="500" >}}
 
 <br>
 
@@ -51,7 +51,7 @@ An example of such a corpus in the AusNC is the Mitchell and Delbridge dataset. 
 
 As mentioned above, the AusNC made only a small part of this dataset available. LDaCA is delighted that, with the assistance of the University of Sydney, we are now able to provide access to data from all of the 7,736 speakers from 330 schools who were recorded.
 
-Another example of such a corpus in the AusNC is the Braided Channels {{< glossary_link display="collection" id="collection" >}}, which contains 70 hours of oral history interviews with women from Australia’s Channel Country. This is an example of a {{< glossary_link display="collection" id="collection" >}} that was created to answer historical and cultural questions, but has been repurposed to enable researchers to address linguistic questions as well.
+Another example of such a corpus in the AusNC is the Braided Channels {{< glossary_link display="collection" id="collection" >}}, which contains 70 hours of oral history interviews with women from Queensland’s Channel Country. This is an example of a {{< glossary_link display="collection" id="collection" >}} that was created to answer historical and cultural questions, but has been repurposed to enable researchers to address linguistic questions as well.
 
 <br>
 
@@ -97,7 +97,7 @@ Opportunistic {{< glossary_link display="data collection" id="data-collection" >
 
 <br>
 
-{{< image Src="/ausnc/Frequency.png" Alt="Screenshot of the Australian National Corpus interface showing results of a frequency search." Desc="Figure 2: Results of a frequency search in the Australian National Corpus interface." Title="Results of a frequency search in the Australian National Corpus interface." Ref="LDaCA" >}}
+{{< image Src="/ausnc/AusNC-logo.jpg" Alt="The Australian National Corpus logo." Desc="Figure 2: The Australian National Corpus logo." Title="The Australian National Corpus logo." Ref="LDaCA" >}}
 
 <br>
 
@@ -107,13 +107,13 @@ We have set out three broad strategies above for constructing a corpus. The AusN
 
 When the possibility of a corpus was being discussed, there were proposals for it to be carefully planned. For example, in a paper published following one of the workshops leading up to the AusNC, Pho (2009) argued that an Australian corpus should mirror the design of the BNC. However, even putting together a collection of written material on the scale of the BNC is a huge task, never mind the spoken language component; the BNC itself was produced by a large team working over a number of years. The AusNC project never enjoyed a level of funding which would have made such a plan possible (indeed, the amount of funding we received while very welcome was modest). In these circumstances, we had no alternative but to create the AusNC from existing data sources which custodians were prepared to share. We did hope that this model would make it easy to expand the corpus, but this did not occur, as we were not able to develop the infrastructure necessary for ongoing expansion of the corpus with the limited amount of funding we had.
 
-In 2012, it seemed obvious that the appropriate term for our project was corpus. We were putting together a collection of language data and it came to exist as an entity in its own right. What was included might be the result of rather random factors, but there was a coherence in that all the data related to language use, in fact, use of the English language in Australia. No one was talking about ‘{{< glossary_link display="data commons" id="data-commons" >}}’<sup>[2](#fn-2)</sup> when the AusNC was created (or we were not listening). If the concept had been actively discussed, perhaps we would have described what we were doing as a {{< glossary_link display="data commons" id="data-commons" >}}.
+In 2012, it seemed obvious that the appropriate term for our project was corpus. We were putting together a collection of language data and it came to exist as an entity in its own right. What was included might be the result of rather random factors, but there was a coherence in that all the data related to language use, in fact, use of the English language in Australia. No one was talking about ‘{{< glossary_link display="data commons" id="data-commons" >}}’<sup><a name="back-2" >[2](#fn-2)</a></sup> when the AusNC was created (or we were not listening). If the concept had been actively discussed, perhaps we would have described what we were doing as a {{< glossary_link display="data commons" id="data-commons" >}}.
 
 The inception of LDaCA coincided, more or less, with the two factors mentioned above which led to the AusNC becoming non-viable: the understandable withdrawal of support from Griffith University and the instability of the Alveo infrastructure due to funding constraints. It was therefore inevitable that transferring the AusNC collection to the new project would be an early priority.
 
 Approaching this task, we faced the problem of whether it still made sense to refer to the collection of datasets as the AusNC. After discussion within our project, and with the custodians of the AusNC datasets, we decided that retaining the name would suggest a coherence which did not exist now that the AusNC was part of LDaCA. The AusNC is now part of a larger assemblage of collections of data, and we felt that any internal coherence which the AusNC might have did not differentiate it, or the datasets it was composed of, from that broader landscape.
 
-Therefore, we made the decision to include the component datasets of the AusNC as separate {{< glossary_link display="collections" id="collection" >}} in LDaCA data portal. The top-level description of each of the collections contains the following sentence to acknowledge the history of the data: “This {{< glossary_link display="collection" id="collection" >}} was previously accessible online via the Australian National Corpus (AusNC), an initiative managed by Griffith University between 2012 and 2023.” Additionally, this blog post is available to those who are interested in the history of the AusNC.<sup>[3](#fn-3)</sup>
+Therefore, we made the decision to include the component datasets of the AusNC as separate {{< glossary_link display="collections" id="collection" >}} in LDaCA data portal. The top-level description of each of the collections contains the following sentence to acknowledge the history of the data: “This {{< glossary_link display="collection" id="collection" >}} was previously accessible online via the Australian National Corpus (AusNC), an initiative managed by Griffith University between 2012 and 2023.” Additionally, this blog post is available to those who are interested in the history of the AusNC.<sup><a name="back-3" >[3](#fn-3)</a></sup>
 
 The corpus is dead, long live the {{< glossary_link display="data commons" id="data-commons" >}}!
 
@@ -148,4 +148,5 @@ Thanks to Teresa Chan who provided valuable feedback on a draft.
 <a name="fn-3">
 3</a> More details of the history of the AusNC can be found in Musgrave & Haugh (2020).
 
+[back](#back-3)
 <br>
