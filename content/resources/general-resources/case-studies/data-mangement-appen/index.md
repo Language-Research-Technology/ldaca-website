@@ -17,7 +17,7 @@ To break down these language technologies further, {{< glossary_link display="AS
 
 <br>
 
-Language technology relies heavily on good-quality data, and the table below illustrates just some of the types of processes used in projects, with use cases they can be applied to.
+Language technology relies heavily on good-quality data, and the table below illustrates just some of the processes used in Appen projects, with use cases they can be applied to.
 
 <br>
 
@@ -177,6 +177,6 @@ These issues are handled in the Appen workflow through the use of iterative semi
 
 <br>
 
-For LDaCA, these issues are of equal relevance for wider data management. To the first point, while it is ultimately the responsibility and prerogative of the data contributor to decide how their data should be organised, LDaCA can also assist with this process. Guidance is available on best practices for data management and organisation of {{< glossary_link display="metadata" id="metadata" >}}, both in the form of the documentation available at [LDaCA Resources](/resources/ldaca-resources/), as well as automated validation of {{< glossary_link display="metadata" id="metadata" >}} category requirements for datasets added and edited through {{< glossary_link display="Crate-O" id="crate-o" >}}. To the second point, LDaCA has a responsibility to ensure that {{< glossary_link display="tools" id="tools" >}} to facilitate data management and discoverability are accessible and intuitive for all, including the portals that use the {{< glossary_link display="Oni" id="oni" >}} application to access data packaged as {{< glossary_link display="RO-Crates" id="ro-crate" >}}. This should be an iterative process, with further improvements to operability implemented based on user feedback and needs.
+For LDaCA, these issues are of equal importance for wider data management. To the first point, while it is ultimately the responsibility and prerogative of the data contributor to decide how their data should be organised, LDaCA can also assist with this process. Guidance is available on best practices for data management and organisation of {{< glossary_link display="metadata" id="metadata" >}}, both in the form of the documentation available at [LDaCA Resources](/resources/ldaca-resources/), as well as automated validation of {{< glossary_link display="metadata" id="metadata" >}} category requirements for datasets added and edited through {{< glossary_link display="Crate-O" id="crate-o" >}}. To the second point, LDaCA has a responsibility to ensure that {{< glossary_link display="tools" id="tools" >}} to facilitate data management and discoverability are accessible and intuitive for all, including the portals that use the {{< glossary_link display="Oni" id="oni" >}} application to access data packaged as {{< glossary_link display="RO-Crates" id="ro-crate" >}}. This should be an iterative process, with further improvements to operability implemented based on user feedback and needs.
 
 <br>
