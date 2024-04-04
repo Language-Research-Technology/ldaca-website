@@ -692,7 +692,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .footer {
-  background-color: rgba(126, 73, 47, 0.4);
+  background-image: linear-gradient(rgba(126, 73, 47, 0), rgba(126, 73, 47, 0.4), rgba(126, 73, 47, 0.4), rgba(126, 73, 47, 0.4), rgba(126, 73, 47, 0.4));
   position: relative;
   width: 100%;
   bottom: 0;
