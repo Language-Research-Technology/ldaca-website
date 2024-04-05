@@ -17,5 +17,6 @@ description: "Further information relating to Indigenous research."
 - [TK Labels](https://localcontexts.org/labels/traditional-knowledge-labels/): Traditional Knowledge labels are an initiative for Indigenous communities and local organizations. Developed through sustained partnership and testing within Indigenous communities across multiple countries, the Labels allow communities to express local and specific conditions for sharing and engaging in future research and relationships in ways that are consistent with already existing community rules, governance and protocols for using, sharing and circulating knowledge and data.
 - Decolonising linguistics: [Spinning a better yarn](https://legacy.dynamicsoflanguage.edu.au/stories/outreach.php)
 - Rawlings, V, Flexner, J L, Riley, L (eds.) (2021) _[Community-Led Research: Walking New Pathways Together](https://open.sydneyuniversitypress.com.au/files/9781743327630.pdf)_. Sydney University Press
+- [The Linguistics and Applied Linguistics Indigenous Curriculum Resource Project](https://arts-icrp.unimelb.edu.au/static/assets/media/Linguistics%20and%20Applied%20Linguistics.pdf) ([The University of Melbourne](https://www.unimelb.edu.au/)) This report, prepared by [Sasha Wilmoth](https://sashawilmoth.com/), includes a bibliography of linguistic work by Australian Indigenous authors.
 
 <br>
