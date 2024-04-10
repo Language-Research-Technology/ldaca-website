@@ -140,6 +140,10 @@ div {
   width: 80%;
 }
 
+.header-wrapper {
+  background-color: rgba(133, 157, 94, 0.2);
+}
+
 @media only screen and (max-width: 1440px) {
   .page {
     width: 92%;
@@ -300,7 +304,7 @@ a.menu-item.theme-switch {
   align-items: center;
   min-height: 30px;
   max-height: 50px;
-  background-color: rgba(126, 73, 47, 0.4);
+  background-color: rgba(98, 136, 97, 0.5);
   padding-left: 6.7%;
   padding-right: 4%;
   white-space: nowrap;
@@ -703,7 +707,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .footer {
-  background-color: rgba(126, 73, 47, 0.4);
+  background-image: linear-gradient(rgba(133, 157, 94, 0), rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0.2));
   position: relative;
   width: 100%;
   bottom: 0;
