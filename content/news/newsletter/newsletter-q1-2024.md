@@ -5,7 +5,7 @@ draft: false
 weight: 1
 --- 
 
-{{< raw >}}
+<raw>
 <a href="/news/newsletter/" class="banner-button">Back to Newsletters</a>
 <br>
 <br>
@@ -197,4 +197,4 @@ Share this with a friend
             </script> 
 </body></html>
 
-{{< /raw >}}
+</raw>
