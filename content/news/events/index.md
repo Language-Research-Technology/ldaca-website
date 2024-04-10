@@ -20,29 +20,45 @@ aliases:
 
 <br>
 
-#### Language Data Commons of Australia – Co-Design Workshops
+#### Online seminar on social meaning of language variation in Australian English
 
-The Australian Research Data Commons ({{< glossary_link display="ARDC" id="ardc" >}}) invites the research community to join 2 workshops to co-design a national research infrastructure program that will support the Language Data Commons of Australia.
+LDaCA Chief Investigator Catherine Travis (ANU) will present a seminar titled “What's in an accent? Understanding the social meaning of language variation in Australian English”. Use password 250801 to [access the seminar online](https://uwa.zoom.us/j/6038975685?pwd=MEVGbE50dkFvT2M4NDl6YWFqL1pzdz09#success). Note that sessions in this seminar series are usually not recorded.
 
-We will be holding 2 open co-design workshops to better understand the current challenges around establishing the Language Data Commons of Australia. We will discuss the investment opportunity that {{< glossary_link display="ARDC" id="ardc" >}} has identified, with the aim of learning:
+**When**: 2 May 2024, 1:00 pm AWST/3:00 pm AEST
 
-- what outcomes and developments would be of most benefit
-- what will be both valuable and feasible
-- how our investments can align with other activity in the sector.
+**Where**: Online seminar
 
-Workshop participants are expected to actively participate in discussions. We encourage participants to attend both workshops if possible. A summary of the discussions will be made available after each workshop.
+**Run by**: The University of Western Australia ([UWA](https://www.uwa.edu.au/)) [Linguistics](https://www.uwa.edu.au/schools/social-sciences/linguistics) and [Language](https://www.uwa.edu.au/schools/research/the-language-lab) Lab
 
-**When**: Workshop 1: February 22 2024, 2PM- 4PM (AEDT); Workshop 2: March 7 2024, 1PM-3PM (AEDT)
-
-**Where**: Online
-
-**[Details and Registration](https://www.eventbrite.com.au/e/language-data-commons-of-australia-co-design-workshops-tickets-802153060397)**
+**[Seminar Link](https://uwa.zoom.us/j/6038975685?pwd=MEVGbE50dkFvT2M4NDl6YWFqL1pzdz09#success)**
 
 <br>
 
 ### Previous Workshops {#previous-workshops}
 
 {{<raw>}}
+
+<details>
+    <summary>
+        <b>Language Data Commons of Australia – Co-Design Workshops</b>
+    </summary>
+    <p>
+    The 2024 {{< glossary_link display="HASS" id="hass" >}} and Indigenous {{< glossary_link display="RDC" id="rdc" >}} Computational Skills Summer School aimed to empower participants with practical knowledge, build digital skills, and help inspire new research outcomes within these research communities.</p>
+
+    <p>Participation wass aimed at researchers in the humanities, arts, social sciences and Indigenous fields of study. Themed streams explored geosocial and geospatial data applications in humanities, arts, social sciences, and Indigenous research, using {{< glossary_link display="ARDC" id="ardc" >}} tools and services. Participants gained experience through seminars and workshops and were guided through hands-on use of free tools and platforms provided by the {{< glossary_link display="ARDC" id="ardc" >}} and its partners.</p>
+
+    <p>For the {{< glossary_link display="ARDC" id="ardc" >}} Summer School, {{< glossary_link display="IDN" id="idn" >}} and LDaCA led a stream on the governance, management and usage of data, especially Indigenous data.</p>
+    <ul>
+    <li>A series of seminars will focus on sustainability, storage, usability and description of data.</li>
+    <li>A case study will highlight how data is being managed for long-term access.</li>
+    <li>A hands-on session will use {{< glossary_link display="Python" id="python" >}} code notebooks to analyse data.</li>
+
+</ul>
+<p>The case study and hands-on session will focus on geospatial aspects of data. Prior coding knowledge is not required for the hands-on session.</p>
+
+<p><b><a href="https://www.eventbrite.com.au/e/language-data-commons-of-australia-co-design-workshops-tickets-802153060397" target="_blank">More information</a></b></p>
+
+</details>
 
 <details>
     <summary>
@@ -375,7 +391,7 @@ If your university or organisation would like to host a workshop, please [contac
 
 ### Webinars {#webinars}
 
-Our webinar series is a joint initiative with the Language Technology and Data Analysis Laboratory ([LADAL](https://slcladal.github.io/index.html)), (School of Languages and Cultures, The University of Queensland).
+Our webinar series is a joint initiative with the Language Technology and Data Analysis Laboratory ([LADAL](https://slcladal.github.io/index.html)) at the School of Languages and Cultures, The University of Queensland.
 
 {{<raw>}}
 
