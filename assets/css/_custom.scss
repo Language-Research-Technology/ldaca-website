@@ -19,8 +19,9 @@ $color_list: (
 $color_count: 1;
 
 .main {
-  background: url("/BackgroundIMGs/Contact.png") repeat-y left top;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url("/BackgroundIMGs/Contact.png") repeat-y left top;
   background-size: 100% auto;
+
 }
 
 [theme="dark"] a {
@@ -141,12 +142,17 @@ div {
 }
 
 .header-wrapper {
-  background-color: rgba(133, 157, 94, 0.2);
+  background-image: linear-gradient(rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0));
+  padding-bottom: 3rem;
 }
 
 @media only screen and (max-width: 1440px) {
   .page {
     width: 92%;
+  }
+
+  #header-desktop .header-wrapper {
+    padding-bottom: 2rem;
   }
 }
 
@@ -157,6 +163,7 @@ div {
 
   #header-desktop .header-wrapper {
     padding-right: 1rem;
+    padding-bottom: 1rem;
   }
 
   .search-dropdown.desktop {
