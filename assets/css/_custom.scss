@@ -146,6 +146,12 @@ div {
   padding-bottom: 3rem;
 }
 
+@media only screen and (max-width: 2700px) {
+  #header-desktop .header-wrapper {
+    padding-bottom: 3rem;
+  }
+}
+
 @media only screen and (max-width: 1440px) {
   .page {
     width: 92%;
