@@ -8,7 +8,7 @@ This blog post features an interview with [Kalin Stefanov](https://research.mona
 
 <br>
 
-{{< image Src="/kalin/kalins.jpg" Alt="Close-up shot of Kalin Stefanov’s face, who is smiling" Desc="Kalin Stefanov, Monash University" Title="Kalin Stefanov, Monash University" Ref="Kalin Stefanov" Height="300" >}}
+{{< image Src="/kalin/kalins.jpg" Alt="Close-up shot of Kalin Stefanov’s face, who is smiling" Desc="Kalin Stefanov, Monash University" Title="Kalin Stefanov, Monash University" Ref="Kalin Stefanov" Height="300" Style="float: right" >}}
 
 <br>
 
@@ -29,6 +29,8 @@ My current project addresses the computational modelling of Auslan. The project 
 The Auslan recogniser will be able to distinguish 1000+ isolated Auslan signs. This means that by providing a video of an isolated Auslan sign, the recogniser will ‘translate’ it to written or spoken English. We also aim to provide mechanisms for personalisation of the recogniser to account for individual variations in signing.
 
 The Auslan generator will operate in the reverse direction and be able to synthesise 1000+ isolated Auslan signs. This means that by providing a written or spoken English word, the generator will ‘translate’ it to a video of an isolated Auslan sign. We also aim to provide mechanisms for the personalisation of the generator to account for individual preferences in appearance and signing style.
+
+<br>
 
 **Who will be helped by the output of your project, and how?**
 
