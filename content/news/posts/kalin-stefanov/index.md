@@ -4,6 +4,7 @@ date: 2024-04-11T14:29:40+10:00
 draft: false
 description: ""
 ---
+
 This blog post features an interview with [Kalin Stefanov](https://research.monash.edu/en/persons/kalin-stefanov) ([ARC DECRA](https://www.arc.gov.au/funding-research/funding-schemes/discovery-program/discovery-early-career-researcher-award-decra) Fellow at [Monash University](https://www.monash.edu)), who is working on an Australian Sign Language (Auslan) project. We would like to thank Chief Investigator [Louisa Willoughby](https://research.monash.edu/en/persons/louisa-willoughby) for first letting us know about Kalin’s work, and Kalin for graciously agreeing to the interview and providing his thoughts.
 
 <br>
@@ -24,7 +25,7 @@ The project involved close collaboration with researchers (native signers) at th
 
 **Can you tell us about the project you are currently undertaking?**
 
-My current project addresses the computational modelling of Auslan. The project expects to generate knowledge by creating the largest Auslan dataset, enabling further advancements in this research area. The dataset will also play an essential role in other research fields, e.g., sign linguistics. Expected outcomes include the invention of the first Auslan recogniser and generator, representing a substantial advancement towards fully automated Auslan translation.
+My current project addresses the computational modelling of Auslan. The project expects to generate knowledge by creating the largest Auslan dataset, enabling further advancements in this research area. The dataset will also play an essential role in other research fields, e.g. sign linguistics. Expected outcomes include the invention of the first Auslan recogniser and generator, representing a substantial advancement towards fully automated Auslan translation.
 
 The Auslan recogniser will be able to distinguish 1000+ isolated Auslan signs. This means that by providing a video of an isolated Auslan sign, the recogniser will ‘translate’ it to written or spoken English. We also aim to provide mechanisms for personalisation of the recogniser to account for individual variations in signing.
 
@@ -42,15 +43,15 @@ In research, collecting and annotating sign language data is an expensive task t
 
 <br>
 
-**The partnership between Monash University and LDaCA aims to make Auslan data more accessible. How did you first hear about our work on Auslan data?**
+**How did you first hear about our work on Auslan data?**
 
-The partnership between Monash University and LDaCA on making Auslan data more accessible is instrumental in developing advanced Auslan-related technologies. The first time I heard of LDaCA and its work on Auslan data was from A/Prof Louisa Willoughby while developing the project proposal.
+The first time I heard of LDaCA and its work on Auslan data was from A/Prof Louisa Willoughby while developing the project proposal. The partnership between Monash University and LDaCA on making Auslan data more accessible is instrumental in developing advanced Auslan-related technologies.
 
 <br>
 
 **You say that your project is “creating the largest Auslan dataset”. How does this relate to the existing datasets and the work of LDaCA?**
 
-The main focus of the project is the Auslan recogniser and generator; the dataset will be a useful by-product. The project starts with the available annotated Auslan data. The first-generation recogniser will enable the extension of that data with cost-effective annotation of unannotated data, e.g., through known and unknown sign localisation and discovery. This will facilitate bootstrapping for iterative improvement of the recogniser’s performance and robustness. On the other hand, the generator will produce potentially unlimited amounts of annotated synthetic data that could be very useful for computational modelling. It is important to note that this whole process is possible because of the existing datasets and the work of LDaCA.
+The main focus of the project is the Auslan recogniser and generator; the dataset will be a useful by-product. The project starts with the available annotated Auslan data. The first-generation recogniser will enable the extension of that data with cost-effective annotation of unannotated data, e.g. through known and unknown sign localisation and discovery. This will facilitate bootstrapping for iterative improvement of the recogniser’s performance and robustness. On the other hand, the generator will produce potentially unlimited amounts of annotated synthetic data that could be very useful for computational modelling. It is important to note that this whole process is possible because of the existing datasets and the work of LDaCA.
 
 <br>
 
