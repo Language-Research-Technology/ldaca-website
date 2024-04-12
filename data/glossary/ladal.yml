@@ -1,0 +1,5 @@
+Name: "ladal"
+"title": "LADAL"
+"short_description": "Language Technology and Data Analysis Laboratory"
+"content": 'Language Technology and Data Analysis Laboratory. A free, open-source, collaborative support infrastructure for digital and computational humanities assisting anyone interested in working with language data in matters relating to data processing, visualization and analysis, and offering guidance on matters relating to language technology and digital research {{< glossary_link display="tools" id="tools" >}}.'
+"external_link": "https://ladal.edu.au/"

@@ -1,0 +1,4 @@
+Name: "access-conditions"
+"title": "Access Conditions"
+"short_description": "A location for the storage of data that has an appropriate governance regime in place."
+"content": '{{< glossary_link display="Data licenses" id="data-license" >}} can specify who can be an end-user. A well-governed {{< glossary_link display="archival repository" id="archival-repository" >}} has mechanisms in place to administer and implement such conditions.'

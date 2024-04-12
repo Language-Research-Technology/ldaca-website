@@ -24,8 +24,8 @@
         <h1>What's new?</h1>
         <h4></h4>
         <ul>
-        <h3><li>Draft Project Plans for the HASS and Indigenous Research Data Commons Now Open for Feedback (<a href = "https://ardc.edu.au/article/draft-project-plans-for-the-hass-and-indigenous-rdc/" target="_blank">read more....</a>)</li></h3>
-        <h3><li>A blog post on our Graduate Digital Research Fellowship program (<a href = "./news/posts/gdrf">read more....</a>)</li></h3>
+        <h3><li>New Case Study: Data Management in Language Technology (<a href = "./resources/general-resources/case-studies/data-mangement-appen/" target="_blank">read more....</a>)</li></h3>
+        <h3><li>A blog post about what has happened to the Australian National Corpus (<a href = "./news/posts/ausnc">read more....</a>)</li></h3>
         </ul>
       </div>  
     </div>
@@ -94,7 +94,7 @@
 
 <div class="flex_container">
   <p class="flex_item">
-    Australia is a massively multilingual country, in one of the world’s most linguistically diverse regions. Significant collections of this intangible cultural heritage have been amassed, including collections of Aboriginal and Torres Straight Islander languages, Australian Englishes, and regional languages of the Pacific, as well as collections important for cyber-security and for emergency communication. LDaCA is integrating this existing work into a national research infrastructure while also securing at-risk collections and improving access to under-utilised collections. LDaCA is thus ensuring that these invaluable resources will be available for analysis and reuse in the future, and that they will be managed in a culturally, ethically and legally appropriate manner guided by FAIR and CARE principles.
+    Australia is a massively multilingual country, in one of the world’s most linguistically diverse regions. Significant collections of this intangible cultural heritage have been amassed, including collections of Aboriginal and Torres Straight Islander languages, Australian Englishes, and regional languages of the Pacific, as well as collections important for cyber-security and for emergency communication. LDaCA is integrating this existing work into a national research infrastructure while also securing at-risk collections and improving access to under-utilised collections. LDaCA is thus ensuring that these invaluable resources will be available for analysis and reuse in the future, and that they will be managed in a culturally, ethically and legally appropriate manner guided by {{< glossary_link display="FAIR" id="fair" >}} and {{< glossary_link display="CARE" id="care" >}} principles.
   </p>
   <img class="flex_item logo" src="logo.png" alt="LDaCA Logo">
 </div>
@@ -107,4 +107,4 @@ LDaCA acknowledges Traditional Owners of Country throughout Australia and recogn
 {{</raw>}}
 
 The Language Data Commons of Australia (LDaCA) project receives [investment](https://doi.org/10.47486/HIR001)
-from the Australian Research Data Commons (ARDC) through its [HASS and Indigenous Research Data Commons](https://ardc.edu.au/hass-and-indigenous-research-data-commons/) program. The ARDC is funded by the National Collaborative Research Infrastructure Strategy (NCRIS).
+from the Australian Research Data Commons ({{< glossary_link display="ARDC" id="ardc" >}}) through its [HASS and Indigenous Research Data Commons](https://ardc.edu.au/hass-and-indigenous-research-data-commons/) program. The {{< glossary_link display="ARDC" id="ardc" >}} is funded by the National Collaborative Research Infrastructure Strategy ({{< glossary_link display="NCRIS" id="ncris" >}}).

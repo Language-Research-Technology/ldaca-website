@@ -1,0 +1,4 @@
+Name: "collection"
+"title": "Collection"
+"short_description": "A group of related Objects."
+"content": 'A group of related {{< glossary_link display="Objects" id="object" >}}. Examples of collections include corpora, and sub-corpora, as well as aggregations of cultural objects such as {{< glossary_link display="PARADISEC" id="paradisec" >}} collections, which bring together items collected in a region or a session with consultants.'

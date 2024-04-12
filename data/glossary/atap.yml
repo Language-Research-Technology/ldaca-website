@@ -1,0 +1,5 @@
+Name: "atap"
+"title": "ATAP"
+"short_description": "Australian Text Analytics Platform"
+"content": 'Australian Text Analytics Platform. An open source environment that provides researchers with {{< glossary_link display="tools" id="tools" >}} and training for analysing, processing and exploring text.'
+"external_link": "https://www.atap.edu.au/"

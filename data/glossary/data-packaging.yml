@@ -1,0 +1,5 @@
+Name: "data-packaging"
+"title": "Data Packaging"
+"short_description": "The application of widely used standards to the collection data."
+"content": 'The application of widely used standards, for example, in terms of formats, {{< glossary_link display="metadata" id="metadata" >}} , and {{< glossary_link display="access conditions" id="access-condition" >}}, to the {{< glossary_link display="collection" id="collection" >}} data.'
+"cross_ref": [["data-transformation", "Data Transformation"]]

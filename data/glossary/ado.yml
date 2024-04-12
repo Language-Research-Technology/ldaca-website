@@ -1,0 +1,5 @@
+Name: "ado"
+"title": "ADO"
+"short_description": "Australian Digital Observatory"
+"content": 'Australian Digital Observatory. An {{< glossary_link display="ARDC" id="ardc" >}} platform working to establish a national infrastructure to support a diverse array of researchers, especially in the humanities, in accessing and working with dynamic digital data.'
+"external_link": "https://www.digitalobservatory.net.au/"

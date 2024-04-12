@@ -1,0 +1,5 @@
+Name: "ro-crate"
+"title": "RO-Crate"
+"short_description": "Research Object Crate"
+"content": 'Research Object Crate. A way of packaging research data that stores the data together with its associated {{< glossary_link display="metadata" id="metadata" >}}  and other component files, such as the {{< glossary_link display="data license" id="data-license" >}}.'
+"external_link": "https://www.researchobject.org/ro-crate/"

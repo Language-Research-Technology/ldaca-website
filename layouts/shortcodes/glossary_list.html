@@ -1,0 +1,27 @@
+<!-- shortcode generates glossary page iterating through data/glossary, including creating cross-references and external links -->
+
+<table>
+    {{ range .Site.Data.glossary }}
+    <tr valign="top">
+        {{ if .external_link }}
+      <td><a name="{{ .Name }}"></a><b>{{ .title }}</b></td>
+      <td>{{ .content | markdownify }}<br><a href="{{ .external_link }}" target="_blank">More information</a>
+      {{ if .cross_ref }}
+      <br />
+        {{ range .cross_ref }}
+        See also: <a href="#{{ index . 0 }}">{{ index . 1 }}</a><br />
+        {{ end }}
+      {{ end }}</td>
+    </tr>
+    {{ else }}
+    <td><a name="{{ .Name }}"></a><b>{{ .title }}</b></td></td>
+    <td>{{ .content | markdownify }}
+      {{ if .cross_ref }}
+      <br />
+        {{ range .cross_ref }}
+        See also: <a href="#{{ index . 0 }}">{{ index . 1 }}</a><br />
+        {{ end }}
+      {{ end }}</td>
+    {{ end }}
+    {{ end }}
+  </table>

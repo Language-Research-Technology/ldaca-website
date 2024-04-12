@@ -1,0 +1,4 @@
+Name: "data-steward"
+"title": "Data Steward"
+"short_description": "An individual or organisation with the authority to make decisions regarding the collection."
+"content": 'An individual or organisation with the authority to make decisions regarding the {{< glossary_link display="collection" id="collection" >}}.'

@@ -8,8 +8,16 @@ description: "Information and guidance for data custodians and data collectors p
 weight: 1
 ---
 
-> Information and guidance for data custodians and data collectors produced by LDaCA.
+Information and guidance for data custodians and data collectors produced by LDaCA.
 
-> ## [Licenses](../../licenses/)
+<!-- 
+{{< raw >}}
 
-> Specifies the license(s) that data contributors have applied to the content of their collection, including the content coverage of that license.
+<article class="archive-item">
+    <a href="/licenses/" class="archive-item-link">
+        <h2 class="archive-item-title">Licenses</h2>
+        <p class="archive-item-description"> Specifies the license(s) that data contributors have applied to the content of their collection, including the content coverage of that license. </p>
+    </a>
+</article>
+
+{{< /raw >}} -->

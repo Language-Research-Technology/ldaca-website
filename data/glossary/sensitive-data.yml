@@ -1,0 +1,29 @@
+Name: "sensitive-data"
+"title": "Sensitive Data"
+"short_description": "Data that contains confidential or other 'sensitive information'."
+"content": "Data that, as a result of research, contains confidential or other ‘sensitive information’ which is defined in the Privacy Act as information or opinion about an individual’s:
+
+- racial or ethnic origin
+
+- political opinions
+
+- membership of a political association
+
+- religious beliefs or affiliations
+
+- philosophical beliefs
+
+- membership of a professional or trade association
+
+- membership of a trade union
+
+- sexual preferences or practices
+
+- criminal record
+
+- health information
+
+- genetic information
+
+- culturally sensitive data or data deemed sensitive by the data provider"
+"external_link": "https://www.alrc.gov.au/publication/for-your-information-australian-privacy-law-and-practice-alrc-report-108/6-the-privacy-act-some-important-definitions/sensitive-information/"
