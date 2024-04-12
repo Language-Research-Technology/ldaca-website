@@ -5,6 +5,8 @@ draft: false
 description: ""
 ---
 
+<br />
+
 This blog post features an interview with [Kalin Stefanov](https://research.monash.edu/en/persons/kalin-stefanov) ([ARC DECRA](https://www.arc.gov.au/funding-research/funding-schemes/discovery-program/discovery-early-career-researcher-award-decra) Fellow at [Monash University](https://www.monash.edu)), who is working on an Australian Sign Language (Auslan) project. We would like to thank Chief Investigator [Louisa Willoughby](https://research.monash.edu/en/persons/louisa-willoughby) for first letting us know about Kalin’s work, and Kalin for graciously agreeing to the interview and providing his thoughts.
 
 <br>
@@ -58,3 +60,5 @@ The main focus of the project is the Auslan recogniser and generator; the datase
 **After this project, what else do you hope to work on in the future?**
 
 This project will build the foundations for the use of the technologies in more advanced communication instances, including cheap and effective real-time on-screen spoken language translation during newscasts and emergency broadcasts. I hope to continue this line of research in the future and build upon these foundations. Given the complexity and richness of sign language communication, building this type of advanced technology is a truly ambitious endeavour that requires long-term dedication and effort.
+
+<br />
