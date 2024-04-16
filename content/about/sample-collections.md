@@ -7,9 +7,9 @@ description: "Information about the first datasets which have been added to LDaC
 
 <br>
 
-LDaCA has begun adding datasets, including:
+{{< glossary_link display="LDaCA" id="ldaca" >}} has begun adding datasets, including:
 
-- most of the datasets which were part of the Australian National Corpus collection, now available at our [data portal](https://data.ldaca.edu.au/search) (or click the **Data Portal** button top right)
+- most of the datasets which were part of the Australian National Corpus {{< glossary_link display="collection" id="collection" >}}, now available at our [data portal](https://data.ldaca.edu.au/search) (or click the **Data Portal** button top right)
   - **Corpus of Oz Early English** ([COOEE](https://varieng.helsinki.fi/CoRD/corpora/COOEE/basic.html)): a collection of texts written in Australia between 1788 and 1900. The corpus is divided into four time periods (1788–1825, 1826–1850, 1851–1875 and 1876–1900) each holding about 500,000 words. Four registers were defined for CoOEE: the Speech-based Register (SB), the Private Written Register (PrW), the Public Written Register (PcW) and the register of Government English (GE). For each time period, there is a similar number of words in the different registers.
   - **The Australian Corpus of English**: The Australian Corpus of English (ACE) was compiled to match Australian data from 1986 with the American (Brown) and British (LOB) corpora of written English from the 1960s. It includes 500 samples of published texts taken from 15 different categories of nonfiction and fiction, including newspapers, reportage, editorials, reviews; magazines and journals: popular, academic; government and corporate documents; fiction monographs and short stories (both popular and literary).
   - **The International Corpus of English (Australian component)**: The Australian component of the [International Corpus of English](http://ice-corpora.net/ice/index.html) (ICE-AUS) is an approximately one million word corpus of transcribed spoken and written Australian English from 1992-1995. It consists of 500 samples of Australian English (60% speech, 40% writing) that matches the structure of other corpora associated with the International Corpus of English.

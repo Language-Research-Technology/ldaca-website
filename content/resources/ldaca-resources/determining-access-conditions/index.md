@@ -15,14 +15,14 @@ description: "Defines the workflow for determining the access conditions for a d
 
 <br>
 
-LDaCA recommends the following workflow to determine the {{< glossary_link display="access conditions" id="access-conditions" >}} to be outlined in the license. Examples of existing data access licenses can be found [here](/licenses/).
+{{< glossary_link display="LDaCA" id="ldaca" >}} recommends the following workflow to determine the {{< glossary_link display="access conditions" id="access-conditions" >}} to be outlined in the license. Examples of existing data access licenses can be found [here](/licenses/).
 
 <br>
 
 ## Step 1: Consider access condition(s) for the entire collection
 
-- Do the same {{< glossary_link display="access conditions" id="access-conditions" >}} apply to the entire collection?
-  - __If yes__ → two licenses can be defined (one for metadata, one for the collection data).<br>
+- Do the same {{< glossary_link display="access conditions" id="access-conditions" >}} apply to the entire {{< glossary_link display="collection" id="collection" >}}?
+  - __If yes__ → two licenses can be defined (one for {{< glossary_link display="metadata" id="metadata" >}}, one for the collection data).<br>
   Metadata is licensed with an open license in order to allow the user to find the collection through the LDaCA catalogue.
   - __If no__ → all of the ways the data can be accessed must be defined, with a license for each subset.
 

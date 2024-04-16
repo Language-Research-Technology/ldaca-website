@@ -6,14 +6,14 @@ aliases:
 - "/posts/gdrf/"
 ---
 
-In 2018, when he was working at The University of Queensland's ({{< glossary_link display="UQ" id="uq" >}}) Research Computing Centre ([RCC](https://rcc.uq.edu.au/)), Marco Fahmi (former LDaCA Project Manager) initiated a [Graduate Digital Research Fellowship](https://rcc.uq.edu.au/article/2018/07/six-students-become-uq%E2%80%99s-first-graduate-digital-research-fellows) (GDRF) program focused on researchers in the Humanities and Social Sciences ({{< glossary_link display="HASS" id="hass" >}}). The program has run in some years since then, hosted by the RCC ([2019](https://rcc.uq.edu.au/article/2019/03/second-round-graduate-digital-research-fellows-announced)) and also by the {{< glossary_link display="UQ" id="uq" >}} Graduate School ([2020](https://rcc.uq.edu.au/article/2019/11/apply-now-uq-graduate-digital-research-fellowship-2020)).
+In 2018, when he was working at The University of Queensland's ({{< glossary_link display="UQ" id="uq" >}}) Research Computing Centre ([RCC](https://rcc.uq.edu.au/)), Marco Fahmi (former {{< glossary_link display="LDaCA" id="ldaca" >}} Project Manager) initiated a [Graduate Digital Research Fellowship](https://rcc.uq.edu.au/article/2018/07/six-students-become-uq%E2%80%99s-first-graduate-digital-research-fellows) (GDRF) program focused on researchers in the Humanities and Social Sciences ({{< glossary_link display="HASS" id="hass" >}}). The program has run in some years since then, hosted by the RCC ([2019](https://rcc.uq.edu.au/article/2019/03/second-round-graduate-digital-research-fellows-announced)) and also by the {{< glossary_link display="UQ" id="uq" >}} Graduate School ([2020](https://rcc.uq.edu.au/article/2019/11/apply-now-uq-graduate-digital-research-fellowship-2020)).
 
 In 2023, the program ran again, this time under the auspices of the Australian Text Analytics Program ([ATAP](https://www.atap.edu.au)). Two {{< glossary_link display="UQ" id="uq" >}} staff members, [Sam Hames](https://languages-cultures.uq.edu.au/profile/8379/sam-hames) (Postdoctoral Research Fellow in Computational Humanities) and [Simon Musgrave](https://auslanguage.net/simon-musgrave/) (Engagement Lead for {{< glossary_link display="ATAP" id="atap" >}} and for the [Language Data Commons of Australia](https://www.ldaca.edu.au)) led the program, and four students participated.
 
 The program supports research students to explore the possibilities of digital scholarship, particularly in {{< glossary_link display="HASS" id="hass" >}}. Our Fellows are students undertaking extended research projects who spent 12-15 weeks learning about digital and computational skills in order to enhance their current research/thesis topic or to work on an independent digital project. They explored digital research methods in areas including
 
 - Computational analysis of text
-- Creation of new software tools to support their specific research area
+- Creation of new software {{< glossary_link display="tools" id="tools" >}} to support their specific research area
 - Social media analytics
 - Assessment and analysis of digital environments including mobile apps
 - Online games as social and cultural objects

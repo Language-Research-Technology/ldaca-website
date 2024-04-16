@@ -39,7 +39,7 @@ The Language Data Commons of Australia Data Partnerships (LDaCA) and the Austral
 
 The Data Commons will focus on preservation and discovery of distributed multi-modal language {{< glossary_link display="data collections" id="data-collection" >}} under a variety of governance frameworks. This will include access control that reflects ethical constraints and {{< glossary_link display="intellectual property" id="intellectual-property" >}} rights, including those of Aboriginal and Torres Strait Islander, migrant and Pacific communities.
 
-The platform will provide workbench services to support computational research, starting with code-notebooks with no-code research tools provided in later phases. Research artefacts such as code and derived data will be made available as fully documented research objects that are re-runnable and rigorously described. Metrics to demonstrate the impact of the platform are projected to include usage statistics, data and article citations. These projects are led by Professor Michael Haugh of the School of Languages and Culture at the University of Queensland with several partner institutions.
+The platform will provide workbench services to support computational research, starting with code-notebooks with no-code research tools provided in later phases. Research artefacts such as code and derived data will be made available as fully documented research {{< glossary_link display="objects" id="object" >}} that are re-runnable and rigorously described. Metrics to demonstrate the impact of the platform are projected to include usage statistics, data and article citations. These projects are led by Professor Michael Haugh of the School of Languages and Culture at the University of Queensland with several partner institutions.
 
 </section>
 
@@ -61,7 +61,7 @@ Last year at eResearch Australasia, the Language Data Commons of Australia (LDaC
 
 The {{< glossary_link display="ARDC" id="ardc" >}} have invested in a pilot of this work as part of the {{< glossary_link display="HASS" id="hass" >}} Research Data Commons and Indigenous Research Capability Program integration activities.
 
-The system has to be able to implement data access policies with real-world complexity and one of our challenges has been developing a data access policy that works across a range of different collections of language data. Here we present a pilot data access policy that we have developed, describing how this policy captures the decisions that must be made by a range of data providers to ensure data accessibility that complies with diverse legal, moral and ethical considerations.
+The system has to be able to implement data access policies with real-world complexity and one of our challenges has been developing a data access policy that works across a range of different {{< glossary_link display="collections" id="collection" >}} of language data. Here we present a pilot data access policy that we have developed, describing how this policy captures the decisions that must be made by a range of data providers to ensure data accessibility that complies with diverse legal, moral and ethical considerations.
 We will discuss how the [CARE] and [FAIR] principles underpin this work, and compare this work to other projects such as [CADRE], which promise to deliver more complex solutions in the future. Initial work is with collections curated in a research context but we will also address community access to these resources.
 
 The idea is to separate safe storage of data from its delivery. Each item in a repository is stored with {{< glossary_link display="licensing" id="licensing" >}} information in natural language (English at the moment, but could be other languages) and the repository defers access decisions to an Authorization system, where data custodians can design whatever process they like for granting license access. This can range from simple click-through licenses where anyone can agree to license terms, to detailed multi-step workflows where applicants are vetted based on whatever criteria the rights holder wishes; qualifications, membership of a cultural group, have they paid a subscription fee, etc
@@ -97,7 +97,7 @@ We are designing the system so that it can work with diverse ways of expressing 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide06.png' alt='Case Study - Sydney Speaks  ' title='Slide: 6' border='1'  width='85%%'/>
 
-In this talk, we look at a case study with the [Sydney Speaks project](https://slll.cass.anu.edu.au/sydney-speaks) via LDaCA steering committee member Professor [Catherine Travis](https://orcid.org/0000-0002-1410-3268).
+In this talk, we look at a case study with the [Sydney Speaks project](https://slll.cass.anu.edu.au/sydney-speaks) via {{< glossary_link display="LDaCA" id="ldaca" >}} steering committee member Professor [Catherine Travis](https://orcid.org/0000-0002-1410-3268).
 
 > This project seeks to document and explore Australian English, as spoken in Australia’s largest and most ethnically and linguistically diverse city – Sydney.
 > The title “Sydney Speaks” captures a key defining feature of the project: the data come from recorded conversations between Sydney siders, as they tell stories about their lives and experiences, their opinions and attitudes. This allows us to measure how their lived experiences impact their speech patterns.
@@ -135,7 +135,7 @@ Concerns about rights and interests are important for any data involving people 
 
 Let's go over some basics, starting with _licenses_.
 
-A license in this context is _a natural language document_ in which a copyright holder sets out the terms and conditions of use for data. Licenses _may_ have metadata that describes them, e.g. a property to say that this is an open license (and does not require a check when serving data).
+A license in this context is _a natural language document_ in which a copyright holder sets out the terms and conditions of use for data. Licenses _may_ have {{< glossary_link display="metadata" id="metadata" >}} that describes them, e.g. a property to say that this is an open license (and does not require a check when serving data).
 
 A license is not a computer program, or configuration, or an AI entity that can make decisions, it’s a legal document. You may also know this as a “data sharing agreement” or “terms of use”. Examples of licenses we see all the time are the GNU GPL or the various {{< glossary_link display="Creative Commons licenses" id="creative-commons-licenses" >}} which grant rights to others to redistribute a creative work, and specifies conditions on what changes are permitted.
 

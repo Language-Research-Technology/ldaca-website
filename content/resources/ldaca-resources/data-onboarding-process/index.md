@@ -21,7 +21,7 @@ description: "Outlines the standards and processes that support the onboarding o
 
 ## Purpose
 
-This document outlines the standards and processes that support the onboarding of language collections to LDaCA. A successful onboarding will result in the collection being catalogued with LDaCA and made available in accordance with the specified {{< glossary_link display="access conditions" id="access-conditions" >}}. To determine if you are ready to onboard a collection, check this data management and governance capacity flowchart.
+This document outlines the standards and processes that support the onboarding of language {{< glossary_link display="collections" id="collection" >}} to {{< glossary_link display="LDaCA" id="ldaca" >}}. A successful onboarding will result in the collection being catalogued with LDaCA and made available in accordance with the specified {{< glossary_link display="access conditions" id="access-conditions" >}}. To determine if you are ready to onboard a collection, check this data management and governance capacity flowchart.
 
  <br>
 
@@ -47,7 +47,7 @@ These five steps are covered in detail below, along with the responsibilities of
 
 {{< glossary_link display="Data Stewards" id="data-steward" >}} wishing to onboard data to LDaCA may approach LDaCA about this, and LDaCA will also seek to identify appropriate collections for onboarding.
 
-LDaCA will gather relevant publicly available information, and record that information in a collection onboarding database. This includes information about the current location, significance and description of the collection; size, format and data structure; existing metadata; persistent identifiers (if any) and contact person.
+LDaCA will gather relevant publicly available information, and record that information in a collection onboarding database. This includes information about the current location, significance and description of the collection; size, format and data structure; existing {{< glossary_link display="metadata" id="metadata" >}}; persistent identifiers (if any) and contact person.
 
 Contact between LDaCA and the {{< glossary_link display="Data Steward" id="data-steward" >}} is initiated with the aim of identifying the appropriate {{< glossary_link display="Data Steward" id="data-steward" >}}, establishing a collaborative relationship, providing information about LDaCA, and discussing shared goals for the onboarding of the collection to LDaCA.
 
