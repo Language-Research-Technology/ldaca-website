@@ -21,8 +21,15 @@ $color_count: 1;
 .main {
   background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url("/BackgroundIMGs/Contact.png") repeat-y left top;
   background-size: 100% auto;
-
 }
+
+[theme="light"] .main {
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url("/BackgroundIMGs/Contact.png") repeat-y left top;
+}
+[theme="dark"] .main {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(41,42,45,255)), url("/BackgroundIMGs/Contact.png") repeat-y left top;
+}
+
 
 [theme="dark"] a {
   color: $clear_blue;
@@ -142,13 +149,30 @@ div {
 }
 
 .header-wrapper {
-  background-image: linear-gradient(rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0));
   padding-bottom: 3rem;
+  background-image: linear-gradient(rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0));
+}
+
+[theme="light"] .header-wrapper {
+  background-color: none;
+  background-image: linear-gradient(rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0));
+}
+[theme="dark"] .header-wrapper {
+  background-image: none;
+  background-color: rgba(98, 136, 97, 0.2);
 }
 
 @media only screen and (max-width: 2700px) {
   #header-desktop .header-wrapper {
     padding-bottom: 3rem;
+    [theme="light"] div {
+      background-color: none;
+      background-image: linear-gradient(rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0));
+    }
+    [theme="dark"] div {
+      background-image: none;
+      background-color: rgba(98, 136, 97, 0.2);
+    }
   }
 }
 
@@ -729,9 +753,18 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
   [theme="dark"] a {
     color: #a9a9b3;
   }
-  [theme="light"] {
+  [theme="light"] a {
     color: black;
   }
+}
+
+[theme="light"] .footer {
+  background-color: none;
+  background-image: linear-gradient(rgba(133, 157, 94, 0), rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0.2));
+}
+[theme="dark"] .footer {
+  background-image: none;
+  background-color: rgba(98, 136, 97, 0.2);
 }
 
 [theme="dark"] .footer .content a:hover {
