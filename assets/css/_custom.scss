@@ -154,23 +154,18 @@ div {
 
 .header-wrapper {
   padding-bottom: 3rem;
-  background-image: linear-gradient(rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0));
+  background-color: rgba(133, 157, 94, 0.2);
 }
 [theme="light"] .header-wrapper {
-  background-color: none;
-  background-image: linear-gradient(rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0));
+  background-color: rgba(133, 157, 94, 0.2);
 }
 [theme="dark"] .header-wrapper {
-  background-image: none;
   background-color: rgba(98, 136, 97, 0.2);
   padding-bottom: 0;
 }
 
 @media only screen and (max-width: 2700px) {
-  [theme="light"] #header-desktop .header-wrapper {
-    padding-bottom: 3rem;
-  }
-  [theme="dark"] #header-desktop .header-wrapper {
+  #header-desktop .header-wrapper {
     padding-bottom: 0;
   }
 }
@@ -178,15 +173,6 @@ div {
 @media only screen and (max-width: 1440px) {
   .page {
     width: 92%;
-  }
-  #header-desktop .header-wrapper {
-    padding-bottom: 2rem;
-  }
-  [theme="light"] #header-desktop .header-wrapper {
-    padding-bottom: 2rem;
-  }
-  [theme="dark"] #header-desktop .header-wrapper {
-    padding-bottom: 0;
   }
 }
 
@@ -196,14 +182,6 @@ div {
   }
   #header-desktop .header-wrapper {
     padding-right: 1rem;
-    padding-bottom: 1rem;
-  }
-  [theme="light"] #header-desktop .header-wrapper {
-    padding-right: 1rem;
-    padding-bottom: 1rem;
-  }
-  [theme="dark"] #header-desktop .header-wrapper {
-    padding-bottom: 0;
   }
 
   .search-dropdown.desktop {
@@ -754,7 +732,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .footer {
-  background-image: linear-gradient(rgba(133, 157, 94, 0), rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0.2));
+  background-color: rgba(133, 157, 94, 0.2);
   position: relative;
   width: 100%;
   bottom: 0;
@@ -770,8 +748,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 [theme="light"] .footer {
-  background-color: none;
-  background-image: linear-gradient(rgba(133, 157, 94, 0), rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0.2), rgba(133, 157, 94, 0.2));
+  background-color: rgba(133, 157, 94, 0.2);
 }
 [theme="dark"] .footer {
   background-image: none;
