@@ -19,9 +19,17 @@ $color_list: (
 $color_count: 1;
 
 .main {
-  background: url("/BackgroundIMGs/Contact.png") repeat-y left top;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url("/BackgroundIMGs/Contact.png") repeat-y left top;
   background-size: 100% auto;
 }
+
+[theme="light"] .main {
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url("/BackgroundIMGs/Contact.png") repeat-y left top;
+}
+[theme="dark"] .main {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(41,42,45,255)), url("/BackgroundIMGs/Contact.png") repeat-y left top;
+}
+
 
 [theme="dark"] a {
   color: $clear_blue;
@@ -140,6 +148,28 @@ div {
   width: 80%;
 }
 
+#header-desktop .header-wrapper {
+  padding: 0 2rem 1rem 10vh;
+}
+
+.header-wrapper {
+  padding-bottom: 3rem;
+  background-color: rgba(133, 157, 94, 0.2);
+}
+[theme="light"] .header-wrapper {
+  background-color: rgba(133, 157, 94, 0.2);
+}
+[theme="dark"] .header-wrapper {
+  background-color: rgba(98, 136, 97, 0.2);
+  padding-bottom: 0;
+}
+
+@media only screen and (max-width: 2700px) {
+  #header-desktop .header-wrapper {
+    padding-bottom: 0;
+  }
+}
+
 @media only screen and (max-width: 1440px) {
   .page {
     width: 92%;
@@ -150,7 +180,6 @@ div {
   .page {
     width: 82%;
   }
-
   #header-desktop .header-wrapper {
     padding-right: 1rem;
   }
@@ -300,7 +329,7 @@ a.menu-item.theme-switch {
   align-items: center;
   min-height: 30px;
   max-height: 50px;
-  background-color: rgba(126, 73, 47, 0.4);
+  background-color: rgba(98, 136, 97, 0.5);
   padding-left: 6.7%;
   padding-right: 4%;
   white-space: nowrap;
@@ -703,18 +732,27 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .footer {
-  background-color: rgba(126, 73, 47, 0.4);
+  background-color: rgba(133, 157, 94, 0.2);
   position: relative;
   width: 100%;
   bottom: 0;
   left: 0;
+  margin-top: 1vw;
   font-size: smaller;
   [theme="dark"] a {
     color: #a9a9b3;
   }
-  [theme="light"] {
+  [theme="light"] a {
     color: black;
   }
+}
+
+[theme="light"] .footer {
+  background-color: rgba(133, 157, 94, 0.2);
+}
+[theme="dark"] .footer {
+  background-image: none;
+  background-color: rgba(98, 136, 97, 0.2);
 }
 
 [theme="dark"] .footer .content a:hover {
