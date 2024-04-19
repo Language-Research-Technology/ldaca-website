@@ -404,7 +404,13 @@ enableRobotsTXT = true
     name = "Blog"
     url = "/news/posts/"
     parent = "news"
-    weight = 3   
+    weight = 3 
+  [[menu.main]]
+    identifier = "publications"
+    name = "Publications"
+    url = "/news/publications/"
+    parent = "news"
+    weight = 4    
   [[menu.main]]
     identifier = "contact"
     name = "Contact"
