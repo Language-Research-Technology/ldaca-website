@@ -8,14 +8,20 @@
 </ul>
 <p>This blog post features <a href="https://researchers.anu.edu.au/researchers/travis-ce" target="_blank" rel="noopener noreffer ">Catherine Travis</a> (CT), <a href="https://researchprofiles.anu.edu.au/en/persons/nicholas-evans" target="_blank" rel="noopener noreffer ">Nicholas Evans</a> (NE), and <a href="https://www.sydney.edu.au/arts/about/our-people/academic-staff/monika-bednarek.html" target="_blank" rel="noopener noreffer ">Monika Bednarek</a> (MB). Nick was a Chief Investigator in one of the first <a href="/resources/general-resources/glossary/#ardc" title="Australian Research Data Commons" target="_blank"
   >ARDC</a
->-funded projects for LDaCA under the Australian Data Partnerships program. Although he is not a CI on our current project, Nick remains a friend and supporter of LDaCA.</p>
+>-funded projects for <a href="/resources/general-resources/glossary/#ldaca" title="Language Data Commons of Australia" target="_blank"
+  >LDaCA</a
+> under the Australian Data Partnerships program. Although he is not a CI on our current project, Nick remains a friend and supporter of LDaCA.</p>
 <p>The interview was undertaken via email, and we are grateful to Kelvin Lee from the <a href="https://sydneycorpuslab.com/" target="_blank" rel="noopener noreffer ">Sydney Corpus Lab</a> for his assistance in undertaking the interviews and creating these blog posts.</p>
 <h3 id="what-is-your-role-in-these-projects">What is your role in these projects?</h3>
-<p><strong>CT</strong>: Our main goal at the Australian National University is to grow the set of collections that will be incorporated into LDaCA with a particular focus on Australian English and migrant languages. This involves identifying relevant collections, which is a bit of a ‘language dig’, as these are diverse, dispersed, and often quite hidden away. Many have restrictions around data sharing, so we work closely with <a href="/resources/general-resources/glossary/#data-steward" title="An individual or organisation with the authority to make decisions regarding the collection." target="_blank"
+<p><strong>CT</strong>: Our main goal at the Australian National University is to grow the set of <a href="/resources/general-resources/glossary/#collection" title="A group of related Objects." target="_blank"
+  >collections</a
+> that will be incorporated into LDaCA with a particular focus on Australian English and migrant languages. This involves identifying relevant collections, which is a bit of a ‘language dig’, as these are diverse, dispersed, and often quite hidden away. Many have restrictions around data sharing, so we work closely with <a href="/resources/general-resources/glossary/#data-steward" title="An individual or organisation with the authority to make decisions regarding the collection." target="_blank"
   >data stewards</a
 > to set up the appropriate access and <a href="/resources/general-resources/glossary/#licensing" title="A process that allows the copyright owner to share the right to access and use the data without reassigning the ownership of the copyright of the work." target="_blank"
   >licensing</a
-> conditions. As well as this, we are developing tools that can enhance the usability of both legacy corpora and newer collections, including tools for aligning transcripts that exist in different formats with their corresponding audio, standardising orthography, streamlining the anonymisation process, and so on. Right now, most of what we know about Australian English comes from middle-class Australians of Anglo-Celtic background living in major urban centres. A better representation of Australian society in our language collections will broaden the scope of the research that can be done, allow new questions to be asked, and provide a better picture of Australia overall.</p>
+> conditions. As well as this, we are developing <a href="/resources/general-resources/glossary/#tools" title="Code or software developed to support or enhance (language) data accessibility and use." target="_blank"
+  >tools</a
+> that can enhance the usability of both legacy corpora and newer collections, including tools for aligning transcripts that exist in different formats with their corresponding audio, standardising orthography, streamlining the anonymisation process, and so on. Right now, most of what we know about Australian English comes from middle-class Australians of Anglo-Celtic background living in major urban centres. A better representation of Australian society in our language collections will broaden the scope of the research that can be done, allow new questions to be asked, and provide a better picture of Australia overall.</p>
 <p><strong>NE</strong>: My role is to keep our foot on the gas for the huge job of getting a continued flow of new corpus data, as well as digitised legacy data, mostly for the languages of New Guinea and the Pacific.</p>
 <p><strong>MB</strong>: I’m the Academic Lead for these projects at the University of Sydney. In this role, I manage the projects overall and work closely with staff from the <a href="https://sydneycorpuslab.com/" target="_blank" rel="noopener noreffer ">Sydney Corpus Lab</a> and the <a href="https://www.sydney.edu.au/research/facilities/sydney-informatics-hub.html" target="_blank" rel="noopener noreffer ">Sydney Informatics Hub</a>. We develop text analytics tools and training for analysis of text/language, including but not limited to tools for linguistic and discourse analysis. A team at <a href="https://www.paradisec.org.au/" target="_blank" rel="noopener noreffer ">PARADISEC</a> is also involved and contributes to work packages around language collections for Indigenous languages of Australia and the Pacific.</p>
 <p>My role as director of the Sydney Corpus Lab is crucial for these projects. The lab’s mission is to build research capacity in corpus linguistics at the University of Sydney, to connect Australian corpus linguists, and to promote the method in Australia, both in linguistics and in other disciplines. We organise relevant events on corpus linguistics and text analytics, including guest lectures and workshops, and create resources such as corpora, blog posts, video playlists, and curated introductions in different languages.</p>
@@ -57,7 +63,11 @@
   >RO-Crate</a
 >) for consistent linked-data description of <a href="/resources/general-resources/glossary/#fair" title="Four key principles developed in 2016 with the aim of supporting the discovery and reuse of research data." target="_blank"
   >FAIR</a
-> digital objects, and a language data metadata profile to ensure long-term interoperability between systems and re-usability over time. We also discuss data <a href="/resources/general-resources/glossary/#licensing" title="A process that allows the copyright owner to share the right to access and use the data without reassigning the ownership of the copyright of the work." target="_blank"
+> digital <a href="/resources/general-resources/glossary/#object" title="A single resource or a group of tightly related resources." target="_blank"
+  >objects</a
+>, and a language data <a href="/resources/general-resources/glossary/#metadata" title="The information that defines and describes data." target="_blank"
+  >metadata</a
+> profile to ensure long-term interoperability between systems and re-usability over time. We also discuss data <a href="/resources/general-resources/glossary/#licensing" title="A process that allows the copyright owner to share the right to access and use the data without reassigning the ownership of the copyright of the work." target="_blank"
   >licensing</a
 > and authorization for access to non-open resources. We suggest that the approach shown here may be used in other disciplines or for other kinds of digital library, repository or archival systems.</p>
 <p>*The submitted abstract did not have the word data here - added for clarity</p>
@@ -82,7 +92,9 @@
 > under a variety of governance frameworks. This will include access control that reflects ethical constraints and <a href="/resources/general-resources/glossary/#intellectual-property" title="Creative works protected by law via patents, copyright and trademarks." target="_blank"
   >intellectual property</a
 > rights, including those of Aboriginal and Torres Strait Islander, migrant and Pacific communities.</p>
-<p>The platform will provide workbench services to support computational research, starting with code-notebooks with no-code research tools provided in later phases. Research artefacts such as code and derived data will be made available as fully documented research objects that are re-runnable and rigorously described. Metrics to demonstrate the impact of the platform are projected to include usage statistics, data and article citations. These projects are led by Professor Michael Haugh of the School of Languages and Cultures at the University of Queensland with several partner institutions.</p>
+<p>The platform will provide workbench services to support computational research, starting with code-notebooks with no-code research <a href="/resources/general-resources/glossary/#tools" title="Code or software developed to support or enhance (language) data accessibility and use." target="_blank"
+  >tools</a
+> provided in later phases. Research artefacts such as code and derived data will be made available as fully documented research objects that are re-runnable and rigorously described. Metrics to demonstrate the impact of the platform are projected to include usage statistics, data and article citations. These projects are led by Professor Michael Haugh of the School of Languages and Cultures at the University of Queensland with several partner institutions.</p>
 <p>We would like to acknowledge the traditional custodians of the lands on which we live and work and the importance of Indigenous knowledge, culture and language to these projects. Peter Sefton lives and works on Wiradjuri land, and for Nick Thieberger and Simon Musgrave, it&rsquo;s the land of the Kulin nation.</p>
 </section>
 <br>
@@ -95,7 +107,9 @@ PARADISEC</a
   >PARADISEC</a
 >. In summary – the <a href="/resources/general-resources/glossary/#paradisec" title="Pacific and Regional Archive for Digital Sources in Endangered Cultures" target="_blank"
   >PARADISEC</a
-> approach to simple data and metadata storage is something we want to continue in LDaCA, while the high cost for <a href="/resources/general-resources/glossary/#paradisec" title="Pacific and Regional Archive for Digital Sources in Endangered Cultures" target="_blank"
+> approach to simple data and metadata storage is something we want to continue in <a href="/resources/general-resources/glossary/#ldaca" title="Language Data Commons of Australia" target="_blank"
+  >LDaCA</a
+>, while the high cost for <a href="/resources/general-resources/glossary/#paradisec" title="Pacific and Regional Archive for Digital Sources in Endangered Cultures" target="_blank"
   >PARADISEC</a
 > of commissioning and maintaining its own software stack is something we want to address by taking a more standards-based approach to managing language and other data over the coming decades.</p>
 </section>
@@ -302,7 +316,9 @@ PARADISEC</a
 <br>
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
-<p>In the first phase of the LDaCA project, work focused on batch import of data using tools to convert collections – this approach was used on contemporary collections as well as for “rescuing” collections from older repository systems.</p>
+<p>In the first phase of the LDaCA project, work focused on batch import of data using tools to convert <a href="/resources/general-resources/glossary/#collection" title="A group of related Objects." target="_blank"
+  >collections</a
+> – this approach was used on contemporary collections as well as for “rescuing” collections from older repository systems.</p>
 </section>
 <br>
 <section typeof='http://purl.org/ontology/bibo/Slide'>
@@ -419,7 +435,9 @@ PARADISEC</a
 <br>
 <h3 id="2-what-excites-you-most-about-the-projects">2. What excites you most about the projects?</h3>
 <p><strong>LW</strong>: That it is both building an exciting tool for researchers to better understand language variation AND making a resource that is useful for Auslan students and members of the community.</p>
-<p><strong>MS</strong>: One of the most fulfilling aspects of my work is the opportunity to collaborate with researchers from diverse communities and fields or to see how resources I created help people from very different backgrounds in their work. I do take pride in inspiring and enabling researchers to explore the potential of computational methods, whether they are working on projects related to the language sciences, health sciences, social sciences, arts, or beyond. As a quantitative linguist who came to computation as a computerphobe philosopher, I really enjoy creating visualizations that communicate data and results and that provide an intuitive understanding of complex data sets. I also take pleasure in showing others how to perform statistical analyses that help them make informed decisions based on their findings. By optimizing workflows and automating procedures, I help researchers to work more efficiently and effectively, enabling them to achieve their goals more quickly and easily. Through my work, I aim to create an environment where researchers from diverse backgrounds and specializations can benefit from the potential of computational tools, regardless of their field of study or level of experience. I value the opportunity to work collaboratively with researchers to find solutions to complex problems, and to share my expertise with others to promote innovation and growth within the field. Overall, I believe that the application of computational methods is an exciting area of research that has the potential to transform the way we approach scientific inquiry in the humanities and social sciences. By helping researchers to explore the possibilities of these tools, I hope to contribute to a more vibrant and innovative research community.</p>
+<p><strong>MS</strong>: One of the most fulfilling aspects of my work is the opportunity to collaborate with researchers from diverse communities and fields or to see how resources I created help people from very different backgrounds in their work. I do take pride in inspiring and enabling researchers to explore the potential of computational methods, whether they are working on projects related to the language sciences, health sciences, social sciences, arts, or beyond. As a quantitative linguist who came to computation as a computerphobe philosopher, I really enjoy creating visualizations that communicate data and results and that provide an intuitive understanding of complex data sets. I also take pleasure in showing others how to perform statistical analyses that help them make informed decisions based on their findings. By optimizing workflows and automating procedures, I help researchers to work more efficiently and effectively, enabling them to achieve their goals more quickly and easily. Through my work, I aim to create an environment where researchers from diverse backgrounds and specializations can benefit from the potential of computational <a href="/resources/general-resources/glossary/#tools" title="Code or software developed to support or enhance (language) data accessibility and use." target="_blank"
+  >tools</a
+>, regardless of their field of study or level of experience. I value the opportunity to work collaboratively with researchers to find solutions to complex problems, and to share my expertise with others to promote innovation and growth within the field. Overall, I believe that the application of computational methods is an exciting area of research that has the potential to transform the way we approach scientific inquiry in the humanities and social sciences. By helping researchers to explore the possibilities of these tools, I hope to contribute to a more vibrant and innovative research community.</p>
 <p><strong>NT</strong>: Making textual material in these languages available so that speakers can find records in their own languages. Often there is very little available information for these languages, so every record becomes all the more important, especially in the context of colonial dispossession where the languages are no longer spoken everyday and there are efforts to relearn the language. It is exciting that this work can become part of a national commons, and be supported into the future, so that more and more material can be included. The simple task of locating a language record, digitising it, and making the files available with appropriate licenses means that it can be used by speakers, and by researchers for various new purposes.</p>
 <br>
 <h3 id="3-what-advice-would-you-give-someone-who-wants-to-get-started-with-text-analytics-corpus-linguistics-or-language-data-collection">3. What advice would you give someone who wants to get started with text analytics, corpus linguistics, or language data collection?</h3>
@@ -455,7 +473,9 @@ PARADISEC</a
 <p>During the 19th century (and into the 20th century), written records of Australian languages were produced by a variety of people such as explorers, missionaries, administrators (in fact, pretty much anyone who could be bothered). These records are scattered and new material continues to be found (for example, Des Crump&rsquo;s ongoing work in the <a href="https://www.slq.qld.gov.au/get-involved/fellowships-awards-residencies/queensland-memory-awards/state-library-queensland-medal" target="_blank" rel="noopener noreffer ">State Library of Queensland</a> and the Queensland State Archives). If you would like to get a flavour of some records of this kind, the <a href="https://nyingarn.net" target="_blank" rel="noopener noreffer ">Nyingarn project</a> is making many of them available online. (<a href="/resources/general-resources/glossary/#nyingarn" title="A 3-year Australian Research Council funded project that will provide digital access to early sources of Australia&#39;s Indigenous languages." target="_blank"
   >Nyingarn</a
 > builds on earlier work which presented the Indigenous language materials collected by Daisy Bates as an <a href="http://www.bates.org.au/" target="_blank" rel="noopener noreffer ">online resource</a>.) However, the efforts of these early recorders were sporadic, uncoordinated and poorly focused. In 1945, Sydney Baker wrote: &ldquo;Records of their languages are extremely deficient for instance, no exhaustive grammar of an aboriginal language has been published. There is no comprehensive or even partially comprehensive dictionary of reference to aboriginal dialects&rdquo; (p218). And this record did not reflect the richness of the oral tradition or of language use. For example, it is very difficult to make an accurate record of conversation when contemporaneous writing is your only technological resource.</p>
-<p>The non-Indigenous group who arrived in 1788 were the First Fleet, the first group of convicts transported from the United Kingdom with their jailers - English has had a permanent presence in Australia since that date. Written records are all that we have until the end of the 19th century, but they are extensive and a sample of them is available in the COrpus of Oz Early English (<a href="https://data.ldaca.edu.au/collection?id=arcp%3A%2F%2Fname%2Ccorpus-of-oz-early-english&amp;_crateId=arcp%3A%2F%2Fname%2Ccorpus-of-oz-early-english" target="_blank" rel="noopener noreffer ">COOEE</a>, Fritz 2007). This collection, and indeed the overall record, has the problems we expect to be associated with written sources. The authors are not a representative group, and the material is biased towards non-vernacular styles. Material such as Corbyn&rsquo;s more-or-less verbatim accounts of court scenes in mid-century Sydney is uncommon (Corbyn 1854), and it would be of great value to those researching the development of Australian English if more informal material (personal letters, diaries) could be made accessible.</p>
+<p>The non-Indigenous group who arrived in 1788 were the First Fleet, the first group of convicts transported from the United Kingdom with their jailers - English has had a permanent presence in Australia since that date. Written records are all that we have until the end of the 19th century, but they are extensive and a sample of them is available in the COrpus of Oz Early English (<a href="https://data.ldaca.edu.au/collection?id=arcp%3A%2F%2Fname%2Ccorpus-of-oz-early-english&amp;_crateId=arcp%3A%2F%2Fname%2Ccorpus-of-oz-early-english" target="_blank" rel="noopener noreffer ">COOEE</a>, Fritz 2007). This <a href="/resources/general-resources/glossary/#collection" title="A group of related Objects." target="_blank"
+  >collection</a
+>, and indeed the overall record, has the problems we expect to be associated with written sources. The authors are not a representative group, and the material is biased towards non-vernacular styles. Material such as Corbyn&rsquo;s more-or-less verbatim accounts of court scenes in mid-century Sydney is uncommon (Corbyn 1854), and it would be of great value to those researching the development of Australian English if more informal material (personal letters, diaries) could be made accessible.</p>
 <p>From 1788 on, speakers of non-Indigenous languages other than English have been present in Australia. Within the convict population (and then also amongst free settlers), a significant minority of the European population in Australia knew Irish. Speakers of other languages were occasionally present in the first part of the 19th century, and then, after the discovery of gold in the middle of the century, speakers of many languages, including major European languages and Sinitic languages, were present in Australia. The written records of these languages, represented by periodical publications, are diverse. But before turning to those records, a few words about the relative absence of Irish in the written record.</p>
 <p>As mentioned, a large proportion, probably around one-third, of those who arrived in Australia from the United Kingdom were Irish. Many had some knowledge of the language, even up to half of the Irish immigrants to Victoria according to Noone (2012). But some Irish transportees were political prisoners and use of the language was viewed with suspicion; speaking Irish could even be construed as a subversive act. There is evidence that the language continued to be spoken: Irish-speaking priests were needed to hear confessions, and interpreters were used in court occasionally. The written record, however, is limited. As O&rsquo;Farrell (1988) points out, Irish was not even used on tombstones, one place where Irish could be used without consequences. A bilingual magazine was published in Melbourne in the 1920s, but, rather than continuing a tradition, this is a manifestation of the <a href="https://en.wikipedia.org/wiki/Gaelic_revival" target="_blank" rel="noopener noreffer ">Gaelic revival</a>.</p>
 <p>Other non-Indigenous languages were also present from quite early in the post-invasion period, but increasingly so after the gold rushes of the mid-19th century. The crucial evidence here is the record of newspapers published in such languages, and here I rely on the <a href="https://glam-workbench.net/trove-newspapers/#finding-non-english-newspapers-in-trove" target="_blank" rel="noopener noreffer ">research of Tim Sherratt</a> using the resources of the National Library of Australia. German and Chinese were both well represented by published material from at least the middle of the 19th century and French and Italian were also present. Most of us probably think of Greek migration to Australia as a post-WW2 phenomenon, but publication in Greek started in 1931. Greek and Italian had important newspaper publications in the second half of the 20th century, as did Chinese but rather later.</p>
@@ -479,7 +499,9 @@ PARADISEC</a
 > has a substantial collection of filmed material created in Australia and again the ABC archives are potentially a valuable source, especially for non-scripted material (such as interviews and the like).</p>
 <p>The digital revolution of the last few decades is the third point of technological articulation and it has fundamentally altered our relationship to language data. This is true both for how we acquire and handle data and for what data is available. Pre-digital audio and video content required expensive equipment, the recorded media had to be stored very carefully and using the recordings caused them to deteriorate. Today, cheap (and very portable) equipment can produce excellent results for multimodal data, the resulting data can be replicated, edited and disseminated easily and without degradation, and any problems relating to storage of data are (largely) general ones. How we collect and view written data has also changed in various ways. Optical Character Recognition (<a href="/resources/general-resources/glossary/#ocr" title="Optical Character Recognition" target="_blank"
   >OCR</a
->) can transform the printed record into machine-readable text (and increasingly can access handwritten material), and new genres of writing have come into existence. These developments mean that the amount of data available is enormous and continues to expand. These large bodies of data would be intractable using traditional methods; fortunately, new tools have also been developed which allow us to analyse large collections of data.</p>
+>) can transform the printed record into machine-readable text (and increasingly can access handwritten material), and new genres of writing have come into existence. These developments mean that the amount of data available is enormous and continues to expand. These large bodies of data would be intractable using traditional methods; fortunately, new <a href="/resources/general-resources/glossary/#tools" title="Code or software developed to support or enhance (language) data accessibility and use." target="_blank"
+  >tools</a
+> have also been developed which allow us to analyse large collections of data.</p>
 <p>As a result of these changes, we face new and different problems in how we approach language data. Finding data is simple, but choosing what part of the data and/or how much of the data we should acquire may not be simple. Control of data has become complex when the definition of Public Domain has to accommodate new modes of dissemination and large collections of data are considered commercial assets.</p>
 <p>Even the question of what should be considered &lsquo;Australian language data&rsquo; does not have an obvious answer in this digital world. Does the language of an Australian resident from a South Asian background contributing to social media in Sri Lanka come under the term? What about the tweets of someone who was born in Australia and grew up here but has lived in Europe for a number of years? The landscape of this latest phase in language data is still emerging and finding good answers to these questions (and many others) will be needed before we can map the new landscape clearly.</p>
 <p><em>This post is based on presentations given to the LaTrobe University Linguistics Program (27 May 2021) and to the Monash University Linguistics Program (10 May 2022). I am grateful for helpful comments from both those audiences, and for comments on the draft of this post from Leah Gustafson, Sara King and Harriet Sheppard.</em></p>
@@ -496,8 +518,12 @@ PARADISEC</a
   >RO-Crate</a
 > - with Metadata Profile (the Language Data Commons) is being developed and implemented. Two major collections are collaborating on the standard, <a href="/resources/general-resources/glossary/#paradisec" title="Pacific and Regional Archive for Digital Sources in Endangered Cultures" target="_blank"
   >PARADISEC</a
-> and the Language Data Commons of Australia (LDaCA). This ongoing standardisation effort for language data is designed to improve interoperability, reduce costs for data migration and allow storage on disk, object storage or in archival repositories.</p>
-<p><a href="https://www.researchobject.org/ro-crate/" target="_blank" rel="noopener noreffer ">RO-Crate</a> is a linked-data metadata system which allows discovery metadata (Who, what where) based on the widely adopted Schema.org vocabulary to be seamlessly integrated with more discipline-specific metadata. <a href="/resources/general-resources/glossary/#ro-crate" title="Research Object Crate" target="_blank"
+> and the Language Data Commons of Australia (LDaCA). This ongoing standardisation effort for language data is designed to improve interoperability, reduce costs for data migration and allow storage on disk, <a href="/resources/general-resources/glossary/#object" title="A single resource or a group of tightly related resources." target="_blank"
+  >object</a
+> storage or in archival repositories.</p>
+<p><a href="https://www.researchobject.org/ro-crate/" target="_blank" rel="noopener noreffer ">RO-Crate</a> is a linked-data <a href="/resources/general-resources/glossary/#metadata" title="The information that defines and describes data." target="_blank"
+  >metadata</a
+> system which allows discovery metadata (Who, what where) based on the widely adopted Schema.org vocabulary to be seamlessly integrated with more discipline-specific metadata. <a href="/resources/general-resources/glossary/#ro-crate" title="Research Object Crate" target="_blank"
   >RO-Crate</a
 > uses metadata profiles to provide guidance for packaging resources for particular disciplines and purposes.</p>
 <p>In this presentation, we will introduce a <a href="/resources/general-resources/glossary/#ro-crate" title="Research Object Crate" target="_blank"
@@ -506,14 +532,18 @@ PARADISEC</a
   >RO-Crate</a
 > standard with new vocabulary terms adapted from pre-linked-data discipline-specific metadata efforts, particularly the Open Language Archives Community (<a href="/resources/general-resources/glossary/#olac" title="Open Language Archives Community" target="_blank"
   >OLAC</a
->) standards. The profile has English-language guidance on how to structure collections of resources in a repository with links between them, such that they can be indexed and displayed via <a href="/resources/general-resources/glossary/#api" title="Application Programming Interface" target="_blank"
+>) standards. The profile has English-language guidance on how to structure <a href="/resources/general-resources/glossary/#collection" title="A group of related Objects." target="_blank"
+  >collections</a
+> of resources in a repository with links between them, such that they can be indexed and displayed via <a href="/resources/general-resources/glossary/#api" title="Application Programming Interface" target="_blank"
   >APIs</a
 > and search/browse portals. The profile is also implemented as a series of machine-readable profiles for the <a href="/resources/general-resources/glossary/#describo" title="A tool that allows you to create and update RO-Crates." target="_blank"
   >Describo</a
 > Online metadata description system.</p>
 <p>We will demonstrate current ways of describing items in a variety of languages and modes (spoken, written and signed), from a large set of heterogeneous language resources held by <a href="/resources/general-resources/glossary/#paradisec" title="Pacific and Regional Archive for Digital Sources in Endangered Cultures" target="_blank"
   >PARADISEC</a
-> and LDaCA. We will also show how to access them via <a href="/resources/general-resources/glossary/#api" title="Application Programming Interface" target="_blank"
+> and <a href="/resources/general-resources/glossary/#ldaca" title="Language Data Commons of Australia" target="_blank"
+  >LDaCA</a
+>. We will also show how to access them via <a href="/resources/general-resources/glossary/#api" title="Application Programming Interface" target="_blank"
   >API</a
 > calls and a search portal, and how resources may be stored in simple storage systems using the <a href="/resources/general-resources/glossary/#arkisto" title="A scalable, standards-based platform for sustainable data." target="_blank"
   >Arkisto</a
@@ -816,7 +846,9 @@ PARADISEC</a
 > under a variety of governance frameworks. This will include access control that reflects ethical constraints and <a href="/resources/general-resources/glossary/#intellectual-property" title="Creative works protected by law via patents, copyright and trademarks." target="_blank"
   >intellectual property</a
 > rights, including those of Aboriginal and Torres Strait Islander, migrant and Pacific communities.</p>
-<p>The platform will provide workbench services to support computational research, starting with code-notebooks with no-code research tools provided in later phases. Research artefacts such as code and derived data will be made available as fully documented research objects that are re-runnable and rigorously described. Metrics to demonstrate the impact of the platform are projected to include usage statistics, data and article citations. These projects are led by Professor Michael Haugh of the School of Languages and Culture at the University of Queensland with several partner institutions.</p>
+<p>The platform will provide workbench services to support computational research, starting with code-notebooks with no-code research tools provided in later phases. Research artefacts such as code and derived data will be made available as fully documented research <a href="/resources/general-resources/glossary/#object" title="A single resource or a group of tightly related resources." target="_blank"
+  >objects</a
+> that are re-runnable and rigorously described. Metrics to demonstrate the impact of the platform are projected to include usage statistics, data and article citations. These projects are led by Professor Michael Haugh of the School of Languages and Culture at the University of Queensland with several partner institutions.</p>
 </section>
 <br>
 <section typeof='http://purl.org/ontology/bibo/Slide'>
@@ -838,7 +870,9 @@ PARADISEC</a
 > have invested in a pilot of this work as part of the <a href="/resources/general-resources/glossary/#hass" title="Humanities, Arts and Social Sciences" target="_blank"
   >HASS</a
 > Research Data Commons and Indigenous Research Capability Program integration activities.</p>
-<p>The system has to be able to implement data access policies with real-world complexity and one of our challenges has been developing a data access policy that works across a range of different collections of language data. Here we present a pilot data access policy that we have developed, describing how this policy captures the decisions that must be made by a range of data providers to ensure data accessibility that complies with diverse legal, moral and ethical considerations.
+<p>The system has to be able to implement data access policies with real-world complexity and one of our challenges has been developing a data access policy that works across a range of different <a href="/resources/general-resources/glossary/#collection" title="A group of related Objects." target="_blank"
+  >collections</a
+> of language data. Here we present a pilot data access policy that we have developed, describing how this policy captures the decisions that must be made by a range of data providers to ensure data accessibility that complies with diverse legal, moral and ethical considerations.
 We will discuss how the <a href="https://www.gida-global.org/care" target="_blank" rel="noopener noreffer ">CARE</a> and <a href="https://www.nature.com/articles/sdata201618" target="_blank" rel="noopener noreffer ">FAIR</a> principles underpin this work, and compare this work to other projects such as <a href="https://ardc.edu.au/project/cadre/" target="_blank" rel="noopener noreffer ">CADRE</a>, which promise to deliver more complex solutions in the future. Initial work is with collections curated in a research context but we will also address community access to these resources.</p>
 <p>The idea is to separate safe storage of data from its delivery. Each item in a repository is stored with <a href="/resources/general-resources/glossary/#licensing" title="A process that allows the copyright owner to share the right to access and use the data without reassigning the ownership of the copyright of the work." target="_blank"
   >licensing</a
@@ -864,7 +898,9 @@ We will discuss how the <a href="https://www.gida-global.org/care" target="_blan
 <br>
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
-<p>In this talk, we look at a case study with the <a href="https://slll.cass.anu.edu.au/sydney-speaks" target="_blank" rel="noopener noreffer ">Sydney Speaks project</a> via LDaCA steering committee member Professor <a href="https://orcid.org/0000-0002-1410-3268" target="_blank" rel="noopener noreffer ">Catherine Travis</a>.</p>
+<p>In this talk, we look at a case study with the <a href="https://slll.cass.anu.edu.au/sydney-speaks" target="_blank" rel="noopener noreffer ">Sydney Speaks project</a> via <a href="/resources/general-resources/glossary/#ldaca" title="Language Data Commons of Australia" target="_blank"
+  >LDaCA</a
+> steering committee member Professor <a href="https://orcid.org/0000-0002-1410-3268" target="_blank" rel="noopener noreffer ">Catherine Travis</a>.</p>
 <blockquote>
 <p>This project seeks to document and explore Australian English, as spoken in Australia’s largest and most ethnically and linguistically diverse city – Sydney.
 The title “Sydney Speaks” captures a key defining feature of the project: the data come from recorded conversations between Sydney siders, as they tell stories about their lives and experiences, their opinions and attitudes. This allows us to measure how their lived experiences impact their speech patterns.
@@ -891,7 +927,9 @@ Source: <a href="http://www.dynamicsoflanguage.edu.au/sydney-speaks/" target="_b
 
 <p>(Image generated by DALLE - prompt: A NSW Driver license for a wolfhound pup named Floki)</p>
 <p>Let&rsquo;s go over some basics, starting with <em>licenses</em>.</p>
-<p>A license in this context is <em>a natural language document</em> in which a copyright holder sets out the terms and conditions of use for data. Licenses <em>may</em> have metadata that describes them, e.g. a property to say that this is an open license (and does not require a check when serving data).</p>
+<p>A license in this context is <em>a natural language document</em> in which a copyright holder sets out the terms and conditions of use for data. Licenses <em>may</em> have <a href="/resources/general-resources/glossary/#metadata" title="The information that defines and describes data." target="_blank"
+  >metadata</a
+> that describes them, e.g. a property to say that this is an open license (and does not require a check when serving data).</p>
 <p>A license is not a computer program, or configuration, or an AI entity that can make decisions, it’s a legal document. You may also know this as a “data sharing agreement” or “terms of use”. Examples of licenses we see all the time are the GNU GPL or the various <a href="/resources/general-resources/glossary/#creative-commons-licenses" title="A set of licenses that allow for data reusability under specified conditions." target="_blank"
   >Creative Commons licenses</a
 > which grant rights to others to redistribute a creative work, and specifies conditions on what changes are permitted.</p>
@@ -1201,7 +1239,9 @@ of some hard-to-maintain application.</p>
 <br>
 <p></p>
 <p>The first standard is the <a href="https://ocfl.io/1.0/spec/" target="_blank" rel="noopener noreffer ">Oxford Common File Layout</a> -
-this is a way of keeping version-controlled digital objects on a plain old
+this is a way of keeping version-controlled digital <a href="/resources/general-resources/glossary/#object" title="A single resource or a group of tightly related resources." target="_blank"
+  >objects</a
+> on a plain old
 filesystem or object store.</p>
 <p>Here’s the introduction to the spec:</p>
 <blockquote>
@@ -1217,7 +1257,9 @@ filesystem or object store.</p>
 <p><strong>Completeness</strong></p>
 <p>The <a href="/resources/general-resources/glossary/#ocfl" title="Oxford Common File Layout" target="_blank"
   >OCFL</a
-> recommends storing metadata and the content it describes together so the <a href="/resources/general-resources/glossary/#ocfl" title="Oxford Common File Layout" target="_blank"
+> recommends storing <a href="/resources/general-resources/glossary/#metadata" title="The information that defines and describes data." target="_blank"
+  >metadata</a
+> and the content it describes together so the <a href="/resources/general-resources/glossary/#ocfl" title="Oxford Common File Layout" target="_blank"
   >OCFL</a
 > object can be fully understood in the absence of original software. The <a href="/resources/general-resources/glossary/#ocfl" title="Oxford Common File Layout" target="_blank"
   >OCFL</a
@@ -1294,7 +1336,9 @@ The third key standard for <a href="/resources/general-resources/glossary/#arkis
 >, this was developed by members of the digital library/repository
 community. It was devised as a way to do interchange between repository
 systems, most of which, it turned out had evolved very similar ways of having
-nested collections, digital objects that aggregate related files. Using this
+nested <a href="/resources/general-resources/glossary/#collection" title="A group of related Objects." target="_blank"
+  >collections</a
+>, digital objects that aggregate related files. Using this
 very simple ontology allows us to store data in the <a href="/resources/general-resources/glossary/#ocfl" title="Oxford Common File Layout" target="_blank"
   >OCFL</a
 > layer in a very
@@ -1379,7 +1423,9 @@ can be “re-collected” for use and re-use.</p>
 that consumes datasets in a predictable way) it must be well described. The
 <a href="/resources/general-resources/glossary/#atap" title="Australian Text Analytics Platform" target="_blank"
   >ATAP</a
-> and LDaCA approach to this is to use the Research Object Crate (<a href="/resources/general-resources/glossary/#ro-crate" title="Research Object Crate" target="_blank"
+> and <a href="/resources/general-resources/glossary/#ldaca" title="Language Data Commons of Australia" target="_blank"
+  >LDaCA</a
+> approach to this is to use the Research Object Crate (<a href="/resources/general-resources/glossary/#ro-crate" title="Research Object Crate" target="_blank"
   >RO-Crate</a
 >
 ) specification. <a href="/resources/general-resources/glossary/#ro-crate" title="Research Object Crate" target="_blank"
@@ -1757,7 +1803,9 @@ According to these principles, data should be:</p>
 <ul>
 <li>
 <p><em>Findable</em></p>
-<p>  Metadata and data should be easy to find for both humans and computers.</p>
+<p>  <a href="/resources/general-resources/glossary/#metadata" title="The information that defines and describes data." target="_blank"
+  >Metadata</a
+> and data should be easy to find for both humans and computers.</p>
 </li>
 <li>
 <p><em>Accessible</em></p>
@@ -1779,7 +1827,9 @@ According to these principles, data should be:</p>
 > annotations). Data stored in such formats is easy to move between applications. But what about the other three criteria?</p>
 <p>Some corpus data is easy to discover; it is findable. For example, CLARIN, the <a href="https://www.clarin.eu/content/data" target="_blank" rel="noopener noreffer ">portal</a> to the European Union language resource infrastructure, provides access to many large <a href="/resources/general-resources/glossary/#data-collection" title="A set of data collected under similar conditions and brought together in a shared framework." target="_blank"
   >data collections</a
->, as does the <a href="https://www.ldc.upenn.edu/" target="_blank" rel="noopener noreffer ">Linguistic Data Consortium</a> in the USA. However, some data is never made part of a large collection and often remains under the control of individual researchers or research teams. Such data may be almost impossible to find. Even if we can find such data, it is unlikely to be accompanied by good descriptions of the data and metadata, making reusability problematic. Of course, big corpora such as the <a href="http://www.natcorp.ox.ac.uk/" target="_blank" rel="noopener noreffer ">British National Corpus</a> will be both findable and accompanied by comprehensive corpus manuals. However, it is worth considering how to make other corpora more findable, including the provision of corpus manuals or corpus descriptions. Corpus resource databases such as <a href="https://varieng.helsinki.fi/CoRD/" target="_blank" rel="noopener noreffer ">CoRD</a> do aim to work towards this principle.</p>
+>, as does the <a href="https://www.ldc.upenn.edu/" target="_blank" rel="noopener noreffer ">Linguistic Data Consortium</a> in the USA. However, some data is never made part of a large <a href="/resources/general-resources/glossary/#collection" title="A group of related Objects." target="_blank"
+  >collection</a
+> and often remains under the control of individual researchers or research teams. Such data may be almost impossible to find. Even if we can find such data, it is unlikely to be accompanied by good descriptions of the data and metadata, making reusability problematic. Of course, big corpora such as the <a href="http://www.natcorp.ox.ac.uk/" target="_blank" rel="noopener noreffer ">British National Corpus</a> will be both findable and accompanied by comprehensive corpus manuals. However, it is worth considering how to make other corpora more findable, including the provision of corpus manuals or corpus descriptions. Corpus resource databases such as <a href="https://varieng.helsinki.fi/CoRD/" target="_blank" rel="noopener noreffer ">CoRD</a> do aim to work towards this principle.</p>
 <p>Accessibility may also be an issue for some data. <a href="/resources/general-resources/glossary/#copyright" title="The legal right of the owner of intellectual property." target="_blank"
   >Copyright</a
 > law may allow use of material for individual research but prohibit any further distribution of the material. The <a href="/resources/general-resources/glossary/#fair" title="Four key principles developed in 2016 with the aim of supporting the discovery and reuse of research data." target="_blank"

@@ -12,7 +12,11 @@
   >RO-Crate</a
 >) for consistent linked-data description of <a href="/resources/general-resources/glossary/#fair" title="Four key principles developed in 2016 with the aim of supporting the discovery and reuse of research data." target="_blank"
   >FAIR</a
-> digital objects, and a language data metadata profile to ensure long-term interoperability between systems and re-usability over time. We also discuss data <a href="/resources/general-resources/glossary/#licensing" title="A process that allows the copyright owner to share the right to access and use the data without reassigning the ownership of the copyright of the work." target="_blank"
+> digital <a href="/resources/general-resources/glossary/#object" title="A single resource or a group of tightly related resources." target="_blank"
+  >objects</a
+>, and a language data <a href="/resources/general-resources/glossary/#metadata" title="The information that defines and describes data." target="_blank"
+  >metadata</a
+> profile to ensure long-term interoperability between systems and re-usability over time. We also discuss data <a href="/resources/general-resources/glossary/#licensing" title="A process that allows the copyright owner to share the right to access and use the data without reassigning the ownership of the copyright of the work." target="_blank"
   >licensing</a
 > and authorization for access to non-open resources. We suggest that the approach shown here may be used in other disciplines or for other kinds of digital library, repository or archival systems.</p>
 <p>*The submitted abstract did not have the word data here - added for clarity</p>
@@ -37,7 +41,9 @@
 > under a variety of governance frameworks. This will include access control that reflects ethical constraints and <a href="/resources/general-resources/glossary/#intellectual-property" title="Creative works protected by law via patents, copyright and trademarks." target="_blank"
   >intellectual property</a
 > rights, including those of Aboriginal and Torres Strait Islander, migrant and Pacific communities.</p>
-<p>The platform will provide workbench services to support computational research, starting with code-notebooks with no-code research tools provided in later phases. Research artefacts such as code and derived data will be made available as fully documented research objects that are re-runnable and rigorously described. Metrics to demonstrate the impact of the platform are projected to include usage statistics, data and article citations. These projects are led by Professor Michael Haugh of the School of Languages and Cultures at the University of Queensland with several partner institutions.</p>
+<p>The platform will provide workbench services to support computational research, starting with code-notebooks with no-code research <a href="/resources/general-resources/glossary/#tools" title="Code or software developed to support or enhance (language) data accessibility and use." target="_blank"
+  >tools</a
+> provided in later phases. Research artefacts such as code and derived data will be made available as fully documented research objects that are re-runnable and rigorously described. Metrics to demonstrate the impact of the platform are projected to include usage statistics, data and article citations. These projects are led by Professor Michael Haugh of the School of Languages and Cultures at the University of Queensland with several partner institutions.</p>
 <p>We would like to acknowledge the traditional custodians of the lands on which we live and work and the importance of Indigenous knowledge, culture and language to these projects. Peter Sefton lives and works on Wiradjuri land, and for Nick Thieberger and Simon Musgrave, it&rsquo;s the land of the Kulin nation.</p>
 </section>
 <br>
@@ -50,7 +56,9 @@ PARADISEC</a
   >PARADISEC</a
 >. In summary – the <a href="/resources/general-resources/glossary/#paradisec" title="Pacific and Regional Archive for Digital Sources in Endangered Cultures" target="_blank"
   >PARADISEC</a
-> approach to simple data and metadata storage is something we want to continue in LDaCA, while the high cost for <a href="/resources/general-resources/glossary/#paradisec" title="Pacific and Regional Archive for Digital Sources in Endangered Cultures" target="_blank"
+> approach to simple data and metadata storage is something we want to continue in <a href="/resources/general-resources/glossary/#ldaca" title="Language Data Commons of Australia" target="_blank"
+  >LDaCA</a
+>, while the high cost for <a href="/resources/general-resources/glossary/#paradisec" title="Pacific and Regional Archive for Digital Sources in Endangered Cultures" target="_blank"
   >PARADISEC</a
 > of commissioning and maintaining its own software stack is something we want to address by taking a more standards-based approach to managing language and other data over the coming decades.</p>
 </section>
@@ -257,7 +265,9 @@ PARADISEC</a
 <br>
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
-<p>In the first phase of the LDaCA project, work focused on batch import of data using tools to convert collections – this approach was used on contemporary collections as well as for “rescuing” collections from older repository systems.</p>
+<p>In the first phase of the LDaCA project, work focused on batch import of data using tools to convert <a href="/resources/general-resources/glossary/#collection" title="A group of related Objects." target="_blank"
+  >collections</a
+> – this approach was used on contemporary collections as well as for “rescuing” collections from older repository systems.</p>
 </section>
 <br>
 <section typeof='http://purl.org/ontology/bibo/Slide'>
@@ -370,7 +380,9 @@ PARADISEC</a
 > under a variety of governance frameworks. This will include access control that reflects ethical constraints and <a href="/resources/general-resources/glossary/#intellectual-property" title="Creative works protected by law via patents, copyright and trademarks." target="_blank"
   >intellectual property</a
 > rights, including those of Aboriginal and Torres Strait Islander, migrant and Pacific communities.</p>
-<p>The platform will provide workbench services to support computational research, starting with code-notebooks with no-code research tools provided in later phases. Research artefacts such as code and derived data will be made available as fully documented research objects that are re-runnable and rigorously described. Metrics to demonstrate the impact of the platform are projected to include usage statistics, data and article citations. These projects are led by Professor Michael Haugh of the School of Languages and Culture at the University of Queensland with several partner institutions.</p>
+<p>The platform will provide workbench services to support computational research, starting with code-notebooks with no-code research tools provided in later phases. Research artefacts such as code and derived data will be made available as fully documented research <a href="/resources/general-resources/glossary/#object" title="A single resource or a group of tightly related resources." target="_blank"
+  >objects</a
+> that are re-runnable and rigorously described. Metrics to demonstrate the impact of the platform are projected to include usage statistics, data and article citations. These projects are led by Professor Michael Haugh of the School of Languages and Culture at the University of Queensland with several partner institutions.</p>
 </section>
 <br>
 <section typeof='http://purl.org/ontology/bibo/Slide'>
@@ -392,7 +404,9 @@ PARADISEC</a
 > have invested in a pilot of this work as part of the <a href="/resources/general-resources/glossary/#hass" title="Humanities, Arts and Social Sciences" target="_blank"
   >HASS</a
 > Research Data Commons and Indigenous Research Capability Program integration activities.</p>
-<p>The system has to be able to implement data access policies with real-world complexity and one of our challenges has been developing a data access policy that works across a range of different collections of language data. Here we present a pilot data access policy that we have developed, describing how this policy captures the decisions that must be made by a range of data providers to ensure data accessibility that complies with diverse legal, moral and ethical considerations.
+<p>The system has to be able to implement data access policies with real-world complexity and one of our challenges has been developing a data access policy that works across a range of different <a href="/resources/general-resources/glossary/#collection" title="A group of related Objects." target="_blank"
+  >collections</a
+> of language data. Here we present a pilot data access policy that we have developed, describing how this policy captures the decisions that must be made by a range of data providers to ensure data accessibility that complies with diverse legal, moral and ethical considerations.
 We will discuss how the <a href="https://www.gida-global.org/care" target="_blank" rel="noopener noreffer ">CARE</a> and <a href="https://www.nature.com/articles/sdata201618" target="_blank" rel="noopener noreffer ">FAIR</a> principles underpin this work, and compare this work to other projects such as <a href="https://ardc.edu.au/project/cadre/" target="_blank" rel="noopener noreffer ">CADRE</a>, which promise to deliver more complex solutions in the future. Initial work is with collections curated in a research context but we will also address community access to these resources.</p>
 <p>The idea is to separate safe storage of data from its delivery. Each item in a repository is stored with <a href="/resources/general-resources/glossary/#licensing" title="A process that allows the copyright owner to share the right to access and use the data without reassigning the ownership of the copyright of the work." target="_blank"
   >licensing</a
@@ -418,7 +432,9 @@ We will discuss how the <a href="https://www.gida-global.org/care" target="_blan
 <br>
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
-<p>In this talk, we look at a case study with the <a href="https://slll.cass.anu.edu.au/sydney-speaks" target="_blank" rel="noopener noreffer ">Sydney Speaks project</a> via LDaCA steering committee member Professor <a href="https://orcid.org/0000-0002-1410-3268" target="_blank" rel="noopener noreffer ">Catherine Travis</a>.</p>
+<p>In this talk, we look at a case study with the <a href="https://slll.cass.anu.edu.au/sydney-speaks" target="_blank" rel="noopener noreffer ">Sydney Speaks project</a> via <a href="/resources/general-resources/glossary/#ldaca" title="Language Data Commons of Australia" target="_blank"
+  >LDaCA</a
+> steering committee member Professor <a href="https://orcid.org/0000-0002-1410-3268" target="_blank" rel="noopener noreffer ">Catherine Travis</a>.</p>
 <blockquote>
 <p>This project seeks to document and explore Australian English, as spoken in Australia’s largest and most ethnically and linguistically diverse city – Sydney.
 The title “Sydney Speaks” captures a key defining feature of the project: the data come from recorded conversations between Sydney siders, as they tell stories about their lives and experiences, their opinions and attitudes. This allows us to measure how their lived experiences impact their speech patterns.
@@ -445,7 +461,9 @@ Source: <a href="http://www.dynamicsoflanguage.edu.au/sydney-speaks/" target="_b
 
 <p>(Image generated by DALLE - prompt: A NSW Driver license for a wolfhound pup named Floki)</p>
 <p>Let&rsquo;s go over some basics, starting with <em>licenses</em>.</p>
-<p>A license in this context is <em>a natural language document</em> in which a copyright holder sets out the terms and conditions of use for data. Licenses <em>may</em> have metadata that describes them, e.g. a property to say that this is an open license (and does not require a check when serving data).</p>
+<p>A license in this context is <em>a natural language document</em> in which a copyright holder sets out the terms and conditions of use for data. Licenses <em>may</em> have <a href="/resources/general-resources/glossary/#metadata" title="The information that defines and describes data." target="_blank"
+  >metadata</a
+> that describes them, e.g. a property to say that this is an open license (and does not require a check when serving data).</p>
 <p>A license is not a computer program, or configuration, or an AI entity that can make decisions, it’s a legal document. You may also know this as a “data sharing agreement” or “terms of use”. Examples of licenses we see all the time are the GNU GPL or the various <a href="/resources/general-resources/glossary/#creative-commons-licenses" title="A set of licenses that allow for data reusability under specified conditions." target="_blank"
   >Creative Commons licenses</a
 > which grant rights to others to redistribute a creative work, and specifies conditions on what changes are permitted.</p>

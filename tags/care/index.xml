@@ -8,7 +8,9 @@ According to these principles, data should be:</p>
 <ul>
 <li>
 <p><em>Findable</em></p>
-<p>  Metadata and data should be easy to find for both humans and computers.</p>
+<p>  <a href="/resources/general-resources/glossary/#metadata" title="The information that defines and describes data." target="_blank"
+  >Metadata</a
+> and data should be easy to find for both humans and computers.</p>
 </li>
 <li>
 <p><em>Accessible</em></p>
@@ -30,7 +32,9 @@ According to these principles, data should be:</p>
 > annotations). Data stored in such formats is easy to move between applications. But what about the other three criteria?</p>
 <p>Some corpus data is easy to discover; it is findable. For example, CLARIN, the <a href="https://www.clarin.eu/content/data" target="_blank" rel="noopener noreffer ">portal</a> to the European Union language resource infrastructure, provides access to many large <a href="/resources/general-resources/glossary/#data-collection" title="A set of data collected under similar conditions and brought together in a shared framework." target="_blank"
   >data collections</a
->, as does the <a href="https://www.ldc.upenn.edu/" target="_blank" rel="noopener noreffer ">Linguistic Data Consortium</a> in the USA. However, some data is never made part of a large collection and often remains under the control of individual researchers or research teams. Such data may be almost impossible to find. Even if we can find such data, it is unlikely to be accompanied by good descriptions of the data and metadata, making reusability problematic. Of course, big corpora such as the <a href="http://www.natcorp.ox.ac.uk/" target="_blank" rel="noopener noreffer ">British National Corpus</a> will be both findable and accompanied by comprehensive corpus manuals. However, it is worth considering how to make other corpora more findable, including the provision of corpus manuals or corpus descriptions. Corpus resource databases such as <a href="https://varieng.helsinki.fi/CoRD/" target="_blank" rel="noopener noreffer ">CoRD</a> do aim to work towards this principle.</p>
+>, as does the <a href="https://www.ldc.upenn.edu/" target="_blank" rel="noopener noreffer ">Linguistic Data Consortium</a> in the USA. However, some data is never made part of a large <a href="/resources/general-resources/glossary/#collection" title="A group of related Objects." target="_blank"
+  >collection</a
+> and often remains under the control of individual researchers or research teams. Such data may be almost impossible to find. Even if we can find such data, it is unlikely to be accompanied by good descriptions of the data and metadata, making reusability problematic. Of course, big corpora such as the <a href="http://www.natcorp.ox.ac.uk/" target="_blank" rel="noopener noreffer ">British National Corpus</a> will be both findable and accompanied by comprehensive corpus manuals. However, it is worth considering how to make other corpora more findable, including the provision of corpus manuals or corpus descriptions. Corpus resource databases such as <a href="https://varieng.helsinki.fi/CoRD/" target="_blank" rel="noopener noreffer ">CoRD</a> do aim to work towards this principle.</p>
 <p>Accessibility may also be an issue for some data. <a href="/resources/general-resources/glossary/#copyright" title="The legal right of the owner of intellectual property." target="_blank"
   >Copyright</a
 > law may allow use of material for individual research but prohibit any further distribution of the material. The <a href="/resources/general-resources/glossary/#fair" title="Four key principles developed in 2016 with the aim of supporting the discovery and reuse of research data." target="_blank"

@@ -36,7 +36,9 @@ of some hard-to-maintain application.</p>
 <br>
 <p></p>
 <p>The first standard is the <a href="https://ocfl.io/1.0/spec/" target="_blank" rel="noopener noreffer ">Oxford Common File Layout</a> -
-this is a way of keeping version-controlled digital objects on a plain old
+this is a way of keeping version-controlled digital <a href="/resources/general-resources/glossary/#object" title="A single resource or a group of tightly related resources." target="_blank"
+  >objects</a
+> on a plain old
 filesystem or object store.</p>
 <p>Here’s the introduction to the spec:</p>
 <blockquote>
@@ -52,7 +54,9 @@ filesystem or object store.</p>
 <p><strong>Completeness</strong></p>
 <p>The <a href="/resources/general-resources/glossary/#ocfl" title="Oxford Common File Layout" target="_blank"
   >OCFL</a
-> recommends storing metadata and the content it describes together so the <a href="/resources/general-resources/glossary/#ocfl" title="Oxford Common File Layout" target="_blank"
+> recommends storing <a href="/resources/general-resources/glossary/#metadata" title="The information that defines and describes data." target="_blank"
+  >metadata</a
+> and the content it describes together so the <a href="/resources/general-resources/glossary/#ocfl" title="Oxford Common File Layout" target="_blank"
   >OCFL</a
 > object can be fully understood in the absence of original software. The <a href="/resources/general-resources/glossary/#ocfl" title="Oxford Common File Layout" target="_blank"
   >OCFL</a
@@ -129,7 +133,9 @@ The third key standard for <a href="/resources/general-resources/glossary/#arkis
 >, this was developed by members of the digital library/repository
 community. It was devised as a way to do interchange between repository
 systems, most of which, it turned out had evolved very similar ways of having
-nested collections, digital objects that aggregate related files. Using this
+nested <a href="/resources/general-resources/glossary/#collection" title="A group of related Objects." target="_blank"
+  >collections</a
+>, digital objects that aggregate related files. Using this
 very simple ontology allows us to store data in the <a href="/resources/general-resources/glossary/#ocfl" title="Oxford Common File Layout" target="_blank"
   >OCFL</a
 > layer in a very
@@ -214,7 +220,9 @@ can be “re-collected” for use and re-use.</p>
 that consumes datasets in a predictable way) it must be well described. The
 <a href="/resources/general-resources/glossary/#atap" title="Australian Text Analytics Platform" target="_blank"
   >ATAP</a
-> and LDaCA approach to this is to use the Research Object Crate (<a href="/resources/general-resources/glossary/#ro-crate" title="Research Object Crate" target="_blank"
+> and <a href="/resources/general-resources/glossary/#ldaca" title="Language Data Commons of Australia" target="_blank"
+  >LDaCA</a
+> approach to this is to use the Research Object Crate (<a href="/resources/general-resources/glossary/#ro-crate" title="Research Object Crate" target="_blank"
   >RO-Crate</a
 >
 ) specification. <a href="/resources/general-resources/glossary/#ro-crate" title="Research Object Crate" target="_blank"
