@@ -7,7 +7,7 @@ description: "Information about the approach to metadata being taken by LDaCA."
 
 <br>
 
-Metadata is often defined as 'data about data'. High-quality metadata is important in making data {{< glossary_link display="FAIR" id="fair" >}}:
+{{< glossary_link display="Metadata" id="metadata" >}} is often defined as 'data about data'. High-quality metadata is important in making data {{< glossary_link display="FAIR" id="fair" >}}:
 
 - **Findable**: Metadata is the starting point for searching {{< glossary_link display="data collections" id="data-collection" >}}. For example, if we want to find data in a particular language, this will only be possible for data that has a language recorded in its metadata. (Tracking languages is in itself problematic, see [below](#identifying-codes-for-languages).)
 - **Accessible**: {{< glossary_link display="Access conditions" id="access-conditions" >}} that apply to data should be part of the associated metadata.
@@ -16,7 +16,7 @@ Metadata is often defined as 'data about data'. High-quality metadata is importa
 
 ### RO-Crate Profiles
 
-{{< glossary_link display="RO-Crates" id="ro-crate" >}} in general have basic metadata requirements, but it is possible to specify a **profile** for crates for specific purposes. LDaCA is developing such a profile for our data; we are basing this largely on previous work in the area. An important aspect of the {{< glossary_link display="RO-Crate" id="ro-crate" >}} approach is that it uses the principles of [Linked Open Data](https://en.wikipedia.org/wiki/Linked_data#Linked_open_data). This means that terms used in our metadata will (whenever possible) link to an openly available definition. In developing the profile, we are drawing on two existing attempts to provide vocabularies for describing language data.
+{{< glossary_link display="RO-Crates" id="ro-crate" >}} in general have basic metadata requirements, but it is possible to specify a **profile** for crates for specific purposes. {{< glossary_link display="LDaCA" id="ldaca" >}} is developing such a profile for our data; we are basing this largely on previous work in the area. An important aspect of the {{< glossary_link display="RO-Crate" id="ro-crate" >}} approach is that it uses the principles of [Linked Open Data](https://en.wikipedia.org/wiki/Linked_data#Linked_open_data). This means that terms used in our metadata will (whenever possible) link to an openly available definition. In developing the profile, we are drawing on two existing attempts to provide vocabularies for describing language data.
 
 <br>
 

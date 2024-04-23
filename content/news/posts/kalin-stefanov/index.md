@@ -41,13 +41,13 @@ The Auslan recogniser and generator will be general enough to form the core of m
 
 In education, on the one hand, I can envision an application for individual Auslan sign acquisition and training (think ‘Duolingo for Auslan’). On the other hand, in collaboration with A/Prof Louisa Willoughby and her extensive network, we will attempt to co-design more focused pedagogical applications of the technologies. We are still in the early stages of the technology development, hence we have not yet finalised what this could look like. One possible direction is to embed the developed technologies in education offerings for future Auslan interpreters. This will potentially improve the quality of Auslan training and ensure that more students pass interpreting exams and enter the workforce as confident Auslan interpreters.
 
-In research, collecting and annotating sign language data is an expensive task that needs the collaboration of linguistic experts and native signers, hence, current datasets are scarce and small. I envision annotation support tools that incorporate the technologies, and significantly reduce the time and effort currently needed to create such important resources.
+In research, collecting and annotating sign language data is an expensive task that needs the collaboration of linguistic experts and native signers, hence, current datasets are scarce and small. I envision annotation support {{< glossary_link display="tools" id="tools" >}} that incorporate the technologies, and significantly reduce the time and effort currently needed to create such important resources.
 
 <br>
 
 **How did you first hear about our work on Auslan data?**
 
-The first time I heard of LDaCA and its work on Auslan data was from A/Prof Louisa Willoughby while developing the project proposal. The partnership between Monash University and LDaCA on making Auslan data more accessible is instrumental in developing advanced Auslan-related technologies.
+The first time I heard of {{< glossary_link display="LDaCA" id="ldaca" >}} and its work on Auslan data was from A/Prof Louisa Willoughby while developing the project proposal. The partnership between Monash University and LDaCA on making Auslan data more accessible is instrumental in developing advanced Auslan-related technologies.
 
 <br>
 

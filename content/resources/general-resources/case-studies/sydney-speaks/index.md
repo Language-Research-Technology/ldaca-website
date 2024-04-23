@@ -29,7 +29,7 @@ Sydney Speaks is a large-scale sociolinguistic project, funded through the [ARC 
 
 <br>
 
-Since 2015, the Sydney Speaks project has recorded the spontaneous speech of Sydneysiders for the purpose of documenting and exploring Australian English as spoken in Australia’s largest and most ethnically and linguistically diverse city. In order to study language change in real-time, the project also incorporates legacy data from two sources: a sociolinguistic project carried out in the late 1970s and an oral history collection created during the 1980s. Altogether, the birth years of the participants span over a century, from the 1890s to the 1990s, and five age groups are represented, as captured in Figure 1.
+Since 2015, the Sydney Speaks project has recorded the spontaneous speech of Sydneysiders for the purpose of documenting and exploring Australian English as spoken in Australia’s largest and most ethnically and linguistically diverse city. In order to study language change in real-time, the project also incorporates legacy data from two sources: a sociolinguistic project carried out in the late 1970s and an oral history {{< glossary_link display="collection" id="collection" >}} created during the 1980s. Altogether, the birth years of the participants span over a century, from the 1890s to the 1990s, and five age groups are represented, as captured in Figure 1.
 
 <br>
 
@@ -59,7 +59,7 @@ The Sydney Speaks 2010s sub-corpus comprises recordings made from 2015 to the pr
 
 #### Recordings and transcripts
 
-Interviews are recorded using a Zoom H4N digital recording device in WAV format at 44.1 kHz/16 bits. They are orthographically transcribed, aligned at the utterance level and then uploaded into LaBB-CAT (Language, Brain and Behaviour Corpus Analysis Tool (Fromont & Hay 2012)), for forced alignment (which automates the process for alignment at the level of the phoneme). LaBB-CAT also serves as the corpus management tool, where the corpus is stored, data is further annotated, and concordance searches can be conducted. LaBB-CAT does not include corpus analysis tools as such, but data can be downloaded in multiple formats to allow for analyses, including CSV and WAV, as well as in formats that are compatible with tools that are used widely by linguists, such as Elan, illustrated in Figure 2 (Lausberg & Sloetjes 2009) and Praat in Figure 3 (Boersma & Weenink 2019).
+Interviews are recorded using a Zoom H4N digital recording device in WAV format at 44.1 kHz/16 bits. They are orthographically transcribed, aligned at the utterance level and then uploaded into LaBB-CAT (Language, Brain and Behaviour Corpus Analysis Tool (Fromont & Hay 2012)), for forced alignment (which automates the process for alignment at the level of the phoneme). LaBB-CAT also serves as the corpus management tool, where the corpus is stored, data is further annotated, and concordance searches can be conducted. LaBB-CAT does not include corpus analysis {{< glossary_link display="tools" id="tools" >}} as such, but data can be downloaded in multiple formats to allow for analyses, including CSV and WAV, as well as in formats that are compatible with tools that are used widely by linguists, such as Elan, illustrated in Figure 2 (Lausberg & Sloetjes 2009) and Praat in Figure 3 (Boersma & Weenink 2019).
 
 <br>
 
@@ -73,7 +73,7 @@ Interviews are recorded using a Zoom H4N digital recording device in WAV format 
 
 #### Participant metadata
 
-Detailed speaker metadata is collected via a demographic form that includes information such as place and year of birth, current and past suburbs of residence, occupation, education, community background, languages, and social networks (see Figure 4). This questionnaire is conducted orally at the end of the interview (as a continuation of the interview), and the participants’ responses are filled in by the interviewer. Information is extracted from the written form, validated in the recorded audio, and added to a metadata spreadsheet in Excel. We use customised metadata, rather than drawing on a standard metadata vocabulary; however the demographic information from each sub-corpus is standardised in Excel and comparable across the three sub-corpora.
+Detailed speaker {{< glossary_link display="metadata" id="metadata" >}} is collected via a demographic form that includes information such as place and year of birth, current and past suburbs of residence, occupation, education, community background, languages, and social networks (see Figure 4). This questionnaire is conducted orally at the end of the interview (as a continuation of the interview), and the participants’ responses are filled in by the interviewer. Information is extracted from the written form, validated in the recorded audio, and added to a metadata spreadsheet in Excel. We use customised metadata, rather than drawing on a standard metadata vocabulary; however the demographic information from each sub-corpus is standardised in Excel and comparable across the three sub-corpora.
 
 <br>
 

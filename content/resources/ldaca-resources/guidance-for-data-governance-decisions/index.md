@@ -26,7 +26,7 @@ description: "Defines policies, roles, responsibilities and procedures for ongoi
 
 {{< glossary_link display="Data governance" id="data-governance" >}} defines policies, roles, responsibilities and procedures for ongoing use and storage of data, as well as for access to data. Effective {{< glossary_link display="data governance" id="data-governance" >}} maximises sustainability, while ensuring data integrity and protecting research participants. Long-term sustainability requires a {{< glossary_link display="data management plan" id="data-management-plan" >}}.
 
-This document provides guidance on some components of {{< glossary_link display="data governance" id="data-governance" >}} that are key to a {{< glossary_link display="data management plan" id="data-management-plan" >}}, including {{< glossary_link display="access conditions" id="access-conditions" >}}, {{< glossary_link display="licensing" id="licensing" >}}, persistent identifiers, and metadata. The principles below are those employed by LDaCA, but they are widely applicable and represent best practice for {{< glossary_link display="data governance" id="data-governance" >}}, in accordance with the {{< glossary_link display="FAIR" id="fair" >}} and {{< glossary_link display="CARE" id="care" >}} principles.
+This document provides guidance on some components of {{< glossary_link display="data governance" id="data-governance" >}} that are key to a {{< glossary_link display="data management plan" id="data-management-plan" >}}, including {{< glossary_link display="access conditions" id="access-conditions" >}}, {{< glossary_link display="licensing" id="licensing" >}}, persistent identifiers, and {{< glossary_link display="metadata" id="metadata" >}}. The principles below are those employed by {{< glossary_link display="LDaCA" id="ldaca" >}}, but they are widely applicable and represent best practice for {{< glossary_link display="data governance" id="data-governance" >}}, in accordance with the {{< glossary_link display="FAIR" id="fair" >}} and {{< glossary_link display="CARE" id="care" >}} principles.
 
 <br>
 
@@ -64,7 +64,7 @@ In Australia, as in many other countries, research data is recognised as {{< glo
 <br>
 
 > ![Thought bubble](/guidance-for-data-governance-decisions/thought-bubble.png) **Questions for reflection:**<br>
-> How can I identify the {{< glossary_link display="copyright owner" id="copyright-owner" >}} of a language collection?
+> How can I identify the {{< glossary_link display="copyright owner" id="copyright-owner" >}} of a language {{< glossary_link display="collection" id="collection" >}}?
 
 <br>
 
@@ -256,7 +256,7 @@ A {{< glossary_link display="copyright owner" id="copyright-owner" >}} may also 
 
 ## 2. Persistent Identifiers
 
-Persistent identifiers ({{< glossary_link display="PIDs" id="pid" >}}) are digital identifiers that are permanently assigned to physical and digital objects. In contrast to other identifiers that are used online, such as URLs, {{< glossary_link display="PIDs" id="pid" >}} are persistent, meaning they point to reliable information in the long term. They have become crucial for research data as they make a collection citable; ensure that it is findable even if moved to a different location; and establish its relationship to other objects and entities in the academic research environment (e.g. researchers, funders, organisations, academic publications, software and other datasets).
+Persistent identifiers ({{< glossary_link display="PIDs" id="pid" >}}) are digital identifiers that are permanently assigned to physical and digital {{< glossary_link display="objects" id="object" >}}. In contrast to other identifiers that are used online, such as URLs, {{< glossary_link display="PIDs" id="pid" >}} are persistent, meaning they point to reliable information in the long term. They have become crucial for research data as they make a collection citable; ensure that it is findable even if moved to a different location; and establish its relationship to other objects and entities in the academic research environment (e.g. researchers, funders, organisations, academic publications, software and other datasets).
 
 While various {{< glossary_link display="PID" id="pid" >}} systems have been in use for research data over the last 25 years, including ISBN and ORCiD, the {{< glossary_link display="DOI" id="doi" >}} System has been the most widely used globally to date and is becoming the default identifier for research datasets.
 

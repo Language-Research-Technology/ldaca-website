@@ -22,7 +22,7 @@ aliases:
 
 #### Online seminar on social meaning of language variation in Australian English
 
-LDaCA Chief Investigator Catherine Travis (ANU) will present a seminar titled “What's in an accent? Understanding the social meaning of language variation in Australian English”. Use password 250801 to [access the seminar online](https://uwa.zoom.us/j/6038975685?pwd=MEVGbE50dkFvT2M4NDl6YWFqL1pzdz09#success). Note that sessions in this seminar series are usually not recorded.
+{{< glossary_link display="LDaCA" id="ldaca" >}} Chief Investigator Catherine Travis (ANU) will present a seminar titled “What's in an accent? Understanding the social meaning of language variation in Australian English”. Use password 250801 to [access the seminar online](https://uwa.zoom.us/j/6038975685?pwd=MEVGbE50dkFvT2M4NDl6YWFqL1pzdz09#success). Note that sessions in this seminar series are usually not recorded.
 
 **When**: 2 May 2024, 1:00 pm AWST/3:00 pm AEST
 
@@ -45,7 +45,7 @@ LDaCA Chief Investigator Catherine Travis (ANU) will present a seminar titled �
     <p>
     The 2024 {{< glossary_link display="HASS" id="hass" >}} and Indigenous {{< glossary_link display="RDC" id="rdc" >}} Computational Skills Summer School aimed to empower participants with practical knowledge, build digital skills, and help inspire new research outcomes within these research communities.</p>
 
-    <p>Participation wass aimed at researchers in the humanities, arts, social sciences and Indigenous fields of study. Themed streams explored geosocial and geospatial data applications in humanities, arts, social sciences, and Indigenous research, using {{< glossary_link display="ARDC" id="ardc" >}} tools and services. Participants gained experience through seminars and workshops and were guided through hands-on use of free tools and platforms provided by the {{< glossary_link display="ARDC" id="ardc" >}} and its partners.</p>
+    <p>Participation wass aimed at researchers in the humanities, arts, social sciences and Indigenous fields of study. Themed streams explored geosocial and geospatial data applications in humanities, arts, social sciences, and Indigenous research, using {{< glossary_link display="ARDC" id="ardc" >}} {{< glossary_link display="tools" id="tools" >}} and services. Participants gained experience through seminars and workshops and were guided through hands-on use of free tools and platforms provided by the {{< glossary_link display="ARDC" id="ardc" >}} and its partners.</p>
 
     <p>For the {{< glossary_link display="ARDC" id="ardc" >}} Summer School, {{< glossary_link display="IDN" id="idn" >}} and LDaCA led a stream on the governance, management and usage of data, especially Indigenous data.</p>
     <ul>
@@ -106,7 +106,7 @@ LDaCA Chief Investigator Catherine Travis (ANU) will present a seminar titled �
         <b>Workshop on Language Corpora in Australia</b>
     </summary>
     <p>
-    Over decades of work in Australia, significant collections of language data have been amassed, including of varieties of Australian English, Australian migrant languages, Australian Indigenous languages, sign languages and others. These collections represent a trove of knowledge not only of language in Australia, but also of Australia’s social and cultural history. And yet, not all are well known and many lack published descriptions. The purpose of this workshop is to provide an opportunity to share information about existing language corpora in Australia, with a view to producing a special issue of the _Australian Journal of Linguistics_ that introduces a selection of these corpora, explores how they can contribute to our understanding of language, society, and history in Australia, and considers avenues that such corpora open up for future research.</p>
+    Over decades of work in Australia, significant {{< glossary_link display="collections" id="collection" >}} of language data have been amassed, including of varieties of Australian English, Australian migrant languages, Australian Indigenous languages, sign languages and others. These collections represent a trove of knowledge not only of language in Australia, but also of Australia’s social and cultural history. And yet, not all are well known and many lack published descriptions. The purpose of this workshop is to provide an opportunity to share information about existing language corpora in Australia, with a view to producing a special issue of the _Australian Journal of Linguistics_ that introduces a selection of these corpora, explores how they can contribute to our understanding of language, society, and history in Australia, and considers avenues that such corpora open up for future research.</p>
 
     <p><b>When</b>: Monday July 3 2023</p>
 
@@ -140,7 +140,7 @@ LDaCA Chief Investigator Catherine Travis (ANU) will present a seminar titled �
         <b>Exploring Digital Text Collections with Juxtorpus: A Taster Webinar on the Latest ATAP Text Analysis Tool</b>
     </summary>
     <p>
-    Join us for a hybrid taster webinar on the latest addition to the suite of {{< glossary_link display="ATAP" id="atap" >}} text analysis tools - Juxtorpus. Developed to provide a unified framework for managing and exploring text contents and metadata, Juxtorpus offers a Corpus package that enables flexible building, exploration, and slicing of your corpus while maintaining its shape, and a Jux package that allows for easy comparison and highlighting of differences between any two corpora with tools and visualisations that come off-the-shelf. During the webinar, we'll also show you how to use other {{< glossary_link display="ATAP" id="atap" >}} tools in combination with the Corpus to create a reusable workflow that will boost your analysis capabilities.</p>
+    Join us for a hybrid taster webinar on the latest addition to the suite of {{< glossary_link display="ATAP" id="atap" >}} text analysis tools - Juxtorpus. Developed to provide a unified framework for managing and exploring text contents and {{< glossary_link display="metadata" id="metadata" >}}, Juxtorpus offers a Corpus package that enables flexible building, exploration, and slicing of your corpus while maintaining its shape, and a Jux package that allows for easy comparison and highlighting of differences between any two corpora with tools and visualisations that come off-the-shelf. During the webinar, we'll also show you how to use other {{< glossary_link display="ATAP" id="atap" >}} tools in combination with the Corpus to create a reusable workflow that will boost your analysis capabilities.</p>
 
   <p>This 1.5-hour webinar will come with minimal hands-on opportunities, and we invite anyone interested in learning how to handle and analyse their digital text collections to join us. No programming knowledge or skills are required.</p>
 

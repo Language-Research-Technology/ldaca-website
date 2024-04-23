@@ -43,7 +43,7 @@ A platform for primary sources in Australian Indigenous languages.
 
 ### [Digital Daisy Bates](https://bates.org.au/)
 
-A collection of over 23,000 pages of wordlists of Australian languages, originally recorded by Daisy Bates in the early 1900s, made up of the original questionnaires and around 4,000 pages of typescripts.
+A {{< glossary_link display="collection" id="collection" >}} of over 23,000 pages of wordlists of Australian languages, originally recorded by Daisy Bates in the early 1900s, made up of the original questionnaires and around 4,000 pages of typescripts.
 
 <br>
 
@@ -83,7 +83,7 @@ A lexical database (a database with words from different languages). Currently, 
 
 ### [Glottolog](https://glottolog.org/)
 
-Comprehensive reference information for the world's languages, especially the lesser-known languages. LDaCA uses {{< glossary_link display="Glottolog" id="glottolog" >}} [language codes](/resources/ldaca-resources/metadata/#glottolog) in our metadata.
+Comprehensive reference information for the world's languages, especially the lesser-known languages. {{< glossary_link display="LDaCA" id="ldaca" >}} uses {{< glossary_link display="Glottolog" id="glottolog" >}} [language codes](/resources/ldaca-resources/metadata/#glottolog) in our {{< glossary_link display="metadata" id="metadata" >}}.
 
 <br>
 
