@@ -16,11 +16,11 @@ aliases:
 
 <br>
 
-### Forthcoming Workshops {#forthcoming-workshops}
+## Forthcoming Workshops {#forthcoming-workshops}
 
 <br>
 
-#### Online seminar on social meaning of language variation in Australian English
+### Online seminar on social meaning of language variation in Australian English
 
 {{< glossary_link display="LDaCA" id="ldaca" >}} Chief Investigator Catherine Travis (ANU) will present a seminar titled “What's in an accent? Understanding the social meaning of language variation in Australian English”. Use password 250801 to [access the seminar online](https://uwa.zoom.us/j/6038975685?pwd=MEVGbE50dkFvT2M4NDl6YWFqL1pzdz09#success). Note that sessions in this seminar series are usually not recorded.
 
@@ -34,7 +34,7 @@ aliases:
 
 <br>
 
-### Previous Workshops {#previous-workshops}
+## Previous Workshops {#previous-workshops}
 
 {{<raw>}}
 
@@ -173,7 +173,7 @@ aliases:
         <b>A hands-on guide to Semantic Tagger for your text data analysis</b>
     </summary>
     <p>
-    The Australian Text Analytics Platform ({{< glossary_link display="ATAP" id="atap" >}}) project is a project that aims to provide researchers with the tools and training for analysing, processing, and exploring text. As part of this project, we have adapted with permission, a Semantic Tagger, developed by the University Centre for Computer Corpus Research on Language (<a href="https://ucrel.lancs.ac.uk/" target="_blank">UCREL</a>) at Lancaster University. This tool uses the {{< glossary_link display="Python" id="python" >}} Multilingual UCREL Semantic Analysis System <a href="https://pypi.org/project/pymusas/" target="_blank">PyMUSAS</a>) to tag your text data so that you can extract token level semantic tags from your text. In addition to the USAS tags, this tool can also recognize Multi Word Expressions (MWE), i.e., expressions formed by two or more words that behave like a unit such as 'South Australia', and identifies lemmas and Part-of-Speech (POS) tags in the text. For example, in the sentence ‘President Joe Biden attended two meetings today’, the tool will tag each token with its semantic tag like this -> ‘President Joe Biden’: MWE of [Personal names], ‘attended’: [Participating], ‘two’: [Number], ‘meetings’: [Participating] and ‘today’: [Time: Present; simultaneous]. This tool is available in both English and multi-lingual (Chinese, Italian and Spanish) versions and supports saving the results locally for further analysis, enabling you to gain meaningful insights into your research questions.</p>
+    The Australian Text Analytics Platform ({{< glossary_link display="ATAP" id="atap" >}}) project is a project that aims to provide researchers with the tools and training for analysing, processing, and exploring text. As part of this project, we have adapted with permission, a Semantic Tagger, developed by the University Centre for Computer Corpus Research on Language (<a href="https://ucrel.lancs.ac.uk/" target="_blank">UCREL</a>) at Lancaster University. This tool uses the {{< glossary_link display="Python" id="python" >}} Multilingual UCREL Semantic Analysis System <a href="https://pypi.org/project/pymusas/" target="_blank">PyMUSAS</a>) to tag your text data so that you can extract token level semantic tags from your text. In addition to the USAS tags, this tool can also recognise Multi Word Expressions (MWE), i.e. expressions formed by two or more words that behave like a unit such as 'South Australia', and identifies lemmas and Part-of-Speech (POS) tags in the text. For example, in the sentence ‘President Joe Biden attended two meetings today’, the tool will tag each token with its semantic tag like this -> ‘President Joe Biden’: MWE of [Personal names], ‘attended’: [Participating], ‘two’: [Number], ‘meetings’: [Participating] and ‘today’: [Time: Present; simultaneous]. This tool is available in both English and multi-lingual (Chinese, Italian and Spanish) versions and supports saving the results locally for further analysis, enabling you to gain meaningful insights into your research questions.</p>
     
     <p><b>When</b>: Wednesday March 22 2023</p>
 
@@ -298,7 +298,7 @@ aliases:
         <b>Computational Thinking in the Humanities</b>
     </summary>
 
-    <p>The workshop Computational Thinking in the Humanities was a 3-hour online workshop featuring two plenary talks, lightning presentations, as well as a panel discussion. The workshop was co-organized by the <a href="https://www.atap.edu.au/" target="_blank">Australian Text Analytics Platform</a>, <a href="https://www.kielipankki.fi/organization/fin-clariah/" target="_blank">FIN-CLARIAH</a> and its UEF representatives, and the <a href="https://www.digitalobservatory.net.au/" target="_blank">Australian Digital Observatory</a>.</p>
+    <p>The workshop Computational Thinking in the Humanities was a 3-hour online workshop featuring two plenary talks, lightning presentations, as well as a panel discussion. The workshop was co-organised by the <a href="https://www.atap.edu.au/" target="_blank">Australian Text Analytics Platform</a>, <a href="https://www.kielipankki.fi/organization/fin-clariah/" target="_blank">FIN-CLARIAH</a> and its UEF representatives, and the <a href="https://www.digitalobservatory.net.au/" target="_blank">Australian Digital Observatory</a>.</p>
 
     <p><b>When</b>: September 1 2022</p>
 
@@ -389,7 +389,7 @@ If your university or organisation would like to host a workshop, please [contac
 
 <br>
 
-### Webinars {#webinars}
+## Webinars {#webinars}
 
 Our webinar series is a joint initiative with the Language Technology and Data Analysis Laboratory ([LADAL](https://slcladal.github.io/index.html)) at the School of Languages and Cultures, The University of Queensland.
 
@@ -424,7 +424,7 @@ Our webinar series is a joint initiative with the Language Technology and Data A
 
 <br>
 
-### Advice for researchers {#advice}
+## Advice for researchers {#advice}
 
 LDaCA has previously run regular online office hours, jointly hosted with the Australian Digital Observatory ({{< glossary_link display="ADO" id="ado" >}}). This activity will not continue in 2024, but LDaCA and {{< glossary_link display="ADO" id="ado" >}} are developing an alternative model to help Australian researchers working with linguistics, text analytics, digital and computational methods, social media and web archives.
 

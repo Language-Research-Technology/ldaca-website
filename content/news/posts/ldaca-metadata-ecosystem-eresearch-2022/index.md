@@ -273,7 +273,7 @@ For larger collections, the approach used by {{< glossary_link display="PARADISE
 
 In this mode, each Object MUST link back to the Collection Object.
 
-A Collection Object MAY have explicit listing of hasMember properties - which makes it possible to construct repository navigation (such as websites) more cheaply. This is the approach used in {{< glossary_link display="PARADISEC" id="paradisec" >}}, while in LDaCA these links are constructed by an indexer servicer or summarizer application.
+A Collection Object MAY have explicit listing of hasMember properties - which makes it possible to construct repository navigation (such as websites) more cheaply. This is the approach used in {{< glossary_link display="PARADISEC" id="paradisec" >}}, while in LDaCA these links are constructed by an indexer servicer or summariser application.
 
 </section>
 
@@ -314,7 +314,7 @@ This example notebook explores the collection via the rest {{< glossary_link dis
 
 <br>
 
-# Conclusion
+## Conclusion
 
 In this presentation, we have shown the major components of an ecosystem for storing, discovering and analysing language data using common standards for describing objects in a repository. The [RO-Crate](https://www.researchobject.org/ro-crate/) standard is used as the key metadata container, with a common vocabulary of language-specific terms for describing data. This approach should reduce development costs and increase data reuse. The approach can also be adapted to other disciplines and domains with the development only of new profiles.
 

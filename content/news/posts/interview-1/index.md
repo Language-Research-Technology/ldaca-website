@@ -22,17 +22,17 @@ This blog post features [Louisa Willoughby](https://research.monash.edu/en/perso
 
 <br>
 
-### 1. What is your role in these projects?
+## What is your role in these projects?
 
 **LW**: I'm the academic lead on the multimodal corpus. We're building infrastructure for people to create video dictionaries that link to corpus examples (and vice versa), using [Signbank](https://auslan.org.au/) and the Auslan corpus as our test case.
 
-**MS**: I am a Chief Investigator and steering committee member of the Australian Text Analytics ({{< glossary_link display="ATAP" id="atap" >}}) Project and I am also a CI of the Language Data Commons of Australia (LDaCA). I am particularly focusing on the Language Technology and Data Analysis Laboratory ([LADAL](https://ladal.edu.au/)) which is part of {{< glossary_link display="ATAP" id="atap" >}} and represents an infrastructure for computational text analytics in the humanities. {{< glossary_link display="LADAL" id="ladal" >}} has an outreach component as it organizes webinars and workshops and it provides computational resources in the form of self-paced online tutorials as well as interactive notebooks that allow researchers to try out methods and apply them to their own data. I see my task as organizing and managing activities around {{< glossary_link display="LADAL" id="ladal" >}} by creating and optimizing resources as well as getting involved in outreach via events and building (inter-)national partnerships and collaborations with other computational humanities infrastructures.
+**MS**: I am a Chief Investigator and steering committee member of the Australian Text Analytics ({{< glossary_link display="ATAP" id="atap" >}}) Project and I am also a CI of the Language Data Commons of Australia (LDaCA). I am particularly focusing on the Language Technology and Data Analysis Laboratory ([LADAL](https://ladal.edu.au/)) which is part of {{< glossary_link display="ATAP" id="atap" >}} and represents an infrastructure for computational text analytics in the humanities. {{< glossary_link display="LADAL" id="ladal" >}} has an outreach component as it organises webinars and workshops and it provides computational resources in the form of self-paced online tutorials as well as interactive notebooks that allow researchers to try out methods and apply them to their own data. I see my task as organizing and managing activities around {{< glossary_link display="LADAL" id="ladal" >}} by creating and optimizing resources as well as getting involved in outreach via events and building (inter-)national partnerships and collaborations with other computational humanities infrastructures.
 
 **NT**: I am in charge of work packages 1.1 and 1.2, Indigenous languages of Australia and the Pacific. I worked at {{< glossary_link display="AIATSIS" id="aiatsis" >}} in the past and set up an Aboriginal language centre in Port Hedland ([Wangka Maya](https://www.wangkamaya.org.au/home)). I have worked in Vanuatu, and did my PhD research on [Nafsan](https://glottolog.org/resource/languoid/id/sout2856), a language from Efate, sparking an interest in languages of the Pacific. The work of recording speakers of Nafsan also resulted in a corpus of time-aligned text and media, as well as historical manuscripts that I have been finding in archives around the world. This led me to be concerned that existing records of these languages be made accessible to current speakers and so I helped establish the Pacific and Regional Archive for Digital Sources in Endangered Cultures ([PARADISEC](https://www.paradisec.org.au/)) which has many connections to cultural agencies in the Pacific. I currently lead a project ([Nyingarn](https://nyingarn.net/)) to convert manuscripts in Australian Indigenous languages to text.
 
 <br>
 
-### 2. What excites you most about the projects?
+## What excites you most about the projects?
 
 **LW**: That it is both building an exciting tool for researchers to better understand language variation AND making a resource that is useful for Auslan students and members of the community.
 
@@ -42,7 +42,7 @@ This blog post features [Louisa Willoughby](https://research.monash.edu/en/perso
 
 <br>
 
-### 3. What advice would you give someone who wants to get started with text analytics, corpus linguistics, or language data collection?
+## What advice would you give someone who wants to get started with text analytics, corpus linguistics, or language data collection?
 
 **LW**: Jump in and start playing! There are lots of different tools and corpora online and I find it easiest to learn how to use them by just having a go and seeing what you can get out. It can be fun to look for little bits of variation or to see how common a certain word or phrase is, and doing something small will give you a sense of the kind of data you get out of the tools and how you might then incorporate them into a wider project.
 
@@ -54,7 +54,7 @@ This blog post features [Louisa Willoughby](https://research.monash.edu/en/perso
 
 <br>
 
-#### Acknowledgments
+### Acknowledgments
 
 The Australian Text Analytics Platform program (https://doi.org/10.47486/PL074) and the {{< glossary_link display="HASS" id="hass" >}} Research Data Commons and Indigenous Research Capability Program (https://doi.org/10.47486/HIR001) received investment from the Australian Research Data Commons ([ARDC](https://www.ardc.edu.au)). The {{< glossary_link display="ARDC" id="ardc" >}} is funded by the National Collaborative Research Infrastructure Strategy ([NCRIS](https://www.education.gov.au/ncris)).
 

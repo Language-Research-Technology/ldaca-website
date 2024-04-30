@@ -14,7 +14,7 @@ from the Australian Research Data Commons ({{< glossary_link display="ARDC" id="
 
 <br>
 
-# Partner Institutions
+## Partner Institutions
 
 - **University of Queensland**: [Professor Michael Haugh](https://languages-cultures.uq.edu.au/profile/1498/michael-haugh)
 - **Australian National University**: [Professor Catherine Travis](https://researchers.anu.edu.au/researchers/travis-ce)
@@ -26,7 +26,7 @@ from the Australian Research Data Commons ({{< glossary_link display="ARDC" id="
 
 <br>
 
-# Advisory/Consultative Partners
+## Advisory/Consultative Partners
 
 - [Pacific and Regional Archive for Digital Sources in Endangered Cultures](https://www.paradisec.org.au) ({{< glossary_link display="PARADISEC" id="paradisec" >}})
 - [Australian Digital Observatory](https://www.digitalobservatory.net.au/)

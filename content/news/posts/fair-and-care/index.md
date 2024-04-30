@@ -12,7 +12,7 @@ aliases:
 
 <br>
 
-# FAIR and CARE
+## FAIR and CARE
 
 Data is becoming increasingly important in today’s world, so corpus linguists might feel that the rest of the world is finally catching up. But the rest of the world are bringing with them new approaches to how data is handled. This means that fields such as corpus linguistics may need to reassess their practices. Such reassessment includes addressing concerns about how data is stored and who can access it (data stewardship) – concerns that are a part of the [Open Science](https://en.wikipedia.org/wiki/Open_science) movement, ultimately grounded on principles of equity and accountability.
 
