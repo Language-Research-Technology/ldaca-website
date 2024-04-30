@@ -278,7 +278,7 @@
 <p>In this mode, each Object MUST link back to the Collection Object.</p>
 <p>A Collection Object MAY have explicit listing of hasMember properties - which makes it possible to construct repository navigation (such as websites) more cheaply. This is the approach used in <a href="/resources/general-resources/glossary/#paradisec" title="Pacific and Regional Archive for Digital Sources in Endangered Cultures" target="_blank"
   >PARADISEC</a
->, while in LDaCA these links are constructed by an indexer servicer or summarizer application.</p>
+>, while in LDaCA these links are constructed by an indexer servicer or summariser application.</p>
 </section>
 <br>
 <section typeof='http://purl.org/ontology/bibo/Slide'>
@@ -309,7 +309,7 @@
   >API</a
 >.</p>
 <br>
-<h1 id="conclusion">Conclusion</h1>
+<h2 id="conclusion">Conclusion</h2>
 <p>In this presentation, we have shown the major components of an ecosystem for storing, discovering and analysing language data using common standards for describing objects in a repository. The <a href="https://www.researchobject.org/ro-crate/" target="_blank" rel="noopener noreffer ">RO-Crate</a> standard is used as the key metadata container, with a common vocabulary of language-specific terms for describing data. This approach should reduce development costs and increase data reuse. The approach can also be adapted to other disciplines and domains with the development only of new profiles.</p>
 </section>
 <br>]]></description></item></channel></rss>

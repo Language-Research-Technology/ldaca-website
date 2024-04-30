@@ -72,7 +72,7 @@ filesystem or object store.</p>
 <p><strong>Versioning</strong></p>
 <p>Another need expressed by the community was the need to update and change objects, either the content itself or the metadata associated with the object. The <a href="/resources/general-resources/glossary/#ocfl" title="Oxford Common File Layout" target="_blank"
   >OCFL</a
-> relies heavily on the prior art in the [Moab] Design for Digital Object Versioning which utilizes forward deltas to track the history of the object. Utilizing this schema allows implementers of the <a href="/resources/general-resources/glossary/#ocfl" title="Oxford Common File Layout" target="_blank"
+> relies heavily on the prior art in the [Moab] Design for Digital Object Versioning which utilises forward deltas to track the history of the object. Utilizing this schema allows implementers of the <a href="/resources/general-resources/glossary/#ocfl" title="Oxford Common File Layout" target="_blank"
   >OCFL</a
 > to easily recreate past versions of an <a href="/resources/general-resources/glossary/#ocfl" title="Oxford Common File Layout" target="_blank"
   >OCFL</a

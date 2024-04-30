@@ -6,7 +6,7 @@
 </a> session.</p>
 <p>This contains the slides and complete speaker notes, which have been edited after the conference.</p>
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<p>We will present a standards-based generalized architecture for large-scale data* repositories for research and preservation illustrated with real-world examples drawn from a number of languages and cultural archive projects. This work is taking place in the context of the Australian Humanities and Social Sciences Research Data Commons, particularly the Language Data component thereof and the long-established <a href="/resources/general-resources/glossary/#paradisec" title="Pacific and Regional Archive for Digital Sources in Endangered Cultures" target="_blank"
+<p>We will present a standards-based generalised architecture for large-scale data* repositories for research and preservation illustrated with real-world examples drawn from a number of languages and cultural archive projects. This work is taking place in the context of the Australian Humanities and Social Sciences Research Data Commons, particularly the Language Data component thereof and the long-established <a href="/resources/general-resources/glossary/#paradisec" title="Pacific and Regional Archive for Digital Sources in Endangered Cultures" target="_blank"
   >PARADISEC</a
 > cultural archive. The standards used include the Oxford Common File Layout for storage, Research Object CRATE (<a href="/resources/general-resources/glossary/#ro-crate" title="Research Object Crate" target="_blank"
   >RO-Crate</a
@@ -535,7 +535,7 @@ Source: <a href="http://www.dynamicsoflanguage.edu.au/sydney-speaks/" target="_b
 <li>
 <p>There are no workflow options (unless we build a workflow system), just adding people to a <a href="/resources/general-resources/glossary/#github" title="A developer platform that allows developers to create, store, manage and share their code, using Git software." target="_blank"
   >GitHub</a
-> organisation to pre-authorize them</p>
+> organisation to pre-authorise them</p>
 </li>
 <li>
 <p>The system only supported a single logon service, which is not widely used in academia or by community groups</p>
@@ -591,9 +591,9 @@ OIDC connectors for downstream services that support authorisation claims for se
 <p>It also has features for revoking permissions, and has a full <a href="/resources/general-resources/glossary/#api" title="Application Programming Interface" target="_blank"
   >API</a
 > so admin tasks can be automated (for us that’s in the future).</p>
-<p>Once a user has been granted a license in a pre-authorization process then a repository can authorize access to a resource by checking with <a href="/resources/general-resources/glossary/#rems" title="Resource Entitlement Management System" target="_blank"
+<p>Once a user has been granted a license in a pre-authorization process then a repository can authorise access to a resource by checking with <a href="/resources/general-resources/glossary/#rems" title="Resource Entitlement Management System" target="_blank"
   >REMS</a
-> to see if a given user is pre-authorized. That is, has been granted a license. Note that users do not have to find <a href="/resources/general-resources/glossary/#rems" title="Resource Entitlement Management System" target="_blank"
+> to see if a given user is pre-authorised. That is, has been granted a license. Note that users do not have to find <a href="/resources/general-resources/glossary/#rems" title="Resource Entitlement Management System" target="_blank"
   >REMS</a
 > on their own - they will be directed to it from data and computing services when they need to apply for pre-authorization.</p>
 </section>
@@ -640,13 +640,13 @@ OIDC connectors for downstream services that support authorisation claims for se
 <br>
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
-<p>(This section was added after the conference, to try to summarize the discussion and clarify requirements by starting an FAQ on this approach)</p>
+<p>(This section was added after the conference, to try to summarise the discussion and clarify requirements by starting an FAQ on this approach)</p>
 <br>
 <h2 id="q-why-not-just-implement-an-access-control-list-acl-in-the-repository">Q: Why not &ldquo;just&rdquo; implement an access control list (ACL) in the repository?</h2>
 <p>There are a few reasons for the distributed approach we have taken in LDaCA:</p>
 <ol>
 <li>
-<p>ACLs need maintenance over time - people&rsquo;s identities change, they retire and die, so storing a list of identifiers such as email addresses alongside content is not a viable long-term preservation strategy. Rather, we will encourage data custodians to describe in words what are permitted uses for the data, and by whom, in a license, then allow whomever is the current data custodian to manage that access in a separate administrative system. We expect these administrative systems to be ephemeral, and change over time but also to generate less friction over time as standards are developed. Expected future benefits of concentrating these processes will include that people do not have to prove the same claims they make about themselves multiple times and that it is easier for data custodians to authorize access.</p>
+<p>ACLs need maintenance over time - people&rsquo;s identities change, they retire and die, so storing a list of identifiers such as email addresses alongside content is not a viable long-term preservation strategy. Rather, we will encourage data custodians to describe in words what are permitted uses for the data, and by whom, in a license, then allow whomever is the current data custodian to manage that access in a separate administrative system. We expect these administrative systems to be ephemeral, and change over time but also to generate less friction over time as standards are developed. Expected future benefits of concentrating these processes will include that people do not have to prove the same claims they make about themselves multiple times and that it is easier for data custodians to authorise access.</p>
 </li>
 <li>
 <p>LDaCA data will be stored in a variety of places with separate portal applications serving data for specific purposes; if these systems all have in-built authorization schemes, even if they are the same, then we have the problem of synchronizing access control lists around a network of services.</p>
@@ -655,7 +655,7 @@ OIDC connectors for downstream services that support authorisation claims for se
 <p>Accessing data that requires some sort of authorization process is not language or humanities-specific, so working with an existing application that can handle pre-authorization workflows and access-control authorization decisions is an attractive choice and should allow LDaCA to take advantage of centrally managed services with functionality that improves over time rather than having to develop and maintain our own systems.</p>
 </li>
 <li>
-<p>If complex access controls are implemented inside a system then there is a risk that data becomes stranded inside that system and cannot be reused without completely re-implementing the access control. For example, imagine an archive of cultural material with complex access controls encoded into the business logic such as “this item is accessible only to male initiates”. Applications like this need to store user accounts with attributes on both data and user records that can be used to authorize access. There is a high risk of data being stranded in a system such as this if it is no longer supported. This will be mitigated somewhat if the rules are also expressed as licenses, perhaps a composition of Traditional Knowledge (TK) Labels - but the access system is baked-in to the application and not portable.</p>
+<p>If complex access controls are implemented inside a system then there is a risk that data becomes stranded inside that system and cannot be reused without completely re-implementing the access control. For example, imagine an archive of cultural material with complex access controls encoded into the business logic such as “this item is accessible only to male initiates”. Applications like this need to store user accounts with attributes on both data and user records that can be used to authorise access. There is a high risk of data being stranded in a system such as this if it is no longer supported. This will be mitigated somewhat if the rules are also expressed as licenses, perhaps a composition of Traditional Knowledge (TK) Labels - but the access system is baked-in to the application and not portable.</p>
 </li>
 </ol>
 <br>
@@ -675,11 +675,11 @@ OIDC connectors for downstream services that support authorisation claims for se
 </ul>
 <br>
 <h2 id="q-so-many-licenses-sounds-like-a-lot-of-work">Q: So many licenses! Sounds like a lot of work!</h2>
-<p>We expect that the overhead of writing licenses will diminish greatly over time and standard clauses and complete licenses will be established. A data depositor will be able to choose from a set of standard license terms (such as a standard “restricted to CIs and participants license” for a given repository, using that as a template to mint their own license for a given data set with its own name and ID. The user can choose a standard way of adding pre-authorized licensees (such as email invitations). This ID can then be used by an authorization system.</p>
+<p>We expect that the overhead of writing licenses will diminish greatly over time and standard clauses and complete licenses will be established. A data depositor will be able to choose from a set of standard license terms (such as a standard “restricted to CIs and participants license” for a given repository, using that as a template to mint their own license for a given data set with its own name and ID. The user can choose a standard way of adding pre-authorised licensees (such as email invitations). This ID can then be used by an authorization system.</p>
 <br>
-<h2 id="q-so-you-have-centralized-authorization-into-a-system-that-grants-licenses-doesnt-that-mean-you-are-locked-in-to-that-system">Q: So you have centralized authorization into a system that grants licenses doesn&rsquo;t that mean you are locked-in to that system?</h2>
+<h2 id="q-so-you-have-centralised-authorization-into-a-system-that-grants-licenses-doesnt-that-mean-you-are-locked-in-to-that-system">Q: So you have centralised authorization into a system that grants licenses doesn&rsquo;t that mean you are locked-in to that system?</h2>
 <p>No, and Yes</p>
-<p><strong>No</strong>, there is no lock-in regarding the list of Licenses and pre-authorized users; licenses and access control lists can be exported via an <a href="/resources/general-resources/glossary/#api" title="Application Programming Interface" target="_blank"
+<p><strong>No</strong>, there is no lock-in regarding the list of Licenses and pre-authorised users; licenses and access control lists can be exported via an <a href="/resources/general-resources/glossary/#api" title="Application Programming Interface" target="_blank"
   >API</a
 > so it is possible to import them into another system or save them for audit purposes.</p>
 <p><strong>Yes</strong>, there is lock-in, in that at this stage the workflow used to give access to users is specific to the system (such as <a href="/resources/general-resources/glossary/#rems" title="Resource Entitlement Management System" target="_blank"
@@ -706,7 +706,7 @@ OIDC connectors for downstream services that support authorisation claims for se
 <p>If a data item needs to be locked down to a small group of people, say the chief investigator and the participants in a recorded dialogue then an obvious implementation is to maintain a small access control list (ACL) for the item. But all of the issues identified above with application-specific ACLs are the same, no matter the size of the cohort: the data set can’t be access controlled outside of its home system. If the system is no longer running then the data may be completely inaccessible, and if there is no license document stored with the data setting out terms of re-use in general terms then there is no indication to future administrators about who, if anyone, should have access of the data.</p>
 <br>
 <h2 id="q-we-dont-need-a-license-we-have-a-terms-of-use">Q: We don’t need a license, we have a “terms of use”</h2>
-<p>Same thing. Terms of use for data are what a license does. We are designing our systems so that all the relevant terms and conditions go in one place to minimize confusion.</p>
+<p>Same thing. Terms of use for data are what a license does. We are designing our systems so that all the relevant terms and conditions go in one place to minimise confusion.</p>
 </section>
 <br>
 <p>The final three slides have been contributed by co-author Patrick.</p>
