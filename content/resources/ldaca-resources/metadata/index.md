@@ -14,19 +14,21 @@ description: "Information about the approach to metadata being taken by LDaCA."
 - **Interoperable**: Information about the format of data and whether it requires specific software to be usable should be part of the associated metadata.
 - **Reusable**: All of the aspects of metadata mentioned above contribute to making data reusable. The more we know about some data, the easier it is to know whether it will be useful to us or not.
 
-### RO-Crate Profiles
+<br>
+
+## RO-Crate Profiles
 
 {{< glossary_link display="RO-Crates" id="ro-crate" >}} in general have basic metadata requirements, but it is possible to specify a **profile** for crates for specific purposes. {{< glossary_link display="LDaCA" id="ldaca" >}} is developing such a profile for our data; we are basing this largely on previous work in the area. An important aspect of the {{< glossary_link display="RO-Crate" id="ro-crate" >}} approach is that it uses the principles of [Linked Open Data](https://en.wikipedia.org/wiki/Linked_data#Linked_open_data). This means that terms used in our metadata will (whenever possible) link to an openly available definition. In developing the profile, we are drawing on two existing attempts to provide vocabularies for describing language data.
 
 <br>
 
-### Open Language Archives Community ([OLAC](http://www.language-archives.org/)) {#olac}
+## Open Language Archives Community ([OLAC](http://www.language-archives.org/)) {#olac}
 
 {{< glossary_link display="OLAC" id="olac" >}} is an international partnership of institutions and individuals; one of their activities is developing consensus on best current practice for the digital archiving of language resources and this includes making recommendations for metadata. The {{< glossary_link display="OLAC" id="olac" >}} metadata scheme is based on [Dublin Core](https://www.dublincore.org/) (DC), a widely used general metadata schema. {{< glossary_link display="OLAC" id="olac" >}} have suggested refinements and extensions of the DC base which make it more useful for describing language resources.
 
 <br>
 
-### Component Metadata Infrastructure ([CMDI](https://www.clarin.eu/content/component-metadata))
+## Component Metadata Infrastructure ([CMDI](https://www.clarin.eu/content/component-metadata))
 
 {{< glossary_link display="CMDI" id="cmdi" >}} was developed within the [CLARIN](https://www.clarin.eu) project. It draws on the earlier ISLE Metadata Initiative ([IMDI](https://en.wikipedia.org/wiki/IMDI)), but where IMDI attempted to specify a comprehensive scheme for (multimodal) language data, {{< glossary_link display="CMDI" id="cmdi" >}} adopts a more flexible approach where components are assembled into reusable profiles. This is very similar to the {{< glossary_link display="RO-Crate" id="ro-crate" >}} approach described above but with an important difference: the components of a {{< glossary_link display="CMDI" id="cmdi" >}} profile are all drawn from a central registry, whereas components of an {{< glossary_link display="RO-Crate" id="ro-crate" >}} profile come from any linkable location.
 
@@ -34,7 +36,9 @@ description: "Information about the approach to metadata being taken by LDaCA."
 
 The metadata schema being developed as part of the LDaCA {{< glossary_link display="RO-Crate" id="ro-crate" >}} profile can be viewed as an [ontology](https://github.com/Language-Research-Technology/language-data-commons-vocabs/blob/master/ontology.md). We are also developing a more fully documented version as a [Gitbook](https://www.gitbook.com/), [Metadata for Language Data](https://ldaca.gitbook.io/metadata-for-language-data/).
 
-# Identifying Codes for Languages
+<br>
+
+## Identifying Codes for Languages
 
 One very important piece of metadata for language data is a description of the language or languages that the data represent. This is not a simple problem because the relationship between languages and names for them is not one-to-one. Some languages have more than one name: for example, _Farsi_ and _Persian_ can both be used to refer to the same language. Some names refer to more than one language: for example, there are languages called _Buru_ used in Nigeria and in Indonesia. To avoid the confusion that can arise from such situations, various systems have been developed to assign unique identifiers to languages. None of these systems gives a comprehensive list of languages and all such systems struggle with another problem, the distinction between separate languages and dialects of one language, as can be seen in the case study below. LDaCA includes identifiers from each of the three systems below where they are available and relevant.
 

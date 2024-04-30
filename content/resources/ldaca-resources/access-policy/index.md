@@ -7,24 +7,17 @@ description: "Outlines the LDaCA Access Policy, making data appropriately access
 
 <br>
 
-#### [Purpose](#purpose)
-
-#### [1. Access Types and Licensing](#1-access-types-and-licensing)
-
-- #### [Classification of Access Types](#classification-of-access-types)
-
-#### [2. Onboarding Data to LDaCA](#2-onboarding-data-to-ldaca)
-
-- #### [LDaCA Responsibilities](#ldaca-responsibilities)
-- #### [Data Steward Responsibilities](#data-steward-responsibilities)
-
-#### [3. Ongoing Data Management Strategy](#3-ongoing-data-management-strategy)
-
-#### [4. Supporting Information](#4-supporting-information)
-
-- #### [LDaCA Terms of Use](#ldaca-terms-of-use)
-- #### [Privacy Policy](#privacy-policy)
-- #### [Takedown Policy](#takedown-policy)
+##### [Purpose](#purpose)
+##### [1. Access Types and Licensing](#1-access-types-and-licensing)
+- [Classification of Access Types](#classification-of-access-types)
+##### [2. Onboarding Data to LDaCA](#2-onboarding-data-to-ldaca)
+- [LDaCA Responsibilities](#ldaca-responsibilities)
+- [Data Steward Responsibilities](#data-steward-responsibilities)
+##### [3. Ongoing Data Management Strategy](#3-ongoing-data-management-strategy)
+##### [4. Supporting Information](#4-supporting-information)
+- [LDaCA Terms of Use](#ldaca-terms-of-use)
+- [Privacy Policy](#privacy-policy)
+- [Takedown Policy](#takedown-policy)
 
 <br>
 

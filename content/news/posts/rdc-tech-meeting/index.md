@@ -73,7 +73,7 @@ Here’s the introduction to the spec:
 >
 > **Versioning**
 >
-> Another need expressed by the community was the need to update and change objects, either the content itself or the metadata associated with the object. The {{< glossary_link display="OCFL" id="ocfl" >}} relies heavily on the prior art in the [Moab] Design for Digital Object Versioning which utilizes forward deltas to track the history of the object. Utilizing this schema allows implementers of the {{< glossary_link display="OCFL" id="ocfl" >}} to easily recreate past versions of an {{< glossary_link display="OCFL" id="ocfl" >}} object. Like with objects, the {{< glossary_link display="OCFL" id="ocfl" >}} remains silent on when versioning should occur recognizing this may differ from implementation to implementation.
+> Another need expressed by the community was the need to update and change objects, either the content itself or the metadata associated with the object. The {{< glossary_link display="OCFL" id="ocfl" >}} relies heavily on the prior art in the [Moab] Design for Digital Object Versioning which utilises forward deltas to track the history of the object. Utilizing this schema allows implementers of the {{< glossary_link display="OCFL" id="ocfl" >}} to easily recreate past versions of an {{< glossary_link display="OCFL" id="ocfl" >}} object. Like with objects, the {{< glossary_link display="OCFL" id="ocfl" >}} remains silent on when versioning should occur recognizing this may differ from implementation to implementation.
 >
 > **Robustness**
 >

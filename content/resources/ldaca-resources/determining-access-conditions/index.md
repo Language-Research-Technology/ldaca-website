@@ -7,11 +7,11 @@ description: "Defines the workflow for determining the access conditions for a d
 
 <br>
 
-#### [Step 1: Consider access condition(s) for the entire collection](#step-1-consider-access-conditions-for-the-entire-collection)
-#### [Step 2: Organise relevant materials](#step-2-organise-relevant-materials)
-#### [Step 3: Define the license terms](#step-3-define-the-license-terms)
-#### [Step 4: Determine authorisation level](#step-4-determine-authorisation-level)
-#### [Options for access by application](#options-for-access-by-application)
+##### [Step 1: Consider access condition(s) for the entire collection](#step-1-consider-access-conditions-for-the-entire-collection)
+##### [Step 2: Organise relevant materials](#step-2-organise-relevant-materials)
+##### [Step 3: Define the license terms](#step-3-define-the-license-terms)
+##### [Step 4: Determine authorisation level](#step-4-determine-authorisation-level)
+##### [Options for access by application](#options-for-access-by-application)
 
 <br>
 

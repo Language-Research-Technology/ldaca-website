@@ -6,6 +6,8 @@ type: "custom"
 layout: "root_list"
 ---
 
+<br>
+
 # What is LDaCA?
 
 **The Language Data Commons of Australia (LDaCA) is making nationally significant language data available for academic and non-academic use and providing a model for ensuring continued access with appropriate community control.**

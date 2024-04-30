@@ -226,7 +226,7 @@ The first prototype, which we presented at eResearch Australasia last year was a
 
 This worked, but there were issues with this approach:
 
-- There are no workflow options (unless we build a workflow system), just adding people to a {{< glossary_link display="GitHub" id="github" >}} organisation to pre-authorize them
+- There are no workflow options (unless we build a workflow system), just adding people to a {{< glossary_link display="GitHub" id="github" >}} organisation to pre-authorise them
 
 - The system only supported a single logon service, which is not widely used in academia or by community groups
 
@@ -279,7 +279,7 @@ At the core of {{< glossary_link display="REMS" id="rems" >}} is a set of Licens
 
 It also has features for revoking permissions, and has a full {{< glossary_link display="API" id="api" >}} so admin tasks can be automated (for us that’s in the future).
 
-Once a user has been granted a license in a pre-authorization process then a repository can authorize access to a resource by checking with {{< glossary_link display="REMS" id="rems" >}} to see if a given user is pre-authorized. That is, has been granted a license. Note that users do not have to find {{< glossary_link display="REMS" id="rems" >}} on their own - they will be directed to it from data and computing services when they need to apply for pre-authorization.
+Once a user has been granted a license in a pre-authorization process then a repository can authorise access to a resource by checking with {{< glossary_link display="REMS" id="rems" >}} to see if a given user is pre-authorised. That is, has been granted a license. Note that users do not have to find {{< glossary_link display="REMS" id="rems" >}} on their own - they will be directed to it from data and computing services when they need to apply for pre-authorization.
 
 </section>
 
@@ -325,7 +325,7 @@ In this video, we demonstrate how to use {{< glossary_link display="REMS" id="re
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide19.png' alt='FAQ  ' title='Slide: 19' border='1'  width='85%%'/>
 
-(This section was added after the conference, to try to summarize the discussion and clarify requirements by starting an FAQ on this approach)
+(This section was added after the conference, to try to summarise the discussion and clarify requirements by starting an FAQ on this approach)
 
 <br>
 
@@ -333,13 +333,13 @@ In this video, we demonstrate how to use {{< glossary_link display="REMS" id="re
 
 There are a few reasons for the distributed approach we have taken in LDaCA:
 
-1.  ACLs need maintenance over time - people's identities change, they retire and die, so storing a list of identifiers such as email addresses alongside content is not a viable long-term preservation strategy. Rather, we will encourage data custodians to describe in words what are permitted uses for the data, and by whom, in a license, then allow whomever is the current data custodian to manage that access in a separate administrative system. We expect these administrative systems to be ephemeral, and change over time but also to generate less friction over time as standards are developed. Expected future benefits of concentrating these processes will include that people do not have to prove the same claims they make about themselves multiple times and that it is easier for data custodians to authorize access.
+1.  ACLs need maintenance over time - people's identities change, they retire and die, so storing a list of identifiers such as email addresses alongside content is not a viable long-term preservation strategy. Rather, we will encourage data custodians to describe in words what are permitted uses for the data, and by whom, in a license, then allow whomever is the current data custodian to manage that access in a separate administrative system. We expect these administrative systems to be ephemeral, and change over time but also to generate less friction over time as standards are developed. Expected future benefits of concentrating these processes will include that people do not have to prove the same claims they make about themselves multiple times and that it is easier for data custodians to authorise access.
 
 2.  LDaCA data will be stored in a variety of places with separate portal applications serving data for specific purposes; if these systems all have in-built authorization schemes, even if they are the same, then we have the problem of synchronizing access control lists around a network of services.
 
 3.  Accessing data that requires some sort of authorization process is not language or humanities-specific, so working with an existing application that can handle pre-authorization workflows and access-control authorization decisions is an attractive choice and should allow LDaCA to take advantage of centrally managed services with functionality that improves over time rather than having to develop and maintain our own systems.
 
-4.  If complex access controls are implemented inside a system then there is a risk that data becomes stranded inside that system and cannot be reused without completely re-implementing the access control. For example, imagine an archive of cultural material with complex access controls encoded into the business logic such as “this item is accessible only to male initiates”. Applications like this need to store user accounts with attributes on both data and user records that can be used to authorize access. There is a high risk of data being stranded in a system such as this if it is no longer supported. This will be mitigated somewhat if the rules are also expressed as licenses, perhaps a composition of Traditional Knowledge (TK) Labels - but the access system is baked-in to the application and not portable.
+4.  If complex access controls are implemented inside a system then there is a risk that data becomes stranded inside that system and cannot be reused without completely re-implementing the access control. For example, imagine an archive of cultural material with complex access controls encoded into the business logic such as “this item is accessible only to male initiates”. Applications like this need to store user accounts with attributes on both data and user records that can be used to authorise access. There is a high risk of data being stranded in a system such as this if it is no longer supported. This will be mitigated somewhat if the rules are also expressed as licenses, perhaps a composition of Traditional Knowledge (TK) Labels - but the access system is baked-in to the application and not portable.
 
 <br>
 
@@ -359,15 +359,15 @@ A license, which is always packaged with data will allow:
 
 ## Q: So many licenses! Sounds like a lot of work!
 
-We expect that the overhead of writing licenses will diminish greatly over time and standard clauses and complete licenses will be established. A data depositor will be able to choose from a set of standard license terms (such as a standard “restricted to CIs and participants license” for a given repository, using that as a template to mint their own license for a given data set with its own name and ID. The user can choose a standard way of adding pre-authorized licensees (such as email invitations). This ID can then be used by an authorization system.
+We expect that the overhead of writing licenses will diminish greatly over time and standard clauses and complete licenses will be established. A data depositor will be able to choose from a set of standard license terms (such as a standard “restricted to CIs and participants license” for a given repository, using that as a template to mint their own license for a given data set with its own name and ID. The user can choose a standard way of adding pre-authorised licensees (such as email invitations). This ID can then be used by an authorization system.
 
 <br>
 
-## Q: So you have centralized authorization into a system that grants licenses doesn't that mean you are locked-in to that system?
+## Q: So you have centralised authorization into a system that grants licenses doesn't that mean you are locked-in to that system?
 
 No, and Yes
 
-**No**, there is no lock-in regarding the list of Licenses and pre-authorized users; licenses and access control lists can be exported via an {{< glossary_link display="API" id="api" >}} so it is possible to import them into another system or save them for audit purposes.
+**No**, there is no lock-in regarding the list of Licenses and pre-authorised users; licenses and access control lists can be exported via an {{< glossary_link display="API" id="api" >}} so it is possible to import them into another system or save them for audit purposes.
 
 **Yes**, there is lock-in, in that at this stage the workflow used to give access to users is specific to the system (such as {{< glossary_link display="REMS" id="rems" >}})
 
@@ -389,7 +389,7 @@ If a data item needs to be locked down to a small group of people, say the chief
 
 ## Q: We don’t need a license, we have a “terms of use”
 
-Same thing. Terms of use for data are what a license does. We are designing our systems so that all the relevant terms and conditions go in one place to minimize confusion.
+Same thing. Terms of use for data are what a license does. We are designing our systems so that all the relevant terms and conditions go in one place to minimise confusion.
 
 </section>
 
