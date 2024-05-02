@@ -12,7 +12,7 @@ aliases:
 
 <br>
 
-# FAIR and CARE
+## FAIR and CARE
 
 Data is becoming increasingly important in today’s world, so corpus linguists might feel that the rest of the world is finally catching up. But the rest of the world are bringing with them new approaches to how data is handled. This means that fields such as corpus linguistics may need to reassess their practices. Such reassessment includes addressing concerns about how data is stored and who can access it (data stewardship) – concerns that are a part of the [Open Science](https://en.wikipedia.org/wiki/Open_science) movement, ultimately grounded on principles of equity and accountability.
 
@@ -21,7 +21,7 @@ According to these principles, data should be:
 
 - _Findable_
 
-  &emsp; Metadata and data should be easy to find for both humans and computers.
+  &emsp; {{< glossary_link display="Metadata" id="metadata" >}} and data should be easy to find for both humans and computers.
 
 - _Accessible_
 
@@ -37,7 +37,7 @@ According to these principles, data should be:
 
 In general, corpus linguists do well on the interoperability criterion. Corpus data is usually stored in non-proprietary formats; even when some structure is imposed on the data, this is almost always in a form which is saved as a simple text file (e.g. CSV files or {{< glossary_link display="XML" id="xml" >}} annotations). Data stored in such formats is easy to move between applications. But what about the other three criteria?
 
-Some corpus data is easy to discover; it is findable. For example, CLARIN, the [portal](https://www.clarin.eu/content/data) to the European Union language resource infrastructure, provides access to many large {{< glossary_link display="data collections" id="data-collection" >}}, as does the [Linguistic Data Consortium](https://www.ldc.upenn.edu/) in the USA. However, some data is never made part of a large collection and often remains under the control of individual researchers or research teams. Such data may be almost impossible to find. Even if we can find such data, it is unlikely to be accompanied by good descriptions of the data and metadata, making reusability problematic. Of course, big corpora such as the [British National Corpus](http://www.natcorp.ox.ac.uk/) will be both findable and accompanied by comprehensive corpus manuals. However, it is worth considering how to make other corpora more findable, including the provision of corpus manuals or corpus descriptions. Corpus resource databases such as [CoRD](https://varieng.helsinki.fi/CoRD/) do aim to work towards this principle.
+Some corpus data is easy to discover; it is findable. For example, CLARIN, the [portal](https://www.clarin.eu/content/data) to the European Union language resource infrastructure, provides access to many large {{< glossary_link display="data collections" id="data-collection" >}}, as does the [Linguistic Data Consortium](https://www.ldc.upenn.edu/) in the USA. However, some data is never made part of a large {{< glossary_link display="collection" id="collection" >}} and often remains under the control of individual researchers or research teams. Such data may be almost impossible to find. Even if we can find such data, it is unlikely to be accompanied by good descriptions of the data and metadata, making reusability problematic. Of course, big corpora such as the [British National Corpus](http://www.natcorp.ox.ac.uk/) will be both findable and accompanied by comprehensive corpus manuals. However, it is worth considering how to make other corpora more findable, including the provision of corpus manuals or corpus descriptions. Corpus resource databases such as [CoRD](https://varieng.helsinki.fi/CoRD/) do aim to work towards this principle.
 
 Accessibility may also be an issue for some data. {{< glossary_link display="Copyright" id="copyright" >}} law may allow use of material for individual research but prohibit any further distribution of the material. The {{< glossary_link display="FAIR" id="fair" >}} approach to such cases is that metadata should be available so that interested parties can know that a data holding exists (F), and the metadata will include information about the conditions under which the data may or may not be shared or reused (A and R).
 

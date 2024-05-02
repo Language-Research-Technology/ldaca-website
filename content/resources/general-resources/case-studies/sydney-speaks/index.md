@@ -13,23 +13,20 @@ by Catherine Travis and Cale Johnstone
 
 Sydney Speaks is a large-scale sociolinguistic project, funded through the [ARC Centre of Excellence for the Dynamics of Language](https://legacy.dynamicsoflanguage.edu.au/) (2014-2022), led by [Catherine Travis](https://researchers.anu.edu.au/researchers/travis-ce) at the ANU.
 
-##### [The Sydney Speaks Corpora](#corpora)
+<br>
 
+##### [The Sydney Speaks Corpora](#corpora)
 - [Contemporary linguistic recordings (collected 2015-present): Sydney Speaks 2010s](#2010s)
 - [Legacy linguistic recordings (Collected 1977-1981): Sydney Social Dialect Survey](#1977-1981)
 - [Legacy oral histories (collected 1987-1988): NSW Bicentennial Oral History Collection](#1987-1988)
-
 ##### [Data access concerns](#access-concerns)
-
 ##### [Combining legacy and contemporary data collections](#combining)
-
 ##### [References](#references)
-
 ##### [Sydney Speaks Corpus and Publications](#corpus)
 
 <br>
 
-Since 2015, the Sydney Speaks project has recorded the spontaneous speech of Sydneysiders for the purpose of documenting and exploring Australian English as spoken in Australia’s largest and most ethnically and linguistically diverse city. In order to study language change in real-time, the project also incorporates legacy data from two sources: a sociolinguistic project carried out in the late 1970s and an oral history collection created during the 1980s. Altogether, the birth years of the participants span over a century, from the 1890s to the 1990s, and five age groups are represented, as captured in Figure 1.
+Since 2015, the Sydney Speaks project has recorded the spontaneous speech of Sydneysiders for the purpose of documenting and exploring Australian English as spoken in Australia’s largest and most ethnically and linguistically diverse city. In order to study language change in real-time, the project also incorporates legacy data from two sources: a sociolinguistic project carried out in the late 1970s and an oral history {{< glossary_link display="collection" id="collection" >}} created during the 1980s. Altogether, the birth years of the participants span over a century, from the 1890s to the 1990s, and five age groups are represented, as captured in Figure 1.
 
 <br>
 
@@ -59,7 +56,7 @@ The Sydney Speaks 2010s sub-corpus comprises recordings made from 2015 to the pr
 
 #### Recordings and transcripts
 
-Interviews are recorded using a Zoom H4N digital recording device in WAV format at 44.1 kHz/16 bits. They are orthographically transcribed, aligned at the utterance level and then uploaded into LaBB-CAT (Language, Brain and Behaviour Corpus Analysis Tool (Fromont & Hay 2012)), for forced alignment (which automates the process for alignment at the level of the phoneme). LaBB-CAT also serves as the corpus management tool, where the corpus is stored, data is further annotated, and concordance searches can be conducted. LaBB-CAT does not include corpus analysis tools as such, but data can be downloaded in multiple formats to allow for analyses, including CSV and WAV, as well as in formats that are compatible with tools that are used widely by linguists, such as Elan, illustrated in Figure 2 (Lausberg & Sloetjes 2009) and Praat in Figure 3 (Boersma & Weenink 2019).
+Interviews are recorded using a Zoom H4N digital recording device in WAV format at 44.1 kHz/16 bits. They are orthographically transcribed, aligned at the utterance level and then uploaded into LaBB-CAT (Language, Brain and Behaviour Corpus Analysis Tool (Fromont & Hay 2012)), for forced alignment (which automates the process for alignment at the level of the phoneme). LaBB-CAT also serves as the corpus management tool, where the corpus is stored, data is further annotated, and concordance searches can be conducted. LaBB-CAT does not include corpus analysis {{< glossary_link display="tools" id="tools" >}} as such, but data can be downloaded in multiple formats to allow for analyses, including CSV and WAV, as well as in formats that are compatible with tools that are used widely by linguists, such as Elan, illustrated in Figure 2 (Lausberg & Sloetjes 2009) and Praat in Figure 3 (Boersma & Weenink 2019).
 
 <br>
 
@@ -73,7 +70,7 @@ Interviews are recorded using a Zoom H4N digital recording device in WAV format 
 
 #### Participant metadata
 
-Detailed speaker metadata is collected via a demographic form that includes information such as place and year of birth, current and past suburbs of residence, occupation, education, community background, languages, and social networks (see Figure 4). This questionnaire is conducted orally at the end of the interview (as a continuation of the interview), and the participants’ responses are filled in by the interviewer. Information is extracted from the written form, validated in the recorded audio, and added to a metadata spreadsheet in Excel. We use customised metadata, rather than drawing on a standard metadata vocabulary; however the demographic information from each sub-corpus is standardised in Excel and comparable across the three sub-corpora.
+Detailed speaker {{< glossary_link display="metadata" id="metadata" >}} is collected via a demographic form that includes information such as place and year of birth, current and past suburbs of residence, occupation, education, community background, languages, and social networks (see Figure 4). This questionnaire is conducted orally at the end of the interview (as a continuation of the interview), and the participants’ responses are filled in by the interviewer. Information is extracted from the written form, validated in the recorded audio, and added to a metadata spreadsheet in Excel. We use customised metadata, rather than drawing on a standard metadata vocabulary; however the demographic information from each sub-corpus is standardised in Excel and comparable across the three sub-corpora.
 
 <br>
 
@@ -101,8 +98,10 @@ Horvath, Barbara. 1985. _Variation in Australian English: The sociolects of Sydn
 
 #### Sub corpus overview
 
-The Sydney Social Dialect Survey (SSDS) is a collection of 177 sociolinguistic interviews with adult and teenage Australians from Anglo-Celtic, Greek, and Italian backgrounds, recorded in Sydney between 1977 and 1980, as part of an {{< glossary_link display="ARC" id="arc" >}}-funded project led by Barbara Horvath, of the Department of Linguistics at the University of Sydney. For the Sydney Speaks project, recordings from Anglo-Celtic adults (born in the 1930s) and from Anglo-Celtic, Greek and Italian Teenagers (born in the 1960s) were included. The recordings with Greek and Italian adults were set aside, as they arrived in Australia as adults and speak English as a second language, and thus raise a different set of questions for the study of language variation and change. There were 7 participants who did not meet the Sydney Speaks participant criteria (e.g., one of their parents was not of the target ethnic groups), leaving a total of 20 adults and 72 teenagers for inclusion.
+The Sydney Social Dialect Survey (SSDS) is a collection of 177 sociolinguistic interviews with adult and teenage Australians from Anglo-Celtic, Greek, and Italian backgrounds, recorded in Sydney between 1977 and 1980, as part of an {{< glossary_link display="ARC" id="arc" >}}-funded project led by Barbara Horvath, of the Department of Linguistics at the University of Sydney. For the Sydney Speaks project, recordings from Anglo-Celtic adults (born in the 1930s) and from Anglo-Celtic, Greek and Italian Teenagers (born in the 1960s) were included. The recordings with Greek and Italian adults were set aside, as they arrived in Australia as adults and speak English as a second language, and thus raise a different set of questions for the study of language variation and change. There were 7 participants who did not meet the Sydney Speaks participant criteria (e.g. one of their parents was not of the target ethnic groups), leaving a total of 20 adults and 72 teenagers for inclusion.
 Like the contemporary linguistic data, the Sydney Social Dialect Survey comprises sociolinguistic interviews, but these are more interview-like: the interviewers were not community members, and they did not typically know the participants; and the topics were more defined (some common topics being games, layout of the school, nicknames, and language).
+
+<br>
 
 #### Recordings and transcripts
 
@@ -168,7 +167,7 @@ The original audio of each interview was recorded on cassette tape and was made 
 
 #### Participant metadata
 
-Demographic data was collected at the time of the interview for each participant; this included name and date/place of birth as a minimum, but a ‘summary’ provided further information, such as parents’ education and occupations, employment (past and current), interests and marital status (see sample in Figure 12). The recordings themselves also provided a wealth of demographic information, as is common practice in oral histories, meaning that full demographic profiles could be developed for most participants. Some investment is necessary to capture and systematize this information, but its availability is one of the clear advantages they have for (socio)linguistic analysis.
+Demographic data was collected at the time of the interview for each participant; this included name and date/place of birth as a minimum, but a ‘summary’ provided further information, such as parents’ education and occupations, employment (past and current), interests and marital status (see sample in Figure 12). The recordings themselves also provided a wealth of demographic information, as is common practice in oral histories, meaning that full demographic profiles could be developed for most participants. Some investment is necessary to capture and systematise this information, but its availability is one of the clear advantages they have for (socio)linguistic analysis.
 
 <br>
 
@@ -188,7 +187,7 @@ Incorporating speech data from oral history collections is new ground for lingui
 
 ### De-identification
 
-All speakers have been given pseudonyms, for which we aim to parallel the original name (thus, Sarah may be Sally, Alfredo may be Alberto etc.). In the transcripts themselves, names and all other identifying content (such as addresses, school names, nicknames, etc.) have been de-identified in all data formats. In the transcripts, this is done by using pseudonyms, for readability purposes (rather than noting [XXX], or [pseudonym], for example). To indicate to the analyst what words are pseudonyms, all pseudonyms are marked (preceded by a tilde, e.g., ~Jane, ~Millers ~Point). For the audio, we identify the segment that needs de-identification, and run a low-pass filter using a Praat script so that the name is not recognisable.
+All speakers have been given pseudonyms, for which we aim to parallel the original name (thus, Sarah may be Sally, Alfredo may be Alberto etc.). In the transcripts themselves, names and all other identifying content (such as addresses, school names, nicknames, etc.) have been de-identified in all data formats. In the transcripts, this is done by using pseudonyms, for readability purposes (rather than noting [XXX], or [pseudonym], for example). To indicate to the analyst what words are pseudonyms, all pseudonyms are marked (preceded by a tilde, e.g. ~Jane, ~Millers ~Point). For the audio, we identify the segment that needs de-identification, and run a low-pass filter using a Praat script so that the name is not recognisable.
 During an interview, some participants have requested that a section not be included in the study, generally due to what they perceive to be the sensitive nature of a certain topic (for example, one participant talking about banking in Hong Kong). In these cases, this portion of the recording has been deleted, and it has not been transcribed or included in any analysis.
 
 <br>

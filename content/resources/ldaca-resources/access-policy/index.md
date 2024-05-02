@@ -7,32 +7,25 @@ description: "Outlines the LDaCA Access Policy, making data appropriately access
 
 <br>
 
-#### [Purpose](#purpose)
-
-#### [1. Access Types and Licensing](#1-access-types-and-licensing)
-
-- #### [Classification of Access Types](#classification-of-access-types)
-
-#### [2. Onboarding Data to LDaCA](#2-onboarding-data-to-ldaca)
-
-- #### [LDaCA Responsibilities](#ldaca-responsibilities)
-- #### [Data Steward Responsibilities](#data-steward-responsibilities)
-
-#### [3. Ongoing Data Management Strategy](#3-ongoing-data-management-strategy)
-
-#### [4. Supporting Information](#4-supporting-information)
-
-- #### [LDaCA Terms of Use](#ldaca-terms-of-use)
-- #### [Privacy Policy](#privacy-policy)
-- #### [Takedown Policy](#takedown-policy)
+##### [Purpose](#purpose)
+##### [1. Access Types and Licensing](#1-access-types-and-licensing)
+- [Classification of Access Types](#classification-of-access-types)
+##### [2. Onboarding Data to LDaCA](#2-onboarding-data-to-ldaca)
+- [LDaCA Responsibilities](#ldaca-responsibilities)
+- [Data Steward Responsibilities](#data-steward-responsibilities)
+##### [3. Ongoing Data Management Strategy](#3-ongoing-data-management-strategy)
+##### [4. Supporting Information](#4-supporting-information)
+- [LDaCA Terms of Use](#ldaca-terms-of-use)
+- [Privacy Policy](#privacy-policy)
+- [Takedown Policy](#takedown-policy)
 
 <br>
 
 ## Purpose
 
-This document outlines the LDaCA Access Policy, which is developed to accommodate the goal of making data appropriately accessible, in accordance with legal, moral and ethical considerations of data sharing, and tailored to meet the needs and requirements of different {{< glossary_link display="data collections" id="data-collection" >}}.
+This document outlines the {{< glossary_link display="LDaCA" id="ldaca" >}} Access Policy, which is developed to accommodate the goal of making data appropriately accessible, in accordance with legal, moral and ethical considerations of data sharing, and tailored to meet the needs and requirements of different {{< glossary_link display="data collections" id="data-collection" >}}.
 
-{{< glossary_link display="Access conditions" id="access-conditions" >}} for data in LDaCA are determined by the {{< glossary_link display="Data Steward" id="data-steward" >}}. To assist with this, LDaCA provides: information to help {{< glossary_link display="Data Stewards" id="data-steward" >}} make informed decisions about appropriate {{< glossary_link display="access conditions" id="access-conditions" >}} for the data; tools and resources to facilitate this process as collections are onboarded and made available (including for applying standards as required); and mechanisms for managing these once data is onboarded.
+{{< glossary_link display="Access conditions" id="access-conditions" >}} for data in LDaCA are determined by the {{< glossary_link display="Data Steward" id="data-steward" >}}. To assist with this, LDaCA provides: information to help {{< glossary_link display="Data Stewards" id="data-steward" >}} make informed decisions about appropriate {{< glossary_link display="access conditions" id="access-conditions" >}} for the data; {{< glossary_link display="tools" id="tools" >}} and resources to facilitate this process as {{< glossary_link display="collections" id="collection" >}} are onboarded and made available (including for applying standards as required); and mechanisms for managing these once data is onboarded.
 
 The Access Policy comprises three key components, as outlined in this document:
 
@@ -65,7 +58,7 @@ In accordance with the Access Policy, LDaCA has an established process for onboa
 
 ### LDaCA Responsibilities
 
-1. Supporting the {{< glossary_link display="Data Steward" id="data-steward" >}} to standardise aspects of the language collection as required for successful onboarding, including with regards to metadata, {{< glossary_link display="data governance" id="data-governance" >}} and data preparation.
+1. Supporting the {{< glossary_link display="Data Steward" id="data-steward" >}} to standardise aspects of the language collection as required for successful onboarding, including with regards to {{< glossary_link display="metadata" id="metadata" >}}, {{< glossary_link display="data governance" id="data-governance" >}} and data preparation.
 2. Adapting the onboarding process as relevant to the specific needs and requirements of the collection and {{< glossary_link display="Data Steward" id="data-steward" >}}, and working to facilitate a successful and efficient onboarding process.
 3. Providing clear information to the {{< glossary_link display="Data Steward" id="data-steward" >}} to ensure comprehension of the purpose of each step in the onboarding process, and responding to questions and concerns.
 
@@ -73,7 +66,7 @@ In accordance with the Access Policy, LDaCA has an established process for onboa
 
 ### Data Steward Responsibilities
 
-1. Providing a persistent identifier for the data. If the collection does not have an existing persistent identifier, LDaCA recommends getting a {{< glossary_link display="DOI" id="doi" >}} (Digital Object Identifier), which is becoming the default identifier for research datasets. A {{< glossary_link display="DOI" id="doi" >}} makes a collection citable; it ensures that it is findable even if moved to a different location; and it establishes its relationship to other objects and entities in the academic research environment (e.g. researchers, funders, organisations, academic publications, software and other datasets).
+1. Providing a persistent identifier for the data. If the collection does not have an existing persistent identifier, LDaCA recommends getting a {{< glossary_link display="DOI" id="doi" >}} (Digital Object Identifier), which is becoming the default identifier for research datasets. A {{< glossary_link display="DOI" id="doi" >}} makes a collection citable; it ensures that it is findable even if moved to a different location; and it establishes its relationship to other {{< glossary_link display="objects" id="object" >}} and entities in the academic research environment (e.g. researchers, funders, organisations, academic publications, software and other datasets).
    See [Obtaining a DOI](/resources/ldaca-resources/obtaining-a-doi/) for more information.
 2. Providing metadata that is organised with a consistent structure, and includes descriptors, definitions and contextual information where relevant. This includes metadata at the level of the collection (e.g. collection name, a narrative description of the corpus, the subject language(s), author(s) or Collector(s), publication year, {{< glossary_link display="access conditions" id="access-conditions" >}}, etc.), file (e.g. length in minutes, words) and participants (e.g. age, gender).<br>
    LDaCA technologies enable programmatic detection, extraction and summarisation of existing metadata in a dataset; in order for this to work effectively, the metadata must be standardised.<br>
