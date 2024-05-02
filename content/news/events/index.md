@@ -3,8 +3,8 @@ title: "Events"
 date: 2023-10-18T11:12:10+10:00
 draft: false
 description: "Browse the project's upcoming events."
-aliases: 
-- "/events/"
+aliases:
+  - "/events/"
 ---
 
 <br>
@@ -31,6 +31,29 @@ LDaCA Chief Investigator Catherine Travis (ANU) will present a seminar titled â€
 **Run by**: The University of Western Australia ([UWA](https://www.uwa.edu.au/)) [Linguistics](https://www.uwa.edu.au/schools/social-sciences/linguistics) and [Language](https://www.uwa.edu.au/schools/research/the-language-lab) Lab
 
 **[Seminar Link](https://uwa.zoom.us/j/6038975685?pwd=MEVGbE50dkFvT2M4NDl6YWFqL1pzdz09#success)**
+
+<br>
+
+#### Introduction to Computational Text Analytics
+
+Do you have more text than you know what to do with? Did you collect data including text for your project and now feel overwhelmed when you try to analyse? Is there too much? Are you doing the same thing over and over again and feeling like you're not using your time efficiently? Are you worried about missing the forest for the trees (or the trees for the forest)? If any of these apply to you (or you're just interested in learning more) this workshop is for you.
+
+This workshop will introduce the fundamentals of computational text analysis using LADAL. We'll start with the key questions of why and where computational methods might be appropriate for your work before moving onto the how. For the how we will:
+
+- Outline the necessary preparation and preconditions for using computational approaches to text.
+- Introduce you to the R programming language with Jupyter notebooks.
+- Guide you through using a series of common methods and libraries in R so you can start asking the right questions for your own projects.
+- Tie everything back together with a discussion of the practical aspects of managing projects with computational components grounded in our research experiences.
+
+**Facilitators**: {{< profile id="schweinberger" >}} and {{< profile id="hames" >}}
+
+**When**: 23 and 24 May 2024,
+
+**Where**: Level 6, Forgan Smith Building, The University of Queensland
+
+**Run by**: The University of Queensland ([UQ](https://www.uq.edu.au/)) [Centre for Digital Cultures & Societies](https://hass.uq.edu.au/Digital-Cultures-and-Societies)
+
+**[Details](https://events.humanitix.com/introduction-to-computational-text-analytics-fm6j24un)**
 
 <br>
 
