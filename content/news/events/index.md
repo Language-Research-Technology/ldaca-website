@@ -38,7 +38,7 @@ aliases:
 
 Do you have more text than you know what to do with? Did you collect data including text for your project and now feel overwhelmed when you try to analyse? Is there too much? Are you doing the same thing over and over again and feeling like you're not using your time efficiently? Are you worried about missing the forest for the trees (or the trees for the forest)? If any of these apply to you (or you're just interested in learning more) this workshop is for you.
 
-This workshop will introduce the fundamentals of computational text analysis using LADAL. We'll start with the key questions of why and where computational methods might be appropriate for your work before moving onto the how. For the how we will:
+This workshop will introduce the fundamentals of computational text analysis using [LADAL](https://ladal.edu.au/index.html). We'll start with the key questions of why and where computational methods might be appropriate for your work before moving onto the how. For the how we will:
 
 - Outline the necessary preparation and preconditions for using computational approaches to text.
 - Introduce you to the R programming language with Jupyter notebooks.
