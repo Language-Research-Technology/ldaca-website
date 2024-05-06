@@ -25,7 +25,7 @@ description: "Information about the first datasets which have been added to LDaC
   
   <br>
 
-  ### The International Corpus of English (Australian component)
+  ## The International Corpus of English (Australian component)
   
   The Australian component of the [International Corpus of English](http://ice-corpora.net/ice/index.html) (ICE-AUS) is an approximately one million word corpus of transcribed spoken and written Australian English from 1992-1995. It consists of 500 samples of Australian English (60% speech, 40% writing) that matches the structure of other corpora associated with the International Corpus of English.
   
