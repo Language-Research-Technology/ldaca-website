@@ -11,7 +11,7 @@ description: "Outlines steps for acquiring a Digital Object Identifier (DOI) for
 
 <br>
 
-1. Through the collection’s custodial organisation:
+1. Through the {{< glossary_link display="collection's" id="collection" >}} custodial organisation:
 
    - Identify the collection’s custodial organisation – a university or research organisation that funded, sponsored, published, approved, or has a current or historical stakeholder interest in the research project that collected the data.
 
@@ -20,7 +20,7 @@ description: "Outlines steps for acquiring a Digital Object Identifier (DOI) for
 
 <br>
 
-2. If the above does not suit the context of the dataset, and the dataset has not been published before, consider depositing it in a data repository like [Zenodo](https://zenodo.org/), a multi-disciplinary open repository that automatically assigns a {{< glossary_link display="DOI" id="doi" >}} to uploaded datasets and publications and hosts landing pages. Zenodo is a proponent of {{< glossary_link display="FAIR" id="fair" >}} Principles and open science; however, it allows upload of data with different access levels: Open, Closed, Restricted, and Embargoed - read the [Zenodo General Policies](https://about.zenodo.org/policies/), [Terms of Use](https://about.zenodo.org/terms/), and [FAQs](https://help.zenodo.org/). The {{< glossary_link display="Zenodo" id="zenodo" >}} {{< glossary_link display="DOI" id="doi" >}} landing page can contain a link to point researchers to the data content in LDaCA.
+2. If the above does not suit the context of the dataset, and the dataset has not been published before, consider depositing it in a data repository like [Zenodo](https://zenodo.org/), a multi-disciplinary open repository that automatically assigns a {{< glossary_link display="DOI" id="doi" >}} to uploaded datasets and publications and hosts landing pages. Zenodo is a proponent of {{< glossary_link display="FAIR" id="fair" >}} Principles and open science; however, it allows upload of data with different access levels: Open, Closed, Restricted, and Embargoed - read the [Zenodo General Policies](https://about.zenodo.org/policies/), [Terms of Use](https://about.zenodo.org/terms/), and [FAQs](https://help.zenodo.org/). The {{< glossary_link display="Zenodo" id="zenodo" >}} {{< glossary_link display="DOI" id="doi" >}} landing page can contain a link to point researchers to the data content in {{< glossary_link display="LDaCA" id="ldaca" >}}.
 
 <br>
 

@@ -9,7 +9,7 @@ aliases:
 
 <br>
 
-> Specifies the license(s) that data contributors have applied to the content of their collection, including the content coverage of that license.
+> Specifies the license(s) that data contributors have applied to the content of their {{< glossary_link display="collection" id="collection" >}}, including the content coverage of that license.
 
 <br>
 
