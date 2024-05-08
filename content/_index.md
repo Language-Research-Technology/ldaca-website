@@ -13,7 +13,7 @@
 
   <!-- Slide 1 -->
 
-<input type="radio" id="slideCheckbox1" name="slide" checked autofocus></input>
+<input class="radio_input" type="radio" id="slideCheckbox1" name="slide" checked autofocus></input>
 
   <div class="slide">
     <div class="slide__html">
@@ -34,7 +34,7 @@
 
   <!-- Slide 2 -->
 
-<input type="radio" id="slideCheckbox2" name="slide"></input>
+<input class="radio_input" type="radio" id="slideCheckbox2" name="slide"></input>
 
   <div class="slide">
     <!-- <a href="./about/"> -->
@@ -47,7 +47,7 @@
 
   <!-- Slide 3 -->
 
-<input type="radio" id="slideCheckbox3" name="slide"></input>
+<input class="radio_input" type="radio" id="slideCheckbox3" name="slide"></input>
 
   <div class="slide">
       <div class="slide__content">
@@ -58,7 +58,7 @@
 
   <!-- Slide 4 -->
 
-<input type="radio" id="slideCheckbox4" name="slide"></input>
+<input class="radio_input" type="radio" id="slideCheckbox4" name="slide"></input>
 
   <div class="slide">
     <div class="slide__content">
@@ -69,7 +69,7 @@
 
   <!-- Slide 5 -->
 
-<input type="radio" id="slideCheckbox5" name="slide"></input>
+<input class="radio_input" type="radio" id="slideCheckbox5" name="slide"></input>
 
   <div class="slide">
       <div class="slide__content">

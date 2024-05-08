@@ -380,6 +380,12 @@ $c-background: #101010;
 $c-text: $c-light-grey;
 $c-label-text: $c-grey;
 
+.contact_input {
+  border-radius: 50px;
+  max-width: 400px;
+  max-height: 50px;
+}
+
 /****************************************/
 
 .slideshow_div {
@@ -403,10 +409,12 @@ $c-label-text: $c-grey;
 }
 
 input {
-  position: absolute;
-  opacity: 0;
-  top: -25px;
-  counter-increment: slide;
+  .radio_input {
+    position: absolute;
+    opacity: 0;
+    top: -25px;
+    counter-increment: slide;
+  }
 
   &:checked + .slide {
     transform: translateX(0px);
