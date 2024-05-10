@@ -20,20 +20,6 @@ aliases:
 
 <br>
 
-### Online seminar on social meaning of language variation in Australian English
-
-{{< glossary_link display="LDaCA" id="ldaca" >}} Chief Investigator Catherine Travis (ANU) will present a seminar titled “What's in an accent? Understanding the social meaning of language variation in Australian English”. Use password 250801 to [access the seminar online](https://uwa.zoom.us/j/6038975685?pwd=MEVGbE50dkFvT2M4NDl6YWFqL1pzdz09#success). Note that sessions in this seminar series are usually not recorded.
-
-**When**: 2 May 2024, 1:00 pm AWST/3:00 pm AEST
-
-**Where**: Online seminar
-
-**Run by**: The University of Western Australia ([UWA](https://www.uwa.edu.au/)) [Linguistics](https://www.uwa.edu.au/schools/social-sciences/linguistics) and [Language](https://www.uwa.edu.au/schools/research/the-language-lab) Lab
-
-**[Seminar Link](https://uwa.zoom.us/j/6038975685?pwd=MEVGbE50dkFvT2M4NDl6YWFqL1pzdz09#success)**
-
-<br>
-
 ### Introduction to Computational Text Analytics
 
 Do you have more text than you know what to do with? Did you collect data including text for your project and now feel overwhelmed when you try to analyse? Is there too much? Are you doing the same thing over and over again and feeling like you're not using your time efficiently? Are you worried about missing the forest for the trees (or the trees for the forest)? If any of these apply to you (or you're just interested in learning more) this workshop is for you.
@@ -60,6 +46,19 @@ This workshop will introduce the fundamentals of computational text analysis usi
 ### Previous Workshops {#previous-workshops}
 
 {{<raw>}}
+
+<details>
+     <summary>
+        <b>Understanding the social meaning of language variation in Australian English</b>
+    </summary>
+    <p>Online seminar presented by Prof Catherine Travis
+   </p>
+
+    <p><b>When</b>: 2 May 2024</p>
+
+    <p><b>Organisers</b>: The University of Western Australia (<a href="https://www.uwa.edu.au/" target="_blank">UWA</a>) <a href="https://www.uwa.edu.au/schools/social-sciences/linguistics" target="_blank">Linguistics</a> and <a href="https://www.uwa.edu.au/schools/research/the-language-lab" target="_blank">The Language Lab</a></p>
+
+</details>
 
 <details>
     <summary>
