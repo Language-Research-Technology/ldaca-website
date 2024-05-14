@@ -383,6 +383,12 @@ enableRobotsTXT = true
     parent = "resources"
     weight = 2   
   [[menu.main]]
+    identifier = "user-guides"
+    name = "User Guides"
+    url = "/resources/user-guides/"
+    parent = "resources"
+    weight = 3   
+  [[menu.main]]
     identifier = "news"
     name = "News ▾"
     url = "/news/"
