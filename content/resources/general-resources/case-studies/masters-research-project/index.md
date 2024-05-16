@@ -17,23 +17,23 @@ The first few weeks of the course were dedicated to learning about real-world ap
 
 ## Project proposal
 
-The idea for the project stemmed from an intriguing observation I had made about language use in my circle of friends. Certain friends, who had grown up in south-west Sydney and were mostly from a Vietnamese background, were prone to using the expression *and whatnot*, something that I never said myself. Researching this phenomenon revealed that it was a discourse-pragmatic feature called a general extender (GE).
+The idea for the project stemmed from an intriguing observation I had made about language use in my circle of friends. Certain friends, who had grown up in south-west Sydney and were mostly from a Vietnamese background, were prone to using the expression _and whatnot_, something that I never said myself. Researching this phenomenon revealed that it was a discourse-pragmatic feature called a general extender (GE).
 
 <br>
 
-{{< image Src="/masters-research-project/figure1-GEs.png" Alt="A cartoon-style image of two people seated on a couch, having a conversation. The person on the left has a speech bubble from their mouth with the text 'or whatever'. The person on the right has a speech bubble from their mouth with the text 'and stuff'." Desc="Figure 1: Two people using general extenders (GEs) in a conversation" Title="Two people using general extenders (GEs) in a conversation" Ref="Teresa Chan" >}}
+{{< image Src="/masters-research-project/figure1-GEs.png" Alt="A cartoon-style image of two people seated on a couch, having a conversation. The person on the left has a speech bubble from their mouth with the text 'or whatever'. The person on the right has a speech bubble from their mouth with the text 'and stuff'." Desc="Figure 1: Two people using general extenders (GEs) in a conversation" Title="Two people using general extenders (GEs) in a conversation" Ref="Teresa Chan" Height="500" >}}
 
 <br>
 
-GEs are phrase-final expressions such as *and stuff* and *or whatever* that prototypically 'extend' the referent of a phrase by evoking a more general set of items to which it belongs. They serve a range of  discourse and interpersonal functions, such as hedging, establishing solidarity or marking in-group affiliation (Norrby & Winter, 2002). Regional and social variation in the use of GEs has been found across spoken and written English, including Australian English (Travis, Grama & Gonzalez, 2017), with different patterns of usage depending on variables like age, gender and socio-economic class. However, at the time of the project, ethnicity had rarely been considered (e.g. Secova, 2017), despite the fact that the high frequency of a specific GE form in a region can make it a statistical "marker of ethnic identity" (Aijmer, 2013, p. 146). There was also only one study on GEs in computer-mediated communication (CMC) (Fernandez & Yuldashev, 2011). Additionally, although GE usage in Australian English had been compared to its usage in varieties of English spoken in other countries, no research had looked at usage across different cities within Australia.
+GEs are phrase-final expressions such as _and stuff_ and _or whatever_ that prototypically 'extend' the referent of a phrase by evoking a more general set of items to which it belongs. They serve a range of discourse and interpersonal functions, such as hedging, establishing solidarity or marking in-group affiliation (Norrby & Winter, 2002). Regional and social variation in the use of GEs has been found across spoken and written English, including Australian English (Travis, Grama & Gonzalez, 2017), with different patterns of usage depending on variables like age, gender and socio-economic class. However, at the time of the project, ethnicity had rarely been considered (e.g. Secova, 2017), despite the fact that the high frequency of a specific GE form in a region can make it a statistical "marker of ethnic identity" (Aijmer, 2013, p. 146). There was also only one study on GEs in computer-mediated communication (CMC) (Fernandez & Yuldashev, 2011). Additionally, although GE usage in Australian English had been compared to its usage in varieties of English spoken in other countries, no research had looked at usage across different cities within Australia.
 
 My project would attempt to fill these gaps in the literature and explore socio-regional variation in GE usage in spoken and CMC settings. "Socio-regional" refers to the stratification of socio-economic class by region (Sheard, 2019, p. 486).
 
 The research questions I would aim to address were:
 
 1. Are there differences in GE usage in Australia between:
-    a. different cities?
-    b. different ethnicities?
+   a. different cities?
+   b. different ethnicities?
 
 2. Does GE usage differ between spoken settings and CMC settings in Australia?
 
@@ -87,7 +87,7 @@ The data sources needed to contain enough instances of GEs to allow robust analy
 
 <br>
 
-{{< image Src="/masters-research-project/figure3-chart.png" Alt="A line chart showing frequency of GE occurrence per 10,000 words by age, across several studies." Desc="Figure 3: Rates of use of GEs (per 10,000 words) by age, across studies" Title="Rates of use of GEs (per 10,000 words) by age, across studies" Ref="Catherine Travis" >}}
+{{< image Src="/masters-research-project/figure3-chart.png" Alt="A line chart showing frequency of GE occurrence per 10,000 words by age, across several studies." Desc="Figure 3: Rates of use of GEs (per 10,000 words) by age, across studies" Title="Rates of use of GEs (per 10,000 words) by age, across studies" Ref="Catherine Travis" Height="500" >}}
 
 <br>
 
@@ -107,15 +107,15 @@ To corroborate and extend previous findings, data sources that had never been an
 
 ## Data analysis
 
-Once I had cleaned and organised the data for all three datasets, I uploaded them into commercial corpus manager and text analysis software (Sketch Engine) and conducted [concordance](https://www.atap.edu.au/text-analysis/methods/) searches. I searched for GE variants from a list I had compiled before starting data collection, based on those found in previous studies. Figure 2 shows the first 20 results of a concordance search for the GE *and stuff* in the Sydney Speaks dataset.
+Once I had cleaned and organised the data for all three datasets, I uploaded them into commercial corpus manager and text analysis software (Sketch Engine) and conducted [concordance](https://www.atap.edu.au/text-analysis/methods/) searches. I searched for GE variants from a list I had compiled before starting data collection, based on those found in previous studies. Figure 2 shows the first 20 results of a concordance search for the GE _and stuff_ in the Sydney Speaks dataset.
 
 <br>
 
-{{< image Src="/masters-research-project/figure4-and-stuff-search.png" Alt="A screenshot of the results of a concordance search for *and stuff* in the Sydney Speaks dataset. The screenshot shows multiple lines of text with the words *and stuff* centred in every line and formatted red and bold." Desc="Figure 4: Concordance search for *and stuff* in the Sydney Speaks dataset" Title="Concordance search for *and stuff* in the Sydney Speaks dataset" Ref="Teresa Chan" >}}
+{{< image Src="/masters-research-project/figure4-and-stuff-search.png" Alt="A screenshot of the results of a concordance search for *and stuff* in the Sydney Speaks dataset. The screenshot shows multiple lines of text with the words *and stuff* centred in every line and formatted red and bold." Desc="Figure 4: Concordance search for *and stuff* in the Sydney Speaks dataset" Title="Concordance search for *and stuff* in the Sydney Speaks dataset" Ref="Teresa Chan" Height="500" >}}
 
 <br>
 
-Each search result was manually inspected to ensure it could be identified as a GE. After selecting only genuine instances, the results of each search were exported as CSV files, then imported into Microsoft Excel for annotation. Each GE token was coded with the relevant variables for the dataset, e.g. age, gender. Each token was also sorted into a GE subcategory and broader GE category, for instance, *or something* was in the *(or) something (like that)* subcategory and *something* category. Once all tokens were coded and sorted, statistical analysis was completed in Excel using the Data Analysis ToolPak add-on.
+Each search result was manually inspected to ensure it could be identified as a GE. After selecting only genuine instances, the results of each search were exported as CSV files, then imported into Microsoft Excel for annotation. Each GE token was coded with the relevant variables for the dataset, e.g. age, gender. Each token was also sorted into a GE subcategory and broader GE category, for instance, _or something_ was in the _(or) something (like that)_ subcategory and _something_ category. Once all tokens were coded and sorted, statistical analysis was completed in Excel using the Data Analysis ToolPak add-on.
 
 <br>
 
@@ -125,35 +125,35 @@ Addressing each research question in turn:
 
 <br>
 
-*1. Are there differences in GE usage in Australia between:*
+_1. Are there differences in GE usage in Australia between:_
 
-   *a. Different cities?*
+_a. Different cities?_
 
-   There were no statistically significant differences in frequency of GE usage between different Australian cities in AusTalk. However, the Sydney Speaks mean frequency per 10,000 words was significantly higher than the mean frequencies of the other cities in AusTalk, including Sydney<sup><a name="back-1" >[1](#fn-1)</a></sup>.
+There were no statistically significant differences in frequency of GE usage between different Australian cities in AusTalk. However, the Sydney Speaks mean frequency per 10,000 words was significantly higher than the mean frequencies of the other cities in AusTalk, including Sydney<sup><a name="back-1" >[1](#fn-1)</a></sup>.
 
-   Looking at GE categories, there were no statistically significant results. However, there were apparent trends, such as Sydney AusTalk speakers using less common variants more often compared to other cities<sup><a name="back-2" >[2](#fn-2)</a></sup>. Thus, there is some evidence of linguistic differences by geographical location.
+Looking at GE categories, there were no statistically significant results. However, there were apparent trends, such as Sydney AusTalk speakers using less common variants more often compared to other cities<sup><a name="back-2" >[2](#fn-2)</a></sup>. Thus, there is some evidence of linguistic differences by geographical location.
 
-   *b. Different ethnicities?*
+_b. Different ethnicities?_
 
-   There were no statistically significant differences in frequency of usage between Anglo and non-Anglo Australians within both spoken corpora. However, when the corpora were compared, the mean frequency of both Anglo and non-Anglo Australians in Sydney Speaks was significantly higher than that of both Anglo and non-Anglo Australians in AusTalk<sup><a name="back-3" >[3](#fn-3)</a></sup>.
+There were no statistically significant differences in frequency of usage between Anglo and non-Anglo Australians within both spoken corpora. However, when the corpora were compared, the mean frequency of both Anglo and non-Anglo Australians in Sydney Speaks was significantly higher than that of both Anglo and non-Anglo Australians in AusTalk<sup><a name="back-3" >[3](#fn-3)</a></sup>.
 
-   There were no statistically significant differences in preferred variants, though there were some evident trends. For instance, Chinese Australians in the Sydney Speaks dataset used *whatnot/what not* variants more often than other ethnicities<sup><a name="back-4" >[4](#fn-4)</a></sup>, which may relate to my original observation about Vietnamese Australians.
+There were no statistically significant differences in preferred variants, though there were some evident trends. For instance, Chinese Australians in the Sydney Speaks dataset used _whatnot/what not_ variants more often than other ethnicities<sup><a name="back-4" >[4](#fn-4)</a></sup>, which may relate to my original observation about Vietnamese Australians.
 
 <br>
 
-*2. Does GE usage differ between spoken settings and CMC settings in Australia?*
+_2. Does GE usage differ between spoken settings and CMC settings in Australia?_
 
 There were more GE tokens on X than in the spoken corpora. However, the mean frequency per user was significantly lower on X than the mean frequency per speaker in the spoken corpora<sup><a name="back-5" >[5](#fn-5)</a></sup>, likely due to the limitation in post lengths on X. Figure 3 illustrates the mean GE frequency for Sydney speakers in the AusTalk and Sydney Speaks datasets compared to X users<sup><a name="back-6" >[6](#fn-6)</a></sup>.
 
-There were also GE variants such as *(and) stuff (like that)* that were used significantly more frequently by speakers in the spoken corpora than by X users<sup><a name="back-7" >[7](#fn-7)</a></sup>. Therefore, it seems usage patterns on X differ from those in spoken Australian English.
+There were also GE variants such as _(and) stuff (like that)_ that were used significantly more frequently by speakers in the spoken corpora than by X users<sup><a name="back-7" >[7](#fn-7)</a></sup>. Therefore, it seems usage patterns on X differ from those in spoken Australian English.
 
 <br>
 
-{{< image Src="/masters-research-project/figure5-chart.png" Alt="A column chart showing the mean GE frequency for Sydney Sydney speakers in AusTalk and Sydney Speaks datasets compared to X (formerly Twitter). The columns for the spoken corpora are higher than the columns for X." Desc="Figure 5: Mean GE frequency for Sydney speakers in AusTalk and Sydney Speaks datasets compared to X (formerly Twitter)" Title="Mean GE frequency for Sydney speakers in AusTalk and Sydney Speaks datasets compared to X (formerly Twitter)" Ref="Teresa Chan" >}}
+{{< image Src="/masters-research-project/figure5-chart.png" Alt="A column chart showing the mean GE frequency for Sydney Sydney speakers in AusTalk and Sydney Speaks datasets compared to X (formerly Twitter). The columns for the spoken corpora are higher than the columns for X." Desc="Figure 5: Mean GE frequency for Sydney speakers in AusTalk and Sydney Speaks datasets compared to X (formerly Twitter)" Title="Mean GE frequency for Sydney speakers in AusTalk and Sydney Speaks datasets compared to X (formerly Twitter)" Ref="Teresa Chan" Height="500" >}}
 
 <br>
 
-*3. Do the results corroborate or refute previous findings, particularly those specific to Australian English?*
+_3. Do the results corroborate or refute previous findings, particularly those specific to Australian English?_
 
 The AusTalk results corroborated the robust finding on age (e.g. Secova, 2017; Travis et al., 2017), that is, younger speakers used GEs more frequently than older speakers<sup><a name="back-8" >[8](#fn-8)</a></sup>. There was also support across both corpora for previous studies that found no gender and class differences in frequency of usage.
 
@@ -171,42 +171,43 @@ Additionally, I would drastically change how I approach data capture and analysi
 
 ## References
 
-Aijmer, K. (2013). General Extenders. In H. Pichler (Ed.). *Understanding Pragmatic Markers: A Variational Pragmatic Approach* (pp. 127–147). Edinburgh, United Kingdom: Edinburgh University Press.
+Aijmer, K. (2013). General Extenders. In H. Pichler (Ed.). _Understanding Pragmatic Markers: A Variational Pragmatic Approach_ (pp. 127–147). Edinburgh, United Kingdom: Edinburgh University Press.
 
-Burnham, D., Estival, D., Fazio, S., Viethen, J. Cox, J., Dale, R., Cassidy, S., Epps, J., Togneri, R., Wagner, M., Kinoshita, Y., Göcke, R., Arciuli, J., Onslow. M., Lewis, T., Butcher, A., & Hajek, J. (2011). Building an audio-visual corpus of Australian English: large corpus collection with an economical portable and replicable Black Box. *Proceedings of 12th Annual Conference of the International Speech Communication Association (Interspeech 2011)* (pp. 841–844). Retrieved from [https://austalk.edu.au/bibliography](https://austalk.edu.au/bibliography)
+Burnham, D., Estival, D., Fazio, S., Viethen, J. Cox, J., Dale, R., Cassidy, S., Epps, J., Togneri, R., Wagner, M., Kinoshita, Y., Göcke, R., Arciuli, J., Onslow. M., Lewis, T., Butcher, A., & Hajek, J. (2011). Building an audio-visual corpus of Australian English: large corpus collection with an economical portable and replicable Black Box. _Proceedings of 12th Annual Conference of the International Speech Communication Association (Interspeech 2011)_ (pp. 841–844). Retrieved from [https://austalk.edu.au/bibliography](https://austalk.edu.au/bibliography)
 
-Cheshire, J. (2007). Discourse variation, grammaticalisation and stuff like that. *Journal of Sociolinguistics, 11*(2), 155–193.
+Cheshire, J. (2007). Discourse variation, grammaticalisation and stuff like that. _Journal of Sociolinguistics, 11_(2), 155–193.
 
-Fernandez, J. & Yuldashev, A. (2011). Variation in the use of general extenders *and stuff* in instant messaging interactions. *Journal of Pragmatics, 43*(10), 2610–2626.
-Martínez, I. M. P. (2011). *"I might, I might go I mean it depends on money things and stuff"*. A preliminary analysis of general extenders in British teenagers' discourse. *Journal of Pragmatics, 43*(9), 2452–2470.
+Fernandez, J. & Yuldashev, A. (2011). Variation in the use of general extenders _and stuff_ in instant messaging interactions. _Journal of Pragmatics, 43_(10), 2610–2626.
+Martínez, I. M. P. (2011). _"I might, I might go I mean it depends on money things and stuff"_. A preliminary analysis of general extenders in British teenagers' discourse. _Journal of Pragmatics, 43_(9), 2452–2470.
 
-Norrby, C. & Winter, J. (2002). Affiliation in Adolescents' Use of Discourse Extenders. In C. Allen (Ed.), *Proceedings of the 2001 Conference of the Australian Linguistic Society*. Retrieved from [http://www.als.asn.au/proceedings/als2001.html](http://www.als.asn.au/proceedings/als2001.html)
+Norrby, C. & Winter, J. (2002). Affiliation in Adolescents' Use of Discourse Extenders. In C. Allen (Ed.), _Proceedings of the 2001 Conference of the Australian Linguistic Society_. Retrieved from [http://www.als.asn.au/proceedings/als2001.html](http://www.als.asn.au/proceedings/als2001.html)
 
-Rechkemmer, A., Wilson, S. R. & Mihalcea, R. (2020). Small Town or Metropolis? Analyzing the Relationship between Population Size and Language. In N. Calzolari, F. Béchet, P. Blache, K. Choukri, C. Cieri, T. Declerck, ... & S. Piperidis (Eds.), *Proceedings of the 12th Language Resources and Evaluation Conference*. Retrieved from [http://www.lrec-conf.org/proceedings/lrec2020/index.html](http://www.lrec-conf.org/proceedings/lrec2020/index.html)
+Rechkemmer, A., Wilson, S. R. & Mihalcea, R. (2020). Small Town or Metropolis? Analyzing the Relationship between Population Size and Language. In N. Calzolari, F. Béchet, P. Blache, K. Choukri, C. Cieri, T. Declerck, ... & S. Piperidis (Eds.), _Proceedings of the 12th Language Resources and Evaluation Conference_. Retrieved from [http://www.lrec-conf.org/proceedings/lrec2020/index.html](http://www.lrec-conf.org/proceedings/lrec2020/index.html)
 
-Secova, M. (2017). Discourse-pragmatic variation in Paris French and London English: Insights from general extenders. *Journal of Pragmatics, 114*, 1–15.
+Secova, M. (2017). Discourse-pragmatic variation in Paris French and London English: Insights from general extenders. _Journal of Pragmatics, 114_, 1–15.
 
-Sheard, E. (2019). Variation, Language Ideologies and Stereotypes: Orientations towards *like* and *youse* in Western and Northern Sydney. *Australian Journal of Linguistics, 39*(4), 485–510.
+Sheard, E. (2019). Variation, Language Ideologies and Stereotypes: Orientations towards _like_ and _youse_ in Western and Northern Sydney. _Australian Journal of Linguistics, 39_(4), 485–510.
 
-Travis, C. E. (2014–2021). *Sydney Speaks*. Australian Research Council Centre of Excellence for the Dynamics of Language, Australian National University: [http://www.dynamicsoflanguage.edu.au/sydney-speaks/](http://www.dynamicsoflanguage.edu.au/sydney-speaks/)
+Travis, C. E. (2014–2021). _Sydney Speaks_. Australian Research Council Centre of Excellence for the Dynamics of Language, Australian National University: [http://www.dynamicsoflanguage.edu.au/sydney-speaks/](http://www.dynamicsoflanguage.edu.au/sydney-speaks/)
 
-Travis, C. E., Grama, J. & Gonzalez, S. (2017). *General extenders over time in Sydney English: From or something to and stuff*. Paper presented at the Australian Linguistic Society Annual Conference, Sydney, Australia, 4–7 December. Retrieved from [http://www.dynamicsoflanguage.edu.au/sydney-speaks/dissemination/](http://www.dynamicsoflanguage.edu.au/sydney-speaks/dissemination/)
+Travis, C. E., Grama, J. & Gonzalez, S. (2017). _General extenders over time in Sydney English: From or something to and stuff_. Paper presented at the Australian Linguistic Society Annual Conference, Sydney, Australia, 4–7 December. Retrieved from [http://www.dynamicsoflanguage.edu.au/sydney-speaks/dissemination/](http://www.dynamicsoflanguage.edu.au/sydney-speaks/dissemination/)
 
 <br>
 
 ### Footnotes
+
 <a name="fn-1">1</a> The mean frequency per 10,000 words for AusTalk speakers was significantly lower than Sydney Speaks speakers, in Sydney (t(129) = 2.40, p = .018), Adelaide (t(154) = 3.01, p = .003), Brisbane (t(29) = 4.89, p < .001) and Canberra (t(129) = 2.03, p = .044). [↩](#back-1)
 
 <a name="fn-2">2</a> Less common variants made up 15.00% of AusTalk tokens in Sydney, compared to 9.03% in Adelaide, 6.90% in Brisbane and 7.20% in Canberra. [↩](#back-2)
 
 <a name="fn-3">3</a> The mean frequency of Anglo Australians in the Sydney Speaks dataset was significantly higher than both Anglo Australians (t(108) = 4.66, p < .001) and non-Anglo Australians (t(69) = 3.67, p < .001) in AusTalk. The mean frequency of non-Anglo Australians in the Sydney Speaks dataset was significantly higher than both Anglo Australians (t(121) = 3.15, p = .002) and non-Anglo Australians (t(55) = 2.85, p = .006) in AusTalk. [↩](#back-3)
 
-<a name="fn-4">4</a> *Whatnot/what not* variants made up 9.04% of Sydney Speaks tokens for Chinese Australians, compared to 0.99% for Anglo Australians, 4.49% for Greek Australians and 1.61% for Italian Australians. [↩](#back-4)
+<a name="fn-4">4</a> _Whatnot/what not_ variants made up 9.04% of Sydney Speaks tokens for Chinese Australians, compared to 0.99% for Anglo Australians, 4.49% for Greek Australians and 1.61% for Italian Australians. [↩](#back-4)
 
 <a name="fn-5">5</a> The mean frequency per speaker/user for AusTalk speakers was significantly higher than X users (t(64) = 4.51, p < .001). The mean frequency for Sydney Speaks speakers was significantly higher than X users (t(117) = 9.85, p < .001). [↩](#back-5)
 
 <a name="fn-6">6</a> The mean frequency for AusTalk speakers was significantly higher than X users in Sydney (t(877) = 4.00, p < .001). The mean frequency for Sydney Speaks speakers was significantly higher than X users in Sydney (t(117) = 9.85, p < .001). [↩](#back-6)
 
-<a name="fn-7">7</a> The *(and) stuff (like that)* variant was used significantly more frequently by speakers in the AusTalk (t(15) = 3.17, p = .006) and Sydney Speaks (t(78) = 6.21, p < .001) datasets compared to X users. [↩](#back-7)
+<a name="fn-7">7</a> The _(and) stuff (like that)_ variant was used significantly more frequently by speakers in the AusTalk (t(15) = 3.17, p = .006) and Sydney Speaks (t(78) = 6.21, p < .001) datasets compared to X users. [↩](#back-7)
 
 <a name="fn-8">8</a> Speakers in the datasets were assigned one of three age brackets: Young (19-29 year-olds), Middle (30-59 year-olds) and Old (60-79 year-olds). The mean frequencies for the Young (t(36) = 4.07, p < .001) and Middle (t(48) = 2.42, p = .02) age brackets in AusTalk were significantly higher than the Old age bracket. [↩](#back-8)
