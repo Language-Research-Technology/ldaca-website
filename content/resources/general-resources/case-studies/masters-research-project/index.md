@@ -1,15 +1,15 @@
 ---
-title: "A Master’s Research Project"
+title: "A Master's Research Project"
 date: 2024-05-15T16:17:33+10:00
 draft: false
 description: "LDaCA team member Teresa Chan discusses data considerations for her Master's research project."
 ---
 
-by {{< profile id=”chan" >}}
+by {{< profile id="chan" >}}
 
 <br>
 
-During a Master of Applied Linguistics degree at [UNSW Sydney](https://www.unsw.edu.au/), I was given the opportunity to enrol in a course in which students become interns in the School of Humanities and Languages’ Language Processing Lab. Although I would still have readings and assessments to complete, the teaching model would be different to a standard postgraduate course: I would attend regular online lab meetings with my supervisor and other interns, and design and conduct my own research project.
+During a Master of Applied Linguistics degree at [UNSW Sydney](https://www.unsw.edu.au/), I was given the opportunity to enrol in a course in which students become interns in the School of Humanities and Languages' Language Processing Lab. Although I would still have readings and assessments to complete, the teaching model would be different to a standard postgraduate course: I would attend regular online lab meetings with my supervisor and other interns, and design and conduct my own research project.
 
 The first few weeks of the course were dedicated to learning about real-world applications and key methods in computational linguistics and language technology. We then focused on the research project for the remainder of the course.
 
@@ -21,13 +21,13 @@ The idea for the project stemmed from an intriguing observation I had made about
 
 <br>
 
-{{< image Src="/masters-research-project/figure1-GEs.png" Alt="A cartoon-style image of two people seated on a couch, having a conversation. The person on the left has a speech bubble from their mouth with the text ‘or whatever’. The person on the right has a speech bubble from their mouth with the text ‘and stuff’." Desc="Figure 1: Two people using general extenders (GEs) in a conversation" Title="Two people using general extenders (GEs) in a conversation" Ref="Teresa Chan" >}}
+{{< image Src="/masters-research-project/figure1-GEs.png" Alt="A cartoon-style image of two people seated on a couch, having a conversation. The person on the left has a speech bubble from their mouth with the text 'or whatever'. The person on the right has a speech bubble from their mouth with the text 'and stuff'." Desc="Figure 1: Two people using general extenders (GEs) in a conversation" Title="Two people using general extenders (GEs) in a conversation" Ref="Teresa Chan" >}}
 
 <br>
 
-GEs are phrase-final expressions such as *and stuff* and *or whatever* that prototypically ‘extend’ the referent of a phrase by evoking a more general set of items to which it belongs. They serve a range of  discourse and interpersonal functions, such as hedging, establishing solidarity or marking in-group affiliation (Norrby & Winter, 2002). Regional and social variation in the use of GEs has been found across spoken and written English, including Australian English (Travis, Grama & Gonzalez, 2017), with different patterns of usage depending on variables like age, gender and socio-economic class. However, at the time of the project, ethnicity had rarely been considered (e.g. Secova, 2017), despite the fact that the high frequency of a specific GE form in a region can make it a statistical “marker of ethnic identity” (Aijmer, 2013, p. 146). There was also only one study on GEs in computer-mediated communication (CMC) (Fernandez & Yuldashev, 2011). Additionally, although GE usage in Australian English had been compared to its usage in varieties of English spoken in other countries, no research had looked at usage across different cities within Australia.
+GEs are phrase-final expressions such as *and stuff* and *or whatever* that prototypically 'extend' the referent of a phrase by evoking a more general set of items to which it belongs. They serve a range of  discourse and interpersonal functions, such as hedging, establishing solidarity or marking in-group affiliation (Norrby & Winter, 2002). Regional and social variation in the use of GEs has been found across spoken and written English, including Australian English (Travis, Grama & Gonzalez, 2017), with different patterns of usage depending on variables like age, gender and socio-economic class. However, at the time of the project, ethnicity had rarely been considered (e.g. Secova, 2017), despite the fact that the high frequency of a specific GE form in a region can make it a statistical "marker of ethnic identity" (Aijmer, 2013, p. 146). There was also only one study on GEs in computer-mediated communication (CMC) (Fernandez & Yuldashev, 2011). Additionally, although GE usage in Australian English had been compared to its usage in varieties of English spoken in other countries, no research had looked at usage across different cities within Australia.
 
-My project would attempt to fill these gaps in the literature and explore socio-regional variation in GE usage in spoken and CMC settings. “Socio-regional” refers to the stratification of socio-economic class by region (Sheard, 2019, p. 486).
+My project would attempt to fill these gaps in the literature and explore socio-regional variation in GE usage in spoken and CMC settings. "Socio-regional" refers to the stratification of socio-economic class by region (Sheard, 2019, p. 486).
 
 The research questions I would aim to address were:
 
@@ -71,13 +71,13 @@ Aside from the metadata requiring more manual work to extract, the utility of th
 
 3. No metadata field was available to operationalise into a class variable.
 
-The accessibility of data and metadata from the CMC source was also key. Posts on X were highly accessible compared to other CMC sites, such as Facebook, where posts could be hidden from those outside of the user’s social network. However, the reverse was true when looking for information about a user on X, as usernames, user profiles and profile pictures were less likely to reflect the user’s true identity compared to Facebook.
+The accessibility of data and metadata from the CMC source was also key. Posts on X were highly accessible compared to other CMC sites, such as Facebook, where posts could be hidden from those outside of the user's social network. However, the reverse was true when looking for information about a user on X, as usernames, user profiles and profile pictures were less likely to reflect the user's true identity compared to Facebook.
 
 As a result, the metadata was sparser, and aside from geographical location, only one other variable was operationalised: gender. I assigned a gender to each user based on their username and handle, consulting profile pictures and descriptions in ambiguous cases (see Figure 2 for examples). While being arguably limited in making such a determination, this method was the most suitable option available at the time. If I wanted more reliable user information, ethics clearance would be needed, as it was only possible to determine all variables conclusively by contacting the users.
 
 <br>
 
-{{< image Src="/masters-research-project/figure2-tweets-gender-analysis.png" Alt="A screenshot of two example posts from X users. An arrow is pointing to the first username with the text ‘FEMALE’. An arrow is pointing to the second username with the text ‘MALE’." Desc="Figure 2: Assigning genders to X users on two example posts" Title="Assigning genders to X users on two example posts" Ref="Teresa Chan" >}}
+{{< image Src="/masters-research-project/figure2-tweets-gender-analysis.png" Alt="A screenshot of two example posts from X users. An arrow is pointing to the first username with the text 'FEMALE'. An arrow is pointing to the second username with the text 'MALE'." Desc="Figure 2: Assigning genders to X users on two example posts" Title="Assigning genders to X users on two example posts" Ref="Teresa Chan" >}}
 
 <br>
 
@@ -129,23 +129,23 @@ Addressing each research question in turn:
 
    *a. Different cities?*
 
-   There were no statistically significant differences in frequency of GE usage between different Australian cities in AusTalk. However, the Sydney Speaks mean frequency per 10,000 words was significantly higher than the mean frequencies of the other cities in AusTalk, including Sydney<sup><a name=”back-1”>[1](#fn-1)</a></sup>.
+   There were no statistically significant differences in frequency of GE usage between different Australian cities in AusTalk. However, the Sydney Speaks mean frequency per 10,000 words was significantly higher than the mean frequencies of the other cities in AusTalk, including Sydney<sup><a name="back-1" >[1](#fn-1)</a></sup>.
 
-   Looking at GE categories, there were no statistically significant results. However, there were apparent trends, such as Sydney AusTalk speakers using less common variants more often compared to other cities<sup><a name=”back-2”>[2](#fn-2)</a></sup>. Thus, there is some evidence of linguistic differences by geographical location.
+   Looking at GE categories, there were no statistically significant results. However, there were apparent trends, such as Sydney AusTalk speakers using less common variants more often compared to other cities<sup><a name="back-2" >[2](#fn-2)</a></sup>. Thus, there is some evidence of linguistic differences by geographical location.
 
    *b. Different ethnicities?*
 
-   There were no statistically significant differences in frequency of usage between Anglo and non-Anglo Australians within both spoken corpora. However, when the corpora were compared, the mean frequency of both Anglo and non-Anglo Australians in Sydney Speaks was significantly higher than that of both Anglo and non-Anglo Australians in AusTalk<sup><a name=”back-3”>[3](#fn-3)</a></sup>.
+   There were no statistically significant differences in frequency of usage between Anglo and non-Anglo Australians within both spoken corpora. However, when the corpora were compared, the mean frequency of both Anglo and non-Anglo Australians in Sydney Speaks was significantly higher than that of both Anglo and non-Anglo Australians in AusTalk<sup><a name="back-3" >[3](#fn-3)</a></sup>.
 
-   There were no statistically significant differences in preferred variants, though there were some evident trends. For instance, Chinese Australians in the Sydney Speaks dataset used *whatnot/what not* variants more often than other ethnicities<sup><a name=”back-4”>[4](#fn-4)</a></sup>, which may relate to my original observation about Vietnamese Australians.
+   There were no statistically significant differences in preferred variants, though there were some evident trends. For instance, Chinese Australians in the Sydney Speaks dataset used *whatnot/what not* variants more often than other ethnicities<sup><a name="back-4" >[4](#fn-4)</a></sup>, which may relate to my original observation about Vietnamese Australians.
 
 <br>
 
 *2. Does GE usage differ between spoken settings and CMC settings in Australia?*
 
-There were more GE tokens on X than in the spoken corpora. However, the mean frequency per user was significantly lower on X than the mean frequency per speaker in the spoken corpora<sup><a name=”back-5”>[5](#fn-5)</a></sup>, likely due to the limitation in post lengths on X. Figure 3 illustrates the mean GE frequency for Sydney speakers in the AusTalk and Sydney Speaks datasets compared to X users<sup><a name=”back-6”>[6](#fn-6)</a></sup>.
+There were more GE tokens on X than in the spoken corpora. However, the mean frequency per user was significantly lower on X than the mean frequency per speaker in the spoken corpora<sup><a name="back-5" >[5](#fn-5)</a></sup>, likely due to the limitation in post lengths on X. Figure 3 illustrates the mean GE frequency for Sydney speakers in the AusTalk and Sydney Speaks datasets compared to X users<sup><a name="back-6" >[6](#fn-6)</a></sup>.
 
-There were also GE variants such as *(and) stuff (like that)* that were used significantly more frequently by speakers in the spoken corpora than by X users<sup><a name=”back-7”>[7](#fn-7)</a></sup>. Therefore, it seems usage patterns on X differ from those in spoken Australian English.
+There were also GE variants such as *(and) stuff (like that)* that were used significantly more frequently by speakers in the spoken corpora than by X users<sup><a name="back-7" >[7](#fn-7)</a></sup>. Therefore, it seems usage patterns on X differ from those in spoken Australian English.
 
 <br>
 
@@ -155,7 +155,7 @@ There were also GE variants such as *(and) stuff (like that)* that were used sig
 
 *3. Do the results corroborate or refute previous findings, particularly those specific to Australian English?*
 
-The AusTalk results corroborated the robust finding on age (e.g. Secova, 2017; Travis et al., 2017), that is, younger speakers used GEs more frequently than older speakers<sup><a name=”back-8”>[8](#fn-8)</a></sup>. There was also support across both corpora for previous studies that found no gender and class differences in frequency of usage.
+The AusTalk results corroborated the robust finding on age (e.g. Secova, 2017; Travis et al., 2017), that is, younger speakers used GEs more frequently than older speakers<sup><a name="back-8" >[8](#fn-8)</a></sup>. There was also support across both corpora for previous studies that found no gender and class differences in frequency of usage.
 
 <br>
 
@@ -178,9 +178,9 @@ Burnham, D., Estival, D., Fazio, S., Viethen, J. Cox, J., Dale, R., Cassidy, S.,
 Cheshire, J. (2007). Discourse variation, grammaticalisation and stuff like that. *Journal of Sociolinguistics, 11*(2), 155–193.
 
 Fernandez, J. & Yuldashev, A. (2011). Variation in the use of general extenders *and stuff* in instant messaging interactions. *Journal of Pragmatics, 43*(10), 2610–2626.
-Martínez, I. M. P. (2011). *“I might, I might go I mean it depends on money things and stuff”*. A preliminary analysis of general extenders in British teenagers’ discourse. *Journal of Pragmatics, 43*(9), 2452–2470.
+Martínez, I. M. P. (2011). *"I might, I might go I mean it depends on money things and stuff"*. A preliminary analysis of general extenders in British teenagers' discourse. *Journal of Pragmatics, 43*(9), 2452–2470.
 
-Norrby, C. & Winter, J. (2002). Affiliation in Adolescents’ Use of Discourse Extenders. In C. Allen (Ed.), *Proceedings of the 2001 Conference of the Australian Linguistic Society*. Retrieved from [http://www.als.asn.au/proceedings/als2001.html](http://www.als.asn.au/proceedings/als2001.html)
+Norrby, C. & Winter, J. (2002). Affiliation in Adolescents' Use of Discourse Extenders. In C. Allen (Ed.), *Proceedings of the 2001 Conference of the Australian Linguistic Society*. Retrieved from [http://www.als.asn.au/proceedings/als2001.html](http://www.als.asn.au/proceedings/als2001.html)
 
 Rechkemmer, A., Wilson, S. R. & Mihalcea, R. (2020). Small Town or Metropolis? Analyzing the Relationship between Population Size and Language. In N. Calzolari, F. Béchet, P. Blache, K. Choukri, C. Cieri, T. Declerck, ... & S. Piperidis (Eds.), *Proceedings of the 12th Language Resources and Evaluation Conference*. Retrieved from [http://www.lrec-conf.org/proceedings/lrec2020/index.html](http://www.lrec-conf.org/proceedings/lrec2020/index.html)
 
