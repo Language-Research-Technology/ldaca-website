@@ -135,18 +135,10 @@ Pho, Phuong Dzung. 2009. Towards the Design of the Australian National Corpus. I
 
 Thanks to Teresa Chan who provided valuable feedback on a draft.
 
-<a name="fn-1">
-1</a> We think it is important, however, to acknowledge and recognise the longstanding commitment by Griffith University to maintaining the AusNC over a period of more than ten years.
+<a name="fn-1">1</a> We think it is important, however, to acknowledge and recognise the longstanding commitment by Griffith University to maintaining the AusNC over a period of more than ten years. [↩](#back-1)
 
-[back](#back-1)
-<a name="fn-2">
+<a name="fn-2">2</a> “A global trusted system of systems that provides frictionless access to high quality interoperable resources, services and artefacts for research….. Data commons collocate data, storage, and computing infrastructure with core services and commonly used tools and applications for managing, analyzing, and sharing data to create an interoperable resource for the research community.” (Grossman et al. (2016)) [↩](#back-2)
 
-2</a> “A global trusted system of systems that provides frictionless access to high quality interoperable resources, services and artefacts for research….. Data commons collocate data, storage, and computing infrastructure with core services and commonly used tools and applications for managing, analyzing, and sharing data to create an interoperable resource for the research community.” (Grossman et al. (2016))
+<a name="fn-3">3</a> More details of the history of the AusNC can be found in Musgrave & Haugh (2020). [↩](#back-2)
 
-[back](#back-2)
-
-<a name="fn-3">
-3</a> More details of the history of the AusNC can be found in Musgrave & Haugh (2020).
-
-[back](#back-3)
 <br>
