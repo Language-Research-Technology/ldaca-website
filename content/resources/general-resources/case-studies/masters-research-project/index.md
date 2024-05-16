@@ -109,7 +109,7 @@ To corroborate and extend previous findings, data sources that had never been an
 
 ## Data analysis
 
-Once I had cleaned and organised the data for all three datasets, I uploaded them into commercial corpus manager and text analysis software ([Sketch Engine](https://www.sketchengine.eu/)) and conducted [concordance](https://www.atap.edu.au/text-analysis/methods/) searches. I searched for GE variants from a list I had compiled before starting data collection, based on those found in previous studies. Figure 2 shows the first 20 results of a concordance search for the GE _and stuff_ in the Sydney Speaks dataset.
+Once I had cleaned and organised the data for all three datasets, I uploaded them into commercial corpus manager and text analysis software ([Sketch Engine](https://www.sketchengine.eu/)) and conducted [concordance](https://www.atap.edu.au/text-analysis/methods/#counting-words) searches. I searched for GE variants from a list I had compiled before starting data collection, based on those found in previous studies. Figure 2 shows the first 20 results of a concordance search for the GE _and stuff_ in the Sydney Speaks dataset.
 
 <br>
 
