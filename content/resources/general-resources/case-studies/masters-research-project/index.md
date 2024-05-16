@@ -33,9 +33,9 @@ The research questions I would aim to address were:
 
 1.  Are there differences in GE usage in Australia between:
 
-        a. different cities?
+    a. different cities?
 
-        b. different ethnicities?
+    b. different ethnicities?
 
 2.  Does GE usage differ between spoken settings and CMC settings in Australia?
 
