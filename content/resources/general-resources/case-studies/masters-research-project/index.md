@@ -53,17 +53,17 @@ Several factors influenced the selection of the data sources and the collection 
 
 The limited scope of the project and the short timeline I had for data collection meant I had to be strategic when selecting data sources. For the spoken language component, I could not construct my own corpus of recordings without requiring a potentially lengthy ethics clearance process, and so would need to rely on existing datasets like AusTalk and Sydney Speaks.
 
-For the CMC component, I needed to create my own dataset, which was reliant on both the suitability of the data source for my purposes and the skills required to access the data. Previous studies have found linguistic differences by geographical location within the same country on X (e.g. Rechkemmer, Wilson & Mihalcea, 2020), making it an appropriate choice for a CMC site. Furthermore, the website had an advanced search engine that allowed you to search for geolocated posts. X was also compatible with commercial web scraping software, allowing me to compensate for my lack of knowledge and experience as a novice researcher whose only relevant capability was a rudimentary knowledge of Python.
+For the CMC component, I needed to create my own dataset, which was reliant on both the suitability of the data source for my purposes and the skills required to access the data. Previous studies have found linguistic differences by geographical location within the same country on X (e.g. Rechkemmer, Wilson & Mihalcea, 2020), making it an appropriate choice for a CMC site. Furthermore, the website had an advanced search engine that allowed you to search for geolocated posts. X was also compatible with commercial web scraping software, allowing me to compensate for my lack of knowledge and experience as a novice researcher whose only relevant capability was a rudimentary knowledge of {{< glossary_link display="Python" id="python" >}}.
 
 <br>
 
 ### Dataset accessibility
 
-Accessibility needed to be considered when selecting and collecting data. The spoken corpora must already have transcriptions of the recordings available and the metadata needed to contain fields that matched the variables I was looking for.
+Accessibility needed to be considered when selecting and collecting data. The spoken corpora must already have transcriptions of the recordings available and the {{< glossary_link display="metadata" id="metadata" >}} needed to contain fields that matched the variables I was looking for.
 
 A small portion of the recordings in the AusTalk dataset had already been transcribed and made available online. This data could be downloaded from two separate (now defunct) web-based tools: the transcriptions via the Alveo website and the metadata via the Alveo Query Engine. The metadata contained detailed demographic information about the speakers in the recordings, allowing me to operationalise different fields into my chosen variables: age, gender, socio-economic class (education level), ethnicity (cultural heritage) and geographical location (current city).
 
-For the Sydney Speaks corpus, I submitted an application for access to the main researcher, LDaCA Chief Investigator Catherine Travis, and once granted, she sent me a link to download the data files. The metadata was encoded in the file names, with different codes used for ethnicity, gender and age. Luckily for future researchers, the majority of the [Sydney Speaks](https://www.ldaca.edu.au/resources/general-resources/case-studies/sydney-speaks/) corpus will be incorporated into the LDaCA portal, where the data and metadata will be made FAIR: findable, accessible, interoperable and reusable.
+For the Sydney Speaks corpus, I submitted an application for access to the main researcher, LDaCA Chief Investigator Catherine Travis, and once granted, she sent me a link to download the data files. The metadata was encoded in the file names, with different codes used for ethnicity, gender and age. Luckily for future researchers, the majority of the [Sydney Speaks](https://www.ldaca.edu.au/resources/general-resources/case-studies/sydney-speaks/) corpus will be incorporated into the [LDaCA portal](https://data.ldaca.edu.au/), where the data and metadata will be made {{< glossary_link display="FAIR" id="fair" >}}: findable, accessible, interoperable and reusable.
 
 Aside from the metadata requiring more manual work to extract, the utility of the Sydney Speaks dataset was lower than AusTalk for three main reasons:
 
@@ -109,7 +109,7 @@ To corroborate and extend previous findings, data sources that had never been an
 
 ## Data analysis
 
-Once I had cleaned and organised the data for all three datasets, I uploaded them into commercial corpus manager and text analysis software (Sketch Engine) and conducted [concordance](https://www.atap.edu.au/text-analysis/methods/) searches. I searched for GE variants from a list I had compiled before starting data collection, based on those found in previous studies. Figure 2 shows the first 20 results of a concordance search for the GE _and stuff_ in the Sydney Speaks dataset.
+Once I had cleaned and organised the data for all three datasets, I uploaded them into commercial corpus manager and text analysis software ([Sketch Engine](https://www.sketchengine.eu/)) and conducted [concordance](https://www.atap.edu.au/text-analysis/methods/) searches. I searched for GE variants from a list I had compiled before starting data collection, based on those found in previous studies. Figure 2 shows the first 20 results of a concordance search for the GE _and stuff_ in the Sydney Speaks dataset.
 
 <br>
 
@@ -165,9 +165,9 @@ Addressing each research question in turn:
 
 Though the analysis revealed interesting trends, more data is necessary to make further claims about the difference between GE usage in spoken Australian English and on X. I considered expanding on this in a PhD degree, but decided against pursuing this, before I ended up working at LDaCA.
 
-If I do resume my research, I would need to consider other CMC sites, with X on the decline and no clear winner among the alternatives. However, other large platforms like Reddit and Facebook come with their own challenges, including restrictions in access to their underlying APIs (Application Programming Interfaces). Using the APIs would allow me to avoid web scraping and its associated risks (e.g. potential violation of website terms) and limitations (e.g. difficulty in handling large or complex websites).
+If I do resume my research, I would need to consider other CMC sites, with X on the decline and no clear winner among the alternatives. However, other large platforms like Reddit and Facebook come with their own challenges, including restrictions in access to their underlying {{< glossary_link display="APIs" id="api" >}} (Application Programming Interfaces). Using the APIs would allow me to avoid web scraping and its associated risks (e.g. potential violation of website terms) and limitations (e.g. difficulty in handling large or complex websites).
 
-Additionally, I would drastically change how I approach data capture and analysis, with a focus on digital automation and open-source software. The LDaCA portal would also be an invaluable resource to locate corpora of Australian English, with a clear and straightforward path in accessing both the data and associated metadata.
+Additionally, I would drastically change how I approach data capture and analysis, with a focus on digital automation and open-source software. The [LDaCA portal](https://data.ldaca.edu.au/) would also be an invaluable resource to locate corpora of Australian English, with a clear and straightforward path in accessing both the data and associated metadata.
 
 <br>
 
