@@ -32,16 +32,10 @@ My project would attempt to fill these gaps in the literature and explore socio-
 The research questions I would aim to address were:
 
 1.  Are there differences in GE usage in Australia between:
-    <<<<<<< HEAD
-    a. different cities?
-    b. different ethnicities?
-    =======
 
         a. different cities?
 
         b. different ethnicities?
-
-    > > > > > > > 283354a3a3b51c7b3a22e2265721b669226e9b40
 
 2.  Does GE usage differ between spoken settings and CMC settings in Australia?
 
