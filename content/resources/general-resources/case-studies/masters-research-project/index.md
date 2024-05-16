@@ -31,15 +31,15 @@ My project would attempt to fill these gaps in the literature and explore socio-
 
 The research questions I would aim to address were:
 
-1.  *Are there differences in GE usage in Australia between:*
+1.  _Are there differences in GE usage in Australia between:_
 
-    a. *different cities?*
+    a. _different cities?_
 
-    b. *different ethnicities?*
+    b. _different ethnicities?_
 
-2.  *Does GE usage differ between spoken settings and CMC settings in Australia?*
+2.  _Does GE usage differ between spoken settings and CMC settings in Australia?_
 
-3.  *Do the results corroborate or refute previous findings, particularly those for Australian English?*
+3.  _Do the results corroborate or refute previous findings, particularly those for Australian English?_
 
 <br>
 
@@ -127,15 +127,15 @@ Addressing each research question in turn:
 
 <br>
 
-1. *Are there differences in GE usage in Australia between:*
+1. _Are there differences in GE usage in Australia between:_
 
-   a. *Different cities?*
+   a. _Different cities?_
 
    There were no statistically significant differences in frequency of GE usage between different Australian cities in AusTalk. However, the Sydney Speaks mean frequency per 10,000 words was significantly higher than the mean frequencies of the other cities in AusTalk, including Sydney<sup><a name="back-1" >[1](#fn-1)</a></sup>.
 
    Looking at GE categories, there were no statistically significant results. However, there were apparent trends, such as Sydney AusTalk speakers using less common variants more often compared to other cities<sup><a name="back-2" >[2](#fn-2)</a></sup>. Thus, there is some evidence of linguistic differences by geographical location.
 
-   b. *Different ethnicities?*
+   b. _Different ethnicities?_
 
    There were no statistically significant differences in frequency of usage between Anglo and non-Anglo Australians within both spoken corpora. However, when the corpora were compared, the mean frequency of both Anglo and non-Anglo Australians in Sydney Speaks was significantly higher than that of both Anglo and non-Anglo Australians in AusTalk<sup><a name="back-3" >[3](#fn-3)</a></sup>.
 
@@ -143,7 +143,7 @@ Addressing each research question in turn:
 
 <br>
 
-2. *Does GE usage differ between spoken settings and CMC settings in Australia?*
+2. _Does GE usage differ between spoken settings and CMC settings in Australia?_
 
    There were more GE tokens on X than in the spoken corpora. However, the mean frequency per user was significantly lower on X than the mean frequency per speaker in the spoken corpora<sup><a name="back-5" >[5](#fn-5)</a></sup>, likely due to the limitation in post lengths on X. Figure 3 illustrates the mean GE frequency for Sydney speakers in the AusTalk and Sydney Speaks datasets compared to X users<sup><a name="back-6" >[6](#fn-6)</a></sup>.
 
@@ -155,7 +155,7 @@ Addressing each research question in turn:
 
 <br>
 
-3. *Do the results corroborate or refute previous findings, particularly those specific to Australian English?*
+3. _Do the results corroborate or refute previous findings, particularly those specific to Australian English?_
 
    The AusTalk results corroborated the robust finding on age (e.g. Secova, 2017; Travis et al., 2017), that is, younger speakers used GEs more frequently than older speakers<sup><a name="back-8" >[8](#fn-8)</a></sup>. There was also support across both corpora for previous studies that found no gender and class differences in frequency of usage.
 
