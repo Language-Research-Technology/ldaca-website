@@ -139,7 +139,7 @@ Addressing each research question in turn:
 
    There were no statistically significant differences in frequency of usage between Anglo and non-Anglo Australians within both spoken corpora. However, when the corpora were compared, the mean frequency of both Anglo and non-Anglo Australians in Sydney Speaks was significantly higher than that of both Anglo and non-Anglo Australians in AusTalk<sup><a name="back-3" >[3](#fn-3)</a></sup>.
 
-   There were no statistically significant differences in preferred variants, though there were some evident trends. For instance, Chinese Australians in the Sydney Speaks dataset used _whatnot/what not_ variants more often than other ethnicities<sup><a name="back-4" >[4](#fn-4)</a></sup>, which may relate to my original observation about Vietnamese Australians.
+   There were no statistically significant differences in preferred variants, though there were some evident trends. For instance, Chinese Australians in the Sydney Speaks dataset used _whatnot/what not_ variants more often than other ethnicities<sup><a name="back-4" >[4](#fn-4)</a></sup>, which might relate to my original observation about Vietnamese Australians.
 
 <br>
 
