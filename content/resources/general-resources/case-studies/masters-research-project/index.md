@@ -131,23 +131,23 @@ Addressing each research question in turn:
 
    a. _Different cities?_
 
-   There were no statistically significant differences in frequency of GE usage between different Australian cities in AusTalk. However, the Sydney Speaks mean frequency per 10,000 words was significantly higher than the mean frequencies of the other cities in AusTalk, including Sydney<sup><a name="back-1" >[1](#fn-1)</a></sup>.
+   There were no statistically significant differences in frequency of GE usage between different Australian cities in AusTalk. However, the Sydney Speaks mean frequency per 10,000 words was significantly higher than the mean frequencies of the other cities in AusTalk, including Sydney{{< fnote_ref number="1" >}}.
 
-   Looking at GE categories, there were no statistically significant results. However, there were apparent trends, such as Sydney AusTalk speakers using less common variants more often compared to other cities<sup><a name="back-2" >[2](#fn-2)</a></sup>. Thus, there is some evidence of linguistic differences by geographical location.
+   Looking at GE categories, there were no statistically significant results. However, there were apparent trends, such as Sydney AusTalk speakers using less common variants more often compared to other cities{{< fnote_ref number="2" >}}. Thus, there is some evidence of linguistic differences by geographical location.
 
    b. _Different ethnicities?_
 
-   There were no statistically significant differences in frequency of usage between Anglo and non-Anglo Australians within both spoken corpora. However, when the corpora were compared, the mean frequency of both Anglo and non-Anglo Australians in Sydney Speaks was significantly higher than that of both Anglo and non-Anglo Australians in AusTalk<sup><a name="back-3" >[3](#fn-3)</a></sup>.
+   There were no statistically significant differences in frequency of usage between Anglo and non-Anglo Australians within both spoken corpora. However, when the corpora were compared, the mean frequency of both Anglo and non-Anglo Australians in Sydney Speaks was significantly higher than that of both Anglo and non-Anglo Australians in AusTalk{{< fnote_ref number="3" >}}.
 
-   There were no statistically significant differences in preferred variants, though there were some evident trends. For instance, Chinese Australians in the Sydney Speaks dataset used _whatnot/what not_ variants more often than other ethnicities<sup><a name="back-4" >[4](#fn-4)</a></sup>, which might relate to my original observation about Vietnamese Australians.
+   There were no statistically significant differences in preferred variants, though there were some evident trends. For instance, Chinese Australians in the Sydney Speaks dataset used _whatnot/what not_ variants more often than other ethnicities{{< fnote_ref number="4" >}}, which might relate to my original observation about Vietnamese Australians.
 
 <br>
 
 2. _Does GE usage differ between spoken settings and CMC settings in Australia?_
 
-   There were more GE tokens on X than in the spoken corpora. However, the mean frequency per user was significantly lower on X than the mean frequency per speaker in the spoken corpora<sup><a name="back-5" >[5](#fn-5)</a></sup>, likely due to the limitation in post lengths on X. Figure 3 illustrates the mean GE frequency for Sydney speakers in the AusTalk and Sydney Speaks datasets compared to X users<sup><a name="back-6" >[6](#fn-6)</a></sup>.
+   There were more GE tokens on X than in the spoken corpora. However, the mean frequency per user was significantly lower on X than the mean frequency per speaker in the spoken corpora{{< fnote_ref number="5" >}}, likely due to the limitation in post lengths on X. Figure 3 illustrates the mean GE frequency for Sydney speakers in the AusTalk and Sydney Speaks datasets compared to X users{{< fnote_ref number="6" >}}.
 
-   There were also GE variants such as _(and) stuff (like that)_ that were used significantly more frequently by speakers in the spoken corpora than by X users<sup><a name="back-7" >[7](#fn-7)</a></sup>. Therefore, it seems usage patterns on X differ from those in spoken Australian English.
+   There were also GE variants such as _(and) stuff (like that)_ that were used significantly more frequently by speakers in the spoken corpora than by X users{{< fnote_ref number="7" >}}. Therefore, it seems usage patterns on X differ from those in spoken Australian English.
 
 <br>
 
@@ -157,7 +157,7 @@ Addressing each research question in turn:
 
 3. _Do the results corroborate or refute previous findings, particularly those specific to Australian English?_
 
-   The AusTalk results corroborated the robust finding on age (e.g. Secova, 2017; Travis et al., 2017), that is, younger speakers used GEs more frequently than older speakers<sup><a name="back-8" >[8](#fn-8)</a></sup>. There was also support across both corpora for previous studies that found no gender and class differences in frequency of usage.
+   The AusTalk results corroborated the robust finding on age (e.g. Secova, 2017; Travis et al., 2017), that is, younger speakers used GEs more frequently than older speakers{{< fnote_ref number="8" >}}. There was also support across both corpora for previous studies that found no gender and class differences in frequency of usage.
 
 <br>
 
@@ -198,18 +198,19 @@ Travis, C. E., Grama, J. & Gonzalez, S. (2017). _General extenders over time in 
 
 ### Footnotes
 
-<a name="fn-1">1</a> The mean frequency per 10,000 words for AusTalk speakers was significantly lower than Sydney Speaks speakers, in Sydney (t(129) = 2.40, p = .018), Adelaide (t(154) = 3.01, p = .003), Brisbane (t(29) = 4.89, p < .001) and Canberra (t(129) = 2.03, p = .044). [↩](#back-1)
-
-<a name="fn-2">2</a> Less common variants made up 15.00% of AusTalk tokens in Sydney, compared to 9.03% in Adelaide, 6.90% in Brisbane and 7.20% in Canberra. [↩](#back-2)
-
-<a name="fn-3">3</a> The mean frequency of Anglo Australians in the Sydney Speaks dataset was significantly higher than both Anglo Australians (t(108) = 4.66, p < .001) and non-Anglo Australians (t(69) = 3.67, p < .001) in AusTalk. The mean frequency of non-Anglo Australians in the Sydney Speaks dataset was significantly higher than both Anglo Australians (t(121) = 3.15, p = .002) and non-Anglo Australians (t(55) = 2.85, p = .006) in AusTalk. [↩](#back-3)
-
-<a name="fn-4">4</a> _Whatnot/what not_ variants made up 9.04% of Sydney Speaks tokens for Chinese Australians, compared to 0.99% for Anglo Australians, 4.49% for Greek Australians and 1.61% for Italian Australians. [↩](#back-4)
-
-<a name="fn-5">5</a> The mean frequency per speaker/user for AusTalk speakers was significantly higher than X users (t(64) = 4.51, p < .001). The mean frequency for Sydney Speaks speakers was significantly higher than X users (t(117) = 9.85, p < .001). [↩](#back-5)
-
-<a name="fn-6">6</a> The mean frequency for AusTalk speakers was significantly higher than X users in Sydney (t(877) = 4.00, p < .001). The mean frequency for Sydney Speaks speakers was significantly higher than X users in Sydney (t(117) = 9.85, p < .001). [↩](#back-6)
-
-<a name="fn-7">7</a> The _(and) stuff (like that)_ variant was used significantly more frequently by speakers in the AusTalk (t(15) = 3.17, p = .006) and Sydney Speaks (t(78) = 6.21, p < .001) datasets compared to X users. [↩](#back-7)
-
-<a name="fn-8">8</a> Speakers in the datasets were assigned one of three age brackets: Young (19-29 year-olds), Middle (30-59 year-olds) and Old (60-79 year-olds). The mean frequencies for the Young (t(36) = 4.07, p < .001) and Middle (t(48) = 2.42, p = .02) age brackets in AusTalk were significantly higher than the Old age bracket. [↩](#back-8)
+{{< fnote number="1" text="The mean frequency per 10,000 words for AusTalk speakers was significantly lower than Sydney Speaks speakers, in Sydney (t(129) = 2.40, p = .018), Adelaide (t(154) = 3.01, p = .003), Brisbane (t(29) = 4.89, p < .001) and Canberra (t(129) = 2.03, p = .044)." >}}
+<br>
+{{< fnote number="2" text="Less common variants made up 15.00% of AusTalk tokens in Sydney, compared to 9.03% in Adelaide, 6.90% in Brisbane and 7.20% in Canberra." >}}
+<br>
+{{< fnote number="3" text="The mean frequency of Anglo Australians in the Sydney Speaks dataset was significantly higher than both Anglo Australians (t(108) = 4.66, p < .001) and non-Anglo Australians (t(69) = 3.67, p < .001) in AusTalk. The mean frequency of non-Anglo Australians in the Sydney Speaks dataset was significantly higher than both Anglo Australians (t(121) = 3.15, p = .002) and non-Anglo Australians (t(55) = 2.85, p = .006) in AusTalk." >}}
+<br>
+{{< fnote number="4" text="*Whatnot/what not* variants made up 9.04% of Sydney Speaks tokens for Chinese Australians, compared to 0.99% for Anglo Australians, 4.49% for Greek Australians and 1.61% for Italian Australians." >}}
+<br>
+{{< fnote number="5" text="The mean frequency per speaker/user for AusTalk speakers was significantly higher than X users (t(64) = 4.51, p < .001). The mean frequency for Sydney Speaks speakers was significantly higher than X users (t(117) = 9.85, p < .001)." >}}
+<br>
+{{< fnote number="6" text="The mean frequency for AusTalk speakers was significantly higher than X users in Sydney (t(877) = 4.00, p < .001). The mean frequency for Sydney Speaks speakers was significantly higher than X users in Sydney (t(117) = 9.85, p < .001)." >}}
+<br>
+{{< fnote number="7" text="The *(and) stuff (like that)* variant was used significantly more frequently by speakers in the AusTalk (t(15) = 3.17, p = .006) and Sydney Speaks (t(78) = 6.21, p < .001) datasets compared to X users." >}}
+<br>
+{{< fnote number="8" text="Speakers in the datasets were assigned one of three age brackets: Young (19-29 year-olds), Middle (30-59 year-olds) and Old (60-79 year-olds). The mean frequencies for the Young (t(36) = 4.07, p < .001) and Middle (t(48) = 2.42, p = .02) age brackets in AusTalk were significantly higher than the Old age bracket." >}}
+<br>
