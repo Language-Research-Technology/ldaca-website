@@ -13,7 +13,7 @@ description: "A list of the Oni data portals currently available, including thei
 
 ## [LDaCA Portal](https://data.ldaca.edu.au)
 
-TODO add description
+<!--TODO add description-->
 
 <br>
 
@@ -33,7 +33,7 @@ __Current Collections:__
 
 The Indigenous Language Data (ILD) Portal
 
-TODO add description
+<!--TODO add description-->
 
 <br>   
 

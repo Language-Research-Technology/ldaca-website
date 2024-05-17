@@ -23,7 +23,7 @@ Cite the collection as a whole whenever you use, or need to refer to, any part o
 
 You can find each collection’s citation information on the collection level page under "How to cite this collection". The collection level page is the webpage presented upon selection of the collection name from the portal homepage or from a list of search results. Note that this citation information is separate from the _Citation_ metadata field that appears in some collections and refers to published papers about the collection.
 
-TODO add screenshot when we have this functionality
+<!--TODO add screenshot when we have this functionality-->
 
 The citation information is not in any specific format or style (e.g. APA, MLA); it is meant to provide the essential citation elements for a minimal bibliographic reference (Tromsø Recommendations 2019) which are:
 
