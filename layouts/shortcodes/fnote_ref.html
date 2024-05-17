@@ -1,0 +1,5 @@
+<!-- use shortcode to add footnote reference in text. Required parameter: number=""(number for footnote referred to) -->
+
+{{ $number := .Get "number" }} {{ $name := print "back-" $number }} {{ $ref :=
+print "#fn-" $number }}
+<sup><a name="{{ $name }}" href="{{ $ref }}">{{ $number }}</a></sup>

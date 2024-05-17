@@ -1,0 +1,7 @@
+<!-- use shortcode to add footnote at end of page. Required parameters: number=""(number for this footnote) text=""(text content of footnote) -->
+
+{{ $number := .Get "number" }} {{ $name := print "fn-" $number }} {{ $back :=
+print "#back-" $number}}
+
+<a name="{{ $name }}">{{ $number }}</a> {{ .Get "text" }}
+<a href="{{ $back }}">↩</a>
