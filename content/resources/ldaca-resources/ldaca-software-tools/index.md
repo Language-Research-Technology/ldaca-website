@@ -2,7 +2,7 @@
 title: "LDaCA Software Tools"
 date: 2023-11-22T14:51:49+11:00
 draft: false
-description: "A variety of LDaCA open-source tools available on GitHub"
+description: "A variety of LDaCA open-source tools available on GitHub."
 ---
 
 <br>
