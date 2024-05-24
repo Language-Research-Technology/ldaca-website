@@ -11,21 +11,9 @@ description: "Learn more about Indigenous language work in Australia through key
 
 <br>
 
-### [First Languages Australia](https://www.firstlanguages.org.au/)
+### [50 Words Project](https://50words.online/)
 
-Encourages communication between communities, the government and key partners whose work can impact Aboriginal and Torres Strait Islander languages.
-
-<br>
-
-### [Living Languages](https://www.livinglanguages.org.au/)
-  
-Provides grassroots training to people, communities and Language Centres in Australia doing language work on the ground in remote, regional and urban areas.
-
-<br>
-
-### [Language Centres](https://www.arts.gov.au/publications/ila-funded-indigenous-language-centres)
-
-The Indigenous Languages and Arts (ILA) program currently supports a number of organisations, including a network of 20 language centres. A list of these centres is available from the above link in PDF or DOCX format.
+Showcases words from 64 languages across Australia, with further languages being added regularly as more communities around Australia become involved. For each language, you can hear the words spoken via a map that shows the general location of the language.
 
 <br>
 
@@ -35,39 +23,9 @@ Provides a controlled vocabulary of persistent identifiers, a thesaurus of langu
 
 <br>
 
-### [Nyingarn](https://nyingarn.net/)
-  
-A platform for primary sources in Australian Indigenous languages.
-
-<br>
-
-### [Digital Daisy Bates](https://bates.org.au/)
-
-A {{< glossary_link display="collection" id="collection" >}} of over 23,000 pages of wordlists of Australian languages, originally recorded by Daisy Bates in the early 1900s, made up of the original questionnaires and around 4,000 pages of typescripts.
-
-<br>
-
-### [50 Words Project](https://50words.online/)
-
-Showcases words from 64 languages across Australia, with further languages being added regularly as more communities around Australia become involved. For each language, you can hear the words spoken via a map that shows the general location of the language.
-
-<br>
-
-### [Gambay](https://www.gambay.com.au)
-
-A map of Australia's first languages.
-
-<br>
-
-### [Australian Indigenous language collections](https://www.nla.gov.au/research-guides/indigenous-language-resources#)
+### [Australian Indigenous Language Collections](https://www.nla.gov.au/research-guides/indigenous-language-resources#)
 
 A guide to materials held in the National Library of Australia, with links to similar resources at State Libraries.
-
-<br>
-
-### [Living Archive of Aboriginal Languages (LAAL)](https://livingarchive.cdu.edu.au/)
-
-See [Language Archives](/resources/general-resources/language-archives/).
 
 <br>
 
@@ -77,7 +35,67 @@ A lexical database (a database with words from different languages). Currently, 
 
 <br>
 
+### [Digital Daisy Bates](https://bates.org.au/)
+
+A {{< glossary_link display="collection" id="collection" >}} of over 23,000 pages of wordlists of Australian languages, originally recorded by Daisy Bates in the early 1900s, made up of the original questionnaires and around 4,000 pages of typescripts.
+
+<br>
+
+### [First Languages Australia](https://www.firstlanguages.org.au/)
+
+First Languages Australia is a partner institution of LDaCA and encourages communication between communities, the government and key partners whose work can impact Aboriginal and Torres Strait Islander languages.
+
+<br>
+
+### [Gambay](https://www.gambay.com.au)
+
+A map of Australia's first languages.
+
+<br>
+
+### [Indigenous Voices of Queensland](https://web.library.uq.edu.au/collections/cultural-heritage-collections/indigenous-languages-culture/indigenous-voices-queensland)
+
+An online resource created to improve public access to audio recordings, held in the Fryer Library (UQ), of Aboriginal and Torres Strait Islander people speaking Indigenous languages of Queensland. The project aims to make the recordings as openly available as possible so they can be used to assist communities with language recovery and education, and deepen knowledge of First Nations languages. A map summary and table of languages is also available for browsing, based on recordings from three academics: Elwyn Flint, Bruce Rigsby and Bruce Sommer.
+
+<br>
+
+### [Interactive Queenslander Languages Map](https://www.slq.qld.gov.au/discover/first-nations-cultures/aboriginal-and-torres-strait-islander-languages)
+
+An interactive map providing resources for Queensland Aboriginal and Torres Strait Islander languages, hosted by the State Library of Queensland and searchable by suburb or language.
+
+<br>
+
+### [Language Centres](https://www.arts.gov.au/publications/ila-funded-indigenous-language-centres)
+
+The Indigenous Languages and Arts (ILA) program currently supports a number of organisations, including a network of 20 language centres. A list of these centres is available from the above link in PDF or DOCX format.
+
+<br>
+
+### [Living Archive of Aboriginal Languages (LAAL)](https://livingarchive.cdu.edu.au/)
+
+See [Language Archives](/resources/general-resources/language-archives/).
+
+<br>
+
+### [Living Languages](https://www.livinglanguages.org.au/)
+  
+Provides grassroots training to people, communities and Language Centres in Australia doing language work on the ground in remote, regional and urban areas.
+
+<br>
+
+### [Nyingarn](https://nyingarn.net/)
+  
+A platform for primary sources in Australian Indigenous languages.
+
+<br>
+
 ## Languages of the World
+
+<br>
+
+### [Ethnologue](https://www.ethnologue.com/)
+
+Provides information about the languages of the world, but operates on a subscription model. The information that is available without a subscription is very limited: the first three lines of individual language entries which include the [ISO 639-3](/resources/ldaca-resources/metadata/#iso-639) code, the classification of the language into a language family, and a link to the language’s {{< glossary_link display="OLAC" id="olac" >}} page.
 
 <br>
 
@@ -96,12 +114,6 @@ An international partnership of institutions and individuals who are creating a 
 (ii) developing a network of interoperating repositories and services for housing and accessing such resources.
   
 {{< glossary_link display="OLAC" id="olac" >}} harvests metadata and their website has a search facility to find resources for languages. {{< glossary_link display="OLAC" id="olac" >}} [metadata recommendations](/resources/ldaca-resources/metadata/#olac) are the basis for some of LDaCA's metadata.
-
-<br>
-
-### [Ethnologue](https://www.ethnologue.com/)
-
-Provides information about the languages of the world, but operates on a subscription model. The information that is available without a subscription is very limited: the first three lines of individual language entries which include the [ISO 639-3](/resources/ldaca-resources/metadata/#iso-639) code, the classification of the language into a language family, and a link to the language’s {{< glossary_link display="OLAC" id="olac" >}} page.
 
 <br>
 
