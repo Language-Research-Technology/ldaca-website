@@ -24,10 +24,10 @@ Languages require action to remain in use. The United Nations General Assembly h
 <br>
 
 The International Decade aims to achieve four main outcomes:
-1. Learn, teach, and transmit: Empower Indigenous Peoples to learn, teach and transmit their languages to the present and future generations.
-2. Establish as global priority and foster commitment: Establish the usage, preservation, revitalisation and promotion of Indigenous languages as a global priority for societal development, peacebuilding and reconciliation by 2030.
-3. Ensure legal recognition: Ensure Indigenous languages are recognised by Member States within their legal systems and legislation, which, in turn, are supported with comprehensive language-related laws and policy frameworks, and are backed by allocated financial, institutional and human resources.
-4. Enhance the functional usage: Develop an enabling environment to enhance the functional usage of Indigenous languages in socio-cultural, economic, environmental, legal and political domains.
+1. __Learn, teach, and transmit__: Empower Indigenous Peoples to learn, teach and transmit their languages to the present and future generations.
+2. __Establish as global priority and foster commitment__: Establish the usage, preservation, revitalisation and promotion of Indigenous languages as a global priority for societal development, peacebuilding and reconciliation by 2030.
+3. __Ensure legal recognition__: Ensure Indigenous languages are recognised by Member States within their legal systems and legislation, which, in turn, are supported with comprehensive language-related laws and policy frameworks, and are backed by allocated financial, institutional and human resources.
+4. __Enhance the functional usage__: Develop an enabling environment to enhance the functional usage of Indigenous languages in socio-cultural, economic, environmental, legal and political domains.
 
 <br>
 
@@ -107,7 +107,7 @@ We are also working on training programs, designed with First Nations people, wh
 
 Component five aligns closely with the A and the R in the {{< glossary_link display="FAIR" id="fair" >}} principles: __Accessibility__ and __Reusability__. In order for data to meet these FAIR criteria, it must be well-described, but in many cases, existing {{< glossary_link display="collections" id="collection" >}} of Indigenous data are not as well-described as they might be, and even when they are considered to be well-described, the description is often based on non-Indigenous knowledge.
 
-LDaCA is contributing to component five of the sub-theme by developing methods to make it easier to enrich existing descriptions of data, with the aim of moving towards Indigenous knowledges as the basis for the description of Indigenous data. We have carried out a pilot project with The University of Queensland libraries, in which records from the library system have been enriched with additional annotations based on Indigenous knowledges of the collection items. The results of this project can be seen in a dedicated [data portal](http://www.ild.ldaca.edu.au).
+LDaCA is contributing to component five of the sub-theme by developing methods to make it easier to enrich existing descriptions of data, with the aim of moving towards Indigenous knowledges as the basis for the description of Indigenous data. We have carried out a pilot project with The University of Queensland libraries, in which records from the library system have been enriched with additional annotations based on Indigenous knowledges of the collection items. The results of this project can be seen in a dedicated [data portal](https://ild.ldaca.edu.au/search).
 
 <br>
 
