@@ -1,10 +1,11 @@
 <!-- use shortcode to add profile as tooltip for person's name and create extrenal link if available. Required parameter: id=""(Matches name of data file) -->
 
-{{ $id := .Get "id" }} {{ $tooltip := (index .Site.Data.profiles $id ).biog }}
-{{ $href := (index .Site.Data.profiles $id ).external_link }} {{ if $href }}
+{{- $id := .Get "id" -}} {{- $tooltip := (index .Site.Data.profiles $id ).biog
+-}} {{- $href := (index .Site.Data.profiles $id ).external_link -}} {{- if $href
+-}}
 <a href="{{ $href }}" title="{{ $tooltip }}" target="_blank"
-  >{{ (index .Site.Data.profiles $id).fullname }}</a
+  >{{- (index .Site.Data.profiles $id).fullname -}}</a
 >
-{{ else }}
-<b title="{{ $tooltip }}">{{ (index .Site.Data.profiles $id).fullname }}</b>
-{{ end}}
+{{- else -}}
+<b title="{{ $tooltip }}">{{- (index .Site.Data.profiles $id).fullname -}}</b>
+{{- end -}}

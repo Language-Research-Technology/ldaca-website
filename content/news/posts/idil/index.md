@@ -24,10 +24,11 @@ Languages require action to remain in use. The United Nations General Assembly h
 <br>
 
 The International Decade aims to achieve four main outcomes:
-1. __Learn, teach, and transmit__: Empower Indigenous Peoples to learn, teach and transmit their languages to the present and future generations.
-2. __Establish as global priority and foster commitment__: Establish the usage, preservation, revitalisation and promotion of Indigenous languages as a global priority for societal development, peacebuilding and reconciliation by 2030.
-3. __Ensure legal recognition__: Ensure Indigenous languages are recognised by Member States within their legal systems and legislation, which, in turn, are supported with comprehensive language-related laws and policy frameworks, and are backed by allocated financial, institutional and human resources.
-4. __Enhance the functional usage__: Develop an enabling environment to enhance the functional usage of Indigenous languages in socio-cultural, economic, environmental, legal and political domains.
+
+1. **Learn, teach, and transmit**: Empower Indigenous Peoples to learn, teach and transmit their languages to the present and future generations.
+2. **Establish as global priority and foster commitment**: Establish the usage, preservation, revitalisation and promotion of Indigenous languages as a global priority for societal development, peacebuilding and reconciliation by 2030.
+3. **Ensure legal recognition**: Ensure Indigenous languages are recognised by Member States within their legal systems and legislation, which, in turn, are supported with comprehensive language-related laws and policy frameworks, and are backed by allocated financial, institutional and human resources.
+4. **Enhance the functional usage**: Develop an enabling environment to enhance the functional usage of Indigenous languages in socio-cultural, economic, environmental, legal and political domains.
 
 <br>
 
@@ -35,7 +36,7 @@ The International Decade aims to achieve four main outcomes:
 
 <br>
 
-{{< image Src="/idil/idil-logo.png" Alt="International Decade of Indigenous Languages Logo" Desc="International Decade of Indigenous Languages Logo" Title="International Decade of Indigenous Languages Logo" Ref="International Decade of Indigenous Languages Directions Group" >}}
+{{< image Src="/idil/idil-logo.png" Alt="International Decade of Indigenous Languages Logo" Desc="International Decade of Indigenous Languages Logo" Title="International Decade of Indigenous Languages Logo" Ref="International Decade of Indigenous Languages Directions Group" Height="400" >}}
 
 <br>
 
@@ -47,16 +48,17 @@ The Australian Government has partnered with the {{< glossary_link display="IDIL
 
 <br>
 
-{{< image Src="/idil/voices-of-country-themes.png" Alt="Voices of Country is guided by five inter-connected themes, represented as a native wattle tree, itself a source of food, medicine and tools, with language, culture and traditional knowledges as its foundation." Desc="Voices of Country is guided by five inter-connected themes, represented as a native wattle tree, itself a source of food, medicine and tools, with language, culture and traditional knowledges as its foundation." Title="Voices of Country is guided by five inter-connected themes, represented as a native wattle tree, itself a source of food, medicine and tools, with language, culture and traditional knowledges as its foundation." Ref="Gilimbaa with cultural elements created by David Williams (Wakka Wakka)" >}}
+{{< image Src="/idil/voices-of-country-themes.png" Alt="Voices of Country is guided by five inter-connected themes, represented as a native wattle tree, itself a source of food, medicine and tools, with language, culture and traditional knowledges as its foundation." Desc="Voices of Country is guided by five inter-connected themes, represented as a native wattle tree, itself a source of food, medicine and tools, with language, culture and traditional knowledges as its foundation." Title="Voices of Country is guided by five inter-connected themes, represented as a native wattle tree, itself a source of food, medicine and tools, with language, culture and traditional knowledges as its foundation." Ref="Gilimbaa with cultural elements created by David Williams (Wakka Wakka)" Height="800" >}}
 
 <br>
 
 _Voices of Country_ is framed through five interconnected themes:
-1. __Stop the Loss__: Securing the future and continuance of Australia’s first languages.
-2. __Aboriginal and Torres Strait Islander Communities are Centre__: Over the Decade, our voices, and those of our Elders, will ensure that community leadership and priorities are at the centre. Our voices will come through – everything we do will be by community, for community. This will give us stronger and safer communities.
-3. __Intergenerational Knowledge Transfer__: Restore intergenerational traditional language and cultural transmission.
-4. __Caring for Country__: Everyone has the opportunity to practise their language and culture on Country.
-5. __Truth-telling and Celebration__: Aboriginal and Torres Strait Islander peoples speak their language with integrity and pride. Wider Australia shares this pride, respecting and celebrating Australia’s first languages and all that they encompass.
+
+1. **Stop the Loss**: Securing the future and continuance of Australia’s first languages.
+2. **Aboriginal and Torres Strait Islander Communities are Centre**: Over the Decade, our voices, and those of our Elders, will ensure that community leadership and priorities are at the centre. Our voices will come through – everything we do will be by community, for community. This will give us stronger and safer communities.
+3. **Intergenerational Knowledge Transfer**: Restore intergenerational traditional language and cultural transmission.
+4. **Caring for Country**: Everyone has the opportunity to practise their language and culture on Country.
+5. **Truth-telling and Celebration**: Aboriginal and Torres Strait Islander peoples speak their language with integrity and pride. Wider Australia shares this pride, respecting and celebrating Australia’s first languages and all that they encompass.
 
 <br>
 
@@ -67,6 +69,7 @@ _Voices of Country_ is framed through five interconnected themes:
 A sub-part of Theme 2 in the Action Plan has the title ‘Support communities to build and be the custodians of language resources and materials’. Making language resources and materials sustainable and accessible is central to the work of {{< glossary_link display="LDaCA" id="ldaca" >}}. This includes working in collaboration with communities, and providing them with the {{< glossary_link display="tools" id="tools" >}} and support they need to be effective custodians of their language materials.
 
 The sub-theme has six components (_Voices of Country_ p34):
+
 1. Embed Aboriginal and Torres Strait Islander cultural practices and knowledge systems into linguistic methodologies.
 2. Develop resources that document and record languages, such as dictionaries, encyclopaedias, thesauri, grammar and orthography documents.
 3. Record and digitise written and oral language {{< glossary_link display="collections" id="collection" >}}, resources and materials.
@@ -95,6 +98,7 @@ Similarly to component two, we have an indirect role in activity related to comp
 Contributing to component four, LDaCA is working with various Indigenous groups and organisations to help manage the language resources and {{< glossary_link display="collections" id="collection" >}} they hold. An example is our partnership with the [Batchelor Institute of Indigenous Tertiary Education](https://www.batchelor.edu.au/), which holds an important archive of physical and digital works in, and about, Indigenous languages. The collection is managed by the Batchelor Institute Library and has strong connections with language projects through the Institute’s Centre for Australian Languages and Linguistics (CALL).
 
 The [CALL Collection](https://callcollection.batchelor.edu.au/) includes text, audio and video resources that have been contributed over at least 30 years by students and staff of the Batchelor Institute, as well as by teachers, linguists and language workers external to the institute. We are working with the Batchelor Institute to:
+
 - backup and reformat item record information
 - copy {{< glossary_link display="metadata" id="metadata" >}} from an ageing database into contemporary metadata standard format
 - embed cultural protocols to ensure long-term and appropriate access to this significant collection.
@@ -105,7 +109,7 @@ We are also working on training programs, designed with First Nations people, wh
 
 ### Component 5: Support Aboriginal and Torres Strait Islander peoples to access and repurpose historical language materials
 
-Component five aligns closely with the A and the R in the {{< glossary_link display="FAIR" id="fair" >}} principles: __Accessibility__ and __Reusability__. In order for data to meet these FAIR criteria, it must be well-described, but in many cases, existing {{< glossary_link display="collections" id="collection" >}} of Indigenous data are not as well-described as they might be, and even when they are considered to be well-described, the description is often based on non-Indigenous knowledge.
+Component five aligns closely with the A and the R in the {{< glossary_link display="FAIR" id="fair" >}} principles: **Accessibility** and **Reusability**. In order for data to meet these FAIR criteria, it must be well-described, but in many cases, existing {{< glossary_link display="collections" id="collection" >}} of Indigenous data are not as well-described as they might be, and even when they are considered to be well-described, the description is often based on non-Indigenous knowledge.
 
 LDaCA is contributing to component five of the sub-theme by developing methods to make it easier to enrich existing descriptions of data, with the aim of moving towards Indigenous knowledges as the basis for the description of Indigenous data. We have carried out a pilot project with The University of Queensland libraries, in which records from the library system have been enriched with additional annotations based on Indigenous knowledges of the collection items. The results of this project can be seen in a dedicated [data portal](https://ild.ldaca.edu.au/search).
 
@@ -113,7 +117,7 @@ LDaCA is contributing to component five of the sub-theme by developing methods t
 
 ### Component 6: Repatriate language materials and cultural knowledge to community ownership and control
 
-The A in the {{< glossary_link display="CARE" id="care" >}} principles stands for __Authority to control__. LDaCA’s approach to sustainable data includes a commitment to storing explicit licences with data, detailing in plain text who can access data and what the data can be used for. In line with component six, the communities and people who are the source of Indigenous data have the authority to make decisions about such matters: they decide who can access data and what users can do with the data.
+The A in the {{< glossary_link display="CARE" id="care" >}} principles stands for **Authority to control**. LDaCA’s approach to sustainable data includes a commitment to storing explicit licences with data, detailing in plain text who can access data and what the data can be used for. In line with component six, the communities and people who are the source of Indigenous data have the authority to make decisions about such matters: they decide who can access data and what users can do with the data.
 
 LDaCA has developed policies and technical solutions for implementing such access controls that make ongoing administration of access as straightforward as possible. We are sharing ideas and solutions with our colleagues in the Indigenous stream of the [HASS and Indigenous Research Data Commons](https://ardc.edu.au/hass-and-indigenous-research-data-commons/). The solutions that we are using for Indigenous data can also apply to other human-sourced data. As [Levi-Craig Murray](https://mspgh.unimelb.edu.au/centres-institutes/onemda/research-group/indigenous-studies-unit/about-us/our-team/levi-craig-murray) is fond of saying: “What's good for mob, is good for everyone”.
 
@@ -122,6 +126,7 @@ LDaCA has developed policies and technical solutions for implementing such acces
 ### Component 1: Embed Aboriginal and Torres Strait Islander cultural practices and knowledge systems into linguistic methodologies
 
 As stated above, we see all of the activities from components two to six as contributing to the aim of embedding Indigenous knowledges and cultural practices into our methodologies. When working with language material, LDaCA is guided by {{< glossary_link display="FAIR" id="fair" >}} and {{< glossary_link display="CARE" id="care" >}} principles (Carroll et al. 2020; Carroll et al. 2021; Wilkinson et al. 2016). The FAIR principles provide guidance on ensuring that data will be useful in the future, though they do this from a Western scientific perspective. The CARE principles extend the FAIR data management principles and we hope that our commitment to these principles assists us in contributing to the goals of the _Voices of Country_ plan:
+
 - Making data more sustainable and more informed by Indigenous knowledges helps ensure that Indigenous communities benefit from the data.
 - Providing accessible solutions for access management contributes to First Nations people’s authority to control Indigenous data.
 - Supporting Indigenous communities in developing data capabilities helps to build positive relationships and show responsibility in our work with Indigenous Peoples.
