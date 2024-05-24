@@ -30,7 +30,7 @@ File Option | Description
 --- | ---
 Open Directory | Select a directory/folder to locate or set where files are saved.
 Load Files | Load files from the selected directory into this RO-Crate.
-Bulk Add | Select a spreadsheet from a different directory to assist you with metadata description. This will append to your existing RO-Crate, if one has already been created.
+Bulk Add | Select a spreadsheet from a different directory to assist you with metadata description. This will append to your existing RO-Crate, if one has already been created. Note that this option currently only has functionality to add new data, rather than overwriting edited data that is already present in your RO-Crate.
 Save | Save the state of this page into your RO-Crate. This will create an _ro-crate-metadata.json_ file, or append data into an existing _ro-crate-metadata.json_ file.
 Close | Close without saving.
 Help | Display general help from anywhere in Crate-O.

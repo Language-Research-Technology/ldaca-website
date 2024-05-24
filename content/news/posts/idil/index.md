@@ -5,7 +5,7 @@ draft: false
 description: ""
 ---
 
-by {{< profile id="foley" >}}, {{< profile id="mclellan" >}}, {{< profile id="musgrave" >}} and {{< profile id="smith" >}}
+by {{< profile id="smith" >}}, {{< profile id="musgrave" >}}, {{< profile id="mclellan" >}} and {{< profile id="foley" >}}
 
 <br>
 
