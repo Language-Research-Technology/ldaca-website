@@ -176,10 +176,7 @@ This is a screenshot of the [Gazetteer of Historical Australian Places](https://
 <img src='Slide08.png' alt='HTML Preview Describes the files :: ' title='Slide: 8' border='1'  width='85%%'/>
 
 
-
-But GHAP is an example of a service that offers RO-Crate downloads; in this case of a set of search results a set of place names in multiple formats including a CSV file.
-
-This could be added to any repository system where there is at least one file that has metadata; offer a download ZIP option that has machine-readable JSON metadata (linked data in JSON-LD) and a human-readable summary of the metadata – this one has descriptions of a few files in it.
+This kind of download could be added to any repository system where there is at least one file that has metadata; offer a download ZIP option that has machine-readable JSON metadata (linked data in JSON-LD) and a human-readable summary of the metadata – this one has descriptions of a few files in it.
 
 <br>
 
@@ -410,7 +407,7 @@ This slide is a collage from a [presentation at eResearch Australasia](https://c
 
 
 There are tools which can run a repository from a set of static files on a storage service, in line with the ideas put forward by prof Suleman at OR 2023.
-The team at the Language Data Commons of Australia, with partner institutions and colleagues, has been working to produce a set of tools for building Archival Repository software stacks that is based on a principled approach to keeping data safe, based on the principles presented in the Arkisto website[4] and more recently at <; the core idea is that a collection of RO-Crates in a storage service can be the basis of a repository – either using a simple on-disk directory layout or something more complicated such as an Oxford Common File Layout (OCFL) specification.
+The team at the Language Data Commons of Australia, with partner institutions and colleagues, has been working to produce a set of tools for building Archival Repository software stacks that is based on a principled approach to keeping data safe, based on the principles presented in the Arkisto website[4] and more recently at <https://w3id.org/ldac/pilars> the core idea is that a collection of RO-Crates in a storage service can be the basis of a repository – either using a simple on-disk directory layout or something more complicated such as an Oxford Common File Layout (OCFL) specification.
 
 <br>
 

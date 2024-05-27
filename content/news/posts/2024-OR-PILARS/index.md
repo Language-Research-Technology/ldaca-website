@@ -436,9 +436,6 @@ Third toolkit?
 
 The [RRKive](https://rrkive.org)* website is the project site that will contain additional information about PILARS – how to implement the protocols, open source software, presentations etc. to supplement PILARS.
 
-We will now summarise the protocols.
-
-(Note – pronounce the “RR” as though it
 
 
 
@@ -510,15 +507,17 @@ The Language Data Commons of Australia (LDaCA) has extensive materials for partn
 (<https://doi.org/10.47486/DP768>, <https://doi.org/10.47486/HIR001>, & <https://doi.org/10.47486/PL074>)
 from the Australian Research Data Commons (ARDC).  The ARDC is funded by the National Collaborative Research Infrastructure Strategy (NCRIS).' title='Slide: 24' border='1'  width='85%%'/>
 
-The Language Data Commons of Australia (LDaCA) has extensive materials for partners bringing data to the project about how to work our data licensing issues, obtain a DOI, prepare data for ingest and how to source long-term storage, remembering that LDaCA is a project and cannot provide perennity for data.
-
-
-</section>
 The Language Data Commons of Australia Data Partnerships (LDaCA-DP), Language Data Commons of Australia Research Data Commons (LDaCA-RDC), and Australian Text Analytics Platform (ATAP) projects received investment.
 (https://doi.org/10.47486/DP768, https://doi.org/10.47486/HIR001, & https://doi.org/10.47486/PL074)
 from the Australian Research Data Commons (ARDC).
 
 The ARDC is funded by the National Collaborative Research Infrastructure Strategy (NCRIS).
+
+
+</section>
+
+
+
 
 
 ## References
