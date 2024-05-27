@@ -20,7 +20,7 @@ description: "A guide to navigating the various sections of the Crate-O interfac
 
 <br>
 
-![Crate-O Main Menu](/crate-o-help/main_toolbar.png)
+{{< image Src="/user-guides/crate-o/main_toolbar.png" Alt="Crate-O Main Menu" Desc="Crate-O Main Menu" Title="Crate-O Main Menu" Ref="LDaCA" >}}
 
 <br>
 
@@ -41,9 +41,13 @@ Help | Display general help from anywhere in Crate-O.
 
 <br>
 
-TODO: update after Alvin's changes
+{{< image Src="/user-guides/crate-o/mode_selector.jpeg" Alt="Crate-O Mode Selector" Desc="Crate-O Mode Selector" Title="Crate-O Mode Selector" Ref="LDaCA" >}}
 
-Below the main menu, the mode selector allows you to select a predefined mode or load one from your computer. Note that for blank RO-Crates, the mode will default to _Simple RO-Crate Dataset_, however for language data, the mode _Language Data Commons top-level Collection (corpus)_ is most relevant.
+<br>
+
+Below the main menu, the mode selector allows you to choose a predefined mode or load one from your computer.
+
+> Note that for blank RO-Crates, the mode will default to _Simple RO-Crate Dataset_, however for language data, the mode _Language Data Commons top-level Collection (corpus)_ is most relevant.
 
 When a file or folder is open in Crate-O, _Selected Directory_ to the right of the ___Mode___ dropdown menu shows the directory or folder you currently have open.
 
@@ -59,7 +63,8 @@ On the left-hand panel, depending on the selected mode, different property group
 
 <br>
 
-![Property Groups](/crate-o-help/metadata_sidebar.png)
+{{< image Src="/user-guides/crate-o/property_groups.jpeg" Alt="Crate-O Property Groups" Desc="Crate-O Property Groups" Title="Crate-O Property Groups" Ref="LDaCA" >}}
+
 
 <br>
 
@@ -112,17 +117,18 @@ To browse all the metadata entities associated with the Language Data Commons Mo
 
 <br>
 
-On the Entity Navigator panel, there are some further options related to navigating and creating metadata entities:
+On the Entity Navigator panel, there are some further options related to navigating and creating metadata entities.
 
 <br>
 
-![Entity Navigator](/crate-o-help/entity_sidebar.png)
+{{< image Src="/user-guides/crate-o/entity_navigator.png" Alt="Crate-O Entity Navigator" Desc="Crate-O Entity Navigator" Title="Crate-O Entity Navigator" Ref="LDaCA" >}}
 
 <br>
 
 - ___Create New Entity___: Create a new metadata entity, such as a provenance action. For example, CreateAction describes how a work is created with more precision than a property like `author`.
-- ___Links from___: When located in a sub-group, select to view the parent group(s) of a given metadata entity.
 - ___All Entities___: Select to view all metadata entities associated with your collection.
 - ___Unlinked Entities___: Select to view all metadata entities that are currently not linked to any properties.
+
+Below this, there is a row of buttons which allow you to navigate through pages of results, with 10 results appearing on each page.
 
 <br>
