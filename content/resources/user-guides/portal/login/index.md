@@ -7,7 +7,7 @@ description: "A guide to logging in to the portal."
 
 <br>
 
-> This user guide uses 'portal' to refer to the interface across all of the available Oni portals (see [Available Portals](/resources/user-guides/portal/available-portals/) for more details).
+> This user guide uses 'portal' to refer to the interface across all of the available {{< glossary_link display="Oni" id="oni" >}} portals (see [Available Portals](/resources/user-guides/portal/available-portals/) for more details).
 
 <br>
 
@@ -33,7 +33,7 @@ You will be taken to the CILogon page which:
 
 CILogon facilitates secure access to cyber infrastructure (CI). In order to use the CILogon Service, you must first select an identity provider. An identity provider is an organisation where you have an account and can log in to gain access to online services.
 
-Note that the identity provider defaults to ORCID but this can be changed to your preferred authentication. If you are a faculty, staff or student member of a university or college, please select that for your identity provider. If your school is not listed, please contact help@cilogon.org, and they will try to add your school in the future. You can also select your ORCID, Google, GitHub or Microsoft account to authenticate for the CILogon Service.
+Note that the identity provider defaults to ORCID but this can be changed to your preferred authentication. If you are a faculty, staff or student member of a university or college, please select that for your identity provider. If your school is not listed, please contact help@cilogon.org, and they will try to add your school in the future. You can also select your ORCID, Google, {{< glossary_link display="GitHub" id="github" >}} or Microsoft account to authenticate for the CILogon Service.
 
 For further details about CILogon and the identity providers it supports, see [CILogon FAQ](https://www.cilogon.org/faq).
 
@@ -60,7 +60,7 @@ Once your login is successful, you will be redirected back to the portal page an
 <br>
 
 Hovering your cursor on the arrow next to your account name will trigger a dropdown menu with the following two options:
-- ___User Information___: View your user details and memberships to collections that have more specific access conditions.
+- ___User Information___: View your user details and memberships to collections that have more specific {{< glossary_link display="access conditions" id="access-conditions" >}}.
 - ___Logout___: Select to log out of your account.
 
 <br>

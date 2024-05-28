@@ -7,14 +7,14 @@ description: "A guide to downloading individual files from the portal."
 
 <br>
 
-> This user guide uses 'portal' to refer to the interface across all of the available Oni portals (see [Available Portals](/resources/user-guides/portal/available-portals/) for more details).
+> This user guide uses 'portal' to refer to the interface across all of the available {{< glossary_link display="Oni" id="oni" >}} portals (see [Available Portals](/resources/user-guides/portal/available-portals/) for more details).
 
 <br>
 
 ## Download Individual Files
 
-Files from a collection can be downloaded from two locations:
-- the File section of an Object page
+Files from a {{< glossary_link display="collection" id="collection" >}} can be downloaded from two locations:
+- the File section of an {{< glossary_link display="Object" id="object" >}} page
 - the File page for the selected item.
 
 <br>
