@@ -10,6 +10,7 @@ description: "A guide to navigating the various sections of the Crate-O interfac
 ##### Jump to:
 ##### [Main Menu](#main-menu)
 ##### [Mode Selector](#mode-selector)
+##### [Current Entity](#current-entity)
 ##### [Property Groups](#property-groups)
 ##### [Entity Properties](#entity-properties)
 ##### [Entity Navigator](#entity-navigator)
@@ -51,7 +52,19 @@ Below the main menu, the mode selector allows you to choose a predefined mode or
 
 When a file or folder is open in Crate-O, _Selected Directory_ to the right of the ___Mode___ dropdown menu shows the directory or folder you currently have open.
 
-Below _Selected Directory_, a home icon followed by entity breadcrumbs indicates the entity you are currently located on as well as your entity history. This will update as you navigate to different entities. Note that this section doesn't reflect the tree structure of the RO-Crate, but instead shows the history of the entities you have visited.
+<br>
+
+## Current Entity
+
+<br>
+
+{{< image Src="/user-guides/crate-o/current_entity.jpeg" Alt="Crate-O Current Entity" Desc="Crate-O Current Entity" Title="Crate-O Current Entity" Ref="LDaCA" >}}
+
+<br>
+
+Below the Mode Selector, a home icon followed by entity breadcrumbs indicates your entity history, and underneath that, the entity you are currently located on. This will update as you navigate to different entities. Note that the breadcrumbs section doesn't reflect the tree structure of the RO-Crate, but instead shows the history of the entities you have visited.
+
+To the left of this is the option to ___Remove Entity___ that you are currently viweing.
 
 <br>
 
@@ -65,7 +78,6 @@ On the left-hand panel, depending on the selected mode, different property group
 
 {{< image Src="/user-guides/crate-o/property_groups.jpeg" Alt="Crate-O Property Groups" Desc="Crate-O Property Groups" Title="Crate-O Property Groups" Ref="LDaCA" >}}
 
-
 <br>
 
 Property Group | Description
@@ -78,7 +90,7 @@ Space & Time | Where and when the data was collected, i.e. the times and places 
 Software & Hardware | Computer programs and execution environments that could be used to create data, have created data, or are being packaged and described.
 Others | Other properties not in the above categories. Note that if you find a property in `Other` that should be in one of the above groups or have other suggestions, please raise an issue on [GitHub](https://github.com/Language-Research-Technology/crate-o).
 
-Hovering over the information icon (TODO add icon) next to each property group will display tooltips related to that group.
+Hovering over each property group will display tooltips related to that group.
 
 <br>
 
@@ -88,7 +100,13 @@ Hovering over the information icon (TODO add icon) next to each property group w
 
 In the middle panel, the entity properties for the property group you currently have selected are shown.
 
-The icon (!) indicates that an entity is a required field for all collections, and saving an RO-Crate without completing one of these sections will result in a warning message. Below each field is a tooltip providing further detail on the given entity.
+<br>
+
+{{< image Src="/user-guides/crate-o/entity_properties.jpeg" Alt="Crate-O Entity Properties" Desc="Crate-O Entity Properties" Title="Crate-O Entity Properties" Ref="LDaCA" >}}
+
+<br>
+
+The exclamation mark icon indicates that an entity is a required property for that mode, and saving an RO-Crate without completing one of these sections will result in a warning message. Below each field is a tooltip providing further detail on the given entity.
 
 Each entity field has a 'delete' icon beside it, however these are only functional (and appear in red) for entities that can be removed, i.e. required properties cannot be deleted, but you can edit these.
 

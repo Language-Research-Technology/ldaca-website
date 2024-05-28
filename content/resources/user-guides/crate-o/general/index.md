@@ -2,7 +2,7 @@
 title: "General"
 date: 2024-05-22T15:43:09+10:00
 draft: false
-description: ""
+description: "A brief overview of Crate-O, RO-Crate, Schemas, Profiles and Modes"
 ---
 
 <br>
@@ -42,7 +42,8 @@ The diagram below shows the hierarchical relationship between collections, objec
 
 <br>
 
-![Self-contained corpus crate with all resources](/crate-o-help/my_corpus.png)
+{{< image Src="/user-guides/crate-o/my_corpus.png" Alt="Self-contained corpus crate with all resources" Desc="Self-contained corpus crate with all resources" Title="Self-contained corpus crate with all resources" Ref="LDaCA" >}}
+
 
 <br>
 
@@ -60,7 +61,7 @@ The table below shows an example of the relationship between each of these entit
 
 Level | Example
 --- | ---
-Class | TODO what class is associated with this example?
+Class | Annotation
 ↓ | ↓
 Property | annotationType
 ↓ | ↓
@@ -80,7 +81,8 @@ This diagram shows the relationship between the three main components used by Cr
 
 <br>
 
-![The relationship between Schemas, Profiles and Modes](/crate-o-help/schema-mode-profile.svg)
+{{< image Src="/user-guides/crate-o/schema-mode-profile.svg" Alt="The three main components for RO-Crate editing with Crate-O" Desc="The three main components for RO-Crate editing with Crate-O" Title="The three main components for RO-Crate editing with Crate-O" Ref="LDaCA" >}}
+
 
 <br>
 
@@ -162,10 +164,6 @@ To make an RO-Crate Mode File, we transform the flat graph of a schema into some
 
 <br>
 
-![How the script rocsoss from RO-Crate Schema Tools is used to compile a base editor profile from the schema.org schema, with RO-Crate additions](/crate-o-help/soss-to-profile.svg)
-
-<br>
-
-LDaCA's tech team used this process to create the basic [RO-Crate Editor Profile](../profiles/base-profile.json) in this repository.
+{{< image Src="/user-guides/crate-o/soss-to-profile.svg" Alt="Base Mode File creation, combining the schema.org schema and RO-Crate additions using the rocsoss script" Desc="Base Mode File creation, combining the schema.org schema and RO-Crate additions using the rocsoss script" Title="Base Mode File creation, combining the schema.org schema and RO-Crate additions using the rocsoss script" Ref="LDaCA" >}}
 
 <br>
