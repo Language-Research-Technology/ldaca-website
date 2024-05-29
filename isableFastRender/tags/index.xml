@@ -1,0 +1,88 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - Tag - LDaCA</title>
+        <link>http://localhost:1313/tags/</link>
+        <description>Tags - Tag - LDaCA</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>info@ldaca.edu.au (Language Data Commons of Australia)</managingEditor>
+            <webMaster>info@ldaca.edu.au (Language Data Commons of Australia)</webMaster><lastBuildDate>Wed, 05 Jun 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Open Repositories</title>
+    <link>http://localhost:1313/tags/open-repositories/</link>
+    <pubDate>Wed, 05 Jun 2024 00:00:00 &#43;0000</pubDate>
+    <author>Language Data Commons of Australia</author>
+    <guid>http://localhost:1313/tags/open-repositories/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>RO-Crate</title>
+    <link>http://localhost:1313/tags/ro-crate/</link>
+    <pubDate>Wed, 05 Jun 2024 00:00:00 &#43;0000</pubDate>
+    <author>Language Data Commons of Australia</author>
+    <guid>http://localhost:1313/tags/ro-crate/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>PILARS</title>
+    <link>http://localhost:1313/tags/pilars/</link>
+    <pubDate>Tue, 04 Jun 2024 00:00:00 &#43;0000</pubDate>
+    <author>Language Data Commons of Australia</author>
+    <guid>http://localhost:1313/tags/pilars/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Access</title>
+    <link>http://localhost:1313/tags/access/</link>
+    <pubDate>Thu, 29 Jun 2023 00:00:00 &#43;0000</pubDate>
+    <author>Language Data Commons of Australia</author>
+    <guid>http://localhost:1313/tags/access/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Australia</title>
+    <link>http://localhost:1313/tags/australia/</link>
+    <pubDate>Wed, 07 Dec 2022 15:28:35 &#43;1000</pubDate>
+    <author>Language Data Commons of Australia</author>
+    <guid>http://localhost:1313/tags/australia/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>language data</title>
+    <link>http://localhost:1313/tags/language-data/</link>
+    <pubDate>Wed, 07 Dec 2022 15:28:35 &#43;1000</pubDate>
+    <author>Language Data Commons of Australia</author>
+    <guid>http://localhost:1313/tags/language-data/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Metadata</title>
+    <link>http://localhost:1313/tags/metadata/</link>
+    <pubDate>Fri, 25 Nov 2022 00:00:00 &#43;0000</pubDate>
+    <author>Language Data Commons of Australia</author>
+    <guid>http://localhost:1313/tags/metadata/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Repositories</title>
+    <link>http://localhost:1313/tags/repositories/</link>
+    <pubDate>Wed, 08 Jun 2022 15:28:35 &#43;1000</pubDate>
+    <author>Language Data Commons of Australia</author>
+    <guid>http://localhost:1313/tags/repositories/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>CARE</title>
+    <link>http://localhost:1313/tags/care/</link>
+    <pubDate>Tue, 08 Feb 2022 15:28:35 &#43;1000</pubDate>
+    <author>Language Data Commons of Australia</author>
+    <guid>http://localhost:1313/tags/care/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>FAIR</title>
+    <link>http://localhost:1313/tags/fair/</link>
+    <pubDate>Tue, 08 Feb 2022 15:28:35 &#43;1000</pubDate>
+    <author>Language Data Commons of Australia</author>
+    <guid>http://localhost:1313/tags/fair/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
+</rss>
