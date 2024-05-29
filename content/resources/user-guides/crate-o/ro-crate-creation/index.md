@@ -61,13 +61,22 @@ description: "A step-by-step guide to creating an RO-Crate metadata file."
 
 - In the [Main Menu](/resources/user-guides/crate-o/basic-navigation/#main-menu), select ___Save___.
 - For the pop-up message asking _Save changes to [Selected Directory]?_, select ___Save changes___.
+
+<br>
+
+{{< image Src="/user-guides/crate-o/save_ro_crate.png" Alt="Crate-O: Save RO-Crate" Desc="Crate-O: Save RO-Crate" Title="Crate-O: Save RO-Crate" Ref="LDaCA" >}}
+
+<br>
+
 - Your {{< glossary_link display="RO-Crate" id="ro-crate" >}} is now successfully saved in your working directory, with two files:
     - _ro-crate-metadata.json_: The saved RO-Crate in {{< glossary_link display="JSON" id="json" >}} format.
     - _ro-crate-preview.html_: An HTML file that can be viewed on a web browser and shows the contents of your RO-Crate.
 
 <br>
 
-{{< image Src="/user-guides/crate-o/save_ro_crate.png" Alt="Crate-O: Save RO-Crate" Desc="Crate-O: Save RO-Crate" Title="Crate-O: Save RO-Crate" Ref="LDaCA" >}}
+ro-crate-metadata.json | ro-crate-preview.html
+--- | ---
+{{< image Src="/user-guides/crate-o/ro_crate_metadata_json.png" Alt="ro-crate-metadata.json" Desc="ro-crate-metadata.json" Title="ro-crate-metadata.json" Ref="LDaCA" >}} | {{< image Src="/user-guides/crate-o/ro_crate_preview_html.jpeg" Alt="ro-crate-preview.html" Desc="ro-crate-preview.html" Title="ro-crate-preview.html" Ref="LDaCA" >}}
 
 <br>
 
