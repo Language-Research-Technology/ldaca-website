@@ -61,7 +61,9 @@ description: "A step-by-step guide to creating an RO-Crate metadata file."
 
 - In the [Main Menu](/resources/user-guides/crate-o/basic-navigation/#main-menu), select ___Save___.
 - For the pop-up message asking _Save changes to [Selected Directory]?_, select ___Save changes___.
-- Your {{< glossary_link display="RO-Crate" id="ro-crate" >}} is now successfully saved!
+- Your {{< glossary_link display="RO-Crate" id="ro-crate" >}} is now successfully saved in your working directory, with two files:
+    - _ro-crate-metadata.json_: The saved RO-Crate in {{< glossary_link display="JSON" id="json" >}} format.
+    - _ro-crate-preview.html_: An HTML file that can be viewed on a web browser and shows the contents of your RO-Crate.
 
 <br>
 
