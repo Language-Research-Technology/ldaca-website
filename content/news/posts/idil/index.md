@@ -1,5 +1,5 @@
 ---
-title: "IDIL 2022-2032: Voices of Country Action Plan - An LDaCA Discussion Paper"
+title: "IDIL 2022–2032: Voices of Country Action Plan — An LDaCA Discussion Paper"
 date: 2024-05-23T09:45:50+10:00
 draft: false
 description: ""
