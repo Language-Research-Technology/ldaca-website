@@ -1,5 +1,5 @@
 ---
-title: "Create an RO-Crate"
+title: "RO-Crate Creation"
 date: 2024-05-27T16:01:02+10:00
 draft: false
 description: "A step-by-step guide to creating an RO-Crate metadata file."
@@ -7,7 +7,7 @@ description: "A step-by-step guide to creating an RO-Crate metadata file."
 
 <br>
 
-This guide takes you through the steps to create an {{< glossary_link display="RO-Crate" id="ro-crate" >}} {{< glossary_link display="metadata" id="metadata" >}} file, using a top-level collection for language data as an example.
+> This guide takes you through the steps to create an {{< glossary_link display="RO-Crate" id="ro-crate" >}} {{< glossary_link display="metadata" id="metadata" >}} file, using a top-level collection for language data as an example. To view more details and screenshots of each section discussed, select the click-through links throughout the page.
 
 <br>
 
