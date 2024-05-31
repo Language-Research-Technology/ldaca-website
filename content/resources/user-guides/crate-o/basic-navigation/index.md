@@ -7,7 +7,6 @@ description: "A guide to navigating the various sections of the Crate-O interfac
 
 <br>
 
-##### Jump to:
 ##### [Main Menu](#main-menu)
 ##### [Mode Selector](#mode-selector)
 ##### [Current Entity](#current-entity)

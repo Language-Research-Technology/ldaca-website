@@ -11,6 +11,12 @@ description: "A guide to viewing and applying for access to collections in the p
 
 <br>
 
+##### [Apply for Access to Collections with Access Restrictions](#apply-for-access-to-collections-with-access-restrictions)
+##### [Apply for a Data License](#apply-for-a-data-license)
+##### [View your Current Access List](#view-your-current-access-list)
+
+<br>
+
 ## Apply for Access to Collections with Access Restrictions
 
 When viewing an item that has restricted access, you will see one of the following permission warnings, depending on whether or not you are logged in to the portal:

@@ -11,6 +11,14 @@ description: "A guide to navigating the various sections of the portal interface
 
 <br>
 
+##### [Data and Page Structure](#data-and-page-structure)
+##### [Home Page](#home-page) ([Top Menu](#top-menu), [Left Panel](#left-panel), [Main Panel](#main-panel))
+##### [Collection Page](#collection-page)
+##### [Object Page](#object-page)
+##### [File Page](#file-page)
+
+<br>
+
 ## Data and Page Structure
 
 Both the data and the webpages in the portal are structured in a heirarchy: Collections contain Objects and Objects contain Files. <!--TODO how do notebooks fit in to this?-->
@@ -22,14 +30,6 @@ Collection | A group of related Objects. Examples of collections include corpora
 Object | A single resource or a group of tightly related resources that record a communicative event; for example, a dialogue or session in a speech study, a work (document) in a written corpus.
 ↓ |
 File | A container for data (in the form of bits and bytes). Files can store data in different formats; for example, a single Object could have an audio file as well as a text file containing a transcription of the audio.
-
-<br>
-
-##### Jump to:
-##### [Home Page](#home-page) ([Top Menu](#top-menu), [Left Panel](#left-panel), [Main Panel](#main-panel))
-##### [Collection Page](#collection-page)
-##### [Object Page](#object-page)
-##### [File Page](#file-page)
 
 <br>
 

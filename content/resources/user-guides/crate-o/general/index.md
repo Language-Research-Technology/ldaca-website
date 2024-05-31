@@ -1,13 +1,16 @@
 ---
-title: "General"
+title: "General Information"
 date: 2024-05-22T15:43:09+10:00
 draft: false
-description: "A brief overview of Crate-O, RO-Crate, Schemas, Profiles and Modes"
+description: "A brief overview of Crate-O, RO-Crate, Schemas, Profiles and Modes."
 ---
 
 <br>
 
-## Crate-O
+##### [Crate-O Use Cases](#crate-o-use-cases)
+##### [RO-Crate Collection Hierarchy](#ro-crate-collection-hierarchy)
+##### [Schemas, Profiles and Modes](#schemas-profiles-and-modes)
+##### [Schema.org Style Schemas (SOSSs) and RO-Crate Profiles and Modes](#schemaorg-style-schemas-sosss-and-ro-crate-profiles-and-modes)
 
 <br>
 

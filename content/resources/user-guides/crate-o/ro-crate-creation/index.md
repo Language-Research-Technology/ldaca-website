@@ -11,6 +11,14 @@ description: "A step-by-step guide to creating an RO-Crate metadata file."
 
 <br>
 
+##### [Open Directory](#open-directory)
+##### [Select Mode](#select-mode)
+##### [Add Entity Metadata](#add-entity-metadata)
+##### [Save RO-Crate](#save-ro-crate)
+##### [Append Data from Spreadsheet](#append-data-from-spreadsheet)
+
+<br>
+
 ## Open Directory
 
 - Open [Crate-O](https://language-research-technology.github.io/crate-o/#/) in a compatible browser.
