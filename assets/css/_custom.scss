@@ -386,6 +386,12 @@ $c-label-text: $c-grey;
   max-height: 50px;
 }
 
+.center_heading {
+  justify-content: center;
+  text-align: center;
+  padding: 3% 0%;
+}
+
 /****************************************/
 
 .slideshow_div {
@@ -508,7 +514,6 @@ input {
 
 nav {
   position: absolute;
-  font-size: 0.8vw;
   bottom: 0;
   right: 0;
   width: 50%;

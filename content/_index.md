@@ -3,10 +3,10 @@
 
 {{<raw>}}
 
-<ul>
-<h2><li>Making nationally significant language data available for academic and non-academic use</li></h2>
-<h2><li>Providing a model for ensuring continued access with appropriate community control</li></h2>
-</ul>
+<div class="center_heading">
+  <h2>Making nationally significant language data available for academic and non-academic use</h2>
+  <h2>Providing a model for ensuring continued access with appropriate community control</h2>
+</div>
 
 <div class="slideshow_div">
 <fieldset class="slideshow">
