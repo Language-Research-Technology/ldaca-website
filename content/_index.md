@@ -4,16 +4,17 @@
 <br>
 {{<raw>}}
 
-<div style="text-align: center; padding: 3% 0%;"><h2>
-Making nationally significant language data available for academic and non-academic use.<br><br>
-Providing a model for ensuring continued access with appropriate community control.</h2></div>
+<div class="center_heading">
+  <h2>Making nationally significant language data available for academic and non-academic use</h2>
+  <h2>Providing a model for ensuring continued access with appropriate community control</h2>
+</div>
 
 <div class="slideshow_div">
 <fieldset class="slideshow">
 
   <!-- Slide 1 -->
 
-<input type="radio" id="slideCheckbox1" name="slide" checked autofocus></input>
+<input class="radio_input" type="radio" id="slideCheckbox1" name="slide" checked autofocus></input>
 
   <div class="slide">
     <div class="slide__html">
@@ -35,7 +36,7 @@ Providing a model for ensuring continued access with appropriate community contr
 
   <!-- Slide 2 -->
 
-<input type="radio" id="slideCheckbox2" name="slide"></input>
+<input class="radio_input" type="radio" id="slideCheckbox2" name="slide"></input>
 
   <div class="slide">
     <!-- <a href="./about/"> -->
@@ -48,7 +49,7 @@ Providing a model for ensuring continued access with appropriate community contr
 
   <!-- Slide 3 -->
 
-<input type="radio" id="slideCheckbox3" name="slide"></input>
+<input class="radio_input" type="radio" id="slideCheckbox3" name="slide"></input>
 
   <div class="slide">
       <div class="slide__content">
@@ -59,7 +60,7 @@ Providing a model for ensuring continued access with appropriate community contr
 
   <!-- Slide 4 -->
 
-<input type="radio" id="slideCheckbox4" name="slide"></input>
+<input class="radio_input" type="radio" id="slideCheckbox4" name="slide"></input>
 
   <div class="slide">
     <div class="slide__content">
@@ -70,7 +71,7 @@ Providing a model for ensuring continued access with appropriate community contr
 
   <!-- Slide 5 -->
 
-<input type="radio" id="slideCheckbox5" name="slide"></input>
+<input class="radio_input" type="radio" id="slideCheckbox5" name="slide"></input>
 
   <div class="slide">
       <div class="slide__content">

@@ -380,6 +380,18 @@ $c-background: #101010;
 $c-text: $c-light-grey;
 $c-label-text: $c-grey;
 
+.contact_input {
+  border-radius: 50px;
+  max-width: 400px;
+  max-height: 50px;
+}
+
+.center_heading {
+  justify-content: center;
+  text-align: center;
+  padding: 3% 0%;
+}
+
 /****************************************/
 
 .slideshow_div {
@@ -394,7 +406,7 @@ $c-label-text: $c-grey;
   margin: 0 auto;
   background-color: rgb(52, 54, 59);
   overflow: hidden;
-  counter-reset: slide;
+  // counter-reset: slide;
   position: absolute;
 }
 
@@ -403,10 +415,12 @@ $c-label-text: $c-grey;
 }
 
 input {
-  position: absolute;
-  opacity: 0;
-  top: -25px;
-  counter-increment: slide;
+  .radio_input {
+    position: absolute;
+    opacity: 0;
+    top: -25px;
+    counter-increment: slide;
+  }
 
   &:checked + .slide {
     transform: translateX(0px);
@@ -421,7 +435,7 @@ input {
         position: absolute;
         top: 10px;
         right: 10px;
-        content: counter(slide) " of #{$slide-count}";
+        // content: counter(slide) " of #{$slide-count}";
         padding: 5px 10px;
         background-color: rgba(255, 255, 255, 0.1);
         border-radius: 4px;
@@ -461,7 +475,7 @@ input {
     box-sizing: border-box;
     height: 100%;
     overflow: $slide-overflow;
-    padding: 50px;
+    padding: 30px;
     color: $c-text;
     position: absolute;
     left: 100%;
@@ -500,7 +514,6 @@ input {
 
 nav {
   position: absolute;
-  font-size: 0.8vw;
   bottom: 0;
   right: 0;
   width: 50%;
@@ -734,6 +747,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 .footer {
   background-color: rgba(133, 157, 94, 0.2);
   position: relative;
+  margin: 1% 0 0 0;
   width: 100%;
   bottom: 0;
   left: 0;
