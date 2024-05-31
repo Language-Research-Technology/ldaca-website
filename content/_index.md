@@ -1,6 +1,7 @@
 ---
 ---
 
+<br>
 {{<raw>}}
 
 <div class="center_heading">
@@ -21,12 +22,13 @@
     </div>
     <div>
       <div class="slide__content">
-        <h1>What's new?</h1>
+        <h1>Updates</h1>
         <h4></h4>
         <ul>
-        <h3><li>New Case Study: Data Management in Language Technology (<a href = "./resources/general-resources/case-studies/data-mangement-appen/" target="_blank">read more....</a>)</li></h3>
-        <h3><li>A blog post about what has happened to the Australian National Corpus (<a href = "./news/posts/ausnc">read more....</a>)</li></h3>
-        <h3><li>Interview with Kalin Stefanov about his research with Auslan and Machine Learning (<a href = "./news/posts/kalin-stefanov">read more....</a>)</li></h3>
+        <h3><li>Blog Post: International Decade of Indigenous languages (<a href = "./news/posts/idil/" target="_blank">Read more ➤</a>)</li></h3>
+        <h3><li>Case Study: A Master's Research Project (<a href = "./resources/general-resources/case-studies/masters-research-project/" target="_blank">Read more ➤</a>)</li></h3>
+        <h3><li>Blog Post: What has happened to the Australian National Corpus (<a href = "./news/posts/ausnc">Read more ➤</a>)</li></h3>
+        <h3><li>Blog Post: Interview with Kalin Stefanov about his research with Auslan and Machine Learning (<a href = "./news/posts/kalin-stefanov">Read more ➤</a>)</li></h3>
         </ul>
       </div>  
     </div>
@@ -40,7 +42,7 @@
     <!-- <a href="./about/"> -->
       <div class="slide__content">
         <h1>About</h1>
-        <h3>Learn more <a href="about/">about LDacA</a>, what it does and who is involved in the project.</h3>
+        <h3><a href="about/">Learn more</a> about LDaCA, what it does and who is involved in the project.</h3>
       </div> 
     <!-- </a> -->
   </div>
@@ -52,7 +54,7 @@
   <div class="slide">
       <div class="slide__content">
         <h1>Resources</h1>
-        <h3>Explore resources created by <a href="./resources/ldaca-resources/">LDaCA</a> and by <a href="./resources/general-resources/">others</a></h3>
+        <h3>Explore resources created by <a href="./resources/ldaca-resources/">LDaCA</a> and <a href="./resources/general-resources/">others.</a></h3>
       </div> 
   </div>
 
@@ -63,7 +65,7 @@
   <div class="slide">
     <div class="slide__content">
       <h1>News</h1>
-      <h3>There are several ways to follow what is <a href="./news/">new at LDaCA</a> and to be informed about <a href="./news/events/">events which we organise</a>.</h3>
+      <h3>Follow <a href="./news/">what's new</a> at LDaCA</a> and be informed about <a href="./news/events/">events</a> which we organise.</h3>
     </div>
   </div>
 
@@ -74,7 +76,7 @@
   <div class="slide">
       <div class="slide__content">
         <h1>Contact Us</h1>
-        <h3>How to <a href="./contact/">get in touch with LDaCA</a> and get involved in our activities.</h3>
+        <h3><a href="./contact/">Get in touch</a> with LDaCA and get involved in our activities.</h3>
       </div>
   </div>
 

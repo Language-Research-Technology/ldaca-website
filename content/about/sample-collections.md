@@ -96,7 +96,7 @@ The [Elwyn Flint collection](https://manuscripts.library.uq.edu.au/index.php/uqf
 
 ### Fryer Library, The University of Queensland
 
-The [Fryer Library manuscript collections](https://manuscripts.library.uq.edu.au/index.php/) consists of unpublished materials and includes personal papers, photographs, audio recordings, architectural plans, artworks and more. Manuscripts are generally arranged in collections according to who created or collected the material.
+The [Fryer Library manuscript collections](https://manuscripts.library.uq.edu.au/index.php/) consists of unpublished materials and includes personal papers, photographs, audio recordings, architectural plans, artworks and more. Manuscripts are generally arranged in collections according to who created or collected the material. Note that Fryer Library's published material can also be searched through its [Library Search](https://www.library.uq.edu.au/).
 
 <br>
 
