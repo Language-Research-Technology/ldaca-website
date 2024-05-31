@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-<!-- Use shortcode with parameters: image Src="" Alt="" Desc=""(Caption) Title="" Height="" ExtLink=""(External source reference) 
+<!-- Use shortcode with parameters: image Src="" Alt="" Desc=""(Caption - include Figure X: here if needed) Title="" Height="" ExtLink=""(External source reference) 
     Ref=""(Internal source reference) -->
 
 <body>
@@ -15,19 +14,3 @@
         </div>
     </div>
 </body>
-=======
-<!-- Use shortcode with parameters: image Src="" Alt="" Desc=""(Caption - include Figure X: here if needed) Title="" Height="" ExtLink=""(External source reference) Ref=""(Internal source reference) -->
-
-<body>
-  <div>
-    <img src="{{ .Get "Src" }}" alt="{{ .Get "Alt" }}" title="{{ .Get "Title" }}" height="{{ .Get "Height" }}" class="center_image" />
-    <div style="text-align: center">
-      <b>
-                {{ .Get "Desc" }}</b>
-        <br>Image Source: {{ if .Get "ExtLink" }}
-        <a href="{{ .Get "ExtLink" }}" target="_blank">(Source)</a>
-        {{ else }} {{ .Get "Ref" }} {{ end }}
-          </div>
-  </div>
-</body>
->>>>>>> 9f58ceb079af18ba120416f7c08072972bfcd590

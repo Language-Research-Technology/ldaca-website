@@ -20,7 +20,6 @@ We have a page on [LinkedIn](https://www.linkedin.com/company/ldaca/) and we sha
         <p>Our team is spread throughout Australia, with connections to our partner institutions and projects. </p>
         <img src="/contact/ldaca-team.png">
     </div>
-
     <div class="twitter flex_item">
         <a class="twitter-timeline"
             href="https://twitter.com/LDaCA_Program"
