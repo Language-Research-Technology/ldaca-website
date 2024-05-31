@@ -12,7 +12,7 @@ description: "Refine your queries with word, phrase and pattern searches."
 <br>
 
 ##### [Basic Search](#basic-search)
-##### [Advanced Search](#advanced-search)  ([Search Fields](#search-fields), [Boolean Operators](#boolean-operators), [Query String Syntax](#query-string-syntax), [Regular Expressions](#regular-expressions), [Reserved Characters](#reserved-characters), [Show Query](#show-query))
+##### [Advanced Search](#advanced-search) ([Search Fields](#search-fields), [Boolean Operators](#boolean-operators), [Query String Syntax](#query-string-syntax), [Regular Expressions](#regular-expressions), [Reserved Characters](#reserved-characters), [Show Query](#show-query))
 
 <br>
 

@@ -287,7 +287,7 @@ Japanese demon. 👹
 
 But how will data get into the {{< glossary_link display="OCFL" id="ocfl" >}} repository? At the moment we’re loading
 data using a series of scripts which are being developed at our github
-organization.
+organisation.
 
 This diagram and the next come from the
 [Arkisto Use cases page](https://arkisto-platform.github.io/use-cases/). It

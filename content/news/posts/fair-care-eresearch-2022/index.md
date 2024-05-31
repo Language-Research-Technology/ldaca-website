@@ -222,7 +222,7 @@ Scope:
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide13.png' alt='' title='Slide: 13' border='1'  width='85%%'/>
 
-The first prototype, which we presented at eResearch Australasia last year was a proof-of-concept {{< glossary_link display="GitHub" id="github" >}}-based system. This demonstrated that authorization can be delegated from a repository to an external service. For each of the Sydney Speaks licenses there was a {{< glossary_link display="GitHub" id="github" >}} group (organization). The repository, when requested to serve data would get the user to log in using the {{< glossary_link display="GitHub" id="github" >}} Authentication services, then check if the user was in the correct license group.
+The first prototype, which we presented at eResearch Australasia last year was a proof-of-concept {{< glossary_link display="GitHub" id="github" >}}-based system. This demonstrated that authorization can be delegated from a repository to an external service. For each of the Sydney Speaks licenses there was a {{< glossary_link display="GitHub" id="github" >}} group (organisation). The repository, when requested to serve data would get the user to log in using the {{< glossary_link display="GitHub" id="github" >}} Authentication services, then check if the user was in the correct license group.
 
 This worked, but there were issues with this approach:
 
