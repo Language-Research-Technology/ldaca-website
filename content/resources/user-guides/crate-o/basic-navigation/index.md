@@ -30,7 +30,7 @@ File Option | Description
 --- | ---
 Open Directory | Select a directory/folder to locate or set where files are saved.
 Load Files | Load files from the selected directory into this {{< glossary_link display="RO-Crate" id="ro-crate" >}}.
-Bulk Add | Select a spreadsheet from a different directory to assist you with {{< glossary_link display="metadata" id="metadata" >}} description. This will append to your existing RO-Crate, if one has already been created. Note that this option currently only has functionality to add new data, rather than overwriting edited data that is already present in your RO-Crate.
+Bulk Add | Select an Excel spreadsheet or similar from a different directory to assist you with {{< glossary_link display="metadata" id="metadata" >}} description. This will append to your existing RO-Crate, if one has already been created. Note that this option currently only has functionality to add new data, rather than overwriting edited data that is already present in your RO-Crate.
 Save | Save the state of this page into your RO-Crate. This will create an _ro-crate-metadata.json_ file, or append data into an existing _ro-crate-metadata.json_ file.
 Close | Close without saving.
 Help | Display general help from anywhere in {{< glossary_link display="Crate-O" id="crate-o" >}}.
@@ -61,9 +61,9 @@ When a file or folder is open in {{< glossary_link display="Crate-O" id="crate-o
 
 <br>
 
-Below the Mode Selector, a home icon followed by entity breadcrumbs indicates your entity history, and underneath that, the entity you are currently located on. This will update as you navigate to different entities. Note that the breadcrumbs section doesn't reflect the tree structure of the {{< glossary_link display="RO-Crate" id="ro-crate" >}}, but instead shows the history of the entities you have visited.
+Below the Mode Selector, a home icon followed by entity breadcrumbs indicates your entity history, and underneath that, the entity you are currently located on. These will update as you navigate to different entities. Note that the breadcrumbs section doesn't reflect the tree structure of the {{< glossary_link display="RO-Crate" id="ro-crate" >}}, but instead shows the history of the entities you have visited.
 
-To the left of this is the option to ___Remove Entity___ that you are currently viweing.
+To the right of this is the option to ___Remove Entity___ that you are currently viewing (provided it is not the root entity).
 
 <br>
 
@@ -97,7 +97,7 @@ Hovering over each property group will display tooltips related to that group.
 
 <br>
 
-In the middle panel, the Entity Properties for the property group you currently have selected are shown.
+In the middle panel, the Entity Properties for the property group you have selected are shown.
 
 <br>
 
