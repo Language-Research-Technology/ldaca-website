@@ -23,7 +23,7 @@
 
 
 # Developer Track Session 2
-Time: 05/June/2024: 09:00 - 10:30 · Location: Drottningporten 2
+Time: 05 June 2024, 09:00 - 10:30 · Location: Drottningporten 2
 
 Crate-O - A drop-in linked data metadata editor for RO-Crate (and other) linked data in repositories and beyond
 
@@ -68,16 +68,16 @@ I am presenting in the next session on why RO-Crate is important for repositorie
 # Five ways RO-Crate data packages are important for repositories
 
 
-Time: 05/June/2024: 11:00 - 12:30 · Location: Drottningporten 1
+Time: 05 June 2024, 11:00 - 12:30 · Location: Drottningporten 1
 
 
 Peter Sefton*, Stian Soiland-Reyes**
 
 *University of Queensland, Australia; **The University of Manchester, UK
 
-Research Object Crate is a linked data metadata packaging standard which has been widely adopted in research contexts. In this presentation we will briefly explain what RO-Crate is, how it is being adopted worldwide, then go on to list ways that RO-Crate is growing in importance in the repository world:
+Research Object Crate is a linked data metadata packaging standard which has been widely adopted in research contexts. In this presentation, we will briefly explain what RO-Crate is, how it is being adopted worldwide, then go on to list ways that RO-Crate is growing in importance in the repository world:
 
-- Uploading of complex multi-file objects means RO-Crate is compatible with any general purpose repository that can accept a zip file (with some coding, repository services can do more with RO-Crates)
+- Uploading of complex multi-file objects means RO-Crate is compatible with any general-purpose repository that can accept a zip file (with some coding, repository services can do more with RO-Crates)
 
 - Download for well-described data objects complete with metadata from a repository rather than just a zip or file with no metadata
 
@@ -85,7 +85,7 @@ Research Object Crate is a linked data metadata packaging standard which has bee
 
 - Sufficiently well-described RO-Crates can be used to make data FAIR compliant, aiding in Findability, Accessibility, Interoperability and Reusability thanks to standardised metadata and mature tooling
 
-- And if you’re looking for a sustainable repository solution, there are tools which can run a repository from a set of static files on a storage service, in line with the ideas put forward by Suleman in the closing keynote for OR2023
+- And if you’re looking for a sustainable repository solution, there are tools which can run a repository from a set of static files on a storage service, in line with the ideas put forward by Suleman in the closing keynote for OR2023.
 
 
 
@@ -135,9 +135,9 @@ A version of the Crate-O component is available as a playground for Chrome brows
 https://github.com/Language-Research-Technology/ro-crate-modes/blob/main/docs/soss-profiles.md
 
 
-A Schema.org style Schema (SOSS) specifies a metadata vocabulary, of Classes and Properties -- based on the RO-Crate specification's use of Schema.org classes.
+A Schema.org style Schema (SOSS) specifies a metadata vocabulary of Classes and Properties, based on the RO-Crate specification's use of Schema.org classes.
 An RO-Crate Profile has (at least) a document that explains how metadata entities from the Schema are used for a particular purpose.
-An RO-Crate Mode is a set of lightweight syntactic rules for combining SOSS Classes, Properties and DefinedTerms, expressed in a JSON file
+An RO-Crate Mode is a set of lightweight syntactic rules for combining SOSS Classes, Properties and DefinedTerms, expressed in a JSON file.
 
 
 
@@ -154,9 +154,9 @@ An RO-Crate Mode is a set of lightweight syntactic rules for combining SOSS Clas
 
 Crate-O RO-Crate Editor Mode Files are editor configurations that implement RO-Crate Metadata Profiles.
 
-The configuration files are intended to form the basis of a an approach for describing RO-Crate editor behaviour can be used for RO-Crate validation.
+The configuration files are intended to form the basis of an approach for describing RO-Crate editor behaviour and can be used for RO-Crate validation.
 
-Initial versions of this work were based on the Describo Profiles (which vary between versions of Describo) used to configure the Describo family of RO-Crate editing tools - currently maintained by Marco La Rosa.
+Initial versions of this work were based on the Describo Profiles (which vary between versions of Describo) used to configure the Describo family of RO-Crate editing tools, currently maintained by Marco La Rosa.
 
 
 
@@ -170,13 +170,13 @@ Initial versions of this work were based on the Describo Profiles (which vary be
 
 
 
-Crate-O is a single page front-end web app developed using the Vue Javascript framework. Vue app is built by composing and nesting modular structures called components. 
+Crate-O is a single-page front-end web app developed using the Vue Javascript framework. Vue app is built by composing and nesting modular structures called components. 
 
-The main part Crate-o is the bundled in the CrateEditor component (highlighted in red) that allows a user to view, add, edit, and delete properties of an entity, add and delete entities, and navigate and browse all entities in the crate. 
+The main part Crate-O is then bundled in the CrateEditor component (highlighted in red) that allows a user to view, add, edit and delete properties of an entity, add and delete entities, and navigate and browse all entities in the crate. 
 
 The CrateEditor component is exported as EMAScript Module and can be imported into any Vue web app by adding Crate-O as dependency.
 
-The default main app (for showcasing) only runs in chrome-based browsers because it requires the `showDirectoryPicker` method from File System API to access (read/write) a directory on local machine. The feature is still experimental and only available in chrome-based browsers. However, the CrateEditor component itself does not require that feature.
+The default main app (for showcasing) only runs in Chrome-based browsers because it requires the `showDirectoryPicker` method from File System API to access (read/write) a directory on a local machine. The feature is still experimental and only available in Chrome-based browsers. However, the CrateEditor component itself does not require that feature.
 
 
 
@@ -189,7 +189,7 @@ The default main app (for showcasing) only runs in chrome-based browsers because
 
 
 
-This silde  illustrates the very basic example of embedding Crate-O CrateEditor in any Vue app
+This slide illustrates the very basic example of embedding Crate-O CrateEditor in any Vue app.
 
 The example shows a Vue Single-File Component (SFC) (*.vue)
 
@@ -210,7 +210,7 @@ The example shows a Vue Single-File Component (SFC) (*.vue)
 <section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
 <img src='Slide09.png' alt='' title='Slide: 9' border='1' />
 
-Data can be imported into Crate-O using spreadsheets - this is an efficient way to create metadata for collections of objects, Spreadsheet skills are common and many projects have already been described using spreaddheets to describe and manage files, we work with data custodians to standardize their approach to this so that they can create rich linked-data metadata.
+Data can be imported into Crate-O using spreadsheets - this is an efficient way to create metadata for collections of objects. Spreadsheet skills are common and many projects have already been described using spreadsheets to describe and manage files, we work with data custodians to standardize their approach to this so that they can create rich linked-data metadata.
 
 </section>
 
