@@ -105,7 +105,7 @@ In the middle panel, the Entity Properties for the property group you have selec
 
 <br>
 
-The exclamation mark icons to the right indicate that an entity is a required {{< glossary_link display="property" id="property" >}} for that {{< glossary_link display="mode" id="mode" >}}, and saving an {{< glossary_link display="RO-Crate" id="ro-crate" >}} without completing one of these sections will result in a warning message. Below each field is a tooltip providing further detail on the given entity.
+The exclamation mark icons to the left indicate that an entity is a required {{< glossary_link display="property" id="property" >}} for that {{< glossary_link display="mode" id="mode" >}}, and saving an {{< glossary_link display="RO-Crate" id="ro-crate" >}} without completing one of these sections will result in a warning message. Below each field is a tooltip providing further detail on the given entity.
 
 Each entity field has a 'delete' icon beside it, however these are only functional (and appear in red) for entities that can be removed, i.e. required properties cannot be deleted, but you can edit these.
 

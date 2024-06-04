@@ -132,7 +132,7 @@ Clicking on one of the collections from the main page results will take you to t
 
 The main panel of the Collection page lists the main details and {{< glossary_link display="metadata" id="metadata" >}} associated with the collection. Clicking on the question mark icon ![Question Mark Icon](/user-guides/portal/question.png) or information icon ![Information Icon](/user-guides/portal/information.png) next to each heading will display tooltips related to that item.
 
-Below the main description and {{< glossary_link display="metadata" id="metadata" >}} is the number of objects present in the collection. The objects are then listed below, with buttons allowing navigation by page if there are more than 10 objects in the collection. <!--TODO how are these ordered?-->
+Below the main description and {{< glossary_link display="metadata" id="metadata" >}} is the number of objects present in the collection. The objects are then listed below, with buttons allowing navigation by page if there are more than 10 objects in the collection.
 
 The right panel has the following sections:
 - __Access__: Defines the license and {{< glossary_link display="access conditions" id="access-conditions" >}} for the current collection. <!--TODO (together with a click-through link to the full license - this isn't the case currently).-->
