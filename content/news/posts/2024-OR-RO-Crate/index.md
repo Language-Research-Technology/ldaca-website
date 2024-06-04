@@ -55,7 +55,7 @@ Research Object Crate is a linked data metadata packaging standard which has bee
 
 
 
-## Uploading of complex multi-file objects
+# Uploading of complex multi-file objects
 
 
 RO-Crate [1], [2] is a data packaging format and can be used to put multiple data files together with their metadata into a package such as a ZIP, tar or disk image file. This means that as long as your repository can handle a ZIP file it can take RO-Crates.
@@ -132,7 +132,7 @@ Increasingly, research repository infrastructure is accepting RO-Crate input - t
 
 
 
-## RO-Crate is a packaging format suitable for downloads
+# RO-Crate is a packaging format suitable for downloads
 
 One of the perennial problems with downloads is that once a user has the data, it often does not come with metadata as shown on the landing page, or if present it is in an ad hoc or specialised format. RO-Crate solves this by specifying an extensible way to put linked-data metadata with data assets and to provide an HTML page or small website with the data to explain it. Thus data travels *with* its metadata and can be made human-readable.
 
