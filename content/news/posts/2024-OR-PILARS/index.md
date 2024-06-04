@@ -16,7 +16,7 @@
 <section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
 <img src='Slide00.png' alt='A comprehensive, open and sustainable set of principles protocols and tools for low (and high) resource archival-repositories :: Peter Sefton, Robert McLellan, Michael Lynch**, Moises Sacal Bonequi*, Nick Thieberger*** ::  :: ' title='Slide: 0' border='1'  width='85%%'/>
 
-# From “R-Drive to [RRKive](RRKive.org]” – a comprehensive, open and sustainable set of principles and tools for low (and high) resource archival-repositories
+# From “R-Drive to [RRKive](RRKive.org)” – a comprehensive, open and sustainable set of principles and tools for low (and high) resource archival-repositories
 
 Presented at: The 19th International Conference on Open Repositories, June 3-6th 2024, Göteborg, Sweden
 
@@ -90,11 +90,10 @@ This screenshot shows what an LDaCA site looks like; a typical data-discovery po
 <section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
 <img src='Slide06.png' alt='LDACA PARADISEC INDEX SCREENSHOT ::  :: ' title='Slide: 6' border='1'  width='85%%'/>
 
-This slide shows a collage of images from the [PARADISEC] catalogue and some images of the materials that have been digitised. Objects in the collection range from manuscript images to dynamic media, predominantly audio from analog tapes which are now at risk of loss due to old age.
+This slide shows a collage of images from the [PARADISEC]( https://www.paradisec.org.au/) catalogue and some images of the materials that have been digitised. Objects in the collection range from manuscript images to dynamic media, predominantly audio from analog tapes which are now at risk of loss due to old age.
 
 PARADISEC’s separation of data-at-rest from portal application was one of the main inspirations for our implementation protocols, introduced below.
 
-[PARADISEC]: https://www.paradisec.org.au/ “Pacific and Regional Archive for Digital Sources in Endangered Cultures”
 
 </section>
 
@@ -266,7 +265,7 @@ We showed screenshots for the [OMAA](https://omaa-arts.sydney.edu.au/) above.
 <section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
 <img src='Slide19.png' alt=' ::  :: ' title='Slide: 19' border='1'  width='85%%'/>
 
-The [RRKive](https://rrkive.org)\* website is the project site that will contain additional information about PILARS – how to implement the protocols, open source software, presentations etc. to supplement PILARS.
+The [RRKive](https://rrkive.org)  website is the project site that will contain additional information about PILARS – how to implement the protocols, open source software, presentations etc. to supplement PILARS.
 
 </section>
 
@@ -315,7 +314,7 @@ The ARDC is funded by the National Collaborative Research Infrastructure Strateg
 
 </section>
 
-## References
+# References
 
 Burnham, D., Estival, D., Cassidy, S., Sefton, P., & Verspoor, K. (2014). Two platforms for research in Human Communication Science: The AusTalk corpus and the Alveo Virtual Laboratory. 17th Oriental Chapter of the International Committee for the Co-Ordination and Standardization of Speech Databases and Assessment Techniques (COCOSDA), 1–6. https://doi.org/10.1109/ICSDA.2014.7051412
 
