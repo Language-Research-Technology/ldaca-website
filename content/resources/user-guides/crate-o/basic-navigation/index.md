@@ -30,8 +30,8 @@ File Option | Description
 --- | ---
 Open Directory | Select a directory/folder to locate or set where files are saved.
 Load Files | Load files from the selected directory into this {{< glossary_link display="RO-Crate" id="ro-crate" >}}.
-Bulk Add | Select an Excel spreadsheet or similar from a different directory to assist you with {{< glossary_link display="metadata" id="metadata" >}} description. This will append to your existing RO-Crate, if one has already been created. Note that this option currently only has functionality to add new data, rather than overwriting edited data that is already present in your RO-Crate.
-Save | Save the state of this page into your RO-Crate. This will create an _ro-crate-metadata.json_ file, or append data into an existing _ro-crate-metadata.json_ file.
+Bulk Add | Select an Excel spreadsheet or similar from a different directory to assist you with {{< glossary_link display="metadata" id="metadata" >}} description. This will append to your existing RO-Crate, if one has already been created. Note that this option currently only has functionality to add new data, and cannot overwrite or edit existing data in your RO-Crate.
+Save | Save the state of this page into your RO-Crate. This will create an _ro-crate-metadata.json_ file, or add data into an existing _ro-crate-metadata.json_ file.
 Close | Close without saving.
 Help | Display general help from anywhere in {{< glossary_link display="Crate-O" id="crate-o" >}}.
 
@@ -105,7 +105,7 @@ In the middle panel, the Entity Properties for the property group you have selec
 
 <br>
 
-The exclamation mark icon indicates that an entity is a required {{< glossary_link display="property" id="property" >}} for that {{< glossary_link display="mode" id="mode" >}}, and saving an {{< glossary_link display="RO-Crate" id="ro-crate" >}} without completing one of these sections will result in a warning message. Below each field is a tooltip providing further detail on the given entity.
+The exclamation mark icons to the right indicate that an entity is a required {{< glossary_link display="property" id="property" >}} for that {{< glossary_link display="mode" id="mode" >}}, and saving an {{< glossary_link display="RO-Crate" id="ro-crate" >}} without completing one of these sections will result in a warning message. Below each field is a tooltip providing further detail on the given entity.
 
 Each entity field has a 'delete' icon beside it, however these are only functional (and appear in red) for entities that can be removed, i.e. required properties cannot be deleted, but you can edit these.
 
@@ -113,11 +113,11 @@ There are several compulsory {{< glossary_link display="metadata" id="metadata" 
 
 Property Group | Metadata | Description | Additional Notes
 --- | --- | --- | ---
-About | @id | Persistent, managed unique ID in URL format (if available), for example a {{< glossary_link display="DOI" id="doi" >}} for a collection or an ORCID, personal home page URL or email address for a person. | Existing persitent identifiers for persons and organisations can be found at:<br><ul><li>[ORCID](https://orcid.org/)<li>[ROR](https://ror.org/)<li>[Trove](https://trove.nla.gov.au/) (use the People & Organisations search category)
+About | @id | Persistent, managed unique ID in URL format (if available), for example a {{< glossary_link display="DOI" id="doi" >}} for a collection or an ORCID, personal home page URL or email address for a person. | Existing persistent identifiers for persons and organisations can be found at:<br><ul><li>[ORCID](https://orcid.org/)<li>[ROR](https://ror.org/)<li>[Trove](https://trove.nla.gov.au/) (use the People & Organisations search category)
 About | @type | The type of the entity. | Both `Dataset` and `RepositoryCollection` are required for top-level collections in the LDAC Mode.
 About | Name | The name of this collection.
 About | Description | An abstract of the collection. Include as much detail as possible about the motivation and use of the dataset, including things that we do not yet have properties for.
-About | License | Link to a document that describes the rights and obligations for users of this collection record. NOTE: This does not necessarily cover the license terms that may apply to Objects in the collection which may have specific {{< glossary_link display="licensing" id="licensing" >}}. Licensing on other objects overrides the license attached to a collection record.
+About | License | Link to a document that describes the rights and obligations for users of this collection record. NOTE: This does not necessarily cover the license terms that may apply to Objects in the collection which may have specific {{< glossary_link display="licensing" id="licensing" >}}. Licensing on specific objects overrides the license attached to a collection record.
 Related People, Orgs & Works | Author | The person or organisation responsible for creating this collection of data.
 Related People, Orgs & Works | Publisher | The organisation responsible for releasing this dataset.
 Others | Rights Holder | A person or organisation owning or managing rights over the resource.
@@ -146,6 +146,6 @@ On the Entity Navigator panel, there are some further options related to navigat
 - ___All Entities___: Select to view all metadata entities associated with your {{< glossary_link display="collection" id="collection" >}}.
 - ___Unlinked Entities___: Select to view all metadata entities that are currently not linked to any properties.
 
-Below this, there is a row of buttons which allow you to navigate through pages of results, with 10 results appearing on each page.
+Below this, there is pagination which allows you to navigate through results, with 10 results appearing per page.
 
 <br>
