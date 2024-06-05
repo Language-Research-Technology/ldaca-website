@@ -886,3 +886,11 @@ footer hr {
   height: 100%;
   object-fit: cover;
 }
+
+// Class for PT Posts
+.or_section {
+  border:1px solid black;     
+  margin-bottom: 100px; 
+  padding: 50px;
+  background-color: rgba($color: white, $alpha: 0.8);
+}

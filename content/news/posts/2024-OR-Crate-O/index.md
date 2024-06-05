@@ -17,7 +17,7 @@
 
     
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide00.png' alt='Crate-O - a drop-in linked data metadata editor for RO-Crate (and other) linked data in repositories and beyond ::  :: ' title='Slide: 0' border='1' />
 
 
@@ -40,7 +40,7 @@ Research Object Crate is a metadata packaging standard which has been widely ado
 
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide01.png' alt=' ::  :: ' title='Slide: 1' border='1' />
 
 
@@ -57,7 +57,7 @@ RO-Crate has been presented here at Open Repositories for the last few years, an
 
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide02.png' alt='Five ways RO-Crate data packages are important for repositories :: Peter Sefton*, Stian Soiland-Reyes** ::  :: *University of Queensland, Australia; **The University of Manchester, UK ::  ::  :: Time: 05/June/2024: 11:00 - 12:30 · Location: Drottningporten 1 :: ' title='Slide: 2' border='1' />
 
 
@@ -97,7 +97,7 @@ Research Object Crate is a linked data metadata packaging standard which has bee
 
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide03.png' alt='The Language Data Commons of Australia Data Partnerships (LDaCA-DP), Language Data Commons of Australia Research Data Commons (LDaCA-RDC), and Australian Text Analytics Platform (ATAP) projects received investment (https://doi.org/10.47486/DP768, https://doi.org/10.47486/HIR001, &amp; https://doi.org/10.47486/PL074)  :: from the Australian Research Data Commons (ARDC).  ::  :: The ARDC is funded by the National Collaborative Research Infrastructure Strategy (NCRIS). :: ' title='Slide: 3' border='1' />
 
 
@@ -114,7 +114,7 @@ The ARDC is funded by the National Collaborative Research Infrastructure Strateg
 
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide04.png' alt=' :: Start describing your research  :: TODAY! :: ' title='Slide: 4' border='1' />
 
 
@@ -127,7 +127,7 @@ A version of the Crate-O component is available as a playground for Chrome brows
 
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide05.png' alt=' ::  :: ' title='Slide: 5' border='1' />
 
 
@@ -147,7 +147,7 @@ An RO-Crate Mode is a set of lightweight syntactic rules for combining SOSS Clas
 
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide06.png' alt='&quot;classes&quot;: { ::     &quot;Dataset&quot;: { ::       &quot;id&quot;: &quot;http://schema.org/Dataset&quot;, ::       &quot;subClassOf&quot;: [], ::       &quot;inputs&quot;: [ ::         { ::           &quot;id&quot;: &quot;http://schema.org/isAccessibleForFree&quot;, ::           &quot;name&quot;: &quot;isAccessibleForFree&quot;, ::           &quot;help&quot;: &quot;This is available under an Open Access license.&quot;, ::           &quot;required&quot;: false, ::           &quot;multiple&quot;: false, ::           &quot;type&quot;: [ ::             &quot;Boolean&quot; ::           ] ::         }, ::        … :: { ::   &quot;metadata&quot;: { ::     &quot;name&quot;: &quot;Language Data Commons top-level Collection (corpus)&quot;, ::     &quot;description&quot;: &quot;Implements the language data commons RO-Crate Metadata Profile for top-level collection.&quot;, ::     &quot;version&quot;: 0.3, ::     &quot;author&quot;: &quot;University of Queensland&quot;, ::     &quot;license&quot;: &quot;GPL-3.0&quot; ::   }, ::  &quot;conformsToUri&quot;: [ ::    &quot;https://w3id.org/ldac/profile#Collection&quot; ::  ], :: Modes ::  :: ' title='Slide: 6' border='1' />
 
 
@@ -165,7 +165,7 @@ Initial versions of this work were based on the Describo Profiles (which vary be
 
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide07.png' alt='Embed Crate-O in your own Vue app :: Functionalities include everything Crate-O can do except anything to do with file handling (load/save crate, read files, manage profiles, etc.) :: Published in NPM, just do npm install and import the component in your Vue app :: As a component, it should run in any modern web browser :: Crate-O is developed with Vue 3 framework and exposes the Vue component CrateEditor that can be imported as a library by any Vue app. ::  :: CrateEditor UI part :: ' title='Slide: 7' border='1' />
 
 
@@ -184,7 +184,7 @@ The default main app (for showcasing) only runs in Chrome-based browsers because
 
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide08.png' alt='Embed Crate-O in your own Vue app ::  :: ' title='Slide: 8' border='1' />
 
 
@@ -207,7 +207,7 @@ The example shows a Vue Single-File Component (SFC) (*.vue)
 
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide09.png' alt='' title='Slide: 9' border='1' />
 
 Data can be imported into Crate-O using spreadsheets - this is an efficient way to create metadata for collections of objects. Spreadsheet skills are common and many projects have already been described using spreadsheets to describe and manage files, we work with data custodians to standardize their approach to this so that they can create rich linked-data metadata.
@@ -216,7 +216,7 @@ Data can be imported into Crate-O using spreadsheets - this is an efficient way 
 
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide10.png' alt=' :: ' title='Slide: 10' border='1' />
 
 

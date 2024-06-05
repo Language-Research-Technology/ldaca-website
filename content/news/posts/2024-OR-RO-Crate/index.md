@@ -13,7 +13,7 @@
 <a href="2024-OR-RO-Crate.pdf">PDF version</a> | <a href="2024-OR-RO-Crate.pptx">Powerpoint Version</a>
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide00.png' alt='Five ways RO-Crate data packages are important for repositories :: Peter Sefton*, Stian Soiland-Reyes** ::  :: *University of Queensland, Australia; **The University of Manchester, UK ::  ::  :: ' title='Slide: 0' border='1'  width='85%%'/>
 
 
@@ -50,7 +50,7 @@ Research Object Crate is a linked data metadata packaging standard which has bee
 
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide01.png' alt='Uploading of complex multi-file objects … :: ' title='Slide: 1' border='1'  width='85%%'/>
 
 
@@ -70,7 +70,7 @@ Beyond simply allowing the upload of opaque RO-Crates, there are opportunities f
 
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide02.png' alt='… is already supported even if the repo does not speak RO-Crate :: ' title='Slide: 2' border='1'  width='85%%'/>
 
 
@@ -83,7 +83,7 @@ One of the design features of an RO-Crate is that as it can be “just a ZIP fil
 
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide03.png' alt='📂 ::  :: | :: |- ro-crate-metadata.json :: |-- Folder1/  :: |          |-- file1.this :: |          |-- file2.that :: |-- Folder2/ :: |		   -- file1.this :: |          |-- file2.that :: |-2021-04-08 07.58.17.jpg  :: { ::       &quot;@id&quot;: &quot;2021-04-08 07.58.17.jpg&quot;, ::       &quot;@type&quot;: &quot;File&quot;, ::       &quot;contentSize&quot;: 3271409, ::       &quot;dateModified&quot;: &quot;2021-04-08T07:58:17+10:00&quot;, ::       &quot;description&quot;: &quot;&quot;, ::       &quot;encodingFormat&quot;: [ ::         { ::           &quot;@id&quot;:  &quot;https://www.nationalarchives.gov.uk/PRONOM/x-fmt/391&quot; ::         }, ::         &quot;image/jpeg&quot; ::       ], ::       &quot;name&quot;: &quot;Cute puppy&quot; ::     }, ::  ::  RO-Crate Metadata Document :: ' title='Slide: 3' border='1'  width='85%%'/>
 
 
@@ -100,7 +100,7 @@ This slide shows a folder of data, including a file with a typical obscure file 
 
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide04.png' alt='📂 ::  :: |-- Folder1/  :: |          |-- file1.this :: |          |-- file2.that :: |-- Folder2/ :: |		     |-- file1.this :: |          |-- file2.that :: |-2021-04-08 07.58.17.jpg  ::  :: ' title='Slide: 4' border='1'  width='85%%'/>
 
 
@@ -113,7 +113,7 @@ A human-readable description and preview (ro-crate-preview.html) can be in an HT
 
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide05.png' alt='' title='Slide: 5' border='1'  width='85%%'/>
 
 
@@ -127,7 +127,7 @@ Increasingly, research repository infrastructure is accepting RO-Crate input - t
 
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide06.png' alt='2.  RO-Crate is a packaging format suitable for downloads :: 2. :: ' title='Slide: 6' border='1'  width='85%%'/>
 
 
@@ -159,7 +159,7 @@ We will encourage developers from other repository platforms to follow the Datav
 
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide07.png' alt=' :: ' title='Slide: 7' border='1'  width='85%%'/>
 
 
@@ -172,7 +172,7 @@ This is a screenshot of the [Gazetteer of Historical Australian Places](https://
 
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide08.png' alt='HTML Preview Describes the files :: ' title='Slide: 8' border='1'  width='85%%'/>
 
 
@@ -184,7 +184,7 @@ This kind of download could be added to any repository system where there is at 
 
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide09.png' alt='Enable programmatic downloads – include the metadata and its extensions :: signposting.org  :: ' title='Slide: 9' border='1'  width='85%%'/>
 
 
@@ -201,7 +201,7 @@ As we mentioned above, data should travel with the metadata – one example of t
 
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide10.png' alt='3. Less user interface customisation will be needed for different types of metadata :: ' title='Slide: 10' border='1'  width='85%%'/>
 
 
@@ -215,7 +215,7 @@ One of the key benefits of linked-data metadata over previous ‘legacy’ appro
 
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide11.png' alt=' ::  :: Here the mechanism is to use the ‘magic’ name METS.xml to store some extra metadata – with a fully linked-data system this kind of thing is not needed :: ' title='Slide: 11' border='1'  width='85%%'/>
 
 
@@ -230,7 +230,7 @@ This slide is a repeat of one we used last year – this screenshot is a bit of 
 
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide12.png' alt=' ::  :: ' title='Slide: 12' border='1'  width='85%%'/>
 
 
@@ -246,7 +246,7 @@ This site does not need to have multiple plugins for different kinds of data, as
 
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide13.png' alt='No need to invent (completely) new file formats anymore! ::  ::  :: ' title='Slide: 13' border='1'  width='85%%'/>
 
 
@@ -259,7 +259,7 @@ So now we can tell all these research software developers, I know you like makin
 
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide14.png' alt='4. The availability of RO-Crate editing tools opens the way for repository software to focus on access and discoverability :: ' title='Slide: 14' border='1'  width='85%%'/>
 
 
@@ -276,7 +276,7 @@ There is an opportunity, if RO-Crate is adopted as an interchange format, for th
 
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide15.png' alt=' :: ' title='Slide: 15' border='1'  width='85%%'/>
 
 
@@ -289,7 +289,7 @@ The [Describo](https://describo.github.io/describo-users.html) website mentions 
 
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide16.png' alt=' :: RO-Crate editing :: Data Portal :: ' title='Slide: 16' border='1'  width='85%%'/>
 
 
@@ -304,7 +304,7 @@ The Language Data Commons of Australia team has produced an alternative to Descr
 
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide17.png' alt=' Portal shows that accessing this data requires authorisation. First step: Log in.' title='Slide: 17' border='1'  width='85%%'/>
 
 
@@ -318,7 +318,7 @@ This slide shows the beginning of an access-control process. The data was prepar
 
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide18.png' alt=' logging in ' title='Slide: 18' border='1'  width='85%%'/>
 
 
@@ -331,7 +331,7 @@ The user logs in using CILogon (or another federated authentication service).
 
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide19.png' alt=' REMS ' title='Slide: 19' border='1'  width='85%%'/>
 
 
@@ -344,7 +344,7 @@ The user is then directed to an instance of REMS - the [Resource Entitlement Man
 
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide20.png' alt=' Applying for a license ' title='Slide: 20' border='1'  width='85%%'/>
 
 
@@ -357,7 +357,7 @@ After an approval process which may be automated, or may involve humans checking
 
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide21.png' alt='5. With a repository to keep data safe and serve it using persistent Identifiers, RO-Crates help make data FAIR  :: ' title='Slide: 21' border='1'  width='85%%'/>
 
 
@@ -373,7 +373,7 @@ RO-Crate is increasingly being used to describe the provenance [3] of derived da
 
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide22.png' alt='' title='Slide: 22' border='1'  width='85%%'/>
 
 
@@ -386,7 +386,7 @@ RO-Crate helps to enable FAIR research practice; RO-Crates can describe inputs, 
 
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide23.png' alt=' :: ' title='Slide: 23' border='1'  width='85%%'/>
 
 
@@ -401,7 +401,7 @@ This slide is a collage from a [presentation at eResearch Australasia](https://c
 
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide24.png' alt='6. (bonus point) There are tools which can run a repository from a set of static files on a storage service, in line with the ideas put forward by Prof Suleman at OR 2023 :: ' title='Slide: 24' border='1'  width='85%%'/>
 
 
@@ -416,7 +416,7 @@ The team at the Language Data Commons of Australia, with partner institutions an
 
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide25.png' alt='' title='Slide: 25' border='1'  width='85%%'/>
 
 
@@ -429,7 +429,7 @@ The [UTS Research Data Portal] is an example of a very minimal data repository s
 
 
 
-<section  typeof='http://purl.org/ontology/bibo/Slide' style="border:1px solid black;     margin-bottom: 100px; padding: 50px">
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide26.png' alt='The Language Data Commons of Australia Data Partnerships (LDaCA-DP), Language Data Commons of Australia Research Data Commons (LDaCA-RDC), and Australian Text Analytics Platform (ATAP) projects received investment (https://doi.org/10.47486/DP768, https://doi.org/10.47486/HIR001, &amp; https://doi.org/10.47486/PL074)  :: from the Australian Research Data Commons (ARDC).  ::  :: The ARDC is funded by the National Collaborative Research Infrastructure Strategy (NCRIS). :: ' title='Slide: 26' border='1'  width='85%%'/>
 
 
