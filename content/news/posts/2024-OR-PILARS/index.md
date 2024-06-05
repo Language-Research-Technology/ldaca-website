@@ -6,9 +6,6 @@
     categories: ["LDaCA"]
     tags: ["PILARS"]
     author: Peter Sefton
-    toc:
-      enable: true
-      auto: true
 ---
 
 <a href="2024-OR-PILARS.pdf">PDF version</a> | <a href="2024-OR-PILARS.pptx">Powerpoint Version</a>
@@ -90,10 +87,9 @@ This screenshot shows what an LDaCA site looks like; a typical data-discovery po
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide06.png' alt='LDACA PARADISEC INDEX SCREENSHOT ::  :: ' title='Slide: 6' border='1'  width='85%%'/>
 
-This slide shows a collage of images from the [PARADISEC]( https://www.paradisec.org.au/) catalogue and some images of the materials that have been digitised. Objects in the collection range from manuscript images to dynamic media, predominantly audio from analog tapes which are now at risk of loss due to old age.
+This slide shows a collage of images from the [PARADISEC](https://www.paradisec.org.au/) catalogue and some images of the materials that have been digitised. Objects in the collection range from manuscript images to dynamic media, predominantly audio from analog tapes which are now at risk of loss due to old age.
 
 PARADISEC’s separation of data-at-rest from portal application was one of the main inspirations for our implementation protocols, introduced below.
-
 
 </section>
 
@@ -265,7 +261,7 @@ We showed screenshots for the [OMAA](https://omaa-arts.sydney.edu.au/) above.
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide19.png' alt=' ::  :: ' title='Slide: 19' border='1'  width='85%%'/>
 
-The [RRKive](https://rrkive.org)  website is the project site that will contain additional information about PILARS – how to implement the protocols, open source software, presentations etc. to supplement PILARS.
+The [RRKive](https://rrkive.org) website is the project site that will contain additional information about PILARS – how to implement the protocols, open source software, presentations etc. to supplement PILARS.
 
 </section>
 
