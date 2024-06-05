@@ -131,7 +131,7 @@ An RO-Crate Mode is a set of lightweight syntactic rules for combining SOSS Clas
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 
 <h2 id="uploading-of-complex-multi-file-objects">Uploading of complex multi-file objects</h2>
-<p>RO-Crate [1], [2] is a data packaging format and can be used to put multiple data files together with their metadata into a package such as a ZIP, tar or disk image file. This means that as long as your repository can handle a ZIP file it can take RO-Crates.</p>
+<p>RO-Crate <a name="back-1" ><a href="#fn-1" rel="">[1]</a></a>, <a name="back-2" ><a href="#fn-2" rel="">[2]</a></a> is a data packaging format and can be used to put multiple data files together with their metadata into a package such as a ZIP, tar or disk image file. This means that as long as your repository can handle a ZIP file it can take RO-Crates.</p>
 <p>RO-Crates enable data to travel with metadata.</p>
 <p>Beyond simply allowing the upload of opaque RO-Crates, there are opportunities for repository software to recognise metadata in an uploaded package and to pre-populate built-in metadata forms and/or datastores. This is not a pattern the authors have seen widely implemented in comprehensive institutionally focussed repositories, although at the time of writing it is being explored in Dataverse and InvenioRDM/Zenodo. We would encourage repository developers to explore this further, particularly those working with research data. RO-Crate support is increasing in research-domain repositories; e.g. RO-Crate upload with metadata extract is supported by WorkflowHub and ROHub).</p>
 <br>
@@ -167,7 +167,7 @@ An RO-Crate Mode is a set of lightweight syntactic rules for combining SOSS Clas
 <p><a href="https://www.google.com/url?sa=t&amp;source=web&amp;rct=j&amp;opi=89978449&amp;url=https://workflowhub.eu/&amp;ved=2ahUKEwi_wuuK9qmGAxWkAHkGHb9hDngQFnoECBgQAQ&amp;usg=AOvVaw0Mgw-ytkMOTMLIPdH1AorW" target="_blank" rel="noopener noreffer ">WorkflowHub</a>: A registry for describing, sharing and publishing scientific computational workflows.</p>
 </li>
 <li>
-<p><a href="https://www.rohub.org" target="_blank" rel="noopener noreffer ">ROHub</a>: A  repository of Earth Science datasets and computational methods.</p>
+<p><a href="https://www.rohub.org" target="_blank" rel="noopener noreffer ">ROHub</a>: A repository of Earth Science datasets and computational methods.</p>
 </li>
 <li>
 <p><a href="https://tlcmap.org/" target="_blank" rel="noopener noreffer ">TLCMap</a>: The Time Layered Cultural map is a set of tools that work together for mapping Australian history and culture.</p>
@@ -198,7 +198,7 @@ An RO-Crate Mode is a set of lightweight syntactic rules for combining SOSS Clas
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 
 <p>Every repository implementer should add FAIR Signposting – just a couple of HTTP headers – this means machines can go from an HTML landing page to the actual download without guesswork – or even better – to an RO-Crate! I’m sure you’ll hear this mentioned in one of the <a href="https://www.conftool.net/or2024/index.php?page=browseSessions&amp;presentations=show&amp;search=herbert" target="_blank" rel="noopener noreffer ">talks</a> by Herbert van de Sompel and colleagues, such as the one on <a href="https://www.conftool.net/or2024/index.php?page=browseSessions&amp;form_session=475#paperID246" title="FAIRiCat: Supporting Discovery of a Repository&#39;s Interoperability Affordances" target="_blank" rel="noopener noreffer ">FAIRiCat</a>. Again, DataVerse is ahead of the curve and has already implemented this.</p>
-<p>As we mentioned above, data should travel with the metadata – one example of this from the WorkflowHub is how other services like the LifeMonitor retrieves the RO-Crate and then looks for custom annotations in the metadata to pick up and connect to the testing infrastructure.  This was only possible because RO-Crate is extensible - you are not trapped with whatever 25 properties we’ve selected. The vessel is still RO-Crate, the repository didn&rsquo;t need to add anything to support the LifeMonitor.</p>
+<p>As we mentioned above, data should travel with the metadata – one example of this from the WorkflowHub is how other services like the LifeMonitor retrieves the RO-Crate and then looks for custom annotations in the metadata to pick up and connect to the testing infrastructure. This was only possible because RO-Crate is extensible - you are not trapped with whatever 25 properties we’ve selected. The vessel is still RO-Crate, the repository didn&rsquo;t need to add anything to support the LifeMonitor.</p>
 <br>
 </section>
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
@@ -236,7 +236,7 @@ We argue that the core functionality of a repository is keeping data safe and ma
 </section>
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 
-<p>The Language Data Commons of Australia team has produced an alternative to Describo known as Crate-O – this is available as a web component ready to drop in to any web app or can function stand-alone  – we use it as part of the workflow in maintaining the <a href="https://data.ldaca.edu.au/collection?id=arcp%3A%2F%2Fname%2Cdoi10.26180%252F23961609&amp;_crateId=arcp%3A%2F%2Fname%2Cdoi10.26180%252F23961609" target="_blank" rel="noopener noreffer ">data portal for the Language Data Commons of Australia</a>.</p>
+<p>The Language Data Commons of Australia team has produced an alternative to Describo known as Crate-O – this is available as a web component ready to drop in to any web app or can function stand-alone – we use it as part of the workflow in maintaining the <a href="https://data.ldaca.edu.au/collection?id=arcp%3A%2F%2Fname%2Cdoi10.26180%252F23961609&amp;_crateId=arcp%3A%2F%2Fname%2Cdoi10.26180%252F23961609" target="_blank" rel="noopener noreffer ">data portal for the Language Data Commons of Australia</a>.</p>
 <br>
 </section>
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
@@ -262,7 +262,7 @@ We argue that the core functionality of a repository is keeping data safe and ma
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 
 <p>With a repository to keep data safe and serve it using persistent identifiers, RO-Crates help make data FAIR.</p>
-<p>RO-Crate is increasingly being used to describe the provenance [3] of derived data in such a way that the workflows/computation that produced it can be re-run automatically to validate it, or as a basis for new research. This might be a button on a repository to run a bioinformatics workflow, or re-run a Jupyter notebook that produces a set of plots.</p>
+<p>RO-Crate is increasingly being used to describe the provenance <a name="back-3" ><a href="#fn-3" rel="">[3]</a></a> of derived data in such a way that the workflows/computation that produced it can be re-run automatically to validate it, or as a basis for new research. This might be a button on a repository to run a bioinformatics workflow, or re-run a Jupyter notebook that produces a set of plots.</p>
 <br>
 </section>
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
@@ -278,7 +278,7 @@ We argue that the core functionality of a repository is keeping data safe and ma
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 
 <p>There are tools which can run a repository from a set of static files on a storage service, in line with the ideas put forward by prof Suleman at OR 2023.
-The team at the Language Data Commons of Australia, with partner institutions and colleagues, has been working to produce a set of tools for building Archival Repository software stacks that is based on a principled approach to keeping data safe, based on the principles presented in the Arkisto website[4] and more recently at <a href="https://w3id.org/ldac/pilars" target="_blank" rel="noopener noreffer ">https://w3id.org/ldac/pilars</a> the core idea is that a collection of RO-Crates in a storage service can be the basis of a repository – either using a simple on-disk directory layout or something more complicated such as an Oxford Common File Layout (OCFL) specification.</p>
+The team at the Language Data Commons of Australia, with partner institutions and colleagues, has been working to produce a set of tools for building Archival Repository software stacks that is based on a principled approach to keeping data safe, based on the principles presented in the Arkisto website <a name="back-4" ><a href="#fn-4" rel="">[4]</a></a> and more recently at <a href="https://w3id.org/ldac/pilars" target="_blank" rel="noopener noreffer ">https://w3id.org/ldac/pilars</a>. The core idea is that a collection of RO-Crates in a storage service can be the basis of a repository – either using a simple on-disk directory layout or something more complicated such as an Oxford Common File Layout (OCFL) specification.</p>
 <br>
 </section>
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
@@ -291,4 +291,10 @@ The team at the Language Data Commons of Australia, with partner institutions an
 <p>The Language Data Commons of Australia Data Partnerships (LDaCA-DP), Language Data Commons of Australia Research Data Commons (LDaCA-RDC), and Australian Text Analytics Platform (ATAP) projects received investment (<a href="https://doi.org/10.47486/DP768" target="_blank" rel="noopener noreffer ">https://doi.org/10.47486/DP768</a>, <a href="https://doi.org/10.47486/HIR001" target="_blank" rel="noopener noreffer ">https://doi.org/10.47486/HIR001</a>, &amp; <a href="https://doi.org/10.47486/PL074" target="_blank" rel="noopener noreffer ">https://doi.org/10.47486/PL074</a>) from the Australian Research Data Commons (ARDC).</p>
 <p>The ARDC is funded by the National Collaborative Research Infrastructure Strategy (NCRIS).</p>
 </section>
+<h3 id="references">References</h3>
+<p><a name="fn-1">[1]</a> Sefton, Peter et al., “RO-Crate Metadata Specification 1.1.3,” Apr. 2023, doi: 10.5281/ZENODO.3406497. <a href="#back-1" rel="">↩</a></p>
+<p><a name="fn-2">[2]</a> S. Soiland-Reyes et al., “Packaging research artefacts with RO-Crate,” Data Sci., vol. 5, no. 2, pp. 97–138, Jan. 2022, doi: 10.3233/DS-210053. <a href="#back-2" rel="">↩</a></p>
+<p><a name="fn-3">[3]</a> S. Leo et al., “Recording provenance of workflow runs with RO-Crate.” arXiv, Dec. 12, 2023. doi: 10.48550/arXiv.2312.07852. <a href="#back-3" rel="">↩</a></p>
+<p><a name="fn-4">[4]</a> P. Sefton, M. La Rosa, and Mi. Lynch, “Arkisto: a repository based platform for managing all kinds of research data,” in ptsefton.com, Jun. 2021. Accessed: Jan. 31, 2022. [Online]. Available: <a href="http://ptsefton.com/2021/06/11/or-2021-arkisto/index.html" target="_blank" rel="noopener noreffer ">http://ptsefton.com/2021/06/11/or-2021-arkisto/index.html</a> <a href="#back-4" rel="">↩</a></p>
+<br>
 ]]></description></item></channel></rss>
