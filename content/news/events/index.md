@@ -20,32 +20,28 @@ aliases:
 
 <br>
 
-### Introduction to Computational Text Analytics
-
-Do you have more text than you know what to do with? Did you collect data including text for your project and now feel overwhelmed when you try to analyse? Is there too much? Are you doing the same thing over and over again and feeling like you're not using your time efficiently? Are you worried about missing the forest for the trees (or the trees for the forest)? If any of these apply to you (or you're just interested in learning more) this workshop is for you.
-
-This workshop will introduce the fundamentals of computational text analysis using [LADAL](https://ladal.edu.au/index.html). We'll start with the key questions of why and where computational methods might be appropriate for your work before moving onto the how. For the how we will:
-
-- Outline the necessary preparation and preconditions for using computational approaches to text.
-- Introduce you to the R programming language with Jupyter notebooks.
-- Guide you through using a series of common methods and libraries in R so you can start asking the right questions for your own projects.
-- Tie everything back together with a discussion of the practical aspects of managing projects with computational components grounded in our research experiences.
-
-**Facilitators**: {{< profile id="schweinberger" >}} and {{< profile id="hames" >}}
-
-**When**: 23 and 24 May 2024,
-
-**Where**: Level 6, Forgan Smith Building, The University of Queensland
-
-**Run by**: The University of Queensland ([UQ](https://www.uq.edu.au/)) [Centre for Digital Cultures & Societies](https://hass.uq.edu.au/Digital-Cultures-and-Societies)
-
-**[Details](https://events.humanitix.com/introduction-to-computational-text-analytics-fm6j24un)**
-
 <br>
 
 ### Previous Workshops {#previous-workshops}
 
 {{<raw>}}
+
+<details>
+     <summary>
+        <b>Introduction to Computational Text Analytics.</b> 
+    </summary>
+    <p>This workshop introduced the fundamentals of computational text analysis using <a href="https://ladal.edu.au/index.html" target="_blank">LADAL</a>.
+   </p>
+
+   <p><b>Facilitators</b>: Martin Schweinberger and Sam Hames</p>
+
+    <p><b>When</b>: 23 and 24 May 2024</p>
+
+    <p><b>Organisers</b>: The University of Queensland (<a href="https://www.uq.edu.au/" target="_blank">UQ</a>) <a href="https://hass.uq.edu.au/Digital-Cultures-and-Societies" target="_blank">Centre for Digital Cultures & Societies</a></p>
+
+    <p><a href="https://events.humanitix.com/introduction-to-computational-text-analytics-fm6j24un" target="_blank">Details</a></p>
+
+</details>
 
 <details>
      <summary>

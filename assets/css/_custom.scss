@@ -19,17 +19,49 @@ $color_list: (
 $color_count: 1;
 
 .main {
-  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url("/BackgroundIMGs/Contact.png") repeat-y left top;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 1)
+    ),
+    url("/BackgroundIMGs/Contact.png") repeat-y left top;
   background-size: 100% auto;
 }
 
 [theme="light"] .main {
-  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url("/BackgroundIMGs/Contact.png") repeat-y left top;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 1)
+    ),
+    url("/BackgroundIMGs/Contact.png") repeat-y left top;
 }
 [theme="dark"] .main {
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(41,42,45,255)), url("/BackgroundIMGs/Contact.png") repeat-y left top;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      rgba(41, 42, 45, 255)
+    ),
+    url("/BackgroundIMGs/Contact.png") repeat-y left top;
 }
-
 
 [theme="dark"] a {
   color: $clear_blue;
@@ -356,8 +388,9 @@ $c-slides: $water_green, $land_green, $clear_blue, $storm_blue, $sandstone;
 
 // Slide backgrounds (if used, must be same as number of slides, otherwise false)
 $b-slides: url("/SlideshowIMGs/batchelor-shelf.jpg")
-  url("/SlideshowIMGs/about.jpg") url("/SlideshowIMGs/data-migration.jpg")
-  url("/SlideshowIMGs/trove.png") url("/SlideshowIMGs/ldaca-meeting.png");
+  url("/SlideshowIMGs/About_Project.png")
+  url("/SlideshowIMGs/data-migration.jpg") url("/SlideshowIMGs/trove.png")
+  url("/SlideshowIMGs/ldaca-meeting.png");
 //$b-slides: $water_green, $land_green, $clear_blue, $storm_blue, $sandstone;
 
 // Total duration of slide animation
@@ -889,8 +922,8 @@ footer hr {
 
 // Class for PT Posts
 .or_section {
-  border:1px solid black;     
-  margin-bottom: 100px; 
+  border: 1px solid black;
+  margin-bottom: 100px;
   padding: 50px;
   background-color: rgba($color: white, $alpha: 0.8);
 }
