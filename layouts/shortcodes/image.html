@@ -4,13 +4,12 @@
 <body>
     <div>
         <img src="{{.Get `Src`}}" alt="{{.Get `Alt`}}" title="{{.Get `Title`}}" height="{{.Get `Height`}}" class="center_image" />
-        <div style="text-align: center;"><h4>{{.Get "Desc"}}
-            {{ if .Get "ExtLink" }}
-                <a href="{{.Get `ExtLink`}}" target="_blank">(Source)</a>
-            {{ else }}
-                {{.Get "Ref"}}
-            {{ end }}
-            </h4>
-        </div>
+        <div style="text-align: center">
+      <b>
+                {{ .Get "Desc" }}</b>
+        <br>Image Source: {{ if .Get "ExtLink" }}
+        <a href="{{ .Get "ExtLink" }}" target="_blank">(Source)</a>
+        {{ else }} {{ .Get "Ref" }} {{ end }}
+          </div>
     </div>
 </body>
