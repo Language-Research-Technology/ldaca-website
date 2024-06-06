@@ -287,7 +287,7 @@ This slide is a collage from a [presentation at eResearch Australasia](https://c
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide24.png' alt='6. (bonus point) There are tools which can run a repository from a set of static files on a storage service, in line with the ideas put forward by Prof Suleman at OR 2023 :: ' title='Slide: 24' border='1'  width='85%%'/>
 
-There are tools which can run a repository from a set of static files on a storage service, in line with the ideas put forward by prof Suleman at OR 2023.
+There are tools which can run a repository from a set of static files on a storage service, in line with the ideas put forward by Prof Suleman at OR 2023.
 The team at the Language Data Commons of Australia, with partner institutions and colleagues, has been working to produce a set of tools for building Archival Repository software stacks that is based on a principled approach to keeping data safe, based on the principles presented in the Arkisto website <a name="back-4" >[[4]](#fn-4)</a> and more recently at <https://w3id.org/ldac/pilars>. The core idea is that a collection of RO-Crates in a storage service can be the basis of a repository – either using a simple on-disk directory layout or something more complicated such as an Oxford Common File Layout (OCFL) specification.
 
 <br>
@@ -297,7 +297,7 @@ The team at the Language Data Commons of Australia, with partner institutions an
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide25.png' alt='' title='Slide: 25' border='1'  width='85%%'/>
 
-The [UTS Research Data Portal] is an example of a very minimal data repository system which uses a standard RO-Crate viewer to show RO-Crates that are sitting on file storage. This example is of an [engineering dataset](https://data.research.uts.edu.au/#view/0bacede4bd5a39993ec5088e6247cac8).
+The [UTS Research Data Portal](https://data.research.uts.edu.au) is an example of a very minimal data repository system which uses a standard RO-Crate viewer to show RO-Crates that are sitting on file storage. This example is of an [engineering dataset](https://data.research.uts.edu.au/#view/0bacede4bd5a39993ec5088e6247cac8).
 
 <br>
 
