@@ -87,7 +87,7 @@ A human-readable description and preview (ro-crate-preview.html) can be in an HT
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide05.png' alt='' title='Slide: 5' border='1'  width='85%%'/>
 
-Increasingly, research repository infrastructure is accepting RO-Crate input - this screenshot from WorkflowHub [documents the upload API[(https://about.workflowhub.eu/developer/ro-crate-api/) for submitting RO-Crate packaged descriptions of scientific workflows to the system. These can then be downloaded by others for reuse. Here, RO-Crate allows bypassing of the traditional “title, author, license, description” fields (rendered from the crate), as well as permitting user extensions on metadata to be kept in the repository.
+Increasingly, research repository infrastructure is accepting RO-Crate input - this screenshot from WorkflowHub [documents the upload API](https://about.workflowhub.eu/developer/ro-crate-api/) for submitting RO-Crate packaged descriptions of scientific workflows to the system. These can then be downloaded by others for reuse. Here, RO-Crate allows bypassing of the traditional “title, author, license, description” fields (rendered from the crate), as well as permitting user extensions on metadata to be kept in the repository.
 
 <br>
 
