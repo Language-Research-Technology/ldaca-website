@@ -154,7 +154,7 @@ An RO-Crate Mode is a set of lightweight syntactic rules for combining SOSS Clas
 </section>
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 
-<p>Increasingly, research repository infrastructure is accepting RO-Crate input - this screenshot from WorkflowHub [documents the upload API[(https://about.workflowhub.eu/developer/ro-crate-api/) for submitting RO-Crate packaged descriptions of scientific workflows to the system. These can then be downloaded by others for reuse. Here, RO-Crate allows bypassing of the traditional “title, author, license, description” fields (rendered from the crate), as well as permitting user extensions on metadata to be kept in the repository.</p>
+<p>Increasingly, research repository infrastructure is accepting RO-Crate input - this screenshot from WorkflowHub <a href="https://about.workflowhub.eu/developer/ro-crate-api/" target="_blank" rel="noopener noreffer ">documents the upload API</a> for submitting RO-Crate packaged descriptions of scientific workflows to the system. These can then be downloaded by others for reuse. Here, RO-Crate allows bypassing of the traditional “title, author, license, description” fields (rendered from the crate), as well as permitting user extensions on metadata to be kept in the repository.</p>
 <br>
 </section>
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
