@@ -14,6 +14,9 @@ layout: "root_list"
 Bednarek, Monika, Martin Schweinberger & Kelvin K. H. Lee. 2024. Corpus-based discourse analysis: from meta-reflection to accountability. _Corpus Linguistics and Linguistic Theory_ 0(0). [https://doi.org/10.1515/cllt-2023-0104](https://doi.org/10.1515/cllt-2023-0104).
 <br />
 
+Foley, Ben, Peter Sefton, Simon Musgrave & Moises Sacal Bonequi. 2024. Access control framework for language collections. In Nicoletta Calzolari, Min-Yen Kan, Veronique Hoste, Alessandro Lenci, Sakriani Sakti & Nianwen Xue (eds.), _Proceedings of the 2024 joint international conference on computational linguistics, language resources and evaluation (LREC-COLING 2024)_, 113–121. Torino, Italia: ELRA and ICCL. https://aclanthology.org/2024.lrec-main.10.
+<br />
+
 Thieberger, Nick, Michael Aird, Clint Bracknell, Jason Gibson, Amanda Harris, Marcia Langton, Gaye Sculthorpe & Jane Simpson. 2024. The New Protectionism: Risk Aversion and Access to Indigenous Heritage Records. _Archives & Manuscripts_ e10971. [https://doi.org/10.37683/asa.v51.10971](https://doi.org/10.37683/asa.v51.10971).
 <br />
 
