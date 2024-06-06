@@ -299,6 +299,10 @@ a.menu-item.theme-switch {
   padding-right: 2%;
 }
 
+#header-desktop .header-wrapper .menu {
+  overflow: visible;
+}
+
 .banner-button {
   padding: 5px 10px;
   margin: auto 10px;
@@ -333,7 +337,6 @@ a.menu-item.theme-switch {
   padding-left: 6.7%;
   padding-right: 4%;
   white-space: nowrap;
-  overflow: hidden;
   text-overflow: ellipsis;
 }
 
@@ -611,7 +614,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
   visibility: hidden;
   opacity: 0;
   display: none;
-  position: fixed;
+  position: absolute;
   z-index: 100;
   transition: all 0.5s ease;
   overflow: visible;
