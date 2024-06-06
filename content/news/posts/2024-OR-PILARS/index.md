@@ -13,7 +13,7 @@
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='Slide00.png' alt='A comprehensive, open and sustainable set of principles protocols and tools for low (and high) resource archival-repositories :: Peter Sefton, Robert McLellan, Michael Lynch**, Moises Sacal Bonequi*, Nick Thieberger*** ::  :: ' title='Slide: 0' border='1'  width='85%%'/>
 
-# From “R-Drive to [RRKive](RRKive.org)” – a comprehensive, open and sustainable set of principles and tools for low (and high) resource archival-repositories
+# From “R-Drive to [RRKive](https://www.rrkive.org/)” – a comprehensive, open and sustainable set of principles and tools for low (and high) resource archival-repositories
 
 Presented at: The 19th International Conference on Open Repositories, June 3-6th 2024, Göteborg, Sweden
 
