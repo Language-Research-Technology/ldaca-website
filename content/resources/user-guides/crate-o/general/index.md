@@ -41,7 +41,7 @@ While the current version of Crate-O is designed for editing self-contained RO-C
 
 <br>
 
-The diagram below shows the hierarchical relationship between {{< glossary_link display="collections" id="collection" >}}, {{< glossary_link display="objects" id="object" >}} and files in a corpus, together with the {{< glossary_link display="metadata" id="metadata" >}} that these relationships are organised by.
+The diagram below shows the hierarchical relationship between {{< glossary_link display="collections" id="collection" >}}, {{< glossary_link display="objects" id="object" >}} and files in a corpus, together with the {{< glossary_link display="metadata" id="metadata" >}} categories which track these relationships.
 
 <br>
 
@@ -91,12 +91,12 @@ This diagram shows the relationship between the three main components used by {{
 
 1. A [Schema](#soss) specifies a {{< glossary_link display="metadata" id="metadata" >}} vocabulary of {{< glossary_link display="Classes" id="class" >}} and {{< glossary_link display="Properties" id="property" >}}, based on the RO-Crate specification's use of Schema.org classes.
 
-2. An [RO-Crate Profile](https://www.researchobject.org/ro-crate/1.2-DRAFT/profiles.html) has (at least) a document that explains how metadata entities from the {{< glossary_link display="Schema" id="schema" >}} are used for a particular purpose.
-
-3. An RO-Crate {{< glossary_link display="Mode" id="mode" >}} is a set of lightweight syntactic rules for combining Schema.org Style Schema (SOSS) Classes, Properties and DefinedTerms, expressed in a {{< glossary_link display="JSON" id="json" >}} file that can be:
+2. An RO-Crate {{< glossary_link display="Mode" id="mode" >}} is a set of lightweight syntactic rules for combining Schema.org Style Schema (SOSS) Classes, Properties and DefinedTerms, expressed in a {{< glossary_link display="JSON" id="json" >}} file that can be:
     - loaded into an editor such as [Crate-O](https://github.com/Language-Research-Technology/crate-o)
     - imported into another program and used for RO-Crate validation
     - used to summarise the rules for an [RO-Crate Profile](https://www.researchobject.org/ro-crate/1.2-DRAFT/profiles.html).
+
+3. An [RO-Crate Profile](https://www.researchobject.org/ro-crate/1.2-DRAFT/profiles.html) has (at least) a document that explains how metadata entities from the {{< glossary_link display="Schema" id="schema" >}} are used for a particular purpose.
 
 These are all inter-related, and can be developed together or separately using {{< glossary_link display="tools" id="tools" >}}.
 

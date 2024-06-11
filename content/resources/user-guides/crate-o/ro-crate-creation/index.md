@@ -57,7 +57,7 @@ description: "A step-by-step guide to creating an RO-Crate metadata file."
 
 <br>
 
-- Enter the entity properties you have for your collection. Add as little or as much information about your collection as you like, as this can be saved and worked on further later. To browse all the {{< glossary_link display="metadata" id="metadata" >}} entities associated with the Language Data Commons Mode, see [Metadata for Language Data](https://ldaca.gitbook.io/metadata-for-language-data).
+- Enter the entity properties you have for your collection. Add as little or as much information about your collection as you like, as this can be saved and worked on further later. To browse all the {{< glossary_link display="metadata" id="metadata" >}} entities associated with the Language Data Commons (LDAC) Mode, see [Metadata for Language Data](https://ldaca.gitbook.io/metadata-for-language-data).
 
 <br>
 

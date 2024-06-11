@@ -28,8 +28,8 @@ From the Main Menu, the following options are available:
 
 File Option | Description
 --- | ---
-Open Directory | Select a directory/folder to locate or set where files are saved.
-Load Files | Load files from the selected directory into this {{< glossary_link display="RO-Crate" id="ro-crate" >}}.
+Open Directory | Select a directory/folder to locate or set where files are saved. This is the required first step for all {{< glossary_link display="RO-Crates" id="ro-crate" >}}.
+Load Files | Load files from the selected directory into this RO-Crate.
 Bulk Add | Select an Excel spreadsheet or similar from a different directory to assist you with {{< glossary_link display="metadata" id="metadata" >}} description. This will append to your existing RO-Crate, if one has already been created. Note that this option currently only has functionality to add new data, and cannot overwrite or edit existing data in your RO-Crate.
 Save | Save the state of this page into your RO-Crate. This will create an _ro-crate-metadata.json_ file, or add data into an existing _ro-crate-metadata.json_ file.
 Close | Close without saving.
@@ -114,7 +114,7 @@ There are several compulsory {{< glossary_link display="metadata" id="metadata" 
 Property Group | Metadata | Description | Additional Notes
 --- | --- | --- | ---
 About | @id | Persistent, managed unique ID in URL format (if available), for example, a {{< glossary_link display="DOI" id="doi" >}} for a collection or an ORCID, personal home page URL or email address for a person. | Existing persistent identifiers for persons and organisations can be found at:<br><ul><li>[Open Researcher and Contributor ID (ORCID)](https://orcid.org/)<li>[Research Organization Registry (ROR)](https://ror.org/)<li>[Trove](https://trove.nla.gov.au/) (use the People & Organisations search category).
-About | @type | The type of the entity. | Both `Dataset` and `RepositoryCollection` are required for top-level collections in the LDAC Mode, as these determine the available properties.
+About | @type | The type of the entity. | Both `Dataset` and `RepositoryCollection` are required for top-level collections in the Language Data Commons (LDAC) Mode, as these determine the available properties.
 About | Name | The name of this collection.
 About | Description | An abstract of the collection. Include as much detail as possible about the motivation and use of the dataset, including things that we do not yet have properties for. | May include but not limited to the following:<br><ul><li>a brief description of participants (age range, gender, particular characteristics as a group, etc.)<li>purpose of the collection<li>research value of the dataset.
 About | License | Link to a document that describes the rights and obligations for users of this collection record. | This does not necessarily cover the license terms that may apply to Objects in the collection which may have specific {{< glossary_link display="licensing" id="licensing" >}}. Licensing on specific objects overrides the license attached to a collection record.
@@ -125,7 +125,7 @@ Others | Accountable Person | The person or organisation who is the {{< glossary
 Others | In Language | The language(s) of the materials (including PrimaryMaterials, DerivedMaterials and Annotations) in this collection. | The lookup pulls from [AustLang](https://collection.aiatsis.gov.au/austlang/search), [Glottolog](https://glottolog.org/) and [Ethnologue](https://www.ethnologue.com/). Both AustLang names and codes can be used. If a language is not present, it can be created.
 Others | Subject Language | The languages that the materials in the collection are about (not the language that it is in). This is particularly used on Annotations that may talk about PrimaryMaterials or DerivedMaterials. | The lookup pulls from [AustLang](https://collection.aiatsis.gov.au/austlang/search), [Glottolog](https://glottolog.org/) and [Ethnologue](https://www.ethnologue.com/). Both AustLang names and codes can be used. If a language is not present, it can be created.
 
-To browse all the metadata entities associated with the Language Data Commons Mode, see [Metadata for Language Data](https://ldaca.gitbook.io/metadata-for-language-data/).
+To browse all the metadata entities associated with the {{< glossary_link display="LDAC" id="ldac" >}} Mode, see [Metadata for Language Data](https://ldaca.gitbook.io/metadata-for-language-data/).
 
 
 <br>
@@ -149,3 +149,9 @@ On the Entity Navigator panel, there are some further options related to navigat
 Below this, there is pagination which allows you to navigate through results, with 10 results appearing per page.
 
 <br>
+
+SubjectLanguage: where a resource presents data for a language or languages along with accompanying commentary of some kind, the language(s) of the data is (are) the SubjectLanguage. The language(s) of the associated commentary (which may be the same or may be different from the SubjectLanguage(s)) would provide values for the property Inlanguage.
+
+
+
+InLanguage: The language which provides the main communicative system of a resource will provide the value for this property. A heuristic for establishing this value is to ask how one would describe using the resource. If I am using a descriptive grammar of Arrente written in English, I would say that I was reading a work in English about Arrente, not a work IN Arrente.
