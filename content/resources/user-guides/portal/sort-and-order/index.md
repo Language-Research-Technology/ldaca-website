@@ -26,5 +26,4 @@ The portal search engine allows you to sort and order all items of a query accor
 - Ascending
 - Descending
 
-<!-- TODO this will need to be detailed more when elastic search is updated to open search ont he portal as it may operate a bit differently.-->
 <br>

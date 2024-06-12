@@ -11,6 +11,13 @@ description: "A guide to citing collections and data accessed through the portal
 
 <br>
 
+##### [Citing a Collection](#citing-a-collection)
+##### [Citing Parts of a Collection](#citing-parts-of-a-collection)
+##### [Citing Published Work](#citing-published-work)
+##### [Citing LDaCA as Access Source](#citing-ldaca-as-access-source)
+
+<br>
+
 Follow this guide when you need to cite a data source that you accessed through the {{< glossary_link display="LDaCA" id="ldaca" >}} portal in a publication.
 
 <br>

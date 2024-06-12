@@ -282,7 +282,7 @@ This slide illustrates the flexibility of the approach we’re taking. As LDaCA 
 
 <img src='Slide23.png' alt='  S3-Style Object store Plain Old File Store ' title='Slide: 23' border='1'  width='85%%'/>
 
-The storage services may not all be the same in this model, some may be file systems, some may be object stores, and they may be hosted by and governed by a variety of organizations.
+The storage services may not all be the same in this model, some may be file systems, some may be object stores, and they may be hosted by and governed by a variety of organisations.
 
 </section>
 

@@ -25,7 +25,7 @@ description: "Outlines the LDaCA Access Policy, making data appropriately access
 
 This document outlines the {{< glossary_link display="LDaCA" id="ldaca" >}} Access Policy, which is developed to accommodate the goal of making data appropriately accessible, in accordance with legal, moral and ethical considerations of data sharing, and tailored to meet the needs and requirements of different {{< glossary_link display="data collections" id="data-collection" >}}.
 
-{{< glossary_link display="Access conditions" id="access-conditions" >}} for data in LDaCA are determined by the {{< glossary_link display="Data Steward" id="data-steward" >}}. To assist with this, LDaCA provides: information to help {{< glossary_link display="Data Stewards" id="data-steward" >}} make informed decisions about appropriate {{< glossary_link display="access conditions" id="access-conditions" >}} for the data; {{< glossary_link display="tools" id="tools" >}} and resources to facilitate this process as {{< glossary_link display="collections" id="collection" >}} are onboarded and made available (including for applying standards as required); and mechanisms for managing these once data is onboarded.
+{{< glossary_link display="Access conditions" id="access-conditions" >}} for data in LDaCA are determined by the {{< glossary_link display="Data Steward" id="data-steward" >}}. To assist with this, LDaCA provides: information to help Data Stewards make informed decisions about appropriate access conditions for the data; {{< glossary_link display="tools" id="tools" >}} and resources to facilitate this process as {{< glossary_link display="collections" id="collection" >}} are onboarded and made available (including for applying standards as required); and mechanisms for managing these once data is onboarded.
 
 The Access Policy comprises three key components, as outlined in this document:
 
@@ -59,8 +59,8 @@ In accordance with the Access Policy, LDaCA has an established process for onboa
 ### LDaCA Responsibilities
 
 1. Supporting the {{< glossary_link display="Data Steward" id="data-steward" >}} to standardise aspects of the language collection as required for successful onboarding, including with regards to {{< glossary_link display="metadata" id="metadata" >}}, {{< glossary_link display="data governance" id="data-governance" >}} and data preparation.
-2. Adapting the onboarding process as relevant to the specific needs and requirements of the collection and {{< glossary_link display="Data Steward" id="data-steward" >}}, and working to facilitate a successful and efficient onboarding process.
-3. Providing clear information to the {{< glossary_link display="Data Steward" id="data-steward" >}} to ensure comprehension of the purpose of each step in the onboarding process, and responding to questions and concerns.
+2. Adapting the onboarding process as relevant to the specific needs and requirements of the collection and Data Steward, and working to facilitate a successful and efficient onboarding process.
+3. Providing clear information to the Data Steward to ensure comprehension of the purpose of each step in the onboarding process, and responding to questions and concerns.
 
 <br>
 

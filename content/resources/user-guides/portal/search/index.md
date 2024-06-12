@@ -11,6 +11,11 @@ description: "Refine your queries with word, phrase and pattern searches."
 
 <br>
 
+##### [Basic Search](#basic-search)
+##### [Advanced Search](#advanced-search) ([Search Fields](#search-fields), [Boolean Operators](#boolean-operators), [Query String Syntax](#query-string-syntax), [Regular Expressions](#regular-expressions), [Reserved Characters](#reserved-characters), [Show Query](#show-query))
+
+<br>
+
 The portal has both basic and advanced search capabilities. Search allows you to refine what items are displayed through basic queries with one or more words, or advanced queries using regular expressions to find specific patterns.
 
 <br>
