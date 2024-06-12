@@ -149,9 +149,3 @@ On the Entity Navigator panel, there are some further options related to navigat
 Below this, there is pagination which allows you to navigate through results, with 10 results appearing per page.
 
 <br>
-
-SubjectLanguage: where a resource presents data for a language or languages along with accompanying commentary of some kind, the language(s) of the data is (are) the SubjectLanguage. The language(s) of the associated commentary (which may be the same or may be different from the SubjectLanguage(s)) would provide values for the property Inlanguage.
-
-
-
-InLanguage: The language which provides the main communicative system of a resource will provide the value for this property. A heuristic for establishing this value is to ask how one would describe using the resource. If I am using a descriptive grammar of Arrente written in English, I would say that I was reading a work in English about Arrente, not a work IN Arrente.
