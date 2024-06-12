@@ -789,7 +789,7 @@ PARADISEC</a
 <br>
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
-<p>The storage services may not all be the same in this model, some may be file systems, some may be object stores, and they may be hosted by and governed by a variety of organizations.</p>
+<p>The storage services may not all be the same in this model, some may be file systems, some may be object stores, and they may be hosted by and governed by a variety of organisations.</p>
 </section>
 <br>
 <section typeof='http://purl.org/ontology/bibo/Slide'>
@@ -927,7 +927,7 @@ PARADISEC</a
   >ATAP</a
 > and represents an infrastructure for computational text analytics in the humanities. <a href="/resources/general-resources/glossary/#ladal" title="Language Technology and Data Analysis Laboratory" target="_blank"
   >LADAL</a
-> has an outreach component as it organises webinars and workshops and it provides computational resources in the form of self-paced online tutorials as well as interactive notebooks that allow researchers to try out methods and apply them to their own data. I see my task as organizing and managing activities around <a href="/resources/general-resources/glossary/#ladal" title="Language Technology and Data Analysis Laboratory" target="_blank"
+> has an outreach component as it organises webinars and workshops and it provides computational resources in the form of self-paced online tutorials as well as interactive notebooks that allow researchers to try out methods and apply them to their own data. I see my task as organising and managing activities around <a href="/resources/general-resources/glossary/#ladal" title="Language Technology and Data Analysis Laboratory" target="_blank"
   >LADAL</a
 > by creating and optimizing resources as well as getting involved in outreach via events and building (inter-)national partnerships and collaborations with other computational humanities infrastructures.</p>
 <p><strong>NT</strong>: I am in charge of work packages 1.1 and 1.2, Indigenous languages of Australia and the Pacific. I worked at <a href="/resources/general-resources/glossary/#aiatsis" title="Australian Institute of Aboriginal and Torres Strait Islander Studies" target="_blank"
@@ -1494,7 +1494,7 @@ Source: <a href="http://www.dynamicsoflanguage.edu.au/sydney-speaks/" target="_b
   >GitHub</a
 >-based system. This demonstrated that authorization can be delegated from a repository to an external service. For each of the Sydney Speaks licenses there was a <a href="/resources/general-resources/glossary/#github" title="A developer platform that allows developers to create, store, manage and share their code, using Git software." target="_blank"
   >GitHub</a
-> group (organization). The repository, when requested to serve data would get the user to log in using the <a href="/resources/general-resources/glossary/#github" title="A developer platform that allows developers to create, store, manage and share their code, using Git software." target="_blank"
+> group (organisation). The repository, when requested to serve data would get the user to log in using the <a href="/resources/general-resources/glossary/#github" title="A developer platform that allows developers to create, store, manage and share their code, using Git software." target="_blank"
   >GitHub</a
 > Authentication services, then check if the user was in the correct license group.</p>
 <p>This worked, but there were issues with this approach:</p>
@@ -2037,7 +2037,7 @@ Japanese demon. 👹</p>
   >OCFL</a
 > repository? At the moment we’re loading
 data using a series of scripts which are being developed at our github
-organization.</p>
+organisation.</p>
 <p>This diagram and the next come from the
 <a href="https://arkisto-platform.github.io/use-cases/" target="_blank" rel="noopener noreffer ">Arkisto Use cases page</a>. It
 shows how we will be converting data from existing collections into a form
