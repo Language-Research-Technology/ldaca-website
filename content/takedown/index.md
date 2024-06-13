@@ -1,7 +1,7 @@
 ---
 title: "Takedown Form"
 date: 2022-10-28T17:13:28+10:00
-draft: true
+draft: false
 ---
 
 If you believe that something on our website or data portal shouldn't be available publicly, please review our [takedown policy](https://docs.google.com/document/d/16EoJfwJzZFP6fnHDmh8DLymoWI88rV0As4MYFsKFbVQ/edit?usp=sharing) and submit the form below.
@@ -9,8 +9,8 @@ If you believe that something on our website or data portal shouldn't be availab
 {{< raw >}}
 
 <div class="flex_container">
-    <form action="">
-        <h3>Material to be taken down</h3>
+    <form class="contact_form" action="">
+        <h3 styling="margin-bottom: 1%;">Material to be taken down</h3>
         <!-- <label for="material">Material to be taken down (title and link):</label><br> -->
         <input class="contact_input" type="text" id="material" name="material" placeholder="Material title and link" required><br>
         <h3>Contact Details</h3>

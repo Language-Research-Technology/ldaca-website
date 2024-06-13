@@ -347,7 +347,6 @@ a.menu-item.theme-switch {
   font-weight: bold;
   background-color: white;
   border: 2px solid $deep_rock;
-
   line-height: normal;
   vertical-align: middle;
   justify-self: right;
@@ -419,12 +418,42 @@ $c-background: #101010;
 $c-text: $c-light-grey;
 $c-label-text: $c-grey;
 
-.contact_input {
-  border-radius: 50px;
-  max-width: 400px;
-  max-height: 50px;
+// Takedown form
+.contact_form {
+  min-width: 300px;
+  border-radius: 20px;
+  padding: 1%;
+  border: 2px solid $storm_blue;
 }
 
+.contact_input {
+  border-radius: 15px;
+  border: 2px solid $storm_blue;
+  width: 85%;
+  max-width: 85%;
+  min-width: 280px;
+  min-height: 20px;
+  padding: 3%;
+  margin: 1%;
+}
+
+form button {
+  background-color: $clear_blue;
+  padding: 5px 10px;
+  margin: auto 10px;
+  border-radius: 5px;
+  max-height: 36px;
+  color: white;
+  font-weight: bold;
+  border: 2px solid $storm_blue;
+  line-height: normal;
+  vertical-align: middle;
+  justify-self: right;
+}
+
+
+
+// For centering headings on home page
 .center_heading {
   justify-content: center;
   text-align: center;
