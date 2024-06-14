@@ -195,6 +195,7 @@ Incorporating speech data from oral history collections is new ground for lingui
 ### De-identification
 
 All speakers have been given pseudonyms, for which we aim to parallel the original name (thus, Sarah may be Sally, Alfredo may be Alberto etc.). In the transcripts themselves, names and all other identifying content (such as addresses, school names, nicknames, etc.) have been de-identified in all data formats. In the transcripts, this is done by using pseudonyms, for readability purposes (rather than noting [XXX], or [pseudonym], for example). To indicate to the analyst what words are pseudonyms, all pseudonyms are marked (preceded by a tilde, e.g. ~Jane, ~Millers ~Point). For the audio, we identify the segment that needs de-identification, and run a low-pass filter using a Praat script so that the name is not recognisable.
+
 During an interview, some participants have requested that a section not be included in the study, generally due to what they perceive to be the sensitive nature of a certain topic (for example, one participant talking about banking in Hong Kong). In these cases, this portion of the recording has been deleted, and it has not been transcribed or included in any analysis.
 
 <br>
@@ -202,6 +203,7 @@ During an interview, some participants have requested that a section not be incl
 ### Data security
 
 Data security measures are guided by the Sydney Speaks ethics approval. Long-term storage is especially important for legacy data that hasn’t been digitised or archived where data loss is a realistic risk.
+
 Contemporary data is collected in Sydney and transferred to the research team based at the ANU in Canberra. A remote data transfer system using an online cloud service ensures the safe transfer of raw data. Original audio and transcripts in the possession of the project are stored in a locked cabinet, managed by the project lead. Data has been digitised to secure the collection long term, and it is stored in an online cloud service as well as backed up on external hard drives. Having multiple copies of the data increases the security of the collection and using pseudonyms in the file naming protocols protects the identity of participants.
 
 <br>
@@ -209,7 +211,9 @@ Contemporary data is collected in Sydney and transferred to the research team ba
 ### Data access and reuse
 
 In accordance with the project ethics protocol, the data is made available to other researchers with the approval of the Sydney Speaks project lead, Catherine Travis. While data from the NSW Bicentennial Oral History Collection is openly accessible online, the agreement between the National Library of Australia and the Sydney Speaks project allows the Chief Investigator to determine future access to the data from the subset of speakers included in the Sydney Speaks collection, with the condition of correct attribution. The Sydney Social Dialect Survey legacy data was transferred to the Sydney Speaks in full, including the capacity to make decisions about data access and reuse.
+
 Regular outreach activities such as presentations, workshops, public lectures and publications, promote the corpus and increase awareness of the data. The corpora are also described on lists of significant language {{< glossary_link display="data collections" id="data-collection" >}}, such as the Sydney Corpus Lab Blog. They are stored with the DoI managed through the library at the Australian National University: https://dx.doi.org/10.25911/m03c-yz22.
+
 Access to the Sydney Speaks collection (including all three sub-corpora) is managed on a case-by-case basis. There is an agreed-upon set of terms and conditions for use of the collection, to ensure that any use is in accordance with the ethics approval, and these conditions are specified in the data access licenses developed with support from the Language Data Commons of Australia (LDaCA). Users must fill in an [online application form](https://docs.google.com/forms/d/1hWW0WEBE9PQn-m-3gvSyR-eAGEZmCwq5aE6iuqupI1Y/viewform?edit_requested=true), specifying how the corpora will be used and guaranteeing appropriate attribution to gain access.
 
 <br>
@@ -224,39 +228,39 @@ In the past, language data was often collected without much consideration of the
 
 Boersma, Frederic, J. and D. Weenink. 2019. Praat: Doing phonetics by computer [Computer Software] (6.1.03 ed.): Retrieved 1 September 2019 from http://www.praat.org/.
 
-Fromont, Robert and Jennifer Hay. 2012. LaBB-CAT: An annotation store. Proceedings of the Australasian Language Technology Workshop: 113-117.
+Fromont, Robert and Jennifer Hay. 2012. LaBB-CAT: An annotation store. _Proceedings of the Australasian Language Technology Workshop_: 113-117.
 
-Labov, William. 1984. Field methods of the project on linguistic change and variation. In John Baugh, and Joel Sherzer (eds), Language in use: Readings in sociolinguistics, 28-53. Englewood Cliffs, NJ: Prentice Hall.
+Labov, William. 1984. Field methods of the project on linguistic change and variation. In John Baugh, and Joel Sherzer (eds), _Language in use: Readings in sociolinguistics_, 28-53. Englewood Cliffs, NJ: Prentice Hall.
 
-Lausberg, Hedda and Han Sloetjes. 2009. Coding gestural behavior with the NEUROGES-ELAN system. Behavior Research Methods, Instruments, & Computers (Max Planck Institute for Psycholinguistics, The Language Archive, Nijmegen, The Netherlands. http://tla.mpi.nl/tools/tla-tools/elan/). 41(3): 841-849.
+Lausberg, Hedda and Han Sloetjes. 2009. Coding gestural behavior with the NEUROGES-ELAN system. _Behavior Research Methods, Instruments, & Computers (Max Planck Institute for Psycholinguistics, The Language Archive, Nijmegen, The Netherlands_. http://tla.mpi.nl/tools/tla-tools/elan/). 41(3): 841-849.
 
 <br>
 
 ## Sydney Speaks Corpus and Publications {#corpus}
 
-Travis, Catherine E., James Grama, Simon Gonzalez, Benjamin Purser and Cale Johnstone 2023. _Sydney Speaks_. ARC Centre of Excellence for the Dynamics of Language, Australian National University. https://dx.doi.org/10.25911/m03c-yz22
+Travis, Catherine E., James Grama, Simon Gonzalez, Benjamin Purser and Cale Johnstone. 2023. _Sydney Speaks Corpus_. ARC Centre of Excellence for the Dynamics of Language, Australian National University. https://dx.doi.org/10.25911/m03c-yz22
 <br />
 <br />
-Gonzalez, Simon, James Grama and Catherine E. Travis. 2020. Comparing the performance of forced aligners used in sociophonetic research. Linguistics Vanguard 6(1). https://doi.org/10.1515/lingvan-2019-0058
+Gonzalez, Simon, James Grama and Catherine E. Travis. 2020. Comparing the performance of forced aligners used in sociophonetic research. _Linguistics Vanguard_ 6(1). https://doi.org/10.1515/lingvan-2019-0058
 
-Grama, James, Catherine E. Travis and Simon Gonzalez. 2019. Initiation, progression and conditioning of the short-front vowel shift in Australian English. In Sasha Calhoun, Paola Escudero, Marija Tabain, and Paul Warren (eds), Proceedings of the 19th International Congress of Phonetic Sciences (ICPhS), Melbourne, Australia, 1769-1773. Canberra, Australia: Australasian Speech Science and Technology Association Inc. https://assta.org/proceedings/ICPhS2019/papers/ICPhS_1818.pdf
+Grama, James, Catherine E. Travis and Simon Gonzalez. 2019. Initiation, progression and conditioning of the short-front vowel shift in Australian English. In Sasha Calhoun, Paola Escudero, Marija Tabain, and Paul Warren (eds), _Proceedings of the 19th International Congress of Phonetic Sciences (ICPhS), Melbourne, Australia_, 1769-1773. Canberra, Australia: Australasian Speech Science and Technology Association Inc. https://assta.org/proceedings/ICPhS2019/papers/ICPhS_1818.pdf
 
-Grama, James, Catherine E. Travis and Simon Gonzalez. 2020. Ethnolectal and community change ov(er) time: Word-final (er) in Australian English. Australian Journal of Linguistics 40(3): 346-368. https://doi.org/10.1080/07268602.2020.1823818
+Grama, James, Catherine E. Travis and Simon Gonzalez. 2020. Ethnolectal and community change ov(er) time: Word-final (er) in Australian English. _Australian Journal of Linguistics_ 40(3): 346-368. https://doi.org/10.1080/07268602.2020.1823818
 
-Grama, James, Catherine E. Travis and Simon Gonzalez. 2021. Ethnic variation in real time: Change in Australian English diphthongs. In Hans Van de Velde, Nanna Haug Hilton, and Remco Knooihuizen (eds), Studies in Language Variation, 292-314. Amsterdam: John Benjamins. https://www.jbe-platform.com/content/books/9789027259820-silv.25.13gra
+Grama, James, Catherine E. Travis and Simon Gonzalez. 2021. Ethnic variation in real time: Change in Australian English diphthongs. In Hans Van de Velde, Nanna Haug Hilton, and Remco Knooihuizen (eds), _Studies in Language Variation_, 292-314. Amsterdam: John Benjamins. https://www.jbe-platform.com/content/books/9789027259820-silv.25.13gra
 
 Lee, Esther. 2020. Quotatives over time: A study in ethnic variation. Honours thesis, School of Literature, Languages and Linguistics, Australian National University. http://hdl.handle.net/1885/298816
 
-Purser, Benjamin, James Grama and Catherine E. Travis. 2020. Australian English over time: Using sociolinguistic analysis to inform dialect coaching. Voice and Speech Review 14(3): 269-291. https://doi.org/10.1080/23268263.2020.1750791
+Purser, Benjamin, James Grama and Catherine E. Travis. 2020. Australian English over time: Using sociolinguistic analysis to inform dialect coaching. _Voice and Speech Review_ 14(3): 269-291. https://doi.org/10.1080/23268263.2020.1750791
 
-Qiao, Gan and Catherine E. Travis. 2022. Ethnicity and social class in pre-vocalic the in Australian English. In Rosey Billington (Ed.), Proceedings of the Eighteenth Australasian International Conference on Speech Science and Technology (pp. 56-60): Australasian Speech Science and Technology Association. https://sst2022.files.wordpress.com/2022/12/qiao-travis-2022-ethnicity-and-social-class-in-pre-vocalic-the-in-australian-english.pdf
+Qiao, Gan and Catherine E. Travis. 2022. Ethnicity and social class in pre-vocalic the in Australian English. In Rosey Billington (Ed.), _Proceedings of the Eighteenth Australasian International Conference on Speech Science and Technology_ (pp. 56-60): Australasian Speech Science and Technology Association. https://sst2022.files.wordpress.com/2022/12/qiao-travis-2022-ethnicity-and-social-class-in-pre-vocalic-the-in-australian-english.pdf
 
-Sheard, Elena. 2022. Longevity of an ethnolectal marker in Australian English: Word-final (er) and the Greek-Australian community. In Rosey Billington (Ed.), Proceedings of the Eighteenth Australasian International Conference on Speech Science and Technology (pp. 51-55): Australasian Speech Science and Technology Association. https://sst2022.files.wordpress.com/2022/12/sheard-2022-longevity-of-an-ethnolectal-marker-in-australian-english-word-final-er-and-the-greek-australian-community.pdf
+Sheard, Elena. 2022. Longevity of an ethnolectal marker in Australian English: Word-final (er) and the Greek-Australian community. In Rosey Billington (Ed.), _Proceedings of the Eighteenth Australasian International Conference on Speech Science and Technology_ (pp. 51-55): Australasian Speech Science and Technology Association. https://sst2022.files.wordpress.com/2022/12/sheard-2022-longevity-of-an-ethnolectal-marker-in-australian-english-word-final-er-and-the-greek-australian-community.pdf
 
 Sheard, Elena. 2023. Explaining language change over the lifespan: A panel and trend analysis of Australian English. PhD thesis, School of Literature, Languages and Linguistics, Australian National University. http://hdl.handle.net/1885/292110
 
-Travis, Catherine E., James Grama and Benjamin Purser. 2023. Stability and change in (ing): Ethnic and grammatical variation over time in Australian English. English World-Wide 44(3): 429-463. https://doi.org/10.1075/eww.22043.tra
+Travis, Catherine E., James Grama and Benjamin Purser. 2023. Stability and change in (ing): Ethnic and grammatical variation over time in Australian English. _English World-Wide_ 44(3): 429-463. https://doi.org/10.1075/eww.22043.tra
 
-Travis, Catherine E. and Rena Torres Cacoullos. 2023. Form and function covariation: Obligation modals in Australian English. Language Variation and Change 35(3): 351-377. https://doi.org/10.1017/S0954394523000200.
+Travis, Catherine E. and Rena Torres Cacoullos. 2023. Form and function covariation: Obligation modals in Australian English. _Language Variation and Change_ 35(3): 351-377. https://doi.org/10.1017/S0954394523000200.
 
 <br>
