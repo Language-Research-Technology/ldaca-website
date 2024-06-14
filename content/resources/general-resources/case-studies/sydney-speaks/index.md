@@ -11,22 +11,27 @@ by Catherine Travis and Cale Johnstone
 
 ## Introducing the Sydney Speaks project
 
-Sydney Speaks is a large-scale sociolinguistic project, funded through the [ARC Centre of Excellence for the Dynamics of Language](https://legacy.dynamicsoflanguage.edu.au/) (2014-2022), led by [Catherine Travis](https://researchers.anu.edu.au/researchers/travis-ce) at the ANU.
+Sydney Speaks is a large-scale sociolinguistic project, funded through the ARC Centre of Excellence for the Dynamics of Language ([CoEDL](https://legacy.dynamicsoflanguage.edu.au/) 2014-2022) at the ANU, led by [Catherine Travis](https://researchers.anu.edu.au/researchers/travis-ce), working with James Grama and Simon Gonzalez (CoEDL post-doctoral fellows (2017-2019); Katrina Hayes and Cale Johnstone (Project Managers); Benjamin Purser (lead RA); and many RAs who worked on data collection, transcription, and checking vowel alignment.
 
 <br>
 
 ##### [The Sydney Speaks Corpora](#corpora)
+
 - [Contemporary linguistic recordings (collected 2015-present): Sydney Speaks 2010s](#2010s)
 - [Legacy linguistic recordings (Collected 1977-1981): Sydney Social Dialect Survey](#1977-1981)
 - [Legacy oral histories (collected 1987-1988): NSW Bicentennial Oral History Collection](#1987-1988)
+
 ##### [Data access concerns](#access-concerns)
+
 ##### [Combining legacy and contemporary data collections](#combining)
+
 ##### [References](#references)
+
 ##### [Sydney Speaks Corpus and Publications](#corpus)
 
 <br>
 
-Since 2015, the Sydney Speaks project has recorded the spontaneous speech of Sydneysiders for the purpose of documenting and exploring Australian English as spoken in Australia’s largest and most ethnically and linguistically diverse city. In order to study language change in real-time, the project also incorporates legacy data from two sources: a sociolinguistic project carried out in the late 1970s and an oral history {{< glossary_link display="collection" id="collection" >}} created during the 1980s. Altogether, the birth years of the participants span over a century, from the 1890s to the 1990s, and five age groups are represented, as captured in Figure 1.
+Since 2015, the Sydney Speaks project has recorded the spontaneous speech of Sydneysiders for the purpose of documenting and exploring Australian English as spoken in Australia’s largest and most ethnically and linguistically diverse city. In order to study language change in real-time, the project also incorporates legacy data from two sources: a sociolinguistic project carried out in the late 1970s and an oral history collection created during the 1980s. Altogether, the birth years of the participants span over a century, from the 1890s to the 1990s, and five age groups are represented, as captured in Figure 1.
 
 <br>
 
@@ -50,43 +55,45 @@ In this overview of the process by which different datasets collected for distin
 
 #### Sub corpus overview
 
-The Sydney Speaks 2010s sub-corpus comprises recordings made from 2015 to the present. {{< glossary_link display="Data collection" id="data-collection" >}} is still ongoing, but as of June 2023, Sydney Speaks 2010s comprises 142 sociolinguistic interviews with men and women of varying ages from different ethnic communities in Sydney representing some of the largest ethnic minorities in Australia, namely Anglo-Celtic, Chinese, Greek, and Italian Australians. The interviews were generally conducted individually (though some were done in pairs), and they were conducted by community members, typically with people they knew. The data is highly interactional, in some cases conversational, and topics vary greatly across recordings, as the interviewers followed the participants’ lead in choosing topics. There is a focus on recording narratives of personal experience, as these have been demonstrated to be particularly ideal for recording the everyday vernacular (Labov 1984:32-42).
+The Sydney Speaks 2010s sub-corpus comprises recordings made from 2015 to the present. Data collection is still ongoing, but as of June 2023, Sydney Speaks 2010s comprises 142 sociolinguistic interviews with men and women of varying ages from different ethnic communities in Sydney representing some of the largest ethnic minorities in Australia, namely Anglo-Celtic, Chinese, Greek, and Italian Australians. The interviews were generally conducted individually (though some were done in pairs), and they were conducted by community members, typically with people they knew. The interviewers were provided with a list of suggested topics, covering such things as childhood memories, growing up in Sydney, school and work experiences, and for the Greek, Italian and Chinese participants, engagement with their ethnic community and language (see Figure 2), but they were told to use these as a guide only, and to follow the participants’ lead in choosing topics. Thus, the data is highly interactional, in some cases conversational, and topics vary greatly across recordings. There is a focus on recording narratives of personal experience, as these have been demonstrated to be particularly ideal for recording the everyday vernacular (Labov 1984:32-42).
 
+<br>
+{{< image Src="/sydney-speaks/fig-2.png" Alt="Suggested Interview Topics for the Sydney Speaks project: Sydney Speaks 2010s" Desc="Figure 2: Suggested Interview Topics" Title="Suggested Interview Topics" Ref="Catherine Travis" >}}
 <br>
 
 #### Recordings and transcripts
 
-Interviews are recorded using a Zoom H4N digital recording device in WAV format at 44.1 kHz/16 bits. They are orthographically transcribed, aligned at the utterance level and then uploaded into LaBB-CAT (Language, Brain and Behaviour Corpus Analysis Tool (Fromont & Hay 2012)), for forced alignment (which automates the process for alignment at the level of the phoneme). LaBB-CAT also serves as the corpus management tool, where the corpus is stored, data is further annotated, and concordance searches can be conducted. LaBB-CAT does not include corpus analysis {{< glossary_link display="tools" id="tools" >}} as such, but data can be downloaded in multiple formats to allow for analyses, including CSV and WAV, as well as in formats that are compatible with tools that are used widely by linguists, such as Elan, illustrated in Figure 2 (Lausberg & Sloetjes 2009) and Praat in Figure 3 (Boersma & Weenink 2019).
+Interviews are recorded using a Zoom H4N digital recording device in WAV format at 44.1 kHz/16 bits. They are orthographically transcribed, aligned at the utterance level and then uploaded into LaBB-CAT (Language, Brain and Behaviour Corpus Analysis Tool (Fromont & Hay 2012)), for forced alignment (which automates the process for alignment at the level of the phoneme). LaBB-CAT also serves as the corpus management tool, where the corpus is stored, data is further annotated, and concordance searches can be conducted. LaBB-CAT does not include corpus analysis {{< glossary_link display="tools" id="tools" >}} as such, but data can be downloaded in multiple formats to allow for analyses, including CSV and WAV, as well as in formats that are compatible with tools that are used widely by linguists, such as Elan, illustrated in Figure 3 (Lausberg & Sloetjes 2009) and Praat in Figure 4 (Boersma & Weenink 2019).
 
 <br>
 
-{{< image Src="/sydney-speaks/fig-2.png" Alt="Sample SydS transcript in Elan, time aligned at the level of the Intonation Unit [SydS_CYM_061_Mark]" Desc="Figure 2: Sample SydS transcript in Elan, time aligned at the level of the Intonation Unit [SydS_CYM_061_Mark]" Title="Sample SydS transcript in Elan, time aligned at the level of the Intonation Unit [SydS_CYM_061_Mark]" Ref="Catherine Travis" >}}
+{{< image Src="/sydney-speaks/fig-3.png" Alt="Sample SydS transcript in Elan, time aligned at the level of the Intonation Unit [SydS_CYM_061_Mark]" Desc="Figure 3: Sample SydS transcript in Elan, time aligned at the level of the Intonation Unit [SydS_CYM_061_Mark]" Title="Sample SydS transcript in Elan, time aligned at the level of the Intonation Unit [SydS_CYM_061_Mark]" Ref="Catherine Travis" >}}
 
 <br>
 
-{{< image Src="/sydney-speaks/fig-3.png" Alt="Sample SydS transcript in Praat, downloaded from LaBB-CAT, where it has been automatically aligned at the level of the word and phoneme, and broken down by morpheme [SydS_CYM_061_Mark]" Desc="Figure 3: Sample SydS transcript in Praat, downloaded from LaBB-CAT, where it has been automatically aligned at the level of the word and phoneme, and broken down by morpheme [SydS_CYM_061_Mark]" Title="Sample SydS transcript in Praat, downloaded from LaBB-CAT, where it has been automatically aligned at the level of the word and phoneme, and broken down by morpheme [SydS_CYM_061_Mark]" Ref="Catherine Travis" >}}
+{{< image Src="/sydney-speaks/fig-4.png" Alt="Sample SydS transcript in Praat, downloaded from LaBB-CAT, where it has been automatically aligned at the level of the word and phoneme, and broken down by morpheme [SydS_CYM_061_Mark]" Desc="Figure 4: Sample SydS transcript in Praat, downloaded from LaBB-CAT, where it has been automatically aligned at the level of the word and phoneme, and broken down by morpheme [SydS_CYM_061_Mark]" Title="Sample SydS transcript in Praat, downloaded from LaBB-CAT, where it has been automatically aligned at the level of the word and phoneme, and broken down by morpheme [SydS_CYM_061_Mark]" Ref="Catherine Travis" >}}
 
 <br>
 
 #### Participant metadata
 
-Detailed speaker {{< glossary_link display="metadata" id="metadata" >}} is collected via a demographic form that includes information such as place and year of birth, current and past suburbs of residence, occupation, education, community background, languages, and social networks (see Figure 4). This questionnaire is conducted orally at the end of the interview (as a continuation of the interview), and the participants’ responses are filled in by the interviewer. Information is extracted from the written form, validated in the recorded audio, and added to a metadata spreadsheet in Excel. We use customised metadata, rather than drawing on a standard metadata vocabulary; however the demographic information from each sub-corpus is standardised in Excel and comparable across the three sub-corpora.
+Detailed speaker {{< glossary_link display="metadata" id="metadata" >}} is collected via a demographic form that includes information such as place and year of birth, current and past suburbs of residence, occupation, education, community background, languages, and social networks (see Figure 5). This questionnaire is conducted orally at the end of the interview (as a continuation of the interview), and the participants’ responses are filled in by the interviewer. Information is extracted from the written form, validated in the recorded audio, and added to a metadata spreadsheet in Excel. We use customised metadata, rather than drawing on a standard metadata vocabulary; however the demographic information from each sub-corpus is standardised in Excel and comparable across the three sub-corpora.
 
 <br>
 
-{{< image Src="/sydney-speaks/fig-4.png" Alt="Sample Sydney Speaks demographic information form" Desc="Figure 4: Sample Sydney Speaks demographic information form" Title="Sample Sydney Speaks demographic information form" Ref="Catherine Travis" >}}
+{{< image Src="/sydney-speaks/fig-5.png" Alt="Sample Sydney Speaks demographic information form" Desc="Figure 5: Sample Sydney Speaks demographic information form" Title="Sample Sydney Speaks demographic information form" Ref="Catherine Travis" >}}
 
 <br>
 
 #### Participant consent and privacy
 
-The Sydney Speaks contemporary {{< glossary_link display="data collection" id="data-collection" >}} process follows the guidelines of an ethics approval obtained from the Australian National University (Protocol #2015-088). In accordance with these guidelines, written consent is obtained for each participant prior to the recording. The participant is provided with information about the project, including the general topic of study (Australian English across different communities), project funding, ethical considerations such as {{< glossary_link display="confidentiality" id="confidentiality" >}} and data storage, and direct contact information for the research team.
+The Sydney Speaks contemporary data collection process follows the guidelines of an ethics approval obtained from the Australian National University (Protocol #2015-088). In accordance with these guidelines, written consent is obtained for each participant prior to the recording. The participant is provided with information about the project, including the general topic of study (Australian English across different communities), project funding, ethical considerations such as {{< glossary_link display="confidentiality" id="confidentiality" >}} and data storage, and direct contact information for the research team.
 
-Participants are told that the data may be shared, with approval from the lead researcher, and they are asked to sign a written consent form, offering them different options along a continuum from solely participating in the project and having their voice recorded, to having their data shared in various settings, as presented in Figure 5. The vast majority of participants gave full consent (136 out of 142 total participants recorded), and only one person agreed only to participate in the project, but for there to be no further access of their materials (two chose not to have their audio played in public; two didn’t want their data available for other researchers; and four didn’t want recoding in web-based corpora).
+Participants are told that the data may be shared, with approval from the lead researcher, and they are asked to sign a written consent form, offering them different options along a continuum from solely participating in the project and having their voice recorded, to having their data shared in various settings, as presented in Figure 6. The vast majority of participants gave full consent (136 out of 142 total participants recorded), and only one person agreed only to participate in the project, but for there to be no further access of their materials (two chose not to have their audio played in public; two didn’t want their data available for other researchers; and four didn’t want recoding in web-based corpora).
 
 <br>
 
-{{< image Src="/sydney-speaks/fig-5.png" Alt="Written consent checklist for Sydney Speaks participants" Desc="Figure 5: Written consent checklist for Sydney Speaks participants" Title="Written consent checklist for Sydney Speaks participants" Ref="Catherine Travis" >}}
+{{< image Src="/sydney-speaks/fig-6.png" Alt="Written consent checklist for Sydney Speaks participants" Desc="Figure 6: Written consent checklist for Sydney Speaks participants" Title="Written consent checklist for Sydney Speaks participants" Ref="Catherine Travis" >}}
 
 <br>
 
@@ -105,35 +112,35 @@ Like the contemporary linguistic data, the Sydney Social Dialect Survey comprise
 
 #### Recordings and transcripts
 
-Interviews were conducted in the 1970s with a cassette recorder and made available to the Sydney Speaks project directly by the lead researcher. The audio cassettes, type-written transcripts, and demographic information of the participants were stored in boxes in Horvath’s garage in Sydney and passed on to Catherine Travis in 2013. The cassettes (pictured in Figure 6) were digitised using {{< glossary_link display="PARADISEC" id="paradisec" >}} equipment in the College of Asia Pacific Studies at the ANU to create WAV files (96.1 kHz, resampled using Audacity into smaller files of 44.1 kHz). Fortuitously, the cassettes had been preserved very well, and nearly all of them (124/130) were able to be digitised, and with further refinement, it was possible to conduct acoustic analyses (though in some cases, this presented considerable challenges that did not arise with the new recordings). The typewritten transcripts were scanned and digitised as PDFs, but it was not possible to convert them into machine-readable transcripts, partly because they had been marked up by hand for transcript corrections, coding and annotation, as can be seen in the sample in Figure 7. They were therefore re-transcribed in Elan by the Sydney Speaks team, following the protocols applied for the contemporary data (see sample Elan rendition of part of Figure 7 in Figure 8).
+Interviews were conducted in the 1970s with a cassette recorder and made available to the Sydney Speaks project directly by the lead researcher. The audio cassettes, type-written transcripts, and demographic information of the participants were stored in boxes in Horvath’s garage in Sydney and passed on to Catherine Travis in 2013. The cassettes (pictured in Figure 7) were digitised using {{< glossary_link display="PARADISEC" id="paradisec" >}} equipment in the College of Asia Pacific Studies at the ANU to create WAV files (96.1 kHz, resampled using Audacity into smaller files of 44.1 kHz). Fortuitously, the cassettes had been preserved very well, and nearly all of them (124/130) were able to be digitised, and with further refinement, it was possible to conduct acoustic analyses (though in some cases, this presented considerable challenges that did not arise with the new recordings). The typewritten transcripts were scanned and digitised as PDFs, but it was not possible to convert them into machine-readable transcripts, partly because they had been marked up by hand for transcript corrections, coding and annotation, as can be seen in the sample in Figure 8. They were therefore re-transcribed in Elan by the Sydney Speaks team, following the protocols applied for the contemporary data (see sample Elan rendition of part of Figure 8 in Figure 9).
 
 <br>
 
-{{< image Src="/sydney-speaks/fig-6.png" Alt="SSDS cassette collection" Desc="Figure 6: SSDS cassette collection" Title="SSDS cassette collection" Ref="Catherine Travis" >}}
+{{< image Src="/sydney-speaks/fig-7.png" Alt="SSDS cassette collection" Desc="Figure 7: SSDS cassette collection" Title="SSDS cassette collection" Ref="Catherine Travis" >}}
 
 <br>
 
-{{< image Src="/sydney-speaks/fig-7.png" Alt="Sample SSDS transcript with annotations [SSDS_ITF_120_Sara]" Desc="Figure 7: Sample SSDS transcript with annotations [SSDS_ITF_120_Sara]" Title="Sample SSDS transcript with annotations [SSDS_ITF_120_Sara]" Ref="Catherine Travis" >}}
+{{< image Src="/sydney-speaks/fig-8.png" Alt="Sample SSDS transcript with annotations [SSDS_ITF_120_Sara]" Desc="Figure 8: Sample SSDS transcript with annotations [SSDS_ITF_120_Sara]" Title="Sample SSDS transcript with annotations [SSDS_ITF_120_Sara]" Ref="Catherine Travis" >}}
 
 <br>
 
-{{< image Src="/sydney-speaks/fig-8.png" Alt="Sample SSDS transcript time-aligned in Elan [SSDS_ITF_120_Sara]" Desc="Figure 8: Sample SSDS transcript time-aligned in Elan [SSDS_ITF_120_Sara]" Title="Sample SSDS transcript time-aligned in Elan [SSDS_ITF_120_Sara]" Ref="Catherine Travis" >}}
+{{< image Src="/sydney-speaks/fig-9.png" Alt="Sample SSDS transcript time-aligned in Elan [SSDS_ITF_120_Sara]" Desc="Figure 9: Sample SSDS transcript time-aligned in Elan [SSDS_ITF_120_Sara]" Title="Sample SSDS transcript time-aligned in Elan [SSDS_ITF_120_Sara]" Ref="Catherine Travis" >}}
 
 <br>
 
 #### Participant metadata
 
-Metadata for each speaker was extracted from original type-written profiles that included information such as suburb, date of birth, age, occupation, education, languages, and time lived in Sydney (see Figure 9). Details were standardised and added to the project metadata database in an Excel spreadsheet. Further demographic information was added from several other sources, including participant overview documents put together by the lead researcher, original cassette labels as well as from the audio recordings themselves. We were not able to extract the same demographic information for all participants, and we have more details for some than for others, something which needs to be taken into account in cross-corpus comparisons.
+Metadata for each speaker was extracted from original type-written profiles that included information such as suburb, date of birth, age, occupation, education, languages, and time lived in Sydney (see Figure 10). Details were standardised and added to the project metadata database in an Excel spreadsheet. Further demographic information was added from several other sources, including participant overview documents put together by the lead researcher, original cassette labels as well as from the audio recordings themselves. We were not able to extract the same demographic information for all participants, and we have more details for some than for others, something which needs to be taken into account in cross-corpus comparisons.
 
 <br>
 
-{{< image Src="/sydney-speaks/fig-9.png" Alt="Sample demographic information: Sydney Social Dialect Survey" Desc="Figure 9: Sample demographic information: Sydney Social Dialect Survey" Title="Sample demographic information: Sydney Social Dialect Survey" Ref="Catherine Travis" >}}
+{{< image Src="/sydney-speaks/fig-10.png" Alt="Sample demographic information: Sydney Social Dialect Survey" Desc="Figure 10: Sample demographic information: Sydney Social Dialect Survey" Title="Sample demographic information: Sydney Social Dialect Survey" Ref="Catherine Travis" >}}
 
 <br>
 
 #### Participant consent and privacy
 
-{{< glossary_link display="Data collection" id="data-collection" >}} for the Sydney Social Dialect Survey was completed during the 1970s and 1980s. No ethics approval process was required at the time and documentation for participant consent was not sought. Approval was obtained from the ANU HREC to use the data for the Sydney Speaks project. In accordance with the guidelines of that approval, the team has undertaken an exhaustive process to anonymise all content that may indicate the identity of a participant in the metadata, audio, and transcripts. In addition, it is likely that the voices of the participants, and particularly the teenage speakers, will have changed significantly in the 45 years since the interviews were conducted.
+Data collection for the Sydney Social Dialect Survey was completed during the 1970s and 1980s. No ethics approval process was required at the time and documentation for participant consent was not sought. Approval was obtained from the ANU HREC to use the data for the Sydney Speaks project. In accordance with the guidelines of that approval, the team has undertaken an exhaustive process to anonymise all content that may indicate the identity of a participant in the metadata, audio, and transcripts. In addition, it is likely that the voices of the participants, and particularly the teenage speakers, will have changed significantly in the 45 years since the interviews were conducted.
 
 <br>
 
@@ -153,25 +160,25 @@ The NSW Bicentennial Oral History Collection, produced by the NSW Bicentennial O
 
 #### Recordings and transcripts
 
-The original audio of each interview was recorded on cassette tape and was made available to the Sydney Speaks team in MP3 and WAV format, allowing for acoustic analysis. Type-written transcripts (Figure 10) were also made available, from which the Sydney Speaks team was able to create machine-readable versions via {{< glossary_link display="OCR" id="ocr" >}} (Optical Character Recognition). The original transcript captured the content very accurately, and this was imported into Elan and edited to produce detailed transcriptions that are aligned with the audio and facilitate linguistic analysis (Figure 11).
+The original audio of each interview was recorded on cassette tape and was made available to the Sydney Speaks team in MP3 and WAV format, allowing for acoustic analysis. Type-written transcripts (Figure 11) were also made available, from which the Sydney Speaks team was able to create machine-readable versions via {{< glossary_link display="OCR" id="ocr" >}} (Optical Character Recognition). The original transcript captured the content very accurately, and this was imported into Elan and edited to produce detailed transcriptions that are aligned with the audio and facilitate linguistic analysis (Figure 12).
 
 <br>
 
-{{< image Src="/sydney-speaks/fig-10.png" Alt="Sample transcript from Bicentennial Oral History Project [BCNT_AEF_032_Camila]" Desc="Figure 10: Sample transcript from Bicentennial Oral History Project [BCNT_AEF_032_Camila]" Title="Sample transcript from Bicentennial Oral History Project [BCNT_AEF_032_Camila]" Ref="Catherine Travis" >}}
+{{< image Src="/sydney-speaks/fig-11.png" Alt="Sample transcript from Bicentennial Oral History Project [BCNT_AEF_032_Camila]" Desc="Figure 11: Sample transcript from Bicentennial Oral History Project [BCNT_AEF_032_Camila]" Title="Sample transcript from Bicentennial Oral History Project [BCNT_AEF_032_Camila]" Ref="Catherine Travis" >}}
 
 <br>
 
-{{< image Src="/sydney-speaks/fig-11.png" Alt="Sample Bicentennial Oral History Project transcript time-aligned in Elan [BCNT_AEF_032_Camila]" Desc="Figure 11: Sample Bicentennial Oral History Project transcript time-aligned in Elan [BCNT_AEF_032_Camila]" Title="Sample Bicentennial Oral History Project transcript time-aligned in Elan [BCNT_AEF_032_Camila]" Ref="Catherine Travis" >}}
+{{< image Src="/sydney-speaks/fig-12.png" Alt="Sample Bicentennial Oral History Project transcript time-aligned in Elan [BCNT_AEF_032_Camila]" Desc="Figure 12: Sample Bicentennial Oral History Project transcript time-aligned in Elan [BCNT_AEF_032_Camila]" Title="Sample Bicentennial Oral History Project transcript time-aligned in Elan [BCNT_AEF_032_Camila]" Ref="Catherine Travis" >}}
 
 <br>
 
 #### Participant metadata
 
-Demographic data was collected at the time of the interview for each participant; this included name and date/place of birth as a minimum, but a ‘summary’ provided further information, such as parents’ education and occupations, employment (past and current), interests and marital status (see sample in Figure 12). The recordings themselves also provided a wealth of demographic information, as is common practice in oral histories, meaning that full demographic profiles could be developed for most participants. Some investment is necessary to capture and systematise this information, but its availability is one of the clear advantages they have for (socio)linguistic analysis.
+Demographic data was collected at the time of the interview for each participant; this included name and date/place of birth as a minimum, but a ‘summary’ provided further information, such as parents’ education and occupations, employment (past and current), interests and marital status (see sample in Figure 13). The recordings themselves also provided a wealth of demographic information, as is common practice in oral histories, meaning that full demographic profiles could be developed for most participants. Some investment is necessary to capture and systematise this information, but its availability is one of the clear advantages they have for (socio)linguistic analysis.
 
 <br>
 
-{{< image Src="/sydney-speaks/fig-12.png" Alt="Sample demographic information: Bicentennial Oral History Project" Desc="Figure 12: Sample demographic information: Bicentennial Oral History Project" Title="Sample demographic information: Bicentennial Oral History Project" Ref="Catherine Travis" >}}
+{{< image Src="/sydney-speaks/fig-13.png" Alt="Sample demographic information: Bicentennial Oral History Project" Desc="Figure 13: Sample demographic information: Bicentennial Oral History Project" Title="Sample demographic information: Bicentennial Oral History Project" Ref="Catherine Travis" >}}
 
 <br>
 
@@ -203,7 +210,7 @@ Contemporary data is collected in Sydney and transferred to the research team ba
 
 In accordance with the project ethics protocol, the data is made available to other researchers with the approval of the Sydney Speaks project lead, Catherine Travis. While data from the NSW Bicentennial Oral History Collection is openly accessible online, the agreement between the National Library of Australia and the Sydney Speaks project allows the Chief Investigator to determine future access to the data from the subset of speakers included in the Sydney Speaks collection, with the condition of correct attribution. The Sydney Social Dialect Survey legacy data was transferred to the Sydney Speaks in full, including the capacity to make decisions about data access and reuse.
 Regular outreach activities such as presentations, workshops, public lectures and publications, promote the corpus and increase awareness of the data. The corpora are also described on lists of significant language {{< glossary_link display="data collections" id="data-collection" >}}, such as the Sydney Corpus Lab Blog. They are stored with the DoI managed through the library at the Australian National University: https://dx.doi.org/10.25911/m03c-yz22.
-Access to the Sydney Speaks collection (including all three sub-corpora) is managed on a case-by-case basis. There is an agreed-upon set of terms and conditions for use of the collection, to ensure that any use is in accordance with the ethics approval, and these conditions are specified in the data access licenses developed with support from the Language Data Commons of Australia (LDaCA). Users must fill in an online application form, specifying how the corpora will be used and guaranteeing appropriate attribution to gain access.
+Access to the Sydney Speaks collection (including all three sub-corpora) is managed on a case-by-case basis. There is an agreed-upon set of terms and conditions for use of the collection, to ensure that any use is in accordance with the ethics approval, and these conditions are specified in the data access licenses developed with support from the Language Data Commons of Australia (LDaCA). Users must fill in an [online application form](https://docs.google.com/forms/d/1hWW0WEBE9PQn-m-3gvSyR-eAGEZmCwq5aE6iuqupI1Y/viewform?edit_requested=true), specifying how the corpora will be used and guaranteeing appropriate attribution to gain access.
 
 <br>
 
@@ -227,7 +234,7 @@ Lausberg, Hedda and Han Sloetjes. 2009. Coding gestural behavior with the NEUROG
 
 ## Sydney Speaks Corpus and Publications {#corpus}
 
-Travis, Catherine E. 2014-2022. _Sydney Speaks_. Australian Research Council Centre of Excellence for the Dynamics of Language, Australian National University. https://dx.doi.org/10.25911/m03c-yz22
+Travis, Catherine E., James Grama, Simon Gonzalez, Benjamin Purser and Cale Johnstone 2023. _Sydney Speaks_. ARC Centre of Excellence for the Dynamics of Language, Australian National University. https://dx.doi.org/10.25911/m03c-yz22
 <br />
 <br />
 Gonzalez, Simon, James Grama and Catherine E. Travis. 2020. Comparing the performance of forced aligners used in sociophonetic research. Linguistics Vanguard 6(1). https://doi.org/10.1515/lingvan-2019-0058
@@ -249,5 +256,7 @@ Sheard, Elena. 2022. Longevity of an ethnolectal marker in Australian English: W
 Sheard, Elena. 2023. Explaining language change over the lifespan: A panel and trend analysis of Australian English. PhD thesis, School of Literature, Languages and Linguistics, Australian National University. http://hdl.handle.net/1885/292110
 
 Travis, Catherine E., James Grama and Benjamin Purser. 2023. Stability and change in (ing): Ethnic and grammatical variation over time in Australian English. English World-Wide 44(3): 429-463. https://doi.org/10.1075/eww.22043.tra
+
+Travis, Catherine E. and Rena Torres Cacoullos. 2023. Form and function covariation: Obligation modals in Australian English. Language Variation and Change 35(3): 351-377. https://doi.org/10.1017/S0954394523000200.
 
 <br>
