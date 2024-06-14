@@ -141,9 +141,9 @@ Column | Type | Description
 @id | Data entry | A unique identifier for the person, generated from the `name` column. Identifiers should be prefixed with `#`.
 @type | Pre-filled | The type of the entity. Only `Person` is valid.
 name | Data entry | The name of the person.
-language | Data entry | The language spoken by the person.
-gender | Data entry | The gender of the person.
-birthDate | Data entry | The birth date (year) of the person.
+language | Data entry | The language spoken by the person. An example of an optional metadata field from the source data.
+gender | Data entry | The gender of the person. An example of an optional metadata field from the source data.
+birthDate | Data entry | The birth date (year) of the person. An example of an optional metadata field from the source data.
 
 <br>
 
