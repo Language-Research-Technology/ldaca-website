@@ -100,6 +100,8 @@ After saving, if there are required properties missing from your {{< glossary_li
 
 ## Append Data from Spreadsheet
 
-If you have a spreadsheet in a compatible format that you want to add to your {{< glossary_link display="collection" id="collection" >}} to assist with {{< glossary_link display="metadata" id="metadata" >}} description, select ___Bulk Add___ in the [Main Menu](/resources/user-guides/crate-o/basic-navigation/#main-menu) and load the spreadsheet. This will append it to your existing {{< glossary_link display="RO-Crate" id="ro-crate" >}}. Note that this option currently only has functionality to add new data, and cannot overwrite or edit existing data in your RO-Crate. ___Bulk Add___ also only reads from the spreadsheet and does not write to it.
+If you have a spreadsheet in a compatible format that you want to add to your {{< glossary_link display="collection" id="collection" >}} to assist with {{< glossary_link display="metadata" id="metadata" >}} description, select ___Bulk Add___ in the [Main Menu](/resources/user-guides/crate-o/basic-navigation/#main-menu) and load the spreadsheet. This will append it to your existing {{< glossary_link display="RO-Crate" id="ro-crate" >}}. 
+
+> Note that this option currently only has functionality to add new data, and cannot overwrite or edit existing data in your RO-Crate. ___Bulk Add___ also only reads from the spreadsheet and does not write to it.
 
 <br>
