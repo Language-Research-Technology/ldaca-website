@@ -1,5 +1,5 @@
 Name: "ldac"
 "title": "LDAC"
 "short_description": "Language Data Commons"
-"content": 'Language Data Commons. Refers to the {{< glossary_link display="mode" id="mode" >}} or {{< glossary_link display="profile" id="profile" >}} associated with language data at LDaCA.'
+"content": 'Language Data Commons. Refers to the {{< glossary_link display="mode" id="mode" >}} that implements the Language Data Commons RO-Crate Metadata profile (https://w3id.org/ldac/profile).'
 "external_link": ""

@@ -161,7 +161,7 @@ The Class definition does not have any information about the occurrence of prope
 
 <br>
 
-A SOSS is a Flattened {{< glossary_link display="JSON" id="json" >}}-LD graph, just like an RO-Crate. Some members of the RO-Crate community are beginning to define its basic {{< glossary_link display="schema" id="schema" >}} and RO-Crate {{< glossary_link display="Profiles" id="profile" >}} using the same approach.
+A SOSS is a Flattened {{< glossary_link display="JSON" id="json" >}}-LD graph, just like an RO-Crate. Some members of the RO-Crate community are beginning to define its basic {{< glossary_link display="schema" id="schema" >}} and RO-Crate {{< glossary_link display="Profiles" id="profile" >}} using the SOSS's same approach.
 
 To make an RO-Crate {{< glossary_link display="Mode" id="mode" >}} File, we transform the flat graph of a schema into something optimised for driving an editor or a validator; it creates a list of Classes, and what properties each may have. 
 

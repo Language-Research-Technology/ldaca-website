@@ -30,7 +30,7 @@ File Option | Description
 --- | ---
 Open Directory | Select a directory/folder to locate or set where files are saved. This is the required first step for all {{< glossary_link display="RO-Crates" id="ro-crate" >}}.
 Load Files | Load files from the selected directory into this RO-Crate.
-Bulk Add | Select an Excel spreadsheet or similar from a different directory to assist you with {{< glossary_link display="metadata" id="metadata" >}} description. This will append to your existing RO-Crate, if one has already been created. Note that this option currently only has functionality to add new data, and cannot overwrite or edit existing data in your RO-Crate.
+Bulk Add | Select an Excel spreadsheet or similar from a directory to assist you with {{< glossary_link display="metadata" id="metadata" >}} description (the directory can be the same as that for the RO-Crate). This will append to your existing RO-Crate, if one has already been created. Note that this option currently only has functionality to add new data, and cannot overwrite or edit existing data in your RO-Crate.
 Save | Save the state of this page into your RO-Crate. This will create an _ro-crate-metadata.json_ file, or add data into an existing _ro-crate-metadata.json_ file.
 Close | Close without saving.
 Help | Display general help from anywhere in {{< glossary_link display="Crate-O" id="crate-o" >}}.
@@ -144,7 +144,7 @@ On the Entity Navigator panel, there are some further options related to navigat
 
 - ___Create New Entity___: Create a new metadata entity, such as a {{< glossary_link display="provenance" id="provenance" >}} action. For example, CreateAction describes how a work is created with more precision than a {{< glossary_link display="property" id="property" >}} like `author`.
 - ___All Entities___: Select to view all metadata entities associated with your {{< glossary_link display="collection" id="collection" >}}.
-- ___Unlinked Entities___: Select to view all metadata entities that are currently not linked to any properties.
+- ___Unlinked Entities___: Select to view all metadata entities that are not currently referenced by properties on the Root dataset or other entities, for example, an entity of type Person which is not referenced using an author property.
 
 Below this, there is pagination which allows you to navigate through results, with 10 results appearing per page.
 
