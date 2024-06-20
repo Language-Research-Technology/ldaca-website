@@ -30,7 +30,7 @@ File Option | Description
 --- | ---
 Open Directory | Select a directory/folder to locate or set where files are saved. This is the required first step for all {{< glossary_link display="RO-Crates" id="ro-crate" >}}.
 Load Files | Load files from the selected directory into this RO-Crate.
-Bulk Add | Select an Excel spreadsheet or similar from a directory to assist you with {{< glossary_link display="metadata" id="metadata" >}} description (the directory can be the same as that for the RO-Crate). This will append to your existing RO-Crate, if one has already been created. Note that this option currently only has functionality to add new data, and cannot overwrite or edit existing data in your RO-Crate.
+Bulk Add | Select an Excel spreadsheet or similar from a directory to assist you with {{< glossary_link display="metadata" id="metadata" >}} description (the directory can be the same as that for the RO-Crate). This will append to your existing RO-Crate if one has already been created. Note that this option currently only has functionality to add new data, and cannot overwrite or edit existing data in your RO-Crate.
 Save | Save the state of this page into your RO-Crate. This will create an _ro-crate-metadata.json_ file, or add data into an existing _ro-crate-metadata.json_ file.
 Close | Close without saving.
 Help | Display general help from anywhere in {{< glossary_link display="Crate-O" id="crate-o" >}}.
@@ -107,7 +107,7 @@ In the middle panel, the Entity Properties for the property group you have selec
 
 The exclamation mark icons to the left indicate that an entity is a required {{< glossary_link display="property" id="property" >}} for that {{< glossary_link display="mode" id="mode" >}}, and saving an {{< glossary_link display="RO-Crate" id="ro-crate" >}} without completing one of these sections will result in a warning message. Below each field is a tooltip providing further detail on the given entity.
 
-Each entity field has a 'delete' icon beside it, however these are only functional (and appear in red) for entities that can be removed, i.e. required properties cannot be deleted, but you can edit these.
+Each entity field has a 'delete' icon beside it, however, these are only functional (and appear in red) for entities that can be removed, i.e. required properties cannot be deleted, but you can edit these.
 
 There are several compulsory {{< glossary_link display="metadata" id="metadata" >}} fields required for each {{< glossary_link display="collection" id="collection" >}}:
 

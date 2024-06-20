@@ -20,7 +20,7 @@ description: "A brief overview of Crate-O, RO-Crate, Schemas, Profiles and Modes
 
 Currently, Crate-O works only with [Google Chrome](https://google.com/chrome) and [Microsoft Edge](https://microsoft.com/edge). We will be releasing versions that work with online resources directly, which will be compatible with other browsers (see the [Roadmap](https://github.com/Language-Research-Technology/crate-o#roadmap--backlog)).
 
-While the current version of Crate-O is designed for editing self-contained RO-Crates (and works fine with crates containing tens of thousands of entities), our roadmap includes adding the ability to edit fragments of larger linked-data resources, and to integrate with {{< glossary_link display="Arkisto" id="arkisto" >}} repositories, such as the {{< glossary_link display="Oni" id="oni" >}} repository, data {{< glossary_link display="API" id="api" >}} and search portal.
+While the current version of Crate-O is designed for editing self-contained RO-Crates (and works fine with crates containing tens of thousands of entities), our roadmap includes adding the ability to edit fragments of larger linked-data resources and to integrate with repositories, such as the {{< glossary_link display="Oni" id="oni" >}} repository, data {{< glossary_link display="API" id="api" >}} and archival repositories such as the Language Data Commons of Australia.
 
 <br>
 
@@ -54,8 +54,8 @@ The metadata is organised according to schema.org entity types.
 
 Entity | Definition
 --- | ---
-Class | (rdfs: Class) is used to classify resources. An instance of an rdfs: {{< glossary_link display="Class" id="class" >}} is defined using the predicate rdf: type. Classes in Language Data Commons include CollectionEvent, CollectionProtocol, DataDepositLicense, DataLicense and DataReuseLicense.
-Property | (rdfs: Property) is used to add attributes to classes. Similar to how we define classes, we can define instances of properties to add attributes to statements.
+Class | (rdfs: Class) is used to classify resources. {{< glossary_link display="Classes" id="class" >}} in the Language Data Commons (LDAC) schema include CollectionEvent, CollectionProtocol, DataDepositLicense, DataLicense and DataReuseLicense (see https://w3id.org/ldac/terms).
+Property | (rdfs: Property) is an attribute of an instance of a Class. For example, on an entity that is an instance of Class Person the property “name” would be their name, expressed as a text string, while “affiliation” would be a property that referenced another entity, their university.
 DefinedTerm | A 'word, name, acronym, phrase, etc. with a formal definition', 'often used in the context of category or subject classification.' DefinedTerms allow us to a) have accurate definitions of the values we want to give to properties, and b) group such definitions in DefinedTermSets, which can function as controlled vocabularies.
 
 <br>
@@ -118,7 +118,7 @@ __Class__: Thing → __Sub-Class__: Person → __Property__: birthDate
 
 Schema.org specifies which Properties can occur in the `domain` of which Classes, and the `range` of Classes that are expected as values for a Property.
 
-While Schema.org has Class definitions for [Class](https://schema.org/Class) and [Property](https://schema.org/Property), it does not use these for defining itself; rather, it uses the equivalent Classes from the `rdf:` and `rdfs:` namespaces.
+While Schema.org has terms for [Class](https://schema.org/Class) and [Property](https://schema.org/Property), it does not use these for defining the classes and properties in Schema.org itself (possibly as this would be circular). Rather, it uses the equivalent Classes from the `rdf:` and `rdfs:` vocabularies.
 
 Here is the definition for Person:
 
