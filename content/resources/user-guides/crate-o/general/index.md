@@ -100,6 +100,13 @@ This diagram shows the relationship between the three main components used by {{
 
 These are all inter-related, and can be developed together or separately using {{< glossary_link display="tools" id="tools" >}}.
 
+<br>
+
+> See the links below to the {{< glossary_link display="LDAC" id="ldac" >}} schema, profile and modes:
+> - [LDAC Schema](https://w3id.org/ldac/terms)
+> - [LDAC Profile](https://w3id.org/ldac/profile)
+> - [LDAC Modes](https://github.com/Language-Research-Technology/ro-crate-modes/tree/main/modes)
+
 <a name="soss"> </a>
 
 <br>
