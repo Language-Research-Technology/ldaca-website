@@ -22,6 +22,8 @@ description: "Guidance and a template for adding new data to an RO-Crate via spr
 
 For collections where there are a lot of interconnected objects and files, it may be easier or preferable to add the metadata for these via uploading a spreadsheet to an existing RO-Crate in Crate-O, rather than adding these items manually. An RO-Crate metadata spreadsheet template can be downloaded here [TODO: add this] and populated with metadata specific to your collection.
 
+> Note that spreadsheet upload currently only has functionality to add new data, and cannot overwrite or edit existing data in your RO-Crate.
+
 <br>
 
 ## Tab Breakdown
@@ -56,7 +58,7 @@ Some cells also have a dropdown option if there is a finite selection of options
 
 At a minimum, it’s best practice to include __@id__ and __@type__ columns in each of your spreadsheet tabs, as these appear in Crate-O for each of the entities. The tables in the next section provide further details on what constitutes a valid __@id__ and __@type__ in each tab. For more detailed lists of these, see [Metadata for Language Data](https://ldaca.gitbook.io/metadata-for-language-data/).
 
-> HINT: To type a column name beginning with `@` in Excel, put a single quote before it `'@`.
+> HINT: To type a column name beginning with `@` in Excel, put an apostrophe before it `'@`. This will force it to be recognised as a text value rather than a formula.
 
 <br>
 
