@@ -21,6 +21,7 @@ Watch [this video](https://vimeo.com/954651738?share=copy) for a quick introduct
 ## Oxford Common File Layout ([OCFL](https://ocfl.io/))
 
 {{< glossary_link display="OCFL" id="ocfl" >}} is a specification for laying out digital collections on file or {{< glossary_link display="object" id="object" >}} storage. It is designed with long-term preservation principles in mind and does not rely on specialised software. Amongst the benefits of using {{< glossary_link display="OCFL" id="ocfl" >}} with {{< glossary_link display="RO-Crate" id="ro-crate" >}} objects are:
+
 - completeness: a repository can be re-indexed from the files it stores
 - versioning: repositories can make changes to objects and still allow their history to persist
 
