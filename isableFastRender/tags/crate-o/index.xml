@@ -1,0 +1,117 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Crate-O - Tag - LDaCA</title>
+        <link>http://localhost:1313/tags/crate-o/</link>
+        <description>Crate-O - Tag - LDaCA</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>info@ldaca.edu.au (Language Data Commons of Australia)</managingEditor>
+            <webMaster>info@ldaca.edu.au (Language Data Commons of Australia)</webMaster><lastBuildDate>Wed, 05 Jun 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/crate-o/" rel="self" type="application/rss+xml" /><item>
+    <title>Crate-O - a drop-in linked data metadata editor for RO-Crate (and other) linked data in repositories and beyond</title>
+    <link>http://localhost:1313/news/posts/open-repositories-2024-crate-o/</link>
+    <pubDate>Wed, 05 Jun 2024 00:00:00 &#43;0000</pubDate>
+    <author>Peter Sefton</author>
+    <guid>http://localhost:1313/news/posts/open-repositories-2024-crate-o/</guid>
+    <description><![CDATA[<p><a href="2024-OR-Crate-O.pdf">PDF version</a> | <a href="2024-OR-Crate-O.pptx">Powerpoint Version</a></p>
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
+
+<h1 id="developer-track-session-2">Developer Track Session 2</h1>
+<p>Time: 05 June 2024, 09:00 - 10:30 · Location: Drottningporten 2</p>
+<p>Crate-O - A drop-in linked data metadata editor for RO-Crate (and other) linked data in repositories and beyond</p>
+<p>Peter Sefton, Alvin Sebastian, Moises Sacal Bonequi, Rosanna Smith</p>
+<p>University of Queensland, Australia</p>
+<p>Research Object Crate is a metadata packaging standard which has been widely adopted over the last few years in research contexts and which debuted at Open Repositories with a workshop in 2019.</p>
+</section>
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
+
+<p>Crate-O is an editor for the RO-Crate Metadata Specification.</p>
+<p>RO-Crate has been presented here at Open Repositories for the last few years, and is now starting to be incorporated into many research repository solutions (though they are not always called repositories).</p>
+</section>
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
+
+<p>I am presenting in the next session on why RO-Crate is important for repositories.</p>
+<h1 id="five-ways-ro-crate-data-packages-are-important-for-repositories">Five ways RO-Crate data packages are important for repositories</h1>
+<p>Time: 05 June 2024, 11:00 - 12:30 · Location: Drottningporten 1</p>
+<p>Peter Sefton*, Stian Soiland-Reyes**</p>
+<p>*University of Queensland, Australia; **The University of Manchester, UK</p>
+<p>Research Object Crate is a linked data metadata packaging standard which has been widely adopted in research contexts. In this presentation, we will briefly explain what RO-Crate is, how it is being adopted worldwide, then go on to list ways that RO-Crate is growing in importance in the repository world:</p>
+<ul>
+<li>
+<p>Uploading of complex multi-file objects means RO-Crate is compatible with any general-purpose repository that can accept a zip file (with some coding, repository services can do more with RO-Crates)</p>
+</li>
+<li>
+<p>Download for well-described data objects complete with metadata from a repository rather than just a zip or file with no metadata</p>
+</li>
+<li>
+<p>Using RO-Crate metadata reduces the amount of customisation that is required in repository software, as ALL the metadata is described using the same simple, self-documenting linked-data structures, so generic display templates</p>
+</li>
+<li>
+<p>Sufficiently well-described RO-Crates can be used to make data FAIR compliant, aiding in Findability, Accessibility, Interoperability and Reusability thanks to standardised metadata and mature tooling</p>
+</li>
+<li>
+<p>And if you’re looking for a sustainable repository solution, there are tools which can run a repository from a set of static files on a storage service, in line with the ideas put forward by Suleman in the closing keynote for OR2023.</p>
+</li>
+</ul>
+</section>
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
+
+<p>The Language Data Commons of Australia Data Partnerships (LDaCA-DP), Language Data Commons of Australia Research Data Commons (LDaCA-RDC), and Australian Text Analytics Platform (ATAP) projects received investment (<a href="https://doi.org/10.47486/DP768" target="_blank" rel="noopener noreffer ">https://doi.org/10.47486/DP768</a>, <a href="https://doi.org/10.47486/HIR001" target="_blank" rel="noopener noreffer ">https://doi.org/10.47486/HIR001</a>, &amp; <a href="https://doi.org/10.47486/PL074" target="_blank" rel="noopener noreffer ">https://doi.org/10.47486/PL074</a>)
+from the Australian Research Data Commons (ARDC).</p>
+<p>The ARDC is funded by the National Collaborative Research Infrastructure Strategy (NCRIS).</p>
+</section>
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
+
+<p>A version of the Crate-O component is available as a playground for Chrome browsers only. This allows you to describe your local folders in your computer and generate an RO-Crate.</p>
+</section>
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
+
+<p><a href="https://github.com/Language-Research-Technology/ro-crate-modes/blob/main/docs/soss-profiles.md" target="_blank" rel="noopener noreffer ">https://github.com/Language-Research-Technology/ro-crate-modes/blob/main/docs/soss-profiles.md</a></p>
+<p>A Schema.org style Schema (SOSS) specifies a metadata vocabulary of Classes and Properties, based on the RO-Crate specification&rsquo;s use of Schema.org classes.
+An RO-Crate Profile has (at least) a document that explains how metadata entities from the Schema are used for a particular purpose.
+An RO-Crate Mode is a set of lightweight syntactic rules for combining SOSS Classes, Properties and DefinedTerms, expressed in a JSON file.</p>
+</section>
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
+
+<p>Crate-O RO-Crate Editor Mode Files are editor configurations that implement RO-Crate Metadata Profiles.</p>
+<p>The configuration files are intended to form the basis of an approach for describing RO-Crate editor behaviour and can be used for RO-Crate validation.</p>
+<p>Initial versions of this work were based on the Describo Profiles (which vary between versions of Describo) used to configure the Describo family of RO-Crate editing tools, currently maintained by Marco La Rosa.</p>
+</section>
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
+
+<p>Crate-O is a single-page front-end web app developed using the Vue Javascript framework. Vue app is built by composing and nesting modular structures called components.</p>
+<p>The main part Crate-O is then bundled in the CrateEditor component (highlighted in red) that allows a user to view, add, edit and delete properties of an entity, add and delete entities, and navigate and browse all entities in the crate.</p>
+<p>The CrateEditor component is exported as EMAScript Module and can be imported into any Vue web app by adding Crate-O as dependency.</p>
+<p>The default main app (for showcasing) only runs in Chrome-based browsers because it requires the <code>showDirectoryPicker</code> method from File System API to access (read/write) a directory on a local machine. The feature is still experimental and only available in Chrome-based browsers. However, the CrateEditor component itself does not require that feature.</p>
+</section>
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
+
+<p>This slide illustrates the very basic example of embedding Crate-O CrateEditor in any Vue app.</p>
+<p>The example shows a Vue Single-File Component (SFC) (*.vue)</p>
+<ul>
+<li>
+<p>Inside the &lt; import the CrateEditor component from the Crate-O package</p>
+</li>
+<li>
+<p>Initialise all required variables</p>
+</li>
+<li>
+<p>Add the &lt;crate-editor&gt; tag inside the &lt;template&gt; and pass in the data via the attributes:</p>
+</li>
+<li>
+<p>crate: a plain js object in json-ld format, usually is the result of JSON.parse() of the string content of ro-crate-metadata.json file</p>
+</li>
+<li>
+<p>mode: a plain js object conforming to the ro-crate-mode syntax</p>
+</li>
+</ul>
+</section>
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
+
+<p>Data can be imported into Crate-O using spreadsheets - this is an efficient way to create metadata for collections of objects. Spreadsheet skills are common and many projects have already been described using spreadsheets to describe and manage files, we work with data custodians to standardize their approach to this so that they can create rich linked-data metadata.</p>
+</section>
+<section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
+
+<p>Crate-O can be found here <a href="https://github.com/Language-Research-Technology/crate-o" target="_blank" rel="noopener noreffer ">https://github.com/Language-Research-Technology/crate-o</a></p>
+</section>
+]]></description>
+</item>
+</channel>
+</rss>
