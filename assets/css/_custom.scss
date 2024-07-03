@@ -920,9 +920,13 @@ footer hr {
 }
 
 // 404 Page
-#content-404 {
-  position: absolute;
-  bottom: 60%;
+.content-404 {
+  margin: auto;
+  position: relative;
+  text-align: center;
+  padding-top: 3%;
+  font-size: 1.8rem;
+  line-height: 3rem;
 }
 
 // Designer image grid

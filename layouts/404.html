@@ -3,7 +3,7 @@
 {{- end -}}
 
 {{- define "content" -}}
-    <div class="page" id="content-404">
+    <div class="content-404">
         {{- with .Site.Params.image404 -}}
             {{- dict "Src" . "Class" "image404" | partial "plugin/img.html" -}}
         {{- end -}}
