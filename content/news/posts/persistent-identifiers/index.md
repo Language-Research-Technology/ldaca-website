@@ -19,7 +19,7 @@ Most of us are familiar with the concept of identifiers (IDs); they mark and ind
 
 As far as we can see in the literature, the term PID is closely tied to the rise of the internet and digital information management in the 1990s. This makes sense as PIDs are meant to operate in the context of the web environment. The qualifier “persistent” refers to the need to mitigate effects of the transient nature of online content, where websites and digital resources can disappear, change or become inaccessible over time (Chapekis et al. 2024).
 
-PIDs are a critical part of scholarly communication, especially online where the volume of data is increasing every minute. Research outcomes and resources have to be shared appropriately, therefore, data objects and entities need to be unambiguously identifiable and reliably findable, and the connections between them made evident. PIDs are fundamental to fulfilling these requirements. ARDC’s [Australian National PID Strategy 2024](https://pidroadmap.ardc.edu.au/pids/) provides an excellent summary of how PIDs contribute to strengthening the digital infrastructure ecosystem and to driving research innovation in Australia.
+PIDs are a critical part of scholarly communication, especially online where the volume of data is increasing every minute. Research outcomes and resources have to be shared appropriately, therefore, data objects and entities need to be unambiguously identifiable and reliably findable, and the connections between them made evident. PIDs are fundamental to fulfilling these requirements. The Australian Research Data Commons’s [Australian National PID Strategy 2024](https://pidroadmap.ardc.edu.au/pids/) provides an excellent summary of how PIDs contribute to strengthening the digital infrastructure ecosystem and to driving research innovation in Australia.
 
 A strategy used by some PID systems (e.g. the DOI system) to sustain persistence is separating how the object is identified from where the object is located. The identification component consists of a globally unique identifier; a typical convention is as a series of numbers, letters and special characters. This identifier is optimised on the web by being actionable, that is, it can be formatted as a locator, e.g. a URL, that points to information or metadata about the object (also referred to as the _reference_ to the object). Based on this strategy, an identifier is considered persistent when it consistently _resolves_ over a reasonably long period to the webpage containing information or metadata about the object, including information about the location of the object.
 
@@ -41,7 +41,7 @@ Below are a few examples of PIDs within digital scholarly ecosystems:
 
 ## Digital Object Identifiers
 
-Contributors who allow LDaCA to make their data collections available through the portal can use the PIDs they have if they already follow a specific PID practice. However, if it is their first time obtaining a PID, we recommend DOIs as they are likely obtainable through a university library or institutional research repository. This has been the pattern with collections in the LDaCA portal to date. DOIs are also available through general-purpose repositories like Zenodo.
+Contributors who allow LDaCA to make their data collections available through the portal can use the PIDs they have if they already follow a specific PID practice. However, if it is their first time obtaining a PID, we recommend DOIs as they are likely obtainable through a university library or institutional research repository. This has been the pattern with collections in the LDaCA portal to date. DOIs are also available through general-purpose repositories like [Zenodo](https://zenodo.org/).
 
 <br>
 
@@ -49,29 +49,43 @@ Contributors who allow LDaCA to make their data collections available through th
 
 DOI stands for Digital Object Identifier, a PID which is in fact a _digital identifier of an object_, rather than an _identifier of a digital object_ ([DOI Key Facts](https://www.doi.org/the-identifier/resources/factsheets/key-facts-on-digital-object-identifier-system)). The DOI System was launched in 2000 by the [International DOI Foundation](https://www.doi.org/) (IDF), a not-for-profit organisation that functions as the governing body.
 
-[DOI Registration Agencies](https://www.doi.org/the-community/existing-registration-agencies) (RAs) all over the world offer services for registering DOIs and community-specific metadata. University libraries and institutional research repositories can be members of an RA (e.g. DataCite in Australia) which allows them to create (or _mint_) and register DOIs for their organisation.
+[DOI Registration Agencies](https://www.doi.org/the-community/existing-registration-agencies) (RAs) all over the world offer services for registering DOIs and community-specific metadata. University libraries and institutional research repositories can be members of an RA (e.g. [DataCite](https://datacite.org/) in Australia) which allows them to create (or _mint_) and register DOIs for their organisation.
 
 Here’s an example of a DOI for a collection available via the LDaCA [data portal](https://data.ldaca.edu.au/search):
 
 1. In the partial screenshot below of the record for the collection, the DOI number (10.26181/23089559) is part of the collection’s @id. The full @id value is arcp://name,doi10.26181%2F23089559 and the last part of this is the DOI (the slash which separates parts of the DOI is represented by the encoding %2F here).
 
-{{< image Src="/PIDs/PIDs_Fig_1_collection_record.png" Alt="LDaCA Portal Collection Record" Desc="Figure 1: The collection record for the La Trobe Corpus of Spoken Australian English in the LDaCA data portal." Title="LDaCA Portal Collection Record" Ref="LDaCA" >}}
+<br>
+
+{{< image Src="/PIDs/PIDs_Fig_1_collection_record.png" Alt="LDaCA Portal Collection Record" Desc="Figure 1: The collection record for the La Trobe Corpus of Spoken Australian English in the LDaCA data portal." Title="LDaCA Portal Collection Record" Ref="LDaCA" Height="600">}}
+
+<br>
 
 2. The DOI resolves to an item in La Trobe University’s institutional repository. The content of the collection is available here, but there are also links to the record in the LDaCA portal which includes the DOI.
 
+<br>
+
 {{< image Src="/PIDs/PIDs_Fig_2_.png" Alt="Top of Repository Page" Desc="Figure 2: Top part of page in La Trobe University’s repository showing files in collection." Title="Top of Repository Page" Ref="LDaCA" >}}
 
-{{< image Src="/PIDs/PIDs_Fig_3_.png" Alt="Bottom of Repository Page" Desc="Figure 3: Bottom part of page in La Trobe University’s repository showing collection details." Title="Bottom of Repository Page" Ref="LDaCA" >}}
+<br>
+
+{{< image Src="/PIDs/PIDs_Fig_3_.png" Alt="Bottom of Repository Page" Desc="Figure 3: Bottom part of page in La Trobe University’s repository showing collection details." Title="Bottom of Repository Page" Ref="LDaCA" Height="600">}}
+
+<br>
 
 3. Clicking the **Cite** button on the La Trobe repository page shows the DOI link in its full form:
 
+<br>
+
 {{< image Src="/PIDs/PIDs_Fig_4_citation.png" Alt="Full DOI link" Desc="Figure 4: Full DOI link displayed under citation on repository page." Title="Full DOI link" Ref="LDaCA" >}}
+
+<br>
 
 The DOI link is comprised of three parts:
 
-| Resolver service                     | Prefix (the assigning body) | Suffix (the resource) |
-| ------------------------------------ | --------------------------- | --------------------- |
-| [https://doi.org/](https://doi.org/) | 10.26181                    | 23089559.v1           |
+| Resolver service | Prefix (the assigning body) | Suffix (the resource) |
+| ---------------- | --------------------------- | --------------------- |
+| https://doi.org/ | 10.26181                    | 23089559.v1           |
 
 <br>
 
@@ -85,7 +99,9 @@ The DOI system’s underlying infrastructure supports interoperability across di
 
 Below is a screenshot of a section of the DOI landing page for the _La Trobe Corpus of Spoken Australian English_ with some of the key information highlighted and annotated. The DOI was issued by DataCite via the La Trobe University Library’s DOI service.
 
-{{< image Src="/PIDs/PIDs_Fig_5_annotated_record.png" Alt="Annotated DOI Landing Page" Desc="Figure 5: Annotated screenshot of DOI landing page for the La Trobe Corpus of Spoken Australian English with key information highlighted." Title="Annotated DOI Landing Page" Ref="LDaCA" >}}
+<br>
+
+{{< image Src="/PIDs/PIDs_Fig_5_annotated_record.png" Alt="Annotated DOI Landing Page" Desc="Figure 5: Annotated screenshot of DOI landing page for the La Trobe Corpus of Spoken Australian English with key information highlighted." Title="Annotated DOI Landing Page" Ref="LDaCA" Height="600">}}
 
 <br>
 
@@ -110,22 +126,20 @@ Bracketed formats are proprietary and therefore less sustainable.
 
 ## References
 
-ARDC Ltd. (2024). Australian National Persistent Identifier (PID) Strategy 2024. [https://doi.org/10.5281/zenodo.10656275](https://doi.org/10.5281/zenodo.10656275)
+Australian Research Data Commons. 2024. Australian national Persistent Identifier (PID) strategy 2024. Zenodo. https://doi.org/10.5281/ZENODO.10656275.
 
-Chapekis, Athena, Samuel Bestvater, Emma Remy & Gonzalo Rivero. 2024 May 17. When online content disappears. Pew Research Center. [https://www.pewresearch.org/data-labs/2024/05/17/when-online-content-disappears/](https://www.pewresearch.org/data-labs/2024/05/17/when-online-content-disappears/)
+Chapekis, Athena, Samuel Bestvater, Emma Remy and Gonzalo Rivero. 2024. When Online Content Disappears. Pew Research Center. https://www.pewresearch.org/data-labs/2024/05/17/when-online-content-disappears/. (4 July, 2024).
 
-DataCite. 2024."Add a DOI to your ORCID Record". [https://support.datacite.org/docs/orcid-claiming](https://support.datacite.org/docs/orcid-claiming)
+DataCite. 2024. Add a DOI to Your ORCID Record. DataCite Support. https://support.datacite.org/docs/orcid-claiming. (4 July, 2024).
 
-Klump, J & Robert Huber. (2017). 20 Years of Persistent Identifiers – Which Systems are Here to Stay? _Data Science Journal_, 16: 9, pp. 1–7, DOI: [https://doi.org/10.5334/dsj-2017-009](https://doi.org/10.5334/dsj-2017-009)
+Klump, Jens & Robert Huber. 2017. 20 Years of Persistent Identifiers – Which Systems are Here to Stay? _Data Science Journal_ 16. 09. https://doi.org/10.5334/dsj-2017-009.
 
 <br>
 
 ## Further reading
 
-Klump, Jen & Robert Huber. 2017. 20 Years of Persistent Identifiers – Which Systems are Here to Stay? _Data Science Journal_. [https://datascience.codata.org/articles/10.5334/dsj-2017-009](https://datascience.codata.org/articles/10.5334/dsj-2017-009)
+Car, Nicholas N. J., Pavel Golodoniuc & Jens Klump. 2017. The Challenge of Ensuring Persistency of Identifier Systems in the World of Ever-Changing Technology. _Data Science Journal_ 16. 13. https://doi.org/10.5334/dsj-2017-013.
 
-Car, Nicholas J., Pavel Golodonic, & Jens Klump. 2017. The challenge of ensuring persistency of identifier systems in the world of ever-changing technology. _Data Science Journal_. [https://account.datascience.codata.org/index.php/up-j-dsj/article/view/dsj-2017-013](https://account.datascience.codata.org/index.php/up-j-dsj/article/view/dsj-2017-013)
-
-Kunze, John & Richard Rodgers. 2008. The ARK identifier scheme. CDL Staff Publications. [https://escholarship.org/uc/item/9p9863nc](https://escholarship.org/uc/item/9p9863nc)
+Kunze, John & Richard Rodgers. 2008. The ARK Identifier Scheme. UC Office of the President: California Digital Library. https://escholarship.org/uc/item/9p9863nc. (4 July, 2024).
 
 <br>
