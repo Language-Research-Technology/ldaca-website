@@ -8,7 +8,8 @@
             {{- dict "Src" . "Class" "image404" | partial "plugin/img.html" -}}
         {{- end -}}
         <p class="error-text">
-            {{- T "pageNotFoundText" -}}&nbsp;
+            {{- T "pageNotFoundText" -}}&nbsp; <br>
+            {{- T "pageNotFoundAlpaca" -}}&nbsp;
             <a href="javascript:void(0);" title="{{ T `back` }}" onclick="window.history.back();"><i class="far fa-hand-point-left fa-fw" aria-hidden="true"></i></a>
         </p>
     </div>    
