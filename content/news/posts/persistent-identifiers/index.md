@@ -68,6 +68,7 @@ Here’s an example of a DOI for a collection available via the LDaCA [data port
 {{< image Src="/PIDs/PIDs_Fig_2_.png" Alt="Top of Repository Page" Desc="Figure 2: Top part of page in La Trobe University’s repository showing files in collection." Title="Top of Repository Page" Ref="LDaCA" >}}
 
 <br>
+<br>
 
 {{< image Src="/PIDs/PIDs_Fig_3_.png" Alt="Bottom of Repository Page" Desc="Figure 3: Bottom part of page in La Trobe University’s repository showing collection details." Title="Bottom of Repository Page" Ref="LDaCA" Height="600">}}
 
