@@ -24,6 +24,11 @@ For collections where there are a lot of interconnected objects and files, it ma
 
 > Note that spreadsheet upload currently only has functionality to add new data, and cannot overwrite or edit existing data in your RO-Crate.
 
+The template is based on an example data collection that contains three types of files within each object:
+- Audio files (WAV), the primary material
+- Text files (CSV), transcriptions of the audio files
+- ELAN files (EAF), linguistic annotations of the audio files
+
 <br>
 
 ## Tab Breakdown
@@ -143,7 +148,7 @@ Column | Type | Description
 @id | Data entry | A unique identifier for the person, generated from the `name` column. Identifiers should be prefixed with `#`.
 @type | Pre-filled | The type of the entity. Only `Person` is valid.
 name | Data entry | The name of the person.
-language | Data entry | The language spoken by the person. An example of an optional metadata field from the source data.
+language_code | Data entry | The language spoken by the person. An example of an optional metadata field from the source data. Language codes can be obtained from [AustLang](https://collection.aiatsis.gov.au/austlang/search), [Glottolog](https://glottolog.org/) and [Ethnologue](https://www.ethnologue.com/).
 gender | Data entry | The gender of the person. An example of an optional metadata field from the source data.
 birthDate | Data entry | The birth date (year) of the person. An example of an optional metadata field from the source data.
 
@@ -162,7 +167,7 @@ description | Data entry | A description of the object.
 isRef_speaker | Pre-filled | Generated from the `.pseudonym` column with `#` prefixed.
 .pseudonym | Data entry | An example of a column from a data steward's source data, so that speakers in the collection are anonymised.
 datePublished | Data entry | The date the object was published.
-isRef_memberOf | Data entry | The collection this object is a part of, generated from the `@id` column in the Root tab.
+isRef_pdcm:memberOf | Data entry | The collection this object is a member of, generated from the `@id` column in the Root tab.
 isRef_license | Data entry | The `@id` of the license to which this object adheres.
 isRef_indexableText | Data entry | Identifies which of the files in the given object has content that is indexed for search purposes. For example, in the template, the content of the CSV file would be searchable, whereas the EAF and WAV file would not. If `isRef_indexableText` is not included in a collection, search will only run on the metadata and not the transcript file content.
 
