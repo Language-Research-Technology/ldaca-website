@@ -20,6 +20,20 @@ aliases:
 
 <br>
 
+### Data Migration Skills Workshop
+
+The Language Data Commons of Australia infrastructure is based on widely-accepted standards such as [Research Object Crates](https://www.researchobject.org/ro-crate/) and the [Oxford Common File Layout](https://ocfl.io/). The project has been running for more than three years and the processes and tools for aligning data with these standards are now well-developed. This workshop aims to show the application of those tools to data in a variety of formats to efficiently migrate material to the LDaCA standards.
+
+The hands-on workshop is intended for data librarians and other professionals who are interested in these issues, but participation is open to anyone who is prepared to work on language data. Participants will have some experience of working with code and/or metadata and will commit to bringing datasets which they work with (or are responsible for) to use in the practical exercises which will make up a large part of the workshop. We will also have example datasets available and we also are open to the possibility of participants working in teams based on complementary skills.
+
+**Leader**: {{< profile id="sefton" >}}
+
+**When**: 3 - 5 September 2024,
+
+**Where**: Engma Room (Room 3.165), Coombs Building, Australian National University
+
+**Details**: (registration form to come shortly)
+
 <br>
 
 ### Previous Workshops {#previous-workshops}
