@@ -462,4 +462,6 @@ LDaCA has previously run regular online office hours, jointly hosted with the Au
 
 In the meantime, you are welcome to contact us by email at [ldaca@uq.edu.au](mailto:ldaca@uq.edu.au) with your technical questions, research problems and rough ideas to get advice and feedback from the combined expertise of our {{< glossary_link display="ARDC" id="ardc" >}} research infrastructure projects. No question is too small, and even if we don’t know the answer we are likely to be able to point you to someone who does.
 
+The RO-Crate community run a weekly drop-in call in Australia. This happens on [zoom](https://uqz.zoom.us/j/86281717601) each Thursday at 14:00 AEST; for further information contact [Peter Sefton](mailto:p.sefton@uq.edu.au).
+
 <br>
