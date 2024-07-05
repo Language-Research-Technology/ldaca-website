@@ -21,6 +21,7 @@ enableRobotsTXT = true
   images = ["/logo.png", "/logo_dark.png"]
   # error page image website, place image in static folder if required add a image404 class in _custom.scss
   image404 = '/alpaca_404.svg'
+  pageNotFoundAlpacaMessage = "But you did find the LDaCA alpaca!"
 
 # Header config
   [params.header]
