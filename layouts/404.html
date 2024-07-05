@@ -8,7 +8,9 @@
             {{- dict "Src" . "Class" "image404" | partial "plugin/img.html" -}}
         {{- end -}}
         <p class="error-text">
-            {{- T "pageNotFoundText" -}}&nbsp;
+            {{- T "pageNotFoundText" -}}&nbsp;<br>
+            {{- $params := .Scratch.Get "params" -}}
+            {{ $params.pageNotFoundAlpacaMessage | default .Site.Params.pageNotFoundAlpacaMessage }}&nbsp;
             <a href="javascript:void(0);" title="{{ T `back` }}" onclick="window.history.back();"><i class="far fa-hand-point-left fa-fw" aria-hidden="true"></i></a>
         </p>
     </div>    
