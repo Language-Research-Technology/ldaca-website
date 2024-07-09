@@ -4,11 +4,12 @@ date: 2024-07-09T16:24:18+10:00
 draft: false
 description: "LDaCA Senior Data Manager Dr Julia Colleen Miller discusses her experience in archiving and data management for cultural heritage data."
 ---
+
 by {{< profile id="miller" >}}
 
 <br>
 
-For nearly ten years, I have been officially working as a Data Manager. I say *officially* because having worked on collaborative research projects and earning a PhD in Linguistics, within the context of an endangered language documentation collaborative project, I've been managing other people's data, as well as my own, since I was a fledgling academic in the early 2000s.
+For nearly ten years, I have been officially working as a Data Manager. I say _officially_ because having worked on collaborative research projects and earning a PhD in Linguistics, within the context of an endangered language documentation collaborative project, I've been managing other people's data, as well as my own, since I was a fledgling academic in the early 2000s.
 
 I am based at the Australian National University (ANU), and since mid-2023, I've been working as the senior data manager for the Language Data Commons of Australia ([LDaCA](https://www.ldaca.edu.au/)). Prior to this, I worked for the ARC Centre of Excellence for the Dynamics of Language ([CoEDL](https://legacy.dynamicsoflanguage.edu.au/)), who could offer a eight year data manager position, very generous in a field where contracts often last only two or three years. It was at CoEDL where I first took on this academic-adjacent role, focusing on bolstering research and research infrastructure. It was also the first time I had heard of such a position becoming available that addressed the data management and archiving needs of those actively recording or assembling cultural heritage data. Such data includes tabular data, text corpora, collections of songs and music, ethnographic interviews, elicited linguistic content, oral histories, traditional narratives and lexicons, and can be in different formats, such as text, video, audio, image, film, magnetic tape and digital files.
 
@@ -18,7 +19,7 @@ The best part of this CoEDL role was that the Pacific and Regional Archive for D
 
 ## The day-to-day of data management and archiving
 
-At CoEDL, my primary responsibility was to help facilitate the data management and subsequent archiving of materials collected by CoEDL members and affiliates from institutions such as ANU, the University of Queensland, the University of Melbourne, Western Sydney University (WSU), as well as by the broader global research communities. This involved managing a continuous flow of enquiries from new and continuing researchers, offering guidance, and overseeing the entire data management and archiving processes. My aim was to ensure that valuable research data was preserved and made:
+At CoEDL, my primary responsibility was to help facilitate the data management and subsequent archiving of materials collected by CoEDL members and affiliates from institutions such as ANU, The University of Queensland, The University of Melbourne, Western Sydney University (WSU), as well as by the broader global research communities. This involved managing a continuous flow of enquiries from new and continuing researchers, offering guidance, and overseeing the entire data management and archiving processes. My aim was to ensure that valuable research data was preserved and made:
 
 - accessible for future research
 - available to the people and communities recorded, as well as to their descendants.
@@ -91,10 +92,10 @@ Some of the digitising tasks we conducted during this time for CoEDL researchers
 
 It is very satisfying knowing that by digitising these items, we helped make available legacy recordings brought to us by retiring researchers, small regional cultural institutions, and those found in our very own university archives.
 
-If you are interested in our workflows for audio digitisation or manuscript and field note image capture, you can find more information below:
-
-- [audio digitising workflow](https://paradisec-archive.github.io/PARADISEC_workflows/06_audio_digitising.html)
-- [digitising fieldnotes & manuscripts workflow](https://paradisec-archive.github.io/PARADISEC_workflows/05_digitising_manuscripts.html).
+> If you are interested in our workflows for audio digitisation or manuscript and field note image capture, you can find more information below:
+>
+> - [audio digitising workflow](https://paradisec-archive.github.io/PARADISEC_workflows/06_audio_digitising.html)
+> - [digitising fieldnotes & manuscripts workflow](https://paradisec-archive.github.io/PARADISEC_workflows/05_digitising_manuscripts.html).
 
 <br>
 
@@ -120,11 +121,11 @@ Below is an image of an inventory spreadsheet containing the structural metadata
 
 Creating an inventory like this informed me as to how to proceed in transcoding tasks, based on the format and specifications of the files. Also, I could compare details of the output files to the originals, thus helping with quality checks. As I worked through the files, I could keep track of my progress by marking which ones had been transcoded and were ready to send to the archive. This task took months to complete, so it was important to be able to pick up each day right where I had left off on the previous day.
 
-If you are interested in learning how to batch extract this type of metadata from media files, visit the page *[Quality control of audio and video files](https://paradisec-archive.github.io/PARADISEC_workflows/10_quality_control.html)* from PARADISEC's archiving guides and technical workflows.
+> If you are interested in learning how to batch extract this type of metadata from media files, visit the page _[Quality control of audio and video files](https://paradisec-archive.github.io/PARADISEC_workflows/10_quality_control.html)_ from PARADISEC's archiving guides and technical workflows.
 
 <br>
 
-Over the life of CoEDL, we monitored the annual growth of files added to PARADISEC. The following graphic shows the period from 2008 to 2022. *Note: CoEDL was active between November 2014 and December 2022.*
+Over the life of CoEDL, we monitored the annual growth of files added to PARADISEC. The following graphic shows the period from 2008 to 2022. _Note: CoEDL was active between November 2014 and December 2022._
 
 <br>
 
@@ -148,7 +149,7 @@ Collaborating with other cultural institutions was a significant aspect of my ro
 
 Occasionally, requests would come from ANU's [Pacific Research Archives](https://archives.anu.edu.au/collections/pacific-research-archives) staff, or directly from students and researchers, to digitise items collected across the Pacific which were housed in ANU's archives. We targeted audio tapes and field notes for digitisation, enhancing ANU's finding guides with detailed metadata. Typically, we archived these digital files in PARADISEC and shared links to new collections, or provided copies back to the Pacific Research Archives.
 
-A notable project involved digitising select items from the Helen Groger-Wurm collection at ANU. Helen Groger-Wurm, an anthropologist active in the 1960s, focused on Northern Australia, particularly Eastern Arnhem Land bark paintings.
+A notable project involved digitising select items from the [Helen Groger-Wurm collection](https://archivescollection.anu.edu.au/index.php/papers-20) at ANU. Helen Groger-Wurm, an anthropologist active in the 1960s, focused on Northern Australia, particularly Eastern Arnhem Land bark paintings.
 
 PARADISEC and CoEDL secured funding to digitise 26 audio tapes from this collection. This effort supported CoEDL PhD student Haoyi Li, who, due to COVID-19 restrictions, couldn't conduct fieldwork in Arnhem Land when she was hoping to. Haoyi identified relevant items for her research, and we expanded the digitisation to include field notes alongside the audio tapes. This initiative enabled her to start her primary research remotely and gain valuable skills in archival engagement with legacy recordings, high-resolution image capture of field notes, open reel audio tape digitisation, metadata collection and archival record enrichment.
 
@@ -265,7 +266,7 @@ During ANU's COVID-19 lockdown, I designed a 10-week online training module to a
 
 ## Final thoughts
 
-Data management is an integral element of institutional research infrastructure. It often falls within that fluid space between the roles of academic and professional staff — within what is called the Third Space in academia (to read more on this topic, take a look at *"[Reconstructing Identities in Higher Education: The rise of 'Third Space' professionals](https://www.routledge.com/Reconstructing-Identities-in-Higher-Education-The-rise-of-Third-Space/Whitchurch/p/book/9780415614832)"*, by Celia Whitchurch, 2013). Many of the activities carried out as Data Manager for CoEDL, and now for LDaCA, were designed to assist in educational development and knowledge exchange, as well as to promote public engagement and outreach. These tasks not only assisted students and academic researchers to better conduct their research enquiries and safeguard their work, but they also facilitated activities that directly reinforced the academic missions of our universities.
+Data management is an integral element of institutional research infrastructure. It often falls within that fluid space between the roles of academic and professional staff — within what is called the Third Space in academia (to read more on this topic, take a look at _"[Reconstructing Identities in Higher Education: The rise of 'Third Space' professionals](https://www.routledge.com/Reconstructing-Identities-in-Higher-Education-The-rise-of-Third-Space/Whitchurch/p/book/9780415614832)"_, by Celia Whitchurch, 2013). Many of the activities carried out as Data Manager for CoEDL, and now for LDaCA, were designed to assist in educational development and knowledge exchange, as well as to promote public engagement and outreach. These tasks not only assisted students and academic researchers to better conduct their research enquiries and safeguard their work, but they also facilitated activities that directly reinforced the academic missions of our universities.
 
 I love the work that I do. I feel lucky to be a part of so many diverse projects, even if it just involves:
 
