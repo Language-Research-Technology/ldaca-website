@@ -92,6 +92,8 @@ Some of the digitising tasks we conducted during this time for CoEDL researchers
 
 It is very satisfying knowing that by digitising these items, we helped make available legacy recordings brought to us by retiring researchers, small regional cultural institutions, and those found in our very own university archives.
 
+<br>
+
 > If you are interested in our workflows for audio digitisation or manuscript and field note image capture, you can find more information below:
 >
 > - [audio digitising workflow](https://paradisec-archive.github.io/PARADISEC_workflows/06_audio_digitising.html)
@@ -171,6 +173,8 @@ The images below are from a tape digitised by Haoyi Li from the [Helen Groger-Wu
 
 We sometimes find items held in other cultural institutions, which we would like to digitise and add to existing collections in PARADISEC. For example, we identified items produced by the important 20th century Australian linguist [Arthur Capell](https://adb.anu.edu.au/biography/capell-arthur-12292), including 168 reel-to-reel audio tapes of non-Australian language recordings found in the Australian Institute of Aboriginal and Torres Strait Islander Studies ([AIATSIS](https://aiatsis.gov.au/)) that we were able to digitise, and nearly 50 acetate discs and one magnetic wire recording found at the National Library of Australia ([NLA](https://www.nla.gov.au/)). We enlisted the aid of the National Film and Sound Archive ([NFSA](https://www.nfsa.gov.au/)) in digitising the discs and magnetic wire, as we did not have the facilities to handle those formats.
 
+<br>
+
 Below is an image of a Capell disc being digitised by the NFSA. This contains recordings of the parable of the Prodigal Son and the Lord's Prayer in the Bilua language of the Solomon Islands. Listen to [the recording via the Capell collection](https://dx.doi.org/10.4225/72/57C8509EEF364) in PARADISEC.
 
 <br>
@@ -199,6 +203,8 @@ The first was a three-year project between ANU and the Commonwealth Defence Scie
 
 This project involved creating phonemic transcriptions of spoken Tok Pisin, the English-based creole which is a national language of Papua New Guinea. We retrieved open-access, untranscribed audio recordings of Tok Pisin held in PARADISEC and created rich time-aligned transcriptions, adding these back to their source collections, as well as providing these transcriptions to the DSTG.
 
+<br>
+
 Below are images of transcriptions in the [ELAN transcription software](https://archive.mpi.nl/tla/elan). The recordings were made by Andy Pawley in the Kaironk Valley region of Papua New Guinea and are held in PARADISEC as [collection AP4](https://dx.doi.org/10.26278/HQZ8-7H23).
 
 <br>
@@ -215,6 +221,8 @@ Some tasks for this project included:
 - hiring, training and managing a transcription team, including three Tok Pisin speakers
 - delegating tasks to team members and monitoring their progress
 - writing annual reports and conducting team debriefing meetings to gather feedback and adjust workflows as needed.
+
+<br>
 
 In the end, PARADISEC gained rich transcriptions of previously untranscribed Tok Pisin audio held within the archive. Additionally, we were able to employ and train two ANU PhD students and one of PARADISEC's archivists, Steven Gagau, all fluent Tok Pisin speakers, in using the ELAN software for creating the time-aligned transcriptions.
 
@@ -274,8 +282,6 @@ I love the work that I do. I feel lucky to be a part of so many diverse projects
 - making an inventory of cassette tapes to be digitised
 - connecting students to archival records of a language they are thinking about for their PhD research
 - helping researchers ~~repatriate~~ rematriate recordings in a format that is accessible to the people who have been recorded, and to their descendants.
-
-<br>
 
 Every day is a new and exciting challenge!
 
