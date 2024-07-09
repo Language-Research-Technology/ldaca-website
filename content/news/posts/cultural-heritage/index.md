@@ -36,7 +36,7 @@ Over the years, I have tried to make the data management and archiving processes
 
 <br>
 
-{{< image Src="/cultural-heritage/fig_1_overview_page.png" Alt="PARADISEC’s Archiving Guides and Technical Workflows Overview Page" Desc="Figure 1: Screenshot of the overview page of PARADISEC’s Archiving Guides and Technical Workflows website." Title="PARADISEC’s Archiving Guides and Technical Workflows Overview Page" Ref="Dr Julia Colleen Miller” >}}
+{{< image Src="/cultural-heritage/fig_1_overview_page.png" Alt="PARADISEC’s Archiving Guides and Technical Workflows Overview Page" Desc="Figure 1: Screenshot of the overview page of PARADISEC’s Archiving Guides and Technical Workflows website." Title="PARADISEC’s Archiving Guides and Technical Workflows Overview Page" Ref="Dr Julia Colleen Miller" >}}
 
 <br>
 
@@ -255,7 +255,7 @@ During ANU’s COVID-19 lockdown, I designed a 10-week online training module to
 
 ## Final thoughts
 
-Data management is an integral element of institutional research infrastructure. It often falls within that fluid space between the roles of academic and professional staff — within what is called the Third Space in academia (to read more on this topic, take a look at *“[Reconstructing Identities in Higher Education: The rise of 'Third Space' professionals](https://www.routledge.com/Reconstructing-Identities-in-Higher-Education-The-rise-of-Third-Space/Whitchurch/p/book/9780415614832)”*, by Celia Whitchurch, 2013). Many of the activities carried out as Data Manager for CoEDL, and now for LDaCA, were designed to assist in educational development and knowledge exchange, as well as to promote public engagement and outreach. These tasks not only assisted students and academic researchers to better conduct their research enquiries and safeguard their work, but they also facilitated activities that directly reinforced the academic missions of our universities.
+Data management is an integral element of institutional research infrastructure. It often falls within that fluid space between the roles of academic and professional staff — within what is called the Third Space in academia (to read more on this topic, take a look at *"[Reconstructing Identities in Higher Education: The rise of 'Third Space' professionals](https://www.routledge.com/Reconstructing-Identities-in-Higher-Education-The-rise-of-Third-Space/Whitchurch/p/book/9780415614832)"*, by Celia Whitchurch, 2013). Many of the activities carried out as Data Manager for CoEDL, and now for LDaCA, were designed to assist in educational development and knowledge exchange, as well as to promote public engagement and outreach. These tasks not only assisted students and academic researchers to better conduct their research enquiries and safeguard their work, but they also facilitated activities that directly reinforced the academic missions of our universities.
 
 I love the work that I do. I feel lucky to be a part of so many diverse projects, even if it just involves:
 
