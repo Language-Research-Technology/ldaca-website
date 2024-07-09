@@ -41,7 +41,7 @@ Over the years, I have tried to make the data management and archiving processes
 
 <br>
 
-{{< image Src="/cultural-heritage/fig_1_overview_page.png" Alt="PARADISEC's Archiving Guides and Technical Workflows Overview Page" Desc="Figure 1: Screenshot of the overview page of PARADISEC's Archiving Guides and Technical Workflows website." Title="PARADISEC's Archiving Guides and Technical Workflows Overview Page" Ref="Dr Julia Colleen Miller" >}}
+{{< image Src="/cultural-heritage/fig_1_overview_page.png" Alt="PARADISEC's Archiving Guides and Technical Workflows Overview Page" Desc="Figure 1: Screenshot of the overview page of PARADISEC's Archiving Guides and Technical Workflows website." Title="PARADISEC's Archiving Guides and Technical Workflows Overview Page" Ref="Dr Julia Colleen Miller" Height="600" >}}
 
 <br>
 
@@ -70,7 +70,7 @@ Some of the digitising tasks we conducted during this time for CoEDL researchers
 
 <br>
 
-{{< image Src="/cultural-heritage/fig_2_studer_player.png" Alt="Studer Reel-to-Reel Tape Player" Desc="Figure 2: Studer reel-to-reel tape player, with a tape threaded and ready to digitise." Title="Studer Reel-to-Reel Tape Player" Ref="Dr Julia Colleen Miller" >}}
+{{< image Src="/cultural-heritage/fig_2_studer_player.png" Alt="Studer Reel-to-Reel Tape Player" Desc="Figure 2: Studer reel-to-reel tape player, with a tape threaded and ready to digitise." Title="Studer Reel-to-Reel Tape Player" Ref="Dr Julia Colleen Miller" Height="600" >}}
 
 <br>
 
@@ -86,7 +86,7 @@ Some of the digitising tasks we conducted during this time for CoEDL researchers
 
 <br>
 
-{{< image Src="/cultural-heritage/fig_4_digitising_notebook.png" Alt="Digitisation of Field Notebook" Desc="Figure 4: Digitising a field notebook with a DSLR camera mounted to an overhead shelf (out of shot). The camera is tethered to a laptop for remote capture." Title="Digitisation of Field Notebook" Ref="Dr Julia Colleen Miller" >}}
+{{< image Src="/cultural-heritage/fig_4_digitising_notebook.png" Alt="Digitisation of Field Notebook" Desc="Figure 4: Digitising a field notebook with a DSLR camera mounted to an overhead shelf (out of shot). The camera is tethered to a laptop for remote capture." Title="Digitisation of Field Notebook" Ref="Dr Julia Colleen Miller" Height="600" >}}
 
 <br>
 
@@ -117,7 +117,7 @@ Below is an image of an inventory spreadsheet containing the structural metadata
 
 <br>
 
-{{< image Src="/cultural-heritage/fig_5_metadata_spreadsheet.png" Alt="Metadata Spreadsheet for LRW1 Collection in PARADISEC" Desc="Figure 5: Screenshot of spreadsheet of structural metadata of audio and video files from the LRW1 collection in PARADISEC. This file and metadata inventory informed the transcoding workflows and quality-checking processes prior to archiving." Title="Metadata Spreadsheet for LRW1 Collection in PARADISEC" Ref="Dr Julia Colleen Miller" >}}
+{{< image Src="/cultural-heritage/fig_5_metadata_spreadsheet.png" Alt="Metadata Spreadsheet for LRW1 Collection in PARADISEC" Desc="Figure 5: Screenshot of spreadsheet of structural metadata of audio and video files from the LRW1 collection in PARADISEC. This file and metadata inventory informed the transcoding workflows and quality-checking processes prior to archiving." Title="Metadata Spreadsheet for LRW1 Collection in PARADISEC" Ref="Dr Julia Colleen Miller" Height="600" >}}
 
 <br>
 
@@ -131,7 +131,7 @@ Over the life of CoEDL, we monitored the annual growth of files added to PARADIS
 
 <br>
 
-{{< image Src="/cultural-heritage/fig_6_graph_files.png" Alt="Graph of File Numbers in PARADISEC from 2008 to 2022" Desc="Figure 6: Line graph showing the growth of the number of files held in the PARADISEC archive between the years 2008 and 2022." Title="Graph of File Numbers in PARADISEC from 2008 to 2022" Ref="Dr Julia Colleen Miller" >}}
+{{< image Src="/cultural-heritage/fig_6_graph_files.png" Alt="Graph of File Numbers in PARADISEC from 2008 to 2022" Desc="Figure 6: Line graph showing the growth of the number of files held in the PARADISEC archive between the years 2008 and 2022." Title="Graph of File Numbers in PARADISEC from 2008 to 2022" Ref="Dr Julia Colleen Miller" Height="600" >}}
 
 <br>
 
@@ -157,7 +157,7 @@ PARADISEC and CoEDL secured funding to digitise 26 audio tapes from this collect
 
 <br>
 
-{{< image Src="/cultural-heritage/fig_7_tape_threading.png" Alt="Threading of Helen Groger-Wurm Tape for Digitisation " Desc="Figure 7: Haoyi Li threading a Helen Groger-Wurm reel-to-reel tape for digitisation on the Revox C 270 tape player." Title="Threading of Helen Groger-Wurm Tape for Digitisation" Ref="Dr Julia Colleen Miller" >}}
+{{< image Src="/cultural-heritage/fig_7_tape_threading.png" Alt="Threading of Helen Groger-Wurm Tape for Digitisation " Desc="Figure 7: Haoyi Li threading a Helen Groger-Wurm reel-to-reel tape for digitisation on the Revox C 270 tape player." Title="Threading of Helen Groger-Wurm Tape for Digitisation" Ref="Dr Julia Colleen Miller" Height="600" >}}
 
 <br>
 
@@ -165,7 +165,7 @@ The images below are from a tape digitised by Haoyi Li from the Helen Groger-Wur
 
 <br>
 
-{{< image Src="/cultural-heritage/fig_8_digitised_tape.png" Alt="Digitised Helen Groger-Wurm Tape" Desc="Figure 8: Images of a Helen Groger-Wurm tape digitised by Haoyi Li." Title="Digitised Helen Groger-Wurm Tape" Ref="Dr Julia Colleen Miller" >}}
+{{< image Src="/cultural-heritage/fig_8_digitised_tape.png" Alt="Digitised Helen Groger-Wurm Tape" Desc="Figure 8: Images of a Helen Groger-Wurm tape digitised by Haoyi Li." Title="Digitised Helen Groger-Wurm Tape" Ref="Dr Julia Colleen Miller" Height="400" >}}
 
 <br>
 
@@ -179,7 +179,7 @@ Below is an image of a Capell disc being digitised by the NFSA. This contains re
 
 <br>
 
-{{< image Src="/cultural-heritage/fig_9_capell_disc.png" Alt="Arthur Capell Acetate Disk at NFSA" Desc="Figure 9: One of Arthur Capell's acetate discs being digitised at the National Film and Sound Archive (NFSA)." Title="Arthur Capell Acetate Disk at NFSA" Ref="Gerry O'Neill" >}}
+{{< image Src="/cultural-heritage/fig_9_capell_disc.png" Alt="Arthur Capell Acetate Disk at NFSA" Desc="Figure 9: One of Arthur Capell's acetate discs being digitised at the National Film and Sound Archive (NFSA)." Title="Arthur Capell Acetate Disk at NFSA" Ref="Gerry O'Neill" Height="600" >}}
 
 <br>
 
@@ -209,7 +209,7 @@ Below are images of transcriptions in the [ELAN transcription software](https://
 
 <br>
 
-{{< image Src="/cultural-heritage/fig_11_elan_transcriptions.png" Alt="Tok Pisin Transcriptions in ELAN" Desc="Figure 11: Screenshots of the ELAN software showing an orthographic time-aligned transcription of Tok Pisin (left) and a phonemic transcription of the same recording (right)." Title="Tok Pisin Transcriptions in ELAN" Ref="Dr Julia Colleen Miller" >}}
+{{< image Src="/cultural-heritage/fig_11_elan_transcriptions.png" Alt="Tok Pisin Transcriptions in ELAN" Desc="Figure 11: Screenshots of the ELAN software showing an orthographic time-aligned transcription of Tok Pisin (left) and a phonemic transcription of the same recording (right)." Title="Tok Pisin Transcriptions in ELAN" Ref="Dr Julia Colleen Miller" Height="400" >}}
 
 <br>
 
@@ -234,7 +234,7 @@ Another significant project involved the secure storage of audio-visual material
 
 <br>
 
-{{< image Src="/cultural-heritage/fig_12_mimi_boxes.png" Alt="Mimi Arts & Crafts Shipping Boxes" Desc="Figure 12: Shipping boxes from Mimi Arts & Crafts, formerly Diwurruwurru-jaru (Katherine Regional Aboriginal Language Centre), stored at the ANU awaiting comprehensive inventory. Each of these 42 boxes contained two file boxes." Title="Mimi Arts & Crafts Shipping Boxes" Ref="Dr Julia Colleen Miller" >}}
+{{< image Src="/cultural-heritage/fig_12_mimi_boxes.png" Alt="Mimi Arts & Crafts Shipping Boxes" Desc="Figure 12: Shipping boxes from Mimi Arts & Crafts, formerly Diwurruwurru-jaru (Katherine Regional Aboriginal Language Centre), stored at the ANU awaiting comprehensive inventory. Each of these 42 boxes contained two file boxes." Title="Mimi Arts & Crafts Shipping Boxes" Ref="Dr Julia Colleen Miller" Height="600" >}}
 
 <br>
 
@@ -242,7 +242,7 @@ Each box contained two smaller boxes with language-learning materials and cultur
 
 <br>
 
-{{< image Src="/cultural-heritage/fig_13_boxes_content.png" Alt="Contents of Six File Boxes" Desc="Figure 13: Six file boxes showing the diversity of contents, such as audio tapes, VHS and U-Matic tapes and written language-learning materials." Title="Contents of Six File Boxes" Ref="Dr Julia Colleen Miller" >}}
+{{< image Src="/cultural-heritage/fig_13_boxes_content.png" Alt="Contents of Six File Boxes" Desc="Figure 13: Six file boxes showing the diversity of contents, such as audio tapes, VHS and U-Matic tapes and written language-learning materials." Title="Contents of Six File Boxes" Ref="Dr Julia Colleen Miller" Height="600" >}}
 
 <br>
 
@@ -268,7 +268,7 @@ During ANU's COVID-19 lockdown, I designed a 10-week online training module to a
 
 <br>
 
-{{< image Src="/cultural-heritage/fig_14_hercus_manuscripts.png" Alt="Image Capture of Luise Hercus Manuscripts" Desc="Figure 14: PhB student, Daniel Majchrzak, using a shelf-mounted digital camera for high-resolution image capture of the manuscripts of Luise Hercus." Title="Image Capture of Luise Hercus Manuscripts" Ref="Dr Julia Colleen Miller" >}}
+{{< image Src="/cultural-heritage/fig_14_hercus_manuscripts.png" Alt="Image Capture of Luise Hercus Manuscripts" Desc="Figure 14: PhB student, Daniel Majchrzak, using a shelf-mounted digital camera for high-resolution image capture of the manuscripts of Luise Hercus." Title="Image Capture of Luise Hercus Manuscripts" Ref="Dr Julia Colleen Miller" Height="600" >}}
 
 <br>
 
