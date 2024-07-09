@@ -230,7 +230,7 @@ Each box contained two smaller boxes with language-learning materials and cultur
 
 <br>
 
-{{< image Src="/cultural-heritage/fig_13_boxes_content.png" Alt="Contents of Six File Boxes" Desc="Figure 13: Six file boxes showing the diversity of contents, such as audio tapes, VHS and U-Matic tapes and written language-learning materials." Title="Contents of Six File Boxes" Ref="Dr Julia Colleen Miller" Height="500" >}}
+{{< image Src="/cultural-heritage/fig_13_boxes_content.png" Alt="Contents of Six File Boxes" Desc="Figure 13: Six file boxes showing the diversity of contents, such as audio tapes, VHS and U-Matic tapes and written language-learning materials." Title="Contents of Six File Boxes" Ref="Dr Julia Colleen Miller" Height="600" >}}
 
 <br>
 
