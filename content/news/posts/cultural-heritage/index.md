@@ -86,6 +86,8 @@ Some of the digitising tasks we conducted during this time for CoEDL researchers
 
 It is very satisfying knowing that by digitising these items, we helped make available legacy recordings brought to us by retiring researchers, small regional cultural institutions, and those found in our very own university archives.
 
+<br>
+
 > If you are interested in our workflows for audio digitisation or manuscript and field note image capture, you can find more information below:
 >
 > - [audio digitising workflow](https://paradisec-archive.github.io/PARADISEC_workflows/06_audio_digitising.html)
@@ -113,7 +115,11 @@ Below is an image of an inventory spreadsheet containing the structural metadata
 
 Creating an inventory like this informed me as to how to proceed in transcoding tasks, based on the format and specifications of the files. Also, I could compare details of the output files to the originals, thus helping with quality checks. As I worked through the files, I could keep track of my progress by marking which ones had been transcoded and were ready to send to the archive. This task took months to complete, so it was important to be able to pick up each day right where I had left off on the previous day.
 
+<br>
+
 > If you are interested in learning how to batch extract this type of metadata from media files, visit the page _[Quality control of audio and video files](https://paradisec-archive.github.io/PARADISEC_workflows/10_quality_control.html)_ from PARADISEC's archiving guides and technical workflows.
+
+<br>
 
 Over the life of CoEDL, we monitored the annual growth of files added to PARADISEC. The following graphic shows the period from 2008 to 2022. _Note: CoEDL was active between November 2014 and December 2022._
 
