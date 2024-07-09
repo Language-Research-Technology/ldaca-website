@@ -8,9 +8,9 @@ by {{< profile id="miller" >}}
 
 <br>
 
-For nearly ten years, I have been officially working as a Data Manager. I say *officially* because having worked on collaborative research projects and earning a PhD in Linguistics, within the context of an endangered language documentation collaborative project, I’ve been managing other people’s data, as well as my own, since I was a fledgling academic in the early 2000s.
+For nearly ten years, I have been officially working as a Data Manager. I say *officially* because having worked on collaborative research projects and earning a PhD in Linguistics, within the context of an endangered language documentation collaborative project, I've been managing other people's data, as well as my own, since I was a fledgling academic in the early 2000s.
 
-I am based at the Australian National University (ANU), and since mid-2023, I’ve been working as the senior data manager for the Language Data Commons of Australia ([LDaCA](https://www.ldaca.edu.au/)). Prior to this, I worked for the ARC Centre of Excellence for the Dynamics of Language ([CoEDL](https://legacy.dynamicsoflanguage.edu.au/)), who could offer a eight year data manager position, very generous in a field where contracts often last only two or three years. It was at CoEDL where I first took on this academic-adjacent role, focusing on bolstering research and research infrastructure. It was also the first time I had heard of such a position becoming available that addressed the data management and archiving needs of those actively recording or assembling cultural heritage data. Such data includes tabular data, text corpora, collections of songs and music, ethnographic interviews, elicited linguistic content, oral histories, traditional narratives and lexicons, and can be in different formats, such as text, video, audio, image, film, magnetic tape and digital files.
+I am based at the Australian National University (ANU), and since mid-2023, I've been working as the senior data manager for the Language Data Commons of Australia ([LDaCA](https://www.ldaca.edu.au/)). Prior to this, I worked for the ARC Centre of Excellence for the Dynamics of Language ([CoEDL](https://legacy.dynamicsoflanguage.edu.au/)), who could offer a eight year data manager position, very generous in a field where contracts often last only two or three years. It was at CoEDL where I first took on this academic-adjacent role, focusing on bolstering research and research infrastructure. It was also the first time I had heard of such a position becoming available that addressed the data management and archiving needs of those actively recording or assembling cultural heritage data. Such data includes tabular data, text corpora, collections of songs and music, ethnographic interviews, elicited linguistic content, oral histories, traditional narratives and lexicons, and can be in different formats, such as text, video, audio, image, film, magnetic tape and digital files.
 
 The best part of this CoEDL role was that the Pacific and Regional Archive for Digital Sources in Endangered Cultures ([PARADISEC](https://www.paradisec.org.au/)), where I had been running the ANU unit since 2010, was going to be the main repository for CoEDL, and the two roles of archivist and data manager would be fundamentally intertwined. I had finally found my calling!
 
@@ -23,6 +23,8 @@ At CoEDL, my primary responsibility was to help facilitate the data management a
 - accessible for future research
 - available to the people and communities recorded, as well as to their descendants.
 
+<br>
+
 Most days, in-person or over Zoom, I met with depositors to:
 
 - guide them through the process of describing their data for their own research databases, making eventual archiving much easier
@@ -32,11 +34,13 @@ Most days, in-person or over Zoom, I met with depositors to:
 - offer file transfer options, ensuring secure data transmission
 - inform researchers of other archiving alternatives if PARADISEC was not the best fit for their material.
 
+<br>
+
 Over the years, I have tried to make the data management and archiving processes more efficient and helpful by creating archiving guides. Originally, these were static PDF files available on the CoEDL website; however, as they needed to be dynamic sources of information for rapidly changing technologies, they are now a [series of webpages](https://paradisec-archive.github.io/PARADISEC_workflows/).
 
 <br>
 
-{{< image Src="/cultural-heritage/fig_1_overview_page.png" Alt="PARADISEC’s Archiving Guides and Technical Workflows Overview Page" Desc="Figure 1: Screenshot of the overview page of PARADISEC’s Archiving Guides and Technical Workflows website." Title="PARADISEC’s Archiving Guides and Technical Workflows Overview Page" Ref="Dr Julia Colleen Miller" >}}
+{{< image Src="/cultural-heritage/fig_1_overview_page.png" Alt="PARADISEC's Archiving Guides and Technical Workflows Overview Page" Desc="Figure 1: Screenshot of the overview page of PARADISEC's Archiving Guides and Technical Workflows website." Title="PARADISEC's Archiving Guides and Technical Workflows Overview Page" Ref="Dr Julia Colleen Miller" >}}
 
 <br>
 
@@ -53,9 +57,11 @@ We often receive magnetic tape audio (cassette and reel-to-reel tapes) and field
 - finding and maintaining the necessary playback devices
 - dealing with damaged or mouldy materials
 - creating functional, evolving workflows
-- adhering to standards set by digital preservation’s [peak bodies](https://www.dpconline.org/).
+- adhering to standards set by digital preservation's [peak bodies](https://www.dpconline.org/).
 
-...but the rewards are legion. There is nothing like hearing voices recorded decades ago, and then sharing those recordings with descendants of those speakers! It’s also a great feeling to make available rare language material by digitising the items, and then engage with young researchers to help enrich the descriptions of the content. Even more so if it helps them with their research topics.
+...but the rewards are legion. There is nothing like hearing voices recorded decades ago, and then sharing those recordings with descendants of those speakers! It's also a great feeling to make available rare language material by digitising the items, and then engage with young researchers to help enrich the descriptions of the content. Even more so if it helps them with their research topics.
+
+<br>
 
 Some of the digitising tasks we conducted during this time for CoEDL researchers and general PARADISEC depositors were:
 
@@ -102,7 +108,9 @@ Some activities involved in managing born-digital files are:
 - resampling audio, [transcoding](https://en.wikipedia.org/wiki/Transcoding) image and video files to archival formats and managing the transfer to PARADISEC for archiving
 - devising solutions for problematic video formats and liaising with commercial service providers and other institutions for help when needed.
 
-Below is an image of an inventory spreadsheet containing the structural metadata of thousands of files that went into a single collection: Lauren Reed’s [Western Highlands Sign Languages](https://dx.doi.org/10.26278/6S03-BA52).
+<br>
+
+Below is an image of an inventory spreadsheet containing the structural metadata of thousands of files that went into a single collection: Lauren Reed's [Western Highlands Sign Languages](https://dx.doi.org/10.26278/6S03-BA52).
 
 <br>
 
@@ -112,7 +120,9 @@ Below is an image of an inventory spreadsheet containing the structural metadata
 
 Creating an inventory like this informed me as to how to proceed in transcoding tasks, based on the format and specifications of the files. Also, I could compare details of the output files to the originals, thus helping with quality checks. As I worked through the files, I could keep track of my progress by marking which ones had been transcoded and were ready to send to the archive. This task took months to complete, so it was important to be able to pick up each day right where I had left off on the previous day.
 
-If you are interested in learning how to batch extract this type of metadata from media files, visit the page *[Quality control of audio and video files](https://paradisec-archive.github.io/PARADISEC_workflows/10_quality_control.html)* from PARADISEC’s archiving guides and technical workflows.
+If you are interested in learning how to batch extract this type of metadata from media files, visit the page *[Quality control of audio and video files](https://paradisec-archive.github.io/PARADISEC_workflows/10_quality_control.html)* from PARADISEC's archiving guides and technical workflows.
+
+<br>
 
 Over the life of CoEDL, we monitored the annual growth of files added to PARADISEC. The following graphic shows the period from 2008 to 2022. *Note: CoEDL was active between November 2014 and December 2022.*
 
@@ -136,11 +146,11 @@ Collaborating with other cultural institutions was a significant aspect of my ro
 
 ### ANU Pacific Research Archives
 
-Occasionally, requests would come from ANU’s Pacific Archives staff, or directly from students and researchers, to digitise items collected across the Pacific which were housed in ANU’s archives. We targeted audio tapes and field notes for digitisation, enhancing ANU’s finding guides with detailed metadata. Typically, we archived these digital files in PARADISEC and shared links to new collections, or provided copies back to the Pacific Research Archives.
+Occasionally, requests would come from ANU's [Pacific Research Archives](https://archives.anu.edu.au/collections/pacific-research-archives) staff, or directly from students and researchers, to digitise items collected across the Pacific which were housed in ANU's archives. We targeted audio tapes and field notes for digitisation, enhancing ANU's finding guides with detailed metadata. Typically, we archived these digital files in PARADISEC and shared links to new collections, or provided copies back to the Pacific Research Archives.
 
 A notable project involved digitising select items from the Helen Groger-Wurm collection at ANU. Helen Groger-Wurm, an anthropologist active in the 1960s, focused on Northern Australia, particularly Eastern Arnhem Land bark paintings.
 
-PARADISEC and CoEDL secured funding to digitise 26 audio tapes from this collection. This effort supported CoEDL PhD student Haoyi Li, who, due to COVID-19 restrictions, couldn’t conduct fieldwork in Arnhem Land when she was hoping to. Haoyi identified relevant items for her research, and we expanded the digitisation to include field notes alongside the audio tapes. This initiative enabled her to start her primary research remotely and gain valuable skills in archival engagement with legacy recordings, high-resolution image capture of field notes, open reel audio tape digitisation, metadata collection and archival record enrichment.
+PARADISEC and CoEDL secured funding to digitise 26 audio tapes from this collection. This effort supported CoEDL PhD student Haoyi Li, who, due to COVID-19 restrictions, couldn't conduct fieldwork in Arnhem Land when she was hoping to. Haoyi identified relevant items for her research, and we expanded the digitisation to include field notes alongside the audio tapes. This initiative enabled her to start her primary research remotely and gain valuable skills in archival engagement with legacy recordings, high-resolution image capture of field notes, open reel audio tape digitisation, metadata collection and archival record enrichment.
 
 <br>
 
@@ -160,11 +170,11 @@ The images below are from a tape digitised by Haoyi Li from the [Helen Groger-Wu
 
 We sometimes find items held in other cultural institutions, which we would like to digitise and add to existing collections in PARADISEC. For example, we identified items produced by the important 20th century Australian linguist [Arthur Capell](https://adb.anu.edu.au/biography/capell-arthur-12292), including 168 reel-to-reel audio tapes of non-Australian language recordings found in the Australian Institute of Aboriginal and Torres Strait Islander Studies ([AIATSIS](https://aiatsis.gov.au/)) that we were able to digitise, and nearly 50 acetate discs and one magnetic wire recording found at the National Library of Australia ([NLA](https://www.nla.gov.au/)). We enlisted the aid of the National Film and Sound Archive ([NFSA](https://www.nfsa.gov.au/)) in digitising the discs and magnetic wire, as we did not have the facilities to handle those formats.
 
-Below is an image of a Capell disc being digitised by the NFSA. This contains recordings of the parable of the Prodigal Son and the Lord’s Prayer in the Bilua language of the Solomon Islands. Listen to [the recording via the Capell collection](https://dx.doi.org/10.4225/72/57C8509EEF364) in PARADISEC.
+Below is an image of a Capell disc being digitised by the NFSA. This contains recordings of the parable of the Prodigal Son and the Lord's Prayer in the Bilua language of the Solomon Islands. Listen to [the recording via the Capell collection](https://dx.doi.org/10.4225/72/57C8509EEF364) in PARADISEC.
 
 <br>
 
-{{< image Src="/cultural-heritage/fig_9_capell_disc.png" Alt="Arthur Capell Acetate Disk at NFSA" Desc="Figure 9: One of Arthur Capell’s acetate discs being digitised at the National Film and Sound Archive (NFSA)." Title="Arthur Capell Acetate Disk at NFSA" Ref="Gerry O’Neill" >}}
+{{< image Src="/cultural-heritage/fig_9_capell_disc.png" Alt="Arthur Capell Acetate Disk at NFSA" Desc="Figure 9: One of Arthur Capell's acetate discs being digitised at the National Film and Sound Archive (NFSA)." Title="Arthur Capell Acetate Disk at NFSA" Ref="Gerry O'Neill" >}}
 
 <br>
 
@@ -184,7 +194,7 @@ In addition to my regular duties as data manager and digital archivist, I was so
 
 ### Phonemic modelling of Tok Pisin
 
-The first was a three-year project between ANU and the Commonwealth Defence Science and Technology Group (DSTG) called ‘Phonemic Modelling of Tok Pisin’.
+The first was a three-year project between ANU and the Commonwealth Defence Science and Technology Group ([DSTG](https://www.dst.defence.gov.au/)) called ‘Phonemic Modelling of Tok Pisin'.
 
 This project involved creating phonemic transcriptions of spoken Tok Pisin, the English-based creole which is a national language of Papua New Guinea. We retrieved open-access, untranscribed audio recordings of Tok Pisin held in PARADISEC and created rich time-aligned transcriptions, adding these back to their source collections, as well as providing these transcriptions to the DSTG.
 
@@ -205,7 +215,7 @@ Some tasks for this project included:
 - delegating tasks to team members and monitoring their progress
 - writing annual reports and conducting team debriefing meetings to gather feedback and adjust workflows as needed.
 
-In the end, PARADISEC gained rich transcriptions of previously untranscribed Tok Pisin audio held within the archive. Additionally, we were able to employ and train two ANU PhD students and one of PARADISEC’s archivists, Steven Gagau, all fluent Tok Pisin speakers, in using the ELAN software for creating the time-aligned transcriptions.
+In the end, PARADISEC gained rich transcriptions of previously untranscribed Tok Pisin audio held within the archive. Additionally, we were able to employ and train two ANU PhD students and one of PARADISEC's archivists, Steven Gagau, all fluent Tok Pisin speakers, in using the ELAN software for creating the time-aligned transcriptions.
 
 <br>
 
@@ -243,9 +253,9 @@ My contributions to the archiving community extended beyond CoEDL, through prese
 
 As a member of the International Association of Sound and Audiovisual Archives ([IASA](https://www.iasa-web.org/)), I continue to contribute to their Technical Committee, where I can participate in discussions that influence the development of digital preservation standards. I also contribute to the creation of guidelines for born-digital video, aiming to ensure they are relevant to current technological advancements and archival needs.
 
-I have collaborated with Charles Sturt University’s [Master of Information Studies program](https://study.csu.edu.au/courses/master-information-studies), guiding a student through an approved curriculum I developed that aimed to bridge academic learning with practical skills. These teaching materials have been used again for students from the University of Manchester’s Master of Arts programs in Digital Media, Culture and Society, and in Library and Archive Studies under the tutelage of my PARADISEC colleague, Nick Ward.
+I have collaborated with Charles Sturt University's [Master of Information Studies program](https://study.csu.edu.au/courses/master-information-studies), guiding a student through an approved curriculum I developed that aimed to bridge academic learning with practical skills. These teaching materials have been used again for students from the University of Manchester's Master of Arts programs in Digital Media, Culture and Society, and in Library and Archive Studies under the tutelage of my PARADISEC colleague, Nick Ward.
 
-During ANU’s COVID-19 lockdown, I designed a 10-week online training module to accommodate my newly hired RAs, providing foundational knowledge in digitisation and archiving techniques. This online training was extended to ANU’s Summer Scholar interns, who were also missing out on activities due to lockdown. We focused on audio and manuscript digitisation practices, as well as introducing them to the history of digital language archives. When the lockdown was lifted, we followed up with hands-on training. One of the interns, a PhB student in Linguistics, Daniel Majchrzak (seen in the image below), has been trained in high-resolution image capture of manuscripts and fieldnotes and is now working in our studio to digitise the papers of [Luise Hercus](https://en.wikipedia.org/wiki/Luise_Hercus).
+During ANU's COVID-19 lockdown, I designed a 10-week online training module to accommodate my newly hired RAs, providing foundational knowledge in digitisation and archiving techniques. This online training was extended to ANU's Summer Scholar interns, who were also missing out on activities due to lockdown. We focused on audio and manuscript digitisation practices, as well as introducing them to the history of digital language archives. When the lockdown was lifted, we followed up with hands-on training. One of the interns, a PhB student in Linguistics, Daniel Majchrzak (seen in the image below), has been trained in high-resolution image capture of manuscripts and fieldnotes and is now working in our studio to digitise the papers of [Luise Hercus](https://en.wikipedia.org/wiki/Luise_Hercus).
 
 <br>
 
@@ -264,6 +274,10 @@ I love the work that I do. I feel lucky to be a part of so many diverse projects
 - connecting students to archival records of a language they are thinking about for their PhD research
 - helping researchers ~~repatriate~~ rematriate recordings in a format that is accessible to the people who have been recorded, and to their descendants.
 
+<br>
+
 Every day is a new and exciting challenge!
+
+<br>
 
 <br>
