@@ -24,8 +24,6 @@ At CoEDL, my primary responsibility was to help facilitate the data management a
 - accessible for future research
 - available to the people and communities recorded, as well as to their descendants.
 
-<br>
-
 Most days, in-person or over Zoom, I met with depositors to:
 
 - guide them through the process of describing their data for their own research databases, making eventual archiving much easier
@@ -34,8 +32,6 @@ Most days, in-person or over Zoom, I met with depositors to:
 - develop data access protocols, refining conditions of access for archived collections
 - offer file transfer options, ensuring secure data transmission
 - inform researchers of other archiving alternatives if PARADISEC was not the best fit for their material.
-
-<br>
 
 Over the years, I have tried to make the data management and archiving processes more efficient and helpful by creating archiving guides. Originally, these were static PDF files available on the CoEDL website; however, as they needed to be dynamic sources of information for rapidly changing technologies, they are now a [series of webpages](https://paradisec-archive.github.io/PARADISEC_workflows/).
 
@@ -61,8 +57,6 @@ We often receive magnetic tape audio (cassette and reel-to-reel tapes) and field
 - adhering to standards set by digital preservation's [peak bodies](https://www.dpconline.org/).
 
 ...but the rewards are legion. There is nothing like hearing voices recorded decades ago, and then sharing those recordings with descendants of those speakers! It's also a great feeling to make available rare language material by digitising the items, and then engage with young researchers to help enrich the descriptions of the content. Even more so if it helps them with their research topics.
-
-<br>
 
 Some of the digitising tasks we conducted during this time for CoEDL researchers and general PARADISEC depositors were:
 
@@ -92,8 +86,6 @@ Some of the digitising tasks we conducted during this time for CoEDL researchers
 
 It is very satisfying knowing that by digitising these items, we helped make available legacy recordings brought to us by retiring researchers, small regional cultural institutions, and those found in our very own university archives.
 
-<br>
-
 > If you are interested in our workflows for audio digitisation or manuscript and field note image capture, you can find more information below:
 >
 > - [audio digitising workflow](https://paradisec-archive.github.io/PARADISEC_workflows/06_audio_digitising.html)
@@ -111,8 +103,6 @@ Some activities involved in managing born-digital files are:
 - resampling audio, [transcoding](https://en.wikipedia.org/wiki/Transcoding) image and video files to archival formats and managing the transfer to PARADISEC for archiving
 - devising solutions for problematic video formats and liaising with commercial service providers and other institutions for help when needed.
 
-<br>
-
 Below is an image of an inventory spreadsheet containing the structural metadata of thousands of files that went into a single collection: Lauren Reed's [Western Highlands Sign Languages](https://dx.doi.org/10.26278/6S03-BA52).
 
 <br>
@@ -124,8 +114,6 @@ Below is an image of an inventory spreadsheet containing the structural metadata
 Creating an inventory like this informed me as to how to proceed in transcoding tasks, based on the format and specifications of the files. Also, I could compare details of the output files to the originals, thus helping with quality checks. As I worked through the files, I could keep track of my progress by marking which ones had been transcoded and were ready to send to the archive. This task took months to complete, so it was important to be able to pick up each day right where I had left off on the previous day.
 
 > If you are interested in learning how to batch extract this type of metadata from media files, visit the page _[Quality control of audio and video files](https://paradisec-archive.github.io/PARADISEC_workflows/10_quality_control.html)_ from PARADISEC's archiving guides and technical workflows.
-
-<br>
 
 Over the life of CoEDL, we monitored the annual growth of files added to PARADISEC. The following graphic shows the period from 2008 to 2022. _Note: CoEDL was active between November 2014 and December 2022._
 
@@ -173,8 +161,6 @@ The images below are from a tape digitised by Haoyi Li from the Helen Groger-Wur
 
 We sometimes find items held in other cultural institutions, which we would like to digitise and add to existing collections in PARADISEC. For example, we identified items produced by the important 20th century Australian linguist [Arthur Capell](https://adb.anu.edu.au/biography/capell-arthur-12292), including 168 reel-to-reel audio tapes of non-Australian language recordings found in the Australian Institute of Aboriginal and Torres Strait Islander Studies ([AIATSIS](https://aiatsis.gov.au/)) that we were able to digitise, and nearly 50 acetate discs and one magnetic wire recording found at the National Library of Australia ([NLA](https://www.nla.gov.au/)). We enlisted the aid of the National Film and Sound Archive ([NFSA](https://www.nfsa.gov.au/)) in digitising the discs and magnetic wire, as we did not have the facilities to handle those formats.
 
-<br>
-
 Below is an image of a Capell disc being digitised by the NFSA. This contains recordings of the parable of the Prodigal Son and the Lord's Prayer in the Bilua language of the Solomon Islands. Listen to [the recording via the Capell collection](https://dx.doi.org/10.4225/72/57C8509EEF364) in PARADISEC.
 
 <br>
@@ -203,8 +189,6 @@ The first was a three-year project between ANU and the Commonwealth Defence Scie
 
 This project involved creating phonemic transcriptions of spoken Tok Pisin, the English-based creole which is a national language of Papua New Guinea. We retrieved open-access, untranscribed audio recordings of Tok Pisin held in PARADISEC and created rich time-aligned transcriptions, adding these back to their source collections, as well as providing these transcriptions to the DSTG.
 
-<br>
-
 Below are images of transcriptions in the [ELAN transcription software](https://archive.mpi.nl/tla/elan). The recordings were made by Andy Pawley in the Kaironk Valley region of Papua New Guinea and are held in PARADISEC as [collection AP4](https://dx.doi.org/10.26278/HQZ8-7H23).
 
 <br>
@@ -221,8 +205,6 @@ Some tasks for this project included:
 - hiring, training and managing a transcription team, including three Tok Pisin speakers
 - delegating tasks to team members and monitoring their progress
 - writing annual reports and conducting team debriefing meetings to gather feedback and adjust workflows as needed.
-
-<br>
 
 In the end, PARADISEC gained rich transcriptions of previously untranscribed Tok Pisin audio held within the archive. Additionally, we were able to employ and train two ANU PhD students and one of PARADISEC's archivists, Steven Gagau, all fluent Tok Pisin speakers, in using the ELAN software for creating the time-aligned transcriptions.
 
