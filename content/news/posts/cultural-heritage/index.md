@@ -66,7 +66,7 @@ We often receive magnetic tape audio (cassette and reel-to-reel tapes) and field
 
 Some of the digitising tasks we conducted during this time for CoEDL researchers and general PARADISEC depositors were:
 
-- digitise audio cassettes and reel-to-reel tapes, performing all necessary post-production editing to prepare for archiving
+- digitising audio cassettes and reel-to-reel tapes, performing all necessary post-production editing to prepare for archiving
 
 <br>
 
@@ -74,7 +74,7 @@ Some of the digitising tasks we conducted during this time for CoEDL researchers
 
 <br>
 
-- photograph tapes and tape boxes containing written metadata on their labels or inserts found within; these images then accompanied the audio files in the archive
+- photographing tapes and tape boxes containing written metadata on their labels or inserts found within; these images then accompanied the audio files in the archive
 
 <br>
 
@@ -82,7 +82,7 @@ Some of the digitising tasks we conducted during this time for CoEDL researchers
 
 <br>
 
-- digitise manuscripts and field journals, ensuring high-quality reproduction.
+- digitising manuscripts and field journals, ensuring high-quality reproduction.
 
 <br>
 
@@ -161,7 +161,7 @@ PARADISEC and CoEDL secured funding to digitise 26 audio tapes from this collect
 
 <br>
 
-The images below are from a tape digitised by Haoyi Li from the [Helen Groger-Wurm collection](https://archivescollection.anu.edu.au/index.php/papers-20) in the Pacific Research Archives at ANU. The image shows that there is metadata written on the tape box and labels, as well as on the slip of paper found in the tape box. These tape-counter reference points to topics contained on the recording and the tape labels provided the title and description for the archive.
+The images below are from a tape digitised by Haoyi Li from the Helen Groger-Wurm collection in the Pacific Research Archives at ANU. The image shows that there is metadata written on the tape box and labels, as well as on the slip of paper found in the tape box. These tape-counter reference points to topics contained on the recording and the tape labels provided the title and description for the archive.
 
 <br>
 
