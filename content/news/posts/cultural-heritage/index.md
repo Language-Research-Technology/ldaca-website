@@ -238,11 +238,11 @@ Another significant project involved the secure storage of audio-visual material
 
 <br>
 
-Each box contained two smaller boxes with language-learning materials and cultural recordings created with Elders, primarily in the 1990s and 2000s. We expanded on an earlier inventory, creating a comprehensive list to facilitate digitisation and the eventual return of original items and digitised files to the Katherine Region.
+Each box contained two smaller boxes with language-learning materials and cultural recordings created with Elders, primarily in the 1990s and 2000s. We expanded on an [earlier inventory](https://livingarchive.cdu.edu.au/kralc_audit/), creating a comprehensive list to facilitate digitisation and the eventual return of original items and digitised files to the Katherine Region.
 
 <br>
 
-{{< image Src="/cultural-heritage/fig_13_boxes_content.png" Alt="Contents of Six File Boxes" Desc="Figure 13: Six file boxes showing the diversity of contents, such as audio tapes, VHS and U-Matic tapes and written language-learning materials." Title="Contents of Six File Boxes" Ref="Dr Julia Colleen Miller" Height="500" >}}
+{{< image Src="/cultural-heritage/fig_13_boxes_content.png" Alt="Contents of Six File Boxes" Desc="Figure 13: Six file boxes showing the diversity of contents, such as audio tapes, VHS and U-Matic tapes and written language-learning materials." Title="Contents of Six File Boxes" Ref="Dr Julia Colleen Miller" Height="600" >}}
 
 <br>
 
