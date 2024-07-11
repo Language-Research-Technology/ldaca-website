@@ -25,10 +25,10 @@
         <h1>Updates</h1>
         <h4></h4>
         <ul>
+        <h3><li>Publication: A mixed-methods approach to understand victimization discourses by opposing feminist sub-groups on social media (<a href = "https://doi.org/10.1111/bjso.12785" target="_blank">Read more ➤</a>)</li></h3>
         <h3><li>Blog Post: Safeguarding Cultural Heritage: The Essential Role of Archiving and Data Management (<a href = "./news/posts/cultural-heritage/" target="_blank">Read more ➤</a>)</li></h3>
         <h3><li>Blog Post: Persistent Identifiers (PIDs) and Digital Object Identifiers (DOIs) (<a href = "./news/posts/persistent-identifiers/" target="_blank">Read more ➤</a>)</li></h3>
         <h3><li>Blog Posts: Presentations from the Open Repositories Conference (<a href = "./news/posts/" target="_blank">Read more ➤</a>)</li></h3>
-        <h3><li>Publication: <i>Proceedings of the LREC2024 conference</i> (Access control framework for language collections) (<a href = "https://aclanthology.org/2024.lrec-main.10" target="_blank">Read more ➤</a>)</li></h3>
         </ul>
       </div>  
     </div>
