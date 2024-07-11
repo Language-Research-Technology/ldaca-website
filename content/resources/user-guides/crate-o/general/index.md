@@ -115,7 +115,7 @@ These are all inter-related, and can be developed together or separately using {
 
 <br>
 
-Schema.org, which provides the basic vocabulary for {{< glossary_link display="RO-Crate" id="ro-crate" >}}, has a light-touch approach to describing what it refers to as its *schema* (with a small-s), which might also be thought of as an *ontology*. Schema.org is defined as a set of {{< glossary_link display="Classes" id="class" >}} and {{< glossary_link display="Properties" id="property" >}}, each of which has an online definition. For example, the base class [Thing](https://schema.org/Thing) or its subclass [Person](https://schema.org/Person), which has properties such as [birthDate](https://schema.org/birthDate).
+Schema.org, which provides the basic vocabulary for {{< glossary_link display="RO-Crate" id="ro-crate" >}}, has a light-touch approach to describing what it refers to as its *schema* (with a small-s), which might also be thought of as an *ontology*. Schema.org is defined as a set of {{< glossary_link display="Classes" id="class" >}} and {{< glossary_link display="Properties" id="property" >}}, each of which has an online definition. The below example illustrates that the base class [Thing](https://schema.org/Thing) and its subclass [Person](https://schema.org/Person) has properties such as [birthDate](https://schema.org/birthDate).
 
 <br>
 
