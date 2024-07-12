@@ -30,7 +30,7 @@ $color_count: 1;
       rgba(255, 255, 255, 0),
       rgba(255, 255, 255, 1)
     ),
-    url("/BackgroundIMGs/Contact.png") repeat-y left top;
+    url("/BackgroundIMGs/background.png") repeat-y left top;
   background-size: 100% auto;
 }
 
@@ -46,7 +46,8 @@ $color_count: 1;
       rgba(255, 255, 255, 0),
       rgba(255, 255, 255, 1)
     ),
-    url("/BackgroundIMGs/Contact.png") repeat-y left top;
+    url("/BackgroundIMGs/background.png") repeat-y left top;
+    background-size: 100% auto;
 }
 [theme="dark"] .main {
   background: linear-gradient(
@@ -60,7 +61,8 @@ $color_count: 1;
       rgba(0, 0, 0, 0),
       rgba(41, 42, 45, 255)
     ),
-    url("/BackgroundIMGs/Contact.png") repeat-y left top;
+    url("/BackgroundIMGs/background.png") repeat-y left top;
+    background-size: 100% auto;
 }
 
 [theme="dark"] a {

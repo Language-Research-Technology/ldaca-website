@@ -1,6 +1,6 @@
 ---
 title: "LDaCA Newsletter Quarter 1 2024"
-date: 2023-09-15T10:37:28+10:00
+date: 2022-12-03T10:37:28+10:00
 draft: false
 weight: 1
 --- 
