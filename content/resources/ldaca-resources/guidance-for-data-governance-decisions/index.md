@@ -9,7 +9,7 @@ description: "Defines policies, roles, responsibilities and procedures for ongoi
 
 ##### [Purpose](#purpose)
 ##### [1. Access Conditions](#1-access-conditions)
-- [1.1 Legal, moral, and ethical constraints](#11-legal-moral-and-ethical-constraints)
+- [1.1 Legal, moral and ethical constraints](#11-legal-moral-and-ethical-constraints)
 - [1.2 Licensing](#12-licensing)
 ##### [2. Persistent Identifiers](#2-persistent-identifiers)
 ##### [3. Metadata](#3-metadata)
@@ -21,7 +21,7 @@ description: "Defines policies, roles, responsibilities and procedures for ongoi
 
 {{< glossary_link display="Data governance" id="data-governance" >}} defines policies, roles, responsibilities and procedures for ongoing use and storage of data, as well as for access to data. Effective {{< glossary_link display="data governance" id="data-governance" >}} maximises sustainability, while ensuring data integrity and protecting research participants. Long-term sustainability requires a {{< glossary_link display="data management plan" id="data-management-plan" >}}.
 
-This document provides guidance on some components of {{< glossary_link display="data governance" id="data-governance" >}} that are key to a {{< glossary_link display="data management plan" id="data-management-plan" >}}, including {{< glossary_link display="access conditions" id="access-conditions" >}}, {{< glossary_link display="licensing" id="licensing" >}}, persistent identifiers, and {{< glossary_link display="metadata" id="metadata" >}}. The principles below are those employed by {{< glossary_link display="LDaCA" id="ldaca" >}}, but they are widely applicable and represent best practice for {{< glossary_link display="data governance" id="data-governance" >}}, in accordance with the {{< glossary_link display="FAIR" id="fair" >}} and {{< glossary_link display="CARE" id="care" >}} principles.
+This document provides guidance on some components of {{< glossary_link display="data governance" id="data-governance" >}} that are key to a {{< glossary_link display="data management plan" id="data-management-plan" >}}, including {{< glossary_link display="access conditions" id="access-conditions" >}}, {{< glossary_link display="licensing" id="licensing" >}}, persistent identifiers and {{< glossary_link display="metadata" id="metadata" >}}. The principles below are those employed by {{< glossary_link display="LDaCA" id="ldaca" >}}, but they are widely applicable and represent best practice for {{< glossary_link display="data governance" id="data-governance" >}}, in accordance with the {{< glossary_link display="FAIR" id="fair" >}} and {{< glossary_link display="CARE" id="care" >}} principles.
 
 <br>
 
@@ -36,12 +36,12 @@ This document provides guidance on some components of {{< glossary_link display=
 
 To determine {{< glossary_link display="access conditions" id="access-conditions" >}}, the {{< glossary_link display="Data Steward" id="data-steward" >}} must:
 
-1. understand the legal, moral, and ethical constraints to sharing data, and
+1. understand the legal, moral and ethical constraints to sharing data, and
 2. prepare a license outlining {{< glossary_link display="access conditions" id="access-conditions" >}}.
 
 <br>
 
-### 1.1 Legal, moral, and ethical constraints
+### 1.1 Legal, moral and ethical constraints
 
 <br>
 
@@ -195,7 +195,7 @@ In brief, the four principles are:
 
 Documenting {{< glossary_link display="access conditions" id="access-conditions" >}} is key to ensuring appropriate use of the data over time. Transparency and clarity surrounding {{< glossary_link display="access conditions" id="access-conditions" >}} also supports the sustainability of the data and reduces the need for the {{< glossary_link display="Data Steward" id="data-steward" >}} to be available to communicate or enforce the {{< glossary_link display="access conditions" id="access-conditions" >}}.
 
-While a{{< glossary_link display="access conditions" id="access-conditions" >}} can be documented internally in a {{< glossary_link display="data management plan" id="data-management-plan" >}}, a common and useful mechanism for documenting and managing access is via {{< glossary_link display="licensing" id="licensing" >}}.
+While {{< glossary_link display="access conditions" id="access-conditions" >}} can be documented internally in a {{< glossary_link display="data management plan" id="data-management-plan" >}}, a common and useful mechanism for documenting and managing access is via {{< glossary_link display="licensing" id="licensing" >}}.
 
 {{< glossary_link display="Licensing" id="licensing" >}} allows the {{< glossary_link display="copyright owner" id="copyright-owner" >}} to share the right to access and use the data without forfeiting or transferring the ownership of the {{< glossary_link display="copyright" id="copyright" >}} of the work. The license sets out the conditions for who can access the data, how it can be used, and what other conditions are required. While {{< glossary_link display="licensing" id="licensing" >}} is a legal mechanism, it can also be used to uphold other conditions as determined by the {{< glossary_link display="Data Steward" id="data-steward" >}}.
 

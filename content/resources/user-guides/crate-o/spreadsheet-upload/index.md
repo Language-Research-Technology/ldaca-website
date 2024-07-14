@@ -10,12 +10,12 @@ description: "Guidance and a template for adding new data to an RO-Crate via spr
 ##### [Tab Breakdown](#tab-breakdown)
 ##### [Column Breakdown](#column-breakdown)
 - [Root](#root)
-- [Author](#author)
-- [Publisher](#publisher)
-- [License](#license)
+- [Authors](#authors)
+- [Publishers](#publishers)
+- [Licenses](#licenses)
 - [People](#people)
 - [Objects](#objects)
-- [Files](#files)
+- [Files (CSV, EAF, WAV)](#files-csv-eaf-wav)
 ##### [Upload Spreadsheet to an RO-Crate with Crate-O](#upload-spreadsheet-to-an-ro-crate-with-crate-o)
 
 <br>
@@ -74,7 +74,7 @@ Where a column header begins with a full stop (.), this indicates that the colum
 
 ## Column Breakdown
 
-The section below provides a description of each of the columns included in the template, ordered by tab. Please note that the columns provided in the template tabs are illustrative only and should be edited according to the requirements of your collection.
+The section below describes each of the columns included in the template, ordered by tab. Please note that the columns provided in the template tabs are illustrative only and should be edited according to the requirements of your collection.
 
 <br>
 
@@ -84,7 +84,7 @@ The root tab provides information about the top level of the collection. Unlike 
 
 Column | Type | Description
 --- | --- | ---
-@id | Data entry | Persistent, managed unique ID in URL format (if available), for example a DOI for a collection.
+@id | Data entry | Persistent, managed unique ID in URL format (if available), for example, a DOI for a collection.
 @type | Pre-filled | The type of the collection. Both `Dataset` and `RepositoryCollection` are required.
 name | Data entry | The name of this collection.
 description | Data entry | An abstract of the collection. Include as much detail as possible about the motivation and use of the dataset, including things that we do not yet have properties for.
@@ -96,14 +96,12 @@ isRef_publisher | Pre-filled | Generated from the `@id` column in the Publisher 
 
 ### Authors
 
-TODO separated out from People tab for clarity, but is this correct or more confusing?
-
 An author is a person or organisation responsible for creating the collection. It is possible for collections to have multiple authors.
 
 Column | Type | Description
 --- | --- | ---
-@id | Data entry | Persistent, managed unique ID in URL format (if available), for example an ROR for an organisation or an ORCID, personal home page URL or email address for a person.
-@type | Dropdown | The type of the author. Either `Person` and `Organization` can be selected.
+@id | Data entry | Persistent, managed unique ID in URL format (if available), for example, an ROR for an organisation or an ORCID, personal home page URL or email address for a person.
+@type | Dropdown | The type of the author. Either `Person` or `Organization` can be selected.
 name | Data entry | The name of the author.
 
 <br>
@@ -114,7 +112,7 @@ A publisher is an organisation responsible for releasing the collection. It is p
 
 Column | Type | Description
 --- | --- | ---
-@id | Data entry | Persistent, managed unique ID in URL format (if available), for example an ROR for an organisation.
+@id | Data entry | Persistent, managed unique ID in URL format (if available), for example, an ROR for an organisation.
 @type | Pre-filled | The type of the publisher. Only `Organization` is valid.
 name | Data entry | The name of the organisation.
 
@@ -135,7 +133,7 @@ description | Data entry |
 metadataIsPublic | |
 allowTextIndex | |
 
-For licensing, it is possible to leave this tab blank, however this will add a default 'no license' which will need to be amended later in Crate-O.
+For licensing, it is possible to leave this tab blank, however, this will add a default 'no license' which will need to be amended later in Crate-O.
 
 <br>
 
@@ -151,12 +149,13 @@ name | Data entry | The name of the person.
 language_code | Data entry | The language spoken by the person. An example of an optional metadata field from the source data. Language codes can be obtained from [AustLang](https://collection.aiatsis.gov.au/austlang/search), [Glottolog](https://glottolog.org/) and [Ethnologue](https://www.ethnologue.com/).
 gender | Data entry | The gender of the person. An example of an optional metadata field from the source data.
 birthDate | Data entry | The birth date (year) of the person. An example of an optional metadata field from the source data.
+isRef_specializationOf | Data entry | A reference to another Person entity, used for collections where a person appears more than once with different demographic info (e.g. a different age). In these collections, there should be a ‘canonical’ person for each participant and another Person entity each time they participate, with different ages or other statuses.
 
 <br>
 
 ### Objects
 
-An object is a single resource or a group of tightly related resources in a collection. For example, a work (document) in a written corpus, or the files associated with a dialogue or session in a speech study (recordings, transcriptions etc.).
+An object is a single resource or a group of tightly related resources in a collection. For example, a work (document) in a written corpus, or the files associated with a dialogue or session in a speech study (recordings, transcriptions etc.). Some systems, such as PARADISEC, refer to Objects as Items or may use other terms.
 
 Column | Type | Description
 --- | --- | ---
@@ -167,15 +166,15 @@ description | Data entry | A description of the object.
 isRef_speaker | Pre-filled | Generated from the `.pseudonym` column with `#` prefixed.
 .pseudonym | Data entry | An example of a column from a data steward's source data, so that speakers in the collection are anonymised.
 datePublished | Data entry | The date the object was published.
-isRef_pdcm:memberOf | Data entry | The collection this object is a member of, generated from the `@id` column in the Root tab.
+isRef_pdcm:memberOf | Data entry | The collection this object is a member of, generated from the `@id` column in the Root tab. Or if the collection contains sub-collections, a reference to another RepositoryCollection @id.
 isRef_license | Data entry | The `@id` of the license to which this object adheres.
-isRef_indexableText | Data entry | Identifies which of the files in the given object has content that is indexed for search purposes. For example, in the template, the content of the CSV file would be searchable, whereas the EAF and WAV file would not. If `isRef_indexableText` is not included in a collection, search will only run on the metadata and not the transcript file content.
+isRef_indexableText | Data entry | Identifies which of the files in the given object has content that is indexed for search purposes. For example, in the template, the content of the CSV file would be searchable, whereas the EAF and WAV files would not. If `isRef_indexableText` is not included in a collection, search will only run on the metadata and not the transcript file content.
 
 <br>
 
-### Files
+### Files (CSV, EAF, WAV)
 
-A file is container for data and can store data in different formats. For example, a single object could have an audio file as well as a text file containing a transcription of the audio. Three examples of files tabs are included in the template, and their columns are combined in the table below.
+A file is a container for data and can store data in different formats. For example, a single object could have an audio file as well as a text file containing a transcription of the audio. Three examples of file tabs are included in the template, and their columns are combined in the table below.
 
 Tab | Column | Type | Description
 --- | --- | --- | ---
