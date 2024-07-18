@@ -11,7 +11,13 @@ layout: "root_list"
 
 ### 2024
 
+Bednarek, Monika. 2024. Analysing intra-textual patterns in corpus-assisted discourse studies. _Journal of Corpora and Discourse Studies_ 7. 43–62. https://doi.org/10.18573/jcads.113.
+<br />
+
 Bednarek, Monika, Martin Schweinberger & Kelvin K. H. Lee. 2024. Corpus-based discourse analysis: from meta-reflection to accountability. _Corpus Linguistics and Linguistic Theory_ 0(0). [https://doi.org/10.1515/cllt-2023-0104](https://doi.org/10.1515/cllt-2023-0104).
+<br />
+
+Dumlao, Remart Padua & Louisa Willoughby. 2024. Representation of migrant accents in media discourse: A corpus-assisted critical discourse analysis. _AILA Review_ 37(1). 98–119. https://doi.org/10.1075/aila.23016.dum.
 <br />
 
 Foley, Ben, Peter Sefton, Simon Musgrave & Moises Sacal Bonequi. 2024. Access control framework for language collections. In Nicoletta Calzolari, Min-Yen Kan, Veronique Hoste, Alessandro Lenci, Sakriani Sakti & Nianwen Xue (eds.), _Proceedings of the 2024 joint international conference on computational linguistics, language resources and evaluation (LREC-COLING 2024)_, 113–121. Torino, Italia: ELRA and ICCL. https://aclanthology.org/2024.lrec-main.10.
