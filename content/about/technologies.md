@@ -16,6 +16,8 @@ description: "Information about the technologies being used in LDaCA."
 A Research Object ([RO](https://www.researchobject.org/)) is a structured archive of all the items that contributed to the research outcome, including their identifiers, {{< glossary_link display="provenance" id="provenance" >}}, relations and annotations. {{< glossary_link display="RO-Crate" id="ro-crate" >}} is a lightweight approach to packaging research data with their {{< glossary_link display="metadata" id="metadata" >}}. It is based on [schema.org](https://schema.org/) annotations in [JSON-LD](https://json-ld.org/), and aims to make best-practice in formal metadata description accessible and practical for use in a wide variety of situations. While {{< glossary_link display="RO-Crates" id="ro-crate" >}} can be considered general-purpose containers of arbitrary data and open-ended metadata, in practical use within a particular domain, application or framework, it is beneficial to further constrain {{< glossary_link display="RO-Crate" id="ro-crate" >}} to a specific profile: a set of conventions, types and properties that one minimally can require and expect to be present in that subset of {{< glossary_link display="RO-Crates" id="ro-crate" >}}. LDaCA is developing such a profile to be used for language data.
 
 Watch [this video](https://vimeo.com/954651738?share=copy) for a quick introduction to the {{< glossary_link display="RO-Crate" id="ro-crate" >}} concept.
+
+The RO-Crate community run a weekly drop-in call in Australia ([details](../../news/events/#advice)).
 <br>
 
 ## Oxford Common File Layout ([OCFL](https://ocfl.io/))
