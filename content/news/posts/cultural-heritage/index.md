@@ -51,7 +51,7 @@ Over the years, I have tried to make the data management and archiving processes
 
 ## Managing the PARADISEC ANU unit
 
-In my concurrent role as manager of the ANU unit of PARADISEC, I oversaw a wide range of digitisation and archiving activities, ensuring that important cultural materials were preserved and accessible for current and future use.
+In my concurrent role as manager of the ANU unit of {{< glossary_link display="PARADISEC" id="paradisec" >}}, I oversaw a wide range of digitisation and archiving activities, ensuring that important cultural materials were preserved and accessible for current and future use.
 
 <br>
 
@@ -70,7 +70,7 @@ We often receive magnetic tape audio (cassette and reel-to-reel tapes) and field
 
 <br>
 
-Some of the digitising tasks we conducted during this time for CoEDL researchers and general PARADISEC depositors were:
+Some of the digitising tasks we conducted during this time for CoEDL researchers and general {{< glossary_link display="PARADISEC" id="paradisec" >}} depositors were:
 
 - digitising audio cassettes and reel-to-reel tapes, performing all necessary post-production editing to prepare for archiving
 
@@ -116,12 +116,12 @@ Of course, we are now living in a time where digital recording devices of all ki
 Some activities involved in managing born-digital files are:
 
 - receiving files and creating detailed inventories of them — a critical step in ensuring all files are looked after and that quality checking can be logged
-- resampling audio, [transcoding](https://en.wikipedia.org/wiki/Transcoding) image and video files to archival formats and managing the transfer to PARADISEC for archiving
+- resampling audio, [transcoding](https://en.wikipedia.org/wiki/Transcoding) image and video files to archival formats and managing the transfer to {{< glossary_link display="PARADISEC" id="paradisec" >}} for archiving
 - devising solutions for problematic video formats and liaising with commercial service providers and other institutions for help when needed.
 
 <br>
 
-Below is an image of an inventory spreadsheet containing the structural metadata of thousands of files that went into a single collection: Lauren Reed's [Western Highlands Sign Languages](https://dx.doi.org/10.26278/6S03-BA52).
+Below is an image of an inventory spreadsheet containing the structural {{< glossary_link display="metadata" id="metadata" >}} of thousands of files that went into a single collection: Lauren Reed's [Western Highlands Sign Languages](https://dx.doi.org/10.26278/6S03-BA52).
 
 <br>
 
@@ -155,13 +155,13 @@ By 2020, after refinements in our server connections and file transfer pipelines
 
 ## Collaboration with cultural institutions in the region
 
-Collaborating with other cultural institutions was a significant aspect of my roles at CoEDL and PARADISEC, allowing us to increase access to archived materials, enhance our archiving capabilities and share expertise. Below are two examples of collaborative projects.
+Collaborating with other cultural institutions was a significant aspect of my roles at CoEDL and {{< glossary_link display="PARADISEC" id="paradisec" >}}, allowing us to increase access to archived materials, enhance our archiving capabilities and share expertise. Below are two examples of collaborative projects.
 
 <br>
 
 ### ANU Pacific Research Archives
 
-Occasionally, requests would come from ANU's [Pacific Research Archives](https://archives.anu.edu.au/collections/pacific-research-archives) staff, or directly from students and researchers, to digitise items collected across the Pacific which were housed in ANU's archives. We targeted audio tapes and field notes for digitisation, enhancing ANU's finding guides with detailed metadata. Typically, we archived these digital files in PARADISEC and shared links to new collections, or provided copies back to the Pacific Research Archives.
+Occasionally, requests would come from ANU's [Pacific Research Archives](https://archives.anu.edu.au/collections/pacific-research-archives) staff, or directly from students and researchers, to digitise items collected across the Pacific which were housed in ANU's archives. We targeted audio tapes and field notes for digitisation, enhancing ANU's finding guides with detailed {{< glossary_link display="metadata" id="metadata" >}}. Typically, we archived these digital files in {{< glossary_link display="PARADISEC" id="paradisec" >}} and shared links to new collections, or provided copies back to the Pacific Research Archives.
 
 <br>
 
@@ -187,7 +187,7 @@ The images below are from a tape digitised by Haoyi Li from the Helen Groger-Wur
 
 ### AIATSIS, NLA and NFSA
 
-We sometimes find items held in other cultural institutions, which we would like to digitise and add to existing collections in PARADISEC. For example, we identified items produced by the important 20th century Australian linguist [Arthur Capell](https://adb.anu.edu.au/biography/capell-arthur-12292), including 168 reel-to-reel audio tapes of non-Australian language recordings found in the Australian Institute of Aboriginal and Torres Strait Islander Studies ([AIATSIS](https://aiatsis.gov.au/)) that we were able to digitise, and nearly 50 acetate discs and one magnetic wire recording found at the National Library of Australia ([NLA](https://www.nla.gov.au/)). We enlisted the aid of the National Film and Sound Archive ([NFSA](https://www.nfsa.gov.au/)) in digitising the discs and magnetic wire, as we did not have the facilities to handle those formats.
+We sometimes find items held in other cultural institutions, which we would like to digitise and add to existing collections in {{< glossary_link display="PARADISEC" id="paradisec" >}}. For example, we identified items produced by the important 20th century Australian linguist [Arthur Capell](https://adb.anu.edu.au/biography/capell-arthur-12292), including 168 reel-to-reel audio tapes of non-Australian language recordings found in the Australian Institute of Aboriginal and Torres Strait Islander Studies ([AIATSIS](https://aiatsis.gov.au/)) that we were able to digitise, and nearly 50 acetate discs and one magnetic wire recording found at the National Library of Australia ([NLA](https://www.nla.gov.au/)). We enlisted the aid of the National Film and Sound Archive ([NFSA](https://www.nfsa.gov.au/)) in digitising the discs and magnetic wire, as we did not have the facilities to handle those formats.
 
 <br>
 
@@ -219,7 +219,7 @@ The first was a three-year project between ANU and the Commonwealth Defence Scie
 
 <br>
 
-This project involved creating phonemic transcriptions of spoken Tok Pisin, the English-based creole which is a national language of Papua New Guinea. We retrieved open-access, untranscribed audio recordings of Tok Pisin held in PARADISEC and created rich time-aligned transcriptions, adding these back to their source collections, as well as providing these transcriptions to the DSTG.
+This project involved creating phonemic transcriptions of spoken Tok Pisin, the English-based creole which is a national language of Papua New Guinea. We retrieved open-access, untranscribed audio recordings of Tok Pisin held in {{< glossary_link display="PARADISEC" id="paradisec" >}} and created rich time-aligned transcriptions, adding these back to their source collections, as well as providing these transcriptions to the DSTG.
 
 <br>
 
@@ -276,7 +276,7 @@ Key aspects of the project included:
 
 ## Service to the archiving community
 
-My contributions to the archiving community extended beyond CoEDL, through presentations, training modules and active participation in professional organisations. I have participated in conferences and workshops, representing CoEDL and PARADISEC while discussing best practices in archiving and data management. I also focused on developing training sessions aimed at enhancing digitisation techniques, metadata management and workflow optimisation for fellow archivists.
+My contributions to the archiving community extended beyond CoEDL, through presentations, training modules and active participation in professional organisations. I have participated in conferences and workshops, representing CoEDL and {{< glossary_link display="PARADISEC" id="paradisec" >}} while discussing best practices in archiving and data management. I also focused on developing training sessions aimed at enhancing digitisation techniques, {{< glossary_link display="metadata" id="metadata" >}} management and workflow optimisation for fellow archivists.
 
 <br>
 
