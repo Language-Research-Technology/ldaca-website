@@ -41,7 +41,7 @@ Below are a few examples of PIDs within digital scholarly ecosystems:
 
 ## Digital Object Identifiers
 
-Contributors who allow {{< glossary_link display="LDaCA id="ldaca" >}} to make their data collections available through the portal can use the PIDs they have if they already follow a specific PID practice. However, if it is their first time obtaining a PID, we recommend DOIs as they are likely obtainable through a university library or institutional research repository. This has been the pattern with {{< glossary_link display="collections" id="collection" >}} in the LDaCA portal to date. DOIs are also available through general-purpose repositories like [Zenodo](https://zenodo.org/).
+Contributors who allow {{< glossary_link display="LDaCA" id="ldaca" >}} to make their data collections available through the portal can use the PIDs they have if they already follow a specific PID practice. However, if it is their first time obtaining a PID, we recommend DOIs as they are likely obtainable through a university library or institutional research repository. This has been the pattern with {{< glossary_link display="collections" id="collection" >}} in the LDaCA portal to date. DOIs are also available through general-purpose repositories like [Zenodo](https://zenodo.org/).
 
 <br>
 
