@@ -13,7 +13,7 @@ For nearly ten years, I have been officially working as a Data Manager. I say _o
 
 <br>
 
-I am based at the Australian National University (ANU), and since mid-2023, I've been working as the senior data manager for the Language Data Commons of Australia ([LDaCA](https://www.ldaca.edu.au/)). Prior to this, I worked for the ARC Centre of Excellence for the Dynamics of Language ([CoEDL](https://legacy.dynamicsoflanguage.edu.au/)), who could offer a eight year data manager position, very generous in a field where contracts often last only two or three years. It was at CoEDL where I first took on this academic-adjacent role, focusing on bolstering research and research infrastructure. It was also the first time I had heard of such a position becoming available that addressed the data management and archiving needs of those actively recording or assembling cultural heritage data. Such data includes tabular data, text corpora, collections of songs and music, ethnographic interviews, elicited linguistic content, oral histories, traditional narratives and lexicons, and can be in different formats, such as text, video, audio, image, film, magnetic tape and digital files.
+I am based at the Australian National University (ANU), and since mid-2023, I've been working as the senior data manager for the Language Data Commons of Australia ([LDaCA](https://www.ldaca.edu.au/)). Prior to this, I worked for the {{< glossary_link display="ARC" id="arc" >}} Centre of Excellence for the Dynamics of Language ([CoEDL](https://legacy.dynamicsoflanguage.edu.au/)), who could offer a eight year data manager position, very generous in a field where contracts often last only two or three years. It was at CoEDL where I first took on this academic-adjacent role, focusing on bolstering research and research infrastructure. It was also the first time I had heard of such a position becoming available that addressed the data management and archiving needs of those actively recording or assembling cultural heritage data. Such data includes tabular data, text corpora, collections of songs and music, ethnographic interviews, elicited linguistic content, oral histories, traditional narratives and lexicons, and can be in different formats, such as text, video, audio, image, film, magnetic tape and digital files.
 
 <br>
 
@@ -37,7 +37,7 @@ Most days, in-person or over Zoom, I met with depositors to:
 - find or create collaborative workspaces for CoEDL students, staff and their external collaborators
 - develop data access protocols, refining conditions of access for archived collections
 - offer file transfer options, ensuring secure data transmission
-- inform researchers of other archiving alternatives if PARADISEC was not the best fit for their material.
+- inform researchers of other archiving alternatives if {{< glossary_link display="PARADISEC" id="paradisec" >}} was not the best fit for their material.
 
 <br>
 
@@ -80,7 +80,7 @@ Some of the digitising tasks we conducted during this time for CoEDL researchers
 
 <br>
 
-- photographing tapes and tape boxes containing written metadata on their labels or inserts found within; these images then accompanied the audio files in the archive
+- photographing tapes and tape boxes containing written {{< glossary_link display="metadata" id="metadata" >}} on their labels or inserts found within; these images then accompanied the audio files in the archive
 
 <br>
 
@@ -191,7 +191,7 @@ We sometimes find items held in other cultural institutions, which we would like
 
 <br>
 
-Below is an image of a Capell disc being digitised by the NFSA. This contains recordings of the parable of the Prodigal Son and the Lord's Prayer in the Bilua language of the Solomon Islands. Listen to [the recording via the Capell collection](https://dx.doi.org/10.4225/72/57C8509EEF364) in PARADISEC.
+Below is an image of a Capell disc being digitised by the {{< glossary_link display="NFSA" id="nfsa" >}}. This contains recordings of the parable of the Prodigal Son and the Lord's Prayer in the Bilua language of the Solomon Islands. Listen to [the recording via the Capell collection](https://dx.doi.org/10.4225/72/57C8509EEF364) in PARADISEC.
 
 <br>
 
@@ -267,7 +267,7 @@ Each box contained two smaller boxes with language-learning materials and cultur
 Key aspects of the project included:
 
 - developing a detailed inventory workflow and training a new RA
-- collaborating with stakeholders, such as Caroline Jones, Jane Simpson, other invested researchers, Mimi Arts & Crafts representatives, AIATSIS, commercial digitisation providers, and loads of volunteer facilitators
+- collaborating with stakeholders, such as Caroline Jones, Jane Simpson, other invested researchers, Mimi Arts & Crafts representatives, {{< glossary_link display="AIATSIS" id="aiatsis" >}}, commercial digitisation providers, and loads of volunteer facilitators
 - providing progress reports and maintaining communication with stakeholders
 - facilitating the temporary removal and return of items for early digitisation efforts
 - managing the repackaging and distribution of boxes as digitisation progressed.
@@ -298,7 +298,7 @@ During ANU's COVID-19 lockdown, I designed a 10-week online training module to a
 
 ## Final thoughts
 
-Data management is an integral element of institutional research infrastructure. It often falls within that fluid space between the roles of academic and professional staff — within what is called the Third Space in academia (to read more on this topic, take a look at _"[Reconstructing Identities in Higher Education: The rise of 'Third Space' professionals](https://www.routledge.com/Reconstructing-Identities-in-Higher-Education-The-rise-of-Third-Space/Whitchurch/p/book/9780415614832)"_, by Celia Whitchurch, 2013). Many of the activities carried out as Data Manager for CoEDL, and now for LDaCA, were designed to assist in educational development and knowledge exchange, as well as to promote public engagement and outreach. These tasks not only assisted students and academic researchers to better conduct their research enquiries and safeguard their work, but they also facilitated activities that directly reinforced the academic missions of our universities.
+Data management is an integral element of institutional research infrastructure. It often falls within that fluid space between the roles of academic and professional staff — within what is called the Third Space in academia (to read more on this topic, take a look at _"[Reconstructing Identities in Higher Education: The rise of 'Third Space' professionals](https://www.routledge.com/Reconstructing-Identities-in-Higher-Education-The-rise-of-Third-Space/Whitchurch/p/book/9780415614832)"_, by Celia Whitchurch, 2013). Many of the activities carried out as Data Manager for CoEDL, and now for {{< glossary_link display="LDaCA" id="ldaca" >}}, were designed to assist in educational development and knowledge exchange, as well as to promote public engagement and outreach. These tasks not only assisted students and academic researchers to better conduct their research enquiries and safeguard their work, but they also facilitated activities that directly reinforced the academic missions of our universities.
 
 <br>
 
