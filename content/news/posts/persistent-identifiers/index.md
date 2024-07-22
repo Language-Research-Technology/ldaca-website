@@ -31,7 +31,7 @@ The PID landscape continues to evolve. If you are interested in delving deeper i
 
 Below are a few examples of PIDs within digital scholarly ecosystems:
 
-- [DOI](https://www.doi.org/) (Digital Object Identifier) — PID for research {{< glossary_link display="objects" id="object" >}}, e.g. academic journal articles, datasets, books, code, media. DOIs are discussed further in the question-and-answer items below.
+- [DOI](https://www.doi.org/) (Digital Object Identifier) — PID for research objects, e.g. academic journal articles, datasets, books, code, media. DOIs are discussed further in the question-and-answer items below.
 - [ORCiD](https://orcid.org/) (Open Researcher Contributor ID) — A registry providing globally unique identifiers for researchers, authors and contributors of scholarly works. Registered users can use the same ID right through their career, with it persisting through name changes and geographic or organisational relocations.
 - [ROR](https://ror.org/) (Research Organization Registry) — A global, community-led registry of open persistent identifiers for research organisations. Allows anyone or any system to disambiguate institution names, and connect research organisations to researchers and research outputs.
 - [The Handle System](https://www.dona.net/handle-system) — A proprietary registry of the Corporation for National Research Initiative ([CNRI](https://www.cnri.reston.va.us/)) that assigns PIDs (“handles”) to information resources in distributed computer systems. It has a central registry to resolve URLs to the current location of the resource. It is the underlying infrastructure for handle-based systems like DOI and [DSpace](https://dspace.lyrasis.org/).
