@@ -1,0 +1,5 @@
+Name: "arcp"
+"title": "ARCP"
+"short_description": "Archive and Packaging ID"
+"content": 'Archive and Packaging ID. A globally unique, searchable ID with zero management overhead, but which can be used like URLs in {{< glossary_link display="linked data" id="linked-data" >}} systems, but does not resolve to content in a browser.'
+"external_link": ""

@@ -9,6 +9,7 @@ aliases:
 
 <br>
 
+[Recurring Events](#recurring-events)&emsp;&emsp;
 [Previous Events](#previous-events)&emsp;&emsp;
 [Webinars](#webinars) &emsp;&emsp;
 
@@ -30,6 +31,8 @@ The hands-on workshop is intended for data librarians and other professionals wh
 
 <br>
 
+## Recurring Events {#recurring-events}
+
 ### RO-Crate Clinic Drop-in
 
 The RO-Crate community run a weekly drop-in call in Australia. For further information contact [Peter Sefton](mailto:p.sefton@uq.edu.au).
@@ -47,7 +50,7 @@ The RO-Crate community run a weekly drop-in call in Australia. For further infor
 
 {{<raw>}}
 
-    <details>
+<details>
     <summary>
         <b>Introduction to Computational Text Analytics.</b>
     </summary>

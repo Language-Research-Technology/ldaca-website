@@ -1,6 +1,6 @@
 ---
 title: "Cite Data"
-date: 2024-04-16T13:09:22+10:00
+date: 2016-04-16T13:09:22+10:00
 draft: false
 description: "A guide to citing collections and data accessed through the portal."
 ---

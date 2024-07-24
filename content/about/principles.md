@@ -14,7 +14,7 @@ The Language Data Commons of Australia aims to ensure long-term access to langua
 
 ## FAIR Principles
 
-The {{< glossary_link display="FAIR" id="fair" >}} principles were [first published](https://www.nature.com/articles/sdata201618) by a group of stakeholders representing academia, industry, funding agencies, and scholarly publishers. The principles aim to address issues surrounding data management and stewardship, focusing on four areas (which provide the {{< glossary_link display="FAIR" id="fair" >}} acronym).
+The {{< glossary_link display="FAIR" id="fair" >}} principles were [first published](https://www.nature.com/articles/sdata201618) by a group of stakeholders representing academia, industry, funding agencies and scholarly publishers. The principles aim to address issues surrounding data management and stewardship, focusing on four areas (which provide the {{< glossary_link display="FAIR" id="fair" >}} acronym).
 <br />
 
 ### Findable
@@ -30,17 +30,17 @@ The {{< glossary_link display="FAIR" id="fair" >}} principles were [first publis
 
 ### Accessible
 
-Once the user finds the required data, she/he/they need to know how they can be accessed, possibly including authentication and authorisation.
+Once the user finds the required data, they need to know how they can be accessed, possibly including authentication and authorisation.
 
 - (Meta)data are retrievable by their identifier using a standardised communications protocol
-  - The protocol is open, free, and universally implementable
+  - The protocol is open, free and universally implementable
   - The protocol allows for an authentication and authorisation procedure, where necessary
 - Metadata are accessible, even when the data are no longer available
   <br />
 
 ### Interoperable
 
-The data usually need to be integrated with other data. In addition, the data need to interoperate with applications or workflows for analysis, storage, and processing.
+The data usually need to be integrated with other data. In addition, the data need to interoperate with applications or workflows for analysis, storage and processing.
 
 - (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation
 - (Meta)data use vocabularies that follow {{< glossary_link display="FAIR" id="fair" >}} principles

@@ -34,7 +34,7 @@ description: "Information about the approach to metadata being taken by LDaCA."
 
 <br>
 
-The metadata schema being developed as part of the LDaCA {{< glossary_link display="RO-Crate" id="ro-crate" >}} profile can be viewed as an [ontology](https://github.com/Language-Research-Technology/language-data-commons-vocabs/blob/master/ontology.md). We are also developing a more fully documented version as a [Gitbook](https://www.gitbook.com/), [Metadata for Language Data](https://ldaca.gitbook.io/metadata-for-language-data/).
+The metadata being developed as part of the LDaCA {{< glossary_link display="RO-Crate" id="ro-crate" >}} profile can be viewed as a [Schema](https://github.com/Language-Research-Technology/language-data-commons-vocabs/blob/master/ontology.md) (a list of terms used to describe language reserouces). We are also developing a more fully documented version as a [Gitbook](https://www.gitbook.com/), [Metadata for Language Data](https://ldaca.gitbook.io/metadata-for-language-data/).
 
 <br>
 
