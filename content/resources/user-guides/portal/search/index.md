@@ -1,6 +1,6 @@
 ---
 title: "Search"
-date: 2024-01-23T14:23:27+11:00
+date: 2021-01-23T14:23:27+11:00
 draft: false
 description: "Refine your queries with word, phrase and pattern searches."
 ---
@@ -78,11 +78,14 @@ The information entered in the Advanced Search text field is treated as part of 
 
 ### Boolean Operators
 
-The standard Boolean operators `AND`, `OR` and `NOT` are supported in Advanced Search. These can either be added in the dropdown menu between fields when ___Add New Line___ is selected, or included within the search text field, using parentheses whenever multiple operators occur together.
+The standard Boolean operators `AND`, `OR` and `NOT` are supported in Advanced Search. These can either be added in the dropdown menu between fields when ___Add New Line___ is selected, or included within the search text field, using parentheses around the full query, e.g. `(koala AND kangaroo)`.
 
 For instance, to search for items that contain both 'rainbow' and 'lorikeet' or 'pink' and 'cockatoo' but not 'galah', the query should be:
 
-`((rainbow AND lorikeet) OR (pink AND cockatoo)) NOT galah`
+`(((rainbow AND lorikeet) OR (pink AND cockatoo)) NOT galah)`
+
+> If you are using multiple Boolean operators within a single text field, you may want to group parts of the query in parentheses like in the example above, but ensure in all cases you remember the parentheses around the full query or the results will be incorrect.
+
 
 To search for the literal words AND, OR and NOT, add a backward slash (\\) before that word to 'escape' it, e.g. `\OR`. Note that this is a situation where the search text is case-sensitive; 'and' does not need to be escaped, but 'AND' does. Escaping will not return case-sensitive matches; it will just prevent its use as a Boolean operator.
 
@@ -93,7 +96,6 @@ To search for the literal words AND, OR and NOT, add a backward slash (\\) befor
 Symbol | Function
 --- | ---
 " " | Use double quotation marks before and after a phrase to search for that exact phrase, e.g. `"public house"`. Entries where a hyphen occurs in the text instead of a space will also be returned in a phrasal search.
-^ | Boost operator that makes one term more relevant than another, e.g. `quick^2 fox` to increase the relevance of 'quick' or `quick^0.5 fox` to reduce it. The default boost value is 1, but can be any positive floating point number. Boosts between 0 and 1 reduce relevance.
 ~ | Creates a fuzzy query to return results similar to the search term by changing, removing, inserting or transposing one or more characters. Add a number following this operator to increase the number of variations, e.g. `brwn~2` will find instances of 'brown', 'been', 'own', etc.<br>Fuzzy queries can also be applied to phrasal searches, allowing the specified words to be further apart or in a different order, e.g. `"house home"~3` will find instances of 'house and home', 'house is my home', 'home, the house', etc.
 ? | Wildcard to replace a single character. Wildcards cannot be included in a phrasal search. e.g. `qu?ck` will find instances of 'quick' and 'quack'.
 \* | Wildcard to replace zero or more characters. Wildcards cannot be included in a phrasal search. e.g. `gre*` will find instances of 'green', 'grew', 'greater', etc. This wildcard can also be used to find related word forms e.g. `ask*` will find instances of 'ask', 'asks', 'asked' and 'asking'.

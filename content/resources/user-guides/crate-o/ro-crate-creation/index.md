@@ -1,8 +1,9 @@
 ---
 title: "RO-Crate Creation"
-date: 2024-05-27T16:01:02+10:00
+date: 2022-03-27T16:01:02+10:00
 draft: false
 description: "A step-by-step guide to creating an RO-Crate metadata file."
+weight: 3
 ---
 
 <br>
@@ -100,6 +101,8 @@ After saving, if there are required properties missing from your {{< glossary_li
 
 ## Append Data from Spreadsheet
 
-If you have a spreadsheet in a compatible format that you want to add to your {{< glossary_link display="collection" id="collection" >}} to assist with {{< glossary_link display="metadata" id="metadata" >}} description, select ___Bulk Add___ in the [Main Menu](/resources/user-guides/crate-o/basic-navigation/#main-menu) and load the spreadsheet. This will append it to your existing {{< glossary_link display="RO-Crate" id="ro-crate" >}}. Note that this option currently only has functionality to add new data, and cannot overwrite or edit existing data in your RO-Crate. ___Bulk Add___ also only reads from the spreadsheet and does not write to it.
+If you have a spreadsheet in a compatible format that you want to add to your {{< glossary_link display="collection" id="collection" >}} to assist with {{< glossary_link display="metadata" id="metadata" >}} description, or you want to create a new RO-Crate only using spreadsheet data, open an existing or new directory, then select ___Bulk Add___ in the [Main Menu](/resources/user-guides/crate-o/basic-navigation/#main-menu) and load the spreadsheet. This will append it to your existing {{< glossary_link display="RO-Crate" id="ro-crate" >}}. For more guidance on the spreadsheet requirements and a template, see [Spreadsheet Upload](/resources/user-guides/crate-o/spreadsheet-upload). 
+
+> Note that this option currently only has functionality to add new data, and cannot overwrite or edit existing data in your RO-Crate. ___Bulk Add___ also only reads from the spreadsheet and does not write to it.
 
 <br>

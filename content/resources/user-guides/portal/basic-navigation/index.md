@@ -1,6 +1,6 @@
 ---
 title: "Basic Navigation"
-date: 2024-01-29T11:45:30+11:00
+date: 2023-01-29T11:45:30+11:00
 draft: false
 description: "A guide to navigating the various sections of the portal interface."
 ---
@@ -89,7 +89,7 @@ The results in the main panel contain a set of top-level descriptions:
 - __Type__: The type of object a record describes, i.e. a collection, object or file. <!--TODO should this be updated to record type so it's in line with the filter name?-->
 - __Language__: The language(s) of the materials (including PrimaryMaterials, DerivedMaterials and Annotations) in this item.
 - __Description__: An abstract of the collection, object, file or notebook.
-- __Members__: The number of items (objects, files, etc.) within the given collection. <!--TODO is there another name for this section?-->
+- __Members__: The number of items (objects, files, etc.) within the given collection. <!--TODO not sure if this is the actual name for this section-->
 - __Member of__: The collection that an object, file or notebook is a part of.
 
 > Note that top-level descriptions will not appear in cases where they aren't provided for that item, e.g. usually _Description_ is not present for objects and files, and _Member of_ does not appear for top-level collections.

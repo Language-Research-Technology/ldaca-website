@@ -4,6 +4,8 @@ date: 2022-11-07T17:13:28+10:00
 draft: false
 ---
 
+<br>
+
 **Bio**
 My name is Otis Carmichael and I am a proud Waanyi man living in Meanjin. My designs reflect my appreciation of the past and my hope for the future.
 
@@ -41,4 +43,4 @@ The colours utilised in this design draw from those that are seen in my peoples 
 
 {{< /raw >}}
 
-
+<br>

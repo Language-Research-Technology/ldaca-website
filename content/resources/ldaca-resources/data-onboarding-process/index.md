@@ -109,13 +109,13 @@ A persistent identifier for the collection must also be provided to support sust
 
 #### LDaCA will:
 
-1. Provide guidance and support with regards to {{< glossary_link display="data governance" id="data-governance" >}}, persistent identifiers, determining {{< glossary_link display="access conditions" id="access-conditions" >}}, and {{< glossary_link display="licensing" id="licensing" >}}.
+1. Provide guidance and support with regards to {{< glossary_link display="data governance" id="data-governance" >}}, persistent identifiers, determining {{< glossary_link display="access conditions" id="access-conditions" >}} and {{< glossary_link display="licensing" id="licensing" >}}.
 
 <br>
 
 #### Data Steward will:
 
-1. Review the legal, ethical, and moral conditions for providing access to the collection, including the identification of existing data access licenses if applicable.
+1. Review the legal, ethical and moral conditions for providing access to the collection, including the identification of existing data access licenses if applicable.
 2. Ensure that any agreed-on restrictions with funding bodies and participants are strictly adhered to.
 3. Identify the copyright holder and confirm the copyright status.
 4. Provide or develop data access licenses that outline the specific conditions for access to the collection, including citation information.

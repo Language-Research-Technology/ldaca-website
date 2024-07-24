@@ -31,8 +31,6 @@ __Current Collections:__
 
 ## [Indigenous Language Data (ILD) Portal](https://ild.ldaca.edu.au)
 
-The Indigenous Language Data (ILD) Portal
-
 <!--TODO add description-->
 
 <br>   

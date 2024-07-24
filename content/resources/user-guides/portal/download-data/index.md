@@ -1,6 +1,6 @@
 ---
 title: "Download Data"
-date: 2024-01-29T11:39:04+11:00
+date: 2017-01-29T11:39:04+11:00
 draft: false
 description: "A guide to downloading individual files from the portal."
 ---
