@@ -3,6 +3,7 @@ title: "General Information"
 date: 2024-05-22T15:43:09+10:00
 draft: false
 description: "A brief overview of Crate-O, RO-Crate, Schemas, Profiles and Modes."
+weight: 1
 ---
 
 <br>
@@ -50,12 +51,12 @@ The diagram below shows the hierarchical relationship between {{< glossary_link 
 
 <br>
 
-The metadata is organised according to schema.org entity types.
+The metadata is organised according to Schema.org entity types.
 
 Entity | Definition
 --- | ---
-Class | (rdfs: Class) is used to classify resources. {{< glossary_link display="Classes" id="class" >}} in the Language Data Commons (LDAC) schema include CollectionEvent, CollectionProtocol, DataDepositLicense, DataLicense and DataReuseLicense (see https://w3id.org/ldac/terms).
-Property | (rdfs: Property) is an attribute of an instance of a Class. For example, on an entity that is an instance of Class Person the property “name” would be their name, expressed as a text string, while “affiliation” would be a property that referenced another entity, their university.
+Class | `rdfs:Class` is used to classify resources. {{< glossary_link display="Classes" id="class" >}} in the Language Data Commons (LDAC) schema include CollectionEvent, CollectionProtocol, DataDepositLicense, DataLicense and DataReuseLicense (see https://w3id.org/ldac/terms).
+Property | `rdfs:Property` is an attribute of an instance of a Class. For example, on an entity that is an instance of Class Person the property “name” would be their name, expressed as a text string, while “affiliation” would be a property that referenced another entity, their university.
 DefinedTerm | A 'word, name, acronym, phrase, etc. with a formal definition', 'often used in the context of category or subject classification.' DefinedTerms allow us to a) have accurate definitions of the values we want to give to properties, and b) group such definitions in DefinedTermSets, which can function as controlled vocabularies.
 
 <br>
@@ -174,6 +175,6 @@ To make an RO-Crate {{< glossary_link display="Mode" id="mode" >}} File, we tran
 
 <br>
 
-{{< image Src="/user-guides/crate-o/soss-to-profile.svg" Alt="Base Mode File creation, combining the schema.org schema and RO-Crate additions using the rocsoss script" Desc="Base Mode File creation, combining the schema.org schema and RO-Crate additions using the rocsoss script" Title="Base Mode File creation, combining the schema.org schema and RO-Crate additions using the rocsoss script" Ref="LDaCA" >}}
+{{< image Src="/user-guides/crate-o/soss-to-profile.svg" Alt="Base Mode File creation, combining the Schema.org schema and RO-Crate additions using the rocsoss script" Desc="Base Mode File creation, combining the Schema.org schema and RO-Crate additions using the rocsoss script" Title="Base Mode File creation, combining the Schema.org schema and RO-Crate additions using the rocsoss script" Ref="LDaCA" >}}
 
 <br>

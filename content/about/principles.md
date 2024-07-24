@@ -30,7 +30,7 @@ The {{< glossary_link display="FAIR" id="fair" >}} principles were [first publis
 
 ### Accessible
 
-Once the user finds the required data, she/he/they need to know how they can be accessed, possibly including authentication and authorisation.
+Once the user finds the required data, they need to know how they can be accessed, possibly including authentication and authorisation.
 
 - (Meta)data are retrievable by their identifier using a standardised communications protocol
   - The protocol is open, free and universally implementable

@@ -33,7 +33,7 @@ def count_word_occurrences(glossary_file, text_file):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Count occurrences of glossary terms case-insensitively in a text document to assist with adding tooltips.')
     parser.add_argument('glossary_file', help='Path to the glossary file containing the list of words (this can be multi-words as well).')
-    parser.add_argument('text_file', help='Path to the text document. Copy this from the localhost web view rather than directly from the Markdown file.')
+    parser.add_argument('text_file', help='Path to the text document. The Markdown file can be dragged directly into the terminal window, or the localhost version can be saved to a file and used.')
 
     args = parser.parse_args()
 
@@ -42,6 +42,6 @@ if __name__ == "__main__":
     # Print the results
     for word, count in word_occurrences.items():
         print(f"{word}: {count}")
-print(f"\nTooltip guidelines:\n- Check the context of these matches; they may not be applicable!\n- Don't add tooltips to headings or image text.\n- If the same glossary item occurs more than once in a single paragraph, add a tooltip for the first instance.")
+print(f"\nTooltip guidelines:\n- Check the context of these matches; they may not be applicable!\n- Don't add tooltips to headings, image text and URLs.\n- If the glossary item already has a direct link, don't add a tooltip (this can be added to the next occurence).\n- If the same glossary item occurs more than once in a single paragraph, only add a tooltip for the first instance.")
 text = '{{< glossary_link display="TERM_TO_DISPLAY" id="YML_NAME" >}}'
 print(f"Glossary Template: {text}")

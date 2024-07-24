@@ -1,6 +1,6 @@
 ---
 title: "Search"
-date: 2024-01-23T14:23:27+11:00
+date: 2021-01-23T14:23:27+11:00
 draft: false
 description: "Refine your queries with word, phrase and pattern searches."
 ---
