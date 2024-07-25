@@ -1,8 +1,8 @@
 ---
 title: "LDaCA Newsletter Quarter 3 2023"
-date: 2021-07-13T10:37:28+10:00
+date: 2023-07-13T10:37:28+10:00
 draft: false
-weight: 1
+weight: 5
 --- 
 
 <raw>

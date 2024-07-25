@@ -22,7 +22,7 @@
   {{- end -}}
   {{- range $pages.PageGroups -}}
   <!-- <h3 class="group-title">{{ .Key }}</h3> -->
-  {{- range .Pages.ByTitle -}}
+  {{- range .Pages.ByWeight -}}
   <article class="archive-item">
     <a href="{{ .RelPermalink }}" class="archive-item-link">
       <h2 class="archive-item-title">{{- .Title | emojify -}}</h2>
