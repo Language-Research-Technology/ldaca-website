@@ -2,7 +2,7 @@
 title: "LDaCA Newsletter Quarter 2 2024"
 date: 2023-02-04T10:37:28+10:00
 draft: false
-weight: 1
+weight: 2
 --- 
 
 <raw>

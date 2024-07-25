@@ -55,6 +55,7 @@
       <div class="slide__content">
         <h1>Resources</h1>
         <h3>Explore resources created by <a href="./resources/ldaca-resources/">LDaCA</a> and <a href="./resources/general-resources/">others.</a></h3>
+        <h3>Visit <a href="./resources/general-resources/glossary/">our glossary</a> for any confusing terms or acronyms. </a></h3>
       </div> 
   </div>
 
