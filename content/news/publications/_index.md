@@ -2,7 +2,7 @@
 title: "Publications"
 date: 2024-04-19T14:17:24+11:00
 draft: false
-description: "Publications produced by the LDaCA project"
+description: "Publications produced by the LDaCA project."
 type: "custom"
 layout: "root_list"
 ---

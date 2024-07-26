@@ -2,7 +2,7 @@
 
 {{- $id := .Get "id" -}} {{- $data := index .Site.Data.glossary $id -}} {{-
 $tooltip := $data.short_description -}} {{- $link := print
-"/resources/general-resources/glossary/#" $id -}} {{- $head_word := .Get
+"/resources/glossary/#" $id -}} {{- $head_word := .Get
 "display" -}}
 <a href="{{ $link }}" title="{{ $tooltip }}" target="_blank"
   >{{- $head_word -}}</a
