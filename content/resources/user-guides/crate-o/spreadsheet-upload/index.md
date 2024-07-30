@@ -172,7 +172,7 @@ name | Data entry | The name of the object.
 description | Data entry | A description of the object.
 isRef_speaker | Pre-filled | Generated from the `.pseudonym` column with `#` prefixed.
 .pseudonym | Data entry | An example of a column from a {{< glossary_link display="data steward" id="data-steward" >}}'s source data, so that speakers in the collection are anonymised.
-datePublished | Data entry | The date the object was published.
+datePublished | Data entry | The date the object was published. The date will be converted in {{< glossary_link display="Crate-O" id="crate-o" >}} to ISO 8601 format, e.g. _Wed Jun 12 2024 10:00:00 GMT+1000 (Australian Eastern Standard Time)_.
 isRef_pdcm:memberOf | Pre-filled | The collection this object is a member of, generated from the `@id` column in the Root tab. Or if the collection contains sub-collections, a reference to another RepositoryCollection `@id`.
 isRef_license | Data entry | The `@id` of the license to which this object adheres.
 isRef_indexableText | Data entry | Identifies which of the files in the given object has content that is indexed for search purposes. For example, in the template, the content of the CSV file would be searchable, whereas the EAF and WAV files would not. If `isRef_indexableText` is not included in a collection, search will only run on the {{< glossary_link display="metadata" id="metadata" >}} and not the transcript file content.
