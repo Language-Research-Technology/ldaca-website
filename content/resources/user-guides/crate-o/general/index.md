@@ -15,11 +15,13 @@ weight: 1
 
 <br>
 
-{{< glossary_link display="Crate-O" id="crate-o" >}} is a browser-based editor that allows you to create and update [Research Object Crates](https://www.researchobject.org/ro-crate) (RO-Crates), either using the web interface or with {{< glossary_link display="metadata" id="metadata" >}} from a spreadsheet. It provides researchers with a relatively simple way to describe their data using best practice in formal metadata description.
+[Crate-O](https://github.com/Language-Research-Technology/crate-o) is a browser-based editor that allows you to create and update [Research Object Crates](https://www.researchobject.org/ro-crate) (RO-Crates), either using the web interface or with {{< glossary_link display="metadata" id="metadata" >}} from a spreadsheet. It provides researchers with a relatively simple way to describe their data using best practice in formal metadata description.
+
+Designed as a Vue component, Crate-O can be easily integrated into any Vue.js project. Simply install the component with npm and include it in your application. As a Vue software component, it can be used, cloned and distributed by anyone.
+
+Crate-O is implemented in the GitHub page [Crate-O](https://language-research-technology.github.io/crate-o/#/). This implementation works only with [Google Chrome](https://google.com/chrome) and [Microsoft Edge](https://microsoft.com/edge).  It does not link to other services, and as such, any data uploaded to Crate-O will not go anywhere other than populating your RO-Crate. We will be releasing versions that work with online resources directly, which will be compatible with other browsers (see the [Roadmap](https://github.com/Language-Research-Technology/crate-o#roadmap--backlog)).
 
 {{< glossary_link display="RO-Crate" id="ro-crate" >}} is a way of packaging research data that stores the data together with its associated metadata and other component files, such as the {{< glossary_link display="data license" id="data-license" >}}. It is a flexible, developer-friendly approach to {{< glossary_link display="linked-data" id="linked-data" >}} description and packaging.
-
-Currently, Crate-O works only with [Google Chrome](https://google.com/chrome) and [Microsoft Edge](https://microsoft.com/edge). We will be releasing versions that work with online resources directly, which will be compatible with other browsers (see the [Roadmap](https://github.com/Language-Research-Technology/crate-o#roadmap--backlog)).
 
 While the current version of Crate-O is designed for editing self-contained RO-Crates (and works fine with crates containing tens of thousands of entities), our roadmap includes adding the ability to edit fragments of larger linked-data resources and to integrate with repositories, such as the {{< glossary_link display="Oni" id="oni" >}} repository, data {{< glossary_link display="API" id="api" >}} and archival repositories such as the Language Data Commons of Australia.
 
