@@ -97,6 +97,21 @@
 </div>
 
 <div class="flex_container">
+  <div class="flex_item panel">
+    <a href="./resources/data-users/">
+      <img Src="/home/tree-top.png"  alt="Tree root design">
+      <h2 class="overlay">Resources for Data Users</h2>
+    </a>
+  </div>
+  <div class="flex_item panel">
+    <a href="./resources/data-contributors/">
+      <img Src="/home/tree-bottom.png" alt="Tree root design">
+      <h2 class="overlay">Resources for Data Contributors</h2>
+    </a>
+  </div>
+</div>
+
+<div class="flex_container">
   <p class="flex_item">
     Australia is a massively multilingual country, in one of the world’s most linguistically diverse regions. Significant {{< glossary_link display="collections" id="collection" >}} of this intangible cultural heritage have been amassed, including collections of Aboriginal and Torres Strait Islander languages, Australian Englishes, and regional languages of the Pacific, as well as collections important for cyber-security and for emergency communication. {{< glossary_link display="LDaCA" id="ldaca" >}} is integrating this existing work into a national research infrastructure while also securing at-risk collections and improving access to under-utilised collections. LDaCA is thus ensuring that these invaluable resources will be available for analysis and reuse in the future, and that they will be managed in a culturally, ethically and legally appropriate manner guided by {{< glossary_link display="FAIR" id="fair" >}} and {{< glossary_link display="CARE" id="care" >}} principles.
   </p>
