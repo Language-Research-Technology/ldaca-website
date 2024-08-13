@@ -14,11 +14,11 @@ We have a page on [LinkedIn](https://www.linkedin.com/company/ldaca/) and we sha
 
 {{< raw >}}
 
-<div class="flex_container">
-    <div class="flex_item">
+<div class="flex_container" style="gap: 5%;">
+    <div class="flex_item team_div">
         <h2>Our Team</h2>
         <p>Our team is spread throughout Australia, with connections to our partner institutions and projects. </p>
-        <img src="/contact/ldaca-team.png">
+        <img src="/contact/ldaca-team.jpg">
     </div>
     <div class="twitter flex_item">
         <a class="twitter-timeline"
