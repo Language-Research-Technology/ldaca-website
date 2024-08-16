@@ -23,13 +23,13 @@ The University of Queensland is committed to growing the opportunities for Indig
 
 This event will present a panel of Indigenous researchers, data custodians and data stewards discussing current developments in this field including:
 
-- The importance of Indigenous Cultural and Intellectual Property concerns
-- Governance of Indigenous Data Framework for the HASS & Indigenous Research Data Commons
-- Tools and methods for data governance.
+- the importance of Indigenous Cultural and Intellectual Property concerns
+- governance of Indigenous Data Framework for the HASS & Indigenous Research Data Commons
+- tools and methods for data governance.
 
 **Panellists**: {{< profile id="barrowcliffe" >}}, {{< profile id="mclellan" >}}, {{< profile id="acres" >}}. The discussion will be facilitated by Grant Sarra.
 
-**When**: 4-6pm, 30 September 2024
+**When**: 4–6pm, 30 September 2024
 
 **Where**: Anthropology Museum, Michie Building, The University of Queensland (St Lucia Campus)
 
