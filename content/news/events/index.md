@@ -4,7 +4,7 @@ date: 2023-10-18T11:12:10+10:00
 draft: false
 description: "Browse the project's upcoming events."
 aliases:
-    - "/events/"
+  - "/events/"
 ---
 
 <br>
@@ -12,6 +12,28 @@ aliases:
 [Recurring Events](#recurring-events)&emsp;&emsp;
 [Previous Events](#previous-events)&emsp;&emsp;
 [Webinars](#webinars) &emsp;&emsp;
+
+<br>
+
+### Indigenous Data Governance: A discussion
+
+#### Part of The University of Queensland Research and Innovation Week 2024
+
+The University of Queensland is committed to growing the opportunities for Indigenous people to lead and conduct their own research. One important strand in developing this innovative research culture is ensuring that appropriate governance is in place for Indigenous data.
+
+This event will present a panel of Indigenous researchers, data custodians and data stewards discussing current developments in this field including:
+
+- The importance of Indigenous Cultural and Intellectual Property concerns
+- Governance of Indigenous Data Framework for the HASS & Indigenous Research Data Commons
+- Tools and methods for data governance.
+
+**Panellists**: {{< profile id="barrowcliffe" >}}, {{< profile id="mclellan" >}}, {{< profile id="acres" >}}. The discussion will be facilitated by Grant Sarra.
+
+**When**: 4-6pm, 30 September 2024
+
+**Where**: Anthropology Museum, Michie Building, The University of Queensland (St Lucia Campus)
+
+**[Details](https://research-support.uq.edu.au/event/session/14691)**
 
 <br>
 
@@ -40,7 +62,6 @@ The RO-Crate community run a weekly drop-in call in Australia. For further infor
 **When**: Weekly, Thursday 14:00 AEST
 
 **Where**: Online via [Zoom](https://uqz.zoom.us/j/86281717601)
-
 
 <hr />
 
@@ -294,10 +315,9 @@ If your university or organisation would like to host a workshop, please [contac
 ### Webinars {#webinars}
 
 Our webinar series was a joint initiative with the Language Technology and Data Analysis Laboratory ([LADAL](https://slcladal.github.io/index.html)) at the School of Languages and Cultures, The University of Queensland.
-    
 
 {{<raw>}}
-        
+
     <details>
         <summary>
             <b>October 3 2022 - Paweł Kamocki: European Union Data Protection initiatives and their consequences for research</b>
@@ -328,7 +348,7 @@ Our webinar series was a joint initiative with the Language Technology and Data 
 
 <br>
 
-### Australian Digital Observatory Online Office Hours 
+### Australian Digital Observatory Online Office Hours
 
 LDaCA has previously run regular online office hours, jointly hosted with the Australian Digital Observatory ({{< glossary_link display="ADO" id="ado" >}}). This activity will not continue in 2024, but LDaCA and {{< glossary_link display="ADO" id="ado" >}} are developing an alternative model to help Australian researchers working with linguistics, text analytics, digital and computational methods, social media and web archives.
 
