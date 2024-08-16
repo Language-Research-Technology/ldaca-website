@@ -28,7 +28,7 @@
         
         <h3><li>Event: Indigenous Data Governance: A discussion (part of The University of Queensland Research and Innovation Week) (<a href = "./news/events/" target="_blank">Learn more ➤</a>)</li></h3>
         <h3><li>Media: Robert McLellan talks to Sarah Morice for ABC NewsRadio (<a href = "https://vimeo.com/998991692" target="_blank">Listen ➤</a>)</li></h3>
-        <h3><li>Media: Story from UQ News: "Securing voices of Country' (<a href = "https://www.uq.edu.au/news/article/2024/08/securing-voices-of-country" target="_blank">Read more ➤</a>)</li></h3>
+        <h3><li>Media: Story from UQ News: "Securing voices of Country" (<a href = "https://www.uq.edu.au/news/article/2024/08/securing-voices-of-country" target="_blank">Read more ➤</a>)</li></h3>
         <h3><li>Publication: A mixed-methods approach to understand victimization discourses by opposing feminist sub-groups on social media (<a href = "https://doi.org/10.1111/bjso.12785" target="_blank">Read more ➤</a>)</li></h3>
         </ul>
       </div>  
