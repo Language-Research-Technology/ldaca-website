@@ -12,7 +12,7 @@ The program supports research students to explore the possibilities of digital s
 
 - Computational analysis of text
 - Analysis of digital images
-- Automatic speech recognition (and auotmatiuc non-speech recognition)
+- Automatic speech recognition (and automatic non-speech recognition)
 
 The Fellows met regularly in activities to develop a sound understanding of digital research methods and tools, including seminars and training workshops. They also had access to mentors who advised and collaborated on their digital projects.
 
