@@ -49,7 +49,7 @@ The hands-on workshop is intended for data librarians and other professionals wh
 
 **Where**: Engma Room (Room 3.165), Coombs Building, Australian National University
 
-**Details**: (registration form to come shortly)
+**Further information**: If you are interested in participating in this workshop, please contact [Peter Sefton](mailto:p.sefton@uq.edu.au)
 
 <br>
 
