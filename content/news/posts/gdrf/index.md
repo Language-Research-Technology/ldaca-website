@@ -2,8 +2,8 @@
 title: "Graduate Digital Research Fellowship"
 date: 2024-01-10T09:00:00+10:00
 draft: false
-aliases: 
-- "/posts/gdrf/"
+aliases:
+  - "/posts/gdrf/"
 ---
 
 In 2018, when he was working at The University of Queensland's ({{< glossary_link display="UQ" id="uq" >}}) Research Computing Centre ([RCC](https://rcc.uq.edu.au/)), Marco Fahmi (former {{< glossary_link display="LDaCA" id="ldaca" >}} Project Manager) initiated a [Graduate Digital Research Fellowship](https://rcc.uq.edu.au/article/2018/07/six-students-become-uq%E2%80%99s-first-graduate-digital-research-fellows) (GDRF) program focused on researchers in the Humanities and Social Sciences ({{< glossary_link display="HASS" id="hass" >}}). The program has run in some years since then, hosted by the RCC ([2019](https://rcc.uq.edu.au/article/2019/03/second-round-graduate-digital-research-fellows-announced)) and also by the {{< glossary_link display="UQ" id="uq" >}} Graduate School ([2020](https://rcc.uq.edu.au/article/2019/11/apply-now-uq-graduate-digital-research-fellowship-2020)).
@@ -51,6 +51,12 @@ Christina's research investigates where cisgender women create the boundaries fo
 In Christina's words:
 
 > The Fellowship was instrumental in honing my ideas and offering invaluable hands-on support to bring my vision to life. It played a pivotal role in developing one of the most exciting and interesting projects of my PhD and I look forward to using these new skills and ways of thinking in future digitally-based projects.
+
+**Update - August 2024**
+
+Christina's work has now been published as a journal article with Sam as one of her co-authors:
+
+Maxwell, C., Selvanathan, H. P., Hames, S., Crimston, C. R., & Jetten, J. (2024). A mixed-methods approach to understand victimization discourses by opposing feminist sub-groups on social media. _British Journal of Social Psychology_, 00, 1–22. https://doi.org/10.1111/bjso.12785
 
 <br>
 

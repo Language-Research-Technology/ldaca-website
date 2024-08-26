@@ -15,6 +15,8 @@ A variety of {{< glossary_link display="LDaCA" id="ldaca" >}} open-source tools 
 
 [Crate-O](https://language-research-technology.github.io/crate-o/#/): A tool that allows you to create and update Research Object Crates ({{< glossary_link display="RO-Crates" id="ro-crate" >}}) using a web interface, and with {{< glossary_link display="metadata" id="metadata" >}} spreadsheets. It provides researchers with a relatively simple way to describe their data using the best practices in formal metadata description.
 
+For more information about Crate-O and how to create RO-Crates with the interface, see the [Crate-O User Guide](/resources/user-guides/crate-o).
+
 <br>
 
 ## Data Storage
