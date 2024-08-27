@@ -985,7 +985,7 @@ footer hr {
 
 .panel:hover {
   .overlay {
-    top: 60%;
+    opacity: 60%;
   }
 }
 
@@ -995,6 +995,7 @@ footer hr {
   padding: 14% 0;
   position: absolute;
   top: 30%;
+  opacity: 100%;
   color: black;
-  transition: top 1s;
+  transition: opacity 1s;
 }

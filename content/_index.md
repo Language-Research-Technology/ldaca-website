@@ -44,6 +44,7 @@
       <div class="slide__content">
         <h1>About</h1>
         <h3><a href="about/">Learn more</a> about LDaCA, what it does and who is involved in the project.</h3>
+        <h3>Our <a href="about/faqs/">Frequently Asked Questions page</a> can help with the most commonly asked questions about our project. </h3>
       </div> 
     <!-- </a> -->
   </div>
@@ -57,6 +58,7 @@
         <h1>Resources</h1>
         <h3>Explore resources created by <a href="./resources/ldaca-resources/">LDaCA</a> and <a href="./resources/general-resources/">others.</a></h3>
         <h3>Visit <a href="./resources/glossary/">our glossary</a> for any confusing terms or abbreviations. </a></h3>
+        <h3>View resources designed for <a href="./resources/data-users/">data users</a> and <a href="./resources/data-contributors/">data contributors</a>.</h3>
       </div> 
   </div>
 
@@ -68,6 +70,7 @@
     <div class="slide__content">
       <h1>News</h1>
       <h3>Follow <a href="./news/">what's new</a> at LDaCA</a> and be informed about <a href="./news/events/">events</a> which we organise.</h3>
+      <h3>View the <a href="./news/publications/">publications</a> produced by LDaCA as well as <a href="./news/posts/">blog posts</a> written by our team.</h3>
     </div>
   </div>
 
@@ -98,6 +101,13 @@
 </div>
 
 <div class="flex_container">
+  <p class="flex_item">
+    Australia is a massively multilingual country, in one of the world’s most linguistically diverse regions. Significant {{< glossary_link display="collections" id="collection" >}} of this intangible cultural heritage have been amassed, including collections of Aboriginal and Torres Strait Islander languages, Australian Englishes, and regional languages of the Pacific, as well as collections important for cyber-security and for emergency communication. {{< glossary_link display="LDaCA" id="ldaca" >}} is integrating this existing work into a national research infrastructure while also securing at-risk collections and improving access to under-utilised collections. LDaCA is thus ensuring that these invaluable resources will be available for analysis and reuse in the future, and that they will be managed in a culturally, ethically and legally appropriate manner guided by {{< glossary_link display="FAIR" id="fair" >}} and {{< glossary_link display="CARE" id="care" >}} principles.
+  </p>
+  <img class="flex_item logo" src="logo.png" alt="LDaCA Logo">
+</div>
+
+<div class="flex_container">
   <div class="flex_item panel">
     <a href="./resources/data-users/">
       <img Src="/home/tree-top.png"  alt="Tree root design">
@@ -110,13 +120,6 @@
       <h2 class="overlay">Resources for Data Contributors</h2>
     </a>
   </div>
-</div>
-
-<div class="flex_container">
-  <p class="flex_item">
-    Australia is a massively multilingual country, in one of the world’s most linguistically diverse regions. Significant {{< glossary_link display="collections" id="collection" >}} of this intangible cultural heritage have been amassed, including collections of Aboriginal and Torres Strait Islander languages, Australian Englishes, and regional languages of the Pacific, as well as collections important for cyber-security and for emergency communication. {{< glossary_link display="LDaCA" id="ldaca" >}} is integrating this existing work into a national research infrastructure while also securing at-risk collections and improving access to under-utilised collections. LDaCA is thus ensuring that these invaluable resources will be available for analysis and reuse in the future, and that they will be managed in a culturally, ethically and legally appropriate manner guided by {{< glossary_link display="FAIR" id="fair" >}} and {{< glossary_link display="CARE" id="care" >}} principles.
-  </p>
-  <img class="flex_item logo" src="logo.png" alt="LDaCA Logo">
 </div>
 
 <div style="text-align: center; padding: 3% 0%;"><h2>

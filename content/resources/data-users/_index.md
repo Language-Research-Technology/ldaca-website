@@ -4,15 +4,15 @@ date: 2023-11-01T16:54:49+11:00
 draft: false
 type: "custom"
 layout: "root_list"
-description: "A collection of resources for people interested in using data."
+description: "A collection of resources for people interested in finding, accessing and using data."
 weight: 2
 ---
 
-> A collection of resources for people interested in using data.
+> A collection of resources for people interested in finding, accessing and using data.
 {{< raw >}}
 <article class="archive-item">
     <a href="/resources/user-guides/portal/" class="archive-item-link">
-        <h2 class="archive-item-title">Portal User Guides</h2>
+        <h2 class="archive-item-title">Portal User Guide</h2>
         <p class="archive-item-description"> Information related to using the Data Portal. </p>
     </a>
 </article>
@@ -33,21 +33,21 @@ weight: 2
 <article class="archive-item">
     <a href="/resources/general-resources/case-studies/" class="archive-item-link">
         <h2 class="archive-item-title">Case Studies</h2>
-        <p  class="archive-item-description">Especially relevent case studies include Harriet Sheppard's Fieldwork in Papua New Guinea and Catherine Travis' Sydney Speaks project. </p>
+        <p  class="archive-item-description">Especially relevent case studies include the Fieldwork in Papua New Guinea and Catherine Travis' Sydney Speaks projects. </p>
     </a>
 </article>
 
 <article class="archive-item">
     <a href="/news/events/" class="archive-item-link">
         <h2 class="archive-item-title">Events</h2>
-        <p class="archive-item-description"> Browse the project's upcoming events. </p>
+        <p class="archive-item-description"> Browse the LDaCA project's upcoming events. </p>
     </a>
 </article>
 
 <article class="archive-item">
-    <a href="/news/blog/" class="archive-item-link">
+    <a href="/news/posts/" class="archive-item-link">
         <h2 class="archive-item-title">Blog</h2>
-        <p class="archive-item-description"> Read blog posts written by members of our team about the Language Research domain. </p>
+        <p class="archive-item-description"> Read blog posts written by members of our team about language-related topics. </p>
     </a>
 </article>
 
