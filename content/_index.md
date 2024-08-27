@@ -106,6 +106,7 @@
   </p>
   <img class="flex_item logo" src="logo.png" alt="LDaCA Logo">
 </div>
+<br><br>
 
 <div class="flex_container">
   <div class="flex_item panel">

@@ -41,7 +41,7 @@ weight: 2
 <article class="archive-item">
     <a href="/resources/general-resources/case-studies/" class="archive-item-link">
         <h2 class="archive-item-title">Case Studies</h2>
-        <p class="archive-item-description"> View our case studies; we specifically recommend Data Management in Language Technology: A Case Study of Appen and Sydney Speaks. </p>
+        <p class="archive-item-description"> View our case studies; we specifically recommend 'Data Management in Language Technology: A Case Study of Appen' and 'Sydney Speaks'. </p>
     </a>
 </article>
 
