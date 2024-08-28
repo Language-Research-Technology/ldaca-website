@@ -326,8 +326,8 @@ enableRobotsTXT = true
   [params.analytics]
     enable = true
     # Google Analytics
-    [params.analytics.google]
-      id = "G-FB1HPY48WQ"
+    [params.analytics.google]      
+      id = "G-C3GSGXCYV6"
       # whether to anonymize IP
       anonymizeIP = true
 # Menu
