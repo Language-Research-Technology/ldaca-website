@@ -37,6 +37,24 @@ This event will present a panel of Indigenous researchers, data custodians and d
 
 <br>
 
+### Using Hansard & Other Parliamentary Proceedings for Your Research
+
+Parliamentary bodies around the world have been publishing transcriptions of their proceedings for decades or even centuries. These transcriptions enable public scrutiny and transparency of the actions and speech of legislative bodies and elected representatives. Because of their documentation of legislative action and speech, their relatively consistent format, and their coverages of long periods of time they are potentially useful for policy researchers, media and communication scholars, political scientists, linguists, sociologists, historians, and many others.
+
+This workshop aims to provide a starting point for working with these transcribed proceedings, including evaluating how it might (and might not!) be useful for your research, how to get started for different kinds of projects, and cautionary notes on potential limitations. We will be using a suite of computational text analysis approaches, with no prior coding experience necessary.
+
+We will include an overview of different proceedings around the world, the variety of different access mechanisms, pre-collected datasets, and different ways you can work with Hansards. Guest presenters from different fields will showcase their research. In the second half of the workshop we will run an interactive session on working with the proceedings of the Australian Federal Parliament.
+
+**Leaders**: {{< profile id="hames" >}}, {{< profile id="musgrave" >}}
+
+**When**: 19 September 2024, 10am—1pm
+
+**Where**: RD Watt Building (A04), Seminar Room 203, The University of Sydney
+
+**[Registration](https://www.eventbrite.com.au/e/workshop-using-hansard-other-parliamentary-proceedings-for-your-research-tickets-1002201841687?aff=oddtdtcreator)**
+
+ <br>
+
 ### Data Migration Skills Workshop
 
 The Language Data Commons of Australia infrastructure is based on widely-accepted standards such as [Research Object Crates](https://www.researchobject.org/ro-crate/) and the [Oxford Common File Layout](https://ocfl.io/). The project has been running for more than three years and the processes and tools for aligning data with these standards are now well-developed. This workshop aims to show the application of those tools to data in a variety of formats to efficiently migrate material to the LDaCA standards.
