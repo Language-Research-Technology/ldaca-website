@@ -111,14 +111,14 @@
 <div class="flex_container">
   <div class="flex_item panel">
     <a href="./resources/data-users/">
+      <h2 class="">Resources for Data Users</h2>
       <img Src="/home/tree-top.png"  alt="Tree root design">
-      <h2 class="overlay">Resources for Data Users</h2>
     </a>
   </div>
   <div class="flex_item panel">
     <a href="./resources/data-contributors/">
+      <h2 class="">Resources for Data Contributors</h2>
       <img Src="/home/tree-bottom.png" alt="Tree root design">
-      <h2 class="overlay">Resources for Data Contributors</h2>
     </a>
   </div>
 </div>
