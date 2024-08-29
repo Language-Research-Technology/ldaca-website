@@ -106,18 +106,17 @@
   </p>
   <img class="flex_item logo" src="logo.png" alt="LDaCA Logo">
 </div>
-<br><br>
 
 <div class="flex_container">
   <div class="flex_item panel">
     <a href="./resources/data-users/">
-      <h2 class="">Resources for Data Users</h2>
+      <h2 class=".archive-item-link">Resources for Data Users</h2>
       <img Src="/home/tree-top.png"  alt="Tree root design">
     </a>
   </div>
   <div class="flex_item panel">
     <a href="./resources/data-contributors/">
-      <h2 class="">Resources for Data Contributors</h2>
+      <h2 class=".archive-item-link">Resources for Data Contributors</h2>
       <img Src="/home/tree-bottom.png" alt="Tree root design">
     </a>
   </div>
