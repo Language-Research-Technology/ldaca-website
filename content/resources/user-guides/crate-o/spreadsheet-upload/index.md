@@ -75,7 +75,7 @@ Below the header, an example row is included to illustrate how the section can b
 
 <br>
 
-At a minimum, it’s best practice to include **@id** and **@type** columns in each of your spreadsheet tabs, as these appear in Crate-O for each of the entities. The tables in the next section provide further details on what constitutes a valid **@id** and **@type** in each tab. For more detailed lists of these, see [Metadata for Language Data](https://ldaca.gitbook.io/metadata-for-language-data/).
+At a minimum, it’s best practice to include `@id` and `@type` columns in each of your spreadsheet tabs, as these appear in Crate-O for each of the entities. The tables in the next section provide further details on what constitutes a valid `@id` and `@type` in each tab. For more detailed lists of these, see [Metadata for Language Data](https://ldaca.gitbook.io/metadata-for-language-data/).
 
 > HINT: To type a column name beginning with `@` in Excel, put an apostrophe before it `'@`. This will force it to be recognised as a text value rather than a formula.
 
@@ -105,6 +105,7 @@ The root tab provides information about the top level of the {{< glossary_link d
 | isRef_author    | Pre-filled | Generated from the `@id` column in the [Authors](#authors) tab.                                                                                                         |
 | isRef_publisher | Pre-filled | Generated from the `@id` column in the [Publishers](#publishers) tab.                                                                                                   |
 | isRef_license   | Pre-filled | Generated from the `@id` column in the [Licenses](#licenses) tab.                                                                                                       |
+| datePublished   | Data entry | The date the object was published. The date should be in the ISO 8601 format YYYY-MM-DD.                                                                                |
 
 <br>
 
@@ -167,6 +168,18 @@ This tab contains information about the people within the {{< glossary_link disp
 
 <br>
 
+### Localities
+
+TODO description
+
+| Column | Type       | Description                                                                    |
+| ------ | ---------- | ------------------------------------------------------------------------------ |
+| @id    | Data entry | A unique identifier for the location. Identifiers should be prefixed with `#`. |
+| @type  | Pre-filled | The type of the entity. Only `Geometry` is valid.                              |
+| asWKT  | Data entry | The WKT serialisation of the geometry.                                         |
+
+<br>
+
 ### Objects
 
 An {{< glossary_link display="object" id="object" >}} is a single resource or a group of tightly related resources in a {{< glossary_link display="collection" id="collection" >}}. For example, a work (document) in a written corpus, or the files associated with a dialogue or session in a speech study (recordings, transcriptions etc.). Some systems, such as {{< glossary_link display="PARADISEC" id="paradisec" >}}, refer to Objects as Items or may use other terms.
@@ -179,8 +192,8 @@ An {{< glossary_link display="object" id="object" >}} is a single resource or a 
 | description         | Data entry | A description of the object.                                                                                                                                                                                                                                                                                                                                                                                 |
 | isRef_speaker       | Pre-filled | Generated from the `.pseudonym` column with `#` prefixed.                                                                                                                                                                                                                                                                                                                                                    |
 | .pseudonym          | Data entry | An example of a column from a {{< glossary_link display="data steward" id="data-steward" >}}'s source data, so that speakers in the collection are anonymised.                                                                                                                                                                                                                                               |
-| datePublished       | Data entry | The date the object was published. The date will be converted in {{< glossary_link display="Crate-O" id="crate-o" >}} to ISO 8601 format, e.g. _Wed Jun 12 2024 10:00:00 GMT+1000 (Australian Eastern Standard Time)_.                                                                                                                                                                                       |
-| isRef_pdcm:memberOf | Pre-filled | The collection this object is a member of, generated from the `@id` column in the [Root](#root) tab. Or if the collection contains sub-collections, a reference to another RepositoryCollection `@id`.                                                                                                                                                                                                       |
+| datePublished       | Data entry | The date the object was published. The date should be in ISO 8601 format YYYY-MM-DD.                                                                                                                                                                                                                                                                                                                         |
+| isRef_pcdm:memberOf | Pre-filled | The collection this object is a member of, generated from the `@id` column in the [Root](#root) tab. Or if the collection contains sub-collections, a reference to another RepositoryCollection `@id`.                                                                                                                                                                                                       |
 | isRef_license       | Data entry | The `@id` of the license to which this object adheres.                                                                                                                                                                                                                                                                                                                                                       |
 | isRef_indexableText | Data entry | Identifies which of the files in the given object has content that is indexed for search purposes. For example, in the template, the content of the CSV file would be searchable, whereas the EAF and WAV files would not. If `isRef_indexableText` is not included in a collection, search will only run on the {{< glossary_link display="metadata" id="metadata" >}} and not the transcript file content. |
 
@@ -190,18 +203,18 @@ An {{< glossary_link display="object" id="object" >}} is a single resource or a 
 
 A file is a container for data and can store data in different formats. For example, a single {{< glossary_link display="object" id="object" >}} could have an audio file as well as a text file containing a transcription of the audio. Three examples of file tabs are included in the template, and their columns are combined in the table below.
 
-| Tab           | Column                 | Type       | Description                                                                                                                                                              |
-| ------------- | ---------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| CSV, EAF, WAV | @id                    | Pre-filled | The filepath to the given file. Generated from the `.folder`, `.filename` and `.postfix` columns.                                                                        |
-| CSV, EAF, WAV | @type                  | Pre-filled | The type of the entity. Only `File` is valid.                                                                                                                            |
-| CSV, EAF, WAV | .folder                | Data entry | The folder name in which the given file appears.                                                                                                                         |
-| CSV, EAF, WAV | .filename              | Data entry | The name of the given file, without postfixes.                                                                                                                           |
-| CSV, EAF, WAV | .postfix               | Data entry | The file format of the given file, for example, `.csv`, `.eaf`, `.wav`.                                                                                                  |
-| CSV, EAF      | isType_Annotation      | Data entry | Indicates whether the given file is an annotation of another file. Requires a Boolean value (`TRUE` or `FALSE`).                                                         |
-| WAV           | isType_PrimaryMaterial | Data entry | Indicates whether the given file is the object of study, such as a literary work, film, or recording of natural discourse. Requires a Boolean value (`TRUE` or `FALSE`). |
-| CSV, EAF, WAV | isRef_isPartOf         | Pre-filled | Generated from the `.filename` column.                                                                                                                                   |
-| CSV, EAF      | isRef_annotationOf     | Data entry | The full filename of the primary material that the given file is an annotation of.                                                                                       |
-| CSV, EAF, WAV | .objectId              | Pre-filled | Generated from the `.filename` column.                                                                                                                                   |
+| Tab           | Column                 | Type       | Description                                                                                                                                                               |
+| ------------- | ---------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| CSV, EAF, WAV | @id                    | Pre-filled | The filepath to the given file. Generated from the `.folder`, `.filename` and `.postfix` columns.                                                                         |
+| CSV, EAF, WAV | @type                  | Pre-filled | The type of the entity. Only `File` is valid.                                                                                                                             |
+| CSV, EAF, WAV | .folder                | Data entry | The folder name in which the given file appears.                                                                                                                          |
+| CSV, EAF, WAV | .filename              | Data entry | The name of the given file, without postfixes.                                                                                                                            |
+| CSV, EAF, WAV | .postfix               | Data entry | The file format of the given file, for example, `.csv`, `.eaf`, `.wav`.                                                                                                   |
+| CSV, EAF      | isType_Annotation      | Data entry | Indicates whether the given file is an annotation of another file. Requires a Boolean value (`TRUE` or `FALSE`).                                                          |
+| WAV           | isType_PrimaryMaterial | Data entry | Indicates whether the given file is the object of study, such as a literary work, film, or recording of natural discourse. Requires a Boolean value (`TRUE` or `FALSE`).  |
+| CSV, EAF, WAV | isRef_isPartOf         | Pre-filled | Specifies the object that the file is a part of. Template example is generated from the `.filename` column. If entering manually, note that this field is case-sensitive. |
+| CSV, EAF      | isRef_annotationOf     | Data entry | The full filename of the primary material that the given file is an annotation of.                                                                                        |
+| CSV, EAF, WAV | .objectId              | Pre-filled | Generated from the `.filename` column.                                                                                                                                    |
 
 <br>
 
