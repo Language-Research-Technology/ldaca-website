@@ -24,6 +24,7 @@ Collection
 Confidentiality
 Copyright
 Copyright Owner
+Corpus
 Crate-O
 Creative Commons Licenses
 Data Collection
@@ -38,8 +39,12 @@ Data Transformation
 Defined Term
 Describo
 DOI
+ELAN
 Elpis
 FAIR
+Field Notebook
+Fieldnotes
+Fieldwork
 FLA
 GitHub
 GLAM
@@ -53,6 +58,7 @@ IDIL
 IDN
 IIRC
 Intellectual Property
+Interoperability
 IPA
 ISO-639
 JSON
@@ -60,6 +66,9 @@ Jupyter Notebook
 LADAL
 LDAC
 LDaCA
+Legacy Format
+Legacy File Format
+Lexicon
 Licensing
 Linked Data
 Metadata
@@ -74,8 +83,11 @@ OCFL
 OCR
 OLAC
 Oni
+Oral History
+ORCID
 Orthographic Transcription
 PARADISEC
+Phonemic Transcription
 Phonetic Transcription
 PID
 Profile
@@ -86,6 +98,8 @@ QUT
 R
 RDC
 REMS
+Research Data Management
+Research Infrastructure
 RIIP
 RO-Crate
 Schema
@@ -93,6 +107,7 @@ Sensitive Data
 Takedown Policy
 TK Labels
 Tools
+Transcoding
 TTS
 UoM
 UQ

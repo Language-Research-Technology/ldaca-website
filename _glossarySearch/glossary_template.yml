@@ -1,0 +1,7 @@
+Name: ""
+"title": ""
+"short_description": ""
+"content": ""
+"external_link": ""
+<!-- Name is for the reference id, title is the term listed on the glossary, short_description is for the tooltip, content is for the definition. external_link is optional. -->
+<!-- for acronyms/abbreviations, add shortened term to title and full term to short_description -->
