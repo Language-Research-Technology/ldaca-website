@@ -57,7 +57,7 @@ In my concurrent role as manager of the ANU unit of {{< glossary_link display="P
 
 ### Digitising analogue materials
 
-We often receive magnetic tape audio (cassette and reel-to-reel tapes) and field notebooks to archive. Engaging with legacy formats is equal parts exciting and challenging. The challenging parts are:
+We often receive magnetic tape audio (cassette and reel-to-reel tapes) and {{< glossary_link display="field notebooks" id="field-notebook" >}} to archive. Engaging with {{< glossary_link display="legacy formats" id="legacy-format" >}} is equal parts exciting and challenging. The challenging parts are:
 
 - finding and maintaining the necessary playback devices
 - dealing with damaged or mouldy materials
