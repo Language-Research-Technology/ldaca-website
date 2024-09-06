@@ -64,6 +64,7 @@ Corbyn, Charles Adam (1854) <i>Sydney Revels of Bacchus, Cupid, and Momus</i>. S
 Fritz, Clemens WA. (2007) <i>From English in Australia to Australian English: 1788-1900</i>. Peter Lang Frankfurt.<br />
 Noone, V. (2012). <i>Hidden Ireland in Victoria</i>. Ballarat: Ballarat Heritage Services.<br />
 O’Farrell, Patrick (1988) <i>The Irish in Australia</i>. Kensington, N.S.W.: New South Wales University Press.</div>
+
 {{</raw>}}
 
 <br>

@@ -1,4 +1,4 @@
 Name: "research-infrastructure"
 "title": "Research Infrastructure"
 "short_description": "The resources and services that are needed for research communities to conduct research."
-"content": "The facilities, systems, tools, platforms, equipment, instruments and other resources and services that are needed for research communities to conduct research. This can include both tangible assets, like supercomputers, and intangible assets, like {{< glossary_link display="data collections" id="data-collection" >}}."
+"content": 'The facilities, systems, tools, platforms, equipment, instruments and other resources and services that are needed for research communities to conduct research. This can include both tangible assets, like supercomputers, and intangible assets, like {{< glossary_link display="data collections" id="data-collection" >}}.'

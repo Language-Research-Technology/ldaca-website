@@ -98,7 +98,7 @@ Another notable characteristic of the DOI system is its well-developed social in
 
 The DOI system’s underlying infrastructure supports {{< glossary_link display="interoperability" id="interoperability" >}} across different platforms and systems. For example, DataCite’s "Add to {{< glossary_link display="ORCID" id="orcid" >}} Record" feature allows a researcher to manually claim a DOI of their work and link it to their [ORCiD](https://orcid.org/) record (DataCite 2024). Data repositories can use DOIs to track usage metrics such as views, downloads and citations, which also informs data owners as to how researchers engage with the data.
 
-Below is a screenshot of a section of the DOI landing page for the _La Trobe {{< glossary_link display="Corpus" id="corpus" >}} of Spoken Australian English_ with some of the key information highlighted and annotated. The DOI was issued by DataCite via the La Trobe University Library’s DOI service.
+Below is a screenshot of a section of the DOI landing page for the _La Trobe Corpus of Spoken Australian English_ with some of the key information highlighted and annotated. The DOI was issued by DataCite via the La Trobe University Library’s DOI service.
 
 <br>
 

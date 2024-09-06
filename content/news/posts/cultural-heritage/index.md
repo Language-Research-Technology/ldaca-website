@@ -13,7 +13,7 @@ For nearly ten years, I have been officially working as a Data Manager. I say _o
 
 <br>
 
-I am based at the Australian National University (ANU), and since mid-2023, I've been working as the senior data manager for the Language Data Commons of Australia ([LDaCA](https://www.ldaca.edu.au/)). Prior to this, I worked for the {{< glossary_link display="ARC" id="arc" >}} Centre of Excellence for the Dynamics of Language ([CoEDL](https://legacy.dynamicsoflanguage.edu.au/)), who could offer a eight year data manager position, very generous in a field where contracts often last only two or three years. It was at CoEDL where I first took on this academic-adjacent role, focusing on bolstering research and {{< glossary_link display="research infrastructure" id="research-infrastructure" >}}. It was also the first time I had heard of such a position becoming available that addressed the data management and archiving needs of those actively recording or assembling cultural heritage data. Such data includes tabular data, text corpora, collections of songs and music, ethnographic interviews, elicited linguistic content, oral histories, traditional narratives and lexicons, and can be in different formats, such as text, video, audio, image, film, magnetic tape and digital files.
+I am based at the Australian National University (ANU), and since mid-2023, I've been working as the senior data manager for the Language Data Commons of Australia ([LDaCA](https://www.ldaca.edu.au/)). Prior to this, I worked for the {{< glossary_link display="ARC" id="arc" >}} Centre of Excellence for the Dynamics of Language ([CoEDL](https://legacy.dynamicsoflanguage.edu.au/)), who could offer a eight year data manager position, very generous in a field where contracts often last only two or three years. It was at CoEDL where I first took on this academic-adjacent role, focusing on bolstering research and {{< glossary_link display="research infrastructure" id="research-infrastructure" >}}. It was also the first time I had heard of such a position becoming available that addressed the data management and archiving needs of those actively recording or assembling cultural heritage data. Such data includes tabular data, text {{< glossary_link display="corpora" id="corpus" >}}, collections of songs and music, ethnographic interviews, elicited linguistic content, oral histories, traditional narratives and lexicons, and can be in different formats, such as text, video, audio, image, film, magnetic tape and digital files.
 
 <br>
 
@@ -57,7 +57,7 @@ In my concurrent role as manager of the ANU unit of {{< glossary_link display="P
 
 ### Digitising analogue materials
 
-We often receive magnetic tape audio (cassette and reel-to-reel tapes) and {{< glossary_link display="field notebooks" id="field-notebook" >}} to archive. Engaging with {{< glossary_link display="legacy formats" id="legacy-format" >}} is equal parts exciting and challenging. The challenging parts are:
+We often receive magnetic tape audio (cassette and reel-to-reel tapes) and {{< glossary_link display="field notebooks" id="field-notebook-journal" >}} to archive. Engaging with {{< glossary_link display="legacy formats" id="legacy-format" >}} is equal parts exciting and challenging. The challenging parts are:
 
 - finding and maintaining the necessary playback devices
 - dealing with damaged or mouldy materials
@@ -88,7 +88,7 @@ Some of the digitising tasks we conducted during this time for CoEDL researchers
 
 <br>
 
-- digitising manuscripts and field journals, ensuring high-quality reproduction.
+- digitising manuscripts and {{< glossary_link display="field journals" id="field-notebook-journal" >}}, ensuring high-quality reproduction.
 
 <br>
 

@@ -1,4 +1,0 @@
-Name: "field-notebook"
-"title": "Field Notebook"
-"short_description": "A collection of fieldnotes compiled while completing fieldwork."
-"content": "A collection of {{< glossary_link display="fieldnotes" id="fieldnotes" >}} compiled while completing {{< glossary_link display="fieldwork" id="fieldwork" >}}."
