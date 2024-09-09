@@ -1,4 +1,4 @@
 Name: "interoperability"
 "title": "Interoperability"
 "short_description": "The ability of computer systems or software to exchange and make use of information."
-"content": 'The ability of computer systems or software to exchange and make use of information. This is the general sense of the term; it is used with a more specific sense in the {{< glossary_link display="FAIR" id="fair" >}} principles.'
+"content": 'The ability of computer systems or software to exchange and make use of information. The relevant {{< glossary_link display="FAIR" id="fair" >}} principle uses the term specifically in relation to data.'

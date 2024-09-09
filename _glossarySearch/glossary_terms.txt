@@ -35,6 +35,7 @@ Corpora
 Crate-O
 Creative Commons License
 Creative Commons Licenses
+Cross-Corpus
 Data Collection
 Data Collections
 Data Commons
@@ -135,6 +136,8 @@ RO-Crate
 Schema
 Schemas
 Sensitive Data
+Sub-Corpus
+Sub-Corpora
 Takedown Policy
 Takedown Policies
 TK Label

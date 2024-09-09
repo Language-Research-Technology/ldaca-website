@@ -45,13 +45,13 @@ The research questions I would aim to address were:
 
 ## Data selection and collection
 
-Several factors influenced the selection of the data sources and the collection of data from these sources, which were X (formerly Twitter) and two spoken corpora of Australian English: AusTalk (Burnham et al., 2011) and Sydney Speaks (Travis, 2014–2021).
+Several factors influenced the selection of the data sources and the collection of data from these sources, which were X (formerly Twitter) and two spoken {{< glossary_link display="corpora" id="corpus" >}} of Australian English: AusTalk (Burnham et al., 2011) and Sydney Speaks (Travis, 2014–2021).
 
 <br>
 
 ### Project scope and timeline
 
-The limited scope of the project and the short timeline I had for data collection meant I had to be strategic when selecting data sources. For the spoken language component, I could not construct my own corpus of recordings without requiring a potentially lengthy ethics clearance process, and so would need to rely on existing datasets like AusTalk and Sydney Speaks.
+The limited scope of the project and the short timeline I had for data collection meant I had to be strategic when selecting data sources. For the spoken language component, I could not construct my own {{< glossary_link display="corpus" id="corpus" >}} of recordings without requiring a potentially lengthy ethics clearance process, and so would need to rely on existing datasets like AusTalk and Sydney Speaks.
 
 For the CMC component, I needed to create my own dataset, which was reliant on both the suitability of the data source for my purposes and the skills required to access the data. Previous studies have found linguistic differences by geographical location within the same country on X (e.g. Rechkemmer, Wilson & Mihalcea, 2020), making it an appropriate choice for a CMC site. Furthermore, the website had an advanced search engine that allowed you to search for geolocated posts. X was also compatible with commercial web scraping software, allowing me to compensate for my lack of knowledge and experience as a novice researcher whose only relevant capability was a rudimentary knowledge of {{< glossary_link display="Python" id="python" >}}.
 
@@ -59,11 +59,11 @@ For the CMC component, I needed to create my own dataset, which was reliant on b
 
 ### Dataset accessibility
 
-Accessibility needed to be considered when selecting and collecting data. The spoken corpora must already have transcriptions of the recordings available and the {{< glossary_link display="metadata" id="metadata" >}} needed to contain fields that matched the variables I was looking for.
+Accessibility needed to be considered when selecting and collecting data. The spoken {{< glossary_link display="corpora" id="corpus" >}} must already have transcriptions of the recordings available and the {{< glossary_link display="metadata" id="metadata" >}} needed to contain fields that matched the variables I was looking for.
 
-A small portion of the recordings in the AusTalk dataset had already been transcribed and made available online. This data could be downloaded from two separate (now defunct) web-based tools: the transcriptions via the Alveo website and the metadata via the Alveo Query Engine. The metadata contained detailed demographic information about the speakers in the recordings, allowing me to operationalise different fields into my chosen variables: age, gender, socio-economic class (education level), ethnicity (cultural heritage) and geographical location (current city).
+A small portion of the recordings in the AusTalk dataset had already been transcribed and made available online. This data could be downloaded from two separate (now defunct) web-based {{< glossary_link display="tools" id="tools" >}}: the transcriptions via the Alveo website and the metadata via the Alveo Query Engine. The metadata contained detailed demographic information about the speakers in the recordings, allowing me to operationalise different fields into my chosen variables: age, gender, socio-economic class (education level), ethnicity (cultural heritage) and geographical location (current city).
 
-For the Sydney Speaks corpus, I submitted an application for access to the main researcher, LDaCA Chief Investigator Catherine Travis, and once granted, she sent me a link to download the data files. The metadata was encoded in the file names, with different codes used for ethnicity, gender and age. Luckily for future researchers, the majority of the [Sydney Speaks](https://www.ldaca.edu.au/resources/general-resources/case-studies/sydney-speaks/) corpus will be incorporated into the [LDaCA portal](https://data.ldaca.edu.au/), where the data and metadata will be made {{< glossary_link display="FAIR" id="fair" >}}: findable, accessible, interoperable and reusable.
+For the Sydney Speaks {{< glossary_link display="corpus" id="corpus" >}}, I submitted an application for access to the main researcher, {{< glossary_link display="LDaCA" id="ldaca" >}} Chief Investigator Catherine Travis, and once granted, she sent me a link to download the data files. The metadata was encoded in the file names, with different codes used for ethnicity, gender and age. Luckily for future researchers, the majority of the [Sydney Speaks](https://www.ldaca.edu.au/resources/general-resources/case-studies/sydney-speaks/) corpus will be incorporated into the [LDaCA portal](https://data.ldaca.edu.au/), where the data and metadata will be made {{< glossary_link display="FAIR" id="fair" >}}: findable, accessible, interoperable and reusable.
 
 Aside from the metadata requiring more manual work to extract, the utility of the Sydney Speaks dataset was lower than AusTalk for three main reasons:
 
@@ -93,11 +93,11 @@ The data sources needed to contain enough instances of GEs to allow robust analy
 
 <br>
 
-These studies looked at spoken language, as the prevalence of GEs was found to be higher in spoken corpora compared to written corpora. Indeed, one study (Martínez, 2011) found the frequency of GEs was approximately 9 to 10 per 10,000 words in the spoken subcorpus compared to 1 to 1.5 in the written subcorpus of two different corpora of British English (International Corpus of English-GB component and the British National Corpus). Additionally, in the written subcorpora, GEs were mainly found in fictional dialogue or conversation, or in informal writing, such as emails. This evidences the fact that GEs appear to be predominantly features of spoken language.
+These studies looked at spoken language, as the prevalence of GEs was found to be higher in spoken {{< glossary_link display="corpora" id="corpus" >}} compared to written corpora. Indeed, one study (Martínez, 2011) found the frequency of GEs was approximately 9 to 10 per 10,000 words in the spoken subcorpus compared to 1 to 1.5 in the written subcorpus of two different corpora of British English (International Corpus of English-GB component and the British National Corpus). Additionally, in the written subcorpora, GEs were mainly found in fictional dialogue or conversation, or in informal writing, such as emails. This evidences the fact that GEs appear to be predominantly features of spoken language.
 
-Based on the frequency figures outlined above, datasets needed to contain hundreds of thousands of words of speech in order to produce a sufficient number of GE tokens. Both AusTalk and Sydney Speaks featured spoken language and proved to be large enough datasets (274,676 words and 568,555 words, respectively). For the AusTalk corpus, participants completed a number of different tasks, but only data from two of the tasks were considered for the dataset: a story re-telling task, where a participant was asked to re-tell a story from a previous task in their own words, and an interview task, where the participant and researcher discussed a topic of interest to the participant. These tasks were designed to elicit a more spontaneous speech style, which would be fruitful ground to find GEs.
+Based on the frequency figures outlined above, datasets needed to contain hundreds of thousands of words of speech in order to produce a sufficient number of GE tokens. Both AusTalk and Sydney Speaks featured spoken language and proved to be large enough datasets (274,676 words and 568,555 words, respectively). For the AusTalk {{< glossary_link display="corpus" id="corpus" >}}, participants completed a number of different tasks, but only data from two of the tasks were considered for the dataset: a story re-telling task, where a participant was asked to re-tell a story from a previous task in their own words, and an interview task, where the participant and researcher discussed a topic of interest to the participant. These tasks were designed to elicit a more spontaneous speech style, which would be fruitful ground to find GEs.
 
-Although interactions on CMC sites generally feature more written than spoken language, they seem more like oral interactions than written interactions. In a study on a synchronous CMC site (instant messaging), Fernandez and Yuldashev (2011) found GE usage patterns were closer to those used in spoken interaction rather than written interaction, though the frequency of occurrence was noticeably lower compared to the spoken corpora they investigated. I theorised an asynchronous CMC site like X should also demonstrate usage patterns that were similar to spoken interaction.
+Although interactions on CMC sites generally feature more written than spoken language, they seem more like oral interactions than written interactions. In a study on a synchronous CMC site (instant messaging), Fernandez and Yuldashev (2011) found GE usage patterns were closer to those used in spoken interaction rather than written interaction, though the frequency of occurrence was noticeably lower compared to the spoken {{< glossary_link display="corpora" id="corpus" >}} they investigated. I theorised an asynchronous CMC site like X should also demonstrate usage patterns that were similar to spoken interaction.
 
 <br>
 
@@ -109,7 +109,7 @@ To corroborate and extend previous findings, data sources that had never been an
 
 ## Data analysis
 
-Once I had cleaned and organised the data for all three datasets, I uploaded them into commercial corpus manager and text analysis software ([Sketch Engine](https://www.sketchengine.eu/)) and conducted [concordance](https://www.atap.edu.au/text-analysis/methods/#counting-words) searches. I searched for GE variants from a list I had compiled before starting data collection, based on those found in previous studies. Figure 2 shows the first 20 results of a concordance search for the GE _and stuff_ in the Sydney Speaks dataset.
+Once I had cleaned and organised the data for all three datasets, I uploaded them into commercial {{< glossary_link display="corpus" id="corpus" >}} manager and text analysis software ([Sketch Engine](https://www.sketchengine.eu/)) and conducted [concordance](https://www.atap.edu.au/text-analysis/methods/#counting-words) searches. I searched for GE variants from a list I had compiled before starting data collection, based on those found in previous studies. Figure 2 shows the first 20 results of a concordance search for the GE _and stuff_ in the Sydney Speaks dataset.
 
 <br>
 
@@ -137,7 +137,7 @@ Addressing each research question in turn:
 
    b. _Different ethnicities?_
 
-   There were no statistically significant differences in frequency of usage between Anglo and non-Anglo Australians within both spoken corpora. However, when the corpora were compared, the mean frequency of both Anglo and non-Anglo Australians in Sydney Speaks was significantly higher than that of both Anglo and non-Anglo Australians in AusTalk<sup><a name="back-3" >[3](#fn-3)</a></sup>.
+   There were no statistically significant differences in frequency of usage between Anglo and non-Anglo Australians within both spoken {{< glossary_link display="corpora" id="corpus" >}}. However, when the corpora were compared, the mean frequency of both Anglo and non-Anglo Australians in Sydney Speaks was significantly higher than that of both Anglo and non-Anglo Australians in AusTalk<sup><a name="back-3" >[3](#fn-3)</a></sup>.
 
    There were no statistically significant differences in preferred variants, though there were some evident trends. For instance, Chinese Australians in the Sydney Speaks dataset used _whatnot/what not_ variants more often than other ethnicities<sup><a name="back-4" >[4](#fn-4)</a></sup>, which might relate to my original observation about Vietnamese Australians.
 
@@ -145,7 +145,7 @@ Addressing each research question in turn:
 
 2. _Does GE usage differ between spoken settings and CMC settings in Australia?_
 
-   There were more GE tokens on X than in the spoken corpora. However, the mean frequency per user was significantly lower on X than the mean frequency per speaker in the spoken corpora<sup><a name="back-5" >[5](#fn-5)</a></sup>, likely due to the limitation in post lengths on X. Figure 3 illustrates the mean GE frequency for Sydney speakers in the AusTalk and Sydney Speaks datasets compared to X users<sup><a name="back-6" >[6](#fn-6)</a></sup>.
+   There were more GE tokens on X than in the spoken {{< glossary_link display="corpora" id="corpus" >}}. However, the mean frequency per user was significantly lower on X than the mean frequency per speaker in the spoken corpora<sup><a name="back-5" >[5](#fn-5)</a></sup>, likely due to the limitation in post lengths on X. Figure 3 illustrates the mean GE frequency for Sydney speakers in the AusTalk and Sydney Speaks datasets compared to X users<sup><a name="back-6" >[6](#fn-6)</a></sup>.
 
    There were also GE variants such as _(and) stuff (like that)_ that were used significantly more frequently by speakers in the spoken corpora than by X users<sup><a name="back-7" >[7](#fn-7)</a></sup>. Therefore, it seems usage patterns on X differ from those in spoken Australian English.
 
@@ -157,17 +157,17 @@ Addressing each research question in turn:
 
 3. _Do the results corroborate or refute previous findings, particularly those specific to Australian English?_
 
-   The AusTalk results corroborated the robust finding on age (e.g. Secova, 2017; Travis et al., 2017), that is, younger speakers used GEs more frequently than older speakers<sup><a name="back-8" >[8](#fn-8)</a></sup>. There was also support across both corpora for previous studies that found no gender and class differences in frequency of usage.
+   The AusTalk results corroborated the robust finding on age (e.g. Secova, 2017; Travis et al., 2017), that is, younger speakers used GEs more frequently than older speakers<sup><a name="back-8" >[8](#fn-8)</a></sup>. There was also support across both {{< glossary_link display="corpora" id="corpus" >}} for previous studies that found no gender and class differences in frequency of usage.
 
 <br>
 
 ## Project reflection
 
-Though the analysis revealed interesting trends, more data is necessary to make further claims about the difference between GE usage in spoken Australian English and on X. I considered expanding on this in a PhD degree, but decided against pursuing this, before I ended up working at LDaCA.
+Though the analysis revealed interesting trends, more data is necessary to make further claims about the difference between GE usage in spoken Australian English and on X. I considered expanding on this in a PhD degree, but decided against pursuing this, before I ended up working at {{< glossary_link display="LDaCA" id="ldaca" >}}.
 
 If I do resume my research, I would need to consider other CMC sites, with X on the decline and no clear winner among the alternatives. However, other large platforms like Reddit and Facebook come with their own challenges, including restrictions in access to their underlying {{< glossary_link display="APIs" id="api" >}} (Application Programming Interfaces). Using the APIs would allow me to avoid web scraping and its associated risks (e.g. potential violation of website terms) and limitations (e.g. difficulty in handling large or complex websites).
 
-Additionally, I would drastically change how I approach data capture and analysis, with a focus on digital automation and open-source software. The [LDaCA portal](https://data.ldaca.edu.au/) would also be an invaluable resource to locate corpora of Australian English, with a clear and straightforward path in accessing both the data and associated metadata.
+Additionally, I would drastically change how I approach data capture and analysis, with a focus on digital automation and open-source software. The [LDaCA portal](https://data.ldaca.edu.au/) would also be an invaluable resource to locate {{< glossary_link display="corpora" id="corpus" >}} of Australian English, with a clear and straightforward path in accessing both the data and associated {{< glossary_link display="metadata" id="metadata" >}}.
 
 <br>
 
