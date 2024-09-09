@@ -63,7 +63,7 @@ Due to the variety of services, data types and customisation capabilities provid
 
 <br>
 
-5. A sorted list of unique word forms (e.g. 'house', 'houses') occurring in the dataset is created from the orthographically transcribed data and sent to the lexicon (LX) team, who work with a group of native speaker linguists to prepare {{< glossary_link display="phonetic transcriptions" id="phonetic-transcription" >}} of the words, either in {{< glossary_link display="X-SAMPA" id="x-sampa" >}} or another phonetic script. If a POS {{< glossary_link display="lexicon" id="lexicon" >}} is also required for the dataset, this is similarly created from the sorted list of unique word forms and checked by native speaker linguists.
+5. A sorted list of unique word forms (e.g. 'house', 'houses') occurring in the dataset is created from the orthographically transcribed data and sent to the lexicon (LX) team, who work with a group of native speaker linguists to prepare {{< glossary_link display="phonetic transcriptions" id="phonetic-transcription" >}} of the words, either in {{< glossary_link display="X-SAMPA" id="x-sampa" >}} or another phonetic script. If a POS lexicon is also required for the dataset, this is similarly created from the sorted list of unique word forms and checked by native speaker linguists.
 
 <br>
 

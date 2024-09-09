@@ -19,7 +19,7 @@ Sydney Speaks is a large-scale sociolinguistic project, funded through the {{< g
 
 - [Contemporary linguistic recordings (collected 2015-present): Sydney Speaks 2010s](#2010s)
 - [Legacy linguistic recordings (Collected 1977-1981): Sydney Social Dialect Survey](#1977-1981)
-- [Legacy {{< glossary_link display="oral histories" id="oral-history" >}} (collected 1987-1988): NSW Bicentennial Oral History Collection](#1987-1988)
+- [Legacy oral histories (collected 1987-1988): NSW Bicentennial Oral History Collection](#1987-1988)
 
 ##### [Data access concerns](#access-concerns)
 
