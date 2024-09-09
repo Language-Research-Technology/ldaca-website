@@ -16,7 +16,7 @@
   >objects</a
 >, and a language data <a href="/resources/glossary/#metadata" title="The information that defines and describes data." target="_blank"
   >metadata</a
-> profile to ensure long-term interoperability between systems and re-usability over time. We also discuss data <a href="/resources/glossary/#licensing" title="A process that allows the copyright owner to share the right to access and use the data without reassigning the ownership of the copyright of the work." target="_blank"
+> profile to ensure long-term interoperability between systems and re-usability over time. We also discuss data <a href="/resources/glossary/#licensing" title="A process that allows the copyright owner of a work to share the right to access and use some material from the work without reassigning the ownership of the copyright." target="_blank"
   >licensing</a
 > and authorization for access to non-open resources. We suggest that the approach shown here may be used in other disciplines or for other kinds of digital library, repository or archival systems.</p>
 <p>*The submitted abstract did not have the word data here - added for clarity</p>
@@ -409,7 +409,7 @@ PARADISEC</a
   >collections</a
 > of language data. Here we present a pilot data access policy that we have developed, describing how this policy captures the decisions that must be made by a range of data providers to ensure data accessibility that complies with diverse legal, moral and ethical considerations.
 We will discuss how the <a href="https://www.gida-global.org/care" target="_blank" rel="noopener noreffer ">CARE</a> and <a href="https://www.nature.com/articles/sdata201618" target="_blank" rel="noopener noreffer ">FAIR</a> principles underpin this work, and compare this work to other projects such as <a href="https://ardc.edu.au/project/cadre/" target="_blank" rel="noopener noreffer ">CADRE</a>, which promise to deliver more complex solutions in the future. Initial work is with collections curated in a research context but we will also address community access to these resources.</p>
-<p>The idea is to separate safe storage of data from its delivery. Each item in a repository is stored with <a href="/resources/glossary/#licensing" title="A process that allows the copyright owner to share the right to access and use the data without reassigning the ownership of the copyright of the work." target="_blank"
+<p>The idea is to separate safe storage of data from its delivery. Each item in a repository is stored with <a href="/resources/glossary/#licensing" title="A process that allows the copyright owner of a work to share the right to access and use some material from the work without reassigning the ownership of the copyright." target="_blank"
   >licensing</a
 > information in natural language (English at the moment, but could be other languages) and the repository defers access decisions to an Authorization system, where data custodians can design whatever process they like for granting license access. This can range from simple click-through licenses where anyone can agree to license terms, to detailed multi-step workflows where applicants are vetted based on whatever criteria the rights holder wishes; qualifications, membership of a cultural group, have they paid a subscription fee, etc</p>
 </section>
@@ -499,7 +499,7 @@ Source: <a href="http://www.dynamicsoflanguage.edu.au/sydney-speaks/" target="_b
 
 <p>(This diagram has been updated from the one presented at eResearch to show two portals instead of one)</p>
 <p>Every item in a repository has a license, which may be an open one like CC Share Alike or a custom license derived from the ethics and participants agreements for a study in the context of local laws and institutional policy.</p>
-<p>Using this license, distributed access portals in our architecture can check against an authorization system for each request for data. The portals may both host data with the same <a href="/resources/glossary/#licensing" title="A process that allows the copyright owner to share the right to access and use the data without reassigning the ownership of the copyright of the work." target="_blank"
+<p>Using this license, distributed access portals in our architecture can check against an authorization system for each request for data. The portals may both host data with the same <a href="/resources/glossary/#licensing" title="A process that allows the copyright owner of a work to share the right to access and use some material from the work without reassigning the ownership of the copyright." target="_blank"
   >licensing</a
 > but do not need to maintain access control lists.</p>
 </section>

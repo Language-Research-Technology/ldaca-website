@@ -139,7 +139,7 @@ nested <a href="/resources/glossary/#collection" title="A group of related Objec
 very simple ontology allows us to store data in the <a href="/resources/glossary/#ocfl" title="Oxford Common File Layout" target="_blank"
   >OCFL</a
 > layer in a very
-flexible way - depending on factors like data size, <a href="/resources/glossary/#licensing" title="A process that allows the copyright owner to share the right to access and use the data without reassigning the ownership of the copyright of the work." target="_blank"
+flexible way - depending on factors like data size, <a href="/resources/glossary/#licensing" title="A process that allows the copyright owner of a work to share the right to access and use some material from the work without reassigning the ownership of the copyright." target="_blank"
   >licensing</a
 > and whether
 data is likely to change or need to be withdrawn, we can store entire
@@ -505,7 +505,7 @@ about the protection of those moral rights.</p>
 <p></p>
 <p><a href="https://localcontexts.org/labels/traditional-knowledge-labels/" target="_blank" rel="noopener noreffer ">Traditional Knowledge Labels</a></p>
 <p>We are designing the system so that it can work with diverse ways of
-expressing access rights, for example, <a href="/resources/glossary/#licensing" title="A process that allows the copyright owner to share the right to access and use the data without reassigning the ownership of the copyright of the work." target="_blank"
+expressing access rights, for example, <a href="/resources/glossary/#licensing" title="A process that allows the copyright owner of a work to share the right to access and use some material from the work without reassigning the ownership of the copyright." target="_blank"
   >licensing</a
 > like the Tribal Knowledge
 labels. The idea is to separate safe storage of data with a license on each

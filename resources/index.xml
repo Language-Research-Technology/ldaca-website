@@ -1,2 +1,173 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Resources on LDaCA</title><link>https://www.ldaca.edu.au/resources/</link><description>Recent content in Resources on LDaCA</description><generator>Hugo</generator><language>en-us</language><managingEditor>info@ldaca.edu.au (Language Data Commons of Australia)</managingEditor><webMaster>info@ldaca.edu.au (Language Data Commons of Australia)</webMaster><lastBuildDate>Tue, 03 Oct 2023 12:07:09 +1100</lastBuildDate><atom:link href="https://www.ldaca.edu.au/resources/index.xml" rel="self" type="application/rss+xml"/><item><title>Glossary</title><link>https://www.ldaca.edu.au/resources/glossary/</link><pubDate>Tue, 03 Oct 2023 12:07:09 +1100</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/glossary/</guid><description>Access Conditions Conditions which specify who can access data and what they can do with that data. A well-governed archival repository has mechanisms in place to administer and implement such conditions which will be specified on a data license. ADA Australian Data Archive. A national service for the collection and preservation of digital research data.
-More information ADM&amp;#43;S ARC Centre of Excellence for Automated Decision-Making and Society. It brings together universities, industry, government and the community to support the development of responsible, ethical and inclusive automated decision-making.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Resources on LDaCA</title><link>https://www.ldaca.edu.au/resources/</link><description>Recent content in Resources on LDaCA</description><generator>Hugo</generator><language>en-us</language><managingEditor>info@ldaca.edu.au (Language Data Commons of Australia)</managingEditor><webMaster>info@ldaca.edu.au (Language Data Commons of Australia)</webMaster><lastBuildDate>Tue, 03 Oct 2023 12:07:09 +1100</lastBuildDate><atom:link href="https://www.ldaca.edu.au/resources/index.xml" rel="self" type="application/rss+xml"/><item><title>Glossary</title><link>https://www.ldaca.edu.au/resources/glossary/</link><pubDate>Tue, 03 Oct 2023 12:07:09 +1100</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/glossary/</guid><description>&lt;br>
+
+
+&lt;table>
+ 
+ &lt;tr valign="top">
+ 
+ &lt;td>&lt;a name="access-conditions">&lt;/a>&lt;b>Access Conditions&lt;/b>&lt;/td>&lt;/td>
+ &lt;td>Conditions which specify who can access data and what they can do with that data. A well-governed &lt;a href="https://www.ldaca.edu.au/resources/glossary/#archival-repository" title="A location for the storage of data that has an appropriate governance regime in place." target="_blank"
+ >archival repository&lt;/a
+> has mechanisms in place to administer and implement such conditions which will be specified on a &lt;a href="https://www.ldaca.edu.au/resources/glossary/#data-license" title="A legal arrangement specifying what users can do with the data." target="_blank"
+ >data license&lt;/a
+>.
+ &lt;/td>
+ 
+ 
+ &lt;tr valign="top">
+ 
+ &lt;td>&lt;a name="ada">&lt;/a>&lt;b>ADA&lt;/b>&lt;/td>
+ &lt;td>Australian Data Archive. A national service for the collection and preservation of digital research data.&lt;br>&lt;a href="https://ada.edu.au/" target="_blank">More information&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ 
+ 
+ &lt;tr valign="top">
+ 
+ &lt;td>&lt;a name="adm&amp;#43;s">&lt;/a>&lt;b>ADM&amp;#43;S&lt;/b>&lt;/td>
+ &lt;td>ARC Centre of Excellence for Automated Decision-Making and Society. It brings together universities, industry, government and the community to support the development of responsible, ethical and inclusive automated decision-making.&lt;br>&lt;a href="https://www.admscentre.org.au/" target="_blank">More information&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ 
+ 
+ &lt;tr valign="top">
+ 
+ &lt;td>&lt;a name="ado">&lt;/a>&lt;b>ADO&lt;/b>&lt;/td>
+ &lt;td>Australian Digital Observatory. An &lt;a href="https://www.ldaca.edu.au/resources/glossary/#ardc" title="Australian Research Data Commons" target="_blank"
+ >ARDC&lt;/a
+> platform working to establish a national infrastructure to support a diverse array of researchers, especially in the humanities, in accessing and working with dynamic digital data.&lt;br>&lt;a href="https://www.digitalobservatory.net.au/" target="_blank">More information&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ 
+ 
+ &lt;tr valign="top">
+ 
+ &lt;td>&lt;a name="aiatsis">&lt;/a>&lt;b>AIATSIS&lt;/b>&lt;/td>
+ &lt;td>Australian Institute of Aboriginal and Torres Strait Islander Studies. Australia’s only national institution focused exclusively on the diverse history, culture and heritage of Aboriginal and Torres Strait Island Australia, with a growing collection of over one million items, dedicated to Australian Aboriginal and Torres Strait Islander cultures, histories and contemporary stories.&lt;br>&lt;a href="https://aiatsis.gov.au/" target="_blank">More information&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ 
+ 
+ &lt;tr valign="top">
+ 
+ &lt;td>&lt;a name="api">&lt;/a>&lt;b>API&lt;/b>&lt;/td>&lt;/td>
+ &lt;td>Application Programming Interface. A way for computer programs to communicate with each other. It is a way for one computer or system to ask another computer or system to do something, like provide a dataset.
+ &lt;/td>
+ 
+ 
+ &lt;tr valign="top">
+ 
+ &lt;td>&lt;a name="arc">&lt;/a>&lt;b>ARC&lt;/b>&lt;/td>
+ &lt;td>Australian Research Council. Its purpose is to grow knowledge and innovation for the benefit of the Australian community through funding the highest quality research, assessing the quality, engagement and impact of research, and providing advice on research matters.&lt;br>&lt;a href="https://www.arc.gov.au/" target="_blank">More information&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ 
+ 
+ &lt;tr valign="top">
+ 
+ &lt;td>&lt;a name="archival-repository">&lt;/a>&lt;b>Archival Repository&lt;/b>&lt;/td>&lt;/td>
+ &lt;td>A location for the storage of data that has an appropriate governance regime in place.
+ &lt;/td>
+ 
+ 
+ &lt;tr valign="top">
+ 
+ &lt;td>&lt;a name="arcp">&lt;/a>&lt;b>ARCP&lt;/b>&lt;/td>&lt;/td>
+ &lt;td>Archive and Packaging ID. A globally unique, searchable ID with zero management overhead, but which can be used like URLs in &lt;a href="https://www.ldaca.edu.au/resources/glossary/#linked-data" title="Structured data that is interlinked with other data and published in a machine-readable way to maximise interoperability and improve the precision of metadata." target="_blank"
+ >linked data&lt;/a
+> systems, but does not resolve to content in a browser.
+ &lt;/td>
+ 
+ 
+ &lt;tr valign="top">
+ 
+ &lt;td>&lt;a name="ardc">&lt;/a>&lt;b>ARDC&lt;/b>&lt;/td>
+ &lt;td>Australian Research Data Commons. The ARDC is Australia’s leading research data infrastructure facility accelerating Australian research and innovation by driving excellence in the creation, analysis and retention of high-quality data assets.&lt;br>&lt;a href="https://ardc.edu.au" target="_blank">More information&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ 
+ 
+ &lt;tr valign="top">
+ 
+ &lt;td>&lt;a name="ards">&lt;/a>&lt;b>ARDS&lt;/b>&lt;/td>
+ &lt;td>Aboriginal Resource and Development Services (ARDS Aboriginal Corporation). Its work champions the importance of language and culture in developing self-determination for Aboriginal people, and supports Aboriginal communities to increase control and understanding of mainstream services and systems.&lt;br>&lt;a href="https://www.ards.com.au/" target="_blank">More information&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ 
+ 
+ &lt;tr valign="top">
+ 
+ &lt;td>&lt;a name="arkisto">&lt;/a>&lt;b>Arkisto&lt;/b>&lt;/td>
+ &lt;td>A scalable, standards-based platform for sustainable data. Data on an Arkisto deployment is always available on disc (or &lt;a href="https://www.ldaca.edu.au/resources/glossary/#object" title="A single resource or a group of tightly related resources." target="_blank"
+ >object&lt;/a
+> storage) with a complete description independently of any services such as websites or &lt;a href="https://www.ldaca.edu.au/resources/glossary/#api" title="Application Programming Interface" target="_blank"
+ >APIs&lt;/a
+>. Once the data is safe and well-described, Arkisto has a flexible model for how data can be accessed using a variety of services. Built on top of &lt;a href="https://www.ldaca.edu.au/resources/glossary/#ro-crate" title="Research Object Crate" target="_blank"
+ >RO-Crate&lt;/a
+> and &lt;a href="https://www.ldaca.edu.au/resources/glossary/#ocfl" title="Oxford Common File Layout" target="_blank"
+ >OCFL&lt;/a
+>.&lt;br>&lt;a href="https://arkisto-platform.github.io/" target="_blank">More information&lt;/a>
+ 
+ &lt;br />
+ 
+ See also: &lt;a href="#ocfl">Oxford Common File Layout&lt;/a>&lt;br />
+ 
+ See also: &lt;a href="#ro-crate">RO-Crate&lt;/a>&lt;br />
+ 
+ &lt;/td>
+ &lt;/tr>
+ 
+ 
+ &lt;tr valign="top">
+ 
+ &lt;td>&lt;a name="asr">&lt;/a>&lt;b>ASR&lt;/b>&lt;/td>&lt;/td>
+ &lt;td>Automatic Speech Recognition. ASR enables computers to process human spoken language into readable text, allowing users to operate devices through speech or facilitate translation of that speech into other languages.
+ &lt;/td>
+ 
+ 
+ &lt;tr valign="top">
+ 
+ &lt;td>&lt;a name="atap">&lt;/a>&lt;b>ATAP&lt;/b>&lt;/td>
+ &lt;td>Australian Text Analytics Platform. An open source environment that provides researchers with &lt;a href="https://www.ldaca.edu.au/resources/glossary/#tools" title="Code or software developed to support or enhance (language) data accessibility and use." target="_blank"
+ >tools&lt;/a
+> and training for analysing, processing and exploring text.&lt;br>&lt;a href="https://www.atap.edu.au/" target="_blank">More information&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ 
+ 
+ &lt;tr valign="top">
+ 
+ &lt;td>&lt;a name="austlang">&lt;/a>&lt;b>AustLang&lt;/b>&lt;/td>
+ &lt;td>Provides a controlled vocabulary of persistent identifiers, a thesaurus of languages and peoples, and information about Aboriginal and Torres Strait Islander languages which has been assembled from referenced sources. Alphanumeric codes are used as persistent identifiers, while associated text strings are changeable and can reflect community preferences (including alternative names and spellings). In AustLang, Warlpiri has two codes: C15 for the language in general, and C15.1 for the variety named as Wakirti Warlpiri.&lt;br>&lt;a href="https://collection.aiatsis.gov.au/austlang/about" target="_blank">More information&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ 
+ 
+ &lt;tr valign="top">
+ 
+ &lt;td>&lt;a name="bi">&lt;/a>&lt;b>BI&lt;/b>&lt;/td>
+ &lt;td>Batchelor Institute of Indigenous Tertiary Education. The only First Nations dual sector tertiary education provider in Australia. The Institute gives precedence to its philosophy of Both Ways: positioning First Nations peoples as knowledge holders in all educational transactions with Western knowledge systems as well as privileging First Nations ways of learning and teaching to underpin engagement with mainstream education systems and society more broadly.&lt;br>&lt;a href="https://www.batchelor.edu.au/" target="_blank">More information&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ 
+ 
+ &lt;tr valign="top">
+ 
+ &lt;td>&lt;a name="binderhub">&lt;/a>&lt;b>BinderHub&lt;/b>&lt;/td>
+ &lt;td>A Kubernetes-based cloud service that allows users to share reproducible interactive computing environments from code repositories. It is the primary technology behind &lt;a href="https://mybinder.org/" target="_blank" rel="noopener noreffer ">Binder&lt;/a>. &lt;br /> &lt;a href="https://www.atap.edu.au/" target="_blank" rel="noopener noreffer ">ATAP&lt;/a> notebooks are made available using a Binder instance maintained by &lt;a href="https://www.aarnet.edu.au/" target="_blank" rel="noopener noreffer ">AARNet&lt;/a>/Nectar.&lt;br>&lt;a href="https://binderhub.readthedocs.io/en/latest/" target="_blank">More information&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ 
+ 
+ &lt;tr valign="top">
+ 
+ &lt;td>&lt;a name="cadre">&lt;/a>&lt;b>CADRE&lt;/b>&lt;/td>
+ &lt;td>Coordinated Access for Data, Researchers and Environments. A shared and distributed sensitive data access management platform for the social sciences and related disciplines.&lt;br>&lt;a href="https://ardc.edu.au/project/cadre/" target="_blank">More information&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ 
+ 
+ &lt;tr valign="top">
+ 
+ &lt;td>&lt;a name="care">&lt;/a>&lt;b>CARE&lt;/b>&lt;/td>
+ &lt;td>&lt;p>Four principles developed by the Global Indigenous Data Alliance (GIDA) to ensure that Indigenous communities have control over the application and use of Indigenous data and Indigenous Knowledge for collective benefit. &lt;br />The principles specify four aspects of the respectful use of data:&lt;/p></description></item></channel></rss>

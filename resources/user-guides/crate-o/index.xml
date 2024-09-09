@@ -1,4 +1,240 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Crate-O on LDaCA</title><link>https://www.ldaca.edu.au/resources/user-guides/crate-o/</link><description>Recent content in Crate-O on LDaCA</description><generator>Hugo</generator><language>en-us</language><managingEditor>info@ldaca.edu.au (Language Data Commons of Australia)</managingEditor><webMaster>info@ldaca.edu.au (Language Data Commons of Australia)</webMaster><lastBuildDate>Wed, 22 May 2024 15:43:09 +1000</lastBuildDate><atom:link href="https://www.ldaca.edu.au/resources/user-guides/crate-o/index.xml" rel="self" type="application/rss+xml"/><item><title>General Information</title><link>https://www.ldaca.edu.au/resources/user-guides/crate-o/general/</link><pubDate>Wed, 22 May 2024 15:43:09 +1000</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/user-guides/crate-o/general/</guid><description>Crate-O Use Cases RO-Crate Collection Hierarchy Schemas, Profiles and Modes Schema.org Style Schemas (SOSSs) and RO-Crate Profiles and Modes Crate-O is a browser-based editor that allows you to create and update Research Object Crates (RO-Crates), either using the web interface or with metadata from a spreadsheet. It provides researchers with a relatively simple way to describe their data using best practice in formal metadata description.
-Designed as a Vue component, Crate-O can be easily integrated into any Vue.</description></item><item><title>Basic Navigation</title><link>https://www.ldaca.edu.au/resources/user-guides/crate-o/basic-navigation/</link><pubDate>Sat, 22 Apr 2023 15:42:05 +1000</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/user-guides/crate-o/basic-navigation/</guid><description>Main Menu Mode Selector Current Entity Property Groups Entity Properties Entity Navigator Main Menu Crate-O Main Menu Image Source: LDaCA From the Main Menu, the following options are available:
-File Option Description Open Directory Select a directory/folder to locate or set where files are saved. This is the required first step for all RO-Crates. Load Files Load files from the selected directory into this RO-Crate. Bulk Add Select an Excel spreadsheet or similar from a directory to assist you with metadata description (the directory can be the same as that for the RO-Crate).</description></item><item><title>RO-Crate Creation</title><link>https://www.ldaca.edu.au/resources/user-guides/crate-o/ro-crate-creation/</link><pubDate>Sun, 27 Mar 2022 16:01:02 +1000</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/user-guides/crate-o/ro-crate-creation/</guid><description>This guide takes you through the steps to create an RO-Crate metadata file, using a top-level collection for language data as an example. To view more details and screenshots of each section discussed, select the click-through links throughout the page.
-Open Directory Select Mode Add Entity Metadata Save RO-Crate Append Data from Spreadsheet Open Directory Open Crate-O in a compatible browser. In the Main Menu, select Open Directory. Navigate to a folder where the RO-Crate will be saved, or create a new one, then confirm your selection.</description></item><item><title>Spreadsheet Upload</title><link>https://www.ldaca.edu.au/resources/user-guides/crate-o/spreadsheet-upload/</link><pubDate>Sun, 28 Feb 2021 13:53:43 +1000</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/user-guides/crate-o/spreadsheet-upload/</guid><description>Template Tab Breakdown Column Breakdown Root Authors Publishers Licenses People Objects Files (CSV, EAF, WAV) Upload Spreadsheet to an RO-Crate with Crate-O Template For collections where there are a lot of interconnected objects and files, it may be easier or preferable to add the metadata for these via uploading a spreadsheet to an existing RO-Crate in Crate-O, rather than adding these items manually. An RO-Crate metadata spreadsheet template can be downloaded below and populated with metadata specific to your collection:</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Crate-O on LDaCA</title><link>https://www.ldaca.edu.au/resources/user-guides/crate-o/</link><description>Recent content in Crate-O on LDaCA</description><generator>Hugo</generator><language>en-us</language><managingEditor>info@ldaca.edu.au (Language Data Commons of Australia)</managingEditor><webMaster>info@ldaca.edu.au (Language Data Commons of Australia)</webMaster><lastBuildDate>Wed, 22 May 2024 15:43:09 +1000</lastBuildDate><atom:link href="https://www.ldaca.edu.au/resources/user-guides/crate-o/index.xml" rel="self" type="application/rss+xml"/><item><title>General Information</title><link>https://www.ldaca.edu.au/resources/user-guides/crate-o/general/</link><pubDate>Wed, 22 May 2024 15:43:09 +1000</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/user-guides/crate-o/general/</guid><description>&lt;br>
+&lt;h5 id="crate-o-use-casescrate-o-use-cases">&lt;a href="#crate-o-use-cases" rel="">Crate-O Use Cases&lt;/a>&lt;/h5>
+&lt;h5 id="ro-crate-collection-hierarchyro-crate-collection-hierarchy">&lt;a href="#ro-crate-collection-hierarchy" rel="">RO-Crate Collection Hierarchy&lt;/a>&lt;/h5>
+&lt;h5 id="schemas-profiles-and-modesschemas-profiles-and-modes">&lt;a href="#schemas-profiles-and-modes" rel="">Schemas, Profiles and Modes&lt;/a>&lt;/h5>
+&lt;h5 id="schemaorg-style-schemas-sosss-and-ro-crate-profiles-and-modesschemaorg-style-schemas-sosss-and-ro-crate-profiles-and-modes">&lt;a href="#schemaorg-style-schemas-sosss-and-ro-crate-profiles-and-modes" rel="">Schema.org Style Schemas (SOSSs) and RO-Crate Profiles and Modes&lt;/a>&lt;/h5>
+&lt;br>
+&lt;p>&lt;a href="https://github.com/Language-Research-Technology/crate-o" target="_blank" rel="noopener noreffer ">Crate-O&lt;/a> is a browser-based editor that allows you to create and update &lt;a href="https://www.researchobject.org/ro-crate" target="_blank" rel="noopener noreffer ">Research Object Crates&lt;/a> (RO-Crates), either using the web interface or with &lt;a href="https://www.ldaca.edu.au/resources/glossary/#metadata" title="The information that defines and describes data." target="_blank"
+ >metadata&lt;/a
+> from a spreadsheet. It provides researchers with a relatively simple way to describe their data using best practice in formal metadata description.&lt;/p></description></item><item><title>Basic Navigation</title><link>https://www.ldaca.edu.au/resources/user-guides/crate-o/basic-navigation/</link><pubDate>Sat, 22 Apr 2023 15:42:05 +1000</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/user-guides/crate-o/basic-navigation/</guid><description>&lt;br>
+&lt;h5 id="main-menumain-menu">&lt;a href="#main-menu" rel="">Main Menu&lt;/a>&lt;/h5>
+&lt;h5 id="mode-selectormode-selector">&lt;a href="#mode-selector" rel="">Mode Selector&lt;/a>&lt;/h5>
+&lt;h5 id="current-entitycurrent-entity">&lt;a href="#current-entity" rel="">Current Entity&lt;/a>&lt;/h5>
+&lt;h5 id="property-groupsproperty-groups">&lt;a href="#property-groups" rel="">Property Groups&lt;/a>&lt;/h5>
+&lt;h5 id="entity-propertiesentity-properties">&lt;a href="#entity-properties" rel="">Entity Properties&lt;/a>&lt;/h5>
+&lt;h5 id="entity-navigatorentity-navigator">&lt;a href="#entity-navigator" rel="">Entity Navigator&lt;/a>&lt;/h5>
+&lt;br>
+&lt;h2 id="main-menu">Main Menu&lt;/h2>
+&lt;br>
+
+
+&lt;body>
+ &lt;div>
+ &lt;img src="https://www.ldaca.edu.au/user-guides/crate-o/main_toolbar.png" alt="Crate-O Main Menu" title="Crate-O Main Menu" height="" class="center_image" />
+ &lt;div style="text-align: center">
+ &lt;b>
+ Crate-O Main Menu&lt;/b>
+ &lt;br>Image Source: LDaCA 
+ &lt;/div>
+ &lt;/div>
+&lt;/body>
+&lt;br>
+&lt;p>From the Main Menu, the following options are available:&lt;/p></description></item><item><title>RO-Crate Creation</title><link>https://www.ldaca.edu.au/resources/user-guides/crate-o/ro-crate-creation/</link><pubDate>Sun, 27 Mar 2022 16:01:02 +1000</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/user-guides/crate-o/ro-crate-creation/</guid><description>&lt;br>
+&lt;blockquote>
+&lt;p>This guide takes you through the steps to create an &lt;a href="https://www.ldaca.edu.au/resources/glossary/#ro-crate" title="Research Object Crate" target="_blank"
+ >RO-Crate&lt;/a
+> &lt;a href="https://www.ldaca.edu.au/resources/glossary/#metadata" title="The information that defines and describes data." target="_blank"
+ >metadata&lt;/a
+ > file, using a top-level collection for language data as an example. To view more details and screenshots of each section discussed, select the click-through links throughout the page.&lt;/p>
+&lt;/blockquote>
+&lt;br>
+&lt;h5 id="open-directoryopen-directory">&lt;a href="#open-directory" rel="">Open Directory&lt;/a>&lt;/h5>
+&lt;h5 id="select-modeselect-mode">&lt;a href="#select-mode" rel="">Select Mode&lt;/a>&lt;/h5>
+&lt;h5 id="add-entity-metadataadd-entity-metadata">&lt;a href="#add-entity-metadata" rel="">Add Entity Metadata&lt;/a>&lt;/h5>
+&lt;h5 id="save-ro-cratesave-ro-crate">&lt;a href="#save-ro-crate" rel="">Save RO-Crate&lt;/a>&lt;/h5>
+&lt;h5 id="append-data-from-spreadsheetappend-data-from-spreadsheet">&lt;a href="#append-data-from-spreadsheet" rel="">Append Data from Spreadsheet&lt;/a>&lt;/h5>
+&lt;br>
+&lt;h2 id="open-directory">Open Directory&lt;/h2>
+&lt;ul>
+&lt;li>Open &lt;a href="https://language-research-technology.github.io/crate-o/#/" target="_blank" rel="noopener noreffer ">Crate-O&lt;/a> in a compatible browser.&lt;/li>
+&lt;li>In the &lt;a href="https://www.ldaca.edu.au/resources/user-guides/crate-o/basic-navigation/#main-menu" rel="">Main Menu&lt;/a>, select &lt;em>&lt;strong>Open Directory&lt;/strong>&lt;/em>.&lt;/li>
+&lt;li>Navigate to a folder where the &lt;a href="https://www.ldaca.edu.au/resources/glossary/#ro-crate" title="Research Object Crate" target="_blank"
+ >RO-Crate&lt;/a
+> will be saved, or create a new one, then confirm your selection.&lt;/li>
+&lt;li>For the pop-up message asking &lt;em>Let site view files?&lt;/em>, select &lt;em>&lt;strong>View Files&lt;/strong>&lt;/em>.&lt;/li>
+&lt;li>Your current working directory will be displayed in the &lt;em>Selected Directory&lt;/em> section in the &lt;a href="https://www.ldaca.edu.au/resources/user-guides/crate-o/basic-navigation/#mode-selector" rel="">Mode Selector&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;br>
+
+
+&lt;body>
+ &lt;div>
+ &lt;img src="https://www.ldaca.edu.au/user-guides/crate-o/open_directory.png" alt="Crate-O: Open Directory" title="Crate-O: Open Directory" height="" class="center_image" />
+ &lt;div style="text-align: center">
+ &lt;b>
+ Crate-O: Open Directory&lt;/b>
+ &lt;br>Image Source: LDaCA 
+ &lt;/div>
+ &lt;/div>
+&lt;/body>
+&lt;br>
+&lt;h2 id="select-mode">Select Mode&lt;/h2>
+&lt;ul>
+&lt;li>In the &lt;a href="https://www.ldaca.edu.au/resources/user-guides/crate-o/basic-navigation/#mode-selector" rel="">Mode Selector&lt;/a>, the &lt;em>&lt;strong>Mode&lt;/strong>&lt;/em> dropdown shows the current &lt;a href="https://www.ldaca.edu.au/resources/glossary/#mode" title="An implementation of an RO-Crate Profile consisting of a set of lightweight syntactic rules for combining Schema.org Style Schema (SOSS) Classes, Properties and DefinedTerms, in a JSON file." target="_blank"
+ >mode&lt;/a
+> that is being displayed, i.e. the &lt;a href="https://www.ldaca.edu.au/resources/glossary/#metadata" title="The information that defines and describes data." target="_blank"
+ >metadata&lt;/a
+> framework associated with your &lt;a href="https://www.ldaca.edu.au/resources/glossary/#collection" title="A group of related Objects." target="_blank"
+ >collection&lt;/a
+>.&lt;/li>
+&lt;li>Change the mode from the default &lt;em>Simple RO-Crate Dataset&lt;/em> to &lt;em>Language Data Commons top-level Collection (corpus)&lt;/em>.&lt;/li>
+&lt;/ul>
+&lt;br>
+
+
+&lt;body>
+ &lt;div>
+ &lt;img src="https://www.ldaca.edu.au/user-guides/crate-o/select_mode.jpeg" alt="Crate-O: Select Mode" title="Crate-O: Select Mode" height="" class="center_image" />
+ &lt;div style="text-align: center">
+ &lt;b>
+ Crate-O: Select Mode&lt;/b>
+ &lt;br>Image Source: LDaCA 
+ &lt;/div>
+ &lt;/div>
+&lt;/body>
+&lt;br>
+&lt;h2 id="add-entity-metadata">Add Entity Metadata&lt;/h2>
+&lt;ul>
+&lt;li>The &lt;a href="https://www.ldaca.edu.au/resources/user-guides/crate-o/basic-navigation/#current-entity" rel="">Current Entity&lt;/a> section shows your location in the current &lt;a href="https://www.ldaca.edu.au/resources/glossary/#ro-crate" title="Research Object Crate" target="_blank"
+ >RO-Crate&lt;/a
+>.&lt;/li>
+&lt;li>The &lt;a href="https://www.ldaca.edu.au/resources/user-guides/crate-o/basic-navigation/#property-groups" rel="">Property Groups&lt;/a> panel allows you to navigate to the various groups associated with your RO-Crate.&lt;/li>
+&lt;li>The &lt;a href="https://www.ldaca.edu.au/resources/user-guides/crate-o/basic-navigation/#entity-properties" rel="">Entity Properties&lt;/a> panel is where you can add data about your &lt;a href="https://www.ldaca.edu.au/resources/glossary/#collection" title="A group of related Objects." target="_blank"
+ >collection&lt;/a
+>.&lt;/li>
+&lt;li>For blank RO-Crates, the following missing property messages will appear by default. Clicking the blue &lt;em>&lt;strong>Add&lt;/strong>&lt;/em> buttons will automatically add these missing items to your RO-Crate.&lt;/li>
+&lt;/ul>
+&lt;br>
+
+
+&lt;body>
+ &lt;div>
+ &lt;img src="https://www.ldaca.edu.au/user-guides/crate-o/missing_properties.jpeg" alt="Crate-O: Missing Properties" title="Crate-O: Missing Properties" height="" class="center_image" />
+ &lt;div style="text-align: center">
+ &lt;b>
+ Crate-O: Missing Properties&lt;/b>
+ &lt;br>Image Source: LDaCA 
+ &lt;/div>
+ &lt;/div>
+&lt;/body>
+&lt;br>
+&lt;ul>
+&lt;li>Enter the entity properties you have for your collection. Add as little or as much information about your collection as you like, as this can be saved and worked on further later. To browse all the &lt;a href="https://www.ldaca.edu.au/resources/glossary/#metadata" title="The information that defines and describes data." target="_blank"
+ >metadata&lt;/a
+> entities associated with the Language Data Commons (LDAC) Mode, see &lt;a href="https://ldaca.gitbook.io/metadata-for-language-data" target="_blank" rel="noopener noreffer ">Metadata for Language Data&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;br>
+
+
+&lt;body>
+ &lt;div>
+ &lt;img src="https://www.ldaca.edu.au/user-guides/crate-o/add_entity_metadata.png" alt="Crate-O: Add Entity Metadata" title="Crate-O: Add Entity Metadata" height="" class="center_image" />
+ &lt;div style="text-align: center">
+ &lt;b>
+ Crate-O: Add Entity Metadata&lt;/b>
+ &lt;br>Image Source: LDaCA 
+ &lt;/div>
+ &lt;/div>
+&lt;/body>
+&lt;br>
+&lt;h2 id="save-ro-crate">Save RO-Crate&lt;/h2>
+&lt;ul>
+&lt;li>In the &lt;a href="https://www.ldaca.edu.au/resources/user-guides/crate-o/basic-navigation/#main-menu" rel="">Main Menu&lt;/a>, select &lt;em>&lt;strong>Save&lt;/strong>&lt;/em>.&lt;/li>
+&lt;li>For the pop-up message asking &lt;em>Save changes to [Selected Directory]?&lt;/em>, select &lt;em>&lt;strong>Save changes&lt;/strong>&lt;/em>.&lt;/li>
+&lt;/ul>
+&lt;br>
+
+
+&lt;body>
+ &lt;div>
+ &lt;img src="https://www.ldaca.edu.au/user-guides/crate-o/save_ro_crate.png" alt="Crate-O: Save RO-Crate" title="Crate-O: Save RO-Crate" height="" class="center_image" />
+ &lt;div style="text-align: center">
+ &lt;b>
+ Crate-O: Save RO-Crate&lt;/b>
+ &lt;br>Image Source: LDaCA 
+ &lt;/div>
+ &lt;/div>
+&lt;/body>
+&lt;br>
+&lt;ul>
+&lt;li>Your &lt;a href="https://www.ldaca.edu.au/resources/glossary/#ro-crate" title="Research Object Crate" target="_blank"
+ >RO-Crate&lt;/a
+> is now successfully saved in your working directory, with two files:
+&lt;ul>
+&lt;li>&lt;em>ro-crate-metadata.json&lt;/em>: The saved RO-Crate in &lt;a href="https://www.ldaca.edu.au/resources/glossary/#json" title="JavaScript Object Notation" target="_blank"
+ >JSON&lt;/a
+> format.&lt;/li>
+&lt;li>&lt;em>ro-crate-preview.html&lt;/em>: An HTML file that can be viewed on a web browser and shows the contents of your RO-Crate.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;br>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">ro-crate-metadata.json&lt;/th>
+ &lt;th style="text-align: left">ro-crate-preview.html&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">
+
+&lt;body>
+ &lt;div>
+ &lt;img src="https://www.ldaca.edu.au/user-guides/crate-o/ro_crate_metadata_json.png" alt="ro-crate-metadata.json" title="ro-crate-metadata.json" height="" class="center_image" />
+ &lt;div style="text-align: center">
+ &lt;b>
+ ro-crate-metadata.json&lt;/b>
+ &lt;br>Image Source: LDaCA 
+ &lt;/div>
+ &lt;/div>
+&lt;/body>&lt;/td>
+ &lt;td style="text-align: left">
+
+&lt;body>
+ &lt;div>
+ &lt;img src="https://www.ldaca.edu.au/user-guides/crate-o/ro_crate_preview_html.jpeg" alt="ro-crate-preview.html" title="ro-crate-preview.html" height="" class="center_image" />
+ &lt;div style="text-align: center">
+ &lt;b>
+ ro-crate-preview.html&lt;/b>
+ &lt;br>Image Source: LDaCA 
+ &lt;/div>
+ &lt;/div>
+&lt;/body>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;br>
+&lt;h3 id="required-properties">Required Properties&lt;/h3>
+&lt;p>After saving, if there are required properties missing from your &lt;a href="https://www.ldaca.edu.au/resources/glossary/#ro-crate" title="Research Object Crate" target="_blank"
+ >RO-Crate&lt;/a
+>, the section &lt;em>Saved with warnings&lt;/em> will appear. You can select the dropdown on this message to view the missing required properties. Clicking on one of these warnings will take you to the relevant &lt;a href="https://www.ldaca.edu.au/resources/glossary/#property" title="In linked data, a metadata category used to add attributes to classes." target="_blank"
+ >property&lt;/a
+> group. If you choose to edit any of these sections, select &lt;em>&lt;strong>Save&lt;/strong>&lt;/em> again to ensure your most recent changes are not lost.&lt;/p></description></item><item><title>Spreadsheet Upload</title><link>https://www.ldaca.edu.au/resources/user-guides/crate-o/spreadsheet-upload/</link><pubDate>Sun, 28 Feb 2021 13:53:43 +1000</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/user-guides/crate-o/spreadsheet-upload/</guid><description>&lt;br>
+&lt;h5 id="templatetemplate">&lt;a href="#template" rel="">Template&lt;/a>&lt;/h5>
+&lt;h5 id="tab-breakdowntab-breakdown">&lt;a href="#tab-breakdown" rel="">Tab Breakdown&lt;/a>&lt;/h5>
+&lt;h5 id="column-breakdowncolumn-breakdown">&lt;a href="#column-breakdown" rel="">Column Breakdown&lt;/a>&lt;/h5>
+&lt;ul>
+&lt;li>&lt;a href="#root" rel="">Root&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#authors" rel="">Authors&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#publishers" rel="">Publishers&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#licenses" rel="">Licenses&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#people" rel="">People&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#objects" rel="">Objects&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#files-csv-eaf-wav" rel="">Files (CSV, EAF, WAV)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h5 id="upload-spreadsheet-to-an-ro-crate-with-crate-oupload-spreadsheet-to-an-ro-crate-with-crate-o">&lt;a href="#upload-spreadsheet-to-an-ro-crate-with-crate-o" rel="">Upload Spreadsheet to an RO-Crate with Crate-O&lt;/a>&lt;/h5>
+&lt;br>
+&lt;h2 id="template">Template&lt;/h2>
+&lt;p>For &lt;a href="https://www.ldaca.edu.au/resources/glossary/#collection" title="A group of related Objects." target="_blank"
+ >collections&lt;/a
+> where there are a lot of interconnected &lt;a href="https://www.ldaca.edu.au/resources/glossary/#object" title="A single resource or a group of tightly related resources." target="_blank"
+ >objects&lt;/a
+> and files, it may be easier or preferable to add the &lt;a href="https://www.ldaca.edu.au/resources/glossary/#metadata" title="The information that defines and describes data." target="_blank"
+ >metadata&lt;/a
+> for these via uploading a spreadsheet to an existing &lt;a href="https://www.ldaca.edu.au/resources/glossary/#ro-crate" title="Research Object Crate" target="_blank"
+ >RO-Crate&lt;/a
+> in &lt;a href="https://www.ldaca.edu.au/resources/glossary/#crate-o" title="A browser-based editor for RO-Crates." target="_blank"
+ >Crate-O&lt;/a
+>, rather than adding these items manually. An RO-Crate metadata spreadsheet template can be downloaded below and populated with metadata specific to your collection:&lt;/p></description></item></channel></rss>
