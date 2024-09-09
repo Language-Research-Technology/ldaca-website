@@ -19,6 +19,7 @@ weight: 4
 - [Publishers](#publishers)
 - [Licenses](#licenses)
 - [People](#people)
+- [Localities](#localities)
 - [Objects](#objects)
 - [Files (CSV, EAF, WAV)](#files-csv-eaf-wav)
 
@@ -59,6 +60,7 @@ The spreadsheet has the below tabs by default, but depending on your {{< glossar
 | Publishers | Metadata about the organisation responsible for releasing this collection.                                                                                                               |
 | Licenses   | Metadata about the license(s) within the collection; both for the {{< glossary_link display="objects" id="object" >}} and files, and for the collection's metadata.                      |
 | People     | Metadata about the people within the collection.                                                                                                                                         |
+| Localities | Metadata about the location data within the collection.                                                                                                                                  |
 | Objects    | Metadata about the entities within the collection that could encompass one or more files.                                                                                                |
 | Files      | Metadata about the files in your collection. If the collection has multiple file formats, duplicate this tab and add the formats to the tab names, e.g. csv_files, eaf_files, wav_files. |
 
@@ -170,13 +172,15 @@ This tab contains information about the people within the {{< glossary_link disp
 
 ### Localities
 
-TODO description
+This tab contains information about the locations within the {{< glossary_link display="collection" id="collection" >}}.
 
-| Column | Type       | Description                                                                    |
-| ------ | ---------- | ------------------------------------------------------------------------------ |
-| @id    | Data entry | A unique identifier for the location. Identifiers should be prefixed with `#`. |
-| @type  | Pre-filled | The type of the entity. Only `Geometry` is valid.                              |
-| asWKT  | Data entry | The WKT serialisation of the geometry.                                         |
+| Column     | Type       | Description                                                                                                                                                          |
+| ---------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| @id        | Data entry | A unique identifier for the location. Identifiers should be prefixed with `#`.                                                                                       |
+| @type      | Pre-filled | The type of the entity. Only `Geometry` is valid.                                                                                                                    |
+| .latitude  | Data entry | The latitude of the location in decimal degree format.                                                                                                               |
+| .longitude | Data entry | The longitude of the location in decimal degree format.                                                                                                              |
+| asWKT      | Pre-filled | The WKT serialisation of the geometry, generated from the `.latitude` and `.longitude` columns. Note that `asWKT` format lists longitude first followed by latitude. |
 
 <br>
 
