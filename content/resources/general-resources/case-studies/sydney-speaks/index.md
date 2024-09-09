@@ -11,7 +11,7 @@ by {{< profile id = "travis" >}} and {{< profile id = "johnstone" >}}
 
 ## Introducing the Sydney Speaks project
 
-Sydney Speaks is a large-scale sociolinguistic project, funded through the {{< glossary_link display="ARC" id="arc" >}} Centre of Excellence for the Dynamics of Language ([CoEDL](https://legacy.dynamicsoflanguage.edu.au/) 2014-2022) at the ANU, led by [Catherine Travis](https://researchers.anu.edu.au/researchers/travis-ce), working with James Grama and Simon Gonzalez (CoEDL post-doctoral fellows (2017-2019); Katrina Hayes and Cale Johnstone (Project Managers); Benjamin Purser (lead RA); and many RAs who worked on data collection, transcription, and checking vowel alignment.
+Sydney Speaks is a large-scale sociolinguistic project, funded through the {{< glossary_link display="ARC" id="arc" >}} Centre of Excellence for the Dynamics of Language ([CoEDL](https://legacy.dynamicsoflanguage.edu.au/) 2014-2022) at the ANU, led by [Catherine Travis](https://researchers.anu.edu.au/researchers/travis-ce), working with James Grama and Simon Gonzalez (CoEDL post-doctoral fellows (2017-2019)); Katrina Hayes and Cale Johnstone (Project Managers); Benjamin Purser (lead RA); and many RAs who worked on data collection, transcription, and checking vowel alignment.
 
 <br>
 
