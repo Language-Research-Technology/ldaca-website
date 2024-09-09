@@ -1,11 +1,14 @@
+Access Condition
 Access Conditions
 ADA
 ADM+S
 ADO
 AIATSIS
 API
+APIs
 ARC
 Archival Repository
+Archival Repositories
 ARDC
 ARDS
 Arkisto
@@ -19,27 +22,47 @@ CARE
 CDL
 CDU
 Class
+Classes
 CMDI
 Collection
+Collections
 Confidentiality
 Copyright
 Copyright Owner
+Copyright Owners
+Corpus
+Corpora
 Crate-O
+Creative Commons License
 Creative Commons Licenses
+Cross-Corpus
 Data Collection
+Data Collections
 Data Commons
 Data Governance
 Data License
+Data Licenses
 Data Management Plan
+Data Management Plans
 Data Onboarding
 Data Packaging
 Data Steward
+Data Stewards
 Data Transformation
 Defined Term
+Defined Terms
 Describo
 DOI
+DOIs
+ELAN
 Elpis
 FAIR
+Field Notebook
+Field Notebooks
+Field Journal
+Field Journals
+Fieldnotes
+Fieldwork
 FLA
 GitHub
 GLAM
@@ -53,13 +76,21 @@ IDIL
 IDN
 IIRC
 Intellectual Property
+Interoperability
 IPA
 ISO-639
 JSON
 Jupyter Notebook
+Jupyter Notebooks
 LADAL
 LDAC
 LDaCA
+Legacy Format
+Legacy Formats
+Legacy File Format
+Legacy File Formats
+Lexicon
+Lexicons
 Licensing
 Linked Data
 Metadata
@@ -70,29 +101,52 @@ NER
 NFSA
 Nyingarn
 Object
+Objects
 OCFL
 OCR
 OLAC
 Oni
+Oral History
+Oral Histories
+ORCID
 Orthographic Transcription
+Orthographic Transcriptions
 PARADISEC
+Phonemic Transcription
+Phonemic Transcriptions
 Phonetic Transcription
+Phonetic Transcriptions
 PID
+PIDs
 Profile
+Profiles
 Property
+Properties
 Provenance
 Python
 QUT
 R
 RDC
 REMS
+Research Data Management
+Research Infrastructure
+Research Infrastructures
 RIIP
 RO-Crate
 Schema
+Schemas
 Sensitive Data
+Sub-Corpus
+Sub-Corpora
 Takedown Policy
+Takedown Policies
+TK Label
 TK Labels
+Tool
 Tools
+Transcode
+Transcoded
+Transcoding
 TTS
 UoM
 UQ
@@ -102,6 +156,7 @@ UWA
 VoIP
 Wangka Maya
 Work Plan
+Work Plans
 WP
 X-SAMPA
 XML

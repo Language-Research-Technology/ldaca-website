@@ -13,7 +13,7 @@ For nearly ten years, I have been officially working as a Data Manager. I say _o
 
 <br>
 
-I am based at the Australian National University (ANU), and since mid-2023, I've been working as the senior data manager for the Language Data Commons of Australia ([LDaCA](https://www.ldaca.edu.au/)). Prior to this, I worked for the {{< glossary_link display="ARC" id="arc" >}} Centre of Excellence for the Dynamics of Language ([CoEDL](https://legacy.dynamicsoflanguage.edu.au/)), who could offer a eight year data manager position, very generous in a field where contracts often last only two or three years. It was at CoEDL where I first took on this academic-adjacent role, focusing on bolstering research and research infrastructure. It was also the first time I had heard of such a position becoming available that addressed the data management and archiving needs of those actively recording or assembling cultural heritage data. Such data includes tabular data, text corpora, collections of songs and music, ethnographic interviews, elicited linguistic content, oral histories, traditional narratives and lexicons, and can be in different formats, such as text, video, audio, image, film, magnetic tape and digital files.
+I am based at the Australian National University (ANU), and since mid-2023, I've been working as the senior data manager for the Language Data Commons of Australia ([LDaCA](https://www.ldaca.edu.au/)). Prior to this, I worked for the {{< glossary_link display="ARC" id="arc" >}} Centre of Excellence for the Dynamics of Language ([CoEDL](https://legacy.dynamicsoflanguage.edu.au/)), who could offer a eight year data manager position, very generous in a field where contracts often last only two or three years. It was at CoEDL where I first took on this academic-adjacent role, focusing on bolstering research and {{< glossary_link display="research infrastructure" id="research-infrastructure" >}}. It was also the first time I had heard of such a position becoming available that addressed the data management and archiving needs of those actively recording or assembling cultural heritage data. Such data includes tabular data, text {{< glossary_link display="corpora" id="corpus" >}}, collections of songs and music, ethnographic interviews, elicited linguistic content, oral histories, traditional narratives and lexicons, and can be in different formats, such as text, video, audio, image, film, magnetic tape and digital files.
 
 <br>
 
@@ -57,7 +57,7 @@ In my concurrent role as manager of the ANU unit of {{< glossary_link display="P
 
 ### Digitising analogue materials
 
-We often receive magnetic tape audio (cassette and reel-to-reel tapes) and field notebooks to archive. Engaging with legacy formats is equal parts exciting and challenging. The challenging parts are:
+We often receive magnetic tape audio (cassette and reel-to-reel tapes) and {{< glossary_link display="field notebooks" id="field-notebook-journal" >}} to archive. Engaging with {{< glossary_link display="legacy formats" id="legacy-format" >}} is equal parts exciting and challenging. The challenging parts are:
 
 - finding and maintaining the necessary playback devices
 - dealing with damaged or mouldy materials
@@ -88,7 +88,7 @@ Some of the digitising tasks we conducted during this time for CoEDL researchers
 
 <br>
 
-- digitising manuscripts and field journals, ensuring high-quality reproduction.
+- digitising manuscripts and {{< glossary_link display="field journals" id="field-notebook-journal" >}}, ensuring high-quality reproduction.
 
 <br>
 
@@ -116,7 +116,7 @@ Of course, we are now living in a time where digital recording devices of all ki
 Some activities involved in managing born-digital files are:
 
 - receiving files and creating detailed inventories of them — a critical step in ensuring all files are looked after and that quality checking can be logged
-- resampling audio, [transcoding](https://en.wikipedia.org/wiki/Transcoding) image and video files to archival formats and managing the transfer to {{< glossary_link display="PARADISEC" id="paradisec" >}} for archiving
+- resampling audio, {{< glossary_link display="transcoding" id="transcoding" >}} image and video files to archival formats and managing the transfer to {{< glossary_link display="PARADISEC" id="paradisec" >}} for archiving
 - devising solutions for problematic video formats and liaising with commercial service providers and other institutions for help when needed.
 
 <br>
@@ -129,7 +129,7 @@ Below is an image of an inventory spreadsheet containing the structural {{< glos
 
 <br>
 
-Creating an inventory like this informed me as to how to proceed in transcoding tasks, based on the format and specifications of the files. Also, I could compare details of the output files to the originals, thus helping with quality checks. As I worked through the files, I could keep track of my progress by marking which ones had been transcoded and were ready to send to the archive. This task took months to complete, so it was important to be able to pick up each day right where I had left off on the previous day.
+Creating an inventory like this informed me as to how to proceed in {{< glossary_link display="transcoding" id="transcoding" >}} tasks, based on the format and specifications of the files. Also, I could compare details of the output files to the originals, thus helping with quality checks. As I worked through the files, I could keep track of my progress by marking which ones had been transcoded and were ready to send to the archive. This task took months to complete, so it was important to be able to pick up each day right where I had left off on the previous day.
 
 <br>
 
@@ -169,7 +169,7 @@ A notable project involved digitising select items from the [Helen Groger-Wurm c
 
 <br>
 
-PARADISEC and CoEDL secured funding to digitise 26 audio tapes from this collection. This effort supported CoEDL PhD student Haoyi Li, who, due to COVID-19 restrictions, couldn't conduct fieldwork in Arnhem Land when she was hoping to. Haoyi identified relevant items for her research, and we expanded the digitisation to include field notes alongside the audio tapes. This initiative enabled her to start her primary research remotely and gain valuable skills in archival engagement with legacy recordings, high-resolution image capture of field notes, open reel audio tape digitisation, metadata collection and archival record enrichment.
+PARADISEC and CoEDL secured funding to digitise 26 audio tapes from this collection. This effort supported CoEDL PhD student Haoyi Li, who, due to COVID-19 restrictions, couldn't conduct {{< glossary_link display="fieldwork" id="fieldwork" >}} in Arnhem Land when she was hoping to. Haoyi identified relevant items for her research, and we expanded the digitisation to include field notes alongside the audio tapes. This initiative enabled her to start her primary research remotely and gain valuable skills in archival engagement with legacy recordings, high-resolution image capture of field notes, open reel audio tape digitisation, metadata collection and archival record enrichment.
 
 <br>
 
@@ -223,7 +223,7 @@ This project involved creating phonemic transcriptions of spoken Tok Pisin, the 
 
 <br>
 
-Below are images of transcriptions in the [ELAN transcription software](https://archive.mpi.nl/tla/elan). The recordings were made by Andy Pawley in the Kaironk Valley region of Papua New Guinea and are held in PARADISEC as [collection AP4](https://dx.doi.org/10.26278/HQZ8-7H23).
+Below are images of transcriptions in the {{< glossary_link display="ELAN" id="elan" >}} transcription software. The recordings were made by Andy Pawley in the Kaironk Valley region of Papua New Guinea and are held in PARADISEC as [collection AP4](https://dx.doi.org/10.26278/HQZ8-7H23).
 
 <br>
 
@@ -242,7 +242,7 @@ Some tasks for this project included:
 
 <br>
 
-In the end, PARADISEC gained rich transcriptions of previously untranscribed Tok Pisin audio held within the archive. Additionally, we were able to employ and train two ANU PhD students and one of PARADISEC's archivists, Steven Gagau, all fluent Tok Pisin speakers, in using the ELAN software for creating the time-aligned transcriptions.
+In the end, PARADISEC gained rich transcriptions of previously untranscribed Tok Pisin audio held within the archive. Additionally, we were able to employ and train two ANU PhD students and one of PARADISEC's archivists, Steven Gagau, all fluent Tok Pisin speakers, in using the {{< glossary_link display="ELAN" id="elan" >}} software for creating the time-aligned transcriptions.
 
 <br>
 
@@ -288,7 +288,7 @@ I have collaborated with Charles Sturt University's [Master of Information Studi
 
 <br>
 
-During ANU's COVID-19 lockdown, I designed a 10-week online training module to accommodate my newly hired RAs, providing foundational knowledge in digitisation and archiving techniques. This online training was extended to ANU's Summer Scholar interns, who were also missing out on activities due to lockdown. We focused on audio and manuscript digitisation practices, as well as introducing them to the history of digital language archives. When the lockdown was lifted, we followed up with hands-on training. One of the interns, a PhB student in Linguistics, Daniel Majchrzak (seen in the image below), has been trained in high-resolution image capture of manuscripts and fieldnotes and is now working in our studio to digitise the papers of [Luise Hercus](https://en.wikipedia.org/wiki/Luise_Hercus).
+During ANU's COVID-19 lockdown, I designed a 10-week online training module to accommodate my newly hired RAs, providing foundational knowledge in digitisation and archiving techniques. This online training was extended to ANU's Summer Scholar interns, who were also missing out on activities due to lockdown. We focused on audio and manuscript digitisation practices, as well as introducing them to the history of digital language archives. When the lockdown was lifted, we followed up with hands-on training. One of the interns, a PhB student in Linguistics, Daniel Majchrzak (seen in the image below), has been trained in high-resolution image capture of manuscripts and {{< glossary_link display="fieldnotes" id="fieldnotes" >}} and is now working in our studio to digitise the papers of [Luise Hercus](https://en.wikipedia.org/wiki/Luise_Hercus).
 
 <br>
 
@@ -298,7 +298,7 @@ During ANU's COVID-19 lockdown, I designed a 10-week online training module to a
 
 ## Final thoughts
 
-Data management is an integral element of institutional research infrastructure. It often falls within that fluid space between the roles of academic and professional staff — within what is called the Third Space in academia (to read more on this topic, take a look at _"[Reconstructing Identities in Higher Education: The rise of 'Third Space' professionals](https://www.routledge.com/Reconstructing-Identities-in-Higher-Education-The-rise-of-Third-Space/Whitchurch/p/book/9780415614832)"_, by Celia Whitchurch, 2013). Many of the activities carried out as Data Manager for CoEDL, and now for {{< glossary_link display="LDaCA" id="ldaca" >}}, were designed to assist in educational development and knowledge exchange, as well as to promote public engagement and outreach. These tasks not only assisted students and academic researchers to better conduct their research enquiries and safeguard their work, but they also facilitated activities that directly reinforced the academic missions of our universities.
+Data management is an integral element of institutional {{< glossary_link display="research infrastructure" id="research-infrastructure" >}}. It often falls within that fluid space between the roles of academic and professional staff — within what is called the Third Space in academia (to read more on this topic, take a look at _"[Reconstructing Identities in Higher Education: The rise of 'Third Space' professionals](https://www.routledge.com/Reconstructing-Identities-in-Higher-Education-The-rise-of-Third-Space/Whitchurch/p/book/9780415614832)"_, by Celia Whitchurch, 2013). Many of the activities carried out as Data Manager for CoEDL, and now for {{< glossary_link display="LDaCA" id="ldaca" >}}, were designed to assist in educational development and knowledge exchange, as well as to promote public engagement and outreach. These tasks not only assisted students and academic researchers to better conduct their research enquiries and safeguard their work, but they also facilitated activities that directly reinforced the academic missions of our universities.
 
 <br>
 

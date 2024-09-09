@@ -15,6 +15,24 @@ aliases:
 
 <br>
 
+### Using Hansard & Other Parliamentary Proceedings for Your Research
+
+Parliamentary bodies around the world have been publishing transcriptions of their proceedings for decades or even centuries. These transcriptions enable public scrutiny and transparency of the actions and speech of legislative bodies and elected representatives. Because of their documentation of legislative action and speech, their relatively consistent format, and their coverages of long periods of time they are potentially useful for policy researchers, media and communication scholars, political scientists, linguists, sociologists, historians, and many others.
+
+This workshop aims to provide a starting point for working with these transcribed proceedings, including evaluating how it might (and might not!) be useful for your research, how to get started for different kinds of projects, and cautionary notes on potential limitations. We will be using a suite of computational text analysis approaches, with no prior coding experience necessary.
+
+We will include an overview of different proceedings around the world, the variety of different access mechanisms, pre-collected datasets, and different ways you can work with Hansards. Guest presenters from different fields will showcase their research. In the second half of the workshop we will run an interactive session on working with the proceedings of the Australian Federal Parliament.
+
+**Leaders**: {{< profile id="hames" >}}, {{< profile id="musgrave" >}}
+
+**When**: 19 September 2024, 10am—1pm
+
+**Where**: RD Watt Building (A04), Seminar Room 203, The University of Sydney
+
+**[Registration](https://www.eventbrite.com.au/e/workshop-using-hansard-other-parliamentary-proceedings-for-your-research-tickets-1002201841687?aff=oddtdtcreator)**
+
+ <br>
+
 ### Indigenous Data Governance: A discussion
 
 #### Part of The University of Queensland Research and Innovation Week 2024
@@ -34,40 +52,6 @@ This event will present a panel of Indigenous researchers, data custodians and d
 **Where**: Anthropology Museum, Michie Building, The University of Queensland (St Lucia Campus)
 
 **[Details](https://research-support.uq.edu.au/event/session/14691)**
-
-<br>
-
-### Using Hansard & Other Parliamentary Proceedings for Your Research
-
-Parliamentary bodies around the world have been publishing transcriptions of their proceedings for decades or even centuries. These transcriptions enable public scrutiny and transparency of the actions and speech of legislative bodies and elected representatives. Because of their documentation of legislative action and speech, their relatively consistent format, and their coverages of long periods of time they are potentially useful for policy researchers, media and communication scholars, political scientists, linguists, sociologists, historians, and many others.
-
-This workshop aims to provide a starting point for working with these transcribed proceedings, including evaluating how it might (and might not!) be useful for your research, how to get started for different kinds of projects, and cautionary notes on potential limitations. We will be using a suite of computational text analysis approaches, with no prior coding experience necessary.
-
-We will include an overview of different proceedings around the world, the variety of different access mechanisms, pre-collected datasets, and different ways you can work with Hansards. Guest presenters from different fields will showcase their research. In the second half of the workshop we will run an interactive session on working with the proceedings of the Australian Federal Parliament.
-
-**Leaders**: {{< profile id="hames" >}}, {{< profile id="musgrave" >}}
-
-**When**: 19 September 2024, 10am—1pm
-
-**Where**: RD Watt Building (A04), Seminar Room 203, The University of Sydney
-
-**[Registration](https://www.eventbrite.com.au/e/workshop-using-hansard-other-parliamentary-proceedings-for-your-research-tickets-1002201841687?aff=oddtdtcreator)**
-
- <br>
-
-### Data Migration Skills Workshop
-
-The Language Data Commons of Australia infrastructure is based on widely-accepted standards such as [Research Object Crates](https://www.researchobject.org/ro-crate/) and the [Oxford Common File Layout](https://ocfl.io/). The project has been running for more than three years and the processes and tools for aligning data with these standards are now well-developed. This workshop aims to show the application of those tools to data in a variety of formats to efficiently migrate material to the LDaCA standards.
-
-The hands-on workshop is intended for data librarians and other professionals who are interested in these issues, but participation is open to anyone who is prepared to work on language data. Participants will have some experience of working with code and/or metadata and will commit to bringing datasets which they work with (or are responsible for) to use in the practical exercises which will make up a large part of the workshop. We will also have example datasets available and we also are open to the possibility of participants working in teams based on complementary skills.
-
-**Leader**: {{< profile id="sefton" >}}
-
-**When**: 3 - 5 September 2024
-
-**Where**: Engma Room (Room 3.165), Coombs Building, Australian National University
-
-**Details**: (registration form to come shortly)
 
 <br>
 
@@ -91,7 +75,15 @@ The RO-Crate community run a weekly drop-in call in Australia. For further infor
 
 <details>
     <summary>
-        <b>Introduction to Computational Text Analytics.</b>
+        <b>Data Migration Skills Workshop</b>
+    </summary>
+    <p>This workshop aimed to show the application of LDaCA tools to data in a variety of formats to efficiently migrate material to the LDaCA standards.</p>
+    <p><b>Leader</b>: Peter Sefton</p>
+    <p><b>When</b>: 3 - 5 September 2024</p>
+</details>
+<details>
+    <summary>
+        <b>Introduction to Computational Text Analytics</b>
     </summary>
     <p>This workshop introduced the fundamentals of computational text analysis using <a href="https://ladal.edu.au/index.html" target="_blank">LADAL</a>.</p>
     <p><b>Facilitators</b>: Martin Schweinberger and Sam Hames</p>
