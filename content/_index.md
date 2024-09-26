@@ -25,11 +25,11 @@
         <h1>Updates</h1>
         <h4></h4>
         <ul>
-        <h3><li>Workshop: Using Hansard & Other Parliamentary Proceedings for Your Research (<a href = "./news/events/" target="_blank">Read more ➤</a>)</li></h3>
         <h3><li>Event: Indigenous Data Governance: A discussion (part of The University of Queensland Research and Innovation Week) (<a href = "./news/events/" target="_blank">Learn more ➤</a>)</li></h3>
-        <h3><li>Media: Robert McLellan talks to Sarah Morice for ABC NewsRadio (<a href = "https://vimeo.com/998991692" target="_blank">Listen ➤</a>)</li></h3>
-        <h3><li>Media: Story from UQ News: "Securing voices of Country" (<a href = "https://www.uq.edu.au/news/article/2024/08/securing-voices-of-country" target="_blank">Read more ➤</a>)</li></h3>
-        
+        <h3><li>Workshop: A glamorous introduction to text analytics for social media (<a href = "./news/events/" target="_blank">Read more ➤</a>)</li></h3>
+        <h3><li>Blog post: Graduate Digital Research Fellowship — 2024 (<a href = "./news/posts/gdrf-2024/" target="_blank">Read more ➤</a>)</li></h3>
+        <h3><li>Media: Robert McLellan talks to Sarah Morice for ABC NewsRadio (<a href = "https://www.youtube.com/watch?v=JCzYj3LeZWI" target="_blank">Listen ➤</a>)</li></h3>
+            
         </ul>
       </div>  
     </div>
