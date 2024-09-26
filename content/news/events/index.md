@@ -15,24 +15,6 @@ aliases:
 
 <br>
 
-### Using Hansard & Other Parliamentary Proceedings for Your Research
-
-Parliamentary bodies around the world have been publishing transcriptions of their proceedings for decades or even centuries. These transcriptions enable public scrutiny and transparency of the actions and speech of legislative bodies and elected representatives. Because of their documentation of legislative action and speech, their relatively consistent format, and their coverages of long periods of time they are potentially useful for policy researchers, media and communication scholars, political scientists, linguists, sociologists, historians, and many others.
-
-This workshop aims to provide a starting point for working with these transcribed proceedings, including evaluating how it might (and might not!) be useful for your research, how to get started for different kinds of projects, and cautionary notes on potential limitations. We will be using a suite of computational text analysis approaches, with no prior coding experience necessary.
-
-We will include an overview of different proceedings around the world, the variety of different access mechanisms, pre-collected datasets, and different ways you can work with Hansards. Guest presenters from different fields will showcase their research. In the second half of the workshop we will run an interactive session on working with the proceedings of the Australian Federal Parliament.
-
-**Leaders**: {{< profile id="hames" >}}, {{< profile id="musgrave" >}}
-
-**When**: 19 September 2024, 10am—1pm
-
-**Where**: RD Watt Building (A04), Seminar Room 203, The University of Sydney
-
-**[Registration](https://www.eventbrite.com.au/e/workshop-using-hansard-other-parliamentary-proceedings-for-your-research-tickets-1002201841687?aff=oddtdtcreator)**
-
- <br>
-
 ### Indigenous Data Governance: A discussion
 
 #### Part of The University of Queensland Research and Innovation Week 2024
@@ -47,7 +29,7 @@ This event will present a panel of Indigenous researchers, data custodians and d
 
 **Panellists**: {{< profile id="barrowcliffe" >}}, {{< profile id="mclellan" >}}, {{< profile id="acres" >}}. The discussion will be facilitated by Grant Sarra.
 
-**When**: 4–6pm, 30 September 2024
+**When**: 4–6pm AEST, 30 September 2024
 
 **Where**: Anthropology Museum, Michie Building, The University of Queensland (St Lucia Campus)
 
@@ -55,13 +37,31 @@ This event will present a panel of Indigenous researchers, data custodians and d
 
 <br>
 
+### A glamorous introduction to text analytics for social media (Reddit)
+
+This two-part workshop series introduces participants to basic text analytics for research using Reddit data.
+
+In the first workshop, we focus on data collection and you will learn how to collect posts from Reddit, using the very sparkly example of the Eurovision Song Contest. In the second workshop, you will learn to apply a range of text analytic techniques to the Reddit data.
+
+Some experience with R coding is preferred for attending the series. No experience with social media data collection or text analysis is required.
+
+**Organisers**: This workshop series is delivered by the [QUT Digital Observatory](https://www.digitalobservatory.net.au/qut-digital-observatory/) and LDaCA and is supported by the Australian Research Data Commons ([ARDC](https://ardc.edu.au)).
+
+**When**: 1–3pm AEST, 9 October 2024, 1–3pm AEST, 16 October 2024
+
+**Where**: Online
+
+**[Registration](https://events.humanitix.com/a-glamorous-introduction-to-basic-text-analytics-for-social-media-reddit)**
+
+ <br>
+
 ## Recurring Events {#recurring-events}
 
 ### RO-Crate Clinic Drop-in
 
 The RO-Crate community run a weekly drop-in call in Australia. For further information contact [Peter Sefton](mailto:p.sefton@uq.edu.au).
 
-**When**: Weekly, Thursday 14:00 AEST
+**When**: Weekly, Thursday 2pm AEST
 
 **Where**: Online via [Zoom](https://uqz.zoom.us/j/86281717601)
 
@@ -73,6 +73,17 @@ The RO-Crate community run a weekly drop-in call in Australia. For further infor
 
 {{<raw>}}
 
+<details>
+<summary>
+<b>Using Hansard & Other Parliamentary Proceedings for Your Research</b>
+</summary>
+<p>Parliamentary bodies around the world have been publishing transcriptions of their proceedings for decades or even centuries. These transcriptions enable public scrutiny and transparency of the actions and speech of legislative bodies and elected representatives. Because of their documentation of legislative action and speech, their relatively consistent format, and their coverages of long periods of time they are potentially useful for policy researchers, media and communication scholars, political scientists, linguists, sociologists, historians, and many others.</p>
+<p>This workshop aimed to provide a starting point for working with these transcribed proceedings, including evaluating how it might (and might not!) be useful for your research, how to get started for different kinds of projects, and cautionary notes on potential limitations. We will be using a suite of computational text analysis approaches, with no prior coding experience necessary.</p>
+<p><b>Leaders</b>: Sam Hames, Simon Musgrave</p>
+<p><b>When</b>: 19 September 2024</p>
+<p><b>Organisers</b>: <a href="https://computational-social-science.sydney.edu.au/" target="_blank">Computational Social Science Lab</a>, <a href="https://sydney.edu.au" target="blank">The University of Sydney</a></p>
+
+</details>
 <details>
     <summary>
         <b>Data Migration Skills Workshop</b>
