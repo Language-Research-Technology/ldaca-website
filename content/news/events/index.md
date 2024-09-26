@@ -29,7 +29,7 @@ This event will present a panel of Indigenous researchers, data custodians and d
 
 **Panellists**: {{< profile id="barrowcliffe" >}}, {{< profile id="mclellan" >}}, {{< profile id="acres" >}}. The discussion will be facilitated by Grant Sarra.
 
-**When**: 4–6pm, 30 September 2024
+**When**: 4–6pm AEST, 30 September 2024
 
 **Where**: Anthropology Museum, Michie Building, The University of Queensland (St Lucia Campus)
 
@@ -41,13 +41,13 @@ This event will present a panel of Indigenous researchers, data custodians and d
 
 This two-part workshop series introduces participants to basic text analytics for research using Reddit data.
 
-In the first workshop, we focus on data collection and you will learn how to collect posts from Reddit - using the very sparkly example of the Eurovision Song Contest. In the second workshop, you will learn to apply a range of text analytic techniques to the Reddit data.
+In the first workshop, we focus on data collection and you will learn how to collect posts from Reddit, using the very sparkly example of the Eurovision Song Contest. In the second workshop, you will learn to apply a range of text analytic techniques to the Reddit data.
 
 Some experience with R coding is preferred for attending the series. No experience with social media data collection or text analysis is required.
 
-**Organisers**: This workshop series is delivered by the Australian Digital Observatory ([ADO](https://www.digitalobservatory.net.au)) and the Language Data Commons of Australia (LDaCA) and is supported by the Australian Research Data Commons ([ARDC](https://ardc.edu.au)).
+**Organisers**: This workshop series is delivered by the [QUT Digital Observatory](https://www.digitalobservatory.net.au/qut-digital-observatory/) and LDaCA and is supported by the Australian Research Data Commons ([ARDC](https://ardc.edu.au)).
 
-**When**: 9 October 1:00 - 3:00 AEST, 16 October 1:00 - 3:00 AEST
+**When**: 1–3pm AEST, 9 October 2024, 1–3pm AEST, 16 October 2024
 
 **Where**: Online
 
@@ -61,7 +61,7 @@ Some experience with R coding is preferred for attending the series. No experien
 
 The RO-Crate community run a weekly drop-in call in Australia. For further information contact [Peter Sefton](mailto:p.sefton@uq.edu.au).
 
-**When**: Weekly, Thursday 14:00 AEST
+**When**: Weekly, Thursday 2pm AEST
 
 **Where**: Online via [Zoom](https://uqz.zoom.us/j/86281717601)
 
