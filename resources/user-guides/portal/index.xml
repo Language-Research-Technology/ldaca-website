@@ -1,10 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Portal on LDaCA</title><link>https://www.ldaca.edu.au/resources/user-guides/portal/</link><description>Recent content in Portal on LDaCA</description><generator>Hugo</generator><language>en-us</language><managingEditor>info@ldaca.edu.au (Language Data Commons of Australia)</managingEditor><webMaster>info@ldaca.edu.au (Language Data Commons of Australia)</webMaster><lastBuildDate>Mon, 29 Jan 2024 11:45:16 +1100</lastBuildDate><atom:link href="https://www.ldaca.edu.au/resources/user-guides/portal/index.xml" rel="self" type="application/rss+xml"/><item><title>Available Portals</title><link>https://www.ldaca.edu.au/resources/user-guides/portal/available-portals/</link><pubDate>Mon, 29 Jan 2024 11:45:16 +1100</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/user-guides/portal/available-portals/</guid><description>&lt;br>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Portal on LDaCA</title><link>https://www.ldaca.edu.au/resources/user-guides/portal/</link><description>Recent content in Portal on LDaCA</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 29 Jan 2024 11:45:16 +1100</lastBuildDate><atom:link href="https://www.ldaca.edu.au/resources/user-guides/portal/index.xml" rel="self" type="application/rss+xml"/><item><title>Available Portals</title><link>https://www.ldaca.edu.au/resources/user-guides/portal/available-portals/</link><pubDate>Mon, 29 Jan 2024 11:45:16 +1100</pubDate><guid>https://www.ldaca.edu.au/resources/user-guides/portal/available-portals/</guid><description>&lt;br>
 &lt;blockquote>
 &lt;p>This page lists, and links to, the &lt;a href="https://www.ldaca.edu.au/resources/glossary/#oni" title="A portal for discovery of RO-Crated data." target="_blank"
  >Oni&lt;/a
 > portals currently available, together with the &lt;a href="https://www.ldaca.edu.au/resources/glossary/#collection" title="A group of related Objects." target="_blank"
  >collections&lt;/a
-> contained in each. As additional collections and portals are added, these will be documented below. To find out more about each collection, simply click through to be redirected to the &lt;a href="https://www.ldaca.edu.au/about/sample-collections/" rel="">Collections&lt;/a> page.&lt;/p></description></item><item><title>Basic Navigation</title><link>https://www.ldaca.edu.au/resources/user-guides/portal/basic-navigation/</link><pubDate>Sun, 29 Jan 2023 11:45:30 +1100</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/user-guides/portal/basic-navigation/</guid><description>&lt;br>
+> contained in each. As additional collections and portals are added, these will be documented below. To find out more about each collection, simply click through to be redirected to the &lt;a href="https://www.ldaca.edu.au/about/sample-collections/" rel="">Collections&lt;/a> page.&lt;/p>
+&lt;/blockquote>
+&lt;br>
+&lt;h2 id="ldaca-portalhttpsdataldacaeduau">&lt;a href="https://data.ldaca.edu.au" target="_blank" rel="noopener noreffer ">LDaCA Portal&lt;/a>&lt;/h2>
+&lt;!--TODO add description-->
+&lt;br>
+&lt;p>&lt;strong>Current Collections:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.ldaca.edu.au/about/sample-collections/#a-corpus-of-oz-early-english-cooee" rel="">A COrpus of Oz Early English (COOEE)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.ldaca.edu.au/about/sample-collections/#austlit" rel="">AustLit&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.ldaca.edu.au/about/sample-collections/#australian-corpus-of-english" rel="">Australian Corpus of English&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.ldaca.edu.au/about/sample-collections/#australian-radio-talkback" rel="">Australian Radio Talkback&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.ldaca.edu.au/about/sample-collections/#braided-channels" rel="">Braided Channels&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.ldaca.edu.au/about/sample-collections/#international-corpus-of-english-ice-aus" rel="">International Corpus of English (ICE-AUS)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.ldaca.edu.au/about/sample-collections/#the-la-trobe-corpus-of-spoken-australian-english" rel="">The La Trobe Corpus of Spoken Australian English&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.ldaca.edu.au/about/sample-collections/#the-speech-of-australian-adolescents-research-data-and-recordings-collected-by-ag-mitchell-and-arthur-delbridge-in-1959-and-1960" rel="">The speech of Australian adolescents: research data and recordings collected by A.G. Mitchell and Arthur Delbridge in 1959 and 1960&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;br>
+&lt;h2 id="indigenous-language-data-ild-portalhttpsildldacaeduau">&lt;a href="https://ild.ldaca.edu.au" target="_blank" rel="noopener noreffer ">Indigenous Language Data (ILD) Portal&lt;/a>&lt;/h2>
+&lt;!--TODO add description-->
+&lt;br> 
+&lt;p>&lt;strong>Current Collections:&lt;/strong>&lt;/p></description></item><item><title>Basic Navigation</title><link>https://www.ldaca.edu.au/resources/user-guides/portal/basic-navigation/</link><pubDate>Sun, 29 Jan 2023 11:45:30 +1100</pubDate><guid>https://www.ldaca.edu.au/resources/user-guides/portal/basic-navigation/</guid><description>&lt;br>
 &lt;blockquote>
 &lt;p>This user guide uses &amp;lsquo;portal&amp;rsquo; to refer to the interface across all of the available &lt;a href="https://www.ldaca.edu.au/resources/glossary/#oni" title="A portal for discovery of RO-Crated data." target="_blank"
  >Oni&lt;/a
@@ -18,7 +39,7 @@
 &lt;h5 id="file-pagefile-page">&lt;a href="#file-page" rel="">File Page&lt;/a>&lt;/h5>
 &lt;br>
 &lt;h2 id="data-and-page-structure">Data and Page Structure&lt;/h2>
-&lt;p>Both the data and the webpages in the portal are structured in a heirarchy: Collections contain Objects and Objects contain Files. &lt;!--TODO how do notebooks fit in to this?-->&lt;/p></description></item><item><title>Filters</title><link>https://www.ldaca.edu.au/resources/user-guides/portal/filters/</link><pubDate>Sun, 23 Jan 2022 14:23:10 +1100</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/user-guides/portal/filters/</guid><description>&lt;br>
+&lt;p>Both the data and the webpages in the portal are structured in a heirarchy: Collections contain Objects and Objects contain Files. &lt;!--TODO how do notebooks fit in to this?-->&lt;/p></description></item><item><title>Filters</title><link>https://www.ldaca.edu.au/resources/user-guides/portal/filters/</link><pubDate>Sun, 23 Jan 2022 14:23:10 +1100</pubDate><guid>https://www.ldaca.edu.au/resources/user-guides/portal/filters/</guid><description>&lt;br>
 &lt;blockquote>
 &lt;p>This user guide uses &amp;lsquo;portal&amp;rsquo; to refer to the interface across all of the available &lt;a href="https://www.ldaca.edu.au/resources/glossary/#oni" title="A portal for discovery of RO-Crated data." target="_blank"
  >Oni&lt;/a
@@ -27,7 +48,7 @@
 &lt;br>
 &lt;p>Filters allow you to refine what items are available to view and search according to a set of major &lt;a href="https://www.ldaca.edu.au/resources/glossary/#metadata" title="The information that defines and describes data." target="_blank"
  >metadata&lt;/a
-> categories and can be accessed from the left panel of the portal home page. Select a filter in order to see the dropdown list of options; the number icons beside each filter indicate how many options are available. A total of five options are visible per page; to access more options, use the pagination icons, or the search bar if you are looking for a particular option.&lt;/p></description></item><item><title>Search</title><link>https://www.ldaca.edu.au/resources/user-guides/portal/search/</link><pubDate>Sat, 23 Jan 2021 14:23:27 +1100</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/user-guides/portal/search/</guid><description>&lt;br>
+> categories and can be accessed from the left panel of the portal home page. Select a filter in order to see the dropdown list of options; the number icons beside each filter indicate how many options are available. A total of five options are visible per page; to access more options, use the pagination icons, or the search bar if you are looking for a particular option.&lt;/p></description></item><item><title>Search</title><link>https://www.ldaca.edu.au/resources/user-guides/portal/search/</link><pubDate>Sat, 23 Jan 2021 14:23:27 +1100</pubDate><guid>https://www.ldaca.edu.au/resources/user-guides/portal/search/</guid><description>&lt;br>
 &lt;blockquote>
 &lt;p>This user guide uses &amp;lsquo;portal&amp;rsquo; to refer to the interface across all of the available &lt;a href="https://www.ldaca.edu.au/resources/glossary/#oni" title="A portal for discovery of RO-Crated data." target="_blank"
  >Oni&lt;/a
@@ -37,21 +58,49 @@
 &lt;h5 id="basic-searchbasic-search">&lt;a href="#basic-search" rel="">Basic Search&lt;/a>&lt;/h5>
 &lt;h5 id="advanced-searchadvanced-search-search-fieldssearch-fields-boolean-operatorsboolean-operators-query-string-syntaxquery-string-syntax-regular-expressionsregular-expressions-reserved-charactersreserved-characters-show-queryshow-query">&lt;a href="#advanced-search" rel="">Advanced Search&lt;/a> (&lt;a href="#search-fields" rel="">Search Fields&lt;/a>, &lt;a href="#boolean-operators" rel="">Boolean Operators&lt;/a>, &lt;a href="#query-string-syntax" rel="">Query String Syntax&lt;/a>, &lt;a href="#regular-expressions" rel="">Regular Expressions&lt;/a>, &lt;a href="#reserved-characters" rel="">Reserved Characters&lt;/a>, &lt;a href="#show-query" rel="">Show Query&lt;/a>)&lt;/h5>
 &lt;br>
-&lt;p>The portal has both basic and advanced search capabilities. Search allows you to refine what items are displayed through basic queries with one or more words, or advanced queries using regular expressions to find specific patterns.&lt;/p></description></item><item><title>Sort and Order</title><link>https://www.ldaca.edu.au/resources/user-guides/portal/sort-and-order/</link><pubDate>Thu, 23 Jan 2020 15:02:22 +1100</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/user-guides/portal/sort-and-order/</guid><description>&lt;br>
+&lt;p>The portal has both basic and advanced search capabilities. Search allows you to refine what items are displayed through basic queries with one or more words, or advanced queries using regular expressions to find specific patterns.&lt;/p></description></item><item><title>Sort and Order</title><link>https://www.ldaca.edu.au/resources/user-guides/portal/sort-and-order/</link><pubDate>Thu, 23 Jan 2020 15:02:22 +1100</pubDate><guid>https://www.ldaca.edu.au/resources/user-guides/portal/sort-and-order/</guid><description>&lt;br>
 &lt;blockquote>
 &lt;p>This user guide uses &amp;lsquo;portal&amp;rsquo; to refer to the interface across all of the available &lt;a href="https://www.ldaca.edu.au/resources/glossary/#oni" title="A portal for discovery of RO-Crated data." target="_blank"
  >Oni&lt;/a
 > portals (see &lt;a href="https://www.ldaca.edu.au/resources/user-guides/portal/available-portals/" rel="">Available Portals&lt;/a> for more details).&lt;/p>
 &lt;/blockquote>
 &lt;br>
-&lt;p>The portal search engine allows you to sort and order all items of a query according to the below options. By default, items are sorted by Collections first, and are in Descending order.&lt;/p></description></item><item><title>Login</title><link>https://www.ldaca.edu.au/resources/user-guides/portal/login/</link><pubDate>Tue, 29 Jan 2019 11:38:37 +1100</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/user-guides/portal/login/</guid><description>&lt;br>
+&lt;p>The portal search engine allows you to sort and order all items of a query according to the below options. By default, items are sorted by Collections first, and are in Descending order.&lt;/p>
+&lt;h2 id="sort-by">Sort By&lt;/h2>
+&lt;ul>
+&lt;li>Collections&lt;/li>
+&lt;li>Relevance&lt;/li>
+&lt;li>Name&lt;/li>
+&lt;/ul>
+&lt;br>
+&lt;h2 id="order-by">Order By&lt;/h2>
+&lt;ul>
+&lt;li>Ascending&lt;/li>
+&lt;li>Descending&lt;/li>
+&lt;/ul>
+&lt;br></description></item><item><title>Login</title><link>https://www.ldaca.edu.au/resources/user-guides/portal/login/</link><pubDate>Tue, 29 Jan 2019 11:38:37 +1100</pubDate><guid>https://www.ldaca.edu.au/resources/user-guides/portal/login/</guid><description>&lt;br>
 &lt;blockquote>
 &lt;p>This user guide uses &amp;lsquo;portal&amp;rsquo; to refer to the interface across all of the available &lt;a href="https://www.ldaca.edu.au/resources/glossary/#oni" title="A portal for discovery of RO-Crated data." target="_blank"
  >Oni&lt;/a
 > portals (see &lt;a href="https://www.ldaca.edu.au/resources/user-guides/portal/available-portals/" rel="">Available Portals&lt;/a> for more details).&lt;/p>
 &lt;/blockquote>
 &lt;br>
-&lt;p>Some collections require that you log in either to access, or apply for access, to the data. This can be done by selecting &lt;em>&lt;strong>Login&lt;/strong>&lt;/em> from the top menu bar.&lt;/p></description></item><item><title>Collection Access</title><link>https://www.ldaca.edu.au/resources/user-guides/portal/collection-access/</link><pubDate>Mon, 29 Jan 2018 11:38:46 +1100</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/user-guides/portal/collection-access/</guid><description>&lt;br>
+&lt;p>Some collections require that you log in either to access, or apply for access, to the data. This can be done by selecting &lt;em>&lt;strong>Login&lt;/strong>&lt;/em> from the top menu bar.&lt;/p>
+&lt;br>
+
+
+&lt;body>
+ &lt;div>
+ &lt;img src="https://www.ldaca.edu.au/user-guides/portal/loginBox.png" alt="Portal Top Menu Options" title="Portal Top Menu Options" height="" class="center_image" />
+ &lt;div style="text-align: center">
+ &lt;b>
+ Portal Top Menu Options&lt;/b>
+ &lt;br>Image Source: LDaCA 
+ &lt;/div>
+ &lt;/div>
+&lt;/body>
+&lt;br>
+&lt;p>You will be taken to the &lt;em>LDaCAData&lt;/em> login page. Select &lt;em>&lt;strong>Sign in with CILogon&lt;/strong>&lt;/em>.&lt;/p></description></item><item><title>Collection Access</title><link>https://www.ldaca.edu.au/resources/user-guides/portal/collection-access/</link><pubDate>Mon, 29 Jan 2018 11:38:46 +1100</pubDate><guid>https://www.ldaca.edu.au/resources/user-guides/portal/collection-access/</guid><description>&lt;br>
 &lt;blockquote>
 &lt;p>This user guide uses &amp;lsquo;portal&amp;rsquo; to refer to the interface across all of the available &lt;a href="https://www.ldaca.edu.au/resources/glossary/#oni" title="A portal for discovery of RO-Crated data." target="_blank"
  >Oni&lt;/a
@@ -63,7 +112,7 @@
 &lt;h5 id="view-your-current-access-listview-your-current-access-list">&lt;a href="#view-your-current-access-list" rel="">View your Current Access List&lt;/a>&lt;/h5>
 &lt;br>
 &lt;h2 id="apply-for-access-to-collections-with-access-restrictions">Apply for Access to Collections with Access Restrictions&lt;/h2>
-&lt;p>When viewing an item that has restricted access, you will see one of the following permission warnings, depending on whether or not you are logged in to the portal:&lt;/p></description></item><item><title>Download Data</title><link>https://www.ldaca.edu.au/resources/user-guides/portal/download-data/</link><pubDate>Sun, 29 Jan 2017 11:39:04 +1100</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/user-guides/portal/download-data/</guid><description>&lt;br>
+&lt;p>When viewing an item that has restricted access, you will see one of the following permission warnings, depending on whether or not you are logged in to the portal:&lt;/p></description></item><item><title>Download Data</title><link>https://www.ldaca.edu.au/resources/user-guides/portal/download-data/</link><pubDate>Sun, 29 Jan 2017 11:39:04 +1100</pubDate><guid>https://www.ldaca.edu.au/resources/user-guides/portal/download-data/</guid><description>&lt;br>
 &lt;blockquote>
 &lt;p>This user guide uses &amp;lsquo;portal&amp;rsquo; to refer to the interface across all of the available &lt;a href="https://www.ldaca.edu.au/resources/glossary/#oni" title="A portal for discovery of RO-Crated data." target="_blank"
  >Oni&lt;/a
@@ -81,7 +130,7 @@
 &lt;li>the File page for the selected item.&lt;/li>
 &lt;/ul>
 &lt;br>
-&lt;p>To download a file from an Object page, navigate to the &lt;em>Files&lt;/em> section at the end of the page (ensuring you click on the arrow to expand the relevant file) and select &lt;em>&lt;strong>Download File&lt;/strong>&lt;/em> on the right-hand side of the file entry.&lt;/p></description></item><item><title>Cite Data</title><link>https://www.ldaca.edu.au/resources/user-guides/portal/cite-data/</link><pubDate>Sat, 16 Apr 2016 13:09:22 +1000</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/user-guides/portal/cite-data/</guid><description>&lt;br>
+&lt;p>To download a file from an Object page, navigate to the &lt;em>Files&lt;/em> section at the end of the page (ensuring you click on the arrow to expand the relevant file) and select &lt;em>&lt;strong>Download File&lt;/strong>&lt;/em> on the right-hand side of the file entry.&lt;/p></description></item><item><title>Cite Data</title><link>https://www.ldaca.edu.au/resources/user-guides/portal/cite-data/</link><pubDate>Sat, 16 Apr 2016 13:09:22 +1000</pubDate><guid>https://www.ldaca.edu.au/resources/user-guides/portal/cite-data/</guid><description>&lt;br>
 &lt;blockquote>
 &lt;p>This user guide uses &amp;lsquo;portal&amp;rsquo; to refer to the interface across all of the available &lt;a href="https://www.ldaca.edu.au/resources/glossary/#oni" title="A portal for discovery of RO-Crated data." target="_blank"
  >Oni&lt;/a
@@ -95,4 +144,10 @@
 &lt;br>
 &lt;p>Follow this guide when you need to cite a data source that you accessed through the &lt;a href="https://www.ldaca.edu.au/resources/glossary/#ldaca" title="Language Data Commons of Australia" target="_blank"
  >LDaCA&lt;/a
-> portal in a publication.&lt;/p></description></item></channel></rss>
+> portal in a publication.&lt;/p>
+&lt;br>
+&lt;h2 id="citing-a-collection">Citing a Collection&lt;/h2>
+&lt;br>
+&lt;p>Cite the &lt;a href="https://www.ldaca.edu.au/resources/glossary/#collection" title="A group of related Objects." target="_blank"
+ >collection&lt;/a
+> as a whole whenever you use, or need to refer to, any part of it in your work, unless otherwise stated in the citation information provided in the LDaCA portal.&lt;/p></description></item></channel></rss>
