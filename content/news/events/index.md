@@ -29,7 +29,7 @@ This event will present a panel of Indigenous researchers, data custodians and d
 
 **Panellists**: {{< profile id="barrowcliffe" >}}, {{< profile id="mclellan" >}}, {{< profile id="acres" >}}. The discussion will be facilitated by Grant Sarra.
 
-**When**: 4–6pm AEST, 30 September 2024
+**When**: 30 September 2024, 4–6pm AEST,
 
 **Where**: Anthropology Museum, Michie Building, The University of Queensland (St Lucia Campus)
 
@@ -47,7 +47,7 @@ Some experience with R coding is preferred for attending the series. No experien
 
 **Organisers**: This workshop series is delivered by the [QUT Digital Observatory](https://www.digitalobservatory.net.au/qut-digital-observatory/) and LDaCA and is supported by the Australian Research Data Commons ([ARDC](https://ardc.edu.au)).
 
-**When**: 1–3pm AEST, 9 October 2024, 1–3pm AEST, 16 October 2024
+**When**: 9 October 2024, 1–3pm AEST and 16 October 2024, 1–3pm AEST
 
 **Where**: Online
 
@@ -374,3 +374,5 @@ Our webinar series was a joint initiative with the Language Technology and Data 
 LDaCA has previously run regular online office hours, jointly hosted with the Australian Digital Observatory ({{< glossary_link display="ADO" id="ado" >}}). This activity will not continue in 2024, but LDaCA and {{< glossary_link display="ADO" id="ado" >}} are developing an alternative model to help Australian researchers working with linguistics, text analytics, digital and computational methods, social media and web archives.
 
 In the meantime, you are welcome to contact us by email at [ldaca@uq.edu.au](mailto:ldaca@uq.edu.au) with your technical questions, research problems and rough ideas to get advice and feedback from the combined expertise of our {{< glossary_link display="ARDC" id="ardc" >}} research infrastructure projects. No question is too small, and even if we don’t know the answer we are likely to be able to point you to someone who does.
+
+<br>
