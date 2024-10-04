@@ -4,31 +4,31 @@ This is the source repository for an LDaCA based website
 
 # Prerequisites
 
-- Hugo (extended version, required for custom css) 
-   - MacOS: Installing it with brew automatically gets you the extended version
-   - Windows: Installing it with package managers: Check that you have installed it with extended version [more](https://gohugo.io/installation/windows/#package-managers)
-   - Linux: With package managers will come with the extended version [more](https://gohugo.io/installation/linux/#package-managers)
-   - Source: From source you will require to install [Go](https://go.dev/doc/install)
+- [Hugo](https://gohugo.io/installation/) (extended version, required for custom css)
+  - MacOS: Installing it with brew automatically gets you the extended version
+  - Windows: Installing it with package managers: Check that you have installed it with extended version [more](https://gohugo.io/installation/windows/#package-managers)
+  - Linux: With package managers will come with the extended version [more](https://gohugo.io/installation/linux/#package-managers)
+  - Source: From source you will require to install [Go](https://go.dev/doc/install)
 - What hugo version do you have?
-    - Run: `hugo version` example:
-        `hugo v0.110.0+extended darwin/arm64 BuildDate=unknown`
+  - Run: `hugo version` example:
+    `hugo v0.110.0+extended darwin/arm64 BuildDate=unknown`
 - Git:
-    - [This](https://www.atlassian.com/git/tutorials/install-git) is a nice guide for you to install git if you do not already have it 
+  - [This](https://www.atlassian.com/git/tutorials/install-git) is a nice guide for you to install git if you do not already have it
 
 # How to use
 
-- Clone the repository 
+- Clone the repository
 - Change directory into the repository
 - And add the submodule (Will update [.gitmodules](.gitmodules) file)
-    - Install `git submodule add https://github.com/dillonzq/LoveIt.git themes/LoveIt`
-    - or update `git submodule update --init --recursive`
+  - Install `git submodule add https://github.com/dillonzq/LoveIt.git themes/LoveIt`
+  - or update `git submodule update --init --recursive`
 - Run `hugo serve`
-    - This will rebuild your website upon file changes and be available on [http://localhost:1313/](http://localhost:1313/) if the port 1313 is free
-    - Optionaly run `hugo serve --disableFastRender` which enables full re-renders on changes. This is turned off by default and the website might look different. See [more](https://gohugo.io/commands/hugo_server/).
+  - This will rebuild your website upon file changes and be available on [http://localhost:1313/](http://localhost:1313/) if the port 1313 is free
+  - Optionaly run `hugo serve --disableFastRender` which enables full re-renders on changes. This is turned off by default and the website might look different. See [more](https://gohugo.io/commands/hugo_server/).
 - To see what your website **really** looks like generate a `public` folder
-    - Delete the `public` folder if you have one then
-    - Run `hugo`
-    - Then change directory into `public` and run a web server: for example, `python3 -m http.server 8000` with python and go to[ http://localhost:8000/](http://localhost:8000/) to see what it looks like. 
+  - Delete the `public` folder if you have one then
+  - Run `hugo`
+  - Then change directory into `public` and run a web server: for example, `python3 -m http.server 8000` with python and go to[ http://localhost:8000/](http://localhost:8000/) to see what it looks like.
 
 Example:
 
@@ -43,7 +43,7 @@ hugo serve --disableFastRender
 
 Adding the submodule in the step before is required to install the theme used in this Hugo site
 
-The current theme used is called [LoveIt](https://github.com/dillonzq/LoveIt) based on `LeaveIt` and `KeepIt` it has about 2.7K stars and it is updated frequently 
+The current theme used is called [LoveIt](https://github.com/dillonzq/LoveIt) based on `LeaveIt` and `KeepIt` it has about 2.7K stars and it is updated frequently
 
 # Configuration
 
@@ -62,11 +62,11 @@ Add a table of contents by adding the following into each page.
 ```yaml
 ---
 toc:
-    enable: true
-    auto: true
----    
-
+  enable: true
+  auto: true
+---
 ```
+
 And all your refs like:
 
 ```md
@@ -76,6 +76,7 @@ And all your refs like:
 will have a contents dropdown on the page
 
 ---
+
 Example:
 
 Add timestamps and title to your page
@@ -87,26 +88,26 @@ date: 2022-02-15T17:13:28+10:00
 draft: false
 ---
 ```
-A title will be added to the top of the page and dates could be used if you are using branch page bundle with links to its pages.
 
+A title will be added to the top of the page and dates could be used if you are using branch page bundle with links to its pages.
 
 ## Archetypes
 
 Preconfigured front matter metadata that are used when doing `hugo new`
 
 ---
+
 ## Empty front matter
 
 Sometimes you need to add an empty front matter in order to use some shortcodes, although as a general rule. Always add front matter metadata to your markdown page
 
 For more examples see: [LoveIt#front-matter](https://hugoloveit.com/theme-documentation-content/#front-matter) or [Hugo Front Matter](https://gohugo.io/content-management/front-matter/)
 
-
 # Adding Content
 
-All content is stored in `content` folder. 
+All content is stored in `content` folder.
 
-It can be organised using 
+It can be organised using
 
 - Branch or Leaf styles
 
@@ -118,7 +119,7 @@ You can organise the content by Leaf bundle which means it has no children
 - Layout type: `single`
 - Nesting: `Does not allow nesting of more bundles under it`
 
-**or** 
+**or**
 
 You can organise the content bu Branch which will have a collection of attachments and content, this will be organised as a [List](https://gohugo.io/templates/lists/) If you use list you and include an `_index.md` file in your folder for the purposes of configuring front matter for the lists. You can ommit the `_index.md` name however this will affect children pages on your site.
 
@@ -154,7 +155,7 @@ Shortcodes will include its theme's css
 
 ## Raw
 
-Or as raw html, then you can include a class you can define in assets/css/_custom.scss
+Or as raw html, then you can include a class you can define in assets/css/\_custom.scss
 
 ```go
 {{< raw >}}
@@ -172,7 +173,7 @@ Example: Align the title of the text to the left. Sometimes is necessary to use 
 
 ```scss
 .single-title {
-    text-align: left !important;
+  text-align: left !important;
 }
 ```
 
@@ -227,7 +228,7 @@ index.md:
 
 The data folder can be used to generate data driven content
 
-Example: 
+Example:
 
 - [Create a photo gallery](https://github.com/jochumdev/hugo-lightslider-example)
 
@@ -241,9 +242,9 @@ It is best to use layouts as little as possible because when the Themes are upda
 
 # Recomendations
 
-- Try only to modify the `content` folder and install all of the images/files in each page bundle. 
+- Try only to modify the `content` folder and install all of the images/files in each page bundle.
 - Document as you go by editing the config.toml file and delete configurations that are not used
-- If you cannot achieve the style you required try to modify first the assets/css/_custom.scss first before adding a new layout
+- If you cannot achieve the style you required try to modify first the assets/css/\_custom.scss first before adding a new layout
 - Your content should be organized in a manner that reflects the rendered website. [more](https://gohugo.io/content-management/organization/#organization-of-content-source)
 - When switching from page bundle types, stop `hugo serve` and start again to see changes reflected becuase the live reload does not capture this.
 - Build your site using `hugo` and test it with a basic http server
