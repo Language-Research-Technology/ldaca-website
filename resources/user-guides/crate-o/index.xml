@@ -4,7 +4,7 @@
 &lt;h5 id="schemas-profiles-and-modesschemas-profiles-and-modes">&lt;a href="#schemas-profiles-and-modes" rel="">Schemas, Profiles and Modes&lt;/a>&lt;/h5>
 &lt;h5 id="schemaorg-style-schemas-sosss-and-ro-crate-profiles-and-modesschemaorg-style-schemas-sosss-and-ro-crate-profiles-and-modes">&lt;a href="#schemaorg-style-schemas-sosss-and-ro-crate-profiles-and-modes" rel="">Schema.org Style Schemas (SOSSs) and RO-Crate Profiles and Modes&lt;/a>&lt;/h5>
 &lt;br>
-&lt;p>&lt;a href="https://github.com/Language-Research-Technology/crate-o" target="_blank" rel="noopener noreffer ">Crate-O&lt;/a> is a browser-based editor that allows you to create and update &lt;a href="https://www.researchobject.org/ro-crate" target="_blank" rel="noopener noreffer ">Research Object Crates&lt;/a> (RO-Crates), either using the web interface or with &lt;a href="https://www.ldaca.edu.au/resources/glossary/#metadata" title="The information that defines and describes data." target="_blank"
+&lt;p>&lt;a href="https://language-research-technology.github.io/crate-o/#/" target="_blank" rel="noopener noreffer ">Crate-O&lt;/a> is a browser-based editor that allows you to create and update &lt;a href="https://www.researchobject.org/ro-crate" target="_blank" rel="noopener noreffer ">Research Object Crates&lt;/a> (RO-Crates), either using the web interface or with &lt;a href="https://www.ldaca.edu.au/resources/glossary/#metadata" title="The information that defines and describes data." target="_blank"
  >metadata&lt;/a
 > from a spreadsheet. It provides researchers with a relatively simple way to describe their data using best practice in formal metadata description.&lt;/p></description></item><item><title>Basic Navigation</title><link>https://www.ldaca.edu.au/resources/user-guides/crate-o/basic-navigation/</link><pubDate>Sat, 22 Apr 2023 15:42:05 +1000</pubDate><guid>https://www.ldaca.edu.au/resources/user-guides/crate-o/basic-navigation/</guid><description>&lt;br>
 &lt;h5 id="main-menumain-menu">&lt;a href="#main-menu" rel="">Main Menu&lt;/a>&lt;/h5>
@@ -284,6 +284,8 @@
 &lt;li>&lt;a href="#publishers" rel="">Publishers&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#licenses" rel="">Licenses&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#people" rel="">People&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#places" rel="">Places&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#localities" rel="">Localities&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#objects" rel="">Objects&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#files-csv-eaf-wav" rel="">Files (CSV, EAF, WAV)&lt;/a>&lt;/li>
 &lt;/ul>
