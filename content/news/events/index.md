@@ -15,28 +15,6 @@ aliases:
 
 <br>
 
-### Indigenous Data Governance: A discussion
-
-#### Part of The University of Queensland Research and Innovation Week 2024
-
-The University of Queensland is committed to growing the opportunities for Indigenous people to lead and conduct their own research. One important strand in developing this innovative research culture is ensuring that appropriate governance is in place for Indigenous data.
-
-This event will present a panel of Indigenous researchers, data custodians and data stewards discussing current developments in this field including:
-
-- the importance of Indigenous Cultural and Intellectual Property concerns
-- governance of Indigenous Data Framework for the HASS & Indigenous Research Data Commons
-- tools and methods for data governance.
-
-**Panellists**: {{< profile id="barrowcliffe" >}}, {{< profile id="mclellan" >}}, {{< profile id="acres" >}}. The discussion will be facilitated by Grant Sarra.
-
-**When**: 30 September 2024, 4–6pm AEST,
-
-**Where**: Anthropology Museum, Michie Building, The University of Queensland (St Lucia Campus)
-
-**[Details](https://research-support.uq.edu.au/event/session/14691)**
-
-<br>
-
 ### A glamorous introduction to text analytics for social media (Reddit)
 
 This two-part workshop series introduces participants to basic text analytics for research using Reddit data.
@@ -52,6 +30,92 @@ Some experience with R coding is preferred for attending the series. No experien
 **Where**: Online
 
 **[Registration](https://events.humanitix.com/a-glamorous-introduction-to-basic-text-analytics-for-social-media-reddit)**
+
+ <br>
+
+### Introduction to Text Analytics with R
+
+This workshop will provide an introduction to text analytics with R. We'll start from scratch and introduce standard concepts in working with text as data, then work through practical examples of key techniques.
+
+**Organisers**: [ResBaz Queensland](https://resbaz.github.io/resbaz2024qld/)
+
+**Who**: {{< profile id="hames" >}}
+
+**When**: 6–7 November 2024 (program TBA)
+
+**Where**: Australian Catholic University, Brisbane
+
+**[Registration](https://resbaz.github.io/resbaz2024qld/registration/)**
+
+<br>
+
+### Text analytics with R and LADAL
+
+This workshop will provide an introduction to text analytics with R using the tools and tutorials provided by the Language Technology and Data Analysis Laboratory ([LADAL](https://ladal.edu.au/)).
+
+**Organisers**: [ResBaz Queensland](https://resbaz.github.io/resbaz2024qld/)
+
+**Who**: {{< profile id="schweinberger" >}}
+
+**When**: 6–7 November 2024 (program TBA)
+
+**Where**: Australian Catholic University, Brisbane
+
+**[Registration](https://resbaz.github.io/resbaz2024qld/registration/)**
+
+<br>
+
+### Exploring text using concordances
+
+Concordances are a very useful tool for anyone who works with textual data. Concordancing tools (also referred to as Keyword in Context or KWIC tools) provide us with a listing of all occurrences of a word in a text along with some surrounding context. A concordance is therefore an excellent starting point to explore how a word is used in a text. Most KWIC tools also have the capability to sort results according to the context of the instances, by preceding words or following words, or a combination of the two, and these capabilities allow us to extract more specific information from concordances.
+
+In this workshop, you will:
+
+- be introduced to tools for building concordances
+- be shown examples of how simple and complex concordances can be used to answer questions
+- have the chance to explore text using concordances, either from data you bring or from data that is provided.
+
+**Organisers**: [ResBaz Victoria](https://resbaz.github.io/resbazvic2024/)
+
+**Who**: {{< profile id="musgrave" >}}
+
+**When**: 27 November 2024, 3–5 pm AEDT
+
+**Where**: Monash University, Clayton
+
+**[Registration](https://shop.monash.edu/research-bazaar-2024-general-admission.html)**
+
+<br>
+
+### Solving 10 research challenges with the ARDC HASS and Indigenous Research Data Commons
+
+Get hands-on with two tools from the ARDC HASS and Indigenous Research Data Commons, the Crate-O metadata editor and the Trove Data guide. After two 40 minute deep dives, learn how other parts of the Research Data Commons help researchers solve another eight research challenges, in a series of five minute lightning tours. By the end of the session, you will know how to use a tool to package your research data and its metadata together in an [RO-Crate](https://www.researchobject.org/ro-crate/), and be better equipped to locate and manipulate data from the National Library's Trove research portal. You will also have new leads for research with Indigenous data, social media data, data about creative arts and social sciences data.
+
+**Organisers**: [ResBaz Victoria](https://resbaz.github.io/resbazvic2024/)
+
+**Who**: {{< profile id="musgrave" >}} and Kit Greenhill
+
+**When**: 28 November 2024, 9:30–11:30 am AEDT
+
+**Where**: Monash University, Clayton
+
+**[Registration](https://shop.monash.edu/research-bazaar-2024-general-admission.html)**
+
+<br>
+
+### Masterclass: Improving Transparency and Reproducible Results in Linguistics
+
+This masterclass, while recognising the importance of data transparency and reproducibility, will focus on the processes of data utilisation, including processing, analysis and publication. Our aim is to assist linguists in enhancing research transparency by leveraging tools and infrastructures, alongside exploring strategies for establishing efficient workflows. The masterclass aims to advance Best Practices discussions, raising awareness about existing resources and addressing practices hindering transparency, replicability and research quality relevant for both quantitative as well as qualitative researchers. Specifically, discussions will cover using R Notebooks for analysis documentation, creating interactive notebooks for data inspection, and employing GitHub and OSF for resource sharing. We will also address options for research enhancement, workflow improvement, resource sharing, new publication pathways and ensuring effective workflows. The format will include detailed recommendations, practical presentations, and an open panel discussion on practices and tools.
+
+**Organisers**: This masterclass is a part of the annual [conference](https://als.asn.au/Conference/2024/General) of the Australian Linguistic Society ([ALS](https://als.asn.au/Home)).
+
+**Who**: {{< profile id="hames" >}} and {{< profile id="schweinberger" >}}
+
+**When**: 26 November 2024 (program TBA)
+
+**Where**: Australian National University, Canberra
+
+**[Registration](https://als.asn.au/Conference/2024/Registration2024)**
 
  <br>
 
@@ -72,6 +136,24 @@ The RO-Crate community run a weekly drop-in call in Australia. For further infor
 ### Previous Workshops
 
 {{<raw>}}
+
+<details>
+<summary>
+<b>Indigenous Data Governance: A discussion</b>
+</summary>
+<p>The University of Queensland is committed to growing the opportunities for Indigenous people to lead and conduct their own research. One important strand in developing this innovative research culture is ensuring that appropriate governance is in place for Indigenous data.</p>
+
+<p>This event presented a panel of Indigenous researchers, data custodians and data stewards discussing current developments in this field including:</p>
+<ul>
+<li>the importance of Indigenous Cultural and Intellectual Property concerns</li>
+<li>governance of Indigenous Data Framework for the HASS & Indigenous Research Data Commons</li>
+<li>tools and methods for data governance.</li>
+</ul>
+<p><b>Participants</b>: Dr Rose Barrowcliffe, Leslie Acres, Robert McLellan, Grant Sarra (moderator)</p>
+<p><b>When</b>: 30 September 2024</p>
+<p><b>Organisers</b>: The University of Queensland, Research and Innovation Week 2024</a></p>
+
+</details>
 
 <details>
 <summary>
@@ -366,13 +448,5 @@ Our webinar series was a joint initiative with the Language Technology and Data 
     </details>
 
 {{</raw>}}
-
-<br>
-
-### Australian Digital Observatory Online Office Hours
-
-LDaCA has previously run regular online office hours, jointly hosted with the Australian Digital Observatory ({{< glossary_link display="ADO" id="ado" >}}). This activity will not continue in 2024, but LDaCA and {{< glossary_link display="ADO" id="ado" >}} are developing an alternative model to help Australian researchers working with linguistics, text analytics, digital and computational methods, social media and web archives.
-
-In the meantime, you are welcome to contact us by email at [ldaca@uq.edu.au](mailto:ldaca@uq.edu.au) with your technical questions, research problems and rough ideas to get advice and feedback from the combined expertise of our {{< glossary_link display="ARDC" id="ardc" >}} research infrastructure projects. No question is too small, and even if we don’t know the answer we are likely to be able to point you to someone who does.
 
 <br>

@@ -2,8 +2,8 @@
 title: "LDaCA Newsletter Quarter 3 2024"
 date: 2024-01-04T10:37:28+10:00
 draft: false
-weight: 1
---- 
+weight: 2
+---
 
 <raw>
 <a href="/news/newsletter/" class="banner-button">Back to Newsletters</a>
@@ -16,12 +16,6 @@ weight: 1
     }
     .single .content .table-wrapper>table {margin: 0;}
     .logo {max-width: 60%;} .about {max-width: 40%;} -->
-
-
-
-
-
-
 
 <html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraph.org/schema/"><head>
         
