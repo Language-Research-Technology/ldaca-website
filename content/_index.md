@@ -25,8 +25,8 @@
         <h1>Updates</h1>
         <h4></h4>
         <ul>
-        <h3><li>Our last newsletter for the year is published (<a href = "./news/newsletter/newsletter-q4-2024/" target="_blank">Read more ➤</a>)</li></h3>
-        <h3><li>Workshops coming up at ResBazQld, ResBazVic and the ALS conference (<a href = "./news/events/" target="_blank">Read more ➤</a>)</li></h3>
+        <h3><li>Our last newsletter for the year is out (<a href = "./news/newsletter/newsletter-q4-2024/" target="_blank">Read more ➤</a>)</li></h3>
+        <h3><li>Workshops coming up at ResBaz Queensland, ResBaz Victoria and the ALS conference (<a href = "./news/events/" target="_blank">Read more ➤</a>)</li></h3>
         <h3><li>Workshop: A glamorous introduction to text analytics for social media (<a href = "./news/events/" target="_blank">Read more ➤</a>)</li></h3>
         <h3><li>Media: Robert McLellan talks to Sarah Morice for ABC NewsRadio (<a href = "https://www.youtube.com/watch?v=JCzYj3LeZWI" target="_blank">Listen ➤</a>)</li></h3>
             
