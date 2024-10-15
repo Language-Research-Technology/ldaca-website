@@ -35,9 +35,9 @@ Some experience with R coding is preferred for attending the series. No experien
 
 ### Introduction to Text Analytics with R
 
-This workshop will provide an introduction to text analytics with R. We'll start from scratch and introduce standard concepts in working with text as data then work through practical examples of key techniques.
+This workshop will provide an introduction to text analytics with R. We'll start from scratch and introduce standard concepts in working with text as data, then work through practical examples of key techniques.
 
-**Organisers**: [ResBazQld](https://resbaz.github.io/resbaz2024qld/)
+**Organisers**: [ResBaz Queensland](https://resbaz.github.io/resbaz2024qld/)
 
 **Who**: {{< profile id="hames" >}}
 
@@ -67,13 +67,13 @@ This workshop will provide an introduction to text analytics with R using the to
 
 ### Exploring text using concordances
 
-Concordances are a very useful tool for anyone who works with textual data. Concordancing tools (also referred to as Keyword in Context or KWIC tools) provide us with a listing of all occurrences of a word in a text along with some surrounding context. A concordance is therefore an excellent starting point to explore how a word is used in a text. Most KWIC tools also have the capability to sort results according to the context of the instances, by preceding words or following words or a combination of the two and these capabilities allow us to extract more specific information from concordances.
+Concordances are a very useful tool for anyone who works with textual data. Concordancing tools (also referred to as Keyword in Context or KWIC tools) provide us with a listing of all occurrences of a word in a text along with some surrounding context. A concordance is therefore an excellent starting point to explore how a word is used in a text. Most KWIC tools also have the capability to sort results according to the context of the instances, by preceding words or following words, or a combination of the two, and these capabilities allow us to extract more specific information from concordances.
 
 In this workshop, you will:
 
 - be introduced to tools for building concordances
 - be shown examples of how simple and complex concordances can be used to answer questions
-- have the chance to explore text using concordances, either text you bring or data that is provided.
+- have the chance to explore text using concordances, either from data you bring or from data that is provided.
 
 **Organisers**: [ResBaz Victoria](https://resbaz.github.io/resbazvic2024/)
 
@@ -89,7 +89,7 @@ In this workshop, you will:
 
 ### Solving 10 research challenges with the ARDC HASS and Indigenous Research Data Commons
 
-Get hands-on with two tools from the ARDC HASS and Indigenous Research Data Commons, the Crate-O metadata editor and the Trove Data guide. After two 40 minute deep dives, learn how other parts of the Research Data Commons help researchers solve another eight research challenges, in a series of five minute lightning tours. By the end of the session, you will know how to use a tool to to package your research data and its metadata together in an [RO-Crate](https://www.researchobject.org/ro-crate/), and be better equipped to locate and manipulate data from the National Library's Trove research portal. You will also have new leads for research with Indigenous data, social media data, data about creative arts, and social sciences data.
+Get hands-on with two tools from the ARDC HASS and Indigenous Research Data Commons, the Crate-O metadata editor and the Trove Data guide. After two 40 minute deep dives, learn how other parts of the Research Data Commons help researchers solve another eight research challenges, in a series of five minute lightning tours. By the end of the session, you will know how to use a tool to package your research data and its metadata together in an [RO-Crate](https://www.researchobject.org/ro-crate/), and be better equipped to locate and manipulate data from the National Library's Trove research portal. You will also have new leads for research with Indigenous data, social media data, data about creative arts and social sciences data.
 
 **Organisers**: [ResBaz Victoria](https://resbaz.github.io/resbazvic2024/)
 
@@ -107,7 +107,7 @@ Get hands-on with two tools from the ARDC HASS and Indigenous Research Data Comm
 
 This masterclass, while recognising the importance of data transparency and reproducibility, will focus on the processes of data utilisation, including processing, analysis and publication. Our aim is to assist linguists in enhancing research transparency by leveraging tools and infrastructures, alongside exploring strategies for establishing efficient workflows. The masterclass aims to advance Best Practices discussions, raising awareness about existing resources and addressing practices hindering transparency, replicability and research quality relevant for both quantitative as well as qualitative researchers. Specifically, discussions will cover using R Notebooks for analysis documentation, creating interactive notebooks for data inspection, and employing GitHub and OSF for resource sharing. We will also address options for research enhancement, workflow improvement, resource sharing, new publication pathways and ensuring effective workflows. The format will include detailed recommendations, practical presentations, and an open panel discussion on practices and tools.
 
-**Organisers**: This masterclass is a part of the annual [conference](https://als.asn.au/Conference/2024/General) of the [Australian Linguistic Society](https://als.asn.au/Home) (ALS).
+**Organisers**: This masterclass is a part of the annual [conference](https://als.asn.au/Conference/2024/General) of the Australian Linguistic Society ([ALS](https://als.asn.au/Home)).
 
 **Who**: {{< profile id="hames" >}} and {{< profile id="schweinberger" >}}
 
