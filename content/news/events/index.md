@@ -25,7 +25,7 @@ This workshop will provide an introduction to text analytics with R using the to
 
 **Who**: {{< profile id="hames" >}} and {{< profile id="schweinberger" >}}
 
-**When**: 7 November 2024, 9 am –12:30 pm (AEST)
+**When**: 7 November 2024, 9 am – 12:30 pm (AEST)
 
 **Where**: Australian Catholic University, Brisbane
 
@@ -57,7 +57,7 @@ In this workshop, you will:
 
 ### Solving 10 research challenges with the ARDC HASS and Indigenous Research Data Commons
 
-Get hands-on with two tools from the ARDC HASS and Indigenous Research Data Commons, the Crate-O metadata editor and the Trove Data guide. After two 40 minute deep dives, learn how other parts of the Research Data Commons help researchers solve another eight research challenges, in a series of five minute lightning tours. By the end of the session, you will know how to use a tool to package your research data and its metadata together in an [RO-Crate](https://www.researchobject.org/ro-crate/), and be better equipped to locate and manipulate data from the National Library's Trove research portal. You will also have new leads for research with Indigenous data, social media data, data about creative arts and social sciences data.
+Get hands-on with two tools from the ARDC [HASS and Indigenous Research Data Commons](https://ardc.edu.au/hass-and-indigenous-research-data-commons/), the [Crate-O](https://www.ldaca.edu.au/resources/user-guides/crate-o/) metadata editor and the [Trove Data guide](https://tdg.glam-workbench.net/home.html). After two 40-minute deep dives, learn how other parts of the Research Data Commons help researchers solve another eight research challenges, in a series of five-minute lightning tours. By the end of the session, you will know how to use a tool to package your research data and its metadata together in an [RO-Crate](https://www.researchobject.org/ro-crate/), and be better equipped to locate and manipulate data from the National Library's [Trove](https://trove.nla.gov.au/) research portal. You will also have new leads for research with Indigenous data, social media data, data about creative arts and social sciences data.
 
 **Organisers**: [ResBaz Victoria](https://resbaz.github.io/resbazvic2024/)
 
@@ -73,13 +73,13 @@ Get hands-on with two tools from the ARDC HASS and Indigenous Research Data Comm
 
 ### Masterclass: Improving Transparency and Reproducible Results in Linguistics
 
-This masterclass, while recognising the importance of data transparency and reproducibility, will focus on the processes of data utilisation, including processing, analysis and publication. Our aim is to assist linguists in enhancing research transparency by leveraging tools and infrastructures, alongside exploring strategies for establishing efficient workflows. The masterclass aims to advance Best Practices discussions, raising awareness about existing resources and addressing practices hindering transparency, replicability and research quality relevant for both quantitative as well as qualitative researchers. Specifically, discussions will cover using R Notebooks for analysis documentation, creating interactive notebooks for data inspection, and employing GitHub and OSF for resource sharing. We will also address options for research enhancement, workflow improvement, resource sharing, new publication pathways and ensuring effective workflows. The format will include detailed recommendations, practical presentations, and an open panel discussion on practices and tools.
+This masterclass, while recognising the importance of data transparency and reproducibility, will focus on the processes of data utilisation, including processing, analysis and publication. Our aim is to assist linguists in enhancing research transparency by leveraging tools and infrastructures, alongside exploring strategies for establishing efficient workflows. The masterclass aims to advance Best Practices discussions, raising awareness about existing resources, and addressing practices hindering transparency, replicability and research quality relevant for both quantitative, as well as qualitative, researchers. Specifically, discussions will cover using R Notebooks for analysis documentation, creating interactive notebooks for data inspection, and employing GitHub and [Open Science Framework](https://osf.io/as982/) for resource sharing. We will also address options for research enhancement, workflow improvement, resource sharing, new publication pathways and ensuring effective workflows. The format will include detailed recommendations, practical presentations, and an open panel discussion on practices and tools.
 
 **Organisers**: This masterclass is a part of the annual [conference](https://als.asn.au/Conference/2024/General) of the Australian Linguistic Society ([ALS](https://als.asn.au/Home)).
 
 **Who**: {{< profile id="hames" >}} and {{< profile id="schweinberger" >}}
 
-**When**: 26 November 2024 (program TBA)
+**When**: 26 November 2024, 9:30 am – 12:30 pm AEDT
 
 **Where**: Australian National University, Canberra
 
@@ -111,7 +111,7 @@ The RO-Crate community run a weekly drop-in call in Australia. For further infor
 </summary>
 <p>This two-part workshop series introduced participants to basic text analytics for research using Reddit data.</p>
 
-<p>In the first workshop, we focused on data collection and learned how to collect posts from Reddit, using the very sparkly example of the Eurovision Song Contest. In the second workshop, participants learned to apply a range of text analytic techniques to the Reddit data.</p>
+<p>In the first workshop, we focused on data collection and learned how to collect posts from Reddit. In the second workshop, participants learned to apply a range of text analytic techniques to the Reddit data, using the very sparkly example of the Eurovision Song Contest.</p>
 <p><b>When</b>: 9 and 16 October 2024</p>
 <p><b>Leaders</b>: Robert Fleet (part 1) and Martin Schweinberger (part 2)
 <p><b>Organisers</b>: This workshop series is delivered by the <a href="https://www.digitalobservatory.net.au/qut-digital-observatory/" target="_blank">QUT Digital Observatory</a> and LDaCA</p>
