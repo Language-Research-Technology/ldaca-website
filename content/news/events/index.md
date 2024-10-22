@@ -13,39 +13,7 @@ aliases:
 [Previous Events](#previous-events)&emsp;&emsp;
 [Webinars](#webinars) &emsp;&emsp;
 
-<br>
-
-### A glamorous introduction to text analytics for social media (Reddit)
-
-This two-part workshop series introduces participants to basic text analytics for research using Reddit data.
-
-In the first workshop, we focus on data collection and you will learn how to collect posts from Reddit, using the very sparkly example of the Eurovision Song Contest. In the second workshop, you will learn to apply a range of text analytic techniques to the Reddit data.
-
-Some experience with R coding is preferred for attending the series. No experience with social media data collection or text analysis is required.
-
-**Organisers**: This workshop series is delivered by the [QUT Digital Observatory](https://www.digitalobservatory.net.au/qut-digital-observatory/) and LDaCA and is supported by the Australian Research Data Commons ([ARDC](https://ardc.edu.au)).
-
-**When**: 9 October 2024, 1–3pm AEST and 16 October 2024, 1–3pm AEST
-
-**Where**: Online
-
-**[Registration](https://events.humanitix.com/a-glamorous-introduction-to-basic-text-analytics-for-social-media-reddit)**
-
  <br>
-
-### Introduction to Text Analytics with R
-
-This workshop will provide an introduction to text analytics with R. We'll start from scratch and introduce standard concepts in working with text as data, then work through practical examples of key techniques.
-
-**Organisers**: [ResBaz Queensland](https://resbaz.github.io/resbaz2024qld/)
-
-**Who**: {{< profile id="hames" >}}
-
-**When**: 6–7 November 2024 (program TBA)
-
-**Where**: Australian Catholic University, Brisbane
-
-**[Registration](https://resbaz.github.io/resbaz2024qld/registration/)**
 
 <br>
 
@@ -55,9 +23,9 @@ This workshop will provide an introduction to text analytics with R using the to
 
 **Organisers**: [ResBaz Queensland](https://resbaz.github.io/resbaz2024qld/)
 
-**Who**: {{< profile id="schweinberger" >}}
+**Who**: {{< profile id="hames" >}} and {{< profile id="schweinberger" >}}
 
-**When**: 6–7 November 2024 (program TBA)
+**When**: 7 November 2024, 9 am –12:30 pm (AEST)
 
 **Where**: Australian Catholic University, Brisbane
 
@@ -137,6 +105,19 @@ The RO-Crate community run a weekly drop-in call in Australia. For further infor
 
 {{<raw>}}
 
+<details>
+<summary>
+<b>A glamorous introduction to text analytics for social media (Reddit)</b>
+</summary>
+<p>This two-part workshop series introduced participants to basic text analytics for research using Reddit data.</p>
+
+<p>In the first workshop, we focused on data collection and learned how to collect posts from Reddit, using the very sparkly example of the Eurovision Song Contest. In the second workshop, participants learned to apply a range of text analytic techniques to the Reddit data.</p>
+<p><b>When</b>: 9 and 16 October 2024</p>
+<p><b>Leaders</b>: Robert Fleet (part 1) and Martin Schweinberger (part 2)
+<p><b>Organisers</b>: This workshop series is delivered by the <a href="https://www.digitalobservatory.net.au/qut-digital-observatory/" target="_blank">QUT Digital Observatory</a> and LDaCA</p>
+<p><b>Recordings</b>: <a href="https://filesender.aarnet.edu.au/?s=download&token=a94f9ec3-7972-4bdd-a6d8-e6fd75e0830a" target="_blank">Part 1</a>, <a href="https://filesender.aarnet.edu.au/?s=download&token=4f1792c0-8a81-4073-a39f-2a31385579fd" target="_blank">Part 2</a>
+
+</details>
 <details>
 <summary>
 <b>Indigenous Data Governance: A discussion</b>
