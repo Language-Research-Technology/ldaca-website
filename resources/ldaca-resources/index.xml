@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LDaCA Resources on LDaCA</title><link>https://www.ldaca.edu.au/resources/ldaca-resources/</link><description>Recent content in LDaCA Resources on LDaCA</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 22 Nov 2023 14:51:49 +1100</lastBuildDate><atom:link href="https://www.ldaca.edu.au/resources/ldaca-resources/index.xml" rel="self" type="application/rss+xml"/><item><title>LDaCA Software Tools</title><link>https://www.ldaca.edu.au/resources/ldaca-resources/ldaca-software-tools/</link><pubDate>Wed, 22 Nov 2023 14:51:49 +1100</pubDate><guid>https://www.ldaca.edu.au/resources/ldaca-resources/ldaca-software-tools/</guid><description>&lt;br>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LDaCA Resources on LDaCA</title><link>https://www.ldaca.edu.au/resources/ldaca-resources/</link><description>Recent content in LDaCA Resources on LDaCA</description><generator>Hugo</generator><language>en-us</language><managingEditor>info@ldaca.edu.au (Language Data Commons of Australia)</managingEditor><webMaster>info@ldaca.edu.au (Language Data Commons of Australia)</webMaster><lastBuildDate>Wed, 22 Nov 2023 14:51:49 +1100</lastBuildDate><atom:link href="https://www.ldaca.edu.au/resources/ldaca-resources/index.xml" rel="self" type="application/rss+xml"/><item><title>LDaCA Software Tools</title><link>https://www.ldaca.edu.au/resources/ldaca-resources/ldaca-software-tools/</link><pubDate>Wed, 22 Nov 2023 14:51:49 +1100</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/ldaca-resources/ldaca-software-tools/</guid><description>&lt;br>
 &lt;p>A variety of &lt;a href="https://www.ldaca.edu.au/resources/glossary/#ldaca" title="Language Data Commons of Australia" target="_blank"
  >LDaCA&lt;/a
 > open-source tools are available at our &lt;a href="https://github.com/Language-Research-Technology/ocfl-js" target="_blank" rel="noopener noreffer ">GitHub organisation&lt;/a>. Highlights include:&lt;/p>
@@ -8,7 +8,7 @@
  >RO-Crates&lt;/a
 >) using a web interface, and with &lt;a href="https://www.ldaca.edu.au/resources/glossary/#metadata" title="The information that defines and describes data." target="_blank"
  >metadata&lt;/a
-> spreadsheets. It provides researchers with a relatively simple way to describe their data using the best practices in formal metadata description.&lt;/p></description></item><item><title>Licenses</title><link>https://www.ldaca.edu.au/resources/ldaca-resources/licenses/</link><pubDate>Wed, 15 Nov 2023 12:05:32 +1100</pubDate><guid>https://www.ldaca.edu.au/resources/ldaca-resources/licenses/</guid><description>&lt;br>
+> spreadsheets. It provides researchers with a relatively simple way to describe their data using the best practices in formal metadata description.&lt;/p></description></item><item><title>Licenses</title><link>https://www.ldaca.edu.au/resources/ldaca-resources/licenses/</link><pubDate>Wed, 15 Nov 2023 12:05:32 +1100</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/ldaca-resources/licenses/</guid><description>&lt;br>
 &lt;blockquote>
 &lt;p>Specifies the license(s) that data contributors have applied to the content of their &lt;a href="https://www.ldaca.edu.au/resources/glossary/#collection" title="A group of related Objects." target="_blank"
  >collection&lt;/a
@@ -25,7 +25,7 @@
 &lt;p>All content: &lt;a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreffer ">Attribution 4.0 International (CC BY 4.0)&lt;/a>&lt;/p>
 &lt;br>
 &lt;h3 id="braided-channels">Braided Channels&lt;/h3>
-&lt;p>All content: &lt;a href="https://creativecommons.org/licenses/by-nd/3.0/au/" target="_blank" rel="noopener noreffer ">Attribution-NoDerivatives 3.0 Australia (CC BY-ND 3.0 AU)&lt;/a>&lt;/p></description></item><item><title>Metadata</title><link>https://www.ldaca.edu.au/resources/ldaca-resources/metadata/</link><pubDate>Mon, 13 Nov 2023 15:49:31 +1100</pubDate><guid>https://www.ldaca.edu.au/resources/ldaca-resources/metadata/</guid><description>&lt;br>
+&lt;p>All content: &lt;a href="https://creativecommons.org/licenses/by-nd/3.0/au/" target="_blank" rel="noopener noreffer ">Attribution-NoDerivatives 3.0 Australia (CC BY-ND 3.0 AU)&lt;/a>&lt;/p></description></item><item><title>Metadata</title><link>https://www.ldaca.edu.au/resources/ldaca-resources/metadata/</link><pubDate>Mon, 13 Nov 2023 15:49:31 +1100</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/ldaca-resources/metadata/</guid><description>&lt;br>
 &lt;p>&lt;a href="https://www.ldaca.edu.au/resources/glossary/#metadata" title="The information that defines and describes data." target="_blank"
  >Metadata&lt;/a
 > is often defined as &amp;lsquo;data about data&amp;rsquo;. High-quality metadata is important in making data &lt;a href="https://www.ldaca.edu.au/resources/glossary/#fair" title="Four key principles developed in 2016 with the aim of supporting the discovery and reuse of research data." target="_blank"
@@ -49,7 +49,7 @@
  >LDaCA&lt;/a
 > is developing such a profile for our data; we are basing this largely on previous work in the area. An important aspect of the &lt;a href="https://www.ldaca.edu.au/resources/glossary/#ro-crate" title="Research Object Crate" target="_blank"
  >RO-Crate&lt;/a
-> approach is that it uses the principles of &lt;a href="https://en.wikipedia.org/wiki/Linked_data#Linked_open_data" target="_blank" rel="noopener noreffer ">Linked Open Data&lt;/a>. This means that terms used in our metadata will (whenever possible) link to an openly available definition. In developing the profile, we are drawing on two existing attempts to provide vocabularies for describing language data.&lt;/p></description></item><item><title>Guidance for Data Governance Decisions</title><link>https://www.ldaca.edu.au/resources/ldaca-resources/guidance-for-data-governance-decisions/</link><pubDate>Wed, 18 Oct 2023 12:09:10 +1100</pubDate><guid>https://www.ldaca.edu.au/resources/ldaca-resources/guidance-for-data-governance-decisions/</guid><description>&lt;br>
+> approach is that it uses the principles of &lt;a href="https://en.wikipedia.org/wiki/Linked_data#Linked_open_data" target="_blank" rel="noopener noreffer ">Linked Open Data&lt;/a>. This means that terms used in our metadata will (whenever possible) link to an openly available definition. In developing the profile, we are drawing on two existing attempts to provide vocabularies for describing language data.&lt;/p></description></item><item><title>Guidance for Data Governance Decisions</title><link>https://www.ldaca.edu.au/resources/ldaca-resources/guidance-for-data-governance-decisions/</link><pubDate>Wed, 18 Oct 2023 12:09:10 +1100</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/ldaca-resources/guidance-for-data-governance-decisions/</guid><description>&lt;br>
 &lt;h5 id="purposepurpose">&lt;a href="#purpose" rel="">Purpose&lt;/a>&lt;/h5>
 &lt;h5 id="1-access-conditions1-access-conditions">&lt;a href="#1-access-conditions" rel="">1. Access Conditions&lt;/a>&lt;/h5>
 &lt;ul>
@@ -67,7 +67,7 @@
  >data governance&lt;/a
 > maximises sustainability, while ensuring data integrity and protecting research participants. Long-term sustainability requires a &lt;a href="https://www.ldaca.edu.au/resources/glossary/#data-management-plan" title="A document that outlines key information about a research project and its data, and sets out roles and responsibilities in its management." target="_blank"
  >data management plan&lt;/a
->.&lt;/p></description></item><item><title>Data Onboarding Process</title><link>https://www.ldaca.edu.au/resources/ldaca-resources/data-onboarding-process/</link><pubDate>Tue, 03 Oct 2023 13:59:34 +1100</pubDate><guid>https://www.ldaca.edu.au/resources/ldaca-resources/data-onboarding-process/</guid><description>&lt;br>
+>.&lt;/p></description></item><item><title>Data Onboarding Process</title><link>https://www.ldaca.edu.au/resources/ldaca-resources/data-onboarding-process/</link><pubDate>Tue, 03 Oct 2023 13:59:34 +1100</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/ldaca-resources/data-onboarding-process/</guid><description>&lt;br>
 &lt;h5 id="purposepurpose">&lt;a href="#purpose" rel="">Purpose&lt;/a>&lt;/h5>
 &lt;h5 id="onboarding-processonboarding-process">&lt;a href="#onboarding-process" rel="">Onboarding Process&lt;/a>&lt;/h5>
 &lt;ul>
@@ -85,7 +85,7 @@
  >LDaCA&lt;/a
 >. A successful onboarding will result in the collection being catalogued with LDaCA and made available in accordance with the specified &lt;a href="https://www.ldaca.edu.au/resources/glossary/#access-conditions" title="Conditions which specify who can access data and what they can do with that data." target="_blank"
  >access conditions&lt;/a
->. To determine if you are ready to onboard a collection, check this data management and governance capacity flowchart.&lt;/p></description></item><item><title>Access Policy</title><link>https://www.ldaca.edu.au/resources/ldaca-resources/access-policy/</link><pubDate>Tue, 03 Oct 2023 12:49:58 +1100</pubDate><guid>https://www.ldaca.edu.au/resources/ldaca-resources/access-policy/</guid><description>&lt;br>
+>. To determine if you are ready to onboard a collection, check this data management and governance capacity flowchart.&lt;/p></description></item><item><title>Access Policy</title><link>https://www.ldaca.edu.au/resources/ldaca-resources/access-policy/</link><pubDate>Tue, 03 Oct 2023 12:49:58 +1100</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/ldaca-resources/access-policy/</guid><description>&lt;br>
 &lt;h5 id="purposepurpose">&lt;a href="#purpose" rel="">Purpose&lt;/a>&lt;/h5>
 &lt;h5 id="1-access-types-and-licensing1-access-types-and-licensing">&lt;a href="#1-access-types-and-licensing" rel="">1. Access Types and Licensing&lt;/a>&lt;/h5>
 &lt;ul>
@@ -109,7 +109,7 @@
  >LDaCA&lt;/a
 > Access Policy, which is developed to accommodate the goal of making data appropriately accessible, in accordance with legal, moral and ethical considerations of data sharing, and tailored to meet the needs and requirements of different &lt;a href="https://www.ldaca.edu.au/resources/glossary/#data-collection" title="A set of data collected under similar conditions and brought together in a shared framework." target="_blank"
  >data collections&lt;/a
->.&lt;/p></description></item><item><title>Determining Access Conditions</title><link>https://www.ldaca.edu.au/resources/ldaca-resources/determining-access-conditions/</link><pubDate>Tue, 03 Oct 2023 12:07:19 +1100</pubDate><guid>https://www.ldaca.edu.au/resources/ldaca-resources/determining-access-conditions/</guid><description>&lt;br>
+>.&lt;/p></description></item><item><title>Determining Access Conditions</title><link>https://www.ldaca.edu.au/resources/ldaca-resources/determining-access-conditions/</link><pubDate>Tue, 03 Oct 2023 12:07:19 +1100</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/ldaca-resources/determining-access-conditions/</guid><description>&lt;br>
 &lt;h5 id="step-1-consider-access-conditions-for-the-entire-collectionstep-1-consider-access-conditions-for-the-entire-collection">&lt;a href="#step-1-consider-access-conditions-for-the-entire-collection" rel="">Step 1: Consider access condition(s) for the entire collection&lt;/a>&lt;/h5>
 &lt;h5 id="step-2-organise-relevant-materialsstep-2-organise-relevant-materials">&lt;a href="#step-2-organise-relevant-materials" rel="">Step 2: Organise relevant materials&lt;/a>&lt;/h5>
 &lt;h5 id="step-3-define-the-license-termsstep-3-define-the-license-terms">&lt;a href="#step-3-define-the-license-terms" rel="">Step 3: Define the license terms&lt;/a>&lt;/h5>
@@ -120,7 +120,7 @@
  >LDaCA&lt;/a
 > recommends the following workflow to determine the &lt;a href="https://www.ldaca.edu.au/resources/glossary/#access-conditions" title="Conditions which specify who can access data and what they can do with that data." target="_blank"
  >access conditions&lt;/a
-> to be outlined in the license. Examples of existing data access licenses can be found &lt;a href="https://www.ldaca.edu.au/licenses/" rel="">here&lt;/a>.&lt;/p></description></item><item><title>Obtaining a DOI</title><link>https://www.ldaca.edu.au/resources/ldaca-resources/obtaining-a-doi/</link><pubDate>Fri, 15 Sep 2023 15:42:57 +1000</pubDate><guid>https://www.ldaca.edu.au/resources/ldaca-resources/obtaining-a-doi/</guid><description>&lt;br>
+> to be outlined in the license. Examples of existing data access licenses can be found &lt;a href="https://www.ldaca.edu.au/licenses/" rel="">here&lt;/a>.&lt;/p></description></item><item><title>Obtaining a DOI</title><link>https://www.ldaca.edu.au/resources/ldaca-resources/obtaining-a-doi/</link><pubDate>Fri, 15 Sep 2023 15:42:57 +1000</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/ldaca-resources/obtaining-a-doi/</guid><description>&lt;br>
 &lt;h2 id="how-do-i-get-a-doi-for-my-dataset">How do I get a DOI for my dataset?&lt;/h2>
 &lt;br>
 &lt;ol>

@@ -1,8 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>News on LDaCA</title><link>https://www.ldaca.edu.au/news/</link><description>Recent content in News on LDaCA</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 18 Oct 2023 11:12:10 +1000</lastBuildDate><atom:link href="https://www.ldaca.edu.au/news/index.xml" rel="self" type="application/rss+xml"/><item><title>Events</title><link>https://www.ldaca.edu.au/news/events/</link><pubDate>Wed, 18 Oct 2023 11:12:10 +1000</pubDate><guid>https://www.ldaca.edu.au/news/events/</guid><description>&lt;br>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>News on LDaCA</title><link>https://www.ldaca.edu.au/news/</link><description>Recent content in News on LDaCA</description><generator>Hugo</generator><language>en-us</language><managingEditor>info@ldaca.edu.au (Language Data Commons of Australia)</managingEditor><webMaster>info@ldaca.edu.au (Language Data Commons of Australia)</webMaster><lastBuildDate>Wed, 18 Oct 2023 11:12:10 +1000</lastBuildDate><atom:link href="https://www.ldaca.edu.au/news/index.xml" rel="self" type="application/rss+xml"/><item><title>Events</title><link>https://www.ldaca.edu.au/news/events/</link><pubDate>Wed, 18 Oct 2023 11:12:10 +1000</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/news/events/</guid><description>&lt;br>
 &lt;p>&lt;a href="#recurring-events" rel="">Recurring Events&lt;/a>  
 &lt;a href="#previous-events" rel="">Previous Events&lt;/a>  
 &lt;a href="#webinars" rel="">Webinars&lt;/a>   &lt;/p>
+ &lt;br>
 &lt;br>
-&lt;h3 id="a-glamorous-introduction-to-text-analytics-for-social-media-reddit">A glamorous introduction to text analytics for social media (Reddit)&lt;/h3>
-&lt;p>This two-part workshop series introduces participants to basic text analytics for research using Reddit data.&lt;/p>
-&lt;p>In the first workshop, we focus on data collection and you will learn how to collect posts from Reddit, using the very sparkly example of the Eurovision Song Contest. In the second workshop, you will learn to apply a range of text analytic techniques to the Reddit data.&lt;/p></description></item></channel></rss>
+&lt;h3 id="text-analytics-with-r-and-ladal">Text analytics with R and LADAL&lt;/h3>
+&lt;p>This workshop will provide an introduction to text analytics with R using the tools and tutorials provided by the Language Technology and Data Analysis Laboratory (&lt;a href="https://ladal.edu.au/" target="_blank" rel="noopener noreffer ">LADAL&lt;/a>).&lt;/p>
+&lt;p>&lt;strong>Organisers&lt;/strong>: &lt;a href="https://resbaz.github.io/resbaz2024qld/" target="_blank" rel="noopener noreffer ">ResBaz Queensland&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Who&lt;/strong>: &lt;a href="https://languages-cultures.uq.edu.au/profile/8379/sam-hames" title="Sam is a Research Fellow in the School of Languages and Cultures at The University of Queensland. He is interested in the application of computational methods in humanities research." target="_blank"
+ >Sam Hames&lt;/a
+> and &lt;a href="https://languages-cultures.uq.edu.au/profile/4295/martin-schweinberger" title="Martin is a Lecturer in the School of Languages and Cultures at The University of Queensland. He is a quantitative corpus linguist specialized in computational analyses of text and speech." target="_blank"
+ >Martin Schweinberger&lt;/a
+>&lt;/p></description></item></channel></rss>
