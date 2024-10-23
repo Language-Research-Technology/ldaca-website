@@ -13,39 +13,7 @@ aliases:
 [Previous Events](#previous-events)&emsp;&emsp;
 [Webinars](#webinars) &emsp;&emsp;
 
-<br>
-
-### A glamorous introduction to text analytics for social media (Reddit)
-
-This two-part workshop series introduces participants to basic text analytics for research using Reddit data.
-
-In the first workshop, we focus on data collection and you will learn how to collect posts from Reddit, using the very sparkly example of the Eurovision Song Contest. In the second workshop, you will learn to apply a range of text analytic techniques to the Reddit data.
-
-Some experience with R coding is preferred for attending the series. No experience with social media data collection or text analysis is required.
-
-**Organisers**: This workshop series is delivered by the [QUT Digital Observatory](https://www.digitalobservatory.net.au/qut-digital-observatory/) and LDaCA and is supported by the Australian Research Data Commons ([ARDC](https://ardc.edu.au)).
-
-**When**: 9 October 2024, 1–3pm AEST and 16 October 2024, 1–3pm AEST
-
-**Where**: Online
-
-**[Registration](https://events.humanitix.com/a-glamorous-introduction-to-basic-text-analytics-for-social-media-reddit)**
-
  <br>
-
-### Introduction to Text Analytics with R
-
-This workshop will provide an introduction to text analytics with R. We'll start from scratch and introduce standard concepts in working with text as data, then work through practical examples of key techniques.
-
-**Organisers**: [ResBaz Queensland](https://resbaz.github.io/resbaz2024qld/)
-
-**Who**: {{< profile id="hames" >}}
-
-**When**: 6–7 November 2024 (program TBA)
-
-**Where**: Australian Catholic University, Brisbane
-
-**[Registration](https://resbaz.github.io/resbaz2024qld/registration/)**
 
 <br>
 
@@ -55,9 +23,9 @@ This workshop will provide an introduction to text analytics with R using the to
 
 **Organisers**: [ResBaz Queensland](https://resbaz.github.io/resbaz2024qld/)
 
-**Who**: {{< profile id="schweinberger" >}}
+**Who**: {{< profile id="hames" >}} and {{< profile id="schweinberger" >}}
 
-**When**: 6–7 November 2024 (program TBA)
+**When**: 7 November 2024, 9 am – 12:30 pm (AEST)
 
 **Where**: Australian Catholic University, Brisbane
 
@@ -89,7 +57,7 @@ In this workshop, you will:
 
 ### Solving 10 research challenges with the ARDC HASS and Indigenous Research Data Commons
 
-Get hands-on with two tools from the ARDC HASS and Indigenous Research Data Commons, the Crate-O metadata editor and the Trove Data guide. After two 40 minute deep dives, learn how other parts of the Research Data Commons help researchers solve another eight research challenges, in a series of five minute lightning tours. By the end of the session, you will know how to use a tool to package your research data and its metadata together in an [RO-Crate](https://www.researchobject.org/ro-crate/), and be better equipped to locate and manipulate data from the National Library's Trove research portal. You will also have new leads for research with Indigenous data, social media data, data about creative arts and social sciences data.
+Get hands-on with two tools from the ARDC [HASS and Indigenous Research Data Commons](https://ardc.edu.au/hass-and-indigenous-research-data-commons/), the [Crate-O](https://www.ldaca.edu.au/resources/user-guides/crate-o/) metadata editor and the [Trove Data guide](https://tdg.glam-workbench.net/home.html). After two 40-minute deep dives, learn how other parts of the Research Data Commons help researchers solve another eight research challenges, in a series of five-minute lightning tours. By the end of the session, you will know how to use a tool to package your research data and its metadata together in an [RO-Crate](https://www.researchobject.org/ro-crate/), and be better equipped to locate and manipulate data from the National Library's [Trove](https://trove.nla.gov.au/) research portal. You will also have new leads for research with Indigenous data, social media data, data about creative arts and social sciences data.
 
 **Organisers**: [ResBaz Victoria](https://resbaz.github.io/resbazvic2024/)
 
@@ -105,13 +73,13 @@ Get hands-on with two tools from the ARDC HASS and Indigenous Research Data Comm
 
 ### Masterclass: Improving Transparency and Reproducible Results in Linguistics
 
-This masterclass, while recognising the importance of data transparency and reproducibility, will focus on the processes of data utilisation, including processing, analysis and publication. Our aim is to assist linguists in enhancing research transparency by leveraging tools and infrastructures, alongside exploring strategies for establishing efficient workflows. The masterclass aims to advance Best Practices discussions, raising awareness about existing resources and addressing practices hindering transparency, replicability and research quality relevant for both quantitative as well as qualitative researchers. Specifically, discussions will cover using R Notebooks for analysis documentation, creating interactive notebooks for data inspection, and employing GitHub and OSF for resource sharing. We will also address options for research enhancement, workflow improvement, resource sharing, new publication pathways and ensuring effective workflows. The format will include detailed recommendations, practical presentations, and an open panel discussion on practices and tools.
+This masterclass, while recognising the importance of data transparency and reproducibility, will focus on the processes of data utilisation, including processing, analysis and publication. Our aim is to assist linguists in enhancing research transparency by leveraging tools and infrastructures, alongside exploring strategies for establishing efficient workflows. The masterclass aims to advance Best Practices discussions, raising awareness about existing resources, and addressing practices hindering transparency, replicability and research quality relevant for both quantitative, as well as qualitative, researchers. Specifically, discussions will cover using R Notebooks for analysis documentation, creating interactive notebooks for data inspection, and employing GitHub and [Open Science Framework](https://osf.io/as982/) for resource sharing. We will also address options for research enhancement, workflow improvement, resource sharing, new publication pathways and ensuring effective workflows. The format will include detailed recommendations, practical presentations, and an open panel discussion on practices and tools.
 
 **Organisers**: This masterclass is a part of the annual [conference](https://als.asn.au/Conference/2024/General) of the Australian Linguistic Society ([ALS](https://als.asn.au/Home)).
 
 **Who**: {{< profile id="hames" >}} and {{< profile id="schweinberger" >}}
 
-**When**: 26 November 2024 (program TBA)
+**When**: 26 November 2024, 9:30 am – 12:30 pm AEDT
 
 **Where**: Australian National University, Canberra
 
@@ -137,6 +105,19 @@ The RO-Crate community run a weekly drop-in call in Australia. For further infor
 
 {{<raw>}}
 
+<details>
+<summary>
+<b>A glamorous introduction to text analytics for social media (Reddit)</b>
+</summary>
+<p>This two-part workshop series introduced participants to basic text analytics for research using Reddit data.</p>
+
+<p>In the first workshop, we focused on data collection and learned how to collect posts from Reddit. In the second workshop, participants learned to apply a range of text analytic techniques to the Reddit data, using the very sparkly example of the Eurovision Song Contest.</p>
+<p><b>When</b>: 9 and 16 October 2024</p>
+<p><b>Leaders</b>: Robert Fleet (part 1) and Martin Schweinberger (part 2)
+<p><b>Organisers</b>: This workshop series is delivered by the <a href="https://www.digitalobservatory.net.au/qut-digital-observatory/" target="_blank">QUT Digital Observatory</a> and LDaCA</p>
+<p><b>Recordings</b>: <a href="https://filesender.aarnet.edu.au/?s=download&token=a94f9ec3-7972-4bdd-a6d8-e6fd75e0830a" target="_blank">Part 1</a>, <a href="https://filesender.aarnet.edu.au/?s=download&token=4f1792c0-8a81-4073-a39f-2a31385579fd" target="_blank">Part 2</a>
+
+</details>
 <details>
 <summary>
 <b>Indigenous Data Governance: A discussion</b>
