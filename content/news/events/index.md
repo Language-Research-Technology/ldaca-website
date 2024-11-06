@@ -15,24 +15,6 @@ aliases:
 
  <br>
 
-<br>
-
-### Text analytics with R and LADAL
-
-This workshop will provide an introduction to text analytics with R using the tools and tutorials provided by the Language Technology and Data Analysis Laboratory ([LADAL](https://ladal.edu.au/)).
-
-**Organisers**: [ResBaz Queensland](https://resbaz.github.io/resbaz2024qld/)
-
-**Who**: {{< profile id="hames" >}} and {{< profile id="schweinberger" >}}
-
-**When**: 7 November 2024, 9 am – 12:30 pm (AEST)
-
-**Where**: Australian Catholic University, Brisbane
-
-**[Registration](https://resbaz.github.io/resbaz2024qld/registration/)**
-
-<br>
-
 ### Exploring text using concordances
 
 Concordances are a very useful tool for anyone who works with textual data. Concordancing tools (also referred to as Keyword in Context or KWIC tools) provide us with a listing of all occurrences of a word in a text along with some surrounding context. A concordance is therefore an excellent starting point to explore how a word is used in a text. Most KWIC tools also have the capability to sort results according to the context of the instances, by preceding words or following words, or a combination of the two, and these capabilities allow us to extract more specific information from concordances.
@@ -86,6 +68,38 @@ This masterclass, while recognising the importance of data transparency and repr
 **[Registration](https://als.asn.au/Conference/2024/Registration2024)**
 
  <br>
+ 
+###  Indigenous Data Governance Masterclass at Summer School
+
+The free ARDC Indigenous Data Governance Masterclass at Summer School will equip participants with the knowledge and tools to ethically manage Indigenous data, respecting the cultural protocols and sovereignty of Indigenous communities. It will build the capacity of researchers to engage with Indigenous data, fostering a culturally sensitive and informed approach to data-driven projects.
+
+**Organisers**: [HASS and Indigenous Research Data Commons](https://ardc.edu.au/hass-and-indigenous-research-data-commons/), ARDC.
+
+**When**: 3 February 2025
+
+**Where**: State Library of Queensland
+
+**[Registration](https://www.eventbrite.com.au/e/ardc-indigenous-data-governance-masterclass-at-summer-school-2025-tickets-1027820327267)**
+
+The Masterclass is **not** included in the registration for the HASS and Indigenous RDC Summer School. **You must register separately to attend the Masterclass and/or the Summer School**.
+
+ <br>
+ 
+###  2025 HASS and Indigenous Research Data Commons (RDC) Summer School
+
+The Summer School aims to empower participants with practical knowledge, build digital skills, and help inspire new research outcomes within the humanities, arts, social sciences (HASS) and Indigenous fields of study. Participants will collaborate in an interactive group setting while networking with like-minded researchers and subject matter experts.
+
+**Organisers**: [HASS and Indigenous Research Data Commons](https://ardc.edu.au/hass-and-indigenous-research-data-commons/), ARDC.
+
+**When**: 4–6 February 2025
+
+**Where**: The University of Queensland
+
+**[Registration](https://www.eventbrite.com.au/e/hass-and-indigenous-research-data-commons-summer-school-2025-tickets-1027654802177)**
+
+You can also [register](https://www.eventbrite.com.au/e/what-to-expect-at-hass-and-indigenous-rdc-summer-school-2025-a-webinar-tickets-1027825803647) for [What to Expect at HASS and Indigenous Summer School 2025: A Webinar](https://ardc.edu.au/event/what-to-expect-at-hass-and-indigenous-rdc-summer-school-2025-a-webinar/) to hear from a previous attendee about their experience, and 2025 workshop presenters outlining what they will cover.
+
+ <br>
 
 ## Recurring Events {#recurring-events}
 
@@ -105,6 +119,17 @@ The RO-Crate community run a weekly drop-in call in Australia. For further infor
 
 {{<raw>}}
 
+<details>
+<summary>
+<b>Text analytics with R and LADAL</b>
+</summary>
+<p>This workshop provided an introduction to text analytics with R using the tools and tutorials provided by the Language Technology and Data Analysis Laboratory (<a href="https://ladal.edu.au/" target="_blank">LADAL)</a>.</p>
+
+<p><b>When</b>: 7 November 2024</p>
+<p><b>Leaders</b>: Sam Hames and Martin Schweinberger</p>
+<p><b>Organisers</b>: <a href="https://resbaz.github.io/resbaz2024qld/" target = "_blank">ResBaz Queensland</a></p>
+
+</details>
 <details>
 <summary>
 <b>A glamorous introduction to text analytics for social media (Reddit)</b>

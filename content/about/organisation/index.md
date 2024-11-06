@@ -18,9 +18,10 @@ from the Australian Research Data Commons ({{< glossary_link display="ARDC" id="
 
 - **University of Queensland**: [Professor Michael Haugh](https://languages-cultures.uq.edu.au/profile/1498/michael-haugh)
 - **Australian National University**: [Professor Catherine Travis](https://researchers.anu.edu.au/researchers/travis-ce)
-- **Monash University**: [Associate Professor Louisa Willoughby](https://research.monash.edu/en/persons/louisa-willoughby)
 - **University of Melbourne**: [Associate Professor Nick Thieberger](https://findanexpert.unimelb.edu.au/profile/18278-nick-thieberger)
 - **University of Sydney**: [Professor Monika Bednarek](https://www.sydney.edu.au/arts/about/our-people/academic-staff/monika-bednarek.html) (Sydney Corpus Lab)
+- **University of Western Australia**: [Professor Clint Bracknell](https://research-repository.uwa.edu.au/en/persons/clint-bracknell)
+- **Queensland University of Technology's Digital Observatory**: [Dr Marissa Takahashi](https://www.qut.edu.au/about/our-people/academic-profiles/marissa.takahashi)
 - **AARNet**: [Adam Bell](https://www.linkedin.com/in/adamjohnbell/)
 - **First Languages Australia**: [Beau Williams](https://www.firstlanguages.org.au/about)
 
@@ -29,7 +30,6 @@ from the Australian Research Data Commons ({{< glossary_link display="ARDC" id="
 ## Advisory/Consultative Partners
 
 - [Pacific and Regional Archive for Digital Sources in Endangered Cultures](https://www.paradisec.org.au) ({{< glossary_link display="PARADISEC" id="paradisec" >}})
-- [Australian Digital Observatory](https://www.digitalobservatory.net.au/)
 - [CLARIN](https://www.clarin.eu)
 
 <br>
