@@ -15,6 +15,22 @@ aliases:
 
  <br>
 
+### Masterclass: Improving Transparency and Reproducible Results in Linguistics
+
+This masterclass, while recognising the importance of data transparency and reproducibility, will focus on the processes of data utilisation, including processing, analysis and publication. Our aim is to assist linguists in enhancing research transparency by leveraging tools and infrastructures, alongside exploring strategies for establishing efficient workflows. The masterclass aims to advance Best Practices discussions, raising awareness about existing resources, and addressing practices hindering transparency, replicability and research quality relevant for both quantitative, as well as qualitative, researchers. Specifically, discussions will cover using R Notebooks for analysis documentation, creating interactive notebooks for data inspection, and employing GitHub and [Open Science Framework](https://osf.io/as982/) for resource sharing. We will also address options for research enhancement, workflow improvement, resource sharing, new publication pathways and ensuring effective workflows. The format will include detailed recommendations, practical presentations, and an open panel discussion on practices and tools.
+
+**Organisers**: This masterclass is a part of the annual [conference](https://als.asn.au/Conference/2024/General) of the Australian Linguistic Society ([ALS](https://als.asn.au/Home)).
+
+**Who**: {{< profile id="hames" >}} and {{< profile id="schweinberger" >}}
+
+**When**: 26 November 2024, 9:30 am – 12:30 pm AEDT
+
+**Where**: Australian National University, Canberra
+
+**[Registration](https://als.asn.au/Conference/2024/Registration2024)**
+
+ <br>
+
 ### Exploring text using concordances
 
 Concordances are a very useful tool for anyone who works with textual data. Concordancing tools (also referred to as Keyword in Context or KWIC tools) provide us with a listing of all occurrences of a word in a text along with some surrounding context. A concordance is therefore an excellent starting point to explore how a word is used in a text. Most KWIC tools also have the capability to sort results according to the context of the instances, by preceding words or following words, or a combination of the two, and these capabilities allow us to extract more specific information from concordances.
@@ -53,27 +69,11 @@ Get hands-on with two tools from the ARDC [HASS and Indigenous Research Data Com
 
 <br>
 
-### Masterclass: Improving Transparency and Reproducible Results in Linguistics
-
-This masterclass, while recognising the importance of data transparency and reproducibility, will focus on the processes of data utilisation, including processing, analysis and publication. Our aim is to assist linguists in enhancing research transparency by leveraging tools and infrastructures, alongside exploring strategies for establishing efficient workflows. The masterclass aims to advance Best Practices discussions, raising awareness about existing resources, and addressing practices hindering transparency, replicability and research quality relevant for both quantitative, as well as qualitative, researchers. Specifically, discussions will cover using R Notebooks for analysis documentation, creating interactive notebooks for data inspection, and employing GitHub and [Open Science Framework](https://osf.io/as982/) for resource sharing. We will also address options for research enhancement, workflow improvement, resource sharing, new publication pathways and ensuring effective workflows. The format will include detailed recommendations, practical presentations, and an open panel discussion on practices and tools.
-
-**Organisers**: This masterclass is a part of the annual [conference](https://als.asn.au/Conference/2024/General) of the Australian Linguistic Society ([ALS](https://als.asn.au/Home)).
-
-**Who**: {{< profile id="hames" >}} and {{< profile id="schweinberger" >}}
-
-**When**: 26 November 2024, 9:30 am – 12:30 pm AEDT
-
-**Where**: Australian National University, Canberra
-
-**[Registration](https://als.asn.au/Conference/2024/Registration2024)**
-
- <br>
- 
-###  Indigenous Data Governance Masterclass at Summer School
+### Indigenous Data Governance Masterclass at Summer School
 
 The free ARDC Indigenous Data Governance Masterclass at Summer School will equip participants with the knowledge and tools to ethically manage Indigenous data, respecting the cultural protocols and sovereignty of Indigenous communities. It will build the capacity of researchers to engage with Indigenous data, fostering a culturally sensitive and informed approach to data-driven projects.
 
-**Organisers**: [HASS and Indigenous Research Data Commons](https://ardc.edu.au/hass-and-indigenous-research-data-commons/), ARDC.
+**Organisers**: [HASS and Indigenous Research Data Commons](https://ardc.edu.au/hass-and-indigenous-research-data-commons/), ARDC
 
 **When**: 3 February 2025
 
@@ -81,7 +81,7 @@ The free ARDC Indigenous Data Governance Masterclass at Summer School will equip
 
 **[Registration](https://www.eventbrite.com.au/e/ardc-indigenous-data-governance-masterclass-at-summer-school-2025-tickets-1027820327267)**
 
-The Masterclass is **not** included in the registration for the HASS and Indigenous RDC Summer School. **You must register separately to attend the Masterclass and/or the Summer School**.
+The Masterclass is **not** included in the registration for the HASS and Indigenous Research Data Commons Summer School. **You must register separately to attend the Masterclass and/or the Summer School**.
 
  <br>
  
@@ -89,7 +89,7 @@ The Masterclass is **not** included in the registration for the HASS and Indigen
 
 The Summer School aims to empower participants with practical knowledge, build digital skills, and help inspire new research outcomes within the humanities, arts, social sciences (HASS) and Indigenous fields of study. Participants will collaborate in an interactive group setting while networking with like-minded researchers and subject matter experts.
 
-**Organisers**: [HASS and Indigenous Research Data Commons](https://ardc.edu.au/hass-and-indigenous-research-data-commons/), ARDC.
+**Organisers**: [HASS and Indigenous Research Data Commons](https://ardc.edu.au/hass-and-indigenous-research-data-commons/), ARDC
 
 **When**: 4–6 February 2025
 
@@ -97,7 +97,7 @@ The Summer School aims to empower participants with practical knowledge, build d
 
 **[Registration](https://www.eventbrite.com.au/e/hass-and-indigenous-research-data-commons-summer-school-2025-tickets-1027654802177)**
 
-You can also [register](https://www.eventbrite.com.au/e/what-to-expect-at-hass-and-indigenous-rdc-summer-school-2025-a-webinar-tickets-1027825803647) for [What to Expect at HASS and Indigenous Summer School 2025: A Webinar](https://ardc.edu.au/event/what-to-expect-at-hass-and-indigenous-rdc-summer-school-2025-a-webinar/) to hear from a previous attendee about their experience, and 2025 workshop presenters outlining what they will cover.
+You can also [register](https://www.eventbrite.com.au/e/what-to-expect-at-hass-and-indigenous-rdc-summer-school-2025-a-webinar-tickets-1027825803647) for [What to Expect at HASS and Indigenous Summer School 2025: A Webinar](https://ardc.edu.au/event/what-to-expect-at-hass-and-indigenous-rdc-summer-school-2025-a-webinar/) to hear from a previous attendee about their experience and from 2025 workshop presenters outlining what they will cover.
 
  <br>
 
