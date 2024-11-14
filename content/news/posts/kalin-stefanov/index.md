@@ -4,6 +4,7 @@ date: 2024-04-11T14:29:40+10:00
 draft: false
 description: ""
 ---
+<br>
 
 <br />
 
@@ -61,4 +62,4 @@ The main focus of the project is the Auslan recogniser and generator; the datase
 
 This project will build the foundations for the use of the technologies in more advanced communication instances, including cheap and effective real-time on-screen spoken language translation during newscasts and emergency broadcasts. I hope to continue this line of research in the future and build upon these foundations. Given the complexity and richness of sign language communication, building this type of advanced technology is a truly ambitious endeavour that requires long-term dedication and effort.
 
-<br />
+<br>
