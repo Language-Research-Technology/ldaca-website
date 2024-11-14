@@ -2,8 +2,8 @@
 title: "LDaCA Newsletter Quarter 3 2023"
 date: 2023-07-13T10:37:28+10:00
 draft: false
-weight: 1
---- 
+weight: 6
+---
 
 <raw>
 <a href="/news/newsletter/" class="banner-button">Back to Newsletters</a>

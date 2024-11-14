@@ -21,13 +21,13 @@ By Peter Sefton, Nick Thieberger, Marco La Rosa, Simon Musgrave, River Tae Smith
 
 This work is licensed under CC BY 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/
 
-This presentation will look at how a Metadata Standard - {{< glossary_link display="RO-Crate" id="ro-crate" >}} - with Metadata Profile (the Language Data Commons) is being developed and implemented. Two major collections are collaborating on the standard, {{< glossary_link display="PARADISEC" id="paradisec" >}} and the Language Data Commons of Australia (LDaCA). This ongoing standardisation effort for language data is designed to improve interoperability, reduce costs for data migration and allow storage on disk, object storage or in archival repositories.
+This presentation will look at how a Metadata Standard - {{< glossary_link display="RO-Crate" id="ro-crate" >}} - with Metadata Profile (the Language Data Commons) is being developed and implemented. Two major collections are collaborating on the standard, {{< glossary_link display="PARADISEC" id="paradisec" >}} and the Language Data Commons of Australia (LDaCA). This ongoing standardisation effort for language data is designed to improve interoperability, reduce costs for data migration and allow storage on disk, {{< glossary_link display="object" id="object" >}} storage or in archival repositories.
 
-[RO-Crate] is a linked-data metadata system which allows discovery metadata (Who, what where) based on the widely adopted Schema.org vocabulary to be seamlessly integrated with more discipline-specific metadata. {{< glossary_link display="RO-Crate" id="ro-crate" >}} uses metadata profiles to provide guidance for packaging resources for particular disciplines and purposes.
+[RO-Crate] is a linked-data {{< glossary_link display="metadata" id="metadata" >}} system which allows discovery metadata (Who, what where) based on the widely adopted Schema.org vocabulary to be seamlessly integrated with more discipline-specific metadata. {{< glossary_link display="RO-Crate" id="ro-crate" >}} uses metadata profiles to provide guidance for packaging resources for particular disciplines and purposes.
 
-In this presentation, we will introduce a {{< glossary_link display="RO-Crate" id="ro-crate" >}} metadata profile for language data which extends the core {{< glossary_link display="RO-Crate" id="ro-crate" >}} standard with new vocabulary terms adapted from pre-linked-data discipline-specific metadata efforts, particularly the Open Language Archives Community ({{< glossary_link display="OLAC" id="olac" >}}) standards. The profile has English-language guidance on how to structure collections of resources in a repository with links between them, such that they can be indexed and displayed via {{< glossary_link display="APIs" id="api" >}} and search/browse portals. The profile is also implemented as a series of machine-readable profiles for the {{< glossary_link display="Describo" id="describo" >}} Online metadata description system.
+In this presentation, we will introduce a {{< glossary_link display="RO-Crate" id="ro-crate" >}} metadata profile for language data which extends the core {{< glossary_link display="RO-Crate" id="ro-crate" >}} standard with new vocabulary terms adapted from pre-linked-data discipline-specific metadata efforts, particularly the Open Language Archives Community ({{< glossary_link display="OLAC" id="olac" >}}) standards. The profile has English-language guidance on how to structure {{< glossary_link display="collections" id="collection" >}} of resources in a repository with links between them, such that they can be indexed and displayed via {{< glossary_link display="APIs" id="api" >}} and search/browse portals. The profile is also implemented as a series of machine-readable profiles for the {{< glossary_link display="Describo" id="describo" >}} Online metadata description system.
 
-We will demonstrate current ways of describing items in a variety of languages and modes (spoken, written and signed), from a large set of heterogeneous language resources held by {{< glossary_link display="PARADISEC" id="paradisec" >}} and LDaCA. We will also show how to access them via {{< glossary_link display="API" id="api" >}} calls and a search portal, and how resources may be stored in simple storage systems using the {{< glossary_link display="Arkisto" id="arkisto" >}} platform (a set of standards and principles).
+We will demonstrate current ways of describing items in a variety of languages and modes (spoken, written and signed), from a large set of heterogeneous language resources held by {{< glossary_link display="PARADISEC" id="paradisec" >}} and {{< glossary_link display="LDaCA" id="ldaca" >}}. We will also show how to access them via {{< glossary_link display="API" id="api" >}} calls and a search portal, and how resources may be stored in simple storage systems using the {{< glossary_link display="Arkisto" id="arkisto" >}} platform (a set of standards and principles).
 
 [ro-crate]: https://www.researchobject.org/ro-crate/
 
@@ -273,7 +273,7 @@ For larger collections, the approach used by {{< glossary_link display="PARADISE
 
 In this mode, each Object MUST link back to the Collection Object.
 
-A Collection Object MAY have explicit listing of hasMember properties - which makes it possible to construct repository navigation (such as websites) more cheaply. This is the approach used in {{< glossary_link display="PARADISEC" id="paradisec" >}}, while in LDaCA these links are constructed by an indexer servicer or summarizer application.
+A Collection Object MAY have explicit listing of hasMember properties - which makes it possible to construct repository navigation (such as websites) more cheaply. This is the approach used in {{< glossary_link display="PARADISEC" id="paradisec" >}}, while in LDaCA these links are constructed by an indexer servicer or summariser application.
 
 </section>
 
@@ -314,7 +314,7 @@ This example notebook explores the collection via the rest {{< glossary_link dis
 
 <br>
 
-# Conclusion
+## Conclusion
 
 In this presentation, we have shown the major components of an ecosystem for storing, discovering and analysing language data using common standards for describing objects in a repository. The [RO-Crate](https://www.researchobject.org/ro-crate/) standard is used as the key metadata container, with a common vocabulary of language-specific terms for describing data. This approach should reduce development costs and increase data reuse. The approach can also be adapted to other disciplines and domains with the development only of new profiles.
 

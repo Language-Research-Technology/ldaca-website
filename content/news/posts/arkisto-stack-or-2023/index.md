@@ -8,9 +8,6 @@
     author: Peter Sefton
     aliases: 
     - "/posts/arkisto-stack-or-2023/"
-    toc:
-      enable: true
-      auto: true
 ---
 
 <br>
@@ -24,7 +21,7 @@ This contains the slides and complete speaker notes, which have been edited afte
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
-We will present a standards-based generalized architecture for large-scale data\* repositories for research and preservation illustrated with real-world examples drawn from a number of languages and cultural archive projects. This work is taking place in the context of the Australian Humanities and Social Sciences Research Data Commons, particularly the Language Data component thereof and the long-established {{< glossary_link display="PARADISEC" id="paradisec" >}} cultural archive. The standards used include the Oxford Common File Layout for storage, Research Object CRATE ({{< glossary_link display="RO-Crate" id="ro-crate" >}}) for consistent linked-data description of {{< glossary_link display="FAIR" id="fair" >}} digital objects, and a language data metadata profile to ensure long-term interoperability between systems and re-usability over time. We also discuss data {{< glossary_link display="licensing" id="licensing" >}} and authorization for access to non-open resources. We suggest that the approach shown here may be used in other disciplines or for other kinds of digital library, repository or archival systems.
+We will present a standards-based generalised architecture for large-scale data\* repositories for research and preservation illustrated with real-world examples drawn from a number of languages and cultural archive projects. This work is taking place in the context of the Australian Humanities and Social Sciences Research Data Commons, particularly the Language Data component thereof and the long-established {{< glossary_link display="PARADISEC" id="paradisec" >}} cultural archive. The standards used include the Oxford Common File Layout for storage, Research Object CRATE ({{< glossary_link display="RO-Crate" id="ro-crate" >}}) for consistent linked-data description of {{< glossary_link display="FAIR" id="fair" >}} digital {{< glossary_link display="objects" id="object" >}}, and a language data {{< glossary_link display="metadata" id="metadata" >}} profile to ensure long-term interoperability between systems and re-usability over time. We also discuss data {{< glossary_link display="licensing" id="licensing" >}} and authorization for access to non-open resources. We suggest that the approach shown here may be used in other disciplines or for other kinds of digital library, repository or archival systems.
 
 \*The submitted abstract did not have the word data here - added for clarity
 
@@ -50,7 +47,7 @@ The Language Data Commons of Australia Data Partnerships (LDaCA) and the Austral
 
 The Data Commons will focus on preservation and discovery of distributed multi-modal language {{< glossary_link display="data collections" id="data-collection" >}} under a variety of governance frameworks. This will include access control that reflects ethical constraints and {{< glossary_link display="intellectual property" id="intellectual-property" >}} rights, including those of Aboriginal and Torres Strait Islander, migrant and Pacific communities.
 
-The platform will provide workbench services to support computational research, starting with code-notebooks with no-code research tools provided in later phases. Research artefacts such as code and derived data will be made available as fully documented research objects that are re-runnable and rigorously described. Metrics to demonstrate the impact of the platform are projected to include usage statistics, data and article citations. These projects are led by Professor Michael Haugh of the School of Languages and Cultures at the University of Queensland with several partner institutions.
+The platform will provide workbench services to support computational research, starting with code-notebooks with no-code research {{< glossary_link display="tools" id="tools" >}} provided in later phases. Research artefacts such as code and derived data will be made available as fully documented research objects that are re-runnable and rigorously described. Metrics to demonstrate the impact of the platform are projected to include usage statistics, data and article citations. These projects are led by Professor Michael Haugh of the School of Languages and Cultures at the University of Queensland with several partner institutions.
 
 We would like to acknowledge the traditional custodians of the lands on which we live and work and the importance of Indigenous knowledge, culture and language to these projects. Peter Sefton lives and works on Wiradjuri land, and for Nick Thieberger and Simon Musgrave, it's the land of the Kulin nation.
 
@@ -62,7 +59,7 @@ We would like to acknowledge the traditional custodians of the lands on which we
 
 <img src='Slide03.png' alt='Pacific and Regional Archive for Digital Sources in Endangered Cultures ({{< glossary_link display="PARADISEC" id="paradisec" >}}) Established 2003 Researchers concerned to digitise, preserve, and make accessible recordings in the many languages of the region around Australia No other agency taking responsibility for these recordings so they were at risk of loss Catalog exposes the existence of these recordings, 38,000 items in 690 collections Currently represent 1,350 languages, in 205 terabytes, with over 16,000 hours of audio recordings, 3,000 hours of video ' title='Slide: 3' border='1'  width='85%%'/>
 
-{{< glossary_link display="PARADISEC" id="paradisec" >}} is an online archive of cultural data which has been maintained for twenty years, in this presentation, we will look at some of the lessons learned from {{< glossary_link display="PARADISEC" id="paradisec" >}}. In summary – the {{< glossary_link display="PARADISEC" id="paradisec" >}} approach to simple data and metadata storage is something we want to continue in LDaCA, while the high cost for {{< glossary_link display="PARADISEC" id="paradisec" >}} of commissioning and maintaining its own software stack is something we want to address by taking a more standards-based approach to managing language and other data over the coming decades.
+{{< glossary_link display="PARADISEC" id="paradisec" >}} is an online archive of cultural data which has been maintained for twenty years, in this presentation, we will look at some of the lessons learned from {{< glossary_link display="PARADISEC" id="paradisec" >}}. In summary – the {{< glossary_link display="PARADISEC" id="paradisec" >}} approach to simple data and metadata storage is something we want to continue in {{< glossary_link display="LDaCA" id="ldaca" >}}, while the high cost for {{< glossary_link display="PARADISEC" id="paradisec" >}} of commissioning and maintaining its own software stack is something we want to address by taking a more standards-based approach to managing language and other data over the coming decades.
 
 </section>
 
@@ -285,7 +282,7 @@ This slide illustrates the flexibility of the approach we’re taking. As LDaCA 
 
 <img src='Slide23.png' alt='  S3-Style Object store Plain Old File Store ' title='Slide: 23' border='1'  width='85%%'/>
 
-The storage services may not all be the same in this model, some may be file systems, some may be object stores, and they may be hosted by and governed by a variety of organizations.
+The storage services may not all be the same in this model, some may be file systems, some may be object stores, and they may be hosted by and governed by a variety of organisations.
 
 </section>
 
@@ -321,7 +318,7 @@ Let’s revisit this diagram. What’s missing?
 
 <img src='Slide26.png' alt='  ' title='Slide: 26' border='1'  width='85%%'/>
 
-In the first phase of the LDaCA project, work focused on batch import of data using tools to convert collections – this approach was used on contemporary collections as well as for “rescuing” collections from older repository systems.
+In the first phase of the LDaCA project, work focused on batch import of data using tools to convert {{< glossary_link display="collections" id="collection" >}} – this approach was used on contemporary collections as well as for “rescuing” collections from older repository systems.
 
 </section>
 

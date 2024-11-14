@@ -1,0 +1,5 @@
+Name: "property"
+"title": "Property"
+"short_description": "In linked data, a metadata category used to add attributes to classes."
+"content": 'In {{< glossary_link display="linked data" id="linked-data" >}}, a {{< glossary_link display="metadata" id="metadata" >}} category which is an attribute of an instance of a {{< glossary_link display="Classes" id="class" >}}. Properties in the LDAC Metadata Schema include author, communicationMode, linguisticGenre, speaker, signer, etc.'
+"external_link": ""

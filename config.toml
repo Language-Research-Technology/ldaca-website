@@ -7,11 +7,7 @@ enableRobotsTXT = true
 [markup.goldmark.renderer]
   unsafe = true
 
-# Author config
-[author]
-  name = "Language Data Commons of Australia"
-  email = "info@ldaca.edu.au"
-  link = ""
+
 
 [params]
   title = "LDaCA"
@@ -21,6 +17,12 @@ enableRobotsTXT = true
   images = ["/logo.png", "/logo_dark.png"]
   # error page image website, place image in static folder if required add a image404 class in _custom.scss
   image404 = '/alpaca_404.svg'
+  pageNotFoundAlpacaMessage = "But you did find the LDaCA alpaca!"
+# Author config
+[params.author]
+  name = "Language Data Commons of Australia"
+  email = "info@ldaca.edu.au"
+  link = ""
 
 # Header config
   [params.header]
@@ -325,7 +327,7 @@ enableRobotsTXT = true
   [params.analytics]
     enable = true
     # Google Analytics
-    [params.analytics.google]
+    [params.analytics.google]      
       id = "G-C3GSGXCYV6"
       # whether to anonymize IP
       anonymizeIP = true
@@ -383,6 +385,18 @@ enableRobotsTXT = true
     parent = "resources"
     weight = 2   
   [[menu.main]]
+    identifier = "user-guides"
+    name = "User Guides"
+    url = "/resources/user-guides/"
+    parent = "resources"
+    weight = 3   
+  [[menu.main]]
+    identifier = "glossary"
+    name = "Glossary"
+    url = "/resources/glossary/"
+    parent = "resources"
+    weight = 4   
+  [[menu.main]]
     identifier = "news"
     name = "News ▾"
     url = "/news/"
@@ -404,7 +418,13 @@ enableRobotsTXT = true
     name = "Blog"
     url = "/news/posts/"
     parent = "news"
-    weight = 3   
+    weight = 3 
+  [[menu.main]]
+    identifier = "publications"
+    name = "Publications"
+    url = "/news/publications/"
+    parent = "news"
+    weight = 4    
   [[menu.main]]
     identifier = "contact"
     name = "Contact"

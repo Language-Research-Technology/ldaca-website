@@ -1,0 +1,5 @@
+Name: "class"
+"title": "Class"
+"short_description": "In linked data, a resource that represents a concept or entity."
+"content": 'In {{< glossary_link display="linked data" id="linked-data" >}}, a resource that represents a concept or entity. Classes in the LDAC Metadata Schema include CollectionEvent, CollectionProtocol, DataDepositLicense, DataLicense and DataReuseLicense.'
+"external_link": ""

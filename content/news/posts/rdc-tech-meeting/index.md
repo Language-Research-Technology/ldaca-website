@@ -48,7 +48,7 @@ We are using three key standards on this project …
 ![Slide02](Slide02.png)
 
 The first standard is the [Oxford Common File Layout](https://ocfl.io/1.0/spec/) -
-this is a way of keeping version-controlled digital objects on a plain old
+this is a way of keeping version-controlled digital {{< glossary_link display="objects" id="object" >}} on a plain old
 filesystem or object store.
 
 Here’s the introduction to the spec:
@@ -65,7 +65,7 @@ Here’s the introduction to the spec:
 >
 > **Completeness**
 >
-> The {{< glossary_link display="OCFL" id="ocfl" >}} recommends storing metadata and the content it describes together so the {{< glossary_link display="OCFL" id="ocfl" >}} object can be fully understood in the absence of original software. The {{< glossary_link display="OCFL" id="ocfl" >}} does not make recommendations about what constitutes an object, nor does it assume what type of metadata is needed to fully understand the object, recognizing those decisions may differ from one repository to another. However, it is recommended that when making this decision, implementers consider what is necessary to rebuild the objects from the files stored.
+> The {{< glossary_link display="OCFL" id="ocfl" >}} recommends storing {{< glossary_link display="metadata" id="metadata" >}} and the content it describes together so the {{< glossary_link display="OCFL" id="ocfl" >}} object can be fully understood in the absence of original software. The {{< glossary_link display="OCFL" id="ocfl" >}} does not make recommendations about what constitutes an object, nor does it assume what type of metadata is needed to fully understand the object, recognizing those decisions may differ from one repository to another. However, it is recommended that when making this decision, implementers consider what is necessary to rebuild the objects from the files stored.
 >
 > **Parsability**
 >
@@ -73,7 +73,7 @@ Here’s the introduction to the spec:
 >
 > **Versioning**
 >
-> Another need expressed by the community was the need to update and change objects, either the content itself or the metadata associated with the object. The {{< glossary_link display="OCFL" id="ocfl" >}} relies heavily on the prior art in the [Moab] Design for Digital Object Versioning which utilizes forward deltas to track the history of the object. Utilizing this schema allows implementers of the {{< glossary_link display="OCFL" id="ocfl" >}} to easily recreate past versions of an {{< glossary_link display="OCFL" id="ocfl" >}} object. Like with objects, the {{< glossary_link display="OCFL" id="ocfl" >}} remains silent on when versioning should occur recognizing this may differ from implementation to implementation.
+> Another need expressed by the community was the need to update and change objects, either the content itself or the metadata associated with the object. The {{< glossary_link display="OCFL" id="ocfl" >}} relies heavily on the prior art in the [Moab] Design for Digital Object Versioning which utilises forward deltas to track the history of the object. Utilizing this schema allows implementers of the {{< glossary_link display="OCFL" id="ocfl" >}} to easily recreate past versions of an {{< glossary_link display="OCFL" id="ocfl" >}} object. Like with objects, the {{< glossary_link display="OCFL" id="ocfl" >}} remains silent on when versioning should occur recognizing this may differ from implementation to implementation.
 >
 > **Robustness**
 >
@@ -115,7 +115,7 @@ The third key standard for {{< glossary_link display="Arkisto" id="arkisto" >}} 
 {{< glossary_link display="OCFL" id="ocfl" >}}, this was developed by members of the digital library/repository
 community. It was devised as a way to do interchange between repository
 systems, most of which, it turned out had evolved very similar ways of having
-nested collections, digital objects that aggregate related files. Using this
+nested {{< glossary_link display="collections" id="collection" >}}, digital objects that aggregate related files. Using this
 very simple ontology allows us to store data in the {{< glossary_link display="OCFL" id="ocfl" >}} layer in a very
 flexible way - depending on factors like data size, {{< glossary_link display="licensing" id="licensing" >}} and whether
 data is likely to change or need to be withdrawn, we can store entire
@@ -195,7 +195,7 @@ can be “re-collected” for use and re-use.
 
 For data to be re-usable by humans and machines (such as {{< glossary_link display="ATAP" id="atap" >}} notebook code
 that consumes datasets in a predictable way) it must be well described. The
-{{< glossary_link display="ATAP" id="atap" >}} and LDaCA approach to this is to use the Research Object Crate ({{< glossary_link display="RO-Crate" id="ro-crate" >}}
+{{< glossary_link display="ATAP" id="atap" >}} and {{< glossary_link display="LDaCA" id="ldaca" >}} approach to this is to use the Research Object Crate ({{< glossary_link display="RO-Crate" id="ro-crate" >}}
 ) specification. {{< glossary_link display="RO-Crate" id="ro-crate" >}} is essentially a guide to using a number of
 standards and standard approaches to describe both data and re-runnable
 software such as workflows or notebooks.
@@ -287,7 +287,7 @@ Japanese demon. 👹
 
 But how will data get into the {{< glossary_link display="OCFL" id="ocfl" >}} repository? At the moment we’re loading
 data using a series of scripts which are being developed at our github
-organization.
+organisation.
 
 This diagram and the next come from the
 [Arkisto Use cases page](https://arkisto-platform.github.io/use-cases/). It

@@ -18,9 +18,56 @@ $color_list: (
 );
 $color_count: 1;
 
+hr {
+  border-top: 1px solid #aaa !important;
+  margin: 3em 0 !important;
+}
+
 .main {
-  background: url("/BackgroundIMGs/Contact.png") repeat-y left top;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 1)
+    ),
+    url("/BackgroundIMGs/margin_background.png") repeat-y left top;
   background-size: 100% auto;
+}
+
+[theme="light"] .main {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 1)
+    ),
+    url("/BackgroundIMGs/margin_background.png") repeat-y left top;
+    background-size: 100% auto;
+}
+[theme="dark"] .main {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      rgba(41, 42, 45, 255)
+    ),
+    url("/BackgroundIMGs/margin_background.png") repeat-y left top;
+    background-size: 100% auto;
 }
 
 [theme="dark"] a {
@@ -93,6 +140,10 @@ div {
       flex-basis: 40%;
       flex-grow: 1;
     }
+    .team_div {
+      max-width: 80%;
+      padding: 0;
+    }
   }
 }
 
@@ -140,6 +191,28 @@ div {
   width: 80%;
 }
 
+#header-desktop .header-wrapper {
+  padding: 0 2rem 1rem 10vh;
+}
+
+.header-wrapper {
+  padding-bottom: 3rem;
+  background-color: rgba(133, 157, 94, 0.2);
+}
+[theme="light"] .header-wrapper {
+  background-color: rgba(133, 157, 94, 0.2);
+}
+[theme="dark"] .header-wrapper {
+  background-color: rgba(98, 136, 97, 0.2);
+  padding-bottom: 0;
+}
+
+@media only screen and (max-width: 2700px) {
+  #header-desktop .header-wrapper {
+    padding-bottom: 0;
+  }
+}
+
 @media only screen and (max-width: 1440px) {
   .page {
     width: 92%;
@@ -150,7 +223,6 @@ div {
   .page {
     width: 82%;
   }
-
   #header-desktop .header-wrapper {
     padding-right: 1rem;
   }
@@ -193,7 +265,7 @@ div {
   }
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 766px) {
   #header-desktop {
     display: none;
   }
@@ -234,6 +306,9 @@ div {
       }
     }
   }
+  .footer {
+    justify-content: center;
+  }
 }
 
 // class to centre images
@@ -270,6 +345,10 @@ a.menu-item.theme-switch {
   padding-right: 2%;
 }
 
+#header-desktop .header-wrapper .menu {
+  overflow: visible;
+}
+
 .banner-button {
   padding: 5px 10px;
   margin: auto 10px;
@@ -279,7 +358,6 @@ a.menu-item.theme-switch {
   font-weight: bold;
   background-color: white;
   border: 2px solid $deep_rock;
-
   line-height: normal;
   vertical-align: middle;
   justify-self: right;
@@ -300,11 +378,10 @@ a.menu-item.theme-switch {
   align-items: center;
   min-height: 30px;
   max-height: 50px;
-  background-color: rgba(126, 73, 47, 0.4);
+  background-color: rgba(98, 136, 97, 0.5);
   padding-left: 6.7%;
   padding-right: 4%;
   white-space: nowrap;
-  overflow: hidden;
   text-overflow: ellipsis;
 }
 
@@ -327,8 +404,9 @@ $c-slides: $water_green, $land_green, $clear_blue, $storm_blue, $sandstone;
 
 // Slide backgrounds (if used, must be same as number of slides, otherwise false)
 $b-slides: url("/SlideshowIMGs/batchelor-shelf.jpg")
-  url("/SlideshowIMGs/about.jpg") url("/SlideshowIMGs/data-migration.jpg")
-  url("/SlideshowIMGs/trove.png") url("/SlideshowIMGs/ldaca-meeting.png");
+  url("/SlideshowIMGs/About_Project.png")
+  url("/SlideshowIMGs/data-migration.jpg") url("/SlideshowIMGs/trove.png")
+  url("/SlideshowIMGs/ldaca-team.jpg");
 //$b-slides: $water_green, $land_green, $clear_blue, $storm_blue, $sandstone;
 
 // Total duration of slide animation
@@ -351,33 +429,77 @@ $c-background: #101010;
 $c-text: $c-light-grey;
 $c-label-text: $c-grey;
 
+// Takedown form
+.contact_form {
+  min-width: 300px;
+  border-radius: 20px;
+  padding: 1%;
+  border: 2px solid $storm_blue;
+}
+
+.contact_input {
+  border-radius: 15px;
+  border: 2px solid $storm_blue;
+  width: 85%;
+  max-width: 85%;
+  min-width: 280px;
+  min-height: 20px;
+  padding: 3%;
+  margin: 1%;
+}
+
+form button {
+  background-color: $clear_blue;
+  padding: 5px 10px;
+  margin: auto 10px;
+  border-radius: 5px;
+  max-height: 36px;
+  color: white;
+  font-weight: bold;
+  border: 2px solid $storm_blue;
+  line-height: normal;
+  vertical-align: middle;
+  justify-self: right;
+}
+
+
+
+// For centering headings on home page
+.center_heading {
+  justify-content: center;
+  text-align: center;
+  padding: 3% 0%;
+}
+
 /****************************************/
 
 .slideshow_div {
-  padding: 3% 0 50%;
+  padding: 3% 0 45%;
 }
 
 .slideshow {
   width: 100%;
-  height: 30%;
+  height: 23%;
   border: 0px;
   padding: 0px;
   margin: 0 auto;
   background-color: rgb(52, 54, 59);
   overflow: hidden;
-  counter-reset: slide;
+  // counter-reset: slide;
   position: absolute;
 }
 
 .single .content a:hover {
-  color: #2d96bd;
+  color: #227a9a;
 }
 
 input {
-  position: absolute;
-  opacity: 0;
-  top: -25px;
-  counter-increment: slide;
+  .radio_input {
+    position: absolute;
+    opacity: 0;
+    top: -25px;
+    counter-increment: slide;
+  }
 
   &:checked + .slide {
     transform: translateX(0px);
@@ -392,7 +514,7 @@ input {
         position: absolute;
         top: 10px;
         right: 10px;
-        content: counter(slide) " of #{$slide-count}";
+        // content: counter(slide) " of #{$slide-count}";
         padding: 5px 10px;
         background-color: rgba(255, 255, 255, 0.1);
         border-radius: 4px;
@@ -432,7 +554,7 @@ input {
     box-sizing: border-box;
     height: 100%;
     overflow: $slide-overflow;
-    padding: 50px;
+    padding: 30px;
     color: $c-text;
     position: absolute;
     left: 100%;
@@ -471,7 +593,6 @@ input {
 
 nav {
   position: absolute;
-  font-size: 0.8vw;
   bottom: 0;
   right: 0;
   width: 50%;
@@ -569,7 +690,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
   visibility: hidden;
   opacity: 0;
   display: none;
-  position: fixed;
+  position: absolute;
   z-index: 100;
   transition: all 0.5s ease;
   overflow: visible;
@@ -703,18 +824,28 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .footer {
-  background-color: rgba(126, 73, 47, 0.4);
+  background-color: rgba(133, 157, 94, 0.2);
   position: relative;
+  margin: 1% 0 0 0;
   width: 100%;
   bottom: 0;
   left: 0;
+  margin-top: 1vw;
   font-size: smaller;
   [theme="dark"] a {
     color: #a9a9b3;
   }
-  [theme="light"] {
+  [theme="light"] a {
     color: black;
   }
+}
+
+[theme="light"] .footer {
+  background-color: rgba(133, 157, 94, 0.2);
+}
+[theme="dark"] .footer {
+  background-image: none;
+  background-color: rgba(98, 136, 97, 0.2);
 }
 
 [theme="dark"] .footer .content a:hover {
@@ -800,9 +931,13 @@ footer hr {
 }
 
 // 404 Page
-#content-404 {
-  position: absolute;
-  bottom: 60%;
+.content-404 {
+  margin: auto;
+  position: relative;
+  text-align: center;
+  padding-top: 3%;
+  font-size: 1.8rem;
+  line-height: 3rem;
 }
 
 // Designer image grid
@@ -833,4 +968,34 @@ footer hr {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+// Class for PT Posts
+.or_section {
+  border: 1px solid black;
+  margin-bottom: 100px;
+  padding: 50px;
+  background-color: rgba($color: white, $alpha: 0.8);
+}
+
+.panel {
+  position: relative;
+  text-align: center;
+}
+
+.panel:hover {
+  .overlay {
+    opacity: 60%;
+  }
+}
+
+.overlay {
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  padding: 14% 0;
+  position: absolute;
+  top: 30%;
+  opacity: 100%;
+  color: black;
+  transition: opacity 1s;
 }

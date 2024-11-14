@@ -8,18 +8,18 @@ description: "Information about the principles on which the work of LDaCA is bas
 
 <br>
 
-The Language Data Commons of Australia aims to ensure long-term access to language {{< glossary_link display="data collections" id="data-collection" >}} for analysis and reuse. Sustainable management of and access to these significant collections of intangible cultural heritage are underpinned by two sets of complementary guiding principles of data management and stewardship, namely the {{< glossary_link display="FAIR" id="fair" >}} and {{< glossary_link display="CARE" id="care" >}} principles.
+The Language Data Commons of Australia aims to ensure long-term access to language {{< glossary_link display="data collections" id="data-collection" >}} for analysis and reuse. Sustainable management of and access to these significant {{< glossary_link display="collections" id="collection" >}} of intangible cultural heritage are underpinned by two sets of complementary guiding principles of data management and stewardship, namely the {{< glossary_link display="FAIR" id="fair" >}} and {{< glossary_link display="CARE" id="care" >}} principles.
 
 <br>
 
 ## FAIR Principles
 
-The {{< glossary_link display="FAIR" id="fair" >}} principles were [first published](https://www.nature.com/articles/sdata201618) by a group of stakeholders representing academia, industry, funding agencies, and scholarly publishers. The principles aim to address issues surrounding data management and stewardship, focusing on four areas (which provide the {{< glossary_link display="FAIR" id="fair" >}} acronym).
+The {{< glossary_link display="FAIR" id="fair" >}} principles were [first published](https://www.nature.com/articles/sdata201618) by a group of stakeholders representing academia, industry, funding agencies and scholarly publishers. The principles aim to address issues surrounding data management and stewardship, focusing on four areas (which provide the {{< glossary_link display="FAIR" id="fair" >}} acronym).
 <br />
 
 ### Findable
 
-Metadata and data should be easy to find for both humans and computers. Making the data findable includes:
+{{< glossary_link display="Metadata" id="metadata" >}} and data should be easy to find for both humans and computers. Making the data findable includes:
 
 - (Meta)data are assigned a globally unique and persistent identifier
 - Data are described with rich metadata
@@ -30,17 +30,17 @@ Metadata and data should be easy to find for both humans and computers. Making t
 
 ### Accessible
 
-Once the user finds the required data, she/he/they need to know how they can be accessed, possibly including authentication and authorisation.
+Once the user finds the required data, they need to know how they can be accessed, possibly including authentication and authorisation.
 
 - (Meta)data are retrievable by their identifier using a standardised communications protocol
-  - The protocol is open, free, and universally implementable
+  - The protocol is open, free and universally implementable
   - The protocol allows for an authentication and authorisation procedure, where necessary
 - Metadata are accessible, even when the data are no longer available
   <br />
 
 ### Interoperable
 
-The data usually need to be integrated with other data. In addition, the data need to interoperate with applications or workflows for analysis, storage, and processing.
+The data usually need to be integrated with other data. In addition, the data need to interoperate with applications or workflows for analysis, storage and processing.
 
 - (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation
 - (Meta)data use vocabularies that follow {{< glossary_link display="FAIR" id="fair" >}} principles
@@ -58,7 +58,7 @@ The ultimate goal of {{< glossary_link display="FAIR" id="fair" >}} is to optimi
 
 <br>
 
-The Australian Research Data Commons ({{< glossary_link display="ARDC" id="ardc" >}}) and LDaCA support {{< glossary_link display="FAIR" id="fair" >}} data practices and initiatives that make data and related research outputs {{< glossary_link display="FAIR" id="fair" >}}. At the same time, the {{< glossary_link display="ARDC" id="ardc" >}} and LDaCA acknowledge that the implementation of the principles will look different across disciplines and will need discipline-specific approaches and standards.
+The Australian Research Data Commons ({{< glossary_link display="ARDC" id="ardc" >}}) and {{< glossary_link display="LDaCA" id="ldaca" >}} support {{< glossary_link display="FAIR" id="fair" >}} data practices and initiatives that make data and related research outputs {{< glossary_link display="FAIR" id="fair" >}}. At the same time, the {{< glossary_link display="ARDC" id="ardc" >}} and {{< glossary_link display="LDaCA" id="ldaca" >}} acknowledge that the implementation of the principles will look different across disciplines and will need discipline-specific approaches and standards.
 
 <br>
 
