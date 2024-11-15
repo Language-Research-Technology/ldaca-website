@@ -4,6 +4,7 @@ date: 2024-11-14T16:34:20+11:00
 draft: false
 description: "Interview with Jane Simpson."
 ---
+
 <br>
 
 Since her retirement in 2022, Jane Simpson has been [Professor Emerita](https://researchportalplus.anu.edu.au/en/persons/jane-simpson) at the Australian National University ([ANU](https://www.anu.edu.au/)), the university from which she received both her bachelor’s and master’s degrees. She has carried out fieldwork on Indigenous Australian languages since 1979 and received a [PhD in linguistics](https://linguistics.mit.edu/alumni/#1983) from the Massachusetts Institute of Technology (MIT) in 1983 for [a study](https://link.springer.com/book/10.1007/978-94-011-3204-6) of [Warlpiri](https://collection.aiatsis.gov.au/austlang/language/c15) in the [Lexical-Functional Grammar](https://ling.sprachwiss.uni-konstanz.de/pages/home/lfg/) framework. She then worked in Central Australia on [Warumungu](https://collection.aiatsis.gov.au/austlang/language/c18) language and language maintenance, and helped set up a [language centre](https://www.papak.com.au/) in Tennant Creek. In 1987–1989, with David Nash, she worked as lexicography fellow at the Australian Institute of Aboriginal Studies ([AIATSIS](https://aiatsis.gov.au/)), helping set up a digital archive of Aboriginal language material, which became the Aboriginal Studies Electronic Data Archive ([ASEDA](https://doi.org/10.1515/ijsl.1995.113.147)). In 1989, she became a lecturer in Linguistics at [The University of Sydney](https://www.sydney.edu.au/), and then in 2011, she moved to ANU as the inaugural chair of Indigenous linguistics and head of the School of Language Studies (2011–2014). In 2014, the ARC Centre of Excellence for the Dynamics of Language ([CoEDL](https://legacy.dynamicsoflanguage.edu.au/)) was established, and she acted as Deputy Director until the Centre came to a natural end in 2022. Jane is a Project Advisor and a member of the Steering Committee of the Language Data Commons of Australia.
@@ -14,7 +15,7 @@ Since her retirement in 2022, Jane Simpson has been [Professor Emerita](https://
 
 <br>
 
-Our discussion with Jane was the first in a series of interviews we are conducting on the topic of long-term storage of language data. We asked Jane about current possibilities for storing language data, obstacles to its long-term storage, her interest in making dictionaries accessible and how researchers at the end of their careers should manage data.  What follows is an edited version of Jane’s comments organised around the main themes of the discussion.
+Our discussion with Jane was the first in a series of interviews we are conducting on the topic of long-term storage of language data. We asked Jane about current possibilities for storing language data, obstacles to its long-term storage, her interest in making dictionaries accessible and how researchers at the end of their careers should manage data. What follows is an edited version of Jane’s comments organised around the main themes of the discussion<sup><a name="back-1" >[1](#fn-1)</a></sup>.
 
 <br>
 
@@ -29,7 +30,6 @@ First, I've always thought that Australia is very lucky in having AIATSIS. Other
 So, it is the obvious place to put material on Indigenous languages.
 
 I can also put material in [PARADISEC](https://www.paradisec.org.au/), which I've done for some non-Indigenous stuff, like recordings made in field methods classes that I've run. PARADISEC has a very inclusive approach and that makes it easy for people to put things there. So it's been terrific as a way of getting material online, and a fair bit of Australian language material is actually up and available through PARADISEC. But it's not funded for the long term in the way that AIATSIS is.
-
 
 Another potential option would have been the [National Library of Australia](https://www.nla.gov.au/). It's the national deposit institution, and therefore, I would have thought, if anything is published electronically in Australia on Australian topics, it should be held at the National Library. But they recognise they face large challenges in archiving complex digital materials. Lack of funding is part of the problem.
 
@@ -53,13 +53,13 @@ I honestly can't see why long-term digital storage is such a problem. If the Nat
 
 <br>
 
-{{< image Src="/jane-simpson/fig_2_nyingarn.png" Alt="Nyingarn" Desc="Figure 2: A manuscript document and its text version being edited in Nyingarn." Title="Nyingarn" Ref="Paul Williams" Height="400" >}}
+{{< image Src="/jane-simpson/fig_2_nyingarn.png" Alt="Nyingarn" Desc="Figure 2: A manuscript document and its text version being edited in Nyingarn." Title="Nyingarn" Ref="Paul Williams" Height="800" >}}
 
 <br>
 
 LDaCA can certainly emphasise to data stewards that the material is valuable, and that they shouldn't be put off from trying to preserve it by the fact that they haven't got the required permissions for making it public. Data stewards should not throw up their hands and say, 'Oh, well, I'll just keep it on my laptop.' It is simply unrealistic with legacy material to expect retired researchers and literary executors to be able to afford to go back to communities to get the onerous permissions now being required by institutions. There is a real role for a grey archive where material can be kept safely, along with the metadata information needed in the future for contacting speakers. For instance, with our ACLA data, we need to know who's in the recordings and any possible ways of contacting them, so that there is, in the future, the possibility of easily getting the permissions.
 
-However, that said, there are a number of recordings, like those made by Stephen Wurm, where we don't necessarily even have the names of the people who've been recorded. But, again, that's not a reason for not doing anything about digitising those tapes and hoping in the future to be able to find the speakers and only then digitise and archive the recordings. Imagine how one would feel if the last recording of your language, your ancestors' language, had been trashed merely because people didn't know who the speaker was.
+However, that said, there are a number of recordings, like those made by [Stephen Wurm](https://en.wikipedia.org/wiki/Stephen_Wurm), where we don't necessarily even have the names of the people who've been recorded. But, again, that's not a reason for not doing anything about digitising those tapes and hoping in the future to be able to find the speakers and only then digitise and archive the recordings. Imagine how one would feel if the last recording of your language, your ancestors' language, had been trashed merely because people didn't know who the speaker was.
 
 <br>
 
@@ -91,7 +91,7 @@ Similarly, the Kaurna dictionary has been a fantastic asset for the Kaurna commu
 
 <br>
 
-{{< image Src="/jane-simpson/fig_3_Kaurna_dictionary.jpg" Alt="Teichelmann and Schürmann’s original Kaurna dictionary" Desc="Figure 3: Pages 32 and 33 from ‘Outlines of a grammar, vocabulary, and phraseology of the Aboriginal language of South Australia, spoken by the natives in and for some distance around Adelaide’ by C.G. Teichelmann and C.W. Schürmann (1840)." Title="Teichelmann and Schürmann’s original Kaurna dictionary" Ref="Michael Treloar Antiquarian Booksellers, Adelaide" Height="600" >}}
+{{< image Src="/jane-simpson/fig_3_Kaurna_dictionary.jpg" Alt="Teichelmann and Schürmann’s original Kaurna dictionary" Desc="Figure 3: Pages 32 and 33 from ‘Outlines of a grammar, vocabulary, and phraseology of the Aboriginal language of South Australia, spoken by the natives in and for some distance around Adelaide’ by C.G. Teichelmann and C.W. Schürmann (1840)." Title="Teichelmann and Schürmann’s original Kaurna dictionary" Ref="Michael Treloar Antiquarian Booksellers, Adelaide" Height="800" >}}
 
 <br>
 
@@ -137,5 +137,9 @@ The [Wenner-Gren Foundation](https://wennergren.org/) actually has grants for an
 <br>
 
 We are very grateful to Jane for making the time to talk with us about these important issues and we appreciate the insights she was able to provide, based on her experiences over her long and illustrious career.
+
+<br>
+
+<a name="fn-1">1</a> Teresa Chan, Bridey Lea, Rosanna Smith and Simon Musgrave collaborated in editing this material. [↩](#back-1)
 
 <br>
