@@ -1,5 +1,5 @@
 ---
-title: "Graduate Digital Research Fellowship"
+title: "Graduate Digital Research Fellowship — 2023"
 date: 2024-01-10T09:00:00+10:00
 draft: false
 aliases:
