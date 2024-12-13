@@ -65,15 +65,15 @@ The RO-Crate community run a weekly drop-in call in Australia. For further infor
 
 ## Previous Events {#previous-events}
 
-### Previous Workshops
-
 {{<raw>}}
 
+<details>
+<summary><b><font color="#79A38D">2024</font></b></summary>
 <details>
 <summary>
 <b>Solving 10 research challenges with the ARDC HASS and Indigenous Research Data Commons</b>
 </summary>
-<p>Get hands-on with two tools from the ARDC <a href="https://ardc.edu.au/hass-and-indigenous-research-data-commons/" target="_blank">HASS and Indigenous Research Data Commons</a>, the <a href="https://www.ldaca.edu.au/resources/user-guides/crate-o/" target="_blank">Crate-O</a> metadata editor and the <a href="https://tdg.glam-workbench.net/home.html" target="_blank">Trove Data guide</a> and learn how other parts of the Research Data Commons help researchers solve another eight research challenges, in a series of five-minute lightning tours.</p>
+<p>Participants got hands-on with two tools from the ARDC <a href="https://ardc.edu.au/hass-and-indigenous-research-data-commons/" target="_blank">HASS and Indigenous Research Data Commons</a>, the <a href="https://www.ldaca.edu.au/resources/user-guides/crate-o/" target="_blank">Crate-O</a> metadata editor and the <a href="https://tdg.glam-workbench.net/home.html" target="_blank">Trove Data guide</a> and learnt how other parts of the Research Data Commons help researchers solve another eight research challenges, in a series of five-minute lightning tours.</p>
 
 <p><b>When</b>: 28 November 2024</p>
 
@@ -89,11 +89,11 @@ The RO-Crate community run a weekly drop-in call in Australia. For further infor
 </summary>
 <p>Concordances are a very useful tool for anyone who works with textual data. Concordancing tools (also referred to as Keyword in Context or KWIC tools) provide us with a listing of all occurrences of a word in a text along with some surrounding context. A concordance is therefore an excellent starting point to explore how a word is used in a text. Most KWIC tools also have the capability to sort results according to the context of the instances, by preceding words or following words, or a combination of the two, and these capabilities allow us to extract more specific information from concordances.</p>
 
-<p>In this workshop, you will:</p>
+<p>In this workshop, participants:</p>
 <ul>
-<li>be introduced to tools for building concordances</li>
-<li>be shown examples of how simple and complex concordances can be used to answer questions</li>
-<li>have the chance to explore text using concordances, either from data you bring or from data that is provided.</li>
+<li>were introduced to tools for building concordances</li>
+<li>were shown examples of how simple and complex concordances can be used to answer questions</li>
+<li>had the chance to explore text using concordances, either from data they brought or from data that was provided.</li>
 </ul>
 
 <p><b>When</b>: 27 November 2024</p>
@@ -216,8 +216,9 @@ This workshop provided an introduction to text analytics with R using the tools 
     <p>The case study and hands-on session will focus on geospatial aspects of data. Prior coding knowledge is not required for the hands-on session.</p>
     <p><b><a href="https://ardc.edu.au/event/hass-and-indigenous-rdc-summer-school-2024/" target="_blank">More information</a></b></p>
 </details>
+</details>
 <details>
-<summary><b>2023</b></summary>
+<summary><b><font color="#79A38D">2023</font></b></summary>
 <details>
     <summary>
         <b>Workshop on community language corpora in Australia</b>
@@ -300,7 +301,7 @@ This workshop provided an introduction to text analytics with R using the tools 
 </details>
 </details>
 <details>
-<summary><b>2022</b></summary>
+<summary><b><font color="#79A38D">2022</font></b></summary>
 <details>
     <summary>
         <b>Pre-conference workshop (before the 2022 Conference of the Australian Linguistic Society)</b>
