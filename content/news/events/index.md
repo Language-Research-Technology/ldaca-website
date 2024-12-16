@@ -17,75 +17,39 @@ aliases:
 
 <br>
 
-### Text analytics with R and LADAL
+### Indigenous Data Governance Masterclass
 
-This workshop will provide an introduction to text analytics with R using the tools and tutorials provided by the Language Technology and Data Analysis Laboratory ([LADAL](https://ladal.edu.au/)).
+The free ARDC Indigenous Data Governance Masterclass will equip custodians of Indigenous data and researchers in any discipline with the knowledge and tools to ethically manage Indigenous data, respecting the cultural protocols and sovereignty of Indigenous communities. It will build the capacity of participants to engage with Indigenous data, fostering a culturally sensitive and informed approach to data-driven projects.
 
-**Organisers**: [ResBaz Queensland](https://resbaz.github.io/resbaz2024qld/)
+The Masterclass is **not** included in the registration for the HASS and Indigenous RDC Summer School (see next item). **You must register separately to attend the Masterclass and/or the Summer School**.
 
-**Who**: {{< profile id="hames" >}} and {{< profile id="schweinberger" >}}
+**Organisers**: [ARDC HASS and Indigenous Research Data Commons](https://ardc.edu.au/hass-and-indigenous-research-data-commons/)
 
-**When**: 7 November 2024, 9 am – 12:30 pm (AEST)
+**Who**: {{< profile id="mclellan" >}} and [Levi Murray](https://mspgh.unimelb.edu.au/centres-institutes/onemda/research-group/indigenous-studies-unit/about-us/our-team/levi-craig-murray)
 
-**Where**: Australian Catholic University, Brisbane
+**When**: 3 February 2025, 10 am – 5 pm (AEST)
 
-**[Registration](https://resbaz.github.io/resbaz2024qld/registration/)**
+**Where**: State Library of Queensland, Cultural Precinct, Stanley Place, South Brisbane, QLD 4101
 
-<br>
-
-### Exploring text using concordances
-
-Concordances are a very useful tool for anyone who works with textual data. Concordancing tools (also referred to as Keyword in Context or KWIC tools) provide us with a listing of all occurrences of a word in a text along with some surrounding context. A concordance is therefore an excellent starting point to explore how a word is used in a text. Most KWIC tools also have the capability to sort results according to the context of the instances, by preceding words or following words, or a combination of the two, and these capabilities allow us to extract more specific information from concordances.
-
-In this workshop, you will:
-
-- be introduced to tools for building concordances
-- be shown examples of how simple and complex concordances can be used to answer questions
-- have the chance to explore text using concordances, either from data you bring or from data that is provided.
-
-**Organisers**: [ResBaz Victoria](https://resbaz.github.io/resbazvic2024/)
-
-**Who**: {{< profile id="musgrave" >}}
-
-**When**: 27 November 2024, 3–5 pm AEDT
-
-**Where**: Monash University, Clayton
-
-**[Registration](https://shop.monash.edu/research-bazaar-2024-general-admission.html)**
+**[Registration](https://www.eventbrite.com.au/e/ardc-indigenous-data-governance-masterclass-at-summer-school-2025-tickets-1027820327267)**
 
 <br>
 
-### Solving 10 research challenges with the ARDC HASS and Indigenous Research Data Commons
+### HASS and Indigenous Research Data Commons Summer School 2025
 
-Get hands-on with two tools from the ARDC [HASS and Indigenous Research Data Commons](https://ardc.edu.au/hass-and-indigenous-research-data-commons/), the [Crate-O](https://www.ldaca.edu.au/resources/user-guides/crate-o/) metadata editor and the [Trove Data guide](https://tdg.glam-workbench.net/home.html). After two 40-minute deep dives, learn how other parts of the Research Data Commons help researchers solve another eight research challenges, in a series of five-minute lightning tours. By the end of the session, you will know how to use a tool to package your research data and its metadata together in an [RO-Crate](https://www.researchobject.org/ro-crate/), and be better equipped to locate and manipulate data from the National Library's [Trove](https://trove.nla.gov.au/) research portal. You will also have new leads for research with Indigenous data, social media data, data about creative arts and social sciences data.
+The HASS and Indigenous research data community is invited to gain hands-on experience, learn digital skills and network to inspire new research outcomes.
 
-**Organisers**: [ResBaz Victoria](https://resbaz.github.io/resbazvic2024/)
+The Summer School aims to empower participants with practical knowledge, build digital skills, and help inspire new research outcomes within the humanities, arts, social sciences (HASS) and Indigenous fields of study. Participants will collaborate in an interactive group setting while networking with like-minded researchers and subject matter experts.
 
-**Who**: {{< profile id="musgrave" >}} and Kit Greenhill
+**Organisers**: [ARDC HASS and Indigenous Research Data Commons](https://ardc.edu.au/hass-and-indigenous-research-data-commons/)
 
-**When**: 28 November 2024, 9:30–11:30 am AEDT
+**When**: 4 – 6 February 2025
 
-**Where**: Monash University, Clayton
+**Where**: University of Queensland, St Lucia
 
-**[Registration](https://shop.monash.edu/research-bazaar-2024-general-admission.html)**
+**[Registration](https://www.eventbrite.com.au/e/hass-and-indigenous-research-data-commons-summer-school-2025-tickets-1027654802177)** (Waitlist only available)
 
 <br>
-
-### Masterclass: Improving Transparency and Reproducible Results in Linguistics
-
-This masterclass, while recognising the importance of data transparency and reproducibility, will focus on the processes of data utilisation, including processing, analysis and publication. Our aim is to assist linguists in enhancing research transparency by leveraging tools and infrastructures, alongside exploring strategies for establishing efficient workflows. The masterclass aims to advance Best Practices discussions, raising awareness about existing resources, and addressing practices hindering transparency, replicability and research quality relevant for both quantitative, as well as qualitative, researchers. Specifically, discussions will cover using R Notebooks for analysis documentation, creating interactive notebooks for data inspection, and employing GitHub and [Open Science Framework](https://osf.io/as982/) for resource sharing. We will also address options for research enhancement, workflow improvement, resource sharing, new publication pathways and ensuring effective workflows. The format will include detailed recommendations, practical presentations, and an open panel discussion on practices and tools.
-
-**Organisers**: This masterclass is a part of the annual [conference](https://als.asn.au/Conference/2024/General) of the Australian Linguistic Society ([ALS](https://als.asn.au/Home)).
-
-**Who**: {{< profile id="hames" >}} and {{< profile id="schweinberger" >}}
-
-**When**: 26 November 2024, 9:30 am – 12:30 pm AEDT
-
-**Where**: Australian National University, Canberra
-
-**[Registration](https://als.asn.au/Conference/2024/Registration2024)**
-
- <br>
 
 ## Recurring Events {#recurring-events}
 
@@ -101,9 +65,58 @@ The RO-Crate community run a weekly drop-in call in Australia. For further infor
 
 ## Previous Events {#previous-events}
 
-### Previous Workshops
-
 {{<raw>}}
+
+<details>
+<summary><b><font color="#79A38D">2024</font></b></summary>
+<details>
+<summary>
+<b>Solving 10 research challenges with the ARDC HASS and Indigenous Research Data Commons</b>
+</summary>
+<p>Participants got hands-on with two tools from the ARDC <a href="https://ardc.edu.au/hass-and-indigenous-research-data-commons/" target="_blank">HASS and Indigenous Research Data Commons</a>, the <a href="https://www.ldaca.edu.au/resources/user-guides/crate-o/" target="_blank">Crate-O</a> metadata editor and the <a href="https://tdg.glam-workbench.net/home.html" target="_blank">Trove Data guide</a> and learnt how other parts of the Research Data Commons help researchers solve another eight research challenges, in a series of five-minute lightning tours.</p>
+
+<p><b>When</b>: 28 November 2024</p>
+
+<p><b>Organisers</b>: <a href="https://resbaz.github.io/resbazvic2024/" target="_blank">ResBaz Victoria</a></p>
+
+<p><b>Leaders</b>: Kit Greenhill and Simon Musgrave
+
+</details>
+
+<details>
+<summary>
+<b>Exploring text using concordances</b>
+</summary>
+<p>Concordances are a very useful tool for anyone who works with textual data. Concordancing tools (also referred to as Keyword in Context or KWIC tools) provide us with a listing of all occurrences of a word in a text along with some surrounding context. A concordance is therefore an excellent starting point to explore how a word is used in a text. Most KWIC tools also have the capability to sort results according to the context of the instances, by preceding words or following words, or a combination of the two, and these capabilities allow us to extract more specific information from concordances.</p>
+
+<p>In this workshop, participants:</p>
+<ul>
+<li>were introduced to tools for building concordances</li>
+<li>were shown examples of how simple and complex concordances can be used to answer questions</li>
+<li>had the chance to explore text using concordances, either from data they brought or from data that was provided.</li>
+</ul>
+
+<p><b>When</b>: 27 November 2024</p>
+
+<p><b>Organisers</b>: <a href="https://resbaz.github.io/resbazvic2024/" target="_blank">ResBaz Victoria</a></p>
+
+<p><b>Leader</b>: Simon Musgrave</p>
+
+</details>
+
+<details>
+<summary>
+<b>Text analytics with R and LADAL</b>
+</summary>
+This workshop provided an introduction to text analytics with R using the tools and tutorials provided by the Language Technology and Data Analysis Laboratory (<a href="https://ladal.edu.au/" target="_blank">LADAL</a>).
+
+<p><b>Organisers</b>: <a href="https://resbaz.github.io/resbaz2024qld/" target="_blank">ResBaz Queensland</a></p>
+
+<p><b>Leader</b>: Sam Hames</p>
+
+<p><b>When</b>: 7 November 2024</p>
+
+</details>
 
 <details>
 <summary>
@@ -203,6 +216,9 @@ The RO-Crate community run a weekly drop-in call in Australia. For further infor
     <p>The case study and hands-on session will focus on geospatial aspects of data. Prior coding knowledge is not required for the hands-on session.</p>
     <p><b><a href="https://ardc.edu.au/event/hass-and-indigenous-rdc-summer-school-2024/" target="_blank">More information</a></b></p>
 </details>
+</details>
+<details>
+<summary><b><font color="#79A38D">2023</font></b></summary>
 <details>
     <summary>
         <b>Workshop on community language corpora in Australia</b>
@@ -263,6 +279,7 @@ The RO-Crate community run a weekly drop-in call in Australia. For further infor
     <p><b>Length</b>: 90 minutes</p>
     <p><b>Facilitators</b>: Sony Jufri</p>
 </details>
+
 <details>
     <summary>
         <b>Australian Text Analytics Platform tools: Discursis, Juxtorpus, Quotation tool and Semantic tagger</b>
@@ -282,6 +299,9 @@ The RO-Crate community run a weekly drop-in call in Australia. For further infor
     <p>The projects from the {{< glossary_link display="HASS" id="hass">}} {{< glossary_link display="RDC" id="rdc">}} and IRC Program presented workshops on using the tools and platforms.</p>
     <p><a href="https://ardc.edu.au/wp-content/uploads/2023/02/hass-computational-skills-summer-school-agenda_-7-8-feb.pdf" target="_blank">Program</a></p>
 </details>
+</details>
+<details>
+<summary><b><font color="#79A38D">2022</font></b></summary>
 <details>
     <summary>
         <b>Pre-conference workshop (before the 2022 Conference of the Australian Linguistic Society)</b>
@@ -386,6 +406,7 @@ The RO-Crate community run a weekly drop-in call in Australia. For further infor
     <p><b>Event</b>: Digital Humanities Australasia 2021 Conference</p>
     <p><b>Length</b>: 3 hours</p>
     <p><b>Facilitators</b>: Sara King, Simon Musgrave</p>
+</details>
 </details>
     
 {{</raw>}}
