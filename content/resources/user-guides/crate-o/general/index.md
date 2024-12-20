@@ -130,7 +130,7 @@ Schema.org, which provides the basic vocabulary for {{< glossary_link display="R
 
 <br>
 
-Schema.org specifies which Properties can occur in the `domain` of which Classes, and the `range` of Classes that are expected as values for a Property.
+Schema.org specifies which Classes can have particular Properties.
 
 While Schema.org has terms for [Class](https://schema.org/Class) and [Property](https://schema.org/Property), it does not use these for defining the classes and properties in Schema.org itself (possibly as this would be circular). Rather, it uses the equivalent Classes from the `rdf:` and `rdfs:` vocabularies.
 

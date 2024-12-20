@@ -12,8 +12,11 @@ description: "A guide to citing collections and data accessed through the portal
 <br>
 
 ##### [Citing a Collection](#citing-a-collection)
+
 ##### [Citing Parts of a Collection](#citing-parts-of-a-collection)
+
 ##### [Citing Published Work](#citing-published-work)
+
 ##### [Citing LDaCA as Access Source](#citing-ldaca-as-access-source)
 
 <br>
@@ -42,7 +45,13 @@ The citation information is not in any specific format or style (e.g. APA, MLA);
 
 However, the citation information given may be what the {{< glossary_link display="data steward" id="data-steward" >}} had approved or had specified in the {{< glossary_link display="data license" id="data-license" >}}.
 
-For the definitions of the above and additional citation elements, and further advice on citing linguistic data, refer to [The Tromsø Recommendations for Citation of Research Data in Linguistics](/citation/tromso-recommendations.pdf).
+For the definitions of the above and additional citation elements, and further advice on citing linguistic data, refer to [Tromsø Recommendations for Citation of Research Data in Linguistics](https://doi.org/10.15497/rda00040).
+
+<br>
+
+### Retrieving Citations with Zotero
+
+Collection citations can also be retrieved with the [Zotero extension](https://www.zotero.org/download/) by clicking the dataset icon in the browser toolbar. For further support and integrations, see the [Zotero documentation](https://www.zotero.org/support/).
 
 <br>
 
@@ -76,6 +85,8 @@ As an example, the COrpus of Oz Early English (COOEE) shows a Citation field wit
 
 If you discovered or accessed the {{< glossary_link display="data collection" id="data-collection" >}} that you used in your work through the LDaCA portal, please cite or acknowledge LDaCA as follows:
 
-> Data accessed via the Language Data Commons of Australia data portal https://data.ldaca.edu.au on [yyyy-mm-dd]. (The Language Data Commons of Australia is a nationally funded partnership project by the Australian Research Data Commons, The University of Queensland, Australian National University, The University of Melbourne, The University of Sydney, Monash University, First Languages Australia and AARNet).
+> Data accessed via the Language Data Commons of Australia data portal https://data.ldaca.edu.au on [yyyy-mm-dd].
+
+<!-- (The Language Data Commons of Australia is a nationally funded partnership project by the Australian Research Data Commons, The University of Queensland, Australian National University, The University of Melbourne, The University of Sydney, Monash University, First Languages Australia and AARNet). -->
 
 <br>
