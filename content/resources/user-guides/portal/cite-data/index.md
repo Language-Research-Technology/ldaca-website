@@ -47,6 +47,8 @@ However, the citation information given may be what the {{< glossary_link displa
 
 For the definitions of the above and additional citation elements, and further advice on citing linguistic data, refer to [Tromsø Recommendations for Citation of Research Data in Linguistics](https://doi.org/10.15497/rda00040).
 
+<br>
+
 ### Retrieving Citations with Zotero
 
 Collection citations can also be retrieved with the [Zotero extension](https://www.zotero.org/download/) by clicking the dataset icon in the browser toolbar. For further support and integrations, see the [Zotero documentation](https://www.zotero.org/support/).
