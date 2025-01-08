@@ -126,7 +126,7 @@
 <div style="text-align: center; padding: 3% 0%;"><h2>
 LDaCA acknowledges Traditional Owners of Country throughout Australia and recognises the continuing connection to lands, waters and communities. We pay our respects to their Ancestors and their descendants, who continue cultural and spiritual connections to Country.</h2></div>
 
-<img src="/AcknowledgeARDC.png" height="100" class="center_image" alt="ARDC Acknowledgement"/>
+<img src="/ARDC_lockup2024.svg" height="100" class="center_image" alt="ARDC Acknowledgement"/>
 
 {{</raw>}}
 
