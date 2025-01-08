@@ -19,12 +19,15 @@ This is the source repository for an LDaCA based website
 
 - Clone the repository
 - Change directory into the repository
-- And add the submodule (Will update [.gitmodules](.gitmodules) file)
-  - Install `git submodule add https://github.com/dillonzq/LoveIt.git themes/LoveIt`
-  - or update `git submodule update --init --recursive`
+- Add the submodules (Will update [.gitmodules](.gitmodules) file)
+  - Theme
+    - Install `git submodule add https://github.com/dillonzq/LoveIt.git themes/LoveIt`
+  - Embedded pdfs
+    - Install `git submodule add  https://github.com/anvithks/hugo-embed-pdf-shortcode.git themes/hugo-embed-pdf-shortcode`
+  - Update submodules `git submodule update --init --recursive` if required
 - Run `hugo serve`
   - This will rebuild your website upon file changes and be available on [http://localhost:1313/](http://localhost:1313/) if the port 1313 is free
-  - Optionaly run `hugo serve --disableFastRender` which enables full re-renders on changes. This is turned off by default and the website might look different. See [more](https://gohugo.io/commands/hugo_server/).
+  - Optionally run `hugo serve --disableFastRender` which enables full re-renders on changes. This is turned off by default and the website might look different. See [more](https://gohugo.io/commands/hugo_server/).
 - To see what your website **really** looks like generate a `public` folder
   - Delete the `public` folder if you have one then
   - Run `hugo`
@@ -239,6 +242,16 @@ Example:
 Layouts are used to replace current theme behaviour. There is only one file changed in the theme and that is the 404 page which includes an image that can be provided via configuration
 
 It is best to use layouts as little as possible because when the Themes are updated it would become very hard to mantain and update Hugo and the themes.
+
+# How to embed PDFs
+
+1. Add a file in the folder you are working on
+2. Add the following shortcode
+```md
+{{< embed-pdf url="./your_file_here.pdf" >}}
+```
+
+For more details on how to use this go to: https://github.com/anvithks/hugo-embed-pdf-shortcode
 
 # Recomendations
 
