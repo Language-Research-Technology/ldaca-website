@@ -1,8 +1,9 @@
 baseURL = 'http://www.ldaca.edu.au/'
 languageCode = 'en-us'
 title = 'LDaCA'
-theme = "LoveIt"
+theme = ["hugo-embed-pdf-shortcode", "LoveIt"]
 enableRobotsTXT = true
+enableInlineShortcodes = true
 
 [markup.goldmark.renderer]
   unsafe = true
