@@ -74,6 +74,6 @@ Giulio's research examines gaming communities in Australia and in Italy, focused
 <div style="text-align: center;"><h4>From left: Giulio, Kelly, Eve, Sam, Christina and Simon</h4></div>
 <br />
 {{</raw>}}
-A GDRF program will be offered again in 2024, this time under the banner of the Language Data Commons of Australia. If you think the program could benefit you, there is an [online form](https://forms.gle/prTfh5hpMWhT8wkW9) for expressions of interest (due by **February 19 2024**). For further information, you can contact [Sam Hames](mailto:sam.hames@uq.edu.au) or [Simon Musgrave](mailto:s.musgrave@uq.edu.au).
+A GDRF program will be offered again in 2025, this time under the banner of the Language Data Commons of Australia. If you think the program could benefit you, there is an [online form](https://forms.gle/prTfh5hpMWhT8wkW9) for expressions of interest (due by **February 19 2025**). For further information, you can contact [Sam Hames](mailto:sam.hames@uq.edu.au) or [Simon Musgrave](mailto:s.musgrave@uq.edu.au).
 
 <br>
