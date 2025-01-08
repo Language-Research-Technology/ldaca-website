@@ -63,6 +63,6 @@ All content: [Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https:
 
 ### LDaCA BinderHub Terms of Use
 
-All LDaCA BinderHub resources: [LDaCA BinderHub Terms of Use](https://www.ldaca.edu.au/resources/ldaca-resources/licenses/ldaca-binderhub/all/v1/)
+All LDaCA BinderHub resources: [LDaCA BinderHub Terms of Use](https://www.ldaca.edu.au/resources/ldaca-resources/licenses/ldaca-binderhub/all/v0.0.6/)
 
 <br>
