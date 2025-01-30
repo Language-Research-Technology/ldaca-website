@@ -59,7 +59,7 @@ The RO-Crate community run a weekly drop-in call in Australia. For further infor
 
 **When**: Weekly, Thursday 2pm AEST
 
-**Where**: Online via [Zoom](https://uqz.zoom.us/j/86281717601)
+**Where**: Online via [Zoom](https://uqz.zoom.us/j/85192198914)
 
 <hr />
 
