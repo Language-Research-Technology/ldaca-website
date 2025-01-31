@@ -1,5 +1,5 @@
 ---
-title: "CARE-ful Fairness principles for Indigenous Data Governance"
+title: "CAREful FAIRness principles for Indigenous Data Governance"
 date: 2025-01-30T16:34:20+11:00
 draft: false
 description: "CARE-ful Fairness principles for Indigenous Data Governance"
@@ -23,7 +23,7 @@ Embedding both FAIR and CARE principles is essential when working with Indigenou
 
 While [FAIR Principles (Findable, Accessible, Interoperable, Reusable)](https://ardc.edu.au/resource-hub/making-data-fair/) provide the technical framework for data management, [CARE Principles (Collective Benefit, Authority to Control, Responsibility, Ethics)](https://ardc.edu.au/resource/the-care-principles/) help to centre Indigenous self-determination and worldviews. By integrating both sets of principles, we can develop data-sharing practices that are technically robust and respectful of diverse communities. 
 <br>
-To ensure Indigenous data is managed ethically and equitably, here are a small selection of examples of CAREful Fairness Principles for Indigenous Data Governance:
+To ensure Indigenous data is managed ethically and equitably, here are a small selection of examples of CAREful FAIRness Principles for Indigenous Data Governance:
 <br>
 
 #### When making data Findable:
@@ -52,7 +52,7 @@ Indigenous Data Network. (2024, April 4). IDN Roundtable: Developing & Adopting 
 
 ## About the authors
 
-{{< image Src="/CAREful-FAIRness/Credit - ARDC_D-Hannah_Hass&I—Symposium-Afternoon_June24 - LR163.jpg" Alt="ID-Gov panellists and audience" Desc="Figure 1: Jenny Fewster and Robert McLellan" Title="Panellists and audience" Ref="David Hannah">}}
+{{< image Src="/CAREful-FAIRness/Credit - ARDC_D-Hannah_Hass&I—Symposium-Afternoon_June24 - LR163.jpg" Alt="ID-Gov panellists and audience" Desc="Figure 1: Jenny Fewster and Robert McLellan" Title="Panellists and audience" Ref="ARDC/David Hannah">}}
 
 #### Robert McLellan
 Robert, a Gureng Gureng descendant from the Wide Bay region, is a community researcher, director and governance practitioner. He is an Industry Fellow at the University of QLD and Senior Program Manager for Language Data Commons of Australia (LDaCA), and a strong advocate for truth telling and speaking up for Aboriginal rights, justice, and economic advancement. Dedicated to authentic inclusion of First Nations voices, Robert is passionate about revitalising Indigenous languages, cultures and building culturally inclusive, honourable and cohesive communities.
