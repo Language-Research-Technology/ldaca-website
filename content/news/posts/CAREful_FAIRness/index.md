@@ -20,6 +20,7 @@ Indigenous data encompasses all information collected by, about, or for Aborigin
 
 Embedding both FAIR and CARE principles is essential when working with Indigenous data. 
 <br>
+
 While [FAIR Principles (Findable, Accessible, Interoperable, Reusable)](https://ardc.edu.au/resource-hub/making-data-fair/) provide the technical framework for data management, [CARE Principles (Collective Benefit, Authority to Control, Responsibility, Ethics)](https://ardc.edu.au/resource/the-care-principles/) help to centre Indigenous self-determination and worldviews. By integrating both sets of principles, we can develop data-sharing practices that are technically robust and respectful of diverse communities. 
 <br>
 To ensure Indigenous data is managed ethically and equitably, here are a small selection of examples of CAREful Fairness Principles for Indigenous Data Governance:
