@@ -1,6 +1,6 @@
 ---
 title: "CARE-ful Fairness principles for Indigenous Data Governance"
-date: 2025-01-31T16:34:20+11:00
+date: 2025-01-30T16:34:20+11:00
 draft: false
 description: "CARE-ful Fairness principles for Indigenous Data Governance"
 ---
