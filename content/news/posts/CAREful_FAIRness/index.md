@@ -11,10 +11,12 @@ description: "CARE-ful Fairness principles for Indigenous Data Governance"
 <br>
 
 Indigenous data encompasses all information collected by, about, or for Aboriginal and Torres Strait Islander peoples. As the Indigenous Data Network notes, it is: 
+<br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_“..information, in any format or medium, collected, analysed, stored, and interpreted within the context of Indigenous individuals, collectives, populations, entities, lifeways, cultures, knowledge systems, lands, biodiversity, water and other resources.  
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It includes data collected, used, or stored by any agency, department, laboratory, organisation, corporation, statutory body, university or research institute, conducted by, with, and about Indigenous people or people, and data that Indigenous communities have generated and maintained themselves”_
+<br>
 
 Embedding both FAIR and CARE principles is essential when working with Indigenous data. 
 <br>
