@@ -5,7 +5,7 @@ draft: false
 description: "CAREful FAIRness principles for Indigenous Data Governance"
 ---
 
-#### By Robert Mclellan and Jenny Fewster
+#### By Robert McLellan and Jenny Fewster
 
 
 <br>
@@ -23,6 +23,7 @@ Embedding both FAIR and CARE principles is essential when working with Indigenou
 
 While [FAIR Principles (Findable, Accessible, Interoperable, Reusable)](https://ardc.edu.au/resource-hub/making-data-fair/) provide the technical framework for data management, [CARE Principles (Collective Benefit, Authority to Control, Responsibility, Ethics)](https://ardc.edu.au/resource/the-care-principles/) help to centre Indigenous self-determination and worldviews. By integrating both sets of principles, we can develop data-sharing practices that are technically robust and respectful of diverse communities. 
 <br>
+
 To ensure Indigenous data is managed ethically and equitably, here are a small selection of examples of CAREful FAIRness Principles for Indigenous Data Governance:
 <br>
 
