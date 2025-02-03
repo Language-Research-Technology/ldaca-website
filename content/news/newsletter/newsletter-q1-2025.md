@@ -361,7 +361,7 @@ Share this email
                     }
                 });
 
-                $('li.more &gt; a').click(function(){
+                $('li.more &amp;gt; a').click(function(){
                     var toToggle = $($(this).attr('data-to-toggle'));
                     if(toToggle.is(':visible')){
                         toToggle.slideUp('fast');
