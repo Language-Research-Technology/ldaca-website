@@ -31,7 +31,7 @@ weight: 4
 <title>LDaCA Newsletter — Quarter 1 2024</title>
 <style>          
 .single .content .table-wrapper>table th, .single .content .table-wrapper>table td {
-	border: none;
+	border: none !important;
 	padding: 0;
 }
 .single .content .table-wrapper>table {margin: 0;}
