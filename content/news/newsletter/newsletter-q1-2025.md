@@ -1,5 +1,5 @@
 ---
-title: "LDaCA Newsletter Quarter 1 2024"
+title: "LDaCA Newsletter Quarter 1 2025"
 date: 2025-02-09T10:37:28+10:00
 draft: false
 weight: 4
