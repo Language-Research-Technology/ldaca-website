@@ -557,7 +557,7 @@ body, #bodyTable { background-color: rgb(244, 244, 244); }.mceText, .mcnTextCont
 &lt;title>LDaCA Newsletter — Quarter 1 2024&lt;/title>
 &lt;style> 
 .single .content .table-wrapper>table th, .single .content .table-wrapper>table td {
-	border: none;
+	border: none !important;
 	padding: 0;
 }
 .single .content .table-wrapper>table {margin: 0;}
