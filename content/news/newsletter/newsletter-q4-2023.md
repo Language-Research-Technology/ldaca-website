@@ -34,6 +34,10 @@ weight: 5
 	border: none;
 	padding: 0;
 }
+.single .content .table-wrapper > table td {
+    border: none;
+    padding:0;
+}
 .single .content .table-wrapper>table {margin: 0;}
 .logo {max-width: 60%;} .about {max-width: 40%;}
 img{-ms-interpolation-mode:bicubic;} 
