@@ -1928,8 +1928,6 @@ Visit website
                         throw new Error("Failed to copy text (verify caller was in the context of an event handler)");
                     }
                 });
-
-            });
         </script>
 
 <span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span><span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span><iframe id="ihZrlsP4" frameborder="0" src="chrome-extension://ekhagklcjbdpajgpjgmbionohlpdbjgc/translateSandbox/translateSandbox.html" style="width: 0px; height: 0px; display: none;"></iframe></body></html>
