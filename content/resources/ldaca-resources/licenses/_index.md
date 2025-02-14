@@ -2,18 +2,21 @@
 title: "Licenses"
 date: 2023-11-15T12:05:32+11:00
 draft: false
-description: "Specifies the license(s) that data contributors have applied to the content of their collection, including the content coverage of that license."
-aliases: 
-- "/licenses/"
+type: "custom"
+layout: "root_list"
+disableChildLinks: true
+description: "Specifies the custom license(s) that data contributors have applied to the content of their collection, including the content coverage of that license, in cases where these are not already-existing licenses (e.g. Creative Commons)."
+aliases:
+  - "/licenses/"
 ---
 
 <br>
 
-> Specifies the license(s) that data contributors have applied to the content of their {{< glossary_link display="collection" id="collection" >}}, including the content coverage of that license.
+> Specifies the custom license(s) that data contributors have applied to the content of their {{< glossary_link display="collection" id="collection" >}}, including the content coverage of that license, in cases where these are not already-existing licenses (e.g. Creative Commons).
 
 <br>
 
-### A Corpus of Oz Early English (COOEE)
+<!-- ### A Corpus of Oz Early English (COOEE)
 
 All content: [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
@@ -22,6 +25,18 @@ All content: [Attribution 4.0 International (CC BY 4.0)](https://creativecommons
 ### AustLit
 
 All content: [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+
+<br>
+
+### Australian Corpus of English
+
+All content: [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+
+<br>
+
+### Australian Deafblind Signing Corpus
+
+This is a forthcoming collection.
 
 <br>
 
@@ -37,15 +52,39 @@ All content: [Attribution-NoDerivatives 3.0 Australia (CC BY-ND 3.0 AU)](https:/
 
 <br>
 
-### International Corpus of English (Aus)
+### Corpus of Australian English as a Second Language (AusESL)
 
-All content: [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+This is a forthcoming collection.
 
 <br>
 
-### The Australian Corpus of English
+### Holmer Fieldnotes
+
+This is a forthcoming collection.
+
+<br>
+
+### International Corpus of English (ICE-AUS)
 
 All content: [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+
+<br> -->
+
+### LDaCA BinderHub Terms of Use
+
+All LDaCA BinderHub resources: [LDaCA BinderHub Terms of Use](https://www.ldaca.edu.au/resources/ldaca-resources/licenses/ldaca-binderhub/all/v0.0.6/)
+
+<br>
+
+<!-- ### Sydney Speaks
+
+This is a forthcoming collection.
+
+<br>
+
+### The Expanded Auslan Corpus
+
+This is a forthcoming collection.
 
 <br>
 
@@ -61,8 +100,8 @@ All content: [Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https:
 
 <br>
 
-### LDaCA BinderHub Terms of Use
+### Warlpiri data 1982-1994
 
-All LDaCA BinderHub resources: [LDaCA BinderHub Terms of Use](https://www.ldaca.edu.au/resources/ldaca-resources/licenses/ldaca-binderhub/all/v0.0.6/)
+This is a forthcoming collection.
 
-<br>
+<br> -->
