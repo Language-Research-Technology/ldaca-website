@@ -17,37 +17,23 @@ aliases:
 
 <br>
 
-### Indigenous Data Governance Masterclass
+### Get started with Hansard for humanities, arts, and social sciences research
 
-The free ARDC Indigenous Data Governance Masterclass will equip custodians of Indigenous data and researchers in any discipline with the knowledge and tools to ethically manage Indigenous data, respecting the cultural protocols and sovereignty of Indigenous communities. It will build the capacity of participants to engage with Indigenous data, fostering a culturally sensitive and informed approach to data-driven projects.
+Parliamentary bodies around the world have been publishing transcriptions of their proceedings for decades or even centuries. These transcriptions enable public scrutiny and transparency of the actions and speech of legislative bodies and elected representatives.
 
-The Masterclass is **not** included in the registration for the HASS and Indigenous RDC Summer School (see next item). **You must register separately to attend the Masterclass and/or the Summer School**.
+Because of their documentation of legislative action and speech, their relatively consistent format, and their coverages of long periods of time they are potentially useful for policy researchers, media and communication scholars, political scientists, linguists, sociologists, historians, and many others.
 
-**Organisers**: [ARDC HASS and Indigenous Research Data Commons](https://ardc.edu.au/hass-and-indigenous-research-data-commons/)
+This workshop aims to provide a starting point for working with these transcribed proceedings, including evaluating how they might (and might not!) be useful for your research, how to get started for different kinds of projects, and cautionary notes on potential limitations.
 
-**Who**: {{< profile id="mclellan" >}} and [Levi Murray](https://mspgh.unimelb.edu.au/centres-institutes/onemda/research-group/indigenous-studies-unit/about-us/our-team/levi-craig-murray)
+**Organisers**: [Melbourne Data Analytics Platform](https://www.unimelb.edu.au/mdap)
 
-**When**: 3 February 2025, 10 am – 5 pm (AEST)
+**Who**: {{< profile id="hames" >}} and {{< profile id="musgrave" >}}
 
-**Where**: State Library of Queensland, Cultural Precinct, Stanley Place, South Brisbane, QLD 4101
+**When**: 20 February 2025, 12:30 – 4:305 pm (AEDT)
 
-**[Registration](https://www.eventbrite.com.au/e/ardc-indigenous-data-governance-masterclass-at-summer-school-2025-tickets-1027820327267)**
+**Where**: Manhari Room, Level 7, Melbourne Connect, 700 Swanston Street, Carlton
 
-<br>
-
-### HASS and Indigenous Research Data Commons Summer School 2025
-
-The HASS and Indigenous research data community is invited to gain hands-on experience, learn digital skills and network to inspire new research outcomes.
-
-The Summer School aims to empower participants with practical knowledge, build digital skills, and help inspire new research outcomes within the humanities, arts, social sciences (HASS) and Indigenous fields of study. Participants will collaborate in an interactive group setting while networking with like-minded researchers and subject matter experts.
-
-**Organisers**: [ARDC HASS and Indigenous Research Data Commons](https://ardc.edu.au/hass-and-indigenous-research-data-commons/)
-
-**When**: 4 – 6 February 2025
-
-**Where**: University of Queensland, St Lucia
-
-**[Registration](https://www.eventbrite.com.au/e/hass-and-indigenous-research-data-commons-summer-school-2025-tickets-1027654802177)** (Waitlist only available)
+**[Registration](https://rduevents.unimelb.edu.au/event/hansard-for-hass)**
 
 <br>
 
@@ -68,6 +54,35 @@ The RO-Crate community run a weekly drop-in call in Australia. For further infor
 {{<raw>}}
 
 <details>
+<summary><b><font color="#79A38D">2025</font></b></summary>
+<details>
+<summary>
+<b>Indigenous Data Governance Masterclass</b>
+</summary>
+<p>The ARDC Indigenous Data Governance Masterclass equipped custodians of Indigenous data and researchers in any discipline with the knowledge and tools to ethically manage Indigenous data, respecting the cultural protocols and sovereignty of Indigenous communities. It built the capacity of participants to engage with Indigenous data, fostering a culturally sensitive and informed approach to data-driven projects.</p>
+
+<p><b>When</b>: 3 February 2025</p>
+
+<p><b>Organisers</b>: <a href="https://ardc.edu.au/hass-and-indigenous-research-data-commons/" target="_blank">ARDC HASS and Indigenous Research Data Commons</a></p>
+
+<p><b>Leaders</b>: {{< profile id="mclellan" >}} and <a href="https://mspgh.unimelb.edu.au/centres-institutes/onemda/research-group/indigenous-studies-unit/about-us/our-team/levi-craig-murray" target = "_blank">Levi Murray</a>
+
+</details>
+<details>
+<summary>
+<b>HASS and Indigenous Research Data Commons Summer School 2025</b>
+</summary>
+<p>The HASS and Indigenous research data community got together to gain hands-on experience, learn digital skills and network to inspire new research outcomes.</p>
+
+<p>The Summer School aimed to empower participants with practical knowledge, build digital skills, and help inspire new research outcomes within the humanities, arts, social sciences (HASS) and Indigenous fields of study. Participants collaborated in an interactive group setting while networking with like-minded researchers and subject matter experts.</p>
+
+<p><b>When</b>: 4 – 6 February 2025</p>
+
+<p><b>Organisers</b>: <a href="https://ardc.edu.au/hass-and-indigenous-research-data-commons/" target="_blank">ARDC HASS and Indigenous Research Data Commons</a></p>
+
+</details>
+</details>
+<details>
 <summary><b><font color="#79A38D">2024</font></b></summary>
 <details>
 <summary>
@@ -77,9 +92,7 @@ The RO-Crate community run a weekly drop-in call in Australia. For further infor
 
 <p><b>When</b>: 28 November 2024</p>
 
-<p><b>Organisers</b>: <a href="https://resbaz.github.io/resbazvic2024/" target="_blank">ResBaz Victoria</a></p>
-
-<p><b>Leaders</b>: Kit Greenhill and Simon Musgrave
+<p><b>Organisers</b>: <a href="https://ardc.edu.au/hass-and-indigenous-research-data-commons/" target="_blank">ARDC HASS and Indigenous Research Data Commons</a></p>
 
 </details>
 
