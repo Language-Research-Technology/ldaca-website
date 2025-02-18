@@ -23,12 +23,10 @@
     <div>
       <div class="slide__content">
         <h1>Updates</h1>
-        <h4></h4>
-        <ul>
-        <h3><li>Graduate Digital Research Fellowship program 2025 — Expressions of Interest <a href="https://forms.gle/2SubrSQKFc5NU3xa9" target="_blank"> now open ➤</a></li></h3>
-        <h3><li>HASS and Indigenous Research Data Commons Summer School 2025 (<a href = "./news/events/" target="_blank">Read more ➤</a>)</li></h3>
-        <h3><li>New blog post: an interview with Prof Jane Simpson talking about data storage (<a href = "./news/posts/jane-simpson/" target="_blank">Read more ➤</a>)</li></h3>
-        <h3><li>Our last newsletter for the year is out (<a href = "./news/newsletter/newsletter-q4-2024/" target="_blank">Read more ➤</a>)</li></h3>
+                <ul>
+                <h3><li>A blog post on CAREful FAIRness (<a href = "./news/posts/careful_fairness/" target="_blank">Read more ➤</a>)</li></h3>
+                <h3><li>A summary of a discussion on Indigenous Data Governance (<a href = "./news/posts/id-gov-panel-2024/" target="_blank">Read more ➤</a>)</li></h3>
+        <h3><li>Our first newsletter for the year is out (<a href = "https://us13.campaign-archive.com/?u=ef8667be63aefb1e35062a797&id=572c1705bd" target="_blank">Read more ➤</a>)</li></h3>
         
         <h3><li>Media: Robert McLellan talks to Sarah Morice for ABC NewsRadio (<a href = "https://www.youtube.com/watch?v=JCzYj3LeZWI" target="_blank">Listen ➤</a>)</li></h3>            
         </ul>
