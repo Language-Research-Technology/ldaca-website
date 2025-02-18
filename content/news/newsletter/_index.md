@@ -20,7 +20,7 @@ An archive of our previous newsletters.
 <p><b><a href = "https://us13.campaign-archive.com/?u=ef8667be63aefb1e35062a797&id=fc8d50f174" target = "_blank">Quarter 4 2024</a></b></p>
 <p><b><a href = "https://us13.campaign-archive.com/?u=ef8667be63aefb1e35062a797&id=99594a946a" target = "_blank">Quarter 3 2024</a></b></p>
 <p><b><a href = "https://us13.campaign-archive.com/?u=ef8667be63aefb1e35062a797&id=e60097fba1" target = "_blank">Quarter 2 2024</a></b></p>
-<p><b><a href = "https://us13.campaign-archive.com/?u=ef8667be63aefb1e35062a797&id=7df1e9b635" target = "_blank">Quarter 1 2024</a></b>></p>
+<p><b><a href = "https://us13.campaign-archive.com/?u=ef8667be63aefb1e35062a797&id=7df1e9b635" target = "_blank">Quarter 1 2024</a></b></p>
 </details>
 <details>
 <summary>2023</summary>
