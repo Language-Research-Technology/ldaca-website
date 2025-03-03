@@ -27,7 +27,7 @@ The Language Data Commons of Australia (LDaCA) hosted an Indigenous Data Governa
 
 <br>
 
-The panellists explored topics of data accessibility and discoverability, [Indigenous Cultural and Intellectual Property](https://www.terrijanke.com.au/icip) (ICIP), and tools and methods for Indigenous Data Governance (ID-Gov). What follows is a summarised version of the panellists’ contributions organised around the main themes of the discussion. Key takeaways for Galleries, Libraries, Archives and Museums (GLAM) sector workers looking to implement Indigenous Data Governance strategies in their collections were the importance of employing First Nations staff and working in respectful partnership with communities.
+The panellists explored topics of data accessibility and discoverability, [Indigenous Cultural and Intellectual Property](https://www.terrijanke.com.au/icip) (ICIP), and tools and methods for Indigenous Data Governance (ID-Gov). What follows is a summarised version of the panellists’ contributions organised around the main themes of the discussion.<sup><a name="back-1" >[1](#fn-1)</a></sup> Key takeaways for Galleries, Libraries, Archives and Museums (GLAM) sector workers looking to implement Indigenous Data Governance strategies in their collections were the importance of employing First Nations staff and working in respectful partnership with communities.
 
 <br>
 
@@ -159,5 +159,9 @@ When communities are not ready to engage with archival processes, this can be an
 ---
 
 **_We are grateful to all three of the panellists for their theoretical and practical insights into Indigenous Data Governance, as well as to Grant Sarra for facilitating the discussion._**
+
+<br>
+
+<a name="fn-1">1</a> This summary was prepared by Bridey Lea, with helpful comments from the panellists, Teresa Chan, and Simon Musgrave. [↩](#back-1)
 
 <br>
