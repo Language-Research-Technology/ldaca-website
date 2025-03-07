@@ -11,33 +11,37 @@
 
         {{ .Content }}
 
-        {{- /* Paginate */ -}}
-        {{- if .Pages -}}
-            {{- $pages := .Pages.GroupByDate "2006" -}}
-            {{- with .Site.Params.section.paginate | default .Site.Params.paginate -}}
-                {{- $pages = $.Paginate $pages . -}}
-            {{- else -}}
-                {{- $pages = .Paginate $pages -}}
-            {{- end -}}
-            {{- range $pages.PageGroups -}}
-                <!-- <h3 class="group-title">{{ .Key }}</h3> -->
-                {{- range .Pages.ByWeight -}}
-                    <article class="archive-item">
-                        <a href="{{ .RelPermalink }}" class="archive-item-link">
-                           <h2 class="archive-item-title"> {{- .Title | emojify -}} </h2>
-                           <p class="archive-item-description"> {{ .Description }} </p>
-                        </a>
-                    </article>
+        {{- /* Get the disableChildLinks parameter from front matter */}}
+        {{ $disableChildLinks := .Params.disableChildLinks | default false }}
+
+        {{ if not $disableChildLinks }}
+            {{- /* Paginate and show child links if not disabled */ -}}
+            {{- if .Pages -}}
+                {{- $pages := .Pages.GroupByDate "2006" -}}
+                {{- with .Site.Params.section.paginate | default .Site.Params.paginate -}}
+                    {{- $pages = $.Paginate $pages . -}}
+                {{- else -}}
+                    {{- $pages = .Paginate $pages -}}
                 {{- end -}}
-            {{- end -}}
-            {{- partial "paginator.html" . -}}
-        {{- end -}}
+                {{- range $pages.PageGroups -}}
+                    <!-- <h3 class="group-title">{{ .Key }}</h3> -->
+                    {{- range .Pages.ByWeight -}}
+                        <article class="archive-item">
+                            <a href="{{ .RelPermalink }}" class="archive-item-link">
+                               <h2 class="archive-item-title"> {{- .Title | emojify -}} </h2>
+                               <p class="archive-item-description"> {{ .Description }} </p>
+                            </a>
+                        </article>
+                    {{- end -}}
+                {{- end -}}
+                {{- partial "paginator.html" . -}}
+            {{- end }}
+        {{ end }}
 
         <br>
         <a href="../" class="banner-button">Go Back</a>
     </div>
-
-    
 {{- end -}}
+
 
 
