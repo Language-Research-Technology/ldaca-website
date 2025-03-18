@@ -24,6 +24,7 @@
       <div class="slide__content">
         <h1>Updates</h1>
                 <ul>
+                <h3><li>A blog post about how LDaCA data was used in a piece of research (<a href = "./news/posts/putting-data-to-work/" target="_blank">Read more ➤</a>)</li></h3>
                 <h3><li>A blog post on CAREful FAIRness (<a href = "./news/posts/careful_fairness/" target="_blank">Read more ➤</a>)</li></h3>
                 <h3><li>A summary of a discussion on Indigenous Data Governance (<a href = "./news/posts/id-gov-panel-2024/" target="_blank">Read more ➤</a>)</li></h3>
         <h3><li>Our first newsletter for the year is out (<a href = "https://us13.campaign-archive.com/?u=ef8667be63aefb1e35062a797&id=572c1705bd" target="_blank">Read more ➤</a>)</li></h3>
