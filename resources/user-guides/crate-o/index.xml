@@ -279,10 +279,12 @@
 &lt;h5 id="tab-breakdowntab-breakdown">&lt;a href="#tab-breakdown" rel="">Tab Breakdown&lt;/a>&lt;/h5>
 &lt;h5 id="column-breakdowncolumn-breakdown">&lt;a href="#column-breakdown" rel="">Column Breakdown&lt;/a>&lt;/h5>
 &lt;ul>
-&lt;li>&lt;a href="#root" rel="">Root&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#rootdataset" rel="">RootDataset&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#context" rel="">@context&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#authors" rel="">Authors&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#publishers" rel="">Publishers&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#licenses" rel="">Licenses&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#license_files" rel="">License_Files&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#people" rel="">People&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#places" rel="">Places&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#localities" rel="">Localities&lt;/a>&lt;/li>
