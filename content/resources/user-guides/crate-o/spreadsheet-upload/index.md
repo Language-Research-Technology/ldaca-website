@@ -1,5 +1,5 @@
 ---
-title: "Spreadsheet Upload"
+title: "Convert Spreadsheet"
 date: 2021-02-28T13:53:43+10:00
 draft: false
 description: "Guidance and a template for adding new data to an RO-Crate via spreadsheet."
@@ -19,19 +19,22 @@ weight: 4
 - [Authors](#authors)
 - [Publishers](#publishers)
 - [Licenses](#licenses)
+- [Provenance](#provenance)
 - [People](#people)
 - [Places](#places)
 - [Localities](#localities)
 - [Objects](#objects)
 - [Files (CSV, EAF, WAV)](#files-csv-eaf-wav)
 
-##### [Upload Spreadsheet to an RO-Crate with Crate-O](#upload-spreadsheet-to-an-ro-crate-with-crate-o)
+##### [Convert Spreadsheet to an RO-Crate with Crate-O](#convert-spreadsheet-to-an-ro-crate-with-crate-o)
+
+##### [Using Adhoc Defined Terms in the Spreadsheet](#using-adhoc-defined-terms-in-the-spreadsheet)
 
 <br>
 
 ## Template
 
-For {{< glossary_link display="collections" id="collection" >}} where there are a lot of interconnected {{< glossary_link display="objects" id="object" >}} and files, it may be easier or preferable to add the {{< glossary_link display="metadata" id="metadata" >}} for these via uploading a spreadsheet to an existing {{< glossary_link display="RO-Crate" id="ro-crate" >}} in {{< glossary_link display="Crate-O" id="crate-o" >}}, rather than adding these items manually. An RO-Crate metadata spreadsheet template can be downloaded below and populated with metadata specific to your collection:
+For {{< glossary_link display="collections" id="collection" >}} where there are a lot of interconnected {{< glossary_link display="objects" id="object" >}} and files, it may be easier or preferable to add the {{< glossary_link display="metadata" id="metadata" >}} for these via converting a spreadsheet to an {{< glossary_link display="RO-Crate" id="ro-crate" >}} in {{< glossary_link display="Crate-O" id="crate-o" >}}, rather than adding these items manually. An RO-Crate metadata spreadsheet template can be downloaded below and populated with metadata specific to your collection:
 
 <br>
 
@@ -39,13 +42,15 @@ For {{< glossary_link display="collections" id="collection" >}} where there are 
 
 <br>
 
-> Spreadsheet upload currently only has functionality to add new data, and cannot overwrite or edit existing data in your RO-Crate.
+> This template can be edited in [Microsoft Excel](https://www.microsoft.com/en-au/microsoft-365/excel), [LibreOffice Calc](https://www.libreoffice.org/discover/calc/) or [Google Sheets](https://google.com/sheets). It is not compatible with Apple Numbers.
 
 The template is based on an example {{< glossary_link display="data collection" id="data-collection" >}} that contains three types of files within each object:
 
 - Audio files (WAV), the primary material
 - Text files (CSV), transcriptions of the audio files
 - ELAN files (EAF), linguistic annotations of the audio files
+
+> Spreadsheet conversion currently only has functionality to add new data, and cannot overwrite or edit existing data in your RO-Crate.
 
 <br>
 
@@ -61,7 +66,8 @@ The spreadsheet has the below tabs by default, but depending on your {{< glossar
 | @context    | Specifies the vocabulary or schema that is intended to be used with language data.                                                                                                       |
 | Authors     | Metadata about the person or organisation responsible for creating this collection.                                                                                                      |
 | Publishers  | Metadata about the organisation responsible for releasing this collection.                                                                                                               |
-| Licenses    | Metadata about the license(s) within the collection; both for the {{< glossary_link display="objects" id="object" >}} and files, and for the collection's metadata.                      |
+| Licenses    | Metadata about the license(s) within the collection; both for the {{< glossary_link display="objects" id="object" >}} and files.                                                         |
+| Provenance  | Metadata about the documented history or chain of custody of materials from their creation to their current location within a collection.                                                |
 | People      | Metadata about the people within the collection.                                                                                                                                         |
 | Places      | Metadata about the places within the collection.                                                                                                                                         |
 | Localities  | Metadata about the geometric location data within the collection.                                                                                                                        |
@@ -77,7 +83,7 @@ Below the header, an example row is included to illustrate how the section can b
 - requires the user to input data (blue)
 - is pre-filled with a formula or static value and doesn't require editing (green).
 
-> HINT: Highlight the example row and drag it down to copy all the pre-filled cells. Don't forget to remove the example rows before you upload your spreadsheet to {{< glossary_link display="Crate-O" id="crate-o" >}}!
+> HINT: Highlight the example row and drag it down to copy all the pre-filled cells. Don't forget to remove the example rows before you convert your spreadsheet to {{< glossary_link display="Crate-O" id="crate-o" >}}!
 
 <br>
 
@@ -106,19 +112,20 @@ The section below describes each of the columns included in the template, ordere
 
 The root dataset tab provides information about the top level of the {{< glossary_link display="collection" id="collection" >}}. Unlike the other tabs, the root dataset tab lists items row by row and can only have one column, so if there are rows that require more than one value (like `@type`), duplicate that row.
 
-| Column               | Type       | Description                                                                                                                                                                                                                                                                                                                               |
-| -------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| @id                  | Data entry | Persistent, managed unique ID in URL format (if available), for example, a {{< glossary_link display="DOI" id="doi" >}} for a collection. The default for this field is `./` indicating a relative path to your current directory, however if you already have a persistent ID for the collection, it can be added in this field instead. |
-| @type                | Pre-filled | The type of the collection. Both `Dataset` and `RepositoryCollection` are required.                                                                                                                                                                                                                                                       |
-| name                 | Data entry | The name of this collection.                                                                                                                                                                                                                                                                                                              |
-| description          | Data entry | An abstract of the collection. Include as much detail as possible about the motivation and use of the dataset, including things that we do not yet have properties for.                                                                                                                                                                   |
-| ldac:doi             | Data entry | A Digital Object Identifier, e.g. https://doi.org/10.1000/182.                                                                                                                                                                                                                                                                            |
-| isRef_author         | Pre-filled | Generated from the `@id` column in the [Authors](#authors) tab.                                                                                                                                                                                                                                                                           |
-| isRef_publisher      | Pre-filled | Generated from the `@id` column in the [Publishers](#publishers) tab.                                                                                                                                                                                                                                                                     |
-| isRef_license        | Pre-filled | Generated from the `@id` column in the [Licenses](#licenses) tab.                                                                                                                                                                                                                                                                         |
-| datePublished        | Data entry | The date the object was published. The date should be in the ISO 8601 format YYYY-MM-DD.                                                                                                                                                                                                                                                  |
-| inLanguage           | Data entry | The language in which the resource is written. For example, a work about the Italian language as used in Australia (subjectLanguage) that is written in English (inLanguage).                                                                                                                                                             |
-| ldac:subjectLanguage | Data entry | The languages that the materials in the collection are about (not the language that it is in). For example, a work about the Italian language as used in Australia (subjectLanguage) that is written in English (inLanguage).                                                                                                             |
+| Column                | Type       | Description                                                                                                                                                                                                                                                                                                                               |
+| --------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| @id                   | Data entry | Persistent, managed unique ID in URL format (if available), for example, a {{< glossary_link display="DOI" id="doi" >}} for a collection. The default for this field is `./` indicating a relative path to your current directory, however if you already have a persistent ID for the collection, it can be added in this field instead. |
+| @type                 | Pre-filled | The type of the collection. Both `Dataset` and `RepositoryCollection` are required.                                                                                                                                                                                                                                                       |
+| name                  | Data entry | The name of this collection.                                                                                                                                                                                                                                                                                                              |
+| description           | Data entry | An abstract of the collection. Include as much detail as possible about the motivation and use of the dataset, including things that we do not yet have properties for.                                                                                                                                                                   |
+| ldac:doi              | Data entry | A Digital Object Identifier, e.g. https://doi.org/10.1000/182.                                                                                                                                                                                                                                                                            |
+| isRef_author          | Pre-filled | Generated from the `@id` column in the [Authors](#authors) tab.                                                                                                                                                                                                                                                                           |
+| isRef_publisher       | Pre-filled | Generated from the `@id` column in the [Publishers](#publishers) tab.                                                                                                                                                                                                                                                                     |
+| isRef_license         | Pre-filled | Generated from the `@id` column in the [Licenses](#licenses) tab.                                                                                                                                                                                                                                                                         |
+| datePublished         | Data entry | The date the object was published. The date should be in the ISO 8601 format YYYY-MM-DD.                                                                                                                                                                                                                                                  |
+| inLanguage            | Data entry | The language in which the resource is written. For example, a work about the Italian language as used in Australia (subjectLanguage) that is written in English (inLanguage).                                                                                                                                                             |
+| ldac:subjectLanguage  | Data entry | The languages that the materials in the collection are about (not the language that it is in). For example, a work about the Italian language as used in Australia (subjectLanguage) that is written in English (inLanguage).                                                                                                             |
+| ldac:metadataIsPublic | Data entry | Determines whether the collection {{< glossary_link display="metadata" id="metadata" >}} can be viewed publicly. Requires a Boolean value (`TRUE` or `FALSE`).                                                                                                                                                                            |
 
 > The prefix `isRef_` indicates that data in this column should be taken from another `@id` field in the spreadsheet. For example, `isRef_author` uses the `@id` from the Author tab to link all the author details to the RootDataset tab.
 
@@ -163,18 +170,36 @@ A publisher is an organisation responsible for releasing the {{< glossary_link d
 
 A license for a {{< glossary_link display="collection" id="collection" >}} establishes the conditions for who can access, share and reuse the data, and other conditions as required. It is a legal arrangement between the creator of the data and the end-user specifying what users can do with the data.
 
-| Column                | Type       | Description                                                                                                                                                                                                                                                             |
-| --------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| @id                   | Data entry | A URL to a version of the license (if available), for example, a URL of a Creative Commons license. If there is no URL, a _license.txt_ file containing the text of the license needs to be included in the repository, and `license.txt` should be added as the `@id`. |
-| @type                 | Pre-filled | The type of the license. Only `DataReuseLicense` is valid.                                                                                                                                                                                                              |
-| name                  | Data entry | The name of the license.                                                                                                                                                                                                                                                |
-| description           | Data entry | A description of the license.                                                                                                                                                                                                                                           |
-| ldac:metadataIsPublic | Data entry | Determines whether the collection {{< glossary_link display="metadata" id="metadata" >}} can be viewed publicly. Requires a Boolean value (`TRUE` or `FALSE`).                                                                                                          |
-| ldac:allowTextIndex   | Data entry | Determines whether the collection text can be indexed for search purposes. Requires a Boolean value (`TRUE` or `FALSE`).                                                                                                                                                |
+| Column              | Type       | Description                                                                                                                                                                                                                                                                                                                                            |
+| ------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| @id                 | Data entry | A URL to a version of the license (if available), for example, a URL of a Creative Commons license. For custom licenses (i.e. those specific to a particular collection), it is recommended that a copy of the license file be included in the repository to ensure that it remains accessible. `license.txt` or similar should be added as the `@id`. |
+| @type               | Pre-filled | The type of the license. `ldac:DataReuseLicense` is required for all items, and `File` should also be added for physical licenses in the collection as `[ldac:DataReuseLicense, File]`.                                                                                                                                                                |
+| name                | Data entry | The name of the license.                                                                                                                                                                                                                                                                                                                               |
+| description         | Data entry | A description of the license.                                                                                                                                                                                                                                                                                                                          |
+| ldac:allowTextIndex | Data entry | Determines whether the collection text can be indexed for search purposes. Requires a Boolean value (`TRUE` or `FALSE`).                                                                                                                                                                                                                               |
+| isRef_sameAs        | Data entry | Indicates that two items are identical versions of the same license. For example, a Creative Commons license that has a URL as well as a local copy contained within the collection.                                                                                                                                                                   |
+| isRef_isPartOf      | Pre-filled | Specifies the collection that the license is a part of, generated from the `@id` column in the [RootDataset](#rootdataset) tab.                                                                                                                                                                                                                        |
 
 It is possible to leave the {{< glossary_link display="licensing" id="licensing" >}} tab blank if these details are still being finalised for the collection, however, this will need to be amended later in {{< glossary_link display="Crate-O" id="crate-o" >}}.
 
-> For custom licenses (i.e. those specific to a particular collection), it is recommended that a copy of the license be included in the repository to ensure that it remains accessible. Furthermore, if there are any additional usage restrictions or options for use outside of a given license, this information can be included in a `usageInfo` field, e.g. "For any use not permitted by the CC-BY-ND 4.0 License, please contact the Data Steward".
+> If there are any additional usage restrictions or options for use outside of a given license, this information can be included in a `usageInfo` field, e.g. "For any use not permitted by the CC-BY-ND 4.0 License, please contact the Data Steward".
+
+<br>
+
+### Provenance
+
+The provenance for a {{< glossary_link display="collection" id="collection" >}} details the documented history from an item's creation to its current location within a collection, including changes in format and tools required to read the file.
+
+| Column       | Type       | Description                                                                                                                                                                             |
+| ------------ | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| @id          | Data entry | A unique identifier for the document change within the collection. Identifiers should be prefixed with `#`.                                                                             |
+| @type        | Pre-filled | The type of the provenance. Only `CreateAction` is valid.                                                                                                                               |
+| name         | Data entry | The name of the action on the document.                                                                                                                                                 |
+| description  | Data entry | A description of the changes to the document within the collection.                                                                                                                     |
+| isRef_object | Data entry | The document upon which the action is carried out, i.e. a file that was used as an input in some way.                                                                                   |
+| isRef_result | Data entry | The resulting document produced in the action, i.e. the output file.                                                                                                                    |
+| instrument   | Data entry | The tool or software app used to create the output file. If a more complete description of the software is required, change the header from `instrument` to `isRef_instrument` instead. |
+| isRef_agent  | Data entry | The direct performer or driver of the action, for example, an ROR for an organisation or an ORCID, personal home page URL or email address for a person.                                |
 
 <br>
 
@@ -262,8 +287,14 @@ A file is a container for data and can store data in different formats. For exam
 
 <br>
 
-## Upload Spreadsheet to an RO-Crate with Crate-O
+## Convert Spreadsheet to an RO-Crate with Crate-O
 
-For steps on adding your spreadsheet data to an existing {{< glossary_link display="RO-Crate" id="ro-crate" >}}, see [Append Data from Spreadsheet](/resources/user-guides/crate-o/ro-crate-creation/#append-data-from-spreadsheet).
+For steps on adding your spreadsheet data to an {{< glossary_link display="RO-Crate" id="ro-crate" >}}, see [Append Data from Spreadsheet](/resources/user-guides/crate-o/ro-crate-creation/#append-data-from-spreadsheet).
+
+<br>
+
+## Using Adhoc Defined Terms in the Spreadsheet
+
+If there are terms you'd like to use that aren't covered by those in [Schema.org](https://schema.org/) and the [Language Data Commons Schema Terms](https://w3id.org/ldac/terms), follow these steps to add them:
 
 <br>
