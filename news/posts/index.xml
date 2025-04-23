@@ -1,4 +1,56 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on LDaCA</title><link>https://www.ldaca.edu.au/news/posts/</link><description>Recent content in Posts on LDaCA</description><generator>Hugo</generator><language>en-us</language><managingEditor>info@ldaca.edu.au (Language Data Commons of Australia)</managingEditor><webMaster>info@ldaca.edu.au (Language Data Commons of Australia)</webMaster><lastBuildDate>Tue, 15 Apr 2025 11:10:21 +1000</lastBuildDate><atom:link href="https://www.ldaca.edu.au/news/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Arne ingkerreke apurtelhe-ileme: project launch</title><link>https://www.ldaca.edu.au/news/posts/veronicadobson-launch2025/</link><pubDate>Tue, 15 Apr 2025 11:10:21 +1000</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/news/posts/veronicadobson-launch2025/</guid><description>&lt;br>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on LDaCA</title><link>https://www.ldaca.edu.au/news/posts/</link><description>Recent content in Posts on LDaCA</description><generator>Hugo</generator><language>en-us</language><managingEditor>info@ldaca.edu.au (Language Data Commons of Australia)</managingEditor><webMaster>info@ldaca.edu.au (Language Data Commons of Australia)</webMaster><lastBuildDate>Tue, 22 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.ldaca.edu.au/news/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Reflecting on the Darwin digital languages collections workshop</title><link>https://www.ldaca.edu.au/news/posts/darwin-digital-collections-workshop/</link><pubDate>Tue, 22 Apr 2025 00:00:00 +0000</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/news/posts/darwin-digital-collections-workshop/</guid><description>&lt;br>
+by &lt;a href="https://languages-cultures.uq.edu.au/profile/10861/chenoa-pettrup" title="Chenoa Pettrup is the Industry Engagement and Communications Lead for the Language Data Commons of Australia." target="_blank"
+ >Chenoa Pettrup&lt;/a
+>
+&lt;br />
+&lt;br>
+From March 24–28, the LDaCA team hosted the Darwin digital languages collections workshop. This event brought together organisations and individuals from the Top End to exchange ideas and insights about Indigenous language collections and explore collaborative opportunities. 
+&lt;br>
+&lt;h2 id="connecting-through-presentations-and-sharing-knowledges">Connecting through presentations and sharing knowledges&lt;/h2>
+&lt;p>The week began with presentations that introduced participants to technologies, processes and practices that may help when working with digital language collections. They provided a comprehensive overview of the data management strategies that workshop participants can use for effectively organising and describing digital language materials.
+&lt;br>&lt;/br>
+Ben Foley kicked off with an introduction to language collections and metadata, where he explained the foundational concepts around language collections, underscoring the importance of metadata for organising and understanding digital materials.
+&lt;br>&lt;/br>
+
+
+&lt;body>
+ &lt;div>
+ &lt;img src="https://www.ldaca.edu.au/darwin-digital-collections-workshop/darwin_workshop_fig1.jpg" alt="Photograph of Ben Foley (LDaCA) presenting at the Darwin digital languages collections workshop." title="Ben Foley (LDaCA) presenting at the Darwin digital languages collections workshop." height="600" class="center_image" />
+ &lt;div style="text-align: center">
+ &lt;b>
+ Ben Foley (LDaCA) presenting at the Darwin digital languages collections workshop.&lt;/b>
+ &lt;br>Image Source: LDaCA 
+ &lt;/div>
+ &lt;/div>
+&lt;/body>
+&lt;br>
+Moises Sacal Bonequi introduced a structured set of guidelines for designing and evaluating data storage services (&lt;a href="https://pilars-protocols.github.io/pilars/" target="_blank" rel="noopener noreffer ">PILARS&lt;/a>). This framework ensures that digital assets, such as research data, are securely managed and accessible for the long term.
+&lt;br>&lt;/br>
+Nick Thieberger joined the workshop virtually to demonstrate &lt;a href="https://nyingarn.net/" target="_blank" rel="noopener noreffer ">Nyingarn&lt;/a>, a workspace for working with handwritten or typed manuscripts. The platform can help with making digital formats of manuscripts searchable, while maintaining a secure environment for sensitive material.
+&lt;br>&lt;/br>
+Ben and Rosanna Smith then introduced &lt;a href="https://www.researchobject.org/ro-crate/" target="_blank" rel="noopener noreffer ">RO-Crate&lt;/a> and &lt;a href="https://language-research-technology.github.io/crate-o/#/" target="_blank" rel="noopener noreffer ">Crate-O&lt;/a>. Ben used a physical crate as a metaphor to explain the RO-Crate approach to packaging data. He explained how RO-Crate is a method for bundling materials (like audio files, images, or manuscripts) with their associated metadata. Rosanna also shared a demonstration of Crate-O, a browser-based platform that can help users convert their materials and metadata into an RO-Crate format.
+&lt;br>&lt;/br>
+
+
+&lt;body>
+ &lt;div>
+ &lt;img src="https://www.ldaca.edu.au/darwin-digital-collections-workshop/darwin_workshop_fig2.jpg" alt="Photograph of Rosanna Smith (LDaCA) presenting a demonstration of Crate-O during the Darwin digital languages collections workshop." title="Rosanna Smith (LDaCA) demonstrating Crate-O" height="600" class="center_image" />
+ &lt;div style="text-align: center">
+ &lt;b>
+ Rosanna Smith (LDaCA) presenting a demonstration of Crate-O during the Darwin digital languages collections workshop.&lt;/b>
+ &lt;br>Image Source: LDaCA 
+ &lt;/div>
+ &lt;/div>
+&lt;/body>
+&lt;br>
+The workshop also provided a platform for participants to share their efforts in working with language materials and building digital archives and collections.
+&lt;br>&lt;/br>
+Elaine Labuschagne reflected on her learnings working with the Batchelor Institute Centre for Australian Languages and Linguistics (CALL) Collection so far and the evolving &lt;a href="https://callcollection.batchelor.edu.au/" target="_blank" rel="noopener noreffer ">CALL Collection catalogue&lt;/a>. She outlined plans for upcoming work with LDaCA, focusing on creating lasting accessibility solutions to address the limitations of temporary digital tools.
+&lt;br>&lt;/br>
+Dikuḻ Baker, Salome Harris and Jess Wallace shared the beginnings of the &lt;a href="https://www.ards.com.au/" target="_blank" rel="noopener noreffer ">ARDS&lt;/a> AudioCat Project pilot project, which focuses on cataloging ARDS’ extensive collection materials. Their stories emphasised valuable lessons learned so far.
+&lt;br>&lt;/br>
+PJ Andrews, Juliet Beale and Karen Manton showcased the &lt;a href="https://lant.nt.gov.au/" target="_blank" rel="noopener noreffer ">Libraries and Archives NT&lt;/a> collections and explained the complexities of managing multiple digital collection spaces including their Library Management System, their library catalogue and &lt;a href="https://territorystories.nt.gov.au/" target="_blank" rel="noopener noreffer ">Territory Stories&lt;/a>, their interface for searching digital and published collections about the Northern Territory. This session highlighted challenges and opportunities of working across multiple digital tools.
+&lt;br>&lt;/p></description></item><item><title>Arne ingkerreke apurtelhe-ileme: project launch</title><link>https://www.ldaca.edu.au/news/posts/veronicadobson-launch2025/</link><pubDate>Tue, 15 Apr 2025 11:10:21 +1000</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/news/posts/veronicadobson-launch2025/</guid><description>&lt;br>
 by &lt;a href="https://orcid.org/0009-0002-5174-6382" title="Bridey is an Industry Engagement and Communications officer with LDaCA. She holds an Honour&amp;#39;s degree in linguistics and has previously worked on Indigenous language and technology projects including the Kaytetyemoji app and the Nyingarn platform for manuscript transcription." target="_blank"
  >Bridey Lea&lt;/a
 >
