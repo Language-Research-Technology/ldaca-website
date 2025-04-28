@@ -1,8 +1,8 @@
 ---
-title: "Team member tip: Mark Raadgever"
+title: "Team member tip: Mastering metadata"
 date: 2025-04-27
 draft: false
-description: "Team member tip: Mark Raadgever"
+description: "Team member tip: Mastering metadata"
 ---
 
 ##### By Mark Raadgever
@@ -19,7 +19,7 @@ If you absolutely cannot find a term in a metadata schema that matches the data 
 Because we are using [RO-Crates](https://www.ldaca.edu.au/resources/glossary/#ro-crate) in LDaCA, where possible terms in the incoming data will be mapped to an equivalent Schema.org or <a href="https://github.com/Language-Research-Technology/language-data-commons-vocabs/blob/master/ontology.md">LDAC OLAC-derived term</a>. The best place to start looking for an appropriate metadata schema is in our documentation.
 <br></br>
 
-{{< image Src="/team-member-tip-mark-raadgever/ro-crating_cropped.jpg" Alt="A black and white photograph of a group of people gathered round a computer." Desc="Mark in action, lower right, demonstrating data migration to RO-Crate." Title="Mark in action, lower right, demonstrating data migration to RO-Crate." Ref="Peter Sefton" Height="600">}}
+{{< image Src="/team-member-tip-mark-raadgever/ro-crating_cropped.jpg" Alt="A black and white photograph of a group of people gathered round a computer." Desc="Mark in action, lower right, demonstrating data migration to RO-Crate." Title="Mark in action, lower right, demonstrating data migration to RO-Crate." Ref="Peter Sefton" Height="450">}}
 
 <br>
 
@@ -32,6 +32,6 @@ Because we are using [RO-Crates](https://www.ldaca.edu.au/resources/glossary/#ro
 >[Designing a metadata ecosystem for language research based on RO-Crate](https://www.ldaca.edu.au/news/posts/ldaca-metadata-ecosystem-eresearch-2022/)
 
 ##### Mark Raadgever
-Mark Raadgever is a developer on the Language Data Commons of Australia, focusing on the transformation of data form supplied formats into RO-Crates and OCFL. Having trained as a librarian he spent 16 years working at the National Library of Australia, with most of that time working on loading data to Trove. Moving to LDaCA coincided with a move to Northern NSW, where building a house competes with data transformation for Mark's time.
+Mark Raadgever is a developer on the Language Data Commons of Australia, focusing on the transformation of data from supplied formats into RO-Crates and OCFL. Having trained as a librarian he spent 16 years working at the National Library of Australia, with most of that time working on loading data to Trove. Moving to LDaCA coincided with a move to Northern NSW, where building a house competes with data transformation for Mark's time.
 
 <br>
