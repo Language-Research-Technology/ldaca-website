@@ -1,5 +1,5 @@
 ---
-title: "Arne ingkerreke apurtelhe-ileme: project launch"
+title: "Arne ingkerreke apurtelhe-ileme: Project launch"
 date: 2025-04-15T11:10:21+10:00
 draft: false
 description: ""
