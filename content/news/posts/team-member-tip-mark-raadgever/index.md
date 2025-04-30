@@ -19,7 +19,7 @@ If you absolutely cannot find a term in a metadata schema that matches the data 
 Because we are using [RO-Crates](https://www.ldaca.edu.au/resources/glossary/#ro-crate) in LDaCA, where possible terms in the incoming data will be mapped to an equivalent Schema.org or <a href="https://github.com/Language-Research-Technology/language-data-commons-vocabs/blob/master/ontology.md">LDAC OLAC-derived term</a>. The best place to start looking for an appropriate metadata schema is in our documentation.
 <br></br>
 
-{{< image Src="/team-member-tip-mark-raadgever/ro-crating_cropped.jpg" Alt="A black and white photograph of a group of people gathered round a computer." Desc="Mark in action, lower right, demonstrating data migration to RO-Crate." Title="Mark in action, lower right, demonstrating data migration to RO-Crate." Ref="Peter Sefton" Height="450">}}
+{{< image Src="/team-member-tip-mark-raadgever/ro-crating_cropped.jpg" Alt="A black and white photograph of a group of people gathered round a computer." Desc="Mark in action, lower right, demonstrating data migration to RO-Crate." Title="Mark in action, lower right, demonstrating data migration to RO-Crate." Ref="Peter Sefton">}}
 
 <br>
 
