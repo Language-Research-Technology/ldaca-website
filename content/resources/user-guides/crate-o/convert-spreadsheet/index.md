@@ -24,11 +24,13 @@ weight: 4
 - [Places](#places)
 - [Localities](#localities)
 - [Objects](#objects)
-- [Files (CSV, EAF, WAV)](#files-csv-eaf-wav)
+- [Files](#files)
+
+##### [Existing Metadata Schemas](#existing-metadata-schemas)
+
+##### [Using Custom Terms in the Spreadsheet](#using-custom-terms-in-the-spreadsheet)
 
 ##### [Convert Spreadsheet to an RO-Crate with Crate-O](#convert-spreadsheet-to-an-ro-crate-with-crate-o)
-
-##### [Using Adhoc Defined Terms in the Spreadsheet](#using-adhoc-defined-terms-in-the-spreadsheet)
 
 <br>
 
@@ -60,19 +62,19 @@ The spreadsheet has the below tabs by default, but depending on your {{< glossar
 
 <br>
 
-| Tab         | Description                                                                                                                                                                              |
-| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| RootDataset | {{< glossary_link display="Metadata" id="metadata" >}} about the root or top level of the collection.                                                                                    |
-| @context    | Specifies the vocabulary or schema that is intended to be used with language data.                                                                                                       |
-| Authors     | Metadata about the person or organisation responsible for creating this collection.                                                                                                      |
-| Publishers  | Metadata about the organisation responsible for releasing this collection.                                                                                                               |
-| Licenses    | Metadata about the license(s) within the collection; both for the {{< glossary_link display="objects" id="object" >}} and files.                                                         |
-| Provenance  | Metadata about the documented history or chain of custody of materials from their creation to their current location within a collection.                                                |
-| People      | Metadata about the people within the collection.                                                                                                                                         |
-| Places      | Metadata about the places within the collection.                                                                                                                                         |
-| Localities  | Metadata about the geometric location data within the collection.                                                                                                                        |
-| Objects     | Metadata about the entities within the collection that could encompass one or more files.                                                                                                |
-| Files       | Metadata about the files in your collection. If the collection has multiple file formats, duplicate this tab and add the formats to the tab names, e.g. CSV_Files, EAF_Files, WAV_Files. |
+| Tab         | Description                                                                                                                                                                                                                  |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| RootDataset | {{< glossary_link display="Metadata" id="metadata" >}} about the root or top level of the collection.                                                                                                                        |
+| @context    | Specifies the vocabulary or schema that is intended to be used with language data.                                                                                                                                           |
+| Authors     | Metadata about the person or organisation responsible for creating this collection.                                                                                                                                          |
+| Publishers  | Metadata about the organisation responsible for releasing this collection.                                                                                                                                                   |
+| Licenses    | Metadata about the license(s) within the collection; both for the {{< glossary_link display="objects" id="object" >}} and files.                                                                                             |
+| Provenance  | Metadata about the documented history or chain of custody of materials from their creation to their current location within a collection.                                                                                    |
+| People      | Metadata about the people within the collection.                                                                                                                                                                             |
+| Places      | Metadata about the places within the collection.                                                                                                                                                                             |
+| Localities  | Metadata about the geometric location data within the collection.                                                                                                                                                            |
+| Objects     | Metadata about the entities within the collection that could encompass one or more files.                                                                                                                                    |
+| Files       | Metadata about the files in your collection. If the collection has multiple file formats that you prefer to track separately, duplicate this tab and add the formats to the tab names, e.g. CSV_Files, EAF_Files, WAV_Files. |
 
 > ELAN (.eaf) files can have relative or absolute paths to the data they relate to. The ELAN preferences file is generally not needed for the collection and relates to the particular ELAN user only.
 
@@ -87,7 +89,7 @@ Below the header, an example row is included to illustrate how the section can b
 
 <br>
 
-At a minimum, it’s best practice to include `@id` and `@type` columns in each of your spreadsheet tabs, as these appear in Crate-O for each of the entities. The tables in the next section provide further details on what constitutes a valid `@id` and `@type` in each tab. For more detailed lists of these, see [Metadata for Language Data](https://ldaca.gitbook.io/metadata-for-language-data/).
+At a minimum, it’s best practice to include `@id` and `@type` columns in each of your spreadsheet tabs, as these appear in Crate-O for each of the entities. The tables in the next section provide further details on what constitutes a valid `@id` and `@type` in each tab.
 
 > HINT: To type a column name beginning with `@` in Excel, put an apostrophe before it `'@`. This will force it to be recognised as a text value rather than a formula.
 
@@ -98,7 +100,7 @@ Prefixes including `ldac` and `pcdm` occur on some metadata in the sections belo
 <br>
 
 The columns provided in the template tabs are illustrative only and may not all apply to your collection; please edit these as needed.
-Where a column header begins with a full stop (.), this indicates that the column will be ignored when the data is loaded into Crate-O and will not appear in the {{< glossary_link display="RO-Crate" id="ro-crate" >}}. This can be helpful if you want to retain other information in your spreadsheet that may not be in a format applicable to the RO-Crate.
+Where a column header begins with a full stop `.`, this indicates that the column will be ignored when the data is loaded into Crate-O and will not appear in the {{< glossary_link display="RO-Crate" id="ro-crate" >}}. This can be helpful if you want to retain other information in your spreadsheet that may not be in a format applicable to the RO-Crate.
 
 <br>
 
@@ -123,8 +125,8 @@ The root dataset tab provides information about the top level of the {{< glossar
 | isRef_publisher       | Pre-filled | Generated from the `@id` column in the [Publishers](#publishers) tab.                                                                                                                                                                                                                                                                     |
 | isRef_license         | Pre-filled | Generated from the `@id` column in the [Licenses](#licenses) tab.                                                                                                                                                                                                                                                                         |
 | datePublished         | Data entry | The date the object was published. The date should be in the ISO 8601 format YYYY-MM-DD.                                                                                                                                                                                                                                                  |
-| inLanguage            | Data entry | The language in which the resource is written. For example, a work about the Italian language as used in Australia (subjectLanguage) that is written in English (inLanguage).                                                                                                                                                             |
-| ldac:subjectLanguage  | Data entry | The languages that the materials in the collection are about (not the language that it is in). For example, a work about the Italian language as used in Australia (subjectLanguage) that is written in English (inLanguage).                                                                                                             |
+| inLanguage            | Data entry | The language in which the resource is written. For example, a work about the Italian language as used in Australia (`ldac:subjectLanguage`) that is written in English (`inLanguage`).                                                                                                                                                    |
+| ldac:subjectLanguage  | Data entry | The languages that the materials in the collection are about (not the language that it is in). For example, a work about the Italian language as used in Australia (`ldac:subjectLanguage`) that is written in English (`inLanguage`).                                                                                                    |
 | ldac:metadataIsPublic | Data entry | Determines whether the collection {{< glossary_link display="metadata" id="metadata" >}} can be viewed publicly. Requires a Boolean value (`TRUE` or `FALSE`).                                                                                                                                                                            |
 
 > The prefix `isRef_` indicates that data in this column should be taken from another `@id` field in the spreadsheet. For example, `isRef_author` uses the `@id` from the Author tab to link all the author details to the RootDataset tab.
@@ -149,7 +151,7 @@ An author is a person or organisation responsible for creating the {{< glossary_
 | Column | Type       | Description                                                                                                                                                            |
 | ------ | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | @id    | Data entry | Persistent, managed unique ID in URL format (if available), for example, an ROR for an organisation or an ORCID, personal home page URL or email address for a person. |
-| @type  | Data entry | The type of the author. Either `Person` or `Organization` can be selected.                                                                                             |
+| @type  | Data entry | The type of the author. Select from either `Person` or `Organization`.                                                                                                 |
 | name   | Data entry | The name of the author. Don't include titles such as Dr/Prof.                                                                                                          |
 
 <br>
@@ -263,38 +265,87 @@ An {{< glossary_link display="object" id="object" >}} is a single resource or a 
 | isRef_license            | Data entry | The `@id` of the license to which this object adheres from the [Licenses](#licenses) tab.                                                                                                                                                                                                                                                                                                                         |
 | isRef_ldac:indexableText | Data entry | Identifies which of the files in the given object has content that is indexed for search purposes. For example, in the template, the content of the CSV file would be searchable, whereas the EAF and WAV files would not. If `isRef_ldac:indexableText` is not included in a collection, search will only run on the {{< glossary_link display="metadata" id="metadata" >}} and not the transcript file content. |
 | isRef_contentLocation    | Data entry | The `@id` of the place to which this object relates from the [Places](#places) tab.                                                                                                                                                                                                                                                                                                                               |
-| inLanguage               | Data entry | The language in which the resource is written. For example, a work about the Italian language as used in Australia (subjectLanguage) that is written in English (inLanguage).                                                                                                                                                                                                                                     |
-| ldac:subjectLanguage     | Data entry | The languages that the materials in the collection are about (not the language that it is in). For example, a work about the Italian language as used in Australia (subjectLanguage) that is written in English (inLanguage).                                                                                                                                                                                     |
+| inLanguage               | Data entry | The language in which the resource is written. For example, a work about the Italian language as used in Australia (`ldac:subjectLanguage`) that is written in English (`inLanguage`).                                                                                                                                                                                                                            |
+| ldac:subjectLanguage     | Data entry | The languages that the materials in the collection are about (not the language that it is in). For example, a work about the Italian language as used in Australia (`ldac:subjectLanguage`) that is written in English (`inLanguage`).                                                                                                                                                                            |
 
 <br>
 
-### Files (CSV, EAF, WAV)
+### Files
 
-A file is a container for data and can store data in different formats. For example, a single {{< glossary_link display="object" id="object" >}} could have an audio file as well as a text file containing a transcription of the audio. Three examples of file tabs are included in the template, and their columns are combined in the table below.
+A file is a container for data and can store data in different formats. A single {{< glossary_link display="object" id="object" >}} could have an audio file as well as a text file containing a transcription of the audio. Three examples of file types are included in the template; CSV, EAF and WAV.
 
-| Tab           | Column                      | Type       | Description                                                                                                                                                               |
-| ------------- | --------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| CSV, EAF, WAV | @id                         | Pre-filled | The filepath to the given file. Generated from the `.folder`, `.filename` and `.postfix` columns.                                                                         |
-| CSV, EAF, WAV | @type                       | Pre-filled | The type of the entity. Only `File` is valid.                                                                                                                             |
-| CSV, EAF, WAV | .folder                     | Data entry | The folder name in which the given file appears.                                                                                                                          |
-| CSV, EAF, WAV | .filename                   | Data entry | The name of the given file, without postfixes.                                                                                                                            |
-| CSV, EAF, WAV | .postfix                    | Data entry | The file format of the given file, for example, `.csv`, `.eaf`, `.wav`.                                                                                                   |
-| CSV, EAF      | isType_ldac:Annotation      | Data entry | Indicates whether the given file is an annotation of another file. Requires a Boolean value (`TRUE` or `FALSE`).                                                          |
-| WAV           | isType_ldac:PrimaryMaterial | Data entry | Indicates whether the given file is the object of study, such as a literary work, film, or recording of natural discourse. Requires a Boolean value (`TRUE` or `FALSE`).  |
-| CSV, EAF, WAV | isRef_isPartOf              | Pre-filled | Specifies the object that the file is a part of. Template example is generated from the `.filename` column. If entering manually, note that this field is case-sensitive. |
-| CSV, EAF      | isRef_ldac:annotationOf     | Data entry | The full filename of the primary material that the given file is an annotation of.                                                                                        |
-| CSV, EAF, WAV | .objectId                   | Pre-filled | Generated from the `.filename` column.                                                                                                                                    |
+| Column                      | Type       | Description                                                                                                                                                                           |
+| --------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| @id                         | Pre-filled | The filepath to the given file. Generated from the `.folder`, `.filename` and `.postfix` columns.                                                                                     |
+| @type                       | Pre-filled | The type of the entity. Only `File` is valid.                                                                                                                                         |
+| .folder                     | Data entry | The folder name in which the given file appears.                                                                                                                                      |
+| .filename                   | Data entry | The name of the given file, including postfixes.                                                                                                                                      |
+| isType_ldac:PrimaryMaterial | Data entry | Indicates whether the given file is the object of study, such as a literary work, film, or recording of natural discourse. Requires the Boolean value `TRUE` or leave blank if false. |
+| isType_ldac:Annotation      | Data entry | Indicates whether the given file is an annotation of another file. Requires the Boolean value `TRUE` or leave blank if false.                                                         |
+| isRef_isPartOf              | Data entry | Specifies the object that the file is a part of. Template example uses the `@id` column of the [Objects](#objects) tab. If entering manually, note that this field is case-sensitive. |
+| isRef_ldac:annotationOf     | Data entry | The full filename of the primary material that the given file is an annotation of. Leave this blank if the file is the primary material.                                              |
+
+<br>
+
+## Existing Metadata Schemas
+
+The spreadsheet uses a number of standard vocabularies for terms. If there are metadata terms not present in the template that you need to use, check if an existing term fits from the below schemas.
+
+- [Schema.org](https://schema.org/): No prefix needed, e.g. `description`.
+- [Language Data Commons Schema Terms](https://w3id.org/ldac/terms) (Can also be browsed through the [Metadata for Language Data GitBook](https://ldaca.gitbook.io/metadata-for-language-data)): Use the prefix `ldac`, e.g. `ldac:interviewer`.
+- [Dublin Core Metadata Terms](http://purl.org/dc/terms): Use the prefix `dct`, e.g. `dct:rightsHolder`.
+
+<br>
+
+## Using Custom Terms in the Spreadsheet
+
+If there are terms you want to use in the spreadsheet that aren't covered by those in the [Existing Metadata Schemas](#existing-metadata-schemas) section, follow the steps below to add them. These are referred to as custom terms.
+
+<br>
+
+1. Add a tab to the spreadsheet titled 'Custom Terms' or similar.
+
+<br>
+
+2. Add the following header to the 'Custom Terms' tab. (Copy and pasting the entire header below will retain the correct formatting in the spreadsheet.)
+
+| @id | @type | name | description | rdfs:label | rdfs:comment | rdfs:subClassOf | sameAs | inDefinedTermSet |
+| --- | ----- | ---- | ----------- | ---------- | ------------ | --------------- | ------ | ---------------- |
+
+<br>
+
+3. Fill in the relevant columns with your custom term(s). Each of the columns are detailed below.
+
+> Metadata terms are organised according to entity types:
+>
+> | Entity            | Description                                                                                                                                                                                                                                                                                                   | Examples                                                                    |
+> | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+> | Property          | Used for attributes of the thing you are describing, similar to fields you might see on a form.<ul><li>If you want the value of the term to be free text, e.g. name, age, make a property.<li>If you have a set of finite values for the term, like multiple choice, make a property as the overarching term. | <ul><li>motherTongue<li>register                                            |
+> | Defined Term Sets | Used to define a group of terms that can be used under a single property.<ul><li>If you have a set of finite values for a property, like multiple choice, make a defined term set to group these.                                                                                                             | <ul><li>RegisterTerms                                                       |
+> | Defined Terms     | Used for the values of a defined term set that are used under a single property.<ul><li>If you have a set of finite values for a property, like multiple choice, make each of these a defined term.                                                                                                           | <ul><li>GovernmentEnglish<li>PrivateWritten<li>PublicWritten<li>SpeechBased |
+>
+> Properties should start with a lowercase letter, whereas Defined Terms and Defined Term Sets start with uppercase.
+
+| Column           | Type       | Description                                                                                                                                                                                                                                                                                                   |
+| ---------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| @id              | Data entry | A unique identifier for the term. Identifiers should be prefixed with `#`.                                                                                                                                                                                                                                    |
+| @type            | Data entry | The type of the term. Select from either `rdf:Property`, `DefinedTerm` or `DefinedTermSet`. See the table above for descriptions and examples of these.                                                                                                                                                       |
+| name             | Data entry | The name of the term.                                                                                                                                                                                                                                                                                         |
+| description      | Data entry | A description of the term.                                                                                                                                                                                                                                                                                    |
+| rdfs:label       | Data entry | TODO: Should we generate the @id from this but adding a #?                                                                                                                                                                                                                                                    |
+| rdfs:comment     | Data entry | TODO: How does this one differ from description?                                                                                                                                                                                                                                                              |
+| rdfs:subClassOf  | Data entry |                                                                                                                                                                                                                                                                                                               |
+| sameAs           | Data entry |                                                                                                                                                                                                                                                                                                               |
+| inDefinedTermSet | Data entry | If one or more of your terms has the `@type` `DefinedTerm`, add the `@id` of the defined term set it is a part of here. If you haven't created a term with the `@type` `DefinedTermSet`, add another row for this. For rows that have the `@type` `rdf:Property` or `DefinedTermSet`, leave this field blank. |
+
+### Example Custom Terms Tab
+
+TODO
 
 <br>
 
 ## Convert Spreadsheet to an RO-Crate with Crate-O
 
 For steps on adding your spreadsheet data to an {{< glossary_link display="RO-Crate" id="ro-crate" >}}, see [Append Data from Spreadsheet](/resources/user-guides/crate-o/ro-crate-creation/#append-data-from-spreadsheet).
-
-<br>
-
-## Using Adhoc Defined Terms in the Spreadsheet
-
-If there are terms you'd like to use that aren't covered by those in [Schema.org](https://schema.org/) and the [Language Data Commons Schema Terms](https://w3id.org/ldac/terms), follow these steps to add them:
 
 <br>
