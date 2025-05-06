@@ -9,12 +9,16 @@ description: "Catch up with LDaCA by reading our past newsletters."
 
 An archive of our previous newsletters.
 
-### [Latest Issue](https://us13.campaign-archive.com/?u=ef8667be63aefb1e35062a797&id=572c1705bd)
+### [Latest Issue](https://us13.campaign-archive.com/?u=ef8667be63aefb1e35062a797&id=65fc97918e)
 
 {{<raw>}}
 
 <details>
 <summary><b><font color="#79A38D">Previous Issues</font></b></summary>
+<details>
+<summary>2025</summary>
+<p><b><a href = "https://us13.campaign-archive.com/?u=ef8667be63aefb1e35062a797&id=572c1705bd" target = "_blank">Quarter 1 2025</a></b></p>
+</details>
 <details>
 <summary>2024</summary>
 <p><b><a href = "https://us13.campaign-archive.com/?u=ef8667be63aefb1e35062a797&id=fc8d50f174" target = "_blank">Quarter 4 2024</a></b></p>
