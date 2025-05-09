@@ -50,6 +50,13 @@
  
  &lt;tr valign="top">
  
+ &lt;td>&lt;a name="analogue">&lt;/a>&lt;b>Analogue&lt;/b>&lt;/td>&lt;/td>
+ &lt;td>Ways of storing information where the variables used for encoding are continuous. This contrasts with digital storage which uses only two discrete values. An example of analogue storage is a hard-copy photograph where the variables of hue and intensity are represented as continuous variables.
+ &lt;/td>
+ 
+ 
+ &lt;tr valign="top">
+ 
  &lt;td>&lt;a name="api">&lt;/a>&lt;b>API&lt;/b>&lt;/td>&lt;/td>
  &lt;td>Application Programming Interface. A way for computer programs to communicate with each other. It is a way for one computer or system to ask another computer or system to do something, like provide a dataset.
  &lt;/td>

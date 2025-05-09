@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>News on LDaCA</title><link>https://www.ldaca.edu.au/news/</link><description>Recent content in News on LDaCA</description><generator>Hugo</generator><language>en-us</language><managingEditor>info@ldaca.edu.au (Language Data Commons of Australia)</managingEditor><webMaster>info@ldaca.edu.au (Language Data Commons of Australia)</webMaster><lastBuildDate>Wed, 18 Oct 2023 11:12:10 +1000</lastBuildDate><atom:link href="https://www.ldaca.edu.au/news/index.xml" rel="self" type="application/rss+xml"/><item><title>Events</title><link>https://www.ldaca.edu.au/news/events/</link><pubDate>Wed, 18 Oct 2023 11:12:10 +1000</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/news/events/</guid><description>&lt;br>
 &lt;p>&lt;a href="#recurring-events" rel="">Recurring Events&lt;/a>  
 &lt;a href="#previous-events" rel="">Previous Events&lt;/a>  
-&lt;a href="#webinars" rel="">Webinars&lt;/a>   &lt;/p>
+&lt;a href="#webinars" rel="">Previous Webinars&lt;/a>   &lt;/p>
  &lt;br>
-&lt;h2 id="recurring-events">Recurring Events&lt;/h2>
-&lt;h3 id="ro-crate-clinic-drop-in">RO-Crate Clinic Drop-in&lt;/h3>
-&lt;p>The RO-Crate community run a weekly drop-in call in Australia. For further information contact &lt;a href="mailto:p.sefton@uq.edu.au" rel="">Peter Sefton&lt;/a>.&lt;/p>
-&lt;p>&lt;strong>When&lt;/strong>: Weekly, Thursday 2pm AEST&lt;/p>
-&lt;p>&lt;strong>Where&lt;/strong>: Online via &lt;a href="https://uqz.zoom.us/j/85192198914" target="_blank" rel="noopener noreffer ">Zoom&lt;/a>&lt;/p>
-&lt;hr />
-&lt;h2 id="previous-events">Previous Events&lt;/h2>
-&lt;data id="id-1" data-raw>&lt;/data>
-&lt;br>
-&lt;p>If your university or organisation would like to host a workshop, please &lt;a href="mailto:ldaca@uq.edu.au" rel="">contact us&lt;/a>.&lt;/p>
-&lt;br>
-&lt;h3 id="webinars">Webinars&lt;/h3>
-&lt;p>Our webinar series was a joint initiative with the Language Technology and Data Analysis Laboratory (&lt;a href="https://slcladal.github.io/index.html" target="_blank" rel="noopener noreffer ">LADAL&lt;/a>) at the School of Languages and Cultures, The University of Queensland.&lt;/p></description></item></channel></rss>
+&lt;h3 id="webinar-language-technology-and-the-metacrisis">Webinar: Language Technology and the Metacrisis&lt;/h3>
+&lt;p>&lt;strong>Presenter&lt;/strong>: &lt;a href="https://researchers.cdu.edu.au/en/persons/steven-bird" target="_blank" rel="noopener noreffer ">Professor Steven Bird&lt;/a>, Charles Darwin University&lt;/p>
+&lt;p>&lt;strong>Abstract&lt;/strong>:&lt;/p>
+&lt;p>Despite their manifold benefits, language technologies are contributing to several unfolding crises. Small screens deliver mainstream content across the world and entice children of minoritised communities away from their ancestral languages. The data centres that power large language models depend on the mining of ever more rare earth metals from indigenous lands and emit ever more carbon. Malicious actors flood social media with fake news, provoking extremism, division, and war. Common to these crises is content, i.e. language content, increasingly generated and accessed using language technologies. These developments – the language crisis, the environmental crisis, and the meaning crisis – compound each other in what is being referred to as the metacrisis. How are we to respond, then, as a community of practice who is actively developing still more language technologies? I believe that a good first step is to bring our awareness to the matter and to rethink what we are doing. We must be suspicious of purely technological solutions which may only exacerbate problems that were created by our use of technology. Instead, I argue that we should approach the problem as social and cultural. I will share stories from a small and highly multilingual indigenous society who understands language not as sequence data but as social practice, and who understands language resources not as annotated text and speech but as stories and knowledge practices of language owners. I will explore ramifications for our work in the space of language technologies, and propose a relational approach to language technology that avoids extractive processes and centres speech communities.&lt;/p></description></item></channel></rss>
