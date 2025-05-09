@@ -139,7 +139,7 @@ We are very grateful to Nick for making the time to talk with us about these imp
 
 <a name="fn-1">1</a> Bridey Lea and Simon Musgrave collaborated in editing this material. [↩](#back-1)
 
-<a name="fn-2">2</a> Published as Thieberger, Nicholas (Ed ). 2015. _Handbook of Western Australian Aboriginal languages south of the Kimberley Region_. PDF. (Ed.) CRCL. C-124. Pacific Linguistics. [↩](#back-2)
+<a name="fn-2">2</a> Published as Thieberger, Nicholas (Ed ). 2015. [_Handbook of Western Australian Aboriginal languages south of the Kimberley Region_](http://web.archive.org/web/20000816224023/http://coombs.anu.edu.au/WWWVLPages/AborigPages/LANG/WA/wahbk.htm#.). PDF. (Ed.) CRCL. C-124. Pacific Linguistics. [↩](#back-2)
 
 <a name="fn-3">3</a> Wangka Maya Aboriginal Language Centre. [↩](#back-3)
 
