@@ -23,7 +23,7 @@
     <div>
       <div class="slide__content">
         <h1>Updates</h1>
-                <ul
+                <ul>
                 <h3><li>Coming up: a webinar on Language Technology and the metacrisis presented by Prof Steven Bird (<a href = "./news/events/" target="_blank">Read more ➤</a>)</li></h3>
                 <h3><li>New blog post: interview with Nick Thieberger (<a href = "./news/posts/nick-thieberger/" target="_blank">Read more ➤</a>)</li></h3>
         <h3><li>Our second newsletter for the year is out (<a href = "https://us13.campaign-archive.com/?u=ef8667be63aefb1e35062a797&id=65fc97918e" target="_blank">Read more ➤</a>)</li></ 
