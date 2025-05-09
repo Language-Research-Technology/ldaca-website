@@ -25,7 +25,7 @@
         <h1>Updates</h1>
                 <ul>
                 <h3><li>Coming up: a webinar on Language Technology and the metacrisis presented by Prof Steven Bird (<a href = "./news/events/" target="_blank">Read more ➤</a>)</li></h3>
-                <h3><li>Community Data Lab project plans open for discussion (<a href = "https://ardc.edu.au/article/draft-project-plans-for-the-ardc-community-data-lab/" target="_blank">Read more ➤</a>)</li></h3>
+                <h3><li>New blog post: interview with Nick Thieberger (<a href = "./news/posts/nick-thieberger/" target="_blank">Read more ➤</a>)</li></h3>
         <h3><li>Our second newsletter for the year is out (<a href = "https://us13.campaign-archive.com/?u=ef8667be63aefb1e35062a797&id=65fc97918e" target="_blank">Read more ➤</a>)</li></h3>
         
         <h3><li>Media: Robert McLellan talks to Sarah Morice for ABC NewsRadio (<a href = "https://www.youtube.com/watch?v=JCzYj3LeZWI" target="_blank">Listen ➤</a>)</li></h3>            
