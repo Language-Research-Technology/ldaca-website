@@ -9,7 +9,19 @@ layout: "root_list"
 
 ## Refereed publications
 
+### 2025
+
+Schweinberger, Martin & Kate Burridge. 2025. Vulgarity in online discourse around the English-speaking world. _Lingua_ 320. https://doi.org/10.1016/j.lingua.2025.103946
+
+Hames, Sam, Michael Haugh & Simon Musgrave. 2025. “How is that unparliamentary?”: The metapragmatics of ‘unparliamentary’ language in the Australian Federal Parliament. _Lingua_ 320. https://doi.org/10.1016/j.lingua.2025.103932
+
+Musgrave, Simon. 2025. Australian slang as a literary genre. _Australian Journal of Linguistics_ 44 (4). 411–30. https://doi:10.1080/07268602.2024.2444219
+
 ### 2024
+
+Schweinberger, Martin. 2024. Seeded topic modeling as a more appropriate alternative to unsupervised standard topic models. _Discourse Studies_ 0(0). https://doi.org/10.1177/14614456241293895
+
+Bednarek, Monika. 2024. Topic modelling in corpus-based discourse analysis: Uses and critiques. _Discourse Studies_ 0(0). https://doi.org/10.1177/14614456241293075
 
 Bednarek, Monika. 2024. Analysing intra-textual patterns in corpus-assisted discourse studies. _Journal of Corpora and Discourse Studies_ 7. 43–62. https://doi.org/10.18573/jcads.113.
 <br />
