@@ -70,20 +70,6 @@ The RO-Crate community run a weekly drop-in call in Australia. For further infor
 </details>
 
 <details>
-<summary><b>Get started with Hansard for humanities, arts, and social sciences research</b></summary>
-
-<p>Parliamentary bodies around the world have been publishing transcriptions of their proceedings for decades or even centuries. These transcriptions enable public scrutiny and transparency of the actions and speech of legislative bodies and elected representatives.</P>
-
-<p>This workshop aimed to provide a starting point for working with these transcribed proceedings, including evaluating how they might (and might not!) be useful for humanities research, how to get started for different kinds of projects, and cautionary notes on potential limitations.</P>
-
-<p><b>When</b>: 20 February 2025</p>
-
-<p><b>Organisers</b>: <a href="https://www.unimelb.edu.au/mdap" target="_blank">Melbourne Data Analytics Platform</a></p>
-
-<p><b>Leaders</b>: {{< profile id="hames" >}} and {{< profile id="musgrave" >}}</p>
-</details>
-
-<details>
 <summary>
 <b>Indigenous Data Governance Masterclass</b>
 </summary>
