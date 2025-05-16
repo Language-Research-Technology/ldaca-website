@@ -54,7 +54,7 @@ From the Main Menu, the following options are available:
 
 Below the main menu, the Mode Selector allows you to choose a predefined {{< glossary_link display="mode" id="mode" >}} or load one from your computer.
 
-> Note that for blank {{< glossary_link display="RO-Crates" id="ro-crate" >}}, the mode will default to _Simple RO-Crate Dataset_, however for language data, the mode _Language Data Commons top-level Collection (corpus)_ is most relevant.
+> Note that for blank {{< glossary_link display="RO-Crates" id="ro-crate" >}}, the mode will default to _Simple RO-Crate Dataset_, however for language data, the mode _Language Data Commons Comprehensive Collection_ is most relevant.
 
 When a file or folder is open in {{< glossary_link display="Crate-O" id="crate-o" >}}, _Selected Directory_ to the right of the **_Mode_** dropdown menu shows the directory or folder you currently have open.
 
