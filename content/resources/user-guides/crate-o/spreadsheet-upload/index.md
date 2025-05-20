@@ -14,10 +14,12 @@ weight: 4
 
 ##### [Column Breakdown](#column-breakdown)
 
-- [Root](#root)
+- [RootDataset](#rootdataset)
+- [@context](#context)
 - [Authors](#authors)
 - [Publishers](#publishers)
 - [Licenses](#licenses)
+- [License_Files](#license_files)
 - [People](#people)
 - [Places](#places)
 - [Localities](#localities)
@@ -54,17 +56,19 @@ The spreadsheet has the below tabs by default, but depending on your {{< glossar
 
 <br>
 
-| Tab        | Description                                                                                                                                                                              |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Root       | {{< glossary_link display="Metadata" id="metadata" >}} about the root or top level of the collection.                                                                                    |
-| Authors    | Metadata about the person or organisation responsible for creating this collection.                                                                                                      |
-| Publishers | Metadata about the organisation responsible for releasing this collection.                                                                                                               |
-| Licenses   | Metadata about the license(s) within the collection; both for the {{< glossary_link display="objects" id="object" >}} and files, and for the collection's metadata.                      |
-| People     | Metadata about the people within the collection.                                                                                                                                         |
-| Places     | Metadata about the places within the collection.                                                                                                                                         |
-| Localities | Metadata about the geometric location data within the collection.                                                                                                                        |
-| Objects    | Metadata about the entities within the collection that could encompass one or more files.                                                                                                |
-| Files      | Metadata about the files in your collection. If the collection has multiple file formats, duplicate this tab and add the formats to the tab names, e.g. csv_files, eaf_files, wav_files. |
+| Tab           | Description                                                                                                                                                                              |
+| ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| RootDataset   | {{< glossary_link display="Metadata" id="metadata" >}} about the root or top level of the collection.                                                                                    |
+| @context      | Specifies the vocabulary or schema that is intended to be used with language data.                                                                                                       |
+| Authors       | Metadata about the person or organisation responsible for creating this collection.                                                                                                      |
+| Publishers    | Metadata about the organisation responsible for releasing this collection.                                                                                                               |
+| Licenses      | Metadata about the license(s) within the collection; both for the {{< glossary_link display="objects" id="object" >}} and files, and for the collection's metadata.                      |
+| License_Files | Metadata about the license files within the collection, for example, text documents.                                                                                                     |
+| People        | Metadata about the people within the collection.                                                                                                                                         |
+| Places        | Metadata about the places within the collection.                                                                                                                                         |
+| Localities    | Metadata about the geometric location data within the collection.                                                                                                                        |
+| Objects       | Metadata about the entities within the collection that could encompass one or more files.                                                                                                |
+| Files         | Metadata about the files in your collection. If the collection has multiple file formats, duplicate this tab and add the formats to the tab names, e.g. csv_files, eaf_files, wav_files. |
 
 > ELAN (.eaf) files can have relative or absolute paths to the data they relate to. The ELAN preferences file is generally not needed for the collection and relates to the particular ELAN user only.
 
@@ -96,9 +100,9 @@ The section below describes each of the columns included in the template, ordere
 
 <br>
 
-### Root
+### RootDataset
 
-The root tab provides information about the top level of the {{< glossary_link display="collection" id="collection" >}}. Unlike the other tabs, the root tab can only have one row, so if there are columns that require more than one value, duplicate that column.
+The root tab provides information about the top level of the {{< glossary_link display="collection" id="collection" >}}. Unlike the other tabs, the root dataset tab lists items row by row and can only have one column, so if there are rows that require more than one value (like `@type`), duplicate that row.
 
 | Column          | Type       | Description                                                                                                                                                                                                                   |
 | --------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -114,7 +118,18 @@ The root tab provides information about the top level of the {{< glossary_link d
 | inLanguage      | Data entry | The language in which the resource is written. For example, a work about the Italian language as used in Australia (subjectLanguage) that is written in English (inLanguage).                                                 |
 | subjectLanguage | Data entry | The languages that the materials in the collection are about (not the language that it is in). For example, a work about the Italian language as used in Australia (subjectLanguage) that is written in English (inLanguage). |
 
-> The prefix `isRef_` indicates that data in this column should be taken from another `@id` field in the spreadsheet. For example, `isRef_author` uses the `@id` from the Author tab to link all the author details to the Root tab.
+> The prefix `isRef_` indicates that data in this column should be taken from another `@id` field in the spreadsheet. For example, `isRef_author` uses the `@id` from the Author tab to link all the author details to the RootDataset tab.
+
+<br>
+
+### @context
+
+The context specifies the vocabulary or schema that is intended to be used with the collection. In the case of language data, the [Language Data Commons Schema (ldac)](https://w3id.org/ldac/terms) is used.
+
+| Column | Type       | Description                                                              |
+| ------ | ---------- | ------------------------------------------------------------------------ |
+| name   | Pre-filled | The name of the vocabulary or schema.                                    |
+| @id    | Pre-filled | Persistent, managed unique ID in URL format of the vocabulary or schema. |
 
 <br>
 
@@ -158,6 +173,20 @@ A license for a {{< glossary_link display="collection" id="collection" >}} estab
 It is possible to leave the {{< glossary_link display="licensing" id="licensing" >}} tab blank if these details are still being finalised for the collection, however, this will need to be amended later in {{< glossary_link display="Crate-O" id="crate-o" >}}.
 
 > For custom licenses (i.e. those specific to a particular collection), it is recommended that a copy of the license be included in the repository to ensure that it remains accessible. Furthermore, if there are any additional usage restrictions or options for use outside of a given license, this information can be included in a `usageInfo` field, e.g. "For any use not permitted by the CC-BY-ND 4.0 License, please contact the Data Steward".
+
+<br>
+
+### License_Files
+
+The license files are those that are physically within the colelction as text files, as opposed to those where the license is a URL, like Creative Commons licenses.
+
+| Column         | Type       | Description                                                                                                      |
+| -------------- | ---------- | ---------------------------------------------------------------------------------------------------------------- |
+| @id            | Data entry | The filepath to the given file.                                                                                  |
+| @type          | Pre-filled | The type of the entity. Only `File` and `DataReuseLicense` are valid.                                            |
+| name           | Data entry | The name of the license file.                                                                                    |
+| description    | Data entry | A description of the license file.                                                                               |
+| isRef_isPartOf | Pre-filled | The collection this object is a member of, generated from the @id column in the [RootDataset](#rootdataset) tab. |
 
 <br>
 
@@ -217,7 +246,7 @@ An {{< glossary_link display="object" id="object" >}} is a single resource or a 
 | isRef_speaker         | Pre-filled | Generated from the `.pseudonym` column with `#` prefixed.                                                                                                                                                                                                                                                                                                                                                    |
 | .pseudonym            | Data entry | An example of a column from a {{< glossary_link display="data steward" id="data-steward" >}}'s source data, so that speakers in the collection are anonymised.                                                                                                                                                                                                                                               |
 | datePublished         | Data entry | The date the object was published. The date should be in ISO 8601 format YYYY-MM-DD.                                                                                                                                                                                                                                                                                                                         |
-| isRef_pcdm:memberOf   | Pre-filled | The collection this object is a member of, generated from the `@id` column in the [Root](#root) tab. Or if the collection contains sub-collections, a reference to another RepositoryCollection `@id`.                                                                                                                                                                                                       |
+| isRef_pcdm:memberOf   | Pre-filled | The collection this object is a member of, generated from the `@id` column in the [RootDataset](#rootdataset) tab. Or if the collection contains sub-collections, a reference to another RepositoryCollection `@id`.                                                                                                                                                                                         |
 | isRef_license         | Data entry | The `@id` of the license to which this object adheres from the [Licenses](#licenses) tab.                                                                                                                                                                                                                                                                                                                    |
 | isRef_indexableText   | Data entry | Identifies which of the files in the given object has content that is indexed for search purposes. For example, in the template, the content of the CSV file would be searchable, whereas the EAF and WAV files would not. If `isRef_indexableText` is not included in a collection, search will only run on the {{< glossary_link display="metadata" id="metadata" >}} and not the transcript file content. |
 | isRef_contentLocation | Data entry | The `@id` of the place to which this object relates from the [Places](#places) tab.                                                                                                                                                                                                                                                                                                                          |

@@ -11,29 +11,28 @@ aliases:
 
 [Recurring Events](#recurring-events)&emsp;&emsp;
 [Previous Events](#previous-events)&emsp;&emsp;
-[Webinars](#webinars) &emsp;&emsp;
+[Previous Webinars](#webinars) &emsp;&emsp;
 
  <br>
 
-<br>
 
-### Get started with Hansard for humanities, arts, and social sciences research
+### Webinar: Language Technology and the Metacrisis
 
-Parliamentary bodies around the world have been publishing transcriptions of their proceedings for decades or even centuries. These transcriptions enable public scrutiny and transparency of the actions and speech of legislative bodies and elected representatives.
+Join us for the first webinar in our 2025 webinar series, hosted by the Language Data Commons of Australia.
 
-Because of their documentation of legislative action and speech, their relatively consistent format, and their coverages of long periods of time they are potentially useful for policy researchers, media and communication scholars, political scientists, linguists, sociologists, historians, and many others.
+**Presenter**: [Professor Steven Bird](https://researchers.cdu.edu.au/en/persons/steven-bird), Charles Darwin University
 
-This workshop aims to provide a starting point for working with these transcribed proceedings, including evaluating how they might (and might not!) be useful for your research, how to get started for different kinds of projects, and cautionary notes on potential limitations.
+Over the past three decades, Steven Bird has been working with minoritised peoples in Africa, Melanesia, Amazonia and Australia, and exploring how communities can keep their oral languages and cultures strong. Since 2017 he has been research professor at Charles Darwin University, where he collaborates with Indigenous leaders and directs the Top End Language Lab.
 
-**Organisers**: [Melbourne Data Analytics Platform](https://www.unimelb.edu.au/mdap)
+**Abstract**:
 
-**Who**: {{< profile id="hames" >}} and {{< profile id="musgrave" >}}
+Despite their manifold benefits, language technologies are contributing to several unfolding crises. Small screens deliver mainstream content across the world and entice children of minoritised communities away from their ancestral languages. The data centres that power large language models depend on the mining of ever more rare earth metals from indigenous lands and emit ever more carbon. Malicious actors flood social media with fake news, provoking extremism, division, and war. Common to these crises is content, i.e. language content, increasingly generated and accessed using language technologies. These developments – the language crisis, the environmental crisis, and the meaning crisis – compound each other in what is being referred to as the metacrisis. How are we to respond, then, as a community of practice who is actively developing still more language technologies? I believe that a good first step is to bring our awareness to the matter and to rethink what we are doing. We must be suspicious of purely technological solutions which may only exacerbate problems that were created by our use of technology. Instead, Steven argues that we should approach the problem as social and cultural. He will share stories from a small and highly multilingual indigenous society who understands language not as sequence data but as social practice, and who understands language resources not as annotated text and speech but as stories and knowledge practices of language owners. He will explore ramifications for our work in the space of language technologies, and propose a relational approach to language technology that avoids extractive processes and centres speech communities.
 
-**When**: 20 February 2025, 12:30 – 4:305 pm (AEDT)
+**When**: 29 May 2025, 3:30PM AEST
 
-**Where**: Manhari Room, Level 7, Melbourne Connect, 700 Swanston Street, Carlton
+**Where**: https://uqz.zoom.us/s/88918374980
 
-**[Registration](https://rduevents.unimelb.edu.au/event/hansard-for-hass)**
+**Add to calendar**: [Outlook](https://outlook.office.com/calendar/0/action/compose?allday=false&body=Join%20us%20for%20the%20first%20webinar%20in%20our%202025%20webinar%20series%2C%20hosted%20by%20the%20Language%20Data%20Commons%20of%20Australia.%20In%20this%20webinar%2C%20%20Professor%20Steven%20Bird%20%28Charles%20Darwin%20University%29%2C%20%20will%20address%20the%20unfolding%20%27metacrisis%27%20which%20language%20technologies%20contribute%20to%20and%20offer%20ways%20we%20can%20begin%20to%20respond%20to%20it%20as%20language%20researchers%20and%20technologists.%20%20&enddt=2025-05-29T16%3A30%3A00&location=https%3A%2F%2Fuqz.zoom.us%2Fs%2F88918374980&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2025-05-29T15%3A30%3A00&subject=Language%20technology%20and%20the%20metacrisis) | [Google](https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20250529T053000Z%2F20250529T063000Z&details=Join%20us%20for%20the%20first%20webinar%20in%20our%202025%20webinar%20series%2C%20hosted%20by%20the%20Language%20Data%20Commons%20of%20Australia.%20In%20this%20webinar%2C%20%20Professor%20Steven%20Bird%20%28Charles%20Darwin%20University%29%2C%20%20will%20address%20the%20unfolding%20%27metacrisis%27%20which%20language%20technologies%20contribute%20to%20and%20offer%20ways%20we%20can%20begin%20to%20respond%20to%20it%20as%20language%20researchers%20and%20technologists.%20%20&location=https%3A%2F%2Fuqz.zoom.us%2Fs%2F88918374980&text=Language%20technology%20and%20the%20metacrisis) 
 
 <br>
 
@@ -53,8 +52,29 @@ The RO-Crate community run a weekly drop-in call in Australia. For further infor
 
 {{<raw>}}
 
+
+
 <details>
 <summary><b><font color="#79A38D">2025</font></b></summary>
+
+<details>
+<summary>
+<b>Get started with Hansard for humanities, arts, and social sciences research</b>
+</summary>
+<p>Parliamentary bodies around the world have been publishing transcriptions of their proceedings for decades or even centuries. These transcriptions enable public scrutiny and transparency of the actions and speech of legislative bodies and elected representatives.</p>
+
+<p>Because of their documentation of legislative action and speech, their relatively consistent format, and their coverages of long periods of time they are potentially useful for policy researchers, media and communication scholars, political scientists, linguists, sociologists, historians, and many others.</p>
+
+<p>This workshop aimed to provide a starting point for working with these transcribed proceedings, including evaluating how they might (and might not!) be useful for your research, how to get started for different kinds of projects, and cautionary notes on potential limitations.</p>
+
+<p><b>When</b>: 20 February 2025</p>
+
+<p><b>Organisers</b>: <a href="https://www.unimelb.edu.au/mdap" target="_blank">Melbourne Data Analytics Platform</a></p>
+
+<p><b>Leaders</b>: {{< profile id="hames" >}} and {{< profile id="musgrave" >}}
+
+</details>
+
 <details>
 <summary>
 <b>Indigenous Data Governance Masterclass</b>
@@ -430,7 +450,7 @@ If your university or organisation would like to host a workshop, please [contac
 
 <br>
 
-### Webinars {#webinars}
+### Previous Webinars {#webinars}
 
 Our webinar series was a joint initiative with the Language Technology and Data Analysis Laboratory ([LADAL](https://slcladal.github.io/index.html)) at the School of Languages and Cultures, The University of Queensland.
 
