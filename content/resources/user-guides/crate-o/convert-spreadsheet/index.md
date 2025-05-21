@@ -161,10 +161,10 @@ The root dataset tab provides information about the top level of the {{< glossar
 
 The context specifies the vocabulary or schema that is intended to be used with the collection. In the case of language data, the [Language Data Commons Schema (ldac)](https://w3id.org/ldac/terms) is used. This is also the place to specify the schema for [Custom Terms](#custom-terms) if these occur in your collection.
 
-| Column | Type       | Description                                                                                                                                                                                                            |
-| ------ | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| name   | Pre-filled | The name of the vocabulary or schema. The template is pre-filled with the `ldac` schema, which is required for this template. If your collection has [Custom Terms](#custom-terms), keep the second row with `custom`. |
-| @id    | Pre-filled | Persistent, managed unique ID in URL format of the vocabulary or schema. If your collection has [Custom Terms](#custom-terms), keep the second row with `arcp://name,custom/terms#`.                                   |
+| Column | Type       | Description                                                                                                                                                                                                                                                                    |
+| ------ | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| name   | Pre-filled | The namespace of the required vocabulary or schema. The template is pre-filled with the `ldac` schema, which is required for this template. It is also pre-filled with `csvw` for [Schemas](#schemas) and [Columns](#columns), and `custom` for [Custom Terms](#custom-terms). |
+| @id    | Pre-filled | Persistent, managed unique ID in URL format of the vocabulary or schema.                                                                                                                                                                                                       |
 
 <br>
 
@@ -300,13 +300,13 @@ This tab contains information about the places within the {{< glossary_link disp
 
 This tab contains information about the geometric locations within the {{< glossary_link display="collection" id="collection" >}}.
 
-| Column          | Type       | Description                                                                                                                                                                    |
-| --------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| @id             | Data entry | A unique identifier for the location. Identifiers should be prefixed with `#`.                                                                                                 |
-| @type           | Pre-filled | The type of the entity. Only `Geometry` is valid.                                                                                                                              |
-| .latitude       | Data entry | The latitude of the location in decimal degree format.                                                                                                                         |
-| .longitude      | Data entry | The longitude of the location in decimal degree format.                                                                                                                        |
-| geosparql:asWKT | Pre-filled | The WKT serialisation of the geometry, generated from the `.latitude` and `.longitude` columns. Note that `geosparql:asWKT` format lists longitude first followed by latitude. |
+| Column     | Type       | Description                                                                                                                                                          |
+| ---------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| @id        | Data entry | A unique identifier for the location. Identifiers should be prefixed with `#`.                                                                                       |
+| @type      | Pre-filled | The type of the entity. Only `Geometry` is valid.                                                                                                                    |
+| .latitude  | Data entry | The latitude of the location in decimal degree format.                                                                                                               |
+| .longitude | Data entry | The longitude of the location in decimal degree format.                                                                                                              |
+| asWKT      | Pre-filled | The WKT serialisation of the geometry, generated from the `.latitude` and `.longitude` columns. Note that `asWKT` format lists longitude first followed by latitude. |
 
 <br>
 
