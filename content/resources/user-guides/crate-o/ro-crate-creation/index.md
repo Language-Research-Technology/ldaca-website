@@ -13,9 +13,13 @@ weight: 3
 <br>
 
 ##### [Open Directory](#open-directory)
+
 ##### [Select Mode](#select-mode)
+
 ##### [Add Entity Metadata](#add-entity-metadata)
+
 ##### [Save RO-Crate](#save-ro-crate)
+
 ##### [Append Data from Spreadsheet](#append-data-from-spreadsheet)
 
 <br>
@@ -23,9 +27,9 @@ weight: 3
 ## Open Directory
 
 - Open [Crate-O](https://language-research-technology.github.io/crate-o/#/) in a compatible browser.
-- In the [Main Menu](/resources/user-guides/crate-o/basic-navigation/#main-menu), select ___Open Directory___.
+- In the [Main Menu](/resources/user-guides/crate-o/basic-navigation/#main-menu), select **_Open Directory_**.
 - Navigate to a folder where the {{< glossary_link display="RO-Crate" id="ro-crate" >}} will be saved, or create a new one, then confirm your selection.
-- For the pop-up message asking _Let site view files?_, select ___View Files___.
+- For the pop-up message asking _Let site view files?_, select **_View Files_**.
 - Your current working directory will be displayed in the _Selected Directory_ section in the [Mode Selector](/resources/user-guides/crate-o/basic-navigation/#mode-selector).
 
 <br>
@@ -36,12 +40,12 @@ weight: 3
 
 ## Select Mode
 
-- In the [Mode Selector](/resources/user-guides/crate-o/basic-navigation/#mode-selector), the ___Mode___ dropdown shows the current {{< glossary_link display="mode" id="mode" >}} that is being displayed, i.e. the {{< glossary_link display="metadata" id="metadata" >}} framework associated with your {{< glossary_link display="collection" id="collection" >}}.
-- Change the mode from the default _Simple RO-Crate Dataset_ to _Language Data Commons top-level Collection (corpus)_.
+- In the [Mode Selector](/resources/user-guides/crate-o/basic-navigation/#mode-selector), the **_Mode_** dropdown shows the current {{< glossary_link display="mode" id="mode" >}} that is being displayed, i.e. the {{< glossary_link display="metadata" id="metadata" >}} framework associated with your {{< glossary_link display="collection" id="collection" >}}.
+- Change the mode from the default _Simple RO-Crate Dataset_ to _Language Data Commons Comprehensive Collection_.
 
 <br>
 
-{{< image Src="/user-guides/crate-o/select_mode.jpeg" Alt="Crate-O: Select Mode" Desc="Crate-O: Select Mode" Title="Crate-O: Select Mode" Ref="LDaCA" >}}
+{{< image Src="/user-guides/crate-o/select_mode.png" Alt="Crate-O: Select Mode" Desc="Crate-O: Select Mode" Title="Crate-O: Select Mode" Ref="LDaCA" >}}
 
 <br>
 
@@ -50,7 +54,7 @@ weight: 3
 - The [Current Entity](/resources/user-guides/crate-o/basic-navigation/#current-entity) section shows your location in the current {{< glossary_link display="RO-Crate" id="ro-crate" >}}.
 - The [Property Groups](/resources/user-guides/crate-o/basic-navigation/#property-groups) panel allows you to navigate to the various groups associated with your RO-Crate.
 - The [Entity Properties](/resources/user-guides/crate-o/basic-navigation/#entity-properties) panel is where you can add data about your {{< glossary_link display="collection" id="collection" >}}.
-- For blank RO-Crates, the following missing property messages will appear by default. Clicking the blue ___Add___ buttons will automatically add these missing items to your RO-Crate.
+- For blank RO-Crates, the following missing property messages will appear by default. Clicking the blue **_Add_** buttons will automatically add these missing items to your RO-Crate.
 
 <br>
 
@@ -68,8 +72,8 @@ weight: 3
 
 ## Save RO-Crate
 
-- In the [Main Menu](/resources/user-guides/crate-o/basic-navigation/#main-menu), select ___Save___.
-- For the pop-up message asking _Save changes to [Selected Directory]?_, select ___Save changes___.
+- In the [Main Menu](/resources/user-guides/crate-o/basic-navigation/#main-menu), select **_Save_**.
+- For the pop-up message asking _Save changes to [Selected Directory]?_, select **_Save changes_**.
 
 <br>
 
@@ -78,20 +82,20 @@ weight: 3
 <br>
 
 - Your {{< glossary_link display="RO-Crate" id="ro-crate" >}} is now successfully saved in your working directory, with two files:
-    - _ro-crate-metadata.json_: The saved RO-Crate in {{< glossary_link display="JSON" id="json" >}} format.
-    - _ro-crate-preview.html_: An HTML file that can be viewed on a web browser and shows the contents of your RO-Crate.
+  - _ro-crate-metadata.json_: The saved RO-Crate in {{< glossary_link display="JSON" id="json" >}} format.
+  - _ro-crate-preview.html_: An HTML file that can be viewed on a web browser and shows the contents of your RO-Crate.
 
 <br>
 
-ro-crate-metadata.json | ro-crate-preview.html
---- | ---
-{{< image Src="/user-guides/crate-o/ro_crate_metadata_json.png" Alt="ro-crate-metadata.json" Desc="ro-crate-metadata.json" Title="ro-crate-metadata.json" Ref="LDaCA" >}} | {{< image Src="/user-guides/crate-o/ro_crate_preview_html.jpeg" Alt="ro-crate-preview.html" Desc="ro-crate-preview.html" Title="ro-crate-preview.html" Ref="LDaCA" >}}
+| ro-crate-metadata.json                                                                                                                                                    | ro-crate-preview.html                                                                                                                                                  |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| {{< image Src="/user-guides/crate-o/ro_crate_metadata_json.png" Alt="ro-crate-metadata.json" Desc="ro-crate-metadata.json" Title="ro-crate-metadata.json" Ref="LDaCA" >}} | {{< image Src="/user-guides/crate-o/ro_crate_preview_html.jpeg" Alt="ro-crate-preview.html" Desc="ro-crate-preview.html" Title="ro-crate-preview.html" Ref="LDaCA" >}} |
 
 <br>
 
 ### Required Properties
 
-After saving, if there are required properties missing from your {{< glossary_link display="RO-Crate" id="ro-crate" >}}, the section _Saved with warnings_ will appear. You can select the dropdown on this message to view the missing required properties. Clicking on one of these warnings will take you to the relevant {{< glossary_link display="property" id="property" >}} group. If you choose to edit any of these sections, select ___Save___ again to ensure your most recent changes are not lost.
+After saving, if there are required properties missing from your {{< glossary_link display="RO-Crate" id="ro-crate" >}}, the section _Saved with warnings_ will appear. You can select the dropdown on this message to view the missing required properties. Clicking on one of these warnings will take you to the relevant {{< glossary_link display="property" id="property" >}} group. If you choose to edit any of these sections, select **_Save_** again to ensure your most recent changes are not lost.
 
 <br>
 
@@ -101,8 +105,10 @@ After saving, if there are required properties missing from your {{< glossary_li
 
 ## Append Data from Spreadsheet
 
-If you have a spreadsheet in a compatible format that you want to add to your {{< glossary_link display="collection" id="collection" >}} to assist with {{< glossary_link display="metadata" id="metadata" >}} description, or you want to create a new RO-Crate only using spreadsheet data, open an existing or new directory, then select ___Bulk Add___ in the [Main Menu](/resources/user-guides/crate-o/basic-navigation/#main-menu) and load the spreadsheet. This will append it to your existing {{< glossary_link display="RO-Crate" id="ro-crate" >}}. For more guidance on the spreadsheet requirements and a template, see [Spreadsheet Upload](/resources/user-guides/crate-o/spreadsheet-upload). 
+If you have a spreadsheet in a compatible format that you want to add to your {{< glossary_link display="collection" id="collection" >}} to assist with {{< glossary_link display="metadata" id="metadata" >}} description, or you want to create a new RO-Crate only using spreadsheet data, open an existing or new directory, then select **_Bulk Add_** in the [Main Menu](/resources/user-guides/crate-o/basic-navigation/#main-menu) and load the spreadsheet. This will append it to your existing or new {{< glossary_link display="RO-Crate" id="ro-crate" >}}.
 
-> Note that this option currently only has functionality to add new data, and cannot overwrite or edit existing data in your RO-Crate. ___Bulk Add___ also only reads from the spreadsheet and does not write to it.
+For more guidance on the spreadsheet requirements and a template, see [Convert Spreadsheet](/resources/user-guides/crate-o/convert-spreadsheet). If using the template, use the [mode](#select-mode) _Language Data Commons Comprehensive Collection_ in Crate-O.
+
+> Note that this option currently only has functionality to add new data, and cannot overwrite or edit existing data in your RO-Crate. **_Bulk Add_** also only reads from the spreadsheet and does not write to it.
 
 <br>
