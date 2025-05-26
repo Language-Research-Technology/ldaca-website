@@ -32,15 +32,15 @@ All content: [Attribution 4.0 International (CC BY 4.0)](https://creativecommons
 
 All content: [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
-<br>
+<br> -->
 
 ### Australian Deafblind Signing Corpus
 
-This is a forthcoming collection.
+All content: [Australian Deafblind Signing Corpus Placeholder License](australian-deafblind-signing-corpus/placeholder/all/v1/)
 
 <br>
 
-### Australian Radio Talkback
+<!--### Australian Radio Talkback
 
 All content: [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
@@ -50,21 +50,21 @@ All content: [Attribution 4.0 International (CC BY 4.0)](https://creativecommons
 
 All content: [Attribution-NoDerivatives 3.0 Australia (CC BY-ND 3.0 AU)](https://creativecommons.org/licenses/by-nd/3.0/au/)
 
-<br>
+<br> -->
 
 ### Corpus of Australian English as a Second Language (AusESL)
 
-This is a forthcoming collection.
+All content: [Corpus of Australian English as a Second Language (AusESL) Placeholder License](ausesl/placeholder/all/v1/)
 
 <br>
 
 ### Holmer Fieldnotes
 
-This is a forthcoming collection.
+All content: [Holmer Fieldnotes Placeholder License](holmer-fieldnotes/placeholder/all/v1/)
 
 <br>
 
-### International Corpus of English (ICE-AUS)
+<!-- ### International Corpus of English (ICE-AUS)
 
 All content: [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
@@ -72,7 +72,7 @@ All content: [Attribution 4.0 International (CC BY 4.0)](https://creativecommons
 
 ### LDaCA BinderHub Terms of Use
 
-All LDaCA BinderHub resources: [LDaCA BinderHub Terms of Use](https://www.ldaca.edu.au/resources/ldaca-resources/licenses/ldaca-binderhub/all/v0.0.6/)
+All LDaCA BinderHub resources: [LDaCA BinderHub Terms of Use](ldaca-binderhub/all/v0.0.6/)
 
 <br>
 
@@ -80,15 +80,15 @@ All LDaCA BinderHub resources: [LDaCA BinderHub Terms of Use](https://www.ldaca.
 
 This is a forthcoming collection.
 
-<br>
+<br> -->
 
 ### The Expanded Auslan Corpus
 
-This is a forthcoming collection.
+All content: [The Expanded Auslan Corpus Placeholder License](the-expanded-auslan-corpus/placeholder/all/v1/)
 
 <br>
 
-### The La Trobe Corpus of Spoken Australian English
+<!--### The La Trobe Corpus of Spoken Australian English
 
 All content: [Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)
 
@@ -98,10 +98,10 @@ All content: [Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https:
 
 All content: [Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)
 
-<br>
-
-### Warlpiri data 1982-1994
-
-This is a forthcoming collection.
-
 <br> -->
+
+### Warlpiri Data 1982-1994
+
+All content: [Warlpiri Data 1982-1994 Placeholder License](../licenses/warlpiri-data-1982-1994/placeholder/all/v1/)
+
+<br>
