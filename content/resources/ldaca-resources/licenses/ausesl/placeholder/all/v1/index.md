@@ -9,6 +9,6 @@ aliases:
 
 <br>
 
-This is a placeholder license for the forthcoming Corpus of Australian English as a Second Language (AusESL) collection. Access to the materials is not yet available online, but is available on request. To request access, contact info@ldaca.edu.au.
+This is a placeholder license for the forthcoming Corpus of Australian English as a Second Language (AusESL) collection. Access to the materials is not yet available online, but is available on request. Request access through https://datacommons.anu.edu.au/DataCommons/item/anudc:6272.
 
 <br>

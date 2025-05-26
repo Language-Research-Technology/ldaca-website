@@ -76,11 +76,11 @@ All LDaCA BinderHub resources: [LDaCA BinderHub Terms of Use](ldaca-binderhub/al
 
 <br>
 
-<!-- ### Sydney Speaks
+### Sydney Speaks
 
-This is a forthcoming collection.
+All content: [Sydney Speaks Placeholder License](sydney-speaks/placeholder/all/v1/)
 
-<br> -->
+<br>
 
 ### The Expanded Auslan Corpus
 
