@@ -1,5 +1,6 @@
 Name: "data-transformation"
 "title": "Data Transformation"
 "short_description": "The process of converting, cleansing, and structuring data into a usable format."
-"content": "The process of converting, cleansing, and structuring data into a usable format. Sometimes used as a synonym for Data Packaging."
-"cross_ref": [["data-packaging", "Data Packaging"]]
+"content": "The process of converting, cleansing, and structuring data into a usable format, converting data from one format or structure into another format or structure. Sometimes used as a synonym for Data Packaging."
+"cross_ref":
+  [["data-packaging", "Data Packaging"], ["data-wrangling", "Data Wrangling"]]
