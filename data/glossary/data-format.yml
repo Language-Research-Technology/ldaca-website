@@ -1,0 +1,5 @@
+Name: "data-format"
+"title": "Data Format"
+"short_description": "The encoding used to store a file."
+"content": "The encoding used to store a file."
+"cross_ref": [["format", "Format"]]
