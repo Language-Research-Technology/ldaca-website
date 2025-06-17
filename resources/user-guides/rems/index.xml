@@ -200,10 +200,6 @@
  &lt;td>Applicant&lt;br>Handler&lt;/td>
  &lt;td>&lt;strong>To Applicant (Only if Handler ticked &amp;ldquo;Show to applicant&amp;rdquo;):&lt;/strong>&lt;br>[Subject line] (YYYY/##) Application has been commented&lt;br>[Handler name] has commented on your application YYYY/##, submitted by [Applicant name].&lt;br>You can view the application and the comment at &lt;a href="https://rems-uat.ldaca.edu.au/application/###" target="_blank" rel="noopener noreffer ">https://rems-uat.ldaca.edu.au/application/###&lt;/a>&lt;/td>
  &lt;/tr>
- &lt;tr>
- &lt;td>&lt;br>&lt;/td>
- &lt;td>&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
  &lt;/tbody>
-&lt;/table></description></item></channel></rss>
+&lt;/table>
+&lt;br></description></item></channel></rss>
