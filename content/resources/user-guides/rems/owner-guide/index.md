@@ -516,3 +516,5 @@ To disable or archive a catalogue item, refer to [1.3 Disable or Archive an Item
 <br>
 
 Once the catalogue item has been created, contact LDaCA staff to finalise the resource entitlement processes for your data.
+
+<br>
