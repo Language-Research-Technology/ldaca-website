@@ -78,6 +78,8 @@ If your collection requires metadata terms that are not present in the template,
 
 If you have terms specific to your collection that aren't covered by the above schemas, see the [Custom Terms](#custom-terms) tab on how to use them.
 
+> If using a Defined Term (such as those in [Language Data Commons Schema Terms](https://w3id.org/ldac/terms#definedterms) or [Custom Terms](#custom-terms)), add `isTerm_` to the related property in the column header, e.g. a column header `isTerm_ldac:communicationMode` with the value `ldac:SpokenLanguage`.
+
 <br>
 
 ## Tab Breakdown
@@ -195,11 +197,11 @@ If you have terms specific to your collection that aren't covered by the existin
 | sameAs                 | Data entry | If the term you are defining is the same as a term in another schema (excluding those in [Metadata Schemas](#metadata-schemas)), add the URL to the term.                                                                                                                                                     |
 | rdfs:subClassOf        | Data entry | For internal use and doesn't need editing. See [rdfs:subClassOf](https://www.w3.org/TR/rdf-schema/#ch_subclassof) for more detail.                                                                                                                                                                            |
 
-#### Using Custom Terms on Other Tabs
+#### Using Custom Terms in Other Tabs
 
 Once you've listed your custom terms, these can be used throughout the spreadsheet in the following ways:
 
-- Properties: as column headers in the format `custom:yourProperty`
+- Properties: as column headers in the format `isTerm_custom:yourProperty`
 - Defined Terms: as column values under their related custom property in the format `custom:YourDefinedTerm`
 
 > Defined Term Sets are only required in the Custom Terms tab to group a set of Defined Terms and don't need to be used elsewhere in the spreadsheet.
