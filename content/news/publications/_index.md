@@ -11,11 +11,15 @@ layout: "root_list"
 
 ### 2025
 
-Schweinberger, Martin & Kate Burridge. 2025. Vulgarity in online discourse around the English-speaking world. _Lingua_ 320. https://doi.org/10.1016/j.lingua.2025.103946
+Bednarek, Monika & Maite Taboada. 2025. Attitude in Reported and Non-reported News: A Critique of Sentiment Analysis in Corpus Pragmatics. _Corpus Pragmatics_ 9(2). 111–133. https://doi.org/10.1007/s41701-025-00185-6.
 
 Hames, Sam, Michael Haugh & Simon Musgrave. 2025. “How is that unparliamentary?”: The metapragmatics of ‘unparliamentary’ language in the Australian Federal Parliament. _Lingua_ 320. https://doi.org/10.1016/j.lingua.2025.103932
 
 Musgrave, Simon. 2025. Australian slang as a literary genre. _Australian Journal of Linguistics_ 44 (4). 411–30. https://doi.org/10.1080/07268602.2024.2444219
+
+Schweinberger, Martin & Kate Burridge. 2025. Vulgarity in online discourse around the English-speaking world. _Lingua_ 320. https://doi.org/10.1016/j.lingua.2025.103946
+
+Schweinberger, Martin & Michael Haugh. 2025. Reproducibility and transparency in interpretive corpus pragmatics. _International Journal of Corpus Linguistics_ https://doi.org/10.1075/ijcl.23033.sch.
 
 ### 2024
 
