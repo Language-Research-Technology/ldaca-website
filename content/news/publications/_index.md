@@ -11,15 +11,19 @@ layout: "root_list"
 
 ### 2025
 
-Schweinberger, Martin & Kate Burridge. 2025. Vulgarity in online discourse around the English-speaking world. _Lingua_ 320. https://doi.org/10.1016/j.lingua.2025.103946
+Bednarek, Monika & Maite Taboada. 2025. Attitude in Reported and Non-reported News: A Critique of Sentiment Analysis in Corpus Pragmatics. _Corpus Pragmatics_ 9(2). 111–133. https://doi.org/10.1007/s41701-025-00185-6.
 
 Hames, Sam, Michael Haugh & Simon Musgrave. 2025. “How is that unparliamentary?”: The metapragmatics of ‘unparliamentary’ language in the Australian Federal Parliament. _Lingua_ 320. https://doi.org/10.1016/j.lingua.2025.103932
 
 Musgrave, Simon. 2025. Australian slang as a literary genre. _Australian Journal of Linguistics_ 44 (4). 411–30. https://doi.org/10.1080/07268602.2024.2444219
 
-### 2024
+Schweinberger, Martin & Kate Burridge. 2025. Vulgarity in online discourse around the English-speaking world. _Lingua_ 320. https://doi.org/10.1016/j.lingua.2025.103946
 
-Schweinberger, Martin. 2024. Seeded topic modeling as a more appropriate alternative to unsupervised standard topic models. _Discourse Studies_ 0(0). https://doi.org/10.1177/14614456241293895
+Schweinberger, Martin & Michael Haugh. 2025. Reproducibility, replicability, and robustness in corpus linguistics: An introduction. _International Journal of Corpus Linguistics_ https://doi.org/_10.1075/ijcl.25081.sch.
+
+Schweinberger, Martin & Michael Haugh. 2025. Reproducibility and transparency in interpretive corpus pragmatics. _International Journal of Corpus Linguistics_ https://doi.org/10.1075/ijcl.23033.sch.
+
+### 2024
 
 Bednarek, Monika. 2024. Topic modelling in corpus-based discourse analysis: Uses and critiques. _Discourse Studies_ 0(0). https://doi.org/10.1177/14614456241293075
 
@@ -36,7 +40,10 @@ Foley, Ben, Peter Sefton, Simon Musgrave & Moises Sacal Bonequi. 2024. Access co
 <br />
 
 Maxwell, C., Selvanathan, H. P., Hames, S., Crimston, C. R., & Jetten, J. (2024). A mixed-methods approach to understand victimization discourses by opposing feminist sub-groups on social media. _British Journal of Social Psychology_, 00, 1–22. https://doi.org/10.1111/bjso.12785
-<br>
+<br />
+
+Schweinberger, Martin. 2024. Seeded topic modeling as a more appropriate alternative to unsupervised standard topic models. _Discourse Studies_ 0(0). https://doi.org/10.1177/14614456241293895
+<br />
 
 Thieberger, Nick, Michael Aird, Clint Bracknell, Jason Gibson, Amanda Harris, Marcia Langton, Gaye Sculthorpe & Jane Simpson. 2024. The New Protectionism: Risk Aversion and Access to Indigenous Heritage Records. _Archives & Manuscripts_ e10971. [https://doi.org/10.37683/asa.v51.10971](https://doi.org/10.37683/asa.v51.10971).
 <br />
