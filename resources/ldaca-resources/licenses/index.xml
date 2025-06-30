@@ -1,4 +1,254 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Licenses on LDaCA</title><link>https://www.ldaca.edu.au/resources/ldaca-resources/licenses/</link><description>Recent content in Licenses on LDaCA</description><generator>Hugo</generator><language>en-us</language><managingEditor>info@ldaca.edu.au (Language Data Commons of Australia)</managingEditor><webMaster>info@ldaca.edu.au (Language Data Commons of Australia)</webMaster><lastBuildDate>Mon, 26 May 2025 11:49:08 +1000</lastBuildDate><atom:link href="https://www.ldaca.edu.au/resources/ldaca-resources/licenses/index.xml" rel="self" type="application/rss+xml"/><item><title>Sydney Speaks Placeholder License</title><link>https://www.ldaca.edu.au/resources/ldaca-resources/licenses/sydney-speaks/placeholder/all/v1/</link><pubDate>Mon, 26 May 2025 11:49:08 +1000</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/ldaca-resources/licenses/sydney-speaks/placeholder/all/v1/</guid><description>&lt;br>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Licenses on LDaCA</title><link>https://www.ldaca.edu.au/resources/ldaca-resources/licenses/</link><description>Recent content in Licenses on LDaCA</description><generator>Hugo</generator><language>en-us</language><managingEditor>info@ldaca.edu.au (Language Data Commons of Australia)</managingEditor><webMaster>info@ldaca.edu.au (Language Data Commons of Australia)</webMaster><lastBuildDate>Mon, 30 Jun 2025 11:49:08 +1000</lastBuildDate><atom:link href="https://www.ldaca.edu.au/resources/ldaca-resources/licenses/index.xml" rel="self" type="application/rss+xml"/><item><title>Sydney Speaks License B</title><link>https://www.ldaca.edu.au/resources/ldaca-resources/licenses/sydney-speaks/license-b/all/v1/</link><pubDate>Mon, 30 Jun 2025 11:49:08 +1000</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/ldaca-resources/licenses/sydney-speaks/license-b/all/v1/</guid><description>&lt;br>
+&lt;script type="text/javascript" src= '/js/pdf-js/build/pdf.js'>&lt;/script>
+
+&lt;style>
+ #embed-pdf-container {
+ position: relative;
+ width: 100%;
+ height: auto;
+ min-height: 20vh;
+ 
+ }
+ 
+ .pdf-canvas {
+ border: 1px solid black;
+ direction: ltr;
+ width: 100%;
+ height: auto;
+ display: none;
+ }
+ 
+ #the-canvas {
+ border: 1px solid black;
+ direction: ltr;
+ width: 100%;
+ height: auto;
+ display: none;
+ }
+ 
+ 
+ .pdf-loadingWrapper {
+ display: none;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ height: 350px;
+ }
+ 
+ .pdf-loading {
+ display: inline-block;
+ width: 50px;
+ height: 50px;
+ border: 3px solid #d2d0d0;;
+ border-radius: 50%;
+ border-top-color: #383838;
+ animation: spin 1s ease-in-out infinite;
+ -webkit-animation: spin 1s ease-in-out infinite;
+ }
+ 
+ 
+ 
+ 
+ 
+ #overlayText {
+ word-wrap: break-word;
+ display: grid;
+ justify-content: end;
+ }
+ 
+ #overlayText a {
+ position: relative;
+ top: 10px;
+ right: 4px;
+ color: #000;
+ margin: auto;
+ background-color: #eeeeee;
+ padding: 0.3em 1em;
+ border: solid 2px;
+ border-radius: 12px;
+ border-color: #00000030;
+ text-decoration: none;
+ }
+ 
+ #overlayText svg {
+ height: clamp(1em, 2vw, 1.4em);
+ width: clamp(1em, 2vw, 1.4em);
+ }
+ 
+ 
+ 
+ @keyframes spin {
+ to { -webkit-transform: rotate(360deg); }
+ }
+ @-webkit-keyframes spin {
+ to { -webkit-transform: rotate(360deg); }
+ }
+ &lt;/style>&lt;div class="embed-pdf-container" id="embed-pdf-container-4ad799ee">
+ &lt;div class="pdf-loadingWrapper" id="pdf-loadingWrapper-4ad799ee">
+ &lt;div class="pdf-loading" id="pdf-loading-4ad799ee">&lt;/div>
+ &lt;/div>
+ &lt;div id="overlayText">
+ &lt;a href="./Sydney_Speaks_License_B.pdf" aria-label="Download" download>
+ &lt;svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+ &lt;path d="M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z" />
+ &lt;/svg>
+ &lt;/a>
+ &lt;/div>
+ &lt;canvas class="pdf-canvas" id="pdf-canvas-4ad799ee">&lt;/canvas>
+&lt;/div>
+
+&lt;div class="pdf-paginator" id="pdf-paginator-4ad799ee">
+ &lt;button id="pdf-prev-4ad799ee">Previous&lt;/button>
+ &lt;button id="pdf-next-4ad799ee">Next&lt;/button> &amp;nbsp; &amp;nbsp;
+ &lt;span>
+ &lt;span class="pdf-pagenum" id="pdf-pagenum-4ad799ee">&lt;/span> / &lt;span class="pdf-pagecount" id="pdf-pagecount-4ad799ee">&lt;/span>
+ &lt;/span>
+ &lt;a class="pdf-source" id="pdf-source-4ad799ee" href="./Sydney_Speaks_License_B.pdf">[pdf]&lt;/a>
+&lt;/div>
+
+&lt;noscript>
+View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-4ad799ee" href="./Sydney_Speaks_License_B.pdf">here&lt;/a>.
+&lt;/noscript>
+
+&lt;script type="text/javascript">
+ (function(){
+ var url = '.\/Sydney_Speaks_License_B.pdf';
+
+ var hidePaginator = "" === "true";
+ var hideLoader = "" === "true";
+ var selectedPageNum = parseInt("") || 1;
+
+ 
+ var pdfjsLib = window['pdfjs-dist/build/pdf'];
+
+ 
+ if (pdfjsLib.GlobalWorkerOptions.workerSrc == '')
+ pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/www.ldaca.edu.au\/" + 'js/pdf-js/build/pdf.worker.js';
+
+ 
+ var pdfDoc = null,
+ pageNum = selectedPageNum,
+ pageRendering = false,
+ pageNumPending = null,
+ scale = 3,
+ canvas = document.getElementById('pdf-canvas-4ad799ee'),
+ ctx = canvas.getContext('2d'),
+ paginator = document.getElementById("pdf-paginator-4ad799ee"),
+ loadingWrapper = document.getElementById('pdf-loadingWrapper-4ad799ee');
+
+
+ 
+ showPaginator();
+ showLoader();
+
+ 
+
+ function renderPage(num) {
+ pageRendering = true;
+ 
+ pdfDoc.getPage(num).then(function(page) {
+ var viewport = page.getViewport({scale: scale});
+ canvas.height = viewport.height;
+ canvas.width = viewport.width;
+
+ 
+ var renderContext = {
+ canvasContext: ctx,
+ viewport: viewport
+ };
+ var renderTask = page.render(renderContext);
+
+ 
+ renderTask.promise.then(function() {
+ pageRendering = false;
+ showContent();
+
+ if (pageNumPending !== null) {
+ 
+ renderPage(pageNumPending);
+ pageNumPending = null;
+ }
+ });
+ });
+
+ 
+ document.getElementById('pdf-pagenum-4ad799ee').textContent = num;
+ }
+
+ 
+
+ function showContent() {
+ loadingWrapper.style.display = 'none';
+ canvas.style.display = 'block';
+ }
+
+ 
+
+ function showLoader() {
+ if(hideLoader) return
+ loadingWrapper.style.display = 'flex';
+ canvas.style.display = 'none';
+ }
+
+ 
+
+ function showPaginator() {
+ if(hidePaginator) return
+ paginator.style.display = 'block';
+ }
+
+ 
+
+ function queueRenderPage(num) {
+ if (pageRendering) {
+ pageNumPending = num;
+ } else {
+ renderPage(num);
+ }
+ }
+
+ 
+
+ function onPrevPage() {
+ if (pageNum &lt;= 1) {
+ return;
+ }
+ pageNum--;
+ queueRenderPage(pageNum);
+ }
+ document.getElementById('pdf-prev-4ad799ee').addEventListener('click', onPrevPage);
+
+ 
+
+ function onNextPage() {
+ if (pageNum >= pdfDoc.numPages) {
+ return;
+ }
+ pageNum++;
+ queueRenderPage(pageNum);
+ }
+ document.getElementById('pdf-next-4ad799ee').addEventListener('click', onNextPage);
+
+ 
+
+ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+ pdfDoc = pdfDoc_;
+ var numPages = pdfDoc.numPages;
+ document.getElementById('pdf-pagecount-4ad799ee').textContent = numPages;
+
+ 
+ if(pageNum > numPages) {
+ pageNum = numPages
+ }
+
+ 
+ renderPage(pageNum);
+ });
+ })();
+&lt;/script>
+
+&lt;br>
+&lt;br></description></item><item><title>Sydney Speaks Placeholder License</title><link>https://www.ldaca.edu.au/resources/ldaca-resources/licenses/sydney-speaks/placeholder/all/v1/</link><pubDate>Mon, 26 May 2025 11:49:08 +1000</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/ldaca-resources/licenses/sydney-speaks/placeholder/all/v1/</guid><description>&lt;br>
 &lt;p>This is a placeholder license for the forthcoming Sydney Speaks collection. Access to the materials is not yet available online, but is available on request. Request access through &lt;a href="https://datacommons.anu.edu.au/DataCommons/rest/display/anudc:6184" target="_blank" rel="noopener noreffer ">https://datacommons.anu.edu.au/DataCommons/rest/display/anudc:6184&lt;/a>.&lt;/p>
 &lt;br></description></item><item><title>The Expanded Auslan Corpus Placeholder License</title><link>https://www.ldaca.edu.au/resources/ldaca-resources/licenses/the-expanded-auslan-corpus/placeholder/all/v1/</link><pubDate>Mon, 26 May 2025 10:14:40 +1000</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/ldaca-resources/licenses/the-expanded-auslan-corpus/placeholder/all/v1/</guid><description>&lt;br>
 &lt;p>This is a placeholder license for the forthcoming Expanded Auslan Corpus collection. Access to the materials is not yet available online, but is available on request. To request access, contact Trevor Johnston (&lt;a href="mailto:trevor.johnston@monash.edu" rel="">trevor.johnston@monash.edu&lt;/a>).&lt;/p>
@@ -10,7 +260,7 @@
 &lt;p>This is a placeholder license for the forthcoming Warlpiri Data 1982-1994 collection. Access to the materials is not yet available online, but is available on request. To request access, contact &lt;a href="mailto:info@ldaca.edu.au" rel="">info@ldaca.edu.au&lt;/a>.&lt;/p>
 &lt;br></description></item><item><title>Holmer Fieldnotes Placeholder License</title><link>https://www.ldaca.edu.au/resources/ldaca-resources/licenses/holmer-fieldnotes/placeholder/all/v1/</link><pubDate>Mon, 26 May 2025 10:00:43 +1000</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/ldaca-resources/licenses/holmer-fieldnotes/placeholder/all/v1/</guid><description>&lt;br>
 &lt;p>This is a placeholder license for the forthcoming Holmer Fieldnotes collection. Access to the materials is not yet available online, but is available on request. To request access, contact &lt;a href="mailto:info@ldaca.edu.au" rel="">info@ldaca.edu.au&lt;/a>.&lt;/p>
-&lt;br></description></item><item><title>LDaCA ATAP BinderHub Terms of Use</title><link>https://www.ldaca.edu.au/resources/ldaca-resources/licenses/ldaca-binderhub/all/v0.0.6/</link><pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/ldaca-resources/licenses/ldaca-binderhub/all/v0.0.6/</guid><description>&lt;p>&lt;script type="text/javascript" src= '/js/pdf-js/build/pdf.js'>&lt;/script>
+&lt;br></description></item><item><title>LDaCA ATAP BinderHub Terms of Use</title><link>https://www.ldaca.edu.au/resources/ldaca-resources/licenses/ldaca-binderhub/all/v0.0.6/</link><pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/ldaca-resources/licenses/ldaca-binderhub/all/v0.0.6/</guid><description>&lt;script type="text/javascript" src= '/js/pdf-js/build/pdf.js'>&lt;/script>
 
 &lt;style>
  #embed-pdf-container {
@@ -259,7 +509,7 @@ View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-d202f78e" hre
 &lt;/script>
 
 &lt;br>
-&lt;br>&lt;/p></description></item><item><title>Data License for Griffith Corpus of Spoken Australian English - Audio</title><link>https://www.ldaca.edu.au/resources/ldaca-resources/licenses/gcsae/audio/v1/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/ldaca-resources/licenses/gcsae/audio/v1/</guid><description>&lt;p>&lt;a href="https://www.ldaca.edu.au/resources/ldaca-resources/licenses/gcsae/audio/v1/AusNC_Terms_of_Use_Griffith_Corpus_of_Spoken_Australian_English.pdf" rel="">Download as PDF&lt;/a>&lt;/p>
+&lt;br></description></item><item><title>Data License for Griffith Corpus of Spoken Australian English - Audio</title><link>https://www.ldaca.edu.au/resources/ldaca-resources/licenses/gcsae/audio/v1/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/ldaca-resources/licenses/gcsae/audio/v1/</guid><description>&lt;p>&lt;a href="https://www.ldaca.edu.au/resources/ldaca-resources/licenses/gcsae/audio/v1/AusNC_Terms_of_Use_Griffith_Corpus_of_Spoken_Australian_English.pdf" rel="">Download as PDF&lt;/a>&lt;/p>
 &lt;p>In order to access the &lt;strong>Griffith Corpus of Spoken Australian English&lt;/strong>, the user must read and agree to AusNC Terms of Use as follows.&lt;/p>
 &lt;h2 id="ausnc-terms-of-use">AusNC Terms of Use&lt;/h2>
 &lt;p>The AusNC is administered by Us (Australian National Corpus Inc) and made available to users like You, on-line and without charge, through this Site. The AusNC contains Material contributed under licence by contributors that include Australian universities, institutions and individuals. This Site has been provided as a resource to assist linguistic research and study. The Material is provided ‘as is’ according to these Terms. You must agree to the Terms each Session before being allowed to access the Site.&lt;/p></description></item><item><title>Data License for Griffith Corpus of Spoken Australian English - Transcripts</title><link>https://www.ldaca.edu.au/resources/ldaca-resources/licenses/gcsae/transcripts/v1/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/ldaca-resources/licenses/gcsae/transcripts/v1/</guid><description>&lt;p>&lt;a href="https://www.ldaca.edu.au/resources/ldaca-resources/licenses/gcsae/transcripts/v1/AusNC_Terms_of_Use_Griffith_Corpus_of_Spoken_Australian_English.pdf" rel="">Download as PDF&lt;/a>&lt;/p>
