@@ -78,7 +78,7 @@ All LDaCA BinderHub resources: [LDaCA BinderHub Terms of Use](ldaca-binderhub/al
 
 ### Sydney Speaks
 
-All content: [Sydney Speaks Placeholder License](sydney-speaks/placeholder/all/v1/)
+All content: [Sydney Speaks License B](sydney-speaks/license-b/all/v1/)
 
 <br>
 
