@@ -9,6 +9,6 @@ aliases:
 
 <br>
 
-This is a placeholder license for the forthcoming Expanded Auslan Corpus collection. Access to the materials is not yet available online, but is available on request. To request access, contact Trevor Johnston (trevor.johnston@monash.edu).
+This is a placeholder license for the forthcoming Expanded Auslan Corpus collection. Access to the materials is not yet available online, but is available on request. To request access, contact Louisa Willoughby (louisa.willoughby@monash.edu).
 
 <br>
