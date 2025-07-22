@@ -28,7 +28,7 @@ If you are someone who makes decisions about a collection of language materials,
 
 ## What is an RO-Crate?
 
-Research Object Crate (RO-Crate) is a way of packaging data — like audio recordings, photographs, manuscripts or teaching materials — together with its metadata (see video below). Metadata tells us information about the data, like who created it, when and in which languages.
+Research Object Crate (RO-Crate) is a way of packaging data — like audio recordings, photographs, manuscripts or teaching materials — together with their metadata (see video below). Metadata tells us information about the data, like who created it, when and in which languages.
 
 Think of a milk crate. We can put some groceries inside the milk crate, and we can also add in a list of our groceries. In an RO-Crate, the 'groceries' are your data and the 'list' (or *manifest*) is your metadata and other descriptive files, such as a data license detailing use and access conditions. RO-Crate metadata files are written in [JSON-LD](https://json-ld.org/) format. The 'crate' is the folder on your computer where the data and metadata are located.
 
