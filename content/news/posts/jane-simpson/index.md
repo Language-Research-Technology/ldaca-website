@@ -11,7 +11,7 @@ Since her retirement in 2022, Jane Simpson has been [Professor Emerita](https://
 
 <br>
 
-{{< image Src="/jane-simpson/fig_1_JaneSimpson.jpg" Alt="Jane Simpson" Desc="Figure 1: Jane Simpson, Professor Emerita at the Australian National University (ANU)." Title="Jane Simpson" Ref="ANU" Height="350" >}}
+{{< image Src="/jane-simpson/fig_1_JaneSimpson.jpg" Alt="Jane Simpson" Desc="Figure 1: Jane Simpson, Professor Emerita at the Australian National University (ANU)." Title="Jane Simpson" Ref="ANU" Height="400" >}}
 
 <br>
 
@@ -53,7 +53,7 @@ I honestly can't see why long-term digital storage is such a problem. If the Nat
 
 <br>
 
-{{< image Src="/jane-simpson/fig_2_nyingarn.png" Alt="Nyingarn" Desc="Figure 2: A manuscript document and its text version being edited in Nyingarn." Title="Nyingarn" Ref="Paul Williams" Height="800" >}}
+{{< image Src="/jane-simpson/fig_2_nyingarn.png" Alt="Nyingarn" Desc="Figure 2: A manuscript document and its text version being edited in Nyingarn." Title="Nyingarn" Ref="Paul Williams" Height="600" >}}
 
 <br>
 
