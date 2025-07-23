@@ -37,7 +37,7 @@ And then I went on to build the [Aboriginal Studies Electronic Data Archive](htt
 
 <br>
 
-{{< image Src="/nick-thieberger/nickT_figure2.png" Alt="Title page of the Handbook of WA Languages" Desc="Figure 2: Title page of the Handbook of WA Languages." Title="Title page of the Handbook of WA Languages" Ref="Public Domain" >}}
+{{< image Src="/nick-thieberger/nickT_figure2.png" Alt="Title page of the Handbook of WA Languages" Desc="Figure 2: Title page of the Handbook of WA Languages." Title="Title page of the Handbook of WA Languages" Ref="Public Domain" Height="450">}}
 
 <br>
 
@@ -101,7 +101,7 @@ The whole approach with RO-Crate is interesting in that we can keep using whatev
 
 <br>
 
-{{< image Src="/nick-thieberger/nickT_figure3.jpg" Alt="Storing digital data on microfilm" Desc="Figure 3: Storing digital data on microfilm." Title="Storing digital data on microfilm." Ref="Piql" >}}
+{{< image Src="/nick-thieberger/nickT_figure3.jpg" Alt="Storing digital data on microfilm" Desc="Figure 3: Storing digital data on microfilm." Title="Storing digital data on microfilm." Ref="Piql" Height="200" >}}
 
 <br>
 
@@ -155,7 +155,7 @@ A great example is my research in Central Vanuatu. I put some effort into creati
 
 We are very grateful to Nick for making the time to talk with us about these important issues and we appreciate the insights he was able to provide, based on his experiences over his long and illustrious career.
 
-<br>
+---
 
 ### Footnotes
 

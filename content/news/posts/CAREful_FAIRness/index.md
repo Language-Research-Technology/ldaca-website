@@ -45,13 +45,13 @@ To ensure Indigenous data is managed ethically and equitably, here are a small s
 
 ---
 
-## References
+### References
 
 Indigenous Data Network. 2024. IDN Roundtable: Developing & Adopting Indigenous Data Governance Frameworks [Defining Indigenous Data]. Melbourne, Victoria, Australia. (4 April, 2024).
 
 <br>
 
-## About the authors
+### About the authors
 
 {{< image Src="/CAREful-FAIRness/Credit - ARDC_D-Hannah_Hass&I—Symposium-Afternoon_June24 - LR163.jpg" Alt="ID-Gov panellists and audience" Desc="Figure 1: Jenny Fewster and Robert McLellan" Title="Panellists and audience" Height="400" Ref="ARDC/David Hannah">}}
 

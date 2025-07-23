@@ -152,7 +152,7 @@ When communities are not ready to engage with archival processes, this can be an
 
 ---
 
-**_We are grateful to all three of the panellists for their theoretical and practical insights into Indigenous Data Governance, as well as to Grant Sarra for facilitating the discussion._**
+> **_We are grateful to all three of the panellists for their theoretical and practical insights into Indigenous Data Governance, as well as to Grant Sarra for facilitating the discussion._**
 
 <br>
 

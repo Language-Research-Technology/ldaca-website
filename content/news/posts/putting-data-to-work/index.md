@@ -99,7 +99,7 @@ I also referred to another dataset from LDaCA in discussing the relative absence
 
 Despite the somewhat depressing conclusion above, I hope that this account of my research gives you an idea of how research infrastructure, such as LDaCA, can assist in the process of research. I used the data from LDaCA to resolve a small question in the development of my argument, but having the answer to that small question was an essential step in building, what I hope, is a convincing position. Not having easy access to the data would have meant spending a lot of time looking for alternative sources or having a weak link in my argument. I am very happy that I did not have to accept either of those possibilities.
 
-<br>
+---
 
 ### References
 

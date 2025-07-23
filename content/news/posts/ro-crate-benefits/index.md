@@ -52,7 +52,7 @@ An RO-Crate folder can also contain an HTML preview file. This file allows you t
 
 <br>
 
-{{< image Src="/ro-crate-benefits/html-preview.png" Alt="An RO-Crate HTML preview file created with browser-based editor Crate-O." Desc="An RO-Crate HTML preview file created with browser-based editor Crate-O." Title="An RO-Crate HTML preview file created with browser-based editor Crate-O." Ref="Bridey Lea">}}
+{{< image Src="/ro-crate-benefits/html-preview.png" Alt="An RO-Crate HTML preview file created with browser-based editor Crate-O." Desc="An RO-Crate HTML preview file created with browser-based editor Crate-O." Title="An RO-Crate HTML preview file created with browser-based editor Crate-O." Ref="Bridey Lea" Height="600" >}}
 
 <br>
 
