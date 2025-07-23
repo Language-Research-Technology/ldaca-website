@@ -9,7 +9,7 @@ by {{< profile id="mclellan" >}} and {{< profile id="fewster" >}}
 
 <br>
 
-Indigenous data encompasses all information collected by, about or for Aboriginal and Torres Strait Islander peoples. As the Indigenous Data Network notes, it is:
+Indigenous data encompasses all information collected by, about or for Aboriginal and Torres Strait Islander peoples. As the [Indigenous Data Network](https://idnau.org/) notes, it is:
 
 <ul> <i>"...information, in any format or medium, collected, analysed, stored, and interpreted within the context of Indigenous individuals, collectives, populations, entities, lifeways, cultures, knowledge systems, lands, biodiversity, water and other resources.
 
@@ -17,6 +17,7 @@ Indigenous data encompasses all information collected by, about or for Aborigina
 
 It includes data collected, used, or stored by any agency, department, laboratory, organisation, corporation, statutory body, university or research institute, conducted by, with, and about Indigenous people or people, and data that Indigenous communities have generated and maintained themselves."</i></ul>
 
+<br>
 Embedding both FAIR and CARE principles is essential when working with Indigenous data. 
 
 While [FAIR Principles (Findable, Accessible, Interoperable, Reusable)](https://ardc.edu.au/resource-hub/making-data-fair/) provide the technical framework for data management, [CARE Principles (Collective Benefit, Authority to Control, Responsibility, Ethics)](https://ardc.edu.au/resource/the-care-principles/) help to centre Indigenous self-determination and worldviews. By integrating both sets of principles, we can develop data-sharing practices that are technically robust and respectful of diverse communities. 
@@ -26,12 +27,12 @@ While [FAIR Principles (Findable, Accessible, Interoperable, Reusable)](https://
 To ensure Indigenous data is managed ethically and equitably, here are a small selection of examples of CAREful FAIRness Principles for Indigenous Data Governance:
 
 #### When making data Findable:
-- Use terminology that respects cultural knowledge and consider whether any terms used may be offensive to any particular group.
+- Use terminology that respects cultural knowledge and consider whether any terms used might be offensive to any particular group.
 - Include metadata descriptions and keywords in language. 
-- Consider providing oral documentation in language alongside written descriptions for cultures that have strong ties to oral practices.
+- Consider providing oral documentation in language, alongside written descriptions, for cultures that have strong ties to oral practices.
 
 #### When making data Accessible:
-- Offer multiple modes of access, such as downloadable files, web-based interfaces and even physical copies where necessary.
+- Offer multiple modes of access, such as downloadable files, web-based interfaces and even physical copies, where necessary.
 - Work with Community Champions to translate data documentation, metadata and user instructions into languages commonly spoken within the community. 
 
 #### When making data Interoperable:
@@ -42,8 +43,10 @@ To ensure Indigenous data is managed ethically and equitably, here are a small s
 - Document all potential biases in data collection, and provide suggestions on how to interpret and analyse the data in a culturally sensitive manner.
 - Acknowledge Indigenous communities or other cultural groups whose knowledge or data is being used.  Provide documentation and guidelines on their intellectual property rights in relation to the knowledge or data being made available.
 
-__________
+---
+
 ## References
+
 Indigenous Data Network. 2024. IDN Roundtable: Developing & Adopting Indigenous Data Governance Frameworks [Defining Indigenous Data]. Melbourne, Victoria, Australia. (4 April, 2024).
 
 <br>
@@ -53,9 +56,11 @@ Indigenous Data Network. 2024. IDN Roundtable: Developing & Adopting Indigenous 
 {{< image Src="/CAREful-FAIRness/Credit - ARDC_D-Hannah_Hass&I—Symposium-Afternoon_June24 - LR163.jpg" Alt="ID-Gov panellists and audience" Desc="Jenny Fewster and Robert McLellan" Title="Panellists and audience" Ref="ARDC/David Hannah">}}
 
 #### Robert McLellan
-Robert, a Gooreng Gooreng descendant from the Wide Bay region, is a community researcher, director and governance practitioner. He is an Industry Fellow at the University of Queensland and Senior Program Manager for Language Data Commons of Australia (LDaCA), and a strong advocate for truth telling and speaking up for Aboriginal rights, justice and economic advancement. Dedicated to authentic inclusion of First Nations voices, Robert is passionate about revitalising Indigenous languages and cultures, and building culturally inclusive, honourable and cohesive communities.
+
+Robert, a Gooreng Gooreng descendant from the Wide Bay region, is a community researcher, director and governance practitioner. He is an Industry Fellow at the [University of Queensland](https://www.uq.edu.au/) and Senior Program Manager for the Language Data Commons of Australia (LDaCA), and a strong advocate for truth telling and speaking up for Aboriginal rights, justice and economic advancement. Dedicated to authentic inclusion of First Nations voices, Robert is passionate about revitalising Indigenous languages and cultures, and building culturally inclusive, honourable and cohesive communities.
 
 #### Jenny Fewster
-With over 20 years' experience in collecting, managing and disseminating research and cultural heritage data and resources, Jenny is passionate about delivering quality research infrastructure and data to meet the diverse needs of HASS and Indigenous researchers and data custodians. She is the Director, HASS and Indigenous Research Data Commons for the Australian Research Data Commons (ARDC).
+
+With over 20 years' experience in collecting, managing and disseminating research, and cultural heritage data and resources, Jenny is passionate about delivering quality research infrastructure and data to meet the diverse needs of HASS and Indigenous researchers and data custodians. She is the Director, [HASS and Indigenous Research Data Commons](https://ardc.edu.au/hass-and-indigenous-research-data-commons/) for the Australian Research Data Commons ([ARDC](https://ardc.edu.au/)).
 
 <br>
