@@ -15,10 +15,9 @@ aliases:
 
  <br>
 
-
 ### Webinar: The ParlaMint corpora of European parliamentary proceedings
 
-Join us for the second webinar in our 2025 webinar series, hosted by the Language Data Commons of Australia.
+Join us for the second webinar in our 2025 webinar series.
 
 **Presenters: Tomaž Erjavec and Matyáš Kopp**
 <br>
@@ -30,13 +29,13 @@ Matyáš Kopp is a member of the Institute for Formal and Applied Linguistics at
 
 This talk will discuss the compilation and dissemination of the ParlaMint corpora, i.e. 29 corpora of European national and regional parliamentary proceedings, covering at least the period from 2015 to 2022, and containing over 1 billion words.
 
-We will mention the background of this CLARIN-funded project and the characteristics of the produced corpora. We then introduce the encoding of the corpora, the corpus compilation pipeline, the use of GitHub, and concentrate on the ways in which the corpus is made accessible to potential users.
+We will describe the background of this CLARIN-funded project and the characteristics of the produced corpora. We then introduce the encoding of the corpora, the corpus compilation pipeline, the use of GitHub and concentrate on the ways in which the corpus is made accessible to potential users.
 
-We conclude with lessons learnt in the project and our further work on the ParlaMint corpora.
+We will conclude with lessons learnt in the project and our further work on the ParlaMint corpora.
 
-**When**: 28 August 2025, 4:00PM AEST
+**When**: 28 August 2025, 4pm AEST
 
-**Where**: Online - link to be provided.
+**Where**: Online — link to be provided
 
 <br>
 
@@ -67,9 +66,9 @@ The RO-Crate community run a weekly drop-in call in Australia. For further infor
 </summary>
 <p>Parliamentary bodies around the world have been publishing transcriptions of their proceedings for decades or even centuries. These transcriptions enable public scrutiny and transparency of the actions and speech of legislative bodies and elected representatives.</p>
 
-<p>Because of their documentation of legislative action and speech, their relatively consistent format, and their coverages of long periods of time they are potentially useful for policy researchers, media and communication scholars, political scientists, linguists, sociologists, historians, and many others.</p>
+<p>Because of their documentation of legislative action and speech, their relatively consistent format and their coverages of long periods of time, they are potentially useful for policy researchers, media and communication scholars, political scientists, linguists, sociologists, historians and many others.</p>
 
-<p>This workshop aimed to provide a starting point for working with these transcribed proceedings, including evaluating how they might (and might not!) be useful for your research, how to get started for different kinds of projects, and cautionary notes on potential limitations.</p>
+<p>This workshop aimed to provide a starting point for working with these transcribed proceedings, including evaluating how they might (and might not!) be useful for your research, how to get started for different kinds of projects and cautionary notes on potential limitations.</p>
 
 <p><b>When</b>: 20 February 2025</p>
 
@@ -464,7 +463,7 @@ If your university or organisation would like to host a workshop, please [contac
         <summary>
             <b>May 29 2025 - Steven Bird: Language Technology and the Metacrisis</b>
         </summary>
-        <p>Despite their manifold benefits, language technologies are contributing to several unfolding crises. Small screens deliver mainstream content across the world and entice children of minoritised communities away from their ancestral languages. The data centres that power large language models depend on the mining of ever more rare earth metals from indigenous lands and emit ever more carbon. Malicious actors flood social media with fake news, provoking extremism, division, and war. Common to these crises is content, i.e. language content, increasingly generated and accessed using language technologies. These developments – the language crisis, the environmental crisis, and the meaning crisis – compound each other in what is being referred to as the metacrisis. How are we to respond, then, as a community of practice who is actively developing still more language technologies? I believe that a good first step is to bring our awareness to the matter and to rethink what we are doing. We must be suspicious of purely technological solutions which may only exacerbate problems that were created by our use of technology. Instead, Steven argues that we should approach the problem as social and cultural. He will share stories from a small and highly multilingual indigenous society who understands language not as sequence data but as social practice, and who understands language resources not as annotated text and speech but as stories and knowledge practices of language owners. He will explore ramifications for our work in the space of language technologies, and propose a relational approach to language technology that avoids extractive processes and centres speech communities.</p>
+        <p>Despite their manifold benefits, language technologies are contributing to several unfolding crises. Small screens deliver mainstream content across the world and entice children of minoritised communities away from their ancestral languages. The data centres that power large language models depend on the mining of ever more rare earth metals from Indigenous lands and emit ever more carbon. Malicious actors flood social media with fake news, provoking extremism, division and war. Common to these crises is content, i.e. language content, increasingly generated and accessed using language technologies. These developments — the language crisis, the environmental crisis and the meaning crisis — compound each other in what is being referred to as the metacrisis. How are we to respond, then, as a community of practice who is actively developing still more language technologies? Steven believes that a good first step is to bring our awareness to the matter and to rethink what we are doing. We must be suspicious of purely technological solutions which may only exacerbate problems that were created by our use of technology. Instead, Steven argues that we should approach the problem as social and cultural. He will share stories from a small and highly multilingual Indigenous society who understands language, not as sequence data, but as social practice, and who understands language resources, not as annotated text and speech, but as stories and knowledge practices of language owners. He will explore ramifications for our work in the space of language technologies, and propose a relational approach to language technology that avoids extractive processes and centres speech communities.</p>
         <p><b>Steven Bird</b>: Over the past three decades, Steven Bird has been working with minoritised peoples in Africa, Melanesia, Amazonia and Australia, and exploring how communities can keep their oral languages and cultures strong. Since 2017 he has been research professor at Charles Darwin University, where he collaborates with Indigenous leaders and directs the Top End Language Lab.</p>
     </details>
     {{</raw>}}
