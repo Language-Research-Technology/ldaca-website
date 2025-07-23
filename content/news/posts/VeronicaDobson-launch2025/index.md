@@ -15,7 +15,7 @@ On Wednesday 2 April, the Centre for Australian Languages and Linguistics (CALL)
 
 <br>
 
-{{< image Src="/VeronicaDobson-launch2025/VPDLaunch-1.jpg" Alt="A large group of people sit applauding the project launch out of shot." Desc="Attendees of the Arne ingkerreke apurtelhe-ileme launch at Batchelor Institute." Title="Attendees of the Arne ingkerreke apurtelhe-ileme launch at Batchelor Institute." Ref="Charlee-Ann Ah Chee">}}
+{{< image Src="/VeronicaDobson-launch2025/VPDLaunch-1.jpg" Alt="A large group of people sit applauding the project launch out of shot." Desc="Attendees of the Arne ingkerreke apurtelhe-ileme launch at Batchelor Institute." Title="Attendees of the Arne ingkerreke apurtelhe-ileme launch at Batchelor Institute." Height="400" Ref="Charlee-Ann Ah Chee">}}
 
 <br>
 
@@ -41,4 +41,4 @@ Veronica’s dedication to and passion for language and culture fills the projec
 >*—Veronica Dobson*
 
 <br></br>
-{{< image Src="/VeronicaDobson-launch2025/VPDLaunch-2.jpg" Alt="A photograph of Veronica Perrurle Dobson with a celebratory cake. In the background is a large screen projecting the Arne ingkerreke apurtelhe-ileme website homepage." Desc="Veronica Perrurle Dobson celebrates the launch of Arne ingkerreke apurtelhe-ileme." Title="Veronica Perrurle Dobson celebrates the launch of Arne ingkerreke apurtelhe-ileme." Ref="Charlee-Ann Ah Chee">}}
+{{< image Src="/VeronicaDobson-launch2025/VPDLaunch-2.jpg" Alt="A photograph of Veronica Perrurle Dobson with a celebratory cake. In the background is a large screen projecting the Arne ingkerreke apurtelhe-ileme website homepage." Desc="Veronica Perrurle Dobson celebrates the launch of Arne ingkerreke apurtelhe-ileme." Title="Veronica Perrurle Dobson celebrates the launch of Arne ingkerreke apurtelhe-ileme." Height="600" Ref="Charlee-Ann Ah Chee">}}

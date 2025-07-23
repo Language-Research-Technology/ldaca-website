@@ -9,7 +9,7 @@ description: "Indigenous data governance: A discussion"
 
 <br>
 
-{{< image Src="/data-governance-panel/DSC_5642-Enhanced-NR-cropped.jpg" Alt="ID-Gov panellists and audience" Desc="Figure 1: Panellists and audience at Indigenous Data Governance: A discussion." Title="Panellists and audience" Ref="Lewis James Bin Doraho">}}
+{{< image Src="/data-governance-panel/DSC_5642-Enhanced-NR-cropped.jpg" Alt="ID-Gov panellists and audience" Desc="Figure 1: Panellists and audience at Indigenous Data Governance: A discussion." Title="Panellists and audience" Height="500" Ref="Lewis James Bin Doraho">}}
 
 <br>
 
@@ -51,7 +51,7 @@ Importantly, Rose added that collecting institutions who engage with ICIP are be
 
 <br>
 
-{{< image Src="/data-governance-panel/DSC_5619.jpg" Alt="Rose Barrowcliffe speaks on the panel." Desc="Figure 2: Dr Rose Barrowcliffe." Title="Rose" Ref="Lewis James Bin Doraho">}}
+{{< image Src="/data-governance-panel/DSC_5619.jpg" Alt="Rose Barrowcliffe speaks on the panel." Desc="Figure 2: Dr Rose Barrowcliffe." Title="Rose" Height="400" Ref="Lewis James Bin Doraho">}}
 
 <br>
 
@@ -87,7 +87,7 @@ Being transparent about these roles will improve accountability in institutions 
 
 <br>
 
-{{< image Src="/data-governance-panel/DSC_5637.jpg" Alt="Robert McLellan speaks on the panel." Desc="Figure 3: Robert McLellan." Title="Robert" Ref="Lewis James Bin Doraho" >}}
+{{< image Src="/data-governance-panel/DSC_5637.jpg" Alt="Robert McLellan speaks on the panel." Desc="Figure 3: Robert McLellan." Title="Robert" Height="400" Ref="Lewis James Bin Doraho" >}}
 
 <br>
 
@@ -110,7 +110,7 @@ The process uncovered gaps in the library’s metadata and was a means of:
 
 <br>
 
-{{< image Src="/data-governance-panel/DSC_5624.jpg" Alt="Lesley Acres speaks on the panel." Desc="Figure 4: Lesley Acres." Title="Lesley" Ref="Lewis James Bin Doraho">}}
+{{< image Src="/data-governance-panel/DSC_5624.jpg" Alt="Lesley Acres speaks on the panel." Desc="Figure 4: Lesley Acres." Title="Lesley" Height="400" Ref="Lewis James Bin Doraho">}}
 
 <br>
 
@@ -136,7 +136,7 @@ Lived experience also plays an important role in decision making around technolo
 
 <br>
 
-{{< image Src="/data-governance-panel/DSC_5644-Enhanced-NR.jpg" Alt="Members of the audience engage with the panellists." Desc="Figure 5: Members of the audience engaging with the panellists." Title="Audience members" Ref="Lewis James Bin Doraho">}}
+{{< image Src="/data-governance-panel/DSC_5644-Enhanced-NR.jpg" Alt="Members of the audience engage with the panellists." Desc="Figure 5: Members of the audience engaging with the panellists." Title="Audience members" Height="500" Ref="Lewis James Bin Doraho">}}
 
 <br>
 

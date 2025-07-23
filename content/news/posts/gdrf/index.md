@@ -64,16 +64,8 @@ Maxwell, C., Selvanathan, H. P., Hames, S., Crimston, C. R., & Jetten, J. (2024)
 
 Giulio's research examines gaming communities in Australia and in Italy, focused on the way stereotypes tied to Italians and organised crime are articulated among players of video games. He is also interested in digital communities, ethnic identities on the Internet, and cultural and social manifestations related to Italian criminal organisations. In his work as a Fellow, he looked at the intersection of these areas of interest by examining the discussions, speculations, and expectations of fans about the (yet to be released) Mafia IV video game. This was tackled using comment threads from YouTube channels as a source of data. Once again, methodological questions were important for Giulio, including the questions about what analytic techniques could usefully be used.
 
-{{<raw>}}
-<br />
-<img src="gdrf_2023.jpg" title="The 2023 GDRF program participants" height="400" class="center_image" />
+{{< image Src="gdrf_2023.jpg" Alt="The 2023 GDRF program participants" Desc="Figure 1: The 2023 GDRF program participants (From left: Giulio, Kelly, Eve, Sam, Christina and Simon)" Title="The 2023 GDRF program participants" Height="500" Ref="Simon Musgrave" class="center_image">}}
 
-{{</raw>}}
-{{<raw>}}
-
-<div style="text-align: center;"><h4>From left: Giulio, Kelly, Eve, Sam, Christina and Simon</h4></div>
-<br />
-{{</raw>}}
 A GDRF program will be offered again in 2025, this time under the banner of the Language Data Commons of Australia. If you think the program could benefit you, there is an [online form](https://forms.gle/prTfh5hpMWhT8wkW9) for expressions of interest (due by **February 19 2025**). For further information, you can contact [Sam Hames](mailto:sam.hames@uq.edu.au) or [Simon Musgrave](mailto:s.musgrave@uq.edu.au).
 
 <br>

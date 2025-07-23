@@ -84,7 +84,7 @@ In an RO-Crate, the metadata file is usually stored in the same folder as the da
 <br></br>
 When data and its metadata and licensing aren’t stored together, they can get separated. Data that loses its metadata is hard to decipher - we don’t know exactly what the data is, who collected it, why it was collected, or what processes it went through. 
 <br></br>
-{{< image Src="/ro-crate-benefits/json-file.png" Alt="Inside an RO-Crate metadata file, in JSON-LD format." Desc="Inside an RO-Crate metadata file, in JSON-LD format. The file also includes a link to a license." Title="Inside an RO-Crate metadata file, in JSON-LD format. The file also includes a link to a license." Ref="Bridey Lea">}}
+{{< image Src="/ro-crate-benefits/json-file.png" Alt="Inside an RO-Crate metadata file, in JSON-LD format." Desc="Inside an RO-Crate metadata file, in JSON-LD format. The file also includes a link to a license." Title="Inside an RO-Crate metadata file, in JSON-LD format. The file also includes a link to a license." Height="600" Ref="Bridey Lea">}}
 <br>
 Storing your collection as an RO-Crate ensures that if the collection has to move elsewhere – to another hard drive, system or repository – the metadata and licensing moves with it and doesn't get lost. 
 <br></br>
@@ -104,7 +104,7 @@ The RO-Crate community is an active group of people from across the globe who ca
 <br></br>
 RO-Crate uses standards that are supported in the wider research community, which helps ensure there will be support for users in the long term. Using supported standards helps make data [FAIR](https://ardc.edu.au/resource-hub/making-data-fair/) (Findable, Accessible, Interoperable and Reusable). 
 <br></br>
-{{< image Src="/ro-crate-benefits/crate-o.png" Alt="Browser-based editor Crate-O with the Kaytetyemoji crate loaded." Desc="Crate-O is an online editor that allows you to build and edit RO-Crates." Title="Crate-O is an online editor that allows you to build and edit RO-Crates." Ref="Bridey Lea">}}
+{{< image Src="/ro-crate-benefits/crate-o.png" Alt="Browser-based editor Crate-O with the Kaytetyemoji crate loaded." Desc="Crate-O is an online editor that allows you to build and edit RO-Crates." Title="Crate-O is an online editor that allows you to build and edit RO-Crates." Height="600" Ref="Bridey Lea">}}
 
 
 ## Where to next?
