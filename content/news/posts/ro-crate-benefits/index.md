@@ -18,7 +18,7 @@ RO-Crate is a popular standard used by organisations and platforms, such as:
 * [Harvard Dataverse](https://www.researchobject.org/ro-crate/dataverse)
 * [University of Technology Sydney](https://arkisto-platform.github.io/case-studies/uts-repo/)
 * [Time Layered Cultural Map (TLCMap) ](https://www.researchobject.org/ro-crate/tlcmap)
-* [The Pacific and Regional Archive for Digital Sources in Endangered Cultures (PARADISEC)](https://www.youtube.com/watch?v=Wmr8OwR-xTA)
+* [The Pacific and Regional Archive for Digital Sources in Endangered Cultures (PARADISEC)](https://www.youtube.com/watch?v=Wmr8OwR-xTA).
 
 <br>
 
@@ -67,9 +67,9 @@ The use cases for each of these two groups differ.
 
 <br>
 
-At LDaCA, we use RO-Crate as the storage method for our data repository. Some collections are made up of a single RO-Crate and some are made up of multiple RO-Crates. RO-Crates make it possible to distribute and present the collection through our [data portal](https://data.ldaca.edu.au/search).  
+At LDaCA, we use RO-Crate as the storage method for our data repository. Some collections are made up of a single RO-Crate and some are made up of multiple RO-Crates. RO-Crates make it possible to distribute and present the collection through our [data portal](https://data.ldaca.edu.au/search).
 
-A single collection RO-Crate is often too large for distribution, especially if it includes audiovisual data. Additionally, many repositories, such as Zenodo, will only accept open data. This is a problem if different parts of your collection, like video material, have different access protocols. LDaCA can help data stewards prepare and transform their collections for distribution. This may involve breaking the collection into 'chunks' for better processing.
+A single collection RO-Crate is often too large for distribution, especially if it includes audiovisual data. Additionally, many repositories, such as [Zenodo](https://zenodo.org/), will only accept open data. This is a problem if different parts of your collection, like video material, have different access protocols. LDaCA can help data stewards prepare and transform their collections for distribution. This may involve breaking the collection into 'chunks' for better processing.
 
 In this post, we outline five benefits of the RO-Crate method in caring for language materials.
 
@@ -113,7 +113,7 @@ Storing your collection as an RO-Crate ensures that if the collection has to mov
 
 Useful metadata follows some kind of '[standard](https://www.ldaca.edu.au/resources/glossary/#standard)' — an agreed language to describe the same ideas. Standard metadata makes it easier to search across collections and to compare them. It also means the data steward isn't responsible for maintaining metadata vocabularies. But what happens when a metadata term that you need isn't covered in an existing metadata standard?
 
-RO-Crate uses [Schema.org](http://schema.org) as its foundation for metadata description, as well as a few other standard vocabularies such as [Dublin Core](http://purl.org/dc/terms). To supplement this, LDaCA has also developed the [Language Data Commons Schema](https://w3id.org/ldac/terms), which provides terms of particular relevance in describing language data collections, for example, [linguisticGenre](https://w3id.org/ldac/terms#linguisticGenre) and [translator](https://w3id.org/ldac/terms#translator). In cases where your collection's metadata requirements aren't covered by these vocabularies, RO-Crate also allows you to define custom terms. This means you can define your metadata to appropriately describe your collection. The custom terms and their descriptions are also recorded in the RO-Crate, so they're understood by others looking at the collection.
+RO-Crate uses [Schema.org](http://schema.org) as its foundation for metadata description, as well as a few other standard vocabularies, such as [Dublin Core](http://purl.org/dc/terms). To supplement this, LDaCA has also developed the [Language Data Commons Schema](https://w3id.org/ldac/terms), which provides terms of particular relevance in describing language data collections, for example, [linguisticGenre](https://w3id.org/ldac/terms#linguisticGenre) and [translator](https://w3id.org/ldac/terms#translator). In cases where your collection's metadata requirements aren't covered by these vocabularies, RO-Crate also allows you to define custom terms. This means you can define your metadata to appropriately describe your collection. The custom terms and their descriptions are also recorded in the RO-Crate, so they're understood by others looking at the collection.
 
 <br>
 
