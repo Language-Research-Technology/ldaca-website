@@ -1,17 +1,23 @@
+{{< glossary_link display="" id="" >}}
 {{< glossary_link display="access conditions" id="access-conditions" >}}
 {{< glossary_link display="AIATSIS" id="aiatsis" >}}
+{{< glossary_link display="archival repository" id="archival-repository" >}}
 {{< glossary_link display="ARDC" id="ardc" >}}
+{{< glossary_link display="ARDS" id="ards" >}}
 {{< glossary_link display="collection" id="collection" >}}
+{{< glossary_link display="controlled vocabulary" id="controlled-vocabulary" >}}
 {{< glossary_link display="copyright" id="copyright" >}}
 {{< glossary_link display="corpus" id="corpus" >}}
 {{< glossary_link display="Crate-O" id="crate-o" >}}
 {{< glossary_link display="data commons" id="data-commons" >}}
 {{< glossary_link display="data custodian" id="data-custodian" >}}
+{{< glossary_link display="data governance" id="data-governance" >}}
 {{< glossary_link display="data license" id="data-license" >}}
 {{< glossary_link display="data packaging" id="data-packaging" >}}
 {{< glossary_link display="data steward" id="data-steward" >}}
 {{< glossary_link display="data transformation" id="data-transformation" >}}
 {{< glossary_link display="ELAN" id="elan" >}}
+{{< glossary_link display="fieldwork" id="fieldwork" >}}
 {{< glossary_link display="format" id="format" >}}
 {{< glossary_link display="GitHub" id="github" >}}
 {{< glossary_link display="HASS" id="hass" >}}

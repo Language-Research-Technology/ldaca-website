@@ -29,7 +29,7 @@ Moises Sacal Bonequi introduced a structured set of guidelines for designing and
 
 Nick Thieberger joined the workshop virtually to demonstrate [Nyingarn](https://nyingarn.net/), a workspace for working with handwritten or typed manuscripts. The platform can help with making digital {{< glossary_link display="formats" id="format" >}} of manuscripts searchable, while maintaining a secure environment for sensitive material.
 
-Ben and Rosanna Smith then introduced [RO-Crate](https://www.researchobject.org/ro-crate/) and [Crate-O](https://language-research-technology.github.io/crate-o/#/). Ben used a physical crate as a metaphor to explain the RO-Crate approach to packaging data. He explained how RO-Crate is a {{< glossary_link display="method" id="methods" >}} for bundling materials (like audio files, images or manuscripts) with their associated metadata. Rosanna also shared a demonstration of Crate-O, a browser-based platform that can help users convert their materials and metadata into an RO-Crate format.
+Ben and Rosanna Smith then introduced [RO-Crate](https://www.researchobject.org/ro-crate/) and [Crate-O](https://language-research-technology.github.io/crate-o/#/). Ben used a physical crate as a metaphor to explain the RO-Crate approach to {{< glossary_link display="packaging data" id="data-packaging" >}}. He explained how RO-Crate is a {{< glossary_link display="method" id="methods" >}} for bundling materials (like audio files, images or manuscripts) with their associated metadata. Rosanna also shared a demonstration of Crate-O, a browser-based platform that can help users convert their materials and metadata into an RO-Crate format.
 
 <br>
 
@@ -41,9 +41,9 @@ The workshop also provided a platform for participants to share their efforts in
 
 Elaine Labuschagne reflected on her learnings working with the [Batchelor Institute](https://www.batchelor.edu.au/) Centre for Australian Languages and Linguistics (CALL) Collection so far and the evolving [catalogue](https://callcollection.batchelor.edu.au/). She outlined plans for upcoming work with LDaCA, focusing on creating lasting accessibility solutions to address the limitations of temporary digital {{< glossary_link display="tools" id="tools" >}}.
 
-Dikuḻ Baker, Salome Harris and Jess Wallace shared the beginnings of the [ARDS](https://www.ards.com.au/) AudioCat Project pilot project, which focuses on cataloging ARDS' extensive collection materials. Their stories emphasised valuable lessons learned so far.
+Dikuḻ Baker, Salome Harris and Jess Wallace shared the beginnings of the [ARDS](https://www.ards.com.au/) AudioCat Project pilot project, which focuses on cataloging {{< glossary_link display="ARDS'" id="ards" >}} extensive collection materials. Their stories emphasised valuable lessons learned so far.
 
-PJ Andrews, Juliet Beale and Karen Manton showcased the [Libraries and Archives NT](https://lant.nt.gov.au/) collections and explained the complexities of managing multiple digital collection spaces, including their Library Management System, their library catalogue and [Territory Stories](https://territorystories.nt.gov.au/), their interface for searching digital and published collections about the Northern Territory. This session highlighted challenges and opportunities of working across multiple digital tools.
+PJ Andrews, Juliet Beale and Karen Manton showcased the [Libraries and Archives NT](https://lant.nt.gov.au/) collections and explained the complexities of managing multiple digital collection spaces, including their Library Management System, their library catalogue, and [Territory Stories](https://territorystories.nt.gov.au/), their interface for searching digital and published collections about the Northern Territory. This session highlighted challenges and opportunities of working across multiple digital tools.
 
 <br>
 

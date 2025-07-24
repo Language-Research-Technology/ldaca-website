@@ -92,6 +92,8 @@ ICIP
 IDIL
 IDN
 IIRC
+Infrastructure
+Infrastructures
 Intellectual Property
 Interoperability
 IPA
@@ -130,6 +132,7 @@ Oral Histories
 ORCID
 Orthographic Transcription
 Orthographic Transcriptions
+Packaging Data
 PARADISEC
 Phonemic Transcription
 Phonemic Transcriptions
@@ -148,6 +151,8 @@ R
 RDC
 Research Data Management
 REMS
+Repository
+Repositories
 Research Infrastructure
 Research Infrastructures
 RIIP
