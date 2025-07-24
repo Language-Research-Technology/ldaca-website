@@ -27,7 +27,7 @@ The Language Data Commons of Australia (LDaCA) hosted an Indigenous Data Governa
 
 <br>
 
-The panellists explored topics of data accessibility and discoverability, [Indigenous Cultural and Intellectual Property](https://www.terrijanke.com.au/icip) (ICIP), and tools and methods for Indigenous Data Governance (ID-Gov). What follows is a summarised version of the panellists' contributions organised around the main themes of the discussion.<sup><a name="back-1" >[1](#fn-1)</a></sup> Key takeaways for Galleries, Libraries, Archives and Museums (GLAM) sector workers looking to implement ID-Gov strategies in their collections were the importance of employing First Nations staff and working in respectful partnership with communities.
+The panellists explored topics of data accessibility and discoverability, [Indigenous Cultural and Intellectual Property](https://www.terrijanke.com.au/icip) (ICIP), and tools and {{< glossary_link display="methods" id="methods" >}} for Indigenous Data Governance (ID-Gov). What follows is a summarised version of the panellists' contributions organised around the main themes of the discussion.<sup><a name="back-1" >[1](#fn-1)</a></sup> Key takeaways for Galleries, Libraries, Archives and Museums (GLAM) sector workers looking to implement ID-Gov strategies in their {{< glossary_link display="collections" id="collection" >}} were the importance of employing First Nations staff and working in respectful partnership with communities.
 
 <br>
 
@@ -65,9 +65,9 @@ Indigenous Data Sovereignty (ID-Sov) and ID-Gov are terms sometimes used interch
 
 One of the key steps that Robert identified for collecting institutions beginning to implement ID-Gov processes is transparency around different roles within the data ecosystem. Three roles are described by Rose and others (2024) in the article _[Indigenous Data Governance in Australia: Towards a National Framework](https://doi.org/10.18584/iipj.2023.14.1.10987)_:
 
-- Data owners are those who have legal rights over the materials.
-- Data custodians are those who provide storage and access services.
-- Data stewards are those who process data in different ways.
+- {{< glossary_link display="Data owners" id="data-owner" >}} are those who have legal rights over the materials.
+- {{< glossary_link display="Data custodians" id="data-custodian" >}} are those who provide storage and access services.
+- {{< glossary_link display="Data stewards" id="data-steward" >}} are those who process data in different ways.
 
 <br>
 Robert commented that:
@@ -90,7 +90,7 @@ Being transparent about these roles will improve accountability in institutions 
 
 ### Auditing and metadata enrichment
 
-Lesley Acres's (Figure 4) work on the _[Elevating and Respecting Aboriginal and Torres Strait Islander knowledges and perspectives in UQ Special and Research Collections](https://doi.org/10.14264/ff03c00)_ project offered an inspiring example of the power of auditing and metadata enrichment for ID-Gov. Lesley and her team developed an audit methodology to survey materials and enrich their metadata. They refined the methodology using four collections that were identified as high priority:
+Lesley Acres's (Figure 4) work on the _[Elevating and Respecting Aboriginal and Torres Strait Islander knowledges and perspectives in UQ Special and Research Collections](https://doi.org/10.14264/ff03c00)_ project offered an inspiring example of the power of auditing and {{< glossary_link display="metadata" id="metadata" >}} enrichment for ID-Gov. Lesley and her team developed an audit methodology to survey materials and enrich their metadata. They refined the methodology using four collections that were identified as high priority:
 
 - Vocabularies of four representative tribes of South Eastern Queensland (F3843)
 - Oodgeroo Noonuccal Papers (UQFL84)
@@ -100,7 +100,7 @@ Lesley Acres's (Figure 4) work on the _[Elevating and Respecting Aboriginal and 
 <br>
 The process uncovered gaps in the library's metadata and was a means of:
 
-<ul> <i>Giving Aboriginal and Torres Strait Islander people control over their own knowledges... Those four collections had never been audited. Back then, there were three of us — three Aboriginal and Torres Strait Islander women — who were looking at that information, and when we started, the first one we looked at was Caroline Tennant Kelly's papers. By the time we finished auditing that collection, we found over 200 people listed in her fieldnotes, 47 we recognised as contributors. That collection was so significant in that we met with <a href=https://www.link-upqld.org.au>LinkUp QLD</a>, and they now use that collection to help connect their clients to ancestors.</i> (LA) </ul>
+<ul> <i>Giving Aboriginal and Torres Strait Islander people control over their own knowledges... Those four collections had never been audited. Back then, there were three of us — three Aboriginal and Torres Strait Islander women — who were looking at that information, and when we started, the first one we looked at was Caroline Tennant Kelly's papers. By the time we finished auditing that collection, we found over 200 people listed in her {{< glossary_link display="fieldnotes" id="fieldnotes" >}}, 47 we recognised as contributors. That collection was so significant in that we met with <a href=https://www.link-upqld.org.au>LinkUp QLD</a>, and they now use that collection to help connect their clients to ancestors.</i> (LA) </ul>
 
 <br>
 
@@ -112,7 +112,7 @@ The process uncovered gaps in the library's metadata and was a means of:
 
 <ul> <i>What I have said from the beginning is, that you need to get out of your comfort zone, you have to be uncomfortable... You need to look at what your institution stands for, what it's represented and what it's done in the past.</i> (LA)</ul>
 
-It is important for collecting institutions to investigate their legacy. A core principle of ICIP is [free, prior and informed consent](https://www.artslaw.com.au/information-sheet/indigenous-cultural-intellectual-property-icip-aitb/), which can be difficult to determine for historical collections. In some cases, we might know that permissions were not obtained, or that they were collected, but not in ways that are current best practice. In other cases, we might not have any information about the provenance of and permissions surrounding historical materials. Collecting institutions can work to build partnerships, and invest financial and staffing resources, where this is possible, into this reflective and investigative work. Lesley described this type of work as a "_cultural learning journey_."
+It is important for collecting institutions to investigate their legacy. A core principle of ICIP is [free, prior and informed consent](https://www.artslaw.com.au/information-sheet/indigenous-cultural-intellectual-property-icip-aitb/), which can be difficult to determine for historical collections. In some cases, we might know that permissions were not obtained, or that they were collected, but not in ways that are current best practice. In other cases, we might not have any information about the {{< glossary_link display="provenance" id="provenance" >}} of and permissions surrounding historical materials. Collecting institutions can work to build partnerships, and invest financial and staffing resources, where this is possible, into this reflective and investigative work. Lesley described this type of work as a "_cultural learning journey_."
 
 <br>
 
@@ -152,7 +152,7 @@ When communities are not ready to engage with archival processes, this can be an
 
 ---
 
-**_We are grateful to all three of the panellists for their theoretical and practical insights into Indigenous Data Governance, as well as to Grant Sarra for facilitating the discussion._**
+> **_We are grateful to all three of the panellists for their theoretical and practical insights into Indigenous Data Governance, as well as to Grant Sarra for facilitating the discussion._**
 
 <br>
 

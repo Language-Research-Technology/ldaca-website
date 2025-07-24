@@ -21,7 +21,7 @@ On Wednesday 2 April, the Centre for Australian Languages and Linguistics ([CALL
 
 <br>
 
-Veronica Dobson is an Eastern Arrernte elder, linguist, educator, author and ecologist, whose advocacy and work for language and culture is widely recognised and deeply respected. For over four decades, Veronica has worked in many inter-related fields — language documentation and teaching, lexicography, interpreting, ethnobiology and land management. The result is a vast body of work, which is presented for the first time through *Arne ingkerreke apurtelhe-ileme*. The [veronicadobson.au](https://veronicadobson.au) website is a guide to Veronica's life, work and publications, and contains links to archival collections of her work.
+Veronica Dobson is an Eastern Arrernte elder, linguist, educator, author and ecologist, whose advocacy and work for language and culture is widely recognised and deeply respected. For over four decades, Veronica has worked in many inter-related fields — language documentation and teaching, lexicography, interpreting, ethnobiology and land management. The result is a vast body of work, which is presented for the first time through *Arne ingkerreke apurtelhe-ileme*. The [veronicadobson.au](https://veronicadobson.au) website is a guide to Veronica's life, work and publications, and contains links to archival {{< glossary_link display="collections" id="collection" >}} of her work.
 
 Veronica's daughter, Camille Dobson, spoke about the process of creating this collection at the recent launch. 
 
@@ -31,7 +31,7 @@ Veronica's daughter, Camille Dobson, spoke about the process of creating this co
 
 <br>
 
-In June last year, CALL partnered with LDaCA to develop a 'person-centred collection'. Many archival collections revolve around non-Indigenous collectors, like linguists and anthropologists, who have recorded and accumulated material over their lifetime. Person-centred collections reframe our focus and enhance our understanding of the collection items by showing them as the cohesive work of an Aboriginal knowledge holder.
+In June last year, CALL partnered with {{< glossary_link display="LDaCA" id="ldaca" >}} to develop a 'person-centred collection'. Many archival collections revolve around non-Indigenous collectors, like linguists and anthropologists, who have recorded and accumulated material over their lifetime. Person-centred collections reframe our focus and enhance our understanding of the collection items by showing them as the cohesive work of an Aboriginal knowledge holder.
 
 <br>
 

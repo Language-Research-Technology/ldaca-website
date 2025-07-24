@@ -2,4 +2,4 @@ Name: "format"
 "title": "Format"
 "short_description": "The encoding used to store a file."
 "content": "The encoding used to store a file which is often specific for the nature of the material being stored. For example, .mp3 and .wav are formats for audio, .jpg and .tiff are formats for images. The examples illustrate that information about a file's format is given in the extension of the filename."
-"cross_ref":
+"cross_ref": [["data-format", "Data Format"]]
