@@ -45,6 +45,9 @@ Maxwell, C., Selvanathan, H. P., Hames, S., Crimston, C. R., & Jetten, J. (2024)
 Schweinberger, Martin. 2024. Seeded topic modeling as a more appropriate alternative to unsupervised standard topic models. _Discourse Studies_ 0(0). https://doi.org/10.1177/14614456241293895
 <br />
 
+Schweinberger M (2024b) A computational approach to analysing the Corpus of Oz Early English. In: Amador-Moreno C, Haumann D, Peters A (eds) _The Words That Remain: (Doing) Historical Linguistics in the Digital Era_. London: Routledge, pp.73–88.
+<br />
+
 Thieberger, Nick, Michael Aird, Clint Bracknell, Jason Gibson, Amanda Harris, Marcia Langton, Gaye Sculthorpe & Jane Simpson. 2024. The New Protectionism: Risk Aversion and Access to Indigenous Heritage Records. _Archives & Manuscripts_ e10971. [https://doi.org/10.37683/asa.v51.10971](https://doi.org/10.37683/asa.v51.10971).
 <br />
 
