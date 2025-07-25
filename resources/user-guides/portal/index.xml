@@ -87,11 +87,9 @@
 &lt;br>
 &lt;p>Some collections require that you log in either to access, or apply for access, to the data. This can be done by selecting &lt;em>&lt;strong>Login&lt;/strong>&lt;/em> from the top menu bar.&lt;/p>
 &lt;br>
-
-
 &lt;body>
  &lt;div>
- &lt;img src="https://www.ldaca.edu.au/user-guides/portal/loginBox.png" alt="Portal Top Menu Options" title="Portal Top Menu Options" height="" class="center_image" />
+ &lt;img src="https://www.ldaca.edu.au/user-guides/portal/loginBox.png" alt="Portal Top Menu Options" title="Portal Top Menu Options" style="width:auto;height:px;" class="center_image" />
  &lt;div style="text-align: center">
  &lt;b>
  Portal Top Menu Options&lt;/b>

@@ -145,7 +145,11 @@
  &lt;tr valign="top">
  
  &lt;td>&lt;a name="austlang">&lt;/a>&lt;b>AustLang&lt;/b>&lt;/td>
- &lt;td>Provides a controlled vocabulary of persistent identifiers, a thesaurus of languages and peoples, and information about Aboriginal and Torres Strait Islander languages which has been assembled from referenced sources. Alphanumeric codes are used as persistent identifiers, while associated text strings are changeable and can reflect community preferences (including alternative names and spellings). In AustLang, Warlpiri has two codes: C15 for the language in general, and C15.1 for the variety named as Wakirti Warlpiri.&lt;br>&lt;a href="https://collection.aiatsis.gov.au/austlang/about" target="_blank">More information&lt;/a>
+ &lt;td>Provides a &lt;a href="https://www.ldaca.edu.au/resources/glossary/#controlled-vocabulary" title="A set of choices which are permitted as values of a data field." target="_blank"
+ >controlled vocabulary&lt;/a
+> of persistent identifiers (&lt;a href="https://www.ldaca.edu.au/resources/glossary/#pid" title="Persistent Identifier" target="_blank"
+ >PIDs&lt;/a
+>), a thesaurus of languages and peoples, and information about Aboriginal and Torres Strait Islander languages which has been assembled from referenced sources. Alphanumeric codes are used as PIDs, while associated text strings are changeable and can reflect community preferences (including alternative names and spellings). In AustLang, Warlpiri has two codes: C15 for the language in general, and C15.1 for the variety named as Wakirti Warlpiri.&lt;br>&lt;a href="https://collection.aiatsis.gov.au/austlang/about" target="_blank">More information&lt;/a>
  &lt;/td>
  &lt;/tr>
  

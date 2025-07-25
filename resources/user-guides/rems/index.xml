@@ -93,11 +93,9 @@
  >object&lt;/a
 > with restrictions, the following warning text displays on the webpage: &amp;ldquo;You do not have permission to see these files. Sign up or login.&amp;rdquo; This means the user is not logged in to the portal and is prompted to do so.&lt;/li>
 &lt;/ul>
-
-
 &lt;body>
  &lt;div>
- &lt;img src="https://www.ldaca.edu.au/user-guides/rems/REMS-SignUp-or-Login.png" alt="LDaCA Portal: Sign Up or Login" title="LDaCA Portal: Sign Up or Login" height="" class="center_image" />
+ &lt;img src="https://www.ldaca.edu.au/user-guides/rems/REMS-SignUp-or-Login.png" alt="LDaCA Portal: Sign Up or Login" title="LDaCA Portal: Sign Up or Login" style="width:auto;height:px;" class="center_image" />
  &lt;div style="text-align: center">
  &lt;b>
  LDaCA Portal: Sign Up or Login&lt;/b>
@@ -109,11 +107,9 @@
 &lt;ul>
 &lt;li>If the user was already logged in at the time of trying to access restricted data, the warning text is a bit different: &amp;ldquo;You are logged in and you can apply for permission to view these files. Apply for access or refresh permissions&amp;rdquo;&lt;/li>
 &lt;/ul>
-
-
 &lt;body>
  &lt;div>
- &lt;img src="https://www.ldaca.edu.au/user-guides/rems/REMS-ApplyOrRefreshPermissions.png" alt="LDaCA Portal: Apply For Access or Refresh Permissions" title="LDaCA Portal: Apply For Access or Refresh Permissions" height="" class="center_image" />
+ &lt;img src="https://www.ldaca.edu.au/user-guides/rems/REMS-ApplyOrRefreshPermissions.png" alt="LDaCA Portal: Apply For Access or Refresh Permissions" title="LDaCA Portal: Apply For Access or Refresh Permissions" style="width:auto;height:px;" class="center_image" />
  &lt;div style="text-align: center">
  &lt;b>
  LDaCA Portal: Apply For Access or Refresh Permissions&lt;/b>

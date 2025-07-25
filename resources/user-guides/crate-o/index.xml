@@ -16,11 +16,9 @@
 &lt;br>
 &lt;h2 id="main-menu">Main Menu&lt;/h2>
 &lt;br>
-
-
 &lt;body>
  &lt;div>
- &lt;img src="https://www.ldaca.edu.au/user-guides/crate-o/main_toolbar.png" alt="Crate-O Main Menu" title="Crate-O Main Menu" height="" class="center_image" />
+ &lt;img src="https://www.ldaca.edu.au/user-guides/crate-o/main_toolbar.png" alt="Crate-O Main Menu" title="Crate-O Main Menu" style="width:auto;height:px;" class="center_image" />
  &lt;div style="text-align: center">
  &lt;b>
  Crate-O Main Menu&lt;/b>
@@ -77,11 +75,9 @@
 &lt;br>
 &lt;h2 id="mode-selector">Mode Selector&lt;/h2>
 &lt;br>
-
-
 &lt;body>
  &lt;div>
- &lt;img src="https://www.ldaca.edu.au/user-guides/crate-o/select_mode.png" alt="Crate-O Mode Selector" title="Crate-O Mode Selector" height="" class="center_image" />
+ &lt;img src="https://www.ldaca.edu.au/user-guides/crate-o/select_mode.png" alt="Crate-O Mode Selector" title="Crate-O Mode Selector" style="width:auto;height:px;" class="center_image" />
  &lt;div style="text-align: center">
  &lt;b>
  Crate-O Mode Selector&lt;/b>
@@ -118,11 +114,9 @@
 &lt;li>Your current working directory will be displayed in the &lt;em>Selected Directory&lt;/em> section in the &lt;a href="https://www.ldaca.edu.au/resources/user-guides/crate-o/basic-navigation/#mode-selector" rel="">Mode Selector&lt;/a>.&lt;/li>
 &lt;/ul>
 &lt;br>
-
-
 &lt;body>
  &lt;div>
- &lt;img src="https://www.ldaca.edu.au/user-guides/crate-o/open_directory.png" alt="Crate-O: Open Directory" title="Crate-O: Open Directory" height="" class="center_image" />
+ &lt;img src="https://www.ldaca.edu.au/user-guides/crate-o/open_directory.png" alt="Crate-O: Open Directory" title="Crate-O: Open Directory" style="width:auto;height:px;" class="center_image" />
  &lt;div style="text-align: center">
  &lt;b>
  Crate-O: Open Directory&lt;/b>
@@ -143,11 +137,9 @@
 &lt;li>Change the mode from the default &lt;em>Simple RO-Crate Dataset&lt;/em> to &lt;em>Language Data Commons Comprehensive Collection&lt;/em>.&lt;/li>
 &lt;/ul>
 &lt;br>
-
-
 &lt;body>
  &lt;div>
- &lt;img src="https://www.ldaca.edu.au/user-guides/crate-o/select_mode.png" alt="Crate-O: Select Mode" title="Crate-O: Select Mode" height="" class="center_image" />
+ &lt;img src="https://www.ldaca.edu.au/user-guides/crate-o/select_mode.png" alt="Crate-O: Select Mode" title="Crate-O: Select Mode" style="width:auto;height:px;" class="center_image" />
  &lt;div style="text-align: center">
  &lt;b>
  Crate-O: Select Mode&lt;/b>
@@ -168,11 +160,9 @@
 &lt;li>For blank RO-Crates, the following missing property messages will appear by default. Clicking the blue &lt;strong>&lt;em>Add&lt;/em>&lt;/strong> buttons will automatically add these missing items to your RO-Crate.&lt;/li>
 &lt;/ul>
 &lt;br>
-
-
 &lt;body>
  &lt;div>
- &lt;img src="https://www.ldaca.edu.au/user-guides/crate-o/missing_properties.jpeg" alt="Crate-O: Missing Properties" title="Crate-O: Missing Properties" height="" class="center_image" />
+ &lt;img src="https://www.ldaca.edu.au/user-guides/crate-o/missing_properties.jpeg" alt="Crate-O: Missing Properties" title="Crate-O: Missing Properties" style="width:auto;height:px;" class="center_image" />
  &lt;div style="text-align: center">
  &lt;b>
  Crate-O: Missing Properties&lt;/b>
@@ -187,11 +177,9 @@
 > entities associated with the Language Data Commons (LDAC) Mode, see &lt;a href="https://ldaca.gitbook.io/metadata-for-language-data" target="_blank" rel="noopener noreffer ">Metadata for Language Data&lt;/a>.&lt;/li>
 &lt;/ul>
 &lt;br>
-
-
 &lt;body>
  &lt;div>
- &lt;img src="https://www.ldaca.edu.au/user-guides/crate-o/add_entity_metadata.png" alt="Crate-O: Add Entity Metadata" title="Crate-O: Add Entity Metadata" height="" class="center_image" />
+ &lt;img src="https://www.ldaca.edu.au/user-guides/crate-o/add_entity_metadata.png" alt="Crate-O: Add Entity Metadata" title="Crate-O: Add Entity Metadata" style="width:auto;height:px;" class="center_image" />
  &lt;div style="text-align: center">
  &lt;b>
  Crate-O: Add Entity Metadata&lt;/b>
@@ -206,11 +194,9 @@
 &lt;li>For the pop-up message asking &lt;em>Save changes to [Selected Directory]?&lt;/em>, select &lt;strong>&lt;em>Save changes&lt;/em>&lt;/strong>.&lt;/li>
 &lt;/ul>
 &lt;br>
-
-
 &lt;body>
  &lt;div>
- &lt;img src="https://www.ldaca.edu.au/user-guides/crate-o/save_ro_crate.png" alt="Crate-O: Save RO-Crate" title="Crate-O: Save RO-Crate" height="" class="center_image" />
+ &lt;img src="https://www.ldaca.edu.au/user-guides/crate-o/save_ro_crate.png" alt="Crate-O: Save RO-Crate" title="Crate-O: Save RO-Crate" style="width:auto;height:px;" class="center_image" />
  &lt;div style="text-align: center">
  &lt;b>
  Crate-O: Save RO-Crate&lt;/b>
@@ -241,11 +227,9 @@
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td>
-
-&lt;body>
+ &lt;td>&lt;body>
  &lt;div>
- &lt;img src="https://www.ldaca.edu.au/user-guides/crate-o/ro_crate_metadata_json.png" alt="ro-crate-metadata.json" title="ro-crate-metadata.json" height="" class="center_image" />
+ &lt;img src="https://www.ldaca.edu.au/user-guides/crate-o/ro_crate_metadata_json.png" alt="ro-crate-metadata.json" title="ro-crate-metadata.json" style="width:auto;height:px;" class="center_image" />
  &lt;div style="text-align: center">
  &lt;b>
  ro-crate-metadata.json&lt;/b>
@@ -253,11 +237,9 @@
  &lt;/div>
  &lt;/div>
 &lt;/body>&lt;/td>
- &lt;td>
-
-&lt;body>
+ &lt;td>&lt;body>
  &lt;div>
- &lt;img src="https://www.ldaca.edu.au/user-guides/crate-o/ro_crate_preview_html.jpeg" alt="ro-crate-preview.html" title="ro-crate-preview.html" height="" class="center_image" />
+ &lt;img src="https://www.ldaca.edu.au/user-guides/crate-o/ro_crate_preview_html.jpeg" alt="ro-crate-preview.html" title="ro-crate-preview.html" style="width:auto;height:px;" class="center_image" />
  &lt;div style="text-align: center">
  &lt;b>
  ro-crate-preview.html&lt;/b>
