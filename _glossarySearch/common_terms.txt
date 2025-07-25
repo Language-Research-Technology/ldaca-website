@@ -1,0 +1,42 @@
+{{< glossary_link display="" id="" >}}
+{{< glossary_link display="access conditions" id="access-conditions" >}}
+{{< glossary_link display="AIATSIS" id="aiatsis" >}}
+{{< glossary_link display="archival repository" id="archival-repository" >}}
+{{< glossary_link display="ARDC" id="ardc" >}}
+{{< glossary_link display="ARDS" id="ards" >}}
+{{< glossary_link display="collection" id="collection" >}}
+{{< glossary_link display="controlled vocabulary" id="controlled-vocabulary" >}}
+{{< glossary_link display="copyright" id="copyright" >}}
+{{< glossary_link display="corpus" id="corpus" >}}
+{{< glossary_link display="Crate-O" id="crate-o" >}}
+{{< glossary_link display="data commons" id="data-commons" >}}
+{{< glossary_link display="data custodian" id="data-custodian" >}}
+{{< glossary_link display="data governance" id="data-governance" >}}
+{{< glossary_link display="data license" id="data-license" >}}
+{{< glossary_link display="data packaging" id="data-packaging" >}}
+{{< glossary_link display="data steward" id="data-steward" >}}
+{{< glossary_link display="data transformation" id="data-transformation" >}}
+{{< glossary_link display="ELAN" id="elan" >}}
+{{< glossary_link display="fieldwork" id="fieldwork" >}}
+{{< glossary_link display="format" id="format" >}}
+{{< glossary_link display="GitHub" id="github" >}}
+{{< glossary_link display="HASS" id="hass" >}}
+{{< glossary_link display="intellectual property" id="intellectual-property" >}}
+{{< glossary_link display="LDaCA" id="ldaca" >}}
+{{< glossary_link display="licensing" id="licensing" >}}
+{{< glossary_link display="linked data" id="linked-data" >}}
+{{< glossary_link display="metadata" id="metadata" >}}
+{{< glossary_link display="methods" id="methods" >}}
+{{< glossary_link display="Nyingarn" id="nyingarn" >}}
+{{< glossary_link display="object" id="object" >}}
+{{< glossary_link display="OCFL" id="ocfl" >}}
+{{< glossary_link display="oral history" id="oral-history" >}}
+{{< glossary_link display="PARADISEC" id="paradisec" >}}
+{{< glossary_link display="research data management" id="rdm" >}}
+{{< glossary_link display="research infrastructure" id="research-infrastructure" >}}
+{{< glossary_link display="RO-Crate" id="ro-crate" >}}
+{{< glossary_link display="schema" id="schema" >}}
+{{< glossary_link display="standard" id="standard" >}}
+{{< glossary_link display="tools" id="tools" >}}
+{{< glossary_link display="Wangka Maya" id="wangka-maya" >}}
+{{< glossary_link display="" id="" >}}

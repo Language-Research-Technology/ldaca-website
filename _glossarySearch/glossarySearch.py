@@ -44,4 +44,6 @@ if __name__ == "__main__":
         print(f"{word}: {count}")
 print(f"\nTooltip guidelines:\n- Check the context of these matches; they may not be applicable!\n- Don't add tooltips to headings, image text and URLs.\n- If the glossary item already has a direct link, don't add a tooltip (this can be added to the next occurence).\n- If the same glossary item occurs more than once in a single paragraph, only add a tooltip for the first instance.")
 text = '{{< glossary_link display="TERM_TO_DISPLAY" id="YML_NAME" >}}'
-print(f"Glossary Template: {text}")
+print(f"\nGlossary Template: {text}")
+text_blank = '{{< glossary_link display="" id="" >}}'
+print(f"Glossary Template (blank): {text_blank}")

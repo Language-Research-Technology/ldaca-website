@@ -15,24 +15,27 @@ aliases:
 
  <br>
 
+### Webinar: The ParlaMint corpora of European parliamentary proceedings
 
-### Webinar: Language Technology and the Metacrisis
+Join us for the second webinar in our 2025 webinar series.
 
-Join us for the first webinar in our 2025 webinar series, hosted by the Language Data Commons of Australia.
+**Presenters: Tomaž Erjavec and Matyáš Kopp**
+<br>
+Tomaž Erjavec is a member of the Department of Knowledge Technologies of the Institut "Jožef Stefan" (Ljubljana, Slovenia) and of the Fran Ramovš Institute of the Slovenian Language. His research interests include text corpora and other language resources, digital humanities, standardisation of text encoding, language technologies for Slovene, machine learning methods for natural language and computational morphology.
 
-**Presenter**: [Professor Steven Bird](https://researchers.cdu.edu.au/en/persons/steven-bird), Charles Darwin University
-
-Over the past three decades, Steven Bird has been working with minoritised peoples in Africa, Melanesia, Amazonia and Australia, and exploring how communities can keep their oral languages and cultures strong. Since 2017 he has been research professor at Charles Darwin University, where he collaborates with Indigenous leaders and directs the Top End Language Lab.
+Matyáš Kopp is a member of the Institute for Formal and Applied Linguistics at the Charles University in Prague (Czech Republic). He has worked extensively on compiling and researching datasets based on parliamentary proceedings, and also on technologies for querying treebanks.
 
 **Abstract**:
 
-Despite their manifold benefits, language technologies are contributing to several unfolding crises. Small screens deliver mainstream content across the world and entice children of minoritised communities away from their ancestral languages. The data centres that power large language models depend on the mining of ever more rare earth metals from indigenous lands and emit ever more carbon. Malicious actors flood social media with fake news, provoking extremism, division, and war. Common to these crises is content, i.e. language content, increasingly generated and accessed using language technologies. These developments – the language crisis, the environmental crisis, and the meaning crisis – compound each other in what is being referred to as the metacrisis. How are we to respond, then, as a community of practice who is actively developing still more language technologies? I believe that a good first step is to bring our awareness to the matter and to rethink what we are doing. We must be suspicious of purely technological solutions which may only exacerbate problems that were created by our use of technology. Instead, Steven argues that we should approach the problem as social and cultural. He will share stories from a small and highly multilingual indigenous society who understands language not as sequence data but as social practice, and who understands language resources not as annotated text and speech but as stories and knowledge practices of language owners. He will explore ramifications for our work in the space of language technologies, and propose a relational approach to language technology that avoids extractive processes and centres speech communities.
+This talk will discuss the compilation and dissemination of the ParlaMint corpora, i.e. 29 corpora of European national and regional parliamentary proceedings, covering at least the period from 2015 to 2022, and containing over 1 billion words.
 
-**When**: 29 May 2025, 3:30PM AEST
+We will describe the background of this CLARIN-funded project and the characteristics of the produced corpora. We then introduce the encoding of the corpora, the corpus compilation pipeline, the use of GitHub and concentrate on the ways in which the corpus is made accessible to potential users.
 
-**Where**: https://uqz.zoom.us/s/88918374980
+We will conclude with lessons learnt in the project and our further work on the ParlaMint corpora.
 
-**Add to calendar**: [Outlook](https://outlook.office.com/calendar/0/action/compose?allday=false&body=Join%20us%20for%20the%20first%20webinar%20in%20our%202025%20webinar%20series%2C%20hosted%20by%20the%20Language%20Data%20Commons%20of%20Australia.%20In%20this%20webinar%2C%20%20Professor%20Steven%20Bird%20%28Charles%20Darwin%20University%29%2C%20%20will%20address%20the%20unfolding%20%27metacrisis%27%20which%20language%20technologies%20contribute%20to%20and%20offer%20ways%20we%20can%20begin%20to%20respond%20to%20it%20as%20language%20researchers%20and%20technologists.%20%20&enddt=2025-05-29T16%3A30%3A00&location=https%3A%2F%2Fuqz.zoom.us%2Fs%2F88918374980&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2025-05-29T15%3A30%3A00&subject=Language%20technology%20and%20the%20metacrisis) | [Google](https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20250529T053000Z%2F20250529T063000Z&details=Join%20us%20for%20the%20first%20webinar%20in%20our%202025%20webinar%20series%2C%20hosted%20by%20the%20Language%20Data%20Commons%20of%20Australia.%20In%20this%20webinar%2C%20%20Professor%20Steven%20Bird%20%28Charles%20Darwin%20University%29%2C%20%20will%20address%20the%20unfolding%20%27metacrisis%27%20which%20language%20technologies%20contribute%20to%20and%20offer%20ways%20we%20can%20begin%20to%20respond%20to%20it%20as%20language%20researchers%20and%20technologists.%20%20&location=https%3A%2F%2Fuqz.zoom.us%2Fs%2F88918374980&text=Language%20technology%20and%20the%20metacrisis) 
+**When**: 28 August 2025, 4pm AEST
+
+**Where**: Online — link to be provided
 
 <br>
 
@@ -63,9 +66,9 @@ The RO-Crate community run a weekly drop-in call in Australia. For further infor
 </summary>
 <p>Parliamentary bodies around the world have been publishing transcriptions of their proceedings for decades or even centuries. These transcriptions enable public scrutiny and transparency of the actions and speech of legislative bodies and elected representatives.</p>
 
-<p>Because of their documentation of legislative action and speech, their relatively consistent format, and their coverages of long periods of time they are potentially useful for policy researchers, media and communication scholars, political scientists, linguists, sociologists, historians, and many others.</p>
+<p>Because of their documentation of legislative action and speech, their relatively consistent format and their coverages of long periods of time, they are potentially useful for policy researchers, media and communication scholars, political scientists, linguists, sociologists, historians and many others.</p>
 
-<p>This workshop aimed to provide a starting point for working with these transcribed proceedings, including evaluating how they might (and might not!) be useful for your research, how to get started for different kinds of projects, and cautionary notes on potential limitations.</p>
+<p>This workshop aimed to provide a starting point for working with these transcribed proceedings, including evaluating how they might (and might not!) be useful for your research, how to get started for different kinds of projects and cautionary notes on potential limitations.</p>
 
 <p><b>When</b>: 20 February 2025</p>
 
@@ -452,10 +455,21 @@ If your university or organisation would like to host a workshop, please [contac
 
 ### Previous Webinars {#webinars}
 
-Our webinar series was a joint initiative with the Language Technology and Data Analysis Laboratory ([LADAL](https://slcladal.github.io/index.html)) at the School of Languages and Cultures, The University of Queensland.
+
 
 {{<raw>}}
 
+<details>
+        <summary>
+            <b>May 29 2025 - Steven Bird: Language Technology and the Metacrisis</b>
+        </summary>
+        <p>Despite their manifold benefits, language technologies are contributing to several unfolding crises. Small screens deliver mainstream content across the world and entice children of minoritised communities away from their ancestral languages. The data centres that power large language models depend on the mining of ever more rare earth metals from Indigenous lands and emit ever more carbon. Malicious actors flood social media with fake news, provoking extremism, division and war. Common to these crises is content, i.e. language content, increasingly generated and accessed using language technologies. These developments — the language crisis, the environmental crisis and the meaning crisis — compound each other in what is being referred to as the metacrisis. How are we to respond, then, as a community of practice who is actively developing still more language technologies? Steven believes that a good first step is to bring our awareness to the matter and to rethink what we are doing. We must be suspicious of purely technological solutions which may only exacerbate problems that were created by our use of technology. Instead, Steven argues that we should approach the problem as social and cultural. He will share stories from a small and highly multilingual Indigenous society who understands language, not as sequence data, but as social practice, and who understands language resources, not as annotated text and speech, but as stories and knowledge practices of language owners. He will explore ramifications for our work in the space of language technologies, and propose a relational approach to language technology that avoids extractive processes and centres speech communities.</p>
+        <p><b>Steven Bird</b>: Over the past three decades, Steven Bird has been working with minoritised peoples in Africa, Melanesia, Amazonia and Australia, and exploring how communities can keep their oral languages and cultures strong. Since 2017 he has been research professor at Charles Darwin University, where he collaborates with Indigenous leaders and directs the Top End Language Lab.</p>
+    </details>
+    {{</raw>}}
+    <br>
+    Our 2022 webinar series was a joint initiative with the Language Technology and Data Analysis Laboratory ([LADAL](https://slcladal.github.io/index.html)) at the School of Languages and Cultures, The University of Queensland.
+    {{<raw>}}
     <details>
         <summary>
             <b>October 3 2022 - Paweł Kamocki: European Union Data Protection initiatives and their consequences for research</b>

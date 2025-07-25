@@ -4,11 +4,13 @@ ADA
 ADM+S
 ADO
 AIATSIS
+Analogue
 API
 APIs
 ARC
 Archival Repository
 Archival Repositories
+ARCP
 ARDC
 ARDS
 Arkisto
@@ -21,12 +23,15 @@ CADRE
 CARE
 CDL
 CDU
+CLARIN
 Class
 Classes
 CMDI
 Collection
 Collections
+Commons
 Confidentiality
+Controlled Vocabulary
 Copyright
 Copyright Owner
 Copyright Owners
@@ -39,16 +44,25 @@ Cross-Corpus
 Data Collection
 Data Collections
 Data Commons
+Data Custodian
+Data Custodians
+Data Format
+Data Formats
 Data Governance
 Data License
 Data Licenses
+Data Management
 Data Management Plan
 Data Management Plans
 Data Onboarding
+Data Owner
+Data Owners
 Data Packaging
+Data Processing
 Data Steward
 Data Stewards
 Data Transformation
+Data Wrangling
 Defined Term
 Defined Terms
 Describo
@@ -64,6 +78,8 @@ Field Journals
 Fieldnotes
 Fieldwork
 FLA
+Format
+Formats
 GitHub
 GLAM
 GLAM Peak
@@ -72,9 +88,12 @@ Glottolog
 HASS
 HMI
 IAD
+ICIP
 IDIL
 IDN
 IIRC
+Infrastructure
+Infrastructures
 Intellectual Property
 Interoperability
 IPA
@@ -94,6 +113,8 @@ Lexicons
 Licensing
 Linked Data
 Metadata
+Method
+Methods
 Mode
 MT
 NCRIS
@@ -111,6 +132,7 @@ Oral Histories
 ORCID
 Orthographic Transcription
 Orthographic Transcriptions
+Packaging Data
 PARADISEC
 Phonemic Transcription
 Phonemic Transcriptions
@@ -127,8 +149,10 @@ Python
 QUT
 R
 RDC
-REMS
 Research Data Management
+REMS
+Repository
+Repositories
 Research Infrastructure
 Research Infrastructures
 RIIP
@@ -136,6 +160,8 @@ RO-Crate
 Schema
 Schemas
 Sensitive Data
+Standard
+Standards
 Sub-Corpus
 Sub-Corpora
 Takedown Policy
@@ -148,6 +174,7 @@ Transcode
 Transcoded
 Transcoding
 TTS
+UI
 UoM
 UQ
 USC
@@ -158,6 +185,7 @@ Wangka Maya
 Work Plan
 Work Plans
 WP
+WPs
 X-SAMPA
 XML
 Zenodo

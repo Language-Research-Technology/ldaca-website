@@ -1,9 +1,11 @@
 <!-- Use shortcode with parameters: image Src="" Alt="" Desc=""(Caption - include Figure X: here if needed) Title="" Height="" ExtLink=""(External source reference) 
     Ref=""(Internal source reference) -->
+    
+{{- $Height := .Get "Height" -}}
 
 <body>
     <div>
-        <img src="{{.Get `Src`}}" alt="{{.Get `Alt`}}" title="{{.Get `Title`}}" height="{{.Get `Height`}}" class="center_image" />
+        <img src="{{.Get `Src`}}" alt="{{.Get `Alt`}}" title="{{.Get `Title`}}" style="width:auto;height:{{ $Height }}px;" class="center_image" />
         <div style="text-align: center">
       <b>
                 {{ .Get "Desc" }}</b>
