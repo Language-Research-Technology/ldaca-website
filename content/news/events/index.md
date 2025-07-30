@@ -33,7 +33,7 @@ We will describe the background of this CLARIN-funded project and the characteri
 
 We will conclude with lessons learnt in the project and our further work on the ParlaMint corpora.
 
-**Details**: 26 August 2025, 4pm AEST
+**Details**: 28 August 2025, 4pm AEST
 
 **Where**: Online — link to be provided
 
