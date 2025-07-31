@@ -54,10 +54,10 @@ The aims of the workshop are:
 
 **Event details and registration**: Coming soon
 
-**Organisers**
+**Organisers**:
  <a href="https://www.unimelb.edu.au/mdap" target="_blank">Melbourne Data Analytics Platform</a></p>
 
-**Presenters**
+**Presenters**:
 {{< profile id="musgrave" >}} and {{< profile id="riv-smith" >}}
 
 
