@@ -58,7 +58,7 @@ The aims of the workshop are:
  <a href="https://www.unimelb.edu.au/mdap" target="_blank">Melbourne Data Analytics Platform</a></p>
 
 **Presenters**
-{{< profile id="musgrave" >}} and River Tae Smith
+{{< profile id="musgrave" >}} and {{< profile id="riv-smith" >}}
 
 
 
