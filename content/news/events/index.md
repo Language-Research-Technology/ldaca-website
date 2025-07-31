@@ -35,7 +35,7 @@ We will conclude with lessons learnt in the project and our further work on the 
 
 **Details**: 28 August 2025, 4pm AEST
 
-**Where**: Online — link to be provided
+**Where**: [Online](https://uqz.zoom.us/j/81512493814?from=addon)
 
 <br>
 
