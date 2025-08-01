@@ -33,11 +33,37 @@ We will describe the background of this CLARIN-funded project and the characteri
 
 We will conclude with lessons learnt in the project and our further work on the ParlaMint corpora.
 
-**When**: 28 August 2025, 4pm AEST
+**Details**: 28 August 2025, 4pm AEST
 
 **Where**: [Online](https://uqz.zoom.us/j/81512493814?from=addon)
 
 <br>
+
+### Sustainable Data for Humanities Researchers workshop
+
+**Summary**:
+
+Research data is valuable - we spend time (and often money) in collecting it, and it is fundamental to creating knowledge. Because of this value, we have a responsibility to ensure that data will continue to be useful, minimally to ourselves but ideally also to others. This workshop will introduce participants to basic ideas of data management which are oriented to making data sustainable in line with two important sets of principles, FAIR and CARE.
+The aims of the workshop are:
+* To increase awareness of the importance of sustainable data
+* To introduce basic principles for managing data sustainably
+* To demonstrate simple methods which implement those principles
+* To give participants hands-on experience with tools for data management
+
+**When**: 26 August 2025
+
+**Event details and registration**: Coming soon
+
+**Organisers**
+ <a href="https://www.unimelb.edu.au/mdap" target="_blank">Melbourne Data Analytics Platform</a></p>
+
+**Presenters**
+{{< profile id="musgrave" >}} and {{< profile id="riv-smith" >}}
+
+
+
+<br>
+
 
 ## Recurring Events {#recurring-events}
 
