@@ -50,9 +50,9 @@ The aims of the workshop are:
 * To demonstrate simple methods which implement those principles
 * To give participants hands-on experience with tools for data management
 
-**When**: 26 August 2025
-
-**Event details and registration**: Coming soon
+**When**: 26 August 2025, 9am-4pm AEST
+**Where**: University of Melbourne
+**Registration**: Coming soon
 
 **Organisers**
  <a href="https://www.unimelb.edu.au/mdap" target="_blank">Melbourne Data Analytics Platform</a></p>
