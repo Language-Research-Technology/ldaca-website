@@ -113,7 +113,7 @@ Once I had cleaned and organised the data for all three datasets, I uploaded the
 
 <br>
 
-{{< image Src="/masters-research-project/figure4-and-stuff-search.png" Alt="A screenshot of the results of a concordance search for *and stuff* in the Sydney Speaks dataset. The screenshot shows multiple lines of text with the words *and stuff* centred in every line and formatted red and bold." Desc="Figure 4: Concordance search for *and stuff* in the Sydney Speaks dataset" Title="Concordance search for *and stuff* in the Sydney Speaks dataset" Ref="Teresa Chan" Height="500" >}}
+{{< image Src="/masters-research-project/figure4-and-stuff-search.png" Alt="A screenshot of the results of a concordance search for 'and stuff' in the Sydney Speaks dataset. The screenshot shows multiple lines of text with the words 'and stuff' centred in every line and formatted red and bold." Desc="Figure 4: Concordance search for 'and stuff' in the Sydney Speaks dataset" Title="Concordance search for 'and stuff' in the Sydney Speaks dataset" Ref="Teresa Chan" Height="500" >}}
 
 <br>
 
@@ -213,3 +213,5 @@ Travis, C. E., Grama, J. & Gonzalez, S. (2017). _General extenders over time in 
 <a name="fn-7">7</a> The _(and) stuff (like that)_ variant was used significantly more frequently by speakers in the AusTalk (t(15) = 3.17, p = .006) and Sydney Speaks (t(78) = 6.21, p < .001) datasets compared to X users. [↩](#back-7)
 
 <a name="fn-8">8</a> Speakers in the datasets were assigned one of three age brackets: Young (19-29 year-olds), Middle (30-59 year-olds) and Old (60-79 year-olds). The mean frequencies for the Young (t(36) = 4.07, p < .001) and Middle (t(48) = 2.42, p = .02) age brackets in AusTalk were significantly higher than the Old age bracket. [↩](#back-8)
+
+<br>

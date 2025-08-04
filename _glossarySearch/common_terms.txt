@@ -20,6 +20,7 @@
 {{< glossary_link display="fieldwork" id="fieldwork" >}}
 {{< glossary_link display="format" id="format" >}}
 {{< glossary_link display="GitHub" id="github" >}}
+{{< glossary_link display="GLAM" id="glam" >}}
 {{< glossary_link display="HASS" id="hass" >}}
 {{< glossary_link display="intellectual property" id="intellectual-property" >}}
 {{< glossary_link display="LDaCA" id="ldaca" >}}
