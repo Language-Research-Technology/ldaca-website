@@ -9,6 +9,6 @@ aliases:
 
 <br>
 
-This is a placeholder license for the forthcoming Australian Deafblind Signing Corpus collection. Access to the materials is not yet available online, but is available on request. To request access, contact Louisa Willoughby (louisa.willoughby@monash.edu).
+This is a placeholder license for the forthcoming Australian Deafblind Signing Corpus collection. Access to the materials is not yet available online, but is available on request.
 
 <br>
