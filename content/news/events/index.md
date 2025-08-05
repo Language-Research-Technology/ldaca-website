@@ -50,7 +50,7 @@ The aims of the workshop are:
 * To demonstrate simple methods which implement those principles
 * To give participants hands-on experience with tools for data management
 
-**When**: 26 August 2025, 9am-4pm AEST
+**When**: 26 August 2025, 9am-4:30pm AEST
 
 **Where**: University of Melbourne
 
