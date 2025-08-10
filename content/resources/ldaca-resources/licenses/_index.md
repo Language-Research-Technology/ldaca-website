@@ -78,8 +78,8 @@ All LDaCA BinderHub resources: [LDaCA BinderHub Terms of Use](ldaca-binderhub/al
 
 ### Sydney Speaks
 
-<!-- All other content: [Sydney Speaks License A](sydney-speaks/license-a/all/v1/)
-<br> -->
+All other content: [Sydney Speaks License A](sydney-speaks/license-a/all/v1/)
+<br>
 Reference Corpus: [Sydney Speaks License B](sydney-speaks/license-b/all/v1/)
 
 <br>
