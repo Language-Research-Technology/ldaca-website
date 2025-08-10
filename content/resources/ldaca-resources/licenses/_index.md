@@ -54,7 +54,7 @@ All content: [Attribution-NoDerivatives 3.0 Australia (CC BY-ND 3.0 AU)](https:/
 
 ### Corpus of Australian English as a Second Language (AusESL)
 
-All content: [Corpus of Australian English as a Second Language (AusESL) Placeholder License](ausesl/placeholder/all/v1/)
+All content: [Corpus of Australian English as a Second Language (AusESL) License - Transcriptions and audio (de-identified)](ausesl/transcriptions-audio/all/v1/)
 
 <br>
 
@@ -78,7 +78,9 @@ All LDaCA BinderHub resources: [LDaCA BinderHub Terms of Use](ldaca-binderhub/al
 
 ### Sydney Speaks
 
-All content: [Sydney Speaks License B](sydney-speaks/license-b/all/v1/)
+<!-- All other content: [Sydney Speaks License A](sydney-speaks/license-a/all/v1/)
+<br> -->
+Reference Corpus: [Sydney Speaks License B](sydney-speaks/license-b/all/v1/)
 
 <br>
 
@@ -100,8 +102,8 @@ All content: [Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https:
 
 <br> -->
 
-### Warlpiri Data 1982-1994
+<!-- ### Warlpiri Data 1982-1994
 
 All content: [Warlpiri Data 1982-1994 Placeholder License](../licenses/warlpiri-data-1982-1994/placeholder/all/v1/)
 
-<br>
+<br> -->
