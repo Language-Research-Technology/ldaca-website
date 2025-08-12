@@ -101,7 +101,6 @@
 &lt;h5 id="select-modeselect-mode">&lt;a href="#select-mode" rel="">Select Mode&lt;/a>&lt;/h5>
 &lt;h5 id="add-entity-metadataadd-entity-metadata">&lt;a href="#add-entity-metadata" rel="">Add Entity Metadata&lt;/a>&lt;/h5>
 &lt;h5 id="save-ro-cratesave-ro-crate">&lt;a href="#save-ro-crate" rel="">Save RO-Crate&lt;/a>&lt;/h5>
-&lt;h5 id="append-data-from-spreadsheetappend-data-from-spreadsheet">&lt;a href="#append-data-from-spreadsheet" rel="">Append Data from Spreadsheet&lt;/a>&lt;/h5>
 &lt;br>
 &lt;h2 id="open-directory">Open Directory&lt;/h2>
 &lt;ul>
@@ -111,7 +110,7 @@
  >RO-Crate&lt;/a
 > will be saved, or create a new one, then confirm your selection.&lt;/li>
 &lt;li>For the pop-up message asking &lt;em>Let site view files?&lt;/em>, select &lt;strong>&lt;em>View Files&lt;/em>&lt;/strong>.&lt;/li>
-&lt;li>Your current working directory will be displayed in the &lt;em>Selected Directory&lt;/em> section in the &lt;a href="https://www.ldaca.edu.au/resources/user-guides/crate-o/basic-navigation/#mode-selector" rel="">Mode Selector&lt;/a>.&lt;/li>
+&lt;li>Your current working directory will be displayed in the &lt;em>Selected Directory&lt;/em> section next to the &lt;a href="https://www.ldaca.edu.au/resources/user-guides/crate-o/basic-navigation/#mode-selector" rel="">Mode Selector&lt;/a>.&lt;/li>
 &lt;/ul>
 &lt;br>
 &lt;body>
@@ -148,115 +147,8 @@
  &lt;/div>
 &lt;/body>
 &lt;br>
-&lt;h2 id="add-entity-metadata">Add Entity Metadata&lt;/h2>
-&lt;ul>
-&lt;li>The &lt;a href="https://www.ldaca.edu.au/resources/user-guides/crate-o/basic-navigation/#current-entity" rel="">Current Entity&lt;/a> section shows your location in the current &lt;a href="https://www.ldaca.edu.au/resources/glossary/#ro-crate" title="Research Object Crate" target="_blank"
- >RO-Crate&lt;/a
->.&lt;/li>
-&lt;li>The &lt;a href="https://www.ldaca.edu.au/resources/user-guides/crate-o/basic-navigation/#property-groups" rel="">Property Groups&lt;/a> panel allows you to navigate to the various groups associated with your RO-Crate.&lt;/li>
-&lt;li>The &lt;a href="https://www.ldaca.edu.au/resources/user-guides/crate-o/basic-navigation/#entity-properties" rel="">Entity Properties&lt;/a> panel is where you can add data about your &lt;a href="https://www.ldaca.edu.au/resources/glossary/#collection" title="A group of related Objects." target="_blank"
- >collection&lt;/a
->.&lt;/li>
-&lt;li>For blank RO-Crates, the following missing property messages will appear by default. Clicking the blue &lt;strong>&lt;em>Add&lt;/em>&lt;/strong> buttons will automatically add these missing items to your RO-Crate.&lt;/li>
-&lt;/ul>
-&lt;br>
-&lt;body>
- &lt;div>
- &lt;img src="https://www.ldaca.edu.au/user-guides/crate-o/missing_properties.jpeg" alt="Crate-O: Missing Properties" title="Crate-O: Missing Properties" style="width:auto;height:px;" class="center_image" />
- &lt;div style="text-align: center">
- &lt;b>
- Crate-O: Missing Properties&lt;/b>
- &lt;br>Image Source: LDaCA 
- &lt;/div>
- &lt;/div>
-&lt;/body>
-&lt;br>
-&lt;ul>
-&lt;li>Enter the entity properties you have for your collection. Add as little or as much information about your collection as you like, as this can be saved and worked on further later. To browse all the &lt;a href="https://www.ldaca.edu.au/resources/glossary/#metadata" title="The information that defines and describes data." target="_blank"
- >metadata&lt;/a
-> entities associated with the Language Data Commons (LDAC) Mode, see &lt;a href="https://ldaca.gitbook.io/metadata-for-language-data" target="_blank" rel="noopener noreffer ">Metadata for Language Data&lt;/a>.&lt;/li>
-&lt;/ul>
-&lt;br>
-&lt;body>
- &lt;div>
- &lt;img src="https://www.ldaca.edu.au/user-guides/crate-o/add_entity_metadata.png" alt="Crate-O: Add Entity Metadata" title="Crate-O: Add Entity Metadata" style="width:auto;height:px;" class="center_image" />
- &lt;div style="text-align: center">
- &lt;b>
- Crate-O: Add Entity Metadata&lt;/b>
- &lt;br>Image Source: LDaCA 
- &lt;/div>
- &lt;/div>
-&lt;/body>
-&lt;br>
-&lt;h2 id="save-ro-crate">Save RO-Crate&lt;/h2>
-&lt;ul>
-&lt;li>In the &lt;a href="https://www.ldaca.edu.au/resources/user-guides/crate-o/basic-navigation/#main-menu" rel="">Main Menu&lt;/a>, select &lt;strong>&lt;em>Save&lt;/em>&lt;/strong>.&lt;/li>
-&lt;li>For the pop-up message asking &lt;em>Save changes to [Selected Directory]?&lt;/em>, select &lt;strong>&lt;em>Save changes&lt;/em>&lt;/strong>.&lt;/li>
-&lt;/ul>
-&lt;br>
-&lt;body>
- &lt;div>
- &lt;img src="https://www.ldaca.edu.au/user-guides/crate-o/save_ro_crate.png" alt="Crate-O: Save RO-Crate" title="Crate-O: Save RO-Crate" style="width:auto;height:px;" class="center_image" />
- &lt;div style="text-align: center">
- &lt;b>
- Crate-O: Save RO-Crate&lt;/b>
- &lt;br>Image Source: LDaCA 
- &lt;/div>
- &lt;/div>
-&lt;/body>
-&lt;br>
-&lt;ul>
-&lt;li>Your &lt;a href="https://www.ldaca.edu.au/resources/glossary/#ro-crate" title="Research Object Crate" target="_blank"
- >RO-Crate&lt;/a
-> is now successfully saved in your working directory, with two files:
-&lt;ul>
-&lt;li>&lt;em>ro-crate-metadata.json&lt;/em>: The saved RO-Crate in &lt;a href="https://www.ldaca.edu.au/resources/glossary/#json" title="JavaScript Object Notation" target="_blank"
- >JSON&lt;/a
-> format.&lt;/li>
-&lt;li>&lt;em>ro-crate-preview.html&lt;/em>: An HTML file that can be viewed on a web browser and shows the contents of your RO-Crate.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;br>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>ro-crate-metadata.json&lt;/th>
- &lt;th>ro-crate-preview.html&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>&lt;body>
- &lt;div>
- &lt;img src="https://www.ldaca.edu.au/user-guides/crate-o/ro_crate_metadata_json.png" alt="ro-crate-metadata.json" title="ro-crate-metadata.json" style="width:auto;height:px;" class="center_image" />
- &lt;div style="text-align: center">
- &lt;b>
- ro-crate-metadata.json&lt;/b>
- &lt;br>Image Source: LDaCA 
- &lt;/div>
- &lt;/div>
-&lt;/body>&lt;/td>
- &lt;td>&lt;body>
- &lt;div>
- &lt;img src="https://www.ldaca.edu.au/user-guides/crate-o/ro_crate_preview_html.jpeg" alt="ro-crate-preview.html" title="ro-crate-preview.html" style="width:auto;height:px;" class="center_image" />
- &lt;div style="text-align: center">
- &lt;b>
- ro-crate-preview.html&lt;/b>
- &lt;br>Image Source: LDaCA 
- &lt;/div>
- &lt;/div>
-&lt;/body>&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;br>
-&lt;h3 id="required-properties">Required Properties&lt;/h3>
-&lt;p>After saving, if there are required properties missing from your &lt;a href="https://www.ldaca.edu.au/resources/glossary/#ro-crate" title="Research Object Crate" target="_blank"
- >RO-Crate&lt;/a
->, the section &lt;em>Saved with warnings&lt;/em> will appear. You can select the dropdown on this message to view the missing required properties. Clicking on one of these warnings will take you to the relevant &lt;a href="https://www.ldaca.edu.au/resources/glossary/#property" title="In linked data, a metadata category used to add attributes to classes." target="_blank"
- >property&lt;/a
-> group. If you choose to edit any of these sections, select &lt;strong>&lt;em>Save&lt;/em>&lt;/strong> again to ensure your most recent changes are not lost.&lt;/p></description></item><item><title>Convert Spreadsheet</title><link>https://www.ldaca.edu.au/resources/user-guides/crate-o/convert-spreadsheet/</link><pubDate>Sun, 28 Feb 2021 13:53:43 +1000</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/user-guides/crate-o/convert-spreadsheet/</guid><description>&lt;br>
+&lt;h2 id="load-files">Load Files&lt;/h2>
+&lt;p>Selecting the &lt;em>&lt;strong>Load Files&lt;/strong>&lt;/em> button in the main menu will load all files from your selected working directory into the RO-Crate. These will then appear under the &lt;em>&lt;strong>All Entities&lt;/strong>&lt;/em> section on the left-hand panel.&lt;/p></description></item><item><title>Convert Spreadsheet</title><link>https://www.ldaca.edu.au/resources/user-guides/crate-o/convert-spreadsheet/</link><pubDate>Sun, 28 Feb 2021 13:53:43 +1000</pubDate><author>info@ldaca.edu.au (Language Data Commons of Australia)</author><guid>https://www.ldaca.edu.au/resources/user-guides/crate-o/convert-spreadsheet/</guid><description>&lt;br>
 &lt;h5 id="templatetemplate">&lt;a href="#template" rel="">Template&lt;/a>&lt;/h5>
 &lt;h5 id="metadata-schemasmetadata-schemas">&lt;a href="#metadata-schemas" rel="">Metadata Schemas&lt;/a>&lt;/h5>
 &lt;h5 id="tab-breakdowntab-breakdown">&lt;a href="#tab-breakdown" rel="">Tab Breakdown&lt;/a>&lt;/h5>
