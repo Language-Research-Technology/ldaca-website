@@ -16,6 +16,8 @@ weight: 3
 
 ##### [Select Mode](#select-mode)
 
+##### [Load Files](#load-files)
+
 ##### [Add Entity Metadata](#add-entity-metadata)
 
 ##### [Save RO-Crate](#save-ro-crate)
