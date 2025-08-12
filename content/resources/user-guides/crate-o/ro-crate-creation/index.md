@@ -16,11 +16,11 @@ weight: 3
 
 ##### [Select Mode](#select-mode)
 
+##### [Load Files](#load-files)
+
 ##### [Add Entity Metadata](#add-entity-metadata)
 
 ##### [Save RO-Crate](#save-ro-crate)
-
-##### [Append Data from Spreadsheet](#append-data-from-spreadsheet)
 
 <br>
 
@@ -30,7 +30,7 @@ weight: 3
 - In the [Main Menu](/resources/user-guides/crate-o/basic-navigation/#main-menu), select **_Open Directory_**.
 - Navigate to a folder where the {{< glossary_link display="RO-Crate" id="ro-crate" >}} will be saved, or create a new one, then confirm your selection.
 - For the pop-up message asking _Let site view files?_, select **_View Files_**.
-- Your current working directory will be displayed in the _Selected Directory_ section in the [Mode Selector](/resources/user-guides/crate-o/basic-navigation/#mode-selector).
+- Your current working directory will be displayed in the _Selected Directory_ section next to the [Mode Selector](/resources/user-guides/crate-o/basic-navigation/#mode-selector).
 
 <br>
 
@@ -49,7 +49,21 @@ weight: 3
 
 <br>
 
+## Load Files
+
+Selecting the ___Load Files___ button in the main menu will load all files from your selected working directory into the RO-Crate. These will then appear under the ___All Entities___ section on the left-hand panel.
+
+<br>
+
 ## Add Entity Metadata
+
+Crate-O allows two options for entering your metadata to an RO-Crate:
+- Manual Entry: use the Crate-O interface to enter metadata using the availale fields and navigation.
+- Append Metadata from Spreadsheet: use a Crate-O compatible spreadsheet to bulk add metadata to the Crate-O interface.
+
+<br>
+
+### Manual Entry of Metadata in Crate-O
 
 - The [Current Entity](/resources/user-guides/crate-o/basic-navigation/#current-entity) section shows your location in the current {{< glossary_link display="RO-Crate" id="ro-crate" >}}.
 - The [Property Groups](/resources/user-guides/crate-o/basic-navigation/#property-groups) panel allows you to navigate to the various groups associated with your RO-Crate.
@@ -67,6 +81,16 @@ weight: 3
 <br>
 
 {{< image Src="/user-guides/crate-o/add_entity_metadata.png" Alt="Crate-O: Add Entity Metadata" Desc="Crate-O: Add Entity Metadata" Title="Crate-O: Add Entity Metadata" Ref="LDaCA" >}}
+
+<br>
+
+### Append Metadata from Spreadsheet
+
+If you have a spreadsheet in a compatible format that you want to add to your {{< glossary_link display="collection" id="collection" >}} to assist with {{< glossary_link display="metadata" id="metadata" >}} description, or you want to create a new RO-Crate only using spreadsheet data, select **_Bulk Add_** in the [Main Menu](/resources/user-guides/crate-o/basic-navigation/#main-menu) and load the spreadsheet. This will append it to your existing or new {{< glossary_link display="RO-Crate" id="ro-crate" >}}.
+
+For more guidance on the spreadsheet requirements and a template, see [Convert Spreadsheet](/resources/user-guides/crate-o/convert-spreadsheet). If using the template, use the [mode](#select-mode) _Language Data Commons Comprehensive Collection_ in Crate-O.
+
+> Note that this option currently only has functionality to add new data, and cannot overwrite or edit existing data in your RO-Crate. **_Bulk Add_** also only reads from the spreadsheet and does not write to it.
 
 <br>
 
@@ -100,15 +124,5 @@ After saving, if there are required properties missing from your {{< glossary_li
 <br>
 
 {{< image Src="/user-guides/crate-o/saved_with_warnings.jpeg" Alt="Crate-O: Saved with Warnings" Desc="Crate-O: Saved with Warnings" Title="Crate-O: Saved with Warnings" Ref="LDaCA" >}}
-
-<br>
-
-## Append Data from Spreadsheet
-
-If you have a spreadsheet in a compatible format that you want to add to your {{< glossary_link display="collection" id="collection" >}} to assist with {{< glossary_link display="metadata" id="metadata" >}} description, or you want to create a new RO-Crate only using spreadsheet data, open an existing or new directory, then select **_Bulk Add_** in the [Main Menu](/resources/user-guides/crate-o/basic-navigation/#main-menu) and load the spreadsheet. This will append it to your existing or new {{< glossary_link display="RO-Crate" id="ro-crate" >}}.
-
-For more guidance on the spreadsheet requirements and a template, see [Convert Spreadsheet](/resources/user-guides/crate-o/convert-spreadsheet). If using the template, use the [mode](#select-mode) _Language Data Commons Comprehensive Collection_ in Crate-O.
-
-> Note that this option currently only has functionality to add new data, and cannot overwrite or edit existing data in your RO-Crate. **_Bulk Add_** also only reads from the spreadsheet and does not write to it.
 
 <br>
