@@ -383,6 +383,6 @@ If you have tabular CSV files in your collection with multiple columns, this tab
 
 ## Convert Spreadsheet to an RO-Crate with Crate-O
 
-For steps on adding your spreadsheet data to an {{< glossary_link display="RO-Crate" id="ro-crate" >}} using {{< glossary_link display="Crate-O" id="crate-o" >}}, see [Append Data from Spreadsheet](/resources/user-guides/crate-o/ro-crate-creation/#append-data-from-spreadsheet).
+For steps on adding your spreadsheet data to an {{< glossary_link display="RO-Crate" id="ro-crate" >}} using {{< glossary_link display="Crate-O" id="crate-o" >}}, see [Append Metadata from Spreadsheet](/resources/user-guides/crate-o/ro-crate-creation/#append-data-from-spreadsheet).
 
 <br>
