@@ -54,7 +54,7 @@ The aims of the workshop are:
 
 **Where**: University of Melbourne
 
-**Registration**: Coming soon
+**[Registration](https://rduevents.unimelb.edu.au/event/2318-sustainable-data-for-humanities-researchers)**
 
 **Organisers**
  <a href="https://www.unimelb.edu.au/mdap" target="_blank">Melbourne Data Analytics Platform</a></p>
