@@ -62,7 +62,20 @@ The aims of the workshop are:
 **Presenters**
 {{< profile id="musgrave" >}} and {{< profile id="riv-smith" >}}
 
+<br>
 
+### Using Hansard & Other Parliamentary Proceedings for Your Research
+**Summary**:
+
+Parliamentary bodies around the world have been publishing transcriptions of their proceedings for decades or even centuries. These transcriptions enable public scrutiny and transparency of the actions and speech of legislative bodies and elected representatives. Because of their documentation of legislative action and speech, their relatively consistent format, and their coverages of long periods of time they are potentially useful for policy researchers, media and communication scholars, political scientists, linguists, sociologists, historians, and many others.
+
+This workshop aimed to provide a starting point for working with these transcribed proceedings, including evaluating how it might (and might not!) be useful for your research, how to get started for different kinds of projects, and cautionary notes on potential limitations. We will be using a suite of computational text analysis approaches, with no prior coding experience necessary.
+
+<p><b>Leaders</b>: Sam Hames, Simon Musgrave</p>
+<p><b>When</b>: 11 September 2025</p>
+<p><b>Organisers</b>: <a href="https://computational-social-science.sydney.edu.au/" target="_blank">Computational Social Science Lab</a>, <a href="https://sydney.edu.au" target="blank">The University of Sydney</a></p>
+
+</details>
 
 <br>
 
