@@ -63,7 +63,7 @@ We will conclude with lessons learnt in the project and our further work on the 
 
 <br>
 
-### Using Hansard & Other Parliamentary Proceedings for Your Research
+### Get Started with Federal Hansard for Humanities, Arts, and Social Sciences Research
 
 **Summary**:
 
@@ -71,11 +71,13 @@ Parliamentary bodies around the world have been publishing transcriptions of the
 
 This workshop aimed to provide a starting point for working with these transcribed proceedings, including evaluating how it might (and might not!) be useful for your research, how to get started for different kinds of projects and cautionary notes on potential limitations. We will be using a suite of computational text analysis approaches, with no prior coding experience necessary.
 
-**Leaders**: {{< profile id="musgrave" >}} and {{< profile id="musgrave" >}}
+**Leaders**: {{< profile id="hames" >}} and {{< profile id="musgrave" >}}
 
-**When**: 11 September 2025
+**When**: 11 September 2025, 9:30am–12:30pm AEST
 
-**Organisers**: [Computational Social Science Lab, The University of Sydney](https://computational-social-science.sydney.edu.au/)
+**Organisers**: [The Centre for Digital Cultures and Societies](https://hass.uq.edu.au/centre-digital-cultures-societies), The University of Queensland
+
+**[Details and registration](https://hass.uq.edu.au/event/session/17466)**
 
 <br>
 
