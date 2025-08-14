@@ -1,36 +1,13 @@
-ro-crate: 39
-data packaging: 3
-collections: 5
-profile: 1
-ldaca: 15
-standard: 6
-arkisto: 1
-github: 2
-paradisec: 1
-collection: 18
-data steward: 2
-object: 1
-metadata: 27
-data license: 1
-access conditions: 3
-json: 6
-format: 7
-crate-o: 11
-data stewards: 2
-method: 2
-zenodo: 2
-elan: 1
-licensing: 6
-schema: 7
-data commons: 1
-ldac: 3
-data collections: 1
-copyright: 1
-care: 1
-tools: 2
-standards: 2
-fair: 2
-ardc: 1
+profile: 4
+uq: 1
+xml: 11
+format: 4
+glam: 1
+metadata: 1
+tool: 2
+method: 3
+methods: 4
+ardc: 5
 
 Tooltip guidelines:
 - Check the context of these matches; they may not be applicable!

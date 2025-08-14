@@ -15,13 +15,37 @@ aliases:
 
  <br>
 
+### Sustainable Data for Humanities Researchers workshop
+
+**Summary**:
+
+Research data is valuable — we spend time (and often, money) in collecting it, and it is fundamental to creating knowledge. Because of this value, we have a responsibility to ensure that data will continue to be useful, minimally to ourselves but ideally also to others. This workshop will introduce participants to basic ideas of {{< glossary_link display="data management" id="rdm" >}}, which are oriented to making data sustainable in line with two important sets of principles, {{< glossary_link display="FAIR" id="fair" >}} and {{< glossary_link display="CARE" id="care" >}}.
+
+The aims of the workshop are to:
+* increase awareness of the importance of sustainable data
+* introduce basic principles for managing data sustainably
+* demonstrate simple {{< glossary_link display="methods" id="methods" >}} which implement those principles
+* give participants hands-on experience with {{< glossary_link display="tools" id="tools" >}} for data management.
+
+**When**: 26 August 2025, 9am – 4:30pm AEST
+
+**Where**: The University of Melbourne
+
+**[Registration](https://rduevents.unimelb.edu.au/event/2318-sustainable-data-for-humanities-researchers)**
+
+**Organisers**: [Melbourne Data Analytics Platform](https://www.unimelb.edu.au/mdap)
+
+**Presenters**: {{< profile id="musgrave" >}} and {{< profile id="riv-smith" >}}
+
+<br>
+
 ### Webinar: The ParlaMint corpora of European parliamentary proceedings
 
 Join us for the second webinar in our 2025 webinar series.
 
 **Presenters: Tomaž Erjavec and Matyáš Kopp**
-<br>
-Tomaž Erjavec is a member of the Department of Knowledge Technologies of the Institut "Jožef Stefan" (Ljubljana, Slovenia) and of the Fran Ramovš Institute of the Slovenian Language. His research interests include text corpora and other language resources, digital humanities, standardisation of text encoding, language technologies for Slovene, machine learning methods for natural language and computational morphology.
+
+Tomaž Erjavec is a member of the Department of Knowledge Technologies of the Institut "Jožef Stefan" (Ljubljana, Slovenia) and of the Fran Ramovš Institute of the Slovenian Language. His research interests include text {{< glossary_link display="corpora" id="corpus" >}} and other language resources, digital humanities, standardisation of text encoding, language technologies for Slovene, machine learning methods for natural language and computational morphology.
 
 Matyáš Kopp is a member of the Institute for Formal and Applied Linguistics at the Charles University in Prague (Czech Republic). He has worked extensively on compiling and researching datasets based on parliamentary proceedings, and also on technologies for querying treebanks.
 
@@ -29,7 +53,7 @@ Matyáš Kopp is a member of the Institute for Formal and Applied Linguistics at
 
 This talk will discuss the compilation and dissemination of the ParlaMint corpora, i.e. 29 corpora of European national and regional parliamentary proceedings, covering at least the period from 2015 to 2022, and containing over 1 billion words.
 
-We will describe the background of this CLARIN-funded project and the characteristics of the produced corpora. We then introduce the encoding of the corpora, the corpus compilation pipeline, the use of GitHub and concentrate on the ways in which the corpus is made accessible to potential users.
+We will describe the background of this {{< glossary_link display="CLARIN" id="clarin" >}}-funded project and the characteristics of the produced corpora. We then introduce the encoding of the corpora, the corpus compilation pipeline, the use of {{< glossary_link display="GitHub" id="github" >}} and concentrate on the ways in which the corpus is made accessible to potential users.
 
 We will conclude with lessons learnt in the project and our further work on the ParlaMint corpora.
 
@@ -39,39 +63,29 @@ We will conclude with lessons learnt in the project and our further work on the 
 
 <br>
 
-### Sustainable Data for Humanities Researchers workshop
+### Get Started with Federal Hansard for Humanities, Arts, and Social Sciences Research
 
 **Summary**:
 
-Research data is valuable - we spend time (and often money) in collecting it, and it is fundamental to creating knowledge. Because of this value, we have a responsibility to ensure that data will continue to be useful, minimally to ourselves but ideally also to others. This workshop will introduce participants to basic ideas of data management which are oriented to making data sustainable in line with two important sets of principles, FAIR and CARE.
-The aims of the workshop are:
-* To increase awareness of the importance of sustainable data
-* To introduce basic principles for managing data sustainably
-* To demonstrate simple methods which implement those principles
-* To give participants hands-on experience with tools for data management
+Parliamentary bodies around the world have been publishing transcriptions of their proceedings for decades or even centuries. These transcriptions enable public scrutiny and transparency of the actions and speech of legislative bodies and elected representatives. Because of their documentation of legislative action and speech, their relatively consistent format and their coverages of long periods of time, they are potentially useful for policy researchers, media and communication scholars, political scientists, linguists, sociologists, historians and many others.
 
-**When**: 26 August 2025, 9am-4:30pm AEST
+This workshop aimed to provide a starting point for working with these transcribed proceedings, including evaluating how it might (and might not!) be useful for your research, how to get started for different kinds of projects and cautionary notes on potential limitations. We will be using a suite of computational text analysis approaches, with no prior coding experience necessary.
 
-**Where**: University of Melbourne
+**Leaders**: {{< profile id="hames" >}} and {{< profile id="musgrave" >}}
 
-**Registration**: Coming soon
+**When**: 11 September 2025, 9:30am–12:30pm AEST
 
-**Organisers**
- <a href="https://www.unimelb.edu.au/mdap" target="_blank">Melbourne Data Analytics Platform</a></p>
+**Organisers**: [The Centre for Digital Cultures and Societies](https://hass.uq.edu.au/centre-digital-cultures-societies), The University of Queensland
 
-**Presenters**
-{{< profile id="musgrave" >}} and {{< profile id="riv-smith" >}}
-
-
+**[Details and registration](https://hass.uq.edu.au/event/session/17466)**
 
 <br>
-
 
 ## Recurring Events {#recurring-events}
 
 ### RO-Crate Clinic Drop-in
 
-The RO-Crate community run a weekly drop-in call in Australia. For further information contact [Peter Sefton](mailto:p.sefton@uq.edu.au).
+The {{< glossary_link display="RO-Crate" id="ro-crate" >}} community run a weekly drop-in call in Australia. For further information contact [Peter Sefton](mailto:p.sefton@uq.edu.au).
 
 **When**: Weekly, Thursday 2pm AEST
 
@@ -82,8 +96,6 @@ The RO-Crate community run a weekly drop-in call in Australia. For further infor
 ## Previous Events {#previous-events}
 
 {{<raw>}}
-
-
 
 <details>
 <summary><b><font color="#79A38D">2025</font></b></summary>
