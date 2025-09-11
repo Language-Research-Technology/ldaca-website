@@ -28,7 +28,7 @@ When viewing an item that has restricted access, you will see one of the followi
 
 <br>
 
-Once you have logged in to the {{< glossary_link display="LDaCA" id="ldaca" >}} portal (see [Login](/resources/user-guides/portal/login/) for further details), select ___apply for access___ in the warning text and you will be directed to the {{< glossary_link display="CADRE" id="cadre" >}} login page in a new tab.
+The LDaCA environment uses {{< glossary_link display="CADRE" id="cadre" >}} for access control. Once you have logged in to the {{< glossary_link display="LDaCA" id="ldaca" >}} portal (see [Login](/resources/user-guides/portal/login/) for further details), select ___apply for access___ in the warning text and you will be directed to the {{< glossary_link display="CADRE" id="cadre" >}} login page in a new tab.
 
 <br>
 
@@ -36,7 +36,7 @@ Once you have logged in to the {{< glossary_link display="LDaCA" id="ldaca" >}} 
 
 <br>
 
-Select ___Login___ and follow the CILogon prompts (see [Login](/resources/user-guides/portal/login/) again). Once logged in, you will be able to navigate to the data license form and request access. {{< glossary_link display="Data licensing" id="data-license" >}} is the mechanism used in {{< glossary_link display="CADRE" id="cadre" >}} for {{< glossary_link display="data stewards" id="data-steward" >}} to grant or deny legal permission to access and use data. Follow [this guide for applicants](https://documentation.cadre.ada.edu.au/guides/applicants/introduction) to learn more about navigating CADRE. 
+Select ___Login___ and follow the CILogon prompts (see [Login](/resources/user-guides/portal/login/) again). Once logged in, you will be able to complete the data license form and request access. {{< glossary_link display="Data licensing" id="data-license" >}} is the mechanism used in {{< glossary_link display="CADRE" id="cadre" >}} for {{< glossary_link display="data stewards" id="data-steward" >}} to grant or deny legal permission to access and use data. Follow [this guide for applicants](https://documentation.cadre.ada.edu.au/guides/applicants/introduction) to learn more about navigating CADRE. 
 
 <br>
 
