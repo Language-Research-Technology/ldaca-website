@@ -7,7 +7,7 @@ description: "Blog post from Monika Bednarek on working with copyrighted materia
 
 by {{< profile id="Bednarek" >}}
 
-{{< image Src="/Copyrighted-Data/Shewontberightmate.png" Alt="She Won't be Right Mate—artical from the Advertiser" Desc="She Won't be Right Mate—artical from the Advertiser" Title="She Won't be Right Mate—artical from the Advertiser" Ref="TBC" Height="300" >}}
+{{< image Src="/Copyrighted-Data/Shewontberightmate.png" Alt="Composite image of a copyright symbol and article from The Advertiser newspaper" Desc="Composite image of a copyright symbol and article from The Advertiser newspaper" Title="Composite image of a copyright symbol and article from The Advertiser newspaper" Ref="Simon Musgrave" Height="300" >}}
 
 <br>
 
