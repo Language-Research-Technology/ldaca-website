@@ -6,7 +6,7 @@ draft: false
 description: "LDaCA Technical Architecture update 2025"
 ---
 
-by {{< profile id="sefton" >}}, **Moises Sacal Bonequi** and {{< profile id="foley" >}}
+by {{< profile id="sefton" >}}, {{< profile id="Bonequi" >}} and {{< profile id="foley" >}}
 
 <br>
 
