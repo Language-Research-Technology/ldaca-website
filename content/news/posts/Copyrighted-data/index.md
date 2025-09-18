@@ -35,7 +35,7 @@ The second option is not to distribute the relevant newspaper corpus, but to pro
 
 <br>
 
-Writing a detailed [corpus manual](https://osf.io/c2z5m/) can be useful, as it increases the transparency of the research process. This can be supplemented with citation of extracts, examples and concordances, which is often permitted as fair use/fair dealing. In addition, it might be possible to distribute data that are derived from the corpus, rather than the full text of the newspaper articles itself — for example distributing frequency lists, collocation tables, coding schemes with corpus examples, and so on.
+Writing a detailed [corpus manual](https://osf.io/h6n82) can be useful, as it increases the transparency of the research process. This can be supplemented with citation of extracts, examples and concordances, which is often permitted as fair use/fair dealing. In addition, it might be possible to distribute data that are derived from the corpus, rather than the full text of the newspaper articles itself — for example distributing frequency lists, collocation tables, coding schemes with corpus examples, and so on.
 
 <br>
 
