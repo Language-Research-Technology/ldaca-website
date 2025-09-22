@@ -16,9 +16,19 @@ In this post, we will report on some recent developments, mostly in behind-the-s
 
 <br>
 
+{{< image Src="/2025-architecture/ldaca-execution-strategy.png" Alt="A table depicting LDaCA's execution strategy, from our starting point in 2021 to our desired state in 2028." Desc="Figure 1: An overview of LDaCA's execution strategy (July 2025). Each strand (Collect & organise, Conserve, Find, Access, Analyse, Guide) is relevant to the technical architecture." Title="Figure 1: An overview of LDaCA's execution strategy (July 2025). Each strand (Collect & organise, Conserve, Find, Access, Analyse, Guide) is relevant to the technical architecture." Ref="Language Data Commons of Australia" >}}
+
+<br>
+
 ## Recent developments
 
 We have seen some recent developments which promise exciting future work. Pacific and Regional Archive of Digital Sources in Endangered Cultures [(PARADISEC)](https://www.paradisec.org.au/) colleague John Ferlito has created a new version of the LDaCA data portal using a simpler [API](https://www.ldaca.edu.au/resources/glossary/#api) that can be used for both PARADISEC and LDaCA. The same API could potentially be used for many other repositories, such as the [Nyingarn Repository](https://repository.nyingarn.net/). 
+
+<br>
+
+{{< image Src="/2025-architecture/arocapi.png" Alt="" Desc="Figure 2: AROCAPI, a new RO-Crate API." Title="Figure 2: AROCAPI, a new RO-Crate API." Ref="PT Sefton" >}}
+
+<br>
 
 The new API is an [RO-Crate](https://www.ldaca.edu.au/resources/glossary/#ro-crate) API, that we have affectionately called *AROCAPI*. AROCAPI is a generic API for collections of ‘objects’ (or ‘items’) which are described using RO-Crates. We are working together with John to create a new [Oni](https://www.ldaca.edu.au/resources/glossary/#oni) stack using this API, and have been evaluating the API throughout its development rather than waiting until John finishes his work on it. 
 
@@ -32,7 +42,7 @@ In addition to AROCAPI,  promising discussions are taking place with one of our 
 
 <br>
 
-{{< image Src="/2025-architecture/pt-garage.png" Alt="Piles of boxes in a garage" Desc="Figure 1: An unstaged photo of PT Sefton’s garage, including a box labelled 'hard drives'." Title="Figure 1: An unstaged photo of PT Sefton’s garage, including a box labelled 'hard drives'." Ref="PT Sefton" Height="600" >}}
+{{< image Src="/2025-architecture/pt-garage.png" Alt="Piles of boxes in a garage" Desc="Figure 3: An unstaged photo of PT Sefton’s garage, including a box labelled 'hard drives'." Title="Figure 3: An unstaged photo of PT Sefton’s garage, including a box labelled 'hard drives'." Ref="PT Sefton" Height="600" >}}
 
 <br>
 
@@ -53,9 +63,13 @@ Remember:
 
 From the outset of the project, the LDaCA architecture has been designed around the principle that to build a research data commons, we need to look after data above all else. We took an approach that considered long-term data management separately from current uses of the data. This resulted in some design choices which are markedly different from those commonly seen in software development for research.
 
+<br>
+
+{{< image Src="/2025-architecture/workspaces-and-repositories.png" Alt=" " Desc="Figure 4: Creating reusable and interoperable data objects with workspaces and repositories." Title="Figure 4: Creating reusable and interoperable data objects with workspaces and repositories." Ref="Marco La Rosa and PT Sefton" >}}
+
+<br>
+
 We put effort into:
-
-
 
 * organising and describing data using open specifications *before* building features into applications
 * designing an access-control system with long-term adaptability in mind (read [the story about that](https://www.ldaca.edu.au/news/posts/fair-care-eresearch-2022/) as presented at eResearch Australasia 2022)
@@ -63,6 +77,12 @@ We put effort into:
 * developing a metadata framework with tools to implement it.
 
 In 2024, we released the Protocols for Implementing Long Term Archival Repositories (PILARS), described in this [presentation at Open Repositories 2024](https://www.ldaca.edu.au/news/posts/open-repositories-2024-pilars/). The first principle of PILARS is that data should be portable, not locked in to a particular interface, service or mode of storage. Following the lead of PARADISEC two decades ago, the protocols call for storing data in commodity storage services such as file systems or (cloud) object storage services. This means that data is available independently of any specific software. 
+
+<br>
+
+{{< image Src="/2025-architecture/data-findability.png" Alt=" " Desc="Figure 5: The PILARS approach allows for a wide range of architectures, sketched in the diagram above. Data stored according to the protocols can be indexed and served over an API (with appropriate access controls)." Title="Figure 5: The PILARS approach allows for a wide range of architectures, sketched in the diagram above. Data stored according to the protocols can be indexed and served over an API (with appropriate access controls)." Ref="PT Sefton" Height="600" >}}
+
+<br>
 
 With this foundation, and the new interoperability we gain from our collaboration on AROCAPI, we are well placed to collect and conserve more data and make use of data in workspace environments. For instance, the newly established LDaCA analytics forum, a working group formed to advise on the development of research analytics tools, will drive analytical workspaces. Work by the LDaCA technical team will continue to improve data preparation workspaces, for example by potentially collaborating to adapt the Nyingarn Workspace for general purpose use.
 
@@ -77,13 +97,24 @@ For the remainder of this post, we focus on developments in the archival reposit
 
 The first example of LDaCA-developed architecture that we will share here is our data portal. Our data portal is a central access-controlled gateway to the data that we have been collecting.
 
+<br>
+
+{{< image Src="/2025-architecture/data-portal.png" Alt="" Desc="Figure 6: Our data portal is an example of the pattern outlined in red above." Title="Figure 6: Our data portal is an example of the pattern outlined in red above." Ref="PT Sefton">}}
+
+<br>
+
 During the project, it has been unclear how we would look after data at the conclusion of the project. No single organisation had put up its hand up to host data for the medium- to long-term. However, we have had some positive talks with one of our partner institutions indicating that they may have an appetite for hosting data that otherwise does not have a home. They may also be able to provide some redundancy for at-risk collections where data custodians are comfortable with a copy residing at the partner institution.
 
 
 #### Other ways of sharing data assets 
 
-Alongside the data portal, we have explored other ways of sharing data assets, including local distribution via portable computers such as Raspberry PI with a local wireless network. We have also discussed establishing regional cooperative networks where communities reduce risk by holding data for each other.
+Alongside the data portal, we have explored other ways of sharing data assets, including local distribution via portable computers such as Raspberry Pi with a local wireless network. We have also discussed establishing regional cooperative networks where communities reduce risk by holding data for each other.
 
+<br>
+
+{{< image Src="/2025-architecture/raspberry-pi.png" Alt="" Desc="Figure 7: A Raspberry Pi containing a collection, in this case Batchelor Institute's CALL collection, enables mobile access via local wifi." Title="Figure 7: A Raspberry Pi containing a collection, in this case Batchelor Institute's CALL collection, enables mobile access via local wifi." Ref="Language Data Commons of Australia" >}}
+
+<br>
 
 #### Additional technical resources
 
@@ -91,7 +122,7 @@ With our partners, we have developed and adapted a suite of other technical reso
 
 
 * Oni portal software for mid-to-large deployments. Version 1 is live and Version 2 is currently under development with PARADISEC, involving a new shared API and code base that can be used across LDaCA and beyond.
-* REMS overlaid with CADRE to manage access control for identified users. A service agreement between LDaCA and CADRE has been signed, to manage access control. REMS is still the backend of this tool, but CADRE’s wrapper makes it more user-friendly. CADRE version 2 will replace the admin component of REMS and is in the testing phase now.
+* [REMS](https://github.com/CSCfi/rems) overlaid with [CADRE](https://cadre.ada.edu.au/login) to manage access control for identified users. A service agreement between LDaCA and CADRE has been signed, to manage access control. REMS is still the backend of this tool, but CADRE’s wrapper makes it more user-friendly. CADRE version 2 will replace the admin component of REMS and is in the testing phase now.
 * ‘Corpus tools’ for migrating data from existing formats to LDaCA-ready RO-Crates are [available on github](https://github.com/Language-Research-Technology?q=corpus-tool). These reduce the cost of developing new migration tools by adapting existing corpus tools, provide reproducible migration processes and are a strong foundation for quality assurance checks.
 * Software libraries for managing data in RO-Crate, maintaining schemas available on our [github organisation](https://github.com/Language-Research-Technology).
 * RO-Crate preparation tools, including:
@@ -106,6 +137,12 @@ With our partners, we have developed and adapted a suite of other technical reso
 
 #### Defining metadata schema
 
+<br>
+
+{{< image Src="/2025-architecture/metadata.png" Alt="" Desc="Figure 8: We have extended existing metadata standards for use in different contexts." Title="Figure 8: We have extended existing metadata standards for use in different contexts." Ref="PT Sefton">}}
+
+<br>
+
 We use the following metadata standards:
 
 
@@ -117,7 +154,7 @@ We have worked to define a metadata schema ([the Language Data Commons (LDAC) sc
 
 <br>
 
-{{< image Src="/2025-architecture/pilars-implementations-2024.png" Alt="A diagram." Desc="Figure 2: PILARS implementations – mid-2024." Title="Figure 2: PILARS implementations – mid-2024." Ref="PT Sefton">}}
+{{< image Src="/2025-architecture/pilars-implementations-2024.png" Alt="A diagram." Desc="Figure 9: PILARS implementations – mid-2024." Title="Figure 9: PILARS implementations – mid-2024." Ref="PT Sefton">}}
 
 <br>
 
@@ -128,7 +165,7 @@ The diagram above attempts to demonstrate how the PILARS principles have been im
 ## Future directions
 
 
-{{< image Src="/2025-architecture/pilars-implementations-2026-1.png" Alt="A diagram." Desc="Figure 3: PILARS implementations – mid-2026?" Title="Figure 3: PILARS implementations – mid-2026?" Ref="PT Sefton">}}
+{{< image Src="/2025-architecture/pilars-implementations-2026-1.png" Alt="A diagram." Desc="Figure 10: PILARS implementations – mid-2026?" Title="Figure 10: PILARS implementations – mid-2026?" Ref="PT Sefton">}}
 
 <br>
 
