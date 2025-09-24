@@ -12,6 +12,7 @@
 {{< glossary_link display="corpora" id="corpus" >}}
 {{< glossary_link display="corpus" id="corpus" >}}
 {{< glossary_link display="Crate-O" id="crate-o" >}}
+{{< glossary_link display="data collection" id="data-collection" >}}
 {{< glossary_link display="data commons" id="data-commons" >}}
 {{< glossary_link display="data custodian" id="data-custodian" >}}
 {{< glossary_link display="data governance" id="data-governance" >}}
@@ -37,6 +38,8 @@
 {{< glossary_link display="OCFL" id="ocfl" >}}
 {{< glossary_link display="oral history" id="oral-history" >}}
 {{< glossary_link display="PARADISEC" id="paradisec" >}}
+{{< glossary_link display="phonemic transcription" id="phonemic-transcription" >}}
+{{< glossary_link display="phonetic transcription" id="phonetic-transcription" >}}
 {{< glossary_link display="research data management" id="rdm" >}}
 {{< glossary_link display="research infrastructure" id="research-infrastructure" >}}
 {{< glossary_link display="RO-Crate" id="ro-crate" >}}

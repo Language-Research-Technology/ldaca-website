@@ -1,13 +1,16 @@
-profile: 4
-uq: 1
-xml: 11
-format: 4
-glam: 1
-metadata: 1
-tool: 2
-method: 3
-methods: 4
-ardc: 5
+corpus: 8
+profile: 1
+ldaca: 5
+collection: 9
+object: 1
+class: 1
+phonetic transcription: 1
+usyd: 4
+nfsa: 1
+phonemic transcription: 1
+collections: 1
+doi: 6
+standard: 1
 
 Tooltip guidelines:
 - Check the context of these matches; they may not be applicable!
