@@ -10,7 +10,7 @@ by {{< profile id="sefton" >}}, **Moises Sacal Bonequi** and {{< profile id="fol
 
 <br>
 
-This blog post provides an update on the Language Data Commons of Australia (LDaCA) technical architecture. It is adapted from a presentation delivered to the LDaCA Steering Committee on 22 August 2025 by Peter Sefton, Mosies Sacal Bonequi and Ben Foley. 
+This blog post provides an update on the Language Data Commons of Australia (LDaCA) technical architecture. It is adapted from a presentation delivered to the LDaCA Steering Committee on 22 August 2025 by Peter Sefton, Mosies Sacal Bonequi and Ben Foley. The full presentation with speaker notes can be found [here](https://ptsefton.com/2025/09/24/ldaca-architecture-update/).
 
 In this post, we will report on some recent developments, mostly in behind-the-scenes improvements to our software stack. We’ll also give a refresher to the principles behind LDaCA’s technical architecture and share more about how our decentralised approach to data management fits with the metadata standards we have been developing for the last few years. As well as this, we aim to show how the open source tools used across LDaCA’s network of collaborators are starting to be harmonised and shared between services, reducing development and maintenance costs and improving sustainability. 
 
@@ -32,7 +32,7 @@ We have seen some recent developments which promise exciting future work. Pacifi
 
 The new API is an [RO-Crate](https://www.ldaca.edu.au/resources/glossary/#ro-crate) API, that we have affectionately called *AROCAPI*. AROCAPI is a generic API for collections of ‘objects’ (or ‘items’) which are described using RO-Crates. We are working together with John to create a new [Oni](https://www.ldaca.edu.au/resources/glossary/#oni) stack using this API, and have been evaluating the API throughout its development rather than waiting until John finishes his work on it. 
 
-AROCAPI will extend data portals and act as a baseline for other infrastructure that uses RO-Crates. It is designed to work both “out of the box” with an industry-standard data portal UI and to be easily configurable for different audiences and domains. For example, PARADISEC will implement different authentication routes (using the existing “[Nabu](https://catalog.paradisec.org.au/)” catalog) for users to access data than the LDaCA data portal, which uses [CADRE](https://cadre.ada.edu.au/login).
+AROCAPI will extend data portals and act as a baseline for other infrastructure that uses RO-Crates. It is designed to work both "out of the box" with an industry-standard data portal UI and to be easily configurable for different audiences and domains. For example, PARADISEC will implement different authentication routes (using the existing "[Nabu](https://catalog.paradisec.org.au/)" catalog) for users to access data than the LDaCA data portal, which uses [CADRE](https://cadre.ada.edu.au/login).
 
 In addition to AROCAPI,  promising discussions are taking place with one of our partners about taking on LDaCA data long-term (instead of having to distribute the collections across partner institutions). This would give a consolidated basis for a language data repository and a broader Humanities data service.
 
