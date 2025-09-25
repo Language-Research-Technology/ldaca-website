@@ -1,6 +1,6 @@
 ---
 title: "Corpus spotlight: Mitchell and Delbridge"
-date: 2025-09-10
+date: 2025-10-01
 draft: false
 description: "Corpus Spotlight: Mitchell and Delbridge"
 ---
