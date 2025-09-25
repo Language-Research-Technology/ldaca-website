@@ -40,8 +40,27 @@ The aims of the workshop are to:
 <br>
 
 ### Webinar: The ParlaMint corpora of European parliamentary proceedings
+**Recording date**: 28 August 2025
+<br>
 
-Join us for the second webinar in our 2025 webinar series.
+<div align="center">
+<iframe
+  width="800"
+  height="460"
+  src="https://www.youtube.com/embed/SU92WFxmq-4?si=AiVOdBv4BoPT8NYg"
+  frameborder="0"
+  allow="autoplay; encrypted-media"
+  allowfullscreen
+>
+</iframe>
+</div>
+<br>
+This talk discussed the compilation and dissemination of the ParlaMint corpora. It includes 29 corpora of European national and regional parliamentary proceedings, covering at least the period from 2015 to 2022, and containing over 1 billion words.
+
+Tomaž and Matyáš  described the background of this CLARIN-funded project and the characteristics of the produced corpora. They then introduced the encoding of the corpora, the corpus compilation pipeline, the use of GitHub and the ways in which the corpus is made accessible to potential users.
+
+They conclude with lessons learnt in the project and further work on the ParlaMint corpora.
+<br>
 
 **Presenters: Tomaž Erjavec and Matyáš Kopp**
 
@@ -49,17 +68,9 @@ Tomaž Erjavec is a member of the Department of Knowledge Technologies of the In
 
 Matyáš Kopp is a member of the Institute for Formal and Applied Linguistics at the Charles University in Prague (Czech Republic). He has worked extensively on compiling and researching datasets based on parliamentary proceedings, and also on technologies for querying treebanks.
 
-**Abstract**:
 
-This talk will discuss the compilation and dissemination of the ParlaMint corpora, i.e. 29 corpora of European national and regional parliamentary proceedings, covering at least the period from 2015 to 2022, and containing over 1 billion words.
 
-We will describe the background of this {{< glossary_link display="CLARIN" id="clarin" >}}-funded project and the characteristics of the produced corpora. We then introduce the encoding of the corpora, the corpus compilation pipeline, the use of {{< glossary_link display="GitHub" id="github" >}} and concentrate on the ways in which the corpus is made accessible to potential users.
 
-We will conclude with lessons learnt in the project and our further work on the ParlaMint corpora.
-
-**Details**: 28 August 2025, 4pm AEST
-
-**Where**: [Online](https://uqz.zoom.us/j/81512493814?from=addon)
 
 <br>
 

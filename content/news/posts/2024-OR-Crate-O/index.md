@@ -1,7 +1,6 @@
 ---
     title:  "Crate-O - a drop-in linked data metadata editor for RO-Crate (and other) linked data in repositories and beyond"
     date: "2024-06-05"
-
     slug: open-repositories-2024-crate-o
     categories: ["LDaCA"]
     tags: ["RO-Crate", "Open Repositories", "Crate-O"]

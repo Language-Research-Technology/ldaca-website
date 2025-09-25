@@ -32,5 +32,6 @@ from the Australian Research Data Commons ({{< glossary_link display="ARDC" id="
 
 - [Pacific and Regional Archive for Digital Sources in Endangered Cultures](https://www.paradisec.org.au) ({{< glossary_link display="PARADISEC" id="paradisec" >}})
 - [Common Language Resources and Technology Infrastructure](https://www.clarin.eu) ({{< glossary_link display="CLARIN" id="clarin" >}})
+- [Australian Institute of Aboriginal and Torres Strait Islander Studies](https://aiatsis.gov.au/) 
 
 <br>
