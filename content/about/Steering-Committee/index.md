@@ -208,7 +208,7 @@ Jane Simpson is Emeritus Professor in linguistics at the Australian National Uni
 - **Dr Ben Foley**, The University of Queensland—Data and Collections (LDaCA)
 - **Dr Sam Hames**, The University of Queensland —Research Analytics (LDaCA)
 - **Dr Simon Musgrave**, The University of Queensland Research Support and Training (LDaCA)
-- **Siobhann McCafferty or Jennifer Corbett**, Australian Research Data Commons, HASS & Indigenous RDC
+- **Dr Robin Burgess**, Australian Research Data Commons, HASS & Indigenous RDC
 - **Chenoa Pettrup**,  The University of Queensland—Industry Engagement and Communication (LDaCA)
 - **Sue Plunkett-Cole**, The University of Queensland—Project Coordinator (LDaCA)
 - **Dr Peter Sefton**, The University of Queensland—Research Technology (LDaCA)
