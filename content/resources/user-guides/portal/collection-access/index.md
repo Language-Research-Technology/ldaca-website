@@ -50,6 +50,6 @@ To view your current list of licenses you have access to, hover your cursor over
 
 <br>
 
-{{< image Src="/user-guides/portal/REMS-UserMemberships.png" Alt="User Memberships" Desc="User Memberships" Title="User Memberships" Ref="LDaCA" >}}
+{{< image Src="/user-guides/portal/cadre-user-memberships.png" Alt="User Memberships" Desc="User Memberships" Title="User Memberships" Ref="LDaCA" >}}
 
 <br>
