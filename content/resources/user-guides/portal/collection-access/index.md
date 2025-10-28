@@ -42,6 +42,8 @@ Select ___Login___ and follow the CILogon prompts (see [Login](/resources/user-g
 
 Once the data sharing request is approved, navigate back to the data {{< glossary_link display="object" id="object" >}} you require in the LDaCA portal. If the warning text is still displayed, click on ___refresh permissions___. The page will update and you should be able to access the data. Note that these permissions apply to other data objects in the {{< glossary_link display="collection" id="collection" >}} that are covered by the same license terms; you do not need to apply for permission for each data object.
 
+{{< image Src="/user-guides/portal/access-granted-portal-blur.png" Alt="Access to example custom license displayed in green on the LDaCA data portal." Desc="Once the data sharing request is approved, you will be able to access the data in the LDaCA portal." Title="Once the data sharing request is approved, you will be able to access the data in the LDaCA portal." Ref="LDaCA" >}}
+
 <br>
 
 ## View your Current Access List
@@ -50,6 +52,6 @@ To view your current list of licenses you have access to, hover your cursor over
 
 <br>
 
-{{< image Src="/user-guides/portal/cadre-user-memberships.png" Alt="User Memberships" Desc="User Memberships" Title="User Memberships" Ref="LDaCA" >}}
+{{< image Src="/user-guides/portal/user-memberships-with-access.png" Alt="User Memberships" Desc="User Memberships" Title="User Memberships" Ref="LDaCA" >}}
 
 <br>
