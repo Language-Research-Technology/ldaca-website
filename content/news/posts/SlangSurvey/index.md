@@ -17,7 +17,7 @@
 
 
 
-This material was presented to the 8th Forum on Englishes in Australia, Melbourne 7/11/2025.
+This material was presented to the [8th Forum on Englishes](https://sites.google.com/view/auseng/home) in Australia, Melbourne 7/11/2025 by by {{< profile id="smith" >}} and {{< profile id="musgrave" >}}.
 
 
 
@@ -30,7 +30,7 @@ This material was presented to the 8th Forum on Englishes in Australia, Melbourn
 
 
 
-The title of the project includes the phrase ‘Australian Vernacular’. For many people, this phrase makes sense intuitively but for our purposes we needed to unpack its meaning, particularly in relation to the idea of ‘Australian Slang’. Slang is a part of language use in any community, deployed to indicate membership of specific groups and to exclude people from some communication. This kind of slang is typically short-lived. As Dylan and Howie have pointed out in recent work, the move from ‘cool’ to ‘cringe’ can happen very quickly [link]. But there is also a repertoire of expressions which have lasted longer and which are taken by many people to be part of an Australian identity; this is a much more reified idea of ‘Australian Slang’, the kind of language which is the subject of humorous websites intended to help new chums (see what I did there?).
+The title of the project includes the phrase ‘Australian Vernacular’. For many people, this phrase makes sense intuitively but for our purposes we needed to unpack its meaning, particularly in relation to the idea of ‘Australian Slang’. Slang is a part of language use in any community, deployed to indicate membership of specific groups and to exclude people from some communication. This kind of slang is typically short-lived. As Dylan and Howie have pointed out in [recent work](https://sites.google.com/view/auseng/programme-2025), the move from ‘cool’ to ‘cringe’ can happen very quickly. But there is also a repertoire of expressions which have lasted longer and which are taken by many people to be part of an Australian identity; this is a much more reified idea of ‘Australian Slang’, the kind of language which is the subject of humorous websites intended to help new chums (see what I did there?).
 
 
 
@@ -43,7 +43,7 @@ The title of the project includes the phrase ‘Australian Vernacular’. For ma
 
 
 
-As part of our project, we wanted to find out how people who use Australian English think about this version of ‘Australian Slang’. It seemed unlikely that collecting spontaneous language use data would address this question - and that would have been very expensive and time-consuming. (This is not to say that looking at records of language use is irrelevant - see the post on this blog [link] about Simon Musgrave’s work on slang as part of an Australian literary tradition where corpus data inform the argument.) We decided that collecting data about metalinguistic knowledge of Australian Slang, what users of the language can reflectively say about Slang, would be a substantial resource for our research and we therefore designed and implemented a survey to collect such data.
+As part of our project, we wanted to find out how people who use Australian English think about this version of ‘Australian Slang’. It seemed unlikely that collecting spontaneous language use data would address this question - and that would have been very expensive and time-consuming. (This is not to say that looking at records of language use is irrelevant - see the [post on this blog](../putting-data-to-work/) about Simon's work on slang as part of an Australian literary tradition, where corpus data inform the argument.) We decided that collecting data about metalinguistic knowledge of Australian Slang, what users of the language can reflectively say about Slang, would be a substantial resource for our research and we therefore designed and implemented a survey to collect such data.
 
 Two members of our team (Kate and Howie) regularly appear on various ABC Radio stations and this meant that we were able to publicise the survey very widely. As a result, we were fortunate to acquire a very substantial body of data.
 
@@ -58,7 +58,7 @@ Two members of our team (Kate and Howie) regularly appear on various ABC Radio s
 
 
 
-We mentioned above that the information we were hoping to receive was metalinguistic and this is reflected in the structure of the survey questions. We did not ask participants about expressions which they did or might use - of course self-report data is notoriously unreliable. Instead, we asked about expressions which they thought of as typically Australian, and allowing them the opportunity to give information about the potential usage of an expression. Answering the question ‘When and where have you heard this expression used?’ allowed respondents to say that they used an expression, but many of the responses here were of the kind: “Not since the 80s.” (in relation to grouse). Many of the further comments responses were along similar lines, for example, ‘It's not that common anymore. A working class or rural expression’ as a comment about beauty. These examples suggest that responses to the survey were of the kind we had hoped to receive: accounts of the consciously accessible knowledge people had about Australian Slang as a language register.
+We mentioned above that the information we were hoping to receive was metalinguistic and this is reflected in the structure of the survey questions. We did not ask participants about expressions which they did or might use - of course self-report data is notoriously unreliable. Instead, we asked about expressions which they thought of as typically Australian, and allowing them the opportunity to give information about the potential usage of an expression. Answering the question ‘When and where have you heard this expression used?’ allowed respondents to say that they used an expression, but many of the responses here were of the kind: “Not since the 80s.” (in relation to _grouse_). Many of the further comments responses were along similar lines, for example, ‘It's not that common anymore. A working class or rural expression’ as a comment about _beauty_. These examples suggest that responses to the survey were of the kind we had hoped to receive: accounts of the consciously accessible knowledge people had about Australian Slang as a language register.
 
 
 
@@ -71,7 +71,7 @@ We mentioned above that the information we were hoping to receive was metalingui
 
 
 
-The thirteen prompts mainly cover meanings with an affective component. Some of these prompts could be seen as referring to things or ideas which are seen as stereotypically Australian (e.g. the two alcohol-related items). This was a deliberate choice as we might expect that a strong association with Australianness might correlate with language which is also seen as distinctively Australian. As noted previously, prompt 13 and the final open question included an additional response category for the meaning of the expression. The responses for prompt 13 are of course much less cohesive than responses for the other prompts, but in the survey design process we were unable to decide on one specific body part which we thought would elicit characteristically Australian expressions (and we didn’t want to be indelicate!).
+The thirteen prompts mainly cover meanings with an affective component. Some of these prompts could be seen as referring to things or ideas which are seen as stereotypically Australian (e.g. the two alcohol-related items). This was a deliberate choice as we might expect that a strong association with Australianness would correlate with language which is also seen as distinctively Australian. As noted previously, prompt 13 and the final open question included an additional response category for the meaning of the expression. The responses for prompt 13 are of course much less cohesive than responses for the other prompts, but in the survey design process we were unable to decide on one specific body part which we thought would elicit characteristically Australian expressions (and we didn’t want to be indelicate!).
 
 
 
@@ -84,12 +84,12 @@ The thirteen prompts mainly cover meanings with an affective component. Some of 
 
 
 
-The upper screen shot shows the first part of some rows on the response table. The initial columns are all Qualtrics-generated metadata; responses to questions  we asked begin in the column headed ‘Is your age….’. The full question was “Is you age over 15?” and it was included because we wanted to include at least some school age participants but to make ethics clearance possible we had to specify a minimum age. If a participant answered ‘No’ to this question, the survey automatically closed. The lower screen shot shows some responses to one prompt (something very good). 
+The upper screen shot shows the first part of some rows on the response table. The initial columns are all Qualtrics-generated metadata; responses to questions we asked begin in the column headed ‘Is your age….’. The full question was “Is you age over 15?” and it was included because we wanted to allow at least some school age participants to contribute data but to make ethics clearance possible we had to specify a minimum age. If a participant answered ‘No’ to this question, the survey automatically closed. The lower screen shot shows some responses to one prompt (_something very good_). 
 
 The screen shots show several problems which needed to be addressed before the data could usefully be shared:
-Potentially identifying information (precise location when survey was accessed, email provided if willing to answer follow-up questions)
-Blank responses
-Encoding issues (here partly due to the idiosyncrasies of Excel)
+- Potentially identifying information (precise location when survey was accessed, email provided if willing to answer follow-up questions)
+- Blank responses
+- Encoding issues (here partly due to the idiosyncrasies of Excel)
 
 
 
@@ -102,9 +102,9 @@ Encoding issues (here partly due to the idiosyncrasies of Excel)
 
 
 
-Our aim was to make this dataset FAIR compliant. Findability is the last step in the process: when the data is tidied and formatted as an RO-Crate, it can be published in the LDaCA data portal where it is now discoverable and has a DOI. Our aim was to have a dataset which could be freely shared and this required the removal of the potentially identifying information mentioned on the previous slide. Contact emails were provided by some respondents in response to a question asking if they were willing to be contacted for follow-up questions. This information could only be shared beyond the project team if explicit permission was sought from each respondent and this is not practically possible. 
+Our aim was to make this dataset FAIR compliant. Findability is the last step in the process: when the data is tidied and formatted as an RO-Crate, it can be published in the LDaCA [data portal](https://data.ldaca.edu.au/search) where it is now discoverable and has a DOI. Our aim was to have a dataset which could be freely shared and this required the removal of the potentially identifying information mentioned on the previous slide. Contact emails were provided by some respondents in response to a question asking if they were willing to be contacted for follow-up questions. This information could only be shared beyond the project team if explicit permission was sought from each respondent and this is not practically possible. 
 
-We improved the interoperability and reusabilty of the data in several ways. The download from Qualtrics has all responses from one a participant as a single row with over 100 cells. We created a separate table for responses to each prompt to make the data more manageable. Within each of those tables, we removed blank responses, i.e. if a participant provided no responses to a particular prompt, that participant would not appear in the relevant table but might appear in other tables (unless they provided no responses at all). We also normalised encoding of e.g. quotation marks to improve interoperability. Spelling variations (e.g. bonza/bonzer) were left untouched as we believe that they may provide valuable information; for example, spelling variation may be regionally conditioned..
+We improved the interoperability and reusabilty of the data in several ways. The download from Qualtrics has all responses from one a participant as a single row with over 100 cells. We created a separate table for responses to each prompt to make the data more manageable. Within each of those tables, we removed blank responses, i.e. if a participant provided no responses to a particular prompt, that participant would not appear in the relevant table but might appear in other tables (unless they provided no responses at all). We also normalised encoding of e.g. quotation marks to improve interoperability. Spelling variations (e.g. _bonza/bonzer_) were left untouched as we believe that they may provide valuable information; for example, spelling variation may be regionally conditioned..
 
 
 
@@ -117,7 +117,7 @@ We improved the interoperability and reusabilty of the data in several ways. The
 
 
 
-As Simon has mentioned, the original format of the data was unwieldy, with all the responses from a single participant in one row.
+As mentioned above, the original format of the data was unwieldy, with all the responses from a single participant in one row.
 
 We needed to convert the 100+ columns in the original data to separate rows per prompt, and from these generate 14 CSV files for each of those prompts.
 
@@ -237,7 +237,7 @@ With the participant ID, we could also map each response to the postcodes provid
 
 
 
-The transformed collection is now stored in the LDaCA Portal as an RO-Crate or Research Object Crate.
+The transformed collection is now stored in the LDaCA Portal as an [RO-Crate](https://www.researchobject.org/ro-crate/) or Research Object Crate.
 
 This is a way of packaging research data that stores the data together with its associated metadata and other component files, such as the data license.
 
