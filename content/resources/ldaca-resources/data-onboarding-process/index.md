@@ -20,7 +20,7 @@ description: "Outlines the standards and processes that support the preparation 
 
 ## Purpose
 
-This document outlines the standards and processes that support the preparation of {{< glossary_link display="collections" id="collection" >}} to be PILARS compliant. A successful onboarding will result in the collection being published using LDaCA infrastructure (e.g. an Oni or static site) and made available in accordance with the specified {{< glossary_link display="access conditions" id="access-conditions" >}}. To determine if you are ready to onboard a collection, check this data management and governance capacity flowchart.
+This document outlines the standards and processes that support the preparation of {{< glossary_link display="collections" id="collection" >}} to be [PILARS](http://w3id.org/ldac/pilars) compliant. A successful onboarding will result in the collection being published using LDaCA infrastructure (e.g. an Oni or static site) and made available in accordance with the specified {{< glossary_link display="access conditions" id="access-conditions" >}}. To determine if you are ready to onboard a collection, check this data management and governance capacity flowchart.
 
  <br>
 
@@ -37,7 +37,7 @@ The LDaCA onboarding process is carried out collaboratively between LDaCA and th
 3. Determining the {{< glossary_link display="data governance" id="data-governance" >}} and {{< glossary_link display="access conditions" id="access-conditions" >}} appropriate for this collection, and applying that in LDaCA.
 4. Preparing data for cataloguing.
 5. Publishing.
-5. Facilitating ongoing engagement.
+6. Facilitating ongoing engagement.
 
 These six steps are covered in detail below, along with the responsibilities of LDaCA and the {{< glossary_link display="Data Steward" id="data-steward" >}} for each step, and associated resources.
 
@@ -136,7 +136,7 @@ A persistent identifier for the collection must also be provided to support sust
 
 ### 4. Preparing data for cataloguing
 
-LDaCA coordinates with the {{< glossary_link display="Data Steward" id="data-steward" >}} to apply standards to the collection to support its long-term sustainability using the PILARS framework. The standards applied allow the data to be packaged in {{< glossary_link display="RO-Crates" id="ro-crate" >}}, the metadata to be mapped onto LDaCA’s metadata schema, or a bespoke schema for the collection created, and additional metadata to be added where possible/required.
+LDaCA coordinates with the {{< glossary_link display="Data Steward" id="data-steward" >}} to apply standards to the collection to support its long-term sustainability using the [PILARS](http://w3id.org/ldac/pilars) framework. The standards applied allow the data to be packaged in {{< glossary_link display="RO-Crates" id="ro-crate" >}}, the metadata to be mapped onto LDaCA’s metadata schema, or a bespoke schema for the collection created, and additional metadata to be added where possible/required.
 
 <br>
 
