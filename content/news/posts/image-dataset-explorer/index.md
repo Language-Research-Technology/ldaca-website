@@ -9,7 +9,7 @@ by {{< profile id="lea" >}}
 
 <br>
 
-**A new digital tool helps HASS researchers analyse collections of images.**
+**A [new digital tool](https://github.com/Language-Research-Technology/image-dataset-explorer) helps HASS researchers analyse collections of images.**
 
 Humanities researchers can unlock a powerful source of cultural data by working with image collections. Images proliferate increasingly online, and carry meaning and currency in the digital world. They are also sites for language — [think of the thousands of neon signs or street names a collection of pictures might capture](https://www.youtube.com/watch?v=hPjzI_4pNug).
 
@@ -49,7 +49,7 @@ The second problem relates to researchers interested in how online algorithms ha
 
 <br>
 
-The notebook produces visualisations by generating different types of 'image embeddings'. An image embedding condenses the features of an image, such as colour, composition and arrangement of objects, into a small numerical representation which can then be compared. An image embedding is what lets us know that two images with crowds of people are more similar than a photo of a crowd and a photo of a forest. These embeddings come out of algorithms that aim to tell us things like ‘This image has trees in it', or ‘This image depicts a crowd of people’. The Image Dataset Explorer uses colour histograms, [VGG algorithms](https://www.sciencedirect.com/topics/computer-science/vgg-19-convolutional-neural-network) and [OpenAI's CLIP model ](https://openai.com/index/clip/)to produce image embeddings that begin to map out the internal structure of the dataset. By choosing different types of embeddings, the notebook allows users to make comparisons between how different embedding methods “see” images.
+The notebook produces visualisations by generating different types of 'image embeddings'. An image embedding condenses the features of an image, such as colour, composition and arrangement of objects, into a small numerical representation which can then be compared. An image embedding is what lets us know that two images with crowds of people are more similar than a photo of a crowd and a photo of a forest. These embeddings come out of algorithms that aim to tell us things like ‘This image has trees in it', or ‘This image depicts a crowd of people’. The Image Dataset Explorer uses colour histograms, [VGG algorithms](https://www.sciencedirect.com/topics/computer-science/vgg-19-convolutional-neural-network) and [OpenAI's CLIP model](https://openai.com/index/clip/) to produce image embeddings that begin to map out the internal structure of the dataset. By choosing different types of embeddings, the notebook allows users to make comparisons between how different embedding methods “see” images.
 
 <br>
 
@@ -60,6 +60,10 @@ Sam and Jasper tested the notebook on a collection of images from the Instagram 
 “At the moment, it's a starting point for getting a high level picture of what's in a collection of images, for one group of people. For another group of people, it’s a test bed for different algorithms,” said Sam. “One of the things I'm really hoping to do in future with this work is to incorporate some really old and 'boring' methods as a comparison — which are no longer relevant from a computer science perspective, but I think could be very useful from a humanities perspective.”
 
 Sam identified a further crossover for language research — the approaches taken with the Image Dataset Explorer could in principle be applied to text as well. This crossover presents exciting opportunities for future projects that will support HASS researchers to answer a multitude of different questions.
+
+<br>
+
+#### [Get started with the Image Dataset Explorer](https://github.com/Language-Research-Technology/image-dataset-explorer)
 
 <br>
 
