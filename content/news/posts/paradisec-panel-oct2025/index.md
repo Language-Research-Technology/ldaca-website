@@ -1,8 +1,8 @@
 ---
-title: "Opening the Archive: Indigenous Perspectives on Archival Engagement"
+title: "Opening the archive: Indigenous perspectives on archival engagement"
 date: 2025-12-15
 draft: false
-description: "Opening the Archive: Indigenous Perspectives on Archival Engagement."
+description: "Opening the archive: Indigenous perspectives on archival engagement."
 ---
 
 by {{< profile id="lea" >}}
@@ -85,7 +85,7 @@ Despite many recommendations made in the *Bringing them home* report relating to
 
 <br>
 
-{{< image Src="/paradisec-panel-oct2025/Room photo 2-cropped.jpg" Alt="The audience and panellists" Desc="Figure 3: The audience listens to Dr Lauren Booker." Title="The audience listens to Dr Lauren Booker." Ref="PARADISEC" >}}
+{{< image Src="/paradisec-panel-oct2025/Room photo 2-cropped.jpg" Alt="The audience and panellists" Desc="Figure 3: The audience hears from Dr Lauren Booker." Title="The audience hears from Dr Lauren Booker." Ref="PARADISEC" >}}
 
 <br>
 
