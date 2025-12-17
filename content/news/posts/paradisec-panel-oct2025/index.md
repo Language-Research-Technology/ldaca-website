@@ -47,7 +47,7 @@ Johnny Obed was able to describe first hand the feeling of connecting with archi
 
 <br>
 
-{{< image Src="/paradisec-panel-oct2025/Panel discussion 5-cropped.jpg" Alt="Panellists in discussion." Desc="Figure 2: Evelyn Quispe discusses her archival work with the Warlpiri community." Title="Evelyn Quispe discusses her archival work with the Warlpiri community." Ref="PARADISEC" >}}
+{{< image Src="/paradisec-panel-oct2025/Panel discussion 5-cropped.jpg" Height="350" Alt="Panellists in discussion." Desc="Figure 2: Evelyn Quispe discusses her archival work with the Warlpiri community." Title="Evelyn Quispe discusses her archival work with the Warlpiri community." Ref="PARADISEC" >}}
 
 <br>
 
