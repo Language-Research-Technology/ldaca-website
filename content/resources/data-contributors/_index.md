@@ -9,7 +9,7 @@ weight: 2
 ---
 
 > A collection of resources for people interested in collecting, organising and caring for data, as well as contributing data to LDaCA. 
-{{< raw >}}
+
 <article class="archive-item">
     <a href="/resources/user-guides/" class="archive-item-link">
         <h2 class="archive-item-title">User Guides</h2>
@@ -108,6 +108,3 @@ weight: 2
         <p class="archive-item-description"> Catch up with LDaCA by reading our past newsletters. </p>
     </a>
 </article>
-
-
-{{< /raw >}}

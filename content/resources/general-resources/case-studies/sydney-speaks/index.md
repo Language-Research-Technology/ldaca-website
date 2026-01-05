@@ -5,7 +5,7 @@ draft: false
 description: "LDaCA Chief Investigator Catherine Travis and former team member Cale Johnstone explain the complexities of handling data from three periods in a 40 year span."
 ---
 
-by {{< profile id = "travis" >}} and {{< profile id = "johnstone" >}}
+by <Profile id = "travis" /> and <Profile id = "johnstone" />
 
 <br>
 

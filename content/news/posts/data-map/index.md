@@ -8,6 +8,7 @@ topics: ["Language in Australia"]
 author: "Simon Musgrave"
 aliases: 
 - "/posts/data-map/"
+layout: post
 ---
 
 <br>
@@ -57,7 +58,6 @@ _This post is based on presentations given to the LaTrobe University Linguistics
 <br>
 
 **References**:
-{{<raw>}}
 
 <div class="reference">Baker, Sidney (1945) <i>The Australian Language</i>. Sydney: Angus and Robertson.<br />
 Corbyn, Charles Adam (1854) <i>Sydney Revels of Bacchus, Cupid, and Momus</i>. Sydney: Hawksley & Williamson.<br />
@@ -65,6 +65,5 @@ Fritz, Clemens WA. (2007) <i>From English in Australia to Australian English: 17
 Noone, V. (2012). <i>Hidden Ireland in Victoria</i>. Ballarat: Ballarat Heritage Services.<br />
 O’Farrell, Patrick (1988) <i>The Irish in Australia</i>. Kensington, N.S.W.: New South Wales University Press.</div>
 
-{{</raw>}}
 
 <br>

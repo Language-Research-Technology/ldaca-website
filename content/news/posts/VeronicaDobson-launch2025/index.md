@@ -3,9 +3,10 @@ title: "Arne ingkerreke apurtelhe-ileme: Project launch"
 date: 2025-04-15T11:10:21+10:00
 draft: false
 description: "Arne ingkerreke apurtelhe-ileme: Project launch"
+layout: post
 ---
 
-by {{< profile id="lea" >}}
+by <Profile id="lea" />
 
 <br>
 
@@ -17,7 +18,10 @@ On Wednesday 2 April, the Centre for Australian Languages and Linguistics ([CALL
 
 <br>
 
-{{< image Src="/VeronicaDobson-launch2025/VPDLaunch-1.jpg" Alt="A large group of people sit applauding the project launch out of shot." Desc="Attendees of the Arne ingkerreke apurtelhe-ileme launch at Batchelor Institute." Title="Attendees of the Arne ingkerreke apurtelhe-ileme launch at Batchelor Institute." Height="400" Ref="Charlee-Ann Ah Chee">}}
+<figure style="text-align: center;">
+  <img src="./VPDLaunch-1.jpg" alt="A large group of people sit applauding the project launch out of shot." title="Attendees of the Arne ingkerreke apurtelhe-ileme launch at Batchelor Institute." style="max-height: 400px; margin-left: auto; margin-right: auto; display: block;" />
+  <figcaption style="font-style: italic; margin-top: 0.5rem;">Attendees of the Arne ingkerreke apurtelhe-ileme launch at Batchelor Institute. (Image: Charlee-Ann Ah Chee)</figcaption>
+</figure>
 
 <br>
 
@@ -45,6 +49,9 @@ Veronica's dedication to and passion for language and culture fills the project 
 
 <br>
 
-{{< image Src="/VeronicaDobson-launch2025/VPDLaunch-2.jpg" Alt="A photograph of Veronica Perrurle Dobson with a celebratory cake. In the background is a large screen projecting the Arne ingkerreke apurtelhe-ileme website homepage." Desc="Veronica Perrurle Dobson celebrates the launch of Arne ingkerreke apurtelhe-ileme." Title="Veronica Perrurle Dobson celebrates the launch of Arne ingkerreke apurtelhe-ileme." Height="600" Ref="Charlee-Ann Ah Chee">}}
+<figure style="text-align: center;">
+  <img src="./VPDLaunch-2.jpg" alt="A photograph of Veronica Perrurle Dobson with a celebratory cake. In the background is a large screen projecting the Arne ingkerreke apurtelhe-ileme website homepage." title="Veronica Perrurle Dobson celebrates the launch of Arne ingkerreke apurtelhe-ileme." style="max-height: 600px; margin-left: auto; margin-right: auto; display: block;" />
+  <figcaption style="font-style: italic; margin-top: 0.5rem;">Veronica Perrurle Dobson celebrates the launch of Arne ingkerreke apurtelhe-ileme. (Image: Charlee-Ann Ah Chee)</figcaption>
+</figure>
 
 <br>

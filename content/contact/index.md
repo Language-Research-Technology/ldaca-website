@@ -14,8 +14,6 @@ We have a page on [LinkedIn](https://www.linkedin.com/company/ldaca/).
 
 <br>
 
-{{< raw >}}
-
 <div class="flex_container" style="gap: 5%;">
     <div class="flex_item team_div">
         <h2>Our Team</h2>
@@ -25,6 +23,5 @@ We have a page on [LinkedIn](https://www.linkedin.com/company/ldaca/).
 
 </div>
 
-{{< /raw >}}
 
 <br>

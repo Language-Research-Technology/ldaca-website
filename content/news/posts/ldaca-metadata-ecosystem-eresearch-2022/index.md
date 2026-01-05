@@ -1,95 +1,105 @@
 ---
-    title:  >
-      Designing a metadata ecosystem for language research based on Research Object Crate (RO-Crate)
-    date: "2022-11-25"
-    slug: ldaca-metadata-ecosystem-eresearch-2022
-    categories: ["LDaCA"]
-    tags: ["Metadata"]
-    author: Peter Sefton
-    aliases: 
-    - "/posts/ldaca-metadata-ecosystem-eresearch-2022/"
+title: >
+  Designing a metadata ecosystem for language research based on Research Object Crate (RO-Crate)
+date: "2022-11-25"
+slug: ldaca-metadata-ecosystem-eresearch-2022
+categories: ["LDaCA"]
+tags: ["Metadata"]
+author: Peter Sefton
+aliases:
+  - "/posts/ldaca-metadata-ecosystem-eresearch-2022/"
+layout: post
 ---
 
-<br>
+<br />
 
 [PDF version](ldaca-metadata-ecosystem-eresearch-2022.pdf)
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='Slide00.png' alt='Designing a metadata ecosystem for language research based on Research Object Crate (RO-Crate) Peter Sefton, Nick Thieberger, Marco La Rosa, Simon Musgrave, River Tae Smith, Moises Sacal Bonequi   ' title='Slide: 0' border='1'  width='85%%'/>
+<img src='./Slide00.png' alt='Designing a metadata ecosystem for language research based on Research Object Crate (RO-Crate) Peter Sefton, Nick Thieberger, Marco La Rosa, Simon Musgrave, River Tae Smith, Moises Sacal Bonequi   ' title='Slide: 0' border='1'  width='85%' />
 
 By Peter Sefton, Nick Thieberger, Marco La Rosa, Simon Musgrave, River Tae Smith, Moises Sacal Bonequi – delivered by Peter Sefton at eResearch 2022 in Brisbane
 
 This work is licensed under CC BY 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/
 
-This presentation will look at how a Metadata Standard - {{< glossary_link display="RO-Crate" id="ro-crate" >}} - with Metadata Profile (the Language Data Commons) is being developed and implemented. Two major collections are collaborating on the standard, {{< glossary_link display="PARADISEC" id="paradisec" >}} and the Language Data Commons of Australia (LDaCA). This ongoing standardisation effort for language data is designed to improve interoperability, reduce costs for data migration and allow storage on disk, {{< glossary_link display="object" id="object" >}} storage or in archival repositories.
+This presentation will look at how a Metadata Standard - <GlossaryLink display="RO-Crate" id="ro-crate" /> - with Metadata Profile (the Language Data Commons) is being developed and implemented. Two major collections are collaborating on the standard, <GlossaryLink display="PARADISEC" id="paradisec" /> and the Language Data Commons of Australia (LDaCA). This ongoing standardisation effort for language data is designed to improve interoperability, reduce costs for data migration and allow storage on disk, <GlossaryLink display="object" id="object" /> storage or in archival repositories.
 
-[RO-Crate] is a linked-data {{< glossary_link display="metadata" id="metadata" >}} system which allows discovery metadata (Who, what where) based on the widely adopted Schema.org vocabulary to be seamlessly integrated with more discipline-specific metadata. {{< glossary_link display="RO-Crate" id="ro-crate" >}} uses metadata profiles to provide guidance for packaging resources for particular disciplines and purposes.
+[RO-Crate](https://www.researchobject.org/ro-crate/) is a linked-data <GlossaryLink display="metadata" id="metadata" /> system which allows discovery metadata (Who, what where) based on the widely adopted Schema.org vocabulary to be seamlessly integrated with more discipline-specific metadata. <GlossaryLink display="RO-Crate" id="ro-crate" /> uses metadata profiles to provide guidance for packaging resources for particular disciplines and purposes.
 
-In this presentation, we will introduce a {{< glossary_link display="RO-Crate" id="ro-crate" >}} metadata profile for language data which extends the core {{< glossary_link display="RO-Crate" id="ro-crate" >}} standard with new vocabulary terms adapted from pre-linked-data discipline-specific metadata efforts, particularly the Open Language Archives Community ({{< glossary_link display="OLAC" id="olac" >}}) standards. The profile has English-language guidance on how to structure {{< glossary_link display="collections" id="collection" >}} of resources in a repository with links between them, such that they can be indexed and displayed via {{< glossary_link display="APIs" id="api" >}} and search/browse portals. The profile is also implemented as a series of machine-readable profiles for the {{< glossary_link display="Describo" id="describo" >}} Online metadata description system.
+In this presentation, we will introduce a <GlossaryLink display="RO-Crate" id="ro-crate" /> metadata profile for language data which extends the core <GlossaryLink display="RO-Crate" id="ro-crate" /> standard with new vocabulary terms adapted from pre-linked-data discipline-specific metadata efforts, particularly the Open Language Archives Community (<GlossaryLink display="OLAC" id="olac" />) standards. The profile has English-language guidance on how to structure <GlossaryLink display="collections" id="collection" /> of resources in a repository with links between them, such that they can be indexed and displayed via <GlossaryLink display="APIs" id="api" /> and search/browse portals. The profile is also implemented as a series of machine-readable profiles for the <GlossaryLink display="Describo" id="describo" /> Online metadata description system.
 
-We will demonstrate current ways of describing items in a variety of languages and modes (spoken, written and signed), from a large set of heterogeneous language resources held by {{< glossary_link display="PARADISEC" id="paradisec" >}} and {{< glossary_link display="LDaCA" id="ldaca" >}}. We will also show how to access them via {{< glossary_link display="API" id="api" >}} calls and a search portal, and how resources may be stored in simple storage systems using the {{< glossary_link display="Arkisto" id="arkisto" >}} platform (a set of standards and principles).
+We will demonstrate current ways of describing items in a variety of languages and modes (spoken, written and signed), from a large set of heterogeneous language resources held by <GlossaryLink display="PARADISEC" id="paradisec" /> and <GlossaryLink display="LDaCA" id="ldaca" />. We will also show how to access them via <GlossaryLink display="API" id="api" /> calls and a search portal, and how resources may be stored in simple storage systems using the <GlossaryLink display="Arkisto" id="arkisto" /> platform (a set of standards and principles).
 
-[ro-crate]: https://www.researchobject.org/ro-crate/
+[ro-crate](https://www.researchobject.org/ro-crate/)
 
 </section>
 
-<br>
+<br />
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='Slide01.png' alt='The Language Data Commons of Australia (LDaCA) and Australian Text Analytics Platform (ATAP) projects received investment (https://doi.org/10.47486/DP768 and https://doi.org/10.47486/PL074) from the Australian Research Data Commons (ARDC). The ARDC is funded by the National Collaborative Research Infrastructure Strategy (NCRIS).   ARC LIEF LE210100013 (2021-2024) Nyingarn: a platform for primary sources in Australian Indigenous languages  ' title='Slide: 1' border='1'  width='85%%'/>
+<img src='./Slide01.png' alt='The Language Data Commons of Australia (LDaCA) and Australian Text Analytics Platform (ATAP) projects received investment (https://doi.org/10.47486/DP768 and https://doi.org/10.47486/PL074) from the Australian Research Data Commons (ARDC). The ARDC is funded by the National Collaborative Research Infrastructure Strategy (NCRIS).   ARC LIEF LE210100013 (2021-2024) Nyingarn: a platform for primary sources in Australian Indigenous languages  ' title='Slide: 1' border='1'  width='85%' />
 
 This work is supported by the Australian Research Data Commons.
 
 </section>
 
-<br>
+
+<br />
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='Slide02.png' alt=' With thanks for their contribution: Partner Institutions: ' title='Slide: 2' border='1'  width='85%%'/>
+<img src='./Slide02.png' alt=' With thanks for their contribution: Partner Institutions: ' title='Slide: 2' border='1'  width='85%' />
 
-The Language Data Commons of Australia Data Partnerships ([LDaCA](https://doi.org/10.47486/HIR001)) and the Australian Text Analytics Platform ([ATAP](https://doi.org/10.47486/PL074)) are building towards a scalable and flexible language data and analytics commons. These projects will be part of the Humanities and Social Sciences Research Data Commons ({{< glossary_link display="HASS" id="hass" >}} {{< glossary_link display="RDC" id="rdc" >}}).
+The Language Data Commons of Australia Data Partnerships ([LDaCA](https://doi.org/10.47486/HIR001)) and the Australian Text Analytics Platform ([ATAP](https://doi.org/10.47486/PL074)) are building towards a scalable and flexible language data and analytics commons. These projects will be part of the Humanities and Social Sciences Research Data Commons (<GlossaryLink display="HASS" id="hass" /> <GlossaryLink display="RDC" id="rdc" />).
 
-The Data Commons will focus on preservation and discovery of distributed multi-modal language {{< glossary_link display="data collections" id="data-collection" >}} under a variety of governance frameworks. This will include access control that reflects ethical constraints and {{< glossary_link display="intellectual property" id="intellectual-property" >}} rights, including those of Aboriginal and Torres Strait Islander, migrant and Pacific communities.
+The Data Commons will focus on preservation and discovery of distributed multi-modal language <GlossaryLink display="data collections" id="data-collection" /> under a variety of governance frameworks. This will include access control that reflects ethical constraints and <GlossaryLink display="intellectual property" id="intellectual-property" /> rights, including those of Aboriginal and Torres Strait Islander, migrant and Pacific communities.
 
 The platform will provide workbench services to support computational research, starting with code-notebooks with no-code research tools provided in later phases. Research artefacts such as code and derived data will be made available as fully documented research objects that are re-runnable and rigorously described. Metrics to demonstrate the impact of the platform are projected to include usage statistics, data and article citations. These projects are led by Professor Michael Haugh of the School of Languages and Culture at the University of Queensland with several partner institutions.
 
 </section>
 
-<br>
+<br />
+
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='Slide03.png' alt='Pacific and Regional Archive for Digital Sources in Endangered Cultures Running for 20 years  1,337 languages represented 675 collections 37,510 items 405,289 files 15,540 hours (audio) 2,465 hours (video) 193 TB  October 2022  ' title='Slide: 3' border='1'  width='85%%'/>
+<img src='./Slide03.png' alt='Pacific and Regional Archive for Digital Sources in Endangered Cultures Running for 20 years  1,337 languages represented 675 collections 37,510 items 405,289 files 15,540 hours (audio) 2,465 hours (video) 193 TB  October 2022  ' title='Slide: 3' border='1'  width='85%' />
 
 This page shows a [YouTube demo of the PARADISEC website](https://www.youtube.com/watch?v=CX-CODBwOVU&t=7s).
 
-{{< glossary_link display="PARADISEC" id="paradisec" >}} (the Pacific And Regional Archive for Digital Sources in Endangered Cultures) is a digital archive of records of some of the many small cultures and languages of the world and it has developed models to ensure that the archive can provide access to interested communities while also conforming with emerging international standards for digital archiving. Australian researchers have been making unique and irreplaceable audiovisual recordings in the region since portable field recorders became available in the mid-twentieth century, yet until the establishment of {{< glossary_link display="PARADISEC" id="paradisec" >}} there was no Australian repository for these invaluable research recordings.
+<GlossaryLink display="PARADISEC" id="paradisec" /> (the Pacific And Regional Archive for Digital Sources in Endangered Cultures) is a digital archive of records of some of the many small cultures and languages of the world and it has developed models to ensure that the archive can provide access to interested communities while also conforming with emerging international standards for digital archiving. Australian researchers have been making unique and irreplaceable audiovisual recordings in the region since portable field recorders became available in the mid-twentieth century, yet until the establishment of <GlossaryLink display="PARADISEC" id="paradisec" /> there was no Australian repository for these invaluable research recordings.
 
 </section>
 
-<br>
+<br />
+
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='Slide04.png' alt='  ' title='Slide: 4' border='1'  width='85%%'/>
+<img src='./Slide04.png' alt='  ' title='Slide: 4' border='1'  width='85%' />
 
 Goal: Be able to store data with an eye on preservation
 
-In an archive like {{< glossary_link display="PARADISEC" id="paradisec" >}} - it is important to be able to maintain resources over the long term. For example, much material which falls within the scope of {{< glossary_link display="PARADISEC" id="paradisec" >}} is stored on legacy media. {{< glossary_link display="PARADISEC" id="paradisec" >}} archives tapes from a range of sources, such as the agencies in the Pacific shown in the images above. Such material needs to be digitised and returned to the source with meaningful metadata.
+In an archive like <GlossaryLink display="PARADISEC" id="paradisec"/> - it is important to be able to maintain resources over the long term. For example, much material which falls within the scope of <GlossaryLink display="PARADISEC" id="paradisec"/> is stored on legacy media. <GlossaryLink display="PARADISEC" id="paradisec"/> archives tapes from a range of sources, such as the agencies in the Pacific shown in the images above. Such material needs to be digitised and returned to the source with meaningful metadata.
 
 </section>
 
-<br>
+<br />
+
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='Slide05.png' alt='PARADISEC ACCESS  https://language-archives.services/about/data-loader ' title='Slide: 5' border='1'  width='85%%'/>
+<img src='./Slide05.png' alt='PARADISEC ACCESS  https://language-archives.services/about/data-loader ' title='Slide: 5' border='1'  width='85%' />
 
-{{< glossary_link display="PARADISEC" id="paradisec" >}} has learned the importance of making the collection self-describing so it is not dependent on a database as the sole metadata source. It does use a database for administrative services, from which a text file with metadata for any item can be exported. This allows us to select an arbitrary set of items, put them on a hard disk, and use the dataloader application to generate an HTML catalogue of just those items, drawing on the internal metadata file describing each item. This can be delivered on a hard disk to a local community or cultural organisation, or on a Raspberry Pi wifi local network to allow access on phones, as seen here in Erakor village in central Vanuatu.
+<GlossaryLink display="PARADISEC" id="paradisec"/> has learned the importance of making the collection self-describing so it is not dependent on a database as the sole metadata source. It does use a database for administrative services, from which a text file with metadata for any item can be exported. This allows us to select an arbitrary set of items, put them on a hard disk, and use the dataloader application to generate an HTML catalogue of just those items, drawing on the internal metadata file describing each item. This can be delivered on a hard disk to a local community or cultural organisation, or on a Raspberry Pi wifi local network to allow access on phones, as seen here in Erakor village in central Vanuatu.
 
 </section>
 
-<br>
+<br />
+
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='Slide06.png' alt='ELAR: limited search capability, non-standard metadata schema, no ability to index annotation files, no bulk download LDaCA: rich metadata-first search, portable RO-Crate metadata, indexed annotations, bulk downloading of search results AUSLAN CORPUS ACCESS  ' title='Slide: 6' border='1'  width='85%%'/>
+<img src='./Slide06.png' alt='ELAR: limited search capability, non-standard metadata schema, no ability to index annotation files, no bulk download LDaCA: rich metadata-first search, portable RO-Crate metadata, indexed annotations, bulk downloading of search results AUSLAN CORPUS ACCESS  ' title='Slide: 6' border='1'  width='85%' />
 
 Another example of how good metadata practice can improve community access is the Auslan (Australian Sign Language) corpus, for which community access is very important.
 
@@ -99,208 +109,214 @@ The Auslan Corpus holds great value as an educational tool for Auslan users and 
 
 </section>
 
-<br>
+<br />
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='Slide07.png' alt='' title='Slide: 7' border='1'  width='85%%'/>
+<img src='./Slide07.png' alt='' title='Slide: 7' border='1'  width='85%' />
 
 For all of the collections we are working with data is discoverable via some kind of web portal which indexes and displays the archive (repository) of data. These screenshots are of work in progress at LDaCA.
 
 </section>
 
-<br>
+<br />
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='Slide08.png' alt='' title='Slide: 8' border='1'  width='85%%'/>
+<img src='./Slide08.png' alt='' title='Slide: 8' border='1'  width='85%' />
 
-The LDaCA services we are building use an {{< glossary_link display="API" id="api" >}} to drive the data portals. The {{< glossary_link display="API" id="api" >}} can be used for direct access with appropriate access control – see [another eResearch presentation](../fair-care-eresearch-2022) which explains this in detail. These screenshots show code notebooks (running in {{< glossary_link display="BinderHub" id="binderhub" >}} on the Nectar cloud) accessing language resources.
+The LDaCA services we are building use an <GlossaryLink display="API" id="api" /> to drive the data portals. The <GlossaryLink display="API" id="api" /> can be used for direct access with appropriate access control – see [another eResearch presentation](/news/posts/fair-care-eresearch-2022/index.md) which explains this in detail. These screenshots show code notebooks (running in <GlossaryLink display="BinderHub" id="binderhub" /> on the Nectar cloud) accessing language resources.
 
 </section>
 
-<br>
+</br>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='Slide09.png' alt='' title='Slide: 9' border='1'  width='85%%'/>
+<img src='./Slide09.png' alt='' title='Slide: 9' border='1'  width='85%' />
 
-Having looked at the user-facing products, websites and {{< glossary_link display="APIs" id="api" >}}, we turn our attention to how data is managed on disk.
+Having looked at the user-facing products, websites and <GlossaryLink display="APIs" id="api" />, we turn our attention to how data is managed on disk.
 
-In the {{< glossary_link display="PARADISEC" id="paradisec" >}} system, this is achieved by storing files on disk in a simple hierarchy - with metadata and other resources stored together in a directory - this scheme allows for hands-on management of data resources, independently of the software used to serve them.
+In the <GlossaryLink display="PARADISEC" id="paradisec" /> system, this is achieved by storing files on disk in a simple hierarchy - with metadata and other resources stored together in a directory - this scheme allows for hands-on management of data resources, independently of the software used to serve them.
 
-This approach means that if the {{< glossary_link display="PARADISEC" id="paradisec" >}} software-stack becomes un-maintainable for financial or technical reasons the important resources, the data, are stored safely on disk with their metadata and a new access portal could be constructed relatively easily.
+This approach means that if the <GlossaryLink display="PARADISEC" id="paradisec" /> software-stack becomes un-maintainable for financial or technical reasons the important resources, the data, are stored safely on disk with their metadata and a new access portal could be constructed relatively easily.
 
-Despite the valuable features of this solution, it is not generalisable. The metadata.xml is custom to {{< glossary_link display="PARADISEC" id="paradisec" >}}, as is the software stack.
+Despite the valuable features of this solution, it is not generalisable. The metadata.xml is custom to <GlossaryLink display="PARADISEC" id="paradisec" />, as is the software stack.
 
-In 2019 {{< glossary_link display="PARADISEC" id="paradisec" >}} and the eResearch team at UTS received small grants from the Australian National Data Service and began collaborating on an approach to managing archival repositories which built on this {{< glossary_link display="PARADISEC" id="paradisec" >}} approach of storing metadata with data.
+In 2019 <GlossaryLink display="PARADISEC" id="paradisec" /> and the eResearch team at UTS received small grants from the Australian National Data Service and began collaborating on an approach to managing archival repositories which built on this <GlossaryLink display="PARADISEC" id="paradisec" /> approach of storing metadata with data.
 
 The UTS team presented on this at [eResearch Australasia 2019](https://ptsefton.com/2019/11/05/FAIR%20Repo%20-%20eResearch%20Presentation/index.html)
 
 </section>
 
-<br>
+<br />
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='Slide10.png' alt='  ' title='Slide: 10' border='1'  width='85%%'/>
+<img src='./Slide10.png' alt=' ' title='Slide: 10' border='1'  width='85%' />
 
-For this Research Data Commons work, we are using the {{< glossary_link display="Arkisto" id="arkisto" >}} Platform (introduced [at eResearch 2020](http://ptsefton.com/2020/11/23/Arkisto/index.html)).
+For this Research Data Commons work, we are using the <GlossaryLink display="Arkisto" id="arkisto" /> Platform (introduced [at eResearch 2020](http://ptsefton.com/2020/11/23/Arkisto/index.html)).
 
-{{< glossary_link display="Arkisto" id="arkisto" >}} aims to ensure the long-term preservation of data independently of code and services, recognizing the ephemeral nature of software and platforms. We know that sustaining software platforms can be hard and aim to make sure that important data assets are not locked up in databases or hard-coded logic of some hard-to-maintain application.
+<GlossaryLink display="Arkisto" id="arkisto" /> aims to ensure the long-term preservation of data independently of code and services, recognizing the ephemeral nature of software and platforms. We know that sustaining software platforms can be hard and aim to make sure that important data assets are not locked up in databases or hard-coded logic of some hard-to-maintain application.
 
-Inspired by {{< glossary_link display="PARADISEC" id="paradisec" >}}’s approach the {{< glossary_link display="Arkisto" id="arkisto" >}} platform is based on the idea of storing data in simple easy-to-manage file or object storage systems with metadata in an easily readable standard format.
+Inspired by <GlossaryLink display="PARADISEC" id="paradisec" />'s approach the <GlossaryLink display="Arkisto" id="arkisto" /> platform is based on the idea of storing data in simple easy-to-manage file or object storage systems with metadata in an easily readable standard format.
 
-The LDaCA repositories use the Oxford Common File Layout ([OCFL](https://ocfl.io/)) standard which is backed and used by a number of universities and has multiple implementations while {{< glossary_link display="PARADISEC" id="paradisec" >}} data will be migrated to a simpler data storage approach [NOCFL](https://github.com/CoEDL/nocfl-js), which is a single-library implementation, inspired by some of the same aims, but with different implementation choices to avoid data being obfuscated by {{< glossary_link display="OCFL" id="ocfl" >}}’s layout, which is a product of its commitment to immutable, write-once file management.
+The LDaCA repositories use the Oxford Common File Layout ([OCFL](https://ocfl.io/)) standard which is backed and used by a number of universities and has multiple implementations while <GlossaryLink display="PARADISEC" id="paradisec" /> data will be migrated to a simpler data storage approach [NOCFL](https://github.com/CoEDL/nocfl-js), which is a single-library implementation, inspired by some of the same aims, but with different implementation choices to avoid data being obfuscated by <GlossaryLink display="OCFL" id="ocfl" />'s layout, which is a product of its commitment to immutable, write-once file management.
 
 </section>
 
-<br>
+<br />
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='Slide11.png' alt='{    &quot;conformsTo&quot;: &quot;http://purl.archive.org/language-data-commons/profile&quot; }  ' title='Slide: 11' border='1'  width='85%%'/>
+<img src='./Slide11.png' alt='{    &quot;conformsTo&quot;: &quot;http://purl.archive.org/language-data-commons/profile&quot; }  ' title='Slide: 11' border='1'  width='85%' />
 
 Now to the main focus of this presentation - the metadata “Profile” we are jointly developing to ensure that language resources can be described in a way that is interoperable between software, and re-usable over time.
 
-The Profile is an “{{< glossary_link display="RO-Crate" id="ro-crate" >}} Profile”, a kind of Cook Book for how to describe and package language data.
+The Profile is an "<GlossaryLink display="RO-Crate" id="ro-crate"/> Profile", a kind of Cook Book for how to describe and package language data.
 
 </section>
 
-<br>
+<br />
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='Slide12.png' alt='☁️ 📂  📄 ID? Title? Description?  👩‍🔬👨🏿‍🔬Who created this data? 📄What parts does it have?  📅 When?  🗒️ What is it about?  ♻️ How can it be reused? 🏗️ As part of which project?  💰 Who funded it? ⚒️ How was it made?  Addressable resources Local Data  👩🏿‍🔬 https://orcid.org/0000-0001-2345-6789 🔬 https://en.wikipedia.org/wiki/Scanning_electron_microscope ' title='Slide: 12' border='1'  width='85%%'/>
+<img src='./Slide12.png' alt='☁️ 📂  📄 ID? Title? Description?  👩‍🔬👨🏿‍🔬Who created this data? 📄What parts does it have?  📅 When?  🗒️ What is it about?  ♻️ How can it be reused? 🏗️ As part of which project?  💰 Who funded it? ⚒️ How was it made?  Addressable resources Local Data  👩🏿‍🔬 https://orcid.org/0000-0001-2345-6789 🔬 https://en.wikipedia.org/wiki/Scanning_electron_microscope ' title='Slide: 12' border='1'  width='85%' />
 
-{{< glossary_link display="RO-Crate" id="ro-crate" >}} is a method for describing a dataset as a digital object using a **single linked-data metadata document**
+<GlossaryLink display="RO-Crate" id="ro-crate"/> is a method for describing a dataset as a digital object using a **single linked-data metadata document**
 
 </section>
 
-<br>
+<br />
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='Slide13.png' alt='📂  🔬 🔭 📹 💽 🖥️ ⚙️🎼🌡️🔮🎙️🔍🌏📡💉🏥💊🌪️ ' title='Slide: 13' border='1'  width='85%%'/>
+<img src='./Slide13.png' alt='📂  🔬 🔭 📹 💽 🖥️ ⚙️🎼🌡️🔮🎙️🔍🌏📡💉🏥💊🌪️ ' title='Slide: 13' border='1'  width='85%' />
 
 The dataset may contain any kind of data resource about anything, in any format as a file or URL
 
 </section>
 
-<br>
+<br />
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='Slide14.png' alt=' ' title='Slide: 14' border='1'  width='85%%'/>
+<img src='./Slide14.png' alt=' ' title='Slide: 14' border='1'  width='85%' />
 
-The {{< glossary_link display="RO-Crate" id="ro-crate" >}} standard also strongly recommends that {{< glossary_link display="JSON" id="json" >}} metadata is supplemented with an HTML preview - above we show what that looks like for a {{< glossary_link display="PARADISEC" id="paradisec" >}} item. This is a screenshot of an HTML view of a {{< glossary_link display="PARADISEC" id="paradisec" >}} Item generated using [an HTML rendering tool for RO-Crate](https://github.com/UTS-eResearch/ro-crate-html-js). The important point here is that this is a _generic_ viewer that can understand any {{< glossary_link display="RO-Crate" id="ro-crate" >}}. It may not be glamorous but it could be included in an archive as a way to provide human-readable access in the absence of portals that are data-specific (but cost money to build and maintain).
+The <GlossaryLink display="RO-Crate" id="ro-crate" /> standard also strongly recommends that <GlossaryLink display="JSON" id="json" /> metadata is supplemented with an HTML preview - above we show what that looks like for a <GlossaryLink display="PARADISEC" id="paradisec" /> item. This is a screenshot of an HTML view of a <GlossaryLink display="PARADISEC" id="paradisec" /> Item generated using [an HTML rendering tool for RO-Crate](https://github.com/UTS-eResearch/ro-crate-html-js). The important point here is that this is a _generic_ viewer that can understand any <GlossaryLink display="RO-Crate" id="ro-crate" />. It may not be glamorous but it could be included in an archive as a way to provide human-readable access in the absence of portals that are data-specific (but cost money to build and maintain).
 
 </section>
 
-<br>
+<br />
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='Slide15.png' alt=' https://mod.paradisec.org.au ' title='Slide: 15' border='1'  width='85%%'/>
+<img src='./Slide15.png' alt=' https://mod.paradisec.org.au ' title='Slide: 15' border='1'  width='85%' />
 
-Here is the same page from the previous slide seen in a working model of an {{< glossary_link display="RO-Crate" id="ro-crate" >}} set exported from the current {{< glossary_link display="PARADISEC" id="paradisec" >}} catalogue, with a single-page viewer using an elastic search. The two pages shown here are generated directly from metadata that was stored in an {{< glossary_link display="RO-Crate" id="ro-crate" >}} in a storage system using {{< glossary_link display="PARADISEC" id="paradisec" >}}-specific, rather than generic code.
+Here is the same page from the previous slide seen in a working model of an <GlossaryLink display="RO-Crate" id="ro-crate" /> set exported from the current <GlossaryLink display="PARADISEC" id="paradisec" /> catalogue, with a single-page viewer using an elastic search. The two pages shown here are generated directly from metadata that was stored in an <GlossaryLink display="RO-Crate" id="ro-crate" /> in a storage system using <GlossaryLink display="PARADISEC" id="paradisec" />-specific, rather than generic code.
 
 </section>
 
-<br>
+<br />
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='Slide16.png' alt='  ' title='Slide: 16' border='1'  width='85%%'/>
+<img src='./Slide16.png' alt='  ' title='Slide: 16' border='1'  width='85%' />
 
-The [structure of an RO-Crate](https://www.researchobject.org/ro-crate/1.1/structure.html) is very similar to the {{< glossary_link display="PARADISEC" id="paradisec" >}} example above, but with a {{< glossary_link display="JSON" id="json" >}} file instead of {{< glossary_link display="XML" id="xml" >}}, and an optional preview in HTML.
+The [structure of an RO-Crate](https://www.researchobject.org/ro-crate/1.1/structure.html) is very similar to the <GlossaryLink display="PARADISEC" id="paradisec" /> example above, but with a <GlossaryLink display="JSON" id="json" /> file instead of <GlossaryLink display="XML" id="xml" />, and an optional preview in HTML.
 
-{{< glossary_link display="RO-Crate" id="ro-crate" >}} has a growing number of [tools and software libraries](https://www.researchobject.org/ro-crate/tools/) which means that a team such as {{< glossary_link display="PARADISEC" id="paradisec" >}} do not have to maintain their own bespoke software.
+<GlossaryLink display="RO-Crate" id="ro-crate"/> has a growing number of [tools and software libraries](https://www.researchobject.org/ro-crate/tools/) which means that a team such as <GlossaryLink display="PARADISEC" id="paradisec"/> do not have to maintain their own bespoke software.
 
 </section>
 
-<br>
+<br />
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='Slide17.png' alt=' ' title='Slide: 17' border='1'  width='85%%'/>
+<img src='./Slide17.png' alt=' ' title='Slide: 17' border='1'  width='85%' />
 
-The base vocabulary for the JSON-LD used in {{< glossary_link display="RO-Crate" id="ro-crate" >}} is schema.org - a widely used linked data standard. {{< glossary_link display="RO-Crate" id="ro-crate" >}} uses a handful of terms from other ontologies but importantly it allows for seamless extensibility with domain-specific vocabularies, which is what we will talk about next.
+The base vocabulary for the JSON-LD used in <GlossaryLink display="RO-Crate" id="ro-crate"/> is schema.org - a widely used linked data standard. <GlossaryLink display="RO-Crate" id="ro-crate"/> uses a handful of terms from other ontologies but importantly it allows for seamless extensibility with domain-specific vocabularies, which is what we will talk about next.
 
 </section>
 
-<br>
+<br />
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='Slide18.png' alt='  ' title='Slide: 18' border='1'  width='85%%'/>
+<img src='./Slide18.png' alt='  ' title='Slide: 18' border='1'  width='85%' />
 
-The {{< glossary_link display="PARADISEC" id="paradisec" >}} metadata model is based on the Open Language Archives ({{< glossary_link display="OLAC" id="olac" >}}) metadata standard. This is an {{< glossary_link display="XML" id="xml" >}}-based standard, but has good online documentation, which is perfect for migrating to a Linked Data approach.
+The <GlossaryLink display="PARADISEC" id="paradisec" /> metadata model is based on the Open Language Archives (<GlossaryLink display="OLAC" id="olac" />) metadata standard. This is an <GlossaryLink display="XML" id="xml" />-based standard, but has good online documentation, which is perfect for migrating to a Linked Data approach.
 
-We used the {{< glossary_link display="OLAC" id="olac" >}} terms, including [some that were proposed but withdrawn](http://www.language-archives.org/REC/type-20020628.html) as the basis for a new vocabulary.
+We used the <GlossaryLink display="OLAC" id="olac"/> terms, including [some that were proposed but withdrawn](http://www.language-archives.org/REC/type-20020628.html) as the basis for a new vocabulary.
 
-As part of a LIEF project (2022-23, led by author Thieberger), revisions to the {{< glossary_link display="OLAC" id="olac" >}} scheme are planned, together with rebuilding the {{< glossary_link display="OLAC" id="olac" >}} metadata harvester and aggregator.
+As part of a LIEF project (2022-23, led by author Thieberger), revisions to the <GlossaryLink display="OLAC" id="olac"/> scheme are planned, together with rebuilding the <GlossaryLink display="OLAC" id="olac"/> metadata harvester and aggregator.
 
 </section>
 
-<br>
+<br />
+
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='Slide19.png' alt='  ' title='Slide: 19' border='1'  width='85%%'/>
+<img src='./Slide19.png' alt='  ' title='Slide: 19' border='1'  width='85%' />
 
 The new Langauge Data Terms have been published at <https://purl.archive.org/language-data-commons/terms>
 
-These terms have been modernised and mainstreamed from previous ways of describing resources, for example, instead of describing the main item of interest as a PrimaryText (where text is any kind of communicative resource – not a bitstream of characters) we use the term PrimaryResource. And in the example in the image, the type of genre _Informational_ has been added to the set proposed in the {{< glossary_link display="OLAC" id="olac" >}} vocabulary.
+These terms have been modernised and mainstreamed from previous ways of describing resources, for example, instead of describing the main item of interest as a PrimaryText (where text is any kind of communicative resource – not a bitstream of characters) we use the term PrimaryResource. And in the example in the image, the type of genre _Informational_ has been added to the set proposed in the <GlossaryLink display="OLAC" id="olac"/> vocabulary.
 
 </section>
 
-<br>
+<br />
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='Slide20.png' alt='  ' title='Slide: 20' border='1'  width='85%%'/>
+<img src='./Slide20.png' alt='  ' title='Slide: 20' border='1'  width='85%' />
 
 (Image prompt DALL-E a hierarchical whale skeleton digital art)
 
-Before we come back in detail to how {{< glossary_link display="RO-Crate" id="ro-crate" >}} works we will discuss the structure or skeleton of our language collections stored in a repository
+Before we come back in detail to how <GlossaryLink display="RO-Crate" id="ro-crate"/> works we will discuss the structure or skeleton of our language collections stored in a repository
 
 </section>
 
-<br>
+<br />
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='Slide21.png' alt=' ' title='Slide: 21' border='1'  width='85%%'/>
+<img src='./Slide21.png' alt=' ' title='Slide: 21' border='1'  width='85%' />
 
-Broadly speaking there are two ways that an {{< glossary_link display="Arkisto" id="arkisto" >}}-style repository can be structured and the profile sets out criteria for choosing one of the options.
+Broadly speaking there are two ways that an <GlossaryLink display="Arkisto" id="arkisto" />-style repository can be structured and the profile sets out criteria for choosing one of the options.
 
 For small, stable collections of data, an entire collection (often referred to as a ‘corpus’ by linguists) can be stored in a single directory or directory-like structure in an object store.
 
 </section>
 
-<br>
+<br />
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='Slide22.png' alt='  ' title='Slide: 22' border='1'  width='85%%'/>
+<img src='./Slide22.png' alt='  ' title='Slide: 22' border='1'  width='85%' />
 
-For larger collections, the approach used by {{< glossary_link display="PARADISEC" id="paradisec" >}} and most LDaCA collections is to store each Object or Item (typically a related set of recordings, or a single document) in a directory (or directory-like thing).
+For larger collections, the approach used by <GlossaryLink display="PARADISEC" id="paradisec"/> and most LDaCA collections is to store each Object or Item (typically a related set of recordings, or a single document) in a directory (or directory-like thing).
 
 In this mode, each Object MUST link back to the Collection Object.
 
-A Collection Object MAY have explicit listing of hasMember properties - which makes it possible to construct repository navigation (such as websites) more cheaply. This is the approach used in {{< glossary_link display="PARADISEC" id="paradisec" >}}, while in LDaCA these links are constructed by an indexer servicer or summariser application.
+A Collection Object MAY have explicit listing of hasMember properties - which makes it possible to construct repository navigation (such as websites) more cheaply. This is the approach used in <GlossaryLink display="PARADISEC" id="paradisec" />, while in LDaCA these links are constructed by an indexer servicer or summariser application.
 
 </section>
 
-<br>
+<br />
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='Slide23.png' alt='Describo Screenshot editing a collection record (PT)  ' title='Slide: 23' border='1'  width='85%%'/>
+<img src='./Slide23.png' alt='Describo Screenshot editing a collection record (PT)  ' title='Slide: 23' border='1'  width='85%' />
 
-This screenshot shows the Language Data Commons {{< glossary_link display="RO-Crate" id="ro-crate" >}} Profile in action. This is the [Describo Online] metadata editor, with configuration that reflects the profile being used to describe a language {{< glossary_link display="data collection" id="data-collection" >}} using linked-data metadata.
+This screenshot shows the Language Data Commons <GlossaryLink display="RO-Crate" id="ro-crate"/> Profile in action. This is the [Describo Online] metadata editor, with configuration that reflects the profile being used to describe a language <GlossaryLink display="data collection" id="data-collection"/> using linked-data metadata.
 
 In this case, the description is of the collection object.
 
 [describo online]: https://github.com/Arkisto-Platform/describo-online
 
-<br>
+<br />
+
+</section>
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='Slide24.png' alt='LDaCA ' title='Slide: 24' border='1'  width='85%%'/>
+<img src='./Slide24.png' alt='LDaCA ' title='Slide: 24' border='1'  width='85%' />
 
 Once the data is described, we ingest it into a repository, as a set of files on disk or object storage and index it in a portal, as you can see in these screenshots.
 
 </section>
 
-<br>
+<br />
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='Slide25.png' alt='Demo ' title='Slide: 25' border='1'  width='85%%'/>
+<img src='./Slide25.png' alt='Demo ' title='Slide: 25' border='1'  width='85%' />
 
 [Video of browsing a collection in an LDaCA repo](https://www.youtube.com/watch?v=p-GZbe-Kzww&t=5s) showing:
 
@@ -310,9 +326,9 @@ Once the data is described, we ingest it into a repository, as a set of files on
 - Selecting a notebook
 - Launching Binder
 
-This example notebook explores the collection via the rest {{< glossary_link display="API" id="api" >}}.
+This example notebook explores the collection via the rest <GlossaryLink display="API" id="api" />.
 
-<br>
+<br/>
 
 ## Conclusion
 
@@ -320,4 +336,4 @@ In this presentation, we have shown the major components of an ecosystem for sto
 
 </section>
 
-<br>
+<br />

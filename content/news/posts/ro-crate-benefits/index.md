@@ -3,9 +3,10 @@ title: "Five benefits of RO-Crate data packaging for language collections"
 date: 2025-06-03
 draft: false
 description: "Five benefits of RO-Crate data packaging for language collections"
+layout: post
 ---
 
-by {{< profile id="lea" >}}
+by <Profile id="lea" />
 
 <br>
 
@@ -52,7 +53,10 @@ An RO-Crate folder can also contain an HTML preview file. This file allows you t
 
 <br>
 
-{{< image Src="/ro-crate-benefits/html-preview.png" Alt="An RO-Crate HTML preview file created with browser-based editor Crate-O." Desc="An RO-Crate HTML preview file created with browser-based editor Crate-O." Title="An RO-Crate HTML preview file created with browser-based editor Crate-O." Ref="Bridey Lea" Height="600" >}}
+<figure style="text-align: center;">
+  <img src="./html-preview.png" alt="An RO-Crate HTML preview file created with browser-based editor Crate-O." title="An RO-Crate HTML preview file created with browser-based editor Crate-O." style="max-height: 600px; margin-left: auto; margin-right: auto; display: block;" />
+  <figcaption style="font-style: italic; margin-top: 0.5rem;">An RO-Crate HTML preview file created with browser-based editor Crate-O. (Image: Bridey Lea)</figcaption>
+</figure>
 
 <br>
 
@@ -101,7 +105,10 @@ When data and its metadata and licensing aren't stored together, they can get se
 
 <br>
 
-{{< image Src="/ro-crate-benefits/json-file.png" Alt="Inside an RO-Crate metadata file, in JSON-LD format." Desc="Inside an RO-Crate metadata file, in JSON-LD format. The file also includes a link to a license." Title="Inside an RO-Crate metadata file, in JSON-LD format. The file also includes a link to a license." Height="600" Ref="Bridey Lea">}}
+<figure style="text-align: center;">
+  <img src="./json-file.png" alt="Inside an RO-Crate metadata file, in JSON-LD format." title="Inside an RO-Crate metadata file, in JSON-LD format. The file also includes a link to a license." style="max-height: 600px; margin-left: auto; margin-right: auto; display: block;" />
+  <figcaption style="font-style: italic; margin-top: 0.5rem;">Inside an RO-Crate metadata file, in JSON-LD format. The file also includes a link to a license. (Image: Bridey Lea)</figcaption>
+</figure>
 
 <br>
 
@@ -117,7 +124,10 @@ RO-Crate uses [Schema.org](http://schema.org) as its foundation for metadata des
 
 <br>
 
-{{< image Src="/ro-crate-benefits/schema.org-terms.png" Alt="Schema.org metadata terms, including Conditions of Access and Copyright Holder." Desc="Schema.org metadata terms." Title="Schema.org metadata terms." Ref="Bridey Lea">}}
+<figure style="text-align: center;">
+  <img src="./schema.org-terms.png" alt="Schema.org metadata terms, including Conditions of Access and Copyright Holder." title="Schema.org metadata terms." style="margin-left: auto; margin-right: auto; display: block;" />
+  <figcaption style="font-style: italic; margin-top: 0.5rem;">Schema.org metadata terms. (Image: Bridey Lea)</figcaption>
+</figure>
 
 <br>
 
@@ -129,7 +139,10 @@ RO-Crate uses {{< glossary_link display="standards" id="standard" >}} that are s
 
 <br>
 
-{{< image Src="/ro-crate-benefits/crate-o.png" Alt="Browser-based editor Crate-O with the Kaytetyemoji crate loaded." Desc="Crate-O is an online editor that allows you to build and edit RO-Crates." Title="Crate-O is an online editor that allows you to build and edit RO-Crates." Height="600" Ref="Bridey Lea">}}
+<figure style="text-align: center;">
+  <img src="./crate-o.png" alt="Browser-based editor Crate-O with the Kaytetyemoji crate loaded." title="Crate-O is an online editor that allows you to build and edit RO-Crates." style="max-height: 600px; margin-left: auto; margin-right: auto; display: block;" />
+  <figcaption style="font-style: italic; margin-top: 0.5rem;">Crate-O is an online editor that allows you to build and edit RO-Crates. (Image: Bridey Lea)</figcaption>
+</figure>
 
 <br>
 

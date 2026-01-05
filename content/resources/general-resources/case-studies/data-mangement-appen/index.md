@@ -5,7 +5,7 @@ draft: false
 description: "LDaCA team member Rosanna Smith discusses data management in language technology, focusing on projects at tech company Appen."
 ---
 
-by {{< profile id="smith" >}}
+by <Profile id="smith" />
 
 <br>
 

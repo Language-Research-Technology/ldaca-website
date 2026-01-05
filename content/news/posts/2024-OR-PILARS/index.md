@@ -1,11 +1,12 @@
 ---
-    title:  >
-      A comprehensive, open and sustainable set of principles and tools for low (and high) resource Archival Repositories
-    date: "2024-06-04"
-    slug: open-repositories-2024-pilars
-    categories: ["LDaCA"]
-    tags: ["PILARS"]
-    author: Peter Sefton
+  title:  >
+    A comprehensive, open and sustainable set of principles and tools for low (and high) resource Archival Repositories
+  date: "2024-06-04"
+  slug: open-repositories-2024-pilars
+  categories: ["LDaCA"]
+  tags: ["PILARS"]
+  author: Peter Sefton
+  layout: post
 ---
 
 <a href="2024-OR-PILARS.pdf">PDF version</a> | <a href="2024-OR-PILARS.pptx">Powerpoint Version</a>

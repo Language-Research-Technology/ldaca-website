@@ -3,9 +3,10 @@ title: "Corpus spotlight: Mitchell and Delbridge"
 date: 2025-10-01
 draft: false
 description: "Corpus Spotlight: Mitchell and Delbridge"
+layout: post
 ---
 
-by {{< profile id="lea" >}}
+by <Profile id="lea" />
 
 <br>
 
@@ -31,28 +32,28 @@ They used this large collection of adolescent speech to support their claim that
 
 <figure>
   <figcaption> <b>A recording of 'broad' speech from the Mitchell and Delbridge collection.</b> </figcaption>
-  <audio controls src="/mitchell-delbridge/Broad.mp3"></audio>
+  <audio controls src="./Broad.mp3"></audio>
 </figure>
 
 <br>
 
 <figure>
   <figcaption> <b>A recording of 'general' speech from the Mitchell and Delbridge collection.</b> </figcaption>
-  <audio controls src="/mitchell-delbridge/General.mp3"></audio>
+  <audio controls src="./General.mp3"></audio>
 </figure>
 
 <br>
 
 <figure>
   <figcaption> <b>A recording of 'cultivated' speech from the Mitchell and Delbridge collection.</b> </figcaption>
-  <audio controls src="/mitchell-delbridge/Cultivated.mp3"></audio>
+  <audio controls src="./Cultivated.mp3"></audio>
 </figure>
 
 <br>
 
 <figure>
   <figcaption> <b>The speech of Australian Prime Ministers Robert Menzies, Gough Whitlam, Bob Hawke and Julia Gillard.</b> </figcaption>
-  <audio controls src="/mitchell-delbridge/Slide5_PMs.wav"></audio>
+  <audio controls src="./Slide5_PMs.wav"></audio>
 </figure>
 
 <br>
@@ -61,7 +62,10 @@ The data collected helped Mitchell and Delbridge demonstrate that Australian Eng
 
 <br>
 
-{{< image Src="/mitchell-delbridge/mitchell-delbridge1965.jpg" Alt="The Speech of Australian Adolescents: A Survey." Desc="Figure 1: Front cover of Mitchell and Delbridge's 1965 publication, The Speech of Australian Adolescents: A Survey." Title="The Speech of Australian Adolescents: A Survey." Ref="Louella Kerr Books">}}
+<figure style="text-align: center;">
+  <img src="./mitchell-delbridge1965.jpg" alt="The Speech of Australian Adolescents: A Survey." title="The Speech of Australian Adolescents: A Survey." style="margin-left: auto; margin-right: auto; display: block;" />
+  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 1: Front cover of Mitchell and Delbridge's 1965 publication, The Speech of Australian Adolescents: A Survey. (Image: Louella Kerr Books)</figcaption>
+</figure>
 
 <br>
 
@@ -71,7 +75,10 @@ The reel-to-reel tapes from the study, as well as accompanying paper documents, 
 
 <br>
 
-{{< image Src="/mitchell-delbridge/reel-to-reel.png" Alt="A Studer reel-to-reel tape player." Desc="Figure 2: A Studer reel-to-reel tape player." Title="A Studer reel-to-reel tape player." Ref="Bridey Lea" Height="650">}}
+<figure style="text-align: center;">
+  <img src="./reel-to-reel.png" alt="A Studer reel-to-reel tape player." title="A Studer reel-to-reel tape player." style="max-height: 650px; margin-left: auto; margin-right: auto; display: block;" />
+  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 2: A Studer reel-to-reel tape player. (Image: Bridey Lea)</figcaption>
+</figure>
 
 <br>
 

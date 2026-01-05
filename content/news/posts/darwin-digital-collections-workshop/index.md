@@ -3,9 +3,10 @@ title: "Reflecting on the Darwin digital languages collections workshop"
 date: 2025-04-22
 draft: false
 description: "Reflecting on the Darwin digital languages collections workshop"
+layout: post
 ---
 
-by {{< profile id="pettrup" >}}
+by <Profile id="pettrup" />
 
 <br>
 
@@ -21,7 +22,10 @@ Ben Foley kicked off with an introduction to language collections and {{< glossa
 
 <br>
 
-{{< image Src="/darwin-digital-collections-workshop/darwin_workshop_fig1.jpg" Alt="Photograph of Ben Foley (LDaCA) presenting at the Darwin digital languages collections workshop." Desc="Ben Foley (LDaCA) presenting at the Darwin digital languages collections workshop." Title="Ben Foley (LDaCA) presenting at the Darwin digital languages collections workshop." Height="500" Ref="LDaCA">}}
+<figure style="text-align: center;">
+  <img src="./darwin_workshop_fig1.jpg" alt="Photograph of Ben Foley (LDaCA) presenting at the Darwin digital languages collections workshop." title="Ben Foley (LDaCA) presenting at the Darwin digital languages collections workshop." style="max-height: 500px; margin-left: auto; margin-right: auto; display: block;" />
+  <figcaption style="font-style: italic; margin-top: 0.5rem;">Ben Foley (LDaCA) presenting at the Darwin digital languages collections workshop. (Image: LDaCA)</figcaption>
+</figure>
 
 <br>
 
@@ -33,7 +37,10 @@ Ben and Rosanna Smith then introduced [RO-Crate](https://www.researchobject.org/
 
 <br>
 
-{{< image Src="/darwin-digital-collections-workshop/darwin_workshop_fig2.jpg" Alt="Photograph of Rosanna Smith (LDaCA) presenting a demonstration of Crate-O during the Darwin digital languages collections workshop." Desc="Rosanna Smith (LDaCA) presenting a demonstration of Crate-O during the Darwin digital languages collections workshop." Title="Rosanna Smith (LDaCA) demonstrating Crate-O" Height="500" Ref="LDaCA">}}
+<figure style="text-align: center;">
+  <img src="./darwin_workshop_fig2.jpg" alt="Photograph of Rosanna Smith (LDaCA) presenting a demonstration of Crate-O during the Darwin digital languages collections workshop." title="Rosanna Smith (LDaCA) demonstrating Crate-O" style="max-height: 500px; margin-left: auto; margin-right: auto; display: block;" />
+  <figcaption style="font-style: italic; margin-top: 0.5rem;">Rosanna Smith (LDaCA) presenting a demonstration of Crate-O during the Darwin digital languages collections workshop. (Image: LDaCA)</figcaption>
+</figure>
 
 <br>
 
@@ -55,7 +62,10 @@ Participants tried their hand at applying the RO-Crate method and using the Crat
 
 <br>
 
-{{< image Src="/darwin-digital-collections-workshop/darwin_workshop_fig3.jpeg" Alt="Photograph of workshop participants sitting in a big group around a table, getting involved in hands-on activities for metadata organisation and description." Desc="Workshop participants getting involved in hands-on activities for metadata organisation and description." Title="Workshop participants getting involved" Height="500" Ref="LDaCA">}}
+<figure style="text-align: center;">
+  <img src="./darwin_workshop_fig3.jpeg" alt="Photograph of workshop participants sitting in a big group around a table, getting involved in hands-on activities for metadata organisation and description." title="Workshop participants getting involved" style="max-height: 500px; margin-left: auto; margin-right: auto; display: block;" />
+  <figcaption style="font-style: italic; margin-top: 0.5rem;">Workshop participants getting involved in hands-on activities for metadata organisation and description. (Image: LDaCA)</figcaption>
+</figure>
 
 <br>
 

@@ -5,6 +5,7 @@
     categories: ["LDaCA"]
     tags: ["RO-Crate", "Open Repositories", "Crate-O"]
     author: Peter Sefton
+    layout: post
 ---
 
 <a href="2024-OR-Crate-O.pdf">PDF version</a> | <a href="2024-OR-Crate-O.pptx">Powerpoint Version</a>

@@ -4,11 +4,12 @@ date: 2024-08-13
 draft: false
 aliases:
   - "/posts/gdrf-2024/"
+layout: post
 ---
 
-As detailed in an [earlier](../gdrf/) post, we ran a Graduate Digital Research Fellowship (GDRF) program in 2023 under the auspices of the Australian Text Analytics Program ([ATAP](https://www.atap.edu.au)). The program ran again in 2024, under the Language Data Commons of Australia banner with three students participating and with {{< profile id = "hames" >}} and {{< profile id = "musgrave" >}} co-ordinating the activity.
+As detailed in an [earlier](../gdrf/) post, we ran a Graduate Digital Research Fellowship (GDRF) program in 2023 under the auspices of the Australian Text Analytics Program ([ATAP](https://www.atap.edu.au)). The program ran again in 2024, under the Language Data Commons of Australia banner with three students participating and with <Profile id = "hames" /> and <Profile id = "musgrave" /> co-ordinating the activity.
 
-The program supports research students to explore the possibilities of digital scholarship, particularly in {{< glossary_link display="HASS" id="hass" >}}. Our Fellows are students undertaking extended research projects who spent 12–15 weeks learning about digital and computational skills in order to enhance their current research/thesis topic or to work on an independent digital project. They explored digital research methods in areas including:
+The program supports research students to explore the possibilities of digital scholarship, particularly in <GlossaryLink display="HASS" id="hass" />. Our Fellows are students undertaking extended research projects who spent 12–15 weeks learning about digital and computational skills in order to enhance their current research/thesis topic or to work on an independent digital project. They explored digital research methods in areas including:
 
 - computational analysis of text
 - analysis of digital images
@@ -40,12 +41,15 @@ Lu is researching productive urban food landscapes as a spatial design issue. A 
 
 ## Quy Pham (UQ, Applied Linguistics):
 
-Quy is studying errors in the spoken language produced by students learning English as a foreign language. He is using a large spoken {{< glossary_link display="corpus" id="corpus" >}} of material produced by learners of English in 10 countries and areas in Asia, [ICNALE: The International Corpus Network of Asian Learners of English](https://language.sakura.ne.jp/icnale/). One phenomenon which might relate to errors is pausing, and Quy was therefore interested to explore the possibilities of automatically identifying various characteristics of silent and filled pauses in recordings of speech, including their duration and placement within sentences. Building from this, he also looked at whether it was possible to automatically tag the start and end points of specific tasks within a controlled interaction (spoiler alert: not really).
+Quy is studying errors in the spoken language produced by students learning English as a foreign language. He is using a large spoken <GlossaryLink display="corpus" id="corpus" /> of material produced by learners of English in 10 countries and areas in Asia, [ICNALE: The International Corpus Network of Asian Learners of English](https://language.sakura.ne.jp/icnale/). One phenomenon which might relate to errors is pausing, and Quy was therefore interested to explore the possibilities of automatically identifying various characteristics of silent and filled pauses in recordings of speech, including their duration and placement within sentences. Building from this, he also looked at whether it was possible to automatically tag the start and end points of specific tasks within a controlled interaction (spoiler alert: not really).
 <br>
 
 > The GDRF program provided me with a unique opportunity to sharpen my coding and critical thinking skills. I gained valuable experience in applying a range of Python packages and large language models to analyse pausing behaviors in a large spoken learner corpus, while being aware of their critical limitations. On a personal level, I also had a chance to meet with an amazing group of bright and talented researchers from diverse fields. We engaged in insightful discussions on various topics such as citation practices, research ethics and project management. I highly recommend this program to anyone considering it.
 
-{{< image Src="/gdrf-2024/gdrf-2024.jpg" Alt="Participants in the 2024 Graduate Digital Research Fellowship program" Desc="From left: Quy, Sam, Lu, Simon and David" Title="From left: Quy, Sam, Lu, Simon and David" Ref="Simon Musgrave"  Height="600" >}}
+<figure style="text-align: center;">
+  <img src="./gdrf-2024.jpg" alt="Participants in the 2024 Graduate Digital Research Fellowship program" title="From left: Quy, Sam, Lu, Simon and David" style="max-height: 600px; margin-left: auto; margin-right: auto; display: block;" />
+  <figcaption style="font-style: italic; margin-top: 0.5rem;">From left: Quy, Sam, Lu, Simon and David. (Image: Simon Musgrave)</figcaption>
+</figure>
 <br>
 
 A GDRF program will be offered again in 2025 by the Language Data Commons of Australia. If you think the program could benefit you and would like further information, you can contact [Sam Hames](mailto:sam.hames@uq.edu.au) or [Simon Musgrave](mailto:s.musgrave@uq.edu.au).

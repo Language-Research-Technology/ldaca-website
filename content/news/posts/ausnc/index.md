@@ -3,9 +3,10 @@ title: "What happened to the Australian National Corpus (AusNC)?"
 date: 2024-03-22T15:12:12+11:00
 draft: false
 description: "LDaCA team members who also worked on the AusNC project explain the relationship between the two and why AusNC is not an entity in LDaCA."
+layout: post
 ---
 
-by {{< profile id="musgrave" >}} and {{< profile id="haugh" >}}
+by <Profile id="musgrave" /> and <Profile id="haugh" />
 
 <br>
 

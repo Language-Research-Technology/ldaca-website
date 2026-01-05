@@ -3,6 +3,7 @@ title: "Interview with Kalin Stefanov"
 date: 2024-04-11T14:29:40+10:00
 draft: false
 description: ""
+layout: post
 ---
 <br>
 

@@ -3,9 +3,10 @@ title: "IDIL 2022–2032: Voices of Country Action Plan — An LDaCA Discussion 
 date: 2024-05-23T09:45:50+10:00
 draft: false
 description: ""
+layout: post
 ---
 
-by {{< profile id="smith" >}}, {{< profile id="musgrave" >}}, {{< profile id="mclellan" >}} and {{< profile id="foley" >}}
+by <Profile id="smith" />, <Profile id="musgrave" />, <Profile id="mclellan" /> and <Profile id="foley" />
 
 <br>
 

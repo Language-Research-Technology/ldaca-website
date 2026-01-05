@@ -3,11 +3,15 @@ title: "Copyrighted data: Options and considerations for working with newspapers
 date: 2025-09-13T14:29:40+10:00
 draft: false
 description: "Blog post from Monika Bednarek on working with copyrighted materials"
+layout: post
 ---
 
-by {{< profile id="Bednarek" >}}
+by <Profile id="Bednarek" />
 
-{{< image Src="/Copyrighted-Data/Shewontberightmate.png" Alt="Composite image of a copyright symbol and article from The Advertiser newspaper" Desc="Composite image of a copyright symbol and article from The Advertiser newspaper" Title="Composite image of a copyright symbol and article from The Advertiser newspaper" Ref="Simon Musgrave" Height="300" >}}
+<figure style="text-align: center;">
+  <img src="./Shewontberightmate.png" alt="Composite image of a copyright symbol and article from The Advertiser newspaper" title="Composite image of a copyright symbol and article from The Advertiser newspaper" style="max-height: 300px; margin-left: auto; margin-right: auto; display: block;" />
+  <figcaption style="font-style: italic; margin-top: 0.5rem;">Composite image of a copyright symbol and article from The Advertiser newspaper. (Image: Simon Musgrave)</figcaption>
+</figure>
 
 <br>
 

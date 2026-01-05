@@ -1,12 +1,12 @@
-
 ---
 title: "LDaCA Technical Architecture update 2025"
 date: 2025-09-17T14:29:40+10:00
 draft: false
 description: "LDaCA Technical Architecture update 2025"
+layout: post
 ---
 
-by {{< profile id="sefton" >}}, {{< profile id="Bonequi" >}} and {{< profile id="foley" >}}
+by <Profile id="sefton" />, <Profile id="Bonequi" /> and <Profile id="foley" />
 
 <br>
 
@@ -32,7 +32,10 @@ In addition to AROCAPI,  promising discussions are taking place with one of our 
 
 <br>
 
-{{< image Src="/2025-architecture/pt-garage.png" Alt="Piles of boxes in a garage" Desc="Figure 1: An unstaged photo of PT Sefton’s garage, including a box labelled 'hard drives'." Title="Figure 1: An unstaged photo of PT Sefton’s garage, including a box labelled 'hard drives'." Ref="PT Sefton" Height="600" >}}
+<figure style="text-align: center;">
+  <img src="./pt-garage.png" alt="Piles of boxes in a garage" title="Figure 1: An unstaged photo of PT Sefton's garage, including a box labelled 'hard drives'." style="max-height: 600px; margin-left: auto; margin-right: auto; display: block;" />
+  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 1: An unstaged photo of PT Sefton's garage, including a box labelled 'hard drives'. (Image: PT Sefton)</figcaption>
+</figure>
 
 <br>
 
@@ -117,7 +120,12 @@ We have worked to define a metadata schema ([the Language Data Commons (LDAC) sc
 
 <br>
 
-{{< image Src="/2025-architecture/pilars-implementations-2024.png" Alt="A diagram." Desc="Figure 2: PILARS implementations – mid-2024." Title="Figure 2: PILARS implementations – mid-2024." Ref="PT Sefton">}}
+<figure style="text-align: center;">
+  <img src="./pilars-implementations-2024.png" alt="A diagram." title="Figure 2: PILARS implementations – mid-2024." style="max-height: 400px; margin-left: auto; margin-right: auto; display: block;" />
+  <figcaption style="font-style: italic; font-weight: bold; margin-top: 0.5rem;">
+    Figure 2: PILARS implementations – mid-2024.
+  </figcaption>
+</figure>
 
 <br>
 
@@ -128,7 +136,13 @@ The diagram above attempts to demonstrate how the PILARS principles have been im
 ## Future directions
 
 
-{{< image Src="/2025-architecture/pilars-implementations-2026-1.png" Alt="A diagram." Desc="Figure 3: PILARS implementations – mid-2026?" Title="Figure 3: PILARS implementations – mid-2026?" Ref="PT Sefton">}}
+<figure style="text-align: center;">
+  <img src="./pilars-implementations-2026.png" alt="A diagram." title="Figure 3: PILARS implementations – mid-2026?" style="max-height: 400px; margin-left: auto; margin-right: auto; display: block;" />
+  <figcaption style="font-style: italic; font-weight: bold; margin-top: 0.5rem;">
+    Figure 3: PILARS implementations – mid-2026?
+  </figcaption>
+</figure>
+
 
 <br>
 
@@ -148,11 +162,21 @@ We have an opportunity now to consider how the distributed LDaCA technical team 
 
 <br>
 
-<a name="fn-1">1</a> This material was edited by {{< profile id="lea" >}}. [↩](#back-1)
+<a name="fn-1">1</a> This material was edited by <Profile id="lea" />. [↩](#back-1)
 
 <br>
 
-<iframe src="LDaCA Technical Architecture update 2025.pdf"  width="1200px" height="600px" \ >
+<div class="flex justify-center">
+<iframe src="./LDaCA_Technical_Architecture_update_2025.pdf" 
+width="1200" 
+  height="600"
+  style="border: 1px solid #ccc;"
+>
+  <p>Your browser doesn't support PDF embedding. 
+     <a href="./LDaCA_Technical_Architecture_update_2025.pdf">Download the PDF instead</a>.
+  </p>
+</iframe>
+</div>
 
 <br>
 

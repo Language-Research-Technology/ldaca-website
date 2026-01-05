@@ -3,6 +3,7 @@ title: "Interview with Nick Thieberger"
 date: 2025-05-07
 draft: false
 description: "Interview with Nick Thieberger."
+layout: post
 ---
 
 <br>
@@ -11,7 +12,10 @@ Nick Thieberger (Figure 1) is an Associate Professor in the [School of Languages
 
 <br>
 
-{{< image Src="/nick-thieberger/nickT_figure1.jpg" Alt="Nick Thieberger" Desc="Figure 1: Nick Thieberger." Title="Nick Thieberger" Ref="Nick Thieberger" Height="400" >}}
+<figure style="text-align: center;">
+  <img src="./nickT_figure1.jpg" alt="Nick Thieberger" title="Nick Thieberger" style="max-height: 400px; margin-left: auto; margin-right: auto; display: block;" />
+  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 1: Nick Thieberger. (Image: Nick Thieberger)</figcaption>
+</figure>
 
 <br>
 
@@ -37,7 +41,10 @@ And then I went on to build the Aboriginal Studies Electronic Data Archive ([ASE
 
 <br>
 
-{{< image Src="/nick-thieberger/nickT_figure2.png" Alt="Title page of the Handbook of WA Languages" Desc="Figure 2: Title page of the Handbook of WA Languages." Title="Title page of the Handbook of WA Languages" Ref="Public Domain" Height="450">}}
+<figure style="text-align: center;">
+  <img src="./nickT_figure2.png" alt="Title page of the Handbook of WA Languages" title="Title page of the Handbook of WA Languages" style="max-height: 450px; margin-left: auto; margin-right: auto; display: block;" />
+  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 2: Title page of the Handbook of WA Languages. (Image: Public Domain)</figcaption>
+</figure>
 
 <br>
 
@@ -101,7 +108,10 @@ The whole approach with {{< glossary_link display="RO-Crate" id="ro-crate" >}} i
 
 <br>
 
-{{< image Src="/nick-thieberger/nickT_figure3.jpg" Alt="Storing digital data on microfilm" Desc="Figure 3: Storing digital data on microfilm." Title="Storing digital data on microfilm." Ref="Piql" Height="200" >}}
+<figure style="text-align: center;">
+  <img src="./nickT_figure3.jpg" alt="Storing digital data on microfilm" title="Storing digital data on microfilm." style="max-height: 200px; margin-left: auto; margin-right: auto; display: block;" />
+  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 3: Storing digital data on microfilm. (Image: Piql)</figcaption>
+</figure>
 
 <br>
 
@@ -137,7 +147,10 @@ Nyingarn was a sort of way of saying, well, we can do that. We could save all th
 
 <br>
 
-{{< image Src="/nick-thieberger/nickT_figure4.png" Alt="A Vocabulary of an Indigenous language collected by Daisy Bates." Desc="Figure 4: A Vocabulary of an Indigenous language collected by Daisy Bates." Title="A Vocabulary of an Indigenous language collected by Daisy Bates." Ref="Nick Thieberger" Height="800" >}}
+<figure style="text-align: center;">
+  <img src="./nickT_figure4.png" alt="A Vocabulary of an Indigenous language collected by Daisy Bates." title="A Vocabulary of an Indigenous language collected by Daisy Bates." style="max-height: 800px; margin-left: auto; margin-right: auto; display: block;" />
+  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 4: A Vocabulary of an Indigenous language collected by Daisy Bates. (Image: Nick Thieberger)</figcaption>
+</figure>
 
 <br>
 
@@ -159,7 +172,7 @@ A great example is my research in Central Vanuatu. I put some effort into creati
 
 ### Footnotes
 
-<a name="fn-1">1</a> {{< profile id="lea" >}} and {{< profile id="musgrave" >}} collaborated in editing this material. [↩](#back-1)
+<a name="fn-1">1</a> <Profile id="lea" /> and <Profile id="musgrave" /> collaborated in editing this material. [↩](#back-1)
 
 <a name="fn-2">2</a> Published as Thieberger, Nicholas (Ed ). 2015. [_Handbook of Western Australian Aboriginal languages south of the Kimberley Region_](http://web.archive.org/web/20000816224023/http://coombs.anu.edu.au/WWWVLPages/AborigPages/LANG/WA/wahbk.htm#.). PDF. (Ed.) CRCL. C-124. Pacific Linguistics. [↩](#back-2)
 

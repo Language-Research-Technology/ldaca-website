@@ -3,9 +3,10 @@ title: "Team member tip: There's no substitute for looking closely at the data"
 date: 2025-10-08
 draft: false
 description: "Team member tip: There's no substitute for looking closely at the data"
+layout: post
 ---
 
-by {{< profile id="hames" >}}
+by <Profile id="hames" />
 
 <br>
 
@@ -21,7 +22,10 @@ We can see an example of this with [item 1-009](https://data.ldaca.edu.au/object
 
 <br>
 
-{{< image Src="/team-member-tip-sam-hames/sam-hames-summer-school-2025.jpg" Alt="A  photograph of a man gesturing to a smart board" Desc="Sam delivering a workshop at ARDC's HASS and Indigenous Research Data Commons Summer School in February 2025." Title="Sam delivering a workshop at ARDC's HASS and Indigenous Research Data Commons Summer School in February 2025."  Ref="Marc Grimwade, courtesy of ARDC" >}}
+<figure style="text-align: center;">
+  <img src="./sam-hames-summer-school-2025.jpg" alt="A photograph of a man gesturing to a smart board" title="Sam delivering a workshop at ARDC's HASS and Indigenous Research Data Commons Summer School in February 2025." style="margin-left: auto; margin-right: auto; display: block;" />
+  <figcaption style="font-style: italic; margin-top: 0.5rem;">Sam delivering a workshop at ARDC's HASS and Indigenous Research Data Commons Summer School in February 2025. (Image: Marc Grimwade, courtesy of ARDC)</figcaption>
+</figure>
 
 <br>
 

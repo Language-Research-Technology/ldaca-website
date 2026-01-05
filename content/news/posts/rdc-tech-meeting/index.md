@@ -7,6 +7,7 @@ tags: ["Repositories"]
 author: Peter Sefton
 aliases: 
 - "/posts/rdc-tech-meeting/"
+layout: post
 ---
 
 <br>

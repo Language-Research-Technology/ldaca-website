@@ -5,7 +5,7 @@ draft: false
 description: "LDaCA team member Teresa Chan discusses data considerations for her Master's research project."
 ---
 
-by {{< profile id="chan" >}}
+by <Profile id="chan" />
 
 <br>
 

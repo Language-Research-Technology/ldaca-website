@@ -5,7 +5,7 @@ draft: false
 description: "LDaCA team member Harriet Sheppard describes collecting data on a remote island in Papua New Guinea."
 ---
 
-by {{< profile id="sheppard" >}}
+by <Profile id="sheppard" />
 
 <br>
 

@@ -1,21 +1,25 @@
 ---
 title: "Interview with Jane Simpson"
-date: 2024-11-14T16:34:20+11:00
+date: "2024-11-14T16:34:20+11:00"
 draft: false
-description: "Interview with Jane Simpson."
+description: "Interview with Jane Simpson; Professor Emerita at the Australian National University (ANU)."
+layout: post
 ---
-
-<br>
 
 Since her retirement in 2022, Jane Simpson has been [Professor Emerita](https://researchportalplus.anu.edu.au/en/persons/jane-simpson) at the Australian National University ([ANU](https://www.anu.edu.au/)), the university from which she received both her bachelor’s and master’s degrees. She has carried out fieldwork on Indigenous Australian languages since 1979 and received a [PhD in linguistics](https://linguistics.mit.edu/alumni/#1983) from the Massachusetts Institute of Technology (MIT) in 1983 for [a study](https://link.springer.com/book/10.1007/978-94-011-3204-6) of [Warlpiri](https://collection.aiatsis.gov.au/austlang/language/c15) in the [Lexical-Functional Grammar](https://ling.sprachwiss.uni-konstanz.de/pages/home/lfg/) framework. She then worked in Central Australia on [Warumungu](https://collection.aiatsis.gov.au/austlang/language/c18) language and language maintenance, and helped set up a [language centre](https://www.papak.com.au/) in Tennant Creek. In 1987–1989, with David Nash, she worked as lexicography fellow at the Australian Institute of Aboriginal Studies ([AIATSIS](https://aiatsis.gov.au/)), helping set up a digital archive of Aboriginal language material, which became the Aboriginal Studies Electronic Data Archive ([ASEDA](https://doi.org/10.1515/ijsl.1995.113.147)). In 1989, she became a lecturer in Linguistics at [The University of Sydney](https://www.sydney.edu.au/), and then in 2011, she moved to ANU as the inaugural chair of Indigenous linguistics and head of the School of Language Studies (2011–2014). In 2014, the ARC Centre of Excellence for the Dynamics of Language ([CoEDL](https://legacy.dynamicsoflanguage.edu.au/)) was established, and she acted as Deputy Director until the Centre came to a natural end in 2022. Jane is a Project Advisor and a member of the Steering Committee of the Language Data Commons of Australia.
 
 <br>
 
-{{< image Src="/jane-simpson/fig_1_JaneSimpson.jpg" Alt="Jane Simpson" Desc="Figure 1: Jane Simpson, Professor Emerita at the Australian National University (ANU)." Title="Jane Simpson" Ref="ANU" Height="400" >}}
+<figure>
+  <img src="./fig_1_JaneSimpson.jpg" alt="Jane Simpson" title="Jane Simpson" class="max-h-[400px] mx-auto block" />
+  <figcaption class="text-center italic mt-2 font-bold">
+    Figure 1: Jane Simpson, Professor Emerita at the Australian National University (ANU). (Image: ANU)
+  </figcaption>
+</figure>
 
 <br>
 
-Our discussion with Jane was the first in a series of interviews we are conducting on the topic of long-term storage of language data. We asked Jane about current possibilities for storing language data, obstacles to its long-term storage, her interest in making dictionaries accessible and how researchers at the end of their careers should manage data. What follows is an edited version of Jane’s comments organised around the main themes of the discussion<sup><a name="back-1" >[1](#fn-1)</a></sup>.
+Our discussion with Jane was the first in a series of interviews we are conducting on the topic of long-term storage of language data. We asked Jane about current possibilities for storing language data, obstacles to its long-term storage, her interest in making dictionaries accessible and how researchers at the end of their careers should manage data. What follows is an edited version of Jane’s comments organised around the main themes of the discussion<sup><a name="back-1" >1</a>[](#fn-1)</sup>.
 
 <br>
 
@@ -53,7 +57,12 @@ I honestly can't see why long-term digital storage is such a problem. If the Nat
 
 <br>
 
-{{< image Src="/jane-simpson/fig_2_nyingarn.png" Alt="Nyingarn" Desc="Figure 2: A manuscript document and its text version being edited in Nyingarn." Title="Nyingarn" Ref="Paul Williams" Height="600" >}}
+<figure>
+  <img src="./fig_2_nyingarn.png" alt="Nyingarn" title="Nyingarn" class="max-h-[600px] mx-auto block" />
+  <figcaption class="text-center italic mt-2 font-bold">
+    Figure 2: A manuscript document and its text version being edited in Nyingarn. (Image: Paul Williams)
+  </figcaption>
+</figure>
 
 <br>
 
@@ -91,7 +100,12 @@ Similarly, the Kaurna dictionary has been a fantastic asset for the Kaurna commu
 
 <br>
 
-{{< image Src="/jane-simpson/fig_3_Kaurna_dictionary.jpg" Alt="Teichelmann and Schürmann’s original Kaurna dictionary" Desc="Figure 3: Pages 32 and 33 from ‘Outlines of a grammar, vocabulary, and phraseology of the Aboriginal language of South Australia, spoken by the natives in and for some distance around Adelaide’ by C.G. Teichelmann and C.W. Schürmann (1840)." Title="Teichelmann and Schürmann’s original Kaurna dictionary" Ref="Michael Treloar Antiquarian Booksellers, Adelaide" Height="800" >}}
+<figure>
+  <img src="./fig_3_Kaurna_dictionary.jpg" alt="Teichelmann and Schürmann's original Kaurna dictionary" title="Teichelmann and Schürmann's original Kaurna dictionary" class="max-h-[800px] mx-auto block" />
+  <figcaption class="text-center italic mt-2 font-bold">
+    Figure 3: Pages 32 and 33 from 'Outlines of a grammar, vocabulary, and phraseology of the Aboriginal language of South Australia, spoken by the natives in and for some distance around Adelaide' by C.G. Teichelmann and C.W. Schürmann (1840). (Image: Michael Treloar Antiquarian Booksellers, Adelaide)
+  </figcaption>
+</figure>
 
 <br>
 
@@ -117,7 +131,12 @@ Grace and I, as her executors, are left with her papers, which are very valuable
 
 <br>
 
-{{< image Src="/jane-simpson/fig_4_hercus_manuscripts.png" Alt="Digitisation of a Luise Hercus manuscript by ANU student Daniel Majchrzak" Desc="Figure 4: ANU student Daniel Majchrzak using a shelf-mounted digital camera for high-resolution image capture of the manuscripts of Luise Hercus." Title="Digitisation of a Luise Hercus manuscript by ANU student Daniel Majchrzak" Ref="Julia Colleen Miller" Height="400" >}}
+<figure>
+  <img src="./fig_4_hercus_manuscripts.png" alt="Digitisation of a Luise Hercus manuscript by ANU student Daniel Majchrzak" title="Digitisation of a Luise Hercus manuscript by ANU student Daniel Majchrzak" class="max-h-[400px] mx-auto block" />
+  <figcaption class="text-center italic mt-2 font-bold">
+    Figure 4: ANU student Daniel Majchrzak using a shelf-mounted digital camera for high-resolution image capture of the manuscripts of Luise Hercus. (Image: Julia Colleen Miller)
+  </figcaption>
+</figure>
 
 <br>
 

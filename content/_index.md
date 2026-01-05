@@ -2,7 +2,7 @@
 ---
 
 <br>
-{{<raw>}}
+
 
 <div class="center_heading">
   <h2>Making nationally significant language data available for academic and non-academic use</h2>
@@ -125,6 +125,6 @@ LDaCA acknowledges Traditional Owners of Country throughout Australia and recogn
 
 <img src="/ARDC_lockup2024.svg" height="100" class="center_image" alt="ARDC Acknowledgement"/>
 
-{{</raw>}}
+
 
 The Language Data Commons of Australia (LDaCA) (DOI: [10.3565/kq2v-9g52](https://doi.org/10.3565/kq2v-9g52)) is a co-investment partnership with the Australian Research Data Commons (ARDC) through the [HASS and Indigenous Research Data Commons](https://ardc.edu.au/hass-and-indigenous-research-data-commons/). The {{< glossary_link display="ARDC" id="ardc" >}} is enabled by the Australian Government’s National Collaborative Research Infrastructure Strategy ({{< glossary_link display="NCRIS" id="ncris" >}}).

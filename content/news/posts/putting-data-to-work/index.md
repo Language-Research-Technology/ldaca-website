@@ -3,9 +3,10 @@ title: "Putting data to work"
 date: 2025-03-13T14:29:40+10:00
 draft: false
 description: "Putting data to work"
+layout: post
 ---
 
-by {{< profile id="musgrave" >}}
+by <Profile id="musgrave"/>
 
 <br>
 
@@ -19,7 +20,10 @@ The first part of my argument in the article is that there is a tradition of Aus
 
 <br>
 
-{{< image Src="/putting-data-to-work/dennis.jpg" Alt="The cover of The Songs of a Sentimental Bloke." Desc="Figure 1: The cover of The Songs of a Sentimental Bloke." Title="The cover of The Songs of a Sentimental Bloke." Ref="Simon Musgrave" Height="600" >}}
+<figure style="text-align: center;">
+  <img src="./dennis.jpg" alt="The cover of The Songs of a Sentimental Bloke." title="The cover of The Songs of a Sentimental Bloke." style="max-height: 600px; margin-left: auto; margin-right: auto; display: block;" />
+  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 1: The cover of The Songs of a Sentimental Bloke. (Image: Simon Musgrave)</figcaption>
+</figure>
 
 <br>
 
@@ -27,7 +31,10 @@ In the article, I examine three examples of this type of slang: the language whi
 
 <br>
 
-{{< image Src="/putting-data-to-work/betoota.png" Alt="The Betoota Advocate masthead." Desc="Figure 2: The Betoota Advocate masthead." Title="The Betoota Advocate masthead." Ref="The Betoota Advocate" >}}
+<figure style="text-align: center;">
+  <img src="./betoota.png" alt="The Betoota Advocate masthead." title="The Betoota Advocate masthead." style="margin-left: auto; margin-right: auto; display: block;" />
+  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 2: The Betoota Advocate masthead. (Image: The Betoota Advocate)</figcaption>
+</figure>
 
 <br>
 
@@ -37,7 +44,10 @@ The cover of the first Barry Mackenzie book (Figure 3) has words attributed to t
 
 <br>
 
-{{< image Src="/putting-data-to-work/mckenzie-book-burl.jpg" Alt="The cover of The Wonderful World of Barry McKenzie." Desc="Figure 3: The cover of The Wonderful World of Barry McKenzie." Title="The cover of The Wonderful World of Barry McKenzie." Ref="Simon Musgrave" Height="400" >}}
+<figure style="text-align: center;">
+  <img src="./mckenzie-book-burl.jpg" alt="The cover of The Wonderful World of Barry McKenzie." title="The cover of The Wonderful World of Barry McKenzie." style="max-height: 400px; margin-left: auto; margin-right: auto; display: block;" />
+  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 3: The cover of The Wonderful World of Barry McKenzie. (Image: Simon Musgrave)</figcaption>
+</figure>
 
 <br>
 
@@ -53,7 +63,10 @@ This last word **chunder** is particularly interesting, because its history has 
 
 <br>
 
-{{< image Src="/putting-data-to-work/Barry_Humphries.jpg" Alt="Barry Humphries" Desc="Figure 4: Barry Humphries." Title="Barry Humphries" Height="600" Ref="Wikimedia">}}
+<figure style="text-align: center;">
+  <img src="./Barry_Humphries.jpg" alt="Barry Humphries" title="Barry Humphries" style="max-height: 600px; margin-left: auto; margin-right: auto; display: block;" />
+  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 4: Barry Humphries. (Image: Wikimedia)</figcaption>
+</figure>
 
 <br>
 
@@ -89,7 +102,10 @@ It was a lot of fun exploring the language used by these writers; all of them ca
 
 <br>
 
-{{< image Src="/putting-data-to-work/DennisWriting.jpg" Alt="C.J. Dennis at work." Desc="Figure 4: C.J. Dennis at work." Title="C.J. Dennis at work." Ref="Public Domain">}}
+<figure style="text-align: center;">
+  <img src="./DennisWriting.jpg" alt="C.J. Dennis at work." title="C.J. Dennis at work." style="margin-left: auto; margin-right: auto; display: block;" />
+  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 4: C.J. Dennis at work. (Image: Public Domain)</figcaption>
+</figure>
 
 </br>
 

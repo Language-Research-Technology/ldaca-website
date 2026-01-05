@@ -5,6 +5,6 @@ draft: false
 description: "Explore our glossary of key terms and concepts related to LDaCA and the language data field."
 ---
 
-<br>
+<!-- # Glossary -->
 
-{{< glossary_list >}}
+<GlossaryList/>

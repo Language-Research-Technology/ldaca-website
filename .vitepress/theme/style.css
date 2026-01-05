@@ -1,0 +1,379 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .menu-link {
+    @apply text-sm font-medium text-foreground hover:text-primary transition-colors;
+  }
+
+  /* Main content area */
+  .vp-doc {
+    @apply px-6 py-8;
+  }
+
+  /* Content wrapper with max-width */
+  .vp-doc .container,
+  .content {
+    @apply max-w-4xl mx-auto;
+  }
+
+  /* Responsive padding for content */
+  .VPDoc .container {
+    @apply px-4 md:px-6 lg:px-8;
+  }
+
+  /* Blog post content styles */
+  .blog-post,
+  article,
+  .prose {
+    @apply px-4 md:px-6 lg:px-8 py-6 md:py-8 max-w-4xl mx-auto;
+  }
+
+  /* Figure elements responsive spacing */
+  .blog-post figure,
+  article figure,
+  .prose figure {
+    @apply my-6 md:my-8;
+  }
+
+  /* Images responsive sizing */
+  .blog-post figure img,
+  article figure img,
+  .prose figure img {
+    @apply max-w-full h-auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  /* Headings spacing */
+  .blog-post h1, .blog-post h2, .blog-post h3, .blog-post h4, .blog-post h5, .blog-post h6,
+  article h1, article h2, article h3, article h4, article h5, article h6 {
+    @apply mt-8 mb-4;
+  }
+
+  /* Paragraphs and lists */
+  .blog-post p, .blog-post ul, .blog-post ol,
+  article p, article ul, article ol {
+    @apply mb-4;
+  }
+
+  /* Mobile-first breakpoints */
+  @media (max-width: 640px) {
+    .vp-doc {
+      @apply px-4 py-6;
+    }
+    
+    .blog-post figure img,
+    article figure img {
+      @apply max-h-[300px];
+    }
+  }
+
+  /* Tablet */
+  @media (min-width: 641px) and (max-width: 1024px) {
+    .vp-doc {
+      @apply px-6 py-8;
+    }
+    
+    .blog-post figure img,
+    article figure img {
+      @apply max-h-[500px];
+    }
+  }
+}
+
+/* Markdown baseline styles (LDaCA look & feel) */
+@layer components {
+  /* Typography scale for markdown in VitePress docs */
+  .vp-doc h1 { @apply text-3xl font-semibold leading-tight; scroll-margin-top: 6rem; }
+  .vp-doc h2 { @apply text-2xl font-semibold leading-tight; scroll-margin-top: 6rem; }
+  .vp-doc h3 { @apply text-xl font-semibold leading-snug; scroll-margin-top: 6rem; }
+  .vp-doc h4 { @apply text-lg font-semibold leading-snug; scroll-margin-top: 6rem; }
+  .vp-doc h5 { @apply text-base font-semibold; scroll-margin-top: 6rem; }
+  .vp-doc h6 { @apply text-sm font-semibold uppercase tracking-wide; scroll-margin-top: 6rem; }
+
+  /* Also style VitePress-rendered page title when frontmatter `title` is present */
+  .VPDoc h1,
+  .VPDoc .title h1,
+  .VPDoc .content h1 {
+    font-size: 1.875rem; /* ~text-3xl */
+    font-weight: 600;
+    line-height: 1.25;
+    scroll-margin-top: 6rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: var(--vp-c-text-1);
+  }
+
+  /* Fallback: style headings inside VPDoc content even if `.vp-doc` is missing */
+  .VPDoc .content h2 { font-size: 1.5rem; font-weight: 600; line-height: 1.25; margin: 1.5rem 0 0.75rem; scroll-margin-top: 6rem; }
+  .VPDoc .content h3 { font-size: 1.25rem; font-weight: 600; line-height: 1.375; margin: 1.25rem 0 0.5rem; scroll-margin-top: 6rem; }
+  .VPDoc .content h4 { font-size: 1.125rem; font-weight: 600; line-height: 1.5; margin: 1rem 0 0.5rem; scroll-margin-top: 6rem; }
+  .VPDoc .content h5 { font-size: 1rem; font-weight: 600; line-height: 1.5; margin: 0.75rem 0 0.5rem; scroll-margin-top: 6rem; }
+  .VPDoc .content h6 { font-size: 0.875rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.02em; line-height: 1.5; margin: 0.75rem 0 0.5rem; scroll-margin-top: 6rem; }
+
+  .vp-doc p { @apply text-base leading-7 text-foreground; }
+  .vp-doc strong { @apply font-semibold text-foreground; }
+  .vp-doc em { font-style: italic; }
+  .vp-doc hr { @apply my-8 border-border; }
+
+  /* Links */
+  .vp-doc a { color: var(--vp-c-brand-3); text-decoration: underline; }
+  .vp-doc a:hover { color: var(--vp-c-brand-2); }
+
+  /* Lists */
+  .vp-doc ul { @apply list-disc pl-6 space-y-2; }
+  .vp-doc ol { @apply list-decimal pl-6 space-y-2; }
+  .vp-doc li { @apply leading-7; }
+
+  /* Blockquotes */
+  .vp-doc blockquote {
+    @apply my-6 pl-4 border-l-4 rounded-sm;
+    border-color: var(--vp-c-brand-2);
+    color: var(--vp-c-text-2);
+    background: var(--vp-c-brand-soft);
+  }
+
+  /* Inline code */
+  .vp-doc :not(pre) > code {
+    @apply text-sm rounded px-1.5 py-0.5;
+    background: var(--vp-c-default-soft);
+    color: var(--vp-c-text-1);
+  }
+
+  /* Code blocks */
+  .vp-doc pre {
+    @apply my-6 rounded-lg overflow-x-auto p-4;
+    background: var(--vp-c-default-soft);
+    border: 1px solid var(--vp-c-default-2);
+  }
+  .vp-doc pre code { @apply bg-transparent p-0; }
+
+  /* Tables */
+  .vp-doc table { @apply w-full border-collapse my-6 text-sm; }
+  .vp-doc th, .vp-doc td { @apply text-left py-2 px-3 border-b; border-color: var(--border); }
+  .vp-doc thead th { background: var(--vp-c-default-soft); color: var(--vp-c-text-1); }
+  .vp-doc tbody tr:hover { background: color-mix(in oklab, var(--vp-c-default-soft) 80%, transparent); }
+
+  /* Images */
+  .vp-doc img { @apply rounded-md my-4; }
+
+  /* Figures */
+  .vp-doc figure { @apply my-6; }
+  .vp-doc figcaption { @apply text-sm text-muted-foreground mt-2; }
+
+  /* Sup/Sub */
+  .vp-doc sup { vertical-align: super; font-size: 0.75em; }
+  .vp-doc sub { vertical-align: sub; font-size: 0.75em; }
+
+  /* Custom reference blocks used in posts */
+  .vp-doc .reference { @apply text-sm leading-6 text-muted-foreground; }
+}
+
+/* VitePress content override */
+.VPContent {
+  @apply px-4 md:px-6 lg:px-8;
+}
+
+.VPDoc .container {
+  @apply max-w-5xl mx-auto;
+}
+
+/**
+ * Customize default theme styling by overriding CSS variables:
+ * https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css
+ */
+
+/**
+ * Colors
+ *
+ * Each colors have exact same color scale system with 3 levels of solid
+ * colors with different brightness, and 1 soft color.
+ *
+ * - `XXX-1`: The most solid color used mainly for colored text. It must
+ *   satisfy the contrast ratio against when used on top of `XXX-soft`.
+ *
+ * - `XXX-2`: The color used mainly for hover state of the button.
+ *
+ * - `XXX-3`: The color for solid background, such as bg color of the button.
+ *   It must satisfy the contrast ratio with pure white (#ffffff) text on
+ *   top of it.
+ *
+ * - `XXX-soft`: The color used for subtle background such as custom container
+ *   or badges. It must satisfy the contrast ratio when putting `XXX-1` colors
+ *   on top of it.
+ *
+ *   The soft color must be semi transparent alpha channel. This is crucial
+ *   because it allows adding multiple "soft" colors on top of each other
+ *   to create an accent, such as when having inline code block inside
+ *   custom containers.
+ *
+ * - `default`: The color used purely for subtle indication without any
+ *   special meanings attached to it such as bg color for menu hover state.
+ *
+ * - `brand`: Used for primary brand colors, such as link text, button with
+ *   brand theme, etc.
+ *
+ * - `tip`: Used to indicate useful information. The default theme uses the
+ *   brand color for this by default.
+ *
+ * - `warning`: Used to indicate warning to the users. Used in custom
+ *   container, badges, etc.
+ *
+ * - `danger`: Used to show error, or dangerous message to the users. Used
+ *   in custom container, badges, etc.
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-c-default-1: var(--vp-c-gray-1);
+  --vp-c-default-2: var(--vp-c-gray-2);
+  --vp-c-default-3: var(--vp-c-gray-3);
+  --vp-c-default-soft: var(--vp-c-gray-soft);
+
+  --vp-c-brand-1: var(--vp-c-indigo-1);
+  --vp-c-brand-2: var(--vp-c-indigo-2);
+  --vp-c-brand-3: var(--vp-c-indigo-3);
+  --vp-c-brand-soft: var(--vp-c-indigo-soft);
+
+  --vp-c-tip-1: var(--vp-c-brand-1);
+  --vp-c-tip-2: var(--vp-c-brand-2);
+  --vp-c-tip-3: var(--vp-c-brand-3);
+  --vp-c-tip-soft: var(--vp-c-brand-soft);
+
+  --vp-c-warning-1: var(--vp-c-yellow-1);
+  --vp-c-warning-2: var(--vp-c-yellow-2);
+  --vp-c-warning-3: var(--vp-c-yellow-3);
+  --vp-c-warning-soft: var(--vp-c-yellow-soft);
+
+  --vp-c-danger-1: var(--vp-c-red-1);
+  --vp-c-danger-2: var(--vp-c-red-2);
+  --vp-c-danger-3: var(--vp-c-red-3);
+  --vp-c-danger-soft: var(--vp-c-red-soft);
+}
+
+/**
+ * Component: Button
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-button-brand-border: transparent;
+  --vp-button-brand-text: var(--vp-c-white);
+  --vp-button-brand-bg: var(--vp-c-brand-3);
+  --vp-button-brand-hover-border: transparent;
+  --vp-button-brand-hover-text: var(--vp-c-white);
+  --vp-button-brand-hover-bg: var(--vp-c-brand-2);
+  --vp-button-brand-active-border: transparent;
+  --vp-button-brand-active-text: var(--vp-c-white);
+  --vp-button-brand-active-bg: var(--vp-c-brand-1);
+}
+
+/**
+ * Component: Home
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    120deg,
+    #bd34fe 30%,
+    #41d1ff
+  );
+
+  --vp-home-hero-image-background-image: linear-gradient(
+    -45deg,
+    #bd34fe 50%,
+    #47caff 50%
+  );
+  --vp-home-hero-image-filter: blur(44px);
+}
+
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(68px);
+  }
+}
+
+/**
+ * Component: Custom Block
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-custom-block-tip-border: transparent;
+  --vp-custom-block-tip-text: var(--vp-c-text-1);
+  --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
+  --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
+}
+
+/**
+ * Component: Algolia
+ * -------------------------------------------------------------------------- */
+
+.DocSearch {
+  --docsearch-primary-color: var(--vp-c-brand-1) !important;
+}
+

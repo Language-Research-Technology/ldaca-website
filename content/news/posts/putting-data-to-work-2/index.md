@@ -3,17 +3,18 @@ title: "Putting data to work — 2"
 date: 2025-08-13T14:29:40+10:00
 draft: false
 description: "Putting data to work — 2"
+layout: post
 ---
 
-by {{< profile id="musgrave" >}}
+by <Profile id="musgrave" />
 
 <br>
 
-In a [recent post on this blog](../putting-data-to-work/), I tried to illustrate how a researcher interacts with data in the process of building an argument. Now, I want to do the same thing, but in relation to a much more complicated case. This project was complicated not by our interdisciplinary team (my colleagues {{< profile id="hames" >}} and {{< profile id="haugh" >}} were a joy to work with as ever), but by the huge and (currently) unfriendly nature of our data source. The data we worked with came from [Federal Hansard](https://www.aph.gov.au/Parliamentary_Business/Hansard), the record of the proceedings of the Australian Parliament. Before I start explaining to you the kinds of problems we encountered and how we tried to solve them, let me give you a little background.
+In a [recent post on this blog](../putting-data-to-work/), I tried to illustrate how a researcher interacts with data in the process of building an argument. Now, I want to do the same thing, but in relation to a much more complicated case. This project was complicated not by our interdisciplinary team (my colleagues <Profile id="hames" /> and <Profile id="haugh" /> were a joy to work with as ever), but by the huge and (currently) unfriendly nature of our data source. The data we worked with came from [Federal Hansard](https://www.aph.gov.au/Parliamentary_Business/Hansard), the record of the proceedings of the Australian Parliament. Before I start explaining to you the kinds of problems we encountered and how we tried to solve them, let me give you a little background.
 
 <br>
 
-Over a year ago, another of our colleagues from The University of Queensland (UQ), {{< profile id="schweinberger" >}}, sent out a call for expressions of interest to contribute to a special issue of the journal *[Lingua](https://www.sciencedirect.com/journal/lingua)* on the topic of vulgar language. I knew that Sam was already working with Hansard, and in an early conversation with Michael and Sam, I suggested that looking at how vulgar language did or did not appear in parliamentary debate might be an interesting topic. We suggested this to Martin and he was enthusiastic. We realised fairly quickly that vulgar language occurs rarely in Parliament (or at least, it doesn't make it into the formal record — who knows what some of those members are saying to each other off microphone?). More importantly, we also realised that there were interesting questions to examine about how linguistic behaviour is constrained by long-established procedural restrictions.
+Over a year ago, another of our colleagues from The University of Queensland (UQ), <Profile id="schweinberger" />, sent out a call for expressions of interest to contribute to a special issue of the journal *[Lingua](https://www.sciencedirect.com/journal/lingua)* on the topic of vulgar language. I knew that Sam was already working with Hansard, and in an early conversation with Michael and Sam, I suggested that looking at how vulgar language did or did not appear in parliamentary debate might be an interesting topic. We suggested this to Martin and he was enthusiastic. We realised fairly quickly that vulgar language occurs rarely in Parliament (or at least, it doesn't make it into the formal record — who knows what some of those members are saying to each other off microphone?). More importantly, we also realised that there were interesting questions to examine about how linguistic behaviour is constrained by long-established procedural restrictions.
 
 <br>
 
@@ -26,7 +27,10 @@ Our focus moved from vulgar language to the idea of 'unparliamentary language'. 
 
 <br>
 
-{{< image Src="/putting-data-to-work-2/hansard.jpeg" Alt="Several volumes of Hansard" Desc="Figure 1: Several volumes of Hansard." Title="Several volumes of Hansard." Ref="The Conversation" Height="300" >}}
+<figure style="text-align: center;">
+  <img src="./hansard.jpeg" alt="Several volumes of Hansard" title="Several volumes of Hansard." style="max-height: 300px; margin-left: auto; margin-right: auto; display: block;" />
+  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 1: Several volumes of Hansard. (Image: The Conversation)</figcaption>
+</figure>
 
 <br>
 
@@ -38,7 +42,10 @@ Once you have found a section of Hansard which interests you, you can download t
 
 <br>
 
-{{< image Src="/putting-data-to-work-2/hansard-xml.png" Alt="Sample of Hansard in XML format." Desc="Figure 2: Sample of Hansard in XML format." Title="Sample of Hansard in XML format." Ref="ParlInfo" >}}
+<figure style="text-align: center;">
+  <img src="./hansard-xml.png" alt="Sample of Hansard in XML format." title="Sample of Hansard in XML format." style="margin-left: auto; margin-right: auto; display: block;" />
+  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 2: Sample of Hansard in XML format. (Image: ParlInfo)</figcaption>
+</figure>
 
 <br>
 
@@ -66,7 +73,10 @@ Not all examples of _unparliamentary_ relate immediately to unparliamentary lang
 
 <br>
 
-{{< image Src="/putting-data-to-work-2/hansard-collocates.png" Alt="The top 30 collocates of 'unparliamentary' in the proceedings of the House of Representatives, 37th Parliament." Desc="Figure 3: The top 30 collocates of 'unparliamentary' in the proceedings of the House of Representatives, 37th Parliament." Title="The top 30 collocates of 'unparliamentary' in the proceedings of the House of Representatives, 37th Parliament." Ref="Public Domain" Height="600">}}
+<figure style="text-align: center;">
+  <img src="./hansard-collocates.png" alt="The top 30 collocates of 'unparliamentary' in the proceedings of the House of Representatives, 37th Parliament." title="The top 30 collocates of 'unparliamentary' in the proceedings of the House of Representatives, 37th Parliament." style="max-height: 600px; margin-left: auto; margin-right: auto; display: block;" />
+  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 3: The top 30 collocates of 'unparliamentary' in the proceedings of the House of Representatives, 37th Parliament. (Image: Public Domain)</figcaption>
+</figure>
 
 <br>
 

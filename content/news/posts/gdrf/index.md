@@ -4,6 +4,7 @@ date: 2024-01-10T09:00:00+10:00
 draft: false
 aliases:
   - "/posts/gdrf/"
+layout: post
 ---
 
 In 2018, when he was working at The University of Queensland's ({{< glossary_link display="UQ" id="uq" >}}) Research Computing Centre ([RCC](https://rcc.uq.edu.au/)), Marco Fahmi (former {{< glossary_link display="LDaCA" id="ldaca" >}} Project Manager) initiated a [Graduate Digital Research Fellowship](https://rcc.uq.edu.au/article/2018/07/six-students-become-uq%E2%80%99s-first-graduate-digital-research-fellows) (GDRF) program focused on researchers in the Humanities and Social Sciences ({{< glossary_link display="HASS" id="hass" >}}). The program has run in some years since then, hosted by the RCC ([2019](https://rcc.uq.edu.au/article/2019/03/second-round-graduate-digital-research-fellows-announced)) and also by the {{< glossary_link display="UQ" id="uq" >}} Graduate School ([2020](https://rcc.uq.edu.au/article/2019/11/apply-now-uq-graduate-digital-research-fellowship-2020)).
@@ -64,7 +65,10 @@ Maxwell, C., Selvanathan, H. P., Hames, S., Crimston, C. R., & Jetten, J. (2024)
 
 Giulio's research examines gaming communities in Australia and in Italy, focused on the way stereotypes tied to Italians and organised crime are articulated among players of video games. He is also interested in digital communities, ethnic identities on the Internet, and cultural and social manifestations related to Italian criminal organisations. In his work as a Fellow, he looked at the intersection of these areas of interest by examining the discussions, speculations, and expectations of fans about the (yet to be released) Mafia IV video game. This was tackled using comment threads from YouTube channels as a source of data. Once again, methodological questions were important for Giulio, including the questions about what analytic techniques could usefully be used.
 
-{{< image Src="gdrf_2023.jpg" Alt="The 2023 GDRF program participants" Desc="Figure 1: The 2023 GDRF program participants (From left: Giulio, Kelly, Eve, Sam, Christina and Simon)" Title="The 2023 GDRF program participants" Height="500" Ref="Simon Musgrave" class="center_image">}}
+<figure style="text-align: center;">
+  <img src="./gdrf_2023.jpg" alt="The 2023 GDRF program participants" title="The 2023 GDRF program participants" style="max-height: 500px; margin-left: auto; margin-right: auto; display: block;" />
+  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 1: The 2023 GDRF program participants (From left: Giulio, Kelly, Eve, Sam, Christina and Simon). (Image: Simon Musgrave)</figcaption>
+</figure>
 
 A GDRF program will be offered again in 2025, this time under the banner of the Language Data Commons of Australia. If you think the program could benefit you, there is an [online form](https://forms.gle/prTfh5hpMWhT8wkW9) for expressions of interest (due by **February 19 2025**). For further information, you can contact [Sam Hames](mailto:sam.hames@uq.edu.au) or [Simon Musgrave](mailto:s.musgrave@uq.edu.au).
 

@@ -6,6 +6,7 @@ author: "Kelvin Lee"
 categories: ["LDaCA"]
 aliases: 
 - "/posts/interview-2/"
+layout: post
 ---
 
 The Australian Text Analytics Platform ([ATAP](https://www.atap.edu.au)) and the Language Data Commons of Australia (LDaCA) are collaborative projects led by the University of Queensland and supported by the [Australian Research Data Commons](https://www.ardc.edu.au) to develop infrastructure for researchers who work with language data. In this blog post series, we feature interviews with the Chief Investigators of the two projects. In each post, we present their answers to three questions:

@@ -8,6 +8,7 @@ topics:
 author: "Kelvin Lee"
 aliases: 
 - "/posts/interview-1/"
+layout: post
 ---
 
 <br>
