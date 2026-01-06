@@ -27,6 +27,7 @@ function generateGlossaryData() {
 export default defineConfig({
   srcDir: "content",
   mpa: true,
+  ignoreDeadLinks: true, // Temporarily ignore dead links while site is under development! Verify this!
   title: "ldaca",
   description: "ldaca.edu.au",
   vite: {
