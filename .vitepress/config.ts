@@ -173,7 +173,7 @@ export default defineConfig({
       } as any,
       {
         text: 'Projects & case studies',
-        link: '/projects-case-studies/'
+        link: '/resources/general-resources/case-studies/'
       },
       {
         text: 'About',

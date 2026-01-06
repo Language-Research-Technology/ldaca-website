@@ -4,14 +4,14 @@ date: 2022-11-07T17:13:28+10:00
 draft: false
 ---
 
-<br>
+<br />
 
 **Bio**
 My name is Otis Carmichael and I am a proud Waanyi man living in Meanjin. My designs reflect my appreciation of the past and my hope for the future.
 
 The design of the {{< glossary_link display="LDaCA" id="ldaca" >}} logo came from my own experience researching the Waanyi language, the language of [my mob](https://en.wikipedia.org/wiki/Waanyi). The design flows from the beginning to the end, where it flows back into itself at the beginning, representing the cyclical nature of life and the Land. The strands of language interweave with themselves, influenced by everything that touches them until they become something entirely their own. The complexity of these languages is a thing of beauty and their preservation, study and proliferation lays claim to this unceded land. 
 
-<img src="logo-dark.png" width="500" alt="LDaCA Logo">
+<img src="./logo-dark.png" width="500" alt="LDaCA Logo" />
 
 **The inspiration of the design is as follows:**
 
@@ -27,20 +27,16 @@ The design of the {{< glossary_link display="LDaCA" id="ldaca" >}} logo came fro
 
 The colours utilised in this design draw from those that are seen in my peoples land of Boodjamulla, in the Gulf of Carpentaria (see below). They reflect the connections between the Sky, the People and the Land in the hope that these connections continue to strengthen indefinitely.
 
-{{< raw >}}
-
 <div class="grid">
     <div class="item left">
-        <img src="boodjamulla1.jpg" alt="Cliffs at Boodjamulla National Park">
+        <img src="./boodjamulla1.jpg" alt="Cliffs at Boodjamulla National Park">
     </div>
     <div class="item upper_right">
-        <img src="boodjamulla2.jpg" alt="Gorge at Boodjamulla National Park">
+        <img src="./boodjamulla2.jpg" alt="Gorge at Boodjamulla National Park">
     </div>
     <div class="item lower_right">
-        <img src="boodjamulla3.jpg" alt="Creek at Boodjamulla National Park">
+        <img src="./boodjamulla3.jpg" alt="Creek at Boodjamulla National Park">
     </div>
 </div>
-
-{{< /raw >}}
 
 <br>

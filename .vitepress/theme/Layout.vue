@@ -20,7 +20,7 @@ const { page } = useData()
     <div class="body">
       <main class="main">
         <DocLayout v-if="page.frontmatter && page.frontmatter.layout === 'doc' || page.frontmatter.layout === undefined" />
-        <PostLayout v-if="page.frontmatter && page.frontmatter.layout === 'post'" />
+        <PostLayout v-else-if="page.frontmatter && page.frontmatter.layout === 'post'" />
         <RootListLayout v-else-if="page.frontmatter && page.frontmatter.layout === 'root_list'" />
         <Content v-else />
       </main>

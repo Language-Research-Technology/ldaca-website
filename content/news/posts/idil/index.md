@@ -8,20 +8,19 @@ layout: post
 
 by <Profile id="smith" />, <Profile id="musgrave" />, <Profile id="mclellan" /> and <Profile id="foley" />
 
-<br>
+<br />
 
 ## International Decade of Indigenous Languages 2022–2032
 
-<br>
+<br />
 
 The world's billions of people use thousands of languages in myriads of ways, through communication by speech, sign, text and song (Evans, 2022). Diversity of language is critical for conveying the world's knowledges and expressing the range of human experiences. Australia is in an area of great language diversity, with hundreds of languages on this continent.
 
-Languages require action to remain in use. The United Nations General Assembly has declared the period between 2022 and 2032 as the [International Decade of Indigenous Languages](https://idil2022-2032.org/) ({{< glossary_link display="IDIL" id="idil" >}}). The aim of IDIL is to draw global attention to the critical status of Indigenous languages worldwide and encourage action for their revitalisation, promotion and ongoing use.
+Languages require action to remain in use. The United Nations General Assembly has declared the period between 2022 and 2032 as the [International Decade of Indigenous Languages](https://idil2022-2032.org/) (<GlossaryLink display="IDIL" id="idil" />). The aim of IDIL is to draw global attention to the critical status of Indigenous languages worldwide and encourage action for their revitalisation, promotion and ongoing use.
 
-<br>
+<br />
 
-{{< youtube id="-eOxQIfZrVg" title="Join the International Decade of Indigenous Languages 2022-2032" >}}
-
+<iframe src="https://www.youtube.com/embed/-eOxQIfZrVg?modestbranding=1&rel=0&showinfo=0&controls=0" title="Join the International Decade of Indigenous Languages 2022-2032" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="absolute top-0 left-0 w-full h-full border-none"></iframe>
 <br>
 
 The International Decade aims to achieve four main outcomes:
@@ -37,11 +36,11 @@ The International Decade aims to achieve four main outcomes:
 
 <br>
 
-{{< image Src="/idil/idil-logo.png" Alt="International Decade of Indigenous Languages Logo" Desc="International Decade of Indigenous Languages Logo" Title="International Decade of Indigenous Languages Logo" Ref="International Decade of Indigenous Languages Directions Group" Height="400" >}}
+<img src="./idil-logo.png" Alt="International Decade of Indigenous Languages Logo" Desc="International Decade of Indigenous Languages Logo" Title="International Decade of Indigenous Languages Logo" Ref="International Decade of Indigenous Languages Directions Group" Height="400" />
 
 <br>
 
-The Australian Government has partnered with the {{< glossary_link display="IDIL" id="idil" >}} [Directions Group](https://www.arts.gov.au/what-we-do/indigenous-arts-and-languages/international-decade-indigenous-languages/international-decade-indigenous-languages-directions-group) to produce the [_Voices of Country_ Action Plan](https://www.arts.gov.au/publications/voices-country-australias-action-plan-international-decade-indigenous-languages-2022-2032). The Action Plan provides a framework to guide Australia's participation in the International Decade, focusing in particular on Aboriginal and Torres Strait Islander community needs, and is a call to action for all stakeholders. The plan was launched at the [PULiiMA Indigenous Languages and Technology Conference](https://puliima.com/) in Garamilla/Darwin in August 2023.
+The Australian Government has partnered with the <GlossaryLink display="IDIL" id="idil" /> [Directions Group](https://www.arts.gov.au/what-we-do/indigenous-arts-and-languages/international-decade-indigenous-languages/international-decade-indigenous-languages-directions-group) to produce the [_Voices of Country_ Action Plan](https://www.arts.gov.au/publications/voices-country-australias-action-plan-international-decade-indigenous-languages-2022-2032). The Action Plan provides a framework to guide Australia's participation in the International Decade, focusing in particular on Aboriginal and Torres Strait Islander community needs, and is a call to action for all stakeholders. The plan was launched at the [PULiiMA Indigenous Languages and Technology Conference](https://puliima.com/) in Garamilla/Darwin in August 2023.
 
 <br>
 
@@ -49,7 +48,7 @@ The Australian Government has partnered with the {{< glossary_link display="IDIL
 
 <br>
 
-{{< image Src="/idil/voices-of-country-themes.png" Alt="Voices of Country is guided by five inter-connected themes, represented as a native wattle tree, itself a source of food, medicine and tools, with language, culture and traditional knowledges as its foundation." Desc="Voices of Country is guided by five inter-connected themes, represented as a native wattle tree, itself a source of food, medicine and tools, with language, culture and traditional knowledges as its foundation." Title="Voices of Country is guided by five inter-connected themes, represented as a native wattle tree, itself a source of food, medicine and tools, with language, culture and traditional knowledges as its foundation." Ref="Gilimbaa with cultural elements created by David Williams (Wakka Wakka)" Height="800" >}}
+<img src="./voices-of-country-themes.png" Alt="Voices of Country is guided by five inter-connected themes, represented as a native wattle tree, itself a source of food, medicine and tools, with language, culture and traditional knowledges as its foundation." Desc="Voices of Country is guided by five inter-connected themes, represented as a native wattle tree, itself a source of food, medicine and tools, with language, culture and traditional knowledges as its foundation." Title="Voices of Country is guided by five inter-connected themes, represented as a native wattle tree, itself a source of food, medicine and tools, with language, culture and traditional knowledges as its foundation." Ref="Gilimbaa with cultural elements created by David Williams (Wakka Wakka)" Height="800" />
 
 <br>
 
@@ -67,41 +66,41 @@ _Voices of Country_ is framed through five interconnected themes:
 
 <br>
 
-A sub-part of Theme 2 in the Action Plan has the title ‘Support communities to build and be the custodians of language resources and materials’. Making language resources and materials sustainable and accessible is central to the work of {{< glossary_link display="LDaCA" id="ldaca" >}}. This includes working in collaboration with communities, and providing them with the {{< glossary_link display="tools" id="tools" >}} and support they need to be effective custodians of their language materials.
+A sub-part of Theme 2 in the Action Plan has the title ‘Support communities to build and be the custodians of language resources and materials’. Making language resources and materials sustainable and accessible is central to the work of <GlossaryLink display="LDaCA" id="ldaca" />. This includes working in collaboration with communities, and providing them with the <GlossaryLink display="tools" id="tools" /> and support they need to be effective custodians of their language materials.
 
 The sub-theme has six components (_Voices of Country_ p34):
 
 1. Embed Aboriginal and Torres Strait Islander cultural practices and knowledge systems into linguistic methodologies.
 2. Develop resources that document and record languages, such as dictionaries, encyclopaedias, thesauri, grammar and orthography documents.
-3. Record and digitise written and oral language {{< glossary_link display="collections" id="collection" >}}, resources and materials.
+3. Record and digitise written and oral language <GlossaryLink display="collections" id="collection" />, resources and materials.
 4. Provide communities with the support, training and infrastructure they require to build language resources and collections.
 5. Support Aboriginal and Torres Strait Islander peoples to access and repurpose historical language materials.
 6. Repatriate language materials and cultural knowledge to community ownership and control.
 
-We will give a brief summary of how LDaCA is contributing to each of these areas of activity, first covering components two to six and then returning to show how all of those activities contribute to the first component. In this summary, we will refer occasionally to the [FAIR and CARE](/about/principles/) ethical research principles which are core to our work. The {{< glossary_link display="FAIR" id="fair" >}} principles have been developed as a foundation for good, scholarly ways of finding and using data, providing key guideposts (Findable, Accessible, Interoperable, Reusable) for transparent, reproducible, and reusable language research. Further key principles for advancing Indigenous innovation and self-determination, {{< glossary_link display="CARE" id="care" >}} (Collective benefit, Authority to control, Responsibility, Ethics), guide ethical work with Indigenous language collections. The concluding discussion will also detail the connection between the principles, especially the CARE principles, and LDaCA’s work supporting the _Voices of Country_ Action Plan.
+We will give a brief summary of how LDaCA is contributing to each of these areas of activity, first covering components two to six and then returning to show how all of those activities contribute to the first component. In this summary, we will refer occasionally to the [FAIR and CARE](/about/principles/) ethical research principles which are core to our work. The <GlossaryLink display="FAIR" id="fair" /> principles have been developed as a foundation for good, scholarly ways of finding and using data, providing key guideposts (Findable, Accessible, Interoperable, Reusable) for transparent, reproducible, and reusable language research. Further key principles for advancing Indigenous innovation and self-determination, <GlossaryLink display="CARE" id="care" /> (Collective benefit, Authority to control, Responsibility, Ethics), guide ethical work with Indigenous language collections. The concluding discussion will also detail the connection between the principles, especially the CARE principles, and LDaCA’s work supporting the _Voices of Country_ Action Plan.
 
 <br>
 
 ### Component 2: Develop resources that document and record languages
 
-LDaCA contributes to work under component two by providing recommendations for good practice in developing sustainable resources. It is important to avoid having data locked into bespoke individual solutions which may be difficult to maintain. Instead, we advocate using data formats that can be supported into the future and which can be the basis for various {{< glossary_link display="tools" id="tools" >}}. Although LDaCA can have only a limited role in developing resources, such as dictionaries or text {{< glossary_link display="collections" id="collection" >}}, we can provide advice about key aspects of data handling, assist with designing backup strategies, and work with people to develop long-term strategies for appropriate access to language resources.
+LDaCA contributes to work under component two by providing recommendations for good practice in developing sustainable resources. It is important to avoid having data locked into bespoke individual solutions which may be difficult to maintain. Instead, we advocate using data formats that can be supported into the future and which can be the basis for various <GlossaryLink display="tools" id="tools" />. Although LDaCA can have only a limited role in developing resources, such as dictionaries or text <GlossaryLink display="collections" id="collection" />, we can provide advice about key aspects of data handling, assist with designing backup strategies, and work with people to develop long-term strategies for appropriate access to language resources.
 
 <br>
 
 ### Component 3: Record and digitise written and oral language materials
 
-Similarly to component two, we have an indirect role in activity related to component three. We support recording and digitisation through our collaborative partnerships with the {{< glossary_link display="Nyingarn" id="nyingarn" >}} project and with {{< glossary_link display="PARADISEC" id="paradisec" >}}. Nyingarn is a platform for making manuscript and typescript sources for Indigenous languages available as searchable digital objects, while PARADISEC has extensive experience in digitising language materials. Increasingly, LDaCA and these partners share a single technological ecosystem, leading to greater alignment in formats and description for digital versions of historical materials, which, in turn, increases the sustainability and usability of the materials.
+Similarly to component two, we have an indirect role in activity related to component three. We support recording and digitisation through our collaborative partnerships with the <GlossaryLink display="Nyingarn" id="nyingarn" /> project and with <GlossaryLink display="PARADISEC" id="paradisec" />. Nyingarn is a platform for making manuscript and typescript sources for Indigenous languages available as searchable digital objects, while PARADISEC has extensive experience in digitising language materials. Increasingly, LDaCA and these partners share a single technological ecosystem, leading to greater alignment in formats and description for digital versions of historical materials, which, in turn, increases the sustainability and usability of the materials.
 
 <br>
 
 ### Component 4: Provide communities with support, training and infrastructure to build language resources
 
-Contributing to component four, LDaCA is working with various Indigenous groups and organisations to help manage the language resources and {{< glossary_link display="collections" id="collection" >}} they hold. An example is our partnership with the [Batchelor Institute of Indigenous Tertiary Education](https://www.batchelor.edu.au/), which holds an important archive of physical and digital works in, and about, Indigenous languages. The collection is managed by the Batchelor Institute Library and has strong connections with language projects through the Institute’s Centre for Australian Languages and Linguistics (CALL).
+Contributing to component four, LDaCA is working with various Indigenous groups and organisations to help manage the language resources and <GlossaryLink display="collections" id="collection" /> they hold. An example is our partnership with the [Batchelor Institute of Indigenous Tertiary Education](https://www.batchelor.edu.au/), which holds an important archive of physical and digital works in, and about, Indigenous languages. The collection is managed by the Batchelor Institute Library and has strong connections with language projects through the Institute’s Centre for Australian Languages and Linguistics (CALL).
 
 The [CALL Collection](https://callcollection.batchelor.edu.au/) includes text, audio and video resources that have been contributed over at least 30 years by students and staff of the Batchelor Institute, as well as by teachers, linguists and language workers external to the institute. We are working with the Batchelor Institute to:
 
 - backup and reformat item record information
-- copy {{< glossary_link display="metadata" id="metadata" >}} from an ageing database into contemporary metadata standard format
+- copy <GlossaryLink display="metadata" id="metadata" /> from an ageing database into contemporary metadata standard format
 - embed cultural protocols to ensure long-term and appropriate access to this significant collection.
 
 We are also working on training programs, designed with First Nations people, which will help make resources accessible to non-academic users of language data.
@@ -110,7 +109,7 @@ We are also working on training programs, designed with First Nations people, wh
 
 ### Component 5: Support Aboriginal and Torres Strait Islander peoples to access and repurpose historical language materials
 
-Component five aligns closely with the A and the R in the {{< glossary_link display="FAIR" id="fair" >}} principles: **Accessibility** and **Reusability**. In order for data to meet these FAIR criteria, it must be well-described, but in many cases, existing {{< glossary_link display="collections" id="collection" >}} of Indigenous data are not as well-described as they might be, and even when they are considered to be well-described, the description is often based on non-Indigenous knowledge.
+Component five aligns closely with the A and the R in the <GlossaryLink display="FAIR" id="fair" /> principles: **Accessibility** and **Reusability**. In order for data to meet these FAIR criteria, it must be well-described, but in many cases, existing <GlossaryLink display="collections" id="collection" /> of Indigenous data are not as well-described as they might be, and even when they are considered to be well-described, the description is often based on non-Indigenous knowledge.
 
 LDaCA is contributing to component five of the sub-theme by developing methods to make it easier to enrich existing descriptions of data, with the aim of moving towards Indigenous knowledges as the basis for the description of Indigenous data. We have carried out a pilot project with The University of Queensland libraries, in which records from the library system have been enriched with additional annotations based on Indigenous knowledges of the collection items. The results of this project can be seen in a dedicated [data portal](https://ild.ldaca.edu.au/search).
 
@@ -118,7 +117,7 @@ LDaCA is contributing to component five of the sub-theme by developing methods t
 
 ### Component 6: Repatriate language materials and cultural knowledge to community ownership and control
 
-The A in the {{< glossary_link display="CARE" id="care" >}} principles stands for **Authority to control**. LDaCA’s approach to sustainable data includes a commitment to storing explicit licences with data, detailing in plain text who can access data and what the data can be used for. In line with component six, the communities and people who are the source of Indigenous data have the authority to make decisions about such matters: they decide who can access data and what users can do with the data.
+The A in the <GlossaryLink display="CARE" id="care" /> principles stands for **Authority to control**. LDaCA’s approach to sustainable data includes a commitment to storing explicit licences with data, detailing in plain text who can access data and what the data can be used for. In line with component six, the communities and people who are the source of Indigenous data have the authority to make decisions about such matters: they decide who can access data and what users can do with the data.
 
 LDaCA has developed policies and technical solutions for implementing such access controls that make ongoing administration of access as straightforward as possible. We are sharing ideas and solutions with our colleagues in the Indigenous stream of the [HASS and Indigenous Research Data Commons](https://ardc.edu.au/hass-and-indigenous-research-data-commons/). The solutions that we are using for Indigenous data can also apply to other human-sourced data. As [Levi-Craig Murray](https://mspgh.unimelb.edu.au/centres-institutes/onemda/research-group/indigenous-studies-unit/about-us/our-team/levi-craig-murray) is fond of saying: “What's good for mob, is good for everyone”.
 
@@ -126,7 +125,7 @@ LDaCA has developed policies and technical solutions for implementing such acces
 
 ### Component 1: Embed Aboriginal and Torres Strait Islander cultural practices and knowledge systems into linguistic methodologies
 
-As stated above, we see all of the activities from components two to six as contributing to the aim of embedding Indigenous knowledges and cultural practices into our methodologies. When working with language material, LDaCA is guided by {{< glossary_link display="FAIR" id="fair" >}} and {{< glossary_link display="CARE" id="care" >}} principles (Carroll et al. 2020; Carroll et al. 2021; Wilkinson et al. 2016). The FAIR principles provide guidance on ensuring that data will be useful in the future, though they do this from a Western scientific perspective. The CARE principles extend the FAIR data management principles and we hope that our commitment to these principles assists us in contributing to the goals of the _Voices of Country_ plan:
+As stated above, we see all of the activities from components two to six as contributing to the aim of embedding Indigenous knowledges and cultural practices into our methodologies. When working with language material, LDaCA is guided by <GlossaryLink display="FAIR" id="fair" /> and <GlossaryLink display="CARE" id="care" /> principles (Carroll et al. 2020; Carroll et al. 2021; Wilkinson et al. 2016). The FAIR principles provide guidance on ensuring that data will be useful in the future, though they do this from a Western scientific perspective. The CARE principles extend the FAIR data management principles and we hope that our commitment to these principles assists us in contributing to the goals of the _Voices of Country_ plan:
 
 - Making data more sustainable and more informed by Indigenous knowledges helps ensure that Indigenous communities benefit from the data.
 - Providing accessible solutions for access management contributes to First Nations people’s authority to control Indigenous data.

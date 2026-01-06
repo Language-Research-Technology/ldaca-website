@@ -32,9 +32,9 @@ The Griffith University eResearch Services built the web interface and hosted th
 
 The Alveo virtual laboratory still exists, in principle, but has not been regularly maintained since 2019, and its services are rarely operational. With no ongoing funding and no staff member affiliated with the AusNC project, Griffith University indicated that it could not maintain the AusNC data sets and interface, and closed those facilities when the data was transferred to LDaCA in 2023.<sup><a name="back-1" >[1](#fn-1)</a></sup> All the original data sets are now available (or are in the process of being made available) through the LDaCA data portal, and in one case, there is a substantial increase in the amount of data available (see discussion of Mitchell and Delbridge below).
 
-<br>
+<br />
 
-{{< image Src="/ausnc/Frequency.png" Alt="Screenshot of the Australian National Corpus interface showing results of a frequency search." Desc="Figure 1: Results of a frequency search in the Australian National Corpus interface." Title="Results of a frequency search in the Australian National Corpus interface." Ref="LDaCA" Height="500" >}}
+<img src="./Frequency.png" alt="Screenshot of the Australian National Corpus interface showing results of a frequency search." Desc="Figure 1: Results of a frequency search in the Australian National Corpus interface." Title="Results of a frequency search in the Australian National Corpus interface." ref="LDaCA" height="500" />
 
 <br>
 
@@ -98,7 +98,7 @@ Opportunistic {{< glossary_link display="data collection" id="data-collection" >
 
 <br>
 
-{{< image Src="/ausnc/AusNC-logo.jpg" Alt="The Australian National Corpus logo." Desc="Figure 2: The Australian National Corpus logo." Title="The Australian National Corpus logo." Ref="LDaCA" >}}
+<img src="./AusNC-logo.jpg" alt="The Australian National Corpus logo." desc="Figure 2: The Australian National Corpus logo." title="The Australian National Corpus logo." ref="LDaCA" />
 
 <br>
 

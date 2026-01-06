@@ -9,7 +9,7 @@ weight: 2
 ---
 
 > A collection of resources for people interested in finding, accessing and using data.
-{{< raw >}}
+
 <article class="archive-item">
     <a href="/resources/user-guides/portal/" class="archive-item-link">
         <h2 class="archive-item-title">Portal User Guide</h2>
@@ -71,5 +71,3 @@ weight: 2
         <p class="archive-item-description"> Learn about the work of the Language Technology and Data Analysis Laboratory and how it can support you. </p>
     </a>
 </article>
-
-{{< /raw >}}
