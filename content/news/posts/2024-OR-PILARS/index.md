@@ -9,10 +9,10 @@
   layout: post
 ---
 
-<a href="2024-OR-PILARS.pdf">PDF version</a> | <a href="2024-OR-PILARS.pptx">Powerpoint Version</a>
+<a href="./2024-OR-PILARS.pdf">PDF version</a> | <a href="./2024-OR-PILARS.pptx">Powerpoint Version</a>
 
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
-<img src='Slide00.png' alt='A comprehensive, open and sustainable set of principles protocols and tools for low (and high) resource archival-repositories :: Peter Sefton, Robert McLellan, Michael Lynch**, Moises Sacal Bonequi*, Nick Thieberger*** ::  :: ' title='Slide: 0' border='1'  width='85%%'/>
+<img src='./Slide00.png' alt='A comprehensive, open and sustainable set of principles protocols and tools for low (and high) resource archival-repositories :: Peter Sefton, Robert McLellan, Michael Lynch**, Moises Sacal Bonequi*, Nick Thieberger*** ::  :: ' title='Slide: 0' border='1'  width='85%%'/>
 
 # From “R-Drive to [RRKive](https://www.rrkive.org/)” – a comprehensive, open and sustainable set of principles and tools for low (and high) resource archival-repositories
 
@@ -37,14 +37,14 @@ NOTE: Since the abstract was submitted we have adopted the name “Protocols” 
 </section>
 
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
-<img src='Slide01.png' alt='collect &amp; :: organise :: Language data is rarely organised or described in reusable ways, if it&#x27;s described at all :: care for :: A lot of language data is at risk of being lost forever  :: find :: It’s difficult to know what language data exists and where to find it :: Ad hoc tools, analysis and annotation methods are used, lacking reproducibility :: Shared tools and technologies can be used to analyse, reuse, annotate and enhance data at scale :: access :: Processes for granting permissions and getting access to data are either absent or aren’t easy to understand or apply :: analyse :: Standards and tools are available and being applied by data stewards :: Good governance and standardised, distributed storage of data helps  :: preserve data :: Discovering and locating language data is easy via linked portals :: Access controls are in place and easy to use, so that data access can be given to the right people  :: Starting state (2021) :: Desired state (2028) :: LDaCA Execution Strategy Overview (Draft 2024-05-17) ::  :: Strengthen the data management skills of language worker communities  :: Develop shared tools, standards and technical infrastructure to help data stewards care for  data for the long term :: Build data portals with useful search functions and lightweight technical structures :: Create guidance for data stewards to document and grant access and reuse rights :: Support language communities to gain greater control over their language data :: Develop tools for data and metadata processing, analysis, annotation, visualisation, and enrichment :: Develop and guide the implementationof policy and governance toolkit :: Provide examples and training for research at scale :: Activities :: guide :: Best practice advice and training for working with language data is available from a single source which is easy to find :: Guidance and training for collecting, handling, using and analysing data are scattered and hard to find :: ' title='Slide: 1' border='1'  width='85%%'/>
+<img src='./Slide01.png' alt='collect &amp; :: organise :: Language data is rarely organised or described in reusable ways, if it&#x27;s described at all :: care for :: A lot of language data is at risk of being lost forever  :: find :: It’s difficult to know what language data exists and where to find it :: Ad hoc tools, analysis and annotation methods are used, lacking reproducibility :: Shared tools and technologies can be used to analyse, reuse, annotate and enhance data at scale :: access :: Processes for granting permissions and getting access to data are either absent or aren’t easy to understand or apply :: analyse :: Standards and tools are available and being applied by data stewards :: Good governance and standardised, distributed storage of data helps  :: preserve data :: Discovering and locating language data is easy via linked portals :: Access controls are in place and easy to use, so that data access can be given to the right people  :: Starting state (2021) :: Desired state (2028) :: LDaCA Execution Strategy Overview (Draft 2024-05-17) ::  :: Strengthen the data management skills of language worker communities  :: Develop shared tools, standards and technical infrastructure to help data stewards care for  data for the long term :: Build data portals with useful search functions and lightweight technical structures :: Create guidance for data stewards to document and grant access and reuse rights :: Support language communities to gain greater control over their language data :: Develop tools for data and metadata processing, analysis, annotation, visualisation, and enrichment :: Develop and guide the implementationof policy and governance toolkit :: Provide examples and training for research at scale :: Activities :: guide :: Best practice advice and training for working with language data is available from a single source which is easy to find :: Guidance and training for collecting, handling, using and analysing data are scattered and hard to find :: ' title='Slide: 1' border='1'  width='85%%'/>
 
 This slide summarises the aims of the Language Data Commons of Australia project.
 
 </section>
 
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
-<img src='Slide02.png' alt='collect &amp; :: organise :: Language data is rarely organised or described in reusable ways, if it&#x27;s described at all :: care for :: A lot of language data is at risk of being lost forever  :: find :: It’s difficult to know what language data exists and where to find it :: Ad hoc tools, analysis and annotation methods are used, lacking reproducibility :: Shared tools and technologies can be used to analyse, reuse, annotate and enhance data at scale :: access :: Processes for granting permissions and getting access to data are either absent or aren’t easy to understand or apply :: analyse :: Standards and tools are available and being applied by data stewards :: Good governance and standardised, distributed storage of data helps  :: preserve data :: Discovering and locating language data is easy via linked portals :: Access controls are in place and easy to use, so that data access can be given to the right people  :: Starting state (2021) :: Desired state (2028) :: LDaCA Execution Strategy Overview  (Draft 2024-05-17) ::  :: Strengthen the data management skills of language worker communities  :: Develop shared tools, standards and technical infrastructure to help data stewards care for  data for the long term :: Build data portals with useful search functions and lightweight technical structures :: Create guidance for data stewards to document and grant access and reuse rights :: Support language communities to gain greater control over their language data :: Develop tools for data and metadata processing, analysis, annotation, visualisation, and enrichment :: Develop and guide the implementationof policy and governance toolkit :: Provide examples and training for research at scale :: Activities :: guide :: Best practice advice and training for working with language data is available from a single source which is easy to find :: Guidance and training for collecting, handling, using and analysing data are scattered and hard to find ::  :: ' title='Slide: 2' border='1'  width='85%%'/>
+<img src='./Slide02.png' alt='collect &amp; :: organise :: Language data is rarely organised or described in reusable ways, if it&#x27;s described at all :: care for :: A lot of language data is at risk of being lost forever  :: find :: It’s difficult to know what language data exists and where to find it :: Ad hoc tools, analysis and annotation methods are used, lacking reproducibility :: Shared tools and technologies can be used to analyse, reuse, annotate and enhance data at scale :: access :: Processes for granting permissions and getting access to data are either absent or aren’t easy to understand or apply :: analyse :: Standards and tools are available and being applied by data stewards :: Good governance and standardised, distributed storage of data helps  :: preserve data :: Discovering and locating language data is easy via linked portals :: Access controls are in place and easy to use, so that data access can be given to the right people  :: Starting state (2021) :: Desired state (2028) :: LDaCA Execution Strategy Overview  (Draft 2024-05-17) ::  :: Strengthen the data management skills of language worker communities  :: Develop shared tools, standards and technical infrastructure to help data stewards care for  data for the long term :: Build data portals with useful search functions and lightweight technical structures :: Create guidance for data stewards to document and grant access and reuse rights :: Support language communities to gain greater control over their language data :: Develop tools for data and metadata processing, analysis, annotation, visualisation, and enrichment :: Develop and guide the implementationof policy and governance toolkit :: Provide examples and training for research at scale :: Activities :: guide :: Best practice advice and training for working with language data is available from a single source which is easy to find :: Guidance and training for collecting, handling, using and analysing data are scattered and hard to find ::  :: ' title='Slide: 2' border='1'  width='85%%'/>
 
 The area of the strategy we’re focusing on for this presentation is highlighted – tools, standards and technical infrastructure.
 
@@ -63,14 +63,14 @@ Towards the following outcomes:
 </section>
 
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
-<img src='Slide03.png' alt='“Archival Repository” :: ' title='Slide: 3' border='1'  width='85%%'/>
+<img src='./Slide03.png' alt='“Archival Repository” :: ' title='Slide: 3' border='1'  width='85%%'/>
 
 We don’t need to define the term “Repository” at the Open Repositories conference, but we do need to define a term that we use at LDaCA when we talk about Repositories – we use the inclusive term “Archival Repository” to refer to systems designed to keep data for the long term. We do this to avoid drawing boundaries around what is a “repository” vs an “archive” or a Digital Preservation system and to include as many practitioners as possible in the conversation.
 
 </section>
 
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
-<img src='Slide04.png' alt=' :: ' title='Slide: 4' border='1'  width='85%%'/>
+<img src='./Slide04.png' alt=' :: ' title='Slide: 4' border='1'  width='85%%'/>
 
 The first implementation of this stream of work was the [UTS Research Data Portal] – this has not been updated for a while due to staffing changes at the university and a lack of ongoing governance that made the data repository dependent on individual people (three of whom are authors of this paper and no longer work for UTS), but as of mid-2024 it is being renovated and revitalised.
 
@@ -79,14 +79,14 @@ The first implementation of this stream of work was the [UTS Research Data Porta
 </section>
 
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
-<img src='Slide05.png' alt='' title='Slide: 5' border='1'  width='85%%'/>
+<img src='./Slide05.png' alt='' title='Slide: 5' border='1'  width='85%%'/>
 
 This screenshot shows what an LDaCA site looks like; a typical data-discovery portal. Underneath is not a typical (by Open Repositories standards) repository solution like Dspace, Innvenio or EPrints, all of which are more or less monolithic architectures. Following the implementation protocols we will discuss below, data is very much considered separately from the application used to provide views of the Archival Repository.
 
 </section>
 
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
-<img src='Slide06.png' alt='LDACA PARADISEC INDEX SCREENSHOT ::  :: ' title='Slide: 6' border='1'  width='85%%'/>
+<img src='./Slide06.png' alt='LDACA PARADISEC INDEX SCREENSHOT ::  :: ' title='Slide: 6' border='1'  width='85%%'/>
 
 This slide shows a collage of images from the [PARADISEC](https://www.paradisec.org.au/) catalogue and some images of the materials that have been digitised. Objects in the collection range from manuscript images to dynamic media, predominantly audio from analog tapes which are now at risk of loss due to old age.
 
@@ -95,14 +95,14 @@ PARADISEC’s separation of data-at-rest from portal application was one of the 
 </section>
 
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
-<img src='Slide07.png' alt='' title='Slide: 7' border='1'  width='85%%'/>
+<img src='./Slide07.png' alt='' title='Slide: 7' border='1'  width='85%%'/>
 
 Opening Australia’s Multilingual Archive is a collection of linked documents, authors and places which was created in Heurist, a legacy digital humanities web app - we used it as a proof-of-concept for getting the objects and their relationships crosswalked from Heurist’s native XML format to an RO-Crate, giving us a file-based archive of the collection. We then extended the LDaCA data discovery portal to include maps and timelines. This gives the sort of rich, immersive data exploration typical of custom websites.
 
 </section>
 
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
-<img src='Slide08.png' alt='Context and history ::  :: ' title='Slide: 8' border='1'  width='85%%'/>
+<img src='./Slide08.png' alt='Context and history ::  :: ' title='Slide: 8' border='1'  width='85%%'/>
 
 The work we are presenting here builds on “Arkisto”, an initiative started in 2019 and funded by an ARDC precursor, the Australian National Data Service. Arkisto was an _informal_ collaboration between the University of Technology Sydney and PARADISEC with contributions from AARNet and the State Library of NSW, and resulted in a website that articulated some principles and use cases for designing sustainable repositories. The initial work was presented at OR 2021.
 The Arkisto approach is summarised on the home page:
@@ -112,7 +112,7 @@ The approach, and the standards it mentioned, the Oxford Common File Layout (OCF
 </section>
 
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
-<img src='Slide09.png' alt=' ::  ::  ::  ::  :: Not really a platform, the core idea was a set of principles :: These are two important specifications but we should not have tied Arkisto to just these two :: THIS BIT IS WHAT WE *REALLY* MEANT TO SAY :: ' title='Slide: 9' border='1'  width='85%%'/>
+<img src='./Slide09.png' alt=' ::  ::  ::  ::  :: Not really a platform, the core idea was a set of principles :: These are two important specifications but we should not have tied Arkisto to just these two :: THIS BIT IS WHAT WE *REALLY* MEANT TO SAY :: ' title='Slide: 9' border='1'  width='85%%'/>
 
 The Arkisto work was helpful in that it aided in securing funding and was the starting point for principled development of Archival Repository solutions. However, it had a few issues.
 
@@ -125,7 +125,7 @@ We decided to revisit the Arkisto approach, separating out principles (CARE and 
 </section>
 
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
-<img src='Slide10.png' alt='' title='Slide: 10' border='1'  width='85%%'/>
+<img src='./Slide10.png' alt='' title='Slide: 10' border='1'  width='85%%'/>
 
 Here we introduce the PILARS protocols, which the lead of the LDaCA project, Professor Michael Haugh, described as a guide to implementing “CAREul FAIRness”, referring to the CARE and FAIR principles.
 This is a snapshot of the current draft. The Protocols have a persistent identifier: <http://w3id.org/ldac/pilars>
@@ -133,7 +133,7 @@ This is a snapshot of the current draft. The Protocols have a persistent identif
 </section>
 
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
-<img src='Slide11.png' alt=' ::  :: ' title='Slide: 11' border='1'  width='85%%'/>
+<img src='./Slide11.png' alt=' ::  :: ' title='Slide: 11' border='1'  width='85%%'/>
 
 The [CARE] principles frame the [FAIR] principles with an emphasis on the rights of Indigenous Peoples, and (we think on the LDaCA project) have relevance to any data.
 
@@ -145,21 +145,21 @@ The [CARE] principles frame the [FAIR] principles with an emphasis on the rights
 </section>
 
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
-<img src='Slide12.png' alt=' ::  :: ' title='Slide: 12' border='1'  width='85%%'/>
+<img src='./Slide12.png' alt=' ::  :: ' title='Slide: 12' border='1'  width='85%%'/>
 
 PILARS is being managed on GitHub in a public repository, which means anyone can contribute via issues or pull requests.
 
 </section>
 
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
-<img src='Slide13.png' alt=' ::  :: ' title='Slide: 13' border='1'  width='85%%'/>
+<img src='./Slide13.png' alt=' ::  :: ' title='Slide: 13' border='1'  width='85%%'/>
 
 Setting up the governance is still in progress, but we will be formalising this drawing on the expertise of Robert McLellan - one of the authors of this presentation. The current plan is to use a variant of GitHub’s [Minimum Viable Governance model](https://github.com/github/MVG) which explains how to create a consensus-based governance system with a management committee.
 
 </section>
 
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
-<img src='Slide14.png' alt=' ::  :: 1 Data is Portable: assets are not locked-in to a particular mode of storage, interface or service ::  :: (TLDR; Use OCFL) :: ' title='Slide: 14' border='1'  width='85%%'/>
+<img src='./Slide14.png' alt=' ::  :: 1 Data is Portable: assets are not locked-in to a particular mode of storage, interface or service ::  :: (TLDR; Use OCFL) :: ' title='Slide: 14' border='1'  width='85%%'/>
 
 We will now introduce the three main PILARS protocols one by one.
 
@@ -190,7 +190,7 @@ We will now introduce the three main PILARS protocols one by one.
 </section>
 
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
-<img src='Slide15.png' alt='2  Data is Annotated: contents, structure, provenance and access and reuse permissions are comprehensively described with metadata and licenses ::  :: (TLDR; Use RO-Crate) :: ' title='Slide: 15' border='1'  width='85%%'/>
+<img src='./Slide15.png' alt='2  Data is Annotated: contents, structure, provenance and access and reuse permissions are comprehensively described with metadata and licenses ::  :: (TLDR; Use RO-Crate) :: ' title='Slide: 15' border='1'  width='85%%'/>
 
 2 Data is Annotated: contents, structure, provenance and access and reuse permissions are comprehensively described with metadata and licenses.
 
@@ -211,7 +211,7 @@ We will now introduce the three main PILARS protocols one by one.
 </section>
 
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
-<img src='Slide16.png' alt='3 Governance  :: (No shortcuts here – this is the hard part) ::  :: ' title='Slide: 16' border='1'  width='85%%'/>
+<img src='./Slide16.png' alt='3 Governance  :: (No shortcuts here – this is the hard part) ::  :: ' title='Slide: 16' border='1'  width='85%%'/>
 
 3 Governance
 
@@ -230,7 +230,7 @@ The first two Protocols are about data storage and description and are the core 
 </section>
 
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
-<img src='Slide17.png' alt='' title='Slide: 17' border='1'  width='85%%'/>
+<img src='./Slide17.png' alt='' title='Slide: 17' border='1'  width='85%%'/>
 
 The initial work on establishing Archival Repository infrastructure for the Language Data Commons of Australia focussed on re-housing existing data sets which were in a variety of legacy web applications, with data and metadata locked up in the likes of WordPress and Zope websites. The best of these applications from a migration perspective was the data from Alveo (Burnham et al., 2014); this was available in a Fedora-based repository which was only intermittently available due to support issues and more usefully, a copy of the data stored on disk with linked-data metadata files (N-Triples) allowed us to migrate those collections to the Arkisto standards-stack by cross walking files directly.
 
@@ -241,7 +241,7 @@ Subsequently, the team has been working with other legacy and contemporary resea
 </section>
 
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
-<img src='Slide18.png' alt='' title='Slide: 18' border='1'  width='85%%'/>
+<img src='./Slide18.png' alt='' title='Slide: 18' border='1'  width='85%%'/>
 
 The above diagram shows the current state of known PILARS implementation as of the middle of 2024.
 
@@ -260,28 +260,28 @@ We showed screenshots for the [OMAA](https://omaa-arts.sydney.edu.au/) above.
 </section>
 
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
-<img src='Slide19.png' alt=' ::  :: ' title='Slide: 19' border='1'  width='85%%'/>
+<img src='./Slide19.png' alt=' ::  :: ' title='Slide: 19' border='1'  width='85%%'/>
 
 The [RRKive](https://rrkive.org) website is the project site that will contain additional information about PILARS – how to implement the protocols, open source software, presentations etc. to supplement PILARS.
 
 </section>
 
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
-<img src='Slide20.png' alt=' ::  :: Pronunciation guide – talk like it’s the 19th of September  :: ' title='Slide: 20' border='1'  width='85%%'/>
+<img src='./Slide20.png' alt=' ::  :: Pronunciation guide – talk like it’s the 19th of September  :: ' title='Slide: 20' border='1'  width='85%%'/>
 
 Note – pronounce the “RR” pirate-fashion.
 
 </section>
 
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
-<img src='Slide21.png' alt='' title='Slide: 21' border='1'  width='85%%'/>
+<img src='./Slide21.png' alt='' title='Slide: 21' border='1'  width='85%%'/>
 
 This slide shows a conceptual architecture for [PARADISEC] with some statistics about its large and important collection.
 
 </section>
 
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
-<img src='Slide22.png' alt=' :: _ something about licensing  :: A summary of the LDaCA architecture vs  :: ' title='Slide: 22' border='1'  width='85%%'/>
+<img src='./Slide22.png' alt=' :: _ something about licensing  :: A summary of the LDaCA architecture vs  :: ' title='Slide: 22' border='1'  width='85%%'/>
 
 As we are dealing with resources created by people, with inherent rights in what they say and perform, the RRKive approach has a baked-in expectation that _access control_ will be needed, in order to respect ICIP, moral rights and legal and ethical constraints imposed by research institutions and “the law of the land” (although within the so-called Australian context, lands were never ceded by the original long-term custodians, and still today, no legitimate legal instrument, or agreement exists to suggest otherwise) we need to provide mechanisms for authorised data access which is why we engage the above mentioned Indigenous Data Sovereignty principles. And it cannot be emphasised enough that implementing a license-based access system is the easy part of this, it is the engagement with rights-holders which can take a lot of time and effort.
 
@@ -292,14 +292,14 @@ Both PARADISEC and Nyingarn at this stage use ‘traditional’ access control l
 </section>
 
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
-<img src='Slide23.png' alt=' ::  :: ' title='Slide: 23' border='1'  width='85%%'/>
+<img src='./Slide23.png' alt=' ::  :: ' title='Slide: 23' border='1'  width='85%%'/>
 
 The Language Data Commons of Australia (LDaCA) has extensive materials for partners bringing data to the project about how to work our data licensing issues, obtain a DOI, prepare data for ingest and source long-term storage, remembering that LDaCA is a project and cannot provide perennity for data.
 
 </section>
 
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
-<img src='Slide24.png' alt=' The Language Data Commons of Australia Data Partnerships (LDaCA-DP), Language Data Commons of Australia Research Data Commons (LDaCA-RDC), and Australian Text Analytics Platform (ATAP) projects received investment
+<img src='./Slide24.png' alt=' The Language Data Commons of Australia Data Partnerships (LDaCA-DP), Language Data Commons of Australia Research Data Commons (LDaCA-RDC), and Australian Text Analytics Platform (ATAP) projects received investment
 (<https://doi.org/10.47486/DP768>, <https://doi.org/10.47486/HIR001>, & <https://doi.org/10.47486/PL074>)
 from the Australian Research Data Commons (ARDC).  The ARDC is funded by the National Collaborative Research Infrastructure Strategy (NCRIS).' title='Slide: 24' border='1'  width='85%%'/>
 

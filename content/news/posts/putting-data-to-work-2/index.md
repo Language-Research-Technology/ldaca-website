@@ -38,7 +38,7 @@ Our focus moved from vulgar language to the idea of 'unparliamentary language'. 
 
 <br>
 
-Once you have found a section of Hansard which interests you, you can download the material in various ways. You can have a PDF version of the fragment which you are viewing on your screen (that is a single 'speech'), or you can have the proceedings for the whole day (for whichever chamber you are looking at) as a PDF or as an {{< glossary_link display="XML" id="xml" >}} file (see Figure 2).
+Once you have found a section of Hansard which interests you, you can download the material in various ways. You can have a PDF version of the fragment which you are viewing on your screen (that is a single 'speech'), or you can have the proceedings for the whole day (for whichever chamber you are looking at) as a PDF or as an <GlossaryLink display="XML" id="xml" /> file (see Figure 2).
 
 <br>
 
@@ -49,11 +49,11 @@ Once you have found a section of Hansard which interests you, you can download t
 
 <br>
 
-The XML {{< glossary_link display="format" id="format" >}} provides a lot of valuable information, but is also verbose — the example in Figure 1 encodes a speech which consists of only 24 words! ParlInfo does not have functionality to download more than the proceedings of one House on one day at a time. Fortunately, the indefatigable [Tim Sherratt](https://timsherratt.au/) has created an [archive](https://glam-workbench.net/hansard/) of the XML versions, but there are still problems. No XML versions exist for the period 1980 to 1998 (because... because) and Tim's archive finishes with 2005, after which [Open Australia](https://www.openaustralia.org.au/) is the source for XML.
+The XML <GlossaryLink display="format" id="format" /> provides a lot of valuable information, but is also verbose — the example in Figure 1 encodes a speech which consists of only 24 words! ParlInfo does not have functionality to download more than the proceedings of one House on one day at a time. Fortunately, the indefatigable [Tim Sherratt](https://timsherratt.au/) has created an [archive](https://glam-workbench.net/hansard/) of the XML versions, but there are still problems. No XML versions exist for the period 1980 to 1998 (because... because) and Tim's archive finishes with 2005, after which [Open Australia](https://www.openaustralia.org.au/) is the source for XML.
 
 <br>
 
-We wanted to be able to work with the whole record of the Australian Parliament with the actual text easily accessible. Given the intermission in the XML source and because Sam is very clever in these matters, the solution we adopted was to scrape the data from ParlInfo and store it all in a database. The underlying source of the web version contains less information than the XML version, but does provide basic {{< glossary_link display="metadata" id="metadata" >}}, such as which parliament the material came from, what date the speeches occurred on and what debate they were part of.<sup><a name="back-1" >[1](#fn-1)</a></sup>
+We wanted to be able to work with the whole record of the Australian Parliament with the actual text easily accessible. Given the intermission in the XML source and because Sam is very clever in these matters, the solution we adopted was to scrape the data from ParlInfo and store it all in a database. The underlying source of the web version contains less information than the XML version, but does provide basic <GlossaryLink display="metadata" id="metadata" />, such as which parliament the material came from, what date the speeches occurred on and what debate they were part of.<sup><a name="back-1" >[1](#fn-1)</a></sup>
 
 <br>
 
@@ -69,7 +69,7 @@ Using the search capability of a text processor might seem like a good starting 
 
 ## Clustering
 
-Not all examples of _unparliamentary_ relate immediately to unparliamentary language, but we would expect most instances of unparliamentary language to have the word somewhere in the vicinity. Text analysis has one well-known {{< glossary_link display="tool" id="tools" >}} for looking at words which tend to co-occur, called 'collocation analysis'. The idea is that software can count co-occurrences of words in a window of a certain size around a target word (generally around five words on either side). The probability can be calculated of a pair of words occurring in that window given their rate of occurrence in the whole text sample, and this can be compared with the observed rate of co-occurrence. If a word is co-occurring with the target more often than we would expect from overall frequencies, this can be significant.
+Not all examples of _unparliamentary_ relate immediately to unparliamentary language, but we would expect most instances of unparliamentary language to have the word somewhere in the vicinity. Text analysis has one well-known <GlossaryLink display="tool" id="tools" /> for looking at words which tend to co-occur, called 'collocation analysis'. The idea is that software can count co-occurrences of words in a window of a certain size around a target word (generally around five words on either side). The probability can be calculated of a pair of words occurring in that window given their rate of occurrence in the whole text sample, and this can be compared with the observed rate of co-occurrence. If a word is co-occurring with the target more often than we would expect from overall frequencies, this can be significant.
 
 <br>
 
@@ -84,7 +84,7 @@ Collocation analysis gave us some insights into two kinds of other words which o
 
 <br>
 
-We also applied a more complex {{< glossary_link display="method" id="methods" >}} for examining clusters of words, a method for which Sam has been developing a tool. This method starts by clustering words algorithmically according to patterns of co-occurrence across some unit of analysis, in this case, the speech (as discussed above, this is the unit into which proceedings are divided). The initial clusters can then be sorted according to how similar they are to the words which occur in speeches which include the word _unparliamentary_. We selected the 50 clusters most similar to the unparliamentary speeches and then focused on the 20 most similar words in each of those clusters. This analysis confirmed and extended the collocation analysis, and we identified six broad conceptual clusters in the data:
+We also applied a more complex <GlossaryLink display="method" id="methods" /> for examining clusters of words, a method for which Sam has been developing a tool. This method starts by clustering words algorithmically according to patterns of co-occurrence across some unit of analysis, in this case, the speech (as discussed above, this is the unit into which proceedings are divided). The initial clusters can then be sorted according to how similar they are to the words which occur in speeches which include the word _unparliamentary_. We selected the 50 clusters most similar to the unparliamentary speeches and then focused on the 20 most similar words in each of those clusters. This analysis confirmed and extended the collocation analysis, and we identified six broad conceptual clusters in the data:
 - procedural
 - type of unparliamentary language
 - uptake of unparliamentary language

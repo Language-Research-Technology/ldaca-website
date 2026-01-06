@@ -7,7 +7,7 @@ description: "A list of the Oni data portals currently available, including thei
 
 <br>
 
-> This page lists, and links to, the {{< glossary_link display="Oni" id="oni" >}} portals currently available, together with the {{< glossary_link display="collections" id="collection" >}} contained in each. As additional collections and portals are added, these will be documented below. To find out more about each collection, simply click through to be redirected to the [Collections](/about/sample-collections/) page.
+> This page lists, and links to, the <GlossaryLink display="Oni" id="oni" /> portals currently available, together with the <GlossaryLink display="collections" id="collection" /> contained in each. As additional collections and portals are added, these will be documented below. To find out more about each collection, simply click through to be redirected to the [Collections](/about/sample-collections/) page.
 
 <br>
 
@@ -37,7 +37,7 @@ __Current Collections:__
 
 __Current Collections:__
 
-{{< glossary_link display="UQ" id="uq" >}} Indigenous Language Collection:
+<GlossaryLink display="UQ" id="uq" /> Indigenous Language Collection:
 - [Elwyn Flint Collection, UQFL173](/about/sample-collections/#elwyn-flint-collection-uqfl173)
 - [Fryer Library, The University of Queensland](/about/sample-collections/#fryer-library-the-university-of-queensland)
 - UQ Library Collection

@@ -7,10 +7,10 @@ description: "Learn more about our project's structure and partnerships."
 
 <br>
 
-{{< glossary_link display="LDaCA" id="ldaca" >}} is a partnership between the Australian Research Data Commons ([ARDC](https://ardc.edu.au/)) and the institutions and organisations listed below. The project is led by [Professor Michael Haugh](https://languages-cultures.uq.edu.au/profile/1498/michael-haugh) from the [School of Languages and Cultures](https://languages-cultures.uq.edu.au) at [The University of Queensland](https://www.uq.edu.au).
+<GlossaryLink display="LDaCA" id="ldaca" /> is a partnership between the Australian Research Data Commons ([ARDC](https://ardc.edu.au/)) and the institutions and organisations listed below. The project is led by [Professor Michael Haugh](https://languages-cultures.uq.edu.au/profile/1498/michael-haugh) from the [School of Languages and Cultures](https://languages-cultures.uq.edu.au) at [The University of Queensland](https://www.uq.edu.au).
 
 The Language Data Commons of Australia (LDaCA) project receives [investment](https://doi.org/10.47486/HIR001)
-from the Australian Research Data Commons ({{< glossary_link display="ARDC" id="ardc" >}}) through its [HASS and Indigenous Research Data Commons](https://ardc.edu.au/hass-and-indigenous-research-data-commons/) program.
+from the Australian Research Data Commons (<GlossaryLink display="ARDC" id="ardc" />) through its [HASS and Indigenous Research Data Commons](https://ardc.edu.au/hass-and-indigenous-research-data-commons/) program.
 
 <br>
 
@@ -30,8 +30,8 @@ from the Australian Research Data Commons ({{< glossary_link display="ARDC" id="
 
 ## Advisory/Consultative Partners
 
-- [Pacific and Regional Archive for Digital Sources in Endangered Cultures](https://www.paradisec.org.au) ({{< glossary_link display="PARADISEC" id="paradisec" >}})
-- [Common Language Resources and Technology Infrastructure](https://www.clarin.eu) ({{< glossary_link display="CLARIN" id="clarin" >}})
+- [Pacific and Regional Archive for Digital Sources in Endangered Cultures](https://www.paradisec.org.au) (<GlossaryLink display="PARADISEC" id="paradisec" />)
+- [Common Language Resources and Technology Infrastructure](https://www.clarin.eu) (<GlossaryLink display="CLARIN" id="clarin" />)
 - [Australian Institute of Aboriginal and Torres Strait Islander Studies](https://aiatsis.gov.au/) 
 
 <br>

@@ -7,9 +7,9 @@ aliases:
   - "/licenses/sydney-speaks/license-b/all/v1/"
 ---
 
-<br>
+<br/>
 
-{{< embed-pdf url="./Sydney_Speaks_License_B.pdf" >}}
+<iframe src="./Sydney_Speaks_License_B.pdf" width="100%" height="800px" style="border: none;"></iframe>
 
-<br>
-<br>
+<br/>
+<br/>

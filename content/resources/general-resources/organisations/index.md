@@ -47,13 +47,13 @@ An Indigenous-led, national institute that celebrates, educates and inspires peo
 
 ### [Common Language Resources and Technology Infrastructure (CLARIN)](https://www.clarin.eu/)
 
-A research infrastructure that was initiated from the vision that all digital language resources and {{< glossary_link display="tools" id="tools" >}} from all over Europe and beyond are accessible through an online environment for the support of researchers in the humanities and social sciences.
+A research infrastructure that was initiated from the vision that all digital language resources and <GlossaryLink display="tools" id="tools" /> from all over Europe and beyond are accessible through an online environment for the support of researchers in the humanities and social sciences.
 
 <br>
 
 ### [Endangered Languages Documentation Program (ELDP)](https://www.eldp.net/)
 
-Supports the documentation and preservation of endangered languages through granting, training and outreach activities. The {{< glossary_link display="collections" id="collection" >}} compiled through their funding are freely accessible at the [Endangered Languages Archive](#language-archives).
+Supports the documentation and preservation of endangered languages through granting, training and outreach activities. The <GlossaryLink display="collections" id="collection" /> compiled through their funding are freely accessible at the [Endangered Languages Archive](#language-archives).
 
 <br>
 

@@ -6,7 +6,6 @@ draft: true
 
 If you believe that something on our website or data portal shouldn't be available publicly, please review our [takedown policy](https://docs.google.com/document/d/16EoJfwJzZFP6fnHDmh8DLymoWI88rV0As4MYFsKFbVQ/edit?usp=sharing) and submit the form below.
 
-{{< raw >}}
 
 <div class="flex_container">
     <form class="contact_form" action="">
@@ -23,4 +22,3 @@ If you believe that something on our website or data portal shouldn't be availab
 </div>
 <br>
 
-{{< /raw >}}

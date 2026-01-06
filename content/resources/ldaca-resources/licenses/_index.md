@@ -12,7 +12,7 @@ aliases:
 
 <br>
 
-> Specifies the custom license(s) that data contributors have applied to the content of their {{< glossary_link display="collection" id="collection" >}}, including the content coverage of that license, in cases where these are not already-existing licenses (e.g. Creative Commons).
+> Specifies the custom license(s) that data contributors have applied to the content of their <GlossaryLink display="collection" id="collection" />, including the content coverage of that license, in cases where these are not already-existing licenses (e.g. Creative Commons).
 
 <br>
 

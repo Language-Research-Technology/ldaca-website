@@ -9,7 +9,7 @@ aliases:
 
 <br>
 
-{{< embed-pdf url="./AusESL_DataLicense.pdf" >}}
+<iframe src="./AusESL_DataLicense.pdf" width="100%" height="800px" style="border: none;"></iframe>
 
 <br>
 <br>

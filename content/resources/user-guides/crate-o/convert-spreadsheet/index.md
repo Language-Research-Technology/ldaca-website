@@ -14,24 +14,51 @@ weight: 4
 
 ##### [Tab Breakdown](#tab-breakdown)
 
-- [Examples in the Template](#examples-in-the-template)
+- [Template](#template-1)
+- [Metadata Schemas](#metadata-schemas-1)
+- [Tab Breakdown](#tab-breakdown-1)
+  - [Examples in the Template](#examples-in-the-template)
+- [Column Breakdown](#column-breakdown-1)
+  - [RootDataset](#rootdataset)
+  - [@context](#context)
+  - [Custom Terms](#custom-terms)
+    - [Using Custom Terms in Other Tabs](#using-custom-terms-in-other-tabs)
+  - [Authors](#authors)
+  - [Publishers](#publishers)
+  - [Licenses](#licenses)
+  - [Provenance](#provenance)
+  - [People](#people)
+  - [Places](#places)
+  - [Localities](#localities)
+  - [Objects](#objects)
+  - [Files](#files)
+  - [Schemas](#schemas)
+  - [Columns](#columns)
+- [Convert Spreadsheet to an RO-Crate with Crate-O](#convert-spreadsheet-to-an-ro-crate-with-crate-o-1)
 
 ##### [Column Breakdown](#column-breakdown)
 
-- [RootDataset](#rootdataset)
-- [@context](#context)
-- [Custom Terms](#custom-terms)
-- [Authors](#authors)
-- [Publishers](#publishers)
-- [Licenses](#licenses)
-- [Provenance](#provenance)
-- [People](#people)
-- [Places](#places)
-- [Localities](#localities)
-- [Objects](#objects)
-- [Files](#files)
-- [Schemas](#schemas)
-- [Columns](#columns)
+- [Template](#template-1)
+- [Metadata Schemas](#metadata-schemas-1)
+- [Tab Breakdown](#tab-breakdown-1)
+  - [Examples in the Template](#examples-in-the-template)
+- [Column Breakdown](#column-breakdown-1)
+  - [RootDataset](#rootdataset)
+  - [@context](#context)
+  - [Custom Terms](#custom-terms)
+    - [Using Custom Terms in Other Tabs](#using-custom-terms-in-other-tabs)
+  - [Authors](#authors)
+  - [Publishers](#publishers)
+  - [Licenses](#licenses)
+  - [Provenance](#provenance)
+  - [People](#people)
+  - [Places](#places)
+  - [Localities](#localities)
+  - [Objects](#objects)
+  - [Files](#files)
+  - [Schemas](#schemas)
+  - [Columns](#columns)
+- [Convert Spreadsheet to an RO-Crate with Crate-O](#convert-spreadsheet-to-an-ro-crate-with-crate-o-1)
 
 ##### [Convert Spreadsheet to an RO-Crate with Crate-O](#convert-spreadsheet-to-an-ro-crate-with-crate-o)
 
@@ -39,7 +66,7 @@ weight: 4
 
 ## Template
 
-For {{< glossary_link display="collections" id="collection" >}} where there are a lot of interconnected {{< glossary_link display="objects" id="object" >}} and files, it may be easier or preferable to add the {{< glossary_link display="metadata" id="metadata" >}} for these via converting a spreadsheet to an {{< glossary_link display="RO-Crate" id="ro-crate" >}} in {{< glossary_link display="Crate-O" id="crate-o" >}}, rather than adding these items manually. An RO-Crate metadata spreadsheet template can be downloaded below and populated with metadata specific to your collection:
+For <GlossaryLink display="collections" id="collection" /> where there are a lot of interconnected <GlossaryLink display="objects" id="object" /> and files, it may be easier or preferable to add the <GlossaryLink display="metadata" id="metadata" /> for these via converting a spreadsheet to an <GlossaryLink display="RO-Crate" id="ro-crate" /> in <GlossaryLink display="Crate-O" id="crate-o" />, rather than adding these items manually. An RO-Crate metadata spreadsheet template can be downloaded below and populated with metadata specific to your collection:
 
 <br>
 
@@ -49,7 +76,7 @@ For {{< glossary_link display="collections" id="collection" >}} where there are 
 
 > This template can be edited in [Microsoft Excel](https://www.microsoft.com/en-au/microsoft-365/excel), [LibreOffice Calc](https://www.libreoffice.org/discover/calc/) or [Google Sheets](https://google.com/sheets). It is not compatible with Apple Numbers.
 
-The template is based on an example {{< glossary_link display="data collection" id="data-collection" >}} that contains three types of files within each object:
+The template is based on an example <GlossaryLink display="data collection" id="data-collection" /> that contains three types of files within each object:
 
 - Audio files (WAV), the primary material
 - Text files (CSV), transcriptions of the audio files
@@ -58,15 +85,14 @@ The template is based on an example {{< glossary_link display="data collection" 
 > Spreadsheet conversion currently only has functionality to add new data, and cannot overwrite or edit existing data in your RO-Crate.
 
 <br>
-
 ## Metadata Schemas
 
-The spreadsheet uses a number of standard vocabularies for terms. Namespaces such as `ldac` and `pcdm` are prefixed to some {{< glossary_link display="metadata" id="metadata" >}} in the sections below - this is to:
+The spreadsheet uses a number of standard vocabularies for terms. Namespaces such as `ldac` and `pcdm` are prefixed to some <GlossaryLink display="metadata" id="metadata" /> in the sections below - this is to:
 
 - indicate that the term is not a part of the [Schema.org](https://schema.org/) vocabulary which RO-Crate is based on, but uses another namespace
 - avoid overlaps where multiple schemas have the same term but differing usages and definitions.
 
-In {{< glossary_link display="Crate-O" id="crate-o" >}}, these prefixes are hidden for legibility.
+In <GlossaryLink display="Crate-O" id="crate-o" />, these prefixes are hidden for legibility.
 
 <br>
 
@@ -81,21 +107,20 @@ If you have terms specific to your collection that aren't covered by the above s
 > If using a Defined Term (such as those in [Language Data Commons Schema Terms](https://w3id.org/ldac/terms#definedterms) or [Custom Terms](#custom-terms)), add `isTerm_` to the related property in the column header, e.g. a column header `isTerm_ldac:communicationMode` with the value `ldac:SpokenLanguage`.
 
 <br>
-
 ## Tab Breakdown
 
-The spreadsheet has the below tabs by default, but depending on your {{< glossary_link display="collection" id="collection" >}}, you may need to add additional tabs, or others may not be applicable.
+The spreadsheet has the below tabs by default, but depending on your <GlossaryLink display="collection" id="collection" />, you may need to add additional tabs, or others may not be applicable.
 
 <br>
 
 | Tab          | Description                                                                                                                                                                                                                  |
 | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| RootDataset  | {{< glossary_link display="Metadata" id="metadata" >}} about the root or top level of the collection. Unlike the other tabs, the header for the root dataset is vertical rather than horizontal.                             |
+| RootDataset  | <GlossaryLink display="Metadata" id="metadata" /> about the root or top level of the collection. Unlike the other tabs, the header for the root dataset is vertical rather than horizontal.                             |
 | @context     | Specifies the vocabulary or schema that is intended to be used with language data.                                                                                                                                           |
 | Custom Terms | Specifies any terms used that are specific to the collection and not part of other existing metadata schemas.                                                                                                                |
 | Authors      | Metadata about the person or organisation responsible for creating this collection.                                                                                                                                          |
 | Publishers   | Metadata about the organisation responsible for releasing this collection.                                                                                                                                                   |
-| Licenses     | Metadata about the license(s) within the collection, both for the {{< glossary_link display="objects" id="object" >}} and files.                                                                                             |
+| Licenses     | Metadata about the license(s) within the collection, both for the <GlossaryLink display="objects" id="object" /> and files.                                                                                             |
 | Provenance   | Metadata about the documented history or chain of custody of materials from their creation to their current location within a collection.                                                                                    |
 | People       | Metadata about the people within the collection.                                                                                                                                                                             |
 | Places       | Metadata about the places within the collection.                                                                                                                                                                             |
@@ -117,10 +142,10 @@ Below the header, at least one example row is included to illustrate how the sec
 - is pre-filled with a formula or static value and doesn't require editing (<span style="color:green">green</span>)
 - is for internal use and doesn't require editing in most cases (<span style="color:orangered">orange</span>).
 
-> HINT: Highlight the example row and drag it down to copy all the pre-filled cells. Remember to remove the example rows before you convert your spreadsheet in {{< glossary_link display="Crate-O" id="crate-o" >}}!
+> HINT: Highlight the example row and drag it down to copy all the pre-filled cells. Remember to remove the example rows before you convert your spreadsheet in <GlossaryLink display="Crate-O" id="crate-o" />!
 
 The columns provided in the template tabs are illustrative only and may not all apply to your collection; please edit these as needed.
-Where a column header begins with a full stop `.`, this indicates that the column will be ignored when the data is loaded into Crate-O and will not appear in the {{< glossary_link display="RO-Crate" id="ro-crate" >}}. This can be helpful if you want to retain other information in your spreadsheet that may not be in a format applicable to the RO-Crate.
+Where a column header begins with a full stop `.`, this indicates that the column will be ignored when the data is loaded into Crate-O and will not appear in the <GlossaryLink display="RO-Crate" id="ro-crate" />. This can be helpful if you want to retain other information in your spreadsheet that may not be in a format applicable to the RO-Crate.
 
 <br>
 
@@ -132,17 +157,17 @@ At a minimum, it’s best practice to include `@id` and `@type` columns in each 
 
 ## Column Breakdown
 
-The section below describes each of the columns included in the template, ordered by tab. Please note that the columns provided in the template tabs are illustrative only and should be edited according to the requirements of your {{< glossary_link display="collection" id="collection" >}}.
+The section below describes each of the columns included in the template, ordered by tab. Please note that the columns provided in the template tabs are illustrative only and should be edited according to the requirements of your <GlossaryLink display="collection" id="collection" />.
 
 <br>
 
 ### RootDataset
 
-The root dataset tab provides information about the top level of the {{< glossary_link display="collection" id="collection" >}}. Unlike the other tabs, the root dataset tab lists items row by row and can only have one column, so if there are rows that require more than one value (like `@type`), duplicate that row.
+The root dataset tab provides information about the top level of the <GlossaryLink display="collection" id="collection" />. Unlike the other tabs, the root dataset tab lists items row by row and can only have one column, so if there are rows that require more than one value (like `@type`), duplicate that row.
 
 | Column                | Type       | Description                                                                                                                                                                                                                                                                                                                                |
 | --------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| @id                   | Data entry | Persistent, managed unique ID in URL format (if available), for example, a {{< glossary_link display="DOI" id="doi" >}} for a collection. The default for this field is `./` indicating a relative path to your current directory, however, if you already have a persistent ID for the collection, it can be added in this field instead. |
+| @id                   | Data entry | Persistent, managed unique ID in URL format (if available), for example, a <GlossaryLink display="DOI" id="doi" /> for a collection. The default for this field is `./` indicating a relative path to your current directory, however, if you already have a persistent ID for the collection, it can be added in this field instead. |
 | @type                 | Pre-filled | The type of the collection. Both `Dataset` and `RepositoryCollection` are required.                                                                                                                                                                                                                                                        |
 | name                  | Data entry | The name of this collection.                                                                                                                                                                                                                                                                                                               |
 | description           | Data entry | An abstract of the collection. Include as much detail as possible about the motivation and use of the dataset, including things that we do not yet have properties for.                                                                                                                                                                    |
@@ -153,7 +178,7 @@ The root dataset tab provides information about the top level of the {{< glossar
 | datePublished         | Data entry | The date the object was published. The date should be in the ISO 8601 format YYYY-MM-DD.                                                                                                                                                                                                                                                   |
 | inLanguage            | Data entry | The language in which the resource is written. For example, a work about the Italian language as used in Australia (`ldac:subjectLanguage`) that is written in English (`inLanguage`).                                                                                                                                                     |
 | ldac:subjectLanguage  | Data entry | The languages that the materials in the collection are about (not the language that it is in). For example, a work about the Italian language as used in Australia (`ldac:subjectLanguage`) that is written in English (`inLanguage`).                                                                                                     |
-| ldac:metadataIsPublic | Data entry | Determines whether the collection {{< glossary_link display="metadata" id="metadata" >}} can be viewed publicly. Requires a Boolean value (`TRUE` or `FALSE`).                                                                                                                                                                             |
+| ldac:metadataIsPublic | Data entry | Determines whether the collection <GlossaryLink display="metadata" id="metadata" /> can be viewed publicly. Requires a Boolean value (`TRUE` or `FALSE`).                                                                                                                                                                             |
 
 > The prefix `isRef_` indicates that data in this column should be taken from another `@id` field in the spreadsheet. For example, `isRef_author` uses the `@id` from the Author tab to link all the author details to the RootDataset tab.
 
@@ -178,9 +203,9 @@ If you have terms specific to your collection that aren't covered by the existin
 >
 > | Entity            | Description                                                                                                                                                                                                                                                                                                   | Examples                                                                    |
 > | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
-> | Property          | Used for attributes of the thing you are describing, similar to fields you might see on a form.<ul><li>If you want the value of the term to be free text, e.g. name, age, make a property.<li>If you have a set of finite values for the term, like multiple choice, make a property as the overarching term. | <ul><li>motherTongue<li>register                                            |
-> | Defined Term Sets | Used to define a group of terms that can be used under a single property.<ul><li>If you have a set of finite values for a property, like multiple choice, make a defined term set to group these.                                                                                                             | <ul><li>RegisterTerms                                                       |
-> | Defined Terms     | Used for the values of a defined term set that are used under a single property.<ul><li>If you have a set of finite values for a property, like multiple choice, make each of these a defined term.                                                                                                           | <ul><li>GovernmentEnglish<li>PrivateWritten<li>PublicWritten<li>SpeechBased |
+> | Property          | Used for attributes of the thing you are describing, similar to fields you might see on a form.<ul><li>If you want the value of the term to be free text, e.g. name, age, make a property.</li><li>If you have a set of finite values for the term, like multiple choice, make a property as the overarching term.</li></ul> | <ul><li>motherTongue</li><li>register  </li></ul>                                          |
+> | Defined Term Sets | Used to define a group of terms that can be used under a single property.<ul><li>If you have a set of finite values for a property, like multiple choice, make a defined term set to group these.  </li></ul>                                                                                                           | <ul><li>RegisterTerms </li></ul>                                                      |
+> | Defined Terms     | Used for the values of a defined term set that are used under a single property.<ul><li>If you have a set of finite values for a property, like multiple choice, make each of these a defined term.      </li></ul>                                                                                                     | <ul><li>GovernmentEnglish</li><li>PrivateWritten</li><li>PublicWritten</li><li>SpeechBased</li></ul> |
 >
 > In the template, the example contains a property, two defined terms, and a defined term set. The property `#textType` has the defined term set `#TextTypeTerms`, which contains the two defined terms `#Speech` and `#Interview`.
 >
@@ -210,7 +235,7 @@ Once you've listed your custom terms, these can be used throughout the spreadshe
 
 ### Authors
 
-An author is a person or organisation responsible for creating the {{< glossary_link display="collection" id="collection" >}}. It is possible for collections to have multiple authors.
+An author is a person or organisation responsible for creating the <GlossaryLink display="collection" id="collection" />. It is possible for collections to have multiple authors.
 
 | Column | Type       | Description                                                                                                                                                            |
 | ------ | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -219,10 +244,9 @@ An author is a person or organisation responsible for creating the {{< glossary_
 | name   | Data entry | The name of the author. Don't include titles such as Dr/Prof.                                                                                                          |
 
 <br>
-
 ### Publishers
 
-A publisher is an organisation responsible for releasing the {{< glossary_link display="collection" id="collection" >}}. It is possible for collections to have multiple publishers.
+A publisher is an organisation responsible for releasing the <GlossaryLink display="collection" id="collection" />. It is possible for collections to have multiple publishers.
 
 | Column | Type       | Description                                                                                          |
 | ------ | ---------- | ---------------------------------------------------------------------------------------------------- |
@@ -231,10 +255,9 @@ A publisher is an organisation responsible for releasing the {{< glossary_link d
 | name   | Data entry | The name of the organisation.                                                                        |
 
 <br>
-
 ### Licenses
 
-A license for a {{< glossary_link display="collection" id="collection" >}} establishes the conditions for who can access, share and reuse the data, and other conditions as required. It is a legal arrangement between the creator of the data and the end-user specifying what users can do with the data.
+A license for a <GlossaryLink display="collection" id="collection" /> establishes the conditions for who can access, share and reuse the data, and other conditions as required. It is a legal arrangement between the creator of the data and the end-user specifying what users can do with the data.
 
 | Column              | Type       | Description                                                                                                                                                                                                                                                                                                                                            |
 | ------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -246,15 +269,14 @@ A license for a {{< glossary_link display="collection" id="collection" >}} estab
 | isRef_sameAs        | Data entry | Indicates that two items are identical versions of the same license. For example, a Creative Commons license that has a URL as well as a local copy contained within the collection.                                                                                                                                                                   |
 | isRef_isPartOf      | Pre-filled | Specifies the collection that the license is a part of, generated from the `@id` column in the [RootDataset](#rootdataset) tab.                                                                                                                                                                                                                        |
 
-It is possible to leave the {{< glossary_link display="licensing" id="licensing" >}} tab blank if these details are still being finalised for the collection, however, this will need to be amended later in {{< glossary_link display="Crate-O" id="crate-o" >}}.
+It is possible to leave the <GlossaryLink display="licensing" id="licensing" /> tab blank if these details are still being finalised for the collection, however, this will need to be amended later in <GlossaryLink display="Crate-O" id="crate-o" />.
 
 > If there are any additional usage restrictions or options for use outside of a given license, this information can be included in a `usageInfo` field, e.g. "For any use not permitted by the CC-BY-ND 4.0 License, please contact the Data Steward".
 
 <br>
-
 ### Provenance
 
-The provenance for a {{< glossary_link display="collection" id="collection" >}} details the documented history from an item's creation to its current location within a collection, including changes in format and tools required to read the file.
+The provenance for a <GlossaryLink display="collection" id="collection" /> details the documented history from an item's creation to its current location within a collection, including changes in format and tools required to read the file.
 
 | Column       | Type       | Description                                                                                                                                                                             |
 | ------------ | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -268,25 +290,23 @@ The provenance for a {{< glossary_link display="collection" id="collection" >}} 
 | isRef_agent  | Data entry | The direct performer or driver of the action, for example, an ROR for an organisation or an ORCID, personal home page URL or email address for a person.                                |
 
 <br>
-
 ### People
 
-This tab contains information about the people within the {{< glossary_link display="collection" id="collection" >}}.
+This tab contains information about the people within the <GlossaryLink display="collection" id="collection" />.
 
 | Column                      | Type       | Description                                                                                                                                                                                                                                                                                                                           |
 | --------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | @id                         | Pre-filled | A unique identifier for the person, generated from the `name` column. Identifiers should be prefixed with `#`.                                                                                                                                                                                                                        |
 | @type                       | Pre-filled | The type of the entity. Only `Person` is valid.                                                                                                                                                                                                                                                                                       |
 | name                        | Data entry | The name of the person.                                                                                                                                                                                                                                                                                                               |
-| gender                      | Data entry | The gender of the person. An example of an optional {{< glossary_link display="metadata" id="metadata" >}} field from the source data, using a [Schema.org](https://schema.org/) term.                                                                                                                                                |
+| gender                      | Data entry | The gender of the person. An example of an optional <GlossaryLink display="metadata" id="metadata" /> field from the source data, using a [Schema.org](https://schema.org/) term.                                                                                                                                                |
 | birthDate                   | Data entry | The birth date (year) of the person. An example of an optional metadata field from the source data, using a [Schema.org](https://schema.org/) term.                                                                                                                                                                                   |
 | isRef_prov:specializationOf | Data entry | A reference to another Person entity, used for collections where a person appears more than once with different demographic info (e.g. a different age). In these collections, there should be a ‘canonical’ person for each participant and another Person entity each time they participate, with different ages or other statuses. |
 
 <br>
-
 ### Places
 
-This tab contains information about the places within the {{< glossary_link display="collection" id="collection" >}}.
+This tab contains information about the places within the <GlossaryLink display="collection" id="collection" />.
 
 | Column      | Type       | Description                                                                                    |
 | ----------- | ---------- | ---------------------------------------------------------------------------------------------- |
@@ -297,10 +317,9 @@ This tab contains information about the places within the {{< glossary_link disp
 | isRef_geo   | Data entry | The `@id` of the location to which this object relates from the [Localities](#localities) tab. |
 
 <br>
-
 ### Localities
 
-This tab contains information about the geometric locations within the {{< glossary_link display="collection" id="collection" >}}.
+This tab contains information about the geometric locations within the <GlossaryLink display="collection" id="collection" />.
 
 | Column     | Type       | Description                                                                                                                                                          |
 | ---------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -311,10 +330,9 @@ This tab contains information about the geometric locations within the {{< gloss
 | asWKT      | Pre-filled | The WKT serialisation of the geometry, generated from the `.latitude` and `.longitude` columns. Note that `asWKT` format lists longitude first followed by latitude. |
 
 <br>
-
 ### Objects
 
-An {{< glossary_link display="object" id="object" >}} is a single resource or a group of tightly related resources in a {{< glossary_link display="collection" id="collection" >}}. For example, a work (document) in a written corpus, or the files associated with a dialogue or session in a speech study (recordings, transcriptions, etc.). Some systems, such as {{< glossary_link display="PARADISEC" id="paradisec" >}}, refer to Objects as Items or may use other terms.
+An <GlossaryLink display="object" id="object" /> is a single resource or a group of tightly related resources in a <GlossaryLink display="collection" id="collection" />. For example, a work (document) in a written corpus, or the files associated with a dialogue or session in a speech study (recordings, transcriptions, etc.). Some systems, such as <GlossaryLink display="PARADISEC" id="paradisec" />, refer to Objects as Items or may use other terms.
 
 | Column                   | Type       | Description                                                                                                                                                                                                                                                                                                                                                                                                       |
 | ------------------------ | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -323,21 +341,20 @@ An {{< glossary_link display="object" id="object" >}} is a single resource or a 
 | name                     | Data entry | The name of the object.                                                                                                                                                                                                                                                                                                                                                                                           |
 | description              | Data entry | A description of the object.                                                                                                                                                                                                                                                                                                                                                                                      |
 | isRef_ldac:speaker       | Pre-filled | Generated from the `.pseudonym` column with `#` prefixed.                                                                                                                                                                                                                                                                                                                                                         |
-| .pseudonym               | Data entry | An example of a column from a {{< glossary_link display="data steward" id="data-steward" >}}'s source data, so that speakers in the collection are anonymised.                                                                                                                                                                                                                                                    |
+| .pseudonym               | Data entry | An example of a column from a <GlossaryLink display="data steward" id="data-steward" />'s source data, so that speakers in the collection are anonymised.                                                                                                                                                                                                                                                    |
 | datePublished            | Data entry | The date the object was published. The date should be in ISO 8601 format YYYY-MM-DD.                                                                                                                                                                                                                                                                                                                              |
 | isRef_pcdm:memberOf      | Pre-filled | The collection this object is a member of, generated from the `@id` column in the [RootDataset](#rootdataset) tab. Or if the collection contains sub-collections, a reference to another RepositoryCollection `@id`.                                                                                                                                                                                              |
 | isRef_license            | Data entry | The `@id` of the license to which this object adheres from the [Licenses](#licenses) tab.                                                                                                                                                                                                                                                                                                                         |
-| isRef_ldac:indexableText | Data entry | Identifies which of the files in the given object has content that is indexed for search purposes. For example, in the template, the content of the CSV file would be searchable, whereas the EAF and WAV files would not. If `isRef_ldac:indexableText` is not included in a collection, search will only run on the {{< glossary_link display="metadata" id="metadata" >}} and not the transcript file content. |
+| isRef_ldac:indexableText | Data entry | Identifies which of the files in the given object has content that is indexed for search purposes. For example, in the template, the content of the CSV file would be searchable, whereas the EAF and WAV files would not. If `isRef_ldac:indexableText` is not included in a collection, search will only run on the <GlossaryLink display="metadata" id="metadata" /> and not the transcript file content. |
 | isRef_contentLocation    | Data entry | The `@id` of the place to which this object relates from the [Places](#places) tab.                                                                                                                                                                                                                                                                                                                               |
 | inLanguage               | Data entry | The language in which the resource is written. For example, a work about the Italian language as used in Australia (`ldac:subjectLanguage`) that is written in English (`inLanguage`).                                                                                                                                                                                                                            |
 | ldac:subjectLanguage     | Data entry | The languages that the materials in the collection are about (not the language that it is in). For example, a work about the Italian language as used in Australia (`ldac:subjectLanguage`) that is written in English (`inLanguage`).                                                                                                                                                                            |
 | isRef_custom:textType    | Data entry | The `@id` of the term to which this object relates from the [Custom Terms](#custom-terms) tab. An example of an optional custom term from the source data.                                                                                                                                                                                                                                                        |
 
 <br>
-
 ### Files
 
-A file is a container for data and can store data in different formats. A single {{< glossary_link display="object" id="object" >}} could have an audio file as well as a text file containing a transcription of the audio. Three examples of file types are included in the template: CSV, EAF and WAV.
+A file is a container for data and can store data in different formats. A single <GlossaryLink display="object" id="object" /> could have an audio file as well as a text file containing a transcription of the audio. Three examples of file types are included in the template: CSV, EAF and WAV.
 
 | Column                      | Type       | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | --------------------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -352,7 +369,6 @@ A file is a container for data and can store data in different formats. A single
 | isRef_csvw:tableSchema      | Data entry | If the file is a tabular CSV and you have a schema of the columns used, add the schema ID here, otherwise leave this field blank. See [Schemas](#schemas) and [Columns](#columns) for more detail.                                                                                                                                                                                                                                                                                                                    |
 
 <br>
-
 ### Schemas
 
 If you have tabular CSV files in your collection, a schema allows you to define tabular formats for the tables used within the collection, which are further detailed in the [Columns](#columns) tab.
@@ -365,7 +381,6 @@ If you have tabular CSV files in your collection, a schema allows you to define 
 | isRef_conformsTo | Data entry | A standard that the schema follows. Only `tabulatorMapping` is valid.        |
 
 <br>
-
 ### Columns
 
 If you have tabular CSV files in your collection with multiple columns, this tab allows you to identify the columns within your data as well as provide definitions for them. This allows users to see at a glance what is contained within the CSV files through the metadata and HTML preview, rather than having to open the files individually.
@@ -383,6 +398,6 @@ If you have tabular CSV files in your collection with multiple columns, this tab
 
 ## Convert Spreadsheet to an RO-Crate with Crate-O
 
-For steps on adding your spreadsheet data to an {{< glossary_link display="RO-Crate" id="ro-crate" >}} using {{< glossary_link display="Crate-O" id="crate-o" >}}, see [Append Metadata from Spreadsheet](/resources/user-guides/crate-o/ro-crate-creation/#append-metadata-from-spreadsheet).
+For steps on adding your spreadsheet data to an <GlossaryLink display="RO-Crate" id="ro-crate" /> using <GlossaryLink display="Crate-O" id="crate-o" />, see [Append Metadata from Spreadsheet](/resources/user-guides/crate-o/ro-crate-creation/#append-metadata-from-spreadsheet).
 
 <br>

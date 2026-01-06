@@ -113,20 +113,20 @@ these invaluable resources will be available for analysis and reuse in the futur
 culturally, ethically and legally appropriate manner guided by <GlossaryLink display="FAIR" id="fair" /> and 
 <GlossaryLink display="CARE" id="care" /> principles.
   </p>
-  <img class="flex_item logo" src="logo.png" alt="LDaCA Logo"/>
+  <img class="flex_item logo" src="./logo.png" alt="LDaCA Logo"/>
 </div>
 
 <div class="flex_container">
   <div class="flex_item panel">
     <a href="./resources/data-users/">
       <h2 class="overlay">Resources for Data Users</h2>
-      <img src="/home/tree-top.png"  alt="Tree root design"/>
+      <img src="./tree-top.png"  alt="Tree root design"/>
     </a>
   </div>
   <div class="flex_item panel">
     <a href="./resources/data-contributors/">
       <h2 class="overlay">Resources for Data Contributors</h2>
-      <img src="/home/tree-bottom.png" alt="Tree root design"/>
+      <img src="./tree-bottom.png" alt="Tree root design"/>
     </a>
   </div>
 </div>
@@ -138,7 +138,7 @@ culturally, ethically and legally appropriate manner guided by <GlossaryLink dis
     </h2>
 </div>
 
-<img src="/ARDC_lockup2024.svg" height="100" class="center_image" alt="ARDC Acknowledgement"/>
+<img src="./ARDC_lockup2024.svg" height="100" class="center_image" alt="ARDC Acknowledgement"/>
 
 
 

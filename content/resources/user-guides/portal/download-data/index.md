@@ -7,7 +7,7 @@ description: "A guide to downloading individual files from the portal."
 
 <br>
 
-> This user guide uses 'portal' to refer to the interface across all of the available {{< glossary_link display="Oni" id="oni" >}} portals (see [Available Portals](/resources/user-guides/portal/available-portals/) for more details).
+> This user guide uses 'portal' to refer to the interface across all of the available <GlossaryLink display="Oni" id="oni" /> portals (see [Available Portals](/resources/user-guides/portal/available-portals/) for more details).
 
 <br>
 
@@ -19,9 +19,9 @@ description: "A guide to downloading individual files from the portal."
 
 ## Download Individual Files
 
-Files from a {{< glossary_link display="collection" id="collection" >}} can be downloaded from two locations:
+Files from a <GlossaryLink display="collection" id="collection" /> can be downloaded from two locations:
 
-- the File section of an {{< glossary_link display="Object" id="object" >}} page
+- the File section of an <GlossaryLink display="Object" id="object" /> page
 - the File page for the selected item.
 
 <br>
@@ -30,7 +30,7 @@ To download a file from an Object page, navigate to the _Files_ section at the e
 
 <br>
 
-{{< image Src="/user-guides/portal/objectPage_downloadFile.png" Alt="Object Page: Download File" Desc="Object Page: Download File" Title="Object Page: Download File" Ref="LDaCA" >}}
+<<img src="..//objectPage_downloadFile.png" Alt="Object Page: Download File" Desc="Object Page: Download File" Title="Object Page: Download File" Ref="LDaCA" />
 
 <br>
 
@@ -38,7 +38,7 @@ To download a file from a File page, navigate to the end of the page and select 
 
 <br>
 
-{{< image Src="/user-guides/portal/filePage_downloadFile.png" Alt="File Page: Download File" Desc="File Page: Download File" Title="File Page: Download File" Ref="LDaCA" >}}
+<<img src="..//filePage_downloadFile.png" Alt="File Page: Download File" Desc="File Page: Download File" Title="File Page: Download File" Ref="LDaCA" />
 
 <br>
 
@@ -46,12 +46,12 @@ To download a file from a File page, navigate to the end of the page and select 
 
 Complete collections can be downloaded from the Downloads widget on the right panel of:
 
-- a {{< glossary_link display="Collection" id="collection" >}} page
-- an {{< glossary_link display="Object" id="object" >}} page.
+- a <GlossaryLink display="Collection" id="collection" /> page
+- an <GlossaryLink display="Object" id="object" /> page.
 
 <br>
 
-{{< image Src="/user-guides/portal/downloads-widget.png" Alt="Collection and Object Page: Downloads Widget" Desc="Collection and Object Page: Downloads Widget" Title="Collection and Object Page: Downloads Widget" Ref="LDaCA" >}}
+<<img src="..//downloads-widget.png" Alt="Collection and Object Page: Downloads Widget" Desc="Collection and Object Page: Downloads Widget" Title="Collection and Object Page: Downloads Widget" Ref="LDaCA" />
 
 <br>
 
@@ -63,6 +63,6 @@ A complete collection cannot be downloaded as a single ZIP file if it is distrib
 
 <br>
 
-{{< image Src="/user-guides/portal/show-all-downloads.png" Alt="Collection and Object Page: Show All Downloads" Desc="Collection and Object Page: Show All Downloads" Title="Collection and Object Page: Show All Downloads" Ref="LDaCA" >}}
+<<img src="..//show-all-downloads.png" Alt="Collection and Object Page: Show All Downloads" Desc="Collection and Object Page: Show All Downloads" Title="Collection and Object Page: Show All Downloads" Ref="LDaCA" />
 
 <br>

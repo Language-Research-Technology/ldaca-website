@@ -9,7 +9,7 @@ aliases:
 
 <br>
 
-{{< embed-pdf url="./Sydney_Speaks_License_A.pdf" >}}
+<iframe src="./Sydney_Speaks_License_A.pdf" width="100%" height="800px" style="border: none;"></iframe>
 
 <br>
 <br>

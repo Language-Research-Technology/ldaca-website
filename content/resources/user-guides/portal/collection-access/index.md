@@ -7,7 +7,7 @@ description: "A guide to viewing and applying for access to collections in the p
 
 <br>
 
-> This user guide uses 'portal' to refer to the interface across all of the available {{< glossary_link display="Oni" id="oni" >}} portals (see [Available Portals](/resources/user-guides/portal/available-portals/) for more details).
+> This user guide uses 'portal' to refer to the interface across all of the available <GlossaryLink display="Oni" id="oni" /> portals (see [Available Portals](/resources/user-guides/portal/available-portals/) for more details).
 
 <br>
 
@@ -24,34 +24,34 @@ When viewing an item that has restricted access, you will see one of the followi
 
 <br>
 
-{{< image Src="/user-guides/portal/REMS-ApplyOrRefreshPermissions.png" Alt="Restricted Access Example" Desc="Restricted Access Example" Title="Restricted Access Example" Ref="LDaCA" >}}
+<<img src="..//REMS-ApplyOrRefreshPermissions.png" Alt="Restricted Access Example" Desc="Restricted Access Example" Title="Restricted Access Example" Ref="LDaCA" />
 
 <br>
 
-The LDaCA environment uses {{< glossary_link display="CADRE" id="cadre" >}} for access control. Once you have logged in to the {{< glossary_link display="LDaCA" id="ldaca" >}} portal (see [Login](/resources/user-guides/portal/login/) for further details), select ___apply for access___ in the warning text and you will be directed to the {{< glossary_link display="CADRE" id="cadre" >}} login page in a new tab.
+The LDaCA environment uses <GlossaryLink display="CADRE" id="cadre" /> for access control. Once you have logged in to the <GlossaryLink display="LDaCA" id="ldaca" /> portal (see [Login](/resources/user-guides/portal/login/) for further details), select ___apply for access___ in the warning text and you will be directed to the <GlossaryLink display="CADRE" id="cadre" /> login page in a new tab.
 
 <br>
 
-{{< image Src="/user-guides/portal/CADRElogin.png" Alt="CADRE Interface Welcome Page" Desc="CADRE Interface Welcome Page" Title="CADRE Interface Welcome Page" Ref="CADRE" >}}
+<<img src="..//CADRElogin.png" Alt="CADRE Interface Welcome Page" Desc="CADRE Interface Welcome Page" Title="CADRE Interface Welcome Page" Ref="CADRE" />
 
 <br>
 
-Select ___Login___ and follow the CILogon prompts (see [Login](/resources/user-guides/portal/login/) again). Once logged in, you will be able to complete the data license form and request access. {{< glossary_link display="Data licensing" id="data-license" >}} is the mechanism used in {{< glossary_link display="CADRE" id="cadre" >}} for {{< glossary_link display="data stewards" id="data-steward" >}} to grant or deny legal permission to access and use data. Follow [this guide for applicants](https://documentation.cadre.ada.edu.au/guides/applicants/introduction) to learn more about navigating CADRE. 
+Select ___Login___ and follow the CILogon prompts (see [Login](/resources/user-guides/portal/login/) again). Once logged in, you will be able to complete the data license form and request access. <GlossaryLink display="Data licensing" id="data-license" /> is the mechanism used in <GlossaryLink display="CADRE" id="cadre" /> for <GlossaryLink display="data stewards" id="data-steward" /> to grant or deny legal permission to access and use data. Follow [this guide for applicants](https://documentation.cadre.ada.edu.au/guides/applicants/introduction) to learn more about navigating CADRE. 
 
 <br>
 
-Once the data sharing request is approved, navigate back to the data {{< glossary_link display="object" id="object" >}} you require in the LDaCA portal. If the warning text is still displayed, click on ___refresh permissions___. The page will update and you should be able to access the data. Note that these permissions apply to other data objects in the {{< glossary_link display="collection" id="collection" >}} that are covered by the same license terms; you do not need to apply for permission for each data object.
+Once the data sharing request is approved, navigate back to the data <GlossaryLink display="object" id="object" /> you require in the LDaCA portal. If the warning text is still displayed, click on ___refresh permissions___. The page will update and you should be able to access the data. Note that these permissions apply to other data objects in the <GlossaryLink display="collection" id="collection" /> that are covered by the same license terms; you do not need to apply for permission for each data object.
 
-{{< image Src="/user-guides/portal/access-granted-portal-blur.png" Alt="Access to example custom license displayed in green on the LDaCA data portal." Desc="Once the data sharing request is approved, you will be able to access the data in the LDaCA portal." Title="Once the data sharing request is approved, you will be able to access the data in the LDaCA portal." Ref="LDaCA" >}}
+<<img src="..//access-granted-portal-blur.png" Alt="Access to example custom license displayed in green on the LDaCA data portal." Desc="Once the data sharing request is approved, you will be able to access the data in the LDaCA portal." Title="Once the data sharing request is approved, you will be able to access the data in the LDaCA portal." Ref="LDaCA" />
 
 <br>
 
 ## View your Current Access List
 
-To view your current list of licenses you have access to, hover your cursor over the arrow next to your account name to trigger a dropdown menu and select ___User Information___. If you are not logged in, see the steps under [Login](/resources/user-guides/portal/login/). The _User Memberships_ section shows your current access list, and you can click ___Check Memberships___ to refresh this list. You can also select ___Verify your access in CADRE___ to log into {{< glossary_link display="CADRE" id="cadre" >}}.
+To view your current list of licenses you have access to, hover your cursor over the arrow next to your account name to trigger a dropdown menu and select ___User Information___. If you are not logged in, see the steps under [Login](/resources/user-guides/portal/login/). The _User Memberships_ section shows your current access list, and you can click ___Check Memberships___ to refresh this list. You can also select ___Verify your access in CADRE___ to log into <GlossaryLink display="CADRE" id="cadre" />.
 
 <br>
 
-{{< image Src="/user-guides/portal/user-memberships-with-access.png" Alt="User Memberships" Desc="User Memberships" Title="User Memberships" Ref="LDaCA" >}}
+<<img src="..//user-memberships-with-access.png" Alt="User Memberships" Desc="User Memberships" Title="User Memberships" Ref="LDaCA" />
 
 <br>

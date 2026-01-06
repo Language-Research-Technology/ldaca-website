@@ -5,81 +5,77 @@ draft: false
 description: "Information about the approach to metadata being taken by LDaCA."
 ---
 
-<br>
+<br />
 
-{{< glossary_link display="Metadata" id="metadata" >}} is often defined as 'data about data'. High-quality metadata is important in making data {{< glossary_link display="FAIR" id="fair" >}}:
+<GlossaryLink display="Metadata" id="metadata" /> is often defined as 'data about data'. High-quality metadata is important in making data <GlossaryLink display="FAIR" id="fair" />:
 
-- **Findable**: Metadata is the starting point for searching {{< glossary_link display="data collections" id="data-collection" >}}. For example, if we want to find data in a particular language, this will only be possible for data that has a language recorded in its metadata. (Tracking languages is in itself problematic, see [below](#identifying-codes-for-languages).)
-- **Accessible**: {{< glossary_link display="Access conditions" id="access-conditions" >}} that apply to data should be part of the associated metadata.
+- **Findable**: Metadata is the starting point for searching <GlossaryLink display="data collections" id="data-collection" />. For example, if we want to find data in a particular language, this will only be possible for data that has a language recorded in its metadata. (Tracking languages is in itself problematic, see [below](#identifying-codes-for-languages).)
+- **Accessible**: <GlossaryLink display="Access conditions" id="access-conditions" /> that apply to data should be part of the associated metadata.
 - **Interoperable**: Information about the format of data and whether it requires specific software to be usable should be part of the associated metadata.
 - **Reusable**: All of the aspects of metadata mentioned above contribute to making data reusable. The more we know about some data, the easier it is to know whether it will be useful to us or not.
 
-<br>
+<br />
 
 ## RO-Crate Profiles
 
-{{< glossary_link display="RO-Crates" id="ro-crate" >}} in general have basic metadata requirements, but it is possible to specify a **profile** for crates for specific purposes. {{< glossary_link display="LDaCA" id="ldaca" >}} is developing such a profile for our data; we are basing this largely on previous work in the area. An important aspect of the {{< glossary_link display="RO-Crate" id="ro-crate" >}} approach is that it uses the principles of [Linked Open Data](https://en.wikipedia.org/wiki/Linked_data#Linked_open_data). This means that terms used in our metadata will (whenever possible) link to an openly available definition. In developing the profile, we are drawing on two existing attempts to provide vocabularies for describing language data.
+<GlossaryLink display="RO-Crates" id="ro-crate" /> in general have basic metadata requirements, but it is possible to specify a **profile** for crates for specific purposes. <GlossaryLink display="LDaCA" id="ldaca" /> is developing such a profile for our data; we are basing this largely on previous work in the area. An important aspect of the <GlossaryLink display="RO-Crate" id="ro-crate" /> approach is that it uses the principles of [Linked Open Data](https://en.wikipedia.org/wiki/Linked_data#Linked_open_data). This means that terms used in our metadata will (whenever possible) link to an openly available definition. In developing the profile, we are drawing on two existing attempts to provide vocabularies for describing language data.
 
-<br>
+<br />
 
 ## Open Language Archives Community ([OLAC](http://www.language-archives.org/)) {#olac}
 
-{{< glossary_link display="OLAC" id="olac" >}} is an international partnership of institutions and individuals; one of their activities is developing consensus on best current practice for the digital archiving of language resources and this includes making recommendations for metadata. The {{< glossary_link display="OLAC" id="olac" >}} metadata scheme is based on [Dublin Core](https://www.dublincore.org/) (DC), a widely used general metadata schema. {{< glossary_link display="OLAC" id="olac" >}} have suggested refinements and extensions of the DC base which make it more useful for describing language resources.
+<GlossaryLink display="OLAC" id="olac" /> is an international partnership of institutions and individuals; one of their activities is developing consensus on best current practice for the digital archiving of language resources and this includes making recommendations for metadata. The <GlossaryLink display="OLAC" id="olac" /> metadata scheme is based on [Dublin Core](https://www.dublincore.org/) (DC), a widely used general metadata schema. <GlossaryLink display="OLAC" id="olac" /> have suggested refinements and extensions of the DC base which make it more useful for describing language resources.
 
-<br>
+<br />
 
 ## Component Metadata Infrastructure ([CMDI](https://www.clarin.eu/content/component-metadata))
 
-{{< glossary_link display="CMDI" id="cmdi" >}} was developed within the [CLARIN](https://www.clarin.eu) project. It draws on the earlier ISLE Metadata Initiative ([IMDI](https://en.wikipedia.org/wiki/IMDI)), but where IMDI attempted to specify a comprehensive scheme for (multimodal) language data, {{< glossary_link display="CMDI" id="cmdi" >}} adopts a more flexible approach where components are assembled into reusable profiles. This is very similar to the {{< glossary_link display="RO-Crate" id="ro-crate" >}} approach described above but with an important difference: the components of a {{< glossary_link display="CMDI" id="cmdi" >}} profile are all drawn from a central registry, whereas components of an {{< glossary_link display="RO-Crate" id="ro-crate" >}} profile come from any linkable location.
+<GlossaryLink display="CMDI" id="cmdi" /> was developed within the [CLARIN](https://www.clarin.eu) project. It draws on the earlier ISLE Metadata Initiative ([IMDI](https://en.wikipedia.org/wiki/IMDI)), but where IMDI attempted to specify a comprehensive scheme for (multimodal) language data, <GlossaryLink display="CMDI" id="cmdi" /> adopts a more flexible approach where components are assembled into reusable profiles. This is very similar to the <GlossaryLink display="RO-Crate" id="ro-crate" /> approach described above but with an important difference: the components of a <GlossaryLink display="CMDI" id="cmdi" /> profile are all drawn from a central registry, whereas components of an <GlossaryLink display="RO-Crate" id="ro-crate" /> profile come from any linkable location.
 
-<br>
+<br />
 
-The metadata being developed as part of the LDaCA {{< glossary_link display="RO-Crate" id="ro-crate" >}} profile can be viewed as a [Schema](https://github.com/Language-Research-Technology/language-data-commons-vocabs/blob/master/ontology.md) (a list of terms used to describe language reserouces). We are also developing a more fully documented version as a [Gitbook](https://www.gitbook.com/), [Metadata for Language Data](https://ldaca.gitbook.io/metadata-for-language-data/).
+The metadata being developed as part of the LDaCA <GlossaryLink display="RO-Crate" id="ro-crate" /> profile can be viewed as a [Schema](https://github.com/Language-Research-Technology/language-data-commons-vocabs/blob/master/ontology.md) (a list of terms used to describe language reserouces). We are also developing a more fully documented version as a [Gitbook](https://www.gitbook.com/), [Metadata for Language Data](https://ldaca.gitbook.io/metadata-for-language-data/).
 
-<br>
+<br />
 
 ## Identifying Codes for Languages
 
 One very important piece of metadata for language data is a description of the language or languages that the data represent. This is not a simple problem because the relationship between languages and names for them is not one-to-one. Some languages have more than one name: for example, _Farsi_ and _Persian_ can both be used to refer to the same language. Some names refer to more than one language: for example, there are languages called _Buru_ used in Nigeria and in Indonesia. To avoid the confusion that can arise from such situations, various systems have been developed to assign unique identifiers to languages. None of these systems gives a comprehensive list of languages and all such systems struggle with another problem, the distinction between separate languages and dialects of one language, as can be seen in the case study below. LDaCA includes identifiers from each of the three systems below where they are available and relevant.
 
-<br>
+<br />
 
 ### [ISO-639](https://iso639-3.sil.org/) {#iso-639}
 
 This system is recognised as a standard by the International Standards Organisation. An earlier version of this system used two-letter codes to identify languages; more recent versions use three-letter codes (referred to as ISO 639-3). These codes are used by [Ethnologue](https://www.ethnologue.com/), which is a catalogue of the languages of the world, and in many other contexts. The ISO639-3 code for French is **fra**, and Warlpiri is **wbp**.
 
-<br>
+<br />
 
 ### [Glottolog](https://glottolog.org/) {#glottolog}
 
-{{< glossary_link display="Glottolog" id="glottolog" >}} is an alternative catalogue of the world's languages, language families and dialects - {{< glossary_link display="Glottolog" id="glottolog" >}} uses the term _languoid_ to cover all of these. Each languoid is assigned a unique identifier consisting of four alphanumeric characters and four digits. For example, (standard) French has the code **stan1290**, and Warlpiri is **warl1254**.
+<GlossaryLink display="Glottolog" id="glottolog" /> is an alternative catalogue of the world's languages, language families and dialects - <GlossaryLink display="Glottolog" id="glottolog" /> uses the term _languoid_ to cover all of these. Each languoid is assigned a unique identifier consisting of four alphanumeric characters and four digits. For example, (standard) French has the code **stan1290**, and Warlpiri is **warl1254**.
 
-<br>
+<br />
 
 ### [Austlang](https://collection.aiatsis.gov.au/austlang/about)
 
-{{< glossary_link display="AustLang" id="austlang" >}} provides a controlled vocabulary of persistent identifiers, a thesaurus of languages and peoples, and information about Aboriginal and Torres Strait Islander languages which has been assembled from referenced sources. Alphanumeric codes are used as persistent identifiers, while associated text strings are changeable and can reflect community preferences (including alternative names and spellings). In {{< glossary_link display="AustLang" id="austlang" >}}, Warlpiri has two codes: **C15** for the language in general, and **C15.1** for the variety named as Wakirti Warlpiri. (French is not covered by {{< glossary_link display="AustLang" id="austlang" >}}.)
+<GlossaryLink display="AustLang" id="austlang" /> provides a controlled vocabulary of persistent identifiers, a thesaurus of languages and peoples, and information about Aboriginal and Torres Strait Islander languages which has been assembled from referenced sources. Alphanumeric codes are used as persistent identifiers, while associated text strings are changeable and can reflect community preferences (including alternative names and spellings). In <GlossaryLink display="AustLang" id="austlang" />, Warlpiri has two codes: **C15** for the language in general, and **C15.1** for the variety named as Wakirti Warlpiri. (French is not covered by <GlossaryLink display="AustLang" id="austlang" />.)
 
-<br>
+<br />
 
 ### Case study - Kala Lagaw Ya
 
 Kala Lagaw Ya is a language spoken in the Torres Strait Islands. The language has several dialects or varieties and the table below shows how the different code schemes deal with this.
 
-<br>
-
-{{< raw >}}
+<br />
 
 <table>
 <tr><td><b>Name</b></td><td><b>ISO 639</b></td><td><b>Glottolog</b></td><td><b>AustLang</b></td><td><b>Notes</b></td></tr>
-<tr><td>Kala Lagaw Ya</td><td>mwp</td><td>kala1377</td><td>Y1</td><td>{{< glossary_link display="AustLang" id="austlang" >}}: Marked with symbol ^ which indicates that the name is used to refer to a language and a dialect of the language.</td></tr>
+<tr><td>Kala Lagaw Ya</td><td>mwp</td><td>kala1377</td><td>Y1</td><td><GlossaryLink display="AustLang" id="austlang" />: Marked with symbol ^ which indicates that the name is used to refer to a language and a dialect of the language.</td></tr>
 <tr><td>Kalaw Kawaw Ya</td><td></td><td>kala1378</td><td>Y2</td><td>Ethnologue: Kalaw Kawaw is a dialect.</td></tr>
 <tr><td>Kawrareg</td><td></td><td>kawr1234</td><td></td><td></td></tr>
 <tr><td>Kulkalgau Ya</td><td></td><td>kulk1234</td><td>Y4</td><td></td></tr>
 <tr><td>Mabuyag</td><td></td><td>mabu1234</td><td></td><td>Ethnologue: Mabuiag is an alternate name.</td></tr>
-<tr><td>Kawalgaw Ya</td><td></td><td></td><td>Y5</td><td>{{< glossary_link display="AustLang" id="austlang" >}}: Kaurareg is an alternative name (probably the same as {{< glossary_link display="Glottolog" id="glottolog" >}} kawr1234).</td></tr>
+<tr><td>Kawalgaw Ya</td><td></td><td></td><td>Y5</td><td><GlossaryLink display="AustLang" id="austlang" />: Kaurareg is an alternative name (probably the same as <GlossaryLink display="Glottolog" id="glottolog" /> kawr1234).</td></tr>
 </table>
 
-{{< /raw >}}
-
-<br>
+<br />

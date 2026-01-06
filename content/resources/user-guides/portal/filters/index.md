@@ -7,17 +7,17 @@ description: "Refine your results according to a set of major metadata categorie
 
 <br>
 
-> This user guide uses 'portal' to refer to the interface across all of the available {{< glossary_link display="Oni" id="oni" >}} portals (see [Available Portals](/resources/user-guides/portal/available-portals/) for more details).
+> This user guide uses 'portal' to refer to the interface across all of the available <GlossaryLink display="Oni" id="oni" /> portals (see [Available Portals](/resources/user-guides/portal/available-portals/) for more details).
 
 <br>
 
-Filters allow you to refine what items are available to view and search according to a set of major {{< glossary_link display="metadata" id="metadata" >}} categories and can be accessed from the left panel of the portal home page. Select a filter in order to see the dropdown list of options; the number icons beside each filter indicate how many options are available. A total of five options are visible per page; to access more options, use the pagination icons, or the search bar if you are looking for a particular option.
+Filters allow you to refine what items are available to view and search according to a set of major <GlossaryLink display="metadata" id="metadata" /> categories and can be accessed from the left panel of the portal home page. Select a filter in order to see the dropdown list of options; the number icons beside each filter indicate how many options are available. A total of five options are visible per page; to access more options, use the pagination icons, or the search bar if you are looking for a particular option.
 
 <br>
 
 Part of the Filter List | Linguistic Genre Filter Expanded
 :---: | :---:
-{{< image Src="/user-guides/portal/filters1.png" Alt="Filter List Example" Desc="Filter List Example" Title="Filter List Example" Ref="LDaCA" >}} | {{< image Src="/user-guides/portal/filters2.png" Alt="Linguistic Genre Filter Example" Desc="Linguistic Genre Filter Example" Title="Linguistic Genre Filter Example" Ref="LDaCA" >}}
+<<img src="..//filters1.png" Alt="Filter List Example" Desc="Filter List Example" Title="Filter List Example" Ref="LDaCA" /> | <<img src="..//filters2.png" Alt="Linguistic Genre Filter Example" Desc="Linguistic Genre Filter Example" Title="Linguistic Genre Filter Example" Ref="LDaCA" />
 
 
 <br>
@@ -36,7 +36,7 @@ If needed, you can further select or deselect options by repeating this process 
 
 ### Collection
 
-A group of related objects such as a corpus, a sub-corpus or items collected in a single {{< glossary_link display="data collection" id="data-collection" >}} session.
+A group of related objects such as a corpus, a sub-corpus or items collected in a single <GlossaryLink display="data collection" id="data-collection" /> session.
 
 __Examples:__
 - A COrpus of Oz Early English (COOEE)
@@ -47,7 +47,7 @@ __Examples:__
 
 ### Sub-Collection
 
-The sub-collections, if any, that comprise a {{< glossary_link display="collection" id="collection" >}}.
+The sub-collections, if any, that comprise a <GlossaryLink display="collection" id="collection" />.
 
 __Examples:__
 - ICE: S1A: Conversations
@@ -58,7 +58,7 @@ __Examples:__
 
 ### Access
 
-The {{< glossary_link display="access conditions" id="access-conditions" >}} associated with an item. Note that these differ from the three general categories of the [Access icons](resources/user-guides/portal/basic-navigation/#item-icons) and are instead the specific licenses for the item's usage.
+The <GlossaryLink display="access conditions" id="access-conditions" /> associated with an item. Note that these differ from the three general categories of the [Access icons](resources/user-guides/portal/basic-navigation/#item-icons) and are instead the specific licenses for the item's usage.
 
 __Examples:__
 - Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
@@ -69,7 +69,7 @@ __Examples:__
 
 ### Record Type
 
-The type or categorisation of an item, i.e. a {{< glossary_link display="collection" id="collection" >}}, {{< glossary_link display="object" id="object" >}} or file. For individual files, this field also gives information about the nature of the material, i.e. primary material, transcription, annotation etc.
+The type or categorisation of an item, i.e. a <GlossaryLink display="collection" id="collection" />, <GlossaryLink display="object" id="object" /> or file. For individual files, this field also gives information about the nature of the material, i.e. primary material, transcription, annotation etc.
 
 __Examples:__
 - Annotation

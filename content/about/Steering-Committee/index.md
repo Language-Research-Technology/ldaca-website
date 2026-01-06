@@ -33,7 +33,7 @@ View the **<a href="LDaCA-SC_Terms of Reference_2024-2028.pdf">Terms of Referenc
 <br>
 
 ## Committee Members
-<img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" img src="MHaugh_150px.jpg">
+<img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" src="./MHaugh_150px.jpg">
 <div style="overflow:hidden">
 <b>Prof Michael Haugh, The University of Queensland—Chief Investigator (LDaCA)</b><br>
 <i>Chairperson</i>
@@ -43,7 +43,7 @@ Michael Haugh is Professor of Linguistics and Applied Linguistics, and a Fellow 
 <br>
 </div>
 
-<img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" img src="RBarrowcliffe_150px.jpg">
+<img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" src="./RBarrowcliffe_150px.jpg">
 <div style="overflow:hidden">
 <b>Dr Rose Barrowcliffe, The University of Queensland—Chief Investigator (LDaCA)</b><br>
 <i>Member</i>
@@ -53,7 +53,7 @@ Dr. Rose Barrowcliffe’s (Butchulla) work and research examines the representat
 <br>
 </div>
 
-<img style="float: Left; padding-right:4px; padding-bottom:10px; width:100px;" img src="MBednarek_150px.jpg">
+<img style="float: Left; padding-right:4px; padding-bottom:10px; width:100px;" src="./MBednarek_150px.jpg">
 <div style="overflow:hidden">
 <b>Prof Monika Bednarek, The University of Sydney—Chief Investigator</b><br>
 <i>Member</i>
@@ -63,7 +63,7 @@ Monika Bednarek is Professor in Linguistics and Director of the Sydney Corpus La
 <br>
 </div>
 
-<img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" img src="ABell_150px.jpg">
+<img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" src="./ABell_150px.jpg">
 <div style="overflow:hidden">
 <b>Mr Adam Bell, AARNET—Chief Investigator</b><br>
 <i>Member</i>
@@ -73,7 +73,7 @@ Adam Bell leads AARNet’s engagement with Australian cultural organisations and
 <br>
 </div>
 
-<img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" img src="CBracknell_150px.jpg">
+<img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" src="./CBracknell_150px.jpg">
 <div style="overflow:hidden">
 <b>Prof Clint Bracknell, University of Western Australia—Chief Investigator</b><br>
 <i>Member</i>
@@ -82,7 +82,7 @@ Clint Bracknell is a Noongar song-maker, composer, and Professor of Music at the
 <br>
 <br>
 </div>
-<img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" img src="JFewster_150px.jpg">
+<img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" src="./JFewster_150px.jpg">
 <div style="overflow:hidden">
 <b>Ms Jenny Fewster, Australian Research Data Commons—Director, HASS & Indigenous RDC</b><br>
 <i>Member</i>
@@ -91,7 +91,7 @@ With over 20 years’ experience in collecting, managing and disseminating resea
 <br>
 <br>
 </div>
-<img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" img src="KGilbey_150px.jpg">
+<img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" src="./KGilbey_150px.jpg">
 <div style="overflow:hidden">
 <b>A/Prof Kathryn Gilbey, Batchelor Institute—Chief Investigator</b><br>
 <i>Member</i>
@@ -101,7 +101,7 @@ Professor Kathryn Gilbey is an Alyawarr scholar and the Executive Dean at Batche
 <br>
 </div>
 
-<img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" img src="RMcLellan_150px.jpg">
+<img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" src="./RMcLellan_150px.jpg">
 <div style="overflow:hidden">
 <b>Robert McLellan, The University of Queensland—Project Manager (LDaCA)/ Industry Fellow</b><br>
 <i>Member</i>
@@ -110,7 +110,7 @@ Robert, a Gureng Gureng descendant from the Wide Bay region, is a community rese
 <br>
 <br>
 </div>
-<img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" img src="MSchweinberger_150px.jpg">
+<img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" src="./MSchweinberger_150px.jpg">
 <div style="overflow:hidden">
 <b>Dr Martin Schweinberger, The University of Queensland—Chief Investigator</b><br>
 <i>Member</i>
@@ -120,7 +120,7 @@ Martin Schweinberger is a Lecturer in Applied Linguistics at UQ and co-director 
 <br>
 </div>
 
-<img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" img src="MTakahashi_150px.jpg">
+<img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" src="./MTakahashi_150px.jpg">
 <div style="overflow:hidden">
 <b>Dr Marissa Takahashi, Queensland University of Technology (Digital Observatory)—Chief Investigator</b><br>
 <i>Member</i>
@@ -130,7 +130,7 @@ Marissa Takahashi is the Manager of the QUT Digital Observatory under the QUT Re
 <br>
 </div>
 
-<img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" img src="Nthieberger_150px.jpg">
+<img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" src="./Nthieberger_150px.jpg">
 <div style="overflow:hidden">
 <b>A/Prof Nick Thieberger, The University of Melbourne—Chief Investigator</b><br>
 <i>Member</i>
@@ -140,7 +140,7 @@ Nick Thieberger is an Associate Professor in the School of Languages and Linguis
 <br>
 </div>
 
-<img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" img src="CTravis_150px.jpg">
+<img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" src="./CTravis_150px.jpg">
 <div style="overflow:hidden">
 <b>Prof Catherine Travis, Australian National University—Chief Investigator</b><br>
 <i>Member</i>
@@ -150,7 +150,7 @@ Catherine Travis is Professor of Modern European Languages in the School of Lite
 <br>
 </div>
 
-<img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" img src="BWilliams_150px.jpg">
+<img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" src="./BWilliams_150px.jpg">
 <div style="overflow:hidden">
 <b>Beau Williams, First Languages Australia—Chief Investigator</b><br>
 <i>Member</i>
@@ -163,7 +163,7 @@ Beau is a Murrawarri man with extensive experience in accounting, project manage
 
 ## Committee Advisors
 
-<img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" img src="DCrump_150px.jpg">
+<img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" src="./DCrump_150px.jpg">
 <div style="overflow:hidden">
 <b>Mr Desmond Crump, The University of Queensland—Industry Fellow (Indigenous Languages)</b><br>
 <i>Advisor</i>
@@ -173,7 +173,7 @@ Desmond Crump’s family and cultural links are from South-West Queensland, whic
 <br>
 </div>
 
-<img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" img src="AHarris_150px.jpg">
+<img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" src="./AHarris_150px.jpg">
 <div style="overflow:hidden">
 <b>Dr Amanda Harris, PARADISEC</b><br>
 <i>Advisor</i>
@@ -183,7 +183,7 @@ Amanda Harris is an ARC Future Fellow at Sydney Conservatorium of Music, Univers
 <br>
 </div>
 
-<img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" img src="LReed_150px.jpg">
+<img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" src="./LReed_150px.jpg">
 <div style="overflow:hidden">
 <b>Ms Lauren Reed, AIATSIS</b><br>
 <i>Advisor</i>
@@ -192,7 +192,7 @@ Lauren Reed is the Director of the Centre for Australian Languages at the Austra
 <br>
 <br>
 </div>
-<img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" img src="JSimpson_150px.jpg">
+<img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" src="./JSimpson_150px.jpg">
 <div style="overflow:hidden">
 <b>Prof Jane Simpson, Australian National University</b><br>
 <i>Advisor</i>

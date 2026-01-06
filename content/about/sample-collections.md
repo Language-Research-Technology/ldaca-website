@@ -11,9 +11,9 @@ description: "Information about the first datasets which have been added to the 
 
 <br>
 
-{{< glossary_link display="LDaCA" id="ldaca" >}} has begun adding datasets, including:
+<GlossaryLink display="LDaCA" id="ldaca" /> has begun adding datasets, including:
 
-- most of the datasets which were part of the Australian National Corpus {{< glossary_link display="collection" id="collection" >}}, now available at our [data portal](https://data.ldaca.edu.au/search) (or click the **Data Portal** button top right).
+- most of the datasets which were part of the Australian National Corpus <GlossaryLink display="collection" id="collection" />, now available at our [data portal](https://data.ldaca.edu.au/search) (or click the **Data Portal** button top right).
 
 <br>
 
@@ -25,7 +25,7 @@ A collection of texts written in Australia between 1788 and 1900. The corpus is 
 
 ### [AustLit](https://data.ldaca.edu.au/collection?id=arcp%3A%2F%2Fname%2Cdoi10.48610%252F8b7ae22&_crateId=arcp%3A%2F%2Fname%2Cdoi10.48610%252F8b7ae22)
 
-The contribution from AustLit provides full-text access to select samples of out-of-{{< glossary_link display="copyright" id="copyright" >}} poetry, fiction and criticism ranging from 1795 to the 1930s. The collection includes literature intended for popular audiences as well as literature intended for audiences concerned with literary quality or the establishment of a national canon.
+The contribution from AustLit provides full-text access to select samples of out-of-<GlossaryLink display="copyright" id="copyright" /> poetry, fiction and criticism ranging from 1795 to the 1930s. The collection includes literature intended for popular audiences as well as literature intended for audiences concerned with literary quality or the establishment of a national canon.
 
 <br>
 

@@ -15,20 +15,20 @@ description: "Defines the workflow for determining the access conditions for a d
 
 <br>
 
-{{< glossary_link display="LDaCA" id="ldaca" >}} recommends the following workflow to determine the {{< glossary_link display="access conditions" id="access-conditions" >}} to be outlined in the license. Examples of existing data access licenses can be found [here](/licenses/).
+<GlossaryLink display="LDaCA" id="ldaca" /> recommends the following workflow to determine the <GlossaryLink display="access conditions" id="access-conditions" /> to be outlined in the license. Examples of existing data access licenses can be found [here](/licenses/).
 
 <br>
 
 ## Step 1: Consider access condition(s) for the entire collection
 
-- Do the same {{< glossary_link display="access conditions" id="access-conditions" >}} apply to the entire {{< glossary_link display="collection" id="collection" >}}?
-  - __If yes__ → two licenses can be defined (one for {{< glossary_link display="metadata" id="metadata" >}}, one for the collection data).<br>
+- Do the same <GlossaryLink display="access conditions" id="access-conditions" /> apply to the entire <GlossaryLink display="collection" id="collection" />?
+  - __If yes__ → two licenses can be defined (one for <GlossaryLink display="metadata" id="metadata" />, one for the collection data).<br>
   Metadata is licensed with an open license in order to allow the user to find the collection through the LDaCA catalogue.
   - __If no__ → all of the ways the data can be accessed must be defined, with a license for each subset.
 
 <br>
 
-{{< image Src="/determining-access-conditions/AccessConditions_Flow1.jpg" Alt="Access Conditions Flowchart" Desc="Figure 1: Access Conditions Flowchart" Title="Access Conditions Flowchart" Ref="LDaCA" >}}
+<img src="./AccessConditions_Flow1.jpg" Alt="Access Conditions Flowchart" Desc="Figure 1: Access Conditions Flowchart" Title="Access Conditions Flowchart" Ref="LDaCA" />
 
 <br>
 
@@ -62,12 +62,12 @@ What material can be accessed with this license?
 
 What authorisation is required for users to access this license?
 - __If none__ → all users can accept the click-through license and access the material.
-- __If by invitation__ → only users invited by the {{< glossary_link display="Data Steward" id="data-steward" >}} can accept the license and access the data.
+- __If by invitation__ → only users invited by the <GlossaryLink display="Data Steward" id="data-steward" /> can accept the license and access the data.
 - __If by application__ → arrange a form or a document with requirements for users to fill in.
 
 <br>
 
-{{< image Src="/determining-access-conditions/AccessConditions_Flow2.jpg" Alt="Access Conditions Flowchart - Authorisation Level" Desc="Figure 2: Access Conditions Flowchart - Authorisation Level" Title="Access Conditions Flowchart - Authorisation Level" Ref="LDaCA" >}}
+<img src="./AccessConditions_Flow2.jpg" Alt="Access Conditions Flowchart - Authorisation Level" Desc="Figure 2: Access Conditions Flowchart - Authorisation Level" Title="Access Conditions Flowchart - Authorisation Level" Ref="LDaCA" />
 
 <br>
 

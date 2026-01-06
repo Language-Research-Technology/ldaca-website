@@ -18,15 +18,15 @@ weight: 1
 
 <br>
 
-[Crate-O](https://language-research-technology.github.io/crate-o/#/) is a browser-based editor that allows you to create and update [Research Object Crates](https://www.researchobject.org/ro-crate) (RO-Crates), either using the web interface or with {{< glossary_link display="metadata" id="metadata" >}} from a spreadsheet. It provides researchers with a relatively simple way to describe their data using best practice in formal metadata description.
+[Crate-O](https://language-research-technology.github.io/crate-o/#/) is a browser-based editor that allows you to create and update [Research Object Crates](https://www.researchobject.org/ro-crate) (RO-Crates), either using the web interface or with <GlossaryLink display="metadata" id="metadata" /> from a spreadsheet. It provides researchers with a relatively simple way to describe their data using best practice in formal metadata description.
 
 Designed as a Vue component, Crate-O can be easily integrated into any Vue.js project. Simply install the component with npm and include it in your application. As a Vue software component, it can be used, cloned and distributed by anyone.
 
 Crate-O is implemented in the GitHub page [Crate-O](https://language-research-technology.github.io/crate-o/#/). This implementation works only with [Google Chrome](https://google.com/chrome) and [Microsoft Edge](https://microsoft.com/edge). It does not link to other services, and as such, any data uploaded to Crate-O will not go anywhere other than populating your RO-Crate. We will be releasing versions that work with online resources directly, which will be compatible with other browsers (see the [Roadmap](https://github.com/Language-Research-Technology/crate-o#roadmap--backlog)).
 
-{{< glossary_link display="RO-Crate" id="ro-crate" >}} is a way of packaging research data that stores the data together with its associated metadata and other component files, such as the {{< glossary_link display="data license" id="data-license" >}}. It is a flexible, developer-friendly approach to {{< glossary_link display="linked-data" id="linked-data" >}} description and packaging.
+<GlossaryLink display="RO-Crate" id="ro-crate" /> is a way of packaging research data that stores the data together with its associated metadata and other component files, such as the <GlossaryLink display="data license" id="data-license" />. It is a flexible, developer-friendly approach to <GlossaryLink display="linked-data" id="linked-data" /> description and packaging.
 
-While the current version of Crate-O is designed for editing self-contained RO-Crates (and works fine with crates containing tens of thousands of entities), our roadmap includes adding the ability to edit fragments of larger linked-data resources and to integrate with repositories, such as the {{< glossary_link display="Oni" id="oni" >}} repository, data {{< glossary_link display="API" id="api" >}} and archival repositories such as the Language Data Commons of Australia.
+While the current version of Crate-O is designed for editing self-contained RO-Crates (and works fine with crates containing tens of thousands of entities), our roadmap includes adding the ability to edit fragments of larger linked-data resources and to integrate with repositories, such as the <GlossaryLink display="Oni" id="oni" /> repository, data <GlossaryLink display="API" id="api" /> and archival repositories such as the Language Data Commons of Australia.
 
 <br>
 
@@ -34,13 +34,13 @@ While the current version of Crate-O is designed for editing self-contained RO-C
 
 <br>
 
-{{< glossary_link display="Crate-O" id="crate-o" >}} is designed to work with any of the following use cases:
+<GlossaryLink display="Crate-O" id="crate-o" /> is designed to work with any of the following use cases:
 
-- Describe {{< glossary_link display="data collections" id="data-collection" >}} and files on a user’s computer, and add contextual information about those files
+- Describe <GlossaryLink display="data collections" id="data-collection" /> and files on a user’s computer, and add contextual information about those files
 - Describe abstract contextual entities, such as in a Cultural Collection or an encyclopaedia
 - Annotate existing resources elsewhere on the web
-- Submit a data collection to the {{< glossary_link display="LDaCA" id="ldaca" >}} Portal
-- Edit a {{< glossary_link display="Schema" id="schema" >}} that contains a set of vocabulary terms, such as the [terms](https://w3id.org/ldac/terms) used by LDaCA.
+- Submit a data collection to the <GlossaryLink display="LDaCA" id="ldaca" /> Portal
+- Edit a <GlossaryLink display="Schema" id="schema" /> that contains a set of vocabulary terms, such as the [terms](https://w3id.org/ldac/terms) used by LDaCA.
 
 <br>
 
@@ -48,11 +48,11 @@ While the current version of Crate-O is designed for editing self-contained RO-C
 
 <br>
 
-The diagram below shows the hierarchical relationship between {{< glossary_link display="collections" id="collection" >}}, {{< glossary_link display="objects" id="object" >}} and files in a corpus, together with the {{< glossary_link display="metadata" id="metadata" >}} categories which track these relationships.
+The diagram below shows the hierarchical relationship between <GlossaryLink display="collections" id="collection" />, <GlossaryLink display="objects" id="object" /> and files in a corpus, together with the <GlossaryLink display="metadata" id="metadata" /> categories which track these relationships.
 
 <br>
 
-{{< image Src="/user-guides/crate-o/my_corpus.png" Alt="Self-contained corpus crate with all resources" Desc="Self-contained corpus crate with all resources" Title="Self-contained corpus crate with all resources" Ref="LDaCA" >}}
+<img src="./my_corpus.png" Alt="Self-contained corpus crate with all resources" Desc="Self-contained corpus crate with all resources" Title="Self-contained corpus crate with all resources" Ref="LDaCA" />
 
 <br>
 
@@ -60,7 +60,7 @@ The metadata is organised according to Schema.org entity types.
 
 | Entity      | Definition                                                                                                                                                                                                                                                                                                                             |
 | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Class       | `rdfs:Class` is used to classify resources. {{< glossary_link display="Classes" id="class" >}} in the Language Data Commons (LDAC) schema include CollectionEvent, CollectionProtocol, DataDepositLicense, DataLicense and DataReuseLicense (see [https://w3id.org/ldac/terms](https://w3id.org/ldac/terms)).                          |
+| Class       | `rdfs:Class` is used to classify resources. <GlossaryLink display="Classes" id="class" /> in the Language Data Commons (LDAC) schema include CollectionEvent, CollectionProtocol, DataDepositLicense, DataLicense and DataReuseLicense (see [https://w3id.org/ldac/terms](https://w3id.org/ldac/terms)).                          |
 | Property    | `rdfs:Property` is an attribute of an instance of a Class. For example, on an entity that is an instance of Class Person the property “name” would be their name, expressed as a text string, while “affiliation” would be a property that referenced another entity, their university.                                                |
 | DefinedTerm | A 'word, name, acronym, phrase, etc. with a formal definition', 'often used in the context of category or subject classification.' DefinedTerms allow us to a) have accurate definitions of the values we want to give to properties, and b) group such definitions in DefinedTermSets, which can function as controlled vocabularies. |
 
@@ -86,29 +86,29 @@ For more details on these and other metadata entities, see [Metadata for Languag
 
 <br>
 
-This diagram shows the relationship between the three main components used by {{< glossary_link display="Crate-O" id="crate-o" >}} and other {{< glossary_link display="tools" id="tools" >}} employed by LDaCA for specifying and validating {{< glossary_link display="RO-Crates" id="ro-crate" >}}. This section explains what these components are and how they relate.
+This diagram shows the relationship between the three main components used by <GlossaryLink display="Crate-O" id="crate-o" /> and other <GlossaryLink display="tools" id="tools" /> employed by LDaCA for specifying and validating <GlossaryLink display="RO-Crates" id="ro-crate" />. This section explains what these components are and how they relate.
 
 <br>
 
-{{< image Src="/user-guides/crate-o/schema-mode-profile.svg" Alt="The three main components for RO-Crate editing with Crate-O" Desc="The three main components for RO-Crate editing with Crate-O" Title="The three main components for RO-Crate editing with Crate-O" Ref="LDaCA" >}}
+<img src="./schema-mode-profile.svg" Alt="The three main components for RO-Crate editing with Crate-O" Desc="The three main components for RO-Crate editing with Crate-O" Title="The three main components for RO-Crate editing with Crate-O" Ref="LDaCA" />
 
 <br>
 
-1. A [Schema](#soss) specifies a {{< glossary_link display="metadata" id="metadata" >}} vocabulary of {{< glossary_link display="Classes" id="class" >}} and {{< glossary_link display="Properties" id="property" >}}, based on the RO-Crate specification's use of Schema.org classes.
+1. A [Schema](#soss) specifies a <GlossaryLink display="metadata" id="metadata" /> vocabulary of <GlossaryLink display="Classes" id="class" /> and <GlossaryLink display="Properties" id="property" />, based on the RO-Crate specification's use of Schema.org classes.
 
-2. An RO-Crate {{< glossary_link display="Mode" id="mode" >}} is a set of lightweight syntactic rules for combining Schema.org Style Schema (SOSS) Classes, Properties and DefinedTerms, expressed in a {{< glossary_link display="JSON" id="json" >}} file that can be:
+2. An RO-Crate <GlossaryLink display="Mode" id="mode" /> is a set of lightweight syntactic rules for combining Schema.org Style Schema (SOSS) Classes, Properties and DefinedTerms, expressed in a <GlossaryLink display="JSON" id="json" /> file that can be:
 
    - loaded into an editor such as [Crate-O](https://github.com/Language-Research-Technology/crate-o)
    - imported into another program and used for RO-Crate validation
    - used to summarise the rules for an [RO-Crate Profile](https://www.researchobject.org/ro-crate/1.2-DRAFT/profiles.html).
 
-3. An [RO-Crate Profile](https://www.researchobject.org/ro-crate/1.2-DRAFT/profiles.html) has (at least) a document that explains how metadata entities from the {{< glossary_link display="Schema" id="schema" >}} are used for a particular purpose.
+3. An [RO-Crate Profile](https://www.researchobject.org/ro-crate/1.2-DRAFT/profiles.html) has (at least) a document that explains how metadata entities from the <GlossaryLink display="Schema" id="schema" /> are used for a particular purpose.
 
-These are all inter-related, and can be developed together or separately using {{< glossary_link display="tools" id="tools" >}}.
+These are all inter-related, and can be developed together or separately using <GlossaryLink display="tools" id="tools" />.
 
 <br>
 
-> See the links below to the {{< glossary_link display="LDAC" id="ldac" >}} schema, profile and modes:
+> See the links below to the <GlossaryLink display="LDAC" id="ldac" /> schema, profile and modes:
 >
 > - [LDAC Schema](https://w3id.org/ldac/terms)
 > - [LDAC Profile](https://w3id.org/ldac/profile)
@@ -122,7 +122,7 @@ These are all inter-related, and can be developed together or separately using {
 
 <br>
 
-Schema.org, which provides the basic vocabulary for {{< glossary_link display="RO-Crate" id="ro-crate" >}}, has a light-touch approach to describing what it refers to as its _schema_ (with a small-s), which might also be thought of as an _ontology_. Schema.org is defined as a set of {{< glossary_link display="Classes" id="class" >}} and {{< glossary_link display="Properties" id="property" >}}, each of which has an online definition. The below example illustrates that the base class [Thing](https://schema.org/Thing) and its subclass [Person](https://schema.org/Person) has properties such as [birthDate](https://schema.org/birthDate).
+Schema.org, which provides the basic vocabulary for <GlossaryLink display="RO-Crate" id="ro-crate" />, has a light-touch approach to describing what it refers to as its _schema_ (with a small-s), which might also be thought of as an _ontology_. Schema.org is defined as a set of <GlossaryLink display="Classes" id="class" /> and <GlossaryLink display="Properties" id="property" />, each of which has an online definition. The below example illustrates that the base class [Thing](https://schema.org/Thing) and its subclass [Person](https://schema.org/Person) has properties such as [birthDate](https://schema.org/birthDate).
 
 <br>
 
@@ -175,12 +175,12 @@ The Class definition does not have any information about the occurrence of prope
 
 <br>
 
-A SOSS is a Flattened {{< glossary_link display="JSON" id="json" >}}-LD graph, just like an RO-Crate. Some members of the RO-Crate community are beginning to define its basic {{< glossary_link display="schema" id="schema" >}} and RO-Crate {{< glossary_link display="Profiles" id="profile" >}} using the SOSS's same approach.
+A SOSS is a Flattened <GlossaryLink display="JSON" id="json" />-LD graph, just like an RO-Crate. Some members of the RO-Crate community are beginning to define its basic <GlossaryLink display="schema" id="schema" /> and RO-Crate <GlossaryLink display="Profiles" id="profile" /> using the SOSS's same approach.
 
-To make an RO-Crate {{< glossary_link display="Mode" id="mode" >}} File, we transform the flat graph of a schema into something optimised for driving an editor or a validator; it creates a list of Classes, and what properties each may have.
+To make an RO-Crate <GlossaryLink display="Mode" id="mode" /> File, we transform the flat graph of a schema into something optimised for driving an editor or a validator; it creates a list of Classes, and what properties each may have.
 
 <br>
 
-{{< image Src="/user-guides/crate-o/soss-to-profile.svg" Alt="Base Mode File creation, combining the Schema.org schema and RO-Crate additions using the rocsoss script" Desc="Base Mode File creation, combining the Schema.org schema and RO-Crate additions using the rocsoss script" Title="Base Mode File creation, combining the Schema.org schema and RO-Crate additions using the rocsoss script" Ref="LDaCA" >}}
+<img src="./soss-to-profile.svg" Alt="Base Mode File creation, combining the Schema.org schema and RO-Crate additions using the rocsoss script" Desc="Base Mode File creation, combining the Schema.org schema and RO-Crate additions using the rocsoss script" Title="Base Mode File creation, combining the Schema.org schema and RO-Crate additions using the rocsoss script" Ref="LDaCA" />
 
 <br>

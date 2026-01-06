@@ -7,7 +7,7 @@ description: "Refine your queries with word, phrase and pattern searches."
 
 <br>
 
-> This user guide uses 'portal' to refer to the interface across all of the available {{< glossary_link display="Oni" id="oni" >}} portals (see [Available Portals](/resources/user-guides/portal/available-portals/) for more details).
+> This user guide uses 'portal' to refer to the interface across all of the available <GlossaryLink display="Oni" id="oni" /> portals (see [Available Portals](/resources/user-guides/portal/available-portals/) for more details).
 
 <br>
 
@@ -28,7 +28,7 @@ The basic search function can be found in the top left section of the portal hom
 
 <br>
 
-{{< image Src="/user-guides/portal/basic-search.png" Alt="Basic Search" Desc="Basic Search" Title="Basic Search" Ref="LDaCA" >}}
+<<img src="..//basic-search.png" Alt="Basic Search" Desc="Basic Search" Title="Basic Search" Ref="LDaCA" />
  
 <br>
 
@@ -45,7 +45,7 @@ Basic Search does not allow you to search for:
 
 <br>
 
-Selecting the magnifying glass icon or hitting Enter/Return on a keyboard executes a Basic Search (but note that the Enter/Return option is not available in Advanced Search). By default, results are sorted by relevance and ordered in descending order. Each result will display a _Relevance Score_ based on the relevance of the result to the search query. If at least one of the query words occurs in the text field of an {{< glossary_link display="object" id="object" >}}, this will be highlighted in yellow; however, highlighting will not occur for matches within {{< glossary_link display="metadata" id="metadata" >}} fields such as name and description.
+Selecting the magnifying glass icon or hitting Enter/Return on a keyboard executes a Basic Search (but note that the Enter/Return option is not available in Advanced Search). By default, results are sorted by relevance and ordered in descending order. Each result will display a _Relevance Score_ based on the relevance of the result to the search query. If at least one of the query words occurs in the text field of an <GlossaryLink display="object" id="object" />, this will be highlighted in yellow; however, highlighting will not occur for matches within <GlossaryLink display="metadata" id="metadata" /> fields such as name and description.
 
 Note that queries in Basic Search will be applied to all fields in the collections (e.g. name, description, text). If you need to refine the search field, or search for multiple words in specific fields, use the Advanced Search function.
 
@@ -59,7 +59,7 @@ The advanced search function is accessed by selecting ___Advanced Search___ belo
 
 <br>
 
-{{< image Src="/user-guides/portal/advanced-search.png" Alt="Advanced Search" Desc="Advanced Search" Title="Advanced Search" Ref="LDaCA" >}}
+<<img src="..//advanced-search.png" Alt="Advanced Search" Desc="Advanced Search" Title="Advanced Search" Ref="LDaCA" />
 
 <br>
 

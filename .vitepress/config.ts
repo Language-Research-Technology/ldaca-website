@@ -147,7 +147,7 @@ export default defineConfig({
               { text: 'Articles', link: '/articles' },
               { text: 'Books', link: '/books' },
               { text: 'Videos', link: '/videos' },
-              { text: 'View all', link: '/type', bold: true }
+              { text: 'View all', link: '/resources/general-resources/case-studies/', bold: true }
             ]
           },
           {
@@ -156,7 +156,7 @@ export default defineConfig({
             children: [
               { text: 'Language Documentation', link: '/topics/language-documentation' },
               { text: 'Fieldwork Techniques', link: '/topics/fieldwork-techniques' },
-              { text: 'View all', link: '/subject', bold: true }
+              { text: 'View all', link: '/resources/general-resources/case-studies/', bold: true }
 
             ]
           },
@@ -164,9 +164,9 @@ export default defineConfig({
             title: '',
             divider: true,
             children: [
-              { text: 'Glossary', link: '/docs/', bold: true  },
-              { text: 'FAQs', link: '/tutorials/', bold: true  },
-              { text: 'Blog', link: '/community/', bold: true  }
+              { text: 'Glossary', link: '/resources/glossary/', bold: true  },
+              { text: 'FAQs', link: '/resources/faqs/', bold: true  },
+              { text: 'Blog', link: '/news/posts/', bold: true  }
             ]
           }
         ]

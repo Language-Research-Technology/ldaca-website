@@ -26,7 +26,7 @@ Free software for doing phonetics by computer.
 
 ## [FieldWorks](https://software.sil.org/fieldworks/)
 
-Software {{< glossary_link display="tools" id="tools" >}} for managing linguistic and cultural data. FieldWorks supports tasks ranging from the initial entry of collected data through to the preparation of data for publication, including dictionary development, interlinearization of texts, morphological analysis, and other publications.
+Software <GlossaryLink display="tools" id="tools" /> for managing linguistic and cultural data. FieldWorks supports tasks ranging from the initial entry of collected data through to the preparation of data for publication, including dictionary development, interlinearization of texts, morphological analysis, and other publications.
 
 <br>
 

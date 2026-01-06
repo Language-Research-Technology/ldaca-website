@@ -21,7 +21,7 @@ A digital archive of endangered literature in Australian Indigenous languages of
 
 ## [Endangered Languages Archive (ELAR)](https://www.elararchive.org/)
 
-A digital repository for preserving multimedia {{< glossary_link display="collections" id="collection" >}} of endangered languages from all over the world, making them available for future generations.
+A digital repository for preserving multimedia <GlossaryLink display="collections" id="collection" /> of endangered languages from all over the world, making them available for future generations.
 
 <br>
 

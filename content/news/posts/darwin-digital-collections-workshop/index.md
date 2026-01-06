@@ -10,7 +10,7 @@ by <Profile id="pettrup" />
 
 <br>
 
-From 24–28 March, the {{< glossary_link display="LDaCA" id="ldaca" >}} team hosted the Darwin digital languages collections workshop. This event brought together organisations and individuals from the Top End to exchange ideas and insights about Indigenous language {{< glossary_link display="collections" id="collection" >}} and explore collaborative opportunities.
+From 24–28 March, the <GlossaryLink display="LDaCA" id="ldaca" /> team hosted the Darwin digital languages collections workshop. This event brought together organisations and individuals from the Top End to exchange ideas and insights about Indigenous language <GlossaryLink display="collections" id="collection" /> and explore collaborative opportunities.
 
 <br>
 
@@ -18,7 +18,7 @@ From 24–28 March, the {{< glossary_link display="LDaCA" id="ldaca" >}} team ho
 
 The week began with presentations that introduced participants to technologies, processes and practices that might help when working with digital language collections. They provided a comprehensive overview of the data management strategies that workshop participants can use for effectively organising and describing digital language materials.
 
-Ben Foley kicked off with an introduction to language collections and {{< glossary_link display="metadata" id="metadata" >}}, where he explained the foundational concepts around language collections, underscoring the importance of metadata for organising and understanding digital materials.
+Ben Foley kicked off with an introduction to language collections and <GlossaryLink display="metadata" id="metadata" />, where he explained the foundational concepts around language collections, underscoring the importance of metadata for organising and understanding digital materials.
 
 <br>
 
@@ -31,9 +31,9 @@ Ben Foley kicked off with an introduction to language collections and {{< glossa
 
 Moises Sacal Bonequi introduced a structured set of guidelines for designing and evaluating data storage services ([PILARS](https://pilars-protocols.github.io/pilars/)). This framework ensures that digital assets, such as research data, are securely managed and accessible for the long term.
 
-Nick Thieberger joined the workshop virtually to demonstrate [Nyingarn](https://nyingarn.net/), a workspace for working with handwritten or typed manuscripts. The platform can help with making digital {{< glossary_link display="formats" id="format" >}} of manuscripts searchable, while maintaining a secure environment for sensitive material.
+Nick Thieberger joined the workshop virtually to demonstrate [Nyingarn](https://nyingarn.net/), a workspace for working with handwritten or typed manuscripts. The platform can help with making digital <GlossaryLink display="formats" id="format" /> of manuscripts searchable, while maintaining a secure environment for sensitive material.
 
-Ben and Rosanna Smith then introduced [RO-Crate](https://www.researchobject.org/ro-crate/) and [Crate-O](https://language-research-technology.github.io/crate-o/#/). Ben used a physical crate as a metaphor to explain the RO-Crate approach to {{< glossary_link display="packaging data" id="data-packaging" >}}. He explained how RO-Crate is a {{< glossary_link display="method" id="methods" >}} for bundling materials (like audio files, images or manuscripts) with their associated metadata. Rosanna also shared a demonstration of Crate-O, a browser-based platform that can help users convert their materials and metadata into an RO-Crate format.
+Ben and Rosanna Smith then introduced [RO-Crate](https://www.researchobject.org/ro-crate/) and [Crate-O](https://language-research-technology.github.io/crate-o/#/). Ben used a physical crate as a metaphor to explain the RO-Crate approach to <GlossaryLink display="packaging data" id="data-packaging" />. He explained how RO-Crate is a <GlossaryLink display="method" id="methods" /> for bundling materials (like audio files, images or manuscripts) with their associated metadata. Rosanna also shared a demonstration of Crate-O, a browser-based platform that can help users convert their materials and metadata into an RO-Crate format.
 
 <br>
 
@@ -46,9 +46,9 @@ Ben and Rosanna Smith then introduced [RO-Crate](https://www.researchobject.org/
 
 The workshop also provided a platform for participants to share their efforts in working with language materials, and building digital archives and collections.
 
-Elaine Labuschagne reflected on her learnings working with the [Batchelor Institute](https://www.batchelor.edu.au/) Centre for Australian Languages and Linguistics (CALL) Collection so far and the evolving [catalogue](https://callcollection.batchelor.edu.au/). She outlined plans for upcoming work with LDaCA, focusing on creating lasting accessibility solutions to address the limitations of temporary digital {{< glossary_link display="tools" id="tools" >}}.
+Elaine Labuschagne reflected on her learnings working with the [Batchelor Institute](https://www.batchelor.edu.au/) Centre for Australian Languages and Linguistics (CALL) Collection so far and the evolving [catalogue](https://callcollection.batchelor.edu.au/). She outlined plans for upcoming work with LDaCA, focusing on creating lasting accessibility solutions to address the limitations of temporary digital <GlossaryLink display="tools" id="tools" />.
 
-Dikuḻ Baker, Salome Harris and Jess Wallace shared the beginnings of the [ARDS](https://www.ards.com.au/) AudioCat Project pilot project, which focuses on cataloging {{< glossary_link display="ARDS'" id="ards" >}} extensive collection materials. Their stories emphasised valuable lessons learned so far.
+Dikuḻ Baker, Salome Harris and Jess Wallace shared the beginnings of the [ARDS](https://www.ards.com.au/) AudioCat Project pilot project, which focuses on cataloging <GlossaryLink display="ARDS'" id="ards" /> extensive collection materials. Their stories emphasised valuable lessons learned so far.
 
 PJ Andrews, Juliet Beale and Karen Manton showcased the [Libraries and Archives NT](https://lant.nt.gov.au/) collections and explained the complexities of managing multiple digital collection spaces, including their Library Management System, their library catalogue, and [Territory Stories](https://territorystories.nt.gov.au/), their interface for searching digital and published collections about the Northern Territory. This session highlighted challenges and opportunities of working across multiple digital tools.
 
@@ -58,7 +58,7 @@ PJ Andrews, Juliet Beale and Karen Manton showcased the [Libraries and Archives 
 
 Another highlight of the workshop were the hands-on sessions, where participants explored the use of some of the tools introduced in earlier presentations. These activities explored essential considerations, including metadata organisation and description.
 
-Participants tried their hand at applying the RO-Crate method and using the Crate-O platform, setting up {{< glossary_link display="linked data" id="linked-data" >}} collections based on their own collections and datasets. Along the way, an important insight emerged: not all spreadsheet programs are equal. While tools like Microsoft Excel, Apple Numbers and Google Sheets might seem interchangeable, subtle differences in formatting and formula handling can lead to unexpected results. This realisation proved to be a valuable learning moment and will help with refining the application of RO-Crate {{< glossary_link display="standards" id="standard" >}} and improve instructional materials. By the end of the workshop, participants successfully set up linked datasets and gained a better understanding of RO-Crate, laying a strong foundation to continue their work beyond the session.
+Participants tried their hand at applying the RO-Crate method and using the Crate-O platform, setting up <GlossaryLink display="linked data" id="linked-data" /> collections based on their own collections and datasets. Along the way, an important insight emerged: not all spreadsheet programs are equal. While tools like Microsoft Excel, Apple Numbers and Google Sheets might seem interchangeable, subtle differences in formatting and formula handling can lead to unexpected results. This realisation proved to be a valuable learning moment and will help with refining the application of RO-Crate <GlossaryLink display="standards" id="standard" /> and improve instructional materials. By the end of the workshop, participants successfully set up linked datasets and gained a better understanding of RO-Crate, laying a strong foundation to continue their work beyond the session.
 
 <br>
 

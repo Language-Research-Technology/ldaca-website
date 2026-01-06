@@ -10,7 +10,7 @@ by <Profile id="sheppard" />
 <br>
 
 <figure>
-	<img src="/fieldwork-png/HS-sailing-outrigger-small.jpg" alt="Harriet on an outrigger boat off Vanatɨna" title="Harriet on an outrigger boat off Vanatɨna" />
+	<img src="./HS-sailing-outrigger-small.jpg" alt="Harriet on an outrigger boat off Vanatɨna" title="Harriet on an outrigger boat off Vanatɨna" />
 	<figcaption>Harriet on an outrigger boat off Vanatɨna. (Harriet Sheppard)</figcaption>
 </figure>
 
@@ -21,7 +21,7 @@ My <GlossaryLink display="fieldwork" id="fieldwork" /> experience, in many ways,
 <br>
 
 <figure>
-	<img src="/fieldwork-png/map-louisiade.jpg" alt="Map of Louisiade Archipelago" title="Map of Louisiade Archipelago" />
+	<img src="./map-louisiade.jpg" alt="Map of Louisiade Archipelago" title="Map of Louisiade Archipelago" />
 	<figcaption>Map of Louisiade Archipelago. (Harriet Sheppard)</figcaption>
 </figure>
 
@@ -32,7 +32,7 @@ Before recording with a speaker for the first time, I would explain the project 
 <br>
 
 <figure>
-	<img src="/fieldwork-png/transcription-session-small.jpg" alt="Transcription session with Abel Sam" title="Transcription session with Abel Sam" />
+	<img src="./transcription-session-small.jpg" alt="Transcription session with Abel Sam" title="Transcription session with Abel Sam" />
 	<figcaption>Transcription session with Abel Sam. (Harriet Sheppard)</figcaption>
 </figure>
 
@@ -43,7 +43,7 @@ Each time I made a recording with a speaker or speakers, I played the recording 
 <br>
 
 <figure>
-	<img src="/fieldwork-png/elicitation-session-notes-small.jpg" alt="Notes from an elicitation session" title="Notes from an elicitation session" />
+	<img src="./elicitation-session-notes-small.jpg" alt="Notes from an elicitation session" title="Notes from an elicitation session" />
 	<figcaption>Notes from an elicitation session. (Harriet Sheppard)</figcaption>
 </figure>
 
@@ -59,7 +59,7 @@ When collecting spoken or signed language data, the best practice is to make aud
 <br>
 
 <figure>
-	<img src="/fieldwork-png/recording-setup-small.jpg" alt="Setting up for a recording session" title="Setting up for a recording session" />
+	<img src="./recording-setup-small.jpg" alt="Setting up for a recording session" title="Setting up for a recording session" />
 	<figcaption>Setting up for a recording session. (Harriet Sheppard)</figcaption>
 </figure>
 
@@ -78,7 +78,7 @@ To secure data, ideally, I would also make backup copies of all new recordings a
 <br>
 
 <figure>
-	<img src="/fieldwork-png/crossing-river-small.jpg" alt="Crossing the Veora river" title="Crossing the Veora river" />
+	<img src="./crossing-river-small.jpg" alt="Crossing the Veora river" title="Crossing the Veora river" />
 	<figcaption>Crossing the Veora river. (Harriet Sheppard)</figcaption>
 </figure>
 
@@ -96,7 +96,7 @@ In future research projects I might work in, I can build on my past experiences 
 <br>
 
 <figure>
-	<img src="/fieldwork-png/Vuwo.JPG" alt="Vuwo village" title="Vuwo village" />
+	<img src="./Vuwo.JPG" alt="Vuwo village" title="Vuwo village" />
 	<figcaption>Vuwo village. (Harriet Sheppard)</figcaption>
 </figure>
 

@@ -37,7 +37,7 @@ A lexical database (a database with words from different languages). Currently, 
 
 ### [Digital Daisy Bates](https://bates.org.au/)
 
-A {{< glossary_link display="collection" id="collection" >}} of over 23,000 pages of wordlists of Australian languages, originally recorded by Daisy Bates in the early 1900s, made up of the original questionnaires and around 4,000 pages of typescripts.
+A <GlossaryLink display="collection" id="collection" /> of over 23,000 pages of wordlists of Australian languages, originally recorded by Daisy Bates in the early 1900s, made up of the original questionnaires and around 4,000 pages of typescripts.
 
 <br>
 
@@ -95,13 +95,13 @@ A platform for primary sources in Australian Indigenous languages.
 
 ### [Ethnologue](https://www.ethnologue.com/)
 
-Provides information about the languages of the world, but operates on a subscription model. The information that is available without a subscription is very limited: the first three lines of individual language entries which include the [ISO 639-3](/resources/ldaca-resources/metadata/#iso-639) code, the classification of the language into a language family, and a link to the language’s {{< glossary_link display="OLAC" id="olac" >}} page.
+Provides information about the languages of the world, but operates on a subscription model. The information that is available without a subscription is very limited: the first three lines of individual language entries which include the [ISO 639-3](/resources/ldaca-resources/metadata/#iso-639) code, the classification of the language into a language family, and a link to the language’s <GlossaryLink display="OLAC" id="olac" /> page.
 
 <br>
 
 ### [Glottolog](https://glottolog.org/)
 
-Comprehensive reference information for the world's languages, especially the lesser-known languages. {{< glossary_link display="LDaCA" id="ldaca" >}} uses {{< glossary_link display="Glottolog" id="glottolog" >}} [language codes](/resources/ldaca-resources/metadata/#glottolog) in our {{< glossary_link display="metadata" id="metadata" >}}.
+Comprehensive reference information for the world's languages, especially the lesser-known languages. <GlossaryLink display="LDaCA" id="ldaca" /> uses <GlossaryLink display="Glottolog" id="glottolog" /> [language codes](/resources/ldaca-resources/metadata/#glottolog) in our <GlossaryLink display="metadata" id="metadata" />.
 
 <br>
 
@@ -113,7 +113,7 @@ An international partnership of institutions and individuals who are creating a 
   
 (ii) developing a network of interoperating repositories and services for housing and accessing such resources.
   
-{{< glossary_link display="OLAC" id="olac" >}} harvests metadata and their website has a search facility to find resources for languages. {{< glossary_link display="OLAC" id="olac" >}} [metadata recommendations](/resources/ldaca-resources/metadata/#olac) are the basis for some of LDaCA's metadata.
+<GlossaryLink display="OLAC" id="olac" /> harvests metadata and their website has a search facility to find resources for languages. <GlossaryLink display="OLAC" id="olac" /> [metadata recommendations](/resources/ldaca-resources/metadata/#olac) are the basis for some of LDaCA's metadata.
 
 <br>
 
