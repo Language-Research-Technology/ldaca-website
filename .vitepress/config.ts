@@ -23,12 +23,44 @@ function generateGlossaryData() {
     .sort((a, b) => a.term.localeCompare(b.term))
 }
 
+function generatePagesData() {
+  const contentDir = path.join(__dirname, '../content')
+  if (!fs.existsSync(contentDir)) return {}
+
+  const pages: Record<string, any> = {}
+
+  function walk(dir: string, base = '') {
+    const entries = fs.readdirSync(dir, { withFileTypes: true })
+    for (const entry of entries) {
+      const full = path.join(dir, entry.name)
+      const rel = path.join(base, entry.name)
+      if (entry.isDirectory()) {
+        walk(full, rel)
+      } else if (entry.name === 'index.md') {
+        const content = fs.readFileSync(full, 'utf-8')
+        const { data } = matter(content)
+        let routePath = '/' + rel.replace(/[\\/]index\.md$/, '').replace(/[\\/]+/g, '/')
+        if (routePath.endsWith('/')) routePath = routePath.slice(0, -1)
+        if (routePath === '') routePath = '/'
+        pages[routePath] = {
+          image: data.image,
+          title: data.title,
+          description: data.description
+        }
+      }
+    }
+  }
+
+  try { walk(contentDir) } catch (e) { /* ignore */ }
+  return pages
+}
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   srcDir: "content",
   mpa: true,
   ignoreDeadLinks: true, // Temporarily ignore dead links while site is under development! Verify this!
-  title: "ldaca",
+  title: "LDaCA",
   description: "ldaca.edu.au",
   vite: {
     resolve: {
@@ -50,6 +82,18 @@ export default defineConfig({
           if (id === 'virtual:glossary-data') {
             const data = generateGlossaryData()
             return `export const glossaryItems = ${JSON.stringify(data)}`
+          }
+        }
+      },
+      {
+        name: 'pages-generator',
+        resolveId(id) {
+          if (id === 'virtual:pages-data') return id
+        },
+        load(id) {
+          if (id === 'virtual:pages-data') {
+            const data = generatePagesData()
+            return `export const pagesData = ${JSON.stringify(data)}`
           }
         }
       },
@@ -121,12 +165,13 @@ export default defineConfig({
       //   link: '/posts/'
       // },
       {
-        text: 'Working with data',
+        text: 'Working with Data',
+        subtitle: 'TODO add subtitle',
         items: [
-          { text: 'Find and access', link: '/shadcn-example' },
-          { text: 'Organise and describe', link: '/shadcn-install' },
-          { text: 'License share and govern', link: '/shadcn-install' },
-          { text: 'Process & analyse', link: '/shadcn-install' }
+          { text: 'Find & access', link: '/working-with-data/find-access/' },
+          { text: 'Organise & describe', link: '/working-with-data/organise-describe/' },
+          { text: 'License, share & govern', link: '/working-with-data/license-share-govern/' },
+          { text: 'Process & analyse', link: '/working-with-data/process-analyse/' }
         ]
       },
       {
@@ -145,10 +190,13 @@ export default defineConfig({
             title: 'By Type',
             divider: true,
             children: [
-              { text: 'Articles', link: '/articles' },
-              { text: 'Books', link: '/books' },
-              { text: 'Videos', link: '/videos' },
-              { text: 'View all', link: '/resources/general-resources/case-studies/', bold: true }
+              { text: 'Audio & Video', link: '/by-type/audio-video/' },
+              { text: 'Guides', link: '/by-type/guides/' },
+              { text: 'Interviews', link: '/by-type/interviews/' },
+              { text: 'Presentations', link: '/by-type/presentations/' },
+              { text: 'Publications', link: '/news/publications/' },
+              { text: 'Technologies & Tools', link: '/by-type/technologies-tools/' },
+              // { text: 'View all', link: '/resources/general-resources/case-studies/', bold: true }
             ]
           },
           {
@@ -166,21 +214,21 @@ export default defineConfig({
             divider: true,
             children: [
               { text: 'Glossary', link: '/resources/glossary/', bold: true  },
-              { text: 'FAQs', link: '/resources/faqs/', bold: true  },
+              { text: 'FAQs', link: '/about/faqs/', bold: true  },
               { text: 'Blog', link: '/news/posts/', bold: true  }
             ]
           }
         ]
       } as any,
       {
-        text: 'Projects & case studies',
-        link: '/resources/general-resources/case-studies/'
+        text: 'Projects & Case Studies',
+        link: '/resources/general-resources/projects-case-studies/'
       },
       {
         text: 'About',
-        subtitle: 'Learn more about our organization',
+        subtitle: 'Learn more about our organisation',
         items: [
-          { text: 'Organisation', link: '/shadcn-example', image: 'https://placehold.co/150x100' },
+          { text: 'Organisation', link: '/about/organisation', image: 'https://placehold.co/150x100' },
           { text: 'People', link: '/shadcn-install', image: 'https://placehold.co/150x100' },
           { text: 'Policies & Procedures', link: '/shadcn-install', image: 'https://placehold.co/150x100' }
         ]

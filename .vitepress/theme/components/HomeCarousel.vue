@@ -1,5 +1,6 @@
 <script setup>
 import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
+import { pagesData } from 'virtual:pages-data'
 
 const props = defineProps({
   heading: {
@@ -10,6 +11,11 @@ const props = defineProps({
     type: Array,
     required: false,
     default: () => []
+  },
+  image: {
+    type: Array,
+    required: false,
+    default: () => ['/images/Petroglyph_Pattern.svg']
   },
   backgroundColor: {
     type: String,
@@ -49,7 +55,33 @@ const visibleCount = computed(() => {
 
 const visibleItems = computed(() => {
   if (total.value === 0) return []
-  return Array.from({ length: visibleCount.value }, (_, i) => props.items[(currentIndex.value + i) % total.value])
+  return Array.from({ length: visibleCount.value }, (_, i) => {
+    const rawItem = props.items[(currentIndex.value + i) % total.value]
+    let imageUrl = rawItem.image
+    let description = rawItem.description
+    
+    // If no explicit values, look up from pages metadata
+    if (rawItem.link) {
+      const pageMetadata = pagesData[rawItem.link]
+      if (!imageUrl && pageMetadata?.image) {
+        imageUrl = pageMetadata.image
+      }
+      if (!description && pageMetadata?.description) {
+        description = pageMetadata.description
+      }
+    }
+    
+    // Fall back to default carousel image
+    if (!imageUrl) {
+      imageUrl = Array.isArray(props.image) ? props.image[0] : props.image
+    }
+    
+    return {
+      ...rawItem,
+      image: imageUrl,
+      description: description
+    }
+  })
 })
 
 const showArrows = computed(() => total.value > visibleCount.value)

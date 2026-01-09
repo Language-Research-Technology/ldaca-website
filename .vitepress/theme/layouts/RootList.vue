@@ -5,17 +5,25 @@ import { data as allPages } from '../lib/sections.data'
 
 const { page } = useData()
 
-const section = computed(() => {
+const sectionPath = computed(() => {
   const rp = page.value.relativePath || ''
-  // e.g., 'news/index.md' -> 'news'
+  // e.g., 'resources/user-guides/index.md' -> 'resources/user-guides'
   const withoutIndex = rp.replace(/\/index\.md$/, '')
-  return withoutIndex.split('/')[0] || ''
+  return withoutIndex || ''
 })
 
 const items = computed(() => {
-  const base = `/${section.value}/`
-  // filter pages in same section, excluding the section root itself
-  const filtered = allPages.filter(p => p.url.startsWith(base) && p.url !== base)
+  // use the full path after content (so '/resources/user-guides/')
+  const base = `/${sectionPath.value}/`
+  // filter pages that are immediate children of this section (one path segment after base)
+  const filtered = allPages.filter(p => {
+    if (!p.url.startsWith(base) || p.url === base) return false
+    const remainder = p.url.slice(base.length)
+    // strip a single trailing slash
+    const trimmed = remainder.replace(/\/$/, '')
+    // include only if there is exactly one path segment (no additional '/')
+    return trimmed.length > 0 && trimmed.indexOf('/') === -1
+  })
 
   // sort by weight asc, then date desc, then title asc
   return filtered.sort((a, b) => {

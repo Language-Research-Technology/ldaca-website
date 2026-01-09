@@ -15,7 +15,7 @@ const props = defineProps({
       {
         title: 'Organise & describe data',
         image: 'https://placehold.co/400x300',
-        description: 'Learn best practices for organizing and describing your language data with metadata standards that ensure discoverability and long-term preservation.'
+        description: 'Learn best practices for organising and describing your language data with metadata standards that ensure discoverability and long-term preservation.'
       },
       {
         title: 'License collections responsibly',
@@ -35,7 +35,7 @@ const props = defineProps({
       {
         title: 'Process data for use',
         image: 'https://placehold.co/400x300',
-        description: 'Use our tools and workflows to process language data into formats ready for analysis, visualization, and other research applications.'
+        description: 'Use our tools and workflows to process language data into formats ready for analysis, visualisation, and other research applications.'
       },
       {
         title: 'Analyse language at scale',

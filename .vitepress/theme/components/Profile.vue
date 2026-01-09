@@ -20,15 +20,6 @@
           <h4>{{ profile.fullname || profile.Name }}</h4>
           <p class="position" v-if="profile.position">{{ profile.position }}</p>
           <p class="biog" v-if="profile.biog">{{ profile.biog }}</p>
-          <a 
-            v-if="profile.external_link"
-            :href="profile.external_link" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            class="external-link-arrow"
-          >
-            View Profile →
-          </a>
         </div>
       </div>
     </transition>
@@ -63,22 +54,26 @@ onMounted(async () => {
     const lines = yamlContent.split('\n').filter((line: string) => line.trim())
     const data: ProfileData = {}
 
-    for (const line of lines) {
-      if (line.includes(':')) {
-        const [key, ...valueParts] = line.split(':')
-        let value = valueParts.join(':').trim()
-        
-        // Remove quotes
-        value = value.replace(/^["']|["']$/g, '')
-        
-        const cleanKey = key.trim().toLowerCase()
-        
-        if (cleanKey === 'name') data.Name = value
-        if (cleanKey === 'fullname') data.fullname = value
-        if (cleanKey === 'position') data.position = value
-        if (cleanKey === 'biog') data.biog = value
-        if (cleanKey === 'external_link') data.external_link = value
-      }
+    for (const rawLine of lines) {
+      const line = rawLine.trim()
+      // skip comments and non key:value lines
+      if (line.startsWith('#') || !line.includes(':')) continue
+
+      const [rawKey, ...valueParts] = line.split(':')
+
+      // normalize key: strip quotes, trim, replace hyphens with underscores and lowercase
+      let key = rawKey.trim().replace(/^['\"]|['\"]$/g, '')
+      key = key.replace(/-/g, '_').toLowerCase()
+
+      let value = valueParts.join(':').trim()
+      // Remove surrounding quotes from the value if present
+      value = value.replace(/^['\"]|['\"]$/g, '')
+
+      if (key === 'name') data.Name = value
+      if (key === 'fullname') data.fullname = value
+      if (key === 'position') data.position = value
+      if (key === 'biog') data.biog = value
+      if (key === 'external_link') data.external_link = value
     }
 
     profile.value = data
@@ -120,13 +115,33 @@ onMounted(async () => {
 }
 
 .profile-tooltip-content {
-  background: var(--vp-c-bg-soft);
-  border: 1px solid var(--vp-c-divider);
+  /* force an opaque background so tooltip text is always readable */
+  background-color: rgba(255,255,255,0.98);
+  color: #0b0b0b;
+  border: 1px solid rgba(0,0,0,0.08);
   border-radius: 8px;
   padding: 12px 16px;
   min-width: 280px;
   max-width: 360px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  z-index: 2000;
+  backdrop-filter: none;
+}
+
+/* ensure content inherits the tooltip text color */
+.profile-tooltip-content h4,
+.profile-tooltip-content p,
+.profile-tooltip-content a {
+  color: inherit;
+}
+
+/* Dark mode: use a dark opaque background */
+@media (prefers-color-scheme: dark) {
+  .profile-tooltip-content {
+    background-color: #0b1220;
+    color: #e6eef8;
+    border: 1px solid rgba(255,255,255,0.06);
+  }
 }
 
 .profile-tooltip-content h4 {

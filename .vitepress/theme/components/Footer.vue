@@ -62,7 +62,7 @@ footer {
         <div class="">
           <p class="text-sm text-muted-foreground leading-relaxed mb-8">
             LDaCA acknowledges all Aboriginal and Torres Strait Islander Traditional Custodians of Country and recognises their continuing connection to land, sea, culture and community.<br/><br/>
-            We pay our respects to Elders past and present
+            We pay our respects to Elders past and present.
           </p>
           <div>
             <h3 class="font-semibold text-lg mb-4 text-foreground">About</h3>
@@ -122,7 +122,7 @@ footer {
                 Subscribe
               </button>
             </form>
-            <a href="/newsletters" class="text-sm text-muted-foreground hover:text-primary transition-colors">
+            <a href="/news/newsletter" class="text-sm text-muted-foreground hover:text-primary transition-colors">
               View past newsletters
             </a>
           </div>
@@ -141,13 +141,13 @@ footer {
 
           <!-- Social Links -->
           <div class="flex items-center justify-center gap-4">
-            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="text-muted-foreground hover:text-primary transition-colors">
+            <a href="https://www.youtube.com/@LDaCA_Project" target="_blank" rel="noopener noreferrer" class="text-muted-foreground hover:text-primary transition-colors">
               <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.5 12 3.5 12 3.5s-7.505 0-9.377.55A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.551 9.376.551 9.376.551s7.505 0 9.377-.551a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
               </svg> 
               <span>@LDaCA_Project</span>
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="text-muted-foreground hover:text-primary transition-colors">
+            <a href="https://www.linkedin.com/company/ldaca/" target="_blank" rel="noopener noreferrer" class="text-muted-foreground hover:text-primary transition-colors">
               <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.475-2.236-1.986-2.236-1.081 0-1.722.722-2.004 1.418-.103.249-.129.597-.129.946v5.441h-3.554s.05-8.736 0-9.643h3.554v1.364c.43-.664 1.195-1.604 2.906-1.604 2.121 0 3.71 1.388 3.71 4.369v5.514zM5.337 8.855c-1.144 0-1.915-.758-1.915-1.704 0-.948.77-1.704 1.963-1.704 1.192 0 1.926.756 1.939 1.704 0 .946-.747 1.704-1.987 1.704zm1.582 11.597H3.754V9.609h3.165v10.843zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/>
               </svg>

@@ -24,7 +24,7 @@ const headerBgColor = theme.value.headerBgColor ?? 'transparent'
         <!-- Right quick menu - Desktop (≥1024px) -->
         <div class="hidden lg:flex items-center gap-6 ml-auto">
           <a href="/news/posts/" class="text-sm text-white hover:text-gray-300 transition-colors">Blog</a>
-          <a href="/newsletter" class="text-sm text-white hover:text-gray-300 transition-colors">Newsletter</a>
+          <a href="/news/newsletter" class="text-sm text-white hover:text-gray-300 transition-colors">Newsletter</a>
           <div class="relative">
             <input type="search" placeholder="Search"
               class="w-40 rounded-none border border-border bg-background px-3 py-1.5 text-sm outline-none focus:ring-2 focus:ring-primary" />

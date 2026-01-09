@@ -6,13 +6,13 @@ const props = defineProps({
     default: () => [
       {
         title: 'Building ethical language data pipelines',
-        excerpt: 'How we partner with communities to design consent-aware, reproducible workflows for language collections.',
+        description: 'How we partner with communities to design consent-aware, reproducible workflows for language collections.',
         image: 'https://placehold.co/1200x700',
         link: '/posts/ethical-language-pipelines'
       },
       {
         title: 'From archive to access: a case study',
-        excerpt: 'Digitising fragile materials, adding metadata, and launching a portal experience for language learners.',
+        description: 'Digitising fragile materials, adding metadata, and launching a portal experience for language learners.',
         image: 'https://placehold.co/1200x700',
         link: '/posts/archive-to-access'
       }
@@ -42,7 +42,7 @@ const props = defineProps({
         <div class="relative h-full flex items-end">
           <div class="m-6 p-5 bg-white/90 backdrop-blur rounded-none shadow">
             <h3 class="text-xl font-semibold text-gray-900">{{ item.title }}</h3>
-            <p class="mt-2 text-sm text-gray-700">{{ item.excerpt }}</p>
+            <p class="mt-2 text-sm text-gray-700">{{ item.description }}</p>
             <a :href="item.link" class="mt-3 inline-flex items-center text-blue-700 font-semibold hover:text-blue-900">
               Read blog →
             </a>

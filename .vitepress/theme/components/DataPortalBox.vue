@@ -34,6 +34,8 @@ defineProps({
       <div class="flex-shrink-0">
         <a 
           :href="buttonLink"
+          target="_blank"
+          rel="noopener noreferrer"
           :style="{ backgroundColor: buttonColors.bg, color: buttonColors.text }"
           class="inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-none transition-colors hover:opacity-90"
         >
