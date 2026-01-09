@@ -1,4 +1,4 @@
 Name: "linked-data"
 "title": "Linked Data"
 "short_description": "Structured data that is interlinked with other data and published in a machine-readable way to maximise interoperability and improve the precision of metadata."
-"content": 'Structured data that is interlinked with other data and published in a machine-readable way to maximise interoperability and improve the precision of {{< glossary_link display="metadata" id="metadata" >}}.'
+"content": 'Structured data that is interlinked with other data and published in a machine-readable way to maximise interoperability and improve the precision of <GlossaryLink display="metadata" id="metadata" />.'

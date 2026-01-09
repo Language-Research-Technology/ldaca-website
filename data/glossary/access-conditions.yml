@@ -1,4 +1,4 @@
 Name: "access-conditions"
 "title": "Access Conditions"
 "short_description": "Conditions which specify who can access data and what they can do with that data."
-"content": 'Conditions which specify who can access data and what they can do with that data. A well-governed {{< glossary_link display="archival repository" id="archival-repository" >}} has mechanisms in place to administer and implement such conditions which will be specified on a {{< glossary_link display="data license" id="data-license" >}}.'
+"content": 'Conditions which specify who can access data and what they can do with that data. A well-governed <GlossaryLink display="archival repository" id="archival-repository" /> has mechanisms in place to administer and implement such conditions which will be specified on a <GlossaryLink display="data license" id="data-license" />.'

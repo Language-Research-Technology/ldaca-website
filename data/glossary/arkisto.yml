@@ -1,6 +1,6 @@
 Name: "arkisto"
 "title": "Arkisto"
 "short_description": "A scalable, standards-based platform for sustainable data."
-"content": 'A scalable, standards-based platform for sustainable data. Data on an Arkisto deployment is always available on disc (or {{< glossary_link display="object" id="object" >}} storage) with a complete description independently of any services such as websites or {{< glossary_link display="APIs" id="api" >}}. Once the data is safe and well-described, Arkisto has a flexible model for how data can be accessed using a variety of services. Built on top of {{< glossary_link display="RO-Crate" id="ro-crate" >}} and {{< glossary_link display="OCFL" id="ocfl" >}}.'
+"content": 'A scalable, standards-based platform for sustainable data. Data on an Arkisto deployment is always available on disc (or <GlossaryLink display="object" id="object" /> storage) with a complete description independently of any services such as websites or <GlossaryLink display="APIs" id="api" />. Once the data is safe and well-described, Arkisto has a flexible model for how data can be accessed using a variety of services. Built on top of <GlossaryLink display="RO-Crate" id="ro-crate" /> and <GlossaryLink display="OCFL" id="ocfl" />.'
 "external_link": "https://arkisto-platform.github.io/"
 "cross_ref": [["ocfl", "Oxford Common File Layout"], ["ro-crate", "RO-Crate"]]

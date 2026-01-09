@@ -1,4 +1,4 @@
 Name: "doi"
 "title": "DOI"
 "short_description": "Digital Object Identifier"
-"content": 'Digital Object Identifier. A type of persistent identifier ({{< glossary_link display="PID" id="pid" >}}) which is becoming the default identifier for research datasets, as a long-lasting reference to the {{< glossary_link display="collection" id="collection" >}}. It comprises a unique number made up of a prefix and a suffix separated by a forward slash, resolvable by displaying it as a link, e.g. https://doi.org/10.1000/182'
+"content": 'Digital Object Identifier. A type of persistent identifier (<GlossaryLink display="PID" id="pid" />) which is becoming the default identifier for research datasets, as a long-lasting reference to the <GlossaryLink display="collection" id="collection" />. It comprises a unique number made up of a prefix and a suffix separated by a forward slash, resolvable by displaying it as a link, e.g. https://doi.org/10.1000/182'

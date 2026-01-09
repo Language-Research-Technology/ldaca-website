@@ -1,4 +1,4 @@
 Name: "data-custodian"
 "title": "Data Custodian"
 "short_description": "A person to whom authority has been given to exercise the rights of a data owner."
-"content": 'A person to whom authority has been given to exercise (some of) the rights of a {{< glossary_link display="data owner" id="data-owner" >}}.'
+"content": 'A person to whom authority has been given to exercise (some of) the rights of a <GlossaryLink display="data owner" id="data-owner" />.'

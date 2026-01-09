@@ -4,4 +4,4 @@ Name: "data-commons"
 "content": 'Cloud-based infrastructure coupled with governance strategies and principles that allow a community to use, share, manage and analyse its data.
 
 
-{{< glossary_link display="LDaCA" id="ldaca" >}} is a language data commons serving researchers and community groups that are interested in language data.'
+<GlossaryLink display="LDaCA" id="ldaca" /> is a language data commons serving researchers and community groups that are interested in language data.'

@@ -1,4 +1,4 @@
 Name: "metadata"
 "title": "Metadata"
 "short_description": "The information that defines and describes data."
-"content": 'The information that defines and describes data. It provides data users with information about the purpose, processes, and methods involved in the {{< glossary_link display="data collection" id="data-collection" >}}. (Source: [Australian Bureau of Statistics](https://www.abs.gov.au/statistics/understanding-statistics/statistical-terms-and-concepts/metadata)).'
+"content": 'The information that defines and describes data. It provides data users with information about the purpose, processes, and methods involved in the <GlossaryLink display="data collection" id="data-collection" />. (Source: <a href="https://www.abs.gov.au/statistics/understanding-statistics/statistical-terms-and-concepts/metadata" target="_blank">Australian Bureau of Statistics</a>).'

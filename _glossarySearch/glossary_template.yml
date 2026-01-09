@@ -6,3 +6,7 @@ Name: ""
 <!-- Name is for the reference id, title is the term listed on the glossary, short_description is for the tooltip, content is for the definition. external_link is optional. -->
 <!-- If content will include a glossary tooltip, then use single ('') rather than double ("") quotation marks around the definition -->
 <!-- For acronyms/abbreviations, add shortened term to title and full term to short_description -->
+<!-- Use <GlossaryLink display="TERM_TO_DISPLAY" id="YML_NAME" /> to add glossary tooltips within content definitions -->
+<!-- Use <a href="URL" target="_blank">LINK_TEXT</a> to add external links within content definitions -->
+<!-- Use HTML tags such as <b>, <i>, <br /> within content definitions as needed -->
+<!-- Markdown formatting such as **bold** and _italics_ will not render correctly in content definitions -->

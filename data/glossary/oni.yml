@@ -1,5 +1,5 @@
 Name: "oni"
 "title": "Oni"
 "short_description": "A portal for discovery of RO-Crated data."
-"content": 'A portal for discovery of {{< glossary_link display="RO-Crated" id="ro-crate" >}} data. It is a web application which provides indexing, searching and access to secure data repositories which follow the {{< glossary_link display="Arkisto" id="arkisto" >}} model.'
+"content": 'A portal for discovery of <GlossaryLink display="RO-Crated" id="ro-crate" /> data. It is a web application which provides indexing, searching and access to secure data repositories which follow the <GlossaryLink display="Arkisto" id="arkisto" /> model.'
 "external_link": "https://data.ldaca.edu.au/about"

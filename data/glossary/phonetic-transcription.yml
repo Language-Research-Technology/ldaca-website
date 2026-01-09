@@ -1,4 +1,4 @@
 Name: "phonetic-transcription"
 "title": "Phonetic Transcription"
 "short_description": "A representation of speech in terms of the sounds actually produced in specific instances, using a phonetic alphabet"
-"content": 'A representation of speech in terms of the sounds actually produced in specific instances, using a phonetic alphabet, such as the International Phonetic Alphabet ({{< glossary_link display="IPA" id="ipa" >}}) or {{< glossary_link display="X-SAMPA" id="x-sampa" >}}.'
+"content": 'A representation of speech in terms of the sounds actually produced in specific instances, using a phonetic alphabet, such as the International Phonetic Alphabet (<GlossaryLink display="IPA" id="ipa" />) or <GlossaryLink display="X-SAMPA" id="x-sampa" />.'

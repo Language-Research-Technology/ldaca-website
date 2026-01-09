@@ -1,6 +1,5 @@
 Name: "binderhub"
 "title": "BinderHub"
 "short_description": "A Kubernetes-based cloud service that allows users to share reproducible interactive computing environments from code repositories."
-"content": "A Kubernetes-based cloud service that allows users to share reproducible interactive computing environments from code repositories.
-It is the primary technology behind [Binder](https://mybinder.org/). <br /> [ATAP](https://www.atap.edu.au/) notebooks are made available using a Binder instance maintained by [AARNet](https://www.aarnet.edu.au/)/Nectar."
+"content": "A Kubernetes-based cloud service that allows users to share reproducible interactive computing environments from code repositories. It is the primary technology behind <a href=\"https://mybinder.org\" target=\"_blank\">Binder</a>. <br /> <a href=\"https://www.atap.edu.au\" target=\"_blank\">ATAP</a> notebooks are made available using a Binder instance maintained by <a href=\"https://www.aarnet.edu.au\" target=\"_blank\">AARNet</a>/Nectar."
 "external_link": "https://binderhub.readthedocs.io/en/latest/"

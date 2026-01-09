@@ -1,52 +1,52 @@
-{{< glossary_link display="" id="" >}}
-{{< glossary_link display="access conditions" id="access-conditions" >}}
-{{< glossary_link display="AIATSIS" id="aiatsis" >}}
-{{< glossary_link display="archival repository" id="archival-repository" >}}
-{{< glossary_link display="ARDC" id="ardc" >}}
-{{< glossary_link display="ARDS" id="ards" >}}
-{{< glossary_link display="CARE" id="care" >}}
-{{< glossary_link display="CLARIN" id="clarin" >}}
-{{< glossary_link display="collection" id="collection" >}}
-{{< glossary_link display="controlled vocabulary" id="controlled-vocabulary" >}}
-{{< glossary_link display="copyright" id="copyright" >}}
-{{< glossary_link display="corpora" id="corpus" >}}
-{{< glossary_link display="corpus" id="corpus" >}}
-{{< glossary_link display="Crate-O" id="crate-o" >}}
-{{< glossary_link display="data collection" id="data-collection" >}}
-{{< glossary_link display="data commons" id="data-commons" >}}
-{{< glossary_link display="data custodian" id="data-custodian" >}}
-{{< glossary_link display="data governance" id="data-governance" >}}
-{{< glossary_link display="data license" id="data-license" >}}
-{{< glossary_link display="data packaging" id="data-packaging" >}}
-{{< glossary_link display="data steward" id="data-steward" >}}
-{{< glossary_link display="data transformation" id="data-transformation" >}}
-{{< glossary_link display="ELAN" id="elan" >}}
-{{< glossary_link display="FAIR" id="fair" >}}
-{{< glossary_link display="fieldwork" id="fieldwork" >}}
-{{< glossary_link display="format" id="format" >}}
-{{< glossary_link display="GitHub" id="github" >}}
-{{< glossary_link display="HASS" id="hass" >}}
-{{< glossary_link display="intellectual property" id="intellectual-property" >}}
-{{< glossary_link display="LDaCA" id="ldaca" >}}
-{{< glossary_link display="licensing" id="licensing" >}}
-{{< glossary_link display="linked data" id="linked-data" >}}
-{{< glossary_link display="metadata" id="metadata" >}}
-{{< glossary_link display="method" id="methods" >}}
-{{< glossary_link display="methods" id="methods" >}}
-{{< glossary_link display="Nyingarn" id="nyingarn" >}}
-{{< glossary_link display="object" id="object" >}}
-{{< glossary_link display="OCFL" id="ocfl" >}}
-{{< glossary_link display="oral history" id="oral-history" >}}
-{{< glossary_link display="PARADISEC" id="paradisec" >}}
-{{< glossary_link display="phonemic transcription" id="phonemic-transcription" >}}
-{{< glossary_link display="phonetic transcription" id="phonetic-transcription" >}}
-{{< glossary_link display="research data management" id="rdm" >}}
-{{< glossary_link display="research infrastructure" id="research-infrastructure" >}}
-{{< glossary_link display="RO-Crate" id="ro-crate" >}}
-{{< glossary_link display="schema" id="schema" >}}
-{{< glossary_link display="standard" id="standard" >}}
-{{< glossary_link display="tool" id="tools" >}}
-{{< glossary_link display="tools" id="tools" >}}
-{{< glossary_link display="Wangka Maya" id="wangka-maya" >}}
-{{< glossary_link display="XML" id="xml" >}}
-{{< glossary_link display="" id="" >}}
+<GlossaryLink display="" id="" />
+<GlossaryLink display="access conditions" id="access-conditions" />
+<GlossaryLink display="AIATSIS" id="aiatsis" />
+<GlossaryLink display="archival repository" id="archival-repository" />
+<GlossaryLink display="ARDC" id="ardc" />
+<GlossaryLink display="ARDS" id="ards" />
+<GlossaryLink display="CARE" id="care" />
+<GlossaryLink display="CLARIN" id="clarin" />
+<GlossaryLink display="collection" id="collection" />
+<GlossaryLink display="controlled vocabulary" id="controlled-vocabulary" />
+<GlossaryLink display="copyright" id="copyright" />
+<GlossaryLink display="corpora" id="corpus" />
+<GlossaryLink display="corpus" id="corpus" />
+<GlossaryLink display="Crate-O" id="crate-o" />
+<GlossaryLink display="data collection" id="data-collection" />
+<GlossaryLink display="data commons" id="data-commons" />
+<GlossaryLink display="data custodian" id="data-custodian" />
+<GlossaryLink display="data governance" id="data-governance" />
+<GlossaryLink display="data license" id="data-license" />
+<GlossaryLink display="data packaging" id="data-packaging" />
+<GlossaryLink display="data steward" id="data-steward" />
+<GlossaryLink display="data transformation" id="data-transformation" />
+<GlossaryLink display="ELAN" id="elan" />
+<GlossaryLink display="FAIR" id="fair" />
+<GlossaryLink display="fieldwork" id="fieldwork" />
+<GlossaryLink display="format" id="format" />
+<GlossaryLink display="GitHub" id="github" />
+<GlossaryLink display="HASS" id="hass" />
+<GlossaryLink display="intellectual property" id="intellectual-property" />
+<GlossaryLink display="LDaCA" id="ldaca" />
+<GlossaryLink display="licensing" id="licensing" />
+<GlossaryLink display="linked data" id="linked-data" />
+<GlossaryLink display="metadata" id="metadata" />
+<GlossaryLink display="method" id="methods" />
+<GlossaryLink display="methods" id="methods" />
+<GlossaryLink display="Nyingarn" id="nyingarn" />
+<GlossaryLink display="object" id="object" />
+<GlossaryLink display="OCFL" id="ocfl" />
+<GlossaryLink display="oral history" id="oral-history" />
+<GlossaryLink display="PARADISEC" id="paradisec" />
+<GlossaryLink display="phonemic transcription" id="phonemic-transcription" />
+<GlossaryLink display="phonetic transcription" id="phonetic-transcription" />
+<GlossaryLink display="research data management" id="rdm" />
+<GlossaryLink display="research infrastructure" id="research-infrastructure" />
+<GlossaryLink display="RO-Crate" id="ro-crate" />
+<GlossaryLink display="schema" id="schema" />
+<GlossaryLink display="standard" id="standard" />
+<GlossaryLink display="tool" id="tools" />
+<GlossaryLink display="tools" id="tools" />
+<GlossaryLink display="Wangka Maya" id="wangka-maya" />
+<GlossaryLink display="XML" id="xml" />
+<GlossaryLink display="" id="" />
