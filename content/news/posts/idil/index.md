@@ -4,6 +4,7 @@ date: 2024-05-23T09:45:50+10:00
 draft: false
 description: ""
 layout: post
+image: "/news/posts/idil/idil-logo.png"
 ---
 
 by <Profile id="smith" />, <Profile id="musgrave" />, <Profile id="mclellan" /> and <Profile id="foley" />

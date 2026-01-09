@@ -4,6 +4,7 @@ date: 2025-08-13T14:29:40+10:00
 draft: false
 description: "Putting data to work — 2"
 layout: post
+image: "/news/posts/putting-data-to-work-2/hansard.jpeg"
 ---
 
 by <Profile id="musgrave" />

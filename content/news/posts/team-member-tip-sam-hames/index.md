@@ -4,6 +4,7 @@ date: 2025-10-08
 draft: false
 description: "Team member tip: There's no substitute for looking closely at the data"
 layout: post
+image: "/news/posts/team-member-tip-sam-hames/sam-hames-summer-school-2025.jpg"
 ---
 
 by <Profile id="hames" />

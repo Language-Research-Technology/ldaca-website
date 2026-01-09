@@ -4,6 +4,7 @@ date: 2025-05-07
 draft: false
 description: "Interview with Nick Thieberger."
 layout: post
+image: "/news/posts/nick-thieberger/nickT_figure1.jpg"
 ---
 
 <br>

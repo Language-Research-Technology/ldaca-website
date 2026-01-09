@@ -4,6 +4,7 @@ date: 2025-01-29T16:34:20+11:00
 draft: false
 description: "Indigenous data governance: A discussion"
 layout: post
+image: "/news/posts/ID-gov-panel-2024/DSC_5642-Enhanced-NR-cropped.jpg"
 ---
 
 ## 30 September 2024

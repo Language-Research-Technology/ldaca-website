@@ -3,6 +3,7 @@ title: "Login"
 date: 2019-01-29T11:38:37+11:00
 draft: false
 description: "A guide to logging in to the portal."
+image: "/resources/user-guides/portal/login/LDaCALogon.png"
 ---
 
 <br>
@@ -15,7 +16,7 @@ Some collections require that you log in either to access, or apply for access, 
 
 <br>
 
-<<img src="..//loginBox.png" Alt="Portal Top Menu Options" Desc="Portal Top Menu Options" Title="Portal Top Menu Options" Ref="LDaCA" />
+<<img src="./loginBox.png" Alt="Portal Top Menu Options" Desc="Portal Top Menu Options" Title="Portal Top Menu Options" Ref="LDaCA" />
 
 <br>
 
@@ -23,7 +24,7 @@ You will be taken to the _LDaCAData_ login page. Select ___Sign in with CILogon_
 
 <br>
 
-<<img src="..//LDaCALogon.png" Alt="LDaCA Logon" Desc="LDaCA Logon" Title="LDaCA Logon" Ref="LDaCA" />
+<<img src="./LDaCALogon.png" Alt="LDaCA Logon" Desc="LDaCA Logon" Title="LDaCA Logon" Ref="LDaCA" />
 
 <br>
 
@@ -39,7 +40,7 @@ For further details about CILogon and the identity providers it supports, see [C
 
 <br>
 
-<<img src="..//CILogon.png" Alt="CILogon" Desc="CILogon" Title="CILogon" Ref="LDaCA" />
+<<img src="./CILogon.png" Alt="CILogon" Desc="CILogon" Title="CILogon" Ref="LDaCA" />
 
 <br>
 
@@ -47,7 +48,7 @@ First select your preferred identity provider in the dropdown before clicking __
 
 <br>
 
-<<img src="..//CILogon_IdentityProvider.png" Alt="CILogon: Select an Identity Provider" Desc="CILogon: Select an Identity Provider" Title="CILogon: Select an Identity Provider" Ref="LDaCA" />
+<<img src="./CILogon_IdentityProvider.png" Alt="CILogon: Select an Identity Provider" Desc="CILogon: Select an Identity Provider" Title="CILogon: Select an Identity Provider" Ref="LDaCA" />
 
 <br>
 
@@ -55,7 +56,7 @@ Once your login is successful, you will be redirected back to the portal page an
 
 <br>
 
-<<img src="..//Login-AcctName-DropDown.png" Alt="Portal: Logged In View" Desc="Portal: Logged In View" Title="Portal: Logged In View" Ref="LDaCA" />
+<<img src="./Login-AcctName-DropDown.png" Alt="Portal: Logged In View" Desc="Portal: Logged In View" Title="Portal: Logged In View" Ref="LDaCA" />
 
 <br>
 

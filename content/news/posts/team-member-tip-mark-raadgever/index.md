@@ -4,6 +4,7 @@ date: 2025-04-27
 draft: false
 description: "Team member tip: Mastering metadata"
 layout: post
+image: "/news/posts/team-member-tip-mark-raadgever/ro-crating_cropped.jpg"
 ---
 
 by <Profile id="raadgever" />

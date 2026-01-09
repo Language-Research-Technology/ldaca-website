@@ -4,6 +4,7 @@ date: 2025-01-30T16:34:20+11:00
 draft: false
 description: "CAREful FAIRness principles for Indigenous Data Governance"
 layout: post
+image: "/news/posts/CAREful_FAIRness/Credit_-_ARDC_D-Hannah_Hass&I—Symposium-Afternoon_June24_-_LR163.jpg"
 ---
 
 by <Profile id="mclellan" /> and <Profile id="fewster" />

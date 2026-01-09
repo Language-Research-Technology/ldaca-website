@@ -4,6 +4,7 @@ date: 2025-03-13T14:29:40+10:00
 draft: false
 description: "Putting data to work"
 layout: post
+image: "/news/posts/putting-data-to-work/mckenzie-book-burl.jpg"
 ---
 
 by <Profile id="musgrave"/>

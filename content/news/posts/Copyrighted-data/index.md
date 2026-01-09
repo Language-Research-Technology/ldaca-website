@@ -2,8 +2,9 @@
 title: "Copyrighted data: Options and considerations for working with newspapers and other texts"
 date: 2025-09-13T14:29:40+10:00
 draft: false
-description: "Blog post from Monika Bednarek on working with copyrighted materials"
+description: "Blog post from Monika Bednarek on working with copyrighted materials."
 layout: post
+image: "/news/posts/copyrighted-data/Shewontberightmate.png"
 ---
 
 by <Profile id="Bednarek" />

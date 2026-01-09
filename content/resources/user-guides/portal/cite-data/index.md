@@ -75,7 +75,7 @@ As an example, the COrpus of Oz Early English (COOEE) shows a Citation field wit
 
 <br>
 
-<img src="../COOEE-Citation-field-wLink.png" Alt="COOEE Citation Metadata Field Example" Desc="COOEE Citation Metadata Field Example" Title="COOEE Citation Metadata Field Example" Ref="LDaCA" />
+<img src="./COOEE-Citation-field-wLink.png" Alt="COOEE Citation Metadata Field Example" Desc="COOEE Citation Metadata Field Example" Title="COOEE Citation Metadata Field Example" Ref="LDaCA" />
 
 <br>
 

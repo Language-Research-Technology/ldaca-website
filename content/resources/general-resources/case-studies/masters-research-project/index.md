@@ -3,6 +3,7 @@ title: "A Master's Research Project"
 date: 2024-05-15T16:17:33+10:00
 draft: false
 description: "LDaCA team member Teresa Chan discusses data considerations for her Master's research project."
+image: "/resources/general-resources/case-studies/masters-research-project/figure1-GEs.png"
 ---
 
 by <Profile id="chan" />

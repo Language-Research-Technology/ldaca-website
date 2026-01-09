@@ -5,6 +5,7 @@ date: 2025-11-23
 draft: false
 author: "Moises Sacal Bonequi"
 layout: post
+image: "/news/posts/implementing-PILARS/Slide00.svg"
 ---
 
 <a href="./implementing-PILARS.pdf">PDF version</a> | <a href="./implementing-PILARS.pptx">Powerpoint Version</a>

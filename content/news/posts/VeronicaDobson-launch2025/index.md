@@ -4,6 +4,7 @@ date: 2025-04-15T11:10:21+10:00
 draft: false
 description: "Arne ingkerreke apurtelhe-ileme: Project launch"
 layout: post
+image: "/news/posts/VeronicaDobson-launch2025/VPDLaunch-2.jpg"
 ---
 
 by <Profile id="lea" />

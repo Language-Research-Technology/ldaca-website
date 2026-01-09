@@ -5,6 +5,7 @@ draft: false
 aliases:
   - "/posts/gdrf/"
 layout: post
+image: "/news/posts/gdrf/gdrf_2023.jpg"
 ---
 
 In 2018, when he was working at The University of Queensland's (<GlossaryLink display="UQ" id="uq" />) Research Computing Centre ([RCC](https://rcc.uq.edu.au/)), Marco Fahmi (former <GlossaryLink display="LDaCA" id="ldaca" /> Project Manager) initiated a [Graduate Digital Research Fellowship](https://rcc.uq.edu.au/article/2018/07/six-students-become-uq%E2%80%99s-first-graduate-digital-research-fellows) (GDRF) program focused on researchers in the Humanities and Social Sciences (<GlossaryLink display="HASS" id="hass" />). The program has run in some years since then, hosted by the RCC ([2019](https://rcc.uq.edu.au/article/2019/03/second-round-graduate-digital-research-fellows-announced)) and also by the <GlossaryLink display="UQ" id="uq" /> Graduate School ([2020](https://rcc.uq.edu.au/article/2019/11/apply-now-uq-graduate-digital-research-fellowship-2020)).

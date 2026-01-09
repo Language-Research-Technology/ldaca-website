@@ -9,6 +9,7 @@ author: "Simon Musgrave"
 aliases: 
 - "/posts/fair-and-care/"
 layout: post
+image: "/news/posts/fair-and-care/fair-care.png"
 ---
 <br />
 

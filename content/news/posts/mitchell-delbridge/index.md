@@ -4,6 +4,7 @@ date: 2025-10-01
 draft: false
 description: "Corpus Spotlight: Mitchell and Delbridge"
 layout: post
+image: "/news/posts/mitchell-delbridge/mitchell-delbridge1965.jpg"
 ---
 
 by <Profile id="lea" />

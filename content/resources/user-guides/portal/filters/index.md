@@ -3,6 +3,7 @@ title: "Filters"
 date: 2022-01-23T14:23:10+11:00
 draft: false
 description: "Refine your results according to a set of major metadata categories."
+image: "/resources/user-guides/portal/filters/filters1.png"
 ---
 
 <br>
@@ -17,7 +18,7 @@ Filters allow you to refine what items are available to view and search accordin
 
 Part of the Filter List | Linguistic Genre Filter Expanded
 :---: | :---:
-<<img src="..//filters1.png" Alt="Filter List Example" Desc="Filter List Example" Title="Filter List Example" Ref="LDaCA" /> | <<img src="..//filters2.png" Alt="Linguistic Genre Filter Example" Desc="Linguistic Genre Filter Example" Title="Linguistic Genre Filter Example" Ref="LDaCA" />
+<<img src="./filters1.png" Alt="Filter List Example" Desc="Filter List Example" Title="Filter List Example" Ref="LDaCA" /> | <<img src="./filters2.png" Alt="Linguistic Genre Filter Example" Desc="Linguistic Genre Filter Example" Title="Linguistic Genre Filter Example" Ref="LDaCA" />
 
 
 <br>

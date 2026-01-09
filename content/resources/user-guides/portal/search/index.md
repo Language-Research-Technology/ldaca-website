@@ -3,6 +3,7 @@ title: "Search"
 date: 2021-01-23T14:23:27+11:00
 draft: false
 description: "Refine your queries with word, phrase and pattern searches."
+image: "/resources/user-guides/portal/search/basic-search.png"
 ---
 
 <br>
@@ -28,7 +29,7 @@ The basic search function can be found in the top left section of the portal hom
 
 <br>
 
-<<img src="..//basic-search.png" Alt="Basic Search" Desc="Basic Search" Title="Basic Search" Ref="LDaCA" />
+<<img src="./basic-search.png" Alt="Basic Search" Desc="Basic Search" Title="Basic Search" Ref="LDaCA" />
  
 <br>
 
@@ -59,7 +60,7 @@ The advanced search function is accessed by selecting ___Advanced Search___ belo
 
 <br>
 
-<<img src="..//advanced-search.png" Alt="Advanced Search" Desc="Advanced Search" Title="Advanced Search" Ref="LDaCA" />
+<<img src="./advanced-search.png" Alt="Advanced Search" Desc="Advanced Search" Title="Advanced Search" Ref="LDaCA" />
 
 <br>
 

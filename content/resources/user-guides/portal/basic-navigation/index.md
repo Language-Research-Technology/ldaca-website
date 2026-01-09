@@ -3,6 +3,7 @@ title: "Basic Navigation"
 date: 2023-01-29T11:45:30+11:00
 draft: false
 description: "A guide to navigating the various sections of the portal interface."
+image: "/resources/user-guides/portal/basic-navigation/map-view.png"
 ---
 
 <br>
@@ -43,7 +44,7 @@ There are three main sections of the Home Page in the portal: the top menu bar, 
 
 <br>
 
-<<img src="..//homePage_3sections.png" Alt="Home Page: Top Menu, Left Panel and Main Panel sections" Desc="Home Page: Top Menu, Left Panel and Main Panel sections" Title="Home Page: Top Menu, Left Panel and Main Panel sections" Ref="LDaCA" />
+<<img src="./homePage_3sections.png" Alt="Home Page: Top Menu, Left Panel and Main Panel sections" Desc="Home Page: Top Menu, Left Panel and Main Panel sections" Title="Home Page: Top Menu, Left Panel and Main Panel sections" Ref="LDaCA" />
 
 <br>
 
@@ -51,7 +52,7 @@ There are three main sections of the Home Page in the portal: the top menu bar, 
 
 <br>
 
-<<img src="..//top-menu.png" Alt="Home Page: Top Menu" Desc="Home Page: Top Menu" Title="Home Page: Top Menu" Ref="LDaCA" />
+<<img src="./top-menu.png" Alt="Home Page: Top Menu" Desc="Home Page: Top Menu" Title="Home Page: Top Menu" Ref="LDaCA" />
 
 <br>
 
@@ -70,11 +71,11 @@ The top menu of the home page allows you to access some of the main features of 
 
 <br>
 
-<<img src="..//left-panel.png" Alt="Home Page: Left Panel" Desc="Home Page: Left Panel" Title="Home Page: Left Panel" Ref="LDaCA" />
+<<img src="./left-panel.png" Alt="Home Page: Left Panel" Desc="Home Page: Left Panel" Title="Home Page: Left Panel" Ref="LDaCA" />
 
 <br>
 
-The left panel of the portal home page allows you to refine your data query through the use of a search field and filters. Searching allows you to view records which include specific information, while filtering allows you to view records which share values for <GlossaryLink display="metadata" id="metadata" /> categories. Hovering over the information icon ![Information Icon](../information.png) next to each filter will display tooltips related to that filter. See [Search](/resources/user-guides/portal/search/) and [Filters](/resources/user-guides/portal/filters/) for more details on how to use the search and filter functions.
+The left panel of the portal home page allows you to refine your data query through the use of a search field and filters. Searching allows you to view records which include specific information, while filtering allows you to view records which share values for <GlossaryLink display="metadata" id="metadata" /> categories. Hovering over the information icon ![Information Icon](./information.png) next to each filter will display tooltips related to that filter. See [Search](/resources/user-guides/portal/search/) and [Filters](/resources/user-guides/portal/filters/) for more details on how to use the search and filter functions.
 
 <br>
 
@@ -92,7 +93,7 @@ By default, the main panel is displayed in **_List View_**, which shows the resu
 
 <br>
 
-<<img src="..//main-panel.png" Alt="Home Page: Main Panel" Desc="Home Page: Main Panel" Title="Home Page: Main Panel" Ref="LDaCA" />
+<<img src="./main-panel.png" Alt="Home Page: Main Panel" Desc="Home Page: Main Panel" Title="Home Page: Main Panel" Ref="LDaCA" />
 
 <br>
 
@@ -119,19 +120,19 @@ The icons next to each item show you some important information about that item 
 
 | Icon                                                             | Category           | Icon Tooltip                                                                                                    |
 | ---------------------------------------------------------------- | ------------------ | --------------------------------------------------------------------------------------------------------------- |
-| ![Public Icon](../public.svg)                   | Access             | You can access this data immediately. By doing so, you accept the license terms specified on the record.        |
-| ![Login Icon](../login.svg)                     | Access             | You can access this data after logging in. You may also have to agree to license terms in an automatic process. |
-| ![Login Plus Icon](../loginplus.svg)            | Access             | There are restrictions on access to this data. Log in to get further information.                               |
-| ![SpokenLanguage Icon](../spokenlanguage.svg)   | Communication Mode | SpokenLanguage                                                                                                  |
-| ![WrittenLanguage Icon](../writtenlanguage.svg) | Communication Mode | WrittenLanguage                                                                                                 |
-| ![SignedLanguage Icon](../signedlanguage.svg)   | Communication Mode | SignedLanguage                                                                                                  |
-| ![TXT Icon](../file-lines-solid.svg)            | File Format        | text/plain                                                                                                      |
-| ![Word Icon](../file-word-solid.svg)            | File Format        | application/msword                                                                                              |
-| ![Code Icon](../file-code-solid.svg)            | File Format        | application/tei+xml<br>application/vnd.openxmlformats-officedocument.wordprocessingml.document                  |
-| ![Audio Icon](../file-audio-solid.svg)          | File Format        | audio/mpeg<br>audio/x-wav                                                                                       |
-| ![Video Icon](../file-video-solid.svg)          | File Format        | application/mp4                                                                                                 |
-| ![CSV Icon](../file-csv-solid.svg)              | File Format        | text/csv                                                                                                        |
-| ![PDF Icon](../file-pdf-solid.svg)              | File Format        | application/pdf                                                                                                 |
+| ![Public Icon](./public.svg)                   | Access             | You can access this data immediately. By doing so, you accept the license terms specified on the record.        |
+| ![Login Icon](./login.svg)                     | Access             | You can access this data after logging in. You may also have to agree to license terms in an automatic process. |
+| ![Login Plus Icon](./loginplus.svg)            | Access             | There are restrictions on access to this data. Log in to get further information.                               |
+| ![SpokenLanguage Icon](./spokenlanguage.svg)   | Communication Mode | SpokenLanguage                                                                                                  |
+| ![WrittenLanguage Icon](./writtenlanguage.svg) | Communication Mode | WrittenLanguage                                                                                                 |
+| ![SignedLanguage Icon](./signedlanguage.svg)   | Communication Mode | SignedLanguage                                                                                                  |
+| ![TXT Icon](./file-lines-solid.svg)            | File Format        | text/plain                                                                                                      |
+| ![Word Icon](./file-word-solid.svg)            | File Format        | application/msword                                                                                              |
+| ![Code Icon](./file-code-solid.svg)            | File Format        | application/tei+xml<br>application/vnd.openxmlformats-officedocument.wordprocessingml.document                  |
+| ![Audio Icon](./file-audio-solid.svg)          | File Format        | audio/mpeg<br>audio/x-wav                                                                                       |
+| ![Video Icon](./file-video-solid.svg)          | File Format        | application/mp4                                                                                                 |
+| ![CSV Icon](./file-csv-solid.svg)              | File Format        | text/csv                                                                                                        |
+| ![PDF Icon](./file-pdf-solid.svg)              | File Format        | application/pdf                                                                                                 |
 
 <br>
 
@@ -141,7 +142,7 @@ Selecting **_Map View_** from the top row of the main panel will display results
 
 <br>
 
-<<img src="..//map-view.png" Alt="Home Page: Map View" Desc="Home Page: Map View" Title="Home Page: Map View" Ref="LDaCA" />
+<<img src="./map-view.png" Alt="Home Page: Map View" Desc="Home Page: Map View" Title="Home Page: Map View" Ref="LDaCA" />
 
 <br>
 
@@ -157,11 +158,11 @@ Clicking on one of the collections from the main page results will take you to t
 
 <br>
 
-<<img src="..//collection-page.png" Alt="Collection Page: Braided Channels Example" Desc="Collection Page: Braided Channels Example" Title="Collection Page: Braided Channels Example" Ref="LDaCA" />
+<<img src="./collection-page.png" Alt="Collection Page: Braided Channels Example" Desc="Collection Page: Braided Channels Example" Title="Collection Page: Braided Channels Example" Ref="LDaCA" />
 
 <br>
 
-The main panel of the Collection page lists the main details and <GlossaryLink display="metadata" id="metadata" /> associated with the collection. Clicking on the question mark icon ![Question Mark Icon](../question.png) or information icon ![Information Icon](../information.png) next to each heading will display tooltips related to that item.
+The main panel of the Collection page lists the main details and <GlossaryLink display="metadata" id="metadata" /> associated with the collection. Clicking on the question mark icon ![Question Mark Icon](./question.png) or information icon ![Information Icon](./information.png) next to each heading will display tooltips related to that item.
 
 Below the main description and <GlossaryLink display="metadata" id="metadata" /> is the number of objects present in the collection. The objects are then listed below, with buttons allowing navigation by page if there are more than 10 objects in the collection.
 
@@ -182,11 +183,11 @@ Clicking on one of the objects or files from either the main page results or fro
 
 <br>
 
-<<img src="..//object-page.png" Alt="Object Page: A Corpus of Oz Early English Example" Desc="Object Page: A Corpus of Oz Early English Example" Title="Object Page: A Corpus of Oz Early English Example" Ref="LDaCA" />
+<<img src="./object-page.png" Alt="Object Page: A Corpus of Oz Early English Example" Desc="Object Page: A Corpus of Oz Early English Example" Title="Object Page: A Corpus of Oz Early English Example" Ref="LDaCA" />
 
 <br>
 
-The left panel of the Object page lists the main details and <GlossaryLink display="metadata" id="metadata" /> associated with the object. Clicking on the question mark icon ![Question Mark Icon](../question.png) or information icon ![Information Icon](../information.png) next to each heading will display tooltips related to that item.
+The left panel of the Object page lists the main details and <GlossaryLink display="metadata" id="metadata" /> associated with the object. Clicking on the question mark icon ![Question Mark Icon](./question.png) or information icon ![Information Icon](./information.png) next to each heading will display tooltips related to that item.
 
 The right panel has the following sections:
 
@@ -206,7 +207,7 @@ Clicking on one of the <GlossaryLink display="notebooks" id="jupyter-notebook" /
 
 <br><!-- TODO add image when notebooks page is more finalised-->
 
-The left panel of the Notebook page lists the main details and <GlossaryLink display="metadata" id="metadata" /> associated with the notebook. Clicking on the question mark icon ![Question Mark Icon](../question.png) or information icon ![Information Icon](../information.png) next to each heading will display tooltips related to that item.
+The left panel of the Notebook page lists the main details and <GlossaryLink display="metadata" id="metadata" /> associated with the notebook. Clicking on the question mark icon ![Question Mark Icon](./question.png) or information icon ![Information Icon](./information.png) next to each heading will display tooltips related to that item.
 
 The right panel has the following sections:
 
@@ -222,7 +223,7 @@ Clicking **_View File_** on one of the files in an Object page will take you the
 
 <br>
 
-<<img src="..//file-page.png" Alt="File Page: Braided Channels Example" Desc="File Page: Braided Channels Example" Title="File Page: Braided Channels Example" Ref="LDaCA" />
+<<img src="./file-page.png" Alt="File Page: Braided Channels Example" Desc="File Page: Braided Channels Example" Title="File Page: Braided Channels Example" Ref="LDaCA" />
 
 <br>
 

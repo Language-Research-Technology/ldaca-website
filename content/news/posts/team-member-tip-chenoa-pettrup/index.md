@@ -4,6 +4,7 @@ date: 2025-07-27
 draft: false
 description: "Team member tip: Design tips for planning your data visualisations"
 layout: post
+image: "/news/posts/team-member-tip-chenoa-pettrup/Chenoa-photo.png"
 ---
 
 by <Profile id="pettrup" />

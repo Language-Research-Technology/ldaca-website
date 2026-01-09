@@ -3,6 +3,7 @@ title: "Fieldwork in Papua New Guinea"
 date: 2023-11-13T15:55:01+11:00
 draft: false
 description: "LDaCA team member Harriet Sheppard describes collecting data on a remote island in Papua New Guinea."
+image: "/resources/general-resources/case-studies/fieldwork-png/crossing-river-small.jpg"
 ---
 
 by <Profile id="sheppard" />

@@ -4,6 +4,7 @@ date: 2025-04-22
 draft: false
 description: "Reflecting on the Darwin digital languages collections workshop"
 layout: post
+image: "/news/posts/darwin-digital-collections-workshop/darwin_workshop_fig1.jpg"
 ---
 
 by <Profile id="pettrup" />
