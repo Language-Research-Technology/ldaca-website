@@ -11,7 +11,7 @@ description: Find answers to the most commonly asked questions about the project
     <b>What is LDaCA?</b>
     </summary>
   <p>
-    The Language Data Commons of Australia is research infrastructure which aims to bring people, both academic and non-academic users, and data together. The data is nationally significant <GlossaryLink display="collections" id="collection" /> which represent language use in Australia, now and in our history. (See also ‘<a href="#what-is-a-data-commons">What is a data commons</a>?')
+    The Language Data Commons of Australia is research infrastructure which aims to bring people, both academic and non-academic users, and data together. The data is nationally significant <GlossaryLink display="collections" id="collection" /> which represent language use in Australia, now and in our history. (See also 'What is a data commons?' below.)
   </p>
 </details>
 

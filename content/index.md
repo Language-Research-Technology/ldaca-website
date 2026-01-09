@@ -31,15 +31,15 @@ import LatestBlog from '../.vitepress/theme/components/LatestBlog.vue'
 
 
 <HomeHero 
-  :videos = "['vovLkye-xLw', 'EyO3A4rbCPU', 'SwYDAYmdm70', 'fIcChn11PdI']"
+  :videos = "['vovLkye-xLw']"
   backgroundImage="/images/black_patternback.svg" 
 />
 
 <DataPortalBox 
   title="Use the Data Portal"
   subtitle="Search, browse and use language materials"
-  buttonText="Go to the data portal"
-  buttonLink="/portal"
+  buttonText="Go to the Data Portal"
+  buttonLink="https://data.ldaca.edu.au"
 />
 
 <HowWeCanHelp 
@@ -52,7 +52,7 @@ import LatestBlog from '../.vitepress/theme/components/LatestBlog.vue'
   {
     title: 'Organise & describe data',
     image: 'https://placehold.co/400x300',
-    description: 'Learn best practices for organizing and describing your language data with metadata standards that ensure discoverability and long-term preservation.'
+    description: 'Learn best practices for organising and describing your language data with metadata standards that ensure discoverability and long-term preservation.'
   },
   {
     title: 'License collections responsibly',
@@ -72,7 +72,7 @@ import LatestBlog from '../.vitepress/theme/components/LatestBlog.vue'
   {
     title: 'Process data for use',
     image: 'https://placehold.co/400x300',
-    description: 'Use our tools and workflows to process language data into formats ready for analysis, visualization, and other research applications.'
+    description: 'Use our tools and workflows to process language data into formats ready for analysis, visualisation, and other research applications.'
   },
   {
     title: 'Analyse language at scale',
@@ -119,22 +119,22 @@ import LatestBlog from '../.vitepress/theme/components/LatestBlog.vue'
   heading="EVENTS & RECORDINGS"
   :items="[
     {
-      title: 'Webinar: Preserving Community Narratives',
-      description: 'A live session on respectful access controls and consent refresh practices.',
-      image: 'https://placehold.co/600x360',
-      link: '/events/webinar-community-narratives'
+      title: 'Sustainable Data for Humanities Researchers workshop',
+      description: 'Research data is valuable — we spend time (and often, money) in collecting it, and it is fundamental to creating knowledge. Because of this value, we have a responsibility to ensure that data will continue to be useful, minimally to ourselves but ideally also to others. This workshop will introduce participants to basic ideas of data management, which are oriented to making data sustainable in line with two important sets of principles, FAIR and CARE.',
+      image: 'https://rduevents.unimelb.edu.au/live/image/scale/2x/gid/23/width/300/height/169/crop/1/609_HASSevent.rev.1754545130.webp',
+      link: '/news/events'
     },
     {
-      title: 'Workshop: Metadata in Practice',
-      description: 'Hands-on recordings and slides on crafting usable, ethical metadata for language data.',
-      image: 'https://placehold.co/600x360',
-      link: '/events/metadata-in-practice'
+      title: 'Webinar: The ParlaMint corpora of European parliamentary proceedings',
+      description: 'This talk discussed the compilation and dissemination of the ParlaMint corpora. It includes 29 corpora of European national and regional parliamentary proceedings, covering at least the period from 2015 to 2022, and containing over 1 billion words. Tomaž and Matyáš described the background of this CLARIN-funded project and the characteristics of the produced corpora. They then introduced the encoding of the corpora, the corpus compilation pipeline, the use of GitHub and the ways in which the corpus is made accessible to potential users. They conclude with lessons learnt in the project and further work on the ParlaMint corpora.',
+      image: 'https://www.clarin.eu/sites/default/files/styles/max_325x325/public/parlamintvisual2.png?itok=c7K5X6Ke',
+      link: '/news/events'
     },
     {
-      title: 'Panel: Sharing with Care',
-      description: 'Experts discuss governance patterns that balance openness with cultural safety.',
-      image: 'https://placehold.co/600x360',
-      link: '/events/panel-sharing-with-care'
+      title: 'Get Started with Federal Hansard for Humanities, Arts, and Social Sciences Research',
+      description: 'Parliamentary bodies around the world have been publishing transcriptions of their proceedings for decades or even centuries. These transcriptions enable public scrutiny and transparency of the actions and speech of legislative bodies and elected representatives. Because of their documentation of legislative action and speech, their relatively consistent format and their coverages of long periods of time, they are potentially useful for policy researchers, media and communication scholars, political scientists, linguists, sociologists, historians and many others.',
+      image: 'https://static.uq.net.au/v11/logos/corporate/uq-logo.svg',
+      link: '/news/events'
     }
   ]"
 />

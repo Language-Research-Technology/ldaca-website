@@ -1,0 +1,37 @@
+---
+layout: home
+title: "Technologies & Tools"
+hero:
+  tagline: "TECHNOLOGIES & TOOLS"
+  description: "Technologies & tools description goes here."
+---
+
+<script setup>
+    import SubPageHero from '../../../.vitepress/theme/components/SubPageHero.vue'
+    import LatestBlog from '../../../.vitepress/theme/components/LatestBlog.vue'
+
+</script>
+
+<SubPageHero />
+
+<LatestBlog 
+  :items="[
+      {
+        title: 'LDaCA Software Tools',
+        description: 'A variety of LDaCA open-source tools available on GitHub.',
+        image: '',
+        link: '/resources/ldaca-resources/ldaca-software-tools'
+      },
+      {
+        title: 'Technologies',
+        description: 'Information about the technologies being used in LDaCA.',
+        image: '',
+        link: '/about/technologies'
+      },
+      {
+        title: 'Principles',
+        description: 'Information about the principles on which the work of LDaCA is based.',
+        image: '',
+        link: '/about/principles'
+      }
+    ]"/>

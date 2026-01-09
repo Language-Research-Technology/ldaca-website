@@ -7,13 +7,50 @@ aliases:
   - "/events/"
 ---
 
+<style>
+.text-primary {
+  color: #79A38D;
+  text-decoration: none;
+}
+
+.border-primary {
+  border-color: #79A38D;
+}
+
+.hover\:text-primary:hover {
+  color: #79A38D;
+}
+
+.hover\:border-primary:hover {
+  border-color: #79A38D;
+}
+
+/* remove underline on the header link buttons */
+.mb-8 a {
+  text-decoration: none;
+}
+
+/* ensure hover and focus don't add underline and set hover text color on events index only */
+.mb-8 a:hover,
+.mb-8 a:focus {
+  text-decoration: none;
+  color: #79A38D;
+}
+
+.scroll-mt-24 {
+  scroll-margin-top: 6rem;
+}
+</style>
+
 <br>
 
-[Recurring Events](#recurring-events)&emsp;&emsp;
-[Previous Events](#previous-events)&emsp;&emsp;
-[Previous Webinars](#webinars) &emsp;&emsp;
+<div class="mb-8 flex flex-wrap gap-2">
+  <a href="#recurring-events" class="px-4 py-2 rounded-none border-2 font-semibold transition-all border-gray-300 text-gray-700 hover:border-primary hover:text-primary">Recurring Events</a>
+  <a href="#previous-events" class="px-4 py-2 rounded-none border-2 font-semibold transition-all border-gray-300 text-gray-700 hover:border-primary hover:text-primary">Previous Events</a>
+  <a href="#webinars" class="px-4 py-2 rounded-none border-2 font-semibold transition-all border-gray-300 text-gray-700 hover:border-primary hover:text-primary">Previous Webinars</a>
+</div>
 
- <br>
+<br>
 
 ### Sustainable Data for Humanities Researchers workshop
 
@@ -22,10 +59,11 @@ aliases:
 Research data is valuable — we spend time (and often, money) in collecting it, and it is fundamental to creating knowledge. Because of this value, we have a responsibility to ensure that data will continue to be useful, minimally to ourselves but ideally also to others. This workshop will introduce participants to basic ideas of <GlossaryLink display="data management" id="rdm" />, which are oriented to making data sustainable in line with two important sets of principles, <GlossaryLink display="FAIR" id="fair" /> and <GlossaryLink display="CARE" id="care" />.
 
 The aims of the workshop are to:
-* increase awareness of the importance of sustainable data
-* introduce basic principles for managing data sustainably
-* demonstrate simple <GlossaryLink display="methods" id="methods" /> which implement those principles
-* give participants hands-on experience with <GlossaryLink display="tools" id="tools" /> for data management.
+
+- increase awareness of the importance of sustainable data
+- introduce basic principles for managing data sustainably
+- demonstrate simple <GlossaryLink display="methods" id="methods" /> which implement those principles
+- give participants hands-on experience with <GlossaryLink display="tools" id="tools" /> for data management.
 
 **When**: 26 August 2025, 9am – 4:30pm AEST
 
@@ -40,8 +78,10 @@ The aims of the workshop are to:
 <br>
 
 ### Webinar: The ParlaMint corpora of European parliamentary proceedings
+
 **Recording date**: 28 August 2025
 <br>
+
 <div align="center">
 <iframe
   width="800"
@@ -56,7 +96,7 @@ The aims of the workshop are to:
 <br />
 This talk discussed the compilation and dissemination of the ParlaMint corpora. It includes 29 corpora of European national and regional parliamentary proceedings, covering at least the period from 2015 to 2022, and containing over 1 billion words.
 
-Tomaž and Matyáš  described the background of this CLARIN-funded project and the characteristics of the produced corpora. They then introduced the encoding of the corpora, the corpus compilation pipeline, the use of GitHub and the ways in which the corpus is made accessible to potential users.
+Tomaž and Matyáš described the background of this CLARIN-funded project and the characteristics of the produced corpora. They then introduced the encoding of the corpora, the corpus compilation pipeline, the use of GitHub and the ways in which the corpus is made accessible to potential users.
 
 They conclude with lessons learnt in the project and further work on the ParlaMint corpora.
 <br>
@@ -65,7 +105,6 @@ They conclude with lessons learnt in the project and further work on the ParlaMi
 Tomaž Erjavec is a member of the Department of Knowledge Technologies of the Institut "Jožef Stefan" (Ljubljana, Slovenia) and of the Fran Ramovš Institute of the Slovenian Language. His research interests include text <GlossaryLink display="corpora" id="corpus" /> and other language resources, digital humanities, standardisation of text encoding, language technologies for Slovene, machine learning methods for natural language and computational morphology.
 
 Matyáš Kopp is a member of the Institute for Formal and Applied Linguistics at the Charles University in Prague (Czech Republic). He has worked extensively on compiling and researching datasets based on parliamentary proceedings, and also on technologies for querying treebanks.
-
 
 ### Get Started with Federal Hansard for Humanities, Arts, and Social Sciences Research
 
@@ -100,144 +139,118 @@ The <GlossaryLink display="RO-Crate" id="ro-crate" /> community run a weekly dro
 ## Previous Events {#previous-events}
 
 <details>
-<summary><b><font color="#79A38D">2025</font></b></summary>
-</details>
-
+    <summary><b><font color="#79A38D">2025</font></b></summary>
 
 <details>
-<summary>
-<b>Get started with Hansard for humanities, arts, and social sciences research</b>
-</summary>
-<p>Parliamentary bodies around the world have been publishing transcriptions of their proceedings for decades or even centuries. These transcriptions enable public scrutiny and transparency of the actions and speech of legislative bodies and elected representatives.</p>
-
-<p>Because of their documentation of legislative action and speech, their relatively consistent format and their coverages of long periods of time, they are potentially useful for policy researchers, media and communication scholars, political scientists, linguists, sociologists, historians and many others.</p>
-
-<p>This workshop aimed to provide a starting point for working with these transcribed proceedings, including evaluating how they might (and might not!) be useful for your research, how to get started for different kinds of projects and cautionary notes on potential limitations.</p>
-
-<p><b>When</b>: 20 February 2025</p>
-
-<p><b>Organisers</b>: <a href="https://www.unimelb.edu.au/mdap" target="_blank">Melbourne Data Analytics Platform</a></p>
-
-<p><b>Leaders</b>: <Profile id="hames" /> and <Profile id="musgrave" /></p>
-
-</details>
-<details>
-<summary>
-<b>Indigenous Data Governance Masterclass</b>
-</summary>
-<p>The ARDC Indigenous Data Governance Masterclass equipped custodians of Indigenous data and researchers in any discipline with the knowledge and tools to ethically manage Indigenous data, respecting the cultural protocols and sovereignty of Indigenous communities. It built the capacity of participants to engage with Indigenous data, fostering a culturally sensitive and informed approach to data-driven projects.</p>
-
-<p><b>When</b>: 3 February 2025</p>
-
-<p><b>Organisers</b>: <a href="https://ardc.edu.au/hass-and-indigenous-research-data-commons/" target="_blank">ARDC HASS and Indigenous Research Data Commons</a></p>
-
-<p><b>Leaders</b>: <Profile id="mclellan" /> and <a href="https://mspgh.unimelb.edu.au/centres-institutes/onemda/research-group/indigenous-studies-unit/about-us/our-team/levi-craig-murray" target = "_blank">Levi Murray</a></p>
-
-</details>
-<details>
-<summary>
-<b>HASS and Indigenous Research Data Commons Summer School 2025</b>
-</summary>
-<p>The HASS and Indigenous research data community got together to gain hands-on experience, learn digital skills and network to inspire new research outcomes.</p>
-
-<p>The Summer School aimed to empower participants with practical knowledge, build digital skills, and help inspire new research outcomes within the humanities, arts, social sciences (HASS) and Indigenous fields of study. Participants collaborated in an interactive group setting while networking with like-minded researchers and subject matter experts.</p>
-
-<p><b>When</b>: 4 – 6 February 2025</p>
-
-<p><b>Organisers</b>: <a href="https://ardc.edu.au/hass-and-indigenous-research-data-commons/" target="_blank">ARDC HASS and Indigenous Research Data Commons</a></p>
-
-</details>
-<details>
-<summary><b><font color="#79A38D">2024</font></b></summary>
-</details>
-<details>
-<summary>
-<b>Solving 10 research challenges with the ARDC HASS and Indigenous Research Data Commons</b>
-</summary>
-</details>
-<details>
-<p>Participants got hands-on with two tools from the ARDC <a href="https://ardc.edu.au/hass-and-indigenous-research-data-commons/" target="_blank">HASS and Indigenous Research Data Commons</a>, the <a href="https://www.ldaca.edu.au/resources/user-guides/crate-o/" target="_blank">Crate-O</a> metadata editor and the <a href="https://tdg.glam-workbench.net/home.html" target="_blank">Trove Data guide</a> and learnt how other parts of the Research Data Commons help researchers solve another eight research challenges, in a series of five-minute lightning tours.</p>
-
-<p><b>When</b>: 28 November 2024</p>
-
-<p><b>Organisers</b>: <a href="https://ardc.edu.au/hass-and-indigenous-research-data-commons/" target="_blank">ARDC HASS and Indigenous Research Data Commons</a></p>
-
-</details>
-<details>
-<summary>
-<b>Exploring text using concordances</b>
-</summary>
-<p>Concordances are a very useful tool for anyone who works with textual data. Concordancing tools (also referred to as Keyword in Context or KWIC tools) provide us with a listing of all occurrences of a word in a text along with some surrounding context. A concordance is therefore an excellent starting point to explore how a word is used in a text. Most KWIC tools also have the capability to sort results according to the context of the instances, by preceding words or following words, or a combination of the two, and these capabilities allow us to extract more specific information from concordances.</p>
-
-<p>In this workshop, participants:</p>
-<ul>
-<li>were introduced to tools for building concordances</li>
-<li>were shown examples of how simple and complex concordances can be used to answer questions</li>
-<li>had the chance to explore text using concordances, either from data they brought or from data that was provided.</li>
-</ul>
-
-<p><b>When</b>: 27 November 2024</p>
-
-<p><b>Organisers</b>: <a href="https://resbaz.github.io/resbazvic2024/" target="_blank">ResBaz Victoria</a></p>
-
-<p><b>Leader</b>: Simon Musgrave</p>
-
-</details>
-<details>
-<summary>
-<b>Text analytics with R and LADAL</b>
-</summary>
-This workshop provided an introduction to text analytics with R using the tools and tutorials provided by the Language Technology and Data Analysis Laboratory (<a href="https://ladal.edu.au/" target="_blank">LADAL</a>).
-
-<p><b>Organisers</b>: <a href="https://resbaz.github.io/resbaz2024qld/" target="_blank">ResBaz Queensland</a></p>
-
-<p><b>Leader</b>: Sam Hames</p>
-
-<p><b>When</b>: 7 November 2024</p>
-
+    <summary>
+        <b>Get started with Hansard for humanities, arts, and social sciences research</b>
+    </summary>
+    <p>Parliamentary bodies around the world have been publishing transcriptions of their proceedings for decades or even centuries. These transcriptions enable public scrutiny and transparency of the actions and speech of legislative bodies and elected representatives.</p>
+    <p>Because of their documentation of legislative action and speech, their relatively consistent format and their coverages of long periods of time, they are potentially useful for policy researchers, media and communication scholars, political scientists, linguists, sociologists, historians and many others.</p>
+    <p>This workshop aimed to provide a starting point for working with these transcribed proceedings, including evaluating how they might (and might not!) be useful for your research, how to get started for different kinds of projects and cautionary notes on potential limitations.</p>
+    <p><b>When</b>: 20 February 2025</p>
+    <p><b>Organisers</b>: <a href="https://www.unimelb.edu.au/mdap" target="_blank">Melbourne Data Analytics Platform</a></p>
+    <p><b>Leaders</b>: <Profile id="hames" /> and <Profile id="musgrave" /></p>
 </details>
 
 <details>
-<summary>
-<b>A glamorous introduction to text analytics for social media (Reddit)</b>
-</summary>
-<p>This two-part workshop series introduced participants to basic text analytics for research using Reddit data.</p>
-
-<p>In the first workshop, we focused on data collection and learned how to collect posts from Reddit. In the second workshop, participants learned to apply a range of text analytic techniques to the Reddit data, using the very sparkly example of the Eurovision Song Contest.</p>
-<p><b>When</b>: 9 and 16 October 2024</p>
-<p><b>Leaders</b>: Robert Fleet (part 1) and Martin Schweinberger (part 2)</p>
-<p><b>Organisers</b>: This workshop series is delivered by the <a href="https://www.digitalobservatory.net.au/qut-digital-observatory/" target="_blank">QUT Digital Observatory</a> and LDaCA</p>
-<p><b>Recordings</b>: <a href="https://filesender.aarnet.edu.au/?s=download&token=a94f9ec3-7972-4bdd-a6d8-e6fd75e0830a" target="_blank">Part 1</a>, <a href="https://filesender.aarnet.edu.au/?s=download&token=4f1792c0-8a81-4073-a39f-2a31385579fd" target="_blank">Part 2</a></p>
-
+    <summary>
+        <b>Indigenous Data Governance Masterclass</b>
+    </summary>
+    <p>The ARDC Indigenous Data Governance Masterclass equipped custodians of Indigenous data and researchers in any discipline with the knowledge and tools to ethically manage Indigenous data, respecting the cultural protocols and sovereignty of Indigenous communities. It built the capacity of participants to engage with Indigenous data, fostering a culturally sensitive and informed approach to data-driven projects.</p>
+    <p><b>When</b>: 3 February 2025</p>
+    <p><b>Organisers</b>: <a href="https://ardc.edu.au/hass-and-indigenous-research-data-commons/" target="_blank">ARDC HASS and Indigenous Research Data Commons</a></p>
+    <p><b>Leaders</b>: <Profile id="mclellan" /> and <a href="https://mspgh.unimelb.edu.au/centres-institutes/onemda/research-group/indigenous-studies-unit/about-us/our-team/levi-craig-murray" target = "_blank">Levi Murray</a></p>
 </details>
+
 <details>
-<summary>
-<b>Indigenous Data Governance: A discussion</b>
-</summary>
-<p>The University of Queensland is committed to growing the opportunities for Indigenous people to lead and conduct their own research. One important strand in developing this innovative research culture is ensuring that appropriate governance is in place for Indigenous data.</p>
-
-<p>This event presented a panel of Indigenous researchers, data custodians and data stewards discussing current developments in this field including:</p>
-<ul>
-<li>the importance of Indigenous Cultural and Intellectual Property concerns</li>
-<li>governance of Indigenous Data Framework for the HASS & Indigenous Research Data Commons</li>
-<li>tools and methods for data governance.</li>
-</ul>
-<p><b>Participants</b>: Dr Rose Barrowcliffe, Leslie Acres, Robert McLellan, Grant Sarra (moderator)</p>
-<p><b>When</b>: 30 September 2024</p>
-<p><b>Organisers</b>: The University of Queensland, Research and Innovation Week 2024</p>
-
+    <summary>
+        <b>HASS and Indigenous Research Data Commons Summer School 2025</b>
+    </summary>
+    <p>The HASS and Indigenous research data community got together to gain hands-on experience, learn digital skills and network to inspire new research outcomes.</p>
+    <p>The Summer School aimed to empower participants with practical knowledge, build digital skills, and help inspire new research outcomes within the humanities, arts, social sciences (HASS) and Indigenous fields of study. Participants collaborated in an interactive group setting while networking with like-minded researchers and subject matter experts.</p>
+    <p><b>When</b>: 4 – 6 February 2025</p>
+    <p><b>Organisers</b>: <a href="https://ardc.edu.au/hass-and-indigenous-research-data-commons/" target="_blank">ARDC HASS and Indigenous Research Data Commons</a></p>
 </details>
+</details>
+
 <details>
-<summary>
-<b>Using Hansard & Other Parliamentary Proceedings for Your Research</b>
-</summary>
-<p>Parliamentary bodies around the world have been publishing transcriptions of their proceedings for decades or even centuries. These transcriptions enable public scrutiny and transparency of the actions and speech of legislative bodies and elected representatives. Because of their documentation of legislative action and speech, their relatively consistent format, and their coverages of long periods of time they are potentially useful for policy researchers, media and communication scholars, political scientists, linguists, sociologists, historians, and many others.</p>
-<p>This workshop aimed to provide a starting point for working with these transcribed proceedings, including evaluating how it might (and might not!) be useful for your research, how to get started for different kinds of projects, and cautionary notes on potential limitations. We will be using a suite of computational text analysis approaches, with no prior coding experience necessary.</p>
-<p><b>Leaders</b>: Sam Hames, Simon Musgrave</p>
-<p><b>When</b>: 19 September 2024</p>
-<p><b>Organisers</b>: <a href="https://computational-social-science.sydney.edu.au/" target="_blank">Computational Social Science Lab</a>, <a href="https://sydney.edu.au" target="blank">The University of Sydney</a></p>
+    <summary><b><font color="#79A38D">2024</font></b></summary>
 
+<details>
+    <summary>
+        <b>Solving 10 research challenges with the ARDC HASS and Indigenous Research Data Commons</b>
+    </summary>
+    <p>Participants got hands-on with two tools from the ARDC <a href="https://ardc.edu.au/hass-and-indigenous-research-data-commons/" target="_blank">HASS and Indigenous Research Data Commons</a>, the <a href="https://www.ldaca.edu.au/resources/user-guides/crate-o/" target="_blank">Crate-O</a> metadata editor and the <a href="https://tdg.glam-workbench.net/home.html" target="_blank">Trove Data guide</a> and learnt how other parts of the Research Data Commons help researchers solve another eight research challenges, in a series of five-minute lightning tours.</p>
+    <p><b>When</b>: 28 November 2024</p>
+    <p><b>Organisers</b>: <a href="https://ardc.edu.au/hass-and-indigenous-research-data-commons/" target="_blank">ARDC HASS and Indigenous Research Data Commons</a></p>
 </details>
+
+<details>
+    <summary>
+        <b>Exploring text using concordances</b>
+    </summary>
+    <p>Concordances are a very useful tool for anyone who works with textual data. Concordancing tools (also referred to as Keyword in Context or KWIC tools) provide us with a listing of all occurrences of a word in a text along with some surrounding context. A concordance is therefore an excellent starting point to explore how a word is used in a text. Most KWIC tools also have the capability to sort results according to the context of the instances, by preceding words or following words, or a combination of the two, and these capabilities allow us to extract more specific information from concordances.</p>
+    <p>In this workshop, participants:</p>
+    <ul>
+        <li>were introduced to tools for building concordances</li>
+        <li>were shown examples of how simple and complex concordances can be used to answer questions</li>
+        <li>had the chance to explore text using concordances, either from data they brought or from data that was provided.</li>
+    </ul>
+    <p><b>When</b>: 27 November 2024</p>
+    <p><b>Organisers</b>: <a href="https://resbaz.github.io/resbazvic2024/" target="_blank">ResBaz Victoria</a></p>
+    <p><b>Leader</b>: Simon Musgrave</p>
+</details>
+
+<details>
+    <summary>
+        <b>Text analytics with R and LADAL</b>
+    </summary>
+    <p>This workshop provided an introduction to text analytics with R using the tools and tutorials provided by the Language Technology and Data Analysis Laboratory (<a href="https://ladal.edu.au/" target="_blank">LADAL</a>).</p>
+    <p><b>Organisers</b>: <a href="https://resbaz.github.io/resbaz2024qld/" target="_blank">ResBaz Queensland</a></p>
+    <p><b>Leader</b>: Sam Hames</p>
+    <p><b>When</b>: 7 November 2024</p>
+</details>
+
+<details>
+    <summary>
+        <b>A glamorous introduction to text analytics for social media (Reddit)</b>
+    </summary>
+    <p>This two-part workshop series introduced participants to basic text analytics for research using Reddit data.</p>
+    <p>In the first workshop, we focused on data collection and learned how to collect posts from Reddit. In the second workshop, participants learned to apply a range of text analytic techniques to the Reddit data, using the very sparkly example of the Eurovision Song Contest.</p>
+    <p><b>When</b>: 9 and 16 October 2024</p>
+    <p><b>Leaders</b>: Robert Fleet (part 1) and Martin Schweinberger (part 2)</p>
+    <p><b>Organisers</b>: This workshop series is delivered by the <a href="https://www.digitalobservatory.net.au/qut-digital-observatory/" target="_blank">QUT Digital Observatory</a> and LDaCA</p>
+    <p><b>Recordings</b>: <a href="https://filesender.aarnet.edu.au/?s=download&token=a94f9ec3-7972-4bdd-a6d8-e6fd75e0830a" target="_blank">Part 1</a>, <a href="https://filesender.aarnet.edu.au/?s=download&token=4f1792c0-8a81-4073-a39f-2a31385579fd" target="_blank">Part 2</a></p>
+</details>
+
+<details>
+    <summary>
+        <b>Indigenous Data Governance: A discussion</b>
+    </summary>
+    <p>The University of Queensland is committed to growing the opportunities for Indigenous people to lead and conduct their own research. One important strand in developing this innovative research culture is ensuring that appropriate governance is in place for Indigenous data.</p>
+    <p>This event presented a panel of Indigenous researchers, data custodians and data stewards discussing current developments in this field including:</p>
+    <ul>
+        <li>the importance of Indigenous Cultural and Intellectual Property concerns</li>
+        <li>governance of Indigenous Data Framework for the HASS & Indigenous Research Data Commons</li>
+        <li>tools and methods for data governance.</li>
+    </ul>
+    <p><b>Participants</b>: Dr Rose Barrowcliffe, Leslie Acres, Robert McLellan, Grant Sarra (moderator)</p>
+    <p><b>When</b>: 30 September 2024</p>
+    <p><b>Organisers</b>: The University of Queensland, Research and Innovation Week 2024</p>
+</details>
+
+<details>
+    <summary>
+        <b>Using Hansard & Other Parliamentary Proceedings for Your Research</b>
+    </summary>
+    <p>Parliamentary bodies around the world have been publishing transcriptions of their proceedings for decades or even centuries. These transcriptions enable public scrutiny and transparency of the actions and speech of legislative bodies and elected representatives. Because of their documentation of legislative action and speech, their relatively consistent format, and their coverages of long periods of time they are potentially useful for policy researchers, media and communication scholars, political scientists, linguists, sociologists, historians, and many others.</p>
+    <p>This workshop aimed to provide a starting point for working with these transcribed proceedings, including evaluating how it might (and might not!) be useful for your research, how to get started for different kinds of projects, and cautionary notes on potential limitations. We will be using a suite of computational text analysis approaches, with no prior coding experience necessary.</p>
+    <p><b>Leaders</b>: Sam Hames, Simon Musgrave</p>
+    <p><b>When</b>: 19 September 2024</p>
+    <p><b>Organisers</b>: <a href="https://computational-social-science.sydney.edu.au/" target="_blank">Computational Social Science Lab</a>, <a href="https://sydney.edu.au" target="blank">The University of Sydney</a></p>
+</details>
+
 <details>
     <summary>
         <b>Data Migration Skills Workshop</b>
@@ -246,6 +259,7 @@ This workshop provided an introduction to text analytics with R using the tools 
     <p><b>Leader</b>: Peter Sefton</p>
     <p><b>When</b>: 3 - 5 September 2024</p>
 </details>
+
 <details>
     <summary>
         <b>Introduction to Computational Text Analytics</b>
@@ -256,6 +270,7 @@ This workshop provided an introduction to text analytics with R using the tools 
     <p><b>Organisers</b>: The University of Queensland (<a href="https://www.uq.edu.au/" target="_blank">UQ</a>) <a href="https://hass.uq.edu.au/Digital-Cultures-and-Societies" target="_blank">Centre for Digital Cultures & Societies</a></p>
     <p><a href="https://events.humanitix.com/introduction-to-computational-text-analytics-fm6j24un" target="_blank">Details</a></p>
 </details>
+
 <details>
     <summary>
         <b>Understanding the social meaning of language variation in Australian English</b>
@@ -264,6 +279,7 @@ This workshop provided an introduction to text analytics with R using the tools 
     <p><b>When</b>: 2 May 2024</p>
     <p><b>Organisers</b>: The University of Western Australia (<a href="https://www.uwa.edu.au/" target="_blank">UWA</a>) <a href="https://www.uwa.edu.au/schools/social-sciences/linguistics" target="_blank">Linguistics</a> and <a href="https://www.uwa.edu.au/schools/research/the-language-lab" target="_blank">The Language Lab</a></p>
 </details>
+
 <details>
     <summary>
         <b>Language Data Commons of Australia – Co-Design Workshops</b>
@@ -279,6 +295,7 @@ This workshop provided an introduction to text analytics with R using the tools 
     <p>The case study and hands-on session will focus on geospatial aspects of data. Prior coding knowledge is not required for the hands-on session.</p>
     <p><b><a href="https://www.eventbrite.com.au/e/language-data-commons-of-australia-co-design-workshops-tickets-802153060397" target="_blank">More information</a></b></p>
 </details>
+
 <details>
     <summary>
         <b>HASS and Indigenous Research Data Commons Computational Skills Summer School 2024</b>
@@ -294,9 +311,11 @@ This workshop provided an introduction to text analytics with R using the tools 
     <p>The case study and hands-on session will focus on geospatial aspects of data. Prior coding knowledge is not required for the hands-on session.</p>
     <p><b><a href="https://ardc.edu.au/event/hass-and-indigenous-rdc-summer-school-2024/" target="_blank">More information</a></b></p>
 </details>
-<details>
-<summary><b><font color="#79A38D">2023</font></b></summary>
 </details>
+
+<details>
+    <summary><b><font color="#79A38D">2023</font></b></summary>
+
 <details>
     <summary>
         <b>Workshop on community language corpora in Australia</b>
@@ -308,6 +327,7 @@ This workshop provided an introduction to text analytics with R using the tools 
     <p><b>Organisers</b>: <a href="mailto:li.nguyen@anu.edu.au">Li Nguyen</a> & Catherine Travis</p>
     <p><b>Program</b> (<a href="Workshop_CommunityLanguages_2023-program&abstracts.pdf">pdf</a> with abstracts)</p>
 </details>
+
 <details>
     <summary>
         <b>Workshop on Language Corpora in Australia</b>
@@ -318,6 +338,7 @@ This workshop provided an introduction to text analytics with R using the tools 
     <p><b>Organisers</b>: Catherine Travis & Li Nguyen</p>
     <p><b>Program</b> (<a href="Workshop_LanguageCorporaInAus_2023.pdf">pdf</a> with abstracts)</p>
 </details>
+
 <details>
     <summary>
         <b>Australian Text Analytics Platform: New tools for text analysis</b>
@@ -328,6 +349,7 @@ This workshop provided an introduction to text analytics with R using the tools 
     <p><b>Facilitators</b>: Simon Musgrave, Sam Hames, Ben Foley, Chao Sun</p>
     <p><b>More Information</b>This workshop was a satellite event of the 7th Conference of the International Society for the Linguistics of English (ISLE7) - see the <a href="https://languages-cultures.uq.edu.au/isle7" target="_blank">conference website</a> for further details.</p>
 </details>
+
 <details>
     <summary>
         <b>Exploring Digital Text Collections with Juxtorpus: A Taster Webinar on the Latest ATAP Text Analysis Tool</b>
@@ -338,6 +360,7 @@ This workshop provided an introduction to text analytics with R using the tools 
     <p><b>Length</b>: 90 minutes</p>
     <p><b>Facilitators</b>: Chao Sun</p>
 </details>
+
 <details>
     <summary>
         <b>Jefferson Transcript Search Tool</b>
@@ -348,6 +371,7 @@ This workshop provided an introduction to text analytics with R using the tools 
     <p><b>Length</b>: 90 minutes</p>
     <p><b>Facilitators</b>: Evelyn Ansell</p>
 </details>
+
 <details>
     <summary>
         <b>A hands-on guide to Semantic Tagger for your text data analysis</b>
@@ -357,6 +381,7 @@ This workshop provided an introduction to text analytics with R using the tools 
     <p><b>Length</b>: 90 minutes</p>
     <p><b>Facilitators</b>: Sony Jufri</p>
 </details>
+
 <details>
     <summary>
         <b>Australian Text Analytics Platform tools: Discursis, Juxtorpus, Quotation tool and Semantic tagger</b>
@@ -367,6 +392,7 @@ This workshop provided an introduction to text analytics with R using the tools 
     <p><b>Length</b>: 3 hours</p>
     <p><b>Facilitators</b>: Staff of the <a href="https://www.sydney.edu.au/research/facilities/sydney-informatics-hub.html" target="_blank">Sydney Informatics Hub</a></p>
 </details>
+
 <details>
     <summary>
         <b>HASS Research Data Commons and IRC Computational Skills Summer School</b>
@@ -376,9 +402,11 @@ This workshop provided an introduction to text analytics with R using the tools 
     <p>The projects from the <GlossaryLink display="HASS" id="hass" /> <GlossaryLink display="RDC" id="rdc" /> and IRC Program presented workshops on using the tools and platforms.</p>
     <p><a href="https://ardc.edu.au/wp-content/uploads/2023/02/hass-computational-skills-summer-school-agenda_-7-8-feb.pdf" target="_blank">Program</a></p>
 </details>
+</details>
+
 <details>
 <summary><b><font color="#79A38D">2022</font></b></summary>
-</details>
+
 <details>
     <summary>
         <b>Pre-conference workshop (before the 2022 Conference of the Australian Linguistic Society)</b>
@@ -393,6 +421,7 @@ This workshop provided an introduction to text analytics with R using the tools 
     </ul>
     <p><a href="ALS2022-program.pdf">Program</a></p>
 </details>
+
 <details>
     <summary>
         <b>Geolocating Australian Historical Resources</b>
@@ -402,6 +431,7 @@ This workshop provided an introduction to text analytics with R using the tools 
     <p><b>Length</b>: 3 hours</p>
     <p><b>Facilitators</b>: Michael Niemann, Fiannuala Morgan (ANU), Simon Musgrave</p>
 </details>
+
 <details>
     <summary>
         <b>Learn how to collect and analyse comments on YouTube videos using the open-source tools Youte and Discursis</b>
@@ -410,6 +440,7 @@ This workshop provided an introduction to text analytics with R using the tools 
     <p><b>Length</b>: 3 hours</p>
     <p><b>Facilitators</b>: Boyd Nguyen (<GlossaryLink display="ADO" id="ado" />), Sam Hames (<GlossaryLink display="ATAP" id="atap" />)</p>
 </details>
+
 <details>
     <summary>
         <b>Finding quotes and speakers in text using the ATAP quotation tools</b>
@@ -418,6 +449,7 @@ This workshop provided an introduction to text analytics with R using the tools 
     <p><b>Length</b>: 1 hour</p>
     <p><b>Facilitators</b>: Sony Jufri</p>
 </details>
+
 <details>
     <summary>
         <b>Advance care planning for your research data</b>
@@ -433,6 +465,7 @@ This workshop provided an introduction to text analytics with R using the tools 
     <p><b>Length</b>: 1 hour</p>
     <p><b>Facilitators</b>: Sam Hames, Ben Foley</p>
 </details>
+
 <details>
     <summary>
         <b>Computational Thinking in the Humanities</b>
@@ -442,6 +475,7 @@ This workshop provided an introduction to text analytics with R using the tools 
     <p><b>Length</b>: 3 hours</p>
     <p><a href="https://ladal.edu.au/compthink.html" target="_blank">Further details</a></p>
 </details>
+
 <details>
     <summary>
         <b>Network analysis and Topic Modeling on Twitter data using R</b>
@@ -451,6 +485,7 @@ This workshop provided an introduction to text analytics with R using the tools 
     <p><b>Length</b>: 3 hours</p>
     <p><b>Facilitators</b>: Alice Miller (<GlossaryLink display="ADO" id="ado" />), Simon Musgrave (<GlossaryLink display="ATAP" id="atap" />)</p>
 </details>
+
 <details>
     <summary>
         <b>Monotreme Mania! Comparative text analytics on Twitter data</b>
@@ -460,6 +495,7 @@ This workshop provided an introduction to text analytics with R using the tools 
     <p><b>Length</b>: 3 hours</p>
     <p><b>Facilitators</b>: Sam Hames, Simon Musgrave</p>
 </details>
+
 <details>
     <summary>
         <b>An introduction to Jupyter notebooks for text analysis: Virtual workshop for absolute beginners</b>
@@ -484,6 +520,8 @@ This workshop provided an introduction to text analytics with R using the tools 
     <p><b>Length</b>: 3 hours</p>
     <p><b>Facilitators</b>: Sara King, Simon Musgrave</p>
 </details>
+</details>
+
 <br>
 
 If your university or organisation would like to host a workshop, please [contact us](mailto:ldaca@uq.edu.au).
@@ -499,8 +537,10 @@ If your university or organisation would like to host a workshop, please [contac
     <p>Despite their manifold benefits, language technologies are contributing to several unfolding crises. Small screens deliver mainstream content across the world and entice children of minoritised communities away from their ancestral languages. The data centres that power large language models depend on the mining of ever more rare earth metals from Indigenous lands and emit ever more carbon. Malicious actors flood social media with fake news, provoking extremism, division and war. Common to these crises is content, i.e. language content, increasingly generated and accessed using language technologies. These developments — the language crisis, the environmental crisis and the meaning crisis — compound each other in what is being referred to as the metacrisis. How are we to respond, then, as a community of practice who is actively developing still more language technologies? Steven believes that a good first step is to bring our awareness to the matter and to rethink what we are doing. We must be suspicious of purely technological solutions which may only exacerbate problems that were created by our use of technology. Instead, Steven argues that we should approach the problem as social and cultural. He will share stories from a small and highly multilingual Indigenous society who understands language, not as sequence data, but as social practice, and who understands language resources, not as annotated text and speech, but as stories and knowledge practices of language owners. He will explore ramifications for our work in the space of language technologies, and propose a relational approach to language technology that avoids extractive processes and centres speech communities.</p>
     <p><b>Steven Bird</b>: Over the past three decades, Steven Bird has been working with minoritised peoples in Africa, Melanesia, Amazonia and Australia, and exploring how communities can keep their oral languages and cultures strong. Since 2017 he has been research professor at Charles Darwin University, where he collaborates with Indigenous leaders and directs the Top End Language Lab.</p>
 </details>
+
 <br />
 Our 2022 webinar series was a joint initiative with the Language Technology and Data Analysis Laboratory ([LADAL](https://slcladal.github.io/index.html)) at the School of Languages and Cultures, The University of Queensland.
+
 <details>
     <summary>
         <b>October 3 2022 - Paweł Kamocki: European Union Data Protection initiatives and their consequences for research</b>
@@ -508,18 +548,21 @@ Our 2022 webinar series was a joint initiative with the Language Technology and 
     <p>The European Union, with its large population and GDP, is a leading force in regulatory globalisation. This webinar will discuss recent developments in legal frameworks affecting research data in Europe. Apart from the General Data Protection Regulation which, since its entry into application in 2018, has become an international standard of personal data protection, the recent introduction of statutory <GlossaryLink display="copyright" id="copyright" /> exceptions for Text and Data Mining will also be discussed. Moreover, the webinar will also include a presentation of the most recent changes in EU law, such as the Data Governance Act and the Artificial Intelligence Act, which are expected to enter into application in the coming years.</p>
     <p><b>Paweł Kamocki</b> is a legal expert in Leibniz-Institut für Deutsche Sprache, Mannheim. He studied linguistics and law, and in 2017 obtained his doctorate in law from the universities of Paris and Münster for a thesis on legal aspects of data-intensive university research, with a focus on Knowledge Commons. He worked as a research and teaching assistant at the Paris Descartes university (now: Université de Paris), then also in the private sector. He is certified to work as an attorney in France. An active member of the <a href="https://www.clarin.eu/" target="_blank">CLARIN</a> community since 2012, he currently chairs the CLARIN Legal and Ethical Issues Committee. He also worked with other projects and initiatives in the field of research data policy (RDA, EUDAT) and co-created several LegalTech tools for researchers. One of his main research interests are legal issues in Machine Translation.</p>
 </details>
+
 <details>
     <summary>
         <b>August 1 2022 - Václav Cvrček: The Czech national Corpus</b>
     </summary>
     <p><b><a href="https://ucnk.ff.cuni.cz/en/institute/people/vaclav-cvrcek-2/" target="_blank">Václav Cvrček</a></b> is a linguist who deals with the description of the Czech language, especially with the use of large electronic corpora and quantitative methods. In 2013-2016 he worked as the director of the <a href="https://ucnk.ff.cuni.cz/en/" target="_blank">Czech National Corpus</a> project, since 2016 he has been the deputy director. Recently, he has been focusing on research on textual variability and corpus-based discourse analysis with a focus on online media.</p>
 </details>
+
 <details>
     <summary>
         <b>June 6 2022 - Barbara McGillivray: The <i>Journal of Open Humanities Data</i></b>
     </summary>
     <p><b>Barbara McGillivray</b> is a Turing Research Fellow at <a href="https://www.turing.ac.uk/" target="_blank">The Alan Turing Institute</a>, and Editor in Chief of the <a href="https://openhumanitiesdata.metajnl.com/" target="_blank">Journal of Open Humanities Data</a>. Since September 2021 she is also a lecturer in Digital Humanities and Cultural Computation at the <a href="https://www.kcl.ac.uk/ddh" target="_blank">Department of Digital Humanities of King's College London</a>. Before joining the Turing, she was language technologist in the Dictionary division of Oxford University Press and data scientist in the Open Research Group of Springer Nature. Her research at the Turing is on how words change meaning over time and how to model this change in computational ways. She works on machine-learning models for the change in meaning of words in historical times (Ancient Greek, Latin, eighteen-century English) and in contemporary texts (Twitter, web archives, emoji). Her interdisciplinary contribution covers Data Science, Natural Language Processing, Historical Linguistics and other humanistic fields, to push the boundaries of what academic disciplines separately have achieved so far on this topic.</p>
 </details>
+
 <details>
     <summary>
         <b>4 April 2022 - Keoni Mahelona: A practical approach to Indigenous data sovereignty</b>
