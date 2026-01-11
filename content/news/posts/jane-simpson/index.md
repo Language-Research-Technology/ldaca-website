@@ -2,7 +2,7 @@
 title: "Interview with Jane Simpson"
 date: "2024-11-14T16:34:20+11:00"
 draft: false
-description: "Interview with Jane Simpson; Professor Emerita at the Australian National University (ANU)."
+description: "Jane Simpson, Professor Emerita at the Australian National University, discusses storing language data, obstacles to its long-term storage, her interest in making dictionaries accessible and how researchers at the end of their careers should manage data."
 layout: post
 image: "/news/posts/jane-simpson/fig_1_JaneSimpson.jpg"
 ---

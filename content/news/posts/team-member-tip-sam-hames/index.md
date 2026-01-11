@@ -2,7 +2,7 @@
 title: "Team member tip: There's no substitute for looking closely at the data"
 date: 2025-10-08
 draft: false
-description: "Team member tip: There's no substitute for looking closely at the data"
+description: "Research Analytics Lead Sam Hames shares some advice for making sure that the data you’re working with suits your purposes."
 layout: post
 image: "/news/posts/team-member-tip-sam-hames/sam-hames-summer-school-2025.jpg"
 ---

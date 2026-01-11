@@ -2,7 +2,7 @@
 title: "Arne ingkerreke apurtelhe-ileme: Project launch"
 date: 2025-04-15T11:10:21+10:00
 draft: false
-description: "Arne ingkerreke apurtelhe-ileme: Project launch"
+description: "Read about the launch of Arne ingkerreke apurtelhe-ileme (Gathering all the things together) at Batchelor Institute earlier this month. Arne ingkerreke apurtelhe-ileme brings together the incredible life’s work of Veronica Perrurle Dobson (AM). The project website is a guide to Veronica’s life, work, and publications, and contains links to archival collections of her work."
 layout: post
 image: "/news/posts/VeronicaDobson-launch2025/VPDLaunch-2.jpg"
 ---

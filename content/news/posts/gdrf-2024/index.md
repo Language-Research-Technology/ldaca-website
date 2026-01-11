@@ -6,6 +6,7 @@ aliases:
   - "/posts/gdrf-2024/"
 layout: post
 image: "/news/posts/gdrf-2024/gdrf-2024.jpg"
+description: "A blog post about the 2024 Graduate Digital Research Fellowship cohort, as co-ordinated by Sam Hames (Research Analytics Lead) and Simon Musgrave (Research Support and Training Lead)."
 ---
 
 As detailed in an [earlier](../gdrf/) post, we ran a Graduate Digital Research Fellowship (GDRF) program in 2023 under the auspices of the Australian Text Analytics Program ([ATAP](https://www.atap.edu.au)). The program ran again in 2024, under the Language Data Commons of Australia banner with three students participating and with <Profile id = "hames" /> and <Profile id = "musgrave" /> co-ordinating the activity.

@@ -2,7 +2,7 @@
 title: "Interview with Kalin Stefanov"
 date: 2024-04-11T14:29:40+10:00
 draft: false
-description: ""
+description: "An interview with Kalin Stefanov (ARC DECRA Fellow at Monash University) about his work on an Australian Sign Language (Auslan) project."
 layout: post
 image: "/news/posts/kalin-stefanov/kalins.jpg"
 ---

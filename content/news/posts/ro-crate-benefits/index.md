@@ -2,7 +2,7 @@
 title: "Five benefits of RO-Crate data packaging for language collections"
 date: 2025-06-03
 draft: false
-description: "Five benefits of RO-Crate data packaging for language collections"
+description: "Find out five ways Research Object (RO) Crates can support data stewards and why LDaCA uses RO-Crates in our infrastructure."
 layout: post
 ---
 

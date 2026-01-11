@@ -126,7 +126,7 @@ import LatestBlog from '../.vitepress/theme/components/LatestBlog.vue'
     },
     {
       title: 'Webinar: The ParlaMint corpora of European parliamentary proceedings',
-      description: 'This talk discussed the compilation and dissemination of the ParlaMint corpora. It includes 29 corpora of European national and regional parliamentary proceedings, covering at least the period from 2015 to 2022, and containing over 1 billion words. Tomaž and Matyáš described the background of this CLARIN-funded project and the characteristics of the produced corpora. They then introduced the encoding of the corpora, the corpus compilation pipeline, the use of GitHub and the ways in which the corpus is made accessible to potential users. They conclude with lessons learnt in the project and further work on the ParlaMint corpora.',
+      description: 'CLARIN colleagues Tomaž Erjavec and Matyáš Kopp delivered the second webinar in our 2025 series in August. Tomaž and Matyáš discussed the compilation and dissemination of the ParlaMint corpora, a collection of 29 corpora of European national and regional parliamentary proceedings, covering at least the period from 2015 to 2022 and containing over 1 billion words.',
       image: 'https://www.clarin.eu/sites/default/files/styles/max_325x325/public/parlamintvisual2.png?itok=c7K5X6Ke',
       link: '/news/events'
     },

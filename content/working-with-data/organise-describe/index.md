@@ -28,7 +28,7 @@ hero:
         title: 'RO-Crate Playground',
         description: 'RO-Crate Playground provides tools and resources for creating, managing, and sharing RO-Crates for efficient data organization and accessibility.',
         link: 'https://ro-crate.ldaca.edu.au/'
-      },
+      }
     ]"/>
 
 <HomeCarousel 
@@ -45,7 +45,7 @@ hero:
         title: 'Crate-O User Guide',
         description: 'Information related to using Crate-O for language data.',
         link: '/resources/user-guides/crate-o'
-      },
+      }
     ]"/>
 
 <HomeCarousel 

@@ -2,7 +2,7 @@
 title: "Reflecting on the Darwin digital languages collections workshop"
 date: 2025-04-22
 draft: false
-description: "Reflecting on the Darwin digital languages collections workshop"
+description: "From 24—28 March, the LDaCA team hosted the Darwin digital languages collections workshop. This event brought together organisations and individuals from the Top End to exchange ideas and insights about Indigenous language collections and explore collaborative opportunities."
 layout: post
 image: "/news/posts/darwin-digital-collections-workshop/darwin_workshop_fig1.jpg"
 ---

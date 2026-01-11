@@ -2,7 +2,7 @@
 title: "Putting data to work"
 date: 2025-03-13T14:29:40+10:00
 draft: false
-description: "Putting data to work"
+description: "Learn how LDaCA's data collections enriched Research Support and Training Lead Simon Musgrave's recent article 'Australian Slang as a Literary Genre', published in the Australian Journal of Linguistics. In the blog post, Simon discusses how he used four collections from the LDaCA portal to strengthen his argument that there is a tradition of Australian writers inventing expressions which they treat as being part of Australian slang."
 layout: post
 image: "/news/posts/putting-data-to-work/mckenzie-book-burl.jpg"
 ---

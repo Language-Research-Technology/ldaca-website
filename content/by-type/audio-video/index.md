@@ -48,7 +48,7 @@ hero:
       },
       {
         title: 'Webinar: The ParlaMint corpora of European parliamentary proceedings',
-        description: 'This talk discussed the compilation and dissemination of the ParlaMint corpora. It includes 29 corpora of European national and regional parliamentary proceedings, covering at least the period from 2015 to 2022, and containing over 1 billion words. Tomaž and Matyáš  described the background of this CLARIN-funded project and the characteristics of the produced corpora. They then introduced the encoding of the corpora, the corpus compilation pipeline, the use of GitHub and the ways in which the corpus is made accessible to potential users. They conclude with lessons learnt in the project and further work on the ParlaMint corpora.',
+        description: 'CLARIN colleagues Tomaž Erjavec and Matyáš Kopp delivered the second webinar in our 2025 series in August. Tomaž and Matyáš discussed the compilation and dissemination of the ParlaMint corpora, a collection of 29 corpora of European national and regional parliamentary proceedings, covering at least the period from 2015 to 2022 and containing over 1 billion words.',
         image: 'https://img.youtube.com/vi/SU92WFxmq-4/maxresdefault.jpg',
         link: 'https://www.youtube.com/watch?v=SU92WFxmq-4&t=3310s'
       }
@@ -110,7 +110,7 @@ hero:
       },
       {
         title: 'Channel 10 News - Mind Your Language',
-        description: 'TODO.',
+        description: 'Research by Chief Investigator Martin Schweinberger and colleague Kate Burridge (Monash University) on vulgar language in online spaces has received national and international media coverage. Martin’s and Kate’s research uncovered who swears the most online by country – with surprising results!',
         image: 'https://mcusercontent.com/ef8667be63aefb1e35062a797/images/6afbb930-5c23-7059-6719-f3a657acb175.png',
         link: 'https://www.linkedin.com/posts/martin-schweinberger-53515a96_linguistics-corpuslinguistics-languageinthemedia-activity-7331647104760573952-T47c?utm_source=share&utm_medium=member_desktop&rcm=ACoAADydwucBJwi3D3vS6WHo-6Ifapj9NyTTxbg'
       },

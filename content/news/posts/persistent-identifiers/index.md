@@ -2,7 +2,7 @@
 title: "Persistent Identifiers (PIDs) and Digital Object Identifiers (DOIs)"
 date: 2024-07-03T09:45:50+10:00
 draft: false
-description: ""
+description: "A blog post about persistent identifiers and Digital Object Identifiers (DOIs)."
 layout: post
 ---
 

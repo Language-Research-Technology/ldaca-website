@@ -24,7 +24,7 @@ const props = defineProps({
 <template>
   <!-- <FeaturesBanner /> -->
   <section class="p-0">
-    <!-- Description and Button -->
+    <!-- Description -->
     <div
       class="text-left max-w-[1440px] mx-auto px-4 py-8 relative bg-cover bg-center bg-no-repeat rounded-none min-h-[200px]"
       :style="{ backgroundImage: `url(${backgroundImage})`, backgroundColor: headerBgColor }">

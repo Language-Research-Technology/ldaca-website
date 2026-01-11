@@ -2,7 +2,7 @@
 title: "Putting data to work — 2"
 date: 2025-08-13T14:29:40+10:00
 draft: false
-description: "Putting data to work — 2"
+description: "Learn more about the challenges of working with an unwieldy data source—the Australian Federal Hansard—from Simon Musgrave. Simon recently published an article on ‘unparliamentary’ language in the Australian Federal Hansard with Sam Hames and Michael Haugh. In the blog post, he unpacks how they approached issues of access and scale to use this data source effectively."
 layout: post
 image: "/news/posts/putting-data-to-work-2/hansard.jpeg"
 ---

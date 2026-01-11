@@ -24,25 +24,21 @@ hero:
       },
       {
         title: 'LDaCA Technical Architecture update 2025',
-        description: 'This blog post provides an update on the Language Data Commons of Australia (LDaCA) technical architecture. It is adapted from a presentation delivered to the LDaCA Steering Committee on 22 August 2025 by Peter Sefton, Mosies Sacal Bonequi and Ben Foley.',
         image: 'https://placehold.co/600x360',
         link: '/news/posts/2025-ldaca_technical_architecture_update'
       },
       {
         title: 'Five ways RO-Crate data packages are important for repositories',
-        description: 'TODO.',
         image: 'https://placehold.co/600x360',
         link: '/news/posts/2024-or-ro-crate'
       },
       {
         title: 'Crate-O - a drop-in linked data metadata editor for RO-Crate (and other) linked data in repositories and beyond',
-        description: 'TODO.',
         image: 'https://placehold.co/600x360',
         link: '/news/posts/2024-or-crate-o'
       },
       {
         title: 'A comprehensive, open and sustainable set of principles and tools for low (and high) resource Archival Repositories',
-        description: 'TODO.',
         image: 'https://placehold.co/600x360',
         link: '/news/posts/2024-or-pilars'
       },

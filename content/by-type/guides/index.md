@@ -40,7 +40,7 @@ hero:
 <HomeCarousel 
   backgroundColor="#EAE4D68C"
   :opacity="100"
-  heading="PORTAL"
+  heading="DATA PORTAL"
   :items="[
       {
         title: 'Available Portals',
