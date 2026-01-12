@@ -1,6 +1,39 @@
 <script setup lang="ts">
+import { computed } from 'vue'
 import { data as glossaryItems } from '../lib/glossary.data'
 import GlossaryLink from './GlossaryLink.vue'
+
+const lettersList = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')
+
+const letterToId = computed<Record<string, string | null>>(() => {
+  const map: Record<string, string | null> = {}
+  lettersList.forEach(letter => {
+    const match = glossaryItems.find(item => {
+      const t = (item.term || '').trim()
+      if (!t) return false
+      const first = t[0].toUpperCase()
+      return first === letter
+    })
+    map[letter] = match ? match.id : null
+  })
+  return map
+})
+
+function scrollToLetter(letter: string) {
+  const id = letterToId.value[letter]
+  if (!id) return
+  const el = document.getElementById(id)
+  if (!el) return
+  // determine header offset if present (site header or vp-nav), fallback to 80px
+  const header = document.querySelector('header') as HTMLElement | null
+  const headerHeight = header ? header.getBoundingClientRect().height : 80
+  const extraOffset = 12 // small gap
+  // account for any CSS scroll-margin-top set on the element (computed in px)
+  const scrollMarginTop = parseFloat(window.getComputedStyle(el).scrollMarginTop || '0') || 0
+  const top = window.scrollY + el.getBoundingClientRect().top - headerHeight - extraOffset - scrollMarginTop
+  window.history.pushState(null, '', `#${id}`)
+  window.scrollTo({ top, behavior: 'smooth' })
+}
 
 function parseGlossaryContent(content: string) {
   if (!content) return [{ type: 'html', html: '' }]
@@ -38,6 +71,23 @@ function parseGlossaryContent(content: string) {
 
 <template>
   <div>
+    <!-- A–Z index -->
+    <div class="mb-4 flex gap-2 flex-wrap items-center">
+      <nav class="flex flex-wrap gap-1" aria-label="Glossary index">
+        <template v-for="letter in lettersList" :key="letter">
+          <a
+            v-if="letterToId[letter]"
+            href="#"
+            @click.prevent="scrollToLetter(letter)"
+            class="inline-block px-2 py-1 text-sm rounded border border-transparent hover:border-primary hover:text-primary"
+          >
+            {{ letter }}
+          </a>
+          <span v-else class="inline-block px-2 py-1 text-sm text-muted-foreground cursor-not-allowed select-none">{{ letter }}</span>
+        </template>
+      </nav>
+    </div>
+
     <!-- Index table of terms -->
     <table class="w-full text-sm mb-6 border-collapse">
       <thead>

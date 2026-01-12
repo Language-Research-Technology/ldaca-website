@@ -89,22 +89,32 @@ onMounted(() => {
             <div class="mb-3">
               <time class="text-gray-600 text-sm">{{ formatDate(post.date) }}</time>
             </div>
-            <h3 class="text-2xl font-bold mb-2 text-gray-900">
-              <a :href="post.url" class="hover:text-primary transition-colors">
-                {{ post.title }}
-              </a>
-            </h3>
-            <p v-if="post.description" class="text-lg text-gray-600 mb-4 font-medium">
-              {{ post.description }}
-            </p>
-            <div v-if="post.tags" class="flex flex-wrap gap-2">
-              <span
-                v-for="tag in post.tags"
-                :key="tag"
-                class="inline-block px-3 py-1 bg-gray-100 text-gray-700 text-sm rounded-full"
-              >
-                {{ tag }}
-              </span>
+            <div class="flex gap-4 items-start">
+              <img
+                v-if="post.image"
+                :src="post.image"
+                :alt="post.title"
+                class="w-24 h-24 object-cover rounded-none flex-shrink-0 self-start mt-0"
+              />
+              <div class="flex-1 pt-0">
+                <h3 class="text-2xl font-bold mt-0 mb-2 text-gray-900">
+                  <a :href="post.url" class="hover:text-primary transition-colors">
+                    {{ post.title }}
+                  </a>
+                </h3>
+                <p v-if="post.description" class="text-lg text-gray-600 mb-4 font-medium">
+                  {{ post.description }}
+                </p>
+                <div v-if="post.tags" class="flex flex-wrap gap-2">
+                  <span
+                    v-for="tag in post.tags"
+                    :key="tag"
+                    class="inline-block px-3 py-1 bg-gray-100 text-gray-700 text-sm rounded-full"
+                  >
+                    {{ tag }}
+                  </span>
+                </div>
+              </div>
             </div>
           </article>
         </div>

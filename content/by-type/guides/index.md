@@ -79,3 +79,49 @@ hero:
         link: '/resources/user-guides/portal/cite-data'
       }
     ]"/>
+
+<HomeCarousel 
+  backgroundColor="#EAE4D68C"
+  :opacity="100"
+  heading="WORKING WITH DATA"
+  :items="[
+      {
+        title: 'Guidance for Data Governance Decisions',
+        link: '/resources/ldaca-resources/guidance-for-data-governance-decisions'
+      },
+      {
+        title: 'Data Onboarding Process',
+        link: '/resources/ldaca-resources/data-onboarding-process'
+      },
+      {
+        title: 'Access Policy',
+        link: '/resources/ldaca-resources/access-policy'
+      },
+      {
+        title: 'Determining Access Conditions',
+        link: '/resources/ldaca-resources/determining-access-conditions'
+      },
+      {
+        title: 'Obtaining a DOI',
+        link: '/resources/ldaca-resources/obtaining-a-doi'
+      },
+      {
+        title: 'Metadata',
+        link: '/resources/ldaca-resources/metadata'
+      }
+    ]"/>
+
+<HomeCarousel 
+  backgroundColor="#EAE4D68C"
+  :opacity="100"
+  heading="EXTERNAL GUIDES"
+  :items="[
+      {
+        title: 'Text Analysis',
+        link: 'https://www.atap.edu.au/text-analysis/overview/'
+      },
+      {
+        title: 'LADAL Tutorials',
+        link: 'https://ladal.edu.au/tutorials.html'
+      }
+    ]"/>

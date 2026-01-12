@@ -10,6 +10,7 @@ const postsData = computed(() => {
     slug: post.frontmatter?.slug || post.url,
     url: post.url,
     description: post.frontmatter?.description || '',
+    image: post.frontmatter?.image || '',
     tags: post.frontmatter?.tags || [],
     author: post.frontmatter?.author || ''
   }))

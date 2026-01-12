@@ -11,6 +11,10 @@ An archive of our previous newsletters.
 
 ### [Latest Issue](https://mailchi.mp/23b267c0970e/ldaca-newsletter-quarter-2-6748768?)
 
+<iframe src="https://mailchi.mp/23b267c0970e/ldaca-newsletter-quarter-2-6748768?" width="100%" height="500px" style="border:1px solid black;">
+</iframe>
+
+<br>
 
 <details>
 <summary><b><font color="#79A38D">Previous Issues</font></b></summary>
