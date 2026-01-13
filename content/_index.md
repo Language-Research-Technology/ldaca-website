@@ -24,9 +24,10 @@
       <div class="slide__content">
         <h1>Updates</h1>
                 <ul>
+                <h3><li>HASS and Indigenous RDC Summer School (<a href = "./news/events/" >Read more ➤</a>)</li>
                 <h3><li>Identifying Precarious Oral Histories Project (<a href = "https://precariousoralhistories.com/" target="_blank">Read more ➤</a>)</li></h3>
                 <h3><li>New blog post: Five benefits of RO-Crates (<a href = "./news/posts/ro-crate-benefits/" >Read more ➤</a>)</li></h3>
-        <h3><li>Forthcoming webinar (<a href = "./news/events/" >Read more ➤</a>)</li>        
+             
         <h3><li>Media: The Guardian talks to Martin Schweinberger about which nationality swears most online (<a href = "https://www.theguardian.com/australia-news/2025/may/23/americans-british-swear-more-online-than-australians" target="_blank">Read more ➤</a>)</li></h3>            
         </ul>
       </div>  
