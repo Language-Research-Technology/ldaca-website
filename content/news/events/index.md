@@ -13,82 +13,29 @@ aliases:
 [Previous Events](#previous-events)&emsp;&emsp;
 [Previous Webinars](#webinars) &emsp;&emsp;
 
- <br>
-
-### Sustainable Data for Humanities Researchers workshop
+### HASS and Indigenous Research Data Commons Summer School 2026
 
 **Summary**:
 
-Research data is valuable — we spend time (and often, money) in collecting it, and it is fundamental to creating knowledge. Because of this value, we have a responsibility to ensure that data will continue to be useful, minimally to ourselves but ideally also to others. This workshop will introduce participants to basic ideas of {{< glossary_link display="data management" id="rdm" >}}, which are oriented to making data sustainable in line with two important sets of principles, {{< glossary_link display="FAIR" id="fair" >}} and {{< glossary_link display="CARE" id="care" >}}.
+The Summer School aims to empower participants with practical knowledge, build digital skills and help inspire new research outcomes within the humanities, arts, social sciences (HASS), and Indigenous fields of study. Participants will collaborate in an interactive group setting while networking with like-minded researchers and subject matter experts.
 
-The aims of the workshop are to:
-* increase awareness of the importance of sustainable data
-* introduce basic principles for managing data sustainably
-* demonstrate simple {{< glossary_link display="methods" id="methods" >}} which implement those principles
-* give participants hands-on experience with {{< glossary_link display="tools" id="tools" >}} for data management.
+Over 2 days, participants will be involved in interactive workshops, discussions, mentoring, networking and formal presentations to:
 
-**When**: 26 August 2025, 9am – 4:30pm AEST
+- learn skills to use digital research tools
+- discover frameworks and workflows for impactful digital research
+- build networks for future collaborative projects using HASS and Indigenous Research Data Commons infrastructure.
 
-**Where**: The University of Melbourne
+The Summer School is free of charge for researchers based in Australia thanks to the support of the ARDC HASS and Indigenous Research Data Commons. Lunch and morning and afternoon tea are provided each day. Travel and accommodation must be covered by the participants.
 
-**[Registration](https://rduevents.unimelb.edu.au/event/2318-sustainable-data-for-humanities-researchers)**
+**When**: 3-4 February 2026
 
-**Organisers**: [Melbourne Data Analytics Platform](https://www.unimelb.edu.au/mdap)
+**Where**: Federation University, Ballarat
 
-**Presenters**: {{< profile id="musgrave" >}} and {{< profile id="riv-smith" >}}
+**[Details](https://ardc.edu.au/event/hass-and-indigenous-research-data-commons-summer-school-2026/)**
 
-<br>
+**[Registration](https://www.eventbrite.com.au/e/hass-and-indigenous-research-data-commons-summer-school-2026-tickets-1736678224319?aff=oddtdtcreator)**
 
-### Webinar: The ParlaMint corpora of European parliamentary proceedings
-**Recording date**: 28 August 2025
-<br>
-
-<div align="center">
-<iframe
-  width="800"
-  height="460"
-  src="https://www.youtube.com/embed/SU92WFxmq-4?si=AiVOdBv4BoPT8NYg"
-  frameborder="0"
-  allow="autoplay; encrypted-media"
-  allowfullscreen
->
-</iframe>
-</div>
-<br>
-This talk discussed the compilation and dissemination of the ParlaMint corpora. It includes 29 corpora of European national and regional parliamentary proceedings, covering at least the period from 2015 to 2022, and containing over 1 billion words.
-
-Tomaž and Matyáš  described the background of this CLARIN-funded project and the characteristics of the produced corpora. They then introduced the encoding of the corpora, the corpus compilation pipeline, the use of GitHub and the ways in which the corpus is made accessible to potential users.
-
-They conclude with lessons learnt in the project and further work on the ParlaMint corpora.
-<br>
-
-**Presenters: Tomaž Erjavec and Matyáš Kopp**
-
-Tomaž Erjavec is a member of the Department of Knowledge Technologies of the Institut "Jožef Stefan" (Ljubljana, Slovenia) and of the Fran Ramovš Institute of the Slovenian Language. His research interests include text {{< glossary_link display="corpora" id="corpus" >}} and other language resources, digital humanities, standardisation of text encoding, language technologies for Slovene, machine learning methods for natural language and computational morphology.
-
-Matyáš Kopp is a member of the Institute for Formal and Applied Linguistics at the Charles University in Prague (Czech Republic). He has worked extensively on compiling and researching datasets based on parliamentary proceedings, and also on technologies for querying treebanks.
-
-
-
-
-
-<br>
-
-### Get Started with Federal Hansard for Humanities, Arts, and Social Sciences Research
-
-**Summary**:
-
-Parliamentary bodies around the world have been publishing transcriptions of their proceedings for decades or even centuries. These transcriptions enable public scrutiny and transparency of the actions and speech of legislative bodies and elected representatives. Because of their documentation of legislative action and speech, their relatively consistent format and their coverages of long periods of time, they are potentially useful for policy researchers, media and communication scholars, political scientists, linguists, sociologists, historians and many others.
-
-This workshop aimed to provide a starting point for working with these transcribed proceedings, including evaluating how it might (and might not!) be useful for your research, how to get started for different kinds of projects and cautionary notes on potential limitations. We will be using a suite of computational text analysis approaches, with no prior coding experience necessary.
-
-**Leaders**: {{< profile id="hames" >}} and {{< profile id="musgrave" >}}
-
-**When**: 11 September 2025, 9:30am–12:30pm AEST
-
-**Organisers**: [The Centre for Digital Cultures and Societies](https://hass.uq.edu.au/centre-digital-cultures-societies), The University of Queensland
-
-**[Details and registration](https://hass.uq.edu.au/event/session/17466)**
+**Organisers**: [HASS and Indigenous Research Data Commons](https://ardc.edu.au/hass-and-indigenous-research-data-commons/)
 
 <br>
 
@@ -113,6 +60,30 @@ The {{< glossary_link display="RO-Crate" id="ro-crate" >}} community run a weekl
 
 <details>
 <summary>
+<b>Workshop: Sustainable Data for Humanities Researchers workshop</b>
+</summary>
+<p>Research data is valuable — we spend time (and often, money) in collecting it, and it is fundamental to creating knowledge. Because of this value, we have a responsibility to ensure that data will continue to be useful, minimally to ourselves but ideally also to others. This workshop will introduce participants to basic ideas of data management, which are oriented to making data sustainable in line with two important sets of principles, FAIR and CARE.</p>
+
+<p>The aims of the workshop were to:</p>
+<ul>
+<li>increase awareness of the importance of sustainable data</li>
+<li>introduce basic principles for managing data sustainably</li>
+<li>demonstrate simple methods which implement those principles</li>
+<li>give participants hands-on experience with tools for data management.</li>
+</ul>
+
+<p><b>When</b>: 26 August 2025</p>
+
+<p><b>Organisers</b>: <a href="https://www.unimelb.edu.au/mdap" target="_blank">Melbourne Data Analytics Platform</a></p>
+
+<p><b>Leaders</b>: Simon Musgrave and River Smith
+
+</details>
+
+
+
+<details>
+<summary>
 <b>Get started with Hansard for humanities, arts, and social sciences research</b>
 </summary>
 <p>Parliamentary bodies around the world have been publishing transcriptions of their proceedings for decades or even centuries. These transcriptions enable public scrutiny and transparency of the actions and speech of legislative bodies and elected representatives.</p>
@@ -124,6 +95,14 @@ The {{< glossary_link display="RO-Crate" id="ro-crate" >}} community run a weekl
 <p><b>When</b>: 20 February 2025</p>
 
 <p><b>Organisers</b>: <a href="https://www.unimelb.edu.au/mdap" target="_blank">Melbourne Data Analytics Platform</a></p>
+
+<br>
+
+<p><b>When</b>: 11 September 2025</p>
+
+<p><b>Organisers</b>: <a href="https://hass.uq.edu.au/centre-digital-cultures-societies" target="_blank">The Centre for Digital Cultures and Societies, The University of Queensland</a></p>
+
+<br>
 
 <p><b>Leaders</b>: {{< profile id="hames" >}} and {{< profile id="musgrave" >}}
 
@@ -509,6 +488,36 @@ If your university or organisation would like to host a workshop, please [contac
 
 
 {{<raw>}}
+
+<details>
+<summary> 
+<b>August 28 2025 - Tomaž Erjavec and Matyáš Kopp: The ParlaMint corpora of European parliamentary proceedings</b></summary>
+
+<p>This talk discussed the compilation and dissemination of the ParlaMint corpora. It includes 29 corpora of European national and regional parliamentary proceedings, covering at least the period from 2015 to 2022, and containing over 1 billion words.</p>
+
+<p>Tomaž and Matyáš  described the background of this CLARIN-funded project and the characteristics of the produced corpora. They then introduced the encoding of the corpora, the corpus compilation pipeline, the use of GitHub and the ways in which the corpus is made accessible to potential users.</p>
+
+<p>They concluded with lessons learnt in the project and further work on the ParlaMint corpora.</p>
+
+<p><b>Tomaž Erjavec</b> is a member of the Department of Knowledge Technologies of the Institut "Jožef Stefan" (Ljubljana, Slovenia) and of the Fran Ramovš Institute of the Slovenian Language. His research interests include text {{< glossary_link display="corpora" id="corpus" >}} and other language resources, digital humanities, standardisation of text encoding, language technologies for Slovene, machine learning methods for natural language and computational morphology.</p>
+
+<p><b>Matyáš Kopp</b> is a member of the Institute for Formal and Applied Linguistics at the Charles University in Prague (Czech Republic). He has worked extensively on compiling and researching datasets based on parliamentary proceedings, and also on technologies for querying treebanks.</p>
+
+<br>
+
+<div align="center">
+<iframe
+  width="800"
+  height="460"
+  src="https://www.youtube.com/embed/SU92WFxmq-4?si=AiVOdBv4BoPT8NYg"
+  frameborder="0"
+  allow="autoplay; encrypted-media"
+  allowfullscreen
+>
+</iframe>
+</div>
+
+</details>
 
 <details>
         <summary>
