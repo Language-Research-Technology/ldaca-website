@@ -84,7 +84,7 @@ We improved the interoperability and reusabilty of the data in several ways. The
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide07.svg' alt='Data transformation using Jupyter Notebooks :: Input: Original survey data consisting of 121 columns :: Required outputs: :: 14 CSV files per prompt :: De-identified version of the original data :: Slang_Data_Processing.ipynb :: ' title='Slide: 7' border='1'  width='85%'/> 
 
-As mentioned above, the original format of the data was unwieldy, with all the responses from a single participant in one row. We needed to convert the 100+ columns in the original data to separate rows per prompt, and from these, generate 14 CSV files for each of those prompts. We also needed a de-identified version of the original data without any further transformation.
+As mentioned above, the original format of the data was unwieldy, with all the responses from a single participant in one row. We needed to convert the 100+ columns in the original data to separate rows per prompt, and from these, generate 14 CSV files, one for each of those prompts. We also needed a de-identified version of the original data without any further transformation.
 
 To do this, we used Jupyter Notebooks, which allow you to load the collection data and transform its contents in a repeatable way. This reproducibility also means others can run the same steps and identify areas where further data wrangling is needed, and I’ll take you through some of these now.
 
