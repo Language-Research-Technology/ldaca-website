@@ -1,7 +1,7 @@
 ---
     title:  >
       Sharing the Australian Slang Survey data collection
-    date: 2025-11-20
+    date: 2026-01-14
     slug: SlangSurvey
     category:
     author:
