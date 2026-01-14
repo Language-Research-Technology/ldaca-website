@@ -50,7 +50,7 @@ We mentioned above that the information we were hoping to receive was metalingui
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide04.svg' alt='Prompts :: Something very good? :: Something very bad? :: Someone who is stupid? :: An attractive person of any gender? :: An attractive female? :: An attractive male? :: An unattractive person? ::  :: Someone who is arrogant? :: Nonsense? :: Alcohol? :: Being intoxicated? :: Someone who does not do their fair share? :: Any part of the body? ::  :: Open question: Lastly, what other words or expressions do you think of as being characteristically Australian? :: ' title='Slide: 4' border='1'  width='85%'/> 
 
-The thirteen prompts mainly cover meanings with an affective component. Some of these prompts could be seen as referring to things or ideas which are seen as stereotypically Australian (e.g. the two alcohol-related items). This was a deliberate choice, as we might expect that a strong association with Australianness would correlate with language which is also seen as distinctively Australian. As noted previously, prompt 13 and the final open question included an additional response category for the meaning of the expression. The responses for prompt 13 are, of course, much less cohesive than responses for the other prompts, but in the survey design process, we were unable to decide on one specific body part which we thought would elicit characteristically Australian expressions (and we didn’t want to be indelicate!).
+The thirteen prompts mainly cover meanings with an affective component. Some of these prompts could be seen as referring to things or ideas which are considered stereotypically Australian (e.g. the two alcohol-related items). This was a deliberate choice, as we might expect that a strong association with Australianness would correlate with language which is also seen as distinctively Australian. As noted previously, prompt 13 and the final open question included an additional response category for the meaning of the expression. The responses for prompt 13 are, of course, much less cohesive than responses for the other prompts, but in the survey design process, we were unable to decide on one specific body part which we thought would elicit characteristically Australian expressions (and we didn’t want to be indelicate!).
 
 <br>
 
@@ -113,7 +113,7 @@ We then needed to generate the CSVs for the 14 prompts. The first step here was 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide10.svg' alt='Handling prompts 13 and 14 :: Prompts for Body Part and (Free Choice) had an additional column ‘meaning’ for participants to describe the word or expression. :: Additional blank ‘meaning’ column added to other prompts so data is structured identically. :: ' title='Slide: 10' border='1'  width='85%'/> 
 
-Unlike the rest of the prompts, those for Body Part and Free Choice had an additional column, where participants could explain the meaning of the slang term, and this created a mismatch when we were trying to recombine the data. So for the 12 other prompts, we added a blank ‘meaning’ column to fix this and standardise the overall structure.
+Unlike the rest of the prompts, those for _Body Part_ and _Free Choice_ had an additional column, where participants could explain the meaning of the slang term, and this created a mismatch when we were trying to recombine the data. So for the 12 other prompts, we added a blank ‘meaning’ column to fix this and standardise the overall structure.
 
 <br>
 
@@ -131,7 +131,7 @@ Throughout the data, there were also sections where participants didn’t have r
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide12.svg' alt='Formatting and character encoding :: Leading and trailing spaces removed :: Quotation mark standardisation :: Minor character encoding and formatting corrections :: ' title='Slide: 12' border='1'  width='85%'/> 
 
-Another important part of the slang data processing was standardising some of the formatting and character encoding, to improve the searchability of the collection overall. This included removing leading and trailing spaces, fixing double spaces and minor errors in punctuation position. We also standardised quotation marks and removed some diacritic typos. The examples here show the highlighted items that were identified in the first box, and the reformatted version in the second.
+Another important part of the slang data processing was standardising some of the formatting and character encoding, which improves the searchability of the collection overall. This included removing leading and trailing spaces, fixing double spaces and minor errors in punctuation position. We also standardised quotation marks and removed some diacritic typos. The examples above show the highlighted items that were identified in the first box, and the reformatted version in the second.
 
 <br>
 
@@ -140,7 +140,7 @@ Another important part of the slang data processing was standardising some of th
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide13.svg' alt='Mapping the participant metadata :: Participant ID maps the responses to the participant metadata :: Prompt data exported to 14 CSVs :: Geomapping data for postal areas added to participant metadata based on their postcodes provided :: Melbourne Postcode Polygon Metadata :: ' title='Slide: 13' border='1'  width='85%'/> 
 
-So with all these updates applied, we mapped the participant ID to the responses, and each prompt was exported to a separate CSV file, like the example shown here. With the participant ID, we could also map each response to the postcodes provided by the participants, and then use geomapping data from the Australian Bureau of Statistics to turn these postcodes into polygons in the collection metadata.
+So with all these updates applied, we could map the participant ID to the responses, and each prompt was exported to a separate CSV file, like the example shown above. With the participant ID, we could also map each response to the postcodes provided by the participants, and then use geomapping data from the Australian Bureau of Statistics to turn these postcodes into polygons in the collection metadata.
 
 <br>
 
@@ -162,7 +162,7 @@ The screenshot on the left is an example of one of the transformed CSV files wit
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 <img src='Slide15.svg' alt='Future work :: Improve search capabilities and display in the LDaCA portal. :: Add an additional download for a combined prompts CSV. :: Create a Jupyter Notebook that allows users to explore the collection: :: Filter by a word or expression and view its related demographics :: View most common responses to a prompt and any associated geographical patterns :: Geomapping a given word or expression using the postcode data provided by the participants :: ' title='Slide: 15' border='1'  width='85%'/> 
 
-Now that the data is available in the portal, we’re looking at next steps for the slang data. One of these is improving how results from searching the collection are displayed. As you can see from the top screenshot, a query currently returns the full line from the CSV file rather than just the cells where the search term occurs. Another is adding a download combining all the prompts in a single CSV, which in some cases is preferable to work with than the split CSVs.
+Now that the data is available in the portal, we’re looking at next steps for the slang data. One of these is improving how results from searching the collection are displayed. As you can see from the top screenshot, a query currently returns the full line from the CSV file rather than just the cells where the search term occurs. Another update is adding a download combining all the prompts in a single CSV, which in some cases is preferable to work with than the split CSVs.
 
 We’ll also be developing a Jupyter Notebook, linked from the portal, that allows users to explore the collection in more detail. This would include the ability to filter by word or expression, demographics, including age range and gender, as well as viewing the most common responses for a given prompt. We can also map the postcodes provided by the participants using the geomapping data, and through this, view any geographical patterns associated with the slang terms.
 
