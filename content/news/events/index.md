@@ -27,7 +27,7 @@ Over two days, participants will be involved in interactive workshops, discussio
 
 The Summer School is free of charge for researchers based in Australia, thanks to the support of the Australian Research Data Commons (ARDC) HASS and Indigenous Research Data Commons. Lunch and morning and afternoon tea are provided each day. Travel and accommodation must be covered by the participants.
 
-**When**: 3-4 February 2026
+**When**: 3 – 4 February 2026
 
 **Where**: Federation University, Ballarat
 
@@ -92,19 +92,23 @@ The {{< glossary_link display="RO-Crate" id="ro-crate" >}} community run a weekl
 
 <p>This workshop aimed to provide a starting point for working with these transcribed proceedings, including evaluating how they might (and might not!) be useful for your research, how to get started for different kinds of projects and cautionary notes on potential limitations.</p>
 
-<p><b>When</b>: 20 February 2025</p>
+<br>
 
-<p><b>Organisers</b>: <a href="https://www.unimelb.edu.au/mdap" target="_blank">Melbourne Data Analytics Platform</a></p>
+<table>
+<tr>
+<td><b>Leaders</b>: {{< profile id="hames" >}} and {{< profile id="musgrave" >}}</td>
+</tr>
+<tr>
+<td><b>When</b>: 20 February 2025</td><td><b>Organisers</b>: <a href="https://www.unimelb.edu.au/mdap" target="_blank">Melbourne Data Analytics Platform</a></td>
+</tr>
+<tr>
+<td><b>When</b>: 11 September 2025</td><td><b>Organisers</b>: <a href="https://hass.uq.edu.au/centre-digital-cultures-societies" target="_blank">The Centre for Digital Cultures and Societies, The University of Queensland</a></td>
+</tr>
+</table>
 
 <br>
 
-<p><b>When</b>: 11 September 2025</p>
 
-<p><b>Organisers</b>: <a href="https://hass.uq.edu.au/centre-digital-cultures-societies" target="_blank">The Centre for Digital Cultures and Societies, The University of Queensland</a></p>
-
-<br>
-
-<p><b>Leaders</b>: {{< profile id="hames" >}} and {{< profile id="musgrave" >}}
 
 </details>
 
