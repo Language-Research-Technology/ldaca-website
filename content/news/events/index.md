@@ -17,17 +17,17 @@ aliases:
 
 **Summary**:
 
-The Summer School aims to empower participants with practical knowledge, build digital skills and help inspire new research outcomes within the humanities, arts, social sciences (HASS), and Indigenous fields of study. Participants will collaborate in an interactive group setting while networking with like-minded researchers and subject matter experts.
+The Summer School aims to empower participants with practical knowledge, build digital skills and help inspire new research outcomes within the humanities, arts, social sciences (HASS) and Indigenous fields of study. Participants will collaborate in an interactive group setting while networking with like-minded researchers and subject matter experts.
 
-Over 2 days, participants will be involved in interactive workshops, discussions, mentoring, networking and formal presentations to:
+Over two days, participants will be involved in interactive workshops, discussions, mentoring, networking and formal presentations to:
 
 - learn skills to use digital research tools
 - discover frameworks and workflows for impactful digital research
 - build networks for future collaborative projects using HASS and Indigenous Research Data Commons infrastructure.
 
-The Summer School is free of charge for researchers based in Australia thanks to the support of the ARDC HASS and Indigenous Research Data Commons. Lunch and morning and afternoon tea are provided each day. Travel and accommodation must be covered by the participants.
+The Summer School is free of charge for researchers based in Australia, thanks to the support of the Australian Research Data Commons (ARDC) HASS and Indigenous Research Data Commons. Lunch and morning and afternoon tea are provided each day. Travel and accommodation must be covered by the participants.
 
-**When**: 3-4 February 2026
+**When**: 3 – 4 February 2026
 
 **Where**: Federation University, Ballarat
 
@@ -35,7 +35,7 @@ The Summer School is free of charge for researchers based in Australia thanks to
 
 **[Registration](https://www.eventbrite.com.au/e/hass-and-indigenous-research-data-commons-summer-school-2026-tickets-1736678224319?aff=oddtdtcreator)**
 
-**Organisers**: [HASS and Indigenous Research Data Commons](https://ardc.edu.au/hass-and-indigenous-research-data-commons/)
+**Organisers**: [ARDC HASS and Indigenous Research Data Commons](https://ardc.edu.au/hass-and-indigenous-research-data-commons/)
 
 <br>
 
@@ -43,7 +43,7 @@ The Summer School is free of charge for researchers based in Australia thanks to
 
 ### RO-Crate Clinic Drop-in
 
-The {{< glossary_link display="RO-Crate" id="ro-crate" >}} community run a weekly drop-in call in Australia. For further information contact [Peter Sefton](mailto:p.sefton@uq.edu.au).
+The {{< glossary_link display="RO-Crate" id="ro-crate" >}} community run a weekly drop-in call in Australia. For further information, contact [Peter Sefton](mailto:p.sefton@uq.edu.au).
 
 **When**: Weekly, Thursday 2pm AEST
 
@@ -62,7 +62,7 @@ The {{< glossary_link display="RO-Crate" id="ro-crate" >}} community run a weekl
 <summary>
 <b>Workshop: Sustainable Data for Humanities Researchers workshop</b>
 </summary>
-<p>Research data is valuable — we spend time (and often, money) in collecting it, and it is fundamental to creating knowledge. Because of this value, we have a responsibility to ensure that data will continue to be useful, minimally to ourselves but ideally also to others. This workshop will introduce participants to basic ideas of data management, which are oriented to making data sustainable in line with two important sets of principles, FAIR and CARE.</p>
+<p>Research data is valuable — we spend time (and often, money) in collecting it, and it is fundamental to creating knowledge. Because of this value, we have a responsibility to ensure that data will continue to be useful, minimally to ourselves but ideally also to others. This workshop introduced participants to basic ideas of data management, which are oriented to making data sustainable in line with two important sets of principles, FAIR and CARE.</p>
 
 <p>The aims of the workshop were to:</p>
 <ul>
@@ -92,19 +92,23 @@ The {{< glossary_link display="RO-Crate" id="ro-crate" >}} community run a weekl
 
 <p>This workshop aimed to provide a starting point for working with these transcribed proceedings, including evaluating how they might (and might not!) be useful for your research, how to get started for different kinds of projects and cautionary notes on potential limitations.</p>
 
-<p><b>When</b>: 20 February 2025</p>
+<br>
 
-<p><b>Organisers</b>: <a href="https://www.unimelb.edu.au/mdap" target="_blank">Melbourne Data Analytics Platform</a></p>
+<table>
+<tr>
+<td><b>Leaders</b>: {{< profile id="hames" >}} and {{< profile id="musgrave" >}}</td>
+</tr>
+<tr>
+<td><b>When</b>: 20 February 2025</td><td><b>Organisers</b>: <a href="https://www.unimelb.edu.au/mdap" target="_blank">Melbourne Data Analytics Platform</a></td>
+</tr>
+<tr>
+<td><b>When</b>: 11 September 2025</td><td><b>Organisers</b>: <a href="https://hass.uq.edu.au/centre-digital-cultures-societies" target="_blank">The Centre for Digital Cultures and Societies, The University of Queensland</a></td>
+</tr>
+</table>
 
 <br>
 
-<p><b>When</b>: 11 September 2025</p>
 
-<p><b>Organisers</b>: <a href="https://hass.uq.edu.au/centre-digital-cultures-societies" target="_blank">The Centre for Digital Cultures and Societies, The University of Queensland</a></p>
-
-<br>
-
-<p><b>Leaders</b>: {{< profile id="hames" >}} and {{< profile id="musgrave" >}}
 
 </details>
 
