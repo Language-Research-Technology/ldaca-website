@@ -1,5 +1,8 @@
 public
+!content/public
 .DS_Store
 .idea
 resources/_gen/
 .hugo_build.lock
+node_modules
+.vitepress/dist
