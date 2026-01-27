@@ -14,6 +14,13 @@ hero:
 
 <SubPageHero />
 
+<DataPortalBox 
+  title="Interested in contributing your data?"
+  subtitle="View the Data Onboarding Process for steps on how."
+  buttonText="Data Onboarding Process"
+  buttonLink="/resources/ldaca-resources/data-onboarding-process/"
+/>
+
 <HomeCarousel 
   backgroundColor="#EAE4D68C"
   :opacity="100"
@@ -55,6 +62,31 @@ hero:
         link: '/news/posts/fair-and-care'
       },
   ]"/>
+
+<HomeCarousel 
+  backgroundColor="#EAE4D68C"
+  :opacity="100"
+  heading="ADDITIONAL RESOURCES"
+  :items="[
+      {
+        title: 'Why can’t I access all materials anyway?',
+        description: 'Hear from Chief Investigator Rose Barrowcliffe as she explains why not every item in a language data commons can or should be open to everyone. She unpacks factors that inform access and why protecting sensitive knowledge is essential to respectful language work. This short video shows how appropriate care for materials ensures they are shared in ways that are safe and meaningful.',
+        image: 'https://img.youtube.com/vi/TLVWsQUEyHk/maxresdefault.jpg',
+        link: 'https://www.youtube.com/watch?v=TLVWsQUEyHk'
+      },
+      {
+        title: 'CARE Principles',
+        description: 'TODO',
+        image: 'https://images.squarespace-cdn.com/content/v1/5d3799de845604000199cd24/1567592828276-IZWQDX1H6DRCD85GRSWJ/CARE+Principles.png?format=2500w',
+        link: 'https://www.gida-global.org/care'
+      },
+      {
+        title: 'FAIR Principles',
+        description: 'TODO',
+        image: 'https://www.go-fair.org/wp-content/themes/go-fair/images/logo.svg',
+        link: 'https://www.go-fair.org/fair-principles/'
+      },
+    ]"/>
 
 <DataPortalBox 
   title="Licenses"

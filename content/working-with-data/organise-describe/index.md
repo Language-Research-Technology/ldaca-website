@@ -9,9 +9,17 @@ hero:
 <script setup>
     import SubPageHero from '../../../.vitepress/theme/components/SubPageHero.vue'
     import HomeCarousel from '../../../.vitepress/theme/components/HomeCarousel.vue'
+    import DataPortalBox from '../../../.vitepress/theme/components/DataPortalBox.vue'
 </script>
 
 <SubPageHero />
+
+<DataPortalBox 
+  title="Interested in contributing your data?"
+  subtitle="View the Data Onboarding Process for steps on how."
+  buttonText="Data Onboarding Process"
+  buttonLink="/resources/ldaca-resources/data-onboarding-process/"
+/>
 
 <HomeCarousel 
   backgroundColor="#EAE4D68C"
@@ -71,11 +79,22 @@ hero:
 <HomeCarousel 
   backgroundColor="#EAE4D68C"
   :opacity="100"
-  heading="RELATED MATERIALS"
+  heading="ADDITIONAL RESOURCES"
   :items="[
       {
         title: 'Language Data Commons Schema Terms',
         description: 'This is a language data schema, in the style of the Schema.org schema. It is based on OLAC terms for use in the LDaCA project. This schema builds on Schema.org and is intended to be used with the Language Data Commons RO-Crate Profile.',
         link: 'https://w3id.org/ldac/terms'
+      },
+      {
+        title: 'What is an RO-Crate?',
+        description: 'An explainer about Research Object Crates (RO-Crates). Created by Otis Carmichael.',
+        image: 'https://img.youtube.com/vi/tAR-JNN3EbA/maxresdefault.jpg',
+        link: 'https://www.youtube.com/watch?v=tAR-JNN3EbA'
+      },
+      {
+        title: 'Introduction to metadata',
+        description: 'TODO.',
+        link: 'https://ardc.edu.au/wp-content/uploads/2025/03/b2-metadata_session.pdf'
       }
     ]"/>

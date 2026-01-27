@@ -9,9 +9,42 @@ hero:
 <script setup>
     import SubPageHero from '../../../.vitepress/theme/components/SubPageHero.vue'
     import HomeCarousel from '../../../.vitepress/theme/components/HomeCarousel.vue'
+    import DataPortalBox from '../../../.vitepress/theme/components/DataPortalBox.vue'
 </script>
 
 <SubPageHero />
+
+<DataPortalBox 
+  title="Interested in contributing your data?"
+  subtitle="View the Data Onboarding Process for steps on how."
+  buttonText="Data Onboarding Process"
+  buttonLink="/resources/ldaca-resources/data-onboarding-process/"
+/>
+
+<HomeCarousel 
+  backgroundColor="#EAE4D68C"
+  :opacity="100"
+  heading="TOOLS & NOTEBOOKS"
+  :items="[
+      {
+        title: 'Nyingarn',
+        description: 'Nyingarn makes manuscript sources of Australian Indigenous languages available as searchable and reusable text documents to support language revitalisation.',
+        image: 'https://nyingarn.net/wp-content/uploads/2023/04/Nyingarn_Vertical_Peppermint_RGB-1024x1024.png',
+        link: 'https://nyingarn.net/'
+      },
+      {
+        title: 'Tools from USyd/SIH/ATAP/Sydney Corpus Lab',
+        link: ''
+      },
+      {
+        title: 'Tools from LADAL',
+        link: ''
+      },
+      {
+        title: 'Collection-specific Jupyter notebooks',
+        link: ''
+      },
+    ]"/>
 
 <HomeCarousel 
   backgroundColor="#EAE4D68C"
@@ -57,8 +90,20 @@ hero:
 <HomeCarousel 
   backgroundColor="#EAE4D68C"
   :opacity="100"
-  heading="RELATED MATERIALS"
+  heading="ADDITIONAL RESOURCES"
   :items="[
+      {
+        title: 'FIB DigiTalk 2025 ke-7, \'Using Large Data Sets for Qualitative Research\'',
+        description: 'TODO.',
+        image: 'https://img.youtube.com/vi/twCAdPazV2M/maxresdefault.jpg',
+        link: 'https://www.youtube.com/live/twCAdPazV2M'
+      },
+      {
+        title: 'Webinar: The ParlaMint corpora of European parliamentary proceedings',
+        description: 'CLARIN colleagues Tomaž Erjavec and Matyáš Kopp delivered the second webinar in our 2025 series in August. Tomaž and Matyáš discussed the compilation and dissemination of the ParlaMint corpora, a collection of 29 corpora of European national and regional parliamentary proceedings, covering at least the period from 2015 to 2022 and containing over 1 billion words.',
+        image: 'https://img.youtube.com/vi/SU92WFxmq-4/maxresdefault.jpg',
+        link: 'https://www.youtube.com/watch?v=SU92WFxmq-4&t=3310s'
+      }
     ]"/>
 
 <HomeCarousel 
