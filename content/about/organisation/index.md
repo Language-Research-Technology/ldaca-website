@@ -22,9 +22,8 @@ from the Australian Research Data Commons ({{< glossary_link display="ARDC" id="
 - **University of Sydney**: [Professor Monika Bednarek](https://www.sydney.edu.au/arts/about/our-people/academic-staff/monika-bednarek.html) (Sydney Corpus Lab)
 - **University of Western Australia**: [Professor Clint Bracknell](https://research-repository.uwa.edu.au/en/persons/clint-bracknell)
 - **Queensland University of Technology (QUT) Digital Observatory**: [Dr Marissa Takahashi](https://www.qut.edu.au/about/our-people/academic-profiles/marissa.takahashi)
-- **AARNet**: [Adam Bell](https://www.linkedin.com/in/adamjohnbell/)
 - **First Languages Australia**: [Beau Williams](https://www.firstlanguages.org.au/about)
-- **Batchelor Institute of Indigenous Tertiary Education**: [Associate Professor Kathryn Gilbey](https://www.batchelor.edu.au/)
+- **Batchelor Institute of Indigenous Tertiary Education**: [Professor Curtis Roman](https://www.batchelor.edu.au/)
 
 <br>
 

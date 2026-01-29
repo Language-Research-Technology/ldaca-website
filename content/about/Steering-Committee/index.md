@@ -64,16 +64,6 @@ Monika Bednarek is Professor in Linguistics and Director of the Sydney Corpus La
 <br>
 </div>
 
-<img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" img src="ABell_150px.jpg">
-<div style="overflow:hidden">
-<b>Mr Adam Bell, AARNET—Chief Investigator</b><br>
-<i>Member</i>
-
-Adam Bell leads AARNet’s engagement with Australian cultural organisations and digital preservation initiatives. He is deputy chair of GLAM Peak and member of the Digital Preservation Coalition’s Australasian Stakeholder Group.
-<br>
-<br>
-</div>
-
 <img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" img src="CBracknell_150px.jpg">
 <div style="overflow:hidden">
 <b>Prof Clint Bracknell, University of Western Australia—Chief Investigator</b><br>
@@ -92,12 +82,12 @@ With over 20 years’ experience in collecting, managing and disseminating resea
 <br>
 <br>
 </div>
-<img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" img src="KGilbey_150px.jpg">
+<img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" img src="nophoto_150px.jpg">
 <div style="overflow:hidden">
-<b>A/Prof Kathryn Gilbey, Batchelor Institute—Chief Investigator</b><br>
+<b>Prof Curtis Roman, Batchelor Institute—Chief Investigator</b><br>
 <i>Member</i>
 
-Professor Kathryn Gilbey is an Alyawarr scholar and the Executive Dean at Batchelor Institute of Indigenous Tertiary Education. The former Director of the Batchelor Graduate School she specialises in First Nations knowledges, inclusive education and critical race theories. Kathryn has worked in the field of Education for many years in the Northern Territory.
+Professor Curtis Roman is a Larrakia man born and raised on Larrakia land.  He is the Dean of HERD at Batchelor Institute. 
 <br>
 <br>
 </div>
