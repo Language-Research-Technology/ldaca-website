@@ -47,7 +47,7 @@ The {{< glossary_link display="RO-Crate" id="ro-crate" >}} community run a weekl
 
 **When**: Weekly, Thursday 2pm AEST
 
-**Where**: Online via [Zoom](https://uqz.zoom.us/j/85192198914)
+**Where**: Online via [Zoom](https://uqz.zoom.us/j/87831368508)
 
 <hr />
 
