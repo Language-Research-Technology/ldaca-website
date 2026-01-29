@@ -7,16 +7,25 @@ aliases:
 ---
 <br>
 
-LDaCA ran a Graduate Digital Research Fellowship program in [2023](../gdrf/) and [2024](../gdrf-2024/). The program ran again in 2025 and was again co-ordinated by Simon Musgrave and Sam Hames. Simon and Sam made two changes to the organisation of the program in 2025 which were intended to make it possible for the program to expand, especially in future years. The two changes were:
-- The program was run entirely online. In previous years, face-to-face activities were part of the program, and this limited the pool of potential participants to people in South East Queensland. This move was intended to open the program to participants from anywhere in Australia, a goal which was met with one participant joining us from Sydney and another from Perth (and posing a scheduling challenge!).
-- Discussions with organisations with which LDaCA collaborates provided possibilities for enlarging the pool of experts who could act as mentors in the program. These discussions included the [Digital Observatory](https://www.digitalobservatory.net.au/) team at Queensland University of Technology and the [Melbourne Data Analytics Platform](https://www.unimelb.edu.au/mdap) at The University of Melbourne, although in the end only assistance from Digital Observatory was called on.  Robert Fleet from the Digital Observatory was a mentor in the program this year, and we thank him for his contribution.
+LDaCA ran a Graduate Digital Research Fellowship (GDRF)program in [2023](../gdrf/) and [2024](../gdrf-2024/). In 2025, for the third year in a row, Research Support and Training Lead {{< profile id="musgrave" >}} and Research Analytics Lead {{< profile id="hames" >}} coordinated the program, making two key changes intended to enable the program to expand in future years.
+
+The changes were:
+1. We ran the program entirely online. In previous years, the inclusion of face-to-face activities limited the pool of potential participants to people in South East Queensland. Moving online was intended to open the program to participants from anywhere in Australia. We met this goal, with one participant joining us from Sydney and another from Perth (and posing a scheduling challenge!).
+2. We enlarged the pool of experts who could act as mentors in the program by inviting participation of organisations with which we already collaborate. This included the [Digital Observatory](https://www.digitalobservatory.net.au/) team at Queensland University of Technology and the [Melbourne Data Analytics Platform](https://www.unimelb.edu.au/mdap) at The University of Melbourne. In the end, only assistance from Digital Observatory was called on, with Robert Fleet acting as a mentor in the program. We thank him for his contribution.
+
 
 <br>
 
-The program supports a small group of research students to explore the possibilities of digital scholarship, particularly in HASS. Our Fellows are students undertaking extended research projects who spent 12–15 weeks learning about digital and computational skills in order to enhance their current research/thesis topic or to work on an independent digital project. The Fellows met regularly in activities to develop a sound understanding of digital research methods and tools, including seminars and training workshops. They also had access to mentors who advised and collaborated on their digital projects.
+The 2025 GDRF program supported a small group of research students to explore the possibilities of digital scholarship, particularly in HASS. The Fellows were students undertaking extended research projects, who spent 12–15 weeks learning about digital and computational skills to enhance their current research/thesis topic, or to work on an independent digital project. They explored digital research methods in areas including:
+- visualising data from language research
+- managing digital heritage material in community settings
+- using computational methods to uncover knowledge structures in text.
+
+The Fellows met regularly in activities to develop a sound understanding of digital research methods and tools, including seminars and training workshops. They also had access to mentors who advised and collaborated on their digital projects.
+
 
 <br>
-{{< image Src="/grdf-2025/grdf-1.png" Alt="Participants in the 2025 Graduate Digital Research Fellowship program" Desc="2025 GDRF Participants: Alex, Simon and Sam (top row), Elaine and Oscar (bottom row)" Title="2025 GDRF Participants: Alex, Simon and Sam (top row), Elaine and Oscar (bottom row)" Ref="LDaCA"  Height="400" >}}
+{{< image Src="/gdrf-2025/gdrf-2.png" Alt="Participants in the 2025 Graduate Digital Research Fellowship program" Desc="2025 GDRF Participants: Alex, Simon and Sam (top row), Elaine and Oscar (bottom row)" Title="2025 GDRF Participants: Alex, Simon and Sam (top row), Elaine and Oscar (bottom row)" Ref="LDaCA"  Height="400" >}}
 
 <br>
 
