@@ -1,18 +1,19 @@
 ---
 title: "Graduate Digital Research Fellowship — 2025"
-date: 2025-01-28
+date: 2026-01-28
 draft: false
 aliases:
   - "/posts/gdrf-2025/"
 ---
+by {{< profile id="musgrave" >}}
+
 <br>
 
-LDaCA ran a Graduate Digital Research Fellowship (GDRF)program in [2023](../gdrf/) and [2024](../gdrf-2024/). In 2025, for the third year in a row, Research Support and Training Lead {{< profile id="musgrave" >}} and Research Analytics Lead {{< profile id="hames" >}} coordinated the program, making two key changes intended to enable the program to expand in future years.
+LDaCA ran a Graduate Digital Research Fellowship (GDRF) program in [2023](../gdrf/) and [2024](../gdrf-2024/). In 2025,  Research Support and Training Lead {{< profile id="musgrave" >}} and Research Analytics Lead {{< profile id="hames" >}} again coordinated the program, making two key changes intended to enable the program to expand in future years.
 
 The changes were:
 1. We ran the program entirely online. In previous years, the inclusion of face-to-face activities limited the pool of potential participants to people in South East Queensland. Moving online was intended to open the program to participants from anywhere in Australia. We met this goal, with one participant joining us from Sydney and another from Perth (and posing a scheduling challenge!).
 2. We enlarged the pool of experts who could act as mentors in the program by inviting participation of organisations with which we already collaborate. This included the [Digital Observatory](https://www.digitalobservatory.net.au/) team at Queensland University of Technology and the [Melbourne Data Analytics Platform](https://www.unimelb.edu.au/mdap) at The University of Melbourne. In the end, only assistance from Digital Observatory was called on, with Robert Fleet acting as a mentor in the program. We thank him for his contribution.
-
 
 <br>
 
