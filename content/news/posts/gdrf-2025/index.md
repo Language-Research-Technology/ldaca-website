@@ -26,7 +26,7 @@ The Fellows met regularly in activities to develop a sound understanding of digi
 
 
 <br>
-{{< image Src="/gdrf-2025/gdrf-2.png" Alt="Participants in the 2025 Graduate Digital Research Fellowship program" Desc="2025 GDRF Participants: Alex, Simon and Sam (top row), Elaine and Oscar (bottom row)" Title="2025 GDRF Participants: Alex, Simon and Sam (top row), Elaine and Oscar (bottom row)" Ref="LDaCA"  Height="400" >}}
+{{< image Src="/gdrf-2025/gdrf-2.png" Alt="Participants in the 2025 Graduate Digital Research Fellowship program" Desc="2025 GDRF Participants: Alex, Simon (program leader) and Sam (program leader) (top row), Elaine and Oscar (bottom row)" Title="2025 GDRF Participants: Alex, Simon (program leader) and Sam (program leader) (top row), Elaine and Oscar (bottom row)" Ref="LDaCA"  Height="400" >}}
 
 <br>
 
