@@ -178,7 +178,7 @@ export default defineConfig({
         text: 'Training & Events',
         subtitle: 'something something',
         items: [
-          { text: 'Training', link: '/shadcn-example', image: 'https://placehold.co/150x100' },
+          { text: 'Training', link: '/news/training', image: 'https://placehold.co/150x100' },
           { text: 'Events', link: '/news/events', image: 'https://placehold.co/150x100' }
         ]
       } as any,
