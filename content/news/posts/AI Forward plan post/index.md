@@ -13,5 +13,9 @@ The increasing availability of massive language datasets, improved training meth
 
 Watch this space in 2026 for a more comprehensive statement by LDaCA about using AI tools with language data. A working party is being assembled, of people involved with LDaCA who are using AI in their research. We intend to write general advice covering particular AI systems, to be used as a guide for creating and working with language data using AI.
 
+
+Read more about Generative AI in corpus linguistics on the [Sydney Corpus Lab blog](https://sydneycorpuslab.com/generative-ai-in-corpus-linguistics-a-synthesis/).
+
 <br>
+
 
