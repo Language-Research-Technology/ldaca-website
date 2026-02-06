@@ -1,5 +1,5 @@
 Name: "defined-term"
 "title": "Defined Term"
 "short_description": "In linked data, a metadata category that allows for accurate definitions of the values assigned to properties, and grouping such definitions in DefinedTermSets."
-"content": 'In {{< glossary_link display="linked data" id="linked-data" >}}, a metadata category that allows for a) accurate definitions of the values assigned to {{< glossary_link display="Properties" id="property" >}}, and b) grouping such definitions in DefinedTermSets, which can function as controlled vocabularies. DefinedTerms in the LDAC Metadata Schema include DerivedMaterial, PartOfSpeech, SignedLanguage, SpokenLanguage, etc.'
+"content": 'In {{< glossary_link display="linked data" id="linked-data" >}}, a {{< glossary_link display="metadata" id="metadata" >}} category that allows for a) accurate definitions of the values assigned to {{< glossary_link display="Properties" id="property" >}}, and b) grouping such definitions in DefinedTermSets, which can function as {{< glossary_link display="controlled vocabularies" id="controlled-vocabulary" >}}. DefinedTerms in the {{< glossary_link display="LDAC" id="ldac" >}} Metadata Schema include DerivedMaterial, PartOfSpeech, SignedLanguage, SpokenLanguage, etc.'
 "external_link": ""

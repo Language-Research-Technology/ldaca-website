@@ -1,0 +1,5 @@
+Name: "hansard"
+"title": "Hansard"
+"short_description": "A record of the proceedings of a Westminster-style parliament."
+"content": 'A record of the {{< glossary_link display="proceedings" id="parl-proceedings" >}} of a Westminster-style parliament, named for the 19th century London printer who published the first record of the UK parliament.'
+"external_link": ""

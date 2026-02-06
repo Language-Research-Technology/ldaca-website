@@ -1,5 +1,5 @@
 Name: "elan"
 "title": "ELAN"
 "short_description": "A software tool to make time-aligned annotations of audio and video recordings."
-"content": "A software tool to make time-aligned annotations (which may be transcriptions) of audio and video recordings. The tool is commonly used by linguists and others who work with language."
+"content": 'A software {{< glossary_link display="tool" id="tools" >}} to make time-aligned annotations (which might be {{< glossary_link display="transcriptions" id="transcription" >}}) of audio and video recordings. The tool is commonly used by linguists and others who work with language.'
 "external_link": "https://archive.mpi.nl/tla/elan"

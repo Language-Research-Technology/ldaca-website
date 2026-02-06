@@ -1,5 +1,5 @@
 Name: "crate-o"
 "title": "Crate-O"
 "short_description": "A browser-based editor for RO-Crates."
-"content": 'A browser-based editor that allows you to create and update {{< glossary_link display="RO-Crates" id="ro-crate" >}} using a web interface, and with {{< glossary_link display="metadata" id="metadata" >}}  spreadsheets. It provides researchers with a relatively simple way to describe their data using the best practices in formal {{< glossary_link display="metadata" id="metadata" >}}  description.'
+"content": 'A browser-based editor that allows you to create and update {{< glossary_link display="RO-Crates" id="ro-crate" >}} using a web interface and with {{< glossary_link display="metadata" id="metadata" >}}  spreadsheets. It provides researchers with a relatively simple way to describe their data using the best practices in formal {{< glossary_link display="metadata" id="metadata" >}}  description.'
 "external_link": "https://language-research-technology.github.io/crate-o/"

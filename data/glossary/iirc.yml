@@ -1,5 +1,5 @@
 Name: "iirc"
 "title": "IIRC"
 "short_description": "Improving Indigenous Research Capability"
-"content": "Improving Indigenous Research Capability. A project supporting the creation of an Aboriginal and Torres Strait Islander Research Data Commons."
+"content": 'Improving Indigenous Research Capability. A project supporting the creation of an Aboriginal and Torres Strait Islander {{< glossary_link display="Research Data Commons" id="rdc" >}}.'
 "external_link": "https://ardc.edu.au/project/improving-indigenous-research-capability/"

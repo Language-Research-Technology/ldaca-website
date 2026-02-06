@@ -1,4 +1,4 @@
 Name: "data-management-plan"
 "title": "Data Management Plan"
 "short_description": "A document that outlines key information about a research project and its data, and sets out roles and responsibilities in its management."
-"content": 'A document that (1) outlines key information about a research project and its data, including the {{< glossary_link display="access conditions" id="access-condition" >}} and ownership, storage, and future use and (2) sets out roles and responsibilities in its management.'
+"content": 'A document that (1) outlines key information about a research project and its data, including the {{< glossary_link display="access conditions" id="access-condition" >}} and ownership, storage and future use, and (2) sets out roles and responsibilities in its {{< glossary_link display="management" id="data-management" >}}.'

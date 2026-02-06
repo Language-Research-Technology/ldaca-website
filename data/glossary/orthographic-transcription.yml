@@ -1,5 +1,5 @@
 Name: "orthographic-transcription"
 "title": "Orthographic Transcription"
 "short_description": "A transcription method that employs the standard spelling system of each target language."
-"content": "A transcription method that employs the standard spelling system of each target language."
+"content": 'A {{< glossary_link display="transcription" id="transcription" >}} method that employs the standard spelling system of each target language.'
 "external_link": 

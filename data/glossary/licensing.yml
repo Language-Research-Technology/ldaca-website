@@ -1,4 +1,5 @@
 Name: "licensing"
 "title": "Licensing"
 "short_description": "A process that allows the copyright owner of a work to share the right to access and use some material from the work without reassigning the ownership of the copyright."
-"content": 'A process that allows the {{< glossary_link display="copyright owner" id="copyright-owner" >}} of a work to share the right to access and use some material from the work without reassigning the ownership of the {{< glossary_link display="copyright" id="copyright" >}}. License terms establish the conditions for that access and use. A license for a {{< glossary_link display="data collection" id="data-collection" >}} is the legal agreement between the creator of the data and the end-user specifying who can access, share and reuse the data, and other conditions as required.'
+"content": 'A process that allows the {{< glossary_link display="copyright owner" id="copyright-owner" >}} of a work to share the right to access and use some material from the work without reassigning the ownership of the {{< glossary_link display="copyright" id="copyright" >}}. License terms establish the conditions for that access and use.'
+"cross_ref": [["data-license", "Data License"]]

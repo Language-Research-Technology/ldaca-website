@@ -1,7 +1,4 @@
 Name: "data-commons"
 "title": "Data Commons"
 "short_description": "Cloud-based infrastructure that allow a community to use, share, manage and analyse its data."
-"content": 'Cloud-based infrastructure coupled with governance strategies and principles that allow a community to use, share, manage and analyse its data.
-
-
-{{< glossary_link display="LDaCA" id="ldaca" >}} is a language data commons serving researchers and community groups that are interested in language data.'
+"content": 'Cloud-based infrastructure coupled with {{< glossary_link display="governance" id="data-governance" >}} strategies and principles that allow a community to use, share, {{< glossary_link display="manage" id="data-management" >}} and analyse its data. {{< glossary_link display="LDaCA" id="ldaca" >}} is a language data commons serving researchers and community groups that are interested in language data.'

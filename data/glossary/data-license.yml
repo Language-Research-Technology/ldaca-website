@@ -1,5 +1,6 @@
 Name: "data-license"
 "title": "Data License"
-"short_description": "A legal arrangement specifying what users can do with the data."
-"content": "A legal arrangement between the creator of the data and the end-user specifying what users can do with the data."
+"short_description": "A legal arrangement specifying who can access, share and reuse data."
+"content": "A legal arrangement between the creator of the data and the end-user specifying who can access, share and reuse the data, and other conditions as required."
 "external_link": "https://www.howtofair.dk/how-to-fair/data-licences/"
+"cross_ref": [["licensing", "Licensing"]]

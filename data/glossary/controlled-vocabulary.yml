@@ -1,5 +1,5 @@
 Name: "controlled-vocabulary"
 "title": "Controlled Vocabulary"
 "short_description": "A set of choices which are permitted as values of a data field."
-"content": "A set of choices which are permitted as values of a data field. For example, the LDaCA metadata schema has a property **communicationMode** which can describe a resource. This property takes a value from a controlled vocabulary: **SpokenLanguage, WrittenLanguage, SignedLanguage, Gesture, Song, WhistledLanguage**."
+"content": 'A set of choices which are permitted as values of a data field. For example, the {{< glossary_link display="LDAC" id="ldac" >}} Metadata Schema has a property **communicationMode** which can describe a resource. This property takes a value from a controlled vocabulary: **SpokenLanguage, WrittenLanguage, SignedLanguage, Gesture, Song, WhistledLanguage**.'
 "external_link":

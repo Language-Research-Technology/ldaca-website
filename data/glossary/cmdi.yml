@@ -1,5 +1,5 @@
 Name: "cmdi"
 "title": "CMDI"
 "short_description": "Component Metadata Infrastructure"
-"content": 'Component Metadata Infrastructure. Provides a standard for {{< glossary_link display="metadata" id="metadata" >}} within CLARIN. It draws on the earlier ISLE Metadata Initiative (IMDI), but CMDI adopts a more flexible approach where components are assembled into reusable profiles.'
+"content": 'Component Metadata Infrastructure. Provides a {{< glossary_link display="standard" id="standard" >}} for {{< glossary_link display="metadata" id="metadata" >}} within {{< glossary_link display="CLARIN" id="clarin" >}}. It draws on the earlier ISLE Metadata Initiative (IMDI), but CMDI adopts a more flexible approach, where components are assembled into reusable {{< glossary_link display="profiles" id="profile" >}}.'
 "external_link": "https://www.clarin.eu/content/cmdi-component-metadata-infrastructure"

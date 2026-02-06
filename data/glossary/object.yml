@@ -1,4 +1,4 @@
 Name: "object"
 "title": "Object"
 "short_description": "A single resource or a group of tightly related resources."
-"content": "A single resource or a group of tightly related resources; for example, a work (document) in a written corpus, or the files associated with a dialogue or session in a speech study (recordings, transcriptions etc.)."
+"content": 'A single resource or a group of tightly related resources; for example, a work (document) in a written {{< glossary_link display="corpus" id="corpus" >}}, or the files associated with a dialogue or session in a speech study (recordings, {{< glossary_link display="transcriptions" id="transcription" >}}, etc.).'

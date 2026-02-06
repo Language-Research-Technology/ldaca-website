@@ -1,4 +1,4 @@
 Name: "legacy-format"
 "title": "Legacy (File) Format"
 "short_description": "An old, outdated or obsolete file format that is no longer supported by modern hardware and/or software systems."
-"content": "An old, outdated or obsolete file format that is no longer supported by modern hardware and/or software systems."
+"content": 'An old, outdated or obsolete file {{< glossary_link display="format" id="data-format" >}} that is no longer supported by modern hardware and/or software systems.'

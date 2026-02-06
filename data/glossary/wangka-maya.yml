@@ -1,5 +1,5 @@
 Name: "wangka-maya"
 "title": "Wangka Maya"
 "short_description": "Wangka Maya Pilbara Aboriginal Language Centre"
-"content": "Wangka Maya Pilbara Aboriginal Language Centre. It aims to be recognised as a leading Aboriginal language and resource centre in Australia, using expertise, knowledge and sensitivity to record and foster Aboriginal languages, culture and history."
+"content": 'Wangka Maya Pilbara Aboriginal Language Centre. It aims to be recognised as a leading Aboriginal {{< glossary_link display="language and resource centre" id="lang-centre" >}} in Australia, using expertise, knowledge and sensitivity to record and foster Aboriginal languages, culture and history.'
 "external_link": "https://www.wangkamaya.org.au/"

@@ -1,0 +1,5 @@
+Name: "archive"
+"title": "Archive"
+"short_description": "See Archival Repository."
+"content": 'See {{< glossary_link display="Archival Repository" id="archival-repository" >}}.'
+"external_link": ""

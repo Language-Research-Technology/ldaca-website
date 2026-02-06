@@ -1,0 +1,5 @@
+Name: "dataset"
+"title": "Dataset"
+"short_description": "See Data Collection."
+"content": 'See {{< glossary_link display="Data Collection" id="data-collection" >}}.'
+"external_link": ""

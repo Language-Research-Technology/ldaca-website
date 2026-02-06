@@ -1,5 +1,5 @@
 Name: "xml"
 "title": "XML"
 "short_description": "Extensible Markup Language"
-"content": "Extensible Markup Language. A markup language and file format for storing, transmitting, and reconstructing data."
+"content": 'Extensible Markup Language. A markup language and file {{< glossary_link display="format" id="data-format" >}} for storing, transmitting and reconstructing data.'
 "external_link": "https://www.w3.org/XML/"

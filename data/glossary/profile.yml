@@ -1,5 +1,5 @@
 Name: "profile"
 "title": "Profile"
 "short_description": "Specifies a subset of a metadata standard for a particular use case, such as for describing language resources."
-"content": 'Specifies a subset of a {{< glossary_link display="metadata" id="metadata" >}} standard for a particular use case, such as for describing language resources. {{< glossary_link display="LDaCA" id="ldaca" >}} uses {{< glossary_link display="RO-Crate" id="ro-crate" >}} profiles, which are a set of conventions, types and properties that are required in RO-Crates. Specifically, the LDAC RO-Crate Metadata Profile provides the minimum structural metadata for describing language data resources.'
+"content": 'Specifies a subset of a {{< glossary_link display="metadata" id="metadata" >}} {{< glossary_link display="standard" id="standard" >}} for a particular use case, such as for describing language resources. {{< glossary_link display="LDaCA" id="ldaca" >}} uses {{< glossary_link display="RO-Crate" id="ro-crate" >}} profiles, which are a set of conventions, types and {{< glossary_link display="properties" id="property" >}} that are required in RO-Crates. Specifically, the {{< glossary_link display="LDAC" id="ldac" >}} RO-Crate Metadata Profile provides the minimum structural metadata for describing language data resources.'
 "external_link": ""

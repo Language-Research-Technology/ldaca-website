@@ -1,0 +1,5 @@
+Name: "data-sustainability"
+"title": "Data Sustainability"
+"short_description": "Strategies and practices for the management of data which aim for the longevity and reusability of the data."
+"content": 'Strategies and practices for the {{< glossary_link display="management of data" id="data-management" >}} which aim for the longevity and reusability of the data.'
+"external_link": ""

@@ -3,6 +3,6 @@ Name: ""
 "short_description": ""
 "content": ""
 "external_link": ""
-<!-- Name is for the reference id, title is the term listed on the glossary, short_description is for the tooltip, content is for the definition. external_link is optional. -->
-<!-- If content will include a glossary tooltip, then use single ('') rather than double ("") quotation marks around the definition -->
-<!-- For acronyms/abbreviations, add shortened term to title and full term to short_description -->
+# Name is for the reference id, title is the term listed on the glossary, short_description is for the tooltip, content is for the definition. external_link is optional.
+# If content will include a glossary tooltip {{< glossary_link display="" id="" >}}, then use single ('') rather than double ("") quotation marks around the definition.
+# For acronyms/abbreviations, add shortened term to title and full term to short_description.

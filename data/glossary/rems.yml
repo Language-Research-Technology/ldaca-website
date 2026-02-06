@@ -1,5 +1,5 @@
 Name: "rems"
 "title": "REMS"
 "short_description": "Resource Entitlement Management System"
-"content": "Resource Entitlement Management System. A tool to help researchers browse resources such as datasets relevant to their research and to manage the application process for access to those resources."
+"content": 'Resource Entitlement Management System. A {{< glossary_link display="tool" id="tools" >}} to help researchers browse resources, such as {{< glossary_link display="datasets" id="dataset" >}}, relevant to their research, and to manage the application process for access to those resources.'
 "external_link": 
