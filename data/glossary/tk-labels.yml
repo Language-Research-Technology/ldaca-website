@@ -1,5 +1,5 @@
 Name: "tk-labels"
 "title": "TK Labels"
 "short_description": "Traditional Knowledge Labels"
-"content": "Traditional Knowledge Labels. An initiative for Indigenous communities and local organisations, allowing communities to express local and specific conditions for sharing and engaging in future research and relationships in ways that are consistent with already existing community rules, governance and protocols for using, sharing and circulating knowledge and data."
+"content": 'Traditional Knowledge Labels. An initiative for Indigenous communities and local organisations, allowing communities to express local and specific conditions for sharing and engaging in future research and relationships in ways that are consistent with already existing community rules, {{< glossary_link display="governance" id="idg" >}} and protocols for using, sharing and circulating knowledge and data.'
 "external_link": "https://localcontexts.org/labels/traditional-knowledge-labels/"

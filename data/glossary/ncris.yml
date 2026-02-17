@@ -1,5 +1,5 @@
 Name: "ncris"
 "title": "NCRIS"
 "short_description": "National Collaborative Research Infrastructure Strategy"
-"content": "National Collaborative Research Infrastructure Strategy. It provides strategic funding for national-scale research infrastructure, driving collaboration to bring economic, environmental, health and social benefits for Australia."
+"content": 'National Collaborative Research Infrastructure Strategy. It provides strategic funding for national-scale {{< glossary_link display="research infrastructure" id="research-infrastructure" >}}, driving collaboration to bring economic, environmental, health and social benefits for Australia.'
 "external_link": "https://www.education.gov.au/ncris"

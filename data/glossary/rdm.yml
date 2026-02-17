@@ -1,4 +1,4 @@
 Name: "rdm"
 "title": "Research Data Management"
-"short_description": "The handling of data during and after a research activity."
-"content": "The handling of data during and after a research activity, including generating, collecting, organising, accessing, using, analysing, storing, disclosing, documenting, preserving, disposing of, sharing and re-using data."
+"short_description": "Data management as it relates to a research activity."
+"content": '{{< glossary_link display="Data management" id="data-management" >}} as it relates to a research activity.'

@@ -1,7 +1,10 @@
 {{< glossary_link display="" id="" >}}
 {{< glossary_link display="access conditions" id="access-conditions" >}}
 {{< glossary_link display="AIATSIS" id="aiatsis" >}}
+{{< glossary_link display="ARC" id="arc" >}}
+{{< glossary_link display="archive" id="archival-repository" >}}
 {{< glossary_link display="archival repository" id="archival-repository" >}}
+{{< glossary_link display="repository" id="archival-repository" >}}
 {{< glossary_link display="ARDC" id="ardc" >}}
 {{< glossary_link display="ARDS" id="ards" >}}
 {{< glossary_link display="CARE" id="care" >}}
@@ -15,18 +18,29 @@
 {{< glossary_link display="data collection" id="data-collection" >}}
 {{< glossary_link display="data commons" id="data-commons" >}}
 {{< glossary_link display="data custodian" id="data-custodian" >}}
+{{< glossary_link display="format" id="data-format" >}}
 {{< glossary_link display="data governance" id="data-governance" >}}
 {{< glossary_link display="data license" id="data-license" >}}
-{{< glossary_link display="data packaging" id="data-packaging" >}}
+{{< glossary_link display="management" id="data-management" >}}
+{{< glossary_link display="packaging" id="data-packaging" >}}
+{{< glossary_link display="data processing" id="data-processing" >}}
+{{< glossary_link display="dataset" id="dataset" >}}
 {{< glossary_link display="data steward" id="data-steward" >}}
-{{< glossary_link display="data transformation" id="data-transformation" >}}
+{{< glossary_link display="sustainability" id="data-sustainability" >}}
+{{< glossary_link display="transformation" id="data-transformation" >}}
+{{< glossary_link display="digitisation" id="digitisation" >}}
 {{< glossary_link display="ELAN" id="elan" >}}
 {{< glossary_link display="FAIR" id="fair" >}}
 {{< glossary_link display="fieldwork" id="fieldwork" >}}
 {{< glossary_link display="format" id="format" >}}
 {{< glossary_link display="GitHub" id="github" >}}
 {{< glossary_link display="HASS" id="hass" >}}
+{{< glossary_link display="Indigenous Data Governance" id="idg" >}}
 {{< glossary_link display="intellectual property" id="intellectual-property" >}}
+{{< glossary_link display="interoperability" id="interoperability" >}}
+{{< glossary_link display="" id="" >}}
+{{< glossary_link display="Language Centre" id="lang-centre" >}}
+{{< glossary_link display="LDAC" id="ldac" >}}
 {{< glossary_link display="LDaCA" id="ldaca" >}}
 {{< glossary_link display="licensing" id="licensing" >}}
 {{< glossary_link display="linked data" id="linked-data" >}}
@@ -36,10 +50,14 @@
 {{< glossary_link display="Nyingarn" id="nyingarn" >}}
 {{< glossary_link display="object" id="object" >}}
 {{< glossary_link display="OCFL" id="ocfl" >}}
+{{< glossary_link display="Open Access" id="open-access" >}}
 {{< glossary_link display="oral history" id="oral-history" >}}
 {{< glossary_link display="PARADISEC" id="paradisec" >}}
 {{< glossary_link display="phonemic transcription" id="phonemic-transcription" >}}
 {{< glossary_link display="phonetic transcription" id="phonetic-transcription" >}}
+{{< glossary_link display="profile" id="profile" >}}
+{{< glossary_link display="property" id="property" >}}
+{{< glossary_link display="Research Data Commons" id="rdc" >}}
 {{< glossary_link display="research data management" id="rdm" >}}
 {{< glossary_link display="research infrastructure" id="research-infrastructure" >}}
 {{< glossary_link display="RO-Crate" id="ro-crate" >}}
@@ -47,6 +65,8 @@
 {{< glossary_link display="standard" id="standard" >}}
 {{< glossary_link display="tool" id="tools" >}}
 {{< glossary_link display="tools" id="tools" >}}
+{{< glossary_link display="transcription" id="transcription" >}}
+{{< glossary_link display="UI" id="ui" >}}
 {{< glossary_link display="Wangka Maya" id="wangka-maya" >}}
 {{< glossary_link display="XML" id="xml" >}}
 {{< glossary_link display="" id="" >}}

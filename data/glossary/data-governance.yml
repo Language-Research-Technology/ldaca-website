@@ -1,4 +1,4 @@
 Name: "data-governance"
 "title": "Data Governance"
 "short_description": "The policies and processes by which data is managed."
-"content": "The policies and processes by which data is managed through its life cycle to ensure the quality, reliability, security, and sustainability of the data."
+"content": 'The policies and processes by which data is {{< glossary_link display="managed" id="data-management" >}} through its life cycle to ensure the quality, reliability, security and {{< glossary_link display="sustainability" id="data-sustainability" >}} of the data.'

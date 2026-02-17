@@ -1,5 +1,5 @@
 Name: "paradisec"
 "title": "PARADISEC"
 "short_description": "Pacific and Regional Archive for Digital Sources in Endangered Cultures"
-"content": "Pacific and Regional Archive for Digital Sources in Endangered Cultures. A digital archive that works to digitise, preserve and make accessible recordings that are at risk of loss; particularly for languages in the Pacific region."
+"content": 'Pacific and Regional Archive for Digital Sources in Endangered Cultures. A digital {{< glossary_link display="archive" id="archival-repository" >}} that works to {{< glossary_link display="digitise" id="digitisation" >}}, preserve and make accessible recordings that are at risk of loss, particularly for languages in the Pacific region.'
 "external_link": "https://www.paradisec.org.au/"

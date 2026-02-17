@@ -1,0 +1,5 @@
+Name: "digitisation"
+"title": "Digitisation"
+"short_description": "The process of transforming material stored in some physical form to computer files."
+"content": 'The process of {{< glossary_link display="transforming" id="data-transformation" >}} material stored in some physical form to computer files, for example, transforming a tape recording to an mp3 file.'
+"external_link": ""

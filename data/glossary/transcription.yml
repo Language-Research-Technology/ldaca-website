@@ -1,0 +1,5 @@
+Name: "transcription"
+"title": "Transcription"
+"short_description": "A written representation of language data which makes the material accessible for new purposes."
+"content": 'A written representation of language data, like a recording or {{< glossary_link display="manuscript" id="manuscript" >}}, which makes the material accessible for new purposes, such as analysis or publication.'
+"external_link": ""

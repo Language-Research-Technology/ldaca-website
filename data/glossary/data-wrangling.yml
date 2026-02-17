@@ -1,7 +1,7 @@
 Name: "data-wrangling"
 "title": "Data Wrangling"
 "short_description": "The process of transforming messy raw data into tidier, more usable formats for analysis."
-"content": "The process of transforming messy raw data into tidier, more usable formats for analysis."
+"content": 'The process of transforming messy raw data into tidier, more usable {{< glossary_link display="formats" id="data-format" >}} for analysis.'
 "cross_ref":
   [
     ["data-packaging", "Data Packaging"],

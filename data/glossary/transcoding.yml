@@ -1,4 +1,4 @@
 Name: "transcoding"
 "title": "Transcoding"
 "short_description": "The process of converting one digital encoding format to another."
-"content": "The process of converting one digital encoding format to another, such as from a high-resolution image to a lower-resolution one."
+"content": 'The process of converting one digital encoding {{< glossary_link display="format" id="data-format" >}} to another, such as from a high-resolution image to a lower-resolution one.'

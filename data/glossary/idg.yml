@@ -1,0 +1,5 @@
+Name: "idg"
+"title": "Indigenous Data Governance"
+"short_description": "Ways of managing Indigenous data which maintain and support Indigenous Data Sovereignty."
+"content": 'Ways of managing {{< glossary_link display="Indigenous data " id="indigenous-data" >}} which maintain and support {{< glossary_link display="Indigenous Data Sovereignty" id="ids" >}}.'
+"external_link": ""

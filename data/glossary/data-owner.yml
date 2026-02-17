@@ -1,4 +1,4 @@
 Name: "data-owner"
 "title": "Data Owner"
 "short_description": "A person who holds rights, such as copyright or moral rights, over some data."
-"content": "A person who holds rights, such as copyright or moral rights, over some data."
+"content": 'A person who holds rights, such as {{< glossary_link display="copyright" id="copyright" >}} or moral rights, over some data.'

@@ -1,7 +1,5 @@
 Name: "describo"
 "title": "Describo"
 "short_description": "A tool that allows you to create and update RO-Crates."
-"content": 'A tool that allows you to create and update {{< glossary_link display="RO-Crates" id="ro-crate" >}}. It provides researchers with a relatively simple way to describe their data using the best practices in formal {{< glossary_link display="metadata" id="metadata" >}}  description.
-
-
+"content": 'A {{< glossary_link display="tool" id="tools" >}} that allows you to create and update {{< glossary_link display="RO-Crates" id="ro-crate" >}}. It provides researchers with a relatively simple way to describe their data using the best practices in formal {{< glossary_link display="metadata" id="metadata" >}}  description.
 Superseded for project purposes by {{< glossary_link display="Crate-O" id="crate-o" >}}.'
