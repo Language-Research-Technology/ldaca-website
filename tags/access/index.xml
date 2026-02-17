@@ -395,7 +395,7 @@ PARADISEC</a
 
 <p>Last year at eResearch Australasia, the Language Data Commons of Australia (LDaCA) team presented a design for a distributed access control system which could look after the A-is-for-accessible in <a href="/resources/glossary/#fair" title="Four key principles developed in 2016 with the aim of supporting the discovery and reuse of research data." target="_blank"
   >FAIR</a
-> data; in this presentation, we describe and demonstrate a pilot system based on that design, showing how <a href="/resources/glossary/#data-license" title="A legal arrangement specifying what users can do with the data." target="_blank"
+> data; in this presentation, we describe and demonstrate a pilot system based on that design, showing how <a href="/resources/glossary/#data-license" title="A legal arrangement specifying who can access, share and reuse data." target="_blank"
   >data licenses</a
 > that allow access by identified groups of people to language <a href="/resources/glossary/#data-collection" title="A set of data collected under similar conditions and brought together in a shared framework." target="_blank"
   >data collections</a
@@ -426,7 +426,7 @@ We will discuss how the <a href="https://www.gida-global.org/care" target="_blan
 <br>
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
-<p>We are designing the system so that it can work with diverse ways of expressing access rights, for example, we are considering how the approach described here could be extended based on the likes of the <a href="https://localcontexts.org/labels/traditional-knowledge-labels/" target="_blank" rel="noopener noreffer ">Traditional Knowledge labels</a>, incorporating them into the <a href="/resources/glossary/#data-license" title="A legal arrangement specifying what users can do with the data." target="_blank"
+<p>We are designing the system so that it can work with diverse ways of expressing access rights, for example, we are considering how the approach described here could be extended based on the likes of the <a href="https://localcontexts.org/labels/traditional-knowledge-labels/" target="_blank" rel="noopener noreffer ">Traditional Knowledge labels</a>, incorporating them into the <a href="/resources/glossary/#data-license" title="A legal arrangement specifying who can access, share and reuse data." target="_blank"
   >data licensing</a
 > framework we discuss below.</p>
 </section>
@@ -490,7 +490,7 @@ Source: <a href="http://www.dynamicsoflanguage.edu.au/sydney-speaks/" target="_b
 
 <p>The access control system we have been prototyping is based on licenses.</p>
 <p>For any data object, which could be an entire collection, or one set of recordings of a speaker in a speech study, or a set of handwritten linguistic field notes from the 1950s, or a novel etc we store a license with it. This means that future archivists/librarians and researchers can work out how to manage the data if the systems we build today for automated access are no longer operational and we give the license an ID which is a URL we can use to identify it uniquely.</p>
-<p>This diagram shows how a license is explicitly linked to the data using a metadata description standard known as “Research Object Crate” <a href="http://ptsefton.com/2019/11/05/RO-Crate%20eResearch%20Australasia%202019/index.html" target="_blank" rel="noopener noreffer ">RO-Crate</a>. Each object in the repository is a crate, with a metadata file that describes the object and (optionally) its component files, including the <a href="/resources/glossary/#data-license" title="A legal arrangement specifying what users can do with the data." target="_blank"
+<p>This diagram shows how a license is explicitly linked to the data using a metadata description standard known as “Research Object Crate” <a href="http://ptsefton.com/2019/11/05/RO-Crate%20eResearch%20Australasia%202019/index.html" target="_blank" rel="noopener noreffer ">RO-Crate</a>. Each object in the repository is a crate, with a metadata file that describes the object and (optionally) its component files, including the <a href="/resources/glossary/#data-license" title="A legal arrangement specifying who can access, share and reuse data." target="_blank"
   >data license</a
 >.</p>
 </section>
@@ -507,7 +507,7 @@ Source: <a href="http://www.dynamicsoflanguage.edu.au/sydney-speaks/" target="_b
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
 <p>(Images: Various baskets of puppies by DALL-E)</p>
-<p>When we first developed access controls for LDaCA in 2021 it was a requirement that <a href="/resources/glossary/#data-license" title="A legal arrangement specifying what users can do with the data." target="_blank"
+<p>When we first developed access controls for LDaCA in 2021 it was a requirement that <a href="/resources/glossary/#data-license" title="A legal arrangement specifying who can access, share and reuse data." target="_blank"
   >data licensing</a
 > and access control decisions be decoupled from each other, and from particular repository software. The usual approach in repositories is to build in a local access-control system, but this is tied to a particular implementation and will not work in a distributed environment where there are multiple different repositories, and services such as computational resources that researchers need to access to process data.</p>
 <p>We could not find an available open-source system for managing license-based access to data, so our starting approach used groups as a proxy for granting licenses on that basis that all common user-directory services such as LDAP include the concept of user groups.</p>
@@ -601,7 +601,7 @@ OIDC connectors for downstream services that support authorisation claims for se
 <br>
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
-<p>This interaction diagram shows the flow involved in a user applying for a <a href="/resources/glossary/#data-license" title="A legal arrangement specifying what users can do with the data." target="_blank"
+<p>This interaction diagram shows the flow involved in a user applying for a <a href="/resources/glossary/#data-license" title="A legal arrangement specifying who can access, share and reuse data." target="_blank"
   >data license</a
 > via <a href="/resources/glossary/#rems" title="Resource Entitlement Management System" target="_blank"
   >REMS</a

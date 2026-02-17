@@ -8,7 +8,7 @@
  &lt;td>&lt;a name="access-conditions">&lt;/a>&lt;b>Access Conditions&lt;/b>&lt;/td>&lt;/td>
  &lt;td>Conditions which specify who can access data and what they can do with that data. A well-governed &lt;a href="https://www.ldaca.edu.au/resources/glossary/#archival-repository" title="A location for the storage of data that has an appropriate governance regime in place." target="_blank"
  >archival repository&lt;/a
-> has mechanisms in place to administer and implement such conditions which will be specified on a &lt;a href="https://www.ldaca.edu.au/resources/glossary/#data-license" title="A legal arrangement specifying what users can do with the data." target="_blank"
+> has mechanisms in place to administer and implement such conditions, which will be specified on a &lt;a href="https://www.ldaca.edu.au/resources/glossary/#data-license" title="A legal arrangement specifying who can access, share and reuse data." target="_blank"
  >data license&lt;/a
 >.
  &lt;/td>
@@ -51,14 +51,16 @@
  &lt;tr valign="top">
  
  &lt;td>&lt;a name="analogue">&lt;/a>&lt;b>Analogue&lt;/b>&lt;/td>&lt;/td>
- &lt;td>Ways of storing information where the variables used for encoding are continuous. This contrasts with digital storage which uses only two discrete values. An example of analogue storage is a hard-copy photograph where the variables of hue and intensity are represented as continuous variables.
+ &lt;td>Ways of storing information where the variables used for encoding are continuous. This contrasts with digital storage, which uses only two discrete values. An example of analogue storage is a hard-copy photograph, where the variables of hue and intensity are represented as continuous variables.
  &lt;/td>
  
  
  &lt;tr valign="top">
  
  &lt;td>&lt;a name="api">&lt;/a>&lt;b>API&lt;/b>&lt;/td>&lt;/td>
- &lt;td>Application Programming Interface. A way for computer programs to communicate with each other. It is a way for one computer or system to ask another computer or system to do something, like provide a dataset.
+ &lt;td>Application Programming Interface. A way for a computer program or system to ask another program or system to complete a task, such as provide a &lt;a href="https://www.ldaca.edu.au/resources/glossary/#dataset" title="See Data Collection." target="_blank"
+ >dataset&lt;/a
+>.
  &lt;/td>
  
  
@@ -73,7 +75,22 @@
  &lt;tr valign="top">
  
  &lt;td>&lt;a name="archival-repository">&lt;/a>&lt;b>Archival Repository&lt;/b>&lt;/td>&lt;/td>
- &lt;td>A location for the storage of data that has an appropriate governance regime in place.
+ &lt;td>A location for the storage of data that has an appropriate &lt;a href="https://www.ldaca.edu.au/resources/glossary/#data-governance" title="The policies and processes by which data is managed." target="_blank"
+ >governance&lt;/a
+> regime in place. This usage emphasises the commonalities between the terms &lt;a href="https://www.ldaca.edu.au/resources/glossary/#repository" title="See Archival Repository." target="_blank"
+ >Repository&lt;/a
+> and &lt;a href="https://www.ldaca.edu.au/resources/glossary/#archive" title="See Archival Repository." target="_blank"
+ >Archive&lt;/a
+>, which have different nuances and are used in a variety of ways in different communities.
+ &lt;/td>
+ 
+ 
+ &lt;tr valign="top">
+ 
+ &lt;td>&lt;a name="archive">&lt;/a>&lt;b>Archive&lt;/b>&lt;/td>&lt;/td>
+ &lt;td>See &lt;a href="https://www.ldaca.edu.au/resources/glossary/#archival-repository" title="A location for the storage of data that has an appropriate governance regime in place." target="_blank"
+ >Archival Repository&lt;/a
+>.
  &lt;/td>
  
  
@@ -89,7 +106,9 @@
  &lt;tr valign="top">
  
  &lt;td>&lt;a name="ardc">&lt;/a>&lt;b>ARDC&lt;/b>&lt;/td>
- &lt;td>Australian Research Data Commons. The ARDC is Australia’s leading research data infrastructure facility accelerating Australian research and innovation by driving excellence in the creation, analysis and retention of high-quality data assets.&lt;br>&lt;a href="https://ardc.edu.au" target="_blank">More information&lt;/a>
+ &lt;td>Australian Research Data Commons. The ARDC is Australia’s leading &lt;a href="https://www.ldaca.edu.au/resources/glossary/#research-infrastructure" title="The resources and services that are needed for research communities to conduct research." target="_blank"
+ >research data infrastructure&lt;/a
+> facility accelerating Australian research and innovation by driving excellence in the creation, analysis and retention of high-quality data assets.&lt;br>&lt;a href="https://ardc.edu.au" target="_blank">More information&lt;/a>
  &lt;/td>
  &lt;/tr>
  
@@ -105,9 +124,13 @@
  &lt;tr valign="top">
  
  &lt;td>&lt;a name="arkisto">&lt;/a>&lt;b>Arkisto&lt;/b>&lt;/td>
- &lt;td>A scalable, standards-based platform for sustainable data. Data on an Arkisto deployment is always available on disc (or &lt;a href="https://www.ldaca.edu.au/resources/glossary/#object" title="A single resource or a group of tightly related resources." target="_blank"
+ &lt;td>A scalable, &lt;a href="https://www.ldaca.edu.au/resources/glossary/#standard" title="A document that sets out specifications, procedures or guidelines ensuring that products, services and systems are safe, consistent and reliable." target="_blank"
+ >standards&lt;/a
+>-based platform for &lt;a href="https://www.ldaca.edu.au/resources/glossary/#data-sustainability" title="Strategies and practices for the management of data which aim for the longevity and reusability of the data." target="_blank"
+ >sustainable&lt;/a
+> data. Data on an Arkisto deployment is always available on disc (or &lt;a href="https://www.ldaca.edu.au/resources/glossary/#object" title="A single resource or a group of tightly related resources." target="_blank"
  >object&lt;/a
-> storage) with a complete description independently of any services such as websites or &lt;a href="https://www.ldaca.edu.au/resources/glossary/#api" title="Application Programming Interface" target="_blank"
+> storage) with a complete description independently of any services, such as websites or &lt;a href="https://www.ldaca.edu.au/resources/glossary/#api" title="Application Programming Interface" target="_blank"
  >APIs&lt;/a
 >. Once the data is safe and well-described, Arkisto has a flexible model for how data can be accessed using a variety of services. Built on top of &lt;a href="https://www.ldaca.edu.au/resources/glossary/#ro-crate" title="Research Object Crate" target="_blank"
  >RO-Crate&lt;/a
@@ -149,7 +172,7 @@
  >controlled vocabulary&lt;/a
 > of persistent identifiers (&lt;a href="https://www.ldaca.edu.au/resources/glossary/#pid" title="Persistent Identifier" target="_blank"
  >PIDs&lt;/a
->), a thesaurus of languages and peoples, and information about Aboriginal and Torres Strait Islander languages which has been assembled from referenced sources. Alphanumeric codes are used as PIDs, while associated text strings are changeable and can reflect community preferences (including alternative names and spellings). In AustLang, Warlpiri has two codes: C15 for the language in general, and C15.1 for the variety named as Wakirti Warlpiri.&lt;br>&lt;a href="https://collection.aiatsis.gov.au/austlang/about" target="_blank">More information&lt;/a>
+>), a thesaurus of languages and peoples, and information about Aboriginal and Torres Strait Islander languages which has been assembled from referenced sources. Alphanumeric codes are used as PIDs, while associated text strings are changeable and can reflect community preferences (including alternative names and spellings). For instance, Warlpiri has two codes: C15 for the language in general and C15.1 for the variety named as Wakirti Warlpiri.&lt;br>&lt;a href="https://collection.aiatsis.gov.au/austlang/about" target="_blank">More information&lt;/a>
  &lt;/td>
  &lt;/tr>
  
@@ -157,7 +180,7 @@
  &lt;tr valign="top">
  
  &lt;td>&lt;a name="bi">&lt;/a>&lt;b>BI&lt;/b>&lt;/td>
- &lt;td>Batchelor Institute of Indigenous Tertiary Education. The only First Nations dual sector tertiary education provider in Australia. The Institute gives precedence to its philosophy of Both Ways: positioning First Nations peoples as knowledge holders in all educational transactions with Western knowledge systems as well as privileging First Nations ways of learning and teaching to underpin engagement with mainstream education systems and society more broadly.&lt;br>&lt;a href="https://www.batchelor.edu.au/" target="_blank">More information&lt;/a>
+ &lt;td>Batchelor Institute of Indigenous Tertiary Education. The only First Nations dual sector tertiary education provider in Australia. The Institute gives precedence to its philosophy of Both Ways: positioning First Nations peoples as knowledge holders in all educational transactions with Western knowledge systems, as well as privileging First Nations ways of learning and teaching to underpin engagement with mainstream education systems and society more broadly.&lt;br>&lt;a href="https://www.batchelor.edu.au/" target="_blank">More information&lt;/a>
  &lt;/td>
  &lt;/tr>
  
@@ -165,7 +188,7 @@
  &lt;tr valign="top">
  
  &lt;td>&lt;a name="binderhub">&lt;/a>&lt;b>BinderHub&lt;/b>&lt;/td>
- &lt;td>A Kubernetes-based cloud service that allows users to share reproducible interactive computing environments from code repositories. It is the primary technology behind &lt;a href="https://mybinder.org/" target="_blank" rel="noopener noreffer ">Binder&lt;/a>. &lt;br /> &lt;a href="https://www.atap.edu.au/" target="_blank" rel="noopener noreffer ">ATAP&lt;/a> notebooks are made available using a Binder instance maintained by &lt;a href="https://www.aarnet.edu.au/" target="_blank" rel="noopener noreffer ">AARNet&lt;/a>/Nectar.&lt;br>&lt;a href="https://binderhub.readthedocs.io/en/latest/" target="_blank">More information&lt;/a>
+ &lt;td>A Kubernetes-based cloud service that allows users to share reproducible interactive computing environments from code repositories. It is the primary technology behind &lt;a href="https://mybinder.org/" target="_blank" rel="noopener noreffer ">Binder&lt;/a>. &lt;a href="https://www.atap.edu.au/" target="_blank" rel="noopener noreffer ">ATAP&lt;/a> notebooks are made available using a Binder instance maintained by &lt;a href="https://www.aarnet.edu.au/" target="_blank" rel="noopener noreffer ">AARNet&lt;/a>/Nectar.&lt;br>&lt;a href="https://binderhub.readthedocs.io/en/latest/" target="_blank">More information&lt;/a>
  &lt;/td>
  &lt;/tr>
  
@@ -181,4 +204,4 @@
  &lt;tr valign="top">
  
  &lt;td>&lt;a name="care">&lt;/a>&lt;b>CARE&lt;/b>&lt;/td>
- &lt;td>&lt;p>Four principles developed by the Global Indigenous Data Alliance (GIDA) to ensure that Indigenous communities have control over the application and use of Indigenous data and Indigenous Knowledge for collective benefit. &lt;br />The principles specify four aspects of the respectful use of data:&lt;/p></description></item></channel></rss>
+ &lt;td>&lt;p>Four principles developed by the Global Indigenous Data Alliance (GIDA) to ensure that Indigenous communities have control over the application and use of Indigenous data and Indigenous Knowledge for collective benefit. The principles specify four aspects of the respectful use of data:&lt;/p></description></item></channel></rss>
