@@ -232,8 +232,8 @@ export default defineConfig({
         subtitle: 'Learn more about our organisation',
         items: [
           { text: 'Organisation', link: '/about/organisation', image: 'https://placehold.co/150x100' },
-          { text: 'People', link: '/shadcn-install', image: 'https://placehold.co/150x100' },
-          { text: 'Policies & Procedures', link: '/shadcn-install', image: 'https://placehold.co/150x100' }
+          { text: 'People', link: '/about/people', image: 'https://placehold.co/150x100' },
+          { text: 'Policies & Procedures', link: '/about/policies-procedures', image: 'https://placehold.co/150x100' }
         ]
       } as any,
       {

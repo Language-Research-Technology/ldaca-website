@@ -44,7 +44,7 @@ This is the source repository for an LDaCA based website
 
 Configuring the website is using the `.vitepress/config.ts` file and develop the ldaca theme in `.vitepress/theme`
 
-# TODO MORE DOCO
+# TODO Documentation
 
 - How to reference images
 - How to use Tailwind /CSS in place
@@ -53,7 +53,16 @@ Configuring the website is using the `.vitepress/config.ts` file and develop the
 - Glossary
 - Blog Post
 - Profiles
+
+# TODO Development
+
 - Tags <Not developed>
+- Footer <Not finished>
+- Search <Not developed>
+- Analytics Page <Not developed>
+- Menu filter by tag? Resources menu
+
+# TODO Cleanups
 - Remove old Hugo Files
 - How to run updates/production
 - Configure .github/workflows
