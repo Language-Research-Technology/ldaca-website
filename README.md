@@ -7,10 +7,17 @@ This is the source repository for an LDaCA based website
 # Prerequisites
 
 - [Node](https://nodejs.org) 
-  - Follow instructions on how to download
+  - Follow instructions on how to download on the page above
   - This was tested using MacOS
   - Verify installation with packages that you have npm and node commands 
   - TODO: check what are the node versions this requires
+
+# Notes on specs
+
+- This site is being built using [vitepress](https://vitepress.dev) version 2. See package.json for details
+- a `.vitepress` folder is used to theme the website
+- running a production build will generate static html files that can be served in `.vitepress/dist`
+
 
 # How to use
 
@@ -30,6 +37,8 @@ This is the source repository for an LDaCA based website
    - `Built site served at http://localhost:4173/` but if that port is being used it will push to another port
 
 ### How to run in production and do updates
+
+- TODO
 
 # Configuration
 
