@@ -57,6 +57,9 @@ function generatePagesData() {
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  sitemap: {
+    hostname: 'https://www.ldaca.edu.au' // TODO update this to the actual production URL before launch!
+  },
   srcDir: "content",
   mpa: true,
   ignoreDeadLinks: true, // Temporarily ignore dead links while site is under development! Verify this!

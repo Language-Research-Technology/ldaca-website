@@ -27,7 +27,7 @@ const postsByYear = computed(() => {
   return Object.keys(grouped)
     .sort((a, b) => b - a)
     .reduce((acc, year) => {
-      acc[year] = grouped[year].sort((a, b) => new Date(b.date) - new Date(a.date))
+      acc[year] = grouped[year].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
       return acc
     }, {})
 })
