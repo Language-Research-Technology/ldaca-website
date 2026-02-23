@@ -7,8 +7,9 @@ description: "A closer look at the Australian Twittersphere searchable aggregate
 
 by {{< profile id="fleet" >}}
 
-{{< image Src="TwitteronIpad_ASPhotography.jpg" Alt="Photograph of an tablet on a desk displaying the sign on form for twitter " Desc="Twitter displayed on Tablet Screen" Title="Twitter displayed on Tablet Screen"  Ref="Photo by AS Photography">}}
 <br>
+
+{{< image Src="TwitteronIpad_ASPhotography.jpg" Alt="Photograph of an tablet on a desk displaying the sign on form for Twitter " Desc="Twitter displayed on tablet screen" Title="Twitter displayed on tablet screen"  Ref="Photo by AS Photography">}}
 <br>
 Imagine having access to over 1.9 billion tweets from Australian Twitter accounts spanning more than a decade, but without the ethical complexities that come with handling raw social media data. This is the promise of the searchable aggregate data now available on the [LDaCA data portal](https://data.ldaca.edu.au/collection?id=arcp%3A%2F%2Fname%2Chdl10.25912~RDF_1758591652309&_crateId=arcp%3A%2F%2Fname%2Chdl10.25912~RDF_1758591652309) and derived from the [Australian Twittersphere dataset](https://www.digitalobservatory.net.au/resources/australian-twittersphere/). The dataset opens up fascinating possibilities for researchers, linguists and anyone interested in understanding how Australians have used Twitter as a platform for communication, debate and cultural expression.
 The Australian Twittersphere, maintained by the Australian Digital Observatory at Queensland University of Technology (QUT), represents a significant collection of Australian social media data. The dataset captures the digital conversations of more than a million Australian Twitter accounts from January 2007 through to June 2023. But here's the challenge: accessing raw tweet data requires ethical clearance, data management plans and a solid research framework. For many researchers, especially those in the early stages of a project or those simply curious about what patterns might exist in the data, these barriers can feel insurmountable.
@@ -28,7 +29,7 @@ The collection ended, not by choice, but by necessity. In late 2022, following T
 
 <br>
 
-{{< image Src="TweetspermonthAusTwitter.png" Alt="Line graph representation of the Number of tweets per month from 2016 onwards for all three collections that together form the Australian Twittersphere. " Desc="Number of tweets per month from 2016 onwards for all three collections that together form the Australian Twittersphere. " Title="Number of tweets per month from 2016 onwards for all three collections that together form the Australian Twittersphere." Ref="AusTwittersphere Factsheet">}}
+{{< image Src="TweetspermonthAusTwitter.png" Alt="Line graph representation of the Number of tweets per month from 2016 onwards for all three collections that together form the Australian Twittersphere. " Desc="Number of tweets per month from 2016 onwards for all three collections that together form the Australian Twittersphere " Title="Number of tweets per month from 2016 onwards for all three collections that together form the Australian Twittersphere" Ref="AusTwittersphere Factsheet">}}
 
 
 
