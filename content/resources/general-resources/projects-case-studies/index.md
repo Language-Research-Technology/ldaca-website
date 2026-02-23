@@ -12,7 +12,7 @@ hero:
 </script>
 
 <SubPageHero 
-    title='PROJECTS',
+    title='PROJECTS'
     description='Projects description here'
 />
 
@@ -66,7 +66,7 @@ hero:
     ]"/>
 
 <SubPageHero 
-    title='CASE STUDIES',
+    title='CASE STUDIES'
     description='Case studies description here'
 />
 
@@ -94,5 +94,5 @@ hero:
       {
         title: 'Putting data to work',
         link: '/news/posts/putting-data-to-work'
-      },
+      }
     ]"/>

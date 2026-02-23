@@ -17,6 +17,7 @@ const mobileMenuOpen = ref(false)
 const mobileActiveSubmenu = ref(null)
 
 const toggleMenu = (itemText) => {
+  console.log('Toggling menu for:', itemText)
   activeMenu.value = activeMenu.value === itemText ? null : itemText
 }
 
@@ -42,10 +43,12 @@ const toggleMobileSubmenu = (itemText) => {
 
 // Close mobile menu when window is resized to desktop
 watch(mobileMenuOpen, (isOpen) => {
-  if (isOpen) {
-    document.body.style.overflow = 'hidden'
-  } else {
-    document.body.style.overflow = ''
+  if (typeof document !== 'undefined') {
+    if (isOpen) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = ''
+    }
   }
 })
 </script>
@@ -60,7 +63,7 @@ watch(mobileMenuOpen, (isOpen) => {
             <!-- If item has a link and no sub-items, render as link -->
             <a
               v-if="item.link && !item.items"
-              :href="item.link"
+              :href="item.link || '#'"
               class="flex items-center gap-1.5 text-sm font-medium text-white hover:text-gray-300 transition-colors"
             >
               {{ item.text }}
@@ -95,7 +98,7 @@ watch(mobileMenuOpen, (isOpen) => {
             <!-- If item has a link and no sub-items, render as link -->
             <a
               v-if="item.link && !item.items"
-              :href="item.link"
+              :href="item.link || '#'"
               class="flex items-center gap-1 text-xs font-medium text-white hover:text-gray-300 transition-colors px-2 py-1"
             >
               {{ item.text }}
@@ -165,7 +168,7 @@ watch(mobileMenuOpen, (isOpen) => {
     >
       <div 
         v-if="activeMenu"
-        class="hidden lg:block absolute left-0 right-0 bg-muted border-b border-border shadow-lg z-50"
+        class="hidden md:block absolute left-0 right-0 bg-muted border-b border-border shadow-lg z-50"
         :style="{ 
           '--menu-selected-bg': menuColors.selectedBg,
           '--menu-selected-text': menuColors.selectedText,
@@ -195,8 +198,8 @@ watch(mobileMenuOpen, (isOpen) => {
                 <!-- Render regular items (buttons/images) -->
                 <template v-for="(subItem, idx) in item.items" :key="subItem.text + (subItem.link || '')">
                   <a
-                    v-if="!subItem.children"
-                    :href="subItem.link"
+                    v-if="!subItem.children && subItem?.link"
+                    :href="subItem?.link"
                     @click="closeMenu"
                     :class="[
                       subItem.image 
@@ -222,8 +225,9 @@ watch(mobileMenuOpen, (isOpen) => {
                       {{ subItem.title || subItem.text }}
                     </div>
                     <ul class="space-y-1">
-                      <li v-for="child in subItem.children" :key="child.link">
+                      <li v-for="child in subItem.children" :key="child?.link || child?.text">
                         <a
+                          v-if="child && child.link"
                           :href="child.link"
                           @click="closeMenu"
                           :class="`text-xs ${child.bold ? 'font-bold' : 'font-medium'} hover:text-gray-300 transition-colors`"
@@ -289,7 +293,7 @@ watch(mobileMenuOpen, (isOpen) => {
                 <!-- Simple link items -->
                 <a
                   v-if="item.link && !item.items"
-                  :href="item.link"
+                  :href="item.link || '#'"
                   @click="closeMobileMenu"
                   class="block px-4 py-3 text-white hover:bg-gray-800 rounded-lg transition-colors font-medium"
                 >
@@ -328,7 +332,7 @@ watch(mobileMenuOpen, (isOpen) => {
                       <template v-for="subItem in item.items" :key="subItem.text + (subItem.link || '')">
                         <!-- Regular submenu items -->
                         <a
-                          v-if="!subItem.children"
+                          v-if="!subItem.children && subItem.link"
                           :href="subItem.link"
                           @click="closeMobileMenu"
                           class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-800 rounded-lg transition-colors"
@@ -342,18 +346,10 @@ watch(mobileMenuOpen, (isOpen) => {
                           <div class="px-4 text-sm font-semibold text-gray-400 mb-1">
                             {{ subItem.title || subItem.text }}
                           </div>
-                          <div class="space-y-1">
-                            <a
-                              v-for="child in subItem.children"
-                              :key="child.link"
+                          <div class="space-y-1" v-for="child in subItem.children" :key="child?.link || child?.text"><a
                               :href="child.link"
-                              @click="closeMobileMenu"
                               class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-800 rounded-lg transition-colors"
-                              :class="{ 'font-bold': child.bold }"
-                            >
-                              {{ child.text }}
-                            </a>
-                          </div>
+                              :class="{ 'font-bold': child.bold }" @click="closeMobileMenu">{{ child.text }}</a></div>
                         </div>
                       </template>
                     </div>

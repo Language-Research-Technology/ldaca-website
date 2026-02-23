@@ -193,12 +193,12 @@ export default defineConfig({
             title: 'By Type',
             divider: true,
             children: [
-              { text: 'Audio & Video', link: '/by-type/audio-video/' },
-              { text: 'Guides', link: '/by-type/guides/' },
-              { text: 'Interviews', link: '/by-type/interviews/' },
-              { text: 'Presentations', link: '/by-type/presentations/' },
+              { text: 'Audio & Video', link: '/resources/tag?type=audio-video' },
+              { text: 'Guides', link: '/resources/tag?type=guides' },
+              { text: 'Interviews', link: '/resources/tag?type=interviews' },
+              { text: 'Presentations', link: '/resources/tag?type=presentations' },
               { text: 'Publications', link: '/news/publications/' },
-              { text: 'Technologies & Tools', link: '/by-type/technologies-tools/' },
+              { text: 'Technologies & Tools', link: '/resources/tag?type=technologies-tools' },
               // { text: 'View all', link: '/resources/general-resources/case-studies/', bold: true }
             ]
           },
@@ -206,10 +206,9 @@ export default defineConfig({
             title: 'By Subject',
             divider: true,
             children: [
-              { text: 'Language Documentation', link: '/topics/language-documentation' },
-              { text: 'Fieldwork Techniques', link: '/topics/fieldwork-techniques' },
+              { text: 'Language Documentation', link: '/resources/tag?type=language-documentation' },
+              { text: 'Fieldwork Techniques', link: '/resources/tag?type=fieldwork-techniques' },
               { text: 'View all', link: '/resources/general-resources/case-studies/', bold: true }
-
             ]
           },
           {

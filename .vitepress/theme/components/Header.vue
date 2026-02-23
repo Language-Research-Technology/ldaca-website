@@ -14,7 +14,7 @@ const headerBgColor = theme.value.headerBgColor ?? 'transparent'
     <div class="container mx-auto py-4 px-6">
       <div class="flex items-center">
         <!-- Logo centered using absolute positioning within relative parent -->
-        <div class="absolute left-1/2 -translate-x-1/2 pt-2">
+        <div class="absolute left-1/2 -translate-x-1/2 pt-2 mt-2">
           <a href="/" class="flex items-center gap-2 hover:opacity-80 transition-opacity">
             <img v-if="logo.light" :src="logo.light" alt="LDaCA" class="h-12 sm:h-14 md:h-16 w-auto p-2">
             <span v-if="!logo.light" class="font-bold text-base sm:text-lg">{{ site.title }}</span>

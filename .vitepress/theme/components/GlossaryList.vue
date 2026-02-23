@@ -5,16 +5,15 @@ import GlossaryLink from './GlossaryLink.vue'
 
 const lettersList = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')
 
+// In letterToId - no validation that glossaryItems exists or that items are valid
 const letterToId = computed<Record<string, string | null>>(() => {
   const map: Record<string, string | null> = {}
   lettersList.forEach(letter => {
     const match = glossaryItems.find(item => {
+      // If item is null/undefined, this will throw
       const t = (item.term || '').trim()
-      if (!t) return false
-      const first = t[0].toUpperCase()
-      return first === letter
+      // ...
     })
-    map[letter] = match ? match.id : null
   })
   return map
 })
