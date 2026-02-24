@@ -3,6 +3,7 @@ import { fileURLToPath, URL } from 'node:url'
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
+import { aliasesPlugin } from './plugins/aliases'
 
 function generateGlossaryData() {
   const glossaryDir = path.join(__dirname, '../content/resources/glossary/items')
@@ -99,6 +100,7 @@ export default defineConfig({
           }
         }
       },
+      aliasesPlugin(),
       {
         name: 'convert-glossary-shortcode',
         enforce: 'pre',

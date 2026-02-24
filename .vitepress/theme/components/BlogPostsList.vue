@@ -1,8 +1,23 @@
 <script setup>
 import { computed, onMounted } from 'vue'
-import { useData } from 'vitepress'
+import { useData, withBase } from 'vitepress'
 
-const { site } = useData()
+const { site, theme } = useData()
+
+const imageFallback = theme.value.postImageFallback ||
+  'data:image/svg+xml;utf8,' +
+  encodeURIComponent(
+    '<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">' +
+      '<rect width="96" height="96" fill="#e5e7eb"/>' +
+      '<text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="10" fill="#6b7280">No Image</text>' +
+    '</svg>'
+  )
+
+const handleImageError = (event) => {
+  const img = event?.target
+  if (!img || !img.src || img.src === imageFallback) return
+  img.src = imageFallback
+}
 
 const props = defineProps({
   posts: {
@@ -92,9 +107,10 @@ onMounted(() => {
             <div class="flex gap-4 items-start">
               <img
                 v-if="post.image"
-                :src="post.image"
+                :src="withBase(post.image)"
                 :alt="post.title"
                 class="w-24 h-24 object-cover rounded-none flex-shrink-0 self-start mt-0"
+                @error="handleImageError"
               />
               <div class="flex-1 pt-0">
                 <h3 class="text-2xl font-bold mt-0 mb-2 text-gray-900">

@@ -23,14 +23,14 @@ const headerBgColor = theme.value.headerBgColor ?? 'transparent'
         </div>
         
         <!-- Right quick menu - Desktop (≥1024px) -->
-        <div class="hidden lg:flex items-center gap-6 ml-auto">
+        <div class="hidden lg:flex items-center gap-6 ml-auto pl-32">
           <a href="/news/posts/" class="text-sm text-white hover:text-gray-300 transition-colors">Blog</a>
           <a href="/news/newsletter" class="text-sm text-white hover:text-gray-300 transition-colors">Newsletter</a>
           <VPNavBarSearch />
         </div>
         
         <!-- Right quick menu - Tablet (768-1023px) -->
-        <div class="hidden md:flex lg:hidden items-center gap-4 ml-auto">
+        <div class="hidden md:flex lg:hidden items-center gap-3 ml-auto pl-24">
           <a href="/news/posts/" class="text-xs text-white hover:text-gray-300 transition-colors">Blog</a>
           <a href="/newsletter" class="text-xs text-white hover:text-gray-300 transition-colors">Newsletter</a>
           <VPNavBarSearch />
