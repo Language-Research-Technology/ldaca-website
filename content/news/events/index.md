@@ -10,11 +10,6 @@ hero:
 #   - "/events/"
 ---
 
-<script setup>
-    import SubPageHero from '../../../.vitepress/theme/components/SubPageHero.vue'
-    import Carousel from '../../../.vitepress/theme/components/Carousel.vue'
-</script>
-
 <SubPageHero />
 
 <Carousel 

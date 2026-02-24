@@ -7,9 +7,7 @@ hero:
 ---
 
 <script setup>
-    import SubPageHero from '../../../.vitepress/theme/components/SubPageHero.vue'
     import LatestBlog from '../../../.vitepress/theme/components/LatestBlog.vue'
-
 </script>
 
 <SubPageHero />

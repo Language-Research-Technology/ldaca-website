@@ -6,12 +6,6 @@ hero:
   description: "License, share & govern description goes here."
 ---
 
-<script setup>
-    import SubPageHero from '../../../.vitepress/theme/components/SubPageHero.vue'
-    import Carousel from '../../../.vitepress/theme/components/Carousel.vue'
-    import DataPortalBox from '../../../.vitepress/theme/components/DataPortalBox.vue'
-</script>
-
 <SubPageHero />
 
 <DataPortalBox 
