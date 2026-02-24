@@ -8,7 +8,7 @@ hero:
 
 <script setup>
     import SubPageHero from '../../../.vitepress/theme/components/SubPageHero.vue'
-    import HomeCarousel from '../../../.vitepress/theme/components/HomeCarousel.vue'
+    import Carousel from '../../../.vitepress/theme/components/Carousel.vue'
     import DataPortalBox from '../../../.vitepress/theme/components/DataPortalBox.vue'
 </script>
 
@@ -21,7 +21,7 @@ hero:
   buttonLink="/resources/ldaca-resources/data-onboarding-process/"
 />
 
-<HomeCarousel 
+<Carousel 
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="TOOLS & NOTEBOOKS"
@@ -46,7 +46,7 @@ hero:
       },
     ]"/>
 
-<HomeCarousel 
+<Carousel 
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="GUIDES"
@@ -68,7 +68,7 @@ hero:
       },
     ]"/>
 
-<HomeCarousel 
+<Carousel 
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="ON THE BLOG"
@@ -87,7 +87,7 @@ hero:
       }
     ]"/>
 
-<HomeCarousel 
+<Carousel 
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="ADDITIONAL RESOURCES"
@@ -106,7 +106,7 @@ hero:
       }
     ]"/>
 
-<HomeCarousel 
+<Carousel 
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="COLLABORATORS"

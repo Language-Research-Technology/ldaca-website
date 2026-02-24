@@ -8,7 +8,7 @@ import { useData } from 'vitepress'
 import HomeHero from '../.vitepress/theme/components/HomeHero.vue'
 import DataPortalBox from '../.vitepress/theme/components/DataPortalBox.vue'
 import HowWeCanHelp from '../.vitepress/theme/components/HowWeCanHelp.vue'
-import HomeCarousel from '../.vitepress/theme/components/HomeCarousel.vue'
+import Carousel from '../.vitepress/theme/components/Carousel.vue'
 import LatestBlog from '../.vitepress/theme/components/LatestBlog.vue'
 </script>
 
@@ -68,7 +68,7 @@ description = "The Language Data Commons of Australia brings together digital in
 ]"
 />
 
-<HomeCarousel 
+<Carousel 
   backgroundColor="#EAE4D68C"
   :opacity="55"
   heading="PROJECTS, CASE STUDIES & RESOURCES"
@@ -101,7 +101,7 @@ description = "The Language Data Commons of Australia brings together digital in
 
 <LatestBlog />
 
-<HomeCarousel 
+<Carousel 
   heading="EVENTS & RECORDINGS"
   :items="[
     {

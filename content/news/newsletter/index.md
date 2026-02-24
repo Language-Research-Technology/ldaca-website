@@ -9,9 +9,9 @@ description: "Catch up with LDaCA by reading our past newsletters."
 
 An archive of our previous newsletters.
 
-### [Latest Issue](https://mailchi.mp/23b267c0970e/ldaca-newsletter-quarter-2-6748768?)
+### [Latest Issue](https://us13.campaign-archive.com/?u=ef8667be63aefb1e35062a797&id=742b3862ba)
 
-<iframe src="https://mailchi.mp/23b267c0970e/ldaca-newsletter-quarter-2-6748768?" width="100%" height="500px" style="border:1px solid black;">
+<iframe src="https://us13.campaign-archive.com/?u=ef8667be63aefb1e35062a797&id=742b3862ba" width="100%" height="500px" style="border:1px solid black;">
 </iframe>
 
 <br>
@@ -20,7 +20,8 @@ An archive of our previous newsletters.
 <summary><b><font color="#79A38D">Previous Issues</font></b></summary>
 <details>
 <summary>2025</summary>
-<p><b><a href = "https://mailchi.mp/95dd7e4bbaf0/ldaca-newsletter-quarter-2-6747580?" target = "_blank">Quarter 3 2025</a></b></p>
+<p><b><a href = "https://us13.campaign-archive.com/?u=ef8667be63aefb1e35062a797&id=d694ed28f5" target = "_blank">Quarter 4 2025</a></b></p>
+<p><b><a href = "https://us13.campaign-archive.com/?u=ef8667be63aefb1e35062a797&id=8c3a6f98f9" target = "_blank">Quarter 3 2025</a></b></p>
 <p><b><a href = "https://us13.campaign-archive.com/?u=ef8667be63aefb1e35062a797&id=65fc97918e" target = "_blank">Quarter 2 2025</a></b></p>
 <p><b><a href = "https://us13.campaign-archive.com/?u=ef8667be63aefb1e35062a797&id=572c1705bd" target = "_blank">Quarter 1 2025</a></b></p>
 </details>

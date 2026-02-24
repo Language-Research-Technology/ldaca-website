@@ -1,18 +1,9 @@
 ---
 layout: home
 title: "Find & Access"
-hero:
-  tagline: "FIND & ACCESS"
-  description: "Find & access description goes here."
 ---
 
-<script setup>
-    import SubPageHero from '../../../.vitepress/theme/components/SubPageHero.vue'
-    import HomeCarousel from '../../../.vitepress/theme/components/HomeCarousel.vue'
-    import DataPortalBox from '../../../.vitepress/theme/components/DataPortalBox.vue'
-</script>
-
-<SubPageHero />
+<SubPageHero title="Find & Access" description="Find & access description goes here."/>
 
 <DataPortalBox 
   title="Interested in contributing your data?"
@@ -21,7 +12,7 @@ hero:
   buttonLink="/resources/ldaca-resources/data-onboarding-process/"
 />
 
-<HomeCarousel 
+<Carousel 
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="AVAILABLE PORTALS"
@@ -43,7 +34,7 @@ hero:
       },
     ]"/>
 
-<HomeCarousel 
+<Carousel 
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="COLLECTIONS"
@@ -135,7 +126,7 @@ hero:
       },
     ]"/>
 
-<HomeCarousel 
+<Carousel 
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="NOTEBOOKS"
@@ -152,7 +143,7 @@ hero:
       },
     ]"/>
 
-<HomeCarousel 
+<Carousel 
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="GUIDES"
@@ -169,7 +160,7 @@ hero:
       },
     ]"/>
 
-<HomeCarousel 
+<Carousel 
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="ON THE BLOG"
@@ -188,7 +179,7 @@ hero:
       }
     ]"/>
 
-<HomeCarousel 
+<Carousel 
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="ADDITIONAL RESOURCES"
@@ -213,7 +204,7 @@ hero:
       }
     ]"/>
 
-<HomeCarousel 
+<Carousel 
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="COLLABORATORS"

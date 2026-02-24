@@ -8,7 +8,7 @@ hero:
 
 <script setup>
     import SubPageHero from '../../../../.vitepress/theme/components/SubPageHero.vue'
-    import HomeCarousel from '../../../../.vitepress/theme/components/HomeCarousel.vue'
+    import Carousel from '../../../../.vitepress/theme/components/Carousel.vue'
 </script>
 
 <SubPageHero 
@@ -16,7 +16,7 @@ hero:
     description='Projects description here'
 />
 
-<HomeCarousel 
+<Carousel 
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="FEATURED PROJECTS"
@@ -35,7 +35,7 @@ hero:
       }
     ]"/>
 
-<HomeCarousel 
+<Carousel 
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="COLLABORATORS"
@@ -70,7 +70,7 @@ hero:
     description='Case studies description here'
 />
 
-<HomeCarousel 
+<Carousel 
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="CASE STUDIES"

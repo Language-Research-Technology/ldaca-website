@@ -8,19 +8,19 @@ hero:
 
 <script setup>
     import SubPageHero from '../../../.vitepress/theme/components/SubPageHero.vue'
-    import HomeCarousel from '../../../.vitepress/theme/components/HomeCarousel.vue'
+    import Carousel from '../../../.vitepress/theme/components/Carousel.vue'
 </script>
 
 <SubPageHero />
 
-<HomeCarousel 
+<Carousel 
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="FUTURE TRAINING EVENTS"
   :items="[
     ]"/>
 
-<HomeCarousel 
+<Carousel 
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="TUTORIALS"
@@ -32,7 +32,7 @@ hero:
       },
     ]"/>
 
-<HomeCarousel 
+<Carousel 
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="VIDEOS"
@@ -45,7 +45,7 @@ hero:
       },
     ]"/>
 
-<HomeCarousel 
+<Carousel 
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="ON THE BLOG"
@@ -60,7 +60,7 @@ hero:
       }
     ]"/>
 
-<HomeCarousel 
+<Carousel 
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="ADDITIONAL RESOURCES"

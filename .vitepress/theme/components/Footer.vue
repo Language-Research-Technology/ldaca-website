@@ -108,26 +108,22 @@ footer {
         <!-- Column 3: Newsletter & Contact -->
         <div class="">
           <!-- Newsletter Section -->
-          <div class="mb-8">
-            <h3 class="font-semibold text-lg mb-4 text-foreground">SUBSCRIBE TO OUR NEWSLETTER</h3>
-            <form @submit.prevent class="flex flex-col gap-2 mb-3">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                class="px-3 py-2 rounded-none border border-border bg-background text-sm outline-none focus:ring-2 focus:ring-primary"
-              />
-              <button
-                type="submit"
+          <div class="mb-8 pt-6 border-t border-border">
+              <a
+                href="https://ldaca.us13.list-manage.com/subscribe?u=ef8667be63aefb1e35062a797&id=de4b682e46"
+                target="_blank"
+                rel="noopener noreferrer"
                 :style="{ backgroundColor: buttonColors.bg, color: buttonColors.text }"
-                class="px-4 py-2 rounded-none font-semibold hover:opacity-90 transition-opacity"
+                class="px-4 py-2 rounded-none font-semibold hover:opacity-90 transition-opacity mb-3 flex items-center justify-center text-center"
               >
-                Subscribe
-              </button>
-            </form>
-            <a href="/news/newsletter" class="text-sm text-muted-foreground hover:text-primary transition-colors">
+                SUBSCRIBE TO OUR NEWSLETTER
+              </a>
+          </div>
+          <div>
+              <a href="/news/newsletter" class="text-sm text-muted-foreground hover:text-primary transition-colors">
               View past newsletters
             </a>
-          </div>
+            </div>
 
           <!-- Contact Section -->
           <div class="mb-8 pt-6 border-t border-border">
