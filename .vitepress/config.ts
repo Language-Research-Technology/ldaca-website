@@ -127,6 +127,9 @@ export default defineConfig({
     ]
   },
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     // Logo configuration
     logo: {
       light: '/images/LDaCA_logo_Light-02-02.svg',
@@ -155,6 +158,12 @@ export default defineConfig({
       borderBottom: '80px',
       borderLeft: '50vw'
     } as any,
+    partnerLogos: [
+      { src: "https://placehold.co/500x100", href: 'https://example.com/partner1' },
+      { src: "https://placehold.co/500x100", href: 'https://example.com/partner2' },
+      { src: "https://placehold.co/500x100", href: 'https://example.com/partner3' },
+      { src: "https://placehold.co/500x100", href: 'https://example.com/partner3' }
+    ],
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       // { 

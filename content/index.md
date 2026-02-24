@@ -1,16 +1,6 @@
 ---
 layout: home
 title: "Language Data Commons of Australia"
-hero:
-  name: "LDaCA Website"
-  tagline: "Connecting People with Language Data."
-  description: "
-  The Language Data Commons of Australia brings together digital infrastructure, ethical governance, and long-term care so that language materials remain findable and usable in culturally appropriate ways into the future.
-  <br/>
-  LDaCA offers practical tools, guidance, and infrastructure for everyone working with language data. Whether you collect, steward, discover, analyse or reuse language materials, we can help you do that work well."
-  actions:
-    - text: Get Started
-      link: /guide/
 
 ---
 <script setup>
@@ -22,18 +12,14 @@ import HomeCarousel from '../.vitepress/theme/components/HomeCarousel.vue'
 import LatestBlog from '../.vitepress/theme/components/LatestBlog.vue'
 </script>
 
-<!-- Chenoa -->
-<!-- https://www.youtube.com/watch?v=EyO3A4rbCPU -->
-<!-- Simon -->
-<!-- https://www.youtube.com/watch?v=SwYDAYmdm70 -->
-<!-- Nick -->
-<!-- https://www.youtube.com/watch?v=fIcChn11PdI -->
+<HomeHero backgroundImage="/images/black_patternback.svg" 
+:videos = "['vovLkye-xLw']"
+tagline = "Connecting People with Language Data"
+description = "The Language Data Commons of Australia brings together digital infrastructure, ethical governance, and long-term care so that language materials remain findable and usable in culturally appropriate ways into the future.
+  <br/>
+  LDaCA offers practical tools, guidance, and infrastructure for everyone working with language data. Whether you collect, steward, discover, analyse or reuse language materials, we can help you do that work well."
+  />
 
-
-<HomeHero 
-  :videos = "['vovLkye-xLw']"
-  backgroundImage="/images/black_patternback.svg" 
-/>
 
 <DataPortalBox 
   title="Use the Data Portal"

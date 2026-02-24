@@ -1,3 +1,6 @@
+@import 'vitepress/dist/client/theme-default/styles/vars.css';
+@import 'vitepress/dist/client/theme-default/styles/icons.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

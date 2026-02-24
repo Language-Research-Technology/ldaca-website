@@ -1,5 +1,6 @@
 <script setup>
 import { useData } from 'vitepress'
+import PartnerLogos from './PartnerLogos.vue'
 
 const { site, theme } = useData()
 const logo = theme.value.logo ?? {}
@@ -17,6 +18,7 @@ const nav = theme.value.nav ?? []
 const footerNav = nav.filter(item => item.text !== 'About' && item.text !== 'Contact')
 const buttonColors = theme.value.buttonColors || { bg: '#79A38D', text: '#ffffff' }
 const footerBgColor = theme.value.footerBgColor || '#EAE4D6'
+const partnerLogos = theme.value.partnerLogos || []
 </script>
 <style scoped>
   * { margin: 0; padding: 0; }
@@ -159,34 +161,7 @@ footer {
       </div>
 
       <!-- Partner Logos -->
-      <div class="mt-12 pt-8 border-t border-border">
-        <div class="flex items-center justify-center gap-8 flex-wrap">
-          <a href="#" class="opacity-60 hover:opacity-100 transition-opacity">
-            <svg class="h-8 w-24" viewBox="0 0 100 32" fill="currentColor">
-              <rect x="10" y="8" width="80" height="16" rx="4" fill="currentColor" opacity="0.3"/>
-              <text x="50" y="20" text-anchor="middle" font-size="10" fill="currentColor">Partner 1</text>
-            </svg>
-          </a>
-          <a href="#" class="opacity-60 hover:opacity-100 transition-opacity">
-            <svg class="h-8 w-24" viewBox="0 0 100 32" fill="currentColor">
-              <rect x="10" y="8" width="80" height="16" rx="4" fill="currentColor" opacity="0.3"/>
-              <text x="50" y="20" text-anchor="middle" font-size="10" fill="currentColor">Partner 2</text>
-            </svg>
-          </a>
-          <a href="#" class="opacity-60 hover:opacity-100 transition-opacity">
-            <svg class="h-8 w-24" viewBox="0 0 100 32" fill="currentColor">
-              <rect x="10" y="8" width="80" height="16" rx="4" fill="currentColor" opacity="0.3"/>
-              <text x="50" y="20" text-anchor="middle" font-size="10" fill="currentColor">Partner 3</text>
-            </svg>
-          </a>
-          <a href="#" class="opacity-60 hover:opacity-100 transition-opacity">
-            <svg class="h-8 w-24" viewBox="0 0 100 32" fill="currentColor">
-              <rect x="10" y="8" width="80" height="16" rx="4" fill="currentColor" opacity="0.3"/>
-              <text x="50" y="20" text-anchor="middle" font-size="10" fill="currentColor">Partner 4</text>
-            </svg>
-          </a>
-        </div>
-      </div>
+      <PartnerLogos :logos="partnerLogos" />
 
       <!-- Bottom Links -->
       <div class="mt-8 pt-6 border-t border-border">

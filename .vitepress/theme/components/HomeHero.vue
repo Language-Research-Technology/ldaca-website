@@ -19,7 +19,11 @@ const props = defineProps({
   },
   title: {
     type: String,
-    default: 'Welcome to ldaca'
+    default: 'title'
+  },
+  tagline: {
+    type: String,
+    default: 'tagline'
   },
   description: {
     type: String,
@@ -66,8 +70,8 @@ const videoUrl = computed(() => {
       :style="{ backgroundImage: `url(${backgroundImage})`, backgroundColor: headerBgColor }">
       <div class="absolute inset-0 rounded-none z-0"></div>
       <div class="max-w-[50%] relative z-10 xs:max-w-full">
-        <h1 class="text-3xl font-bold m-0 text-white">{{ frontmatter.hero?.tagline }}</h1>
-        <div class="text-lg my-4 mb-8 text-white/90 leading-relaxed" v-html="frontmatter.hero.description"></div>
+        <h1 class="text-3xl font-bold m-0 text-white">{{ tagline }}</h1>
+        <div class="text-lg my-4 mb-8 text-white/90 leading-relaxed" v-html="description"></div>
         <a :href="buttonLink" target="_blank" rel="noopener noreferrer" :style="{ backgroundColor: buttonColors.bg, color: buttonColors.text }"
           class="inline-block px-6 py-3 rounded-none font-semibold no-underline transition-colors hover:opacity-90">
           {{ buttonText }}
