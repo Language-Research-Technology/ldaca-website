@@ -122,13 +122,14 @@ onMounted(() => {
                   {{ post.description }}
                 </p>
                 <div v-if="post.tags" class="flex flex-wrap gap-2">
-                  <span
+                  <a
                     v-for="tag in post.tags"
                     :key="tag"
-                    class="inline-block px-3 py-1 bg-gray-100 text-gray-700 text-sm rounded-full"
+                    :href="`/tags#${tag.toLowerCase().replace(/\s+/g, '-')}`"
+                    class="inline-block px-3 py-1 bg-gray-100 text-gray-700 text-sm rounded-full hover:bg-gray-200 hover:text-primary transition-colors"
                   >
                     {{ tag }}
-                  </span>
+                  </a>
                 </div>
               </div>
             </div>

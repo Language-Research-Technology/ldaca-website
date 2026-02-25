@@ -69,13 +69,59 @@ Kala Lagaw Ya is a language spoken in the Torres Strait Islands. The language ha
 <br />
 
 <table>
-<tr><td><b>Name</b></td><td><b>ISO 639</b></td><td><b>Glottolog</b></td><td><b>AustLang</b></td><td><b>Notes</b></td></tr>
-<tr><td>Kala Lagaw Ya</td><td>mwp</td><td>kala1377</td><td>Y1</td><td><GlossaryLink display="AustLang" id="austlang" />: Marked with symbol ^ which indicates that the name is used to refer to a language and a dialect of the language.</td></tr>
-<tr><td>Kalaw Kawaw Ya</td><td></td><td>kala1378</td><td>Y2</td><td>Ethnologue: Kalaw Kawaw is a dialect.</td></tr>
-<tr><td>Kawrareg</td><td></td><td>kawr1234</td><td></td><td></td></tr>
-<tr><td>Kulkalgau Ya</td><td></td><td>kulk1234</td><td>Y4</td><td></td></tr>
-<tr><td>Mabuyag</td><td></td><td>mabu1234</td><td></td><td>Ethnologue: Mabuiag is an alternate name.</td></tr>
-<tr><td>Kawalgaw Ya</td><td></td><td></td><td>Y5</td><td><GlossaryLink display="AustLang" id="austlang" />: Kaurareg is an alternative name (probably the same as <GlossaryLink display="Glottolog" id="glottolog" /> kawr1234).</td></tr>
+  <thead>
+    <tr>
+      <td><b>Name</b></td>
+      <td><b>ISO 639</b></td>
+      <td><b>Glottolog</b></td>
+      <td><b>AustLang</b></td>
+      <td><b>Notes</b></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Kala Lagaw Ya</td>
+      <td>mwp</td>
+      <td>kala1377</td>
+      <td>Y1</td>
+      <td><GlossaryLink display="AustLang" id="austlang" />: Marked with symbol ^ which indicates that the name is used to refer to a language and a dialect of the language.</td>
+    </tr>
+    <tr>
+      <td>Kalaw Kawaw Ya</td>
+      <td></td>
+      <td>kala1378</td>
+      <td>Y2</td>
+      <td>Ethnologue: Kalaw Kawaw is a dialect.</td>
+    </tr>
+    <tr>
+      <td>Kawrareg</td>
+      <td></td>
+      <td>kawr1234</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Kulkalgau Ya</td>
+      <td></td>
+      <td>kulk1234</td>
+      <td>Y4</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Mabuyag</td>
+      <td></td>
+      <td>mabu1234</td>
+      <td></td>
+      <td>Ethnologue: Mabuiag is an alternate name.</td>
+    </tr>
+    <tr>
+      <td>Kawalgaw Ya</td>
+      <td></td>
+      <td></td>
+      <td>Y5</td>
+      <td><GlossaryLink display="AustLang" id="austlang" />: Kaurareg is an alternative name (probably the same as <GlossaryLink display="Glottolog" id="glottolog" /> kawr1234).</td>
+    </tr>
+  </tbody>
 </table>
 
 <br />
