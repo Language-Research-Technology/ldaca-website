@@ -1,12 +1,9 @@
 ---
 layout: home
 title: "Process & Analyse"
-hero:
-  tagline: "PROCESS & ANALYSE"
-  description: "Process & analyse description goes here."
 ---
 
-<SubPageHero />
+<SubPageHero title="Process & Analyse" description="Process & analyse description goes here."/>
 
 <DataPortalBox 
   title="Interested in contributing your data?"

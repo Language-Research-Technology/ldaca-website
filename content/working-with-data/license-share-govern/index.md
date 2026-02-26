@@ -1,12 +1,9 @@
 ---
 layout: home
 title: "License, Share & Govern"
-hero:
-  tagline: "LICENSE, SHARE & GOVERN"
-  description: "License, share & govern description goes here."
 ---
 
-<SubPageHero />
+<SubPageHero title="License, Share & Govern" description="License, share & govern description goes here."/>
 
 <DataPortalBox 
   title="Interested in contributing your data?"

@@ -1,12 +1,9 @@
 ---
 layout: home
 title: "Organise & Describe"
-hero:
-  tagline: "ORGANISE & DESCRIBE"
-  description: "Organise & describe description goes here."
 ---
 
-<SubPageHero />
+<SubPageHero title="Organise & Describe" description="Organise & describe description goes here."/>
 
 <DataPortalBox 
   title="Interested in contributing your data?"

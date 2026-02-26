@@ -181,10 +181,10 @@ export default defineConfig({
         text: 'Working with Data',
         subtitle: 'TODO add subtitle',
         items: [
-          { text: 'Find & access', link: '/working-with-data/find-access/' },
-          { text: 'Organise & describe', link: '/working-with-data/organise-describe/' },
-          { text: 'License, share & govern', link: '/working-with-data/license-share-govern/' },
-          { text: 'Process & analyse', link: '/working-with-data/process-analyse/' }
+          { text: 'Find & Access', link: '/working-with-data/find-access/' },
+          { text: 'Organise & Describe', link: '/working-with-data/organise-describe/' },
+          { text: 'License, Share & Govern', link: '/working-with-data/license-share-govern/' },
+          { text: 'Process & Analyse', link: '/working-with-data/process-analyse/' }
         ]
       },
       {

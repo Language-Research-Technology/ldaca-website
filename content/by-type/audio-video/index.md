@@ -1,12 +1,9 @@
 ---
 layout: home
 title: "Audio & Video"
-hero:
-  tagline: "AUDIO & VIDEO"
-  description: "Audio & video description goes here."
 ---
 
-<SubPageHero />
+<SubPageHero title="Audio & Video" description="Audio & video description goes here."/>
 
 <Carousel 
   backgroundColor="#EAE4D68C"

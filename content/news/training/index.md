@@ -1,12 +1,9 @@
 ---
 layout: home
 title: "Training"
-hero:
-  tagline: "TRAINING"
-  description: "Training description goes here."
 ---
 
-<SubPageHero />
+<SubPageHero title="Training" description="Training description goes here."/>
 
 <Carousel 
   backgroundColor="#EAE4D68C"

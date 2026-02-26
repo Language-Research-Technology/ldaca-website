@@ -1,16 +1,11 @@
 ---
 layout: home
 title: "Events"
-hero:
-  tagline: "EVENTS"
-  description: "Events description goes here."
-# draft: false
-# description: "Browse the project's upcoming events."
 # aliases:
 #   - "/events/"
 ---
 
-<SubPageHero />
+<SubPageHero title="Events" description="Events description goes here."/>
 
 <Carousel 
   backgroundColor="#EAE4D68C"

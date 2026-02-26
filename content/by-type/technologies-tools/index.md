@@ -1,16 +1,13 @@
 ---
 layout: home
 title: "Technologies & Tools"
-hero:
-  tagline: "TECHNOLOGIES & TOOLS"
-  description: "Technologies & tools description goes here."
 ---
 
 <script setup>
     import LatestBlog from '../../../.vitepress/theme/components/LatestBlog.vue'
 </script>
 
-<SubPageHero />
+<SubPageHero title="Technologies & Tools" description="Technologies & tools description goes here."/>
 
 <LatestBlog 
   :items="[

@@ -1,16 +1,13 @@
 ---
 layout: home
 title: "Presentations"
-hero:
-  tagline: "PRESENTATIONS"
-  description: "Presentations description goes here."
 ---
 
 <script setup>
     import LatestBlog from '../../../.vitepress/theme/components/LatestBlog.vue'
 </script>
 
-<SubPageHero />
+<SubPageHero title="Presentations" description="Presentations description goes here."/>
 
 <LatestBlog 
   :items="[
