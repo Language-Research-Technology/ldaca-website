@@ -25,6 +25,7 @@ title: "Find & Access"
       {
         title: 'PARADISEC Portal',
         description: 'TODO description.',
+        image: 'https://catalog.paradisec.org.au/logo.jpg',
         link: 'https://catalog.paradisec.org.au/oni/'
       },
       {

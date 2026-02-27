@@ -3,6 +3,7 @@ title: "Basic Navigation"
 date: 2023-04-22T15:42:05+10:00
 draft: false
 description: "A guide to navigating the various sections of the Crate-O interface."
+image: "/resources/user-guides/crate-o/basic-navigation/entity_properties.jpeg"
 weight: 2
 ---
 

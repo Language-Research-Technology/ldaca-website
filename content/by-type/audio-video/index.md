@@ -19,7 +19,7 @@ title: "Audio & Video"
       {
         title: 'What is a Language Data Commons anyway?',
         description: 'The \'What is a Language Data Commons Anyway?\' series serves up speedy answers to your biggest questions about the Language Data Commons of Australia. What’s language data? Why does it matter? Who uses a language data commons and how does it even work? From giant storage questions to tricky metadata mysteries, each short video helps clear things up.',
-        image: 'https://i.ytimg.com/pl_c/PLpaCkX03fhibjx71L1dMNHLTEioXOECZ4/studio_square_thumbnail.jpg?sqp=CMjJgcsG-oaymwEICKoDEPABSFqi85f_AwYI6bvFyAY=&rs=AOn4CLCzYa7fL_ZAYPiUcQFfQC-R_hv3EQ',
+        image: 'https://i.ytimg.com/pl_c/PLpaCkX03fhibjx71L1dMNHLTEioXOECZ4/studio_square_thumbnail.jpg?sqp=CIC_hM0G-oaymwEICKoDEPABSFqi85f_AwYI6bvFyAY=&rs=AOn4CLCgX3ndw8tmTKhmFofzjbJJld24_w',
         link: 'https://www.youtube.com/playlist?list=PLpaCkX03fhibjx71L1dMNHLTEioXOECZ4'
       },
       {

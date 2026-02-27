@@ -29,6 +29,7 @@ title: "Process & Analyse"
       },
       {
         title: 'Tools from LADAL',
+        image: 'https://ladal.edu.au/images/LadalGrey.png',
         link: ''
       },
       {
@@ -55,6 +56,7 @@ title: "Process & Analyse"
       {
         title: 'LADAL Tutorials',
         description: 'Contains all tutorials provided by LADAL, organised in seven sections.',
+        image: 'https://ladal.edu.au/images/LadalGrey.png',
         link: 'https://ladal.edu.au/tutorials.html'
       },
     ]"/>

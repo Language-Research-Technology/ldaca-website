@@ -3,6 +3,7 @@ title: "Access Policy"
 date: 2023-10-03T12:49:58+11:00
 draft: false
 description: "Outlines the LDaCA Access Policy, making data appropriately accessible in accordance with legal, moral and ethical considerations of data sharing."
+image: "/resources/ldaca-resources/access-policy/LDaCA_Terms_of_Use-updated.jpg"
 ---
 
 <br>

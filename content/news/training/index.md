@@ -20,6 +20,7 @@ title: "Training"
       {
         title: 'LADAL Tutorials',
         description: 'Contains all tutorials provided by LADAL, organised in seven sections.',
+        image: 'https://ladal.edu.au/images/LadalGrey.png',
         link: 'https://ladal.edu.au/tutorials.html'
       },
     ]"/>
@@ -32,7 +33,7 @@ title: "Training"
       {
         title: 'What is an RO-Crate?',
         description: 'An explainer about Research Object Crates (RO-Crates). Created by Otis Carmichael.',
-        image: 'https://img.youtube.com/vi/tAR-JNN3EbA/maxresdefault.jpg',
+        image: 'https://img.youtube.com/vi/tAR-JNN3EbA/sddefault.jpg',
         link: 'https://www.youtube.com/watch?v=tAR-JNN3EbA'
       },
     ]"/>

@@ -3,6 +3,7 @@ title: "General Information"
 date: 2024-05-22T15:43:09+10:00
 draft: false
 description: "A brief overview of Crate-O, RO-Crate, Schemas, Profiles and Modes."
+image: "/resources/user-guides/crate-o/general/my_corpus.png"
 weight: 1
 ---
 

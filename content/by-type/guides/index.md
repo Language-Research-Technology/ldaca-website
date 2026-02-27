@@ -113,6 +113,7 @@ title: "Guides"
       },
       {
         title: 'LADAL Tutorials',
+        image: 'https://ladal.edu.au/images/LadalGrey.png',
         link: 'https://ladal.edu.au/tutorials.html'
       }
     ]"/>

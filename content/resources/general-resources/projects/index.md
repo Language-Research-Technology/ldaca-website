@@ -1,15 +1,9 @@
 ---
 layout: home
-title: "Projects & Case Studies"
-hero:
-  tagline: "PROJECTS & CASE STUDIES"
-  description: "Projects & Case Studies description goes here."
+title: "Projects"
 ---
 
-<SubPageHero 
-    title='PROJECTS'
-    description='Projects description here'
-/>
+<SubPageHero title='Projects' description='Projects description here'/>
 
 <Carousel 
   backgroundColor="#EAE4D68C"
@@ -57,37 +51,5 @@ hero:
         description: 'ANU is a world-leading institution that supports Australia\'s development and global engagement through research, education and policy. Learn about its history, colleges, campuses, awards, governance and strategic initiatives.',
         image: 'https://logowik.com/content/uploads/images/australian-national-university-anu9387.jpg',
         link: 'https://www.anu.edu.au'
-      }
-    ]"/>
-
-<SubPageHero 
-    title='CASE STUDIES'
-    description='Case studies description here'
-/>
-
-<Carousel 
-  backgroundColor="#EAE4D68C"
-  :opacity="100"
-  heading="CASE STUDIES"
-  :items="[
-      {
-        title: 'A Master\'s Research Project',
-        link: '/resources/general-resources/case-studies/masters-research-project'
-      },
-      {
-        title: 'Data Management in Language Technology: A Case Study of Appen',
-        link: '/resources/general-resources/case-studies/data-management-appen'
-      },
-      {
-        title: 'Fieldwork in Papua New Guinea',
-        link: '/resources/general-resources/case-studies/fieldwork-png'
-      },
-      {
-        title: 'Sydney Speaks',
-        link: '/resources/general-resources/case-studies/sydney-speaks'
-      },
-      {
-        title: 'Putting data to work',
-        link: '/news/posts/putting-data-to-work'
       }
     ]"/>
