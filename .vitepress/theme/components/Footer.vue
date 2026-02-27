@@ -15,7 +15,18 @@ const borderLeft = footer.borderLeft ?? '50vw'
 
 // Get nav items, excluding About and Contact
 const nav = theme.value.nav ?? []
-const footerNav = nav.filter(item => item.text !== 'About' && item.text !== 'Contact')
+const footerNav = nav
+  .filter(item => item.text !== 'About' && item.text !== 'Contact')
+  .map(navItem => {
+    if (navItem.items) {
+      // Remove 'By Tags' group from items
+      const filteredItems = navItem.items.filter(
+        group => !(group.title && group.title.toLowerCase().includes('by tags'))
+      )
+      return { ...navItem, items: filteredItems }
+    }
+    return navItem
+  })
 const buttonColors = theme.value.buttonColors || { bg: '#79A38D', text: '#ffffff' }
 const footerBgColor = theme.value.footerBgColor || '#EAE4D6'
 const partnerLogos = theme.value.partnerLogos || []
@@ -166,7 +177,7 @@ footer {
             Help
           </a>
           <span class="text-muted-foreground">·</span>
-          <a href="/sitemap" class="text-sm text-muted-foreground hover:text-primary transition-colors">
+          <a href="/sitemap.xml" class="text-sm text-muted-foreground hover:text-primary transition-colors">
             Sitemap
           </a>
           <span class="text-muted-foreground">·</span>

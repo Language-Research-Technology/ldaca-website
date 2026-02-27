@@ -10,7 +10,7 @@ const headerBgColor = theme.value.headerBgColor ?? 'transparent'
 
 </script>
 <template>
-  <div :style="{ backgroundColor: headerBgColor }">
+  <div :style="{ backgroundColor: headerBgColor }" class="sticky top-0 z-50">
     <!-- Header row: Logo center, quick menu right -->
     <div class="container mx-auto py-4 px-6">
       <div class="flex items-center">

@@ -3,13 +3,9 @@ layout: home
 title: "Interviews"
 ---
 
-<script setup>
-    import LatestBlog from '../../../.vitepress/theme/components/LatestBlog.vue'
-</script>
-
 <SubPageHero title="Interviews" description="Interviews description goes here."/>
 
-<LatestBlog 
+<Carousel 
   :items="[
       {
         title: 'Interview with Nick Thieberger',

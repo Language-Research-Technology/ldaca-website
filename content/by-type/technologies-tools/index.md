@@ -3,13 +3,9 @@ layout: home
 title: "Technologies & Tools"
 ---
 
-<script setup>
-    import LatestBlog from '../../../.vitepress/theme/components/LatestBlog.vue'
-</script>
-
 <SubPageHero title="Technologies & Tools" description="Technologies & tools description goes here."/>
 
-<LatestBlog 
+<Carousel 
   :items="[
       {
         title: 'LDaCA Software Tools',

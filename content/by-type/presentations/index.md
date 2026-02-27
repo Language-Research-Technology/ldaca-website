@@ -3,13 +3,9 @@ layout: home
 title: "Presentations"
 ---
 
-<script setup>
-    import LatestBlog from '../../../.vitepress/theme/components/LatestBlog.vue'
-</script>
-
 <SubPageHero title="Presentations" description="Presentations description goes here."/>
 
-<LatestBlog 
+<Carousel 
   :items="[
       {
         title: 'Implementing PILARS',
