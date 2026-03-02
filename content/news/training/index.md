@@ -61,7 +61,7 @@ title: "Training"
       {
         title: 'Digital Preservation Masterclass PARADISEC',
         description: 'TODO',
-        image: 'https://img.youtube.com/vi/gRuwHx744KU/maxresdefault.jpg',
+        image: 'https://img.youtube.com/vi/gRuwHx744KU/sddefault.jpg',
         link: 'https://www.youtube.com/watch?v=gRuwHx744KU'
       },
       {

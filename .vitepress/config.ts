@@ -209,17 +209,43 @@ export default defineConfig({
               { text: 'Presentations', link: '/by-type/presentations' },
               { text: 'Publications', link: '/news/publications/' },
               { text: 'Technologies & Tools', link: '/by-type/technologies-tools' },
-              // { text: 'View all', link: '/resources/general-resources/case-studies/', bold: true }
             ]
           },
           {
             title: 'By Tags',
             divider: true,
-            children: [
-              { text: 'Open Repositories', link: '/tags/#open-repositories' },
-              { text: 'Governance', link: '/tags/#governance' },
-              { text: 'View all', link: '/tags', bold: true }
-            ]
+            children: (() => {
+              // Dynamically get top 5 tags from blog posts
+              const postsDir = path.join(__dirname, '../content/news/posts')
+              const tagCounts = {}
+              function walk(dir) {
+                for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+                  const full = path.join(dir, entry.name)
+                  if (entry.isDirectory()) {
+                    walk(full)
+                  } else if (entry.name === 'index.md') {
+                    const content = fs.readFileSync(full, 'utf-8')
+                    const { data } = matter(content)
+                    let tags = data.tags || []
+                    if (typeof tags === 'string') tags = [tags]
+                    for (const tag of tags) {
+                      if (!tag) continue
+                      tagCounts[tag] = (tagCounts[tag] || 0) + 1
+                    }
+                  }
+                }
+              }
+              if (fs.existsSync(postsDir)) walk(postsDir)
+              const topTags = Object.entries(tagCounts)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 5)
+                .map(([tag]) => ({
+                  text: tag,
+                  link: `/tags/#${tag.toLowerCase().replace(/\s+/g, '-')}`
+                }))
+              topTags.push({ text: 'View all', link: '/tags', bold: true })
+              return topTags
+            })()
           },
           {
             title: '',

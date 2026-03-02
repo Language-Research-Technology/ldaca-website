@@ -62,18 +62,18 @@ title: "License, Share & Govern"
       {
         title: 'Why can’t I access all materials anyway?',
         description: 'Hear from Chief Investigator Rose Barrowcliffe as she explains why not every item in a language data commons can or should be open to everyone. She unpacks factors that inform access and why protecting sensitive knowledge is essential to respectful language work. This short video shows how appropriate care for materials ensures they are shared in ways that are safe and meaningful.',
-        image: 'https://img.youtube.com/vi/TLVWsQUEyHk/maxresdefault.jpg',
+        image: 'https://img.youtube.com/vi/TLVWsQUEyHk/sddefault.jpg',
         link: 'https://www.youtube.com/watch?v=TLVWsQUEyHk'
       },
       {
         title: 'CARE Principles',
-        description: 'TODO',
+        description: 'The CARE Principles are a set of guidelines for respecting and protecting Indigenous Peoples\' rights and interests in data and knowledge. They complement the FAIR principles of open data and science, and aim to advance Indigenous innovation and self-determination.',
         image: 'https://images.squarespace-cdn.com/content/v1/5d3799de845604000199cd24/1567592828276-IZWQDX1H6DRCD85GRSWJ/CARE+Principles.png?format=2500w',
         link: 'https://www.gida-global.org/care'
       },
       {
         title: 'FAIR Principles',
-        description: 'TODO',
+        description: 'FAIR stands for Findable, Accessible, Interoperable, and Reusable, and is a set of guidelines to improve the machine-actionability of digital assets. Learn how to apply the FAIR principles to data, metadata, and infrastructure with examples and resources.',
         image: 'https://www.go-fair.org/wp-content/themes/go-fair/images/logo.svg',
         link: 'https://www.go-fair.org/fair-principles/'
       },

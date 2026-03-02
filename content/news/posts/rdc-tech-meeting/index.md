@@ -8,6 +8,7 @@ author: Peter Sefton
 aliases: 
 - "/posts/rdc-tech-meeting/"
 layout: post
+description: "A presentation Peter Sefton gave to the Humanities, Arts and Social Sciences Research Data Commons and Indigenous Research Capability Program Technical Advisory Group on Friday 11th February 2022."
 image: "/news/posts/rdc-tech-meeting/Slide09.png"
 ---
 

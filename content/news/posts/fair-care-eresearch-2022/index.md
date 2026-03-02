@@ -9,6 +9,7 @@
   aliases: 
   - "/posts/fair-care-eresearch-2022/"
   layout: post
+  description: "A write-up of a talk given at eResearch Australasia 2022, delivered by Peter Sefton, with some additional detail."
   image: "/news/posts/fair-care-eresearch-2022/Slide14.png"
 ---
 

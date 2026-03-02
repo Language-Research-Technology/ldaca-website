@@ -9,6 +9,7 @@ author: "Peter Sefton"
 aliases: 
   - "/posts/arkisto-stack-or-2023/"
 layout: post
+description: "A presentation delivered by Peter Sefton at the Open Repositories 2023 conference in South Africa on 2023-06-14 in the Presentations: Discipline specific systems with FAIR principles session."
 image: "/news/posts/arkisto-stack-or-2023/Slide22.png"
 ---
 

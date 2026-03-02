@@ -47,3 +47,8 @@ const headerBgColor = theme.value.headerBgColor ?? 'transparent'
 <style scoped>
 /* Your component's CSS goes here */
 </style>
+<style>
+html {
+  scroll-padding-top: 140px; /* Adjust to match header height */
+}
+</style>
