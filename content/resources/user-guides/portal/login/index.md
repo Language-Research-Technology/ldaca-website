@@ -1,7 +1,7 @@
 ---
 title: "Login"
 date: 2019-01-29T11:38:37+11:00
-draft: false
+tags: ["Data portal"]
 description: "A guide to logging in to the portal."
 image: "/resources/user-guides/portal/login/LDaCALogon.png"
 ---

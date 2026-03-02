@@ -1,7 +1,7 @@
 ---
 title: "Obtaining a DOI"
 date: 2023-09-15T15:42:57+10:00
-draft: false
+tags: ["Governance, rights & access"]
 description: "Outlines steps for acquiring a Digital Object Identifier (DOI) for a data collection."
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Copyrighted data: Options and considerations for working with newspapers and other texts"
 date: 2025-09-13T14:29:40+10:00
-draft: false
+tags: ["Governance, rights & access"]
 description: "While corpus linguists might agree that data sharing is preferable—in line with the FAIR principles—the use and analysis of copyrighted data such as published newspaper articles imposes serious limitations. What options do linguists have for sharing these corpora outside their research team? Chief Investigator Monika Bednarek discusses this question."
 layout: post
 image: "/news/posts/copyrighted-data/Shewontberightmate.png"

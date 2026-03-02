@@ -1,6 +1,7 @@
 ---
 title: "CAREful FAIRness principles for Indigenous Data Governance"
 date: 2025-01-30T16:34:20+11:00
+tags: ["FAIR & CARE", "Indigenous data"]
 draft: false
 description: "Robert McLellan, Senior Program Manager for LDaCA, and Jenny Fewster, Director, HASS and Indigenous Research Data Commons for the Australian Research Data Commons, draw upon their collaborative work on CAREful FAIRness and Principles for Indigenous Data Governance."
 layout: post

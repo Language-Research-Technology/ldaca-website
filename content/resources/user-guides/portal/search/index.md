@@ -1,7 +1,7 @@
 ---
 title: "Search"
 date: 2021-01-23T14:23:27+11:00
-draft: false
+tags: ["Data portal"]
 description: "Refine your queries with word, phrase and pattern searches."
 image: "/resources/user-guides/portal/search/basic-search.png"
 ---

@@ -2,6 +2,7 @@
 title: "Team member tip: Mastering metadata"
 date: 2025-04-27
 draft: false
+tags: ["Metadata"]
 description: "Data Migration Developer Mark Raadgever draws on his extensive experience with data migration to outline some important metadata principles. Consistency is key!"
 layout: post
 image: "/news/posts/team-member-tip-mark-raadgever/ro-crating_cropped.jpg"

@@ -1,7 +1,7 @@
 ---
 title: "Download Data"
 date: 2017-01-29T11:39:04+11:00
-draft: false
+tags: ["Data portal"]
 description: "A guide to downloading individual files from the portal."
 image: "/resources/user-guides/portal/download-data/downloads-widget.png"
 ---

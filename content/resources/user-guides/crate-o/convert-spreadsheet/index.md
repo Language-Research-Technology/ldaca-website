@@ -2,6 +2,7 @@
 title: "Convert Spreadsheet"
 date: 2021-02-28T13:53:43+10:00
 draft: false
+tags: ["Crate-O"]
 description: "Guidance and a template for adding new data to an RO-Crate via spreadsheet."
 weight: 4
 ---

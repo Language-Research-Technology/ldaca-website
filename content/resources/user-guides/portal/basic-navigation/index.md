@@ -1,7 +1,7 @@
 ---
 title: "Basic Navigation"
 date: 2023-01-29T11:45:30+11:00
-draft: false
+tags: ["Data portal"]
 description: "A guide to navigating the various sections of the portal interface."
 image: "/resources/user-guides/portal/basic-navigation/map-view.png"
 ---
