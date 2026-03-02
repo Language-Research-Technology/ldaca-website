@@ -234,7 +234,11 @@ export default defineConfig({
       } as any,
       {
         text: 'Projects & Case Studies',
-        link: '/resources/general-resources/projects-case-studies/'
+        subtitle: 'something something',
+        items: [
+          { text: 'Projects', link: '/resources/general-resources/projects', image: 'https://placehold.co/150x100' },
+          { text: 'Case Studies', link: '/resources/general-resources/case-studies/', image: 'https://placehold.co/150x100' }
+        ]
       },
       {
         text: 'About',

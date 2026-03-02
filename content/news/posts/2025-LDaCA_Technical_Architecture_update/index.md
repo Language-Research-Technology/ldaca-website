@@ -3,6 +3,7 @@ title: "LDaCA Technical Architecture update 2025"
 date: 2025-09-17T14:29:40+10:00
 draft: false
 description: "Refresh your knowledge of the principles behind our technical architecture and discover some recent developments, including how we are harmonising the open source tools used across our network of collaborators."
+image: "/news/posts/2025-LDaCA_Technical_Architecture_update/data-findability.png"
 layout: post
 ---
 
@@ -172,9 +173,6 @@ width="1200"
   height="600"
   style="border: 1px solid #ccc;"
 >
-  <p>Your browser doesn't support PDF embedding. 
-     <a href="./LDaCA_Technical_Architecture_update_2025.pdf">Download the PDF instead</a>.
-  </p>
 </iframe>
 </div>
 

@@ -127,7 +127,7 @@ footer {
                 :style="{ backgroundColor: buttonColors.bg, color: buttonColors.text }"
                 class="px-4 py-2 rounded-none font-semibold hover:opacity-90 transition-opacity mb-3 flex items-center justify-center text-center"
               >
-                SUBSCRIBE TO OUR NEWSLETTER
+                Subscribe to our Newsletter
               </a>
           </div>
           <div>

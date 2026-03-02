@@ -42,7 +42,7 @@ title: "License, Share & Govern"
   :items="[
       {
         title: 'Implementing PILARS',
-        link: '/news/posts/implementing-pilars'
+        link: '/news/posts/implementing-PILARS'
       },
       {
         title: 'Copyrighted data: Options and considerations for working with newspapers and other texts',

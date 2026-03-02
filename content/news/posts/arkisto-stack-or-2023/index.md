@@ -9,6 +9,7 @@ author: "Peter Sefton"
 aliases: 
   - "/posts/arkisto-stack-or-2023/"
 layout: post
+image: "/news/posts/arkisto-stack-or-2023/Slide22.png"
 ---
 
 <br />

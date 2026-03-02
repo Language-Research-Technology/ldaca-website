@@ -9,23 +9,23 @@ title: "Presentations"
   :items="[
       {
         title: 'Implementing PILARS',
-        link: '/news/posts/implementing-pilars'
+        link: '/news/posts/implementing-PILARS'
       },
       {
         title: 'LDaCA Technical Architecture update 2025',
-        link: '/news/posts/2025-ldaca_technical_architecture_update'
+        link: '/news/posts/2025-LDaCA_Technical_Architecture_update'
       },
       {
         title: 'Five ways RO-Crate data packages are important for repositories',
-        link: '/news/posts/2024-or-ro-crate'
+        link: '/news/posts/2024-OR-RO-Crate'
       },
       {
         title: 'Crate-O - a drop-in linked data metadata editor for RO-Crate (and other) linked data in repositories and beyond',
-        link: '/news/posts/2024-or-crate-o'
+        link: '/news/posts/2024-OR-Crate-O'
       },
       {
         title: 'A comprehensive, open and sustainable set of principles and tools for low (and high) resource Archival Repositories',
-        link: '/news/posts/2024-or-pilars'
+        link: '/news/posts/2024-OR-PILARS'
       },
       {
         title: 'Towards a Generic Research Data Commons: A highly scalable standards-based repository framework for Language and other Humanities data',

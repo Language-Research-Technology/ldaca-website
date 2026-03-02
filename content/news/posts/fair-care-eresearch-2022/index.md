@@ -9,6 +9,7 @@
   aliases: 
   - "/posts/fair-care-eresearch-2022/"
   layout: post
+  image: "/news/posts/fair-care-eresearch-2022/Slide14.png"
 ---
 
 <br>

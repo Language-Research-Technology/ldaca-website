@@ -63,7 +63,7 @@ title: "Organise & Describe"
       },
       {
         title: 'Crate-O - a drop-in linked data metadata editor for RO-Crate (and other) linked data in repositories and beyond',
-        link: '/news/posts/2024-or-crate-o'
+        link: '/news/posts/2024-OR-Crate-O'
       }
     ]"/>
 

@@ -9,6 +9,7 @@ author: Peter Sefton
 aliases:
   - "/posts/ldaca-metadata-ecosystem-eresearch-2022/"
 layout: post
+image: "/news/posts/ldaca-metadata-ecosystem-eresearch-2022/Slide04.png"
 ---
 
 <br />

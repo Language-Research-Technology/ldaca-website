@@ -8,6 +8,7 @@ author: Peter Sefton
 aliases: 
 - "/posts/rdc-tech-meeting/"
 layout: post
+image: "/news/posts/rdc-tech-meeting/Slide09.png"
 ---
 
 <br>
