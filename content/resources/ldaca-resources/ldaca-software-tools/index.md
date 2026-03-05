@@ -42,44 +42,42 @@ For more information about Crate-O and how to create RO-Crates with the interfac
 
 <details> 
 <summary>
-<a href="https://github.com/Australian-Text-Analytics-Platform/document-similarity"><b>Document Similarity Tool</b></a>
+<b>Document Similarity Tool</b>
 </summary>
-<p>Identifies identical and similar text in a corpus</p>
+<p><a href="https://github.com/Australian-Text-Analytics-Platform/document-similarity" target="_blank">Tool</a> that identifies identical and similar text in a corpus.</p>
 </details>
 <details> 
 <summary>
-<a href="https://github.com/Australian-Text-Analytics-Platform/quotation-tool"><b>Quotation Tool</b></a>
+<b>Quotation Tool</b>
 </summary>
-<p>A tool to extract quotes and other useful information from a newspaper article/corpus</p>
+<p>A <a href="https://github.com/Australian-Text-Analytics-Platform/quotation-tool" target="_blank">tool</a> to extract quotes and other useful information from a newspaper article/corpus.</p>
 </details>
 <details> 
 <summary>
-<a href="https://github.com/Australian-Text-Analytics-Platform/semantic-tagger"><b>Semantic Tagger</b></a>
+<b>Semantic Tagger</b>
 </summary>
-<p>Used to tag a text/corpus so you can extract token level semantic tags from the tagged texts</p>
+<p><a href="https://github.com/Australian-Text-Analytics-Platform/semantic-tagger" target="_blank">Tool</a> used to tag a text/corpus so you can extract token level semantic tags from the tagged texts.</p>
 </details>
 <details> 
 <summary>
-<a href="https://github.com/Australian-Text-Analytics-Platform/keywords-analysis"><b>Keywords Analysis</b></a>
+<b>Keywords Analysis</b>
 </summary>
-<p>Tool to analyse words in a collection of corpus and identify whether certain words are over or under-represented in a particular corpus compared to their representation in other corpus</p>
+<p><a href="https://github.com/Australian-Text-Analytics-Platform/keywords-analysis" target="_blank">Tool</a> to analyse words in a collection of corpora and identify whether certain words are over or under-represented in a particular corpus.</p>
 </details>
 <details>
 <summary>
-<a href="https://github.com/Australian-Text-Analytics-Platform/discursis"><b>Discursis</b></a>
+<b>Discursis</b>
 </summary>
-<p>A conversational analysis and visualisation tool</p>
+<p>A conversational analysis and visualisation <a href="https://github.com/Australian-Text-Analytics-Platform/discursis" target="_blank">tool</a>.</p>
 </details>
 <details>
 <summary>
-<a href="https://github.com/Australian-Text-Analytics-Platform/atap_widgets"><b>Concordancer</b></a>
+<b>Concordancer</b>
 </summary>
-<p>A concordancer that demos how to analyse turn-taking pairs in a concordancer</p>
+<p>A concordancing <a href="https://github.com/Australian-Text-Analytics-Platform/atap_widgets" target="_blank">tool</a> that demos how to analyse turn-taking pairs in a concordancer.</p>
 </details>
 
 {{</raw>}}
-
-<br>
 
 ### University of Queensland
 
@@ -87,20 +85,18 @@ For more information about Crate-O and how to create RO-Crates with the interfac
 
 <details>
 <summary>
-<a href="https://ladal.edu.au/tools.html"><b>LADAL Tools</b></a>
+<b>LADAL Tools</b>
 </summary>
-<p>Various tools for text analytics and corpus linguistics, including concordancing, keyword analysis, part-of-speech tagging, corpus cleaning, network analysis, topic modelling, and sentiment analysis.</p>
+<p>Various <a href="https://ladal.edu.au/tools.html" target="_blank">tools</a> for text analytics and corpus linguistics, including concordancing, keyword analysis, part-of-speech tagging, corpus cleaning, network analysis, topic modelling, and sentiment analysis.</p>
 </details>
 <details>
 <summary>
-<a href="https://github.com/Language-Research-Technology/image-dataset-explorer"><b>Image Dataset Explorer</b></a>
+<b>Image Dataset Explorer</b>
 </summary>
-<p>Tool that embeds images from a zip file using off the shelf image embeddings, then creates a static HTML visualisation for browsing/exploring clusters and relations.</p>
+<p><a href="https://github.com/Language-Research-Technology/image-dataset-explorer" target="_blank">Tool</a> that embeds images from a zip file using off the shelf image embeddings, then creates a static HTML visualisation for browsing/exploring clusters and relations.</p>
 </details>
 
 {{</raw>}}
-
-<br>
 
 ### Australian National University
 
@@ -108,38 +104,36 @@ For more information about Crate-O and how to create RO-Crates with the interfac
 
 <details>
 <summary>
-<a href="https://github.com/Supertyp/ELAN_apps"><b>ELAN Find & Replace</b></a>
+<b>ELAN Find & Replace</b>
 </summary>
-<p>A tool that enables context dependent search and replace functionality across a folder of ELAN files.</p>
+<p>A <a href="https://github.com/Supertyp/ELAN_apps" target="_blank">tool</a> that enables context dependent search and replace functionality across a folder of ELAN files.</p>
 </details>
 <details>
 <summary>
-<a href="https://github.com/Supertyp/ELAN_apps"><b>ELAN Split Annotation</b></a>
+<b>ELAN Split Annotation</b>
 </summary>
-<p>A tool that can split ELAN annotations.</p>
+<p>A <a href="https://github.com/Supertyp/ELAN_apps" target="_blank">tool</a> that can split ELAN annotations.</p>
 </details>
 <details>
 <summary>
-<a href="https://www.gerlingo.com/config_maker.html"><b>ELAN Inventory</b></a>
+<b>ELAN Inventory</b>
 </summary>
-<p>A web application that summarises ELAN files and compiles configuration files to create an ANNIS corpus.</p>
+<p>A <a href="https://www.gerlingo.com/config_maker.html" target="_blank">web application</a> that summarises ELAN files and compiles configuration files to create an ANNIS corpus.</p>
 </details>
 <details>
 <summary>
-<a href="https://www.gerlingo.com/ELAN_commander.html"><b>ELAN Commander</b></a>
+<b>ELAN Commander</b>
 </summary>
-<p>A web application that finds unwanted characters in ELAN annotations.</p>
+<p>A <a href="https://www.gerlingo.com/ELAN_commander.html" target="_blank">web application</a> that finds unwanted characters in ELAN annotations.</p>
 </details>
 <details>
 <summary>
-<a href="https://github.com/Supertyp/Anonymising_ELAN_files"><b>Anonymising ELAN Files</b></a>
+<b>Anonymising ELAN Files</b>
 </summary>
-<p>A tool that anonymises the content of ELAN files.</p>
+<p>A <a href="https://github.com/Supertyp/Anonymising_ELAN_files" target="_blank">tool</a> that anonymises the content of ELAN files.</p>
 </details>
 
 {{</raw>}}
-
-<br>
 
 ### University of Melbourne
 
@@ -147,10 +141,11 @@ For more information about Crate-O and how to create RO-Crates with the interfac
 
 <details>
 <summary>
-<a href="https://lameta.org"><b>Lameta</b></a>
+<b>Lameta</b>
 </summary>
-<p>Metadata tool that helps organise collections of files.</p>
+<p>Metadata <a href="https://lameta.org" target="_blank">tool</a> that helps organise collections of files.</p>
 </details>
 
 {{</raw>}}
 
+<br>

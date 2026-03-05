@@ -73,9 +73,9 @@
     .Site.Params.footer.author false -}}
     <span class="author" itemprop="copyrightHolder"
       >&nbsp;<a
-        href="{{ $.Site.Author.link | default .Site.Home.RelPermalink }}"
+        href="{{ $.Site.Params.Author.link | default .Site.Home.RelPermalink }}"
         target="_blank"
-        >{{ .Site.Author.name }}</a
+        >{{ .Site.Params.Author.name }}</a
       ></span
     >
     {{- end -}} {{- /* License */ -}} {{- with .Site.Params.footer.license -}}

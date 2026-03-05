@@ -35,7 +35,7 @@
         <div class="post-meta">
             <div class="post-meta-line">
                 
-                {{- $authorLink := $params.authorlink | default .Site.Author.link | default .Site.Home.RelPermalink -}}
+                {{- $authorLink := $params.authorlink | default .Site.Params.Author.link | default .Site.Home.RelPermalink -}}
                 
                     
                     <span class="post-author">
