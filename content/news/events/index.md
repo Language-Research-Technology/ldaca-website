@@ -23,25 +23,29 @@ title: "Events"
         title: 'Language Data Commons of Australia - HASS & Indigenous Research Data Commons Symposium 2025',
         description: 'This presentation on LDaCA was presented at the 2025 Symposium of the ARDC HASS and Indigenous Research Data Commons, held at UTS on Gadigal Land, Sydney, 12 November 2025. Learn more about the Language Data Commons of Australia. Presenters: Prof Michael Haugh, Robert McLellan, Moises Sacal Bonequi - University of Queensland.',
         image: 'https://img.youtube.com/vi/EzE75Qvwcs4/sddefault.jpg',
-        link: 'https://www.youtube.com/watch?v=EzE75Qvwcs4'
+        link: 'https://www.youtube.com/watch?v=EzE75Qvwcs4',
+        category: 'RECORDING'
       },
       {
         title: 'Showcase of Language Data Infrastructure - Language Data Commons of Australia',
         description: 'This presentation on LDaCA tools was presented at the 2025 Symposium of the ARDC HASS and Indigenous Research Data Commons, held at UTS on Gadigal Land, Sydney, 11 November 2025. Learn more about the Language Data Commons of Australia. Presenters: Prof Michael Haugh - University of Queensland, Robert McLellan - University of Queensland, Teresa Chan - University of Queensland, Prof Monika Bednarek - University of Sydney and Director of Sydney Corpus Lab, Moises Sacal Bonequi - University of Queensland.',
         image: 'https://img.youtube.com/vi/gwbbMN7XRKU/sddefault.jpg',
-        link: 'https://www.youtube.com/watch?v=gwbbMN7XRKU'
+        link: 'https://www.youtube.com/watch?v=gwbbMN7XRKU',
+        category: 'RECORDING'
       },
       {
         title: 'Webinar: The ParlaMint corpora of European parliamentary proceedings',
         description: 'CLARIN colleagues Tomaž Erjavec and Matyáš Kopp delivered the second webinar in our 2025 series in August. Tomaž and Matyáš discussed the compilation and dissemination of the ParlaMint corpora, a collection of 29 corpora of European national and regional parliamentary proceedings, covering at least the period from 2015 to 2022 and containing over 1 billion words.',
         image: 'https://img.youtube.com/vi/SU92WFxmq-4/sddefault.jpg',
-        link: 'https://www.youtube.com/watch?v=SU92WFxmq-4&t=3310s'
+        link: 'https://www.youtube.com/watch?v=SU92WFxmq-4&t=3310s',
+        category: 'RECORDING'
       },
       {
         title: 'IPrA2025: The Pragmatics of Indigenous Languages',
         description: 'The Pragmatics of Indigenous Languages panel showcased efforts by researchers and practitioners who are working with communities on the use of Indigenous languages in the Australian context, as well as to discuss the complex issues such work inevitably raises.',
         image: 'https://img.youtube.com/vi/UdthcnD3tHY/sddefault.jpg',
-        link: 'https://www.youtube.com/watch?v=UdthcnD3tHY'
+        link: 'https://www.youtube.com/watch?v=UdthcnD3tHY',
+        category: 'RECORDING'
       }
     ]"/>
 
@@ -109,9 +113,9 @@ title: "Events"
 <br>
 
 <div class="mb-8 flex flex-wrap gap-2">
-  <a href="#recurring-events" class="px-4 py-2 rounded-none border-2 font-semibold transition-all border-gray-300 text-gray-700 hover:border-primary hover:text-primary">Recurring Events</a>
-  <a href="#previous-events" class="px-4 py-2 rounded-none border-2 font-semibold transition-all border-gray-300 text-gray-700 hover:border-primary hover:text-primary">Previous Events</a>
-  <a href="#webinars" class="px-4 py-2 rounded-none border-2 font-semibold transition-all border-gray-300 text-gray-700 hover:border-primary hover:text-primary">Previous Webinars</a>
+  <a href="#recurring-events" class="p-5 rounded-lg border-2 font-semibold transition-all border-gray-300 text-gray-700 hover:border-primary hover:text-primary">Recurring Events</a>
+  <a href="#previous-events" class="p-5 rounded-lg border-2 font-semibold transition-all border-gray-300 text-gray-700 hover:border-primary hover:text-primary">Previous Events</a>
+  <a href="#webinars" class="p-5 rounded-lg border-2 font-semibold transition-all border-gray-300 text-gray-700 hover:border-primary hover:text-primary">Previous Webinars</a>
 </div>
 
 <br>

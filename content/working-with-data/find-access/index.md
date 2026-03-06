@@ -189,19 +189,22 @@ title: "Find & Access"
         title: 'Digital Preservation Masterclass PARADISEC',
         description: 'TODO',
         image: 'https://img.youtube.com/vi/gRuwHx744KU/sddefault.jpg',
-        link: 'https://www.youtube.com/watch?v=gRuwHx744KU'
+        link: 'https://www.youtube.com/watch?v=gRuwHx744KU',
+        category: 'RECORDING'
       },
       {
         title: 'Why can’t I access all materials anyway?',
         description: 'Hear from Chief Investigator Rose Barrowcliffe as she explains why not every item in a language data commons can or should be open to everyone. She unpacks factors that inform access and why protecting sensitive knowledge is essential to respectful language work. This short video shows how appropriate care for materials ensures they are shared in ways that are safe and meaningful.',
         image: 'https://img.youtube.com/vi/TLVWsQUEyHk/sddefault.jpg',
-        link: 'https://www.youtube.com/watch?v=TLVWsQUEyHk'
+        link: 'https://www.youtube.com/watch?v=TLVWsQUEyHk',
+        category: 'RECORDING'
       },
       {
         title: 'What is a data portal anyway?',
         description: 'Hear from Research Data Analyst Rosanna Smith as she introduces LDaCA’s data portal, an online interface for discovering and accessing language collections. She explains how the portal’s development is guided by FAIR and CARE principles. RO-Crate structured data is used to catalogue and display collections in the portal along with infrastructure for managing access to the data with as little or as much restriction as needed.',
         image: 'https://img.youtube.com/vi/GpAnO05o2Tw/sddefault.jpg',
-        link: 'https://www.youtube.com/watch?v=GpAnO05o2Tw'
+        link: 'https://www.youtube.com/watch?v=GpAnO05o2Tw',
+        category: 'RECORDING'
       }
     ]"/>
 

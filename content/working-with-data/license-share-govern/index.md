@@ -19,7 +19,8 @@ title: "License, Share & Govern"
   :items="[
       {
         title: 'Determining Access Conditions',
-        link: '/resources/ldaca-resources/determining-access-conditions'
+        link: '/resources/ldaca-resources/determining-access-conditions',
+        image: '/resources/ldaca-resources/determining-access-conditions/AccessConditions_Flow1.jpg'
       },
       {
         title: 'Obtaining a DOI',
@@ -63,7 +64,8 @@ title: "License, Share & Govern"
         title: 'Why can’t I access all materials anyway?',
         description: 'Hear from Chief Investigator Rose Barrowcliffe as she explains why not every item in a language data commons can or should be open to everyone. She unpacks factors that inform access and why protecting sensitive knowledge is essential to respectful language work. This short video shows how appropriate care for materials ensures they are shared in ways that are safe and meaningful.',
         image: 'https://img.youtube.com/vi/TLVWsQUEyHk/sddefault.jpg',
-        link: 'https://www.youtube.com/watch?v=TLVWsQUEyHk'
+        link: 'https://www.youtube.com/watch?v=TLVWsQUEyHk',
+        category: 'RECORDING'
       },
       {
         title: 'CARE Principles',

@@ -46,7 +46,8 @@ function generatePagesData() {
         pages[routePath] = {
           image: data.image,
           title: data.title,
-          description: data.description
+          description: data.description,
+          category: data.category
         }
       }
     }
@@ -134,7 +135,7 @@ export default defineConfig({
     },
     // Logo configuration
     logo: {
-      light: '/images/LDaCA_logo_Light-02-02.svg',
+      light: '/images/LDaCAReverseLogo_312x102.svg',
       dark: '/images/LDaCA_logo_Dark-02-02.svg'
     },
     // Header background color
@@ -161,10 +162,14 @@ export default defineConfig({
       borderLeft: '50vw'
     } as any,
     partnerLogos: [
-      { src: "https://placehold.co/500x100", href: 'https://example.com/partner1' },
-      { src: "https://placehold.co/500x100", href: 'https://example.com/partner2' },
-      { src: "https://placehold.co/500x100", href: 'https://example.com/partner3' },
-      { src: "https://placehold.co/500x100", href: 'https://example.com/partner3' }
+      { src: "/images/partner-logos/ANU_logo.svg", href: 'https://www.anu.edu.au/' },
+      { src: "/images/partner-logos/BatchelorInstitute_logo.svg", href: 'https://www.batchelor.edu.au/' },
+      { src: "/images/partner-logos/FLA_logo.svg", href: 'https://www.firstlanguages.org.au/' },
+      { src: "/images/partner-logos/QUT.svg", href: 'https://www.qut.edu.au/' },
+      { src: "/images/partner-logos/UoM_logo.svg", href: 'https://www.unimelb.edu.au/' },
+      { src: "/images/partner-logos/Usyd_logo.svg", href: 'https://www.sydney.edu.au/' },
+      { src: "/images/partner-logos/UQlogo-Purple-cmyk.svg", href: 'https://www.uq.edu.au/' },
+      { src: "/images/partner-logos/ARDC - AUS-NCRIS lockup.svg", href: 'https://ardc.edu.au/' }
     ],
     // https://vitepress.dev/reference/default-theme-config
     nav: [

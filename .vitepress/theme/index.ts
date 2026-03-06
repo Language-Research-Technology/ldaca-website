@@ -11,8 +11,14 @@ import SubPageHero from './components/SubPageHero.vue'
 import DataPortalBox from './components/DataPortalBox.vue'
 import Carousel from './components/Carousel.vue'
 import './style.css'
+import DefaultTheme from 'vitepress/theme'
+import '@fontsource/work-sans/400.css'
+import '@fontsource/work-sans/500.css'
+import '@fontsource/work-sans/600.css'
+import '@fontsource/work-sans/700.css'
 
 export default {
+  ...DefaultTheme,
   enhanceApp({ app, router, siteData }) {
     app.component('GlossaryLink', GlossaryLink)
     app.component('GlossaryList', GlossaryList)

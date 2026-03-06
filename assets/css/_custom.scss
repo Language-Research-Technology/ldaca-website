@@ -1,3 +1,6 @@
+body, html {
+  /* font-family removed to avoid override, use body/html global setting */
+}
 // Color Variables from Logo
 $water_green: rgb(121, 163, 141);
 $land_green: rgb(145, 169, 109);
@@ -800,7 +803,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
   text-align: center;
   margin: auto;
   padding-bottom: 10px;
-  font-size: smaller;
+  font-size: inherit;
   [theme="light"] a {
     color: $dark;
   }
@@ -831,7 +834,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
   bottom: 0;
   left: 0;
   margin-top: 1vw;
-  font-size: smaller;
+  font-size: inherit;
   [theme="dark"] a {
     color: #a9a9b3;
   }
@@ -859,7 +862,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
   text-transform: uppercase;
   margin: 0 auto;
   margin-bottom: 0rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: 'Work Sans', Arial, Helvetica, sans-serif;
 }
 
 .footer .content {

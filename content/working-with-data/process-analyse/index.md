@@ -89,13 +89,15 @@ title: "Process & Analyse"
         title: 'FIB DigiTalk 2025 ke-7, \'Using Large Data Sets for Qualitative Research\'',
         description: 'TODO.',
         image: 'https://img.youtube.com/vi/twCAdPazV2M/sddefault.jpg',
-        link: 'https://www.youtube.com/live/twCAdPazV2M'
+        link: 'https://www.youtube.com/live/twCAdPazV2M',
+        category: 'RECORDING'
       },
       {
         title: 'Webinar: The ParlaMint corpora of European parliamentary proceedings',
         description: 'CLARIN colleagues Tomaž Erjavec and Matyáš Kopp delivered the second webinar in our 2025 series in August. Tomaž and Matyáš discussed the compilation and dissemination of the ParlaMint corpora, a collection of 29 corpora of European national and regional parliamentary proceedings, covering at least the period from 2015 to 2022 and containing over 1 billion words.',
         image: 'https://img.youtube.com/vi/SU92WFxmq-4/sddefault.jpg',
-        link: 'https://www.youtube.com/watch?v=SU92WFxmq-4&t=3310s'
+        link: 'https://www.youtube.com/watch?v=SU92WFxmq-4&t=3310s',
+        category: 'RECORDING'
       }
     ]"/>
 

@@ -32,37 +32,37 @@ description = "The Language Data Commons of Australia brings together digital in
 :items = "[
   {
     title: 'Find & access language materials',
-    image: 'https://placehold.co/400x300',
+    image: 'https://placehold.co/400x400',
     description: 'Discover and access a wide range of language materials through our comprehensive search tools and data portal. We make it easy to find the resources you need for your research.'
   },
   {
     title: 'Organise & describe data',
-    image: 'https://placehold.co/400x300',
+    image: 'https://placehold.co/400x400',
     description: 'Learn best practices for organising and describing your language data with metadata standards that ensure discoverability and long-term preservation.'
   },
   {
     title: 'License collections responsibly',
-    image: 'https://placehold.co/400x300',
+    image: 'https://placehold.co/400x400',
     description: 'Get guidance on choosing appropriate licenses for your language collections that respect cultural protocols and legal requirements.'
   },
   {
     title: 'Share data with care',
-    image: 'https://placehold.co/400x300',
+    image: 'https://placehold.co/400x400',
     description: 'Implement ethical data sharing practices that honor community wishes and maintain appropriate access controls for sensitive materials.'
   },
   {
     title: 'Guidance on governance',
-    image: 'https://placehold.co/400x300',
+    image: 'https://placehold.co/400x400',
     description: 'Access frameworks and guidance for establishing governance structures that support ethical stewardship of language data.'
   },
   {
     title: 'Process data for use',
-    image: 'https://placehold.co/400x300',
+    image: 'https://placehold.co/400x400',
     description: 'Use our tools and workflows to process language data into formats ready for analysis, visualisation, and other research applications.'
   },
   {
     title: 'Analyse language at scale',
-    image: 'https://placehold.co/400x300',
+    image: 'https://placehold.co/400x400',
     description: 'Leverage computational tools and infrastructure to perform large-scale language analysis across diverse collections and datasets.'
   }
 ]"
@@ -70,7 +70,7 @@ description = "The Language Data Commons of Australia brings together digital in
 
 <Carousel 
   backgroundColor="#EAE4D68C"
-  :opacity="55"
+  :opacity="100"
   heading="PROJECTS, CASE STUDIES & RESOURCES"
   :items="[
       {
@@ -105,18 +105,21 @@ description = "The Language Data Commons of Australia brings together digital in
   heading="EVENTS & RECORDINGS"
   :items="[
     {
+      category: 'EVENT',
       title: 'Sustainable Data for Humanities Researchers workshop',
       description: 'Research data is valuable — we spend time (and often, money) in collecting it, and it is fundamental to creating knowledge. Because of this value, we have a responsibility to ensure that data will continue to be useful, minimally to ourselves but ideally also to others. This workshop will introduce participants to basic ideas of data management, which are oriented to making data sustainable in line with two important sets of principles, FAIR and CARE.',
       image: 'https://rduevents.unimelb.edu.au/live/image/scale/2x/gid/23/width/300/height/169/crop/1/609_HASSevent.rev.1754545130.webp',
       link: '/news/events'
     },
     {
+      category: 'RECORDING',
       title: 'Webinar: The ParlaMint corpora of European parliamentary proceedings',
       description: 'CLARIN colleagues Tomaž Erjavec and Matyáš Kopp delivered the second webinar in our 2025 series in August. Tomaž and Matyáš discussed the compilation and dissemination of the ParlaMint corpora, a collection of 29 corpora of European national and regional parliamentary proceedings, covering at least the period from 2015 to 2022 and containing over 1 billion words.',
-      image: 'https://www.clarin.eu/sites/default/files/styles/max_325x325/public/parlamintvisual2.png?itok=c7K5X6Ke',
-      link: '/news/events'
+        image: 'https://img.youtube.com/vi/SU92WFxmq-4/sddefault.jpg',
+        link: 'https://www.youtube.com/watch?v=SU92WFxmq-4'
     },
     {
+      category: 'EVENT',
       title: 'Get Started with Federal Hansard for Humanities, Arts, and Social Sciences Research',
       description: 'Parliamentary bodies around the world have been publishing transcriptions of their proceedings for decades or even centuries. These transcriptions enable public scrutiny and transparency of the actions and speech of legislative bodies and elected representatives. Because of their documentation of legislative action and speech, their relatively consistent format and their coverages of long periods of time, they are potentially useful for policy researchers, media and communication scholars, political scientists, linguists, sociologists, historians and many others.',
       image: 'https://static.uq.net.au/v11/logos/corporate/uq-logo.svg',
