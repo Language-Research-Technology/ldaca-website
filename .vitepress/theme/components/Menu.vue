@@ -55,7 +55,7 @@ watch(mobileMenuOpen, (isOpen) => {
 
 <template>
   <header class="w-full border-border relative">
-    <div class="container mx-auto py-4 px-6">
+    <div class="container mx-auto py-[1.7rem] px-6">
       <!-- Desktop Navigation -->
       <nav class="hidden lg:block">
         <ul class="flex items-center justify-center gap-6">
@@ -64,7 +64,7 @@ watch(mobileMenuOpen, (isOpen) => {
             <a
               v-if="item.link && !item.items"
               :href="item.link || '#'"
-              class="flex items-center gap-1.5 text-sm font-medium text-white hover:text-gray-300 transition-colors"
+              class="flex items-center gap-1.5 text-2xl font-medium text-white hover:text-[#79A38D] hover:font-bold hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8 transition-colors"
             >
               {{ item.text }}
             </a>
@@ -72,7 +72,7 @@ watch(mobileMenuOpen, (isOpen) => {
             <button
               v-else
               @click="toggleMenu(item.text)"
-              class="flex items-center gap-1.5 text-sm font-medium text-white hover:text-gray-300 transition-colors"
+              class="flex items-center gap-1.5 text-2xl font-medium text-white hover:text-[#79A38D] hover:font-bold hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8 transition-colors"
             >
               {{ item.text }}
               <svg 
@@ -168,7 +168,7 @@ watch(mobileMenuOpen, (isOpen) => {
     >
       <div 
         v-if="activeMenu"
-        class="hidden md:block absolute left-0 right-0 bg-muted border-b border-border shadow-lg z-50"
+        class="hidden md:block absolute left-0 right-0 border-b border-border shadow-lg z-50 bg-[#FFFEF8]"
         :style="{ 
           '--menu-selected-bg': menuColors.selectedBg,
           '--menu-selected-text': menuColors.selectedText,
@@ -185,16 +185,16 @@ watch(mobileMenuOpen, (isOpen) => {
             <div v-if="item.items" class="grid grid-cols-1 md:grid-cols-2 gap-6">
               <!-- Left: Title -->
               <div class="flex flex-col items-start">
-                <h3 class="text-2xl font-bold">
+                <h2 class="">
                   {{ item.text }}
-                </h3>
-                <p v-if="item.subtitle" class="mt-1 text-sm text-gray-600">
+                </h2>
+                <p v-if="item.subtitle" class="mt-1 text-[#898989] text-[1.7rem]">
                   {{ item.subtitle }}
                 </p>
               </div>
               
               <!-- Right: Links Grid -->
-              <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-8">
                 <!-- Render regular items (buttons/images) -->
                 <template v-for="(subItem, idx) in item.items" :key="subItem.text + (subItem.link || '')">
                   <a
@@ -203,8 +203,8 @@ watch(mobileMenuOpen, (isOpen) => {
                     @click="closeMenu"
                     :class="[
                       subItem.image 
-                        ? 'flex flex-col items-center gap-2 p-0 group'
-                        : `inline-flex items-center justify-center px-0 py-0 text-sm ${subItem.bold ? 'font-bold' : 'font-medium'} hover:text-gray-300`
+                        ? 'flex flex-col items-left gap-2 p-0 group'
+                        : `inline-flex items-left justify-left px-0 py-0 text-2xl ${subItem.bold ? 'font-bold' : 'font-medium'} hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8`
                     , (subItem.divider && idx % 3 !== 2 ? 'sm:border-r border-border pr-4' : '')
                     ]"
                   >
@@ -214,14 +214,14 @@ watch(mobileMenuOpen, (isOpen) => {
                       :alt="subItem.text"
                       class="w-full h-24 object-cover"
                     />
-                    <span :class="subItem.image ? `mt-1 text-xs ${subItem.bold ? 'font-bold' : 'font-medium'} group-hover:text-gray-300 transition-colors text-center` : ''">
+                    <span :class="subItem.image ? `mt-1 text-2xl ${subItem.bold ? 'font-bold' : 'font-medium'} hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8 transition-colors text-left` : ''">
                       {{ subItem.text }}
                     </span>
                   </a>
 
                   <!-- Render grouped items: title + list -->
                   <div v-else class="flex flex-col" :class="(subItem.divider && idx % 3 !== 2) ? 'sm:border-r border-border pr-4' : ''">
-                    <div class="text-sm font-semibold mb-2">
+                    <div class="text-2xl font-semibold mb-2">
                       {{ subItem.title || subItem.text }}
                     </div>
                     <ul class="space-y-1">
@@ -230,7 +230,7 @@ watch(mobileMenuOpen, (isOpen) => {
                           v-if="child && child.link"
                           :href="child.link"
                           @click="closeMenu"
-                          :class="`text-xs ${child.bold ? 'font-bold' : 'font-medium'} hover:text-gray-300 transition-colors`"
+                          :class="`text-base ${child.bold ? 'font-bold' : 'font-medium'} transition-colors hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-4`"
                         >
                           {{ child.text }}
                         </a>

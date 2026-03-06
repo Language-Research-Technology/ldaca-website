@@ -85,7 +85,7 @@ onMounted(() => {
         v-for="year in years"
         :key="year"
         @click="scrollToYear(year)"
-        class="px-4 py-2 rounded-none border-2 font-semibold transition-all border-gray-300 text-gray-700 hover:border-primary hover:text-primary"
+        class="p-5 rounded-lg border-2 font-semibold transition-all border-gray-300 text-gray-700 hover:border-primary hover:text-primary"
       >
         {{ year }}
       </button>
@@ -109,7 +109,7 @@ onMounted(() => {
                 v-if="post.image"
                 :src="withBase(post.image)"
                 :alt="post.title"
-                class="w-24 h-24 object-cover rounded-none flex-shrink-0 self-start mt-0"
+                class="w-24 h-24 object-cover rounded-lg flex-shrink-0 self-start mt-0"
                 @error="handleImageError"
               />
               <div class="flex-1 pt-0">
