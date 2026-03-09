@@ -82,18 +82,18 @@ footer {
             We pay our respects to Elders past and present.
           </p>
           <div>
-            <h3 class="text-[1.3rem] font-bold text-lg mb-1 text-foreground uppercase text-[#393939]">About</h3>
+            <h3 class="text-[1.3rem] font-bold mb-1 uppercase text-[#393939]">About</h3>
             <p class="text-1rem text-[#393939] text-muted-foreground leading-relaxed mb-3">
               LDaCA is ensuring long-term access to Australia's nationally significant language collections through
               digital infrastructure, ethical governance, and long-term care.
             </p>
             <p class="text-sm text-[#393939] text-muted-foreground leading-relaxed">
               Learn more about our <a href="/about/organisation"
-                class="text-sm text-muted-foreground text-[#79A38D] font-bold hover:text-gray-600 transition-colors">organisation</a>, our <a
+                class="text-sm text-[#79A38D] font-bold hover:text-gray-600 transition-colors">organisation</a>, our <a
                 href="/about/people"
-                class="text-sm text-muted-foreground text-[#79A38D] font-bold hover:text-gray-600 transition-colors">people</a> and our <a
+                class="text-sm text-[#79A38D] font-bold hover:text-gray-600 transition-colors">people</a> and our <a
                 href="/about/policies-procedures"
-                class="text-sm text-muted-foreground text-[#79A38D] font-bold hover:text-gray-600 transition-colors">policies and procedures</a>.
+                class="text-sm text-[#79A38D] font-bold hover:text-gray-600 transition-colors">policies and procedures</a>.
             </p>
           </div>
         </div>
@@ -102,9 +102,9 @@ footer {
         <div class="">
           <div v-for="navItem in footerNav" :key="navItem.text" class="mb-6">
             <a v-if="navItem.link" :href="navItem.link">
-              <h3 class="text-[1.3rem] font-bold text-lg mb-1 text-foreground uppercase text-[#393939]">{{ navItem.text }}</h3>
+              <h3 class="text-[1.3rem] font-bold mb-1 uppercase text-[#393939]">{{ navItem.text }}</h3>
             </a>
-            <h3 v-else class="text-[1.3rem] font-bold text-lg mb-1 text-foreground uppercase text-[#393939]">{{ navItem.text }}</h3>
+            <h3 v-else class="text-[1.3rem] font-bold mb-1 uppercase text-[#393939]">{{ navItem.text }}</h3>
             <ul class="space-y-2">
               <!-- Regular items with link -->
               <template v-for="item in (navItem.items || [])" :key="item.link || item.title">
@@ -131,7 +131,7 @@ footer {
         <div class="">
           <!-- Newsletter Section -->
           <div class="mb-8 border-t border-border">
-            <h3 class="text-[1.3rem] font-bold text-lg mb-4 text-foreground uppercase text-[#393939]">Subscribe to our Newsletter</h3>
+            <h3 class="text-[1.3rem] font-bold mb-4 uppercase text-[#393939]">Subscribe to our Newsletter</h3>
             <a href="https://ldaca.us13.list-manage.com/subscribe?u=ef8667be63aefb1e35062a797&id=de4b682e46"
               target="_blank" rel="noopener noreferrer"
               :style="{ backgroundColor: buttonColors.bg, color: buttonColors.text }"
@@ -146,7 +146,7 @@ footer {
 
           <!-- Contact Section -->
           <div class="mb-8 border-t border-border">
-            <h3 class="text-[1.3rem] font-bold text-lg mb-4 text-foreground uppercase text-[#393939]">Contact</h3>
+            <h3 class="text-[1.3rem] font-bold mb-4 uppercase text-[#393939]">Contact</h3>
             <a href="mailto:contact@ldaca.edu.au"
               :style="{ backgroundColor: buttonColors.bg, color: buttonColors.text }"
               class="inline-block p-4 rounded-lg font-semibold hover:opacity-80 transition-opacity mb-4">
