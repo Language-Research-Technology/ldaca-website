@@ -24,14 +24,15 @@ const props = defineProps({
 
 <template>
   <section class="p-0">
-    <!-- Description -->
-    <div
-      class="text-left max-w-[1440px] mx-auto px-4 py-8 relative bg-cover bg-center bg-no-repeat rounded-none min-h-[200px]"
+    <!-- Full-width background -->
+    <div class="relative w-full bg-cover bg-center bg-no-repeat min-h-[200px]"
       :style="{ backgroundImage: `url(${backgroundImage})`, backgroundColor: headerBgColor }">
-      <div class="absolute inset-0 rounded-none z-0"></div>
-      <div class="max-w-[50%] relative z-10 xs:max-w-full">
-        <h1 class="text-5xl font-bold m-0 text-white">{{ title }}</h1>
-        <div class="text-lg my-4 mb-8 text-white/90 leading-relaxed" v-html="description"></div>
+      <!-- Content container -->
+      <div class="max-w-[1440px] mx-auto px-4 py-8">
+        <div class="max-w-[50%] relative z-10 xs:max-w-full">
+          <h1 class="text-5xl font-bold m-0 text-white">{{ title }}</h1>
+          <div class="text-lg my-4 mb-8 text-white/90 leading-relaxed" v-html="description"></div>
+        </div>
       </div>
     </div>
   </section>
