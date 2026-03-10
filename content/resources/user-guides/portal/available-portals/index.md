@@ -3,6 +3,7 @@ title: "Available Portals"
 date: 2024-01-29T11:45:16+11:00
 tags: ["Data portal"]
 description: "A list of the Oni data portals currently available, including their current collections."
+category: "RESOURCE"
 ---
 
 <br>

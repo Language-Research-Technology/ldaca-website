@@ -4,6 +4,7 @@ date: 2022-01-23T14:23:10+11:00
 tags: ["Data portal"]
 description: "Refine your results according to a set of major metadata categories."
 image: "/resources/user-guides/portal/filters/filters1.png"
+category: "RESOURCE"
 ---
 
 <br>

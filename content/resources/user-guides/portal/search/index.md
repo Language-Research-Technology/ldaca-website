@@ -4,6 +4,7 @@ date: 2021-01-23T14:23:27+11:00
 tags: ["Data portal"]
 description: "Refine your queries with word, phrase and pattern searches."
 image: "/resources/user-guides/portal/search/basic-search.png"
+category: "RESOURCE"
 ---
 
 <br>

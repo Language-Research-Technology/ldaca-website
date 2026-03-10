@@ -4,6 +4,7 @@ date: 2023-10-18T12:09:10+11:00
 tags: ["Governance, rights & access"]
 description: "Defines policies, roles, responsibilities and procedures for ongoing use and storage of data, as well as for access to data."
 image: "/resources/ldaca-resources/guidance-for-data-governance-decisions/data-license-figure.png"
+category: "RESOURCE"
 ---
 
 <br />

@@ -5,6 +5,7 @@ draft: false
 tags: ["Crate-O"]
 description: "A brief overview of Crate-O, RO-Crate, Schemas, Profiles and Modes."
 image: "/resources/user-guides/crate-o/general/my_corpus.png"
+category: "RESOURCE"
 weight: 1
 ---
 

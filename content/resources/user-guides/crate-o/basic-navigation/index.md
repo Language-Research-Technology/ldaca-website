@@ -5,6 +5,7 @@ draft: false
 tags: ["Crate-O"]
 description: "A guide to navigating the various sections of the Crate-O interface."
 image: "/resources/user-guides/crate-o/basic-navigation/entity_properties.jpeg"
+category: "RESOURCE"
 weight: 2
 ---
 

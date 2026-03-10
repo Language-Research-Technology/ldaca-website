@@ -4,6 +4,7 @@ date: 2016-04-16T13:09:22+10:00
 tags: ["Data portal"]
 description: "A guide to citing collections and data accessed through the portal."
 image: "/resources/user-guides/portal/cite-data/COOEE-Citation-field-wLink.png"
+category: "RESOURCE"
 ---
 
 <br>

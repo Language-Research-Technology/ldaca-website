@@ -3,6 +3,7 @@ title: "Sort and Order"
 date: 2020-01-23T15:02:22+11:00
 tags: ["Data portal"]
 description: "Sort and order the results in the portal."
+category: "RESOURCE"
 ---
 
 <br>
