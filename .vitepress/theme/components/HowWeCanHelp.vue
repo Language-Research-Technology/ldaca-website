@@ -75,7 +75,8 @@ const selectItem = (item) => {
     <!-- Header -->
     <div class="mb-12 text-left">
       <h1 class="">HOW WE CAN HELP</h1>
-      <subheading class="text-gray-600">LDaCA provides hands-on support to make language data usable, ethical and future-ready</subheading>
+      <subheading class="text-gray-600">LDaCA provides hands-on support to make language data usable, ethical and
+        future-ready</subheading>
     </div>
 
     <!-- DESKTOP / LARGE SCREEN -->
@@ -83,17 +84,12 @@ const selectItem = (item) => {
       <!-- Left: List of items -->
       <div class="lg:col-span-1">
         <div>
-          <button
-            v-for="item in props.items"
-            :key="item.title"
-            @click="selectItem(item)"
-            :style="{
-              backgroundColor: selectedItem.title === item.title ? buttonColors.bg : menuColors.unselectedBg,
-              color: selectedItem.title === item.title ? buttonColors.text : menuColors.unselectedText,
-              borderColor: selectedItem.title === item.title ? buttonColors.bg : '#d1d5db'
-            }"
-            class="w-full text-left px-4 py-3 first:rounded-t-lg last:rounded-b-lg border-[0.75px] transition-all hover:opacity-80"
-          >
+          <button v-for="item in props.items" :key="item.title" @click="selectItem(item)" :style="{
+            backgroundColor: selectedItem.title === item.title ? buttonColors.bg : menuColors.unselectedBg,
+            color: selectedItem.title === item.title ? buttonColors.text : menuColors.unselectedText,
+            borderColor: selectedItem.title === item.title ? buttonColors.bg : '#d1d5db'
+          }"
+            class="w-full text-left px-4 py-3 first:rounded-t-lg last:rounded-b-lg border-[0.75px] transition-all hover:opacity-80">
             {{ item.title }}
           </button>
         </div>
@@ -105,18 +101,16 @@ const selectItem = (item) => {
           <div class="grid grid-cols-2 gap-6">
             <!-- Left: Image -->
             <div class="h-full">
-              <img 
-                :src="selectedItem.image" 
-                :alt="selectedItem.title"
-                class="w-full h-full object-cover rounded-none"
-              />
+              <img :src="selectedItem.image" :alt="selectedItem.title"
+                class="w-full h-full object-cover rounded-none" />
             </div>
             <!-- Right: Text -->
-            <div class="flex flex-col justify-center p-6 gap-4">
+            <div class="flex flex-col justify-start gap-4">
               <h2 class="mb-4">{{ selectedItem.title }}</h2>
               <subheading class="text-gray-600">{{ selectedItem.description }}</subheading>
               <subheading class="text-gray-600">
-                <a :href="selectedItem.link" target="_blank" rel="noopener noreferrer" class="font-bold hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8">
+                <a :href="selectedItem.link" target="_blank" rel="noopener noreferrer"
+                  class="font-bold hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8">
                   Find out more ➔
                 </a>
               </subheading>
@@ -130,39 +124,24 @@ const selectItem = (item) => {
     <div class="lg:hidden flex flex-col gap-1">
       <div v-for="item in props.items" :key="item.title" class="bg-white rounded-lg shadow-sm overflow-hidden">
         <!-- Button / Title -->
-        <button
-          @click="selectItem(item)"
-          :style="{
-            backgroundColor: selectedItem.title === item.title ? buttonColors.bg : menuColors.unselectedBg,
-            color: selectedItem.title === item.title ? buttonColors.text : menuColors.unselectedText,
-            borderColor: selectedItem.title === item.title ? buttonColors.bg : '#d1d5db'
-          }"
-          class="w-full text-left px-4 py-3 border-[0.75px] rounded-lg transition-all hover:opacity-80"
-        >
+        <button @click="selectItem(item)" :style="{
+          backgroundColor: selectedItem.title === item.title ? buttonColors.bg : menuColors.unselectedBg,
+          color: selectedItem.title === item.title ? buttonColors.text : menuColors.unselectedText,
+          borderColor: selectedItem.title === item.title ? buttonColors.bg : '#d1d5db'
+        }" class="w-full text-left px-4 py-3 border-[0.75px] rounded-lg transition-all hover:opacity-80">
           {{ item.title }}
         </button>
 
         <!-- Image -->
-        <img
-          v-if="selectedItem.title === item.title"
-          :src="selectedItem.image"
-          :alt="selectedItem.title"
-          class="w-full h-48 object-cover rounded-lg"
-        />
+        <img v-if="selectedItem.title === item.title" :src="selectedItem.image" :alt="selectedItem.title"
+          class="w-full h-48 object-cover rounded-lg" />
 
         <!-- Text -->
-        <div
-          v-if="selectedItem.title === item.title"
-          class="p-4 space-y-2"
-        >
+        <div v-if="selectedItem.title === item.title" class="p-4 space-y-2">
           <h3 class="text-lg font-bold">{{ selectedItem.title }}</h3>
           <subheading class="text-gray-600">{{ selectedItem.description }}</subheading>
-          <a
-            :href="selectedItem.link"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="block font-bold hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8"
-          >
+          <a :href="selectedItem.link" target="_blank" rel="noopener noreferrer"
+            class="block font-bold hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8">
             Find out more ➔
           </a>
         </div>
