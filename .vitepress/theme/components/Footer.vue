@@ -194,7 +194,7 @@ footer {
           <a href="/privacy" class="text-sm text-[#383938] hover:text-gray-600 transition-colors">
             Privacy ➔
           </a>
-          <a href="/terms" class="text-sm text-[#383938] hover:text-gray-600 transition-colors">
+          <a href="/terms-conditions" class="text-sm text-[#383938] hover:text-gray-600 transition-colors">
             Terms & Conditions ➔
           </a>
         </nav>
