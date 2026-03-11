@@ -138,7 +138,7 @@ title: "Find & Access"
         link: 'https://data.ldaca.edu.au/object?_id=https%3A%2F%2Fgithub.com%2FAustralian-Text-Analytics-Platform%2Fcooee%2Fblob%2Fmain%2Fcooee.ipynb'
       },
       {
-        title: 'Farms to freeways notebook',
+        title: 'Farms to Freeways Notebook',
         description: 'A sample notebook for the Farms to Freeways data.',
         link: 'https://data.ldaca.edu.au/object?_id=https%3A%2F%2Fgithub.com%2FAustralian-Text-Analytics-Platform%2Ffarms-to-freeways%2Fblob%2Fmain%2Ffarms-to-freeways.ipynb'
       },

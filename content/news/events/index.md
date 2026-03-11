@@ -75,47 +75,12 @@ title: "Events"
       }
     ]"/>
 
-<style>
-.text-primary {
-  color: #79A38D;
-  text-decoration: none;
-}
-
-.border-primary {
-  border-color: #79A38D;
-}
-
-.hover\:text-primary:hover {
-  color: #79A38D;
-}
-
-.hover\:border-primary:hover {
-  border-color: #79A38D;
-}
-
-/* remove underline on the header link buttons */
-.mb-8 a {
-  text-decoration: none;
-}
-
-/* ensure hover and focus don't add underline and set hover text color on events index only */
-.mb-8 a:hover,
-.mb-8 a:focus {
-  text-decoration: none;
-  color: #79A38D;
-}
-
-.scroll-mt-24 {
-  scroll-margin-top: 6rem;
-}
-</style>
-
 <br>
 
 <div class="mb-8 flex flex-wrap gap-2">
-  <a href="#recurring-events" class="p-5 rounded-lg border-2 font-semibold transition-all border-gray-300 text-gray-700 hover:border-primary hover:text-primary">Recurring Events</a>
-  <a href="#previous-events" class="p-5 rounded-lg border-2 font-semibold transition-all border-gray-300 text-gray-700 hover:border-primary hover:text-primary">Previous Events</a>
-  <a href="#webinars" class="p-5 rounded-lg border-2 font-semibold transition-all border-gray-300 text-gray-700 hover:border-primary hover:text-primary">Previous Webinars</a>
+  <a href="#recurring-events" class="p-5 rounded-lg font-semibold transition-all bg-[#79a38d] text-white hover:opacity-80">Recurring Events</a>
+  <a href="#previous-events" class="p-5 rounded-lg font-semibold transition-all bg-[#79a38d] text-white hover:opacity-80">Previous Events</a>
+  <a href="#webinars" class="p-5 rounded-lg font-semibold transition-all bg-[#79a38d] text-white hover:opacity-80">Previous Webinars</a>
 </div>
 
 <br>
