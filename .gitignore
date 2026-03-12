@@ -7,3 +7,6 @@ resources/_gen/
 node_modules
 .vitepress/dist
 .vitepress/cache
+package-lock.json
+node_modules/.package-lock.json
+.vitepress/cache/deps/_metadata.json
