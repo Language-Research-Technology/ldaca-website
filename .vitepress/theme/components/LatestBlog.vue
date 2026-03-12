@@ -42,8 +42,9 @@ const getImage = (post) =>
 
             <a :href="post.url"
               class="mt-3 inline-flex items-center text-white text-xl font-bold hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8">
-              Read blog ➔
+              Read blog
             </a>
+            <a class="font-sans text-white text-xl"> →</a>
 
           </div>
         </div>

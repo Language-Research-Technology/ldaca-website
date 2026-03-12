@@ -115,9 +115,9 @@ const isExternal = (url) => {
 
         <!-- LEFT ARROW -->
         <button v-if="showArrows" type="button" @click="prev"
-          class="h-16 w-16 flex items-center justify-center rounded-full bg-[#79a38d] text-white hover:opacity-80 shadow-sm"
+          class="h-16 w-16 flex items-center justify-center rounded-full bg-[#79a38d] text-white font-sans text-3xl hover:opacity-80 shadow-sm"
           aria-label="Previous">
-          ⏴
+          ←
         </button>
 
         <!-- GRID PANELS -->
@@ -134,16 +134,16 @@ const isExternal = (url) => {
               class="flex justify-between items-center w-full font-bold mt-auto bg-[#79A38D] hover:bg-[#8faf9b]"
               style="color:#FFFEF8; padding:15px;">
               <span class="text-xl">View more</span>
-              <span class="text-xl ml-auto">➔</span>
+              <span class="text-xl ml-auto font-sans">→</span>
             </a>
           </div>
         </div>
 
         <!-- RIGHT ARROW -->
         <button v-if="showArrows" type="button" @click="next"
-          class="h-16 w-16 flex items-center justify-center rounded-full bg-[#79a38d] text-white hover:opacity-80 shadow-sm"
+          class="h-16 w-16 flex items-center justify-center rounded-full bg-[#79a38d] text-white font-sans text-3xl hover:opacity-80 shadow-sm"
           aria-label="Next">
-          ⏵
+          →
         </button>
 
       </div>

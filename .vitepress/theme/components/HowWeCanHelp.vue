@@ -111,8 +111,9 @@ const selectItem = (item) => {
               <subheading class="text-gray-600">
                 <a :href="selectedItem.link" target="_blank" rel="noopener noreferrer"
                   class="font-bold hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8">
-                  Find out more ➔
+                  Find out more
                 </a>
+                <a class="font-sans">→</a>
               </subheading>
             </div>
           </div>
@@ -142,8 +143,9 @@ const selectItem = (item) => {
           <subheading class="text-gray-600">{{ selectedItem.description }}</subheading>
           <a :href="selectedItem.link" target="_blank" rel="noopener noreferrer"
             class="block font-bold hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8">
-            Find out more ➔
+            Find out more
           </a>
+          <a class="font-sans">→</a>
         </div>
       </div>
     </div>
