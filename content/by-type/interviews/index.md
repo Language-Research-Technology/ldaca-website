@@ -3,7 +3,7 @@ layout: home
 title: "Interviews"
 ---
 
-<SubPageHero title="Interviews" description="Interviews description goes here."/>
+<SimpleHero breadcrumb='Resources > Interviews' title="Interviews" description="Interviews description goes here."/>
 
 <Carousel 
   :items="[

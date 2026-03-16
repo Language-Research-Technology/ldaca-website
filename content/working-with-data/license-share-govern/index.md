@@ -3,16 +3,17 @@ layout: home
 title: "License, Share & Govern"
 ---
 
-<SubPageHero title="License, Share & Govern" description="License, share & govern description goes here."/>
+<SimpleHero breadcrumb="Working with Data > License, Share & Govern" title="License, Share & Govern Data" description="License, share & govern description goes here."/>
 
-<DataPortalBox 
-  title="Interested in contributing your data?"
-  subtitle="View the Data Onboarding Process for steps on how."
-  buttonText="Data Onboarding Process"
-  buttonLink="/resources/ldaca-resources/data-onboarding-process/"
-/>
+<SimpleNavigation
+  :contents="[
+    { label: 'Guides', href: '#guides' },
+    { label: 'On the blog', href: '#on-the-blog' },
+    { label: 'Additional resources', href: '#additional-resources' },
+  ]" />
 
-<Carousel 
+<GuideCarousel 
+  id="guides"
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="GUIDES"
@@ -37,6 +38,8 @@ title: "License, Share & Govern"
     ]"/>
 
 <Carousel 
+  id="on-the-blog"
+  shade="light"
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="ON THE BLOG"
@@ -55,7 +58,8 @@ title: "License, Share & Govern"
       },
   ]"/>
 
-<Carousel 
+<ThreeTiles 
+  id="additional-resources"
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="ADDITIONAL RESOURCES"
@@ -82,8 +86,15 @@ title: "License, Share & Govern"
     ]"/>
 
 <DataPortalBox 
-  title="Licenses"
-  subtitle="Custom licenses that data contributors have applied to the content of their collection, including the content coverage of that license, in cases where these are not already-existing licenses (e.g. Creative Commons)."
+  heading="Licenses"
+  description="Custom licenses that data contributors have applied to the content of their collection, including the content coverage of that license, in cases where these are not already-existing licenses (e.g. Creative Commons)."
   buttonText="Go to existing licenses"
   buttonLink="/resources/ldaca-resources/licenses"
+/>
+
+<ContactBox 
+  heading="Interested in contributing to LDaCA?"
+  description="Do you have data, expertise, or resources you'd like to share? We'd love to hear from you."
+  buttonText="Get in touch"
+  buttonLink="/contact/"
 />

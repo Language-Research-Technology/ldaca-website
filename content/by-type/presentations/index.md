@@ -3,7 +3,7 @@ layout: home
 title: "Presentations"
 ---
 
-<SubPageHero title="Presentations" description="Presentations description goes here."/>
+<SimpleHero breadcrumb='Resources > Presentations' title="Presentations" description="Presentations description goes here."/>
 
 <Carousel 
   :items="[

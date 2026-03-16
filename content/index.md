@@ -22,8 +22,8 @@ description = "The Language Data Commons of Australia brings together digital in
 
 
 <DataPortalBox 
-  title="Use the Data Portal"
-  subtitle="Search, browse and use language materials"
+  heading="Use the Data Portal"
+  description="Search, browse and use language materials"
   buttonText="Go to the Data Portal"
   buttonLink="https://data.ldaca.edu.au"
 />
@@ -33,37 +33,44 @@ description = "The Language Data Commons of Australia brings together digital in
   {
     title: 'Find & access language materials',
     image: 'https://placehold.co/400x400',
-    description: 'Discover and access a wide range of language materials through our comprehensive search tools and data portal. We make it easy to find the resources you need for your research.'
+    description: 'Discover and access a wide range of language materials through our comprehensive search tools and data portal. We make it easy to find the resources you need for your research.',
+    link: '/working-with-data/find-access/'
   },
   {
     title: 'Organise & describe data',
     image: 'https://placehold.co/400x400',
-    description: 'Learn best practices for organising and describing your language data with metadata standards that ensure discoverability and long-term preservation.'
+    description: 'Learn best practices for organising and describing your language data with metadata standards that ensure discoverability and long-term preservation.',
+    link: '/working-with-data/organise-describe/'
   },
   {
     title: 'License collections responsibly',
     image: 'https://placehold.co/400x400',
-    description: 'Get guidance on choosing appropriate licenses for your language collections that respect cultural protocols and legal requirements.'
+    description: 'Get guidance on choosing appropriate licenses for your language collections that respect cultural protocols and legal requirements.',
+    link: '/working-with-data/license-share-govern/'
   },
   {
     title: 'Share data with care',
     image: 'https://placehold.co/400x400',
-    description: 'Implement ethical data sharing practices that honor community wishes and maintain appropriate access controls for sensitive materials.'
+    description: 'Implement ethical data sharing practices that honor community wishes and maintain appropriate access controls for sensitive materials.',
+    link: '/working-with-data/license-share-govern/'
   },
   {
     title: 'Guidance on governance',
     image: 'https://placehold.co/400x400',
-    description: 'Access frameworks and guidance for establishing governance structures that support ethical stewardship of language data.'
+    description: 'Access frameworks and guidance for establishing governance structures that support ethical stewardship of language data.',
+    link: '/working-with-data/license-share-govern/'
   },
   {
     title: 'Process data for use',
     image: 'https://placehold.co/400x400',
-    description: 'Use our tools and workflows to process language data into formats ready for analysis, visualisation, and other research applications.'
+    description: 'Use our tools and workflows to process language data into formats ready for analysis, visualisation, and other research applications.',
+    link: '/working-with-data/process-analyse/'
   },
   {
     title: 'Analyse language at scale',
     image: 'https://placehold.co/400x400',
-    description: 'Leverage computational tools and infrastructure to perform large-scale language analysis across diverse collections and datasets.'
+    description: 'Leverage computational tools and infrastructure to perform large-scale language analysis across diverse collections and datasets.',
+    link: '/working-with-data/process-analyse/'
   }
 ]"
 />
@@ -74,28 +81,16 @@ description = "The Language Data Commons of Australia brings together digital in
   heading="PROJECTS, CASE STUDIES & RESOURCES"
   :items="[
       {
-        title: 'Project: Coastal Languages Archive',
-        description: 'Digitising and describing coastal language recordings with community-led governance.',
-        image: 'https://placehold.co/600x360',
-        link: '/projects/coastal-languages'
+        title: 'Arne ingkerreke apurtelhe-ileme: Project launch',
+        link: '/news/posts/VeronicaDobson-launch2025'
       },
       {
-        title: 'Case Study: Ethical Sharing',
-        description: 'How consent workflows and tiered access kept sensitive stories safe while discoverable.',
-        image: 'https://placehold.co/600x360',
-        link: '/case-studies/ethical-sharing'
+        title: 'Sydney Speaks',
+        link: '/resources/general-resources/case-studies/sydney-speaks'
       },
       {
-        title: 'Resource: Metadata Playbook',
-        description: 'Practical templates and examples for describing language materials consistently.',
-        image: 'https://placehold.co/600x360',
-        link: '/resources/metadata-playbook'
-      },
-      {
-        title: 'Project: Language at Scale',
-        description: 'Processing large corpora with reproducible pipelines and cloud tooling.',
-        image: 'https://placehold.co/600x360',
-        link: '/projects/language-at-scale'
+        title: 'Data Portal Guide',
+        link: '/resources/user-guides/portal'
       }
     ]"/>
 

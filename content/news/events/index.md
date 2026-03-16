@@ -5,7 +5,7 @@ title: "Events"
 #   - "/events/"
 ---
 
-<SubPageHero title="Events" description="Events description goes here."/>
+<SimpleHero breadcrumb='Training & Events > Events' title="Events" description="Discover upcoming and past events and access recordings where available."/>
 
 <Carousel 
   backgroundColor="#EAE4D68C"
@@ -57,6 +57,7 @@ title: "Events"
     ]"/>
 
 <Carousel 
+  shade="light"
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="ON THE BLOG"

@@ -3,25 +3,32 @@ layout: home
 title: "Organise & Describe"
 ---
 
-<SubPageHero title="Organise & Describe" description="Organise & describe description goes here."/>
+<SimpleHero breadcrumb="Working with Data > Organise & Describe" title="Organise & Describe Data" description="Practical help for making your collections clearer, more accessible and responsibly managed."/>
 
-<DataPortalBox 
-  title="Interested in contributing your data?"
-  subtitle="View the Data Onboarding Process for steps on how."
-  buttonText="Data Onboarding Process"
-  buttonLink="/resources/ldaca-resources/data-onboarding-process/"
+<SimpleNavigation
+  title="Building clearer, more usable collections"
+  description="The way you organise and describe your data plays a key role in making your collection usable and meaningful. LDaCA seeks to support researchers and communities to build collections that remain useful, accessible and responsibly managed into the future. Explore practical guides, tools and insights to support clear, effective data management that follows FAIR and CARE principles."
+  :contents="[
+    { label: 'Tools', href: '#tools' },
+    { label: 'Guides', href: '#guides' },
+    { label: 'On the blog', href: '#on-the-blog' },
+    { label: 'Additional resources', href: '#additional-resources' }
+  ]"
 />
 
-<Carousel 
+<CarouselLarge 
+  id="tools"
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="TOOLS"
+  subheading="Flexible tools to assist with creating linked-data description and packaging."
   :items="[
       {
-        title: 'Crate-O',
-        description: 'Crate-O is a browser-based editor for Research Object Crates (RO-Crate). RO-Crate is a flexible, developer-friendly approach to linked-data description and packaging.',
+        title: 'Metadata editor: Crate-O',
+        description: 'A tool that allows you to create and update Research Object Crates (RO-Crates) using a web interface, and with metadata spreadsheets. It provides researchers with a relatively simple way to  describe their data using the best practices in formal metadata  description.',
         image: 'https://language-research-technology.github.io/crate-o/logo.svg',
-        link: 'https://language-research-technology.github.io/crate-o/#/'
+        link: 'https://language-research-technology.github.io/crate-o/#/',
+        guideLink: '/resources/user-guides/crate-o'
       },
       {
         title: 'RO-Crate Playground',
@@ -30,14 +37,18 @@ title: "Organise & Describe"
       }
     ]"/>
 
-<Carousel 
+<GuideCarousel 
+  id="guides"
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="GUIDES"
+  description="LDaCA provides hands-on support to make language data usable, ethical and future-ready."
   :items="[
       {
         title: 'Metadata',
-        description: 'Information about the approach to metadata being taken by LDaCA.',
+        description: 'Not sure what metadata actually means or why everyone keeps talking about it? This guide has you covered — no jargon, just clear and practical advice.',
+        level: 'Beginner',
+        audience: 'Researchers, community, people working with data.',
         link: '/resources/ldaca-resources/metadata'
       },
       {
@@ -47,7 +58,9 @@ title: "Organise & Describe"
       }
     ]"/>
 
-<Carousel 
+<Carousel
+  id="on-the-blog"
+  shade="light"
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="ON THE BLOG"
@@ -67,7 +80,8 @@ title: "Organise & Describe"
       }
     ]"/>
 
-<Carousel 
+<ThreeTiles 
+  id="additional-resources"
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="ADDITIONAL RESOURCES"
@@ -75,18 +89,27 @@ title: "Organise & Describe"
       {
         title: 'Language Data Commons Schema Terms',
         description: 'This is a language data schema, in the style of the Schema.org schema. It is based on OLAC terms for use in the LDaCA project. This schema builds on Schema.org and is intended to be used with the Language Data Commons RO-Crate Profile.',
-        link: 'https://w3id.org/ldac/terms'
+        link: 'https://w3id.org/ldac/terms',
+        category: 'WEB PAGE'
       },
       {
         title: 'What is an RO-Crate?',
         description: 'An explainer about Research Object Crates (RO-Crates). Created by Otis Carmichael.',
         image: 'https://img.youtube.com/vi/tAR-JNN3EbA/sddefault.jpg',
         link: 'https://www.youtube.com/watch?v=tAR-JNN3EbA',
-        category: 'RECORDING'
+        category: 'VIDEO'
       },
       {
         title: 'Introduction to metadata',
         description: 'TODO.',
-        link: 'https://ardc.edu.au/wp-content/uploads/2025/03/b2-metadata_session.pdf'
+        link: 'https://ardc.edu.au/wp-content/uploads/2025/03/b2-metadata_session.pdf',
+        category: 'SLIDES'
       }
     ]"/>
+
+<ContactBox 
+  heading="Interested in contributing to LDaCA?"
+  description="Do you have data, expertise, or resources you'd like to share? We'd love to hear from you."
+  buttonText="Get in touch"
+  buttonLink="/contact/"
+/>

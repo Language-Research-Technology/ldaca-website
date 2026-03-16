@@ -3,26 +3,20 @@ layout: home
 title: "Technologies & Tools"
 ---
 
-<SubPageHero title="Technologies & Tools" description="Technologies & tools description goes here."/>
+<SimpleHero breadcrumb='Resources > Technologies & Tools' title="Technologies & Tools" description="Technologies & tools description goes here."/>
 
 <Carousel 
   :items="[
       {
         title: 'LDaCA Software Tools',
-        description: 'A variety of LDaCA open-source tools available on GitHub.',
-        image: '',
         link: '/resources/ldaca-resources/ldaca-software-tools'
       },
       {
         title: 'Technologies',
-        description: 'Information about the technologies being used in LDaCA.',
-        image: '',
         link: '/about/technologies'
       },
       {
         title: 'Principles',
-        description: 'Information about the principles on which the work of LDaCA is based.',
-        image: '',
         link: '/about/principles'
       }
     ]"/>

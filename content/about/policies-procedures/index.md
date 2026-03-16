@@ -3,19 +3,12 @@ layout: home
 title: "Policies & Procedures"
 ---
 
-<SubPageHero title='Policies & Procedures' description='Policies and procedures description here'/>
+<SimpleHero breadcrumb='About > Policies & Procedures' title='Policies & Procedures' description='Policies and procedures description here'/>
 
 <Carousel 
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="POLICIES"
-  :items="[
-    ]"/>
-
-<Carousel 
-  backgroundColor="#EAE4D68C"
-  :opacity="100"
-  heading="PROCEDURES"
   :items="[
       {
         title: 'Privacy Policy',

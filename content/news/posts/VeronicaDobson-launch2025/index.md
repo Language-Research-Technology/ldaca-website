@@ -5,6 +5,7 @@ draft: false
 description: "Read about the launch of Arne ingkerreke apurtelhe-ileme (Gathering all the things together) at Batchelor Institute earlier this month. Arne ingkerreke apurtelhe-ileme brings together the incredible life’s work of Veronica Perrurle Dobson (AM). The project website is a guide to Veronica’s life, work, and publications, and contains links to archival collections of her work."
 layout: post
 image: "/news/posts/VeronicaDobson-launch2025/VPDLaunch-2.jpg"
+category: "PROJECT"
 ---
 
 by <Profile id="lea" />

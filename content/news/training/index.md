@@ -3,7 +3,7 @@ layout: home
 title: "Training"
 ---
 
-<SubPageHero title="Training" description="Training description goes here."/>
+<SimpleHero breadcrumb='Training & Events > Training' title="Training" description="Training description goes here."/>
 
 <Carousel 
   backgroundColor="#EAE4D68C"
@@ -40,6 +40,7 @@ title: "Training"
     ]"/>
 
 <Carousel 
+  shade="light"
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="ON THE BLOG"
@@ -54,7 +55,7 @@ title: "Training"
       }
     ]"/>
 
-<Carousel 
+<ThreeTiles 
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="ADDITIONAL RESOURCES"

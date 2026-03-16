@@ -3,7 +3,7 @@ layout: home
 title: "Case Studies"
 ---
 
-<SubPageHero title='Case Studies' description='Accounts by collectors of various kinds of language data illustrating the different solutions they have adopted for the problems encountered in the process.'/>
+<SimpleHero breadcrumb='Projects & Case Studies > Case Studies' title='Case Studies' description='Accounts by collectors of various kinds of language data illustrating the different solutions they have adopted for the problems encountered in the process.'/>
 
 <Carousel 
   backgroundColor="#EAE4D68C"

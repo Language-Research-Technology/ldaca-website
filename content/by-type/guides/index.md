@@ -3,7 +3,7 @@ layout: home
 title: "Guides"
 ---
 
-<SubPageHero title="Guides" description="Guides description goes here."/>
+<SimpleHero breadcrumb='Resources > Guides' title="Guides" description="Guides description goes here."/>
 
 <Carousel 
   backgroundColor="#EAE4D68C"

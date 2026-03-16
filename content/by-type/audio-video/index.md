@@ -3,7 +3,7 @@ layout: home
 title: "Audio & Video"
 ---
 
-<SubPageHero title="Audio & Video" description="Audio & video description goes here."/>
+<SimpleHero breadcrumb='Resources > Audio & Video' title="Audio & Video" description="Audio & video description goes here."/>
 
 <Carousel 
   backgroundColor="#EAE4D68C"

@@ -8,6 +8,6 @@ aliases:
 layout: home
 ---
 
-<SubPageHero title="Blog" description="Read blog posts written by members of our team about the Language Research domain."/>
+<SimpleHero title="Blog" description="Read blog posts written by members of our team about the Language Research domain."/>
 
 <BlogPostsPage />

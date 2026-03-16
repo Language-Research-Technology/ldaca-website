@@ -3,16 +3,20 @@ layout: home
 title: "Process & Analyse"
 ---
 
-<SubPageHero title="Process & Analyse" description="Process & analyse description goes here."/>
+<SimpleHero breadcrumb="Working with Data > Process & Analyse" title="Process & Analyse Data" description="Process & analyse description goes here."/>
 
-<DataPortalBox 
-  title="Interested in contributing your data?"
-  subtitle="View the Data Onboarding Process for steps on how."
-  buttonText="Data Onboarding Process"
-  buttonLink="/resources/ldaca-resources/data-onboarding-process/"
+<SimpleNavigation
+:contents="[
+    { label: 'Tools & notebooks', href: '#tools-notebooks' },
+    { label: 'Guides', href: '#guides' },
+    { label: 'On the blog', href: '#on-the-blog' },
+    { label: 'Additional resources', href: '#additional-resources' },
+    { label: 'Collaborators', href: '#collaborators' }
+  ]"
 />
 
-<Carousel 
+<CarouselLarge 
+  id="tools-notebooks"
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="TOOLS & NOTEBOOKS"
@@ -38,7 +42,8 @@ title: "Process & Analyse"
       },
     ]"/>
 
-<Carousel 
+<GuideCarousel 
+  id="guides"
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="GUIDES"
@@ -62,6 +67,8 @@ title: "Process & Analyse"
     ]"/>
 
 <Carousel 
+  id="on-the-blog"
+  shade="light"
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="ON THE BLOG"
@@ -80,7 +87,8 @@ title: "Process & Analyse"
       }
     ]"/>
 
-<Carousel 
+<ThreeTiles 
+  id="additional-resources"
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="ADDITIONAL RESOURCES"
@@ -102,6 +110,7 @@ title: "Process & Analyse"
     ]"/>
 
 <Carousel 
+  id="collaborators"
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="COLLABORATORS"
@@ -131,3 +140,10 @@ title: "Process & Analyse"
         link: 'https://www.sydney.edu.au/research/facilities/sydney-informatics-hub.html'
       }
     ]"/>
+
+<ContactBox 
+  heading="Interested in contributing to LDaCA?"
+  description="Do you have data, expertise, or resources you'd like to share? We'd love to hear from you."
+  buttonText="Get in touch"
+  buttonLink="/contact/"
+/>

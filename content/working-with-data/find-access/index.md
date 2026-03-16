@@ -3,16 +3,21 @@ layout: home
 title: "Find & Access"
 ---
 
-<SubPageHero title="Find & Access" description="Find & access description goes here."/>
+<SimpleHero breadcrumb="Working with Data > Find & Access" title="Find & Access Data" description="Find & access description goes here."/>
 
-<DataPortalBox 
-  title="Interested in contributing your data?"
-  subtitle="View the Data Onboarding Process for steps on how."
-  buttonText="Data Onboarding Process"
-  buttonLink="/resources/ldaca-resources/data-onboarding-process/"
-/>
+<SimpleNavigation
+  :contents="[
+    { label: 'Available portals', href: '#available-portals' },
+    { label: 'Collections', href: '#collections' },
+    { label: 'Notebooks', href: '#notebooks' },
+    { label: 'Guides', href: '#guides' },
+    { label: 'On the blog', href: '#on-the-blog' },
+    { label: 'Additional resources', href: '#additional-resources' },
+    { label: 'Collaborators', href: '#collaborators' },
+  ]" />
 
-<Carousel 
+<CarouselLarge 
+  id="available-portals"
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="AVAILABLE PORTALS"
@@ -36,6 +41,7 @@ title: "Find & Access"
     ]"/>
 
 <Carousel 
+  id="collections"
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="COLLECTIONS"
@@ -128,6 +134,7 @@ title: "Find & Access"
     ]"/>
 
 <Carousel 
+  id="notebooks"
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="NOTEBOOKS"
@@ -144,7 +151,8 @@ title: "Find & Access"
       },
     ]"/>
 
-<Carousel 
+<GuideCarousel 
+  id="guides"
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="GUIDES"
@@ -162,6 +170,8 @@ title: "Find & Access"
     ]"/>
 
 <Carousel 
+  id="on-the-blog"
+  shade="light"
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="ON THE BLOG"
@@ -180,7 +190,8 @@ title: "Find & Access"
       }
     ]"/>
 
-<Carousel 
+<ThreeTiles 
+  id="additional-resources"
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="ADDITIONAL RESOURCES"
@@ -209,6 +220,7 @@ title: "Find & Access"
     ]"/>
 
 <Carousel 
+  id="collaborators"
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="COLLABORATORS"
@@ -232,3 +244,10 @@ title: "Find & Access"
         link: 'https://www.clarin.eu/'
       }
     ]"/>
+
+<ContactBox 
+  heading="Interested in contributing to LDaCA?"
+  description="Do you have data, expertise, or resources you'd like to share? We'd love to hear from you."
+  buttonText="Get in touch"
+  buttonLink="/contact/"
+/>
