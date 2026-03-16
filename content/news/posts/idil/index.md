@@ -22,7 +22,18 @@ Languages require action to remain in use. The United Nations General Assembly h
 
 <br />
 
-<iframe src="https://www.youtube.com/embed/-eOxQIfZrVg?modestbranding=1&rel=0&showinfo=0&controls=0" title="Join the International Decade of Indigenous Languages 2022-2032" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="absolute top-0 left-0 w-full h-full border-none"></iframe>
+<div align="center">
+<iframe
+  width="800"
+  height="460"
+  src="https://www.youtube.com/embed/-eOxQIfZrVg?si=lUY272DpTVW1PZlb"
+  frameborder="0"
+  allow="autoplay; encrypted-media"
+  allowfullscreen
+>
+</iframe>
+</div>
+
 <br>
 
 The International Decade aims to achieve four main outcomes:
