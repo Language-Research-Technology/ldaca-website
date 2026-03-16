@@ -71,7 +71,7 @@ const selectItem = (item) => {
 </script>
 
 <template>
-  <section class="max-w-[1440px] mx-auto py-10">
+  <section class="max-w-[1280px] mx-auto py-10">
     <!-- Header -->
     <div class="mb-12 text-left">
       <h1 class="">HOW WE CAN HELP</h1>
@@ -109,11 +109,11 @@ const selectItem = (item) => {
               <h2 class="mb-4">{{ selectedItem.title }}</h2>
               <subheading class="text-gray-600">{{ selectedItem.description }}</subheading>
               <subheading class="text-gray-600">
-                <a :href="selectedItem.link" target="_blank" rel="noopener noreferrer"
+                <a :href="selectedItem.link"
                   class="font-bold hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8">
                   Find out more
                 </a>
-                <a class="font-sans">→</a>
+                <a class="font-sans font-bold">→</a>
               </subheading>
             </div>
           </div>
@@ -141,11 +141,11 @@ const selectItem = (item) => {
         <div v-if="selectedItem.title === item.title" class="p-4 space-y-2">
           <h3 class="text-lg font-bold">{{ selectedItem.title }}</h3>
           <subheading class="text-gray-600">{{ selectedItem.description }}</subheading>
-          <a :href="selectedItem.link" target="_blank" rel="noopener noreferrer"
+          <a :href="selectedItem.link"
             class="block font-bold hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8">
             Find out more
           </a>
-          <a class="font-sans">→</a>
+          <a class="font-sans font-bold">→</a>
         </div>
       </div>
     </div>

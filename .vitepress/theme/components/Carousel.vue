@@ -24,8 +24,24 @@ const props = defineProps({
   opacity: {
     type: Number,
     default: 100
+  },
+  shade: {
+    type: String,
+    default: 'dark'
   }
 })
+
+const cardBgClass = computed(() =>
+  props.shade === 'dark' ? 'bg-[#393939]' : 'bg-white border-[0.75px] border-[#b0b0b0]'
+)
+
+const textClass = computed(() =>
+  props.shade === 'dark' ? 'text-white' : 'text-[#383938]'
+)
+
+const categoryClass = computed(() =>
+  props.shade === 'dark' ? 'text-white/80' : 'text-[#383938]/70'
+)
 
 const currentIndex = ref(0)
 const total = computed(() => props.items.length)
@@ -104,7 +120,7 @@ const isExternal = (url) => {
 <template>
   <section class="w-full py-10"
     :style="props.backgroundColor ? { backgroundColor: props.backgroundColor, opacity: `${props.opacity}%` } : {}">
-    <div class="max-w-[1440px] mx-auto">
+    <div class="max-w-[1280px] mx-auto">
 
       <!-- Heading -->
       <div class="mb-8 text-left">
@@ -115,33 +131,39 @@ const isExternal = (url) => {
 
         <!-- LEFT ARROW -->
         <button v-if="showArrows" type="button" @click="prev"
-          class="h-16 w-16 flex items-center justify-center rounded-full bg-[#79a38d] text-white font-sans text-3xl hover:opacity-80 shadow-sm"
+          class="h-16 w-16 flex items-center justify-center rounded-full bg-[#79a38d] text-white font-sans font-bold text-3xl hover:opacity-80 shadow-sm"
           aria-label="Previous">
           ←
         </button>
 
         <!-- GRID PANELS -->
         <div class="grid grid-cols-3 gap-4">
-          <div v-for="item in visibleItems" :key="item.title" class="bg-[#393939] overflow-hidden flex flex-col">
+          <div v-for="item in visibleItems" :key="item.title" :class="[cardBgClass, 'overflow-hidden flex flex-col']">
             <img :src="item.image" :alt="item.title" class="w-full object-cover h-80" />
+
             <div class="px-5 pt-5 pb-3 space-y-3 flex flex-col">
-              <p class="text-white">{{ item.category }}</p>
-              <h3 class="text-white">{{ item.title }}</h3>
-              <p class="text-white leading-relaxed flex-1">{{ item.description }}</p>
+              <p :class="categoryClass">{{ item.category }}</p>
+
+              <h3 :class="textClass">{{ item.title }}</h3>
+
+              <p :class="[textClass, 'leading-relaxed flex-1']">
+                {{ item.description }}
+              </p>
             </div>
+
             <a :href="item.link" :target="isExternal(item.link) ? '_blank' : '_self'"
               :rel="isExternal(item.link) ? 'noopener noreferrer' : null"
               class="flex justify-between items-center w-full font-bold mt-auto bg-[#79A38D] hover:bg-[#8faf9b]"
               style="color:#FFFEF8; padding:15px;">
               <span class="text-xl">View more</span>
-              <span class="text-xl ml-auto font-sans">→</span>
+              <span class="text-xl ml-auto font-sans font-bold">→</span>
             </a>
           </div>
         </div>
 
         <!-- RIGHT ARROW -->
         <button v-if="showArrows" type="button" @click="next"
-          class="h-16 w-16 flex items-center justify-center rounded-full bg-[#79a38d] text-white font-sans text-3xl hover:opacity-80 shadow-sm"
+          class="h-16 w-16 flex items-center justify-center rounded-full bg-[#79a38d] text-white font-sans font-bold text-3xl hover:opacity-80 shadow-sm"
           aria-label="Next">
           →
         </button>
@@ -151,18 +173,25 @@ const isExternal = (url) => {
       <!-- TABLET / MOBILE STACKED PANELS -->
       <div class="lg:hidden flex flex-col gap-4">
         <div v-for="item in props.items" :key="item.title" class="bg-[#393939] overflow-hidden flex flex-col">
-          <img :src="item.image" :alt="item.title" class="w-full object-cover h-60" />
+          <!-- compute image with frontmatter fallback -->
+          <img
+            :src="item.image ?? pagesData[item.link]?.image ?? (Array.isArray(props.image) ? props.image[0] : props.image)"
+            :alt="item.title" class="w-full object-cover h-60" />
+
           <div class="px-5 pt-5 pb-3 space-y-3 flex flex-col">
-            <p class="text-white">{{ item.category }}</p>
-            <h3 class="text-white">{{ item.title }}</h3>
-            <p class="text-white leading-relaxed flex-1">{{ item.description }}</p>
+            <p class="text-white">{{ item.category ?? pagesData[item.link]?.category }}</p>
+            <h3 class="text-white">{{ item.title ?? pagesData[item.link]?.title }}</h3>
+            <p class="text-white leading-relaxed flex-1">
+              {{ item.description ?? pagesData[item.link]?.description }}
+            </p>
           </div>
+
           <a :href="item.link" :target="isExternal(item.link) ? '_blank' : '_self'"
             :rel="isExternal(item.link) ? 'noopener noreferrer' : null"
             class="flex justify-between items-center w-full font-bold mt-auto bg-[#79A38D] hover:bg-[#8faf9b]"
             style="color:#FFFEF8; padding:15px;">
             <span class="text-xl">View more</span>
-            <span class="text-xl ml-auto">➔</span>
+            <span class="font-sans font-bold text-white text-xl"> →</span>
           </a>
         </div>
       </div>

@@ -14,7 +14,7 @@ const getImage = (post) =>
 </script>
 
 <template>
-  <section class="max-w-[1440px] mx-auto py-10">
+  <section class="max-w-[1280px] mx-auto py-10">
 
     <div class="mb-8 text-left">
       <h1>LATEST ON THE BLOG</h1>
@@ -22,7 +22,7 @@ const getImage = (post) =>
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
 
-      <article v-for="post in latestPosts" :key="post.url" class="relative overflow-hidden shadow-lg h-[700px]">
+      <article v-for="post in latestPosts" :key="post.url" class="relative overflow-hidden shadow-xl h-[700px]">
 
         <!-- background image -->
         <div class="absolute inset-0 bg-cover bg-center bg-[#79a38d]"
@@ -44,7 +44,7 @@ const getImage = (post) =>
               class="mt-3 inline-flex items-center text-white text-xl font-bold hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8">
               Read blog
             </a>
-            <a class="font-sans text-white text-xl"> →</a>
+            <a class="font-sans font-bold text-white text-xl"> →</a>
 
           </div>
         </div>

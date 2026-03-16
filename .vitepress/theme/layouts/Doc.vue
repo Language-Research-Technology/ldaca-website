@@ -1,6 +1,7 @@
 <script setup>
 import { useData } from 'vitepress'
 import { computed } from 'vue'
+import SimpleHero from '../components/SimpleHero.vue'
 
 const { page } = useData()
 const tags = computed(() => {
@@ -19,14 +20,17 @@ const tagLinks = computed(() => {
 </script>
 
 <template>
+  <SimpleHero :title="page.frontmatter?.title || 'Untitled Document'" :description="page.frontmatter?.description || ''"
+    :breadcrumb="page.frontmatter?.breadcrumb || ''" backgroundImage="/images/GreenBackground.png" />
+
   <div class="VPDoc">
     <div class="container">
       <article class="vp-doc">
         <!-- Auto-display title from front matter -->
-        <h1 v-if="page.frontmatter?.title" class="text-2xl font-bold mb-2 mt-2">
+        <!-- <h1 v-if="page.frontmatter?.title" class="text-2xl font-bold mb-2 mt-2">
           {{ page.frontmatter.title }}
-        </h1>
-        
+        </h1> -->
+
         <!-- Auto-display author from front matter -->
         <div v-if="page.frontmatter?.author" class="mb-4 italic text-gray-600">
           <span>by {{ page.frontmatter.author }}</span>
@@ -35,12 +39,13 @@ const tagLinks = computed(() => {
         <!-- Tags -->
         <div v-if="tags.length > 0" class="mb-6 pb-6 border-b border-gray-300">
           <div class="flex flex-wrap gap-2">
-            <a v-for="tag in tagLinks" :key="tag.label" :href="tag.url" class="inline-flex px-3 py-1 bg-gray-100 text-blue-600 rounded text-sm hover:bg-gray-200">
+            <a v-for="tag in tagLinks" :key="tag.label" :href="tag.url"
+              class="inline-flex px-3 py-1 bg-gray-100 text-blue-600 rounded text-sm hover:bg-gray-200">
               {{ tag.label }}
             </a>
           </div>
         </div>
-        
+
         <Content />
       </article>
     </div>

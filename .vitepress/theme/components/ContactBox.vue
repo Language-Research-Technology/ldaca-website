@@ -1,8 +1,5 @@
 <script setup>
-import { useData } from 'vitepress'
-// Use VitePress's markdown renderer
-const { theme } = useData()
-const buttonColors = theme.value.buttonColors || { bg: '#79A38D', text: '#ffffff' }
+const buttonColors = { bg: '#fffef8', text: '#79a38d' }
 
 defineProps({
   heading: {
@@ -27,11 +24,11 @@ defineProps({
 <template>
   <!-- DESKTOP / LARGE SCREENS -->
   <div class="hidden lg:block max-w-[1280px] mx-auto py-8">
-    <div class="flex items-center justify-between gap-8 p-8 bg-[#EAE4D6] bg-opacity-55 rounded-none">
+    <div class="flex items-center justify-between gap-8 px-10 bg-[#79a38d] rounded-none">
       <!-- TEXT -->
       <div class="flex-1 py-[2.5rem]">
-        <h2 class="mb-2">{{ heading }}</h2>
-        <subheading class="text-gray-600">{{ description }}</subheading>
+        <h2 class="mb-2 text-white">{{ heading }}</h2>
+        <subheading class="text-white">{{ description }}</subheading>
       </div>
       <!-- BUTTON -->
       <div class="flex-shrink-0">
@@ -46,10 +43,10 @@ defineProps({
 
   <!-- MOBILE / TABLET -->
   <div class="lg:hidden max-w-[640px] mx-auto py-8 px-6">
-    <div class="bg-[#EAE4D6] bg-opacity-55 rounded-lg p-6 space-y-6 text-left">
+    <div class="bg-[#79a38d] rounded-lg p-6 space-y-6 text-left">
       <div>
-        <h2 class="text-2xl font-bold mb-2">{{ heading }}</h2>
-        <subheading class="text-gray-600">{{ description }}</subheading>
+        <h2 class="text-2xl font-bold mb-2 text-white">{{ heading }}</h2>
+        <subheading class="text-white">{{ description }}</subheading>
       </div>
       <a :href="buttonLink" target="_blank" rel="noopener noreferrer"
         :style="{ backgroundColor: buttonColors.bg, color: buttonColors.text }"

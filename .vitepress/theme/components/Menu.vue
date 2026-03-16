@@ -2,7 +2,7 @@
 import { useData } from 'vitepress'
 import { ref, watch } from 'vue'
 
-const { theme, site } = useData()
+const { theme } = useData()
 
 const nav = theme.value.nav
 const sidebar = theme.value.sidebar
@@ -89,12 +89,12 @@ const getGridClass = (items) => {
           <li v-for="item in nav" :key="item.text" class="list-none">
             <!-- If item has a link and no sub-items, render as link -->
             <a v-if="item.link && !item.items" :href="item.link || '#'"
-              class="flex items-center gap-1 text-xs font-medium text-white hover:text-gray-300 transition-colors px-2 py-1">
+              class="flex items-center gap-1 text-s font-medium text-white hover:text-gray-300 transition-colors px-2 py-1">
               {{ item.text }}
             </a>
             <!-- Otherwise, render as dropdown button -->
             <button v-else @click="toggleMenu(item.text)"
-              class="flex items-center gap-1 text-xs font-medium text-white hover:text-gray-300 transition-colors px-2 py-1">
+              class="flex items-center gap-1 text-s font-medium text-white hover:text-gray-300 transition-colors px-2 py-1">
               {{ item.text }}
               <svg v-if="item.items" class="h-3 w-3 transition-transform"
                 :class="{ 'rotate-180': activeMenu === item.text }" viewBox="0 0 24 24" fill="none"

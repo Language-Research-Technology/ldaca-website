@@ -1,5 +1,5 @@
 <script setup>
-import { useData  } from 'vitepress'
+import { useData } from 'vitepress'
 import MenuLayout from './Menu.vue'
 import Sidebar from './Sidebar.vue'
 import VPNavBarSearch from 'vitepress/dist/client/theme-default/components/VPNavBarSearch.vue'
@@ -21,19 +21,28 @@ const headerBgColor = theme.value.headerBgColor ?? 'transparent'
             <span v-if="!logo.light" class="font-bold text-base sm:text-lg">{{ site.title }}</span>
           </a>
         </div>
-        
+
         <!-- Right quick menu - Desktop (≥1024px) -->
         <div class="hidden lg:flex items-center gap-6 ml-auto pl-32">
-          <a href="/news/posts/" class="text-base text-white hover:text-[#79A38D] hover:font-bold transition-colors">Blog</a>
-          <a href="/news/newsletter" class="text-base text-white hover:text-[#79A38D] hover:font-bold transition-colors">Newsletter</a>
+          <a href="/news/posts/"
+            class="text-base text-white hover:text-[#79A38D] hover:font-bold transition-colors">Blog</a>
+          <a href="/news/newsletter"
+            class="text-base text-white hover:text-[#79A38D] hover:font-bold transition-colors">Newsletter</a>
           <VPNavBarSearch />
         </div>
-        
+
         <!-- Right quick menu - Tablet (768-1023px) -->
-        <div class="hidden md:flex lg:hidden items-center gap-3 ml-auto pl-24">
-          <a href="/news/posts/" class="text-xs text-white hover:text-[#79A38D] transition-colors">Blog</a>
-          <a href="/newsletter" class="text-xs text-white hover:text-[#79A38D] transition-colors">Newsletter</a>
+        <div class="hidden md:flex lg:hidden flex-col items-end ml-auto pl-24 gap-2">
+
+          <!-- Search bar -->
           <VPNavBarSearch />
+
+          <!-- Links below search -->
+          <div class="flex gap-3">
+            <a href="/news/posts/" class="text-s text-white hover:text-[#79A38D] transition-colors">Blog</a>
+            <a href="/newsletter" class="text-s text-white hover:text-[#79A38D] transition-colors">Newsletter</a>
+          </div>
+
         </div>
       </div>
     </div>
@@ -49,6 +58,7 @@ const headerBgColor = theme.value.headerBgColor ?? 'transparent'
 </style>
 <style>
 html {
-  scroll-padding-top: 140px; /* Adjust to match header height */
+  scroll-padding-top: 140px;
+  /* Adjust to match header height */
 }
 </style>

@@ -10,6 +10,12 @@ import Profile from './components/Profile.vue'
 import SubPageHero from './components/SubPageHero.vue'
 import DataPortalBox from './components/DataPortalBox.vue'
 import Carousel from './components/Carousel.vue'
+import CarouselLarge from './components/CarouselLarge.vue'
+import SimpleHero from './components/SimpleHero.vue'
+import SimpleNavigation from './components/SimpleNavigation.vue'
+import GuideCarousel from './components/GuideCarousel.vue'
+import ContactBox from './components/ContactBox.vue'
+import ThreeTiles from './components/ThreeTiles.vue'
 import './style.css'
 import DefaultTheme from 'vitepress/theme'
 import '@fontsource/work-sans/400.css'
@@ -28,6 +34,13 @@ export default {
     app.component('DataPortalBox', DataPortalBox)
     app.component('BlogPostsList', BlogPostsList)
     app.component('Carousel', Carousel)
+    app.component('CarouselLarge', CarouselLarge)
+    app.component('SimpleHero', SimpleHero)
+    app.component('SimpleNavigation', SimpleNavigation)
+    app.component('GuideCarousel', GuideCarousel)
+    app.component('ContactBox', ContactBox)
+    app.component('ThreeTiles', ThreeTiles)
+
   },
   Layout: Layout,
 } satisfies Theme
