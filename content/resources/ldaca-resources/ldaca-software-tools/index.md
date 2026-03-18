@@ -68,6 +68,6 @@ For more information about Crate-O and how to create RO-Crates with the interfac
 
 ### University of Melbourne
 
-- [Lameta](https://lameta.org): Metadata tool that helps organise collections of files.
+- [Lameta](https://lameta.org): RO-Crate output option for this metadata tool.
 
 <br>
