@@ -34,7 +34,7 @@ For more information about Crate-O and how to create RO-Crates with the interfac
 
 <br>
 
-## Tools developed in project
+## Tools developed in the project
 
 ### Sydney Informatics Hub / Sydney Corpus Lab
 
