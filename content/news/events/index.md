@@ -7,56 +7,225 @@ title: "Events"
 
 <SimpleHero breadcrumb='Training & Events > Events' title="Events" description="Discover upcoming and past events and access recordings where available."/>
 
+<br>
+
+<section class="mx-auto px-56 py-16">
+<div class="mb-8 flex flex-wrap gap-2">
+  <a href="#upcoming-events" class="p-5 rounded-lg font-semibold transition-all bg-[#79a38d] text-white hover:opacity-80">Upcoming Events</a>
+  <a href="#event-recordings" class="p-5 rounded-lg font-semibold transition-all bg-[#79a38d] text-white hover:opacity-80">Event Recordings</a>
+  <a href="#past-events" class="p-5 rounded-lg font-semibold transition-all bg-[#79a38d] text-white hover:opacity-80">Past Events</a>
+</div>
+</section>
+
+<br>
+
 <Carousel 
+  id="upcoming-events"
+  shade="light"
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="UPCOMING EVENTS"
   :items="[
-    ]"/>
+    {
+        title: 'RO-Crate Clinic Drop-in',
+        link: '/news/events/ro-crate-clinic-drop-in',
+    },
+  ]"/>
 
 <Carousel 
+  id="event-recordings"
+  shade="light"
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="EVENT RECORDINGS"
+  buttonText="Watch recording"
   :items="[
       {
         title: 'Language Data Commons of Australia - HASS & Indigenous Research Data Commons Symposium 2025',
-        description: 'This presentation on LDaCA was presented at the 2025 Symposium of the ARDC HASS and Indigenous Research Data Commons, held at UTS on Gadigal Land, Sydney, 12 November 2025. Learn more about the Language Data Commons of Australia. Presenters: Prof Michael Haugh, Robert McLellan, Moises Sacal Bonequi - University of Queensland.',
-        image: 'https://img.youtube.com/vi/EzE75Qvwcs4/sddefault.jpg',
-        link: 'https://www.youtube.com/watch?v=EzE75Qvwcs4',
-        category: 'RECORDING'
+        link: '/news/events/2025/hass-irdc-symposium-2',
       },
       {
         title: 'Showcase of Language Data Infrastructure - Language Data Commons of Australia',
-        description: 'This presentation on LDaCA tools was presented at the 2025 Symposium of the ARDC HASS and Indigenous Research Data Commons, held at UTS on Gadigal Land, Sydney, 11 November 2025. Learn more about the Language Data Commons of Australia. Presenters: Prof Michael Haugh - University of Queensland, Robert McLellan - University of Queensland, Teresa Chan - University of Queensland, Prof Monika Bednarek - University of Sydney and Director of Sydney Corpus Lab, Moises Sacal Bonequi - University of Queensland.',
-        image: 'https://img.youtube.com/vi/gwbbMN7XRKU/sddefault.jpg',
-        link: 'https://www.youtube.com/watch?v=gwbbMN7XRKU',
-        category: 'RECORDING'
+        link: '/news/events/2025/hass-irdc-symposium-1',
       },
       {
-        title: 'Webinar: The ParlaMint corpora of European parliamentary proceedings',
-        description: 'CLARIN colleagues Tomaž Erjavec and Matyáš Kopp delivered the second webinar in our 2025 series in August. Tomaž and Matyáš discussed the compilation and dissemination of the ParlaMint corpora, a collection of 29 corpora of European national and regional parliamentary proceedings, covering at least the period from 2015 to 2022 and containing over 1 billion words.',
-        image: 'https://img.youtube.com/vi/SU92WFxmq-4/sddefault.jpg',
-        link: 'https://www.youtube.com/watch?v=SU92WFxmq-4&t=3310s',
-        category: 'RECORDING'
+        title: 'The ParlaMint corpora of European parliamentary proceedings',
+        link: '/news/events/2025/parlamint-corpora',
       },
       {
         title: 'IPrA2025: The Pragmatics of Indigenous Languages',
-        description: 'The Pragmatics of Indigenous Languages panel showcased efforts by researchers and practitioners who are working with communities on the use of Indigenous languages in the Australian context, as well as to discuss the complex issues such work inevitably raises.',
-        image: 'https://img.youtube.com/vi/UdthcnD3tHY/sddefault.jpg',
-        link: 'https://www.youtube.com/watch?v=UdthcnD3tHY',
-        category: 'RECORDING'
-      }
+        link: '/news/events/2025/ipra2025',
+      },
+      {
+        title: 'Indigenous Data Governance Masterclass',
+        link: '/news/events/2025/idg-masterclass',
+      },
     ]"/>
 
 <Carousel 
+  id="past-events"
+  shade="light"
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="PAST EVENTS"
   :items="[
+    {
+        title: 'Get Started with Federal Hansard for Humanities, Arts, and Social Sciences Research',
+        link: '/news/events/2025/hansard-2',
+    },
+    {
+        title: 'Sustainable Data for Humanities Researchers',
+        link: '/news/events/2025/sustainable-data-for-humanities-researchers',
+        category: 'WORKSHOP',
+    },
+    {
+        title: 'Steven Bird: Language Technology and the Metacrisis',
+        link: '/news/events/2025/language-technology-metacrisis',
+    },
+    {
+        title: 'Get started with Hansard for humanities, arts, and social sciences research',
+        link: '/news/events/2025/hansard',
+    },
+    {
+        title: 'HASS and Indigenous Research Data Commons Summer School 2025',
+        link: '/news/events/2025/hass-irdc-summer-school',
+    },
+    {
+        title: 'Indigenous Data Governance Masterclass',
+        link: '/news/events/2025/idg-masterclass',
+    },
+    {
+        title: 'Solving 10 research challenges with the ARDC HASS and Indigenous Research Data Commons',
+        link: '/news/events/2024/solving-10-research-challenges-ardc',
+    },
+    {
+        title: 'Exploring text using concordances',
+        link: '/news/events/2024/exploring-text-using-concordances',
+    },
+    {
+        title: 'Text analytics with R and LADAL',
+        link: '/news/events/2024/text-analytics-r-ladal',
+    },
+    {
+        title: 'A glamorous introduction to text analytics for social media (Reddit)',
+        link: '/news/events/2024/text-analytics-reddit',
+    },
+    {
+        title: 'Indigenous Data Governance: A discussion',
+        link: '/news/events/2024/indigenous-data-governance',
+    },
+    {
+        title: 'Using Hansard & Other Parliamentary Proceedings for Your Research',
+        link: '/news/events/2024/hansard',
+    },
+    {
+        title: 'Data Migration Skills Workshop',
+        link: '/news/events/2024/data-migration-skills',
+    },
+    {
+        title: 'Introduction to Computational Text Analytics',
+        link: '/news/events/2024/computational-text-analytics',
+    },
+    {
+        title: 'Understanding the social meaning of language variation in Australian English',
+        link: '/news/events/2024/language-variation-australian-english',
+    },
+    {
+        title: 'Language Data Commons of Australia – Co-Design Workshops',
+        link: '/news/events/2024/co-design-workshops',
+    },
+    {
+        title: 'HASS and Indigenous Research Data Commons Computational Skills Summer School 2024',
+        link: '/news/events/2024/hass-irdc-summer-school',
+    },
+    {
+        title: 'Workshop on community language corpora in Australia',
+        link: '/news/events/2023/community-language-corpora-australia',
+    },
+    {
+        title: 'Workshop on Language Corpora in Australia',
+        link: '/news/events/2023/language-corpora-australia',
+    },
+    {
+        title: 'Australian Text Analytics Platform: New tools for text analysis',
+        link: '/news/events/2023/atap-tools-text-analysis',
+    },
+    {
+        title: 'Exploring Digital Text Collections with Juxtorpus: A Taster Webinar on the Latest ATAP Text Analysis Tool',
+        link: '/news/events/2023/juxtorpus',
+    },
+    {
+        title: 'A hands-on guide to Semantic Tagger for your text data analysis',
+        link: '/news/events/2023/semantic-tagger',
+    },
+    {
+        title: 'Jefferson Transcript Search Tool',
+        link: '/news/events/2023/jefferson-transcript-search-tool',
+    },
+    {
+        title: 'Australian Text Analytics Platform tools: Discursis, Juxtorpus, Quotation tool and Semantic tagger',
+        link: '/news/events/2023/atap-tools-discursis-juxtorpus-quotation-semantic-tagger',
+    },
+    {
+        title: 'HASS Research Data Commons and IRC Computational Skills Summer School',
+        link: '/news/events/2023/hass-irc-summer-school',
+    },
+    {
+        title: 'Pre-conference workshop (before the 2022 Conference of the Australian Linguistic Society)',
+        link: '/news/events/2022/pre-conference-workshop-als',
+    },
+    {
+        title: 'Paweł Kamocki: European Union Data Protection initiatives and their consequences for research',
+        link: '/news/events/2022/eu-data-protection',
+    },
+    {
+        title: 'Geolocating Australian Historical Resources',
+        link: '/news/events/2022/geolocating-australian-historical-resources',
+    },
+    {
+        title: 'Learn how to collect and analyse comments on YouTube videos using the open-source tools Youte and Discursis',
+        link: '/news/events/2022/youte-discursis',
+    },
+    {
+        title: 'Finding quotes and speakers in text using the ATAP quotation tools',
+        link: '/news/events/2022/atap-quotation-tools',
+    },
+    {
+        title: 'Computational Thinking in the Humanities',
+        link: '/news/events/2022/computational-thinking-humanities',
+    },
+    {
+        title: 'Václav Cvrček: The Czech National Corpus',
+        link: '/news/events/2022/czech-national-corpus',
+    },
+    {
+        title: 'Advance care planning for your research data',
+        link: '/news/events/2022/advance-care-planning',
+    },
+    {
+        title: 'Barbara McGillivray: The Journal of Open Humanities Data',
+        link: '/news/events/2022/open-humanities-data',
+    },
+    {
+        title: 'Network analysis and Topic Modeling on Twitter data using R',
+        link: '/news/events/2022/network-analysis-topic-modeling',
+    },
+    {
+        title: 'Keoni Mahelona: A practical approach to Indigenous data sovereignty',
+        link: '/news/events/2022/indigenous-data-sovereignty',
+    },
+    {
+        title: 'Monotreme Mania! Comparative text analytics on Twitter data',
+        link: '/news/events/2022/comparative-text-analytics-twitter',
+    },
+    {
+        title: 'An introduction to Jupyter notebooks for text analysis: Virtual workshop for absolute beginners',
+        link: '/news/events/2022/jupyter-notebooks-text-analysis',
+    },
     ]"/>
 
 <Carousel 
+  id="on-the-blog"
   shade="light"
   backgroundColor="#EAE4D68C"
   :opacity="100"
@@ -76,7 +245,14 @@ title: "Events"
       }
     ]"/>
 
-<br>
+<ContactBox 
+  heading="Stay up to date"
+  description="Get the latest news, events, and releases delivered to your inbox."
+  buttonText="Subscribe to our newsletter"
+  buttonLink="https://ldaca.us13.list-manage.com/subscribe?u=ef8667be63aefb1e35062a797&id=de4b682e46"
+/>
+
+<!-- <br>
 
 <div class="mb-8 flex flex-wrap gap-2">
   <a href="#recurring-events" class="p-5 rounded-lg font-semibold transition-all bg-[#79a38d] text-white hover:opacity-80">Recurring Events</a>
@@ -84,9 +260,9 @@ title: "Events"
   <a href="#webinars" class="p-5 rounded-lg font-semibold transition-all bg-[#79a38d] text-white hover:opacity-80">Previous Webinars</a>
 </div>
 
-<br>
+<br> -->
 
-### Sustainable Data for Humanities Researchers workshop
+<!-- ### Sustainable Data for Humanities Researchers workshop
 
 **Summary**:
 
@@ -109,9 +285,9 @@ The aims of the workshop are to:
 
 **Presenters**: <Profile id="musgrave" /> and <Profile id="riv-smith" />
 
-<br>
+<br> -->
 
-### Webinar: The ParlaMint corpora of European parliamentary proceedings
+<!-- ### Webinar: The ParlaMint corpora of European parliamentary proceedings
 
 **Recording date**: 28 August 2025
 <br>
@@ -138,9 +314,9 @@ They conclude with lessons learnt in the project and further work on the ParlaMi
 
 Tomaž Erjavec is a member of the Department of Knowledge Technologies of the Institut "Jožef Stefan" (Ljubljana, Slovenia) and of the Fran Ramovš Institute of the Slovenian Language. His research interests include text <GlossaryLink display="corpora" id="corpus" /> and other language resources, digital humanities, standardisation of text encoding, language technologies for Slovene, machine learning methods for natural language and computational morphology.
 
-Matyáš Kopp is a member of the Institute for Formal and Applied Linguistics at the Charles University in Prague (Czech Republic). He has worked extensively on compiling and researching datasets based on parliamentary proceedings, and also on technologies for querying treebanks.
+Matyáš Kopp is a member of the Institute for Formal and Applied Linguistics at the Charles University in Prague (Czech Republic). He has worked extensively on compiling and researching datasets based on parliamentary proceedings, and also on technologies for querying treebanks. -->
 
-### Get Started with Federal Hansard for Humanities, Arts, and Social Sciences Research
+<!-- ### Get Started with Federal Hansard for Humanities, Arts, and Social Sciences Research
 
 **Summary**:
 
@@ -154,11 +330,11 @@ This workshop aimed to provide a starting point for working with these transcrib
 
 **Organisers**: [The Centre for Digital Cultures and Societies](https://hass.uq.edu.au/centre-digital-cultures-societies), The University of Queensland
 
-**[Details and registration](https://hass.uq.edu.au/event/session/17466)**
+**[Details and registration](https://hass.uq.edu.au/event/session/17466)** -->
 
-<hr />
+<!-- <hr /> -->
 
-## Recurring Events {#recurring-events}
+<!-- ## Recurring Events {#recurring-events}
 
 ### RO-Crate Clinic Drop-in
 
@@ -168,14 +344,14 @@ The <GlossaryLink display="RO-Crate" id="ro-crate" /> community run a weekly dro
 
 **Where**: Online via [Zoom](https://uqz.zoom.us/j/85192198914)
 
-<hr />
+<hr /> -->
 
-## Previous Events {#previous-events}
-
-<details>
-    <summary><b><font color="#79A38D">2025</font></b></summary>
+<!-- ## Previous Events {#previous-events}
 
 <details>
+    <summary><b><font color="#79A38D">2025</font></b></summary> -->
+
+<!-- <details>
     <summary>
         <b>Get started with Hansard for humanities, arts, and social sciences research</b>
     </summary>
@@ -185,9 +361,9 @@ The <GlossaryLink display="RO-Crate" id="ro-crate" /> community run a weekly dro
     <p><b>When</b>: 20 February 2025</p>
     <p><b>Organisers</b>: <a href="https://www.unimelb.edu.au/mdap" target="_blank">Melbourne Data Analytics Platform</a></p>
     <p><b>Leaders</b>: <Profile id="hames" /> and <Profile id="musgrave" /></p>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
     <summary>
         <b>Indigenous Data Governance Masterclass</b>
     </summary>
@@ -195,9 +371,9 @@ The <GlossaryLink display="RO-Crate" id="ro-crate" /> community run a weekly dro
     <p><b>When</b>: 3 February 2025</p>
     <p><b>Organisers</b>: <a href="https://ardc.edu.au/hass-and-indigenous-research-data-commons/" target="_blank">ARDC HASS and Indigenous Research Data Commons</a></p>
     <p><b>Leaders</b>: <Profile id="mclellan" /> and <a href="https://mspgh.unimelb.edu.au/centres-institutes/onemda/research-group/indigenous-studies-unit/about-us/our-team/levi-craig-murray" target = "_blank">Levi Murray</a></p>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
     <summary>
         <b>HASS and Indigenous Research Data Commons Summer School 2025</b>
     </summary>
@@ -205,22 +381,22 @@ The <GlossaryLink display="RO-Crate" id="ro-crate" /> community run a weekly dro
     <p>The Summer School aimed to empower participants with practical knowledge, build digital skills, and help inspire new research outcomes within the humanities, arts, social sciences (HASS) and Indigenous fields of study. Participants collaborated in an interactive group setting while networking with like-minded researchers and subject matter experts.</p>
     <p><b>When</b>: 4 – 6 February 2025</p>
     <p><b>Organisers</b>: <a href="https://ardc.edu.au/hass-and-indigenous-research-data-commons/" target="_blank">ARDC HASS and Indigenous Research Data Commons</a></p>
-</details>
-</details>
+</details> -->
+<!-- </details> -->
 
-<details>
-    <summary><b><font color="#79A38D">2024</font></b></summary>
+<!-- <details>
+    <summary><b><font color="#79A38D">2024</font></b></summary> -->
 
-<details>
+<!-- <details>
     <summary>
         <b>Solving 10 research challenges with the ARDC HASS and Indigenous Research Data Commons</b>
     </summary>
     <p>Participants got hands-on with two tools from the ARDC <a href="https://ardc.edu.au/hass-and-indigenous-research-data-commons/" target="_blank">HASS and Indigenous Research Data Commons</a>, the <a href="https://www.ldaca.edu.au/resources/user-guides/crate-o/" target="_blank">Crate-O</a> metadata editor and the <a href="https://tdg.glam-workbench.net/home.html" target="_blank">Trove Data guide</a> and learnt how other parts of the Research Data Commons help researchers solve another eight research challenges, in a series of five-minute lightning tours.</p>
     <p><b>When</b>: 28 November 2024</p>
     <p><b>Organisers</b>: <a href="https://ardc.edu.au/hass-and-indigenous-research-data-commons/" target="_blank">ARDC HASS and Indigenous Research Data Commons</a></p>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
     <summary>
         <b>Exploring text using concordances</b>
     </summary>
@@ -234,9 +410,9 @@ The <GlossaryLink display="RO-Crate" id="ro-crate" /> community run a weekly dro
     <p><b>When</b>: 27 November 2024</p>
     <p><b>Organisers</b>: <a href="https://resbaz.github.io/resbazvic2024/" target="_blank">ResBaz Victoria</a></p>
     <p><b>Leader</b>: Simon Musgrave</p>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
     <summary>
         <b>Text analytics with R and LADAL</b>
     </summary>
@@ -244,9 +420,9 @@ The <GlossaryLink display="RO-Crate" id="ro-crate" /> community run a weekly dro
     <p><b>Organisers</b>: <a href="https://resbaz.github.io/resbaz2024qld/" target="_blank">ResBaz Queensland</a></p>
     <p><b>Leader</b>: Sam Hames</p>
     <p><b>When</b>: 7 November 2024</p>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
     <summary>
         <b>A glamorous introduction to text analytics for social media (Reddit)</b>
     </summary>
@@ -256,9 +432,9 @@ The <GlossaryLink display="RO-Crate" id="ro-crate" /> community run a weekly dro
     <p><b>Leaders</b>: Robert Fleet (part 1) and Martin Schweinberger (part 2)</p>
     <p><b>Organisers</b>: This workshop series is delivered by the <a href="https://www.digitalobservatory.net.au/qut-digital-observatory/" target="_blank">QUT Digital Observatory</a> and LDaCA</p>
     <p><b>Recordings</b>: <a href="https://filesender.aarnet.edu.au/?s=download&token=a94f9ec3-7972-4bdd-a6d8-e6fd75e0830a" target="_blank">Part 1</a>, <a href="https://filesender.aarnet.edu.au/?s=download&token=4f1792c0-8a81-4073-a39f-2a31385579fd" target="_blank">Part 2</a></p>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
     <summary>
         <b>Indigenous Data Governance: A discussion</b>
     </summary>
@@ -272,9 +448,9 @@ The <GlossaryLink display="RO-Crate" id="ro-crate" /> community run a weekly dro
     <p><b>Participants</b>: Dr Rose Barrowcliffe, Leslie Acres, Robert McLellan, Grant Sarra (moderator)</p>
     <p><b>When</b>: 30 September 2024</p>
     <p><b>Organisers</b>: The University of Queensland, Research and Innovation Week 2024</p>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
     <summary>
         <b>Using Hansard & Other Parliamentary Proceedings for Your Research</b>
     </summary>
@@ -283,18 +459,18 @@ The <GlossaryLink display="RO-Crate" id="ro-crate" /> community run a weekly dro
     <p><b>Leaders</b>: Sam Hames, Simon Musgrave</p>
     <p><b>When</b>: 19 September 2024</p>
     <p><b>Organisers</b>: <a href="https://computational-social-science.sydney.edu.au/" target="_blank">Computational Social Science Lab</a>, <a href="https://sydney.edu.au" target="blank">The University of Sydney</a></p>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
     <summary>
         <b>Data Migration Skills Workshop</b>
     </summary>
     <p>This workshop aimed to show the application of LDaCA tools to data in a variety of formats to efficiently migrate material to the LDaCA standards.</p>
     <p><b>Leader</b>: Peter Sefton</p>
     <p><b>When</b>: 3 - 5 September 2024</p>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
     <summary>
         <b>Introduction to Computational Text Analytics</b>
     </summary>
@@ -303,18 +479,18 @@ The <GlossaryLink display="RO-Crate" id="ro-crate" /> community run a weekly dro
     <p><b>When</b>: 23 and 24 May 2024</p>
     <p><b>Organisers</b>: The University of Queensland (<a href="https://www.uq.edu.au/" target="_blank">UQ</a>) <a href="https://hass.uq.edu.au/Digital-Cultures-and-Societies" target="_blank">Centre for Digital Cultures & Societies</a></p>
     <p><a href="https://events.humanitix.com/introduction-to-computational-text-analytics-fm6j24un" target="_blank">Details</a></p>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
     <summary>
         <b>Understanding the social meaning of language variation in Australian English</b>
     </summary>
     <p>Online seminar presented by Prof Catherine Travis</p>
     <p><b>When</b>: 2 May 2024</p>
     <p><b>Organisers</b>: The University of Western Australia (<a href="https://www.uwa.edu.au/" target="_blank">UWA</a>) <a href="https://www.uwa.edu.au/schools/social-sciences/linguistics" target="_blank">Linguistics</a> and <a href="https://www.uwa.edu.au/schools/research/the-language-lab" target="_blank">The Language Lab</a></p>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
     <summary>
         <b>Language Data Commons of Australia – Co-Design Workshops</b>
     </summary>
@@ -328,9 +504,9 @@ The <GlossaryLink display="RO-Crate" id="ro-crate" /> community run a weekly dro
     </ul>
     <p>The case study and hands-on session will focus on geospatial aspects of data. Prior coding knowledge is not required for the hands-on session.</p>
     <p><b><a href="https://www.eventbrite.com.au/e/language-data-commons-of-australia-co-design-workshops-tickets-802153060397" target="_blank">More information</a></b></p>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
     <summary>
         <b>HASS and Indigenous Research Data Commons Computational Skills Summer School 2024</b>
     </summary>
@@ -344,13 +520,13 @@ The <GlossaryLink display="RO-Crate" id="ro-crate" /> community run a weekly dro
     </ul>
     <p>The case study and hands-on session will focus on geospatial aspects of data. Prior coding knowledge is not required for the hands-on session.</p>
     <p><b><a href="https://ardc.edu.au/event/hass-and-indigenous-rdc-summer-school-2024/" target="_blank">More information</a></b></p>
-</details>
-</details>
+</details> -->
+<!-- </details>
 
 <details>
-    <summary><b><font color="#79A38D">2023</font></b></summary>
+    <summary><b><font color="#79A38D">2023</font></b></summary> -->
 
-<details>
+<!-- <details>
     <summary>
         <b>Workshop on community language corpora in Australia</b>
     </summary>
@@ -360,9 +536,9 @@ The <GlossaryLink display="RO-Crate" id="ro-crate" /> community run a weekly dro
     <p><b>When</b>: 9-10 November 2023</p>
     <p><b>Organisers</b>: <a href="mailto:li.nguyen@anu.edu.au">Li Nguyen</a> & Catherine Travis</p>
     <p><b>Program</b> (<a href="Workshop_CommunityLanguages_2023-program&abstracts.pdf">pdf</a> with abstracts)</p>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
     <summary>
         <b>Workshop on Language Corpora in Australia</b>
     </summary>
@@ -371,9 +547,9 @@ The <GlossaryLink display="RO-Crate" id="ro-crate" /> community run a weekly dro
     <p><b>Length</b>: Full day</p>
     <p><b>Organisers</b>: Catherine Travis & Li Nguyen</p>
     <p><b>Program</b> (<a href="Workshop_LanguageCorporaInAus_2023.pdf">pdf</a> with abstracts)</p>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
     <summary>
         <b>Australian Text Analytics Platform: New tools for text analysis</b>
     </summary>
@@ -382,9 +558,9 @@ The <GlossaryLink display="RO-Crate" id="ro-crate" /> community run a weekly dro
     <p><b>Length</b>: 3 hours</p>
     <p><b>Facilitators</b>: Simon Musgrave, Sam Hames, Ben Foley, Chao Sun</p>
     <p><b>More Information</b>This workshop was a satellite event of the 7th Conference of the International Society for the Linguistics of English (ISLE7) - see the <a href="https://languages-cultures.uq.edu.au/isle7" target="_blank">conference website</a> for further details.</p>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
     <summary>
         <b>Exploring Digital Text Collections with Juxtorpus: A Taster Webinar on the Latest ATAP Text Analysis Tool</b>
     </summary>
@@ -393,9 +569,9 @@ The <GlossaryLink display="RO-Crate" id="ro-crate" /> community run a weekly dro
     <p><b>When</b>: Thursday May 25 2023</p>
     <p><b>Length</b>: 90 minutes</p>
     <p><b>Facilitators</b>: Chao Sun</p>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
     <summary>
         <b>Jefferson Transcript Search Tool</b>
     </summary>
@@ -404,9 +580,9 @@ The <GlossaryLink display="RO-Crate" id="ro-crate" /> community run a weekly dro
     <p><b>When</b>: Friday March 17 2023</p>
     <p><b>Length</b>: 90 minutes</p>
     <p><b>Facilitators</b>: Evelyn Ansell</p>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
     <summary>
         <b>A hands-on guide to Semantic Tagger for your text data analysis</b>
     </summary>
@@ -414,9 +590,9 @@ The <GlossaryLink display="RO-Crate" id="ro-crate" /> community run a weekly dro
     <p><b>When</b>: Wednesday March 22 2023</p>
     <p><b>Length</b>: 90 minutes</p>
     <p><b>Facilitators</b>: Sony Jufri</p>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
     <summary>
         <b>Australian Text Analytics Platform tools: Discursis, Juxtorpus, Quotation tool and Semantic tagger</b>
     </summary>
@@ -425,9 +601,9 @@ The <GlossaryLink display="RO-Crate" id="ro-crate" /> community run a weekly dro
     <p><b>When</b>: Tuesday March 14 2023</p>
     <p><b>Length</b>: 3 hours</p>
     <p><b>Facilitators</b>: Staff of the <a href="https://www.sydney.edu.au/research/facilities/sydney-informatics-hub.html" target="_blank">Sydney Informatics Hub</a></p>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
     <summary>
         <b>HASS Research Data Commons and IRC Computational Skills Summer School</b>
     </summary>
@@ -435,13 +611,13 @@ The <GlossaryLink display="RO-Crate" id="ro-crate" /> community run a weekly dro
     <p>The Summer School featured skills development workshops to help researchers use the research infrastructure that is being created in the <GlossaryLink display="HASS" id="hass" /> <GlossaryLink display="RDC" id="rdc" /> and IRC Program.</p>
     <p>The projects from the <GlossaryLink display="HASS" id="hass" /> <GlossaryLink display="RDC" id="rdc" /> and IRC Program presented workshops on using the tools and platforms.</p>
     <p><a href="https://ardc.edu.au/wp-content/uploads/2023/02/hass-computational-skills-summer-school-agenda_-7-8-feb.pdf" target="_blank">Program</a></p>
-</details>
-</details>
+</details> -->
+<!-- </details>
 
 <details>
-<summary><b><font color="#79A38D">2022</font></b></summary>
+<summary><b><font color="#79A38D">2022</font></b></summary> -->
 
-<details>
+<!-- <details>
     <summary>
         <b>Pre-conference workshop (before the 2022 Conference of the Australian Linguistic Society)</b>
     </summary>
@@ -454,9 +630,9 @@ The <GlossaryLink display="RO-Crate" id="ro-crate" /> community run a weekly dro
         <li>the opportunity to influence future work by exploring and providing feedback on the data interface which we are building.</li>
     </ul>
     <p><a href="ALS2022-program.pdf">Program</a></p>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
     <summary>
         <b>Geolocating Australian Historical Resources</b>
     </summary>
@@ -464,27 +640,27 @@ The <GlossaryLink display="RO-Crate" id="ro-crate" /> community run a weekly dro
     <p><b>When</b>: October 2 2022</p>
     <p><b>Length</b>: 3 hours</p>
     <p><b>Facilitators</b>: Michael Niemann, Fiannuala Morgan (ANU), Simon Musgrave</p>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
     <summary>
         <b>Learn how to collect and analyse comments on YouTube videos using the open-source tools Youte and Discursis</b>
     </summary>
     <p><b>When</b>: September 21 2022</p>
     <p><b>Length</b>: 3 hours</p>
     <p><b>Facilitators</b>: Boyd Nguyen (<GlossaryLink display="ADO" id="ado" />), Sam Hames (<GlossaryLink display="ATAP" id="atap" />)</p>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
     <summary>
         <b>Finding quotes and speakers in text using the ATAP quotation tools</b>
     </summary>
     <p><b>When</b>: September 8 2022</p>
     <p><b>Length</b>: 1 hour</p>
     <p><b>Facilitators</b>: Sony Jufri</p>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
     <summary>
         <b>Advance care planning for your research data</b>
     </summary>
@@ -498,9 +674,9 @@ The <GlossaryLink display="RO-Crate" id="ro-crate" /> community run a weekly dro
     <p><b>Event</b>: <a href="https://sicss.io/2022/sydney/" target="_blank">SICSS-Sydney</a></p>
     <p><b>Length</b>: 1 hour</p>
     <p><b>Facilitators</b>: Sam Hames, Ben Foley</p>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
     <summary>
         <b>Computational Thinking in the Humanities</b>
     </summary>
@@ -508,9 +684,9 @@ The <GlossaryLink display="RO-Crate" id="ro-crate" /> community run a weekly dro
     <p><b>When</b>: September 1 2022</p>
     <p><b>Length</b>: 3 hours</p>
     <p><a href="https://ladal.edu.au/compthink.html" target="_blank">Further details</a></p>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
     <summary>
         <b>Network analysis and Topic Modeling on Twitter data using R</b>
     </summary>
@@ -518,9 +694,9 @@ The <GlossaryLink display="RO-Crate" id="ro-crate" /> community run a weekly dro
     <p><b>When</b>: May 18 2022</p>
     <p><b>Length</b>: 3 hours</p>
     <p><b>Facilitators</b>: Alice Miller (<GlossaryLink display="ADO" id="ado" />), Simon Musgrave (<GlossaryLink display="ATAP" id="atap" />)</p>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
     <summary>
         <b>Monotreme Mania! Comparative text analytics on Twitter data</b>
     </summary>
@@ -528,9 +704,9 @@ The <GlossaryLink display="RO-Crate" id="ro-crate" /> community run a weekly dro
     <p><b>When</b>: March 16 2022</p>
     <p><b>Length</b>: 3 hours</p>
     <p><b>Facilitators</b>: Sam Hames, Simon Musgrave</p>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
     <summary>
         <b>An introduction to Jupyter notebooks for text analysis: Virtual workshop for absolute beginners</b>
     </summary>
@@ -553,55 +729,55 @@ The <GlossaryLink display="RO-Crate" id="ro-crate" /> community run a weekly dro
     <p><b>Event</b>: Digital Humanities Australasia 2021 Conference</p>
     <p><b>Length</b>: 3 hours</p>
     <p><b>Facilitators</b>: Sara King, Simon Musgrave</p>
-</details>
-</details>
+</details> -->
+<!-- </details>
 
 <br>
 
 If your university or organisation would like to host a workshop, please [contact us](mailto:ldaca@uq.edu.au).
 
-<hr />
+<hr /> -->
 
-### Previous Webinars {#webinars}
+<!-- ### Previous Webinars {#webinars} -->
 
-<details>
+<!-- <details>
     <summary>
         <b>May 29 2025 - Steven Bird: Language Technology and the Metacrisis</b>
     </summary>
     <p>Despite their manifold benefits, language technologies are contributing to several unfolding crises. Small screens deliver mainstream content across the world and entice children of minoritised communities away from their ancestral languages. The data centres that power large language models depend on the mining of ever more rare earth metals from Indigenous lands and emit ever more carbon. Malicious actors flood social media with fake news, provoking extremism, division and war. Common to these crises is content, i.e. language content, increasingly generated and accessed using language technologies. These developments — the language crisis, the environmental crisis and the meaning crisis — compound each other in what is being referred to as the metacrisis. How are we to respond, then, as a community of practice who is actively developing still more language technologies? Steven believes that a good first step is to bring our awareness to the matter and to rethink what we are doing. We must be suspicious of purely technological solutions which may only exacerbate problems that were created by our use of technology. Instead, Steven argues that we should approach the problem as social and cultural. He will share stories from a small and highly multilingual Indigenous society who understands language, not as sequence data, but as social practice, and who understands language resources, not as annotated text and speech, but as stories and knowledge practices of language owners. He will explore ramifications for our work in the space of language technologies, and propose a relational approach to language technology that avoids extractive processes and centres speech communities.</p>
     <p><b>Steven Bird</b>: Over the past three decades, Steven Bird has been working with minoritised peoples in Africa, Melanesia, Amazonia and Australia, and exploring how communities can keep their oral languages and cultures strong. Since 2017 he has been research professor at Charles Darwin University, where he collaborates with Indigenous leaders and directs the Top End Language Lab.</p>
-</details>
+</details> -->
 
-<br />
-Our 2022 webinar series was a joint initiative with the Language Technology and Data Analysis Laboratory ([LADAL](https://slcladal.github.io/index.html)) at the School of Languages and Cultures, The University of Queensland.
+<!-- <br /> -->
+<!-- Our 2022 webinar series was a joint initiative with the Language Technology and Data Analysis Laboratory ([LADAL](https://slcladal.github.io/index.html)) at the School of Languages and Cultures, The University of Queensland. -->
 
-<details>
+<!-- <details>
     <summary>
         <b>October 3 2022 - Paweł Kamocki: European Union Data Protection initiatives and their consequences for research</b>
     </summary>
     <p>The European Union, with its large population and GDP, is a leading force in regulatory globalisation. This webinar will discuss recent developments in legal frameworks affecting research data in Europe. Apart from the General Data Protection Regulation which, since its entry into application in 2018, has become an international standard of personal data protection, the recent introduction of statutory <GlossaryLink display="copyright" id="copyright" /> exceptions for Text and Data Mining will also be discussed. Moreover, the webinar will also include a presentation of the most recent changes in EU law, such as the Data Governance Act and the Artificial Intelligence Act, which are expected to enter into application in the coming years.</p>
     <p><b>Paweł Kamocki</b> is a legal expert in Leibniz-Institut für Deutsche Sprache, Mannheim. He studied linguistics and law, and in 2017 obtained his doctorate in law from the universities of Paris and Münster for a thesis on legal aspects of data-intensive university research, with a focus on Knowledge Commons. He worked as a research and teaching assistant at the Paris Descartes university (now: Université de Paris), then also in the private sector. He is certified to work as an attorney in France. An active member of the <a href="https://www.clarin.eu/" target="_blank">CLARIN</a> community since 2012, he currently chairs the CLARIN Legal and Ethical Issues Committee. He also worked with other projects and initiatives in the field of research data policy (RDA, EUDAT) and co-created several LegalTech tools for researchers. One of his main research interests are legal issues in Machine Translation.</p>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
     <summary>
         <b>August 1 2022 - Václav Cvrček: The Czech national Corpus</b>
     </summary>
     <p><b><a href="https://ucnk.ff.cuni.cz/en/institute/people/vaclav-cvrcek-2/" target="_blank">Václav Cvrček</a></b> is a linguist who deals with the description of the Czech language, especially with the use of large electronic corpora and quantitative methods. In 2013-2016 he worked as the director of the <a href="https://ucnk.ff.cuni.cz/en/" target="_blank">Czech National Corpus</a> project, since 2016 he has been the deputy director. Recently, he has been focusing on research on textual variability and corpus-based discourse analysis with a focus on online media.</p>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
     <summary>
         <b>June 6 2022 - Barbara McGillivray: The <i>Journal of Open Humanities Data</i></b>
     </summary>
     <p><b>Barbara McGillivray</b> is a Turing Research Fellow at <a href="https://www.turing.ac.uk/" target="_blank">The Alan Turing Institute</a>, and Editor in Chief of the <a href="https://openhumanitiesdata.metajnl.com/" target="_blank">Journal of Open Humanities Data</a>. Since September 2021 she is also a lecturer in Digital Humanities and Cultural Computation at the <a href="https://www.kcl.ac.uk/ddh" target="_blank">Department of Digital Humanities of King's College London</a>. Before joining the Turing, she was language technologist in the Dictionary division of Oxford University Press and data scientist in the Open Research Group of Springer Nature. Her research at the Turing is on how words change meaning over time and how to model this change in computational ways. She works on machine-learning models for the change in meaning of words in historical times (Ancient Greek, Latin, eighteen-century English) and in contemporary texts (Twitter, web archives, emoji). Her interdisciplinary contribution covers Data Science, Natural Language Processing, Historical Linguistics and other humanistic fields, to push the boundaries of what academic disciplines separately have achieved so far on this topic.</p>
-</details>
+</details> -->
 
-<details>
+<!-- <details>
     <summary>
         <b>4 April 2022 - Keoni Mahelona: A practical approach to Indigenous data sovereignty</b>
     </summary>
     <p><b>Keoni Mahelona</b> is the Chief Technical Officer of <a href="https://tehiku.nz/" target="_blank">Te Hiku Media</a> where he is a part of the team developing the Kaitiakitanga Licence. This licence seeks to balance the importance of publicly accessible data with the reality that Indigenous Peoples may not have access to the resources that enable them to benefit from public data. By simply opening access to data and knowledge, Indigenous Peoples could be further colonised and taken advantage of in a digital, modern world. Therefore Keoni is committed to devising <GlossaryLink display="data governance" id="data-governance" /> regimes which enable Indigenous Peoples to reclaim and maintain sovereignty over Indigenous data.</p>
 </details>
 
-<br />
+<br /> -->
