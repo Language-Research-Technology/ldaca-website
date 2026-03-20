@@ -4,6 +4,7 @@ date: 2025-10-01
 draft: false
 description: "Read about one of the first collections to enter our data portal—the Mitchell and Delbridge speech of Australian adolescents corpus (1959–1960)—and its impact on Australian linguistic research."
 layout: post
+author: Bridey Lea
 image: "/news/posts/mitchell-delbridge/mitchell-delbridge1965.jpg"
 ---
 

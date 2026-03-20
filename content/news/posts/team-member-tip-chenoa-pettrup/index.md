@@ -4,6 +4,7 @@ date: 2025-07-27
 draft: false
 description: "Industry Engagement and Communications Lead Chenoa Pettrup draws on her past work as a graphic designer to suggest some starting points for turning your data into useful visuals."
 layout: post
+author: Chenoa Petrrup
 image: "/news/posts/team-member-tip-chenoa-pettrup/Chenoa-photo.png"
 ---
 

@@ -5,6 +5,7 @@ draft: false
 description: "LDaCA team members who also worked on the AusNC project explain the relationship between the two and why AusNC is not an entity in LDaCA."
 layout: post
 image: "/news/posts/ausnc/AusNC-logo.jpg"
+author: Simon Musgrave, Michael Haugh
 ---
 
 by <Profile id="musgrave" /> and <Profile id="haugh" />

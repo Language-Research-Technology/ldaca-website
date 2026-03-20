@@ -6,6 +6,7 @@ draft: false
 description: "Robert McLellan, Senior Program Manager for LDaCA, and Jenny Fewster, Director, HASS and Indigenous Research Data Commons for the Australian Research Data Commons, draw upon their collaborative work on CAREful FAIRness and Principles for Indigenous Data Governance."
 layout: post
 image: "/news/posts/CAREful_FAIRness/Credit_-_ARDC_D-Hannah_Hass&I—Symposium-Afternoon_June24_-_LR163.jpg"
+author: Robert McLellan, Jenny Fewster
 ---
 
 by <Profile id="mclellan" /> and <Profile id="fewster" />

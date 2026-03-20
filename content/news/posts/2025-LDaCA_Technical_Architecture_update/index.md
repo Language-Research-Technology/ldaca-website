@@ -5,6 +5,7 @@ draft: false
 description: "Refresh your knowledge of the principles behind our technical architecture and discover some recent developments, including how we are harmonising the open source tools used across our network of collaborators."
 image: "/news/posts/2025-LDaCA_Technical_Architecture_update/data-findability.png"
 layout: post
+author: Peter Sefton, Moises Sacal Bonequi, Ben Foley
 ---
 
 by <Profile id="sefton" />, <Profile id="Bonequi" /> and <Profile id="foley" />

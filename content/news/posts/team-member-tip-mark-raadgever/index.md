@@ -5,6 +5,7 @@ draft: false
 tags: ["Metadata"]
 description: "Data Migration Developer Mark Raadgever draws on his extensive experience with data migration to outline some important metadata principles. Consistency is key!"
 layout: post
+author: Mark Raadgever
 image: "/news/posts/team-member-tip-mark-raadgever/ro-crating_cropped.jpg"
 ---
 

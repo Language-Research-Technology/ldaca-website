@@ -5,6 +5,7 @@ draft: false
 description: "Find out five ways Research Object (RO) Crates can support data stewards and why LDaCA uses RO-Crates in our infrastructure."
 image: "/news/posts/ro-crate-benefits/json-file.png"
 layout: post
+author: Bridey Lea
 ---
 
 by <Profile id="lea" />
