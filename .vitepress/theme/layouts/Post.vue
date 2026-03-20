@@ -31,6 +31,8 @@ const tagLinks = computed(() => {
 </script>
 
 <template>
+  <SimpleHero :title="page.frontmatter?.title || 'Untitled Document'" :description="page.frontmatter?.author || ''"
+    :breadcrumb="page.frontmatter?.breadcrumb || ''" backgroundImage="/images/GreenBackground.png" />
   <div class="VPDoc">
     <div class="container">
       <article class="vp-doc">
@@ -39,14 +41,14 @@ const tagLinks = computed(() => {
         <a href="/news/posts/" class="inline-block px-3 py-1 bg-gray-100 text-blue-600 rounded text-sm no-underline transition-colors hover:bg-gray-200">← All Posts</a>
       </div>
         <!-- Auto-display title from front matter -->
-        <h1 v-if="page.frontmatter?.title" class="text-4xl font-bold mb-2 mt-2">
+        <!-- <h1 v-if="page.frontmatter?.title" class="text-4xl font-bold mb-2 mt-2">
           {{ page.frontmatter.title }}
-        </h1>
+        </h1> -->
         
         <!-- Auto-display author from front matter -->
-        <div v-if="page.frontmatter?.author" class="mb-4 italic text-gray-500">
+        <!-- <div v-if="page.frontmatter?.author" class="mb-4 italic text-gray-500">
           <span>by {{ page.frontmatter.author }}</span>
-        </div>
+        </div> -->
 
         <!-- Auto-display date from front matter -->
         <div v-if="formattedDate" class="mb-5 text-gray-600 text-sm">

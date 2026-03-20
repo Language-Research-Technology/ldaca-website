@@ -100,25 +100,16 @@ description = "The Language Data Commons of Australia brings together digital in
   heading="EVENTS & RECORDINGS"
   :items="[
     {
-      category: 'EVENT',
       title: 'Sustainable Data for Humanities Researchers workshop',
-      description: 'Research data is valuable — we spend time (and often, money) in collecting it, and it is fundamental to creating knowledge. Because of this value, we have a responsibility to ensure that data will continue to be useful, minimally to ourselves but ideally also to others. This workshop will introduce participants to basic ideas of data management, which are oriented to making data sustainable in line with two important sets of principles, FAIR and CARE.',
-      image: 'https://rduevents.unimelb.edu.au/live/image/scale/2x/gid/23/width/300/height/169/crop/1/609_HASSevent.rev.1754545130.webp',
-      link: '/news/events'
+      link: '/news/events/2025/sustainable-data-for-humanities-researchers'
     },
     {
-      category: 'RECORDING',
-      title: 'Webinar: The ParlaMint corpora of European parliamentary proceedings',
-      description: 'CLARIN colleagues Tomaž Erjavec and Matyáš Kopp delivered the second webinar in our 2025 series in August. Tomaž and Matyáš discussed the compilation and dissemination of the ParlaMint corpora, a collection of 29 corpora of European national and regional parliamentary proceedings, covering at least the period from 2015 to 2022 and containing over 1 billion words.',
-        image: 'https://img.youtube.com/vi/SU92WFxmq-4/sddefault.jpg',
-        link: 'https://www.youtube.com/watch?v=SU92WFxmq-4'
+      title: 'The ParlaMint corpora of European parliamentary proceedings',
+      link: '/news/events/2025/parlamint-corpora'
     },
     {
-      category: 'EVENT',
       title: 'Get Started with Federal Hansard for Humanities, Arts, and Social Sciences Research',
-      description: 'Parliamentary bodies around the world have been publishing transcriptions of their proceedings for decades or even centuries. These transcriptions enable public scrutiny and transparency of the actions and speech of legislative bodies and elected representatives. Because of their documentation of legislative action and speech, their relatively consistent format and their coverages of long periods of time, they are potentially useful for policy researchers, media and communication scholars, political scientists, linguists, sociologists, historians and many others.',
-      image: 'https://static.uq.net.au/v11/logos/corporate/uq-logo.svg',
-      link: '/news/events'
+      link: '/news/events/2025/hansard-2'
     }
   ]"
 />

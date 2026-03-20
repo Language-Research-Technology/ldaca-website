@@ -143,9 +143,7 @@ const selectItem = (item) => {
           <subheading class="text-gray-600">{{ selectedItem.description }}</subheading>
           <a :href="selectedItem.link"
             class="block font-bold hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8">
-            Find out more
-          </a>
-          <a class="font-sans font-bold">→</a>
+            Find out more ➜</a>
         </div>
       </div>
     </div>

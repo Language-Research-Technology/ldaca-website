@@ -5,7 +5,7 @@ title: "Guides"
 
 <SimpleHero breadcrumb='Resources > Guides' title="Guides" description="Guides description goes here."/>
 
-<Carousel 
+<GuideCarousel 
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="CRATE-O"
@@ -28,7 +28,7 @@ title: "Guides"
       }
     ]"/>
 
-<Carousel 
+<GuideCarousel 
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="DATA PORTAL"
@@ -71,7 +71,7 @@ title: "Guides"
       }
     ]"/>
 
-<Carousel 
+<GuideCarousel 
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="WORKING WITH DATA"

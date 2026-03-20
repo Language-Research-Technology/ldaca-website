@@ -101,7 +101,6 @@ title: "Organise & Describe"
       },
       {
         title: 'Introduction to metadata',
-        description: 'TODO.',
         link: 'https://ardc.edu.au/wp-content/uploads/2025/03/b2-metadata_session.pdf',
         category: 'SLIDES'
       }
