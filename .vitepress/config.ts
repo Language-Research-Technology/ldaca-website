@@ -47,7 +47,11 @@ function generatePagesData() {
           image: data.image,
           title: data.title,
           description: data.description,
-          category: data.category
+          category: data.category,
+          eventDate: data.eventDate,
+          time: data.time,
+          location: data.location,
+          author: data.author,
         }
       }
     }

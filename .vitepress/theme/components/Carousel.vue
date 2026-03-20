@@ -28,6 +28,10 @@ const props = defineProps({
   shade: {
     type: String,
     default: 'dark'
+  },
+  buttonText: {
+    type: String,
+    default: 'View more'
   }
 })
 
@@ -89,6 +93,18 @@ const visibleItems = computed(() => {
         rawItem.description ??
         pageMetadata?.description,
 
+      eventDate:
+        rawItem.eventDate ??
+        pageMetadata?.eventDate,
+
+      time:
+        rawItem.time ??
+        pageMetadata?.time,
+
+      location:
+        rawItem.location ??
+        pageMetadata?.location,
+
       category:
         rawItem.category ??
         pageMetadata?.category
@@ -146,6 +162,15 @@ const isExternal = (url) => {
 
               <h3 :class="textClass">{{ item.title }}</h3>
 
+              <!-- Combine date and time -->
+              <p v-if="item.eventDate || item.time" :class="textClass" class="font-bold">
+                {{ [item.eventDate, item.time].filter(Boolean).join(', ') }}
+              </p>
+
+              <p v-if="item.location" :class="textClass" class="font-bold">
+                {{ item.location }}
+              </p>
+
               <p :class="[textClass, 'leading-relaxed flex-1']">
                 {{ item.description }}
               </p>
@@ -155,7 +180,7 @@ const isExternal = (url) => {
               :rel="isExternal(item.link) ? 'noopener noreferrer' : null"
               class="flex justify-between items-center w-full font-bold mt-auto bg-[#79A38D] hover:bg-[#8faf9b]"
               style="color:#FFFEF8; padding:15px;">
-              <span class="text-xl">View more</span>
+              <span class="text-xl">{{ props.buttonText }}</span>
               <span class="text-xl ml-auto font-sans font-bold">→</span>
             </a>
           </div>
@@ -181,6 +206,14 @@ const isExternal = (url) => {
           <div class="px-5 pt-5 pb-3 space-y-3 flex flex-col">
             <p class="text-white">{{ item.category ?? pagesData[item.link]?.category }}</p>
             <h3 class="text-white">{{ item.title ?? pagesData[item.link]?.title }}</h3>
+            <!-- Combine date and time -->
+            <p v-if="pagesData[item.link]?.eventDate || pagesData[item.link]?.time" class="font-bold text-white">
+              {{ [pagesData[item.link]?.eventDate, pagesData[item.link]?.time].filter(Boolean).join(', ') }}
+            </p>
+
+            <p v-if="pagesData[item.link]?.location" class="font-bold text-white">
+              {{ pagesData[item.link]?.location }}
+            </p>
             <p class="text-white leading-relaxed flex-1">
               {{ item.description ?? pagesData[item.link]?.description }}
             </p>
@@ -190,7 +223,7 @@ const isExternal = (url) => {
             :rel="isExternal(item.link) ? 'noopener noreferrer' : null"
             class="flex justify-between items-center w-full font-bold mt-auto bg-[#79A38D] hover:bg-[#8faf9b]"
             style="color:#FFFEF8; padding:15px;">
-            <span class="text-xl">View more</span>
+            <span class="text-xl">{{ props.buttonText }}</span>
             <span class="font-sans font-bold text-white text-xl"> →</span>
           </a>
         </div>

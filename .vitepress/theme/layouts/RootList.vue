@@ -39,11 +39,14 @@ const items = computed(() => {
 </script>
 
 <template>
+  <SimpleHero :title="page.frontmatter?.title || 'Untitled Document'" :description="page.frontmatter?.description || ''"
+    :breadcrumb="page.frontmatter?.breadcrumb || ''" backgroundImage="/images/GreenBackground.png" />
+
   <div class="VPDoc">
     <div class="container">
       <article class="vp-doc">
         <!-- Title & content (mirrors Hugo: title + .Content) -->
-        <h2 class="single-title">{{ page.frontmatter.title || page.title }}</h2>
+        <!-- <h2 class="single-title">{{ page.frontmatter.title || page.title }}</h2> -->
         <Content />
 
         <!-- Archive list -->
@@ -61,9 +64,27 @@ const items = computed(() => {
 </template>
 
 <style scoped>
-.single-title { margin: 0 0 1rem; }
-.archive-item { margin: 1rem 0; }
-.archive-item-link { text-decoration: none; color: inherit; display: block; }
-.archive-item-title { font-size: 1.25rem; margin: 0; }
-.archive-item-description { margin: 0.25rem 0 0; color: var(--vp-c-text-2); }
+.single-title {
+  margin: 0 0 1rem;
+}
+
+.archive-item {
+  margin: 1rem 0;
+}
+
+.archive-item-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.archive-item-title {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.archive-item-description {
+  margin: 0.25rem 0 0;
+  color: var(--vp-c-text-2);
+}
 </style>

@@ -16,6 +16,7 @@ import SimpleNavigation from './components/SimpleNavigation.vue'
 import GuideCarousel from './components/GuideCarousel.vue'
 import ContactBox from './components/ContactBox.vue'
 import ThreeTiles from './components/ThreeTiles.vue'
+import Collaborators from './components/Collaborators.vue'
 import './style.css'
 import DefaultTheme from 'vitepress/theme'
 import '@fontsource/work-sans/400.css'
@@ -40,6 +41,7 @@ export default {
     app.component('GuideCarousel', GuideCarousel)
     app.component('ContactBox', ContactBox)
     app.component('ThreeTiles', ThreeTiles)
+    app.component('Collaborators', Collaborators)
 
   },
   Layout: Layout,
