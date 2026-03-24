@@ -5,6 +5,7 @@ tags: ["Data portal"]
 description: "A guide to navigating the various sections of the portal interface."
 image: "/resources/user-guides/portal/basic-navigation/map-view.png"
 category: "RESOURCE"
+layout: doc
 ---
 
 <br>

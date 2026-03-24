@@ -8,8 +8,6 @@ description: "Information and guidance for data custodians and data collectors p
 weight: 1
 ---
 
-Information and guidance for data custodians and data collectors produced by LDaCA.
-
 <!-- 
 {{< raw >}}
 

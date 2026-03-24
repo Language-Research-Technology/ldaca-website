@@ -6,6 +6,7 @@ tags: ["Crate-O"]
 description: "Guidance and a template for adding new data to an RO-Crate via spreadsheet."
 category: "RESOURCE"
 weight: 4
+layout: doc
 ---
 
 <br>

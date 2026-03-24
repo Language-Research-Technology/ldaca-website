@@ -5,6 +5,7 @@ draft: false
 description: "LDaCA team member Harriet Sheppard describes collecting data on a remote island in Papua New Guinea."
 image: "/resources/general-resources/case-studies/fieldwork-png/crossing-river-small.jpg"
 category: "CASE STUDY"
+layout: doc
 ---
 
 by <Profile id="sheppard" />

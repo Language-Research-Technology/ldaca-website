@@ -8,8 +8,6 @@ description: "A collection of resources for people interested in collecting, org
 weight: 2
 ---
 
-> A collection of resources for people interested in collecting, organising and caring for data, as well as contributing data to LDaCA. 
-
 <article class="archive-item">
     <a href="/resources/user-guides/" class="archive-item-link">
         <h2 class="archive-item-title">User Guides</h2>

@@ -5,6 +5,7 @@ tags: ["Data portal"]
 description: "Refine your queries with word, phrase and pattern searches."
 image: "/resources/user-guides/portal/search/basic-search.png"
 category: "RESOURCE"
+layout: doc
 ---
 
 <br>

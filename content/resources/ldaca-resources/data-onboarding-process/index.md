@@ -5,6 +5,7 @@ draft: false
 description: "Outlines the standards and processes that support the onboarding of data collections to LDaCA."
 image: "/resources/ldaca-resources/data-onboarding-process/DataManagement&GovernanceCapacity.jpg"
 category: "RESOURCE"
+layout: doc
 ---
 
 <br>

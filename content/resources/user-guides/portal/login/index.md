@@ -5,6 +5,7 @@ tags: ["Data portal"]
 description: "A guide to logging in to the portal."
 image: "/resources/user-guides/portal/login/LDaCALogon.png"
 category: "RESOURCE"
+layout: doc
 ---
 
 <br>

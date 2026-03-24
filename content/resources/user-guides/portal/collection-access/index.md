@@ -5,6 +5,7 @@ tags: ["Data portal"]
 description: "A guide to viewing and applying for access to collections in the portal."
 image: "/resources/user-guides/portal/collection-access/CADRElogin.png"
 category: "RESOURCE"
+layout: doc
 ---
 
 <br>

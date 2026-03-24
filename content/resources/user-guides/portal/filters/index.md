@@ -5,6 +5,7 @@ tags: ["Data portal"]
 description: "Refine your results according to a set of major metadata categories."
 image: "/resources/user-guides/portal/filters/filters1.png"
 category: "RESOURCE"
+layout: doc
 ---
 
 <br>

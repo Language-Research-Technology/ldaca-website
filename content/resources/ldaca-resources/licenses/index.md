@@ -10,12 +10,6 @@ aliases:
   - "/licenses/"
 ---
 
-<br>
-
-> Specifies the custom license(s) that data contributors have applied to the content of their <GlossaryLink display="collection" id="collection" />, including the content coverage of that license, in cases where these are not already-existing licenses (e.g. Creative Commons).
-
-<br>
-
 <!-- ### A Corpus of Oz Early English (COOEE)
 
 All content: [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)

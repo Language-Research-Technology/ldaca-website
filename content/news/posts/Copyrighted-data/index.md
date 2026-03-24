@@ -5,7 +5,7 @@ tags: ["Governance, rights & access"]
 description: "While corpus linguists might agree that data sharing is preferable—in line with the FAIR principles—the use and analysis of copyrighted data such as published newspaper articles imposes serious limitations. What options do linguists have for sharing these corpora outside their research team? Chief Investigator Monika Bednarek discusses this question."
 layout: post
 image: "/news/posts/copyrighted-data/Shewontberightmate.png"
-author: Monica Bednarek
+author: Monika Bednarek
 ---
 
 by <Profile id="Bednarek" />

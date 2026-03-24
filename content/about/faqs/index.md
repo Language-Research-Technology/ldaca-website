@@ -4,6 +4,7 @@ date: 2023-12-12T17:13:28+10:00
 draft: false
 description: Find answers to the most commonly asked questions about the project.
 tags: ["What is LDaCA", "Governance"]
+layout: doc
 ---
 
 

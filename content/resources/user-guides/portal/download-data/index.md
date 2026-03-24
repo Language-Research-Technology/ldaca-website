@@ -5,6 +5,7 @@ tags: ["Data portal"]
 description: "A guide to downloading individual files from the portal."
 image: "/resources/user-guides/portal/download-data/downloads-widget.png"
 category: "RESOURCE"
+layout: doc
 ---
 
 <br>

@@ -7,6 +7,7 @@ description: "A guide to navigating the various sections of the Crate-O interfac
 image: "/resources/user-guides/crate-o/basic-navigation/entity_properties.jpeg"
 category: "RESOURCE"
 weight: 2
+layout: doc
 ---
 
 <br />

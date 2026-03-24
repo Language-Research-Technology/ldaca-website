@@ -7,6 +7,7 @@ description: "A step-by-step guide to creating an RO-Crate metadata file."
 image: "/resources/user-guides/crate-o/ro-crate-creation/ro_crate_preview_html.jpeg"
 category: "RESOURCE"
 weight: 3
+layout: doc
 ---
 
 <br>

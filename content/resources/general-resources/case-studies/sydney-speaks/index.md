@@ -5,6 +5,7 @@ draft: false
 description: "LDaCA Chief Investigator Catherine Travis and former team member Cale Johnstone explain the complexities of handling data from three periods in a 40 year span."
 image: "/resources/general-resources/case-studies/sydney-speaks/fig-1.png"
 category: "CASE STUDY"
+layout: doc
 ---
 
 by <Profile id = "travis" /> and <Profile id = "johnstone" />

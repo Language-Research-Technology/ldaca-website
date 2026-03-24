@@ -5,6 +5,7 @@ draft: false
 description: "LDaCA team member Teresa Chan discusses data considerations for her Master's research project."
 image: "/resources/general-resources/case-studies/masters-research-project/figure1-GEs.png"
 category: "CASE STUDY"
+layout: doc
 ---
 
 by <Profile id="chan" />
