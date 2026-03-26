@@ -25,9 +25,9 @@ Because we are using <GlossaryLink display="RO Crates" id="ro-crate" /> in <Glos
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./ro-crating_cropped.jpg" alt="A black and white photograph of a group of people gathered round a computer." title="Mark in action, lower right, demonstrating data migration to RO-Crate." style="margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Mark in action, lower right, demonstrating data migration to RO-Crate. (Image: Peter Sefton)</figcaption>
+<figure>
+  <img src="./ro-crating_cropped.jpg" alt="A black and white photograph of a group of people gathered round a computer." title="Mark in action, lower right, demonstrating data migration to RO-Crate." />
+  <figcaption>Mark in action, lower right, demonstrating data migration to RO-Crate. (Image: Peter Sefton)</figcaption>
 </figure>
 
 <br>

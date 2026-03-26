@@ -10,11 +10,11 @@ layout: doc
 
 <br>
 
-##### [Step 1: Consider access condition(s) for the entire collection](#step-1-consider-access-conditions-for-the-entire-collection)
-##### [Step 2: Organise relevant materials](#step-2-organise-relevant-materials)
-##### [Step 3: Define the license terms](#step-3-define-the-license-terms)
-##### [Step 4: Determine authorisation level](#step-4-determine-authorisation-level)
-##### [Options for access by application](#options-for-access-by-application)
+- [Step 1: Consider access condition(s) for the entire collection](#step-1-consider-access-condition(s)-for-the-entire-collection)
+- [Step 2: Organise relevant materials](#step-2-organise-relevant-materials)
+- [Step 3: Define the license terms](#step-3-define-the-license-terms)
+- [Step 4: Determine authorisation level](#step-4-determine-authorisation-level)
+- [Options for access by application](#options-for-access-by-application)
 
 <br>
 
@@ -31,7 +31,10 @@ layout: doc
 
 <br>
 
-<img src="./AccessConditions_Flow1.jpg" Alt="Access Conditions Flowchart" Desc="Figure 1: Access Conditions Flowchart" Title="Access Conditions Flowchart" Ref="LDaCA" />
+<figure>
+  <img src="./AccessConditions_Flow1.jpg" Alt="Access Conditions Flowchart" Title="Access Conditions Flowchart" Ref="LDaCA" />
+  <figcaption>Figure 1: Access Conditions Flowchart</figcaption>
+</figure>
 
 <br>
 
@@ -70,7 +73,10 @@ What authorisation is required for users to access this license?
 
 <br>
 
-<img src="./AccessConditions_Flow2.jpg" Alt="Access Conditions Flowchart - Authorisation Level" Desc="Figure 2: Access Conditions Flowchart - Authorisation Level" Title="Access Conditions Flowchart - Authorisation Level" Ref="LDaCA" />
+<figure>
+  <img src="./AccessConditions_Flow2.jpg" Alt="Access Conditions Flowchart - Authorisation Level" Title="Access Conditions Flowchart - Authorisation Level" Ref="LDaCA" />
+  <figcaption>Figure 2: Access Conditions Flowchart - Authorisation Level</figcaption>
+</figure>
 
 <br>
 

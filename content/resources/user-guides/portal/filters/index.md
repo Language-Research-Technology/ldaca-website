@@ -20,7 +20,7 @@ Filters allow you to refine what items are available to view and search accordin
 
 Part of the Filter List | Linguistic Genre Filter Expanded
 :---: | :---:
-<<img src="./filters1.png" Alt="Filter List Example" Desc="Filter List Example" Title="Filter List Example" Ref="LDaCA" /> | <<img src="./filters2.png" Alt="Linguistic Genre Filter Example" Desc="Linguistic Genre Filter Example" Title="Linguistic Genre Filter Example" Ref="LDaCA" />
+<img src="./filters1.png" Alt="Filter List Example" Title="Filter List Example" Ref="LDaCA" /> | <img src="./filters2.png" Alt="Linguistic Genre Filter Example" Title="Linguistic Genre Filter Example" Ref="LDaCA" />
 
 
 <br>

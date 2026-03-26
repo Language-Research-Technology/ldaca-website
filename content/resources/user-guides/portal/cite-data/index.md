@@ -14,13 +14,10 @@ layout: doc
 
 <br>
 
-##### [Citing a Collection](#citing-a-collection)
-
-##### [Citing Parts of a Collection](#citing-parts-of-a-collection)
-
-##### [Citing Published Work](#citing-published-work)
-
-##### [Citing LDaCA as Access Source](#citing-ldaca-as-access-source)
+- [Citing a Collection](#citing-a-collection)
+- [Citing Parts of a Collection](#citing-parts-of-a-collection)
+- [Citing Published Work](#citing-published-work)
+- [Citing LDaCA as Access Source](#citing-ldaca-as-access-source)
 
 <br>
 
@@ -78,7 +75,10 @@ As an example, the COrpus of Oz Early English (COOEE) shows a Citation field wit
 
 <br>
 
-<img src="./COOEE-Citation-field-wLink.png" Alt="COOEE Citation Metadata Field Example" Desc="COOEE Citation Metadata Field Example" Title="COOEE Citation Metadata Field Example" Ref="LDaCA" />
+<figure>
+    <img src="./COOEE-Citation-field-wLink.png" Alt="COOEE Citation Metadata Field Example" Title="COOEE Citation Metadata Field Example" Ref="LDaCA" />
+    <figcaption>COOEE Citation Metadata Field Example</figcaption>
+</figure>
 
 <br>
 

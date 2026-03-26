@@ -14,7 +14,10 @@ This blog post features an interview with [Kalin Stefanov](https://research.mona
 
 <br>
 
-<img src="./kalins.jpg" alt="Close-up shot of Kalin Stefanov’s face, who is smiling" desc="Kalin Stefanov, Monash University" title="Kalin Stefanov, Monash University" ref="Kalin Stefanov" height="400" />
+<figure>
+    <img src="./kalins.jpg" alt="Close-up shot of Kalin Stefanov’s face, who is smiling" title="Kalin Stefanov, Monash University" ref="Kalin Stefanov" height="400" />
+    <figcaption>Kalin Stefanov, Monash University</figcaption>
+</figure>
 
 <br>
 

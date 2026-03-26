@@ -24,7 +24,10 @@ The idea for the project stemmed from an intriguing observation I had made about
 
 <br>
 
-<img src="./figure1-GEs.png" Alt="A cartoon-style image of two people seated on a couch, having a conversation. The person on the left has a speech bubble from their mouth with the text 'or whatever'. The person on the right has a speech bubble from their mouth with the text 'and stuff'." Desc="Figure 1: Two people using general extenders (GEs) in a conversation" Title="Two people using general extenders (GEs) in a conversation" Ref="Teresa Chan" Height="500" />
+<figure>
+   <img src="./figure1-GEs.png" Alt="A cartoon-style image of two people seated on a couch, having a conversation. The person on the left has a speech bubble from their mouth with the text 'or whatever'. The person on the right has a speech bubble from their mouth with the text 'and stuff'." Title="Two people using general extenders (GEs) in a conversation" Ref="Teresa Chan" Height="500" />
+   <figcaption>Figure 1: Two people using general extenders (GEs) in a conversation</figcaption>
+</figure>
 
 <br>
 
@@ -82,7 +85,10 @@ As a result, the metadata was sparser, and aside from geographical location, onl
 
 <br>
 
-<img src="./figure2-tweets-gender-analysis.png" Alt="A screenshot of two example posts from X users. An arrow is pointing to the first username with the text 'FEMALE'. An arrow is pointing to the second username with the text 'MALE'." Desc="Figure 2: Assigning genders to X users on two example posts" Title="Assigning genders to X users on two example posts" Ref="Teresa Chan" />
+<figure> 
+   <img src="./figure2-tweets-gender-analysis.png" Alt="A screenshot of two example posts from X users. An arrow is pointing to the first username with the text 'FEMALE'. An arrow is pointing to the second username with the text 'MALE'." Title="Assigning genders to X users on two example posts" Ref="Teresa Chan" />
+   <figcaption>Figure 2: Assigning genders to X users on two example posts</figcaption>
+</figure>
 
 <br>
 
@@ -92,7 +98,10 @@ The data sources needed to contain enough instances of GEs to allow robust analy
 
 <br>
 
-<img src="./figure3-chart.png" Alt="A line chart showing frequency of GE occurrence per 10,000 words by age, across several studies." Desc="Figure 3: Rates of use of GEs (per 10,000 words) by age, across studies" Title="Rates of use of GEs (per 10,000 words) by age, across studies" Ref="Catherine Travis" Height="500" />
+<figure>
+   <img src="./figure3-chart.png" Alt="A line chart showing frequency of GE occurrence per 10,000 words by age, across several studies." Title="Rates of use of GEs (per 10,000 words) by age, across studies" Ref="Catherine Travis" Height="500" />
+   <figcaption>Figure 3: Rates of use of GEs (per 10,000 words) by age, across studies</figcaption>
+</figure>
 
 <br>
 
@@ -116,7 +125,10 @@ Once I had cleaned and organised the data for all three datasets, I uploaded the
 
 <br>
 
-<img src="./figure4-and-stuff-search.png" Alt="A screenshot of the results of a concordance search for *and stuff* in the Sydney Speaks dataset. The screenshot shows multiple lines of text with the words *and stuff* centred in every line and formatted red and bold." Desc="Figure 4: Concordance search for *and stuff* in the Sydney Speaks dataset" Title="Concordance search for *and stuff* in the Sydney Speaks dataset" Ref="Teresa Chan" Height="500" />
+<figure>
+   <img src="./figure4-and-stuff-search.png" Alt="A screenshot of the results of a concordance search for *and stuff* in the Sydney Speaks dataset. The screenshot shows multiple lines of text with the words *and stuff* centred in every line and formatted red and bold." Title="Concordance search for *and stuff* in the Sydney Speaks dataset" Ref="Teresa Chan" Height="500" />
+   <figcaption>Figure 4: Concordance search for *and stuff* in the Sydney Speaks dataset</figcaption>
+</figure>
 
 <br>
 
@@ -154,7 +166,10 @@ Addressing each research question in turn:
 
 <br>
 
-<img src="./figure5-chart.png" Alt="A column chart showing the mean GE frequency for Sydney Sydney speakers in AusTalk and Sydney Speaks datasets compared to X (formerly Twitter). The columns for the spoken corpora are higher than the columns for X." Desc="Figure 5: Mean GE frequency for Sydney speakers in AusTalk and Sydney Speaks datasets compared to X (formerly Twitter)" Title="Mean GE frequency for Sydney speakers in AusTalk and Sydney Speaks datasets compared to X (formerly Twitter)" Ref="Teresa Chan" Height="500" />
+<figure>
+   <img src="./figure5-chart.png" Alt="A column chart showing the mean GE frequency for Sydney Sydney speakers in AusTalk and Sydney Speaks datasets compared to X (formerly Twitter). The columns for the spoken corpora are higher than the columns for X." Title="Mean GE frequency for Sydney speakers in AusTalk and Sydney Speaks datasets compared to X (formerly Twitter)" Ref="Teresa Chan" Height="500" />
+   <figcaption>Figure 5: Mean GE frequency for Sydney speakers in AusTalk and Sydney Speaks datasets compared to X (formerly Twitter)</figcaption>
+</figure>
 
 <br>
 

@@ -12,13 +12,10 @@ layout: doc
 
 <br>
 
-##### [Crate-O Use Cases](#crate-o-use-cases)
-
-##### [RO-Crate Collection Hierarchy](#ro-crate-collection-hierarchy)
-
-##### [Schemas, Profiles and Modes](#schemas-profiles-and-modes)
-
-##### [Schema.org Style Schemas (SOSSs) and RO-Crate Profiles and Modes](#schemaorg-style-schemas-sosss-and-ro-crate-profiles-and-modes)
+- [Crate-O Use Cases](#crate-o-use-cases)
+- [RO-Crate Collection Hierarchy](#ro-crate-collection-hierarchy)
+- [Schemas, Profiles and Modes](#schemas-profiles-and-modes)
+- [Schema.org Style Schemas (SOSSs) and RO-Crate Profiles and Modes](#schema.org-style-schemas-(sosss)-and-ro-crate-profiles-and-modes)
 
 <br>
 
@@ -56,7 +53,10 @@ The diagram below shows the hierarchical relationship between <GlossaryLink disp
 
 <br>
 
-<img src="./my_corpus.png" Alt="Self-contained corpus crate with all resources" Desc="Self-contained corpus crate with all resources" Title="Self-contained corpus crate with all resources" Ref="LDaCA" />
+<figure>
+  <img src="./my_corpus.png" Alt="Self-contained corpus crate with all resources" Title="Self-contained corpus crate with all resources" Ref="LDaCA" />
+  <figcaption>Self-contained corpus crate with all resources</figcaption>
+</figure>
 
 <br>
 
@@ -94,7 +94,10 @@ This diagram shows the relationship between the three main components used by <G
 
 <br>
 
-<img src="./schema-mode-profile.svg" Alt="The three main components for RO-Crate editing with Crate-O" Desc="The three main components for RO-Crate editing with Crate-O" Title="The three main components for RO-Crate editing with Crate-O" Ref="LDaCA" />
+<figure>
+  <img src="./schema-mode-profile.svg" Alt="The three main components for RO-Crate editing with Crate-O" Title="The three main components for RO-Crate editing with Crate-O" Ref="LDaCA" />
+  <figcaption>The three main components for RO-Crate editing with Crate-O</figcaption>
+</figure>
 
 <br>
 
@@ -185,6 +188,9 @@ To make an RO-Crate <GlossaryLink display="Mode" id="mode" /> File, we transform
 
 <br>
 
-<img src="./soss-to-profile.svg" Alt="Base Mode File creation, combining the Schema.org schema and RO-Crate additions using the rocsoss script" Desc="Base Mode File creation, combining the Schema.org schema and RO-Crate additions using the rocsoss script" Title="Base Mode File creation, combining the Schema.org schema and RO-Crate additions using the rocsoss script" Ref="LDaCA" />
+<figure>
+  <img src="./soss-to-profile.svg" Alt="Base Mode File creation, combining the Schema.org schema and RO-Crate additions using the rocsoss script" Title="Base Mode File creation, combining the Schema.org schema and RO-Crate additions using the rocsoss script" Ref="LDaCA" />
+  <figcaption>Base Mode File creation, combining the Schema.org schema and RO-Crate additions using the rocsoss script</figcaption>
+</figure>
 
 <br>

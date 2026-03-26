@@ -14,8 +14,8 @@ layout: doc
 
 <br>
 
-##### [Apply for Access to Collections with Access Restrictions](#apply-for-access-to-collections-with-access-restrictions)
-##### [View your Current Access List](#view-your-current-access-list)
+- [Apply for Access to Collections with Access Restrictions](#apply-for-access-to-collections-with-access-restrictions)
+- [View your Current Access List](#view-your-current-access-list)
 
 <br>
 
@@ -27,7 +27,10 @@ When viewing an item that has restricted access, you will see one of the followi
 
 <br>
 
-<<img src="./REMS-ApplyOrRefreshPermissions.png" Alt="Restricted Access Example" Desc="Restricted Access Example" Title="Restricted Access Example" Ref="LDaCA" />
+<figure>
+    <img src="./REMS-ApplyOrRefreshPermissions.png" Alt="Restricted Access Example" Title="Restricted Access Example" Ref="LDaCA" />
+    <figcaption>Restricted Access Example</figcaption>
+</figure>
 
 <br>
 
@@ -35,7 +38,10 @@ The LDaCA environment uses <GlossaryLink display="CADRE" id="cadre" /> for acces
 
 <br>
 
-<<img src="./CADRElogin.png" Alt="CADRE Interface Welcome Page" Desc="CADRE Interface Welcome Page" Title="CADRE Interface Welcome Page" Ref="CADRE" />
+<figure>
+    <img src="./CADRElogin.png" Alt="CADRE Interface Welcome Page" Title="CADRE Interface Welcome Page" Ref="CADRE" />
+    <figcaption>CADRE Interface Welcome Page</figcaption>
+</figure>
 
 <br>
 
@@ -45,7 +51,10 @@ Select ___Login___ and follow the CILogon prompts (see [Login](/resources/user-g
 
 Once the data sharing request is approved, navigate back to the data <GlossaryLink display="object" id="object" /> you require in the LDaCA portal. If the warning text is still displayed, click on ___refresh permissions___. The page will update and you should be able to access the data. Note that these permissions apply to other data objects in the <GlossaryLink display="collection" id="collection" /> that are covered by the same license terms; you do not need to apply for permission for each data object.
 
-<<img src="./access-granted-portal-blur.png" Alt="Access to example custom license displayed in green on the LDaCA data portal." Desc="Once the data sharing request is approved, you will be able to access the data in the LDaCA portal." Title="Once the data sharing request is approved, you will be able to access the data in the LDaCA portal." Ref="LDaCA" />
+<figure>
+    <img src="./access-granted-portal-blur.png" Alt="Access to example custom license displayed in green on the LDaCA data portal." Title="Once the data sharing request is approved, you will be able to access the data in the LDaCA portal." Ref="LDaCA" />
+    <figcaption>Once the data sharing request is approved, you will be able to access the data in the LDaCA portal.</figcaption>
+</figure>
 
 <br>
 
@@ -55,6 +64,9 @@ To view your current list of licenses you have access to, hover your cursor over
 
 <br>
 
-<<img src="./user-memberships-with-access.png" Alt="User Memberships" Desc="User Memberships" Title="User Memberships" Ref="LDaCA" />
+<figure>
+    <img src="./user-memberships-with-access.png" Alt="User Memberships" Title="User Memberships" Ref="LDaCA" />
+    <figcaption>User Memberships</figcaption>
+</figure>
 
 <br>

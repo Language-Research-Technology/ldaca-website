@@ -29,9 +29,9 @@ Our focus moved from vulgar language to the idea of 'unparliamentary language'. 
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./hansard.jpeg" alt="Several volumes of Hansard" title="Several volumes of Hansard." style="max-height: 300px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 1: Several volumes of Hansard. (Image: The Conversation)</figcaption>
+<figure>
+  <img src="./hansard.jpeg" alt="Several volumes of Hansard" title="Several volumes of Hansard." />
+  <figcaption>Figure 1: Several volumes of Hansard. (Image: The Conversation)</figcaption>
 </figure>
 
 <br>
@@ -44,9 +44,9 @@ Once you have found a section of Hansard which interests you, you can download t
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./hansard-xml.png" alt="Sample of Hansard in XML format." title="Sample of Hansard in XML format." style="margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 2: Sample of Hansard in XML format. (Image: ParlInfo)</figcaption>
+<figure>
+  <img src="./hansard-xml.png" alt="Sample of Hansard in XML format." title="Sample of Hansard in XML format." />
+  <figcaption>Figure 2: Sample of Hansard in XML format. (Image: ParlInfo)</figcaption>
 </figure>
 
 <br>
@@ -75,9 +75,9 @@ Not all examples of _unparliamentary_ relate immediately to unparliamentary lang
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./hansard-collocates.png" alt="The top 30 collocates of 'unparliamentary' in the proceedings of the House of Representatives, 37th Parliament." title="The top 30 collocates of 'unparliamentary' in the proceedings of the House of Representatives, 37th Parliament." style="max-height: 600px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 3: The top 30 collocates of 'unparliamentary' in the proceedings of the House of Representatives, 37th Parliament. (Image: Public Domain)</figcaption>
+<figure>
+  <img src="./hansard-collocates.png" alt="The top 30 collocates of 'unparliamentary' in the proceedings of the House of Representatives, 37th Parliament." title="The top 30 collocates of 'unparliamentary' in the proceedings of the House of Representatives, 37th Parliament." />
+  <figcaption>Figure 3: The top 30 collocates of 'unparliamentary' in the proceedings of the House of Representatives, 37th Parliament. (Image: Public Domain)</figcaption>
 </figure>
 
 <br>

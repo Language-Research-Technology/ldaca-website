@@ -14,8 +14,8 @@ layout: doc
 
 <br>
 
-##### [Basic Search](#basic-search)
-##### [Advanced Search](#advanced-search) ([Search Fields](#search-fields), [Boolean Operators](#boolean-operators), [Query String Syntax](#query-string-syntax), [Regular Expressions](#regular-expressions), [Reserved Characters](#reserved-characters), [Show Query](#show-query))
+- [Basic Search](#basic-search)
+- [Advanced Search](#advanced-search) ([Search Fields](#search-fields), [Boolean Operators](#boolean-operators), [Query String Syntax](#query-string-syntax), [Regular Expressions](#regular-expressions), [Reserved Characters](#reserved-characters), [Show Query](#show-query))
 
 <br>
 
@@ -31,7 +31,10 @@ The basic search function can be found in the top left section of the portal hom
 
 <br>
 
-<<img src="./basic-search.png" Alt="Basic Search" Desc="Basic Search" Title="Basic Search" Ref="LDaCA" />
+<figure>
+    <img src="./basic-search.png" Alt="Basic Search" Title="Basic Search" Ref="LDaCA" />
+    <figcaption>Basic Search</figcaption>
+</figure>
  
 <br>
 
@@ -62,7 +65,10 @@ The advanced search function is accessed by selecting ___Advanced Search___ belo
 
 <br>
 
-<<img src="./advanced-search.png" Alt="Advanced Search" Desc="Advanced Search" Title="Advanced Search" Ref="LDaCA" />
+<figure>
+    <img src="./advanced-search.png" Alt="Advanced Search" Title="Advanced Search" Ref="LDaCA" />
+    <figcaption>Advanced Search</figcaption>
+</figure>
 
 <br>
 

@@ -13,9 +13,9 @@ Nick Thieberger (Figure 1) is an Associate Professor in the [School of Languages
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./nickT_figure1.jpg" alt="Nick Thieberger" title="Nick Thieberger" style="max-height: 400px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 1: Nick Thieberger. (Image: Nick Thieberger)</figcaption>
+<figure>
+  <img src="./nickT_figure1.jpg" alt="Nick Thieberger" title="Nick Thieberger" />
+  <figcaption>Figure 1: Nick Thieberger. (Image: Nick Thieberger)</figcaption>
 </figure>
 
 <br>
@@ -42,9 +42,9 @@ And then I went on to build the Aboriginal Studies Electronic Data Archive ([ASE
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./nickT_figure2.png" alt="Title page of the Handbook of WA Languages" title="Title page of the Handbook of WA Languages" style="max-height: 450px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 2: Title page of the Handbook of WA Languages. (Image: Public Domain)</figcaption>
+<figure>
+  <img src="./nickT_figure2.png" alt="Title page of the Handbook of WA Languages" title="Title page of the Handbook of WA Languages" />
+  <figcaption>Figure 2: Title page of the Handbook of WA Languages. (Image: Public Domain)</figcaption>
 </figure>
 
 <br>
@@ -109,9 +109,9 @@ The whole approach with <GlossaryLink display="RO-Crate" id="ro-crate" /> is int
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./nickT_figure3.jpg" alt="Storing digital data on microfilm" title="Storing digital data on microfilm." style="max-height: 200px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 3: Storing digital data on microfilm. (Image: Piql)</figcaption>
+<figure>
+  <img src="./nickT_figure3.jpg" alt="Storing digital data on microfilm" title="Storing digital data on microfilm." />
+  <figcaption>Figure 3: Storing digital data on microfilm. (Image: Piql)</figcaption>
 </figure>
 
 <br>
@@ -148,9 +148,9 @@ Nyingarn was a sort of way of saying, well, we can do that. We could save all th
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./nickT_figure4.png" alt="A Vocabulary of an Indigenous language collected by Daisy Bates." title="A Vocabulary of an Indigenous language collected by Daisy Bates." style="max-height: 800px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 4: A Vocabulary of an Indigenous language collected by Daisy Bates. (Image: Nick Thieberger)</figcaption>
+<figure>
+  <img src="./nickT_figure4.png" alt="A Vocabulary of an Indigenous language collected by Daisy Bates." title="A Vocabulary of an Indigenous language collected by Daisy Bates." />
+  <figcaption>Figure 4: A Vocabulary of an Indigenous language collected by Daisy Bates. (Image: Nick Thieberger)</figcaption>
 </figure>
 
 <br>

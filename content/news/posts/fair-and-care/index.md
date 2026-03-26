@@ -53,20 +53,20 @@ Accessibility may also be an issue for some data. <GlossaryLink display="Copyrig
 For linguists, there is another very important set of principles concerning data, the <GlossaryLink display="CARE" id="care" /> principles developed by the Global Indigenous Data Alliance:
 
 - _Collective Benefit_
-
-  &emsp; Data ecosystems shall be designed and function in ways that enable Indigenous Peoples to derive benefit from the data.
+  
+  Data ecosystems shall be designed and function in ways that enable Indigenous Peoples to derive benefit from the data.
 
 - _Authority to control_
 
-  &emsp;Indigenous Peoples’ rights and interests in Indigenous data must be recognised and their authority to control such data be empowered.
+  Indigenous Peoples’ rights and interests in Indigenous data must be recognised and their authority to control such data be empowered.
 
 - _Responsibility_
 
-  &emsp;Those working with Indigenous data have a responsibility to share how those data are used to support Indigenous Peoples’ self-determination and collective benefit.
+  Those working with Indigenous data have a responsibility to share how those data are used to support Indigenous Peoples’ self-determination and collective benefit.
 
 - _Ethics_
 
-  &emsp;Indigenous Peoples’ rights and wellbeing should be the primary concern at all stages of the data life cycle and across the data ecosystem.
+  Indigenous Peoples’ rights and wellbeing should be the primary concern at all stages of the data life cycle and across the data ecosystem.
 
 These principles are presented as applying particularly to Indigenous data, but we believe that researchers should adopt this approach in all cases where the people who participate in our research can be seen to have some moral rights in the information they have contributed. Respecting those moral rights should be demonstrated by recognising the participants’ authority to control how data is used, by seeking to ensure that participants derive benefit from use of the data, and by acting ethically and transparently in our relations with the participants. Deborah Cameron and her colleagues (Cameron et al 1993) raised similar issues almost 20 years ago, arguing that the imbalance of power in the relation between researchers and participants needed to be reduced. The <GlossaryLink display="CARE" id="care" /> principles continue along this path, but go even further in explicitly returning power to the sources of information.
 

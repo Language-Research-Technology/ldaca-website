@@ -12,9 +12,9 @@ image: "/news/posts/ID-gov-panel-2024/DSC_5642-Enhanced-NR-cropped.jpg"
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./DSC_5642-Enhanced-NR-cropped.jpg" alt="ID-Gov panellists and audience" title="Panellists and audience" style="max-height: 500px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 1: Panellists and audience at Indigenous Data Governance: A discussion. (Image: Lewis James Bin Doraho)</figcaption>
+<figure>
+  <img src="./DSC_5642-Enhanced-NR-cropped.jpg" alt="ID-Gov panellists and audience" title="Panellists and audience" />
+  <figcaption>Figure 1: Panellists and audience at Indigenous Data Governance: A discussion. (Image: Lewis James Bin Doraho)</figcaption>
 </figure>
 
 <br>
@@ -57,9 +57,9 @@ Importantly, Rose added that collecting institutions who engage with ICIP are be
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./DSC_5619.jpg" alt="Rose Barrowcliffe speaks on the panel." title="Rose" style="max-height: 400px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 2: Dr Rose Barrowcliffe. (Image: Lewis James Bin Doraho)</figcaption>
+<figure>
+  <img src="./DSC_5619.jpg" alt="Rose Barrowcliffe speaks on the panel." title="Rose" />
+  <figcaption>Figure 2: Dr Rose Barrowcliffe. (Image: Lewis James Bin Doraho)</figcaption>
 </figure>
 
 <br>
@@ -93,9 +93,9 @@ Being transparent about these roles will improve accountability in institutions 
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./DSC_5637.jpg" alt="Robert McLellan speaks on the panel." title="Robert" style="max-height: 400px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 3: Robert McLellan. (Image: Lewis James Bin Doraho)</figcaption>
+<figure>
+  <img src="./DSC_5637.jpg" alt="Robert McLellan speaks on the panel." title="Robert" />
+  <figcaption>Figure 3: Robert McLellan. (Image: Lewis James Bin Doraho)</figcaption>
 </figure>
 
 <br>
@@ -116,9 +116,9 @@ The process uncovered gaps in the library's metadata and was a means of:
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./DSC_5624.jpg" alt="Lesley Acres speaks on the panel." title="Lesley" style="max-height: 400px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 4: Lesley Acres. (Image: Lewis James Bin Doraho)</figcaption>
+<figure>
+  <img src="./DSC_5624.jpg" alt="Lesley Acres speaks on the panel." title="Lesley" />
+  <figcaption>Figure 4: Lesley Acres. (Image: Lewis James Bin Doraho)</figcaption>
 </figure>
 
 <br>
@@ -145,9 +145,9 @@ Lived experience also plays an important role in decision making around technolo
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./DSC_5644-Enhanced-NR.jpg" alt="Members of the audience engage with the panellists." title="Audience members" style="max-height: 500px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 5: Members of the audience engaging with the panellists. (Image: Lewis James Bin Doraho)</figcaption>
+<figure>
+  <img src="./DSC_5644-Enhanced-NR.jpg" alt="Members of the audience engage with the panellists." title="Audience members" />
+  <figcaption>Figure 5: Members of the audience engaging with the panellists. (Image: Lewis James Bin Doraho)</figcaption>
 </figure>
 
 <br>

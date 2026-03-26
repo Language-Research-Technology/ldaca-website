@@ -12,17 +12,12 @@ layout: doc
 
 <br />
 
-##### [Main Menu](#crate-o-main-menu)
-
-##### [Mode Selector](#crate-o-mode-selector)
-
-##### [Current Entity](#crate-o-current-entity)
-
-##### [Property Groups](#crate-o-property-groups)
-
-##### [Entity Properties](#crate-o-entity-properties)
-
-##### [Entity Navigator](#crate-o-entity-navigator)
+- [Main Menu](#crate-o-main-menu)
+- [Mode Selector](#crate-o-mode-selector)
+- [Current Entity](#crate-o-current-entity)
+- [Property Groups](#crate-o-property-groups)
+- [Entity Properties](#crate-o-entity-properties)
+- [Entity Navigator](#crate-o-entity-navigator)
 
 <br />
 

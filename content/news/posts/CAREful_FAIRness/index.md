@@ -59,9 +59,9 @@ Indigenous Data Network. 2024. IDN Roundtable: Developing & Adopting Indigenous 
 
 ### About the authors
 
-<figure style="text-align: center;">
-  <img src="./Credit_-_ARDC_D-Hannah_Hass&I—Symposium-Afternoon_June24_-_LR163.jpg" alt="ID-Gov panellists and audience" title="Panellists and audience" style="max-height: 400px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 1: Jenny Fewster and Robert McLellan. (Image: ARDC/David Hannah)</figcaption>
+<figure>
+  <img src="./Credit_-_ARDC_D-Hannah_Hass&I—Symposium-Afternoon_June24_-_LR163.jpg" alt="ID-Gov panellists and audience" title="Panellists and audience" />
+  <figcaption>Figure 1: Jenny Fewster and Robert McLellan. (Image: ARDC/David Hannah)</figcaption>
 </figure>
 
 #### Robert McLellan

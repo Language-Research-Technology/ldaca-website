@@ -14,9 +14,8 @@ layout: doc
 
 <br>
 
-##### [Download Individual Files](#download-individual-files)
-
-##### [Download Collections](#download-collections)
+- [Download Individual Files](#download-individual-files)
+- [Download Collections](#download-collections)
 
 <br>
 
@@ -33,7 +32,10 @@ To download a file from an Object page, navigate to the _Files_ section at the e
 
 <br>
 
-<<img src="./objectPage_downloadFile.png" Alt="Object Page: Download File" Desc="Object Page: Download File" Title="Object Page: Download File" Ref="LDaCA" />
+<figure>
+    <img src="./objectPage_downloadFile.png" Alt="Object Page: Download File" Title="Object Page: Download File" Ref="LDaCA" />
+    <figcaption>Object Page: Download File</figcaption>
+</figure>
 
 <br>
 
@@ -41,7 +43,10 @@ To download a file from a File page, navigate to the end of the page and select 
 
 <br>
 
-<<img src="./filePage_downloadFile.png" Alt="File Page: Download File" Desc="File Page: Download File" Title="File Page: Download File" Ref="LDaCA" />
+<figure>
+    <img src="./filePage_downloadFile.png" Alt="File Page: Download File" Title="File Page: Download File" Ref="LDaCA" />
+    <figcaption>File Page: Download File</figcaption>
+</figure>
 
 <br>
 
@@ -54,7 +59,10 @@ Complete collections can be downloaded from the Downloads widget on the right pa
 
 <br>
 
-<<img src="./downloads-widget.png" Alt="Collection and Object Page: Downloads Widget" Desc="Collection and Object Page: Downloads Widget" Title="Collection and Object Page: Downloads Widget" Ref="LDaCA" />
+<figure>
+    <img src="./downloads-widget.png" Alt="Collection and Object Page: Downloads Widget" Title="Collection and Object Page: Downloads Widget" Ref="LDaCA" />
+    <figcaption>Collection and Object Page: Downloads Widget</figcaption>
+</figure>
 
 <br>
 
@@ -66,6 +74,9 @@ A complete collection cannot be downloaded as a single ZIP file if it is distrib
 
 <br>
 
-<<img src="./show-all-downloads.png" Alt="Collection and Object Page: Show All Downloads" Desc="Collection and Object Page: Show All Downloads" Title="Collection and Object Page: Show All Downloads" Ref="LDaCA" />
+<figure>
+    <img src="./show-all-downloads.png" Alt="Collection and Object Page: Show All Downloads" Title="Collection and Object Page: Show All Downloads" Ref="LDaCA" />
+    <figcaption>Collection and Object Page: Show All Downloads</figcaption>
+</figure>
 
 <br>

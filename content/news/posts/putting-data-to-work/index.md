@@ -22,9 +22,9 @@ The first part of my argument in the article is that there is a tradition of Aus
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./dennis.jpg" alt="The cover of The Songs of a Sentimental Bloke." title="The cover of The Songs of a Sentimental Bloke." style="max-height: 600px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 1: The cover of The Songs of a Sentimental Bloke. (Image: Simon Musgrave)</figcaption>
+<figure>
+  <img src="./dennis.jpg" alt="The cover of The Songs of a Sentimental Bloke." title="The cover of The Songs of a Sentimental Bloke." />
+  <figcaption>Figure 1: The cover of The Songs of a Sentimental Bloke. (Image: Simon Musgrave)</figcaption>
 </figure>
 
 <br>
@@ -33,9 +33,9 @@ In the article, I examine three examples of this type of slang: the language whi
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./betoota.png" alt="The Betoota Advocate masthead." title="The Betoota Advocate masthead." style="margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 2: The Betoota Advocate masthead. (Image: The Betoota Advocate)</figcaption>
+<figure>
+  <img src="./betoota.png" alt="The Betoota Advocate masthead." title="The Betoota Advocate masthead." />
+  <figcaption>Figure 2: The Betoota Advocate masthead. (Image: The Betoota Advocate)</figcaption>
 </figure>
 
 <br>
@@ -46,9 +46,9 @@ The cover of the first Barry Mackenzie book (Figure 3) has words attributed to t
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./mckenzie-book-burl.jpg" alt="The cover of The Wonderful World of Barry McKenzie." title="The cover of The Wonderful World of Barry McKenzie." style="max-height: 400px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 3: The cover of The Wonderful World of Barry McKenzie. (Image: Simon Musgrave)</figcaption>
+<figure>
+  <img src="./mckenzie-book-burl.jpg" alt="The cover of The Wonderful World of Barry McKenzie." title="The cover of The Wonderful World of Barry McKenzie." />
+  <figcaption>Figure 3: The cover of The Wonderful World of Barry McKenzie. (Image: Simon Musgrave)</figcaption>
 </figure>
 
 <br>
@@ -65,9 +65,9 @@ This last word **chunder** is particularly interesting, because its history has 
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./Barry_Humphries.jpg" alt="Barry Humphries" title="Barry Humphries" style="max-height: 600px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 4: Barry Humphries. (Image: Wikimedia)</figcaption>
+<figure>
+  <img src="./Barry_Humphries.jpg" alt="Barry Humphries" title="Barry Humphries" />
+  <figcaption>Figure 4: Barry Humphries. (Image: Wikimedia)</figcaption>
 </figure>
 
 <br>
@@ -104,9 +104,9 @@ It was a lot of fun exploring the language used by these writers; all of them ca
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./DennisWriting.jpg" alt="C.J. Dennis at work." title="C.J. Dennis at work." style="margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 4: C.J. Dennis at work. (Image: Public Domain)</figcaption>
+<figure>
+  <img src="./DennisWriting.jpg" alt="C.J. Dennis at work." title="C.J. Dennis at work." />
+  <figcaption>Figure 4: C.J. Dennis at work. (Image: Public Domain)</figcaption>
 </figure>
 
 </br>

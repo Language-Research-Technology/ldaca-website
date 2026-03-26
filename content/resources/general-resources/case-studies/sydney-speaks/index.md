@@ -18,19 +18,14 @@ Sydney Speaks is a large-scale sociolinguistic project, funded through the <Glos
 
 <br>
 
-##### [The Sydney Speaks Corpora](#corpora)
-
-- [Contemporary linguistic recordings (collected 2015-present): Sydney Speaks 2010s](#2010s)
-- [Legacy linguistic recordings (Collected 1977-1981): Sydney Social Dialect Survey](#1977-1981)
-- [Legacy oral histories (collected 1987-1988): NSW Bicentennial Oral History Collection](#1987-1988)
-
-##### [Data access concerns](#access-concerns)
-
-##### [Combining legacy and contemporary data collections](#combining)
-
-##### [References](#sydney-speaks-references)
-
-##### [Sydney Speaks Corpus and Publications](#corpus)
+- [The Sydney Speaks Corpora](#the-sydney-speaks-corpora)
+  - [Contemporary linguistic recordings (collected 2015-present): Sydney Speaks 2010s](#contemporary-linguistic-recordings-(collected-2015-present)-sydney-speaks-2010s)
+  - [Legacy linguistic recordings (Collected 1977-1981): Sydney Social Dialect Survey](#legacy-linguistic-recordings-(collected-1977-1981)-sydney-social-dialect-survey)
+  - [Legacy oral histories (collected 1987-1988): NSW Bicentennial Oral History Collection](#legacy-oral-histories-(collected-1987-1988)-nsw-bicentennial-oral-history-collection)
+- [Data access concerns](#data-access-concerns)
+- [Combining legacy and contemporary data collections](#combining-legacy-and-contemporary-data-collections)
+- [References](#references)
+- [Sydney Speaks Corpus and Publications](#sydney-speaks-corpus-and-publications)
 
 <br>
 
@@ -51,11 +46,11 @@ In this overview of the process by which different datasets collected for distin
 
 <br>
 
-## The Sydney Speaks corpora {#corpora}
+## The Sydney Speaks corpora
 
 <br>
 
-### Contemporary linguistic recordings (collected 2015-present): Sydney Speaks 2010s {#2010s}
+### Contemporary linguistic recordings (collected 2015-present): Sydney Speaks 2010s
 
 <br>
 
@@ -123,7 +118,7 @@ Participants are told that the data may be shared, with approval from the lead r
 
 <br>
 
-### Legacy linguistic recordings (Collected 1977-1981): Sydney Social Dialect Survey {#1977-1981}
+### Legacy linguistic recordings (Collected 1977-1981): Sydney Social Dialect Survey
 
 Horvath, Barbara. 1985. _Variation in Australian English: The sociolects of Sydney_. Cambridge: Cambridge University Press
 
@@ -182,7 +177,7 @@ Data collection for the Sydney Social Dialect Survey was completed during the 19
 
 <br>
 
-### Legacy oral histories (collected 1987-1988): NSW Bicentennial Oral History Collection {#1987-1988}
+### Legacy oral histories (collected 1987-1988): NSW Bicentennial Oral History Collection
 
 NSW Bicentennial Oral History Project. 1987. NSW Bicentennial oral history collection. Council on the Ageing NSW Branch and NSW Oral History Association of Australia, housed at the National Library of Australia.
 
@@ -235,7 +230,7 @@ Incorporating speech data from <GlossaryLink display="oral history" id="oral-his
 
 <br>
 
-## Data access concerns {#access-concerns}
+## Data access concerns
 
 <br>
 
@@ -265,13 +260,13 @@ Access to the Sydney Speaks <GlossaryLink display="collection" id="collection" /
 
 <br>
 
-## Combining legacy and contemporary data collections {#combining}
+## Combining legacy and contemporary data collections
 
 In the past, language data was often collected without much consideration of the use of that data beyond the specific purpose for which it was collected. Issues such as ethics, data storage, and long-term <GlossaryLink display="data management plans" id="data-management-plan" /> were not of primary concern in the way that they are today, when we are guided by the <GlossaryLink display="FAIR" id="fair" /> principles around Findability, Accessibility, Interoperability, and Re-usability. This does not mean, however, that older language <GlossaryLink display="collections" id="collection" /> (or collections made from other disciplines and for other purposes) cannot be made <GlossaryLink display="FAIR" id="fair" />. The Sydney Speaks project has demonstrated that legacy <GlossaryLink display="corpora" id="corpus" /> can be brought into line with standards appropriate for data in the current digital age. Integrating contemporary and legacy <GlossaryLink display="data collections" id="data-collection" /> in this way allows for an upscaling of our studies in both the size and the scope of the language data we work with, and in so doing can open a treasure trove of knowledge on Australian language, society, culture, and history.
 
 <br>
 
-## References {#sydney-speaks-references}
+## References
 
 Boersma, Frederic, J. and D. Weenink. 2019. Praat: Doing phonetics by computer [Computer Software] (6.1.03 ed.): Retrieved 1 September 2019 from http://www.praat.org/.
 
@@ -283,7 +278,7 @@ Lausberg, Hedda and Han Sloetjes. 2009. Coding gestural behavior with the NEUROG
 
 <br>
 
-## Sydney Speaks Corpus and Publications {#corpus}
+## Sydney Speaks Corpus and Publications
 
 Travis, Catherine E., James Grama, Simon Gonzalez, Benjamin Purser and Cale Johnstone. 2023. _Sydney Speaks Corpus_. ARC Centre of Excellence for the Dynamics of Language, Australian National University. https://dx.doi.org/10.25911/m03c-yz22
 <br />

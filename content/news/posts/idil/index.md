@@ -50,7 +50,10 @@ The International Decade aims to achieve four main outcomes:
 
 <br>
 
-<img src="./idil-logo.png" Alt="International Decade of Indigenous Languages Logo" Desc="International Decade of Indigenous Languages Logo" Title="International Decade of Indigenous Languages Logo" Ref="International Decade of Indigenous Languages Directions Group" Height="400" />
+<figure>
+  <img src="./idil-logo.png" Alt="International Decade of Indigenous Languages Logo" Title="International Decade of Indigenous Languages Logo" Ref="International Decade of Indigenous Languages Directions Group" Height="400" />
+  <figcaption>International Decade of Indigenous Languages Logo</figcaption>
+</figure>
 
 <br>
 
@@ -62,7 +65,10 @@ The Australian Government has partnered with the <GlossaryLink display="IDIL" id
 
 <br>
 
-<img src="./voices-of-country-themes.png" Alt="Voices of Country is guided by five inter-connected themes, represented as a native wattle tree, itself a source of food, medicine and tools, with language, culture and traditional knowledges as its foundation." Desc="Voices of Country is guided by five inter-connected themes, represented as a native wattle tree, itself a source of food, medicine and tools, with language, culture and traditional knowledges as its foundation." Title="Voices of Country is guided by five inter-connected themes, represented as a native wattle tree, itself a source of food, medicine and tools, with language, culture and traditional knowledges as its foundation." Ref="Gilimbaa with cultural elements created by David Williams (Wakka Wakka)" Height="800" />
+<figure>
+  <img src="./voices-of-country-themes.png" Alt="Voices of Country is guided by five inter-connected themes, represented as a native wattle tree, itself a source of food, medicine and tools, with language, culture and traditional knowledges as its foundation." Title="Voices of Country is guided by five inter-connected themes, represented as a native wattle tree, itself a source of food, medicine and tools, with language, culture and traditional knowledges as its foundation." Ref="Gilimbaa with cultural elements created by David Williams (Wakka Wakka)" Height="800" />
+  <figcaption>Voices of Country is guided by five inter-connected themes, represented as a native wattle tree, itself a source of food, medicine and tools, with language, culture and traditional knowledges as its foundation.</figcaption>
+</figure>
 
 <br>
 

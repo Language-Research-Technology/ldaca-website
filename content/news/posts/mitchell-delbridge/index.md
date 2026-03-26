@@ -64,9 +64,9 @@ The data collected helped Mitchell and Delbridge demonstrate that Australian Eng
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./mitchell-delbridge1965.jpg" alt="The Speech of Australian Adolescents: A Survey." title="The Speech of Australian Adolescents: A Survey." style="margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 1: Front cover of Mitchell and Delbridge's 1965 publication, The Speech of Australian Adolescents: A Survey. (Image: Louella Kerr Books)</figcaption>
+<figure>
+  <img src="./mitchell-delbridge1965.jpg" alt="The Speech of Australian Adolescents: A Survey." title="The Speech of Australian Adolescents: A Survey." />
+  <figcaption>Figure 1: Front cover of Mitchell and Delbridge's 1965 publication, The Speech of Australian Adolescents: A Survey. (Image: Louella Kerr Books)</figcaption>
 </figure>
 
 <br>
@@ -77,9 +77,9 @@ The reel-to-reel tapes from the study, as well as accompanying paper documents, 
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./reel-to-reel.png" alt="A Studer reel-to-reel tape player." title="A Studer reel-to-reel tape player." style="max-height: 650px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 2: A Studer reel-to-reel tape player. (Image: Bridey Lea)</figcaption>
+<figure>
+  <img src="./reel-to-reel.png" alt="A Studer reel-to-reel tape player." title="A Studer reel-to-reel tape player." />
+  <figcaption>Figure 2: A Studer reel-to-reel tape player. (Image: Bridey Lea)</figcaption>
 </figure>
 
 <br>

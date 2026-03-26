@@ -14,15 +14,11 @@ layout: doc
 
 <br>
 
-##### [Data and Page Structure](#data-and-page-structure)
-
-##### [Home Page](#home-page) ([Top Menu](#top-menu), [Left Panel](#left-panel), [Main Panel](#main-panel))
-
-##### [Collection Page](#collection-page)
-
-##### [Object Page](#object-page) ([Notebooks](#notebooks))
-
-##### [File Page](#file-page)
+- [Data and Page Structure](#data-and-page-structure)
+- [Home Page](#home-page) ([Top Menu](#top-menu), [Left Panel](#left-panel), [Main Panel](#main-panel))
+- [Collection Page](#collection-page)
+- [Object Page](#object-page) ([Notebooks](#notebooks))
+- [File Page](#file-page)
 
 <br>
 
@@ -46,7 +42,10 @@ There are three main sections of the Home Page in the portal: the top menu bar, 
 
 <br>
 
-<<img src="./homePage_3sections.png" Alt="Home Page: Top Menu, Left Panel and Main Panel sections" Desc="Home Page: Top Menu, Left Panel and Main Panel sections" Title="Home Page: Top Menu, Left Panel and Main Panel sections" Ref="LDaCA" />
+<figure>
+    <img src="./homePage_3sections.png" Alt="Home Page: Top Menu, Left Panel and Main Panel sections" Title="Home Page: Top Menu, Left Panel and Main Panel sections" Ref="LDaCA" />
+    <figcaption>Home Page: Top Menu, Left Panel and Main Panel sections</figcaption>
+</figure>
 
 <br>
 
@@ -54,7 +53,10 @@ There are three main sections of the Home Page in the portal: the top menu bar, 
 
 <br>
 
-<<img src="./top-menu.png" Alt="Home Page: Top Menu" Desc="Home Page: Top Menu" Title="Home Page: Top Menu" Ref="LDaCA" />
+<figure>
+    <img src="./top-menu.png" Alt="Home Page: Top Menu" Title="Home Page: Top Menu" Ref="LDaCA" />
+    <figcaption>Home Page: Top Menu</figcaption>
+</figure>
 
 <br>
 
@@ -73,7 +75,10 @@ The top menu of the home page allows you to access some of the main features of 
 
 <br>
 
-<<img src="./left-panel.png" Alt="Home Page: Left Panel" Desc="Home Page: Left Panel" Title="Home Page: Left Panel" Ref="LDaCA" />
+<figure>
+    <img src="./left-panel.png" Alt="Home Page: Left Panel" Title="Home Page: Left Panel" Ref="LDaCA" />
+    <figcaption>Home Page: Left Panel</figcaption>
+</figure>
 
 <br>
 
@@ -95,7 +100,10 @@ By default, the main panel is displayed in **_List View_**, which shows the resu
 
 <br>
 
-<<img src="./main-panel.png" Alt="Home Page: Main Panel" Desc="Home Page: Main Panel" Title="Home Page: Main Panel" Ref="LDaCA" />
+<figure>
+    <img src="./main-panel.png" Alt="Home Page: Main Panel" Title="Home Page: Main Panel" Ref="LDaCA" />
+    <figcaption>Home Page: Main Panel</figcaption>
+</figure>
 
 <br>
 
@@ -144,7 +152,10 @@ Selecting **_Map View_** from the top row of the main panel will display results
 
 <br>
 
-<<img src="./map-view.png" Alt="Home Page: Map View" Desc="Home Page: Map View" Title="Home Page: Map View" Ref="LDaCA" />
+<figure>
+    <img src="./map-view.png" Alt="Home Page: Map View" Title="Home Page: Map View" Ref="LDaCA" />
+    <figcaption>Home Page: Map View</figcaption>
+</figure>
 
 <br>
 
@@ -160,7 +171,10 @@ Clicking on one of the collections from the main page results will take you to t
 
 <br>
 
-<<img src="./collection-page.png" Alt="Collection Page: Braided Channels Example" Desc="Collection Page: Braided Channels Example" Title="Collection Page: Braided Channels Example" Ref="LDaCA" />
+<figure>
+    <img src="./collection-page.png" Alt="Collection Page: Braided Channels Example" Title="Collection Page: Braided Channels Example" Ref="LDaCA" />
+    <figcaption>Collection Page: Braided Channels Example</figcaption>
+</figure>
 
 <br>
 
@@ -185,7 +199,10 @@ Clicking on one of the objects or files from either the main page results or fro
 
 <br>
 
-<<img src="./object-page.png" Alt="Object Page: A Corpus of Oz Early English Example" Desc="Object Page: A Corpus of Oz Early English Example" Title="Object Page: A Corpus of Oz Early English Example" Ref="LDaCA" />
+<figure>
+    <img src="./object-page.png" Alt="Object Page: A Corpus of Oz Early English Example" Title="Object Page: A Corpus of Oz Early English Example" Ref="LDaCA" />
+    <figcaption>Object Page: A Corpus of Oz Early English Example</figcaption>
+</figure>
 
 <br>
 
@@ -225,7 +242,10 @@ Clicking **_View File_** on one of the files in an Object page will take you the
 
 <br>
 
-<<img src="./file-page.png" Alt="File Page: Braided Channels Example" Desc="File Page: Braided Channels Example" Title="File Page: Braided Channels Example" Ref="LDaCA" />
+<figure>
+    <img src="./file-page.png" Alt="File Page: Braided Channels Example" Title="File Page: Braided Channels Example" Ref="LDaCA" />
+    <figcaption>File Page: Braided Channels Example</figcaption>
+</figure>
 
 <br>
 

@@ -16,15 +16,11 @@ layout: doc
 
 <br>
 
-##### [Open Directory](#ro-crate-creationopen-directory)
-
-##### [Select Mode](#ro-crate-creationselect-mode)
-
-##### [Load Files](#ro-crate-creationload-files)
-
-##### [Add Entity Metadata](#ro-crate-creationadd-entity-metadata)
-
-##### [Save RO-Crate](#ro-crate-creationsave-ro-crate)
+- [Open Directory](#ro-crate-creationopen-directory)
+- [Select Mode](#ro-crate-creationselect-mode)
+- [Load Files](#ro-crate-creationload-files)
+- [Add Entity Metadata](#ro-crate-creationadd-entity-metadata)
+- [Save RO-Crate](#ro-crate-creationsave-ro-crate)
 
 <br>
 

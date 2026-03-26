@@ -18,7 +18,10 @@ Some collections require that you log in either to access, or apply for access, 
 
 <br>
 
-<<img src="./loginBox.png" Alt="Portal Top Menu Options" Desc="Portal Top Menu Options" Title="Portal Top Menu Options" Ref="LDaCA" />
+<figure>
+    <img src="./loginBox.png" Alt="Portal Top Menu Options" Title="Portal Top Menu Options" Ref="LDaCA" />
+    <figcaption>Portal Top Menu Options</figcaption>
+</figure>
 
 <br>
 
@@ -26,7 +29,10 @@ You will be taken to the _LDaCAData_ login page. Select ___Sign in with CILogon_
 
 <br>
 
-<<img src="./LDaCALogon.png" Alt="LDaCA Logon" Desc="LDaCA Logon" Title="LDaCA Logon" Ref="LDaCA" />
+<figure>
+    <img src="./LDaCALogon.png" Alt="LDaCA Logon" Title="LDaCA Logon" Ref="LDaCA" />
+    <figcaption>LDaCA Logon</figcaption>
+</figure>
 
 <br>
 
@@ -42,7 +48,10 @@ For further details about CILogon and the identity providers it supports, see [C
 
 <br>
 
-<<img src="./CILogon.png" Alt="CILogon" Desc="CILogon" Title="CILogon" Ref="LDaCA" />
+<figure>
+    <img src="./CILogon.png" Alt="CILogon" Title="CILogon" Ref="LDaCA" />
+    <figcaption>CILogon</figcaption>
+</figure>
 
 <br>
 
@@ -50,7 +59,10 @@ First select your preferred identity provider in the dropdown before clicking __
 
 <br>
 
-<<img src="./CILogon_IdentityProvider.png" Alt="CILogon: Select an Identity Provider" Desc="CILogon: Select an Identity Provider" Title="CILogon: Select an Identity Provider" Ref="LDaCA" />
+<figure>
+    <img src="./CILogon_IdentityProvider.png" Alt="CILogon: Select an Identity Provider" Title="CILogon: Select an Identity Provider" Ref="LDaCA" />
+    <figcaption>CILogon: Select an Identity Provider</figcaption>
+</figure>
 
 <br>
 
@@ -58,7 +70,10 @@ Once your login is successful, you will be redirected back to the portal page an
 
 <br>
 
-<<img src="./Login-AcctName-DropDown.png" Alt="Portal: Logged In View" Desc="Portal: Logged In View" Title="Portal: Logged In View" Ref="LDaCA" />
+<figure>
+    <img src="./Login-AcctName-DropDown.png" Alt="Portal: Logged In View" Title="Portal: Logged In View" Ref="LDaCA" />
+    <figcaption>Portal: Logged In View</figcaption>
+</figure>
 
 <br>
 

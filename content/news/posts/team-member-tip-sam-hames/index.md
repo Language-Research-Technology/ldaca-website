@@ -24,9 +24,9 @@ We can see an example of this with [item 1-009](https://data.ldaca.edu.au/object
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./sam-hames-summer-school-2025.jpg" alt="A photograph of a man gesturing to a smart board" title="Sam delivering a workshop at ARDC's HASS and Indigenous Research Data Commons Summer School in February 2025." style="margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Sam delivering a workshop at ARDC's HASS and Indigenous Research Data Commons Summer School in February 2025. (Image: Marc Grimwade, courtesy of ARDC)</figcaption>
+<figure>
+  <img src="./sam-hames-summer-school-2025.jpg" alt="A photograph of a man gesturing to a smart board" title="Sam delivering a workshop at ARDC's HASS and Indigenous Research Data Commons Summer School in February 2025." />
+  <figcaption>Sam delivering a workshop at ARDC's HASS and Indigenous Research Data Commons Summer School in February 2025. (Image: Marc Grimwade, courtesy of ARDC)</figcaption>
 </figure>
 
 <br>

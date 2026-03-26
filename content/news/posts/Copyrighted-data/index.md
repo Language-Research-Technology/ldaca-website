@@ -10,9 +10,9 @@ author: Monika Bednarek
 
 by <Profile id="Bednarek" />
 
-<figure style="text-align: center;">
-  <img src="./Shewontberightmate.png" alt="Composite image of a copyright symbol and article from The Advertiser newspaper" title="Composite image of a copyright symbol and article from The Advertiser newspaper" style="max-height: 300px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Composite image of a copyright symbol and article from The Advertiser newspaper. (Image: Simon Musgrave)</figcaption>
+<figure>
+  <img src="./Shewontberightmate.png" alt="Composite image of a copyright symbol and article from The Advertiser newspaper" title="Composite image of a copyright symbol and article from The Advertiser newspaper" />
+  <figcaption>Composite image of a copyright symbol and article from The Advertiser newspaper. (Image: Simon Musgrave)</figcaption>
 </figure>
 
 <br>

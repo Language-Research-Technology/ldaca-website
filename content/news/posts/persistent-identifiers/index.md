@@ -60,9 +60,9 @@ Here’s an example of a DOI for a <GlossaryLink display="collection" id="collec
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./PIDs_Fig_1_collection_record.png" alt="LDaCA Portal Collection Record" title="LDaCA Portal Collection Record" style="max-height: 600px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 1: The collection record for the La Trobe Corpus of Spoken Australian English in the LDaCA data portal. (Image: LDaCA)</figcaption>
+<figure>
+  <img src="./PIDs_Fig_1_collection_record.png" alt="LDaCA Portal Collection Record" title="LDaCA Portal Collection Record" />
+  <figcaption>Figure 1: The collection record for the La Trobe Corpus of Spoken Australian English in the LDaCA data portal. (Image: LDaCA)</figcaption>
 </figure>
 
 <br>
@@ -71,17 +71,17 @@ Here’s an example of a DOI for a <GlossaryLink display="collection" id="collec
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./PIDs_Fig_2_.png" alt="Top of Repository Page" title="Top of Repository Page" style="margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 2: Top part of page in La Trobe University's repository showing files in collection. (Image: LDaCA)</figcaption>
+<figure>
+  <img src="./PIDs_Fig_2_.png" alt="Top of Repository Page" title="Top of Repository Page" />
+  <figcaption>Figure 2: Top part of page in La Trobe University's repository showing files in collection. (Image: LDaCA)</figcaption>
 </figure>
 
 <br>
 <br>
 
-<figure style="text-align: center;">
-  <img src="./PIDs_Fig_3_.png" alt="Bottom of Repository Page" title="Bottom of Repository Page" style="max-height: 600px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 3: Bottom part of page in La Trobe University's repository showing collection details. (Image: LDaCA)</figcaption>
+<figure>
+  <img src="./PIDs_Fig_3_.png" alt="Bottom of Repository Page" title="Bottom of Repository Page" />
+  <figcaption>Figure 3: Bottom part of page in La Trobe University's repository showing collection details. (Image: LDaCA)</figcaption>
 </figure>
 
 <br>
@@ -90,9 +90,9 @@ Here’s an example of a DOI for a <GlossaryLink display="collection" id="collec
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./PIDs_Fig_4_citation.png" alt="Full DOI link" title="Full DOI link" style="margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 4: Full DOI link displayed under citation on repository page. (Image: LDaCA)</figcaption>
+<figure>
+  <img src="./PIDs_Fig_4_citation.png" alt="Full DOI link" title="Full DOI link" />
+  <figcaption>Figure 4: Full DOI link displayed under citation on repository page. (Image: LDaCA)</figcaption>
 </figure>
 
 <br>
@@ -117,9 +117,9 @@ Below is a screenshot of a section of the DOI landing page for the _La Trobe Cor
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./PIDs_Fig_5_annotated_record.png" alt="Annotated DOI Landing Page" title="Annotated DOI Landing Page" style="max-height: 600px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 5: Annotated screenshot of DOI landing page for the La Trobe Corpus of Spoken Australian English with key information highlighted. (Image: LDaCA)</figcaption>
+<figure>
+  <img src="./PIDs_Fig_5_annotated_record.png" alt="Annotated DOI Landing Page" title="Annotated DOI Landing Page" />
+  <figcaption>Figure 5: Annotated screenshot of DOI landing page for the La Trobe Corpus of Spoken Australian English with key information highlighted. (Image: LDaCA)</figcaption>
 </figure>
 
 <br>

@@ -36,7 +36,10 @@ The Alveo virtual laboratory still exists, in principle, but has not been regula
 
 <br />
 
-<img src="./Frequency.png" alt="Screenshot of the Australian National Corpus interface showing results of a frequency search." Desc="Figure 1: Results of a frequency search in the Australian National Corpus interface." Title="Results of a frequency search in the Australian National Corpus interface." ref="LDaCA" height="500" />
+<figure>
+    <img src="./Frequency.png" alt="Screenshot of the Australian National Corpus interface showing results of a frequency search." Title="Results of a frequency search in the Australian National Corpus interface." ref="LDaCA" height="500" />
+    <figcaption>Figure 1: Results of a frequency search in the Australian National Corpus interface.</figcaption>
+</figure>
 
 <br>
 
@@ -100,7 +103,10 @@ Opportunistic <GlossaryLink display="data collection" id="data-collection" /> is
 
 <br>
 
-<img src="./AusNC-logo.jpg" alt="The Australian National Corpus logo." desc="Figure 2: The Australian National Corpus logo." title="The Australian National Corpus logo." ref="LDaCA" />
+<figure>
+    <img src="./AusNC-logo.jpg" alt="The Australian National Corpus logo." ref="LDaCA" />
+    <figcaption>Figure 2: The Australian National Corpus logo." title="The Australian National Corpus logo.</figcaption>
+</figure>
 
 <br>
 

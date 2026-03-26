@@ -55,9 +55,9 @@ An RO-Crate folder can also contain an HTML preview file. This file allows you t
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./html-preview.png" alt="An RO-Crate HTML preview file created with browser-based editor Crate-O." title="An RO-Crate HTML preview file created with browser-based editor Crate-O." style="max-height: 600px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">An RO-Crate HTML preview file created with browser-based editor Crate-O. (Image: Bridey Lea)</figcaption>
+<figure>
+  <img src="./html-preview.png" alt="An RO-Crate HTML preview file created with browser-based editor Crate-O." title="An RO-Crate HTML preview file created with browser-based editor Crate-O." />
+  <figcaption>An RO-Crate HTML preview file created with browser-based editor Crate-O. (Image: Bridey Lea)</figcaption>
 </figure>
 
 <br>
@@ -107,9 +107,9 @@ When data and its metadata and licensing aren't stored together, they can get se
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./json-file.png" alt="Inside an RO-Crate metadata file, in JSON-LD format." title="Inside an RO-Crate metadata file, in JSON-LD format. The file also includes a link to a license." style="max-height: 600px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Inside an RO-Crate metadata file, in JSON-LD format. The file also includes a link to a license. (Image: Bridey Lea)</figcaption>
+<figure>
+  <img src="./json-file.png" alt="Inside an RO-Crate metadata file, in JSON-LD format." title="Inside an RO-Crate metadata file, in JSON-LD format. The file also includes a link to a license." />
+  <figcaption>Inside an RO-Crate metadata file, in JSON-LD format. The file also includes a link to a license. (Image: Bridey Lea)</figcaption>
 </figure>
 
 <br>
@@ -126,9 +126,9 @@ RO-Crate uses [Schema.org](http://schema.org) as its foundation for metadata des
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./schema.org-terms.png" alt="Schema.org metadata terms, including Conditions of Access and Copyright Holder." title="Schema.org metadata terms." style="margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Schema.org metadata terms. (Image: Bridey Lea)</figcaption>
+<figure>
+  <img src="./schema.org-terms.png" alt="Schema.org metadata terms, including Conditions of Access and Copyright Holder." title="Schema.org metadata terms." />
+  <figcaption>Schema.org metadata terms. (Image: Bridey Lea)</figcaption>
 </figure>
 
 <br>
@@ -141,9 +141,9 @@ RO-Crate uses <GlossaryLink display="standards" id="standard" /> that are suppor
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./crate-o.png" alt="Browser-based editor Crate-O with the Kaytetyemoji crate loaded." title="Crate-O is an online editor that allows you to build and edit RO-Crates." style="max-height: 600px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Crate-O is an online editor that allows you to build and edit RO-Crates. (Image: Bridey Lea)</figcaption>
+<figure>
+  <img src="./crate-o.png" alt="Browser-based editor Crate-O with the Kaytetyemoji crate loaded." title="Crate-O is an online editor that allows you to build and edit RO-Crates." />
+  <figcaption>Crate-O is an online editor that allows you to build and edit RO-Crates. (Image: Bridey Lea)</figcaption>
 </figure>
 
 <br>

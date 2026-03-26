@@ -34,9 +34,9 @@ In addition to AROCAPI,  promising discussions are taking place with one of our 
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./pt-garage.png" alt="Piles of boxes in a garage" title="Figure 1: An unstaged photo of PT Sefton's garage, including a box labelled 'hard drives'." style="max-height: 600px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 1: An unstaged photo of PT Sefton's garage, including a box labelled 'hard drives'. (Image: PT Sefton)</figcaption>
+<figure>
+  <img src="./pt-garage.png" alt="Piles of boxes in a garage" title="Figure 1: An unstaged photo of PT Sefton's garage, including a box labelled 'hard drives'."/>
+  <figcaption>Figure 1: An unstaged photo of PT Sefton's garage, including a box labelled 'hard drives'. (Image: PT Sefton)</figcaption>
 </figure>
 
 <br>
@@ -122,11 +122,9 @@ We have worked to define a metadata schema ([the Language Data Commons (LDAC) sc
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./pilars-implementations-2024.png" alt="A diagram." title="Figure 2: PILARS implementations – mid-2024." style="max-height: 400px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; font-weight: bold; margin-top: 0.5rem;">
-    Figure 2: PILARS implementations – mid-2024.
-  </figcaption>
+<figure>
+  <img src="./pilars-implementations-2024.png" alt="A diagram." title="Figure 2: PILARS implementations – mid-2024." />
+  <figcaption>Figure 2: PILARS implementations – mid-2024.</figcaption>
 </figure>
 
 <br>
@@ -138,11 +136,9 @@ The diagram above attempts to demonstrate how the PILARS principles have been im
 ## Future directions
 
 
-<figure style="text-align: center;">
-  <img src="./pilars-implementations-2026.png" alt="A diagram." title="Figure 3: PILARS implementations – mid-2026?" style="max-height: 400px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; font-weight: bold; margin-top: 0.5rem;">
-    Figure 3: PILARS implementations – mid-2026?
-  </figcaption>
+<figure>
+  <img src="./pilars-implementations-2026.png" alt="A diagram." title="Figure 3: PILARS implementations – mid-2026?" />
+  <figcaption>Figure 3: PILARS implementations – mid-2026?</figcaption>
 </figure>
 
 

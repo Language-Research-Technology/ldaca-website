@@ -10,28 +10,13 @@ layout: doc
 
 <br>
 
-##### [Purpose](#purpose)
-##### [Onboarding Process](#onboarding-process)
-- [Purpose](#purpose-1)
-- [Onboarding Process](#onboarding-process-1)
+- [Purpose](#purpose)
+- [Onboarding Process](#onboarding-process)
   - [1. Initiating contact between LDaCA and Data Stewards](#1-initiating-contact-between-ldaca-and-data-stewards)
-    - [LDaCA will:](#ldaca-will)
-    - [Additional resources relevant to this step:](#additional-resources-relevant-to-this-step)
   - [2. Work Plan](#2-work-plan)
-    - [LDaCA will:](#ldaca-will-1)
-    - [Data Steward will:](#data-steward-will)
-    - [Additional resources relevant to this step:](#additional-resources-relevant-to-this-step-1)
   - [3. Determining appropriate governance and access conditions](#3-determining-appropriate-governance-and-access-conditions)
-    - [LDaCA will:](#ldaca-will-2)
-    - [Data Steward will:](#data-steward-will-1)
-    - [Additional resources relevant to this step:](#additional-resources-relevant-to-this-step-2)
   - [4. Preparing data for cataloguing in LDaCA](#4-preparing-data-for-cataloguing-in-ldaca)
-    - [LDaCA will:](#ldaca-will-3)
-    - [Data Steward will:](#data-steward-will-2)
-    - [Additional resources relevant to this step:](#additional-resources-relevant-to-this-step-3)
   - [5. Ongoing engagement](#5-ongoing-engagement)
-    - [LDaCA will:](#ldaca-will-4)
-    - [Data Steward will:](#data-steward-will-3)
 
 <br>
 
@@ -41,7 +26,10 @@ This document outlines the standards and processes that support the onboarding o
 
  <br>
 
-<img src="./DataManagement&GovernanceCapacity.jpg" Alt="Data Management and Governance Capacity" Desc="Data Management and Governance Capacity" Title="Data Management and Governance Capacity" Ref="LDaCA" />
+<figure>
+  <img src="./DataManagement&GovernanceCapacity.jpg" Alt="Data Management and Governance Capacity" Title="Data Management and Governance Capacity" Ref="LDaCA" />
+  <figcaption>Data Management and Governance Capacity</figcaption>
+</figure>
 
 <br>
 

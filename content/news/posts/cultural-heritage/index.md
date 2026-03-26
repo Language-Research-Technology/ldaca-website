@@ -49,9 +49,9 @@ Over the years, I have tried to make the data management and archiving processes
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./fig_1_overview_page.png" alt="PARADISEC's Archiving Guides and Technical Workflows Overview Page" title="PARADISEC's Archiving Guides and Technical Workflows Overview Page" style="max-height: 600px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 1: Screenshot of the overview page of PARADISEC's Archiving Guides and Technical Workflows website. (Image: Dr Julia Colleen Miller)</figcaption>
+<figure>
+  <img src="./fig_1_overview_page.png" alt="PARADISEC's Archiving Guides and Technical Workflows Overview Page" title="PARADISEC's Archiving Guides and Technical Workflows Overview Page" />
+  <figcaption>Figure 1: Screenshot of the overview page of PARADISEC's Archiving Guides and Technical Workflows website. (Image: Dr Julia Colleen Miller)</figcaption>
 </figure>
 
 <br>
@@ -83,9 +83,9 @@ Some of the digitising tasks we conducted during this time for CoEDL researchers
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./fig_2_studer_player.png" alt="Studer Reel-to-Reel Tape Player" title="Studer Reel-to-Reel Tape Player" style="max-height: 400px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 2: Studer reel-to-reel tape player, with a tape threaded and ready to digitise. (Image: Dr Julia Colleen Miller)</figcaption>
+<figure>
+  <img src="./fig_2_studer_player.png" alt="Studer Reel-to-Reel Tape Player" title="Studer Reel-to-Reel Tape Player" />
+  <figcaption>Figure 2: Studer reel-to-reel tape player, with a tape threaded and ready to digitise. (Image: Dr Julia Colleen Miller)</figcaption>
 </figure>
 
 <br>
@@ -94,9 +94,9 @@ Some of the digitising tasks we conducted during this time for CoEDL researchers
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./fig_3_tapes_boxes.png" alt="Tapes, Tape Boxes and Sheets of Paper" title="Tapes, Tape Boxes and Sheets of Paper" style="margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 3: Collection of images of reel-to-reel tapes, tape boxes and loose sheets of paper, all containing important written metadata about the contents of the tapes. (Image: Haoyi Li)</figcaption>
+<figure>
+  <img src="./fig_3_tapes_boxes.png" alt="Tapes, Tape Boxes and Sheets of Paper" title="Tapes, Tape Boxes and Sheets of Paper" />
+  <figcaption>Figure 3: Collection of images of reel-to-reel tapes, tape boxes and loose sheets of paper, all containing important written metadata about the contents of the tapes. (Image: Haoyi Li)</figcaption>
 </figure>
 
 <br>
@@ -105,9 +105,9 @@ Some of the digitising tasks we conducted during this time for CoEDL researchers
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./fig_4_digitising_notebook.png" alt="Digitisation of Field Notebook" title="Digitisation of Field Notebook" style="max-height: 500px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 4: Digitising a field notebook with a DSLR camera mounted to an overhead shelf (out of shot). The camera is tethered to a laptop for remote capture. (Image: Dr Julia Colleen Miller)</figcaption>
+<figure>
+  <img src="./fig_4_digitising_notebook.png" alt="Digitisation of Field Notebook" title="Digitisation of Field Notebook" />
+  <figcaption>Figure 4: Digitising a field notebook with a DSLR camera mounted to an overhead shelf (out of shot). The camera is tethered to a laptop for remote capture. (Image: Dr Julia Colleen Miller)</figcaption>
 </figure>
 
 <br>
@@ -141,9 +141,9 @@ Below is an image of an inventory spreadsheet containing the structural <Glossar
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./fig_5_metadata_spreadsheet.png" alt="Metadata Spreadsheet for LRW1 Collection in PARADISEC" title="Metadata Spreadsheet for LRW1 Collection in PARADISEC" style="max-height: 500px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 5: Screenshot of spreadsheet of structural metadata of audio and video files from the LRW1 collection in PARADISEC. This file and metadata inventory informed the transcoding workflows and quality-checking processes prior to archiving. (Image: Dr Julia Colleen Miller)</figcaption>
+<figure>
+  <img src="./fig_5_metadata_spreadsheet.png" alt="Metadata Spreadsheet for LRW1 Collection in PARADISEC" title="Metadata Spreadsheet for LRW1 Collection in PARADISEC" />
+  <figcaption>Figure 5: Screenshot of spreadsheet of structural metadata of audio and video files from the LRW1 collection in PARADISEC. This file and metadata inventory informed the transcoding workflows and quality-checking processes prior to archiving. (Image: Dr Julia Colleen Miller)</figcaption>
 </figure>
 
 <br>
@@ -160,9 +160,9 @@ Over the life of CoEDL, we monitored the annual growth of files added to PARADIS
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./fig_6_graph_files.png" alt="Graph of File Numbers in PARADISEC from 2008 to 2022" title="Graph of File Numbers in PARADISEC from 2008 to 2022" style="max-height: 400px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 6: Line graph showing the growth of the number of files held in the PARADISEC archive between the years 2008 and 2022. (Image: Dr Julia Colleen Miller)</figcaption>
+<figure>
+  <img src="./fig_6_graph_files.png" alt="Graph of File Numbers in PARADISEC from 2008 to 2022" title="Graph of File Numbers in PARADISEC from 2008 to 2022" />
+  <figcaption>Figure 6: Line graph showing the growth of the number of files held in the PARADISEC archive between the years 2008 and 2022. (Image: Dr Julia Colleen Miller)</figcaption>
 </figure>
 
 <br>
@@ -195,9 +195,9 @@ PARADISEC and CoEDL secured funding to digitise 26 audio tapes from this collect
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./fig_7_tape_threading.png" alt="Threading of Helen Groger-Wurm Tape for Digitisation" title="Threading of Helen Groger-Wurm Tape for Digitisation" style="max-height: 400px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 7: Haoyi Li threading a Helen Groger-Wurm reel-to-reel tape for digitisation on the Revox C 270 tape player. (Image: Dr Julia Colleen Miller)</figcaption>
+<figure>
+  <img src="./fig_7_tape_threading.png" alt="Threading of Helen Groger-Wurm Tape for Digitisation" title="Threading of Helen Groger-Wurm Tape for Digitisation" />
+  <figcaption>Figure 7: Haoyi Li threading a Helen Groger-Wurm reel-to-reel tape for digitisation on the Revox C 270 tape player. (Image: Dr Julia Colleen Miller)</figcaption>
 </figure>
 
 <br>
@@ -206,9 +206,9 @@ The images below are from a tape digitised by Haoyi Li from the Helen Groger-Wur
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./fig_8_digitised_tape.png" alt="Digitised Helen Groger-Wurm Tape" title="Digitised Helen Groger-Wurm Tape" style="max-height: 400px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 8: Images of a Helen Groger-Wurm tape digitised by Haoyi Li. (Image: Dr Julia Colleen Miller)</figcaption>
+<figure>
+  <img src="./fig_8_digitised_tape.png" alt="Digitised Helen Groger-Wurm Tape" title="Digitised Helen Groger-Wurm Tape" />
+  <figcaption>Figure 8: Images of a Helen Groger-Wurm tape digitised by Haoyi Li. (Image: Dr Julia Colleen Miller)</figcaption>
 </figure>
 
 <br>
@@ -223,9 +223,9 @@ Below is an image of a Capell disc being digitised by the <GlossaryLink display=
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./fig_9_capell_disc.png" alt="Arthur Capell Acetate Disk at NFSA" title="Arthur Capell Acetate Disk at NFSA" style="max-height: 400px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 9: One of Arthur Capell's acetate discs being digitised at the National Film and Sound Archive (NFSA). (Image: Gerry O'Neill)</figcaption>
+<figure>
+  <img src="./fig_9_capell_disc.png" alt="Arthur Capell Acetate Disk at NFSA" title="Arthur Capell Acetate Disk at NFSA" />
+  <figcaption>Figure 9: One of Arthur Capell's acetate discs being digitised at the National Film and Sound Archive (NFSA). (Image: Gerry O'Neill)</figcaption>
 </figure>
 
 <br>
@@ -234,9 +234,9 @@ The next image is of the magnetic [wire recording](https://en.wikipedia.org/wiki
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./fig_10_capell_recording.png" alt="Arthur Capell Magnetic Wire Recording" title="Arthur Capell Magnetic Wire Recording" style="max-height: 300px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 10: Magnetic wire audio recording from the Arthur Capell collection. (Image: Dr Julia Colleen Miller)</figcaption>
+<figure>
+  <img src="./fig_10_capell_recording.png" alt="Arthur Capell Magnetic Wire Recording" title="Arthur Capell Magnetic Wire Recording" />
+  <figcaption>Figure 10: Magnetic wire audio recording from the Arthur Capell collection. (Image: Dr Julia Colleen Miller)</figcaption>
 </figure>
 
 <br>
@@ -261,9 +261,9 @@ Below are images of transcriptions in the <GlossaryLink display="ELAN" id="elan"
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./fig_11_elan_transcriptions.png" alt="Tok Pisin Transcriptions in ELAN" title="Tok Pisin Transcriptions in ELAN" style="max-height: 400px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 11: Screenshots of the ELAN software showing an orthographic time-aligned transcription of Tok Pisin (left) and a phonemic transcription of the same recording (right). (Image: Dr Julia Colleen Miller)</figcaption>
+<figure>
+  <img src="./fig_11_elan_transcriptions.png" alt="Tok Pisin Transcriptions in ELAN" title="Tok Pisin Transcriptions in ELAN" />
+  <figcaption>Figure 11: Screenshots of the ELAN software showing an orthographic time-aligned transcription of Tok Pisin (left) and a phonemic transcription of the same recording (right). (Image: Dr Julia Colleen Miller)</figcaption>
 </figure>
 
 <br>
@@ -289,9 +289,9 @@ Another significant project involved the secure storage of audio-visual material
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./fig_12_mimi_boxes.png" alt="Mimi Arts & Crafts Shipping Boxes" title="Mimi Arts & Crafts Shipping Boxes" style="max-height: 400px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 12: Shipping boxes from Mimi Arts & Crafts, formerly Diwurruwurru-jaru (Katherine Regional Aboriginal Language Centre), stored at the ANU awaiting comprehensive inventory. Each of these 42 boxes contained two file boxes. (Image: Dr Julia Colleen Miller)</figcaption>
+<figure>
+  <img src="./fig_12_mimi_boxes.png" alt="Mimi Arts & Crafts Shipping Boxes" title="Mimi Arts & Crafts Shipping Boxes" />
+  <figcaption>Figure 12: Shipping boxes from Mimi Arts & Crafts, formerly Diwurruwurru-jaru (Katherine Regional Aboriginal Language Centre), stored at the ANU awaiting comprehensive inventory. Each of these 42 boxes contained two file boxes. (Image: Dr Julia Colleen Miller)</figcaption>
 </figure>
 
 <br>
@@ -300,9 +300,9 @@ Each box contained two smaller boxes with language-learning materials and cultur
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./fig_13_boxes_content.png" alt="Contents of Six File Boxes" title="Contents of Six File Boxes" style="max-height: 600px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 13: Six file boxes showing the diversity of contents, such as audio tapes, VHS and U-Matic tapes and written language-learning materials. (Image: Dr Julia Colleen Miller)</figcaption>
+<figure>
+  <img src="./fig_13_boxes_content.png" alt="Contents of Six File Boxes" title="Contents of Six File Boxes"/>
+  <figcaption>Figure 13: Six file boxes showing the diversity of contents, such as audio tapes, VHS and U-Matic tapes and written language-learning materials. (Image: Dr Julia Colleen Miller)</figcaption>
 </figure>
 
 <br>
@@ -335,9 +335,9 @@ During ANU's COVID-19 lockdown, I designed a 10-week online training module to a
 
 <br>
 
-<figure style="text-align: center;">
-  <img src="./fig_14_hercus_manuscripts.png" alt="Image Capture of Luise Hercus Manuscripts" title="Image Capture of Luise Hercus Manuscripts" style="max-height: 500px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">Figure 14: PhB student, Daniel Majchrzak, using a shelf-mounted digital camera for high-resolution image capture of the manuscripts of Luise Hercus. (Image: Dr Julia Colleen Miller)</figcaption>
+<figure>
+  <img src="./fig_14_hercus_manuscripts.png" alt="Image Capture of Luise Hercus Manuscripts" title="Image Capture of Luise Hercus Manuscripts" />
+  <figcaption>Figure 14: PhB student, Daniel Majchrzak, using a shelf-mounted digital camera for high-resolution image capture of the manuscripts of Luise Hercus. (Image: Dr Julia Colleen Miller)</figcaption>
 </figure>
 
 <br>

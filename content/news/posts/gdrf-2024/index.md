@@ -48,9 +48,9 @@ Quy is studying errors in the spoken language produced by students learning Engl
 
 > The GDRF program provided me with a unique opportunity to sharpen my coding and critical thinking skills. I gained valuable experience in applying a range of Python packages and large language models to analyse pausing behaviors in a large spoken learner corpus, while being aware of their critical limitations. On a personal level, I also had a chance to meet with an amazing group of bright and talented researchers from diverse fields. We engaged in insightful discussions on various topics such as citation practices, research ethics and project management. I highly recommend this program to anyone considering it.
 
-<figure style="text-align: center;">
-  <img src="./gdrf-2024.jpg" alt="Participants in the 2024 Graduate Digital Research Fellowship program" title="From left: Quy, Sam, Lu, Simon and David" style="max-height: 600px; margin-left: auto; margin-right: auto; display: block;" />
-  <figcaption style="font-style: italic; margin-top: 0.5rem;">From left: Quy, Sam, Lu, Simon and David. (Image: Simon Musgrave)</figcaption>
+<figure>
+  <img src="./gdrf-2024.jpg" alt="Participants in the 2024 Graduate Digital Research Fellowship program" title="From left: Quy, Sam, Lu, Simon and David" />
+  <figcaption>From left: Quy, Sam, Lu, Simon and David. (Image: Simon Musgrave)</figcaption>
 </figure>
 <br>
 
