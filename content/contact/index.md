@@ -1,7 +1,9 @@
 ---
 title: "Contact Us"
+description: "Get in touch with LDaCA and get involved in our activities."
 date: 2022-10-28T17:13:28+10:00
 draft: false
+layout: doc
 ---
 
 <br>

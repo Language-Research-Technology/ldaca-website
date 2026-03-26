@@ -3,9 +3,11 @@ layout: home
 title: "License, Share & Govern"
 ---
 
-<SimpleHero breadcrumb="Working with Data > License, Share & Govern" title="License, Share & Govern Data" description="License, share & govern description goes here."/>
+<SimpleHero breadcrumb="Working with Data > License, Share & Govern" title="License, Share & Govern Data" description="Guidance for licensing, sharing and governing data in alignment with FAIR and CARE principles."/>
 
 <SimpleNavigation
+  title="Caring for and sharing collections ethically"
+  description="Language data is always connected to people. We have a responsibility to govern and share language collections in ways that respect the rights of the people represented in the data. Data licensing is a way of describing who can access the data and how it can be used, allowing you to share it responsibly.<br>Find guides and examples for creating a data license, support for sharing data with appropriate access controls and insights for applying Indigenous Data Governance over the life of your collection."
   :contents="[
     { label: 'Guides', href: '#guides' },
     { label: 'On the blog', href: '#on-the-blog' },
@@ -21,7 +23,6 @@ title: "License, Share & Govern"
       {
         title: 'Determining Access Conditions',
         link: '/resources/ldaca-resources/determining-access-conditions',
-        image: '/resources/ldaca-resources/determining-access-conditions/AccessConditions_Flow1.jpg'
       },
       {
         title: 'Obtaining a DOI',

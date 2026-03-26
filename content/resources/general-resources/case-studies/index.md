@@ -3,7 +3,7 @@ layout: home
 title: "Case Studies"
 ---
 
-<SimpleHero breadcrumb='Projects & Case Studies > Case Studies' title='Case Studies' description='Accounts by collectors of various kinds of language data illustrating the different solutions they have adopted for the problems encountered in the process.'/>
+<SimpleHero breadcrumb='Projects & Case Studies > Case Studies' title='Case Studies' description='In-depth case studies using our tools, resources and approaches to solve data challenges.<br>Dive into the decision-making processes of language data projects and gain real-life insight into the realities of working with language data.'/>
 
 <Carousel 
   backgroundColor="#EAE4D68C"

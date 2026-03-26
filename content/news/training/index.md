@@ -3,14 +3,14 @@ layout: home
 title: "Training"
 ---
 
-<SimpleHero breadcrumb='Training & Events > Training' title="Training" description="Training description goes here."/>
+<SimpleHero breadcrumb='Training & Events > Training' title="Training" description="Discover upcoming training events, and learn from online tutorials and training videos."/>
 
-<Carousel 
+<!-- <Carousel 
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="FUTURE TRAINING EVENTS"
   :items="[
-    ]"/>
+    ]"/> -->
 
 <Carousel 
   backgroundColor="#EAE4D68C"
@@ -20,7 +20,7 @@ title: "Training"
       {
         title: 'LADAL Tutorials',
         description: 'Contains all tutorials provided by LADAL, organised in seven sections.',
-        image: 'https://ladal.edu.au/images/LadalGrey.png',
+        image: '/images/partner-logos/ladal_logo.png',
         link: 'https://ladal.edu.au/tutorials.html'
       },
     ]"/>

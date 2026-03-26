@@ -3,9 +3,11 @@ layout: home
 title: "Process & Analyse"
 ---
 
-<SimpleHero breadcrumb="Working with Data > Process & Analyse" title="Process & Analyse Data" description="Process & analyse description goes here."/>
+<SimpleHero breadcrumb="Working with Data > Process & Analyse" title="Process & Analyse Data" description="Hands-on tutorials and tools for processing and analysing large collections of language data."/>
 
 <SimpleNavigation
+title="Analysing language data at scale"
+description="Being able to analyse large amounts of language data opens up vast possibilities for researchers across disciplines. Language data may also need to be cleaned and processed in other ways to suit your research purposes. We are making tools for text analysis available, alongside the Language Technology and Data Analysis Laboratory (LADAL).<br>Test out tools for processing and analysing data, and access analysis and reuse training and tutorials for a diverse range of skill levels."
 :contents="[
     { label: 'Tools & notebooks', href: '#tools-notebooks' },
     { label: 'Guides', href: '#guides' },
@@ -27,19 +29,19 @@ title: "Process & Analyse"
         image: 'https://nyingarn.net/wp-content/uploads/2023/04/Nyingarn_Vertical_Peppermint_RGB-1024x1024.png',
         link: 'https://nyingarn.net/'
       },
-      {
-        title: 'Tools from USyd/SIH/ATAP/Sydney Corpus Lab',
-        link: ''
-      },
-      {
-        title: 'Tools from LADAL',
-        image: 'https://ladal.edu.au/images/LadalGrey.png',
-        link: ''
-      },
+      // {
+      //   title: 'Tools from USyd/SIH/ATAP/Sydney Corpus Lab',
+      //   link: ''
+      // },
+      // {
+      //   title: 'Tools from LADAL',
+      //   image: '/images/partner-logos/ladal_logo.png',
+      //   link: ''
+      // },
       {
         title: 'Collection-specific Jupyter notebooks',
         image: 'https://jupyter.org/assets/homepage/main-logo.svg',
-        link: ''
+        link: 'https://data.ldaca.edu.au/search?f=%257B%2522encodingFormat.%2540value%2522%253A%255B%2522application%252Fx-ipynb%252Bjson%2522%255D%257D'
       },
     ]"/>
 
@@ -51,7 +53,6 @@ title: "Process & Analyse"
   :items="[
       {
         title: 'Introduction to Text Analysis',
-        description: 'TODO',
         link: 'https://www.atap.edu.au/text-analysis/overview/'
       },
       {
@@ -62,7 +63,7 @@ title: "Process & Analyse"
       {
         title: 'LADAL Tutorials',
         description: 'Contains all tutorials provided by LADAL, organised in seven sections.',
-        image: 'https://ladal.edu.au/images/LadalGrey.png',
+        image: '/images/partner-logos/ladal_logo.png',
         link: 'https://ladal.edu.au/tutorials.html'
       },
     ]"/>
@@ -113,7 +114,7 @@ title: "Process & Analyse"
   :items="[
       {
         title: 'LADAL',
-        image: 'https://ladal.edu.au/images/LadalGrey.png',
+        image: '/images/partner-logos/ladal_logo.png',
         link: 'https://ladal.edu.au/'
       },
       {
@@ -123,12 +124,12 @@ title: "Process & Analyse"
       },
       {
         title: 'Sydney Corpus Lab',
-        image: 'https://i0.wp.com/sydneycorpuslab.com/wp-content/uploads/2019/03/cropped-SydneyCorpusLab_Black_Small.png?fit=512%2C512&ssl=1',
+        image: '/images/partner-logos/cropped-SydneyCorpusLab_Black_Small.png',
         link: 'https://sydneycorpuslab.com/'
       },
       {
         title: 'Sydney Informatics Hub',
-        image: 'https://yt3.googleusercontent.com/37as1rjlbhowQfSOHN96eyjI4fEswIR9KE1cgF78y_y5-JvWzysRD1cy57sEeBtBkMBSZ0lP=s900-c-k-c0x00ffffff-no-rj',
+        image: '/images/partner-logos/sydney_informatics_hub_logo.png',
         link: 'https://www.sydney.edu.au/research/facilities/sydney-informatics-hub.html'
       }
     ]"/>

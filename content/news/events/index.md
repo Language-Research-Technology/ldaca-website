@@ -5,24 +5,19 @@ title: "Events"
 #   - "/events/"
 ---
 
-<SimpleHero breadcrumb='Training & Events > Events' title="Events" description="Discover upcoming and past events and access recordings where available."/>
+<SimpleHero breadcrumb='Training & Events > Events' title="Events" description="Discover upcoming events, learn more about past events, and access event recordings and recaps."/>
 
-<br>
-
-<section class="mx-auto px-56 py-16">
-<div class="mb-8 flex flex-wrap gap-2">
-  <a href="#upcoming-events" class="p-5 rounded-lg font-semibold transition-all bg-[#79a38d] text-white hover:opacity-80">Upcoming Events</a>
-  <a href="#event-recordings" class="p-5 rounded-lg font-semibold transition-all bg-[#79a38d] text-white hover:opacity-80">Event Recordings</a>
-  <a href="#past-events" class="p-5 rounded-lg font-semibold transition-all bg-[#79a38d] text-white hover:opacity-80">Past Events</a>
+<section class="max-w-[1280px] mx-auto py-4">
+<div class="flex flex-wrap gap-2">
+  <a href="#upcoming-events" class="p-5 rounded-3xl transition-all bg-[#79a38d] text-white text-center hover:opacity-80 min-w-[170px]">Upcoming Events</a>
+  <a href="#event-recordings" class="p-5 rounded-3xl transition-all bg-[#79a38d] text-white text-center hover:opacity-80 min-w-[170px]">Event Recordings</a>
+  <a href="#past-events" class="p-5 rounded-3xl transition-all bg-[#79a38d] text-white text-center hover:opacity-80 min-w-[170px]">Past Events</a>
 </div>
 </section>
-
-<br>
 
 <Carousel 
   id="upcoming-events"
   shade="light"
-  backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="UPCOMING EVENTS"
   :items="[
@@ -63,9 +58,9 @@ title: "Events"
     ]"/>
 
 <Carousel 
+  yearFilter="true"
   id="past-events"
   shade="light"
-  backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="PAST EVENTS"
   :items="[
@@ -615,7 +610,7 @@ The <GlossaryLink display="RO-Crate" id="ro-crate" /> community run a weekly dro
 <!-- </details>
 
 <details>
-<summary><b><font color="#79A38D">2022</font></b></summary> -->
+    <summary><b><font color="#79A38D">2022</font></b></summary> -->
 
 <!-- <details>
     <summary>

@@ -3,9 +3,11 @@ layout: home
 title: "Find & Access"
 ---
 
-<SimpleHero breadcrumb="Working with Data > Find & Access" title="Find & Access Data" description="Find & access description goes here."/>
+<SimpleHero breadcrumb="Working with Data > Find & Access" title="Find & Access Data" description="Digital infrastructure to help you find and access nationally significant language collections."/>
 
 <SimpleNavigation
+  title="Facilitating collection discovery and access",
+  description="Significant collections of language data, including collections of Aboriginal and Torres Strait Islander languages, Australian Englishes and other migrant languages, and regional languages of the Pacific, are at risk of being lost. LDaCA works to secure at-risk collections and improve access to under-used collections.<br>Dive into exploratory portals for data discovery, and find training and guides to support you in finding and accessing language data."
   :contents="[
     { label: 'Available portals', href: '#available-portals' },
     { label: 'Collections', href: '#collections' },
@@ -24,18 +26,14 @@ title: "Find & Access"
       {
         title: 'LDaCA Data Portal',
         description: 'TODO description.',
-        link: 'https://data.ldaca.edu.au'
+        image: '/images/LDaCA_data_portal.png',
+        link: 'https://data.ldaca.edu.au',
       },
       {
         title: 'PARADISEC Portal',
         description: 'PARADISEC has more than 700 collections representing over 1,370 languages.',
-        image: 'https://catalog.paradisec.org.au/logo.jpg',
+        image: '/images/partner-logos/paradisec_logo.png',
         link: 'https://catalog.paradisec.org.au/oni/'
-      },
-      {
-        title: 'Indigenous Language Data Portal',
-        description: 'TODO description.',
-        link: 'https://ild.ldaca.edu.au'
       },
     ]"/>
 
@@ -124,17 +122,17 @@ title: "Find & Access"
   :items="[
       {
         title: 'PARADISEC',
-        image: 'https://www.paradisec.org.au/wp-content/uploads/2021/08/paradisec_logo_vector.png',
+        image: '/images/partner-logos/paradisec_logo.png',
         link: 'https://www.paradisec.org.au/'
       },
       {
         title: 'CLARIN',
-        image: 'https://www.clarin.eu/themes/contrib/clarin_bootstrap/logo.svg',
+        image: '/images/partner-logos/ClarinLogo.png',
         link: 'https://www.clarin.eu/'
       },
       {
         title: 'AIATSIS',
-        image: 'https://mcusercontent.com/ef8667be63aefb1e35062a797/images/a687f76b-1027-a779-0be8-5cf9c1a5d525.png',
+        image: '/images/partner-logos/AIATSIS_logo.svg',
         link: 'https://aiatsis.gov.au/'
       },
     ]"/>

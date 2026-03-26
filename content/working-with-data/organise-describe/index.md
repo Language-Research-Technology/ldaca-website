@@ -6,8 +6,8 @@ title: "Organise & Describe"
 <SimpleHero breadcrumb="Working with Data > Organise & Describe" title="Organise & Describe Data" description="Practical help for making your collections clearer, more accessible and responsibly managed."/>
 
 <SimpleNavigation
-  title="Building clearer, more usable collections"
-  description="The way you organise and describe your data plays a key role in making your collection usable and meaningful. LDaCA seeks to support researchers and communities to build collections that remain useful, accessible and responsibly managed into the future. Explore practical guides, tools and insights to support clear, effective data management that follows FAIR and CARE principles."
+  title="Building clearer more useable collections"
+  description="The way you organise and describe your data plays a key role in making your collection useable and meaningful. LDaCA seeks to support researchers and communities to build collections that remain useful, accessible and responsibly managed into the future.<br>Explore practical guides, tools and insights to support clear, effective data management that follows FAIR and CARE principles."
   :contents="[
     { label: 'Tools', href: '#tools' },
     { label: 'Guides', href: '#guides' },
@@ -101,6 +101,7 @@ title: "Organise & Describe"
       },
       {
         title: 'Introduction to metadata',
+        image: '/images/thumbnails/slides_2025_metadata.png',
         link: 'https://ardc.edu.au/wp-content/uploads/2025/03/b2-metadata_session.pdf',
         category: 'SLIDES'
       }

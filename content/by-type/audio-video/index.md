@@ -25,19 +25,16 @@ title: "Audio & Video"
       },
       {
         title: 'Interviews',
-        description: 'TODO.',
         link: 'https://www.youtube.com/playlist?list=PLpaCkX03fhiZjAYS6VtHzYzUopj3UJIy6',
         category: 'RECORDING'
       },
       {
         title: 'Presentations',
-        description: 'TODO.',
         link: 'https://www.youtube.com/playlist?list=PLpaCkX03fhibCyiXEFo0Q8xJqOMM76ITA',
         category: 'RECORDING'
       },
       {
         title: 'Video Explainers',
-        description: 'TODO.',
         link: 'https://www.youtube.com/playlist?list=PLpaCkX03fhiYNp0r6oxdUPVPa2N87h8HN',
         category: 'RECORDING'
       },
@@ -124,7 +121,6 @@ title: "Audio & Video"
       },
       {
         title: 'FIB DigiTalk 2025 ke-7, \'Using Large Data Sets for Qualitative Research\'',
-        description: 'TODO.',
         image: 'https://img.youtube.com/vi/twCAdPazV2M/sddefault.jpg',
         link: 'https://www.youtube.com/live/twCAdPazV2M',
         category: 'RECORDING'
@@ -138,7 +134,6 @@ title: "Audio & Video"
       },
       {
         title: 'Digital Preservation Masterclass PARADISEC',
-        description: 'TODO.',
         image: 'https://img.youtube.com/vi/gRuwHx744KU/sddefault.jpg',
         link: 'https://www.youtube.com/watch?v=gRuwHx744KU',
         category: 'RECORDING'

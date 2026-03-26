@@ -3,7 +3,7 @@ layout: home
 title: "Projects"
 ---
 
-<SimpleHero breadcrumb='Projects & Case Studies > Projects' title='Projects' description='Projects description here'/>
+<SimpleHero breadcrumb='Projects & Case Studies > Projects' title='Projects' description='We work with our partners to create scalable solutions to data management problems.<br>Find out more about collaborative projects that we have undertaken and supported to make language collections more secure, discoverable and culturally responsive.'/>
 
 <Carousel 
   backgroundColor="#EAE4D68C"
