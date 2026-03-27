@@ -34,28 +34,28 @@ They used this large collection of adolescent speech to support their claim that
 
 <figure>
   <figcaption> <b>A recording of 'broad' speech from the Mitchell and Delbridge collection.</b> </figcaption>
-  <audio controls src="./Broad.mp3"></audio>
+  <audio controls src="./Broad.mp3" style="display: block; margin: 0 auto;"></audio>
 </figure>
 
 <br>
 
 <figure>
   <figcaption> <b>A recording of 'general' speech from the Mitchell and Delbridge collection.</b> </figcaption>
-  <audio controls src="./General.mp3"></audio>
+  <audio controls src="./General.mp3" style="display: block; margin: 0 auto;"></audio>
 </figure>
 
 <br>
 
 <figure>
   <figcaption> <b>A recording of 'cultivated' speech from the Mitchell and Delbridge collection.</b> </figcaption>
-  <audio controls src="./Cultivated.mp3"></audio>
+  <audio controls src="./Cultivated.mp3" style="display: block; margin: 0 auto;"></audio>
 </figure>
 
 <br>
 
 <figure>
   <figcaption> <b>The speech of Australian Prime Ministers Robert Menzies, Gough Whitlam, Bob Hawke and Julia Gillard.</b> </figcaption>
-  <audio controls src="./Slide5_PMs.wav"></audio>
+  <audio controls src="./Slide5_PMs.wav" style="display: block; margin: 0 auto;"></audio>
 </figure>
 
 <br>

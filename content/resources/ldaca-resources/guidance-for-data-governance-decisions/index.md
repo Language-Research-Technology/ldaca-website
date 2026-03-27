@@ -28,8 +28,9 @@ This document provides guidance on some components of <GlossaryLink display="dat
 
 <br />
 
-> ![Thought bubble](./thought-bubble.png) **Questions for reflection:**<br />
+> <img src="./thought-bubble.png" alt="Thought bubble" style="float: left; width: 6rem; margin: 0.05rem 0.55rem 0.15rem 0;" /> **Questions for reflection:**<br />
 > In each section, you will find a thought bubble marking some questions for reflection that will help you start to explore these <GlossaryLink display="data governance" id="data-governance" /> topics. This content is designed as guidance for <GlossaryLink display="Data Stewards" id="data-steward" /> considering how to manage their data into the future.
+> <span style="display: block; clear: both;"></span>
 
 <br />
 
@@ -61,8 +62,9 @@ In Australia, as in many other countries, research data is recognised as <Glossa
 
 <br />
 
-> ![Thought bubble](./thought-bubble.png) **Questions for reflection:**<br />
+> <img src="./thought-bubble.png" alt="Thought bubble" style="float: left; width: 6rem; margin: 0.05rem 0.55rem 0.15rem 0;" /> **Questions for reflection:**<br />
 > How can I identify the <GlossaryLink display="copyright owner" id="copyright-owner" /> of a language <GlossaryLink display="collection" id="collection" />?
+> <span style="display: block; clear: both;"></span>
 
 <br />
 
@@ -84,8 +86,9 @@ The <GlossaryLink display="copyright owner" id="copyright-owner" /> of a languag
 
 <br />
 
-> ![Thought bubble](./thought-bubble.png) **Questions for reflection:**<br />
+> <img src="./thought-bubble.png" alt="Thought bubble" style="float: left; width: 6rem; margin: 0.05rem 0.55rem 0.15rem 0;" /> **Questions for reflection:**<br />
 > Does <GlossaryLink display="copyright" id="copyright" /> apply to this language collection?
+> <span style="display: block; clear: both;"></span>
 
 <br />
 
@@ -168,8 +171,9 @@ In brief, the four principles are:
 
 <br />
 
-> ![Thought bubble](./thought-bubble.png) **Questions for reflection:**<br />
+> <img src="./thought-bubble.png" alt="Thought bubble" style="float: left; width: 6rem; margin: 0.05rem 0.55rem 0.15rem 0;" /> **Questions for reflection:**<br />
 > What ethical and moral questions need to be considered before sharing this collection?
+> <span style="display: block; clear: both;"></span>
 
 <br />
 
@@ -203,8 +207,9 @@ While <GlossaryLink display="access conditions" id="access-conditions" /> can be
 
 <br />
 
-> ![Thought bubble](./thought-bubble.png) **Questions for reflection:**<br />
+> <img src="./thought-bubble.png" alt="Thought bubble" style="float: left; width: 6rem; margin: 0.05rem 0.55rem 0.15rem 0;" /> **Questions for reflection:**<br />
 > Is there an existing <GlossaryLink display="data license" id="data-license" />?
+> <span style="display: block; clear: both;"></span>
 
 <br />
 
@@ -214,8 +219,9 @@ While <GlossaryLink display="access conditions" id="access-conditions" /> can be
 
 <br />
 
-> ![Thought bubble](./thought-bubble.png) **Questions for reflection:**<br />
+> <img src="./thought-bubble.png" alt="Thought bubble" style="float: left; width: 6rem; margin: 0.05rem 0.55rem 0.15rem 0;" /> **Questions for reflection:**<br />
 > What information needs to be included in the license?
+> <span style="display: block; clear: both;"></span>
 
 <br />
 
@@ -266,8 +272,9 @@ An example of a <GlossaryLink display="DOI" id="doi" /> for a <GlossaryLink disp
 
 <br />
 
-> ![Thought bubble](./thought-bubble.png) **Questions for reflection:**<br />
+> <img src="./thought-bubble.png" alt="Thought bubble" style="float: left; width: 6rem; margin: 0.05rem 0.55rem 0.15rem 0;" /> **Questions for reflection:**<br />
 > Who can get a <GlossaryLink display="DOI" id="doi" />? How?
+> <span style="display: block; clear: both;"></span>
 
 <br />
 
@@ -298,8 +305,9 @@ Where a customised metadata strategy is used, metadata terms should be clearly d
 
 <br />
 
-> ![Thought bubble](./thought-bubble.png) **Questions for reflection:**<br />
+> <img src="./thought-bubble.png" alt="Thought bubble" style="float: left; width: 6rem; margin: 0.05rem 0.55rem 0.15rem 0;" /> **Questions for reflection:**<br />
 > What does it mean to apply standards to metadata?
+> <span style="display: block; clear: both;"></span>
 
 <br />
 

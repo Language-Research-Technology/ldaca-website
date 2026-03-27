@@ -20,7 +20,7 @@ Humanities researchers can unlock a powerful source of cultural data by working 
 
 <figure>
   <img src="./SLNSW_FL20769700.jpg" alt="Adults and children at Chinese lessons (January 1945)." title="Adults and children at Chinese lessons (January 1945)" Ref="Mitchell Library, State Library of New South Wales. Accessed through Opening the Multilingual Archive of Australia (OMAA)">
-  <figcaption class="text-center italic mt-2 font-bold">
+  <figcaption>
     Figure 1: Adults and children at Chinese lessons (January 1945).
   </figcaption>
 </figure>
@@ -55,7 +55,7 @@ The second problem relates to researchers interested in how online algorithms ha
 
 <figure>
   <img src="./image-dataset-explorer-output.png" alt="A visualisation output from the Explorer as applied to Sam's Facebook data download." title="A visualisation output from the Explorer as applied to Sam's Facebook data download." Ref="Sam Hames">
-  <figcaption class="text-center italic mt-2 font-bold">
+  <figcaption>
     Figure 2: A visualisation output from the Explorer as applied to Sam's Facebook data download. Each dot represents an image — the selected box of images (lower left) corresponds to the images displayed on the right-hand panel. The embedding and layout process has grouped the emoji reactions and stickers found in the images into a group.
   </figcaption>
 </figure>

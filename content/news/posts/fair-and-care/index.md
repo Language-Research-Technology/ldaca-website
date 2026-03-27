@@ -42,11 +42,11 @@ Some <GlossaryLink display="corpus" id="corpus" /> data is easy to discover; it 
 
 Accessibility may also be an issue for some data. <GlossaryLink display="Copyright" id="copyright" /> law may allow use of material for individual research but prohibit any further distribution of the material. The <GlossaryLink display="FAIR" id="fair" /> approach to such cases is that metadata should be available so that interested parties can know that a data holding exists (F), and the metadata will include information about the conditions under which the data may or may not be shared or reused (A and R).
 <br />
-<img src="./fair-care.png" title="FAIR and CARE principles" height="500" class="center_image" />
 
-<div class="center">
-<h4>Image from <a href="https://www.gida-global.org/" target="_blank">Global Indigenous Data Alliance</a></h4>
-</div>
+<figure>
+  <img src="./fair-care.png" title="FAIR and CARE principles" />
+  <figcaption>FAIR and CARE principles (Image: Global Indigenous Data Alliance)</figcaption>
+</figure>
 
 <br />
 

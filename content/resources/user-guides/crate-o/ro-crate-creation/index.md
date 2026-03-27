@@ -36,7 +36,7 @@ layout: doc
 
 <figure>
   <img src="./open_directory.png" alt="Crate-O: Open Directory" title="Crate-O: Open Directory" />
-  <figcaption class="text-center italic mt-2 font-bold">Crate-O: Open Directory. (LDaCA)</figcaption>
+  <figcaption>Crate-O: Open Directory. (LDaCA)</figcaption>
 </figure>
 
 <br>
@@ -50,7 +50,7 @@ layout: doc
 
 <figure>
   <img src="./select_mode.png" alt="Crate-O: Select Mode" title="Crate-O: Select Mode" />
-  <figcaption class="text-center italic mt-2 font-bold">Crate-O: Select Mode. (LDaCA)</figcaption>
+  <figcaption>Crate-O: Select Mode. (LDaCA)</figcaption>
 </figure>
 
 <br>
@@ -80,7 +80,7 @@ Crate-O allows two options for entering your metadata to an RO-Crate:
 
 <figure>
   <img src="./missing_properties.jpeg" alt="Crate-O: Missing Properties" title="Crate-O: Missing Properties" />
-  <figcaption class="text-center italic mt-2 font-bold">Crate-O: Missing Properties. (LDaCA)</figcaption>
+  <figcaption>Crate-O: Missing Properties. (LDaCA)</figcaption>
 </figure>
 
 <br>
@@ -91,7 +91,7 @@ Crate-O allows two options for entering your metadata to an RO-Crate:
 
 <figure>
   <img src="./add_entity_metadata.png" alt="Crate-O: Add Entity Metadata" title="Crate-O: Add Entity Metadata" />
-  <figcaption class="text-center italic mt-2 font-bold">Crate-O: Add Entity Metadata. (LDaCA)</figcaption>
+  <figcaption>Crate-O: Add Entity Metadata. (LDaCA)</figcaption>
 </figure>
 
 <br>
@@ -115,7 +115,7 @@ For more guidance on the spreadsheet requirements and a template, see [Convert S
 
 <figure>
   <img src="./save_ro_crate.png" alt="Crate-O: Save RO-Crate" title="Crate-O: Save RO-Crate" />
-  <figcaption class="text-center italic mt-2 font-bold">Crate-O: Save RO-Crate. (LDaCA)</figcaption>
+  <figcaption>Crate-O: Save RO-Crate. (LDaCA)</figcaption>
 </figure>
 
 <br>
@@ -140,7 +140,7 @@ After saving, if there are required properties missing from your <GlossaryLink d
 
 <figure>
   <img src="./saved_with_warnings.jpeg" alt="Crate-O: Saved with Warnings" title="Crate-O: Saved with Warnings" />
-  <figcaption class="text-center italic mt-2 font-bold">Crate-O: Saved with Warnings. (LDaCA)</figcaption>
+  <figcaption>Crate-O: Saved with Warnings. (LDaCA)</figcaption>
 </figure>
 
 <br>
