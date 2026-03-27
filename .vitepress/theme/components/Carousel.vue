@@ -1,6 +1,7 @@
 <script setup>
-import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
+import { ref, computed, onMounted, onBeforeUnmount, watch } from 'vue'
 import { pagesData } from 'virtual:pages-data'
+import { withBase } from 'vitepress'
 
 const props = defineProps({
   heading: {
@@ -32,6 +33,10 @@ const props = defineProps({
   buttonText: {
     type: String,
     default: 'View more'
+  },
+  yearFilter: {
+    type: Boolean,
+    default: false
   }
 })
 
@@ -48,7 +53,51 @@ const categoryClass = computed(() =>
 )
 
 const currentIndex = ref(0)
-const total = computed(() => props.items.length)
+const selectedYear = ref('All')
+
+const extractYear = (value) => {
+  const text = String(value || '')
+  const match = text.match(/\b(19|20)\d{2}\b/)
+  return match ? match[0] : null
+}
+
+// Merge item + frontmatter once
+const mergedItems = computed(() =>
+  props.items.map((rawItem) => {
+    const pageMetadata = rawItem.link ? pagesData[rawItem.link] : null
+    const eventDate = rawItem.eventDate ?? pageMetadata?.eventDate
+    return {
+      ...rawItem,
+      image:
+        rawItem.image ??
+        pageMetadata?.image ??
+        (Array.isArray(props.image) ? props.image[0] : props.image),
+      description: rawItem.description ?? pageMetadata?.description,
+      eventDate,
+      time: rawItem.time ?? pageMetadata?.time,
+      location: rawItem.location ?? pageMetadata?.location,
+      category: rawItem.category ?? pageMetadata?.category,
+      year: extractYear(eventDate)
+    }
+  })
+)
+
+const availableYears = computed(() =>
+  [...new Set(mergedItems.value.map((i) => i.year).filter(Boolean))]
+    .sort((a, b) => Number(b) - Number(a))
+)
+
+const filteredItems = computed(() => {
+  if (!props.yearFilter || selectedYear.value === 'All') return mergedItems.value
+  return mergedItems.value.filter((item) => item.year === selectedYear.value)
+})
+
+const total = computed(() => filteredItems.value.length)
+
+watch([selectedYear, total], () => {
+  currentIndex.value = 0
+})
+
 const isLg = ref(false)
 
 const updateMatch = (mq) => {
@@ -77,38 +126,7 @@ const visibleItems = computed(() => {
   if (total.value === 0) return []
 
   return Array.from({ length: visibleCount.value }, (_, i) => {
-    const rawItem = props.items[(currentIndex.value + i) % total.value]
-    const pageMetadata = rawItem.link
-      ? pagesData[rawItem.link]
-      : null
-
-    return {
-      ...rawItem,
-      image:
-        rawItem.image ??
-        pageMetadata?.image ??
-        (Array.isArray(props.image) ? props.image[0] : props.image),
-
-      description:
-        rawItem.description ??
-        pageMetadata?.description,
-
-      eventDate:
-        rawItem.eventDate ??
-        pageMetadata?.eventDate,
-
-      time:
-        rawItem.time ??
-        pageMetadata?.time,
-
-      location:
-        rawItem.location ??
-        pageMetadata?.location,
-
-      category:
-        rawItem.category ??
-        pageMetadata?.category
-    }
+    return filteredItems.value[(currentIndex.value + i) % total.value]
   })
 })
 
@@ -141,6 +159,19 @@ const isExternal = (url) => {
       <!-- Heading -->
       <div class="mb-8 text-left">
         <h1 class="">{{ props.heading }}</h1>
+      </div>
+
+      <!-- Optional year filter -->
+      <div v-if="props.yearFilter && availableYears.length" class="mb-6 flex flex-wrap gap-3">
+        <button type="button" @click="selectedYear = 'All'" class="px-6 py-3 rounded-3xl"
+          :class="selectedYear === 'All' ? 'bg-[#79a38d] text-white' : 'bg-white text-[#383938] border border-[#79a38d]'">
+          All
+        </button>
+        <button v-for="year in availableYears" :key="year" type="button" @click="selectedYear = year"
+          class="px-6 py-3 rounded-3xl"
+          :class="selectedYear === year ? 'bg-[#79a38d] text-white' : 'bg-white text-[#383938] border border-[#79a38d]'">
+          {{ year }}
+        </button>
       </div>
 
       <div class="hidden lg:grid lg:grid-cols-[auto_1fr_auto] items-center" :class="{ 'gap-6': showArrows }">
@@ -197,11 +228,9 @@ const isExternal = (url) => {
 
       <!-- TABLET / MOBILE STACKED PANELS -->
       <div class="lg:hidden flex flex-col gap-4">
-        <div v-for="item in props.items" :key="item.title" class="bg-[#393939] overflow-hidden flex flex-col">
+        <div v-for="item in filteredItems" :key="item.title" class="bg-[#393939] overflow-hidden flex flex-col">
           <!-- compute image with frontmatter fallback -->
-          <img
-            :src="item.image ?? pagesData[item.link]?.image ?? (Array.isArray(props.image) ? props.image[0] : props.image)"
-            :alt="item.title" class="w-full object-cover h-60" />
+          <img :src="withBase(item.image)" :alt="item.title" class="w-full object-cover h-60" />
 
           <div class="px-5 pt-5 pb-3 space-y-3 flex flex-col">
             <p class="text-white">{{ item.category ?? pagesData[item.link]?.category }}</p>
