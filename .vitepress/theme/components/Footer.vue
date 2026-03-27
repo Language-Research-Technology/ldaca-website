@@ -92,7 +92,8 @@ footer {
                 href="/about/people"
                 class="text-sm text-[#79A38D] font-bold hover:text-gray-600 transition-colors">people</a> and our <a
                 href="/about/policies-principles"
-                class="text-sm text-[#79A38D] font-bold hover:text-gray-600 transition-colors">policies and principles</a>.
+                class="text-sm text-[#79A38D] font-bold hover:text-gray-600 transition-colors">policies and
+                principles</a>.
             </p>
           </div>
         </div>
@@ -108,7 +109,8 @@ footer {
               <!-- Regular items with link -->
               <template v-for="item in (navItem.items || [])" :key="item.link || item.title">
                 <li v-if="!item.children && item.link">
-                  <a :href="item.link" class="text-base text-[#393939] text-muted-foreground hover:text-primary transition-colors pl-2">
+                  <a :href="item.link"
+                    class="text-base text-[#393939] text-muted-foreground hover:text-primary transition-colors pl-2">
                     {{ item.text }}
                   </a>
                 </li>
