@@ -1,6 +1,5 @@
 <script setup>
 import { useData } from 'vitepress'
-// Use VitePress's markdown renderer
 const { theme } = useData()
 const buttonColors = theme.value.buttonColors || { bg: '#79A38D', text: '#ffffff' }
 
@@ -31,7 +30,7 @@ defineProps({
       <!-- TEXT -->
       <div class="flex-1 py-[2.5rem]">
         <h2 class="mb-2">{{ heading }}</h2>
-        <subheading class="text-gray-600">{{ description }}</subheading>
+        <p class="text-gray-600 text-[1.7rem] leading-relaxed">{{ description }}</p>
       </div>
       <!-- BUTTON -->
       <div class="flex-shrink-0">
@@ -49,7 +48,7 @@ defineProps({
     <div class="bg-[#EAE4D6] bg-opacity-55 rounded-lg p-6 space-y-6 text-left">
       <div>
         <h2 class="text-2xl font-bold mb-2">{{ heading }}</h2>
-        <subheading class="text-gray-600">{{ description }}</subheading>
+        <p class="text-gray-600 text-[1.7rem]">{{ description }}</p>
       </div>
       <a :href="buttonLink" target="_blank" rel="noopener noreferrer"
         :style="{ backgroundColor: buttonColors.bg, color: buttonColors.text }"

@@ -104,9 +104,8 @@ const thumbnailUrl = computed(() => {
         </div>
 
         <!-- Video iframe -->
-        <iframe v-if="isPlaying" :src="iframeSrc" title="Hero Video" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen class="w-full h-full"></iframe>
+        <iframe v-if="isPlaying" :src="iframeSrc" title="Hero Video" frameborder="0" allowfullscreen
+          class="w-full h-full"></iframe>
       </div>
     </div>
 
@@ -116,9 +115,8 @@ const thumbnailUrl = computed(() => {
         class="bg-gray-800 rounded-lg p-6 shadow-sm">
         <h1 class="text-2xl font-bold text-white mb-4">{{ item.tagline }}</h1>
         <div class="text-white/90 leading-relaxed mb-4" v-html="item.description"></div>
-        <iframe :src="item.videoUrl" title="Hero Video" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen class="w-full aspect-[16/9] rounded"></iframe>
+        <iframe :src="item.videoUrl" title="Hero Video" frameborder="0" allowfullscreen
+          class="w-full aspect-[16/9] rounded"></iframe>
       </div>
     </div>
 

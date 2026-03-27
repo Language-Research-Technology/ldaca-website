@@ -140,7 +140,7 @@ const getGridClass = (items) => {
                 <h2 class="">
                   {{ item.text }}
                 </h2>
-                <p v-if="item.subtitle" class="mt-1 text-[#898989] text-[1.7rem]">
+                <p v-if="item.subtitle" class="mt-4 text-[#898989] text-[1.7rem]">
                   {{ item.subtitle }}
                 </p>
               </div>
@@ -155,7 +155,7 @@ const getGridClass = (items) => {
                   <a v-if="!subItem.children && subItem?.link" :href="subItem?.link" @click="closeMenu" :class="[
                     subItem.image
                       ? 'flex flex-col items-left gap-2 p-0 group'
-                      : `inline-flex items-left justify-left px-0 py-0 text-2xl ${subItem.bold ? 'font-bold' : 'font-medium'} hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8`
+                      : `inline-flex items-left justify-left px-0 pt-2 text-2xl ${subItem.bold ? 'font-bold' : 'font-medium'} hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8`
                     , (subItem.divider && idx % 3 !== 2 ? 'sm:border-r border-border pr-4' : '')
                   ]">
                     <img v-if="subItem.image" :src="subItem.image" :alt="subItem.text"

@@ -28,7 +28,7 @@ defineProps({
       <!-- TEXT -->
       <div class="flex-1 py-[2.5rem]">
         <h2 class="mb-2 text-white">{{ heading }}</h2>
-        <subheading class="text-white">{{ description }}</subheading>
+        <p class="text-white text-[1.7rem] leading-relaxed">{{ description }}</p>
       </div>
       <!-- BUTTON -->
       <div class="flex-shrink-0">
@@ -46,7 +46,7 @@ defineProps({
     <div class="bg-[#79a38d] rounded-lg p-6 space-y-6 text-left">
       <div>
         <h2 class="text-2xl font-bold mb-2 text-white">{{ heading }}</h2>
-        <subheading class="text-white">{{ description }}</subheading>
+        <p class="text-white text-[1.7rem]">{{ description }}</p>
       </div>
       <a :href="buttonLink" target="_blank" rel="noopener noreferrer"
         :style="{ backgroundColor: buttonColors.bg, color: buttonColors.text }"

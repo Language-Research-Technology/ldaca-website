@@ -131,7 +131,8 @@ const isExternal = (url) => {
                         class="grid grid-cols-1 lg:grid-cols-2 overflow-hidden">
 
                         <!-- IMAGE LEFT -->
-                        <img :src="item.image" :alt="item.title" class="w-full h-full object-cover lg:h-[600px]" />
+                        <img :src="item.image" :alt="item.title"
+                            class="w-full h-full object-cover lg:h-[450px] shadow-lg" />
 
                         <!-- CONTENT RIGHT -->
                         <div class="flex flex-col h-full px-6 py-6">

@@ -11,6 +11,10 @@ const props = defineProps({
         type: String,
         default: ''
     },
+    subheading: {
+        type: String,
+        default: ''
+    },
     items: {
         type: Array,
         required: false,
@@ -112,6 +116,7 @@ const isExternal = (url) => {
             <!-- Heading -->
             <div class="mb-8 text-left">
                 <h1 class="">{{ props.heading }}</h1>
+                <p class="text-gray-600 text-xl pt-4">{{ props.subheading }}</p>
             </div>
 
             <div class="hidden lg:grid lg:grid-cols-[auto_1fr_auto] items-center" :class="{ 'gap-6': showArrows }">
@@ -150,17 +155,17 @@ const isExternal = (url) => {
 
                             <h2 class="text-white mb-6">{{ item.title }}</h2>
 
-                            <subheading class="text-white leading-relaxed">
+                            <p class="text-white leading-relaxed text-[1.7rem]">
                                 {{ item.description }}
-                            </subheading>
+                            </p>
 
-                            <subheading class="text-white leading-relaxed">
+                            <p class="text-white leading-relaxed text-[1.7rem]">
                                 <span class="font-bold">Level</span> {{ item.level }}
-                            </subheading>
+                            </p>
 
-                            <subheading class="text-white leading-relaxed">
+                            <p class="text-white leading-relaxed text-[1.7rem]">
                                 <span class="font-bold">For</span> {{ item.audience }}
-                            </subheading>
+                            </p>
 
                             <div class="flex flex-wrap gap-4 mt-auto">
                                 <a :href="item.link" :target="isExternal(item.link) ? '_blank' : '_self'"

@@ -2,7 +2,7 @@
 import { computed, onMounted } from 'vue'
 import { useData, withBase } from 'vitepress'
 
-const { site, theme } = useData()
+const { theme } = useData()
 
 const imageFallback = theme.value.postImageFallback ||
   'data:image/svg+xml;utf8,' +
@@ -82,7 +82,7 @@ onMounted(() => {
     <!-- Year Navigation -->
     <div class="mb-8 flex flex-wrap gap-2">
       <button v-for="year in years" :key="year" @click="scrollToYear(year)"
-        class="p-5 rounded-lg font-semibold transition-all bg-[#79a38d] text-white hover:opacity-80">
+        class="p-5 rounded-3xl transition-all bg-[#79a38d] text-white hover:opacity-80">
         {{ year }}
       </button>
     </div>

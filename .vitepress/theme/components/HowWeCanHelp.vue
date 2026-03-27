@@ -10,43 +10,43 @@ const props = defineProps({
       {
         title: 'Find & access language materials',
         image: 'https://placehold.co/400x400',
-        description: 'Discover and access a wide range of language materials through our comprehensive search tools and data portal. We make it easy to find the resources you need for your research.',
+        description: 'Description needed.',
         link: '/working-with-data/find-access/'
       },
       {
         title: 'Organise & describe data',
         image: 'https://placehold.co/400x400',
-        description: 'Learn best practices for organising and describing your language data with metadata standards that ensure discoverability and long-term preservation.',
+        description: 'Description needed.',
         link: '/working-with-data/organise-describe/'
       },
       {
         title: 'License collections responsibly',
         image: 'https://placehold.co/400x400',
-        description: 'Get guidance on choosing appropriate licenses for your language collections that respect cultural protocols and legal requirements.',
+        description: 'Description needed.',
         link: '/working-with-data/license-share-govern/'
       },
       {
         title: 'Share data with care',
         image: 'https://placehold.co/400x400',
-        description: 'Implement ethical data sharing practices that honor community wishes and maintain appropriate access controls for sensitive materials.',
+        description: 'Description needed.',
         link: '/working-with-data/license-share-govern/'
       },
       {
         title: 'Guidance on governance',
         image: 'https://placehold.co/400x400',
-        description: 'Access frameworks and guidance for establishing governance structures that support ethical stewardship of language data.',
+        description: 'Description needed.',
         link: '/working-with-data/license-share-govern/'
       },
       {
         title: 'Process data for use',
         image: 'https://placehold.co/400x400',
-        description: 'Use our tools and workflows to process language data into formats ready for analysis, visualisation, and other research applications.',
+        description: 'Description needed.',
         link: '/working-with-data/process-analyse/'
       },
       {
         title: 'Analyse language at scale',
         image: 'https://placehold.co/400x400',
-        description: 'Leverage computational tools and infrastructure to perform large-scale language analysis across diverse collections and datasets.',
+        description: 'Description needed.',
         link: '/working-with-data/process-analyse/'
       }
     ]
@@ -75,8 +75,8 @@ const selectItem = (item) => {
     <!-- Header -->
     <div class="mb-12 text-left">
       <h1 class="">HOW WE CAN HELP</h1>
-      <subheading class="text-gray-600">LDaCA provides hands-on support to make language data usable, ethical and
-        future-ready</subheading>
+      <p class="text-gray-600 text-[1.7rem]">LDaCA provides hands-on support to make language data usable, ethical and
+        future-ready</p>
     </div>
 
     <!-- DESKTOP / LARGE SCREEN -->
@@ -100,21 +100,21 @@ const selectItem = (item) => {
         <div class="bg-white rounded-none overflow-hidden h-full">
           <div class="grid grid-cols-2 gap-6">
             <!-- Left: Image -->
-            <div class="h-full">
+            <div class="h-full max-h-[400px] overflow-hidden">
               <img :src="selectedItem.image" :alt="selectedItem.title"
                 class="w-full h-full object-cover rounded-none" />
             </div>
             <!-- Right: Text -->
             <div class="flex flex-col justify-start gap-4">
-              <h2 class="mb-4">{{ selectedItem.title }}</h2>
-              <subheading class="text-gray-600">{{ selectedItem.description }}</subheading>
-              <subheading class="text-gray-600">
+              <h2 class="mb-2">{{ selectedItem.title }}</h2>
+              <p class="text-gray-600 text-2xl">{{ selectedItem.description }}</p>
+              <p class="text-gray-600 text-[1.7rem] pb-1">
                 <a :href="selectedItem.link"
                   class="font-bold hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8">
                   Find out more
                 </a>
                 <a class="font-sans font-bold">→</a>
-              </subheading>
+              </p>
             </div>
           </div>
         </div>
@@ -140,7 +140,7 @@ const selectItem = (item) => {
         <!-- Text -->
         <div v-if="selectedItem.title === item.title" class="p-4 space-y-2">
           <h3 class="text-lg font-bold">{{ selectedItem.title }}</h3>
-          <subheading class="text-gray-600">{{ selectedItem.description }}</subheading>
+          <p class="text-gray-600 text-2xl">{{ selectedItem.description }}</p>
           <a :href="selectedItem.link"
             class="block font-bold hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8">
             Find out more ➜</a>

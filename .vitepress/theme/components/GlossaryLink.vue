@@ -33,12 +33,9 @@ async function loadShortDesc() {
 
 <template>
   <span class="glossary-link-wrapper" @mouseenter="loadShortDesc" @focusin="loadShortDesc">
-    <a
-      :href="`/resources/glossary/#${props.id}`"
+    <a :href="`/resources/glossary/#${props.id}`"
       class="text-blue-600 hover:text-blue-800 underline hover:underline transition-colors"
-      :title="shortDesc || props.display"
-      :aria-label="props.display"
-    >
+      :title="shortDesc || props.display" :aria-label="props.display">
       {{ props.display }}
     </a>
   </span>
@@ -47,17 +44,20 @@ async function loadShortDesc() {
 <style scoped>
 .glossary-link-wrapper {
   position: relative;
-  display: inline-block;
+  display: inline;
+  /* was inline-block */
 }
 
 a {
+  display: inline;
+  line-height: inherit;
+  font: inherit;
+  color: #2563eb;
   text-decoration: underline;
-  cursor: pointer;
+  transition: color 0.2s ease;
 }
 
 a:hover {
-  color: var(--vp-c-brand-dark);
+  color: #1d4ed8;
 }
-
-
 </style>

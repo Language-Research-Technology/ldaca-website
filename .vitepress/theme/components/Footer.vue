@@ -4,7 +4,6 @@ import PartnerLogos from './PartnerLogos.vue'
 
 const { site, theme } = useData()
 const logo = theme.value.logo ?? {}
-const currentYear = new Date().getFullYear()
 
 // Read footer border configuration with sensible defaults
 const footer = theme.value.footer ?? {}
@@ -92,8 +91,8 @@ footer {
                 class="text-sm text-[#79A38D] font-bold hover:text-gray-600 transition-colors">organisation</a>, our <a
                 href="/about/people"
                 class="text-sm text-[#79A38D] font-bold hover:text-gray-600 transition-colors">people</a> and our <a
-                href="/about/policies-procedures"
-                class="text-sm text-[#79A38D] font-bold hover:text-gray-600 transition-colors">policies and procedures</a>.
+                href="/about/policies-principles"
+                class="text-sm text-[#79A38D] font-bold hover:text-gray-600 transition-colors">policies and principles</a>.
             </p>
           </div>
         </div>

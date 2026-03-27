@@ -29,7 +29,7 @@ const scrollTo = (href) => {
 </script>
 
 <template>
-  <!-- TITLE + DESCRIPTION always visible -->
+  <!-- TITLE + DESCRIPTION -->
   <section class="p-0">
     <div class="relative w-full bg-cover bg-center bg-no-repeat min-h-[200px]">
       <div class="max-w-[1280px] mx-auto px-4 py-8">
@@ -37,7 +37,7 @@ const scrollTo = (href) => {
           <!-- Main content section -->
           <div class="max-w-[100%] lg:max-w-[60%] relative z-10">
             <h2 class="m-0 pb-4 text-[#383938]">{{ title }}</h2>
-            <p class="my-4 mb-8 text-[#383938] text-lg leading-relaxed" v-html="description"></p>
+            <p class="mt-4 text-[#383938] text-lg leading-relaxed" v-html="description"></p>
           </div>
 
           <!-- Desktop sidebar -->
