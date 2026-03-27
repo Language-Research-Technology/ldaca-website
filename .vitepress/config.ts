@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig, createContentLoader } from 'vitepress'
 import { fileURLToPath, URL } from 'node:url'
 import fs from 'fs'
 import path from 'path'
@@ -7,7 +7,7 @@ import { aliasesPlugin } from './plugins/aliases'
 
 function generateGlossaryData() {
   const glossaryDir = path.join(__dirname, '../content/resources/glossary/items')
-  
+
   if (!fs.existsSync(glossaryDir)) return []
 
   return fs.readdirSync(glossaryDir)
@@ -188,7 +188,7 @@ export default defineConfig({
       // },
       {
         text: 'Working with Data',
-        subtitle: 'TODO add subtitle',
+        subtitle: 'Information for working with language data in different ways.',
         items: [
           { text: 'Find & Access', link: '/working-with-data/find-access' },
           { text: 'License, Share & Govern', link: '/working-with-data/license-share-govern' },
@@ -198,7 +198,7 @@ export default defineConfig({
       },
       {
         text: 'Training & Events',
-        subtitle: 'something something',
+        subtitle: 'Training materials, tutorials, and upcoming and past events.',
         items: [
           { text: 'Training', link: '/news/training', image: 'https://placehold.co/150x100' },
           { text: 'Events', link: '/news/events', image: 'https://placehold.co/150x100' }
@@ -206,7 +206,7 @@ export default defineConfig({
       } as any,
       {
         text: 'Resources',
-        subtitle: 'Helpful links and materials',
+        subtitle: 'Search for resources from across our ecosystem by type or subject.',
         items: [
           {
             title: 'By Type',
@@ -260,9 +260,9 @@ export default defineConfig({
             title: '',
             divider: true,
             children: [
-              { text: 'Glossary', link: '/resources/glossary/', bold: true  },
-              { text: 'FAQs', link: '/about/faqs/', bold: true  },
-              { text: 'Blog', link: '/news/posts/', bold: true  }
+              { text: 'Glossary', link: '/resources/glossary/', bold: true },
+              { text: 'FAQs', link: '/about/faqs/', bold: true },
+              { text: 'Blog', link: '/news/posts/', bold: true }
             ]
           }
         ]
@@ -277,11 +277,11 @@ export default defineConfig({
       },
       {
         text: 'About',
-        subtitle: 'Learn more about our organisation',
+        subtitle: 'Learn more about how the project is organised and governed.',
         items: [
           { text: 'Organisation', link: '/about/organisation', image: 'https://placehold.co/150x100' },
           { text: 'People', link: '/about/people', image: 'https://placehold.co/150x100' },
-          { text: 'Policies & Procedures', link: '/about/policies-procedures', image: 'https://placehold.co/150x100' }
+          { text: 'Policies & Principles', link: '/about/policies-principles', image: 'https://placehold.co/150x100' }
         ]
       } as any,
       {
@@ -302,5 +302,48 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
+  },
+  async buildEnd(siteConfig) {
+    const copied = new Set()
+    const srcDir = siteConfig.srcDir          // e.g. /.../ldaca-website/content
+    const outDir = siteConfig.outDir          // e.g. /.../ldaca-website/.vitepress/dist
+    const CONTENT_GLOBS = [
+      'news/posts/**/*.md',
+      'resources/ldaca-resources/**/*.md',
+      'resources/user-guides/**/*.md',
+      'resources/general-resources/**/*.md',
+    ]
+    const isExternal = (v = '') =>
+      /^(https?:)?\/\//i.test(v) || v.startsWith('data:')
+
+
+    for (const glob of CONTENT_GLOBS) {
+      const items = await createContentLoader(glob).load()
+
+      for (const item of items) {
+        const imageRaw = item?.frontmatter?.image
+        if (!imageRaw) continue
+
+        const image = String(imageRaw).trim()
+        if (isExternal(image)) continue
+
+        const cleanImage = image.split('?')[0].split('#')[0]
+        const normalized = cleanImage.replace(/^\/+/, '') // news/posts/.../Slide04.png
+
+        // absolute-from-content path: "/news/posts/.../Slide04.png"
+        const src = path.join(srcDir, normalized)
+        const dst = path.join(outDir, normalized)
+
+        if (!fs.existsSync(src)) continue
+
+        fs.mkdirSync(path.dirname(dst), { recursive: true })
+
+        const key = `${src}=>${dst}`
+        if (!copied.has(key)) {
+          fs.copyFileSync(src, dst)
+          copied.add(key)
+        }
+      }
+    }
   }
 })
