@@ -17,6 +17,7 @@ import GuideCarousel from './components/GuideCarousel.vue'
 import ContactBox from './components/ContactBox.vue'
 import ThreeTiles from './components/ThreeTiles.vue'
 import Collaborators from './components/Collaborators.vue'
+import CollectionsGrid from './components/CollectionsGrid.vue'
 import './style.css'
 import DefaultTheme from 'vitepress/theme'
 import '@fontsource/work-sans/400.css'
@@ -26,7 +27,7 @@ import '@fontsource/work-sans/700.css'
 
 export default {
   ...DefaultTheme,
-  enhanceApp({ app, router, siteData }) {
+  enhanceApp({ app }) {
     app.component('GlossaryLink', GlossaryLink)
     app.component('GlossaryList', GlossaryList)
     app.component('BlogPostsPage', BlogPostsPage)
@@ -42,7 +43,7 @@ export default {
     app.component('ContactBox', ContactBox)
     app.component('ThreeTiles', ThreeTiles)
     app.component('Collaborators', Collaborators)
-
+    app.component('CollectionsGrid', CollectionsGrid)
   },
   Layout: Layout,
 } satisfies Theme
