@@ -5,33 +5,49 @@ import GlossaryLink from './GlossaryLink.vue'
 
 const lettersList = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')
 
-// In letterToId - no validation that glossaryItems exists or that items are valid
+const normalize = (v: unknown) =>
+  String(v ?? '')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .trim()
+    .toUpperCase()
+
+const slugify = (v: unknown) =>
+  String(v ?? '')
+    .toLowerCase()
+    .trim()
+    .replace(/[^\w\s-]/g, '')
+    .replace(/\s+/g, '-')
+
+const rows = computed(() => {
+  const items = Array.isArray(glossaryItems) ? glossaryItems : []
+  return items.map((item: any, idx: number) => ({
+    ...item,
+    anchorId: String(item?.id || `term-${slugify(item?.term)}-${idx}`),
+    body: item?.content || item?.definition || ''
+  }))
+})
+
 const letterToId = computed<Record<string, string | null>>(() => {
   const map: Record<string, string | null> = {}
-  lettersList.forEach(letter => {
-    const match = glossaryItems.find(item => {
-      // If item is null/undefined, this will throw
-      const t = (item.term || '').trim()
-      // ...
-    })
-  })
+
+  for (const letter of lettersList) {
+    const match = rows.value.find((item: any) => normalize(item?.term).startsWith(letter))
+    map[letter] = match?.anchorId || null
+  }
+
   return map
 })
 
 function scrollToLetter(letter: string) {
   const id = letterToId.value[letter]
   if (!id) return
+
   const el = document.getElementById(id)
   if (!el) return
-  // determine header offset if present (site header or vp-nav), fallback to 80px
-  const header = document.querySelector('header') as HTMLElement | null
-  const headerHeight = header ? header.getBoundingClientRect().height : 80
-  const extraOffset = 12 // small gap
-  // account for any CSS scroll-margin-top set on the element (computed in px)
-  const scrollMarginTop = parseFloat(window.getComputedStyle(el).scrollMarginTop || '0') || 0
-  const top = window.scrollY + el.getBoundingClientRect().top - headerHeight - extraOffset - scrollMarginTop
+
   window.history.pushState(null, '', `#${id}`)
-  window.scrollTo({ top, behavior: 'smooth' })
+  el.scrollIntoView({ behavior: 'smooth', block: 'start' })
 }
 
 function parseGlossaryContent(content: string) {
@@ -74,15 +90,12 @@ function parseGlossaryContent(content: string) {
     <div class="mb-4 flex gap-2 flex-wrap items-center">
       <nav class="flex flex-wrap gap-1" aria-label="Glossary index">
         <template v-for="letter in lettersList" :key="letter">
-          <a
-            v-if="letterToId[letter]"
-            href="#"
-            @click.prevent="scrollToLetter(letter)"
-            class="inline-block px-2 py-1 text-sm rounded border border-transparent hover:border-primary hover:text-primary"
-          >
+          <a v-if="letterToId[letter]" href="#" @click.prevent="scrollToLetter(letter)"
+            class="inline-block px-2 py-1 text-sm rounded border border-transparent hover:border-primary hover:text-primary">
             {{ letter }}
           </a>
-          <span v-else class="inline-block px-2 py-1 text-sm text-muted-foreground cursor-not-allowed select-none">{{ letter }}</span>
+          <span v-else class="inline-block px-2 py-1 text-sm text-muted-foreground cursor-not-allowed select-none">{{
+            letter }}</span>
         </template>
       </nav>
     </div>
@@ -96,13 +109,13 @@ function parseGlossaryContent(content: string) {
         </tr>
       </thead>
       <tbody>
-        <tr v-for="item in glossaryItems" :key="item.id" class="hover:bg-muted/30">
+        <tr v-for="item in rows" :key="item.anchorId" class="hover:bg-muted/30">
           <td class="py-2 px-3 align-top">
-            <span :id="item.id" class="glossary-term">{{ item.term }}</span>
+            <span :id="item.anchorId" class="glossary-term">{{ item.term }}</span>
           </td>
           <td class="py-2 px-3 text-muted-foreground">
             <p class="glossary-definition">
-              <template v-for="(seg, idx) in parseGlossaryContent(item.content || item.definition)" :key="idx">
+              <template v-for="(seg, idx) in parseGlossaryContent(item.body)" :key="idx">
                 <span v-if="seg.type === 'html'" v-html="seg.html"></span>
                 <GlossaryLink v-else :display="seg.display" :id="seg.id" />
               </template>
@@ -137,7 +150,7 @@ function parseGlossaryContent(content: string) {
   font-weight: 600;
   margin: 0 0 0.5rem 0;
   color: var(--vp-c-brand);
-  scroll-margin-top: 5rem;
+  scroll-margin-top: calc(var(--vp-nav-height) + 16px);
 }
 
 .glossary-definition {
