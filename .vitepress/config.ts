@@ -113,7 +113,7 @@ export default defineConfig({
           if (!id.endsWith('.md')) return null
 
           const shortcodeRegex = /\{\{<\s*glossary_link\s+([^>]+)>\}\}/g
-          const replaced = code.replace(shortcodeRegex, (_m, attrs: string) => {
+          let replaced = code.replace(shortcodeRegex, (_m, attrs: string) => {
             const props: Record<string, string> = {}
             const attrRegex = /(\w+)\s*=\s*"([^"]*)"/g
             let match: RegExpExecArray | null
@@ -126,6 +126,11 @@ export default defineConfig({
             if (!display || !gid) return _m
             return `<GlossaryLink display="${display}" id="${gid}" />`
           })
+
+          // If GlossaryLink starts a line, Markdown can treat it as an HTML block,
+          // which breaks paragraph-level styling. Prefix with a zero-width space entity
+          // so the component is parsed inline instead.
+          replaced = replaced.replace(/(^|\n)([ \t]*)<GlossaryLink\b/g, '$1$2&#8203;<GlossaryLink')
 
           if (replaced === code) return null
           return { code: replaced, map: null }
