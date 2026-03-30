@@ -26,14 +26,20 @@ and there.
 
 <br>
 
-![Hass RDC Technical Avisory Group Meeting](Slide00.png)
+<figure>
+   <img src="./Slide00.png" alt="HASS RDC Technical Avisory Group Meeting" title="HASS RDC Technical Avisory Group Meeting" />
+   <figcaption>HASS RDC Technical Avisory Group Meeting</figcaption>
+</figure>
 
 The Language Data Commons of Australia Data Partnerships (LDaCA) and the Australian Text Analytics Platform (<GlossaryLink display="ATAP" id="atap" />) are establishing a scalable and flexible language data and analytics commons. These projects will be part of the Humanities and Social Sciences Research Data Commons (<GlossaryLink display="HASS" id="hass" /> <GlossaryLink display="RDC" id="rdc" />).
 The Data Commons will focus on preservation and discovery of distributed multi-modal language <GlossaryLink display="data collections" id="data-collection" /> under a variety of governance frameworks. This will include access control that reflects ethical constraints and <GlossaryLink display="intellectual property" id="intellectual-property" /> rights, including those of Aboriginal and Torres Strait Islander, migrant and Pacific communities.
 
 <br>
 
-![Slide01](Slide01.png)
+<figure>
+   <img src="./Slide01.png" alt="Arkisto Platform" title="Arkisto Platform" />
+   <figcaption>Arkisto Platform</figcaption>
+</figure>
 
 For this Research Data Commons work, we are using the <GlossaryLink display="Arkisto" id="arkisto" /> Platform
 (introduced [at eResearch 2020](http://ptsefton.com/2020/11/23/Arkisto/index.html)).
@@ -48,7 +54,10 @@ We are using three key standards on this project …
 
 <br>
 
-![Slide02](Slide02.png)
+<figure>
+   <img src="./Slide02.png" alt="Oxford Common File Layout" title="Oxford Common File Layout" />
+   <figcaption>Oxford Common File Layout</figcaption>
+</figure>
 
 The first standard is the [Oxford Common File Layout](https://ocfl.io/1.0/spec/) -
 this is a way of keeping version-controlled digital <GlossaryLink display="objects" id="object" /> on a plain old
@@ -87,7 +96,10 @@ Here’s the introduction to the spec:
 
 <br>
 
-![Slide03](Slide03.png)
+<figure>
+   <img src="./Slide03.png" alt="RO-Crate" title="RO-Crate" />
+   <figcaption>RO-Crate</figcaption>
+</figure>
 
 The second standard is Research Object Crate. (<GlossaryLink display="RO-Crate" id="ro-crate" />) a method for
 describing any dataset of local or remote resources as a digital object using
@@ -99,7 +111,10 @@ architecture diagrams and screenshots below).
 
 <br>
 
-![Slide04](Slide04.png)
+<figure>
+   <img src="./Slide04.png" alt="RO-Crate contents" title="RO-Crate contents" />
+   <figcaption>RO-Crate contents</figcaption>
+</figure>
 
 <GlossaryLink display="RO-Crates" id="ro-crate" /> may contain any kind of data resource about anything, in any format
 as a file or URL - it’s not just for language data; there are also many
@@ -108,7 +123,10 @@ projects in the sciences starting to
 
 <br>
 
-![Slide05](Slide05.png)
+<figure>
+   <img src="./Slide05.png" alt="Portland Common Data Model" title="Portland Common Data Model" />
+   <figcaption>Portland Common Data Model</figcaption>
+</figure>
 
 This image is taken from a
 [presentation on digital preservation](https://slideplayer.com/slide/3919920/).
@@ -128,7 +146,10 @@ be stored.
 
 <br>
 
-![Slide06](Slide06.png)
+<figure>
+   <img src="./Slide06.png" alt="HTML file: Collection level" title="HTML file: Collection level" />
+   <figcaption>HTML file: Collection level</figcaption>
+</figure>
 
 Back to RO-Crates.
 
@@ -146,7 +167,10 @@ rights and privacy are respected. More on this later.
 
 <br>
 
-![Slide07](Slide07.png)
+<figure>
+   <img src="./Slide07.png" alt="HTML file: Object level" title="HTML file: Object level" />
+   <figcaption>HTML file: Object level</figcaption>
+</figure>
 
 This shows a page for what we’re calling an Object (RepositoryObject). A
 RepositoryObject is a single “thing” such as a document, a conversation, or a
@@ -169,7 +193,10 @@ at a virtual workshop run by ANU in January.
 
 <br>
 
-![Slide08](Slide08.png)
+<figure>
+   <img src="./Slide08.png" alt="HTML file: File level" title="HTML file: File level" />
+   <figcaption>HTML file: File level</figcaption>
+</figure>
 
 Here’s another screenshot showing one of the government documents in PDF
 format - with a link back to the abstract RepositoryObject that houses all of
@@ -177,7 +204,10 @@ the manifestations of the document in various languages.
 
 <br>
 
-![Slide09](Slide09.png)
+<figure>
+   <img src="./Slide09.png" alt="Research data management" title="Research data management" />
+   <figcaption>Research data management</figcaption>
+</figure>
 
 The above diagram takes a big-picture view of research data management in the
 context of _doing_ research. It makes a distinction between managed
@@ -205,7 +235,10 @@ software such as workflows or notebooks.
 
 <br>
 
-![Slide10](Slide10.png)
+<figure>
+   <img src="./Slide10.png" alt="LDaCA research data commons architecture" title="LDaCA research data commons architecture" />
+   <figcaption>LDaCA research data commons architecture</figcaption>
+</figure>
 
 This rather messy slide captures the overall high-level architecture for the
 LDaCA Research Data Commons - there will be an analytical workbench (left of
@@ -221,7 +254,10 @@ research practices - which will be underpinned by services built on the
 
 <br>
 
-![Slide11](Slide11.png)
+<figure>
+   <img src="./Slide11.png" alt="LDaCA portal repository architecture" title="LDaCA portal repository architecture" />
+   <figcaption>LDaCA portal repository architecture</figcaption>
+</figure>
 
 In this presentation, we are going to focus on the portal/repository
 architecture more than on the <GlossaryLink display="ATAP" id="atap" /> notebook side of things. We know that we
@@ -235,7 +271,10 @@ place for long-term preservation.
 
 <br>
 
-![Slide12](Slide12.png)
+<figure>
+   <img src="./Slide12.png" alt="LDaCA core infrastructure" title="LDaCA core infrastructure" />
+   <figcaption>LDaCA core infrastructure</figcaption>
+</figure>
 
 This is a much simpler view zooming in on the core infrastructure components
 that we have built so far. We are starting with bulk ingest of existing
@@ -265,7 +304,10 @@ want [ ] Spoken or [ ] Written material?
 
 <br>
 
-![Slide13](Slide13.png)
+<figure>
+   <img src="./Slide13.png" alt="LDaCA core infrastructure annotated" title="LDaCA core infrastructure annotated" />
+   <figcaption>LDaCA core infrastructure annotated</figcaption>
+</figure>
 
 This architecture is very modular and designed to operate in a distributed
 fashion, potentially with distributed file and/or object-based repositories
@@ -277,7 +319,10 @@ a bigger repository with features or branding specific to a subset of data.
 
 <br>
 
-![Slide14](Slide14.png)
+<figure>
+   <img src="./Slide14.png" alt="Oni" title="Oni" />
+   <figcaption>Oni</figcaption>
+</figure>
 
 This implementation of the <GlossaryLink display="Arkisto" id="arkisto" /> standards-stack is known as <GlossaryLink display="Oni" id="oni" />. That’s
 not really an acronym anymore though it once stood for <GlossaryLink display="OCFL" id="ocfl" />, Ngnix (a web
@@ -286,7 +331,10 @@ Japanese demon. 👹
 
 <br>
 
-![Slide15](Slide15.png)
+<figure>
+   <img src="./Slide15.png" alt="Collection conversion" title="Collection conversion" />
+   <figcaption>Collection conversion</figcaption>
+</figure>
 
 But how will data get into the <GlossaryLink display="OCFL" id="ocfl" /> repository? At the moment we’re loading
 data using a series of scripts which are being developed at our github
@@ -300,7 +348,10 @@ collection, ALWAYS with access control based on licenses.
 
 <br>
 
-![Slide16](Slide16.png)
+<figure>
+   <img src="./Slide16.png" alt="Corpus tools" title="Corpus tools" />
+   <figcaption>Corpus tools</figcaption>
+</figure>
 
 This is a screenshot of our <GlossaryLink display="GitHub" id="github" /> repository showing the corpus migration tools
 we’ve started developing (there are six, and one general purpose text-
@@ -310,7 +361,10 @@ that can be made available in one or more portals
 
 <br>
 
-![Slide17](Slide17.png)
+<figure>
+   <img src="./Slide17.png" alt="Alveo portal" title="Alveo portal" />
+   <figcaption>Alveo portal</figcaption>
+</figure>
 
 Here’s our portal which gives a browse interface to allow drill-down data discovery.
 
@@ -322,7 +376,10 @@ Alveo was built ten years ago - and has not seen much uptake.
 
 <br>
 
-![Slide18](Slide18.png)
+<figure>
+   <img src="./Slide18.png" alt="Alveo browse facets" title="Alveo browse facets" />
+   <figcaption>Alveo browse facets</figcaption>
+</figure>
 
 This screenshot shows some of the browse facets for the COOEE corpus, which
 contains early Australian **written** English materials. But facets like `
@@ -355,7 +412,10 @@ demo stuff at any time.
 
 <br>
 
-![Slide19](Slide19.png)
+<figure>
+   <img src="./Slide19.png" alt="API demo with Postman" title="API demo with Postman" />
+   <figcaption>API demo with Postman</figcaption>
+</figure>
 
 We decided to build from the data <GlossaryLink display="API" id="api" /> first.
 
@@ -380,7 +440,10 @@ team have been developing to be applied to other similar data in LDaCA.
 
 <br>
 
-![Slide20](Slide20.png)
+<figure>
+   <img src="./Slide20.png" alt="Farms to Freeways notebook" title="Farms to Freeways notebook" />
+   <figcaption>Farms to Freeways notebook</figcaption>
+</figure>
 
 And one of the data scientists who was working with us at <GlossaryLink display="UQ" id="uq" />, Mel Mistica,
 developed a [demonstration notebook](https://github.com/Australian-Text-Analytics-Platform/ro-crate-metadata/blob/main/ro-crate-metadata.ipynb)
@@ -394,7 +457,10 @@ they were talking about.
 
 <br>
 
-![Slide21](Slide21.png)
+<figure>
+   <img src="./Slide21.png" alt="Oni portal" title="Oni portal" />
+   <figcaption>Oni portal</figcaption>
+</figure>
 
 This screencast shows a work-in-progress snapshot of the <GlossaryLink display="Oni" id="oni" /> portal we talked
 about above in action, showing how search and browse might be used to find
@@ -403,7 +469,10 @@ in a small set of Australian Government documents.
 
 <br>
 
-![Slide22](Slide22.png)
+<figure>
+   <img src="./Slide22.png" alt="'It\'s not just for Christmas\'" title="'It\'s not just for Christmas\'" />
+   <figcaption>'It's not just for Christmas'</figcaption>
+</figure>
 
 Hang on!
 
@@ -419,7 +488,10 @@ an institution rather than a software stack or collection of files, more
 
 <br>
 
-![Slide23](Slide23.png)
+<figure>
+   <img src="./Slide23.png" alt="Access control" title="Access control" />
+   <figcaption>Access control</figcaption>
+</figure>
 
 The next half a dozen slides are based on
 [a presentation](https://ptsefton.com/2021/10/12/ldaca2021/index.html)
@@ -446,7 +518,10 @@ the data.
 
 <br>
 
-![Slide24](Slide24.png)
+<figure>
+   <img src="./Slide24.png" alt="CARE Principles for Indigenous Data Governance" title="CARE Principles for Indigenous Data Governance" />
+   <figcaption>CARE Principles for Indigenous Data Governance</figcaption>
+</figure>
 
 Regarding rights, our project is informed by the
 <GlossaryLink display="CARE" id="care" /> principles for Indigenous data.
@@ -469,7 +544,10 @@ about the protection of those moral rights.
 
 <br>
 
-![Slide25](Slide25.png)
+<figure>
+   <img src="./Slide25.png" alt="Traditional Knowledge Labels" title="Traditional Knowledge Labels" />
+   <figcaption>Traditional Knowledge Labels</figcaption>
+</figure>
 
 [Traditional Knowledge Labels](https://localcontexts.org/labels/traditional-knowledge-labels/)
 
@@ -481,7 +559,10 @@ the data custodians who can make decisions about who is allowed to access data.
 
 <br>
 
-![Slide26](Slide26.png)
+<figure>
+   <img src="./Slide26.png" alt="Sydney Speaks" title="Sydney Speaks" />
+   <figcaption>Sydney Speaks</figcaption>
+</figure>
 
 We are working on a case study with the
 [Sydney Speaks project](http://www.dynamicsoflanguage.edu.au/sydney-speaks/)
@@ -517,7 +598,10 @@ people in a huge range of disciplines.
 
 <br>
 
-![Slide27](Slide27.png)
+<figure>
+   <img src="./Slide27.png" alt="Sydney Speaks licenses" title="Sydney Speaks licenses" />
+   <figcaption>Sydney Speaks licenses</figcaption>
+</figure>
 
 There are four tiers of data access we need to enforce and observe for this
 data based on the participant agreements and ethics arrangements under which
@@ -530,7 +614,10 @@ appropriate.
 
 <br>
 
-![Slide28](Slide28.png)
+<figure>
+   <img src="./Slide28.png" alt="ATAP demo" title="ATAP demo" />
+   <figcaption>ATAP demo</figcaption>
+</figure>
 
 In this example demo we uploaded various collections and are authorising with
 <GlossaryLink display="GitHub" id="github" /> organisations.
@@ -554,7 +641,10 @@ given access to license A to others.
 
 <br>
 
-![Slide29](Slide29.png)
+<figure>
+   <img src="./Slide29.png" alt="Repository autthorisation delegation" title="Repository autthorisation delegation" />
+   <figcaption>Repository autthorisation delegation</figcaption>
+</figure>
 
 This diagram is a sketch of the interaction that took place in the demo - it
 shows how a repository can delegate authorization to an external system - in
@@ -564,7 +654,10 @@ the <GlossaryLink display="HASS" id="hass" /> Research Data Commons so we can pi
 
 <br>
 
-![Slide30](Slide30.png)
+<figure>
+   <img src="./Slide30.png" alt="Items TODO" title="Items TODO" />
+   <figcaption>Items TODO</figcaption>
+</figure>
 
 There’s a lot still to do.
 

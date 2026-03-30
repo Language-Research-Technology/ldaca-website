@@ -82,7 +82,7 @@ The top menu of the home page allows you to access some of the main features of 
 
 <br>
 
-The left panel of the portal home page allows you to refine your data query through the use of a search field and filters. Searching allows you to view records which include specific information, while filtering allows you to view records which share values for <GlossaryLink display="metadata" id="metadata" /> categories. Hovering over the information icon ![Information Icon](./information.png) next to each filter will display tooltips related to that filter. See [Search](/resources/user-guides/portal/search/) and [Filters](/resources/user-guides/portal/filters/) for more details on how to use the search and filter functions.
+The left panel of the portal home page allows you to refine your data query through the use of a search field and filters. Searching allows you to view records which include specific information, while filtering allows you to view records which share values for <GlossaryLink display="metadata" id="metadata" /> categories. Hovering over the information icon <img src="./information.png" alt="Information Icon" style="display:inline; width:1.5em; vertical-align:middle;" /> next to each filter will display tooltips related to that filter. See [Search](/resources/user-guides/portal/search/) and [Filters](/resources/user-guides/portal/filters/) for more details on how to use the search and filter functions.
 
 <br>
 
@@ -178,7 +178,7 @@ Clicking on one of the collections from the main page results will take you to t
 
 <br>
 
-The main panel of the Collection page lists the main details and <GlossaryLink display="metadata" id="metadata" /> associated with the collection. Clicking on the question mark icon ![Question Mark Icon](./question.png) or information icon ![Information Icon](./information.png) next to each heading will display tooltips related to that item.
+The main panel of the Collection page lists the main details and <GlossaryLink display="metadata" id="metadata" /> associated with the collection. Clicking on the question mark icon <img src="./question.png" alt="Question Mark Icon" style="display:inline; width:1.5em; vertical-align:middle;" /> or information icon <img src="./information.png" alt="Information Icon" style="display:inline; width:1.5em; vertical-align:middle;" /> next to each heading will display tooltips related to that item.
 
 Below the main description and <GlossaryLink display="metadata" id="metadata" /> is the number of objects present in the collection. The objects are then listed below, with buttons allowing navigation by page if there are more than 10 objects in the collection.
 
@@ -206,7 +206,7 @@ Clicking on one of the objects or files from either the main page results or fro
 
 <br>
 
-The left panel of the Object page lists the main details and <GlossaryLink display="metadata" id="metadata" /> associated with the object. Clicking on the question mark icon ![Question Mark Icon](./question.png) or information icon ![Information Icon](./information.png) next to each heading will display tooltips related to that item.
+The left panel of the Object page lists the main details and <GlossaryLink display="metadata" id="metadata" /> associated with the object. Clicking on the question mark icon <img src="./question.png" alt="Question Mark Icon" style="display:inline; width:1.5em; vertical-align:middle;" /> or information icon <img src="./information.png" alt="Information Icon" style="display:inline; width:1.5em; vertical-align:middle;" /> next to each heading will display tooltips related to that item.
 
 The right panel has the following sections:
 
@@ -226,7 +226,7 @@ Clicking on one of the <GlossaryLink display="notebooks" id="jupyter-notebook" /
 
 <br><!-- TODO add image when notebooks page is more finalised-->
 
-The left panel of the Notebook page lists the main details and <GlossaryLink display="metadata" id="metadata" /> associated with the notebook. Clicking on the question mark icon ![Question Mark Icon](./question.png) or information icon ![Information Icon](./information.png) next to each heading will display tooltips related to that item.
+The left panel of the Notebook page lists the main details and <GlossaryLink display="metadata" id="metadata" /> associated with the notebook. Clicking on the question mark icon <img src="./question.png" alt="Question Mark Icon" style="display:inline; width:1.5em; vertical-align:middle;" /> or information icon <img src="./information.png" alt="Information Icon" style="display:inline; width:1.5em; vertical-align:middle;" /> next to each heading will display tooltips related to that item.
 
 The right panel has the following sections:
 
