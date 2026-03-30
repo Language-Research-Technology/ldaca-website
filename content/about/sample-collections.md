@@ -2,7 +2,7 @@
 title: "Collections"
 date: 2022-02-15T17:13:28+10:00
 draft: false
-description: "Information about the first datasets which have been added to the LDaCA and Oni ."
+description: "Information about the first datasets which have been added to the LDaCA and Oni."
 ---
 
 <br>

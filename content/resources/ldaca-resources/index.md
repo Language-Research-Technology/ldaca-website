@@ -14,7 +14,7 @@ weight: 1
 <article class="archive-item">
     <a href="/licenses/" class="archive-item-link">
         <h2 class="archive-item-title">Licenses</h2>
-        <p class="archive-item-description"> Specifies the license(s) that data contributors have applied to the content of their collection, including the content coverage of that license. </p>
+        <p class="archive-item-description"> Specifies the license(s) that data contributors have applied to the content of their collection, including the content coverage of that license.</p>
     </a>
 </article>
 

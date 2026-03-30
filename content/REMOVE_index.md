@@ -42,7 +42,7 @@
       <div class="slide__content">
         <h1>About</h1>
         <h3><a href="about/">Learn more</a> about LDaCA, what it does and who is involved in the project.</h3>
-        <h3>Our <a href="about/faqs/">Frequently Asked Questions page</a> can help with the most commonly asked questions about our project. </h3>
+        <h3>Our <a href="about/faqs/">Frequently Asked Questions page</a> can help with the most commonly asked questions about our project.</h3>
       </div> 
     <!-- </a> -->
   </div>

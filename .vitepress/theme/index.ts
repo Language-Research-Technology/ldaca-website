@@ -7,7 +7,6 @@ import GlossaryList from './components/GlossaryList.vue'
 import BlogPostsPage from './components/BlogPostsPage.vue'
 import BlogPostsList from './components/BlogPostsList.vue'
 import Profile from './components/Profile.vue'
-import SubPageHero from './components/SubPageHero.vue'
 import DataPortalBox from './components/DataPortalBox.vue'
 import Carousel from './components/Carousel.vue'
 import CarouselLarge from './components/CarouselLarge.vue'
@@ -32,7 +31,6 @@ export default {
     app.component('GlossaryList', GlossaryList)
     app.component('BlogPostsPage', BlogPostsPage)
     app.component('Profile', Profile)
-    app.component('SubPageHero', SubPageHero)
     app.component('DataPortalBox', DataPortalBox)
     app.component('BlogPostsList', BlogPostsList)
     app.component('Carousel', Carousel)
