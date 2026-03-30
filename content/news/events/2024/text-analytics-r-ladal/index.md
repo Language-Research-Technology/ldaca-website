@@ -5,7 +5,7 @@ layout: event
 image: "https://resbaz.github.io/resbaz2024qld/img/resbaz_logos/ResBaz_transparent_cropped.png"
 link: ""
 eventDate: "7 November 2024"
-time: ""
+eventTime: ""
 location: "ACU Brisbane"
 cost: ""
 organiser: "ResBaz Queensland"

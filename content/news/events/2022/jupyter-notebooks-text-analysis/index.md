@@ -5,7 +5,7 @@ layout: event
 image: "https://jupyter.org/assets/homepage/main-logo.svg"
 link: ""
 eventDate: "24 November 2021, 27 July 2022, 24 August 2022, 22 November 2023"
-time: "Varies by day and event"
+eventTime: "Varies by day and event"
 location: ""
 cost: ""
 organiser: ""

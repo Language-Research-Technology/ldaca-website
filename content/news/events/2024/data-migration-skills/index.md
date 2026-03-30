@@ -5,7 +5,7 @@ layout: event
 image: 
 link: ""
 eventDate: "3 - 5 September 2024"
-time: ""
+eventTime: ""
 location: ""
 cost: ""
 organiser: ""

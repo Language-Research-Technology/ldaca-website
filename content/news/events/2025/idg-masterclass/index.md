@@ -5,7 +5,7 @@ layout: event
 image: "https://img.youtube.com/vi/fDUnUSsovBg/sddefault.jpg"
 link: "https://ardc.edu.au/event/hass-and-indigenous-research-data-commons-summer-school-2025/"
 eventDate: "3 February 2025"
-time: ""
+eventTime: ""
 location: "State Library of Queensland"
 cost: ""
 organiser: "ARDC HASS and Indigenous Research Data Commons"

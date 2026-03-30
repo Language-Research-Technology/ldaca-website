@@ -5,7 +5,7 @@ layout: event
 image: 
 link: ""
 eventDate: "16 March 2022"
-time: ""
+eventTime: ""
 location: ""
 cost: ""
 organiser: "ADO & ATAP"

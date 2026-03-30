@@ -5,7 +5,7 @@ layout: event
 image: 
 link: ""
 eventDate: "3 October 2022"
-time: ""
+eventTime: ""
 location: "Online"
 cost: ""
 organiser: "LADAL & LDaCA"

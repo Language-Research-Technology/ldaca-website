@@ -5,7 +5,7 @@ layout: event
 image: 
 link: ""
 eventDate: "28 November 2024"
-time: ""
+eventTime: ""
 location: ""
 cost: ""
 organiser: "ARDC"

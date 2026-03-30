@@ -5,7 +5,7 @@ layout: event
 image: 
 link: ""
 eventDate: "8 September 2022"
-time: ""
+eventTime: ""
 location: ""
 cost: ""
 organiser: ""

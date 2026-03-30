@@ -5,7 +5,7 @@ layout: event
 image: "https://images.humanitix.com/i/hI2fjuIT7Wai6JZJewXw@responsive-1250.webp"
 link: "https://www.unimelb.edu.au/mdap"
 eventDate: "20 February 2025"
-time: ""
+eventTime: ""
 location: ""
 cost: ""
 organiser: "Melbourne Data Analytics Platform"

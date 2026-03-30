@@ -75,9 +75,9 @@ const event = computed(() => page.value?.frontmatter || {})
                     </div>
 
                     <!-- Time -->
-                    <div v-if="event.time" class="mb-4">
+                    <div v-if="event.eventTime" class="mb-4">
                         <p class="font-bold text-gray-600 uppercase text-sm">Time/s</p>
-                        <p class="text-gray-700">{{ event.time }}</p>
+                        <p class="text-gray-700">{{ event.eventTime }}</p>
                     </div>
 
                     <!-- Location -->

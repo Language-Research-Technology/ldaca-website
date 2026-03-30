@@ -5,7 +5,7 @@ layout: event
 image: "https://redditinc.com/hubfs/Reddit%20Inc/Content/Brand%20Page/Reddit_Lockup_Logo.svg"
 link: ""
 eventDate: "9 & 16 October 2024"
-time: ""
+eventTime: ""
 location: ""
 cost: ""
 organiser: "QUT Digital Observatory & LDaCA"

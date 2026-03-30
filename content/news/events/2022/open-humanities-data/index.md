@@ -5,7 +5,7 @@ layout: event
 image: "https://www.turing.ac.uk/sites/default/files/2020-04/researcher_spotlight_headers_-_barbara.jpg"
 link: ""
 eventDate: "6 June 2022"
-time: ""
+tieventTimeme: ""
 location: "Online"
 cost: ""
 organiser: "LADAL & LDaCA"

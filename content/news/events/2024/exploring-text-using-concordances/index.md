@@ -5,7 +5,7 @@ layout: event
 image: "https://resbaz.github.io/resbazvic2024/img/resbaz_logos/ResBazVic_2024.png"
 link: ""
 eventDate: "27 November 2024"
-time: ""
+eventTime: ""
 location: "Monash University"
 cost: ""
 organiser: "ResBaz Victoria"

@@ -5,7 +5,7 @@ layout: event
 image: "https://www.clarin.eu/sites/default/files/styles/max_325x325/public/ParlaMint_2.png?itok=MPnCQlOd"
 link: ""
 eventDate: "28 August 2025"
-time: ""
+eventTime: ""
 location: ""
 cost: ""
 organiser: ""

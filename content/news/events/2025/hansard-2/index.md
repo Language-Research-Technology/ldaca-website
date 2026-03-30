@@ -5,7 +5,7 @@ layout: event
 image: "https://images.humanitix.com/i/hI2fjuIT7Wai6JZJewXw@responsive-1250.webp"
 link: "https://hass.uq.edu.au/event/session/17466"
 eventDate: "11 September 2025"
-time: "9:30am–12:30pm AEST"
+eventTime: "9:30am–12:30pm AEST"
 location: "The University of Queensland"
 cost: ""
 organiser: "The Centre for Digital Cultures & Societies"

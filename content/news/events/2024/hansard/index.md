@@ -5,7 +5,7 @@ layout: event
 image: 
 link: ""
 eventDate: "19 September 2024"
-time: ""
+eventTime: ""
 location: "The University of Sydney"
 cost: ""
 organiser: "Computational Social Science Lab"

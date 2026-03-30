@@ -5,7 +5,7 @@ layout: event
 image: "https://images.humanitix.com/i/eDs1ZMynRVWOhUJcyjA1@responsive-1250.webp"
 link: "https://events.humanitix.com/introduction-to-computational-text-analytics-fm6j24un"
 eventDate: "23 - 24 May 2024"
-time: ""
+eventTime: ""
 location: "The University of Queensland"
 cost: ""
 organiser: "The Centre for Digital Cultures & Societies"

@@ -49,7 +49,7 @@ function generatePagesData() {
           description: data.description,
           category: data.category,
           eventDate: data.eventDate,
-          time: data.time,
+          eventTime: data.eventTime,
           location: data.location,
           author: data.author,
         }

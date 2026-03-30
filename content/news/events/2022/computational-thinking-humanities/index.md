@@ -5,7 +5,7 @@ layout: event
 image: 
 link: ""
 eventDate: "1 September 2022"
-time: ""
+eventTime: ""
 location: "Online"
 cost: ""
 organiser: "ATAP, FIN-CLARIAH & ADO"

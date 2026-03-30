@@ -74,7 +74,7 @@ const mergedItems = computed(() =>
         (Array.isArray(props.image) ? props.image[0] : props.image),
       description: rawItem.description ?? pageMetadata?.description,
       eventDate,
-      time: rawItem.time ?? pageMetadata?.time,
+      eventTime: rawItem.eventTime ?? pageMetadata?.eventTime,
       location: rawItem.location ?? pageMetadata?.location,
       category: rawItem.category ?? pageMetadata?.category,
       year: extractYear(eventDate)
@@ -194,8 +194,8 @@ const isExternal = (url) => {
               <h3 :class="textClass">{{ item.title }}</h3>
 
               <!-- Combine date and time -->
-              <p v-if="item.eventDate || item.time" :class="textClass" class="font-bold">
-                {{ [item.eventDate, item.time].filter(Boolean).join(', ') }}
+              <p v-if="item.eventDate || item.eventTime" :class="textClass" class="font-bold">
+                {{ [item.eventDate, item.eventTime].filter(Boolean).join(', ') }}
               </p>
 
               <p v-if="item.location" :class="textClass" class="font-bold">
@@ -236,8 +236,8 @@ const isExternal = (url) => {
             <p class="text-white">{{ item.category ?? pagesData[item.link]?.category }}</p>
             <h3 class="text-white">{{ item.title ?? pagesData[item.link]?.title }}</h3>
             <!-- Combine date and time -->
-            <p v-if="pagesData[item.link]?.eventDate || pagesData[item.link]?.time" class="font-bold text-white">
-              {{ [pagesData[item.link]?.eventDate, pagesData[item.link]?.time].filter(Boolean).join(', ') }}
+            <p v-if="pagesData[item.link]?.eventDate || pagesData[item.link]?.eventTime" class="font-bold text-white">
+              {{ [pagesData[item.link]?.eventDate, pagesData[item.link]?.eventTime].filter(Boolean).join(', ') }}
             </p>
 
             <p v-if="pagesData[item.link]?.location" class="font-bold text-white">

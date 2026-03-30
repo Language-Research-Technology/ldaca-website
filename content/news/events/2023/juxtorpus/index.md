@@ -5,7 +5,7 @@ layout: event
 image: 
 link: ""
 eventDate: "25 May 2023"
-time: ""
+eventTime: ""
 location: ""
 cost: ""
 organiser: ""

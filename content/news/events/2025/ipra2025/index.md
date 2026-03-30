@@ -5,7 +5,7 @@ layout: event
 image: "https://cdn.ymaws.com/pragmatics.international/graphics/logo.jpg"
 link: ""
 eventDate: "22 June 2025"
-time: "15:45pm – 16:45pm"
+eventTime: "15:45pm – 16:45pm"
 location: "The University of Queensland"
 cost: ""
 organiser: "IPrA2025: 19th International Pragmatics Conference"

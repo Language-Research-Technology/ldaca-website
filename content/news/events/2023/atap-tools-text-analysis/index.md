@@ -5,7 +5,7 @@ layout: event
 image: "https://languages-cultures.uq.edu.au/files/26797/ISLE%207%20logo.png"
 link: "https://languages-cultures.uq.edu.au/isle7"
 eventDate: "19 June 2023"
-time: ""
+eventTime: ""
 location: "The University of Queensland"
 cost: ""
 organiser: ""

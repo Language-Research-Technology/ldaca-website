@@ -5,7 +5,7 @@ layout: event
 image: "https://language-research-technology.github.io/crate-o/logo.svg"
 link: "https://uqz.zoom.us/j/85192198914"
 eventDate: "Thursdays, Weekly"
-time: "2pm AEST"
+eventTime: "2pm AEST"
 location: "Online via Zoom"
 cost: "Free"
 organiser: ""

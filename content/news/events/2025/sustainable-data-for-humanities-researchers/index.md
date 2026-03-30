@@ -5,7 +5,7 @@ layout: event
 image: "https://rduevents.unimelb.edu.au/live/image/scale/2x/gid/23/width/300/height/169/crop/1/609_HASSevent.rev.1754545130.webp"
 link: "https://rduevents.unimelb.edu.au/event/2318-sustainable-data-for-humanities-researchers"
 eventDate: "26 August 2025"
-time: "9am – 4:30pm AEST"
+eventTime: "9am – 4:30pm AEST"
 location: "The University of Melbourne"
 cost: "Free"
 organiser: "Melbourne Data Analytics Platform"

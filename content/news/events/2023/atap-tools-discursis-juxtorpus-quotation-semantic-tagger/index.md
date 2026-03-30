@@ -5,7 +5,7 @@ layout: event
 image: "https://www.sydney.edu.au/content/dam/corporate/images/faculty-of-arts-and-social-sciences/research/research-centres/caitg/caitg-2.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg"
 link: ""
 eventDate: "14 March 2023"
-time: ""
+eventTime: ""
 location: ""
 cost: ""
 organiser: "Sydney Informatics Hub"

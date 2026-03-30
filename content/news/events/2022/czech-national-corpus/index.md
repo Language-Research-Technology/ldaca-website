@@ -5,7 +5,7 @@ layout: event
 image: "https://www.clarin.eu/sites/default/files/styles/max_2600x2600/public/cnk.png"
 link: ""
 eventDate: "1 August 2022"
-time: ""
+eventTime : ""
 location: "Online"
 cost: ""
 organiser: "LADAL & LDaCA"

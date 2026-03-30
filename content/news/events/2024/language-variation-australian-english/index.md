@@ -5,7 +5,7 @@ layout: event
 image: 
 link: ""
 eventDate: "2 May 2024"
-time: ""
+eventTime: ""
 location: "Online"
 cost: ""
 organiser: "The University of Western Australia & The Language Lab"

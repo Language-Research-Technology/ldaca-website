@@ -5,7 +5,7 @@ layout: event
 image: "https://www.cdu.edu.au/files/styles/landscape_body/public/2023-10/ni-staff-steven-bird%20%281%29.jpg.webp?h=8c1344d8&itok=w1lIOV7O"
 link: ""
 eventDate: "29 May 2025"
-time: "3:30 pm AEST"
+eventTime: "3:30 pm AEST"
 location: "Online"
 cost: ""
 organiser: ""

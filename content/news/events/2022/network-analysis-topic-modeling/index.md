@@ -5,7 +5,7 @@ layout: event
 image: "https://www.r-project.org/Rlogo.png"
 link: ""
 eventDate: "18 May 2022"
-time: ""
+eventTime: ""
 location: ""
 cost: ""
 organiser: "ADP & ATAP"

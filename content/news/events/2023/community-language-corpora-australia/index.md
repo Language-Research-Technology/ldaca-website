@@ -5,7 +5,7 @@ layout: event
 image: 
 link: ""
 eventDate: "9 - 10 November 2023"
-time: ""
+eventTime: ""
 location: "ANU"
 cost: ""
 organiser: ""

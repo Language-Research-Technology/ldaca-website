@@ -5,7 +5,7 @@ layout: event
 image: "https://s41721.pcdn.co/wp-content/uploads/2022/06/Picture2.jpg"
 link: ""
 eventDate: "4 April 2022"
-time: ""
+eventTime: ""
 location: "Online"
 cost: ""
 organiser: "LADAL & LDaCA"

@@ -5,7 +5,7 @@ layout: event
 image: "https://www.eventbrite.com.au/e/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F677165239%252F34338661734%252F1%252Foriginal.20240118-034439%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3Db8c0db613691ba78bde3d22a41e39b53&w=940&q=75"
 link: "https://www.eventbrite.com.au/e/language-data-commons-of-australia-co-design-workshops-tickets-802153060397"
 eventDate: "22 February & 7 March 2024"
-time: ""
+eventTime: ""
 location: "Online"
 cost: ""
 organiser: ""

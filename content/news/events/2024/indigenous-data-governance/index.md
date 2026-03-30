@@ -5,7 +5,7 @@ layout: event
 image: "/news/posts/ID-gov-panel-2024/DSC_5642-Enhanced-NR-cropped.jpg"
 link: ""
 eventDate: "30 September 2024"
-time: ""
+eventTime: ""
 location: "The University of Queensland"
 cost: ""
 organiser: ""

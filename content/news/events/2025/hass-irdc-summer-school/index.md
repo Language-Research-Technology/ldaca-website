@@ -5,7 +5,7 @@ layout: event
 image: "https://ardc.edu.au/wp-content/uploads/2024/10/hassi-post01-feature-image-583-x-345-580x345.webp"
 link: "https://ardc.edu.au/event/hass-and-indigenous-research-data-commons-summer-school-2025/"
 eventDate: "4 – 6 February 2025"
-time: ""
+eventTime: ""
 location: ""
 cost: ""
 organiser: "ARDC"

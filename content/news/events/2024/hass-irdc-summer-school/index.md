@@ -5,7 +5,7 @@ layout: event
 image: "https://ardc.edu.au/wp-content/uploads/2024/10/hassi-post01-feature-image-583-x-345-580x345.webp"
 link: "https://ardc.edu.au/event/hass-and-indigenous-rdc-summer-school-2024/"
 eventDate: "3 - 6 February 2024"
-time: ""
+eventTime: ""
 location: "The University of Queensland"
 cost: "Free"
 organiser: "ARDC"
