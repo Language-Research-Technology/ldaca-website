@@ -38,10 +38,10 @@ For more information about Crate-O and how to create RO-Crates with the interfac
 
 ### Sydney Informatics Hub / Sydney Corpus Lab
 
-- [Document Similarity Tool](https://github.com/Australian-Text-Analytics-Platform/document-similarity): A tool that identifies identical and similar text in a corpus.
+- [Document Similarity](https://github.com/Australian-Text-Analytics-Platform/document-similarity): A tool that identifies identical and similar text in a corpus.
 - [Quotation Tool](https://github.com/Australian-Text-Analytics-Platform/quotation-tool): A tool to extract quotes and other useful information from a newspaper article/corpus. 
 - [Semantic Tagger](https://github.com/Australian-Text-Analytics-Platform/semantic-tagger): A tool used to tag a text/corpus so you can extract token level semantic tags from the tagged texts.
-- [Keyword Analysis](https://github.com/Australian-Text-Analytics-Platform/keywords-analysis): A tool to analyse words in a collection of corpora and identify whether certain words are over or under-represented in a particular corpus.
+- [Keywords Analysis](https://github.com/Australian-Text-Analytics-Platform/keywords-analysis): A tool to analyse words in a collection of corpora and identify whether certain words are over or under-represented in a particular corpus.
 - [Discursis](https://github.com/Australian-Text-Analytics-Platform/discursis): A conversational analysis and visualisation tool.
 - [Concordancer](https://github.com/Australian-Text-Analytics-Platform/atap_widgets): A concordancing tool that demos how to analyse turn-taking pairs in a concordancer. 
 
@@ -49,19 +49,19 @@ For more information about Crate-O and how to create RO-Crates with the interfac
 
 - [Image Dataset Explorer](https://github.com/Language-Research-Technology/image-dataset-explorer): A tool that embeds images from a zip file using off the shelf image embeddings, then creates a static HTML visualisation for browsing/exploring clusters and relations.
 - **Language Technology & Data Analysis Laboratory (LADAL) Tools**
-    - [Concordancing](https://ladal.edu.au/tools.html#concordancing)
-    - [Collocations](https://ladal.edu.au/tools.html#collocations)
-    - [Keyword analysis](https://ladal.edu.au/tools.html#keywords)
-    - [Part-of-speech tagging](https://ladal.edu.au/tools.html#pos-tagging)
-    - [Corpus cleaning](https://ladal.edu.au/tools.html#corpus-text-cleaning)
-    - [Network analysis](https://ladal.edu.au/tools.html#network-analysis)
-    - [Topic modelling](https://ladal.edu.au/tools.html#topic-modelling)    
-    - [Sentiment analysis](https://ladal.edu.au/tools.html#sentiment-analysis)
+    - [Concordancing](https://ladal.edu.au/tools.html#concordancing): A tool to generate concordances for single word and multi-word expressions.
+    - [Collocations](https://ladal.edu.au/tools.html#collocations): A tool for identifying words which co-occur with a target word.
+    - [Keyword analysis](https://ladal.edu.au/tools.html#keywords): A tool for identifying words which are over- or under-represented in some text in comparison with some other text.
+    - [Part-of-speech tagging](https://ladal.edu.au/tools.html#pos-tagging): A tool which adds word class labels (Part of Speech tags) to each token in text.
+    - [Corpus cleaning](https://ladal.edu.au/tools.html#corpus-text-cleaning): Tools to prepare text for further analysis.
+    - [Network analysis](https://ladal.edu.au/tools.html#network-analysis): A tool to generate visualisations of networks.
+    - [Topic modelling](https://ladal.edu.au/tools.html#topic-modelling): A tool for content analysis using topic models.    
+    - [Sentiment analysis](https://ladal.edu.au/tools.html#sentiment-analysis): A tool for identifying positive and negative sentiments in text.
 
 ### Australian National University
 
 - [ELAN Find & Replace](https://github.com/Supertyp/ELAN_apps): A tool that enables context dependent search and replace functionality across a folder of ELAN files.
-- [ELAN Split Annotation](https://github.com/Supertyp/ELAN_apps): A tool that can split ELAN annotations.</p>
+- [ELAN Split Annotation](https://github.com/Supertyp/ELAN_apps): A tool that can split ELAN annotations.
 - [ELAN Inventory](https://www.gerlingo.com/config_maker.html): A web application that summarises ELAN files and compiles configuration files to create an [ANNIS](https://corpus-tools.org/annis/) corpus.
 - [ELAN Commander](https://www.gerlingo.com/ELAN_commander.html): A web application that finds unwanted characters in ELAN annotations.
 - [Anonymising ELAN Files](https://github.com/Supertyp/Anonymising_ELAN_files): A tool that anonymises the content of ELAN files.
