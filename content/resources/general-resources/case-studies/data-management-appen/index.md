@@ -4,7 +4,6 @@ date: 2024-03-22T15:12:12+11:00
 draft: false
 description: "LDaCA team member Rosanna Smith discusses data management in language technology, focusing on projects at tech company Appen."
 image: "/resources/general-resources/case-studies/data-management-appen/audio-transcription.png"
-category: "CASE STUDY"
 layout: doc
 ---
 

@@ -62,7 +62,7 @@ footer {
       <div class="container mx-auto pb-12 px-6">
         <div class="pt-8">
           <!-- Logo at top -->
-          <div class="relative z-0 flex items-center justify-center gap-2 mb-8">
+          <div class="relative z-0 flex items-center justify-center gap-2 mb-2">
             <a href="/" class="flex items-center gap-2 hover:opacity-80 transition-opacity">
               <img v-if="logo.dark" :src="logo.dark" alt="LDaCA" class="h-52 w-auto">
               <span v-if="!logo.dark" class="font-bold text-lg">{{ site.title }}</span>

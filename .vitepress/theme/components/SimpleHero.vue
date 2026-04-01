@@ -32,10 +32,10 @@ const props = defineProps({
     <div class="relative w-full bg-cover bg-center bg-no-repeat min-h-[200px]"
       :style="{ backgroundImage: `url(${backgroundImage})`, backgroundColor: headerBgColor }">
       <!-- Content container -->
-      <div class="max-w-[1280px] mx-auto px-4 py-8">
+      <div class="max-w-[1280px] mx-auto py-8">
         <div class="max-w-[70%] relative z-10 xs:max-w-full">
-          <p class="m-0 pb-10 text-white">{{ breadcrumb }}</p>
-          <h1 class="m-0 pb-4 text-white">{{ title }}</h1>
+          <p v-if="breadcrumb" class="m-0 text-white">{{ breadcrumb }}</p>
+          <h1 class="m-0 pt-8 pb-4 text-white">{{ title }}</h1>
           <!-- Only show description if the page frontmatter has "layout: home" or "layout: event" -->
           <p v-if="frontmatter.layout === 'home' || frontmatter.layout === 'event' || frontmatter.layout === 'post' || frontmatter.layout === 'doc' || frontmatter.layout === 'root_list'"
             class=" my-4 mb-8 text-white/90 leading-relaxed text-[1.7rem]" v-html="description"></p>

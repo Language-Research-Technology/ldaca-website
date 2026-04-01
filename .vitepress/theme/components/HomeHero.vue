@@ -77,7 +77,7 @@ const thumbnailUrl = computed(() => {
   }">
 
     <!-- DESKTOP / LARGE SCREEN -->
-    <div class="hidden xl:flex max-w-[1440px] mx-auto px-8 py-16 items-center gap-12">
+    <div class="hidden xl:flex max-w-[1280px] mx-auto py-16 items-center gap-12">
       <!-- LEFT: Content -->
       <div class="flex-1 max-w-[calc(100%-814px)]">
         <h1 class="m-0 text-white">{{ tagline }}</h1>

@@ -118,7 +118,6 @@ title: "Find & Access"
 <Collaborators 
   id="collaborators"
   heading="COLLABORATORS"
-  description= "Description here."
   :items="[
       {
         title: 'PARADISEC',

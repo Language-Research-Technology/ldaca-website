@@ -90,6 +90,7 @@ description = "The Language Data Commons of Australia brings together digital in
       },
       {
         title: 'Data Portal Guide',
+        image: '/images/LDaCA_data_portal.png',
         link: '/resources/user-guides/portal'
       }
     ]"/>

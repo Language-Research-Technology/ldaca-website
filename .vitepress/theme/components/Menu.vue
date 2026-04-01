@@ -140,7 +140,7 @@ const getGridClass = (items) => {
                 <h2 class="">
                   {{ item.text }}
                 </h2>
-                <p v-if="item.subtitle" class="mt-4 text-[#898989] text-[1.7rem]">
+                <p v-if="item.subtitle" class="mt-4 text-[#898989] text-2xl">
                   {{ item.subtitle }}
                 </p>
               </div>

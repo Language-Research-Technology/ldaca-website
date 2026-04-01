@@ -37,6 +37,10 @@ const props = defineProps({
   yearFilter: {
     type: Boolean,
     default: false
+  },
+  tileView: {
+    type: Boolean,
+    default: false
   }
 })
 
@@ -66,12 +70,12 @@ const mergedItems = computed(() =>
   props.items.map((rawItem) => {
     const pageMetadata = rawItem.link ? pagesData[rawItem.link] : null
     const eventDate = rawItem.eventDate ?? pageMetadata?.eventDate
+    const imageFromItem = rawItem.image ?? pageMetadata?.image
+    const fallbackImage = Array.isArray(props.image) ? props.image[0] : props.image
     return {
       ...rawItem,
-      image:
-        rawItem.image ??
-        pageMetadata?.image ??
-        (Array.isArray(props.image) ? props.image[0] : props.image),
+      image: imageFromItem ?? fallbackImage,
+      imageWasFallback: !imageFromItem,
       description: rawItem.description ?? pageMetadata?.description,
       eventDate,
       eventTime: rawItem.eventTime ?? pageMetadata?.eventTime,
@@ -130,7 +134,11 @@ const visibleItems = computed(() => {
   })
 })
 
-const showArrows = computed(() => total.value > visibleCount.value)
+const desktopItems = computed(() => {
+  return props.tileView ? filteredItems.value : visibleItems.value
+})
+
+const showArrows = computed(() => !props.tileView && total.value > visibleCount.value)
 
 const prev = () => {
   if (total.value === 0) return
@@ -174,7 +182,7 @@ const isExternal = (url) => {
         </button>
       </div>
 
-      <div class="hidden lg:grid lg:grid-cols-[auto_1fr_auto] items-center" :class="{ 'gap-6': showArrows }">
+      <div class="hidden lg:grid items-center" :class="showArrows ? 'lg:grid-cols-[auto_1fr_auto] gap-6' : 'grid-cols-1'">
 
         <!-- LEFT ARROW -->
         <button v-if="showArrows" type="button" @click="prev"
@@ -185,8 +193,8 @@ const isExternal = (url) => {
 
         <!-- GRID PANELS -->
         <div class="grid grid-cols-3 gap-4">
-          <div v-for="item in visibleItems" :key="item.title" :class="[cardBgClass, 'overflow-hidden flex flex-col']">
-            <img :src="item.image" :alt="item.title" class="w-full object-cover h-80" />
+          <div v-for="item in desktopItems" :key="item.title" :class="[cardBgClass, 'overflow-hidden flex flex-col']">
+            <img :src="item.image" :alt="item.title" :class="['w-full object-cover h-80', item.imageWasFallback ? 'bg-[#79a38d]' : '']" />
 
             <div class="px-5 pt-5 pb-3 space-y-3 flex flex-col">
               <p :class="categoryClass">{{ item.category }}</p>
@@ -230,7 +238,7 @@ const isExternal = (url) => {
       <div class="lg:hidden flex flex-col gap-4">
         <div v-for="item in filteredItems" :key="item.title" class="bg-[#393939] overflow-hidden flex flex-col">
           <!-- compute image with frontmatter fallback -->
-          <img :src="withBase(item.image)" :alt="item.title" class="w-full object-cover h-60" />
+          <img :src="withBase(item.image)" :alt="item.title" :class="['w-full object-cover h-60', item.imageWasFallback ? 'bg-[#79a38d]' : '']" />
 
           <div class="px-5 pt-5 pb-3 space-y-3 flex flex-col">
             <p class="text-white">{{ item.category ?? pagesData[item.link]?.category }}</p>

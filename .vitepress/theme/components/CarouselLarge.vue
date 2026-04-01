@@ -27,11 +27,15 @@ const props = defineProps({
     },
     backgroundColor: {
         type: String,
-        default: ''
+        default: '#f3f0e8'
     },
     opacity: {
         type: Number,
         default: 100
+    },
+    buttonText: {
+        type: String,
+        default: 'Try it out'
     }
 })
 
@@ -132,14 +136,14 @@ const isExternal = (url) => {
 
                         <!-- IMAGE LEFT -->
                         <img :src="item.image" :alt="item.title"
-                            class="w-full h-full object-cover lg:h-[450px] shadow-lg" />
+                            class="w-full h-full object-contain" />
 
                         <!-- CONTENT RIGHT -->
-                        <div class="flex flex-col h-full px-6 py-6">
+                        <div class="flex flex-col h-full pl-10 py-6">
                             <!-- Title & description centered vertically -->
                             <div class="flex-1 flex flex-col justify-center">
-                                <h2 class="">{{ item.title }}</h2>
-                                <p class="leading-relaxed text-xl mt-3">{{ item.description }}</p>
+                                <h2 class="pb-6">{{ item.title }}</h2>
+                                <p class="leading-relaxed text-xl mt-3 whitespace-pre-line pb-6">{{ item.description }}</p>
                             </div>
 
                             <!-- Buttons at bottom -->
@@ -148,7 +152,7 @@ const isExternal = (url) => {
                                     :rel="isExternal(item.link) ? 'noopener noreferrer' : null"
                                     :style="{ backgroundColor: buttonColors.bg, color: buttonColors.text }"
                                     class="inline-flex items-center justify-center px-6 py-4 text-xl font-bold rounded-lg transition-colors hover:opacity-80">
-                                    Try it out
+                                    {{ props.buttonText }}
                                 </a>
 
                                 <a v-if="item.guideLink" :href="item.guideLink"
@@ -178,12 +182,12 @@ const isExternal = (url) => {
 
                     <!-- IMAGE TOP -->
                     <img :src="item.image ?? (Array.isArray(props.image) ? props.image[0] : props.image)"
-                        :alt="item.title" class="w-full h-60 object-cover lg:h-auto lg:w-1/2" />
+                        :alt="item.title" class="w-full h-60 object-contain lg:h-auto lg:w-1/2" />
 
                     <!-- CONTENT BOTTOM -->
                     <div class="flex flex-col px-5 py-5 gap-4 lg:w-1/2 lg:px-6 lg:py-6">
                         <h3 class="text-2xl font-semibold">{{ item.title }}</h3>
-                        <p class="leading-relaxed flex-1">{{ item.description }}</p>
+                        <p class="leading-relaxed flex-1 whitespace-pre-line">{{ item.description }}</p>
 
                         <!-- Buttons like desktop -->
                         <div class="flex flex-wrap gap-4 mt-auto">
@@ -191,7 +195,7 @@ const isExternal = (url) => {
                                 :rel="isExternal(item.link) ? 'noopener noreferrer' : null"
                                 :style="{ backgroundColor: buttonColors.bg, color: buttonColors.text }"
                                 class="inline-flex items-center justify-center px-6 py-4 text-xl font-bold rounded-lg transition-colors hover:opacity-80">
-                                Try it out
+                                {{ props.buttonText }}
                             </a>
 
                             <a v-if="item.guideLink" :href="item.guideLink"

@@ -25,7 +25,7 @@ const getImage = (post) =>
       <article v-for="post in latestPosts" :key="post.url" class="relative overflow-hidden shadow-xl h-[700px]">
 
         <!-- background image -->
-        <div class="absolute inset-0 bg-cover bg-center bg-[#79a38d]"
+        <div class="absolute inset-0 bg-cover bg-center bg-[#79a38d] opacity-85"
           :style="{ backgroundImage: `url(${getImage(post)})` }" aria-hidden="true" />
 
         <!-- content -->

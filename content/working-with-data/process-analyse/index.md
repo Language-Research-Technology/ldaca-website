@@ -110,7 +110,6 @@ description="Being able to analyse large amounts of language data opens up vast 
 <Collaborators 
   id="collaborators"
   heading="COLLABORATORS"
-  description="Description here."
   :items="[
       {
         title: 'LADAL',
