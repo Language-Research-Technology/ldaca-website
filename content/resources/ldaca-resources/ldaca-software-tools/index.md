@@ -48,15 +48,26 @@ For more information about Crate-O and how to create RO-Crates with the interfac
 ### University of Queensland
 
 - [Image Dataset Explorer](https://github.com/Language-Research-Technology/image-dataset-explorer): A tool that embeds images from a zip file using off the shelf image embeddings, then creates a static HTML visualisation for browsing/exploring clusters and relations.
-- **Language Technology & Data Analysis Laboratory (LADAL) Tools**
-    - [Concordancing](https://ladal.edu.au/tools.html#concordancing): A tool to generate concordances for single word and multi-word expressions.
-    - [Collocations](https://ladal.edu.au/tools.html#collocations): A tool for identifying words which co-occur with a target word.
-    - [Keyword analysis](https://ladal.edu.au/tools.html#keywords): A tool for identifying words which are over- or under-represented in some text in comparison with some other text.
-    - [Part-of-speech tagging](https://ladal.edu.au/tools.html#pos-tagging): A tool which adds word class labels (Part of Speech tags) to each token in text.
-    - [Corpus cleaning](https://ladal.edu.au/tools.html#corpus-text-cleaning): Tools to prepare text for further analysis.
-    - [Network analysis](https://ladal.edu.au/tools.html#network-analysis): A tool to generate visualisations of networks.
-    - [Topic modelling](https://ladal.edu.au/tools.html#topic-modelling): A tool for content analysis using topic models.    
-    - [Sentiment analysis](https://ladal.edu.au/tools.html#sentiment-analysis): A tool for identifying positive and negative sentiments in text.
+#### Language Technology & Data Analysis Laboratory (LADAL) Tools
+- [Shiny Tools](https://ladal.edu.au/tools.html#shiny-tools)
+    - **FileRenamer**: Batch rename plain-text files
+    - **TextCleaner**: Remove and replace text elements with regex
+    - **POSTagger**: Part-of-speech tagging & dependency parsing in 65+ languages
+    - **WordFinder**: Keyword-in-context concordancing
+    - **KeywordExtractor**: Keyness analysis vs. a reference corpus
+    - **WordWebber**: Word co-occurrence network visualisation
+    - **SentimentExplorer**: NRC word-emotion sentiment analysis
+    - **CollocationCalculator**: Collocation association measures
+    - **TopicDetector**: Unsupervised & seeded LDA topic modelling
+- [Jupyter Notebook Tools](https://ladal.edu.au/tools.html#jupyter-tools)
+    - **Concordance Explorer**: KWIC concordances — find any word or phrase in context
+    - **Text Cleaner**: Remove or replace words, tags, URLs, and patterns
+    - **Part-of-Speech Tagger**: POS tagging and dependency parsing in 65+ languages
+    - **Collocation Analyser**: Association measures showing which words attract each other
+    - **Keyword Finder**: Over- and under-represented words vs. a reference corpus
+    - **Network Visualiser**: Network graphs from structured edge-list data
+    - **Topic Explorer**: LDA topic discovery across text collections
+    - **Sentiment Explorer**: Polarity scoring and eight basic emotion categories (NRC lexicon)
 
 ### Australian National University
 
@@ -69,6 +80,6 @@ For more information about Crate-O and how to create RO-Crates with the interfac
 
 ### University of Melbourne
 
-- [Lameta](https://lameta.org): RO-Crate output option for this metadata tool.
+- [Lameta](https://lameta.org): Added RO-Crate output option for this metadata tool.
 
 <br>

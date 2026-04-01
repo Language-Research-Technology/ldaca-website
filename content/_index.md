@@ -24,10 +24,10 @@
       <div class="slide__content">
         <h1>Updates</h1>
         <ul>
-            <h3><li>HASS and Indigenous RDC Summer School (<a href = "./news/events/" >Read more ➤</a>)</li>
-            <h3><li>Latest blog post: Opening the archive: Indigenous perspectives on archival engagement (<a href = "./news/posts/paradisec-panel-oct2025/" >Read more ➤</a>)</li></h3>
-            <h3><li>Identifying Precarious Oral Histories Project (<a href = "https://precariousoralhistories.com/" target="_blank">Read more ➤</a>)</li></h3>
-            <h3><li>Recording: Robert McLellan and Simon Musgrave speak at CLARIN ERIC's Annual Conference (<a href = "https://www.youtube.com/watch?v=1cARj6w3qZs" target="_blank">Read more ➤</a>)</li></h3>
+            <h3><li>Indigenous Data Governance Masterclass(<a href = "./news/events/" >Read more ➤</a>)</li>
+            <h3><li>Latest blog post: Exploring AusReddit: A window into Australia's online conversations (<a href = "./news/posts/ausreddit/" >Read more ➤</a>)</li></h3>
+            <h3><li>Our November newsletter (<a href = "https://mailchi.mp/d7b698fe4c21/ldaca-newsletter-2025-highlights-whats-next-in-2026?" target="_blank">Read more ➤</a>)</li></h3>
+            <h3><li>Check out our 'What is a .... anyway?' video explainer series (<a href = "https://www.youtube.com/@LDaCA_Project/videos" target="_blank">See more ➤</a>)</li></h3>
         </ul>
       </div>  
     </div>
