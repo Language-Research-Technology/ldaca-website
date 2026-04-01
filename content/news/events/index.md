@@ -13,29 +13,17 @@ aliases:
 [Previous Events](#previous-events)&emsp;&emsp;
 [Previous Webinars](#webinars) &emsp;&emsp;
 
-### HASS and Indigenous Research Data Commons Summer School 2026
+### ARDC Indigenous Data Governance Masterclass 2026
 
-**Summary**:
+The free ARDC Indigenous Data Governance Masterclass will equip participants with the knowledge and tools to ethically manage Indigenous data, respecting the cultural protocols and sovereignty of Indigenous communities. It will build the capacity of researchers to engage with Indigenous data, fostering a culturally sensitive and informed approach to data-driven projects.
 
-The Summer School aims to empower participants with practical knowledge, build digital skills and help inspire new research outcomes within the humanities, arts, social sciences (HASS) and Indigenous fields of study. Participants will collaborate in an interactive group setting while networking with like-minded researchers and subject matter experts.
+The Masterclass introduces Indigenous Data Governance principles. It then examines in-depth curating and caring for community collections containing Indigenous data. Indigenous data custodians will have opportunities to discuss the data they manage with each other. The 2 days will provide guidance on applying the Indigenous Data Matrix.
 
-Over two days, participants will be involved in interactive workshops, discussions, mentoring, networking and formal presentations to:
+**When**: June 18 and 19 2026
 
-- learn skills to use digital research tools
-- discover frameworks and workflows for impactful digital research
-- build networks for future collaborative projects using HASS and Indigenous Research Data Commons infrastructure.
+**Where**: Union House, [Adelaide University](https://adelaide.edu.au/)
 
-The Summer School is free of charge for researchers based in Australia, thanks to the support of the Australian Research Data Commons (ARDC) HASS and Indigenous Research Data Commons. Lunch and morning and afternoon tea are provided each day. Travel and accommodation must be covered by the participants.
-
-**When**: 3 – 4 February 2026
-
-**Where**: Federation University, Ballarat
-
-**[Details](https://ardc.edu.au/event/hass-and-indigenous-research-data-commons-summer-school-2026/)**
-
-**[Registration](https://www.eventbrite.com.au/e/hass-and-indigenous-research-data-commons-summer-school-2026-tickets-1736678224319?aff=oddtdtcreator)**
-
-**Organisers**: [ARDC HASS and Indigenous Research Data Commons](https://ardc.edu.au/hass-and-indigenous-research-data-commons/)
+We have seen incredible demand for this Masterclass, and both the event and the waitlist are now at full capacity.  We are unable to accept further registrations or individual requests for tickets.
 
 <br>
 
@@ -54,6 +42,33 @@ The {{< glossary_link display="RO-Crate" id="ro-crate" >}} community run a weekl
 ## Previous Events {#previous-events}
 
 {{<raw>}}
+
+<details>
+<summary><b><font color="#79A38D">2026</font></b></summary>
+
+<details>
+<summary>HASS and Indigenous Research Data Commons Summer School 2026</summary>
+
+<p>The Summer School aimed to empower participants with practical knowledge, build digital skills and help inspire new research outcomes within the humanities, arts, social sciences (HASS) and Indigenous fields of study. Participants will collaborate in an interactive group setting while networking with like-minded researchers and subject matter experts.</p>
+
+<p>Over two days, participants were involved in interactive workshops, discussions, mentoring, networking and formal presentations to:</p>
+<ul>
+<li>learn skills to use digital research tools</li>
+<li>discover frameworks and workflows for impactful digital research</li>
+<li>build networks for future collaborative projects using HASS and Indigenous Research Data Commons infrastructure.</li>
+</ul>
+
+<p><b>When</b>: 3 – 4 February 2026</p>
+
+<p><b>Where</b>: Federation University, Ballarat</p>
+
+<p><a href = https://ardc.edu.au/event/hass-and-indigenous-research-data-commons-summer-school-2026/' target = '_blank'>Details</a></p>
+
+<p><b>Organisers</b>: <a href = 'https://ardc.edu.au/hass-and-indigenous-research-data-commons' target = '_blank'>ARDC HASS and Indigenous Research Data Commons</a>
+
+</details>
+
+</details>
 
 <details>
 <summary><b><font color="#79A38D">2025</font></b></summary>
