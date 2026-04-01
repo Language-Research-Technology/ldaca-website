@@ -60,11 +60,12 @@ For more information about Crate-O and how to create RO-Crates with the interfac
 
 ### Australian National University
 
-- [ELAN Find & Replace](https://github.com/Supertyp/ELAN_apps): A tool that enables context dependent search and replace functionality across a folder of ELAN files.
-- [ELAN Split Annotation](https://github.com/Supertyp/ELAN_apps): A tool that can split ELAN annotations.
+- [ELAN Replacer](https://github.com/Supertyp/ELAN_apps): A tool that enables context dependent search and replace functionality across a folder of ELAN files.
+- [ELAN Annotation Splitter](https://github.com/Supertyp/ELAN_apps): A tool that can split ELAN annotations.
 - [ELAN Inventory](https://www.gerlingo.com/config_maker.html): A web application that summarises ELAN files and compiles configuration files to create an [ANNIS](https://corpus-tools.org/annis/) corpus.
 - [ELAN Commander](https://www.gerlingo.com/ELAN_commander.html): A web application that finds unwanted characters in ELAN annotations.
 - [Anonymising ELAN Files](https://github.com/Supertyp/Anonymising_ELAN_files): A tool that anonymises the content of ELAN files.
+- [ELAN Audio Segmentation](https://github.com/Supertyp/ELAN_apps): A tool which takes an audio or video file as input and creates a ELAN file with empty annotations wherever a voice is heard in the audio
 
 ### University of Melbourne
 
