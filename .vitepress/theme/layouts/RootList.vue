@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue'
-import { useData } from 'vitepress'
+import { useData, withBase } from 'vitepress'
 import { data as allPages } from '../lib/sections.data'
 
 const { page } = useData()
@@ -53,8 +53,14 @@ const items = computed(() => {
         <div class="page archive">
           <article v-for="item in items" :key="item.url" class="archive-item">
             <a :href="item.url" class="archive-item-link">
-              <h2 class="archive-item-title">{{ item.title }}</h2>
-              <p v-if="item.description" class="archive-item-description">{{ item.description }}</p>
+              <div class="archive-item-inner">
+                <img v-if="item.frontmatter?.image" :src="withBase(item.frontmatter.image)" :alt="item.title"
+                  class="archive-item-image" />
+                <div class="archive-item-content">
+                  <h2 class="archive-item-title">{{ item.title }}</h2>
+                  <p v-if="item.description" class="archive-item-description">{{ item.description }}</p>
+                </div>
+              </div>
             </a>
           </article>
         </div>
@@ -76,6 +82,24 @@ const items = computed(() => {
   text-decoration: none;
   color: inherit;
   display: block;
+}
+
+.archive-item-inner {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.archive-item-image {
+  width: 6rem;
+  height: 6rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+
+.archive-item-content {
+  flex: 1;
 }
 
 .archive-item-title {
