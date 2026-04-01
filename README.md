@@ -144,9 +144,9 @@ All components are stored in `/theme/components`. To use components, add `<Compo
 | --- | --- |
 | BlogPostsList.vue | `BlogPostsPage.vue` |
 | BlogPostsPage.vue | `/content/news/posts` |
-| Carousel.vue | - `/content`<br>- `/content/about/policies-principles`<br>- `/content/by-type/`: `audio-video`, `guides`, `interviews`, `presentations`, `technologies-tools`<br>- `/content/news/`: `events`, `training`<br>- `/content/resources/general-resourses/`: `case-studies`, `projects`<br>- `/content/working-with-data/`: `find-access`, `license-share-govern`, `organise-describe`, `process-analyse` |
-| CarouselLarge.vue | `/content/working-with-data/`: `find-access`, `organise-describe`, `process-analyse` |
-| Collaborators.vue | - `/content/resources/general-resources/projects`<br>- `/content/working-with-data/`: `find-access`, `process-analyse` |
+| Carousel.vue | - `/content`<br>- `/content/about/policies-principles`<br>- `/content/by-type/`: `audio-video`, `guides`, `interviews`, `presentations`, `technologies-tools`<br>- `/content/news/`: `events`, `training`<br>- `/content/resources/general-resourses/projects-case-studies`<br>- `/content/working-with-data/`: `find-access`, `license-share-govern`, `organise-describe`, `process-analyse` |
+| CarouselLarge.vue | - `/content/resources/general-resources/projects-case-studies`<br>- `/content/working-with-data/`: `find-access`, `organise-describe`, `process-analyse` |
+| Collaborators.vue | - `/content/resources/general-resources/projects-case-studies`<br>- `/content/working-with-data/`: `find-access`, `process-analyse` |
 | CollectionsGrid.vue | `/content/working-with-data/find-access` |
 | ContactBox.vue | - `/content/news/events`<br>- `/content/working-with-data/`: `find-access`, `license-share-govern`, `organise-describe`, `process-analyse` |
 | DataPortalBox.vue | - `/content`<br>- `/content/working-with-data/license-share-govern` |
@@ -155,7 +155,7 @@ All components are stored in `/theme/components`. To use components, add `<Compo
 | Footer.vue | `.vitepress/theme` |
 | GlossaryLink.vue | - `GlossaryList.vue`<br>- Throughout website to link to the glossary. |
 | GlossaryList.vue | `/content/resources/glossary` |
-| GuideCarousel.vue | - `/content/by-type/guides`<br>- `/content/working-with-data/`: `find-access`, `license-share-govern`, `organise-describe`, `process-analyse` |
+| GuideCarousel.vue | - `/content/by-type/guides`<br>- `/content/resources/general-resources/projects-case-studies`<br>- `/content/working-with-data/`: `find-access`, `license-share-govern`, `organise-describe`, `process-analyse` |
 | Header.vue | `.vitepress/theme` |
 | HomeHero.vue | `/content` |
 | HowWeCanHelp.vue | `/content` |
@@ -164,7 +164,7 @@ All components are stored in `/theme/components`. To use components, add `<Compo
 | PartnerLogos.vue | `Footer.vue` |
 | Profile.vue | Throughout website to reference LDaCA team. |
 | Sidebar.vue | `Header.vue` |
-| SimpleHero.vue | - `.vitepress/theme/layouts`<br>- `/content/about/policies-principles`<br>- `/content/by-type/`: `audio-video`, `guides`, `interviews`, `presentations`, `technologies-tools`<br>- `/content/news/`: `events`, `posts`, `training`<br>- `/content/resources/general-resourses/`: `case-studies`, `projects`<br>- `/content/working-with-data/`: `find-access`, `license-share-govern`, `organise-describe`, `process-analyse` |
+| SimpleHero.vue | - `.vitepress/theme/layouts`<br>- `/content/about/policies-principles`<br>- `/content/by-type/`: `audio-video`, `guides`, `interviews`, `presentations`, `technologies-tools`<br>- `/content/news/`: `events`, `posts`, `training`<br>- `/content/resources/general-resourses/projects-case-studies`<br>- `/content/working-with-data/`: `find-access`, `license-share-govern`, `organise-describe`, `process-analyse` |
 | SimpleNavigation.vue | `/content/working-with-data/`: `find-access`, `license-share-govern`, `organise-describe`, `process-analyse` |
 | TagsList.vue | `/content/tags` |
 | ThreeTiles.vue | - `/content/news/training`<br>- `/content/working-with-data/`: `find-access`, `license-share-govern`, `organise-describe`, `process-analyse` |
@@ -185,3 +185,5 @@ All components are stored in `/theme/components`. To use components, add `<Compo
 - Remove old Hugo Files
 - How to run updates/production
 - Configure .github/workflows
+- resources/user-guides/portal/available-portals
+- about/sample-collections.md
