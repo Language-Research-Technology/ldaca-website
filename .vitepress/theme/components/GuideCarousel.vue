@@ -155,15 +155,15 @@ const isExternal = (url) => {
 
                             <h2 class="text-white mb-6">{{ item.title }}</h2>
 
-                            <p class="text-white leading-relaxed text-[1.7rem]">
+                            <p class="text-white leading-relaxed text-2xl">
                                 {{ item.description }}
                             </p>
 
-                            <p class="text-white leading-relaxed text-[1.7rem]">
+                            <p v-if="item.level" class="text-white leading-relaxed text-[1.7rem]">
                                 <span class="font-bold">Level</span> {{ item.level }}
                             </p>
 
-                            <p class="text-white leading-relaxed text-[1.7rem]">
+                            <p v-if="item.audience" class="text-white leading-relaxed text-[1.7rem]">
                                 <span class="font-bold">For</span> {{ item.audience }}
                             </p>
 
