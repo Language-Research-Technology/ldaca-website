@@ -14,4 +14,4 @@ pastEvent: false
 
 The <GlossaryLink display="RO-Crate" id="ro-crate" /> community run a weekly drop-in call in Australia. For further information contact [Peter Sefton](mailto:p.sefton@uq.edu.au).
 
-**Where**: Online via [Zoom](https://uqz.zoom.us/j/85192198914)
+**Where**: Online via [Zoom](https://uqz.zoom.us/j/87831368508)

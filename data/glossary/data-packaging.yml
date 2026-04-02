@@ -1,5 +1,5 @@
 Name: "data-packaging"
 "title": "Data Packaging"
 "short_description": "The application of widely used standards to the collection data."
-"content": 'The application of widely used standards, for example, in terms of formats, <GlossaryLink display="metadata" id="metadata" /> , and <GlossaryLink display="access conditions" id="access-condition" />, to the <GlossaryLink display="collection" id="collection" /> data.'
+"content": 'The application of widely used <GlossaryLink display="standards" id="standard" />, for example, in terms of <GlossaryLink display="formats" id="data-format" />, <GlossaryLink display="metadata" id="metadata" /> and <GlossaryLink display="access conditions" id="access-condition" />, to the <GlossaryLink display="collection" id="collection" /> data.'
 "cross_ref": [["data-transformation", "Data Transformation"]]

@@ -1,7 +1,10 @@
 <GlossaryLink display="" id="" />
 <GlossaryLink display="access conditions" id="access-conditions" />
 <GlossaryLink display="AIATSIS" id="aiatsis" />
+<GlossaryLink display="ARC" id="arc" />
+<GlossaryLink display="archive" id="archival-repository" />
 <GlossaryLink display="archival repository" id="archival-repository" />
+<GlossaryLink display="repository" id="archival-repository" />
 <GlossaryLink display="ARDC" id="ardc" />
 <GlossaryLink display="ARDS" id="ards" />
 <GlossaryLink display="CARE" id="care" />
@@ -15,18 +18,28 @@
 <GlossaryLink display="data collection" id="data-collection" />
 <GlossaryLink display="data commons" id="data-commons" />
 <GlossaryLink display="data custodian" id="data-custodian" />
+<GlossaryLink display="format" id="data-format" />
 <GlossaryLink display="data governance" id="data-governance" />
 <GlossaryLink display="data license" id="data-license" />
-<GlossaryLink display="data packaging" id="data-packaging" />
+<GlossaryLink display="packaging" id="data-packaging" />
+<GlossaryLink display="management" id="data-management" />
+<GlossaryLink display="processing" id="data-processing" />
+\<GlossaryLink display="dataset" id="dataset" />
 <GlossaryLink display="data steward" id="data-steward" />
-<GlossaryLink display="data transformation" id="data-transformation" />
+<GlossaryLink display="sustainability" id="data-sustainability" />
+<GlossaryLink display="transformation" id="data-transformation" />
+<GlossaryLink display="digitisation" id="digitisation" />
 <GlossaryLink display="ELAN" id="elan" />
 <GlossaryLink display="FAIR" id="fair" />
 <GlossaryLink display="fieldwork" id="fieldwork" />
 <GlossaryLink display="format" id="format" />
 <GlossaryLink display="GitHub" id="github" />
 <GlossaryLink display="HASS" id="hass" />
+<GlossaryLink display="Indigenous Data Governance" id="idg" />
 <GlossaryLink display="intellectual property" id="intellectual-property" />
+<GlossaryLink display="interoperability" id="interoperability" />
+<GlossaryLink display="Language Centre" id="lang-centre" />
+<GlossaryLink display="LDAC" id="ldac" />
 <GlossaryLink display="LDaCA" id="ldaca" />
 <GlossaryLink display="licensing" id="licensing" />
 <GlossaryLink display="linked data" id="linked-data" />
@@ -36,10 +49,14 @@
 <GlossaryLink display="Nyingarn" id="nyingarn" />
 <GlossaryLink display="object" id="object" />
 <GlossaryLink display="OCFL" id="ocfl" />
+<GlossaryLink display="Open Access" id="open-access" />
 <GlossaryLink display="oral history" id="oral-history" />
 <GlossaryLink display="PARADISEC" id="paradisec" />
 <GlossaryLink display="phonemic transcription" id="phonemic-transcription" />
 <GlossaryLink display="phonetic transcription" id="phonetic-transcription" />
+<GlossaryLink display="profile" id="profile" />
+<GlossaryLink display="property" id="property" />
+<GlossaryLink display="Research Data Commons" id="rdc" />
 <GlossaryLink display="research data management" id="rdm" />
 <GlossaryLink display="research infrastructure" id="research-infrastructure" />
 <GlossaryLink display="RO-Crate" id="ro-crate" />
@@ -47,6 +64,8 @@
 <GlossaryLink display="standard" id="standard" />
 <GlossaryLink display="tool" id="tools" />
 <GlossaryLink display="tools" id="tools" />
+<GlossaryLink display="transcription" id="transcription" />
+<GlossaryLink display="UI" id="ui" />
 <GlossaryLink display="Wangka Maya" id="wangka-maya" />
 <GlossaryLink display="XML" id="xml" />
 <GlossaryLink display="" id="" />
