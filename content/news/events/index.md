@@ -17,13 +17,15 @@ aliases:
 
 The free ARDC Indigenous Data Governance Masterclass will equip participants with the knowledge and tools to ethically manage Indigenous data, respecting the cultural protocols and sovereignty of Indigenous communities. It will build the capacity of researchers to engage with Indigenous data, fostering a culturally sensitive and informed approach to data-driven projects.
 
-The Masterclass introduces Indigenous Data Governance principles. It then examines in-depth curating and caring for community collections containing Indigenous data. Indigenous data custodians will have opportunities to discuss the data they manage with each other. The 2 days will provide guidance on applying the Indigenous Data Matrix.
+The Masterclass introduces Indigenous Data Governance principles. It then examines in-depth curating and caring for community collections containing Indigenous data. Indigenous data custodians will have opportunities to discuss the data they manage with each other. The two days will provide guidance on applying the Indigenous Data Matrix.
 
-**When**: June 18 and 19 2026
+**When**: 18 and 19 June 2026
 
 **Where**: Union House, [Adelaide University](https://adelaide.edu.au/)
 
-We have seen incredible demand for this Masterclass, and both the event and the waitlist are now at full capacity.  We are unable to accept further registrations or individual requests for tickets.
+[Details](https://ardc.edu.au/event/indigenous-data-governance-masterclass-2026/)
+
+ARDC have seen incredible demand for this Masterclass, and both the event and the waitlist are now at full capacity.  They are unable to accept further registrations or individual requests for tickets.
 
 <br>
 
@@ -510,7 +512,7 @@ If your university or organisation would like to host a workshop, please [contac
 
 <details>
 <summary> 
-<b>August 28 2025 - Tomaž Erjavec and Matyáš Kopp: The ParlaMint corpora of European parliamentary proceedings</b></summary>
+<b>28 August 2025 - Tomaž Erjavec and Matyáš Kopp: The ParlaMint corpora of European parliamentary proceedings</b></summary>
 
 <p>This talk discussed the compilation and dissemination of the ParlaMint corpora. It includes 29 corpora of European national and regional parliamentary proceedings, covering at least the period from 2015 to 2022, and containing over 1 billion words.</p>
 
@@ -540,7 +542,7 @@ If your university or organisation would like to host a workshop, please [contac
 
 <details>
         <summary>
-            <b>May 29 2025 - Steven Bird: Language Technology and the Metacrisis</b>
+            <b>29 May 2025 - Steven Bird: Language Technology and the Metacrisis</b>
         </summary>
         <p>Despite their manifold benefits, language technologies are contributing to several unfolding crises. Small screens deliver mainstream content across the world and entice children of minoritised communities away from their ancestral languages. The data centres that power large language models depend on the mining of ever more rare earth metals from Indigenous lands and emit ever more carbon. Malicious actors flood social media with fake news, provoking extremism, division and war. Common to these crises is content, i.e. language content, increasingly generated and accessed using language technologies. These developments — the language crisis, the environmental crisis and the meaning crisis — compound each other in what is being referred to as the metacrisis. How are we to respond, then, as a community of practice who is actively developing still more language technologies? Steven believes that a good first step is to bring our awareness to the matter and to rethink what we are doing. We must be suspicious of purely technological solutions which may only exacerbate problems that were created by our use of technology. Instead, Steven argues that we should approach the problem as social and cultural. He will share stories from a small and highly multilingual Indigenous society who understands language, not as sequence data, but as social practice, and who understands language resources, not as annotated text and speech, but as stories and knowledge practices of language owners. He will explore ramifications for our work in the space of language technologies, and propose a relational approach to language technology that avoids extractive processes and centres speech communities.</p>
         <p><b>Steven Bird</b>: Over the past three decades, Steven Bird has been working with minoritised peoples in Africa, Melanesia, Amazonia and Australia, and exploring how communities can keep their oral languages and cultures strong. Since 2017 he has been research professor at Charles Darwin University, where he collaborates with Indigenous leaders and directs the Top End Language Lab.</p>

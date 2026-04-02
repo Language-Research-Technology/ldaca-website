@@ -49,7 +49,7 @@ For more information about Crate-O and how to create RO-Crates with the interfac
 
 - [Image Dataset Explorer](https://github.com/Language-Research-Technology/image-dataset-explorer): A tool that embeds images from a zip file using off the shelf image embeddings, then creates a static HTML visualisation for browsing/exploring clusters and relations.
 #### Language Technology & Data Analysis Laboratory (LADAL) Tools
-- [Shiny Tools](https://ladal.edu.au/tools.html#shiny-tools)
+- [Shiny Tools](https://ladal.edu.au/tools.html#shiny-tools): Fully graphical, point-and-click applications built with R Shiny.
     - **FileRenamer**: Batch rename plain-text files
     - **TextCleaner**: Remove and replace text elements with regex
     - **POSTagger**: Part-of-speech tagging & dependency parsing in 65+ languages
@@ -59,9 +59,9 @@ For more information about Crate-O and how to create RO-Crates with the interfac
     - **SentimentExplorer**: NRC word-emotion sentiment analysis
     - **CollocationCalculator**: Collocation association measures
     - **TopicDetector**: Unsupervised & seeded LDA topic modelling
-- [Jupyter Notebook Tools](https://ladal.edu.au/tools.html#jupyter-tools)
+- [Jupyter Notebook Tools](https://ladal.edu.au/tools.html#jupyter-tools): Interactive R notebooks that run in a JupyterLab environment in a browser.
     - **Concordance Explorer**: KWIC concordances — find any word or phrase in context
-    - **Text Cleaner**: Remove or replace words, tags, URLs, and patterns
+    - **Text Cleaner**: Remove or replace words, tags, URLs and patterns
     - **Part-of-Speech Tagger**: POS tagging and dependency parsing in 65+ languages
     - **Collocation Analyser**: Association measures showing which words attract each other
     - **Keyword Finder**: Over- and under-represented words vs. a reference corpus
@@ -76,10 +76,10 @@ For more information about Crate-O and how to create RO-Crates with the interfac
 - [ELAN Inventory](https://www.gerlingo.com/config_maker.html): A web application that summarises ELAN files and compiles configuration files to create an [ANNIS](https://corpus-tools.org/annis/) corpus.
 - [ELAN Commander](https://www.gerlingo.com/ELAN_commander.html): A web application that finds unwanted characters in ELAN annotations.
 - [Anonymising ELAN Files](https://github.com/Supertyp/Anonymising_ELAN_files): A tool that anonymises the content of ELAN files.
-- [ELAN Audio Segmentation](https://github.com/Supertyp/ELAN_apps): A tool which takes an audio or video file as input and creates a ELAN file with empty annotations wherever a voice is heard in the audio
+- [ELAN Audio Segmentation](https://github.com/Supertyp/ELAN_apps): A tool which takes an audio or video file as input and creates a ELAN file with empty annotations wherever a voice is heard in the audio.
 
 ### University of Melbourne
 
-- [Lameta](https://lameta.org): Added RO-Crate output option for this metadata tool.
+- [Lameta](https://lameta.org): Added an RO-Crate output option for this metadata tool.
 
 <br>
