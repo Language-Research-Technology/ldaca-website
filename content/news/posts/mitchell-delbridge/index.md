@@ -2,7 +2,7 @@
 title: "Corpus spotlight: Mitchell and Delbridge"
 date: 2025-10-01
 draft: false
-description: "Read about one of the first collections to enter our data portal—the Mitchell and Delbridge speech of Australian adolescents corpus (1959–1960)—and its impact on Australian linguistic research."
+description: "Read about one of the first collections to enter our data portal — the Mitchell and Delbridge speech of Australian adolescents corpus (1959–1960) — and its impact on Australian linguistic research."
 layout: post
 author: Bridey Lea
 image: "/news/posts/mitchell-delbridge/mitchell-delbridge1965.jpg"
@@ -12,7 +12,7 @@ by <Profile id="lea" />
 
 <br>
 
-In a [previous blog post](https://www.ldaca.edu.au/news/posts/ausnc/), we wrote about what happened to the Australian National Corpus (AusNC). One component of AusNC, *The speech of Australian adolescents: research data and recordings collected by A.G. Mitchell and Arthur Delbridge in 1959 and 1960*, was an early addition to our [data portal](https://data.ldaca.edu.au/search). Read on to find out more about the history of the Mitchell and Delbridge <GlossaryLink display="corpus" id="corpus" />, and its impact on Australian linguistic research.
+In a [previous blog post](/news/posts/ausnc/), we wrote about what happened to the Australian National Corpus (AusNC). One component of AusNC, *The speech of Australian adolescents: research data and recordings collected by A.G. Mitchell and Arthur Delbridge in 1959 and 1960*, was an early addition to our [data portal](https://data.ldaca.edu.au/search). Read on to find out more about the history of the Mitchell and Delbridge <GlossaryLink display="corpus" id="corpus" />, and its impact on Australian linguistic research.
 
 <br>
 
@@ -92,7 +92,7 @@ The digitised corpus was reissued as an online database by USyd in 1997–1998. 
 
 ## Australian speech since Mitchell and Delbridge
 
-The work of Mitchell and Delbridge brought recognition to Australian English as a variety within World Englishes. Access to their dataset has since allowed linguists to enter into dialogue with them, and to support and challenge their findings. For example, Mark Durie and John Hajek proposed a revised phonemic orthography in 1994 that was less influenced by British English. Harrington, Cox and Evans (1997) later used acoustic analysis to develop an alternative <GlossaryLink display="phonemic transcription" id="phonemic-transcription" /> system to the Mitchell-Delbridge system for Australian vowels ([the HCE system](https://www.mq.edu.au/faculty-of-medicine-health-and-human-sciences/departments-and-schools/department-of-linguistics/our-research/phonetics-and-phonology/speech/phonetics-and-phonology/transcription/phonemic-broad-transcription-of-australian-english#:~:text=For%20many%20years%20the%20system,to%20south%20eastern%20British%20English.)). Some scholars, such as Barbara Horvath in her 1985 study of Sydney's "[sociolects](https://en.wikipedia.org/wiki/Sociolect)", have also pointed out that the model of the broadness continuum no longer captures the multicultural and multilingual realities of Australian society. Projects like [Sydney Speaks](https://www.ldaca.edu.au/resources/general-resources/case-studies/sydney-speaks/) extend on this work, diving into the cultural and linguistic diversity of Australian speech.
+The work of Mitchell and Delbridge brought recognition to Australian English as a variety within World Englishes. Access to their dataset has since allowed linguists to enter into dialogue with them, and to support and challenge their findings. For example, Mark Durie and John Hajek proposed a revised phonemic orthography in 1994 that was less influenced by British English. Harrington, Cox and Evans (1997) later used acoustic analysis to develop an alternative <GlossaryLink display="phonemic transcription" id="phonemic-transcription" /> system to the Mitchell-Delbridge system for Australian vowels ([the HCE system](https://www.mq.edu.au/faculty-of-medicine-health-and-human-sciences/departments-and-schools/department-of-linguistics/our-research/phonetics-and-phonology/speech/phonetics-and-phonology/transcription/phonemic-broad-transcription-of-australian-english#:~:text=For%20many%20years%20the%20system,to%20south%20eastern%20British%20English.)). Some scholars, such as Barbara Horvath in her 1985 study of Sydney's "[sociolects](https://en.wikipedia.org/wiki/Sociolect)", have also pointed out that the model of the broadness continuum no longer captures the multicultural and multilingual realities of Australian society. Projects like [Sydney Speaks](/resources/general-resources/case-studies/sydney-speaks/) extend on this work, diving into the cultural and linguistic diversity of Australian speech.
 
 The Mitchell and Delbridge corpus also offers valuable opportunities for longitudinal comparison, allowing us to examine the ways Australian English has changed over time. For instance, Cox and colleagues (2014) used the corpus in this way to investigate how the distribution of speakers across the broadness continuum has changed since the 1960s.
 

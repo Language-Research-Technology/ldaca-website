@@ -51,16 +51,12 @@ title: "Audio & Video"
   :items="[
       {
         title: 'Language Data Commons of Australia - HASS & Indigenous Research Data Commons Symposium 2025',
-        description: 'This presentation on LDaCA was presented at the 2025 Symposium of the ARDC HASS and Indigenous Research Data Commons, held at UTS on Gadigal Land, Sydney, 12 November 2025. Learn more about the Language Data Commons of Australia. Presenters: Prof Michael Haugh, Robert McLellan, Moises Sacal Bonequi - University of Queensland.',
-        image: 'https://img.youtube.com/vi/EzE75Qvwcs4/sddefault.jpg',
-        link: 'https://www.youtube.com/watch?v=EzE75Qvwcs4',
+        link: '/news/events/2025/hass-irdc-symposium-2',
         category: 'RECORDING'
       },
       {
         title: 'Showcase of Language Data Infrastructure - Language Data Commons of Australia',
-        description: 'This presentation on LDaCA tools was presented at the 2025 Symposium of the ARDC HASS and Indigenous Research Data Commons, held at UTS on Gadigal Land, Sydney, 11 November 2025. Learn more about the Language Data Commons of Australia. Presenters: Prof Michael Haugh - University of Queensland, Robert McLellan - University of Queensland, Teresa Chan - University of Queensland, Prof Monika Bednarek - University of Sydney and Director of Sydney Corpus Lab, Moises Sacal Bonequi - University of Queensland.',
-        image: 'https://img.youtube.com/vi/gwbbMN7XRKU/sddefault.jpg',
-        link: 'https://www.youtube.com/watch?v=gwbbMN7XRKU',
+        link: '/news/events/2025/hass-irdc-symposium-1',
         category: 'RECORDING'
       },
       {

@@ -11,7 +11,7 @@ title: "Projects & Case Studies"
   :items="[
     {
       title: 'Arne ingkerreke apurtelhe-ileme (Gathering all the things together)',
-      description: 'A project with Batchelor Institute that brings together the incredible life\'s work of Veronica Perrurle Dobson AM.\n\nThis project is a guide to Veronica\'s life, work, and publications, and contains links to archival collections of her work.',
+      description: 'A project with Batchelor Institute that brings together the incredible life\'s work of Veronica Perrurle Dobson AM.\n\nThis project is a guide to Veronica\'s life, work and publications, and contains links to archival collections of her work.',
       image: '/news/posts/VeronicaDobson-launch2025/VPD_thumbnail.png',
       link: '/news/posts/VeronicaDobson-launch2025',
     },
@@ -49,7 +49,7 @@ title: "Projects & Case Studies"
       },
       {
         title: 'CALL Collection Catalogue',
-        description: 'The CALL Collection is an archive of Australian First Nations language materials.',
+        description: 'The CALL Collection is an archive from Batchelor Institute containing Australian First Nations language materials.',
         link: 'https://callcollection.batchelor.edu.au/',
         category: 'IN PROGRESS'
       }
@@ -59,7 +59,7 @@ title: "Projects & Case Studies"
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="CASE STUDIES"
-  subheading="Dive deeper into our work and discover the thinking, process, and results behind each project."
+  subheading="Dive deeper into our work and discover the thinking, process and results behind each project."
   :items="[
       {
         title: 'Putting data to work',
@@ -98,7 +98,7 @@ title: "Projects & Case Studies"
       },
       {
         title: 'ARDS Aboriginal Corporation',
-        image : '',
+        image: '/images/partner-logos/ARDS_LOGO_2025_w_TEXT.svg',
         link: 'https://ards.com.au/'
       },
       {
@@ -110,7 +110,7 @@ title: "Projects & Case Studies"
 
 <ContactBox 
   heading="Interested in contributing to LDaCA?"
-  description="Do you have data, expertise, or resources you'd like to share? We'd love to hear from you."
+  description="Do you have data, expertise or resources you'd like to share? We'd love to hear from you."
   buttonText="Get in touch"
   buttonLink="/contact/"
 />

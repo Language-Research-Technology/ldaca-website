@@ -20,9 +20,9 @@ In this post, we will report on some recent developments, mostly in behind-the-s
 
 ## Recent developments
 
-We have seen some recent developments which promise exciting future work. Pacific and Regional Archive of Digital Sources in Endangered Cultures [(PARADISEC)](https://www.paradisec.org.au/) colleague John Ferlito has created a new version of the LDaCA data portal using a simpler [API](https://www.ldaca.edu.au/resources/glossary/#api) that can be used for both PARADISEC and LDaCA. The same API could potentially be used for many other repositories, such as the [Nyingarn Repository](https://repository.nyingarn.net/). 
+We have seen some recent developments which promise exciting future work. Pacific and Regional Archive of Digital Sources in Endangered Cultures [(PARADISEC)](https://www.paradisec.org.au/) colleague John Ferlito has created a new version of the LDaCA data portal using a simpler <GlossaryLink display="API" id="api" /> that can be used for both PARADISEC and LDaCA. The same API could potentially be used for many other repositories, such as the [Nyingarn Repository](https://repository.nyingarn.net/). 
 
-The new API is an [RO-Crate](https://www.ldaca.edu.au/resources/glossary/#ro-crate) API, that we have affectionately called *AROCAPI*. AROCAPI is a generic API for collections of ‘objects’ (or ‘items’) which are described using RO-Crates. We are working together with John to create a new [Oni](https://www.ldaca.edu.au/resources/glossary/#oni) stack using this API, and have been evaluating the API throughout its development rather than waiting until John finishes his work on it. 
+The new API is an <GlossaryLink display="RO-Crate" id="ro-crate" /> API, that we have affectionately called *AROCAPI*. AROCAPI is a generic API for collections of ‘objects’ (or ‘items’) which are described using RO-Crates. We are working together with John to create a new <GlossaryLink display="Oni" id="oni" /> stack using this API, and have been evaluating the API throughout its development rather than waiting until John finishes his work on it. 
 
 AROCAPI will extend data portals and act as a baseline for other infrastructure that uses RO-Crates. It is designed to work both "out of the box" with an industry-standard data portal UI and to be easily configurable for different audiences and domains. For example, PARADISEC will implement different authentication routes (using the existing "[Nabu](https://catalog.paradisec.org.au/)" catalog) for users to access data than the LDaCA data portal, which uses [CADRE](https://cadre.ada.edu.au/login).
 
@@ -63,11 +63,11 @@ We put effort into:
 
 
 * organising and describing data using open specifications *before* building features into applications
-* designing an access-control system with long-term adaptability in mind (read [the story about that](https://www.ldaca.edu.au/news/posts/fair-care-eresearch-2022/) as presented at eResearch Australasia 2022)
+* designing an access-control system with long-term adaptability in mind (read [the story about that](/news/posts/fair-care-eresearch-2022/) as presented at eResearch Australasia 2022)
 * batch-converting existing data to the new approach
 * developing a metadata framework with tools to implement it.
 
-In 2024, we released the Protocols for Implementing Long Term Archival Repositories (PILARS), described in this [presentation at Open Repositories 2024](https://www.ldaca.edu.au/news/posts/open-repositories-2024-pilars/). The first principle of PILARS is that data should be portable, not locked in to a particular interface, service or mode of storage. Following the lead of PARADISEC two decades ago, the protocols call for storing data in commodity storage services such as file systems or (cloud) object storage services. This means that data is available independently of any specific software. 
+In 2024, we released the Protocols for Implementing Long Term Archival Repositories (PILARS), described in this [presentation at Open Repositories 2024](/news/posts/open-repositories-2024-pilars/). The first principle of PILARS is that data should be portable, not locked in to a particular interface, service or mode of storage. Following the lead of PARADISEC two decades ago, the protocols call for storing data in commodity storage services such as file systems or (cloud) object storage services. This means that data is available independently of any specific software. 
 
 With this foundation, and the new interoperability we gain from our collaboration on AROCAPI, we are well placed to collect and conserve more data and make use of data in workspace environments. For instance, the newly established LDaCA analytics forum, a working group formed to advise on the development of research analytics tools, will drive analytical workspaces. Work by the LDaCA technical team will continue to improve data preparation workspaces, for example by potentially collaborating to adapt the Nyingarn Workspace for general purpose use.
 
@@ -101,7 +101,7 @@ With our partners, we have developed and adapted a suite of other technical reso
 * Software libraries for managing data in RO-Crate, maintaining schemas available on our [github organisation](https://github.com/Language-Research-Technology).
 * RO-Crate preparation tools, including:
     * [Crate-O](https://language-research-technology.github.io/crate-o/#/) (now included in Nyingarn)
-    * Crate-O-compatible spreadsheet templates for DIY data import and supporting familiar Excel-based workflows — [documented](https://www.ldaca.edu.au/resources/user-guides/crate-o/convert-spreadsheet/) on the LDaCA website
+    * Crate-O-compatible spreadsheet templates for DIY data import and supporting familiar Excel-based workflows — [documented](/resources/user-guides/crate-o/convert-spreadsheet/) on the LDaCA website
     * [LaMeta](https://sites.google.com/site/metadatatooldiscussion/home), which now has RO-Crate support
     * [RO-Crate playground](https://ro-crate.ldaca.edu.au/) to experiment with and validate metadata.
 * Data preparation workspaces:

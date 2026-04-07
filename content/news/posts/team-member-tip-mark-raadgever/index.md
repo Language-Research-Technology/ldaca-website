@@ -34,11 +34,11 @@ Because we are using <GlossaryLink display="RO Crates" id="ro-crate" /> in <Glos
 
 ### Metadata resources
 
->[LDaCA's approach to metadata](https://www.ldaca.edu.au/resources/ldaca-resources/metadata/)
+>[LDaCA's approach to metadata](/resources/ldaca-resources/metadata/)
 
 >[Open Language Archives Community (OLAC)](http://www.language-archives.org/)
 
->[Designing a metadata ecosystem for language research based on RO-Crate](https://www.ldaca.edu.au/news/posts/ldaca-metadata-ecosystem-eresearch-2022/)
+>[Designing a metadata ecosystem for language research based on RO-Crate](/news/posts/ldaca-metadata-ecosystem-eresearch-2022/)
 
 <br>
 

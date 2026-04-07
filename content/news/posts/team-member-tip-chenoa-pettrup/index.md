@@ -19,7 +19,7 @@ by <Profile id="pettrup" />
 If you're new to data visualisation, don’t feel like you have to rush straight into coding. Take time to plan an approach with these simple practices:
 
 ### If in doubt, sketch it out.
-Before diving into tools, sketch a few layout options—on paper or using digital platforms like [Figma](https://www.figma.com/). Rough visuals help clarify your thinking and reveal possibilities early. This step is helpful because it allows you to explore different configurations and ways of displaying information before you start coding. It can also help provide a skeleton to work towards once you do start putting your code together. Sketching gives you a clearer sense of direction and enables you to figure out the most effective way to communicate your information.
+Before diving into tools, sketch a few layout options — on paper or using digital platforms like [Figma](https://www.figma.com/). Rough visuals help clarify your thinking and reveal possibilities early. This step is helpful because it allows you to explore different configurations and ways of displaying information before you start coding. It can also help provide a skeleton to work towards once you do start putting your code together. Sketching gives you a clearer sense of direction and enables you to figure out the most effective way to communicate your information.
 
 <figure>
   <img src="./Information-is-beautiful.png" alt="Screenshot of the Information is Beautiful Website" title="Screenshot of the Information is Beautiful Website" />
@@ -35,7 +35,7 @@ Go beyond the defaults of pie charts and bar graphs. Explore how others turn dat
 </figure>
 
 ### No guts, no story.
-Effective data visualisation is not just about showcasing numbers—it's about telling a story that makes sense for your subject matter and your audience. Consider how your data can weave a narrative that engages viewers.  Visual metaphors, annotation, color and images can help with highlighting information. Telling a good story starts with knowing the information that you want to convey and what is at the centre of your data. Combining the data with narrative can help convey complex information in a way that is relatable.
+Effective data visualisation is not just about showcasing numbers — it's about telling a story that makes sense for your subject matter and your audience. Consider how your data can weave a narrative that engages viewers.  Visual metaphors, annotation, color and images can help with highlighting information. Telling a good story starts with knowing the information that you want to convey and what is at the centre of your data. Combining the data with narrative can help convey complex information in a way that is relatable.
 
 [Storytelling with data](https://trove.nla.gov.au/work/200778188?keyword=Story%20telling%20with%20data%20cole) by Cole Nussbaumer Knaflic  is a great starting point for learning more about how to do effective storytelling with data. 
 

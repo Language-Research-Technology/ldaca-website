@@ -1,5 +1,5 @@
 ---
-    title:  "Crate-O - a drop-in linked data metadata editor for RO-Crate (and other) linked data in repositories and beyond"
+    title:  "Crate-O — a drop-in linked data metadata editor for RO-Crate (and other) linked data in repositories and beyond"
     date: "2024-06-05"
     slug: open-repositories-2024-crate-o
     categories: ["LDaCA"]
@@ -13,13 +13,13 @@
 <a href="./2024-OR-Crate-O.pdf">PDF version</a> | <a href="./2024-OR-Crate-O.pptx">Powerpoint Version</a>
 
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
-<img src='./Slide00.png' alt='Crate-O - a drop-in linked data metadata editor for RO-Crate (and other) linked data in repositories and beyond ::  :: ' title='Slide: 0' border='1' />
+<img src='./Slide00.png' alt='Crate-O — a drop-in linked data metadata editor for RO-Crate (and other) linked data in repositories and beyond ::  :: ' title='Slide: 0' border='1' />
 
 # Developer Track Session 2
 
 Time: 05 June 2024, 09:00 - 10:30 · Location: Drottningporten 2
 
-Crate-O - A drop-in linked data metadata editor for RO-Crate (and other) linked data in repositories and beyond
+Crate-O — A drop-in linked data metadata editor for RO-Crate (and other) linked data in repositories and beyond
 
 Peter Sefton, Alvin Sebastian, Moises Sacal Bonequi, Rosanna Smith
 

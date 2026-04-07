@@ -7,7 +7,7 @@ title: "Process & Analyse"
 
 <SimpleNavigation
 title="Analysing language data at scale"
-description="Being able to analyse large amounts of language data opens up vast possibilities for researchers across disciplines. Language data may also need to be cleaned and processed in other ways to suit your research purposes. We are making tools for text analysis available, alongside the Language Technology and Data Analysis Laboratory (LADAL).<br>Test out tools for processing and analysing data, and access analysis and reuse training and tutorials for a diverse range of skill levels."
+description="Being able to analyse large amounts of language data opens up vast possibilities for researchers across disciplines. Language data might also need to be cleaned and processed in other ways to suit your research purposes. We are making tools for text analysis available, alongside the Language Technology and Data Analysis Laboratory (LADAL). Test out tools for processing and analysing data, and access analysis and reuse training and tutorials for a diverse range of skill levels."
 :contents="[
     { label: 'Tools & notebooks', href: '#tools-notebooks' },
     { label: 'Guides', href: '#guides' },
@@ -62,7 +62,7 @@ description="Being able to analyse large amounts of language data opens up vast 
       },
       {
         title: 'LADAL Tutorials',
-        description: 'Contains all tutorials provided by LADAL, organised in seven sections.',
+        description: 'Contains all tutorials provided by the Language Technology and Data Analysis Laboratory (LADAL), organised in seven sections.',
         image: '/images/partner-logos/ladal_logo.png',
         link: 'https://ladal.edu.au/tutorials.html'
       },
@@ -135,7 +135,7 @@ description="Being able to analyse large amounts of language data opens up vast 
 
 <ContactBox 
   heading="Interested in contributing to LDaCA?"
-  description="Do you have data, expertise, or resources you'd like to share? We'd love to hear from you."
+  description="Do you have data, expertise or resources you'd like to share? We'd love to hear from you."
   buttonText="Get in touch"
   buttonLink="/contact/"
 />

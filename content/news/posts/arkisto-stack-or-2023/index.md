@@ -9,7 +9,7 @@ author: "Peter Sefton"
 aliases: 
   - "/posts/arkisto-stack-or-2023/"
 layout: post
-description: "A presentation delivered by Peter Sefton at the Open Repositories 2023 conference in South Africa on 2023-06-14 in the Presentations: Discipline specific systems with FAIR principles session."
+description: "A presentation delivered by Peter Sefton at the Open Repositories 2023 conference in South Africa on 14 June 2023 in the Presentations: Discipline specific systems with FAIR principles session."
 image: "/news/posts/arkisto-stack-or-2023/Slide22.png"
 ---
 
@@ -17,7 +17,7 @@ image: "/news/posts/arkisto-stack-or-2023/Slide22.png"
 
 [Download as PDF](arkisto-stack-or-2023.pdf)
 
-This presentation was delivered by Peter Sefton at the [Open Repositories 2023](https://or2023.openrepositories.org/) conference in South Africa on 2023-06-14 in the [Presentations: Discipline specific systems with <GlossaryLink display="FAIR" id="fair" /> principles
+This presentation was delivered by Peter Sefton at the [Open Repositories 2023](https://or2023.openrepositories.org/) conference in South Africa on 14 June 2023 in the [Presentations: Discipline specific systems with <GlossaryLink display="FAIR" id="fair" /> principles
 ](https://www.conftool.net/or2023/index.php?page=browseSessions&form_session=460&presentations=show) session.
 
 This contains the slides and complete speaker notes, which have been edited after the conference.

@@ -7,7 +7,7 @@ title: "Find & Access"
 
 <SimpleNavigation
   title="Facilitating collection discovery and access",
-  description="Significant collections of language data, including collections of Aboriginal and Torres Strait Islander languages, Australian Englishes and other migrant languages, and regional languages of the Pacific, are at risk of being lost. LDaCA works to secure at-risk collections and improve access to under-used collections.<br>Dive into exploratory portals for data discovery, and find training and guides to support you in finding and accessing language data."
+  description="Significant collections of language data, including collections of Aboriginal and Torres Strait Islander languages, Australian Englishes and other migrant languages, and regional languages of the Pacific, are at risk of being lost. LDaCA works to secure at-risk collections and improve access to under-used collections. Dive into exploratory portals for data discovery, and find training and guides to support you in finding and accessing language data."
   :contents="[
     { label: 'Available portals', href: '#available-portals' },
     { label: 'Collections', href: '#collections' },
@@ -55,14 +55,15 @@ title: "Find & Access"
         description: 'Information related to using the Data Portal.',
         link: '/resources/user-guides/portal',
         level: 'Beginner',
-        audience: 'Researchers, community, people working with data.'
+        audience: 'Researchers, community, people working with data',
+        category: 'LDACA TECHNOLOGIES GUIDE'
       },
       {
         title: 'Cite Data',
         description: 'A guide to citing collections and data accessed through the portal.',
         link: '/resources/user-guides/portal/cite-data',
         level: 'Beginner',
-        audience: 'Researchers, community, people working with data.'
+        audience: 'Researchers, community, people working with data'
       },
     ]"/>
 
@@ -138,7 +139,7 @@ title: "Find & Access"
 
 <ContactBox 
   heading="Interested in contributing to LDaCA?"
-  description="Do you have data, expertise, or resources you'd like to share? We'd love to hear from you."
+  description="Do you have data, expertise or resources you'd like to share? We'd love to hear from you."
   buttonText="Get in touch"
   buttonLink="/contact/"
 />

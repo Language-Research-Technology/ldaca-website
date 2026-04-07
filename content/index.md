@@ -22,7 +22,7 @@ description = "The Language Data Commons of Australia brings together digital in
 
 
 <DataPortalBox 
-  heading="Use the Data Portal"
+  heading="Explore the Data Portal"
   description="Search, browse and use language materials"
   buttonText="Go to the Data Portal"
   buttonLink="https://data.ldaca.edu.au"
@@ -86,12 +86,14 @@ description = "The Language Data Commons of Australia brings together digital in
       },
       {
         title: 'Sydney Speaks',
-        link: '/resources/general-resources/case-studies/sydney-speaks'
+        link: '/resources/general-resources/case-studies/sydney-speaks',
+        category: 'CASE STUDY'
       },
       {
         title: 'Data Portal Guide',
         image: '/images/LDaCA_data_portal.png',
-        link: '/resources/user-guides/portal'
+        link: '/resources/user-guides/portal',
+        category: 'RESOURCE'
       }
     ]"/>
 

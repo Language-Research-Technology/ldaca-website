@@ -2,7 +2,7 @@
 title: "Five benefits of RO-Crate data packaging for language collections"
 date: 2025-06-03
 draft: false
-description: "Find out five ways Research Object (RO) Crates can support data stewards and why LDaCA uses RO-Crates in our infrastructure."
+description: "Find out five ways Research Object Crates (RO-Crates) can support data stewards and why LDaCA uses RO-Crates in our infrastructure."
 image: "/news/posts/ro-crate-benefits/json-file.png"
 layout: post
 author: Bridey Lea
@@ -12,7 +12,7 @@ by <Profile id="lea" />
 
 <br>
 
-*This blog post is adapted from a presentation delivered by Peter Sefton and Stian Soiland-Reyes in June 2024. A copy of the original presentation can be found [here](https://www.ldaca.edu.au/news/posts/open-repositories-2024-ro-crate/).*
+*This blog post is adapted from a presentation delivered by Peter Sefton and Stian Soiland-Reyes in June 2024. A copy of the original presentation can be found [here](/news/posts/open-repositories-2024-ro-crate/).*
 
 <br>
 
@@ -95,7 +95,7 @@ RO-Crates require that you write clear <GlossaryLink display="licensing" id="lic
 
 If different parts of your collection have different access conditions, LDaCA can help to separate the collection into multiple RO-Crates, each with its own license. We use the different licenses to create an access control system for our data portal. Chunking your collection into multiple crates means that different people can have different levels of access to it in our portal. 
 
-Read more about data licensing in our [access conditions resource](https://www.ldaca.edu.au/resources/ldaca-resources/determining-access-conditions/).
+Read more about data licensing in our [access conditions resource](/resources/ldaca-resources/determining-access-conditions/).
 
 <br>
 
@@ -120,7 +120,7 @@ Storing your collection as an RO-Crate ensures that if the collection has to mov
 
 ### 4. RO-Crates allow for flexible metadata description
 
-Useful metadata follows some kind of '[standard](https://www.ldaca.edu.au/resources/glossary/#standard)' — an agreed language to describe the same ideas. Standard metadata makes it easier to search across collections and to compare them. It also means the data steward isn't responsible for maintaining metadata <GlossaryLink display="vocabularies" id="controlled-vocabulary" />. But what happens when a metadata term that you need isn't covered in an existing metadata standard?
+Useful metadata follows some kind of '<GlossaryLink display="standard" id="standard" />' — an agreed language to describe the same ideas. Standard metadata makes it easier to search across collections and to compare them. It also means the data steward isn't responsible for maintaining metadata <GlossaryLink display="vocabularies" id="controlled-vocabulary" />. But what happens when a metadata term that you need isn't covered in an existing metadata standard?
 
 RO-Crate uses [Schema.org](http://schema.org) as its foundation for metadata description, as well as a few other standard vocabularies, such as [Dublin Core](http://purl.org/dc/terms). To supplement this, LDaCA has also developed the [Language Data Commons Schema](https://w3id.org/ldac/terms), which provides terms of particular relevance in describing language data collections, for example, [linguisticGenre](https://w3id.org/ldac/terms#linguisticGenre) and [translator](https://w3id.org/ldac/terms#translator). In cases where your collection's metadata requirements aren't covered by these vocabularies, RO-Crate also allows you to define custom terms. This means you can define your metadata to appropriately describe your collection. The custom terms and their descriptions are also recorded in the RO-Crate, so they're understood by others looking at the collection.
 
@@ -152,7 +152,7 @@ RO-Crate uses <GlossaryLink display="standards" id="standard" /> that are suppor
 
 Get to know the RO-Crate community and explore support tools.
 
-##### [Weekly drop-in call](https://www.ldaca.edu.au/news/events/#recurring-events)
+##### [Weekly drop-in call](/news/events/ro-crate-clinic-drop-in/)
 
 The RO-Crate community run a weekly drop-in call in Australia. 
 
@@ -162,7 +162,7 @@ The RO-Crate community run a weekly drop-in call in Australia.
 
 ##### [Crate-O](https://language-research-technology.github.io/crate-o/#/)
 
-Crate-O is a browser-based editor for RO-Crates. It allows you to create RO-Crates from files on your computer, edit crates and produce an HTML preview of your collection. We have produced a [user guide](https://www.ldaca.edu.au/resources/user-guides/crate-o/) to help you get started.
+Crate-O is a browser-based editor for RO-Crates. It allows you to create RO-Crates from files on your computer, edit crates and produce an HTML preview of your collection. We have produced a [user guide](/resources/user-guides/crate-o/) to help you get started.
 
 <br>
 

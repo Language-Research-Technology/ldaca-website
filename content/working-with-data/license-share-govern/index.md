@@ -7,7 +7,7 @@ title: "License, Share & Govern"
 
 <SimpleNavigation
   title="Caring for and sharing collections ethically"
-  description="Language data is always connected to people. We have a responsibility to govern and share language collections in ways that respect the rights of the people represented in the data. Data licensing is a way of describing who can access the data and how it can be used, allowing you to share it responsibly.<br>Find guides and examples for creating a data license, support for sharing data with appropriate access controls and insights for applying Indigenous Data Governance over the life of your collection."
+  description="Language data is always connected to people. We have a responsibility to govern and share language collections in ways that respect the rights of the people represented in the data. Data licensing is a way of describing who can access the data and how it can be used, allowing you to share it responsibly. Find guides and examples for creating a data license, support for sharing data with appropriate access controls and insights for applying Indigenous Data Governance over the life of your collection."
   :contents="[
     { label: 'Guides', href: '#guides' },
     { label: 'On the blog', href: '#on-the-blog' },
@@ -95,7 +95,7 @@ title: "License, Share & Govern"
 
 <ContactBox 
   heading="Interested in contributing to LDaCA?"
-  description="Do you have data, expertise, or resources you'd like to share? We'd love to hear from you."
+  description="Do you have data, expertise or resources you'd like to share? We'd love to hear from you."
   buttonText="Get in touch"
   buttonLink="/contact/"
 />

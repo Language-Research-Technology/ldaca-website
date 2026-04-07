@@ -2,7 +2,7 @@
 title: "Exploring the Australian Twittersphere without diving in: A guide to searchable aggregate data"
 date: 2026-02-17
 draft: false
-description: "A closer look at the Australian Twittersphere searchable aggregate data—a new collection on the LDaCA data portal—and what it offers researchers."
+description: "A closer look at the Australian Twittersphere searchable aggregate data — a new collection on the LDaCA data portal — and what it offers researchers."
 image: "/news/posts/austwittersphere/TwitteronIpad_ASPhotography.jpg"
 ---
 

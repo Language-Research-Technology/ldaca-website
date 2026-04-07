@@ -2,7 +2,7 @@
 title: "Copyrighted data: Options and considerations for working with newspapers and other texts"
 date: 2025-09-13T14:29:40+10:00
 tags: ["Governance, rights & access"]
-description: "While corpus linguists might agree that data sharing is preferable—in line with the FAIR principles—the use and analysis of copyrighted data such as published newspaper articles imposes serious limitations. What options do linguists have for sharing these corpora outside their research team? Chief Investigator Monika Bednarek discusses this question."
+description: "While corpus linguists might agree that data sharing is preferable — in line with the FAIR principles — the use and analysis of copyrighted data, such as published newspaper articles, imposes serious limitations. What options do linguists have for sharing these corpora outside their research team? Chief Investigator Monika Bednarek (University of Sydney) discusses this question."
 layout: post
 image: "/news/posts/copyrighted-data/Shewontberightmate.png"
 author: Monika Bednarek
@@ -17,7 +17,7 @@ by <Profile id="Bednarek" />
 
 <br>
 
-Many corpus linguists analyse language in the media, especially in newspaper corpora. These corpora often contain hundreds, if not thousands, of published articles from newspapers, which are protected by copyright and typically cannot easily be shared with others outside the research team. At the same time, the sharing of data is encouraged or might even be required by funding bodies, journals and other research stakeholders, as this enables reproducibility and has other positive effects on scientific research. According to the [FAIR principles](https://www.go-fair.org/), data should be findable, accessible, interoperable and reusable — as further discussed by Simon Musgrave in [this blog post](https://www.ldaca.edu.au/news/posts/fair-and-care/).
+Many corpus linguists analyse language in the media, especially in newspaper corpora. These corpora often contain hundreds, if not thousands, of published articles from newspapers, which are protected by copyright and typically cannot easily be shared with others outside the research team. At the same time, the sharing of data is encouraged or might even be required by funding bodies, journals and other research stakeholders, as this enables reproducibility and has other positive effects on scientific research. According to the [FAIR principles](https://www.go-fair.org/), data should be findable, accessible, interoperable and reusable — as further discussed by Simon Musgrave in [this blog post](/news/posts/fair-and-care/).
 
 <br>
 
@@ -37,7 +37,7 @@ The first option is to use newspaper articles that are out of copyright, keeping
 
 <br>
 
-The second option is not to distribute the relevant newspaper corpus, but to provide detailed parameters of corpus construction, so that others could (in theory) recreate the relevant dataset (for example, search syntax, newspapers, article types, years, approach to duplicates and near-duplicates, inclusions/exclusions, etc). Providing a metadata description of the dataset is also recommended, and this could be made available to others (e.g. as a spreadsheet), ideally with an associated Digital Object Identifier (DOI) – as in [this example](https://doi.org/10.5281/zenodo.15703066). In this example, however, the spreadsheet only includes basic information, such as file IDs, year/month dates, source (newspaper), text type categorisation and topic classification. It could therefore be improved with additional metadata, for example, by providing information about the relevant article headlines, authors and precise dates, so that the dataset could potentially be recreated by others. LDaCA’s approach to metadata is described [here](https://www.ldaca.edu.au/resources/ldaca-resources/metadata/).
+The second option is not to distribute the relevant newspaper corpus, but to provide detailed parameters of corpus construction, so that others could (in theory) recreate the relevant dataset (for example, search syntax, newspapers, article types, years, approach to duplicates and near-duplicates, inclusions/exclusions, etc). Providing a metadata description of the dataset is also recommended, and this could be made available to others (e.g. as a spreadsheet), ideally with an associated Digital Object Identifier (DOI) – as in [this example](https://doi.org/10.5281/zenodo.15703066). In this example, however, the spreadsheet only includes basic information, such as file IDs, year/month dates, source (newspaper), text type categorisation and topic classification. It could therefore be improved with additional metadata, for example, by providing information about the relevant article headlines, authors and precise dates, so that the dataset could potentially be recreated by others. LDaCA’s approach to metadata is described [here](/resources/ldaca-resources/metadata/).
 
 <br>
 

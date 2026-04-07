@@ -6,8 +6,8 @@ title: "Organise & Describe"
 <SimpleHero breadcrumb="Working with Data > Organise & Describe" title="Organise & Describe Data" description="Practical help for making your collections clearer, more accessible and responsibly managed."/>
 
 <SimpleNavigation
-  title="Building clearer more useable collections"
-  description="The way you organise and describe your data plays a key role in making your collection useable and meaningful. LDaCA seeks to support researchers and communities to build collections that remain useful, accessible and responsibly managed into the future.<br>Explore practical guides, tools and insights to support clear, effective data management that follows FAIR and CARE principles."
+  title="Building clearer, more useable collections"
+  description='The way you organise and describe your data plays a key role in making your collection useable and meaningful. LDaCA seeks to support researchers and communities to build collections that remain useful, accessible and responsibly managed into the future. Explore practical guides, tools and insights to support clear, effective data management that follows <GlossaryLink display="FAIR" id="fair" /> and <GlossaryLink display="CARE" id="care" /> principles.'
   :contents="[
     { label: 'Tools', href: '#tools' },
     { label: 'Guides', href: '#guides' },
@@ -21,7 +21,7 @@ title: "Organise & Describe"
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="TOOLS"
-  subheading="Flexible tools to assist with creating linked-data description and packaging."
+  subheading='Flexible tools to assist with creating <GlossaryLink display="linked-data" id="linked-data" /> description and packaging.'
   :items="[
       {
         title: 'Metadata editor: Crate-O',
@@ -32,7 +32,7 @@ title: "Organise & Describe"
       },
       {
         title: 'RO-Crate Playground',
-        description: 'RO-Crate Playground provides tools and resources for creating, managing, and sharing RO-Crates for efficient data organization and accessibility.',
+        description: 'RO-Crate Playground provides tools and resources for creating, managing and sharing RO-Crates for efficient data organisation and accessibility.',
         link: 'https://ro-crate.ldaca.edu.au/'
       }
     ]"/>
@@ -48,7 +48,7 @@ title: "Organise & Describe"
         title: 'Metadata',
         description: 'Not sure what metadata actually means or why everyone keeps talking about it? This guide has you covered — no jargon, just clear and practical advice.',
         level: 'Beginner',
-        audience: 'Researchers, community, people working with data.',
+        audience: 'Researchers, community, people working with data',
         link: '/resources/ldaca-resources/metadata'
       },
       {
@@ -75,7 +75,7 @@ title: "Organise & Describe"
         link: '/news/posts/team-member-tip-mark-raadgever'
       },
       {
-        title: 'Crate-O - a drop-in linked data metadata editor for RO-Crate (and other) linked data in repositories and beyond',
+        title: 'Crate-O — a drop-in linked data metadata editor for RO-Crate (and other) linked data in repositories and beyond',
         link: '/news/posts/2024-OR-Crate-O'
       }
     ]"/>
@@ -109,7 +109,7 @@ title: "Organise & Describe"
 
 <ContactBox 
   heading="Interested in contributing to LDaCA?"
-  description="Do you have data, expertise, or resources you'd like to share? We'd love to hear from you."
+  description="Do you have data, expertise or resources you'd like to share? We'd love to hear from you."
   buttonText="Get in touch"
   buttonLink="/contact/"
 />

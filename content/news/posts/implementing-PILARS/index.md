@@ -1,6 +1,6 @@
 ---
 title: "Implementing PILARS"
-description: "Preserving digital language and cultural heritage materials isn’t just a technical exercise—it’s about safeguarding knowledge, identity and history for future generations. Discover how we have been working towards implementing PILARS—the Protocols for Implementing Long-Term Archival Repository Services—by adopting open standards, building clear governance mechanisms and designing infrastructure that communities can trust and control."
+description: "Preserving digital language and cultural heritage materials isn’t just a technical exercise — it’s about safeguarding knowledge, identity and history for future generations. Discover how we have been working towards implementing PILARS — the Protocols for Implementing Long-Term Archival Repository Services — by adopting open standards, building clear governance mechanisms and designing infrastructure that communities can trust and control."
 date: 2025-11-23
 draft: false
 author: "Moises Sacal Bonequi"
@@ -20,7 +20,7 @@ image: "/news/posts/implementing-PILARS/Slide00.svg"
 
 An adaptation of a presentation delivered at the 2025 Annual Symposium of the HASS and Indigenous Research Data Commons.
 
-Preserving digital language and cultural-heritage materials isn’t just a technical exercise—it’s about safeguarding knowledge, identity, and history for future generations. As collections grow and as data becomes increasingly fragmented across institutions, the challenge is no longer simply storing information. It’s ensuring that community-owned knowledge remains accessible, usable, and sustainably managed over time.
+Preserving digital language and cultural-heritage materials isn’t just a technical exercise — it’s about safeguarding knowledge, identity, and history for future generations. As collections grow and as data becomes increasingly fragmented across institutions, the challenge is no longer simply storing information. It’s ensuring that community-owned knowledge remains accessible, usable, and sustainably managed over time.
 
 At the Language Data Commons of Australia (LDaCA), we’ve been working toward this goal by adopting open standards, building clear governance mechanisms, and designing infrastructure that communities can trust and control. The result of this work is **PILARS**: the Protocols for Implementing Long-Term Archival Repository Services.
 
@@ -60,7 +60,7 @@ And prioritise sustainability, simplicity, standardisation, linked-data descript
 
 ## Why PILARS?
 
-PILARS is our framework for designing sustainable archival systems—particularly in low-resource environments where communities need agency, autonomy, and long-term reliability.
+PILARS is our framework for designing sustainable archival systems — particularly in low-resource environments where communities need agency, autonomy, and long-term reliability.
 
 The protocols are guided by both the FAIR (Findable, Accessible, Interoperable, Reusable) and CARE (Collective Benefit, Authority to Control, Responsibility, Ethics) principles. Together, these ensure that while data remains discoverable and reusable, the rights and authority of communities are respected and embedded in the system itself.
 
@@ -109,7 +109,7 @@ A community standard that ensures digital objects are stored in a transparent, p
 
 ## RO-Crate
 
-Every storage object we deposit is an RO-Crate—a research object composed of:
+Every storage object we deposit is an RO-Crate — a research object composed of:
 
 The data files themselves
 
@@ -200,7 +200,7 @@ Accepts spreadsheets and converts them into RO-Crates
 Allows batch upload of metadata
 Can run locally, in portals, or as GitHub Pages
 
-Most of the real work of metadata creation still happens in spreadsheets—but Crate-O helps turn that into structured, validated metadata.
+Most of the real work of metadata creation still happens in spreadsheets — but Crate-O helps turn that into structured, validated metadata.
 
 
 
@@ -225,7 +225,7 @@ An API layer that exposes data consistently
 
 Indexing pipelines to make data searchable across distributed services
 
-Tools for building portals on demand—automated via Terraform—that communities can manage themselves
+Tools for building portals on demand — automated via Terraform — that communities can manage themselves
 
 
 
@@ -262,7 +262,7 @@ Authorization (what you’re allowed to access)
 
 We use federated identity systems like CILogon and eduGAIN, and partner with platforms like CADRE and REMS to manage entitlement workflows.
 
-Instead of role-based permissions locked inside a single system, we use license-based access control. Your entitlements—granted through a governance process—travel with you, allowing enforcement points at each data repository to make decisions consistently and automatically.
+Instead of role-based permissions locked inside a single system, we use license-based access control. Your entitlements — granted through a governance process — travel with you, allowing enforcement points at each data repository to make decisions consistently and automatically.
 
 This approach:
 Scales across institutions
@@ -332,7 +332,7 @@ Too often:
 
 We want to change that pattern.
 
-By building with open standards, separating data from code, and treating maintenance as an expected part of system design, we ensure tools outlive projects—and people.
+By building with open standards, separating data from code, and treating maintenance as an expected part of system design, we ensure tools outlive projects — and people.
 
 
 
@@ -357,7 +357,7 @@ There is still work ahead:
 - Sharing the LDaCA approach across disciplines
 - Strengthening governance frameworks
 
-But the foundation—the PILARS protocols—gives us a sustainable, community-centered way forward.
+But the foundation — the PILARS protocols — gives us a sustainable, community-centered way forward.
 
 
 

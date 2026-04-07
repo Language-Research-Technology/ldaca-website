@@ -35,7 +35,7 @@ View the **<a href="LDaCA-SC_Terms of Reference_2024-2028.pdf">Terms of Referenc
 ## Committee Members
 <img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" src="./MHaugh_150px.jpg">
 <div style="overflow:hidden">
-<b>Prof Michael Haugh, The University of Queensland—Chief Investigator (LDaCA)</b><br>
+<b>Prof Michael Haugh, The University of Queensland  —  Chief Investigator (LDaCA)</b><br>
 <i>Chairperson</i>
 
 Michael Haugh is Professor of Linguistics and Applied Linguistics, and a Fellow of the Australian Academy of the Humanities. He is currently leading the Language Data Commons of Australia (LDaCA).
@@ -45,7 +45,7 @@ Michael Haugh is Professor of Linguistics and Applied Linguistics, and a Fellow 
 
 <img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" src="./RBarrowcliffe_150px.jpg">
 <div style="overflow:hidden">
-<b>Dr Rose Barrowcliffe, The University of Queensland—Chief Investigator (LDaCA)</b><br>
+<b>Dr Rose Barrowcliffe, The University of Queensland — Chief Investigator (LDaCA)</b><br>
 <i>Member</i>
 
 Dr. Rose Barrowcliffe’s (Butchulla) work and research examines the representation and rights of Indigenous peoples in collecting institutions, and supports embedding Indigenous knowledge authority in archival records and data.
@@ -55,7 +55,7 @@ Dr. Rose Barrowcliffe’s (Butchulla) work and research examines the representat
 
 <img style="float: Left; padding-right:4px; padding-bottom:10px; width:100px;" src="./MBednarek_150px.jpg">
 <div style="overflow:hidden">
-<b>Prof Monika Bednarek, The University of Sydney—Chief Investigator</b><br>
+<b>Prof Monika Bednarek, The University of Sydney — Chief Investigator</b><br>
 <i>Member</i>
 
 Monika Bednarek is Professor in Linguistics and Director of the Sydney Corpus Lab at the University of Sydney, Australia. Her research combines corpus linguistics, sociolinguistics and discourse analysis, and she has published widely in these areas.
@@ -65,7 +65,7 @@ Monika Bednarek is Professor in Linguistics and Director of the Sydney Corpus La
 
 <img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" src="./ABell_150px.jpg">
 <div style="overflow:hidden">
-<b>Mr Adam Bell, AARNET—Chief Investigator</b><br>
+<b>Mr Adam Bell, AARNet — Chief Investigator</b><br>
 <i>Member</i>
 
 Adam Bell leads AARNet’s engagement with Australian cultural organisations and digital preservation initiatives. He is deputy chair of GLAM Peak and member of the Digital Preservation Coalition’s Australasian Stakeholder Group.
@@ -75,7 +75,7 @@ Adam Bell leads AARNet’s engagement with Australian cultural organisations and
 
 <img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" src="./CBracknell_150px.jpg">
 <div style="overflow:hidden">
-<b>Prof Clint Bracknell, University of Western Australia—Chief Investigator</b><br>
+<b>Prof Clint Bracknell, University of Western Australia — Chief Investigator</b><br>
 <i>Member</i>
 
 Clint Bracknell is a Noongar song-maker, composer, and Professor of Music at the University of Western Australia. He investigates connections between song, language, and landscapes, often working on projects to improve Indigenous community access to intangible cultural heritage.
@@ -84,7 +84,7 @@ Clint Bracknell is a Noongar song-maker, composer, and Professor of Music at the
 </div>
 <img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" src="./JFewster_150px.jpg">
 <div style="overflow:hidden">
-<b>Ms Jenny Fewster, Australian Research Data Commons—Director, HASS & Indigenous RDC</b><br>
+<b>Ms Jenny Fewster, Australian Research Data Commons — Director, HASS & Indigenous RDC</b><br>
 <i>Member</i>
 
 With over 20 years’ experience in collecting, managing and disseminating research and cultural heritage data and resources, Jenny is passionate about delivering quality research infrastructure and data to meet the diverse needs of HASS and Indigenous researchers.
@@ -93,7 +93,7 @@ With over 20 years’ experience in collecting, managing and disseminating resea
 </div>
 <img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" src="./KGilbey_150px.jpg">
 <div style="overflow:hidden">
-<b>A/Prof Kathryn Gilbey, Batchelor Institute—Chief Investigator</b><br>
+<b>A/Prof Kathryn Gilbey, Batchelor Institute — Chief Investigator</b><br>
 <i>Member</i>
 
 Professor Kathryn Gilbey is an Alyawarr scholar and the Executive Dean at Batchelor Institute of Indigenous Tertiary Education. The former Director of the Batchelor Graduate School she specialises in First Nations knowledges, inclusive education and critical race theories. Kathryn has worked in the field of Education for many years in the Northern Territory.
@@ -103,7 +103,7 @@ Professor Kathryn Gilbey is an Alyawarr scholar and the Executive Dean at Batche
 
 <img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" src="./RMcLellan_150px.jpg">
 <div style="overflow:hidden">
-<b>Robert McLellan, The University of Queensland—Project Manager (LDaCA)/ Industry Fellow</b><br>
+<b>Robert McLellan, The University of Queensland — Project Manager (LDaCA)/ Industry Fellow</b><br>
 <i>Member</i>
 
 Robert, a Gureng Gureng descendant from the Wide Bay region, is a community researcher, director and governance practitioner. He is an Industry Fellow at the University of QLD and Senior Program Manager for Language Data Commons of Australia (LDaCA).
@@ -112,7 +112,7 @@ Robert, a Gureng Gureng descendant from the Wide Bay region, is a community rese
 </div>
 <img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" src="./MSchweinberger_150px.jpg">
 <div style="overflow:hidden">
-<b>Dr Martin Schweinberger, The University of Queensland—Chief Investigator</b><br>
+<b>Dr Martin Schweinberger, The University of Queensland — Chief Investigator</b><br>
 <i>Member</i>
 
 Martin Schweinberger is a Lecturer in Applied Linguistics at UQ and co-director of LADAL. A quantitative corpus linguist, he specializes in computational analyses of text and speech. Martin is a Chief Investigator of LDaCA and Vice-President Profession of ISLE. His research spans language variation, discourse markers, L1/L2 acquisition, computational modeling, and text analytics. He also serves as a board member of ICAME.
@@ -122,7 +122,7 @@ Martin Schweinberger is a Lecturer in Applied Linguistics at UQ and co-director 
 
 <img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" src="./MTakahashi_150px.jpg">
 <div style="overflow:hidden">
-<b>Dr Marissa Takahashi, Queensland University of Technology (Digital Observatory)—Chief Investigator</b><br>
+<b>Dr Marissa Takahashi, Queensland University of Technology (Digital Observatory) — Chief Investigator</b><br>
 <i>Member</i>
 
 Marissa Takahashi is the Manager of the QUT Digital Observatory under the QUT Research Infrastructure. Marissa holds a PhD in Business Information Systems, MBA from The University of Queensland Business School and MSc in Information Engineering from Kyushu Institute of Technology in Japan.
@@ -132,7 +132,7 @@ Marissa Takahashi is the Manager of the QUT Digital Observatory under the QUT Re
 
 <img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" src="./Nthieberger_150px.jpg">
 <div style="overflow:hidden">
-<b>A/Prof Nick Thieberger, The University of Melbourne—Chief Investigator</b><br>
+<b>A/Prof Nick Thieberger, The University of Melbourne — Chief Investigator</b><br>
 <i>Member</i>
 
 Nick Thieberger is an Associate Professor in the School of Languages and Linguistics, University of Melbourne. He worked at the Vanuatu Cultural Centre in the mid-1990s and then wrote a grammar of Nafsan. His focus is finding, digitising, and providing access to language records, primarily through the Pacific and Regional Archive for Digital Sources in Endangered Cultures (PARADISEC) of which he is Director. He also leads Nyingarn, a platform for manuscript sources on Australian languages.
@@ -142,7 +142,7 @@ Nick Thieberger is an Associate Professor in the School of Languages and Linguis
 
 <img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" src="./CTravis_150px.jpg">
 <div style="overflow:hidden">
-<b>Prof Catherine Travis, Australian National University—Chief Investigator</b><br>
+<b>Prof Catherine Travis, Australian National University — Chief Investigator</b><br>
 <i>Member</i>
 
 Catherine Travis is Professor of Modern European Languages in the School of Literature, Languages and Linguistics at the Australian National University, and a Fellow of the Australian Academy of the Humanities. As a variationist sociolinguist, Catherine works with corpora of spontaneous speech to explore how languages change over time; how changes spread across society; and how social characteristics impact speech. She is particularly interested in socially diverse societies, including monolingual and bilingual settings.
@@ -152,7 +152,7 @@ Catherine Travis is Professor of Modern European Languages in the School of Lite
 
 <img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" src="./BWilliams_150px.jpg">
 <div style="overflow:hidden">
-<b>Beau Williams, First Languages Australia—Chief Investigator</b><br>
+<b>Beau Williams, First Languages Australia — Chief Investigator</b><br>
 <i>Member</i>
 
 Beau is a Murrawarri man with extensive experience in accounting, project management, procurement and contracting. Beau has worked in Indigenous affairs with the NSW state government, Australian Public Service and across the not for profit sector. Beau is the Chief Executive Officer of First Languages Australia. 
@@ -165,7 +165,7 @@ Beau is a Murrawarri man with extensive experience in accounting, project manage
 
 <img style="float: Left; padding-right:10px; padding-bottom:4px; width:100px;" src="./DCrump_150px.jpg">
 <div style="overflow:hidden">
-<b>Mr Desmond Crump, The University of Queensland—Industry Fellow (Indigenous Languages)</b><br>
+<b>Mr Desmond Crump, The University of Queensland — Industry Fellow (Indigenous Languages)</b><br>
 <i>Advisor</i>
 
 Desmond Crump’s family and cultural links are from South-West Queensland, which is the top end of the Gamilaroi Nation - he has an extensive background in education and community language revival. Currently Desmond is employed as the Industry Fellow (Indigenous Languages) for the University of Queensland to support activities under the UQ Indigenous Languages Strategy. Desmond is also a member of the Office of the Arts National Directions Group for the International Decade of Indigenous Languages and the AIATSIS Languages Advisory Committee.
@@ -204,14 +204,14 @@ Jane Simpson is Emeritus Professor in linguistics at the Australian National Uni
 <br>
 
 ## Standing Guests
-- **Moises Sacal Bonequi**, The University of Queensland— Research Technology (LDaCA)
-- **Dr Ben Foley**, The University of Queensland—Data and Collections (LDaCA)
-- **Dr Sam Hames**, The University of Queensland —Research Analytics (LDaCA)
+- **Moises Sacal Bonequi**, The University of Queensland —  Research Technology (LDaCA)
+- **Dr Ben Foley**, The University of Queensland — Data and Collections (LDaCA)
+- **Dr Sam Hames**, The University of Queensland  — Research Analytics (LDaCA)
 - **Dr Simon Musgrave**, The University of Queensland Research Support and Training (LDaCA)
 - **Dr Robin Burgess**, Australian Research Data Commons, HASS & Indigenous RDC
-- **Chenoa Pettrup**,  The University of Queensland—Industry Engagement and Communication (LDaCA)
-- **Sue Plunkett-Cole**, The University of Queensland—Project Coordinator (LDaCA)
-- **Dr Peter Sefton**, The University of Queensland—Research Technology (LDaCA)
+- **Chenoa Pettrup**,  The University of Queensland — Industry Engagement and Communication (LDaCA)
+- **Sue Plunkett-Cole**, The University of Queensland — Project Coordinator (LDaCA)
+- **Dr Peter Sefton**, The University of Queensland — Research Technology (LDaCA)
 <br>
 <br>
 

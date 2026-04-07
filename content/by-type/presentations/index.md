@@ -20,7 +20,7 @@ title: "Presentations"
         link: '/news/posts/2024-OR-RO-Crate'
       },
       {
-        title: 'Crate-O - a drop-in linked data metadata editor for RO-Crate (and other) linked data in repositories and beyond',
+        title: 'Crate-O — a drop-in linked data metadata editor for RO-Crate (and other) linked data in repositories and beyond',
         link: '/news/posts/2024-OR-Crate-O'
       },
       {

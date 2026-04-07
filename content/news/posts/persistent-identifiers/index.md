@@ -126,7 +126,7 @@ Below is a screenshot of a section of the DOI landing page for the _La Trobe Cor
 
 ### How do I get a DOI for my data collection?
 
-We have an article about this topic on our website — see [Obtaining a DOI](https://www.ldaca.edu.au/resources/ldaca-resources/obtaining-a-doi/).
+We have an article about this topic on our website — see [Obtaining a DOI](/resources/ldaca-resources/obtaining-a-doi/).
 
 <br>
 

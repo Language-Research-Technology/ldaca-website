@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Computational Text Analytics"
-description: "This workshop introduced the fundamentals of computational text analysis using LADAL."
+description: "This workshop introduced the fundamentals of computational text analysis using the Language Technology and Data Analysis Laboratory (LADAL)."
 layout: event
 image: "https://images.humanitix.com/i/eDs1ZMynRVWOhUJcyjA1@responsive-1250.webp"
 link: "https://events.humanitix.com/introduction-to-computational-text-analytics-fm6j24un"
