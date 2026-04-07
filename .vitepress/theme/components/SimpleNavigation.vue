@@ -1,4 +1,6 @@
 <script setup>
+import { computed, useSlots } from 'vue'
+import GlossaryLink from './GlossaryLink.vue'
 
 const props = defineProps({
   title: {
@@ -14,6 +16,46 @@ const props = defineProps({
     default: () => [
     ]
   }
+})
+
+const slots = useSlots()
+
+// Handle embedded GlossaryLink components
+const descriptionSegments = computed(() => {
+  const text = props.description || ''
+  const segments = []
+  const pattern = /<GlossaryLink\s+([^>]*?)\/?\s*>/g
+  const attrPattern = /(\w+)\s*=\s*"([^"]*)"/g
+  let lastIndex = 0
+  let match
+
+  while ((match = pattern.exec(text)) !== null) {
+    const idx = match.index
+    if (idx > lastIndex) {
+      segments.push({ type: 'text', value: text.slice(lastIndex, idx) })
+    }
+
+    const attrsText = match[1] || ''
+    const attrs = {}
+    let attrMatch
+    while ((attrMatch = attrPattern.exec(attrsText)) !== null) {
+      attrs[attrMatch[1]] = attrMatch[2]
+    }
+
+    if (attrs.display && attrs.id) {
+      segments.push({ type: 'glossary', display: attrs.display, id: attrs.id })
+    } else {
+      segments.push({ type: 'text', value: match[0] })
+    }
+
+    lastIndex = pattern.lastIndex
+  }
+
+  if (lastIndex < text.length) {
+    segments.push({ type: 'text', value: text.slice(lastIndex) })
+  }
+
+  return segments
 })
 
 // Smooth scroll with dynamic offset
@@ -37,7 +79,15 @@ const scrollTo = (href) => {
           <!-- Main content section -->
           <div class="max-w-[100%] lg:max-w-[60%] relative z-10">
             <h2 class="m-0 pb-4 text-[#383938]">{{ title }}</h2>
-            <p class="mt-4 text-[#383938] text-lg leading-relaxed" v-html="description"></p>
+            <div v-if="slots.description" class="mt-4 text-[#383938] text-lg leading-relaxed">
+              <slot name="description" />
+            </div>
+            <p v-else class="mt-4 text-[#383938] text-lg leading-relaxed">
+              <template v-for="(segment, index) in descriptionSegments" :key="index">
+                <span v-if="segment.type === 'text'">{{ segment.value }}</span>
+                <GlossaryLink v-else :display="segment.display" :id="segment.id" />
+              </template>
+            </p>
           </div>
 
           <!-- Desktop sidebar -->
