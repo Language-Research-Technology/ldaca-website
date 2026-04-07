@@ -120,11 +120,15 @@ const isExternal = (url) => {
 
             <!-- LARGE TILE -->
             <article v-if="visibleItems[0]" class="relative overflow-hidden shadow-xl min-h-[520px] w-full h-[900px]">
-                <div class="absolute inset-0 bg-cover bg-center bg-[#79a38d]"
-                    :style="{ backgroundImage: `url(${visibleItems[0].image})` }"></div>
+                <a :href="visibleItems[0].link" :target="isExternal(visibleItems[0].link) ? '_blank' : '_self'"
+                    :rel="isExternal(visibleItems[0].link) ? 'noopener noreferrer' : null"
+                    class="absolute inset-0 block">
+                    <img :src="visibleItems[0].image" :alt="visibleItems[0].title"
+                        class="h-full w-full object-cover bg-[#79a38d]" />
+                </a>
 
-                <div class="relative h-full flex items-end">
-                    <div class="p-6 bg-[#393939] w-full">
+                <div class="relative z-10 h-full flex items-end pointer-events-none">
+                    <div class="p-6 bg-[#393939] w-full pointer-events-auto">
                         <p class="text-white">{{ visibleItems[0].category }}</p>
                         <h3 class="text-white">{{ visibleItems[0].title }}</h3>
 
@@ -143,11 +147,15 @@ const isExternal = (url) => {
 
                 <!-- TOP RIGHT TILE -->
                 <article v-if="visibleItems[1]" class="relative overflow-hidden shadow-xl w-full h-full">
-                    <div class="absolute inset-0 bg-cover bg-center bg-[#79a38d]"
-                        :style="{ backgroundImage: `url(${visibleItems[1].image})` }"></div>
+                    <a :href="visibleItems[1].link" :target="isExternal(visibleItems[1].link) ? '_blank' : '_self'"
+                        :rel="isExternal(visibleItems[1].link) ? 'noopener noreferrer' : null"
+                        class="absolute inset-0 block">
+                        <img :src="visibleItems[1].image" :alt="visibleItems[1].title"
+                            class="h-full w-full object-cover bg-[#79a38d]" />
+                    </a>
 
-                    <div class="relative h-full flex items-end">
-                        <div class="p-4 bg-[#393939] w-full">
+                    <div class="relative z-10 h-full flex items-end pointer-events-none">
+                        <div class="p-4 bg-[#393939] w-full pointer-events-auto">
                             <p class="text-white">{{ visibleItems[1].category }}</p>
                             <h3 class="text-white">{{ visibleItems[1].title }}</h3>
 
@@ -164,10 +172,14 @@ const isExternal = (url) => {
 
                 <!-- BOTTOM RIGHT TILE -->
                 <article v-if="visibleItems[2]" class="relative overflow-hidden shadow-xl w-full h-full">
-                    <div class="absolute inset-0 bg-cover bg-center bg-[#79a38d]"
-                        :style="{ backgroundImage: `url(${visibleItems[2].image})` }"></div>
+                    <a :href="visibleItems[2].link" :target="isExternal(visibleItems[2].link) ? '_blank' : '_self'"
+                        :rel="isExternal(visibleItems[2].link) ? 'noopener noreferrer' : null"
+                        class="absolute inset-0 block">
+                        <img :src="visibleItems[2].image" :alt="visibleItems[2].title"
+                            class="h-full w-full object-cover bg-[#79a38d]" />
+                    </a>
 
-                    <div class="relative h-full flex items-end">
+                    <div class="relative z-10 h-full flex items-end">
                         <div class="p-4 bg-[#393939] w-full">
                             <p class="text-white">{{ visibleItems[2].category }}</p>
                             <h3 class="text-white">{{ visibleItems[2].title }}</h3>
@@ -192,13 +204,15 @@ const isExternal = (url) => {
 
             <article v-for="item in props.items" :key="item.title"
                 class="relative overflow-hidden shadow-xl w-full h-full min-h-[300px]">
-                <div class="absolute inset-0 bg-cover bg-center bg-[#79a38d]" :style="{
-                    backgroundImage: `url(${item.image ?? (Array.isArray(props.image) ? props.image[0] : props.image)
-                        })`
-                }"></div>
+                    <a :href="item.link" :target="isExternal(item.link) ? '_blank' : '_self'"
+                        :rel="isExternal(item.link) ? 'noopener noreferrer' : null"
+                        class="absolute inset-0 block">
+                        <img :src="item.image ?? (Array.isArray(props.image) ? props.image[0] : props.image)" :alt="item.title"
+                            class="h-full w-full object-cover bg-[#79a38d]" />
+                    </a>
 
-                <div class="relative h-full flex items-end">
-                    <div class="p-4 bg-[#393939] w-full">
+                    <div class="relative z-10 h-full flex items-end pointer-events-none">
+                    <div class="p-4 bg-[#393939] w-full pointer-events-auto">
                         <p class="text-white">{{ item.category }}</p>
                         <h3 class="text-white">{{ item.title }}</h3>
 

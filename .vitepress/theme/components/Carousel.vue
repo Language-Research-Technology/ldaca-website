@@ -194,7 +194,11 @@ const isExternal = (url) => {
         <!-- GRID PANELS -->
         <div class="grid grid-cols-3 gap-4">
           <div v-for="item in desktopItems" :key="item.title" :class="[cardBgClass, 'overflow-hidden flex flex-col']">
-            <img :src="item.image" :alt="item.title" :class="['w-full object-cover h-80', item.imageWasFallback ? 'bg-[#79a38d]' : '']" />
+            <a :href="item.link" :target="isExternal(item.link) ? '_blank' : '_self'"
+              :rel="isExternal(item.link) ? 'noopener noreferrer' : null"
+              class="block">
+              <img :src="item.image" :alt="item.title" :class="['w-full object-cover h-80', item.imageWasFallback ? 'bg-[#79a38d]' : '']" />
+            </a>
 
             <div class="px-5 pt-5 pb-3 space-y-3 flex flex-col">
               <p :class="categoryClass">{{ item.category }}</p>
@@ -210,7 +214,7 @@ const isExternal = (url) => {
                 {{ item.location }}
               </p>
 
-              <p :class="[textClass, 'leading-relaxed flex-1']">
+              <p :class="[textClass, 'leading-relaxed flex-1 whitespace-pre-line']">
                 {{ item.description }}
               </p>
             </div>
@@ -238,7 +242,11 @@ const isExternal = (url) => {
       <div class="lg:hidden flex flex-col gap-4">
         <div v-for="item in filteredItems" :key="item.title" class="bg-[#393939] overflow-hidden flex flex-col">
           <!-- compute image with frontmatter fallback -->
-          <img :src="withBase(item.image)" :alt="item.title" :class="['w-full object-cover h-60', item.imageWasFallback ? 'bg-[#79a38d]' : '']" />
+          <a :href="item.link" :target="isExternal(item.link) ? '_blank' : '_self'"
+            :rel="isExternal(item.link) ? 'noopener noreferrer' : null"
+            class="block">
+            <img :src="withBase(item.image)" :alt="item.title" :class="['w-full object-cover h-60', item.imageWasFallback ? 'bg-[#79a38d]' : '']" />
+          </a>
 
           <div class="px-5 pt-5 pb-3 space-y-3 flex flex-col">
             <p class="text-white">{{ item.category ?? pagesData[item.link]?.category }}</p>
@@ -251,7 +259,7 @@ const isExternal = (url) => {
             <p v-if="pagesData[item.link]?.location" class="font-bold text-white">
               {{ pagesData[item.link]?.location }}
             </p>
-            <p class="text-white leading-relaxed flex-1">
+            <p class="text-white leading-relaxed flex-1 whitespace-pre-line">
               {{ item.description ?? pagesData[item.link]?.description }}
             </p>
           </div>
