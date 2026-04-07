@@ -52,12 +52,12 @@ const isExternal = (url) => {
       </p>
 
       <!-- Logos row -->
-      <div class="flex flex-wrap items-center justify-between gap-2 pt-8">
+      <div class="flex flex-wrap lg:flex-nowrap items-center justify-center lg:justify-between gap-6 pt-8 w-full">
         <a v-for="item in items" :key="item.title" :href="item.link"
           :target="isExternal(item.link) ? '_blank' : '_self'"
           :rel="isExternal(item.link) ? 'noopener noreferrer' : null"
-          class="flex items-center justify-center transition hover:opacity-80">
-          <img :src="item.image" :alt="item.title" class="h-40 object-contain" />
+          class="flex items-center justify-center transition hover:opacity-80 lg:flex-1 min-w-0">
+          <img :src="item.image" :alt="item.title" class="h-20 sm:h-28 lg:h-40 object-contain max-w-full" />
         </a>
       </div>
 

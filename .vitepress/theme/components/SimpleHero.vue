@@ -33,7 +33,7 @@ const props = defineProps({
       :style="{ backgroundImage: `url(${backgroundImage})`, backgroundColor: headerBgColor }">
       <!-- Content container -->
       <div class="max-w-[1280px] mx-auto py-8">
-        <div class="max-w-[70%] relative z-10 xs:max-w-full">
+        <div class="max-w-[67%] relative z-10 xs:max-w-full">
           <p v-if="breadcrumb" class="m-0 text-white">{{ breadcrumb }}</p>
           <h1 class="m-0 pt-8 pb-4 text-white">{{ title }}</h1>
           <!-- Only show description if the page frontmatter has "layout: home" or "layout: event" -->

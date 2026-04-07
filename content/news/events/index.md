@@ -17,6 +17,7 @@ title: "Events"
 
 <Carousel 
   id="upcoming-events"
+  class="scroll-mt-20"
   shade="light"
   :opacity="100"
   heading="UPCOMING EVENTS"
@@ -29,6 +30,7 @@ title: "Events"
 
 <Carousel 
   id="event-recordings"
+  class="scroll-mt-20"
   shade="light"
   backgroundColor="#EAE4D68C"
   :opacity="100"
@@ -60,10 +62,15 @@ title: "Events"
 <Carousel 
   yearFilter="true"
   id="past-events"
+  class="scroll-mt-20"
   shade="light"
   :opacity="100"
   heading="PAST EVENTS"
   :items="[
+    {
+        title: 'HASS and Indigenous Research Data Commons Summer School 2026',
+        link: '/news/events/2026/hass-irdc-summer-school',
+    },
     {
         title: 'Get Started with Federal Hansard for Humanities, Arts, and Social Sciences Research',
         link: '/news/events/2025/hansard-2',
@@ -242,7 +249,7 @@ title: "Events"
 
 <ContactBox 
   heading="Stay up to date"
-  description="Get the latest news, events, and releases delivered to your inbox."
+  description="Get the latest news, events and releases delivered to your inbox."
   buttonText="Subscribe to our newsletter"
   buttonLink="https://ldaca.us13.list-manage.com/subscribe?u=ef8667be63aefb1e35062a797&id=de4b682e46"
 />
@@ -449,8 +456,8 @@ The <GlossaryLink display="RO-Crate" id="ro-crate" /> community run a weekly dro
     <summary>
         <b>Using Hansard & Other Parliamentary Proceedings for Your Research</b>
     </summary>
-    <p>Parliamentary bodies around the world have been publishing transcriptions of their proceedings for decades or even centuries. These transcriptions enable public scrutiny and transparency of the actions and speech of legislative bodies and elected representatives. Because of their documentation of legislative action and speech, their relatively consistent format, and their coverages of long periods of time they are potentially useful for policy researchers, media and communication scholars, political scientists, linguists, sociologists, historians, and many others.</p>
-    <p>This workshop aimed to provide a starting point for working with these transcribed proceedings, including evaluating how it might (and might not!) be useful for your research, how to get started for different kinds of projects, and cautionary notes on potential limitations. We will be using a suite of computational text analysis approaches, with no prior coding experience necessary.</p>
+    <p>Parliamentary bodies around the world have been publishing transcriptions of their proceedings for decades or even centuries. These transcriptions enable public scrutiny and transparency of the actions and speech of legislative bodies and elected representatives. Because of their documentation of legislative action and speech, their relatively consistent format and their coverages of long periods of time, they are potentially useful for policy researchers, media and communication scholars, political scientists, linguists, sociologists, historians and many others.</p>
+    <p>This workshop aimed to provide a starting point for working with these transcribed proceedings, including evaluating how it might (and might not!) be useful for your research, how to get started for different kinds of projects and cautionary notes on potential limitations. We will be using a suite of computational text analysis approaches, with no prior coding experience necessary.</p>
     <p><b>Leaders</b>: Sam Hames, Simon Musgrave</p>
     <p><b>When</b>: 19 September 2024</p>
     <p><b>Organisers</b>: <a href="https://computational-social-science.sydney.edu.au/" target="_blank">Computational Social Science Lab</a>, <a href="https://sydney.edu.au" target="blank">The University of Sydney</a></p>
@@ -490,7 +497,7 @@ The <GlossaryLink display="RO-Crate" id="ro-crate" /> community run a weekly dro
         <b>Language Data Commons of Australia – Co-Design Workshops</b>
     </summary>
     <p>The 2024 <GlossaryLink display="HASS" id="hass" /> and Indigenous <GlossaryLink display="RDC" id="rdc" /> Computational Skills Summer School aimed to empower participants with practical knowledge, build digital skills, and help inspire new research outcomes within these research communities.</p>
-    <p>Participation wass aimed at researchers in the humanities, arts, social sciences and Indigenous fields of study. Themed streams explored geosocial and geospatial data applications in humanities, arts, social sciences, and Indigenous research, using <GlossaryLink display="ARDC" id="ardc" /> <GlossaryLink display="tools" id="tools" /> and services. Participants gained experience through seminars and workshops and were guided through hands-on use of free tools and platforms provided by the <GlossaryLink display="ARDC" id="ardc" /> and its partners.</p>
+    <p>Participation was aimed at researchers in the humanities, arts, social sciences and Indigenous fields of study. Themed streams explored geosocial and geospatial data applications in humanities, arts, social sciences, and Indigenous research, using <GlossaryLink display="ARDC" id="ardc" /> <GlossaryLink display="tools" id="tools" /> and services. Participants gained experience through seminars and workshops and were guided through hands-on use of free tools and platforms provided by the <GlossaryLink display="ARDC" id="ardc" /> and its partners.</p>
     <p>For the <GlossaryLink display="ARDC" id="ardc" /> Summer School, <GlossaryLink display="IDN" id="idn" /> and LDaCA led a stream on the governance, management and usage of data, especially Indigenous data.</p>
     <ul>
         <li>A series of seminars will focus on sustainability, storage, usability and description of data.</li>
@@ -506,7 +513,7 @@ The <GlossaryLink display="RO-Crate" id="ro-crate" /> community run a weekly dro
         <b>HASS and Indigenous Research Data Commons Computational Skills Summer School 2024</b>
     </summary>
     <p>The 2024 <GlossaryLink display="HASS" id="hass" /> and Indigenous <GlossaryLink display="RDC" id="rdc" /> Computational Skills Summer School aimed to empower participants with practical knowledge, build digital skills, and help inspire new research outcomes within these research communities.</p>
-    <p>Participation wass aimed at researchers in the humanities, arts, social sciences and Indigenous fields of study. Themed streams explored geosocial and geospatial data applications in humanities, arts, social sciences, and Indigenous research, using <GlossaryLink display="ARDC" id="ardc" /> tools and services. Participants gained experience through seminars and workshops and were guided through hands-on use of free tools and platforms provided by the <GlossaryLink display="ARDC" id="ardc" /> and its partners.</p>
+    <p>Participation was aimed at researchers in the humanities, arts, social sciences and Indigenous fields of study. Themed streams explored geosocial and geospatial data applications in humanities, arts, social sciences, and Indigenous research, using <GlossaryLink display="ARDC" id="ardc" /> tools and services. Participants gained experience through seminars and workshops and were guided through hands-on use of free tools and platforms provided by the <GlossaryLink display="ARDC" id="ardc" /> and its partners.</p>
     <p>For the <GlossaryLink display="ARDC" id="ardc" /> Summer School, <GlossaryLink display="IDN" id="idn" /> and LDaCA led a stream on the governance, management and usage of data, especially Indigenous data.</p>
     <ul>
         <li>A series of seminars will focus on sustainability, storage, usability and description of data.</li>
@@ -571,7 +578,7 @@ The <GlossaryLink display="RO-Crate" id="ro-crate" /> community run a weekly dro
         <b>Jefferson Transcript Search Tool</b>
     </summary>
     <p>The Search Tool project uses programming to explore how to easily search and manipulate transcripts without the need to 'clean' the transcript. A browser-based tool has been developed, designed to be used by researchers unfamiliar with programming. (<a href="WorkshopAnsell.pdf">flier</a>)</p>
-    <p>The workshop was presented by Evelyn Ansell and is an outcome of her Career Development placement with Australia's Academic and Research Network <a href="https://www.aarnet.edu.au/" target="_blank">AARNET</a>. The <GlossaryLink display="Jupyter Notebook" id="jupyter-notebook" /> tool and this workshop have been developed during that placement.</p>
+    <p>The workshop was presented by Evelyn Ansell and is an outcome of her Career Development placement with Australia's Academic and Research Network <a href="https://www.aarnet.edu.au/" target="_blank">AARNet</a>. The <GlossaryLink display="Jupyter Notebook" id="jupyter-notebook" /> tool and this workshop have been developed during that placement.</p>
     <p><b>When</b>: Friday March 17 2023</p>
     <p><b>Length</b>: 90 minutes</p>
     <p><b>Facilitators</b>: Evelyn Ansell</p>

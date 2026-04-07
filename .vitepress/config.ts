@@ -193,7 +193,7 @@ export default defineConfig({
       // },
       {
         text: 'Working with Data',
-        subtitle: 'Information for working with language data in different ways.',
+        subtitle: 'Information for working with language data in different ways',
         items: [
           { text: 'Find & Access', link: '/working-with-data/find-access' },
           { text: 'License, Share & Govern', link: '/working-with-data/license-share-govern' },
@@ -203,15 +203,16 @@ export default defineConfig({
       },
       {
         text: 'Training & Events',
-        subtitle: 'Training materials, tutorials, and upcoming and past events.',
-        items: [
-          { text: 'Training', link: '/news/training', image: 'https://placehold.co/150x100' },
-          { text: 'Events', link: '/news/events', image: 'https://placehold.co/150x100' }
-        ]
+        link: '/news/events',
+        // subtitle: 'Training materials, tutorials, and upcoming and past events',
+        // items: [
+          // { text: 'Training', link: '/news/training', image: 'https://placehold.co/150x100' },
+          // { text: 'Events', link: '/news/events', image: 'https://placehold.co/150x100' }
+        // ]
       } as any,
       {
         text: 'Resources',
-        subtitle: 'Search for resources from across our ecosystem by type or subject.',
+        subtitle: 'Search for resources from across our ecosystem by type or subject',
         items: [
           {
             title: 'By Type',
@@ -283,7 +284,7 @@ export default defineConfig({
       },
       {
         text: 'About',
-        subtitle: 'Learn more about how the project is organised and governed.',
+        subtitle: 'Learn more about how the project is organised and governed',
         items: [
           { text: 'Organisation', link: '/about/organisation', image: 'https://placehold.co/150x100' },
           { text: 'People', link: '/about/people', image: 'https://placehold.co/150x100' },
