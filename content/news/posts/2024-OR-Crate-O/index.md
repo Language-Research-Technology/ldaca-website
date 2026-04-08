@@ -4,7 +4,7 @@
     slug: open-repositories-2024-crate-o
     categories: ["LDaCA"]
     tags: ["Crate-O", "Open Repositories", "RO-Crate"]
-    author: Peter Sefton
+    author: '<Profile id="sefton" />'
     layout: post
     description: "PT (Peter) Sefton attended the 19th International Conference on Open Repositories (3–6 June 2024, Göteborg, Sweden). With various collaborators, PT gave three presentations which are now available as blog posts: this post discusses Crate-O."
     image: "/news/posts/2024-OR-Crate-O/Slide04.png"

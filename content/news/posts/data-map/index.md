@@ -5,7 +5,7 @@ draft: false
 tags: ["Australia", "language data"]
 categories: ["LDaCA"]
 topics: ["Language in Australia"]
-author: "Simon Musgrave"
+author: '<Profile id="musgrave" />'
 aliases: 
 - "/posts/data-map/"
 layout: post

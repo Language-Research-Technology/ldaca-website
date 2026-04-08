@@ -3,7 +3,7 @@ title: "Implementing PILARS"
 description: "Preserving digital language and cultural heritage materials isn’t just a technical exercise — it’s about safeguarding knowledge, identity and history for future generations. Discover how we have been working towards implementing PILARS — the Protocols for Implementing Long-Term Archival Repository Services — by adopting open standards, building clear governance mechanisms and designing infrastructure that communities can trust and control."
 date: 2025-11-23
 draft: false
-author: "Moises Sacal Bonequi"
+author: '<Profile id="bonequi" />'
 layout: post
 image: "/news/posts/implementing-PILARS/Slide00.svg"
 ---

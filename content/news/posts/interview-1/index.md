@@ -5,7 +5,7 @@ draft: false
 tags:
 categories: ["LDaCA"]
 topics:
-author: "Kelvin Lee"
+author: Kelvin Lee
 aliases: 
 - "/posts/interview-1/"
 layout: post

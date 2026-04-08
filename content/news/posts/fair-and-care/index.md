@@ -5,7 +5,7 @@ draft: false
 tags: ["FAIR & CARE"]
 categories: ["LDaCA"]
 topics: ["Data Use Principles"]
-author: "Simon Musgrave"
+author: '<Profile id="musgrave" />'
 aliases: 
 - "/posts/fair-and-care/"
 layout: post

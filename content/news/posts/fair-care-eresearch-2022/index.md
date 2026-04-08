@@ -5,7 +5,7 @@
   slug: fair-care-eresearch-2022
   categories: ["LDaCA"]
   tags: ["Access"]
-  author: Peter Sefton
+  author: '<Profile id="sefton" />'
   aliases: 
   - "/posts/fair-care-eresearch-2022/"
   layout: post

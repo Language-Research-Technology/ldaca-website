@@ -4,11 +4,9 @@ date: 2025-10-08
 draft: false
 description: "Research Analytics Lead Sam Hames shares some advice for making sure that the data you’re working with suits your purposes."
 layout: post
-author: Sam Hames
+author: '<Profile id="hames" />'
 image: "/news/posts/team-member-tip-sam-hames/sam-hames-summer-school-2025.jpg"
 ---
-
-by <Profile id="hames" />
 
 <br>
 

@@ -6,6 +6,7 @@ tags: ["Governance, rights & access", "Indigenous data"]
 description: "Read a summary of our learnings from the LDaCA-hosted Indigenous Data Governance panel discussion on 30 September 2024. This event brought together a panel of three speakers — Lesley Acres (UQ Library), Dr Rose Barrowcliffe (Macquarie University and LDaCA), and Robert McLellan (UQ and LDaCA). The discussion was facilitated by Grant Sarra."
 layout: post
 image: "/news/posts/ID-gov-panel-2024/DSC_5642-Enhanced-NR-cropped.jpg"
+author: '<Profile id="lea" />'
 ---
 
 ## 30 September 2024

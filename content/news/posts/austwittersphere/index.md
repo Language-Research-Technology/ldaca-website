@@ -4,9 +4,9 @@ date: 2026-02-17
 draft: false
 description: "A closer look at the Australian Twittersphere searchable aggregate data — a new collection on the LDaCA data portal — and what it offers researchers."
 image: "/news/posts/austwittersphere/TwitteronIpad_ASPhotography.jpg"
+author: '<Profile id="fleet" />'
+layout: post
 ---
-
-by <Profile id="fleet" />
 
 <br>
 

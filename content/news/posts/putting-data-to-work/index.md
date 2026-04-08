@@ -4,11 +4,9 @@ date: 2025-03-13T14:29:40+10:00
 draft: false
 description: "Research Support and Training Lead Simon discusses how he used four collections from the LDaCA portal to strengthen his argument in the article 'Australian Slang as a Literary Genre', published in the Australian Journal of Linguistics, that there is a tradition of Australian writers inventing expressions which they treat as being part of Australian slang."
 layout: post
-author: Simon Musgrave
+author: '<Profile id="musgrave" />'
 image: "/news/posts/putting-data-to-work/mckenzie-book-burl.jpg"
 ---
-
-by <Profile id="musgrave"/>
 
 <br>
 

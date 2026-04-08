@@ -90,7 +90,7 @@ NOTE: change `pastEvent` to `true` if this event has finished. This will update 
 
 `layout: post`
 
-Use this layout for blog posts. This layout is identical to the `doc` layout, but adds a link back to 'All Posts' at the top of the page, as well as the date published and author.
+Use this layout for blog posts. This layout is identical to the `doc` layout, but adds the author to the `SimpleHero` section and contains a link back to 'All Posts' at the top of the page content, as well as the date published.
 
 ### RootList
 
@@ -133,6 +133,12 @@ To reference a profile item, use the format:
 
 ```
 <Profile id="smith" />
+```
+
+If writing a blog post, add the author in the following format in teh frontmatter:
+
+```
+author: '<Profile id="smith" />'
 ```
 
 To add or edit profiles, see the `.yml` files in `data/profiles`.

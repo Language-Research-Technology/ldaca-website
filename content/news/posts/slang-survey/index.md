@@ -4,7 +4,8 @@
     date: 2026-01-14
     slug: SlangSurvey
     category:
-    author:
+    author: '<Profile id="smith" /> and <Profile id="musgrave" />'
+    layout: post
 ---
 
 <a href="./SlangSurvey.pdf">PDF version</a> | <a href="./SlangSurvey.pptx">Powerpoint Version</a>

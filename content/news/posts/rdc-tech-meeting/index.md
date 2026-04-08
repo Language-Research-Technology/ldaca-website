@@ -4,7 +4,7 @@ date: "2022-06-08T15:28:35+10:00"
 draft: false
 categories: ["LDaCA"]
 tags: ["Repositories"]
-author: Peter Sefton
+author: '<Profile id="sefton" />'
 aliases: 
 - "/posts/rdc-tech-meeting/"
 layout: post

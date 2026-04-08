@@ -5,8 +5,9 @@ draft: false
 aliases:
   - "/posts/gdrf-2025/"
 image: "/news/posts/gdrf-2025/gdrf-2.png"
+author: '<Profile id="musgrave" />'
+layout: post
 ---
-by <Profile id="musgrave" />
 
 <br>
 

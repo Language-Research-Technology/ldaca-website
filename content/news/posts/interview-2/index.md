@@ -2,7 +2,7 @@
 title: "Interview with our Chief Investigators - Part 2"
 date: 2023-10-18T07:51:43+11:00
 draft: false
-author: "Kelvin Lee"
+author: Kelvin Lee
 categories: ["LDaCA"]
 aliases: 
 - "/posts/interview-2/"

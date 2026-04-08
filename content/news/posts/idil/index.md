@@ -6,10 +6,8 @@ tags: ["Indigenous data"]
 description: "A blog post discussing LDaCA’s thoughts about the Voices of Country Action Plan, a framework to guide Australia’s participation in the International Decade of Indigenous Languages, focusing in particular on Aboriginal and Torres Strait Islander community needs."
 layout: post
 image: "/news/posts/idil/idil-logo.png"
-author: Rosanna Smith, Simon Musgrave, Robert McLellan, Ben Foley
+author: '<Profile id="smith" />, <Profile id="musgrave" />, <Profile id="mclellan" /> and <Profile id="foley" />'
 ---
-
-by <Profile id="smith" />, <Profile id="musgrave" />, <Profile id="mclellan" /> and <Profile id="foley" />
 
 <br />
 

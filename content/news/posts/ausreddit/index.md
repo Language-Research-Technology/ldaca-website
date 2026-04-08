@@ -4,9 +4,9 @@ date: 2026-03-18
 draft: false
 description: "A closer look at the AusReddit searchable aggregate data — a new collection on the LDaCA data portal — and what it offers researchers."
 image: "/news/posts/ausreddit/Reddit_icon_brett-jordan.jpg"
+author: '<Profile id="fleet" />'
+layout: post
 ---
-
-by <Profile id="fleet" />
 
 <br>
 

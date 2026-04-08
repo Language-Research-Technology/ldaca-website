@@ -5,7 +5,7 @@ date: "2023-06-29"
 slug: "arkisto-stack-or-2023"
 categories: ["LDaCA"]
 tags: ["Access"]
-author: "Peter Sefton"
+author: '<Profile id="sefton" />'
 aliases: 
   - "/posts/arkisto-stack-or-2023/"
 layout: post

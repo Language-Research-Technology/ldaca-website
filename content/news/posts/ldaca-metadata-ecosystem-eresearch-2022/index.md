@@ -5,7 +5,7 @@ date: "2022-11-25"
 slug: ldaca-metadata-ecosystem-eresearch-2022
 categories: ["LDaCA"]
 tags: ["Metadata"]
-author: Peter Sefton
+author: '<Profile id="sefton" />'
 aliases:
   - "/posts/ldaca-metadata-ecosystem-eresearch-2022/"
 layout: post

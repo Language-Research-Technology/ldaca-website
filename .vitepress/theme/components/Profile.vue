@@ -1,14 +1,7 @@
 <template>
   <div class="profile-link-wrapper">
-    <a 
-      v-if="profile"
-      :href="profile.external_link" 
-      target="_blank" 
-      rel="noopener noreferrer"
-      class="profile-link"
-      @mouseenter="showTooltip = true"
-      @mouseleave="showTooltip = false"
-    >
+    <a v-if="profile" :href="profile.external_link" target="_blank" rel="noopener noreferrer" class="profile-link"
+      @mouseenter="showTooltip = true" @mouseleave="showTooltip = false">
       {{ profile.fullname || profile.Name }}
     </a>
     <span v-else class="profile-notfound">{{ id }}</span>
@@ -27,7 +20,14 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
+import { computed, ref } from 'vue'
+
+// Import all profile YAML files eagerly with raw content
+const profileModules = import.meta.glob('../../../data/profiles/*.{yml,yaml}', {
+  eager: true,
+  query: '?raw',
+  import: 'default'
+}) as Record<string, string>
 
 interface ProfileData {
   Name?: string
@@ -41,45 +41,56 @@ const props = defineProps<{
   id: string
 }>()
 
-const profile = ref<ProfileData | null>(null)
 const showTooltip = ref(false)
 
-onMounted(async () => {
-  try {
-    // Import the profile YAML file dynamically
-    const profileModule = await import(`../../../data/profiles/${props.id}.yml?raw`)
-    const yamlContent = profileModule.default
+const parseProfileYaml = (yamlContent: string): ProfileData => {
+  const lines = yamlContent.split('\n').filter((line: string) => line.trim())
+  const data: ProfileData = {}
 
-    // Simple YAML parser for key-value pairs
-    const lines = yamlContent.split('\n').filter((line: string) => line.trim())
-    const data: ProfileData = {}
+  for (const rawLine of lines) {
+    const line = rawLine.trim()
+    if (line.startsWith('#') || !line.includes(':')) continue
 
-    for (const rawLine of lines) {
-      const line = rawLine.trim()
-      // skip comments and non key:value lines
-      if (line.startsWith('#') || !line.includes(':')) continue
+    const [rawKey, ...valueParts] = line.split(':')
 
-      const [rawKey, ...valueParts] = line.split(':')
+    let key = rawKey.trim().replace(/^['\"]|['\"]$/g, '')
+    key = key.replace(/-/g, '_').toLowerCase()
 
-      // normalize key: strip quotes, trim, replace hyphens with underscores and lowercase
-      let key = rawKey.trim().replace(/^['\"]|['\"]$/g, '')
-      key = key.replace(/-/g, '_').toLowerCase()
+    let value = valueParts.join(':').trim()
+    value = value.replace(/^['\"]|['\"]$/g, '')
 
-      let value = valueParts.join(':').trim()
-      // Remove surrounding quotes from the value if present
-      value = value.replace(/^['\"]|['\"]$/g, '')
-
-      if (key === 'name') data.Name = value
-      if (key === 'fullname') data.fullname = value
-      if (key === 'position') data.position = value
-      if (key === 'biog') data.biog = value
-      if (key === 'external_link') data.external_link = value
-    }
-
-    profile.value = data
-  } catch (error) {
-    console.warn(`Profile not found for id: ${props.id}`)
+    if (key === 'name') data.Name = value
+    if (key === 'fullname') data.fullname = value
+    if (key === 'position') data.position = value
+    if (key === 'biog') data.biog = value
+    if (key === 'external_link') data.external_link = value
   }
+
+  return data
+}
+
+// Preprocess all profile YAML files into a map of id -> content for efficient lookup
+const profileContentById = computed<Record<string, string>>(() => {
+  const byId: Record<string, string> = {}
+
+  for (const [filePath, content] of Object.entries(profileModules)) {
+    const normalizedPath = filePath.replace(/\\/g, '/')
+    const match = normalizedPath.match(/\/([^/]+)\.(?:yml|yaml)(?:\?.*)?$/)
+    if (!match) continue
+    byId[match[1].toLowerCase()] = content
+  }
+
+  return byId
+})
+
+const profile = computed<ProfileData | null>(() => {
+  const id = String(props.id || '').trim().toLowerCase()
+  if (!id) return null
+
+  const yamlContent = profileContentById.value[id]
+  if (!yamlContent) return null
+
+  return parseProfileYaml(yamlContent)
 })
 </script>
 
@@ -106,25 +117,27 @@ onMounted(async () => {
 
 .profile-tooltip {
   position: absolute;
-  bottom: 100%;
+  top: 100%;
+  bottom: auto;
   left: 50%;
   transform: translateX(-50%);
-  margin-bottom: 10px;
-  z-index: 1000;
+  margin-top: 10px;
+  margin-bottom: 0;
+  z-index: 9999;
   pointer-events: auto;
 }
 
 .profile-tooltip-content {
   /* force an opaque background so tooltip text is always readable */
-  background-color: rgba(255,255,255,0.98);
+  background-color: rgba(255, 255, 255, 0.98);
   color: #0b0b0b;
-  border: 1px solid rgba(0,0,0,0.08);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 8px;
   padding: 12px 16px;
   min-width: 280px;
   max-width: 360px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
-  z-index: 2000;
+  z-index: 10000;
   backdrop-filter: none;
 }
 
@@ -140,7 +153,7 @@ onMounted(async () => {
   .profile-tooltip-content {
     background-color: #0b1220;
     color: #e6eef8;
-    border: 1px solid rgba(255,255,255,0.06);
+    border: 1px solid rgba(255, 255, 255, 0.06);
   }
 }
 

@@ -5,10 +5,8 @@ draft: false
 description: "Learn more about how Research Analytics Lead Sam Hames and University of Queensland Summer Research Experience student Jasper Chong teamed up to develop the Image Dataset Explorer, a tool that helps researchers make sense of large image collections. The post explores an unexpected crossover: how building a tool to work with images reveals principles and insights that can be applied to working with text.  It shows how learnings for language analytics can emerge from surprising places."
 image: "/news/posts/image-dataset-explorer/SLNSW_FL20769700.jpg"
 layout: post
-author: Bridey Lea
+author: '<Profile id="lea" />'
 ---
-
-by <Profile id="lea" />
 
 <br>
 

@@ -5,10 +5,8 @@ draft: false
 description: "A blog post about persistent identifiers and Digital Object Identifiers (DOIs)."
 image: "/news/posts/persistent-identifiers/PIDs_Fig_5_annotated_record.png"
 layout: post
-author: Maria Weaver
+author: '<Profile id = "weaver" />'
 ---
-
-by <Profile id = "weaver" />
 
 <br>
 
