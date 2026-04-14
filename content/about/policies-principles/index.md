@@ -3,7 +3,7 @@ layout: home
 title: "Policies & Principles"
 ---
 
-<SimpleHero breadcrumb='About > Policies & Principles' title='Policies & Principles' description='Policy documents, including our data onboarding process and takedown policy, and information about the underlying principles of the project.<br>Learn about our technical architecture, foundational ethical principles and policies for managing data.'/>
+<SimpleHero breadcrumb='About > Policies & Principles' title='Policies & Principles' description='Policy documents, including our data onboarding process and takedown policy, and information about the underlying principles of the project.'/>
 
 <Carousel 
   backgroundColor="#EAE4D68C"

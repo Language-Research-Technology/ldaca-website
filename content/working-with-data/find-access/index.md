@@ -6,7 +6,7 @@ title: "Find & Access"
 <SimpleHero breadcrumb="Working with Data > Find & Access" title="Find & Access Data" description="Digital infrastructure to help you find and access nationally significant language collections."/>
 
 <SimpleNavigation
-  title="Facilitating collection discovery and access",
+  title="Facilitating collection discovery and access"
   description="Significant collections of language data, including collections of Aboriginal and Torres Strait Islander languages, Australian Englishes and other migrant languages, and regional languages of the Pacific, are at risk of being lost. LDaCA works to secure at-risk collections and improve access to under-used collections. Dive into exploratory portals for data discovery, and find training and guides to support you in finding and accessing language data."
   :contents="[
     { label: 'Available portals', href: '#available-portals' },
@@ -22,10 +22,11 @@ title: "Find & Access"
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="AVAILABLE PORTALS"
+  subheading='<GlossaryLink display="Oni" id="oni" />: A web application that provides indexing, searching and access to secure data repositories following the <GlossaryLink display="Arkisto" id="arkisto" /> model. This is used to build the LDaCA Portal: The online interface of the Language Data Commons of Australia where users can discover and access language collections.'
   :items="[
       {
         title: 'LDaCA Data Portal',
-        description: 'TODO description.',
+        description: 'Explore and access significant collections of language data, including the Mitchell and Delbridge corpus and the International Corpus of English.',
         image: '/images/LDaCA_data_portal.png',
         link: 'https://data.ldaca.edu.au',
       },
