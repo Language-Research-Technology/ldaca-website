@@ -162,7 +162,7 @@ const isExternal = (url) => {
 <template>
   <section class="w-full py-10"
     :style="props.backgroundColor ? { backgroundColor: props.backgroundColor, opacity: `${props.opacity}%` } : {}">
-    <div class="max-w-[1280px] mx-auto">
+    <div class="max-w-[1280px] mx-auto px-4 sm:px-6 md:px-8 lg:px-2">
 
       <!-- Heading -->
       <div class="mb-8 text-left">
@@ -182,7 +182,8 @@ const isExternal = (url) => {
         </button>
       </div>
 
-      <div class="hidden lg:grid items-center" :class="showArrows ? 'lg:grid-cols-[auto_1fr_auto] gap-6' : 'grid-cols-1'">
+      <div class="hidden lg:grid items-center"
+        :class="showArrows ? 'lg:grid-cols-[auto_1fr_auto] gap-6' : 'grid-cols-1'">
 
         <!-- LEFT ARROW -->
         <button v-if="showArrows" type="button" @click="prev"
@@ -195,9 +196,9 @@ const isExternal = (url) => {
         <div class="grid grid-cols-3 gap-4">
           <div v-for="item in desktopItems" :key="item.title" :class="[cardBgClass, 'overflow-hidden flex flex-col']">
             <a :href="item.link" :target="isExternal(item.link) ? '_blank' : '_self'"
-              :rel="isExternal(item.link) ? 'noopener noreferrer' : null"
-              class="block">
-              <img :src="item.image" :alt="item.title" :class="['w-full object-cover h-80', item.imageWasFallback ? 'bg-[#79a38d]' : '']" />
+              :rel="isExternal(item.link) ? 'noopener noreferrer' : null" class="block">
+              <img :src="item.image" :alt="item.title"
+                :class="['w-full object-cover h-80', item.imageWasFallback ? 'bg-[#79a38d]' : '']" />
             </a>
 
             <div class="px-5 pt-5 pb-3 space-y-3 flex flex-col">
@@ -243,9 +244,9 @@ const isExternal = (url) => {
         <div v-for="item in filteredItems" :key="item.title" class="bg-[#393939] overflow-hidden flex flex-col">
           <!-- compute image with frontmatter fallback -->
           <a :href="item.link" :target="isExternal(item.link) ? '_blank' : '_self'"
-            :rel="isExternal(item.link) ? 'noopener noreferrer' : null"
-            class="block">
-            <img :src="withBase(item.image)" :alt="item.title" :class="['w-full object-cover h-60', item.imageWasFallback ? 'bg-[#79a38d]' : '']" />
+            :rel="isExternal(item.link) ? 'noopener noreferrer' : null" class="block">
+            <img :src="withBase(item.image)" :alt="item.title"
+              :class="['w-full object-cover h-60', item.imageWasFallback ? 'bg-[#79a38d]' : '']" />
           </a>
 
           <div class="px-5 pt-5 pb-3 space-y-3 flex flex-col">

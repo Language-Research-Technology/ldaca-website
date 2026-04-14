@@ -74,7 +74,7 @@ const scrollTo = (href) => {
   <!-- TITLE + DESCRIPTION -->
   <section class="p-0">
     <div class="relative w-full bg-cover bg-center bg-no-repeat min-h-[200px]">
-      <div class="max-w-[1280px] mx-auto py-8">
+      <div class="max-w-[1280px] mx-auto py-8 px-4 sm:px-6 md:px-8 lg:px-2">
         <div class="flex flex-col lg:flex-row items-start">
           <!-- Main content section -->
           <div class="max-w-[100%] lg:max-w-[60%] relative z-10">

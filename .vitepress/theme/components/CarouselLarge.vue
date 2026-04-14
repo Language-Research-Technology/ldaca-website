@@ -213,7 +213,7 @@ const isExternal = (url) => {
 <template>
     <section class="w-full py-10"
         :style="props.backgroundColor ? { backgroundColor: props.backgroundColor, opacity: `${props.opacity}%` } : {}">
-        <div class="max-w-[1280px] mx-auto relative">
+        <div class="max-w-[1280px] mx-auto relative px-4 sm:px-6 md:px-8 lg:px-2">
 
             <!-- Heading -->
             <div class="mb-8 text-left">
@@ -242,7 +242,10 @@ const isExternal = (url) => {
                         class="grid grid-cols-1 lg:grid-cols-2 overflow-hidden">
 
                         <!-- IMAGE LEFT -->
-                        <img :src="item.image" :alt="item.title" class="w-full h-full object-contain" />
+                        <a :href="item.link" :target="isExternal(item.link) ? '_blank' : '_self'"
+                            :rel="isExternal(item.link) ? 'noopener noreferrer' : null" class="block h-full">
+                            <img :src="item.image" :alt="item.title" class="w-full h-full object-contain" />
+                        </a>
 
                         <!-- CONTENT RIGHT -->
                         <div class="flex flex-col h-full pl-10 py-6">
@@ -288,7 +291,7 @@ const isExternal = (url) => {
                                 <div class="flex-1 flex flex-col justify-center">
                                     <h2 class="pb-6">{{ item.title }}</h2>
                                     <p class="leading-relaxed text-xl mt-3 whitespace-pre-line pb-6">{{ item.description
-                                        }}</p>
+                                    }}</p>
                                 </div>
 
                                 <div class="flex flex-wrap gap-4 mt-auto">
@@ -326,8 +329,11 @@ const isExternal = (url) => {
                 <div v-for="item in props.items" :key="item.title" class="overflow-hidden flex flex-col lg:flex-row">
 
                     <!-- IMAGE TOP -->
-                    <img :src="item.image ?? (Array.isArray(props.image) ? props.image[0] : props.image)"
-                        :alt="item.title" class="w-full h-60 object-contain lg:h-auto lg:w-1/2" />
+                    <a :href="item.link" :target="isExternal(item.link) ? '_blank' : '_self'"
+                        :rel="isExternal(item.link) ? 'noopener noreferrer' : null" class="block">
+                        <img :src="item.image ?? (Array.isArray(props.image) ? props.image[0] : props.image)"
+                            :alt="item.title" class="w-full h-60 object-contain lg:h-auto lg:w-1/2" />
+                    </a>
 
                     <!-- CONTENT BOTTOM -->
                     <div class="flex flex-col px-5 py-5 gap-4 lg:w-1/2 lg:px-6 lg:py-6">

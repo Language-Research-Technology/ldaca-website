@@ -214,7 +214,7 @@ const portalLink = computed(() => {
 <template>
   <section v-bind="$attrs" class="w-full py-10"
     :style="props.backgroundColor ? { backgroundColor: props.backgroundColor, opacity: `${props.opacity}%` } : {}">
-    <div class="max-w-[1280px] mx-auto">
+    <div class="max-w-[1280px] mx-auto px-4 sm:px-6 md:px-8 lg:px-2">
 
       <!-- Header -->
       <div class="max-w-2xl mb-8">
@@ -232,7 +232,12 @@ const portalLink = computed(() => {
             backgroundRepeat: 'no-repeat'
           }">
           <div class="p-5">
-            <h3 class="mb-2 text-[#383938]">{{ item.title }}</h3>
+            <h3 class="mb-2 text-[#383938]">
+              <button type="button" @click="openWidget(item)"
+                class="text-left hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8">
+                {{ item.title }}
+              </button>
+            </h3>
             <p class="text-[#383938] mb-5">{{ truncateWords(item.description, 40) }}</p>
           </div>
 

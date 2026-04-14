@@ -72,8 +72,8 @@ const descriptionSegments = computed(() => {
     <div class="relative w-full bg-cover bg-center bg-no-repeat min-h-[200px]"
       :style="{ backgroundImage: `url(${backgroundImage})`, backgroundColor: headerBgColor }">
       <!-- Content container -->
-      <div class="max-w-[1280px] mx-auto py-8">
-        <div class="max-w-[67%] relative z-10 xs:max-w-full">
+      <div class="max-w-[1280px] mx-auto py-8 px-4 sm:px-6 md:px-8 lg:px-2">
+        <div class="w-full lg:max-w-[67%] relative z-10">
           <p v-if="breadcrumb" class="m-0 text-white">{{ breadcrumb }}</p>
           <h1 class="m-0 pt-8 pb-4 text-white">{{ title }}</h1>
           <!-- Only show description if the page frontmatter has "layout: home" or "layout: event" -->

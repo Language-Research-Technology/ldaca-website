@@ -108,7 +108,7 @@ const isExternal = (url) => {
 
 
 <template>
-    <section class="max-w-[1280px] mx-auto py-10">
+    <section class="max-w-[1280px] mx-auto py-10 px-4 sm:px-6 md:px-8 lg:px-2">
 
         <!-- Heading -->
         <div class="mb-8 text-left">
@@ -204,14 +204,13 @@ const isExternal = (url) => {
 
             <article v-for="item in props.items" :key="item.title"
                 class="relative overflow-hidden shadow-xl w-full h-full min-h-[300px]">
-                    <a :href="item.link" :target="isExternal(item.link) ? '_blank' : '_self'"
-                        :rel="isExternal(item.link) ? 'noopener noreferrer' : null"
-                        class="absolute inset-0 block">
-                        <img :src="item.image ?? (Array.isArray(props.image) ? props.image[0] : props.image)" :alt="item.title"
-                            class="h-full w-full object-cover bg-[#79a38d]" />
-                    </a>
+                <a :href="item.link" :target="isExternal(item.link) ? '_blank' : '_self'"
+                    :rel="isExternal(item.link) ? 'noopener noreferrer' : null" class="absolute inset-0 block">
+                    <img :src="item.image ?? (Array.isArray(props.image) ? props.image[0] : props.image)"
+                        :alt="item.title" class="h-full w-full object-cover bg-[#79a38d]" />
+                </a>
 
-                    <div class="relative z-10 h-full flex items-end pointer-events-none">
+                <div class="relative z-10 h-full flex items-end pointer-events-none">
                     <div class="p-4 bg-[#393939] w-full pointer-events-auto">
                         <p class="text-white">{{ item.category }}</p>
                         <h3 class="text-white">{{ item.title }}</h3>

@@ -111,7 +111,7 @@ const isExternal = (url) => {
 
 <template>
     <section class="w-full py-10">
-        <div class="max-w-[1280px] mx-auto">
+        <div class="max-w-[1280px] mx-auto px-4 sm:px-6 md:px-8 lg:px-2">
 
             <!-- Heading -->
             <div class="mb-8 text-left">
@@ -153,7 +153,13 @@ const isExternal = (url) => {
                         <div class="relative z-10 flex flex-col gap-3 h-full">
                             <p>{{ item.category }}</p>
 
-                            <h2 class="text-white mb-6">{{ item.title }}</h2>
+                            <h2 class="text-white mb-6">
+                                <a :href="item.link" :target="isExternal(item.link) ? '_blank' : '_self'"
+                                    :rel="isExternal(item.link) ? 'noopener noreferrer' : null"
+                                    class="hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8">
+                                    {{ item.title }}
+                                </a>
+                            </h2>
 
                             <p class="text-white leading-relaxed text-2xl">
                                 {{ item.description }}
@@ -196,7 +202,13 @@ const isExternal = (url) => {
                         :alt="item.title" class="w-full object-cover h-60" />
                     <div class="px-5 pt-5 pb-3 space-y-3 flex flex-col">
                         <p class="text-white">{{ item.category }}</p>
-                        <h3 class="text-white">{{ item.title }}</h3>
+                        <h3 class="text-white">
+                            <a :href="item.link" :target="isExternal(item.link) ? '_blank' : '_self'"
+                                :rel="isExternal(item.link) ? 'noopener noreferrer' : null"
+                                class="hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8">
+                                {{ item.title }}
+                            </a>
+                        </h3>
                         <p class="text-white leading-relaxed flex-1">{{ item.description }}</p>
                     </div>
                     <a :href="item.link" :target="isExternal(item.link) ? '_blank' : '_self'"

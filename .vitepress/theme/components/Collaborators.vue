@@ -39,7 +39,7 @@ const isExternal = (url) => {
   <section :id="id" class="w-full py-12" :style="backgroundColor
     ? { backgroundColor: backgroundColor, opacity: `${opacity}%` }
     : {}">
-    <div class="max-w-[1280px] mx-auto text-left">
+    <div class="max-w-[1280px] mx-auto text-left px-4 sm:px-6 md:px-8 lg:px-2">
 
       <!-- Heading -->
       <h1 v-if="heading" class="mb-4">
