@@ -64,7 +64,7 @@ Use this layout as the default for `.md` pages.
 
 `layout: event`
 
-Use this layout for events pages. This layout has two sections:
+Use this layout for events pages, currently stored in `/news/events/YYYY`. This layout has two sections:
 - left side: standard Markdown text for event description, videos, etc. taken from the content of the `.md` file
 - right side: an event details box taken from the frontmatter of the `.md` file
 
@@ -90,7 +90,15 @@ NOTE: change `pastEvent` to `true` if this event has finished. This will update 
 
 `layout: post`
 
-Use this layout for blog posts. This layout is identical to the `doc` layout, but adds the author to the `SimpleHero` section and contains a link back to 'All Posts' at the top of the page content, as well as the date published.
+Use this layout for blog posts, currently stored in `/news/posts`. This layout is identical to the `doc` layout, but adds the author to the `SimpleHero` section and contains a link back to 'All Posts' at the top of the page content, as well as the date published.
+
+### Project
+
+`layout: project`
+
+Use this layout for project pages, currently stored in `/resources/general-resources/projects-case-studies/projects`. This layout has two sections:
+- left side: standard Markdown text for project description, outcomes, further reading, etc. taken from the content of the `.md` file
+- right side: image, project details and information boxes taken from the frontmatter of the `.md` file
 
 ### RootList
 

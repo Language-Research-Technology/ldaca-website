@@ -26,8 +26,7 @@ title: "Projects & Case Studies"
   :items="[
       {
         title: 'Identifying Precarious Victorian Oral Histories',
-        description: 'The Identifying Precarious Victorian Oral History Collections Project website is live! The Identifying Precarious Victorian Oral History Collections Project is led by Research Project Manager Anisa Puri at the Australian National University (ANU) branch of LDaCA. Oral history collections hold invaluable insights into our historical, cultural and linguistic past. Little is known about precarious collections that are at risk of being lost. This project is taking an important first step by identifying and listing details about these collections in Victoria.',
-        link: 'https://precariousoralhistories.com/',
+        link: '/resources/general-resources/projects-case-studies/projects/identifying-precarious-victorian-oral-histories',
         category: 'COMPLETE'
       },
       {

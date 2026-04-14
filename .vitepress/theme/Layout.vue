@@ -6,6 +6,7 @@ import DocLayout from './layouts/Doc.vue'
 import PostLayout from './layouts/Post.vue'
 import RootListLayout from './layouts/RootList.vue'
 import EventLayout from './layouts/Event.vue'
+import ProjectLayout from './layouts/Project.vue'
 import { useData, useRoute } from 'vitepress'
 import { onBeforeUnmount, onMounted, nextTick, watch } from 'vue'
 
@@ -65,6 +66,7 @@ watch(() => route.path, async () => {
         <PostLayout v-else-if="page.frontmatter && page.frontmatter.layout === 'post'" />
         <RootListLayout v-else-if="page.frontmatter && page.frontmatter.layout === 'root_list'" />
         <EventLayout v-else-if="page.frontmatter && page.frontmatter.layout === 'event'" />
+        <ProjectLayout v-else-if="page.frontmatter && page.frontmatter.layout === 'project'" />
         <Content v-else />
       </main>
     </div>
