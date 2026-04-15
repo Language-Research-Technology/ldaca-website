@@ -13,7 +13,7 @@ const props = defineProps({
         type: String,
         default: ''
     },
-    subheading: {
+    description: {
         type: String,
         default: ''
     },
@@ -42,8 +42,8 @@ const props = defineProps({
 })
 
 // Handle GlossaryLink components
-const subheadingSegments = computed(() => {
-    const text = props.subheading || ''
+const descriptionSegments = computed(() => {
+    const text = props.description || ''
     const segments = []
     const pattern = /<GlossaryLink\s+([^>]*?)\/?\s*>/g
     const attrPattern = /(\w+)\s*=\s*"([^"]*)"/g
@@ -189,6 +189,11 @@ const visibleItems = computed(() => {
     })
 })
 
+const desktopPanelMinHeight = computed(() => {
+    if (!desktopCarouselHeight.value) return 0
+    return Math.min(desktopCarouselHeight.value, 400)
+})
+
 const showArrows = computed(() => total.value > visibleCount.value)
 
 const prev = () => {
@@ -216,43 +221,43 @@ const isExternal = (url) => {
         <div class="max-w-[1280px] mx-auto relative px-4 sm:px-6 md:px-8 lg:px-2">
 
             <!-- Heading -->
-            <div class="mb-8 text-left">
-                <h1>{{ props.heading }}</h1>
-                <p class="my-4 text-gray-600 text-xl">
-                    <template v-for="(segment, index) in subheadingSegments" :key="index">
+            <div class="mb-4 text-left">
+                <h1 class="mb-0">{{ props.heading }}</h1>
+                <p class="mt-2 mb-6 text-gray-600 text-xl">
+                    <template v-for="(segment, index) in descriptionSegments" :key="index">
                         <span v-if="segment.type === 'text'">{{ segment.value }}</span>
                         <GlossaryLink v-else :display="segment.display" :id="segment.id" />
                     </template>
                 </p>
             </div>
 
-            <div class="hidden lg:grid lg:grid-cols-[auto_1fr_auto] items-center" :class="{ 'gap-6': showArrows }">
+            <div class="hidden lg:grid lg:grid-cols-[auto_1fr_auto] items-start" :class="{ 'gap-6': showArrows }">
 
                 <!-- LEFT ARROW -->
                 <button v-if="showArrows" type="button" @click="prev"
-                    class="h-16 w-16 flex items-center justify-center rounded-full bg-[#79a38d] text-white font-sans font-bold text-3xl hover:opacity-80 shadow-sm"
+                    class="self-start mt-[250px] h-16 w-16 flex items-center justify-center rounded-full bg-[#79a38d] text-white font-sans font-bold text-3xl hover:opacity-80 shadow-sm"
                     aria-label="Previous">
                     ←
                 </button>
 
                 <!-- GRID PANELS -->
                 <div class="grid grid-cols-1 gap-6"
-                    :style="desktopCarouselHeight ? { minHeight: `${desktopCarouselHeight}px` } : {}">
+                    :style="desktopPanelMinHeight ? { minHeight: `${desktopPanelMinHeight}px` } : {}">
                     <div v-for="item in visibleItems" :key="item.title"
                         class="grid grid-cols-1 lg:grid-cols-2 overflow-hidden">
 
                         <!-- IMAGE LEFT -->
                         <a :href="item.link" :target="isExternal(item.link) ? '_blank' : '_self'"
                             :rel="isExternal(item.link) ? 'noopener noreferrer' : null" class="block h-full">
-                            <img :src="item.image" :alt="item.title" class="w-full h-full object-contain" />
+                            <img :src="item.image" :alt="item.title" class="w-full h-full object-contain object-bottom" />
                         </a>
 
                         <!-- CONTENT RIGHT -->
-                        <div class="flex flex-col h-full pl-10 py-6">
+                        <div class="flex flex-col h-full pl-10">
                             <!-- Title & description centered vertically -->
                             <div class="flex-1 flex flex-col justify-center">
-                                <h2 class="pb-6">{{ item.title }}</h2>
-                                <p class="leading-relaxed text-xl mt-3 whitespace-pre-line pb-6">{{ item.description }}
+                                <h2 class="mb-3">{{ item.title }}</h2>
+                                <p class="leading-relaxed text-xl whitespace-pre-line">{{ item.description }}
                                 </p>
                             </div>
 
@@ -284,13 +289,13 @@ const isExternal = (url) => {
                             data-carousel-large-measure-item class="grid grid-cols-1 lg:grid-cols-2 overflow-hidden">
 
                             <!-- IMAGE LEFT -->
-                            <img :src="item.image" :alt="item.title" class="w-full h-full object-contain" />
+                            <img :src="item.image" :alt="item.title" class="w-full h-full object-contain object-bottom" />
 
                             <!-- CONTENT RIGHT -->
-                            <div class="flex flex-col h-full pl-10 py-6">
+                            <div class="flex flex-col h-full pl-10">
                                 <div class="flex-1 flex flex-col justify-center">
-                                    <h2 class="pb-6">{{ item.title }}</h2>
-                                    <p class="leading-relaxed text-xl mt-3 whitespace-pre-line pb-6">{{ item.description
+                                    <h2 class="mb-3">{{ item.title }}</h2>
+                                    <p class="leading-relaxed text-xl whitespace-pre-line">{{ item.description
                                     }}</p>
                                 </div>
 
@@ -317,7 +322,7 @@ const isExternal = (url) => {
 
                 <!-- RIGHT ARROW -->
                 <button v-if="showArrows" type="button" @click="next"
-                    class="h-16 w-16 flex items-center justify-center rounded-full bg-[#79a38d] text-white font-sans font-bold text-3xl hover:opacity-80 shadow-sm"
+                    class="self-start mt-[240px] h-16 w-16 flex items-center justify-center rounded-full bg-[#79a38d] text-white font-sans font-bold text-3xl hover:opacity-80 shadow-sm"
                     aria-label="Next">
                     →
                 </button>

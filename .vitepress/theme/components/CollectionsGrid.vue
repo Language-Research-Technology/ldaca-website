@@ -5,8 +5,8 @@ import { ROCrate } from 'ro-crate'
 const API_URL = 'https://data.ldaca.edu.au/api/object?memberOf=null'
 
 const props = defineProps({
-  heading: { type: String, default: 'Heading' },
-  subheading: { type: String, default: 'Subheading text goes here.' },
+  heading: { type: String, default: '' },
+  description: { type: String, default: '' },
   backgroundColor: {
     type: String,
     default: '#79a38d'
@@ -217,9 +217,9 @@ const portalLink = computed(() => {
     <div class="max-w-[1280px] mx-auto px-4 sm:px-6 md:px-8 lg:px-2">
 
       <!-- Header -->
-      <div class="max-w-2xl mb-8">
+      <div class="w-full mb-8">
         <h1 class="mb-2 text-white">{{ heading }}</h1>
-        <p class="text-white text-xl">{{ subheading }}</p>
+        <p class="text-white text-xl">{{ description }}</p>
       </div>
 
       <!-- Tiles -->

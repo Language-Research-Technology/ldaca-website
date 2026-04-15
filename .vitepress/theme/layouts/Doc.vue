@@ -2,6 +2,7 @@
 import { useData } from 'vitepress'
 import { computed } from 'vue'
 import SimpleHero from '../components/SimpleHero.vue'
+import Profile from '../components/Profile.vue'
 
 const { page } = useData()
 const tags = computed(() => {
@@ -15,6 +16,43 @@ const tagLinks = computed(() => {
     label: tag,
     url: `/tags#${tag.toLowerCase().replace(/\s+/g, '-')}`
   }))
+})
+
+const authorSegments = computed(() => {
+  const text = page.value?.frontmatter?.author || ''
+  const segments = []
+  const pattern = /<Profile\s+([^>]*?)\/?\s*>/g
+  const attrPattern = /(\w+)\s*=\s*["']([^"']*)["']/g
+  let lastIndex = 0
+  let match
+
+  while ((match = pattern.exec(text)) !== null) {
+    const idx = match.index
+    if (idx > lastIndex) {
+      segments.push({ type: 'text', value: text.slice(lastIndex, idx) })
+    }
+
+    const attrsText = match[1] || ''
+    const attrs = {}
+    let attrMatch
+    while ((attrMatch = attrPattern.exec(attrsText)) !== null) {
+      attrs[attrMatch[1]] = attrMatch[2]
+    }
+
+    if (attrs.id) {
+      segments.push({ type: 'profile', id: attrs.id })
+    } else {
+      segments.push({ type: 'text', value: match[0] })
+    }
+
+    lastIndex = pattern.lastIndex
+  }
+
+  if (lastIndex < text.length) {
+    segments.push({ type: 'text', value: text.slice(lastIndex) })
+  }
+
+  return segments
 })
 
 </script>
@@ -32,8 +70,14 @@ const tagLinks = computed(() => {
         </h1> -->
 
         <!-- Auto-display author from front matter -->
-        <div v-if="page.frontmatter?.author" class="mb-4 italic text-gray-600">
-          <span>by {{ page.frontmatter.author }}</span>
+        <div v-if="page.frontmatter?.author" class="mb-4 text-gray-600">
+          <span class="inline-flex flex-wrap items-center gap-1">
+            <span>by</span>
+            <template v-for="(segment, index) in authorSegments" :key="index">
+              <span v-if="segment.type === 'text'">{{ segment.value }}</span>
+              <Profile v-else :id="segment.id" />
+            </template>
+          </span>
         </div>
 
         <!-- Tags -->

@@ -20,9 +20,15 @@ const props = defineProps({
 
 const slots = useSlots()
 
+const normalizeLineBreaks = (value = '') => {
+  return String(value || '')
+    .replace(/<br\s*\/?\s*>/gi, '\n')
+    .replace(/\\n/g, '\n')
+}
+
 // Handle embedded GlossaryLink components
 const descriptionSegments = computed(() => {
-  const text = props.description || ''
+  const text = normalizeLineBreaks(props.description)
   const segments = []
   const pattern = /<GlossaryLink\s+([^>]*?)\/?\s*>/g
   const attrPattern = /(\w+)\s*=\s*"([^"]*)"/g
@@ -82,7 +88,7 @@ const scrollTo = (href) => {
             <div v-if="slots.description" class="mt-4 text-[#383938] text-lg leading-relaxed">
               <slot name="description" />
             </div>
-            <p v-else class="mt-4 text-[#383938] text-lg leading-relaxed">
+            <p v-else class="mt-4 text-[#383938] text-lg leading-relaxed whitespace-pre-line">
               <template v-for="(segment, index) in descriptionSegments" :key="index">
                 <span v-if="segment.type === 'text'">{{ segment.value }}</span>
                 <GlossaryLink v-else :display="segment.display" :id="segment.id" />

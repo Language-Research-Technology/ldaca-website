@@ -179,8 +179,8 @@ const isExternal = (url) => {
                             class="h-full w-full object-cover bg-[#79a38d]" />
                     </a>
 
-                    <div class="relative z-10 h-full flex items-end">
-                        <div class="p-4 bg-[#393939] w-full">
+                    <div class="relative z-10 h-full flex items-end pointer-events-none">
+                        <div class="p-4 bg-[#393939] w-full pointer-events-auto">
                             <p class="text-white">{{ visibleItems[2].category }}</p>
                             <h3 class="text-white">{{ visibleItems[2].title }}</h3>
 

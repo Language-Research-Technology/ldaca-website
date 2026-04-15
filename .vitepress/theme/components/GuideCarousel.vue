@@ -11,7 +11,7 @@ const props = defineProps({
         type: String,
         default: ''
     },
-    subheading: {
+    description: {
         type: String,
         default: ''
     },
@@ -116,7 +116,7 @@ const isExternal = (url) => {
             <!-- Heading -->
             <div class="mb-8 text-left">
                 <h1 class="">{{ props.heading }}</h1>
-                <p class="text-gray-600 text-xl pt-4">{{ props.subheading }}</p>
+                <p class="text-gray-600 text-xl pt-4">{{ props.description }}</p>
             </div>
 
             <div class="hidden lg:grid lg:grid-cols-[auto_1fr_auto] items-center" :class="{ 'gap-6': showArrows }">
