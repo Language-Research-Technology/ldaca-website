@@ -3,7 +3,7 @@ title: "Data Management in Language Technology: A Case Study of Appen"
 date: 2024-03-22T15:12:12+11:00
 draft: false
 description: "LDaCA team member Rosanna Smith discusses data management in language technology, focusing on projects at tech company Appen."
-image: "/resources/general-resources/case-studies/data-management-appen/audio-transcription.png"
+image: "/projects-case-studies/case-studies/data-management-appen/audio-transcription.png"
 layout: doc
 author: '<Profile id="smith" />'
 ---
@@ -201,7 +201,7 @@ These issues are handled in the Appen workflow through the use of iterative semi
 
 <br />
 
-For <GlossaryLink display="LDaCA" id="ldaca" />, these issues are of equal importance for wider data management. To the first point, while it is ultimately the responsibility and prerogative of the data contributor to decide how their data should be organised, LDaCA can also assist with this process. Guidance is available on best practices for data management and organisation of <GlossaryLink display="metadata" id="metadata" />, both in the form of the documentation available at [LDaCA Resources](/resources/ldaca-resources/), as well as automated validation of metadata category requirements for datasets added and edited through <GlossaryLink display="Crate-O" id="crate-o" />. 
+For <GlossaryLink display="LDaCA" id="ldaca" />, these issues are of equal importance for wider data management. To the first point, while it is ultimately the responsibility and prerogative of the data contributor to decide how their data should be organised, LDaCA can also assist with this process. Guidance is available on best practices for data management and organisation of <GlossaryLink display="metadata" id="metadata" />, both in the form of the documentation available at [Resources](/resources/), as well as automated validation of metadata category requirements for datasets added and edited through <GlossaryLink display="Crate-O" id="crate-o" />. 
 To the second point, LDaCA has a responsibility to ensure that <GlossaryLink display="tools" id="tools" /> to facilitate data management and discoverability are accessible and intuitive for all, including the portals that use the <GlossaryLink display="Oni" id="oni" /> application to access data packaged as <GlossaryLink display="RO-Crates" id="ro-crate" />. This should be an iterative process, with further improvements to operability implemented based on user feedback and needs.
 
 <br />

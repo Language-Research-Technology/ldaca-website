@@ -12,22 +12,22 @@ title: "Case Studies"
   :items="[
       {
         title: 'A Master\'s Research Project',
-        link: '/resources/general-resources/case-studies/masters-research-project'
+        link: '/projects-case-studies/case-studies/masters-research-project'
       },
       {
         title: 'Data Management in Language Technology: A Case Study of Appen',
-        link: '/resources/general-resources/case-studies/data-management-appen'
+        link: '/projects-case-studies/case-studies/data-management-appen'
       },
       {
         title: 'Fieldwork in Papua New Guinea',
-        link: '/resources/general-resources/case-studies/fieldwork-png'
+        link: '/projects-case-studies/case-studies/fieldwork-png'
       },
       {
         title: 'Sydney Speaks',
-        link: '/resources/general-resources/case-studies/sydney-speaks'
+        link: '/projects-case-studies/case-studies/sydney-speaks'
       },
       {
         title: 'Putting data to work',
-        link: '/news/posts/putting-data-to-work'
+        link: '/resources/posts/putting-data-to-work'
       }
     ]"/>

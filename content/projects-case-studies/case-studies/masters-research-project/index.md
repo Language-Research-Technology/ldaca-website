@@ -3,11 +3,10 @@ title: "A Master's Research Project"
 date: 2024-05-15T16:17:33+10:00
 draft: false
 description: "LDaCA team member Teresa Chan discusses data considerations for her Master's research project."
-image: "/resources/general-resources/case-studies/masters-research-project/figure1-GEs.png"
+image: "/projects-case-studies/case-studies/masters-research-project/figure1-GEs.png"
 layout: doc
+author: '<Profile id="chan" />'
 ---
-
-by <Profile id="chan" />
 
 <br>
 
@@ -68,7 +67,7 @@ Accessibility needed to be considered when selecting and collecting data. The sp
 
 A small portion of the recordings in the AusTalk dataset had already been transcribed and made available online. This data could be downloaded from two separate (now defunct) web-based <GlossaryLink display="tools" id="tools" />: the transcriptions via the Alveo website and the metadata via the Alveo Query Engine. The metadata contained detailed demographic information about the speakers in the recordings, allowing me to operationalise different fields into my chosen variables: age, gender, socio-economic class (education level), ethnicity (cultural heritage) and geographical location (current city).
 
-For the Sydney Speaks <GlossaryLink display="corpus" id="corpus" />, I submitted an application for access to the main researcher, <GlossaryLink display="LDaCA" id="ldaca" /> Chief Investigator Catherine Travis, and once granted, she sent me a link to download the data files. The metadata was encoded in the file names, with different codes used for ethnicity, gender and age. Luckily for future researchers, the majority of the [Sydney Speaks](/resources/general-resources/case-studies/sydney-speaks/) corpus will be incorporated into the [LDaCA portal](https://data.ldaca.edu.au/), where the data and metadata will be made <GlossaryLink display="FAIR" id="fair" />: findable, accessible, interoperable and reusable.
+For the Sydney Speaks <GlossaryLink display="corpus" id="corpus" />, I submitted an application for access to the main researcher, <GlossaryLink display="LDaCA" id="ldaca" /> Chief Investigator Catherine Travis, and once granted, she sent me a link to download the data files. The metadata was encoded in the file names, with different codes used for ethnicity, gender and age. Luckily for future researchers, the majority of the [Sydney Speaks](/projects-case-studies/case-studies/sydney-speaks/) corpus will be incorporated into the [LDaCA portal](https://data.ldaca.edu.au/), where the data and metadata will be made <GlossaryLink display="FAIR" id="fair" />: findable, accessible, interoperable and reusable.
 
 Aside from the metadata requiring more manual work to extract, the utility of the Sydney Speaks dataset was lower than AusTalk for three main reasons:
 
