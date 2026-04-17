@@ -47,11 +47,11 @@ title: "Training"
   :items="[
       {
         title: 'Graduate Digital Research Fellowship — 2024',
-        link: '/news/posts/gdrf-2024'
+        link: '/resources/posts/gdrf-2024'
       },
       {
         title: 'Graduate Digital Research Fellowship — 2023',
-        link: '/news/posts/gdrf'
+        link: '/resources/posts/gdrf'
       }
     ]"/>
 
