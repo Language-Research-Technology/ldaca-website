@@ -39,7 +39,7 @@ const tagLinks = computed(() => {
       <article class="vp-doc">
         <!-- Back link -->
         <div class="mb-6">
-          <a href="/news/posts/"
+          <a href="/resources/posts/"
             class="inline-block px-3 py-1 bg-gray-100 text-blue-600 rounded text-sm no-underline transition-colors hover:bg-gray-200">←
             All Posts</a>
         </div>

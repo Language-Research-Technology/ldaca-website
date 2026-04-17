@@ -1,10 +1,15 @@
 <script setup>
 import { ref, computed, onMounted, onBeforeUnmount, watch } from 'vue'
+import { data as posts } from '../lib/posts.data'
 import { pagesData } from 'virtual:pages-data'
 import { withBase } from 'vitepress'
 
 const props = defineProps({
   heading: {
+    type: String,
+    default: ''
+  },
+  type: {
     type: String,
     default: ''
   },
@@ -33,6 +38,10 @@ const props = defineProps({
   buttonText: {
     type: String,
     default: 'View more'
+  },
+  viewAll: {
+    type: String,
+    default: ''
   },
   yearFilter: {
     type: Boolean,
@@ -65,9 +74,47 @@ const extractYear = (value) => {
   return match ? match[0] : null
 }
 
+const formatDate = (value) => {
+  if (!value) return ''
+  if (typeof value === 'string') {
+    return value.split('T')[0]
+  }
+  if (value instanceof Date) {
+    return value.toISOString().slice(0, 10)
+  }
+  return String(value).split('T')[0]
+}
+
+const getPostDate = (post) => {
+  const timestamp = Date.parse(post.frontmatter?.date || '')
+  return Number.isNaN(timestamp) ? 0 : timestamp
+}
+
+const presentationItems = computed(() => {
+  return posts
+    .filter((post) => {
+      return !post.frontmatter?.draft && post.url.startsWith('/resources/posts') && post.frontmatter?.type === props.type
+    })
+    .sort((a, b) => getPostDate(b) - getPostDate(a))
+    .map((post) => {
+      const pageMetadata = post.url ? pagesData[post.url] : null
+
+      return {
+        title: post.frontmatter?.title ?? pageMetadata?.title ?? 'Untitled item',
+        description: post.frontmatter?.description ?? pageMetadata?.description ?? '',
+        image: post.frontmatter?.image ?? pageMetadata?.image ?? '/images/Petroglyph_Pattern.svg',
+        link: post.url,
+        eventDate: post.frontmatter?.date,
+        category: post.frontmatter?.category ?? pageMetadata?.category,
+        eventTime: post.frontmatter?.eventTime ?? pageMetadata?.eventTime,
+        location: post.frontmatter?.location ?? pageMetadata?.location
+      }
+    })
+})
+
 // Merge item + frontmatter once
 const mergedItems = computed(() =>
-  props.items.map((rawItem) => {
+  (props.type ? presentationItems.value : props.items).map((rawItem) => {
     const pageMetadata = rawItem.link ? pagesData[rawItem.link] : null
     const eventDate = rawItem.eventDate ?? pageMetadata?.eventDate
     const imageFromItem = rawItem.image ?? pageMetadata?.image
@@ -165,8 +212,12 @@ const isExternal = (url) => {
     <div class="max-w-[1280px] mx-auto px-4 sm:px-6 md:px-8 lg:px-2">
 
       <!-- Heading -->
-      <div class="mb-8 text-left">
+      <div class="mb-8 text-left flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
         <h1 class="">{{ props.heading }}</h1>
+        <a v-if="props.viewAll" :href="props.viewAll"
+          class="inline-flex items-center justify-center w-fit px-5 py-3 rounded-lg bg-[#79a38d] text-white font-bold hover:opacity-80 transition-opacity">
+          View all
+        </a>
       </div>
 
       <!-- Optional year filter -->
@@ -208,7 +259,7 @@ const isExternal = (url) => {
 
               <!-- Combine date and time -->
               <p v-if="item.eventDate || item.eventTime" :class="textClass" class="font-bold">
-                {{ [item.eventDate, item.eventTime].filter(Boolean).join(', ') }}
+                {{ [formatDate(item.eventDate), item.eventTime].filter(Boolean).join(', ') }}
               </p>
 
               <p v-if="item.location" :class="textClass" class="font-bold">
@@ -254,7 +305,7 @@ const isExternal = (url) => {
             <h3 class="text-white">{{ item.title ?? pagesData[item.link]?.title }}</h3>
             <!-- Combine date and time -->
             <p v-if="pagesData[item.link]?.eventDate || pagesData[item.link]?.eventTime" class="font-bold text-white">
-              {{ [pagesData[item.link]?.eventDate, pagesData[item.link]?.eventTime].filter(Boolean).join(', ') }}
+              {{ [formatDate(pagesData[item.link]?.eventDate), pagesData[item.link]?.eventTime].filter(Boolean).join(', ') }}
             </p>
 
             <p v-if="pagesData[item.link]?.location" class="font-bold text-white">

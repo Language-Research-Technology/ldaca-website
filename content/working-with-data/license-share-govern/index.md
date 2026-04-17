@@ -22,21 +22,28 @@ title: "License, Share & Govern"
   :items="[
       {
         title: 'Determining Access Conditions',
-        link: '/resources/ldaca-resources/determining-access-conditions',
+        link: '/resources/guides/working-with-data/determining-access-conditions',
       },
       {
         title: 'Obtaining a DOI',
-        link: '/resources/ldaca-resources/obtaining-a-doi'
+        link: '/resources/guides/working-with-data/obtaining-a-doi'
       },
       {
         title: 'Access Policy',
-        link: '/resources/ldaca-resources/access-policy'
+        link: '/resources/guides/working-with-data/access-policy'
       },
       {
         title: 'Guidance for Data Governance Decisions',
-        link: '/resources/ldaca-resources/guidance-for-data-governance-decisions'
+        link: '/resources/guides/working-with-data/guidance-for-data-governance-decisions'
       },
     ]"/>
+
+<DataPortalBox 
+  heading="Licenses"
+  description="Custom licenses that data contributors have applied to the content of their collection, including the content coverage of that license, in cases where these are not already-existing licenses (e.g. Creative Commons)."
+  buttonText="Go to existing licenses"
+  buttonLink="/resources/licenses"
+/>
 
 <Carousel 
   id="on-the-blog"
@@ -47,15 +54,15 @@ title: "License, Share & Govern"
   :items="[
       {
         title: 'Implementing PILARS',
-        link: '/news/posts/implementing-PILARS'
+        link: '/resources/posts/implementing-PILARS'
       },
       {
         title: 'Copyrighted data: Options and considerations for working with newspapers and other texts',
-        link: '/news/posts/copyrighted-data'
+        link: '/resources/posts/copyrighted-data'
       },
       {
         title: 'What are the FAIR and CARE principles and why should corpus linguists know about them?',
-        link: '/news/posts/fair-and-care'
+        link: '/resources/posts/fair-and-care'
       },
   ]"/>
 
@@ -85,13 +92,6 @@ title: "License, Share & Govern"
         link: 'https://www.go-fair.org/fair-principles/'
       },
     ]"/>
-
-<DataPortalBox 
-  heading="Licenses"
-  description="Custom licenses that data contributors have applied to the content of their collection, including the content coverage of that license, in cases where these are not already-existing licenses (e.g. Creative Commons)."
-  buttonText="Go to existing licenses"
-  buttonLink="/resources/ldaca-resources/licenses"
-/>
 
 <ContactBox 
   heading="Interested in contributing to LDaCA?"

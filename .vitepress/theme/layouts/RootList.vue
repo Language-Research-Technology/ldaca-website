@@ -7,13 +7,13 @@ const { page } = useData()
 
 const sectionPath = computed(() => {
   const rp = page.value.relativePath || ''
-  // e.g., 'resources/user-guides/index.md' -> 'resources/user-guides'
+  // e.g., 'resources/guides/index.md' -> 'resources/guides'
   const withoutIndex = rp.replace(/\/index\.md$/, '')
   return withoutIndex || ''
 })
 
 const items = computed(() => {
-  // use the full path after content (so '/resources/user-guides/')
+  // use the full path after content (so '/resources/guides/')
   const base = `/${sectionPath.value}/`
   // filter pages that are immediate children of this section (one path segment after base)
   const filtered = allPages.filter(p => {

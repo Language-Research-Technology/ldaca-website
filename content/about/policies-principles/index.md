@@ -20,11 +20,11 @@ title: "Policies & Principles"
       // },
       {
         title: 'Access Policy',
-        link: '/resources/ldaca-resources/access-policy'
+        link: '/resources/guides/working-with-data/access-policy'
       },
       {
         title: 'Data Onboarding Process',
-        link: '/resources/ldaca-resources/data-onboarding-process'
+        link: '/resources/guides/working-with-data/data-onboarding-process'
       },
       // {
       //   title: 'LDaCA Program Persistent ID Policy, Strategy and Process',

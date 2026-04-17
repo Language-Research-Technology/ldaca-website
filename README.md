@@ -44,7 +44,11 @@ This is the source repository for an LDaCA based website.
 
 Configuring the website is using the `.vitepress/config.ts` file and develop the LDaCA theme in `.vitepress/theme`
 
-# TODO Documentation
+# Documentation
+
+## Styling
+
+Default styling is handled in `.vitepress/theme/style.css`. Components may also have additional styling within their own `.vue` files, generally in the Tailwind CSS `class=""` sections.
 
 ## General Tips
 
@@ -64,7 +68,7 @@ Use this layout as the default for `.md` pages.
 
 `layout: event`
 
-Use this layout for events pages, currently stored in `/news/events/YYYY`. This layout has two sections:
+Use this layout for events pages, currently stored in `/training-events/events/YYYY`. This layout has two sections:
 - left side: standard Markdown text for event description, videos, etc. taken from the content of the `.md` file
 - right side: an event details box taken from the frontmatter of the `.md` file
 
@@ -90,13 +94,17 @@ NOTE: change `pastEvent` to `true` if this event has finished. This will update 
 
 `layout: post`
 
-Use this layout for blog posts, currently stored in `/news/posts`. This layout is identical to the `doc` layout, but adds the author to the `SimpleHero` section and contains a link back to 'All Posts' at the top of the page content, as well as the date published.
+Use this layout for blog posts, currently stored in `/resources/posts`. This layout is identical to the `doc` layout, but adds the author to the `SimpleHero` section and contains a link back to 'All Posts' at the top of the page content, as well as the date published.
+
+If the blog is a presentation, add `type: presentation` to the frontmatter. This will categorise it as a presentation and display it in the 'Latest Presentations' section on the Resources page, and in the carousel on the Presentations page.
+
+If the blog is a interview, add `type: interview` to the frontmatter. This will categorise it as an interview and display it in the 'Latest Interviews' section on the Resources page, and in the carousel on the Interviews page.
 
 ### Project
 
 `layout: project`
 
-Use this layout for project pages, currently stored in `/resources/general-resources/projects-case-studies/projects`. This layout has two sections:
+Use this layout for project pages, currently stored in `/projects-case-studies/projects`. This layout has two sections:
 - left side: standard Markdown text for project description, outcomes, further reading, etc. taken from the content of the `.md` file
 - right side: image, project details and information boxes taken from the frontmatter of the `.md` file
 
@@ -123,7 +131,7 @@ NOTE: if using an image from `/content/public/images`, use the path `/images/...
 
 For setting thumbnail/preview images to be used on other components and pages, add these to the `image` field in the related `.md` file's frontmatter, and use the full file path after `content`:
 
-`image: "/resources/news/posts/example-blog/blog-image.png"`
+`image: "/resources/posts/example-blog/blog-image.png"`
 
 ## Referencing Glossary Items
 
@@ -153,35 +161,36 @@ To add or edit profiles, see the `.yml` files in `data/profiles`.
 
 ## List of Currently Available Components
 
-All components are stored in `/theme/components`. To use components, add `<ComponentName />` to the relevant section of your `.md` file, with any properties required for that component (e.g. `heading`, `subheading`, `items`). These include:
-| Component | Used In |
+All components are stored in `/theme/components`. To use components, add `<ComponentName />` to the relevant section of your `.md` file, with any properties you need for that component (e.g. `heading`, `description`, `items`). These include:
+| Component | Options |
 | --- | --- |
-| BlogPostsList.vue | `BlogPostsPage.vue` |
-| BlogPostsPage.vue | `/content/news/posts` |
-| Carousel.vue | - `/content`<br>- `/content/about/policies-principles`<br>- `/content/by-type/`: `audio-video`, `guides`, `interviews`, `presentations`, `technologies-tools`<br>- `/content/news/`: `events`, `training`<br>- `/content/resources/general-resourses/projects-case-studies`<br>- `/content/working-with-data/`: `find-access`, `license-share-govern`, `organise-describe`, `process-analyse` |
-| CarouselLarge.vue | - `/content/resources/general-resources/projects-case-studies`<br>- `/content/working-with-data/`: `find-access`, `organise-describe`, `process-analyse` |
-| Collaborators.vue | - `/content/resources/general-resources/projects-case-studies`<br>- `/content/working-with-data/`: `find-access`, `process-analyse` |
-| CollectionsGrid.vue | `/content/working-with-data/find-access` |
-| ContactBox.vue | - `/content/news/events`<br>- `/content/working-with-data/`: `find-access`, `license-share-govern`, `organise-describe`, `process-analyse` |
-| DataPortalBox.vue | - `/content`<br>- `/content/working-with-data/license-share-govern` |
-| Features.vue |  |
-| FeaturesBanner.vue | `HomeHero.vue` |
-| Footer.vue | `.vitepress/theme` |
-| GlossaryLink.vue | - `GlossaryList.vue`<br>- Throughout website to link to the glossary. |
-| GlossaryList.vue | `/content/resources/glossary` |
-| GuideCarousel.vue | - `/content/by-type/guides`<br>- `/content/resources/general-resources/projects-case-studies`<br>- `/content/working-with-data/`: `find-access`, `license-share-govern`, `organise-describe`, `process-analyse` |
-| Header.vue | `.vitepress/theme` |
-| HomeHero.vue | `/content` |
-| HowWeCanHelp.vue | `/content` |
-| LatestBlog.vue | `/content` |
-| Menu.vue | `Header.vue` |
-| PartnerLogos.vue | `Footer.vue` |
-| Profile.vue | Throughout website to reference LDaCA team. |
-| Sidebar.vue | `Header.vue` |
-| SimpleHero.vue | - `.vitepress/theme/layouts`<br>- `/content/about/policies-principles`<br>- `/content/by-type/`: `audio-video`, `guides`, `interviews`, `presentations`, `technologies-tools`<br>- `/content/news/`: `events`, `posts`, `training`<br>- `/content/resources/general-resourses/projects-case-studies`<br>- `/content/working-with-data/`: `find-access`, `license-share-govern`, `organise-describe`, `process-analyse` |
-| SimpleNavigation.vue | `/content/working-with-data/`: `find-access`, `license-share-govern`, `organise-describe`, `process-analyse` |
-| TagsList.vue | `/content/tags` |
-| ThreeTiles.vue | - `/content/news/training`<br>- `/content/working-with-data/`: `find-access`, `license-share-govern`, `organise-describe`, `process-analyse` |
+| BlogPostsList.vue | N/A |
+| BlogPostsPage.vue | N/A |
+| Carousel.vue | `heading`: text<br>`description`: text<br>`items`: array **OR** `type`: presentation/interview<br>`image`: filepath (default: '/images/Petroglyph_Pattern.svg')<br>`backgroundColor`: colour<br>`opacity`: number (default: 100)<br>`shade`: light (default: dark)<br>`buttonText`: text (default: 'View more')<br>`viewAll`: link<br>`yearFilter`: boolean (default: false)<br>`tileView`: boolean (default: false) |
+| CarouselLarge.vue | `heading`: text<br>`description`: text<br>`items`: array<br>`image`: filepath (default: '/images/Petroglyph_Pattern.svg')<br>`backgroundColor`: colour (default: '#f3f0e8')<br>`opacity`: number (default: 100)<br>`buttonText`: text (default: 'Try it out') |
+| Collaborators.vue | `heading`: text<br>`description`: text<br>`items`: array<br>`backgroundColor`: colour<br>`opacity`: number (default: 100) |
+| CollectionsGrid.vue | `heading`: text<br>`description`: text<br>`backgroundColor`: colour (default: '#79a38d')<br>`backgroundImage`: filepath (default: '/images/Collections_BG.png')<br>`opacity`: number (default: 100)<br>`buttonText`: text (default: 'Learn more') |
+| ContactBox.vue | `heading`: text<br>`description`: text<br>`buttonText`: text<br>`buttonLink`: link |
+| DataPortalBox.vue | `heading`: text<br>`description`: text<br>`buttonText`: text<br>`buttonLink`: link |
+| Features.vue | N/A |
+| FeaturesBanner.vue | N/A |
+| Footer.vue | N/A |
+| GlossaryLink.vue | N/A |
+| GlossaryList.vue | N/A |
+| GuideCarousel.vue | `heading`: text<br>`description`: text<br>`items`: array<br>`image`: filepath (default: '/images/Petroglyph_Pattern.svg')<br>`backgroundColor`: colour<br>`opacity`: number (default: 100)<br>`viewAll`: link |
+| Header.vue | N/A |
+| HomeHero.vue | |
+| HowWeCanHelp.vue | `items`: array |
+| LatestBlog.vue | N/A |
+| Menu.vue | N/A |
+| PartnerLogos.vue | `logos`: array |
+| Profile.vue | `id`: string |
+| Sidebar.vue | N/A |
+| SimpleHero.vue | `title`: text<br>`description`: text<br>`backgroundImage`: filepath (default: '/images/GreenBackground.png')<br>`breadcrumb`: text |
+| SimpleNavigation.vue | `title`: text<br>`description`: text<br>`contents`: array |
+| TagsList.vue | N/A |
+| ThreeTiles.vue | `heading`: text`items`: array<br>`image`: filepath (default: '/images/Petroglyph_Pattern.svg')<br>`backgroundColor`: colour<br>`opacity`: number (default: 100)<br>`shade`: light (default: dark) |
+| TwoTiles.vue | `heading`: text`items`: array **OR** `type`: presentation<br>`image`: filepath (default: '/images/Petroglyph_Pattern.svg')<br>`buttonText`: text (default: 'View all')<br>`viewAll`: link |
 
 
 - How to use Tailwind /CSS in place
@@ -199,5 +208,4 @@ All components are stored in `/theme/components`. To use components, add `<Compo
 - Remove old Hugo Files
 - How to run updates/production
 - Configure .github/workflows
-- resources/user-guides/portal/available-portals
 - about/sample-collections.md

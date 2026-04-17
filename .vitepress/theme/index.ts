@@ -15,6 +15,7 @@ import SimpleNavigation from './components/SimpleNavigation.vue'
 import GuideCarousel from './components/GuideCarousel.vue'
 import ContactBox from './components/ContactBox.vue'
 import ThreeTiles from './components/ThreeTiles.vue'
+import TwoTiles from './components/TwoTiles.vue'
 import Collaborators from './components/Collaborators.vue'
 import CollectionsGrid from './components/CollectionsGrid.vue'
 import './style.css'
@@ -40,6 +41,7 @@ export default {
     app.component('GuideCarousel', GuideCarousel)
     app.component('ContactBox', ContactBox)
     app.component('ThreeTiles', ThreeTiles)
+    app.component('TwoTiles', TwoTiles)
     app.component('Collaborators', Collaborators)
     app.component('CollectionsGrid', CollectionsGrid)
   },

@@ -139,7 +139,7 @@ footer {
               class="inline-block p-4 rounded-lg font-semibold hover:opacity-80 transition-opacity mb-4">
               Subscribe
             </a>
-            <a href="/news/newsletter"
+            <a href="/newsletter"
               class="block mt-2 text-base  text-[#393939] text-muted-foreground hover:text-primary transition-colors">
               View past newsletters
             </a>

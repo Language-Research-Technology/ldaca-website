@@ -82,17 +82,17 @@ description = "The Language Data Commons of Australia brings together digital in
   :items="[
       {
         title: 'Arne ingkerreke apurtelhe-ileme: Project launch',
-        link: '/news/posts/VeronicaDobson-launch2025'
+        link: '/resources/posts/VeronicaDobson-launch2025'
       },
       {
         title: 'Sydney Speaks',
-        link: '/resources/general-resources/case-studies/sydney-speaks',
+        link: '/projects-case-studies/case-studies/sydney-speaks',
         category: 'CASE STUDY'
       },
       {
         title: 'Data Portal Guide',
         image: '/images/LDaCA_data_portal.png',
-        link: '/resources/user-guides/portal',
+        link: '/resources/guides/portal',
         category: 'RESOURCE'
       }
     ]"/>
@@ -104,15 +104,15 @@ description = "The Language Data Commons of Australia brings together digital in
   :items="[
     {
       title: 'Sustainable Data for Humanities Researchers workshop',
-      link: '/news/events/2025/sustainable-data-for-humanities-researchers'
+      link: '/training-events/events/2025/sustainable-data-for-humanities-researchers'
     },
     {
       title: 'The ParlaMint corpora of European parliamentary proceedings',
-      link: '/news/events/2025/parlamint-corpora'
+      link: '/training-events/events/2025/parlamint-corpora'
     },
     {
       title: 'Get Started with Federal Hansard for Humanities, Arts, and Social Sciences Research',
-      link: '/news/events/2025/hansard-2'
+      link: '/training-events/events/2025/hansard-2'
     }
   ]"
 />

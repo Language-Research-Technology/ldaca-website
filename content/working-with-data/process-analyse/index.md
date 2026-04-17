@@ -7,9 +7,9 @@ title: "Process & Analyse"
 
 <SimpleNavigation
 title="Analysing language data at scale"
-description="Being able to analyse large amounts of language data opens up vast possibilities for researchers across disciplines. Language data might also need to be cleaned and processed in other ways to suit your research purposes. We are making tools for text analysis available, alongside the Language Technology and Data Analysis Laboratory (LADAL). Test out tools for processing and analysing data, and access analysis and reuse training and tutorials for a diverse range of skill levels."
+description="Being able to analyse large amounts of language data opens up vast possibilities for researchers across disciplines. Language data may also need to be cleaned and processed in other ways to suit your research purposes. We are making tools for text analysis available, alongside our collaborators including Language Technology and Data Analysis Laboratory (LADAL), Sydney Corpus Lab, Sydney Informatics Hub (SIH), QUT Digital Observatory and the Melbourne Data Analytics Platform.\n\nTest out tools for processing and analysing data and access analysis and reuse training and tutorials for a diverse range of skill levels."
 :contents="[
-    { label: 'Tools & notebooks', href: '#tools-notebooks' },
+    { label: 'Analytical tools & notebooks', href: '#tools-notebooks' },
     { label: 'Guides', href: '#guides' },
     { label: 'On the blog', href: '#on-the-blog' },
     { label: 'Additional resources', href: '#additional-resources' },
@@ -21,7 +21,8 @@ description="Being able to analyse large amounts of language data opens up vast 
   id="tools-notebooks"
   backgroundColor="#EAE4D68C"
   :opacity="100"
-  heading="TOOLS & NOTEBOOKS"
+  heading="ANALYTICAL TOOLS & NOTEBOOKS"
+  description="Explore available tools for language research and work."
   :items="[
       {
         title: 'Nyingarn',
@@ -77,15 +78,15 @@ description="Being able to analyse large amounts of language data opens up vast 
   :items="[
       {
         title: 'Analyse image collections with the Image Dataset Explorer',
-        link: '/news/posts/image-dataset-explorer'
+        link: '/resources/posts/image-dataset-explorer'
       },
       {
         title: 'Team member tip: There\'s no substitute for looking closely at the data',
-        link: '/news/posts/team-member-tip-sam-hames'
+        link: '/resources/posts/team-member-tip-sam-hames'
       },
       {
         title: 'Putting data to work — 2',
-        link: '/news/posts/putting-data-to-work-2'
+        link: '/resources/posts/putting-data-to-work-2'
       }
     ]"/>
 
@@ -103,7 +104,7 @@ description="Being able to analyse large amounts of language data opens up vast 
       },
       {
         title: 'The ParlaMint corpora of European parliamentary proceedings',
-        link: '/news/events/2025/parlamint-corpora',
+        link: '/training-events/events/2025/parlamint-corpora',
       }
     ]"/>
 

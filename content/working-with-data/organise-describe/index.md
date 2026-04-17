@@ -21,14 +21,14 @@ title: "Organise & Describe"
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="TOOLS"
-  subheading='Flexible tools to assist with creating <GlossaryLink display="linked-data" id="linked-data" /> description and packaging.'
+  description='Flexible tools to assist with creating <GlossaryLink display="linked-data" id="linked-data" /> description and packaging.'
   :items="[
       {
         title: 'Metadata editor: Crate-O',
         description: 'A tool that allows you to create and update Research Object Crates (RO-Crates) using a web interface, and with metadata spreadsheets. It provides researchers with a relatively simple way to  describe their data using the best practices in formal metadata  description.',
         image: 'https://language-research-technology.github.io/crate-o/logo.svg',
         link: 'https://language-research-technology.github.io/crate-o/#/',
-        guideLink: '/resources/user-guides/crate-o'
+        guideLink: '/resources/guides/crate-o'
       },
       {
         title: 'RO-Crate Playground',
@@ -49,12 +49,12 @@ title: "Organise & Describe"
         description: 'Not sure what metadata actually means or why everyone keeps talking about it? This guide has you covered — no jargon, just clear and practical advice.',
         level: 'Beginner',
         audience: 'Researchers, community, people working with data',
-        link: '/resources/ldaca-resources/metadata'
+        link: '/resources/guides/metadata'
       },
       {
         title: 'Crate-O User Guide',
         description: 'Information related to using Crate-O for language data.',
-        link: '/resources/user-guides/crate-o'
+        link: '/resources/guides/crate-o'
       }
     ]"/>
 
@@ -68,15 +68,15 @@ title: "Organise & Describe"
       {
         title: 'Five benefits of RO-Crate data packaging for language collections',
         image: 'https://mcusercontent.com/ef8667be63aefb1e35062a797/images/eac5dabf-9dd9-bcce-b80e-7c01da72cb9e.jpg',
-        link: '/news/posts/ro-crate-benefits'
+        link: '/resources/posts/ro-crate-benefits'
       },
       {
         title: 'Team member tip: Mastering metadata',
-        link: '/news/posts/team-member-tip-mark-raadgever'
+        link: '/resources/posts/team-member-tip-mark-raadgever'
       },
       {
         title: 'Crate-O — a drop-in linked data metadata editor for RO-Crate (and other) linked data in repositories and beyond',
-        link: '/news/posts/2024-OR-Crate-O'
+        link: '/resources/posts/2024-OR-Crate-O'
       }
     ]"/>
 

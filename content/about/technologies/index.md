@@ -17,7 +17,7 @@ A Research Object ([RO](https://www.researchobject.org/)) is a structured archiv
 
 Watch [this video](https://vimeo.com/954651738?share=copy) for a quick introduction to the <GlossaryLink display="RO-Crate" id="ro-crate" /> concept.
 
-The RO-Crate community run a weekly drop-in call in Australia ([details](../../news/events/#advice)).
+The RO-Crate community run a weekly drop-in call in Australia ([details](../../training-events/events/#advice)).
 <br>
 
 ## Oxford Common File Layout ([OCFL](https://ocfl.io/))

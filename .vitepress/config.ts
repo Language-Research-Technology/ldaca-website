@@ -203,11 +203,11 @@ export default defineConfig({
       },
       {
         text: 'Training & Events',
-        link: '/news/events',
+        link: '/training-events/events',
         // subtitle: 'Training materials, tutorials, and upcoming and past events',
         // items: [
-          // { text: 'Training', link: '/news/training', image: 'https://placehold.co/150x100' },
-          // { text: 'Events', link: '/news/events', image: 'https://placehold.co/150x100' }
+          // { text: 'Training', link: '/training-events/training', image: 'https://placehold.co/150x100' },
+          // { text: 'Events', link: '/training-events/events', image: 'https://placehold.co/150x100' }
         // ]
       } as any,
       {
@@ -218,68 +218,68 @@ export default defineConfig({
             title: 'By Type',
             divider: true,
             children: [
-              { text: 'Audio & Video', link: '/by-type/audio-video' },
-              { text: 'Guides', link: '/by-type/guides' },
-              { text: 'Interviews', link: '/by-type/interviews' },
-              { text: 'Presentations', link: '/by-type/presentations' },
-              { text: 'Publications', link: '/news/publications/' },
-              { text: 'Technologies & Tools', link: '/by-type/technologies-tools' },
+              { text: 'Audio & Video', link: '/resources/audio-video' },
+              { text: 'Guides', link: '/resources/guides' },
+              { text: 'Interviews', link: '/resources/interviews' },
+              { text: 'Presentations', link: '/resources/presentations' },
+              { text: 'Publications', link: '/resources/publications/' },
+              { text: 'Technologies & Tools', link: '/resources/technologies-tools' },
             ]
           },
-          {
-            title: 'By Tags',
-            divider: true,
-            children: (() => {
-              // Dynamically get top 5 tags from blog posts
-              const postsDir = path.join(__dirname, '../content/news/posts')
-              const tagCounts = {}
-              function walk(dir) {
-                for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
-                  const full = path.join(dir, entry.name)
-                  if (entry.isDirectory()) {
-                    walk(full)
-                  } else if (entry.name === 'index.md') {
-                    const content = fs.readFileSync(full, 'utf-8')
-                    const { data } = matter(content)
-                    let tags = data.tags || []
-                    if (typeof tags === 'string') tags = [tags]
-                    for (const tag of tags) {
-                      if (!tag) continue
-                      tagCounts[tag] = (tagCounts[tag] || 0) + 1
-                    }
-                  }
-                }
-              }
-              if (fs.existsSync(postsDir)) walk(postsDir)
-              const topTags = Object.entries(tagCounts)
-                .sort((a, b) => b[1] - a[1])
-                .slice(0, 5)
-                .map(([tag]) => ({
-                  text: tag,
-                  link: `/tags/#${tag.toLowerCase().replace(/\s+/g, '-')}`
-                }))
-              topTags.push({ text: 'View all', link: '/tags', bold: true })
-              return topTags
-            })()
-          },
+          // {
+          //   title: 'By Tags',
+          //   divider: true,
+          //   children: (() => {
+          //     // Dynamically get top 5 tags from blog posts
+          //     const postsDir = path.join(__dirname, '../content/resources/posts')
+          //     const tagCounts = {}
+          //     function walk(dir) {
+          //       for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+          //         const full = path.join(dir, entry.name)
+          //         if (entry.isDirectory()) {
+          //           walk(full)
+          //         } else if (entry.name === 'index.md') {
+          //           const content = fs.readFileSync(full, 'utf-8')
+          //           const { data } = matter(content)
+          //           let tags = data.tags || []
+          //           if (typeof tags === 'string') tags = [tags]
+          //           for (const tag of tags) {
+          //             if (!tag) continue
+          //             tagCounts[tag] = (tagCounts[tag] || 0) + 1
+          //           }
+          //         }
+          //       }
+          //     }
+          //     if (fs.existsSync(postsDir)) walk(postsDir)
+          //     const topTags = Object.entries(tagCounts)
+          //       .sort((a, b) => b[1] - a[1])
+          //       .slice(0, 5)
+          //       .map(([tag]) => ({
+          //         text: tag,
+          //         link: `/tags/#${tag.toLowerCase().replace(/\s+/g, '-')}`
+          //       }))
+          //     topTags.push({ text: 'View all', link: '/tags', bold: true })
+          //     return topTags
+          //   })()
+          // },
           {
             title: '',
             divider: true,
             children: [
               { text: 'Glossary', link: '/resources/glossary/', bold: true },
-              { text: 'FAQs', link: '/about/faqs/', bold: true },
-              { text: 'Blog', link: '/news/posts/', bold: true }
+              { text: 'FAQs', link: '/resources/faqs/', bold: true },
+              { text: 'Blog', link: '/resources/posts/', bold: true }
             ]
           }
         ]
       } as any,
       {
         text: 'Projects & Case Studies',
-        link: '/resources/general-resources/projects-case-studies',
+        link: '/projects-case-studies',
         // subtitle: 'something something',
         // items: [
-        //   { text: 'Projects', link: '/resources/general-resources/projects', image: 'https://placehold.co/150x100' },
-        //   { text: 'Case Studies', link: '/resources/general-resources/case-studies/', image: 'https://placehold.co/150x100' }
+        //   { text: 'Projects', link: '/projects-case-studies/projects', image: 'https://placehold.co/150x100' },
+        //   { text: 'Case Studies', link: '/projects-case-studies/case-studies/', image: 'https://placehold.co/150x100' }
         // ]
       },
       {
@@ -315,13 +315,25 @@ export default defineConfig({
     const srcDir = siteConfig.srcDir          // e.g. /.../ldaca-website/content
     const outDir = siteConfig.outDir          // e.g. /.../ldaca-website/.vitepress/dist
     const CONTENT_GLOBS = [
-      'news/posts/**/*.md',
-      'resources/ldaca-resources/**/*.md',
-      'resources/user-guides/**/*.md',
-      'resources/general-resources/**/*.md',
+      'resources/guides/**/*.md',
+      'resources/posts/**/*.md',
+      'projects-case-studies/**/*.md',
+      'training-events/events/**/*.md'
     ]
     const isExternal = (v = '') =>
       /^(https?:)?\/\//i.test(v) || v.startsWith('data:')
+
+    // Helper to copy a file if it exists, ensuring we only copy each source file once
+    const copyIfExists = (src: string, dst: string) => {
+      if (!fs.existsSync(src)) return
+      fs.mkdirSync(path.dirname(dst), { recursive: true })
+
+      const key = `${src}=>${dst}`
+      if (!copied.has(key)) {
+        fs.copyFileSync(src, dst)
+        copied.add(key)
+      }
+    }
 
 
     for (const glob of CONTENT_GLOBS) {
@@ -335,22 +347,46 @@ export default defineConfig({
         if (isExternal(image)) continue
 
         const cleanImage = image.split('?')[0].split('#')[0]
-        const normalized = cleanImage.replace(/^\/+/, '') // news/posts/.../Slide04.png
+        const normalized = cleanImage.replace(/^\/+/, '') // resources/posts/.../Slide04.png
 
-        // absolute-from-content path: "/news/posts/.../Slide04.png"
+        // absolute-from-content path: "/resources/posts/.../Slide04.png"
         const src = path.join(srcDir, normalized)
         const dst = path.join(outDir, normalized)
 
-        if (!fs.existsSync(src)) continue
-
-        fs.mkdirSync(path.dirname(dst), { recursive: true })
-
-        const key = `${src}=>${dst}`
-        if (!copied.has(key)) {
-          fs.copyFileSync(src, dst)
-          copied.add(key)
-        }
+        copyIfExists(src, dst)
       }
+    }
+
+    // Also copy local content images so absolute /resources/... paths used in Vue props resolve in dist.
+    const IMAGE_EXT = /\.(png|jpe?g|gif|webp|svg|avif)$/i
+    const walkAndCopyImages = (dir: string, relBase = '') => {
+      if (!fs.existsSync(dir)) return
+      const entries = fs.readdirSync(dir, { withFileTypes: true })
+
+      for (const entry of entries) {
+        const full = path.join(dir, entry.name)
+        const rel = path.join(relBase, entry.name)
+
+        if (entry.isDirectory()) {
+          walkAndCopyImages(full, rel)
+          continue
+        }
+
+        if (!IMAGE_EXT.test(entry.name)) continue
+        const dst = path.join(outDir, rel)
+        copyIfExists(full, dst)
+      }
+    }
+
+    const imageRoots = [
+      'training-events/events',
+      'resources/guides',
+      'resources/posts',
+      'projects-case-studies'
+    ]
+
+    for (const relRoot of imageRoots) {
+      walkAndCopyImages(path.join(srcDir, relRoot), relRoot)
     }
   }
 })

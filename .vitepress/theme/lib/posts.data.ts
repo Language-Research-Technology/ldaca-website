@@ -1,7 +1,7 @@
 // .vitepress/theme/lib/posts.data.ts
 import { createContentLoader } from 'vitepress'
 
-export default createContentLoader('news/posts/*/index.md', {
+export default createContentLoader('resources/posts/*/index.md', {
   // You can customize what data is included in the loaded content
   // For a blog list, 'url' and 'frontmatter' are usually sufficient
   excerpt: true, // Include excerpts if needed

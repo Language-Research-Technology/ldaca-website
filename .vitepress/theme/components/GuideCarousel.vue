@@ -11,6 +11,10 @@ const props = defineProps({
         type: String,
         default: ''
     },
+    viewAll: {
+        type: String,
+        default: ''
+    },
     description: {
         type: String,
         default: ''
@@ -115,7 +119,13 @@ const isExternal = (url) => {
 
             <!-- Heading -->
             <div class="mb-8 text-left">
-                <h1 class="">{{ props.heading }}</h1>
+                <div class="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+                    <h1 class="">{{ props.heading }}</h1>
+                    <a v-if="props.viewAll" :href="props.viewAll"
+                        class="inline-flex items-center justify-center w-fit px-5 py-3 rounded-lg bg-[#79a38d] text-white font-bold hover:opacity-80 transition-opacity">
+                        View all
+                    </a>
+                </div>
                 <p class="text-gray-600 text-xl pt-4">{{ props.description }}</p>
             </div>
 

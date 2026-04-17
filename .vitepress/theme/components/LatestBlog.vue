@@ -24,13 +24,15 @@ const getImage = (post) =>
 
       <article v-for="post in latestPosts" :key="post.url" class="relative overflow-hidden shadow-xl h-[700px]">
 
-        <!-- background image -->
-        <div class="absolute inset-0 bg-cover bg-center bg-[#79a38d] opacity-85"
-          :style="{ backgroundImage: `url(${getImage(post)})` }" aria-hidden="true" />
+        <!-- background image link -->
+        <a :href="post.url" class="absolute inset-0 block" :aria-label="post.frontmatter.title">
+          <div class="absolute inset-0 bg-cover bg-center bg-[#79a38d] opacity-85"
+            :style="{ backgroundImage: `url(${getImage(post)})` }" aria-hidden="true" />
+        </a>
 
         <!-- content -->
-        <div class="relative h-full flex items-end">
-          <div class="m-6 p-5 bg-[#393939] shadow">
+        <div class="relative z-10 h-full flex items-end pointer-events-none">
+          <div class="m-6 p-5 bg-[#393939] shadow pointer-events-auto">
 
             <h3 class="text-white">
               {{ post.frontmatter.title }}

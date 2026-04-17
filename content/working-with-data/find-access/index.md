@@ -22,7 +22,7 @@ title: "Find & Access"
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="AVAILABLE PORTALS"
-  subheading='<GlossaryLink display="Oni" id="oni" />: A web application that provides indexing, searching and access to secure data repositories following the <GlossaryLink display="Arkisto" id="arkisto" /> model. This is used to build the LDaCA Portal: The online interface of the Language Data Commons of Australia where users can discover and access language collections.'
+  description='<GlossaryLink display="Oni" id="oni" />: A web application that provides indexing, searching and access to secure data repositories following the <GlossaryLink display="Arkisto" id="arkisto" /> model. This is used to build the LDaCA Portal: The online interface of the Language Data Commons of Australia where users can discover and access language collections.'
   :items="[
       {
         title: 'LDaCA Data Portal',
@@ -41,7 +41,7 @@ title: "Find & Access"
 <CollectionsGrid 
   id="collections"
   heading="COLLECTIONS"
-  subheading="Explore available collections for language research and work."
+  description="Explore available collections for language research and work."
   />
 
 <GuideCarousel 
@@ -49,12 +49,13 @@ title: "Find & Access"
   backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="GUIDES"
-  subheading="LDaCA guides to help you navigate language collections."
+  description="LDaCA guides to help you navigate language collections."
   :items="[
       {
         title: 'Data Portal User Guide',
         description: 'Information related to using the Data Portal.',
-        link: '/resources/user-guides/portal',
+        image: '/images/LDaCA_data_portal.png',
+        link: '/resources/guides/portal',
         level: 'Beginner',
         audience: 'Researchers, community, people working with data',
         category: 'LDACA TECHNOLOGIES GUIDE'
@@ -62,7 +63,7 @@ title: "Find & Access"
       {
         title: 'Cite Data',
         description: 'A guide to citing collections and data accessed through the portal.',
-        link: '/resources/user-guides/portal/cite-data',
+        link: '/resources/guides/portal/cite-data',
         level: 'Beginner',
         audience: 'Researchers, community, people working with data'
       },
@@ -77,15 +78,15 @@ title: "Find & Access"
   :items="[
       {
         title: 'Corpus spotlight: Mitchell and Delbridge',
-        link: '/news/posts/mitchell-delbridge'
+        link: '/resources/posts/mitchell-delbridge'
       },
       {
         title: 'Putting data to work',
-        link: '/news/posts/putting-data-to-work'
+        link: '/resources/posts/putting-data-to-work'
       },
       {
         title: 'What happened to the Australian National Corpus (AusNC)?',
-        link: '/news/posts/ausnc'
+        link: '/resources/posts/ausnc'
       }
     ]"/>
 
