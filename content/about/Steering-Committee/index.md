@@ -30,6 +30,7 @@ View the **<a href="LDaCA-SC_Terms of Reference_2024-2028.pdf">Terms of Referenc
 **<a href="2025-03-07 Communique SCMeeting_Zoom.pdf">March 2025 →</a>**<br>
 **<a href="2025-05-15 Communique SCMeeting_Zoom.pdf">May 2025 →</a>**<br>
 **<a href="2025-08-22 Communique SCMeeting_Zoom.pdf">August 2025 →</a>**<br>
+**<a href="2026-01-27 Communique SCMeeting_InPerson.pdf">January 2026 →</a>**<br>
 
 <br>
 
