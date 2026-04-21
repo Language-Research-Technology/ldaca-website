@@ -1,5 +1,5 @@
 ---
-title: "Gurindji plant and animal knowledge now available online."
+title: "Gurindji plant and animal knowledge now available online"
 date: 2026-04-17
 draft: false
 description: "LDaCA assists with the publishing of four new Gurindji plant and animal websites."
