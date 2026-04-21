@@ -25,7 +25,7 @@
         <h1>Updates</h1>
         <ul>
             <h3><li>Indigenous Data Governance Masterclass (<a href = "./news/events/" >Read more ➤</a>)</li>
-            <h3><li>Latest blog post: Exploring AusReddit: A window into Australia's online conversations (<a href = "./news/posts/ausreddit/" >Read more ➤</a>)</li></h3>
+            <h3><li>Latest blog post: Gurindji plant and animal knowledge now available online (<a href = "./news/posts/gurindjiplantandanimal/" >Read more ➤</a>)</li></h3>
             <h3><li>Our first newsletter for 2026 (<a href = "https://mailchi.mp/d7b698fe4c21/ldaca-newsletter-2025-highlights-whats-next-in-2026?" target="_blank">Read more ➤</a>)</li></h3>
             <h3><li>Check out our 'What is a .... anyway?' video explainer series (<a href = "https://www.youtube.com/watch?v=fE3mo3kcaoI&list=PLpaCkX03fhibjx71L1dMNHLTEioXOECZ4" target="_blank">See more ➤</a>)</li></h3>
         </ul>
