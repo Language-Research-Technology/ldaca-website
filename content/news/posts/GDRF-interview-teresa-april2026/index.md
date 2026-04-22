@@ -1,6 +1,6 @@
 ---
 title: "Inside the GDRF2026: Teresa Chan on her experience so far"
-date: 2026-04-21
+date: 2026-04-22
 draft: false
 description: "Inside the GDRF2026: Teresa Chan on her experience so far"
 ---
@@ -8,6 +8,10 @@ description: "Inside the GDRF2026: Teresa Chan on her experience so far"
 by {{< profile id="chan" >}}
 
 What is it actually like to take part in LDaCA's Graduate Digital Research Fellowship (GDRF)? We put the question to Teresa Chan, LDaCA’s Senior Research Project Officer in Research Support and Training and a 2026 GDRF participant. Running for the fourth consecutive year and led by Simon Musgrave and Sam Hames, the program is designed to open up the world of digital scholarship to research students.
+
+<br>
+
+{{< image Src="teresa-chan.jpg" Height="400" Alt="Headshot of Teresa" Desc="Teresa Chan" Title="Teresa Chan"  Ref="Teresa Chan">}}
 
 #### What made you decide to apply?
 
