@@ -100,7 +100,7 @@ const selectItem = (item) => {
         <div class="bg-white rounded-none overflow-hidden h-full">
           <div class="grid grid-cols-2 gap-6">
             <!-- Left: Image -->
-            <div class="h-full max-h-[400px] overflow-hidden">
+            <div class="h-[400px] overflow-hidden">
               <img :src="selectedItem.image" :alt="selectedItem.title"
                 class="w-full h-full object-cover rounded-none" />
             </div>
