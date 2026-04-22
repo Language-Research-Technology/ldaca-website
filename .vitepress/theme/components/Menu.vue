@@ -159,7 +159,7 @@ const getGridClass = (items) => {
                     , (subItem.divider && idx % 3 !== 2 ? 'sm:border-r border-border pr-4' : '')
                   ]">
                     <img v-if="subItem.image" :src="subItem.image" :alt="subItem.text"
-                      class="w-full h-24 object-cover" />
+                      class="w-full h-32 object-cover" />
                     <span
                       :class="subItem.image ? `mt-1 text-2xl ${subItem.bold ? 'font-bold' : 'font-medium'} hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8 transition-colors text-left` : ''">
                       {{ subItem.text }}

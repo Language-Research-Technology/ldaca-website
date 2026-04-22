@@ -196,9 +196,9 @@ export default defineConfig({
         subtitle: 'Information for working with language data in different ways',
         items: [
           { text: 'Find & Access', link: '/working-with-data/find-access' },
-          { text: 'License, Share & Govern', link: '/working-with-data/license-share-govern' },
+          { text: 'License, Share & Govern', link: '/working-with-data/license-share-govern', image: '/images/how-we-can-help/Govern.jpg' },
           { text: 'Organise & Describe', link: '/working-with-data/organise-describe' },
-          { text: 'Process & Analyse', link: '/working-with-data/process-analyse' }
+          { text: 'Process & Analyse', link: '/working-with-data/process-analyse', image: '/images/how-we-can-help/Process.png' }
         ]
       },
       {
@@ -206,7 +206,7 @@ export default defineConfig({
         link: '/training-events/events',
         // subtitle: 'Training materials, tutorials, and upcoming and past events',
         // items: [
-          // { text: 'Training', link: '/training-events/training', image: 'https://placehold.co/150x100' },
+          // { text: 'Training', link: '/training-events/training', image: '/images/subheadings/Training.jpg' },
           // { text: 'Events', link: '/training-events/events', image: 'https://placehold.co/150x100' }
         // ]
       } as any,
@@ -278,7 +278,7 @@ export default defineConfig({
         link: '/projects-case-studies',
         // subtitle: 'something something',
         // items: [
-        //   { text: 'Projects', link: '/projects-case-studies/projects', image: 'https://placehold.co/150x100' },
+        //   { text: 'Projects', link: '/projects-case-studies/projects', image: '/images/subheadings/Projects.png' },
         //   { text: 'Case Studies', link: '/projects-case-studies/case-studies/', image: 'https://placehold.co/150x100' }
         // ]
       },
@@ -286,9 +286,9 @@ export default defineConfig({
         text: 'About',
         subtitle: 'Learn more about how the project is organised and governed',
         items: [
-          { text: 'Organisation', link: '/about/organisation', image: 'https://placehold.co/150x100' },
-          { text: 'People', link: '/about/people', image: 'https://placehold.co/150x100' },
-          { text: 'Policies & Principles', link: '/about/policies-principles', image: 'https://placehold.co/150x100' }
+          { text: 'Organisation', link: '/about/organisation', image: '/images/subheadings/Organisation.png' },
+          { text: 'People', link: '/about/people', image: '/images/subheadings/People.jpg' },
+          { text: 'Policies & Principles', link: '/about/policies-principles', image: '/images/subheadings/Policies.jpeg' }
         ]
       } as any,
       {

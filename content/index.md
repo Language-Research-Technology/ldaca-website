@@ -50,25 +50,25 @@ description = "The Language Data Commons of Australia brings together digital in
   },
   {
     title: 'Share data with care',
-    image: 'https://placehold.co/400x400',
+    image: '/images/how-we-can-help/Share.png',
     description: 'Support for contributing your data to the LDaCA ecosystem, with appropriate access controls. Understand how we apply the FAIR and CARE principles to ethically manage and share data.',
     link: '/working-with-data/license-share-govern/'
   },
   {
     title: 'Guidance on governance',
-    image: 'https://placehold.co/400x400',
+    image: '/images/how-we-can-help/Govern.jpg',
     description: 'Information on appropriately caring for data collections and applying Indigenous Data Governance. Find resources on governing data, and learn where to go to find out more.',
     link: '/working-with-data/license-share-govern/'
   },
   {
     title: 'Process data for use',
-    image: 'https://placehold.co/400x400',
+    image: '/images/how-we-can-help/Process.png',
     description: 'Tools and information about processing datasets before reuse. Learn about the different ways you may need to process data depending on your research purpose and find tools to help create machine readable corpora.',
     link: '/working-with-data/process-analyse/'
   },
   {
     title: 'Analyse language at scale',
-    image: 'https://placehold.co/400x400',
+    image: '/images/how-we-can-help/Analyse.png',
     description: 'Step-by-step guides and tools for analysing large amounts of language data. Find text analytics tools produced by the Language Technology and Data Analysis Laboratory (LADAL), such as their Topic Modelling tool, and more tools including the ATAP Quotation Tool.',
     link: '/working-with-data/process-analyse/'
   }
