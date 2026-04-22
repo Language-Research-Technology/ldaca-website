@@ -1,5 +1,5 @@
 ---
-title: "Gurindji plant and animal knowledge now available online."
+title: "Gurindji plant and animal knowledge now available online"
 date: 2026-04-17
 draft: false
 description: "LDaCA assists with the publishing of four new Gurindji plant and animal websites."
@@ -19,6 +19,8 @@ The poster data has been converted to RO-Crate format and published as static si
 
 > **"We are proud to see our Elders Violet Wadrill, Biddy Wavehill and Topsy Dodd Ngarnjal on the main pages. These webpages will be increasingly important as we are losing our Kajijirri and Marlarluka (Old People). It means they can continue speaking to the ngumayijang (next generations)."** <br>
 —  <cite>Leah Leaman, Director of Karungkarni Art and granddaughter of Violet Wadrill </cite>
+
+<br> 
 
 ## About each site
 
@@ -48,9 +50,9 @@ The poster data has been converted to RO-Crate format and published as static si
 
 [**Yawu**](https://yawu.ngumpin.org.au/ro-crate-preview.html) Audio on the Yawu site is provided by [Biddy Wavehill Yamawurr](https://yawu.ngumpin.org.au/ro-crate-preview_html/323f8bcf/e70117e6/4de021d4/d6f8c86a/index.html), [Jimmy Manngayarri](https://yawu.ngumpin.org.au/ro-crate-preview_html/0f50f024/be5863c2/b05cbde6/3f35215f/index.html), [Topsy Dodd Ngarnjal](https://yawu.ngumpin.org.au/ro-crate-preview_html/ba4241a5/255385ba/13dbd82f/ccc74def/index.html) and [Violet Wadrill](https://yawu.ngumpin.org.au/ro-crate-preview_html/9f95270e/1aa235f7/c6bee84e/3a041567/index.html). It contains entries for around 17 listings of fish including [kunpulu](https://yawu.ngumpin.org.au/ro-crate-preview_html/a064110d/b14a70e4/6b3e5dfc/82993013/index.html) and [mipirri](https://yawu.ngumpin.org.au/ro-crate-preview_html/1222397c/55f4bf1a/d33d46b2/305ff449/index.html). Each entry includes images and short stories.
 
+
 ---
 
 All four websites were created by Ben Foley and Abigail Davis. The information on each site remains the intellectual property of the Gurindji People under Indigenous Cultural and Intellectual Property (ICIP) protocols and cannot be used for commercial purposes without permission.
 
-<br>
 <br>
