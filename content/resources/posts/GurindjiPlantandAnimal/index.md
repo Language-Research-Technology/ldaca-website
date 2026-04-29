@@ -10,7 +10,7 @@ author: '<Profile id="foley" />'
 
 <br>
 
-<figure> <img src="./ScreenshotofJurlakaWebsite.png" Height="400" Alt="Screenshot of Jurlaka Website" Title="Screenshot of Jurlaka Website"> 
+<figure> <img src="./ScreenshotofJurlakaWebsite.png" alt="Screenshot of Jurlaka Website" title="Screenshot of Jurlaka Website"> 
 <figcaption>
 Screenshot of Jurlaka Website (Karungkarni Art and Culture Centre)
 </figcaption>
@@ -31,7 +31,7 @@ The poster data has been converted to RO-Crate format and published as static si
 
 ## About each site
 
-<figure> <img Src="https://jurlaka.ngumpin.org.au/files/images/Walukpin_SP.jpg" Height="400" Alt="Image of walukpin from Jurlaka website" Title="Image of walukpin from Jurlaka website"  Ref="Steve Parish">
+<figure> <img style="height: 400px;" src="https://jurlaka.ngumpin.org.au/files/images/Walukpin_SP.jpg" alt="Image of walukpin from Jurlaka website" title="Image of walukpin from Jurlaka website"  ref="Steve Parish">
 <figcaption>
 Image of walukpin from Jurlaka website
 </figcaption>
@@ -43,7 +43,7 @@ Image of walukpin from Jurlaka website
 <br>
 <br>
 
-<figure> <img Src="https://bush-tucker.ngumpin.org.au/files/images/06_Mintaarraj01_PS.jpg" Height="400" Alt="Image of mintarraj from the Bush Tucker website" Title="Image of mintarraj from the Bush Tucker website"  Ref="Penny Smith">
+<figure> <img src="https://bush-tucker.ngumpin.org.au/files/images/06_Mintaarraj01_PS.jpg" alt="Image of mintarraj from the Bush Tucker website" title="Image of mintarraj from the Bush Tucker website"  ref="Penny Smith">
 <figcaption>
 Image of mintarraj from the Bush Tucker website
 </figcaption>
@@ -54,7 +54,7 @@ Image of mintarraj from the Bush Tucker website
 <br>
 <br>
 
-<figure> <img Src="https://bush-medicine.ngumpin.org.au/files/images/IMG_4833.jpg" Height="400" Alt="Image of yirrijkaji from the Bush Medicine website" Title="Image of yirrijkaji from the Bush Medicine website"  Ref="Penny Smith">
+<figure> <img src="https://bush-medicine.ngumpin.org.au/files/images/IMG_4833.jpg" alt="Image of yirrijkaji from the Bush Medicine website" title="Image of yirrijkaji from the Bush Medicine website"  ref="Penny Smith">
 <figcaption>
 Image of yirrijkaji from the Bush Medicine website
 </figcaption>
@@ -65,7 +65,7 @@ Image of yirrijkaji from the Bush Medicine website
 <br>
 <br>
 
-<figure> <img Src="https://yawu.ngumpin.org.au/files/images/kunpulu_DM.jpg" Height="400" Alt="Image of kunpulu from Yawu website" Title="Image of kunpulu from Yawu website"  Ref="David Morgan">
+<figure> <img src="https://yawu.ngumpin.org.au/files/images/kunpulu_DM.jpg" alt="Image of kunpulu from Yawu website" title="Image of kunpulu from Yawu website"  ref="David Morgan">
 <figcaption>
 Image of kunpulu from Yawu website
 </figcaption>

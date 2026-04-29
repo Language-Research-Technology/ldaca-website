@@ -3,7 +3,7 @@ title: "Team member tip: Refining your search queries"
 date: 2026-04-21
 draft: false
 description: "Language Technology Analyst Rosanna Smith shares advice for using regular expressions to refine search queries."
-image: "resources/posts/team-member-tip-rosanna-smith/credit-ardc-michelle_mcfarlane-hassi_summerschool26-feb26-lr71-1536x1024.jpg"
+image: /resources/posts/team-member-tip-rosanna-smith/credit-ardc-michelle_mcfarlane-hassi_summerschool26-feb26-lr71-1536x1024.jpg
 layout: post
 author:  <Profile id="smith" />
 ---
@@ -32,7 +32,7 @@ Regexes can be tricky to learn at first, but by using even a few of these patter
 <br>
 
 <figure>
-    <img src="https://imgs.xkcd.com/comics/regular_expressions.png" alt="Web comic depicting a crime being heroically solved by someone who swings in on a rope declaring 'Everybody stand back. I know regular expressions'." title="'I know regular expressions'" Height="500"/>
+    <img src="https://imgs.xkcd.com/comics/regular_expressions.png" alt="Web comic depicting a crime being heroically solved by someone who swings in on a rope declaring 'Everybody stand back. I know regular expressions'." title="'I know regular expressions'"/>
     <figcaption> 'I know regular expressions' (XKCD web comic)</figcaption>
 </figure>
 

@@ -78,7 +78,7 @@ Use the following frontmatter template:
 title: ""
 description: ""
 layout: event
-image: 
+image: /path/to/image.png
 link: ""
 eventDate: ""
 eventTime: ""
@@ -96,6 +96,19 @@ NOTE: change `pastEvent` to `true` if this event has finished. This will update 
 
 Use this layout for blog posts, currently stored in `/resources/posts`. This layout is identical to the `doc` layout, but adds the author to the `SimpleHero` section and contains a link back to 'All Posts' at the top of the page content, as well as the date published.
 
+Use the following frontmatter template:
+```
+---
+title: 
+date: YYYY-MM-DD
+description: ""
+image: /path/to/image.png
+layout: post
+type: 
+author:  <Profile id="smith" />
+---
+```
+
 If the blog is a presentation, add `type: presentation` to the frontmatter. This will categorise it as a presentation and display it in the 'Latest Presentations' section on the Resources page, and in the carousel on the Presentations page.
 
 If the blog is a interview, add `type: interview` to the frontmatter. This will categorise it as an interview and display it in the 'Latest Interviews' section on the Resources page, and in the carousel on the Interviews page.
@@ -107,6 +120,20 @@ If the blog is a interview, add `type: interview` to the frontmatter. This will 
 Use this layout for project pages, currently stored in `/projects-case-studies/projects`. This layout has two sections:
 - left side: standard Markdown text for project description, outcomes, further reading, etc. taken from the content of the `.md` file
 - right side: image, project details and information boxes taken from the frontmatter of the `.md` file
+
+Use the following frontmatter template:
+```
+---
+title: 
+description: 
+collaborator: 
+projectTeam: 
+link: "[howlinkwilldisplay.com](https://url.com)"
+outcomes: "[Project report](https://pdf.pdf) and [online database](https://url.com)"
+information: ""
+image: /path/to/image.png
+---
+```
 
 ### RootList
 
@@ -128,6 +155,8 @@ To reference an image in an `.md` file, use the format:
 </figure>
 ```
 NOTE: if using an image from `/content/public/images`, use the path `/images/...` instead.
+
+If you need to adjust the size of the image, add `style="height: 400px;"` after `<img `, adjusting the height as needed. This will maintain the aspect ratio of the image while resizing it.
 
 For setting thumbnail/preview images to be used on other components and pages, add these to the `image` field in the related `.md` file's frontmatter, and use the full file path after `content`:
 
