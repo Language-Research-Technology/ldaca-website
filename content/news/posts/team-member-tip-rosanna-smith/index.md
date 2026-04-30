@@ -43,7 +43,7 @@ Regexes can be tricky to learn at first, but by using even a few of these patter
 
 <br>
 
-{{< image Src="credit-ardc-michelle_mcfarlane-hassi_summerschool26-feb26-lr71-1536x1024.jpg" Alt="Rosanna Smith smiling mid-conversation in a group of people" Desc="Rosanna talking to participants at the ARDC's HASS and Indigenous Research Data Commons Summer School in February 2026" Title="Rosanna talking to participants at the ARDC's HASS and Indigenous Research Data Commons Summer School in February 2026"  Ref="Michelle McFarlane, courtesy of the ARDC" Height="500">}}
+{{< image Src="credit-ardc-michelle_mcfarlane-hassi_summerschool26-feb26-lr71-1536x1024.jpg" Alt="Rosanna Smith smiling mid-conversation in a group of people" Desc="Rosanna talking to participants at the ARDC's HASS and Indigenous Research Data Commons Summer School in February 2026" Title="Rosanna talking to participants at the ARDC's HASS and Indigenous Research Data Commons Summer School in February 2026"  Ref="Michelle McFarlane, courtesy of the ARDC">}}
 
 <br>
 
