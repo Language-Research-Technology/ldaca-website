@@ -116,8 +116,11 @@
   .prose figure img {
     @apply max-w-full h-auto;
     width: auto;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 100% !important;
+    height: auto;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin: 0 auto !important;
     display: block;
   }
 
