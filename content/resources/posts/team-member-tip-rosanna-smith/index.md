@@ -40,10 +40,10 @@ Regexes can be tricky to learn at first, but by using even a few of these patter
 
 
 
-* User guide for search functionality in the LDaCA Data Portal:[ Search](https://www.ldaca.edu.au/resources/user-guides/portal/search/)
-* User guide for regular expressions in Google Docs and Sheets:[ Find and replace items using regular expressions](https://support.google.com/docs/answer/62754#regular_expressions)
-* Mozilla's cheat sheet for regular expression syntax with examples:[ Regular expression syntax cheat sheet](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Cheatsheet)
-* A regular expression tester with syntax highlighting, explanation and reference guide:[ regex101](https://regex101.com/)
+* User guide for search functionality in the LDaCA Data Portal: [Search](https://www.ldaca.edu.au/resources/user-guides/portal/search/)
+* User guide for regular expressions in Google Docs and Sheets: [Find and replace items using regular expressions](https://support.google.com/docs/answer/62754#regular_expressions)
+* Mozilla's cheat sheet for regular expression syntax with examples: [Regular expression syntax cheat sheet](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Cheatsheet)
+* A regular expression tester with syntax highlighting, explanation and reference guide: [regex101](https://regex101.com/)
 
 <br>
 
