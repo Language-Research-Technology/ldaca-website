@@ -9,7 +9,7 @@ by {{< profile id="foley" >}}
 
 <br>
 
-{{< image Src="ScreenshotofJurlakaWebsite.png" Alt="Screenshot of Jurlaka Website" Desc="Screenshot of Jurlaka Website" Title="Screenshot of Jurlaka Website"  Ref="Karungkarni Art and Culture Centre">}}
+{{< image Src="ScreenshotofJurlakaWebsite.png" Height="400" Alt="Screenshot of Jurlaka Website" Desc="Screenshot of Jurlaka Website" Title="Screenshot of Jurlaka Website"  Ref="Karungkarni Art and Culture Centre">}}
 <br>
 Four new Gurindji plant and animal websites have now been released including websites that feature [Jurlaka](https://jurlaka.ngumpin.org.au/ro-crate-preview.html), [Bush Tucker](https://bush-tucker.ngumpin.org.au/ro-crate-preview.html), [Bush Medicine](https://bush-medicine.ngumpin.org.au/ro-crate-preview.html) and [Yawu](https://yawu.ngumpin.org.au/ro-crate-preview.html) words. The websites began their life as printed posters. The Gurindji plant and animal posters project ran between 2014-2018 as a collaboration between non-Indigenous linguist Felicity Meakins (University of Queensland), Gurindji project facilitator Cassandra Algy (Karungkarni Art and Culture Aboriginal Corporation), Gurindji rangers (Murnkurrumurnkurru Central Land Council ranger group) and Gurindji Elders and Cultural Custodians, in particular Violet Wadrill. 
 
