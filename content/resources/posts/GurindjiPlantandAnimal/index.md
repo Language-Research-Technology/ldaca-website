@@ -31,7 +31,7 @@ The poster data has been converted to RO-Crate format and published as static si
 
 ## About each site
 
-<figure> <img src="https://jurlaka.ngumpin.org.au/files/images/Walukpin_SP.jpg" alt="Image of walukpin from Jurlaka website" title="Image of walukpin from Jurlaka website"  ref="Steve Parish">
+<figure> <img style="height: 400px;" src="https://jurlaka.ngumpin.org.au/files/images/Walukpin_SP.jpg" alt="Image of walukpin from Jurlaka website" title="Image of walukpin from Jurlaka website"  ref="Steve Parish">
 <figcaption>
 Image of walukpin from Jurlaka website
 </figcaption>
