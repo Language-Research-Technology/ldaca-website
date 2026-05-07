@@ -7,6 +7,7 @@
     author: '<Profile id="smith" /> and <Profile id="musgrave" />'
     layout: post
     type: presentation
+    image: /resources/posts/slang-survey/map_words.jpg
 ---
 
 <a href="./SlangSurvey.pdf">PDF version</a> | <a href="./SlangSurvey.pptx">Powerpoint Version</a>
