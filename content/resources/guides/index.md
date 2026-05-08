@@ -3,7 +3,7 @@ layout: home
 title: "Guides"
 ---
 
-<SimpleHero breadcrumb='Resources > Guides' title="Guides" description="Guides description goes here."/>
+<SimpleHero breadcrumb='Resources > Guides' title="Guides" description="How-to guides for using our tools and standards."/>
 
 <GuideCarousel 
   backgroundColor="#EAE4D68C"

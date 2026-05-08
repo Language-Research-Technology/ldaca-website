@@ -3,7 +3,7 @@ layout: home
 title: "Interviews"
 ---
 
-<SimpleHero breadcrumb='Resources > Interviews' title="Interviews" description="Interviews description goes here."/>
+<SimpleHero breadcrumb='Resources > Interviews' title="Interviews" description="Insightful interviews with researchers in our network."/>
 
 <Carousel 
   type="interview"

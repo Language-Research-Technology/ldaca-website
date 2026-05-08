@@ -10,6 +10,7 @@ aliases:
 - "/posts/interview-1/"
 layout: post
 type: interview
+image: "/content/public/images/Petroglyph_Pattern.svg"
 ---
 
 <br>

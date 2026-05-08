@@ -5,7 +5,7 @@ draft: false
 tags: ["Archiving", "Data management"]
 description: "LDaCA Senior Data Manager Dr Julia Colleen Miller discusses her experience in archiving and data management for cultural heritage data."
 layout: post
-image: "/resources/posts/cultural-heritage/fig_1_overview_page.png"
+image: "/resources/posts/cultural-heritage/fig_3_tapes_boxes.png"
 author: '<Profile id="miller" />'
 ---
 

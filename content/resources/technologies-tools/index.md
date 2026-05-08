@@ -3,7 +3,7 @@ layout: home
 title: "Technologies & Tools"
 ---
 
-<SimpleHero breadcrumb='Resources > Technologies & Tools' title="Technologies & Tools" description="Technologies & tools description goes here."/>
+<SimpleHero breadcrumb='Resources > Technologies & Tools' title="Technologies & Tools" description="Technologies and tools to support finding, accessing and analysing language data."/>
 
 <Carousel 
   :items="[
