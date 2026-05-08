@@ -9,6 +9,7 @@ author: '<Profile id="musgrave" />'
 aliases: 
 - "/posts/data-map/"
 layout: post
+image: "/content/public/images/Petroglyph_Pattern.svg"
 ---
 
 <br>

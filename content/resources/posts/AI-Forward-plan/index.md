@@ -4,6 +4,7 @@ date: 2025-12-17T16:34:20+11:00
 draft: false
 description: "AI and Language Data: Setting the Groundwork for 2026"
 layout: post
+image: "/content/public/images/Petroglyph_Pattern.svg"
 ---
 
 <br>
