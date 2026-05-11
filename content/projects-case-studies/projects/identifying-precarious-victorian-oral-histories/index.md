@@ -1,6 +1,6 @@
 ---
 title: Identifying Precarious Victorian Oral Histories
-description: Compiling a list of valuable oral history collections, big and small, in Victoria.
+description: Oral history collections hold invaluable insights into our historical, cultural and linguistic past, yet little is known about precarious collections that are at risk of being lost. This project compiled a list of valuable oral history collections, big and small, in Victoria.
 layout: project
 collaborator: Australian National University
 projectTeam: "Dr Anisa Puri\nJennifer Rose\nProfessor Catherine Travis"

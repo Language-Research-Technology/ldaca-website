@@ -20,6 +20,4 @@ In this workshop, participants:
 - were shown examples of how simple and complex concordances can be used to answer questions
 - had the chance to explore text using concordances, either from data they brought or from data that was provided.
 
-**Organisers**: <a href="https://resbaz.github.io/resbazvic2024/" target="_blank">ResBaz Victoria</a>
-
 **Leader**: Simon Musgrave

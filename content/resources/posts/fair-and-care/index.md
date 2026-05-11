@@ -10,8 +10,8 @@ aliases:
 - "/posts/fair-and-care/"
 layout: post
 image: "/resources/posts/fair-and-care/fair-care.png"
----
-<br />
+description: "The FAIR — Findable, Accessible, Interoperable, Reuseable — and CARE — Collective benefit, Authority to control, Responsibility, Ethics — principles offer a best-practice approach to handling data. In this post, Simon Musgrave discusses how corpus linguists can work with these principles."
+--- 
 
 ## FAIR and CARE
 

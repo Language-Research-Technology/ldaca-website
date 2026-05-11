@@ -15,6 +15,4 @@ pastEvent: true
 
 This workshop provided an introduction to text analytics with R using the tools and tutorials provided by the Language Technology and Data Analysis Laboratory (<a href="https://ladal.edu.au/" target="_blank">LADAL</a>).
 
-**Organisers**: <a href="https://resbaz.github.io/resbaz2024qld/" target="_blank">ResBaz Queensland</a>
-
 **Leader**: Sam Hames

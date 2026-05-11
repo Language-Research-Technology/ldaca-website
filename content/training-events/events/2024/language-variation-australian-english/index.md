@@ -14,5 +14,3 @@ pastEvent: true
 ---
 
 Online seminar presented by Prof Catherine Travis.
-
-**Organisers**: The University of Western Australia (<a href="https://www.uwa.edu.au/" target="_blank">UWA</a>) <a href="https://www.uwa.edu.au/schools/social-sciences/linguistics" target="_blank">Linguistics</a> and <a href="https://www.uwa.edu.au/schools/research/the-language-lab" target="_blank">The Language Lab</a>

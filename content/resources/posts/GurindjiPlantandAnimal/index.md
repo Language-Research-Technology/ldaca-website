@@ -2,7 +2,7 @@
 title: "Gurindji plant and animal knowledge now available online"
 date: 2026-04-17
 draft: false
-description: "LDaCA assists with the publishing of four new Gurindji plant and animal websites."
+description: "Read about LDaCA's involvement in the publication of four new Gurindji plant and animal websites, converting data from a poster project into RO-Crate format to build static sites."
 image: "/resources/posts/GurindjiPlantandAnimal/ScreenshotofJurlakaWebsite.png"
 layout: post
 author: '<Profile id="foley" />'

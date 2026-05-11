@@ -10,6 +10,7 @@ aliases:
 - "/posts/data-map/"
 layout: post
 image: "/content/public/images/Petroglyph_Pattern.svg"
+description: "The data which is being made accessible through LDaCA will contribute to the task of documenting language use and language behaviour in Australia. But what kinds of data does this include? Find out more in this post."
 ---
 
 <br>

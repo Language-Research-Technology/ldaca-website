@@ -21,5 +21,3 @@ Over two days, participants will be involved in interactive workshops, discussio
 - build networks for future collaborative projects using HASS and Indigenous Research Data Commons infrastructure.
 
 The Summer School is free of charge for researchers based in Australia, thanks to the support of the Australian Research Data Commons (ARDC) HASS and Indigenous Research Data Commons. Lunch and morning and afternoon tea are provided each day. Travel and accommodation must be covered by the participants.
-
-**Organisers**: [ARDC HASS and Indigenous Research Data Commons](https://ardc.edu.au/hass-and-indigenous-research-data-commons/)

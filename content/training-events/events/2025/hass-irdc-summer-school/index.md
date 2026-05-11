@@ -15,5 +15,3 @@ pastEvent: true
 The HASS and Indigenous research data community got together to gain hands-on experience, learn digital skills and network to inspire new research outcomes.
 
 The Summer School aimed to empower participants with practical knowledge, build digital skills, and help inspire new research outcomes within the humanities, arts, social sciences (HASS) and Indigenous fields of study. Participants collaborated in an interactive group setting while networking with like-minded researchers and subject matter experts.
-
-**Organisers**: <a href="https://ardc.edu.au/hass-and-indigenous-research-data-commons/" target="_blank">ARDC HASS and Indigenous Research Data Commons</a>

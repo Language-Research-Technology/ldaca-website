@@ -26,6 +26,4 @@ pastEvent: true
 
 The ARDC Indigenous Data Governance Masterclass equipped custodians of Indigenous data and researchers in any discipline with the knowledge and tools to ethically manage Indigenous data, respecting the cultural protocols and sovereignty of Indigenous communities. It built the capacity of participants to engage with Indigenous data, fostering a culturally sensitive and informed approach to data-driven projects.
 
-**Organisers**: <a href="https://ardc.edu.au/hass-and-indigenous-research-data-commons/" target="_blank">ARDC HASS and Indigenous Research Data Commons</a>
-
 **Leaders**: <Profile id="mclellan" /> and <a href="https://mspgh.unimelb.edu.au/centres-institutes/onemda/research-group/indigenous-studies-unit/about-us/our-team/levi-craig-murray" target = "_blank">Levi Murray</a>

@@ -2,7 +2,7 @@
 title: "Persistent Identifiers (PIDs) and Digital Object Identifiers (DOIs)"
 date: 2024-07-03T09:45:50+10:00
 draft: false
-description: "A blog post about persistent identifiers and Digital Object Identifiers (DOIs)."
+description: "Persistent Identifiers (PIDs) and Digital Object Identifiers (DOIs) provide a universal, machine-readable, interoperable method to uniquely identify research outcomes and resources so that they are easily findable."
 image: "/resources/posts/persistent-identifiers/PIDs_Fig_5_annotated_record.png"
 layout: post
 author: '<Profile id = "weaver" />'
