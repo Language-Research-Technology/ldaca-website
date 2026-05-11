@@ -54,6 +54,7 @@ title: "Organise & Describe"
       {
         title: 'Crate-O User Guide',
         description: 'Information related to using Crate-O for language data.',
+        image: '/resources/guides/crate-o/ro-crate-creation/add_entity_metadata.png',
         link: '/resources/guides/crate-o'
       }
     ]"/>

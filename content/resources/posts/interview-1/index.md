@@ -10,7 +10,7 @@ aliases:
 - "/posts/interview-1/"
 layout: post
 type: interview
-image: "/content/public/images/Petroglyph_Pattern.svg"
+image: "/public/images/Petroglyph_Pattern.svg"
 description: "An interview with some former and current LDaCA Chief Investigators. This post features Martin Schweinberger (University of Queensland), Nick Thieberger (University of Melbourne) and former Chief Investigator Louisa Willoughby (Monash University)."
 ---
 

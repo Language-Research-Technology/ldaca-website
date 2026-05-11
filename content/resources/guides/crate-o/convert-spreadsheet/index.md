@@ -7,6 +7,7 @@ description: "Guidance and a template for adding new data to an RO-Crate via spr
 category: "RESOURCE"
 weight: 4
 layout: doc
+image: "/public/images/Petroglyph_Pattern.svg"
 ---
 
 <br>

@@ -26,7 +26,7 @@ layout: doc
 
 ## Open Directory {#ro-crate-creationopen-directory}
 
-- Open [Crate-O](https://language-research-technology.github.io/crate-o/#/) in a compatible browser.
+- Open [Crate-O](https://language-research-technology.github.io/crate-o/#/) in a Chromium browser ([Google Chrome](https://google.com/chrome), [Microsoft Edge](https://microsoft.com/edge), etc.).
 - In the [Main Menu](/resources/guides/crate-o/basic-navigation/#main-menu), select **_Open Directory_**.
 - Navigate to a folder where the <GlossaryLink display="RO-Crate" id="ro-crate" /> will be saved, or create a new one, then confirm your selection.
 - For the pop-up message asking _Let site view files?_, select **_View Files_**.

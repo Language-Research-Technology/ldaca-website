@@ -57,7 +57,7 @@ layout: "home"
       {
         title: 'Crate-O User Guide',
         link: '/resources/guides/crate-o',
-        image: 'https://language-research-technology.github.io/crate-o/logo.svg',
+        image: '/resources/guides/crate-o/ro-crate-creation/add_entity_metadata.png',
         level: 'Beginner',
         audience: 'Researchers, community, people working with data',
         category: 'LDACA TECHNOLOGIES GUIDE'

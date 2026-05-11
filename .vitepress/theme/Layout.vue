@@ -2,6 +2,7 @@
 
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
+import NotFound from './NotFound.vue'
 import DocLayout from './layouts/Doc.vue'
 import PostLayout from './layouts/Post.vue'
 import RootListLayout from './layouts/RootList.vue'
@@ -57,12 +58,12 @@ watch(() => route.path, async () => {
 
 <template>
   <div class="app">
-
     <Header />
 
     <div class="body">
       <main class="main">
-        <DocLayout v-if="page.frontmatter && page.frontmatter.layout === 'doc' || page.frontmatter.layout === undefined" />
+        <NotFound v-if="page.isNotFound" />
+        <DocLayout v-else-if="page.frontmatter && page.frontmatter.layout === 'doc' || page.frontmatter.layout === undefined" />
         <PostLayout v-else-if="page.frontmatter && page.frontmatter.layout === 'post'" />
         <RootListLayout v-else-if="page.frontmatter && page.frontmatter.layout === 'root_list'" />
         <EventLayout v-else-if="page.frontmatter && page.frontmatter.layout === 'event'" />
@@ -72,6 +73,5 @@ watch(() => route.path, async () => {
     </div>
 
     <Footer />
-
   </div>
 </template>

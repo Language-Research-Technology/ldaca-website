@@ -8,7 +8,7 @@ aliases:
 - "/posts/interview-2/"
 layout: post
 type: interview
-image: "/content/public/images/Petroglyph_Pattern.svg"
+image: "/public/images/Petroglyph_Pattern.svg"
 description: "An interview with some former and current LDaCA Chief Investigators. This blog post features Catherine Travis (Australian National University), Monika Bednarek (University of Sydney) and former Chief Investigator Nicholas Evans (Australian National University)."
 ---
 

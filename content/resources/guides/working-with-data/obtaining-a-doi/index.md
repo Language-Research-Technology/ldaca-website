@@ -5,6 +5,7 @@ tags: ["Governance, rights & access"]
 description: "Outlines steps for acquiring a Digital Object Identifier (DOI) for a data collection."
 category: "RESOURCE"
 layout: doc
+image: "/public/images/Petroglyph_Pattern.svg"
 ---
 
 <br>

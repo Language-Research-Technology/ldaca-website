@@ -158,7 +158,7 @@ NOTE: if using an image from `/content/public/images`, use the path `/images/...
 
 If you need to adjust the size of the image, add `style="height: 400px;"` after `<img `, adjusting the height as needed. This will maintain the aspect ratio of the image while resizing it.
 
-For setting thumbnail/preview images to be used on other components and pages, add these to the `image` field in the related `.md` file's frontmatter, and use the full file path after `content`:
+For setting thumbnail/preview images to be used on other components and pages, add these to the `image` field in the related `.md` file's frontmatter, and use the full file path after `content` (don't include `content` in the path). For example:
 
 `image: "/resources/posts/example-blog/blog-image.png"`
 

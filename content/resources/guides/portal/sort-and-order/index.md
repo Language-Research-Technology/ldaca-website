@@ -5,6 +5,7 @@ tags: ["Data portal"]
 description: "Sort and order the results in the portal."
 category: "RESOURCE"
 layout: doc
+image: "/public/images/Petroglyph_Pattern.svg"
 ---
 
 <br>
