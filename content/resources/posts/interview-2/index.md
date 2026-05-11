@@ -9,6 +9,7 @@ aliases:
 layout: post
 type: interview
 image: "/content/public/images/Petroglyph_Pattern.svg"
+description: "An interview with some former and current LDaCA Chief Investigators. This blog post features Catherine Travis (Australian National University), Monika Bednarek (University of Sydney) and former Chief Investigator Nicholas Evans (Australian National University)."
 ---
 
 The Australian Text Analytics Platform ([ATAP](https://www.atap.edu.au)) and the Language Data Commons of Australia (LDaCA) are collaborative projects led by the University of Queensland and supported by the [Australian Research Data Commons](https://www.ardc.edu.au) to develop infrastructure for researchers who work with language data. In this blog post series, we feature interviews with the Chief Investigators of the two projects. In each post, we present their answers to three questions:

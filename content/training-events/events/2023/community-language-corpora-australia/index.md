@@ -19,6 +19,4 @@ The purpose of this workshop is to bring together scholars working with language
 
 The workshop will consist of presentations on language data collected from Australian immigrant communities for different research purposes, and will close with a panel discussion on needs and challenges around managing and archiving community language data in a way that is ethical, legal and culturally sensitive, and how LDaCA can help support that.
 
-**Organisers**: <a href="mailto:li.nguyen@anu.edu.au">Li Nguyen</a> & Catherine Travis
-
 **Program**: <a href="Workshop_CommunityLanguages_2023-program&abstracts.pdf">PDF</a> with abstracts.

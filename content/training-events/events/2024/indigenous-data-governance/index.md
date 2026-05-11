@@ -20,6 +20,4 @@ This event presented a panel of Indigenous researchers, data custodians and data
 - governance of Indigenous Data Framework for the HASS & Indigenous Research Data Commons
 - tools and methods for data governance.
 
-**Organisers**: The University of Queensland, Research and Innovation Week 2024
-
 **Participants**: Dr Rose Barrowcliffe, Leslie Acres, Robert McLellan, Grant Sarra (moderator)

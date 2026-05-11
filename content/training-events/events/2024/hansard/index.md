@@ -17,6 +17,4 @@ Parliamentary bodies around the world have been publishing transcriptions of the
 
 This workshop aimed to provide a starting point for working with these transcribed proceedings, including evaluating how it might (and might not!) be useful for your research, how to get started for different kinds of projects and cautionary notes on potential limitations. We will be using a suite of computational text analysis approaches, with no prior coding experience necessary.
 
-**Organisers**: <a href="https://computational-social-science.sydney.edu.au/" target="_blank">Computational Social Science Lab</a>
-
 **Leaders**: Sam Hames, Simon Musgrave

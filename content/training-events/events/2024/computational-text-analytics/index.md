@@ -15,7 +15,5 @@ pastEvent: true
 
 This workshop introduced the fundamentals of computational text analysis using <a href="https://ladal.edu.au/index.html" target="_blank">LADAL</a>.
 
-**Organisers**: <a href="https://hass.uq.edu.au/Digital-Cultures-and-Societies" target="_blank">Centre for Digital Cultures & Societies</a>
-
 
 **Leaders**: Martin Schweinberger and Sam Hames

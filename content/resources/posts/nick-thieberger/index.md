@@ -2,7 +2,7 @@
 title: "Interview with Nick Thieberger"
 date: 2025-05-07
 draft: false
-description: "Interview with Nick Thieberger."
+description: "Chief Investigator Nick Thieberger (University of Melbourne) discusses storage and archival practice at PARADISEC, dialogic archives and the future of long term storage."
 layout: post
 type: interview
 image: "/resources/posts/nick-thieberger/nickT_figure1.jpg"

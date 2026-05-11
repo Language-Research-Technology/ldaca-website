@@ -8,6 +8,7 @@
     layout: post
     type: presentation
     image: /resources/posts/slang-survey/map_words.jpg
+    description: "The Australian Slang Survey asked participants about expressions they thought of as typically Australian. Language Technology Analyst Rosanna Smith and Research Support and Training Lead Simon Musgrave worked to make this dataset FAIR compliant and publish it on the LDaCA Data Portal."
 ---
 
 <a href="./SlangSurvey.pdf">PDF version</a> | <a href="./SlangSurvey.pptx">Powerpoint Version</a>

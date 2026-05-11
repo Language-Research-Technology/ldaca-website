@@ -22,6 +22,4 @@ The aims of the workshop are to:
 - demonstrate simple <GlossaryLink display="methods" id="methods" /> which implement those principles
 - give participants hands-on experience with <GlossaryLink display="tools" id="tools" /> for data management.
 
-**Organisers**: [Melbourne Data Analytics Platform](https://www.unimelb.edu.au/mdap)
-
 **Presenters**: <Profile id="musgrave" /> and <Profile id="riv-smith" />

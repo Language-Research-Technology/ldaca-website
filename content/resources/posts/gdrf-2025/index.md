@@ -5,6 +5,7 @@ draft: false
 aliases:
   - "/posts/gdrf-2025/"
 image: "/resources/posts/gdrf-2025/gdrf-2.png"
+description: "A blog post about the 2025 Graduate Digital Research Fellowship cohort, co-ordinated by Sam Hames (Research Analytics Lead) and Simon Musgrave (Research Support and Training Lead)."
 author: '<Profile id="musgrave" />'
 layout: post
 ---

@@ -11,6 +11,7 @@ aliases:
 layout: post
 type: presentation
 image: "/resources/posts/ldaca-metadata-ecosystem-eresearch-2022/Slide04.png"
+description: "This presentation was delivered by Peter Sefton at eResearch 2022. The presentation examined the development and implementation of the RO-Crate metadata standard and a metadata profile (the Language Data Commons)."
 ---
 
 <br />
