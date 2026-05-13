@@ -11,9 +11,7 @@ title: "Projects & Case Studies"
   :items="[
     {
       title: 'Arne ingkerreke apurtelhe-ileme (Gathering all the things together)',
-      description: 'A project with Batchelor Institute that brings together the incredible life\'s work of Veronica Perrurle Dobson AM.\n\nThis project is a guide to Veronica\'s life, work and publications, and contains links to archival collections of her work.',
-      image: '/resources/posts/VeronicaDobson-launch2025/VPD_thumbnail.png',
-      link: '/resources/posts/VeronicaDobson-launch2025',
+      link: '/projects-case-studies/projects/arne-ingkerreke-apurtelhe-ileme',
     },
   ]"
    />
@@ -30,20 +28,13 @@ title: "Projects & Case Studies"
         category: 'COMPLETE'
       },
       {
-        title: 'Ayeye Thipe-akerte',
-        description: 'The sounds and sights of Central Australian birds, along with their Arrernte names and short stories about their appearance, habits and cultural meanings, have been republished on a new website. The website features exquisite artwork by Eastern Arrernte artist and writer Therese Ryder. Originally one in a series of bird apps produced by Batchelor Institute, Ayeye Thipe-akerte is the first to be re-released in a format based on principles of long-term safekeeping. Stay tuned as more bird apps are republished through the partnership between LDaCA and Batchelor Institute.',
-        image: 'https://ayeye-thipe-akerte.bird-apps.com/files/images/TR-nturrerte-1.jpg',
-        link: 'https://ayeye-thipe-akerte.bird-apps.com/ro-crate-preview.html',
+        title: 'Ayeye thipe-akerte',
+        link: '/projects-case-studies/projects/ayeye-thipe-akerte',
         category: 'COMPLETE'
       },
       {
-        title: 'Graduate Digital Research Fellowship — 2024',
-        link: '/resources/posts/gdrf-2024',
-        category: 'COMPLETE'
-      },
-      {
-        title: 'Graduate Digital Research Fellowship — 2023',
-        link: '/resources/posts/gdrf',
+        title: 'Graduate Digital Research Fellowship',
+        link: '/projects-case-studies/projects/graduate-digital-research-fellowship',
         category: 'COMPLETE'
       },
       {
