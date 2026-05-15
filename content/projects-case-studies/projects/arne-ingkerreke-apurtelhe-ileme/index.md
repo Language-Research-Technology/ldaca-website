@@ -1,6 +1,6 @@
 ---
 title: "Arne ingkerreke apurtelhe ileme: Gathering all the things together"
-description: A project with Batchelor Institute that brings together the incredible life's work of Veronica Perrurle Dobson AM. This project is a guide to Veronica's life, work and publications, and contains links to archival collections of her work.
+description: "A project with Batchelor Institute that brings together the incredible life's work of Veronica Perrurle Dobson AM.\nThis project is a guide to Veronica's life, work and publications, and contains links to archival collections of her work."
 layout: project
 collaborator: Batchelor Institute of Indigenous Tertiary Education
 projectTeam: "Veronica Dobson\nCamille Dobson\nAngela Harrison\nDr Jennifer Green\nDr Ben Foley"

@@ -1,6 +1,6 @@
 ---
 title: "A hands-on guide to Semantic Tagger for your text data analysis"
-description: "The Australian Text Analytics Platform (ATAP) project is a project that aims to provide researchers with the tools and training for analysing, processing and exploring text. As part of this project, we have adapted, with permission, a Semantic Tagger developed by the University Centre for Computer Corpus Research on Language (UCREL) at Lancaster University. This tool uses the Python Multilingual UCREL Semantic Analysis System (PyMUSAS) to tag your text data so that you can extract token level semantic tags from your text."
+description: "This hands-on workshop guided participants in using the Australian Text Analytics Platform (ATAP) Semantic Tagger, adapted from the Semantic Tagger developed by the University Centre for Computer Corpus Research on Language (UCREL) at Lancaster University. This tool uses the Python Multilingual UCREL Semantic Analysis System (PyMUSAS) to tag your text data so that you can extract token level semantic tags from your text."
 layout: event
 image: 
 link: ""

@@ -1,6 +1,6 @@
 ---
 title: "Václav Cvrček: The Czech National Corpus"
-description: "Václav Cvrček is a linguist who deals with the description of the Czech language, especially with the use of large electronic corpora and quantitative methods. In 2013-2016 he worked as the director of the Czech National Corpus project; since 2016 he has been the deputy director. Recently, he has been focusing on research on textual variability and corpus-based discourse analysis with a focus on online media."
+description: "This webinar was part of our 2022 series. Václav Cvrček is a linguist who deals with the description of the Czech language, especially with the use of large electronic corpora and quantitative methods. In 2013-2016 he worked as the director of the Czech National Corpus project; since 2016 he has been the deputy director. Recently, he has been focusing on research on textual variability and corpus-based discourse analysis with a focus on online media."
 layout: event
 image: "https://www.clarin.eu/sites/default/files/styles/max_2600x2600/public/cnk.png"
 link: ""

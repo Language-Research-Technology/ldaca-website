@@ -6,7 +6,7 @@ image:
 link: ""
 eventDate: "3 - 5 September 2024"
 eventTime: ""
-location: ""
+location: "Australian National University"
 cost: ""
 organiser: ""
 category: WORKSHOP
