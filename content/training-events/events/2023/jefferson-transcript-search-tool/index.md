@@ -1,6 +1,6 @@
 ---
 title: "Jefferson Transcript Search Tool"
-description: "The Search Tool project uses programming to explore how to easily search and manipulate transcripts without the need to 'clean' the transcript. A browser-based tool has been developed, designed to be used by researchers unfamiliar with programming. The workshop was presented by Evelyn Ansell and is an outcome of her Career Development placement with Australia's Academic and Research Network (AARNet). The Jupyter Notebook tool and this workshop have been developed during that placement."
+description: "This workshop, presented by Evelyn Ansell, taught participants how to use a newly developed browser-based Search Tool, designed to be used by researchers unfamiliar with programming. The Search Tool project used programming to explore how to easily search and manipulate transcripts without the need to 'clean' the transcript."
 layout: event
 image: 
 link: ""

@@ -1,6 +1,6 @@
 ---
 title: "Understanding the social meaning of language variation in Australian English"
-description: "Online seminar presented by Prof Catherine Travis (ANU)."
+description: "Online seminar presented by Professor Catherine Travis (Australian National University)."
 layout: event
 image: 
 link: ""
@@ -13,4 +13,4 @@ category: WEBINAR
 pastEvent: true
 ---
 
-Online seminar presented by Prof Catherine Travis.
+Online seminar presented by Professor Catherine Travis (Australian National University).

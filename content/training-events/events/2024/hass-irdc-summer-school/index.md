@@ -1,6 +1,6 @@
 ---
 title: "HASS and Indigenous Research Data Commons Computational Skills Summer School 2024"
-description: "The 2024 HASS and Indigenous Research Data Commons (RDC) Computational Skills Summer School aimed to empower participants with practical knowledge, build digital skills and help inspire new research outcomes within these research communities. Participation was aimed at researchers in the humanities, arts, social sciences (HASS) and Indigenous fields of study. Themed streams explored geosocial and geospatial data applications in HASS and Indigenous research, using Australian Research Data Commons (ARDC) tools and services. Participants gained experience through seminars and workshops, and were guided through hands-on use of free tools and platforms provided by the ARDC and its partners."
+description: "The 2024 HASS and Indigenous Research Data Commons (RDC) Computational Skills Summer School aimed to empower participants with practical knowledge, assist them to build digital skills and help inspire new research outcomes within these research communities. LDaCA led a stream on the governance, management and usage of data, especially Indigenous data."
 layout: event
 image: "https://ardc.edu.au/wp-content/uploads/2024/10/hassi-post01-feature-image-583-x-345-580x345.webp"
 link: "https://ardc.edu.au/event/hass-and-indigenous-rdc-summer-school-2024/"
