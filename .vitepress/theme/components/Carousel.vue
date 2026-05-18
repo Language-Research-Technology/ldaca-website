@@ -50,6 +50,10 @@ const props = defineProps({
   tileView: {
     type: Boolean,
     default: false
+  },
+  threeTiles: {
+    type: Boolean,
+    default: false
   }
 })
 
@@ -182,10 +186,12 @@ const visibleItems = computed(() => {
 })
 
 const desktopItems = computed(() => {
-  return props.tileView ? filteredItems.value : visibleItems.value
+  if (props.threeTiles) return filteredItems.value.slice(0, 3)
+  if (props.tileView) return filteredItems.value
+  return visibleItems.value
 })
 
-const showArrows = computed(() => !props.tileView && total.value > visibleCount.value)
+const showArrows = computed(() => !props.tileView && !props.threeTiles && total.value > visibleCount.value)
 
 const prev = () => {
   if (total.value === 0) return
@@ -292,7 +298,8 @@ const isExternal = (url) => {
 
       <!-- TABLET / MOBILE STACKED PANELS -->
       <div class="lg:hidden flex flex-col gap-4">
-        <div v-for="item in filteredItems" :key="item.title" class="bg-[#393939] overflow-hidden flex flex-col">
+        <div v-for="item in (props.threeTiles ? filteredItems.slice(0, 3) : filteredItems)" :key="item.title"
+          :class="[cardBgClass, 'overflow-hidden flex flex-col']">
           <!-- compute image with frontmatter fallback -->
           <a :href="item.link" :target="isExternal(item.link) ? '_blank' : '_self'"
             :rel="isExternal(item.link) ? 'noopener noreferrer' : null" class="block">
@@ -301,17 +308,17 @@ const isExternal = (url) => {
           </a>
 
           <div class="px-5 pt-5 pb-3 space-y-3 flex flex-col">
-            <p class="text-white">{{ item.category ?? pagesData[item.link]?.category }}</p>
-            <h3 class="text-white">{{ item.title ?? pagesData[item.link]?.title }}</h3>
+            <p :class="categoryClass">{{ item.category ?? pagesData[item.link]?.category }}</p>
+            <h3 :class="textClass">{{ item.title ?? pagesData[item.link]?.title }}</h3>
             <!-- Combine date and time -->
-            <p v-if="pagesData[item.link]?.eventDate || pagesData[item.link]?.eventTime" class="font-bold text-white">
+            <p v-if="pagesData[item.link]?.eventDate || pagesData[item.link]?.eventTime" :class="textClass" class="font-bold">
               {{ [formatDate(pagesData[item.link]?.eventDate), pagesData[item.link]?.eventTime].filter(Boolean).join(', ') }}
             </p>
 
-            <p v-if="pagesData[item.link]?.location" class="font-bold text-white">
+            <p v-if="pagesData[item.link]?.location" :class="textClass" class="font-bold">
               {{ pagesData[item.link]?.location }}
             </p>
-            <p class="text-white leading-relaxed flex-1 whitespace-pre-line">
+            <p :class="[textClass, 'leading-relaxed flex-1 whitespace-pre-line']">
               {{ item.description ?? pagesData[item.link]?.description }}
             </p>
           </div>

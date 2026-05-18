@@ -151,7 +151,7 @@ const getGridClass = (items) => {
                 getGridClass(item.items)
               ]">
                 <!-- Render regular items (buttons/images) -->
-                <template v-for="(subItem, idx) in item.items" :key="subItem.text + (subItem.link || '')">
+                <template v-for="(subItem, idx) in item.items" :key="`${subItem.text || subItem.title || 'item'}-${subItem.link || idx}`">
                   <a v-if="!subItem.children && subItem?.link" :href="subItem?.link" @click="closeMenu" :class="[
                     subItem.image
                       ? 'flex flex-col items-left gap-2 p-0 group'
@@ -161,7 +161,7 @@ const getGridClass = (items) => {
                     <img v-if="subItem.image" :src="subItem.image" :alt="subItem.text"
                       class="w-full h-32 object-cover" />
                     <span
-                      :class="subItem.image ? `mt-1 text-2xl ${subItem.bold ? 'font-bold' : 'font-medium'} hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8 transition-colors text-left` : ''">
+                      :class="subItem.image ? `mt-1 text-2xl ${subItem.bold ? 'font-bold' : 'font-medium'} hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-4 transition-colors text-left` : ''">
                       {{ subItem.text }}
                     </span>
                   </a>
@@ -173,9 +173,10 @@ const getGridClass = (items) => {
                       {{ subItem.title || subItem.text }}
                     </div>
                     <ul class="space-y-1">
-                      <li v-for="child in subItem.children" :key="child?.link || child?.text">
+                      <li v-for="child in subItem.children" :key="child?.link || child?.text" class="flex flex-col">
                         <a v-if="child && child.link" :href="child.link" @click="closeMenu"
                           :class="`text-base ${child.bold ? 'font-bold' : 'font-medium'} transition-colors hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-4`">
+                          <img v-if="child.image" :src="child.image" :alt="child.text" class="w-full h-32 object-cover" />
                           {{ child.text }}
                         </a>
                       </li>

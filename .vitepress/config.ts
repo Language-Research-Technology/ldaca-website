@@ -61,6 +61,105 @@ function generatePagesData() {
   return pages
 }
 
+function getLatestBlogNavColumn() {
+  const postsDir = path.join(__dirname, '../content/resources/posts')
+  if (!fs.existsSync(postsDir)) {
+    return {
+      title: 'Latest Blog Post',
+      children: [
+        {
+          text: 'Blog',
+          link: '/resources/posts/',
+          image: '/images/Petroglyph_Pattern.svg',
+          bold: true
+        }
+      ]
+    }
+  }
+
+  type PostEntry = {
+    url: string
+    title: string
+    date: number
+    image?: string
+  }
+
+  const posts: PostEntry[] = []
+
+  function walk(dir: string, base = '') {
+    const entries = fs.readdirSync(dir, { withFileTypes: true })
+    for (const entry of entries) {
+      const full = path.join(dir, entry.name)
+      const rel = path.join(base, entry.name)
+
+      if (entry.isDirectory()) {
+        walk(full, rel)
+        continue
+      }
+
+      if (entry.name !== 'index.md') continue
+
+      try {
+        const content = fs.readFileSync(full, 'utf-8')
+        const { data } = matter(content)
+        if (data?.draft) continue
+
+        const timestamp = Date.parse(String(data?.date ?? ''))
+        const slug = rel.replace(/[\\/]index\.md$/, '').replace(/[\\/]+/g, '/').replace(/^\/+|\/+$/g, '')
+        if (!slug) continue
+        const url = slug ? `/resources/posts/${slug}` : '/resources/posts/'
+        const imageRaw = String(data?.image ?? '').trim()
+        const isExternalImage = /^(https?:)?\/\//i.test(imageRaw) || imageRaw.startsWith('data:')
+        const image = !imageRaw
+          ? undefined
+          : imageRaw.startsWith('/') || isExternalImage
+            ? imageRaw
+            : (slug ? `/resources/posts/${slug}/${imageRaw.replace(/^\.?\//, '')}` : `/resources/posts/${imageRaw.replace(/^\.?\//, '')}`)
+
+        posts.push({
+          url,
+          title: String(data?.title ?? '').trim() || 'Untitled post',
+          date: Number.isFinite(timestamp) ? timestamp : fs.statSync(full).mtimeMs,
+          image
+        })
+      } catch (e) {
+        // Ignore invalid post metadata and continue scanning
+      }
+    }
+  }
+
+  walk(postsDir)
+
+  if (!posts.length) {
+    return {
+      title: 'Latest Blog Post',
+      children: [
+        {
+          text: 'Blog',
+          link: '/resources/posts/',
+          image: '/images/Petroglyph_Pattern.svg',
+          bold: true
+        }
+      ]
+    }
+  }
+
+  posts.sort((a, b) => b.date - a.date)
+  const latest = posts[0]
+
+  return {
+    title: 'Latest Blog Post',
+    children: [
+      {
+        text: latest.title || 'Latest blog post',
+        link: latest.url,
+        image: latest.image || '/images/Petroglyph_Pattern.svg',
+        bold: true
+      }
+    ]
+  }
+}
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   sitemap: {
@@ -270,6 +369,10 @@ export default defineConfig({
               { text: 'FAQs', link: '/resources/faqs/', bold: true },
               { text: 'Blog', link: '/resources/posts/', bold: true }
             ]
+          },
+          {
+            ...getLatestBlogNavColumn(),
+            divider: false
           }
         ]
       } as any,
@@ -347,13 +450,22 @@ export default defineConfig({
         if (isExternal(image)) continue
 
         const cleanImage = image.split('?')[0].split('#')[0]
-        const normalized = cleanImage.replace(/^\/+/, '') // resources/posts/.../Slide04.png
+        const normalized = cleanImage.replace(/^\/+/, '')
+        const pagePath = String(item?.url ?? '').replace(/^\/+|\/+$/g, '')
+        const pageDir = pagePath ? path.join(srcDir, pagePath) : srcDir
 
-        // absolute-from-content path: "/resources/posts/.../Slide04.png"
-        const src = path.join(srcDir, normalized)
-        const dst = path.join(outDir, normalized)
+        if (cleanImage.startsWith('/')) {
+          copyIfExists(path.join(srcDir, normalized), path.join(outDir, normalized))
+          continue
+        }
 
-        copyIfExists(src, dst)
+        const relativeSrc = path.join(pageDir, cleanImage.replace(/^\.\/?/, ''))
+        const relativeDst = path.join(outDir, pagePath, cleanImage.replace(/^\.\/?/, ''))
+        copyIfExists(relativeSrc, relativeDst)
+
+        // Keep the old content-root behavior as a fallback for any pages that already
+        // reference shared assets with site-root style paths.
+        copyIfExists(path.join(srcDir, normalized), path.join(outDir, normalized))
       }
     }
 

@@ -195,7 +195,7 @@ All components are stored in `/theme/components`. To use components, add `<Compo
 | --- | --- |
 | BlogPostsList.vue | N/A |
 | BlogPostsPage.vue | N/A |
-| Carousel.vue | `heading`: text<br>`description`: text<br>`items`: array **OR** `type`: presentation/interview<br>`image`: filepath (default: '/images/Petroglyph_Pattern.svg')<br>`backgroundColor`: colour<br>`opacity`: number (default: 100)<br>`shade`: light (default: dark)<br>`buttonText`: text (default: 'View more')<br>`viewAll`: link<br>`yearFilter`: boolean (default: false)<br>`tileView`: boolean (default: false) |
+| Carousel.vue | `heading`: text<br>`description`: text<br>`items`: array **OR** `type`: presentation/interview<br>`image`: filepath (default: '/images/Petroglyph_Pattern.svg')<br>`backgroundColor`: colour<br>`opacity`: number (default: 100)<br>`shade`: light (default: dark)<br>`buttonText`: text (default: 'View more')<br>`viewAll`: link<br>`yearFilter`: boolean (default: false)<br>`tileView`: boolean (default: false)<br>`threeTiles`: boolean (default: false) |
 | CarouselLarge.vue | `heading`: text<br>`description`: text<br>`items`: array<br>`image`: filepath (default: '/images/Petroglyph_Pattern.svg')<br>`backgroundColor`: colour (default: '#f3f0e8')<br>`opacity`: number (default: 100)<br>`buttonText`: text (default: 'Try it out') |
 | Collaborators.vue | `heading`: text<br>`description`: text<br>`items`: array<br>`backgroundColor`: colour<br>`opacity`: number (default: 100) |
 | CollectionsGrid.vue | `heading`: text<br>`description`: text<br>`backgroundColor`: colour (default: '#79a38d')<br>`backgroundImage`: filepath (default: '/images/Collections_BG.png')<br>`opacity`: number (default: 100)<br>`buttonText`: text (default: 'Learn more') |

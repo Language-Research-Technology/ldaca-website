@@ -73,7 +73,6 @@ layout: "home"
 <Carousel 
   id="latest-videos"
   shade="light"
-  backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="LATEST VIDEOS"
   buttonText="Watch recording"
@@ -102,11 +101,12 @@ layout: "home"
   type='presentation'
 />
 
-<TwoTiles 
+<Carousel 
   id="latest-interviews"
-  backgroundColor="#EAE4D68C"
   :opacity="100"
   heading="LATEST INTERVIEWS"
   viewAll='/resources/interviews'
   type='interview'
+  threeTiles=true
+  shade="light"
 />
