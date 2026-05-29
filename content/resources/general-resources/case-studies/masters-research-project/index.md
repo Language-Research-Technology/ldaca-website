@@ -113,7 +113,7 @@ Once I had cleaned and organised the data for all three datasets, I uploaded the
 
 <br>
 
-{{< image Src="/masters-research-project/figure4-and-stuff-search.png" Alt="A screenshot of the results of a concordance search for *and stuff* in the Sydney Speaks dataset. The screenshot shows multiple lines of text with the words *and stuff* centred in every line and formatted red and bold." Desc="Figure 4: Concordance search for *and stuff* in the Sydney Speaks dataset" Title="Concordance search for *and stuff* in the Sydney Speaks dataset" Ref="Teresa Chan" Height="500" >}}
+{{< image Src="/masters-research-project/figure4-and-stuff-search.png" Alt="A screenshot of the results of a concordance search for *and stuff* in the Sydney Speaks dataset. The screenshot shows multiple lines of text with the words *and stuff* centred in every line and formatted red and bold." Desc="Figure 4: Concordance search for 'and stuff' in the Sydney Speaks dataset" Title="Concordance search for *and stuff* in the Sydney Speaks dataset" Ref="Teresa Chan" Height="500" >}}
 
 <br>
 

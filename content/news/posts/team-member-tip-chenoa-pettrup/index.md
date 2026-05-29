@@ -23,7 +23,7 @@ Before diving into tools, sketch a few layout options—on paper or using digita
 ### From tired to inspired.
 Go beyond the defaults of pie charts and bar graphs. Explore how others turn data into meaningful visuals. Sites like [Information is Beautiful](https://www.informationisbeautifulawards.com/showcase?award=2024&type=awards) and [FlowingData](https://flowingdata.com/learning/) are excellent resources for discovering innovative visualisation methods. [The Visual Display of Quantitative Data by Edward Tufte](https://trove.nla.gov.au/work/16868817?keyword=The%20Visual%20Display%20of%20Quantitative%20Information) is another great resource for this. Reviewing how others have approached their data can offer fresh perspectives and can spark your creativity. Engaging with such examples can set the stage for powerful storytelling through data.
 
-{{< image Src="/team-member-tip-chenoa-pettrup/Storytelling with Data.png" Height="450"  Alt="Storytelling with Data by Cole Nussbaumer Knaflic" Desc="Storytelling with Data by Cole Nussbaumer Knaflic" Title="Storytelling with Data by Cole Nussbaumer Knaflic"Ref="Storytelling with data book cover">}}
+{{< image Src="/team-member-tip-chenoa-pettrup/Storytelling with Data.png" Height="450"  Alt="Book storytelling with Data by Cole Nussbaumer Knaflic" Desc="Book storytelling with Data by Cole Nussbaumer Knaflic" Title="Book storytelling with Data by Cole Nussbaumer Knaflic"Ref="storytelling with data Website">}}
 
 ### No guts, no story.
 Effective data visualisation is not just about showcasing numbers—it's about telling a story that makes sense for your subject matter and your audience. Consider how your data can weave a narrative that engages viewers.  Visual metaphors, annotation, color and images can help with highlighting information. Telling a good story starts with knowing the information that you want to convey and what is at the centre of your data. Combining the data with narrative can help convey complex information in a way that is relatable.
@@ -32,7 +32,7 @@ Effective data visualisation is not just about showcasing numbers—it's about t
 
 <br>
 
-{{< image Src="/team-member-tip-chenoa-pettrup/Chenoa-photo.png" Alt="A  photograph of a group of people talking" Desc="Chenoa, left, at ARDC's HASS and Indigenous Research Data Commons Summer School in February 2025." Title="Chenoa, left, at ARDC's HASS and Indigenous Research Data Commons Summer School in February 2025."  Ref="Photo by Marc Grimwade, courtesy of ARDC" >}}
+{{< image Src="/team-member-tip-chenoa-pettrup/Chenoa-photo.png" Alt="A  photograph of a group of people talking" Desc="Chenoa (left) at ARDC's HASS and Indigenous Research Data Commons Summer School in February 2025." Title="Chenoa, left, at ARDC's HASS and Indigenous Research Data Commons Summer School in February 2025."  Ref="Photo by Marc Grimwade, courtesy of ARDC" >}}
 
 <br>
 
