@@ -11,13 +11,13 @@ layout: "home"
   :contents="[
     { label: 'Latest publications', href: '#latest-publications' },
     { label: 'Latest guides', href: '#latest-guides' },
-    { label: 'Latest tools & technologies', href: '#latest-tools-technologies' },
+    // { label: 'Latest tools & technologies', href: '#latest-tools-technologies' },
     { label: 'Latest videos', href: '#latest-videos' },
     { label: 'Latest presentations', href: '#latest-presentations' },
     { label: 'Latest interviews', href: '#latest-interviews' },
   ]" />
 
-<CarouselLarge 
+<LatestPublications 
   id="latest-publications"
   backgroundColor="#EAE4D68C"
   :opacity="100"
@@ -25,18 +25,24 @@ layout: "home"
   description=''
   viewAll='/resources/publications'
   :items="[
-    //   {
-    //     title: 'LDaCA Data Portal',
-    //     description: 'Explore and access significant collections of language data, including the Mitchell and Delbridge corpus and the International Corpus of English.',
-    //     image: '/images/LDaCA_data_portal.png',
-    //     link: 'https://data.ldaca.edu.au',
-    //   },
-    //   {
-    //     title: 'PARADISEC Portal',
-    //     description: 'PARADISEC has more than 700 collections representing over 1,370 languages.',
-    //     image: '/images/partner-logos/paradisec_logo.png',
-    //     link: 'https://catalog.paradisec.org.au/oni/'
-    //   },
+      {
+        title: 'Attitude in Reported and Non-reported News: A Critique of Sentiment Analysis in Corpus Pragmatics.',
+        author: 'Monika Bednarek & Maite Taboada',
+        image: '/resources/publications/unparliamentary_paper.png',
+        link: 'https://doi.org/10.1007/s41701-025-00185-6',
+      },
+      {
+        title: '“How is that unparliamentary?”: The metapragmatics of ‘unparliamentary’ language in the Australian Federal Parliament.',
+        author: 'Sam Hames, Michael Haugh & Simon Musgrave',
+        image: '/resources/publications/unparliamentary_paper.png',
+        link: 'https://doi.org/10.1016/j.lingua.2025.103932'
+      },
+      {
+        title: 'Australian slang as a literary genre.',
+        author: 'Simon Musgrave',
+        image: '/resources/publications/unparliamentary_paper.png',
+        link: 'https://doi.org/10.1080/07268602.2024.2444219'
+      },
     ]"/>
 
 <GuideCarousel 

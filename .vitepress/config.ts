@@ -494,6 +494,7 @@ export default defineConfig({
       'training-events/events',
       'resources/guides',
       'resources/posts',
+      'resources/publications',
       'projects-case-studies'
     ]
 

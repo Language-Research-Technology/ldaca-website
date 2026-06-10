@@ -10,6 +10,7 @@ import Profile from './components/Profile.vue'
 import DataPortalBox from './components/DataPortalBox.vue'
 import Carousel from './components/Carousel.vue'
 import CarouselLarge from './components/CarouselLarge.vue'
+import LatestPublications from './components/LatestPublications.vue'
 import SimpleHero from './components/SimpleHero.vue'
 import SimpleNavigation from './components/SimpleNavigation.vue'
 import GuideCarousel from './components/GuideCarousel.vue'
@@ -36,6 +37,7 @@ export default {
     app.component('BlogPostsList', BlogPostsList)
     app.component('Carousel', Carousel)
     app.component('CarouselLarge', CarouselLarge)
+    app.component('LatestPublications', LatestPublications)
     app.component('SimpleHero', SimpleHero)
     app.component('SimpleNavigation', SimpleNavigation)
     app.component('GuideCarousel', GuideCarousel)
