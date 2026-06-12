@@ -41,9 +41,19 @@ footer {
 }
 
 .footer-border {
-  box-sizing: padding-box;
-  content: '';
   display: block;
+  position: relative;
+  width: 100%;
+  height: calc(v-bind(borderTop) + v-bind(borderBottom));
+  overflow: hidden;
+}
+
+.footer-border::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
   width: 0;
   height: 0;
   border-top: v-bind(borderTop) solid transparent;
@@ -53,7 +63,7 @@ footer {
 }
 </style>
 <template>
-  <div class="footer-border text-secondary "></div>
+  <div class="footer-border text-secondary" aria-hidden="true"></div>
 
 
   <footer class="w-full mt-auto text-foreground" :style="{ backgroundColor: footerBgColor }">
