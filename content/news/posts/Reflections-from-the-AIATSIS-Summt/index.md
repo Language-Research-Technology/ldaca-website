@@ -48,8 +48,10 @@ Overall, my experience at AIATSIS has led to professional and personal growth, w
 
 ### About the author
 
+{{< image Src="Blanche_A_Photo.png" Alt="Blanche Alexander" Desc="Blanche Alexander" Ref="Blanche Alexander" Height="300">}}
+
 #### Blanche Alexander
-Blanche Alexander has worked in the community sector and the technology industry. Her professional interests are data analysis, cybersecurity and application development. Her personal hobbies are writing, music and digital art. She aims to ensure reciprocity and respect are upheld for First Nations people.
+[Blanche Alexander](https://www.linkedin.com/in/blanchealexander/) has worked in the community sector and the technology industry. Her professional interests are data analysis, cybersecurity and application development. Her personal hobbies are writing, music and digital art. She aims to ensure reciprocity and respect are upheld for First Nations people.
 
 Blanche is the Data and Research Infrastructure Intern at [ARDC](https://ardc.edu.au/) working with LDaCA.
 
