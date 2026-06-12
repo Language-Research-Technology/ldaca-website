@@ -20,6 +20,7 @@ title: "Audio & Video"
       {
         title: 'What is a Language Data Commons anyway?',
         description: 'This video series serves up speedy answers to common questions about the Language Data Commons of Australia (LDaCA). What’s language data? Why does it matter? Who uses a language data commons and how does it even work? From giant storage questions to tricky metadata mysteries, each short video helps clear things up.',
+        image: '/images/thumbnails/00_LDaCAVidSeries_SeriesCard.png',
         link: 'https://www.youtube.com/playlist?list=PLpaCkX03fhibjx71L1dMNHLTEioXOECZ4',
         category: 'RECORDING'
       },

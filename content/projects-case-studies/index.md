@@ -41,6 +41,7 @@ title: "Projects & Case Studies"
         title: 'CALL Collection Catalogue',
         description: 'The CALL Collection is an archive from Batchelor Institute containing Australian First Nations language materials.',
         link: 'https://callcollection.batchelor.edu.au/',
+        image: '/images/partner-logos/BatchelorInstitute_logo.svg',
         category: 'IN PROGRESS'
       }
     ]"/>
