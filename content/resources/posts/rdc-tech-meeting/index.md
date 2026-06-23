@@ -3,7 +3,7 @@ title: HASS RDC Technical Advisory Group Meeting LDaCA & ATAP Intro
 date: "2022-06-08T15:28:35+10:00"
 draft: false
 categories: ["LDaCA"]
-tags: ["Repositories"]
+# tags: ["Repositories"]
 author: '<Profile id="sefton" />'
 aliases: 
 - "/posts/rdc-tech-meeting/"

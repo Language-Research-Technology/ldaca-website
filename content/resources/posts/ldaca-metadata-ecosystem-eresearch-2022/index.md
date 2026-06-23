@@ -4,7 +4,7 @@ title: >
 date: "2022-11-25"
 slug: ldaca-metadata-ecosystem-eresearch-2022
 categories: ["LDaCA"]
-tags: ["Metadata"]
+# tags: ["Metadata"]
 author: '<Profile id="sefton" />'
 aliases:
   - "/posts/ldaca-metadata-ecosystem-eresearch-2022/"

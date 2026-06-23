@@ -327,4 +327,3 @@ Soiland-Reyes, S., Sefton, P., Crosas, M., Castro, L. J., Coppens, F., Fernánde
 
 Thieberger, N. 2023. Doing it for Ourselves: The New Archive Built by and Responsive to the Researcher. Digital Humanities Quarterly (DHQ) Volume 17 Number 1. https://digitalhumanities.org/dhq/vol/17/1/000667/000667.html
 
----

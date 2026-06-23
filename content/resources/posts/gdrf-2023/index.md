@@ -33,11 +33,17 @@ Eve works in the field of Conversation Analysis which uses very detailed transcr
 
 In Eve's words:
 
-> My only regret is that I didn't do the GDRF sooner. This sort of learning should be required early on in all Humanities research training programs.
+<p class="pull-quote">
+  My only regret is that I didn't do the GDRF sooner. This sort of learning should be required early on in all Humanities research training programs.
+</p>
 
-> I cannot speak highly enough of Simon and Sam. They enthusiastically share their domains of knowledge, but also engage with us about our own work. To have access to experts willing to talk through current projects, future scoping, frustrations, and wild ideas is incredibly valuable.
+<p class="pull-quote">
+  I cannot speak highly enough of Simon and Sam. They enthusiastically share their domains of knowledge, but also engage with us about our own work. To have access to experts willing to talk through current projects, future scoping, frustrations, and wild ideas is incredibly valuable.
+</p>
 
-> It's easy to forget how much of our research work happens in the digital space. It's not just the data, it's how we interface with it. The GDRF taught me to think differently about how I treat my research workflow at almost every point.
+<p class="pull-quote">
+  It's easy to forget how much of our research work happens in the digital space. It's not just the data, it's how we interface with it. The GDRF taught me to think differently about how I treat my research workflow at almost every point.
+</p>
 
 <br>
 
@@ -53,7 +59,11 @@ Christina's research investigates where cisgender women create the boundaries fo
 
 In Christina's words:
 
-> The Fellowship was instrumental in honing my ideas and offering invaluable hands-on support to bring my vision to life. It played a pivotal role in developing one of the most exciting and interesting projects of my PhD and I look forward to using these new skills and ways of thinking in future digitally-based projects.
+<p class="pull-quote">
+  The Fellowship was instrumental in honing my ideas and offering invaluable hands-on support to bring my vision to life. It played a pivotal role in developing one of the most exciting and interesting projects of my PhD and I look forward to using these new skills and ways of thinking in future digitally-based projects.
+</p>
+
+<br>
 
 **Update - August 2024**
 

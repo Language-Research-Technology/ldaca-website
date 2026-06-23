@@ -11,9 +11,9 @@ author: '<Profile id="foley" />'
 <br>
 
 <figure> <img src="./ScreenshotofJurlakaWebsite.png" alt="Screenshot of Jurlaka Website" title="Screenshot of Jurlaka Website"> 
-<figcaption>
-Screenshot of Jurlaka Website (Karungkarni Art and Culture Centre)
-</figcaption>
+    <figcaption>
+    Screenshot of Jurlaka Website (Karungkarni Art and Culture Centre)
+    </figcaption>
 </figure>
 
 <br>
@@ -24,17 +24,19 @@ The collection of four original posters won the 2018 Northern Territory Land Res
 
 The poster data has been converted to RO-Crate format and published as static sites using LDaCA's ro-crate-html-lite tool.
 
-> **"We are proud to see our Elders Violet Wadrill, Biddy Wavehill and Topsy Dodd Ngarnjal on the main pages. These webpages will be increasingly important as we are losing our Kajijirri and Marlarluka (Old People). It means they can continue speaking to the ngumayijang (next generations)."** <br>
-—  <cite>Leah Leaman, Director of Karungkarni Art and granddaughter of Violet Wadrill </cite>
+<p class="pull-quote">
+    We are proud to see our Elders Violet Wadrill, Biddy Wavehill and Topsy Dodd Ngarnjal on the main pages. These webpages will be increasingly important as we are losing our Kajijirri and Marlarluka (Old People). It means they can continue speaking to the ngumayijang (next generations).
+    <cite>Leah Leaman, Director of Karungkarni Art and granddaughter of Violet Wadrill</cite>
+</p>
 
 <br> 
 
 ## About each site
 
 <figure> <img style="height: 400px;" src="https://jurlaka.ngumpin.org.au/files/images/Walukpin_SP.jpg" alt="Image of walukpin from Jurlaka website" title="Image of walukpin from Jurlaka website"  ref="Steve Parish">
-<figcaption>
-Image of walukpin from Jurlaka website
-</figcaption>
+    <figcaption>
+    Image of walukpin from Jurlaka website
+    </figcaption>
 </figure>
 
 
@@ -44,9 +46,9 @@ Image of walukpin from Jurlaka website
 <br>
 
 <figure> <img src="https://bush-tucker.ngumpin.org.au/files/images/06_Mintaarraj01_PS.jpg" alt="Image of mintarraj from the Bush Tucker website" title="Image of mintarraj from the Bush Tucker website"  ref="Penny Smith">
-<figcaption>
-Image of mintarraj from the Bush Tucker website
-</figcaption>
+    <figcaption>
+    Image of mintarraj from the Bush Tucker website
+    </figcaption>
 </figure>
 
 [**Bush Tucker**](https://bush-tucker.ngumpin.org.au/ro-crate-preview.html)  Audio on the Bush Tucker site is provided by [Biddy Wavehill Yamawurr](https://bush-tucker.ngumpin.org.au/ro-crate-preview_html/323f8bcf/e70117e6/4de021d4/d6f8c86a/index.html) and [Violet Wadrill](https://bush-tucker.ngumpin.org.au/ro-crate-preview_html/9f95270e/1aa235f7/c6bee84e/3a041567/index.html). It contains entries for around 21 listings of edible plants such as [kilipi](https://bush-tucker.ngumpin.org.au/ro-crate-preview_html/7b826367/a0993cba/2cf36ade/5f07254f/index.html) and [mintarraj](https://bush-tucker.ngumpin.org.au/ro-crate-preview_html/4f0db4a4/7bd7c8d4/f7f73b1f/5d407e44/index.html). Each entry includes images and short stories of how the plants are found and eaten. 
@@ -55,9 +57,9 @@ Image of mintarraj from the Bush Tucker website
 <br>
 
 <figure> <img src="https://bush-medicine.ngumpin.org.au/files/images/IMG_4833.jpg" alt="Image of yirrijkaji from the Bush Medicine website" title="Image of yirrijkaji from the Bush Medicine website"  ref="Penny Smith">
-<figcaption>
-Image of yirrijkaji from the Bush Medicine website
-</figcaption>
+    <figcaption>
+    Image of yirrijkaji from the Bush Medicine website
+    </figcaption>
 </figure>
 
 [**Bush Medicine**](https://bush-medicine.ngumpin.org.au/ro-crate-preview.html) Audio on the Bush Medicine site is provided by [Biddy Wavehill Yamawurr](https://bush-medicine.ngumpin.org.au/ro-crate-preview_html/323f8bcf/e70117e6/4de021d4/d6f8c86a/index.html), [Connie Ngarmeiye](https://bush-medicine.ngumpin.org.au/ro-crate-preview_html/0d6bd17c/c7989cb8/c35bd7e8/40a7d887/index.html), [Kitty Mintawurr](https://bush-medicine.ngumpin.org.au/ro-crate-preview_html/404bafdf/9e2fd5d1/557ec08d/dbc327e2/index.html), [Topsy Dodd Ngarnjal](https://bush-medicine.ngumpin.org.au/ro-crate-preview_html/ba4241a5/255385ba/13dbd82f/ccc74def/index.html) and [Violet Wadrill](https://bush-medicine.ngumpin.org.au/ro-crate-preview_html/9f95270e/1aa235f7/c6bee84e/3a041567/index.html). It contains entries for around 16 listings of medicinal plants such as [yirrijkaji](https://bush-medicine.ngumpin.org.au/ro-crate-preview_html/dba6a1dd/09abace8/888c07f4/e1878476/index.html) and [tirnung](https://bush-medicine.ngumpin.org.au/ro-crate-preview_html/40bb4cc7/2a3fe776/991fab65/935de52b/index.html). Each entry includes images and short stories of how the plants are used.
@@ -66,9 +68,9 @@ Image of yirrijkaji from the Bush Medicine website
 <br>
 
 <figure> <img src="https://yawu.ngumpin.org.au/files/images/kunpulu_DM.jpg" alt="Image of kunpulu from Yawu website" title="Image of kunpulu from Yawu website"  ref="David Morgan">
-<figcaption>
-Image of kunpulu from Yawu website
-</figcaption>
+    <figcaption>
+    Image of kunpulu from Yawu website
+    </figcaption>
 </figure>
 
 [**Yawu**](https://yawu.ngumpin.org.au/ro-crate-preview.html) Audio on the Yawu site is provided by [Biddy Wavehill Yamawurr](https://yawu.ngumpin.org.au/ro-crate-preview_html/323f8bcf/e70117e6/4de021d4/d6f8c86a/index.html), [Jimmy Manngayarri](https://yawu.ngumpin.org.au/ro-crate-preview_html/0f50f024/be5863c2/b05cbde6/3f35215f/index.html), [Topsy Dodd Ngarnjal](https://yawu.ngumpin.org.au/ro-crate-preview_html/ba4241a5/255385ba/13dbd82f/ccc74def/index.html) and [Violet Wadrill](https://yawu.ngumpin.org.au/ro-crate-preview_html/9f95270e/1aa235f7/c6bee84e/3a041567/index.html). It contains entries for around 17 listings of fish including [kunpulu](https://yawu.ngumpin.org.au/ro-crate-preview_html/a064110d/b14a70e4/6b3e5dfc/82993013/index.html) and [mipirri](https://yawu.ngumpin.org.au/ro-crate-preview_html/1222397c/55f4bf1a/d33d46b2/305ff449/index.html). Each entry includes images and short stories.

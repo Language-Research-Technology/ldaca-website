@@ -10,7 +10,7 @@ image: "/resources/posts/team-member-tip-chenoa-pettrup/Chenoa-photo.png"
 
 <br>
 
->*As part of a regular feature in our quarterly newsletter, we asked LDaCA's Industry Engagement and Communications lead, Chenoa Pettrup, for a tip to pass on to readers. Read on to find out her tip for turning your data into useful visuals.*
+> *As part of a regular feature in our quarterly newsletter, we asked LDaCA's Industry Engagement and Communications lead, Chenoa Pettrup, for a tip to pass on to readers. Read on to find out her tip for turning your data into useful visuals.*
 
 <br>
 

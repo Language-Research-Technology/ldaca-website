@@ -10,7 +10,7 @@ image: "/resources/posts/team-member-tip-sam-hames/sam-hames-summer-school-2025.
 
 <br>
 
->*As part of a regular feature in our quarterly newsletter, we asked LDaCA's Research Analytics lead, Sam Hames, for a tip to pass on to readers. Read on to find out his tip about purpose and data reuse.*
+> *As part of a regular feature in our quarterly newsletter, we asked LDaCA's Research Analytics lead, Sam Hames, for a tip to pass on to readers. Read on to find out his tip about purpose and data reuse.*
 
 <br>
  

@@ -2,7 +2,7 @@
 title: "Interview with Jane Simpson"
 date: "2024-11-14T16:34:20+11:00"
 draft: false
-tags: ["Archiving", "Data management", "Long-term storage"]
+# tags: ["Archiving", "Data management", "Long-term storage"]
 description: "Jane Simpson, Professor Emerita at the Australian National University, discusses storing language data, obstacles to its long-term storage, her interest in making dictionaries accessible and how researchers at the end of their careers should manage data."
 layout: post
 type: interview
@@ -22,7 +22,7 @@ Since her retirement in 2022, Jane Simpson has been [Professor Emerita](https://
 
 <br>
 
-Our discussion with Jane was the first in a series of interviews we are conducting on the topic of long-term storage of language data. We asked Jane about current possibilities for storing language data, obstacles to its long-term storage, her interest in making dictionaries accessible and how researchers at the end of their careers should manage data. What follows is an edited version of Jane’s comments organised around the main themes of the discussion<sup><a name="back-1" >1</a>[](#fn-1)</sup>.
+Our discussion with Jane was the first in a series of interviews we are conducting on the topic of long-term storage of language data. We asked Jane about current possibilities for storing language data, obstacles to its long-term storage, her interest in making dictionaries accessible and how researchers at the end of their careers should manage data. What follows is an edited version of Jane’s comments organised around the main themes of the discussion<sup><a name="back-1"></a>[1](#fn-1)</sup>.
 
 <br>
 
@@ -162,6 +162,7 @@ We are very grateful to Jane for making the time to talk with us about these imp
 
 <br>
 
-<a name="fn-1">1</a> Teresa Chan, Bridey Lea, Rosanna Smith and Simon Musgrave collaborated in editing this material. [↩](#back-1)
+<!-- <a name="fn-1">1</a> Teresa Chan, Bridey Lea, Rosanna Smith and Simon Musgrave collaborated in editing this material. [↩](#back-1) -->
+<a id="fn-1">1</a> Footnote text <a href="#back-1">↩</a>
 
 <br>

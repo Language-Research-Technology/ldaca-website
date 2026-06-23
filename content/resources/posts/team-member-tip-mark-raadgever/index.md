@@ -2,7 +2,7 @@
 title: "Team member tip: Mastering metadata"
 date: 2025-04-27
 draft: false
-tags: ["Metadata"]
+# tags: ["Metadata"]
 description: "Data Migration Developer Mark Raadgever draws on his extensive experience with data migration to outline some important metadata principles. Consistency is key!"
 layout: post
 author: '<Profile id="raadgever" />'
@@ -11,7 +11,7 @@ image: "/resources/posts/team-member-tip-mark-raadgever/ro-crating_cropped.jpg"
 
 <br>
 
->*As part of a regular feature in our quarterly newsletter, we asked LDaCA Data Migration Developer Mark Raadgever for a tip to pass on to readers. Read on to find out Mark's tip for working with metadata.*
+> *As part of a regular feature in our quarterly newsletter, we asked LDaCA Data Migration Developer Mark Raadgever for a tip to pass on to readers. Read on to find out Mark's tip for working with metadata.*
 
 <br>
 
@@ -32,11 +32,11 @@ Because we are using <GlossaryLink display="RO Crates" id="ro-crate" /> in <Glos
 
 ### Metadata resources
 
->[LDaCA's approach to metadata](/resources/guides/metadata/)
+- [LDaCA's approach to metadata](/resources/guides/metadata/)
 
->[Open Language Archives Community (OLAC)](http://www.language-archives.org/)
+- [Open Language Archives Community (OLAC)](http://www.language-archives.org/)
 
->[Designing a metadata ecosystem for language research based on RO-Crate](/resources/posts/ldaca-metadata-ecosystem-eresearch-2022/)
+- [Designing a metadata ecosystem for language research based on RO-Crate](/resources/posts/ldaca-metadata-ecosystem-eresearch-2022/)
 
 <br>
 

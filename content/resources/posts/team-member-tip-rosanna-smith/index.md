@@ -8,7 +8,7 @@ layout: post
 author:  <Profile id="smith" />
 ---
 
->*As part of a regular feature in our quarterly newsletter, we asked LDaCA Language Technology Analyst, Rosanna Smith, for a tip to pass on to readers. Read on to find out her tips for using regular expressions to refine search queries.*
+> *As part of a regular feature in our quarterly newsletter, we asked LDaCA Language Technology Analyst, Rosanna Smith, for a tip to pass on to readers. Read on to find out her tips for using regular expressions to refine search queries.*
 
 When working with text data, we often need very specific searches to help us locate a particular subset of the data or to answer complex questions. However, in most cases, we are dealing with large amounts of text that can be difficult to navigate through, making finding occurrences of a particular search query even harder. Because of this, basic search functions don't always provide the level of detail needed in these queries.
 

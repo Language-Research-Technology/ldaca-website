@@ -168,7 +168,7 @@ A great example is my research in Central Vanuatu. I put some effort into creati
 
 <br>
 
->We are very grateful to Nick for making the time to talk with us about these important issues and we appreciate the insights he was able to provide, based on his experiences over his long and illustrious career.
+> We are very grateful to Nick for making the time to talk with us about these important issues and we appreciate the insights he was able to provide, based on his experiences over his long and illustrious career.
 
 ---
 

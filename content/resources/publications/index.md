@@ -62,6 +62,7 @@ Sefton, Peter, Moises Sacal Bonequi, Simon Musgrave & Jenny Fewster. 2023. A CAR
 ### 2022
 
 Smith, River Tae, Louisa Willoughby & Trevor Johnston. 2022. Integrating Auslan Resources into the Language Data Commons of Australia. In _Proceedings of the LREC2022 10th Workshop on the Representation and Processing of Sign Languages: Multilingual Sign Language Resources_, 181–186. Marseille, France: European Language Resources Association. [https://aclanthology.org/2022.signlang-1.28](https://aclanthology.org/2022.signlang-1.28).
+
 <br />
 
 ## Other publications

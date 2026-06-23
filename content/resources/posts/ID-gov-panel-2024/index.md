@@ -2,7 +2,7 @@
 title: "Indigenous data governance: A discussion"
 date: 2025-01-29T16:34:20+11:00
 draft: false
-tags: ["Governance, rights & access", "Indigenous data"]
+# tags: ["Governance, rights & access", "Indigenous data"]
 description: "Read a summary of our learnings from the LDaCA-hosted Indigenous Data Governance panel discussion, which brought together three speakers — Lesley Acres (UQ Library), Dr Rose Barrowcliffe (Macquarie University and LDaCA), and Robert McLellan (UQ and LDaCA)."
 layout: post
 image: "/resources/posts/ID-gov-panel-2024/DSC_5642-Enhanced-NR-cropped.jpg"
@@ -10,8 +10,6 @@ author: '<Profile id="lea" />'
 ---
 
 ## 30 September 2024
-
-<br>
 
 <figure>
   <img src="./DSC_5642-Enhanced-NR-cropped.jpg" alt="ID-Gov panellists and audience" title="Panellists and audience" />
@@ -80,6 +78,7 @@ One of the key steps that Robert identified for collecting institutions beginnin
 - <GlossaryLink display="Data stewards" id="data-steward" /> are those who process data in different ways.
 
 <br>
+
 Robert commented that:
 
 <ul> <i>When we talk about the archives, you've got, in many instances, a government who is asserting that it is all three of these things.</i> (RM)</ul>
@@ -111,6 +110,7 @@ Lesley Acres's (Figure 4) work on the _[Elevating and Respecting Aboriginal and 
 - Caroline Kelly Papers (UQFL489).
 
 <br>
+
 The process uncovered gaps in the library's metadata and was a means of:
 
 <ul> <i>Giving Aboriginal and Torres Strait Islander people control over their own knowledges... Those four collections had never been audited. Back then, there were three of us — three Aboriginal and Torres Strait Islander women — who were looking at that information, and when we started, the first one we looked at was Caroline Tennant Kelly's papers. By the time we finished auditing that collection, we found over 200 people listed in her <GlossaryLink display="fieldnotes" id="fieldnotes" />, 47 we recognised as contributors. That collection was so significant in that we met with <a href=https://www.link-upqld.org.au>LinkUp QLD</a>, and they now use that collection to help connect their clients to ancestors.</i> (LA) </ul>

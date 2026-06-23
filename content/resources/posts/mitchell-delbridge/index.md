@@ -110,7 +110,7 @@ Horvath, Barbara. 1985. *Variation in Australian English: the sociolects of Sydn
 
 <br>
 
-<a name="fn-1">1</a> Thanks to Teresa Chan and Simon Musgrave for their helpful comments. [↩](#back-1)
+Thanks to Teresa Chan and Simon Musgrave for their helpful comments.
 
 <br>
 

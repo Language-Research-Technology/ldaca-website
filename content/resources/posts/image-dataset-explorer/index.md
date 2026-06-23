@@ -78,6 +78,6 @@ Sam identified a further crossover for language research — the approaches take
 
 <br>
 
-<a name="fn-1">1</a> Thanks to Simon Musgrave and Teresa Chan for their helpful comments on this blog post. [↩](#back-1)
+Thanks to Simon Musgrave and Teresa Chan for their helpful comments on this blog post.
 
 <br>

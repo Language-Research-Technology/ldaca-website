@@ -42,11 +42,10 @@ Veronica's intention for *Arne ingkerreke apurtelhe-ileme* is that the fruits of
 
 Veronica's dedication to and passion for language and culture fills the project website, and it is certainly an achievement to celebrate. Do not miss the [Recollections](https://www.veronicadobson.au/recollections) page; this is a very special opportunity to hear about Veronica's life, from her birth at Arltunga and her attendance at the Catholic Mission school there, to the early days of her work with the Institute for Aboriginal Development ([IAD](https://iad.edu.au/)).
 
-<br>
-
->*"For me, what I have done has not been like work. I do what I do because I love my language and know how important it is – this is the knowledge I learned from my grandparents."*
->
->*—Veronica Dobson*
+<p class="pull-quote">
+    For me, what I have done has not been like work. I do what I do because I love my language and know how important it is – this is the knowledge I learned from my grandparents.
+    <cite>Veronica Dobson</cite>
+</p>
 
 <br>
 
