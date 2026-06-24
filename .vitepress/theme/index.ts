@@ -19,8 +19,13 @@ import ThreeTiles from './components/ThreeTiles.vue'
 import TwoTiles from './components/TwoTiles.vue'
 import Collaborators from './components/Collaborators.vue'
 import CollectionsGrid from './components/CollectionsGrid.vue'
-import './style.css'
+import People from './components/People.vue'
+import DocTiles from './components/DocTiles.vue'
+import VerticalTabs from './components/VerticalTabs.vue'
+import VerticalTabsBanner from './components/VerticalTabsBanner.vue'
+import Contact from './components/Contact.vue'
 import DefaultTheme from 'vitepress/theme'
+import './style.css'
 import '@fontsource/work-sans/400.css'
 import '@fontsource/work-sans/500.css'
 import '@fontsource/work-sans/600.css'
@@ -46,6 +51,11 @@ export default {
     app.component('TwoTiles', TwoTiles)
     app.component('Collaborators', Collaborators)
     app.component('CollectionsGrid', CollectionsGrid)
+    app.component('People', People)
+    app.component('DocTiles', DocTiles)
+    app.component('VerticalTabs', VerticalTabs)
+    app.component('VerticalTabsBanner', VerticalTabsBanner)
+    app.component('Contact', Contact)
   },
   Layout: Layout,
 } satisfies Theme

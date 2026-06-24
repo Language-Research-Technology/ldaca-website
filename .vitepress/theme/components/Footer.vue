@@ -101,7 +101,7 @@ footer {
                 class="text-sm text-[#79A38D] font-bold hover:text-gray-600 transition-colors">organisation</a>, our <a
                 href="/about/people"
                 class="text-sm text-[#79A38D] font-bold hover:text-gray-600 transition-colors">people</a> and our <a
-                href="/about/policies-principles"
+                href="/about/documents-policies"
                 class="text-sm text-[#79A38D] font-bold hover:text-gray-600 transition-colors">policies and
                 principles</a>.
             </p>

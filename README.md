@@ -162,6 +162,17 @@ For setting thumbnail/preview images to be used on other components and pages, a
 
 `image: "/resources/posts/example-blog/blog-image.png"`
 
+## Pull Quotes
+
+Use the following syntax to create pull quotes in an `.md` file:
+
+```
+<p class="pull-quote">
+    Quotation goes here. This will be styled as a pull quote.
+    <cite>Citation information</cite>
+</p>
+```
+
 ## Referencing Glossary Items
 
 To reference glossary terms, use the format:
@@ -196,11 +207,13 @@ All components are stored in `/theme/components`. To use components, add `<Compo
 | BlogPostsList.vue | N/A |
 | BlogPostsPage.vue | N/A |
 | Carousel.vue | `heading`: text<br>`description`: text<br>`items`: array **OR** `type`: presentation/interview<br>`image`: filepath (default: '/images/Petroglyph_Pattern.svg')<br>`backgroundColor`: colour<br>`opacity`: number (default: 100)<br>`shade`: light (default: dark)<br>`buttonText`: text (default: 'View more')<br>`viewAll`: link<br>`yearFilter`: boolean (default: false)<br>`tileView`: boolean (default: false)<br>`threeTiles`: boolean (default: false) |
-| CarouselLarge.vue | `heading`: text<br>`description`: text<br>`items`: array<br>`image`: filepath (default: '/images/Petroglyph_Pattern.svg')<br>`backgroundColor`: colour (default: '#f3f0e8')<br>`opacity`: number (default: 100)<br>`buttonText`: text (default: 'Try it out') |
+| CarouselLarge.vue | `heading`: text<br>`description`: text<br>`items`: array<br>`image`: filepath (default: '/images/Petroglyph_Pattern.svg')<br>`backgroundColor`: colour (default: '#f3f0e8')<br>`opacity`: number (default: 100)<br>`buttonText`: text (default: 'Try it out')<br>`tileView`: boolean (default: false) |
 | Collaborators.vue | `heading`: text<br>`description`: text<br>`items`: array<br>`backgroundColor`: colour<br>`opacity`: number (default: 100) |
 | CollectionsGrid.vue | `heading`: text<br>`description`: text<br>`backgroundColor`: colour (default: '#79a38d')<br>`backgroundImage`: filepath (default: '/images/Collections_BG.png')<br>`opacity`: number (default: 100)<br>`buttonText`: text (default: 'Learn more') |
+| Contact.vue | `image`: filepath |
 | ContactBox.vue | `heading`: text<br>`description`: text<br>`buttonText`: text<br>`buttonLink`: link |
 | DataPortalBox.vue | `heading`: text<br>`description`: text<br>`buttonText`: text<br>`buttonLink`: link |
+| DocTiles.vue | `heading`: text<br>`items`: array<br>`image`: filepath (default: '/images/Petroglyph_Pattern.svg')<br>`title`: text<br>`link`: link<br>`description`: text |
 | Features.vue | N/A |
 | FeaturesBanner.vue | N/A |
 | Footer.vue | N/A |
@@ -209,10 +222,10 @@ All components are stored in `/theme/components`. To use components, add `<Compo
 | GuideCarousel.vue | `heading`: text<br>`description`: text<br>`items`: array<br>`image`: filepath (default: '/images/Petroglyph_Pattern.svg')<br>`backgroundColor`: colour<br>`opacity`: number (default: 100)<br>`viewAll`: link |
 | Header.vue | N/A |
 | HomeHero.vue | |
-| HowWeCanHelp.vue | `items`: array |
 | LatestBlog.vue | N/A |
 | Menu.vue | N/A |
 | PartnerLogos.vue | `logos`: array |
+| People.vue | `heading`: text<br>`description`: text<br>`items`: array<br>`image`: filepath (default: '/images/Petroglyph_Pattern.svg')<br>`name`: text<br>`affiliation`: text<br>`link`: link |
 | Profile.vue | `id`: string |
 | Sidebar.vue | N/A |
 | SimpleHero.vue | `title`: text<br>`description`: text<br>`backgroundImage`: filepath (default: '/images/GreenBackground.png')<br>`breadcrumb`: text |
@@ -220,6 +233,8 @@ All components are stored in `/theme/components`. To use components, add `<Compo
 | TagsList.vue | N/A |
 | ThreeTiles.vue | `heading`: text`items`: array<br>`image`: filepath (default: '/images/Petroglyph_Pattern.svg')<br>`backgroundColor`: colour<br>`opacity`: number (default: 100)<br>`shade`: light (default: dark) |
 | TwoTiles.vue | `heading`: text`items`: array **OR** `type`: presentation<br>`image`: filepath (default: '/images/Petroglyph_Pattern.svg')<br>`buttonText`: text (default: 'View all')<br>`viewAll`: link |
+| VerticalTabs.vue | `heading`: text<br>`description`: text<br>`background`: colour<br>`items`: array |
+| VerticalTabsBanner.vue | `heading`: text<br>`description`: text<br>`background`: colour<br>`items`: array<br>`buttonText`: text (default: 'Find out more') |
 
 
 - How to use Tailwind /CSS in place

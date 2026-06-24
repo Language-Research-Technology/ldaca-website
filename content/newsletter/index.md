@@ -15,13 +15,13 @@ description: "Catch up with LDaCA by reading our past newsletters."
 
 <br>
 
-<details class="mt-6 rounded-lg border border-[#d6d2c4] bg-white p-4">
+<details>
   <summary class="text-[#79A38D] font-bold text-xl">
     Previous Issues
   </summary>
 
   <div class="mt-4 space-y-3">
-    <details class="rounded-md border border-gray-200 p-3">
+    <details>
       <summary class="cursor-pointer font-semibold text-[#383938]">2026</summary>
       <div class="mt-3">
         <p><a class="font-bold text-[#383938] hover:underline" href="https://us13.campaign-archive.com/?u=ef8667be63aefb1e35062a797&id=742b3862ba" target="_blank" rel="noopener noreferrer">Quarter 1 2026</a></p>
@@ -30,7 +30,7 @@ description: "Catch up with LDaCA by reading our past newsletters."
     </div>
   
   <div class="mt-4 space-y-3">
-    <details class="rounded-md border border-gray-200 p-3">
+    <details>
       <summary class="cursor-pointer font-semibold text-[#383938]">2025</summary>
       <div class="mt-3">
         <p><a class="font-bold text-[#383938] hover:underline" href="https://us13.campaign-archive.com/?u=ef8667be63aefb1e35062a797&id=d694ed28f5" target="_blank" rel="noopener noreferrer">Quarter 4 2025</a></p>
@@ -42,7 +42,7 @@ description: "Catch up with LDaCA by reading our past newsletters."
     </div>
 
 <div class="mt-4 space-y-3">
-    <details class="rounded-md border border-gray-200 p-3">
+    <details>
       <summary class="cursor-pointer font-semibold text-[#383938]">2024</summary>
       <div class="mt-3">
         <p><a class="font-bold text-[#383938] hover:underline" href="https://us13.campaign-archive.com/?u=ef8667be63aefb1e35062a797&id=fc8d50f174" target="_blank" rel="noopener noreferrer">Quarter 4 2024</a></p>
@@ -54,7 +54,7 @@ description: "Catch up with LDaCA by reading our past newsletters."
     </div>
 
   <div class="mt-4 space-y-3">
-    <details class="rounded-md border border-gray-200 p-3">
+    <details>
       <summary class="cursor-pointer font-semibold text-[#383938]">2023</summary>
       <div class="mt-3">
         <p><a class="font-bold text-[#383938] hover:underline" href="https://us13.campaign-archive.com/?u=ef8667be63aefb1e35062a797&id=87db23a75b" target="_blank" rel="noopener noreferrer">Quarter 4 2023</a></p>

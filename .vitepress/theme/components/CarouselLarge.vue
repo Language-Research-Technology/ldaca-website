@@ -38,6 +38,10 @@ const props = defineProps({
     buttonText: {
         type: String,
         default: 'Try it out'
+    },
+    tileView: {
+        type: Boolean,
+        default: false
     }
 })
 
@@ -194,7 +198,14 @@ const desktopPanelMinHeight = computed(() => {
     return Math.min(desktopCarouselHeight.value, 400)
 })
 
-const showArrows = computed(() => total.value > visibleCount.value)
+const desktopItems = computed(() => {
+    return props.tileView ? normalizedItems.value : visibleItems.value
+})
+
+const showArrows = computed(() =>
+    !props.tileView && total.value > visibleCount.value
+)
+
 
 const prev = () => {
     if (total.value === 0) return
@@ -241,28 +252,34 @@ const isExternal = (url) => {
                 </button>
 
                 <!-- GRID PANELS -->
-                <div class="grid grid-cols-1 gap-6"
+                <div class="grid grid-cols-1 gap-10"
                     :style="desktopPanelMinHeight ? { minHeight: `${desktopPanelMinHeight}px` } : {}">
-                    <div v-for="item in visibleItems" :key="item.title"
-                        class="grid grid-cols-1 lg:grid-cols-2 overflow-hidden">
+                    <div v-for="(item, index) in desktopItems" :key="item.title" class="grid gap-10 overflow-hidden"
+                        :class="props.tileView && index % 2 === 1
+                            ? 'grid-cols-1 lg:grid-cols-2'
+                            : 'grid-cols-1 lg:grid-cols-2'
+                            ">
 
                         <!-- IMAGE LEFT -->
                         <a :href="item.link" :target="isExternal(item.link) ? '_blank' : '_self'"
-                            :rel="isExternal(item.link) ? 'noopener noreferrer' : null" class="block h-full">
-                            <img :src="item.image" :alt="item.title" class="w-full h-full object-contain object-bottom" />
+                            :rel="isExternal(item.link) ? 'noopener noreferrer' : null" class="block h-full"
+                            :class="props.tileView && index % 2 === 1 ? 'lg:order-2' : 'lg:order-1'">
+                            <img :src="item.image" :alt="item.title"
+                                class="w-full h-full object-contain object-center" />
                         </a>
 
                         <!-- CONTENT RIGHT -->
-                        <div class="flex flex-col h-full pl-10">
+                        <div class="flex flex-col h-full"
+                            :class="props.tileView && index % 2 === 1 ? 'lg:order-1' : 'lg:order-2'">
                             <!-- Title & description centered vertically -->
                             <div class="flex-1 flex flex-col justify-center">
                                 <h2 class="mb-3">{{ item.title }}</h2>
-                                <p class="leading-relaxed text-xl whitespace-pre-line">{{ item.description }}
+                                <p class="leading-relaxed text-xl whitespace-pre-line" v-html="item.description">
                                 </p>
                             </div>
 
                             <!-- Buttons at bottom -->
-                            <div class="flex flex-wrap gap-4 mt-auto">
+                            <div v-if="item.link" class="flex flex-wrap gap-4 mt-auto pt-6">
                                 <a :href="item.link" :target="isExternal(item.link) ? '_blank' : '_self'"
                                     :rel="isExternal(item.link) ? 'noopener noreferrer' : null"
                                     :style="{ backgroundColor: buttonColors.bg, color: buttonColors.text }"
@@ -289,10 +306,11 @@ const isExternal = (url) => {
                             data-carousel-large-measure-item class="grid grid-cols-1 lg:grid-cols-2 overflow-hidden">
 
                             <!-- IMAGE LEFT -->
-                            <img :src="item.image" :alt="item.title" class="w-full h-full object-contain object-bottom" />
+                            <img :src="item.image" :alt="item.title"
+                                class="w-full h-full object-contain object-center" />
 
                             <!-- CONTENT RIGHT -->
-                            <div class="flex flex-col h-full pl-10">
+                            <div class="flex flex-col h-full">
                                 <div class="flex-1 flex flex-col justify-center">
                                     <h2 class="mb-3">{{ item.title }}</h2>
                                     <p class="leading-relaxed text-xl whitespace-pre-line">{{ item.description
@@ -343,11 +361,11 @@ const isExternal = (url) => {
                     <!-- CONTENT BOTTOM -->
                     <div class="flex flex-col px-5 py-5 gap-4 lg:w-1/2 lg:px-6 lg:py-6">
                         <h3 class="text-2xl font-semibold">{{ item.title }}</h3>
-                        <p class="leading-relaxed flex-1 whitespace-pre-line">{{ item.description }}</p>
+                        <p class="leading-relaxed flex-1 whitespace-pre-line" v-html="item.description"></p>
 
                         <!-- Buttons like desktop -->
                         <div class="flex flex-wrap gap-4 mt-auto">
-                            <a :href="item.link" :target="isExternal(item.link) ? '_blank' : '_self'"
+                            <a v-if="item.link" :href="item.link" :target="isExternal(item.link) ? '_blank' : '_self'"
                                 :rel="isExternal(item.link) ? 'noopener noreferrer' : null"
                                 :style="{ backgroundColor: buttonColors.bg, color: buttonColors.text }"
                                 class="inline-flex items-center justify-center px-6 py-4 text-xl font-bold rounded-lg transition-colors hover:opacity-80">

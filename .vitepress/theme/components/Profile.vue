@@ -100,17 +100,6 @@ const profile = computed<ProfileData | null>(() => {
   display: inline-block;
 }
 
-.profile-link {
-  color: var(--vp-c-brand);
-  text-decoration: underline;
-  cursor: pointer;
-  transition: color 0.2s ease;
-}
-
-.profile-link:hover {
-  color: var(--vp-c-brand-dark);
-}
-
 .profile-notfound {
   color: var(--vp-c-text-2);
 }

@@ -91,10 +91,10 @@ function parseGlossaryContent(content: string) {
       <nav class="flex flex-wrap gap-1" aria-label="Glossary index">
         <template v-for="letter in lettersList" :key="letter">
           <a v-if="letterToId[letter]" href="#" @click.prevent="scrollToLetter(letter)"
-            class="inline-block px-2 py-1 text-sm rounded border border-transparent hover:border-primary hover:text-primary">
+            class="inline-block px-2 py-1 text-lg hover:text-primary">
             {{ letter }}
           </a>
-          <span v-else class="inline-block px-2 py-1 text-sm text-muted-foreground cursor-not-allowed select-none">{{
+          <span v-else class="inline-block px-2 py-1 text-lg text-muted-foreground cursor-not-allowed select-none">{{
             letter }}</span>
         </template>
       </nav>
@@ -146,11 +146,9 @@ function parseGlossaryContent(content: string) {
 }
 
 .glossary-term {
-  font-size: 1rem;
   font-weight: 600;
-  margin: 0 0 0.5rem 0;
-  color: var(--vp-c-brand);
   scroll-margin-top: calc(var(--vp-nav-height) + 16px);
+  line-height: 1.6;
 }
 
 .glossary-definition {

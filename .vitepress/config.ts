@@ -305,8 +305,8 @@ export default defineConfig({
         link: '/training-events/events',
         // subtitle: 'Training materials, tutorials, and upcoming and past events',
         // items: [
-          // { text: 'Training', link: '/training-events/training', image: '/images/subheadings/Training.jpg' },
-          // { text: 'Events', link: '/training-events/events', image: 'https://placehold.co/150x100' }
+        // { text: 'Training', link: '/training-events/training', image: '/images/subheadings/Training.jpg' },
+        // { text: 'Events', link: '/training-events/events', image: 'https://placehold.co/150x100' }
         // ]
       } as any,
       {
@@ -391,7 +391,7 @@ export default defineConfig({
         items: [
           { text: 'Organisation', link: '/about/organisation', image: '/images/subheadings/Organisation.png' },
           { text: 'People', link: '/about/people', image: '/images/subheadings/People.jpg' },
-          { text: 'Policies & Principles', link: '/about/policies-principles', image: '/images/subheadings/Policies.jpeg' }
+          { text: 'Documents & Policies', link: '/about/documents-policies', image: '/images/subheadings/Policies.jpeg' }
         ]
       } as any,
       {
@@ -421,7 +421,8 @@ export default defineConfig({
       'resources/guides/**/*.md',
       'resources/posts/**/*.md',
       'projects-case-studies/**/*.md',
-      'training-events/events/**/*.md'
+      'training-events/events/**/*.md',
+      'about/**/*.md'
     ]
     const isExternal = (v = '') =>
       /^(https?:)?\/\//i.test(v) || v.startsWith('data:')
@@ -490,12 +491,15 @@ export default defineConfig({
       }
     }
 
+    // Walk content subdirectories where images are commonly used and copy any found images to the dist folder, ensuring they can be accessed with absolute paths in the built site.
     const imageRoots = [
       'training-events/events',
       'resources/guides',
       'resources/posts',
       'resources/publications',
-      'projects-case-studies'
+      'projects-case-studies',
+      'about',
+      'about/steering-committee',
     ]
 
     for (const relRoot of imageRoots) {
