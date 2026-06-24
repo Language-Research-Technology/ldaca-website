@@ -500,6 +500,7 @@ export default defineConfig({
       'projects-case-studies',
       'about',
       'about/steering-committee',
+      'contact',
     ]
 
     for (const relRoot of imageRoots) {
