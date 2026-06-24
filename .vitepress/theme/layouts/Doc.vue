@@ -64,10 +64,6 @@ const authorSegments = computed(() => {
   <div class="VPDoc">
     <div class="container">
       <article class="vp-doc">
-        <!-- Auto-display title from front matter -->
-        <!-- <h1 v-if="page.frontmatter?.title" class="text-2xl font-bold mb-2 mt-2">
-          {{ page.frontmatter.title }}
-        </h1> -->
 
         <!-- Auto-display author from front matter -->
         <div v-if="page.frontmatter?.author" class="mb-4 text-gray-600">
@@ -81,7 +77,7 @@ const authorSegments = computed(() => {
         </div>
 
         <!-- Tags -->
-        <div v-if="tags.length > 0" class="mb-6 pb-6 border-b border-gray-300">
+        <div v-if="tags.length > 0" class="mb-6 pb-6 border-b-4 border-[#79a38d] border-dotted">
           <div class="flex flex-wrap gap-2">
             <a v-for="tag in tagLinks" :key="tag.label" :href="tag.url"
               class="inline-flex px-3 py-1 bg-gray-100 text-blue-600 rounded text-sm hover:bg-gray-200">
