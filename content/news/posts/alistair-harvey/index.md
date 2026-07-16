@@ -2,7 +2,7 @@
 title: "Interview with Al Harvey"
 date: 2026-07-14
 draft: false
-description: "Inside the GDRF2026: Teresa Chan on her experience so far"
+description: "Meet our newewst Industry Fellow, Al Harvey, and learn about his work with community archives."
 ---
 <br>
 
@@ -72,9 +72,9 @@ At the same time, the intersection of Indigenous and Western data governance str
 <br>
 
 ## What does Indigenous data governance look like in your project?
-In my project, Indigenous data governance means recognising that Saibai language and cultural materials remain connected to Saibai people and cultural authority, regardless of where those materials are physically held.
+What is often described in Western contexts as Indigenous Data Governance is understood by Saibaians through the principle **“Saibailgaw za ngaru Saibailgaw za”** - *Saibai things belong to Saibai people*.This phrase encapsulates the enduring relationship between Saibai people and all that is of Saibai, including language, knowledge, stories, cultural materials, land, seas, celestial bodies, winds, and archival records, regardless of where those 'things' are physically held.
 
-Decisions about description, access, visibility and use are informed through engagement with Elders, knowledge holders, families and community representatives. Different materials require different levels of access. Some may be suitable for broad community use, while others may require restrictions based on family, clan, gender, ceremonial or other cultural considerations. In practice, this includes consent processes, culturally meaningful metadata, attribution, community review and the use of Saibai language categories wherever possible.
+Different things carry different cultural responsibilities. Some may be appropriate for broad access, while others may require restrictions informed by family, clan, gender, ceremonial, spiritual, or other cultural obligations. In practice, this includes culturally appropriate consent, attribution, metadata, community review, and the use of Saibai language categories and knowledge systems wherever possible. Rather than imposing an external governance framework, the guiding principle for all things of Saibai remains **Saibailgaw za ngaru Saibailgaw za**.
 
 <br>
 
