@@ -7,7 +7,7 @@ description: "An update on the future plans for the Precarious Oral Histories pr
 
 <br>
 
-{{< image Src="casettestack.jpeg" Alt="A stack of classic cassette tapes, showcasing retro music media" Desc="A stack of classic cassette tapes, showcasing retro music media" Title="A stack of classic cassette tapes, showcasing retro music media" Ref="Dmitry Demidov for Pexels" Height="400">}}
+{{< image Src="casettestack.jpeg" Desc="A stack of classic cassette tapes" Title="A stack of classic cassette tapes, showcasing retro music media" Ref="Dmitry Demidov for Pexels" Height="400">}}
 
 <br>
 
