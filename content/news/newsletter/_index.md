@@ -9,7 +9,7 @@ description: "Catch up with LDaCA by reading our past newsletters."
 
 An archive of our previous newsletters.
 
-### [Latest Issue](https://mailchi.mp/5b61a025a642/ldaca-newsletter-quarter-2-6752129)
+### [Latest Issue](https://us13.campaign-archive.com/?u=ef8667be63aefb1e35062a797&id=8087f881bb)
 
 {{<raw>}}
 
@@ -17,6 +17,7 @@ An archive of our previous newsletters.
 <summary><b><font color="#79A38D">Previous Issues</font></b></summary>
 <details>
 <summary>2026</summary>
+<p><b><a href = "https://mailchi.mp/5b61a025a642/ldaca-newsletter-quarter-2-6752129" target = "_blank">Quarter 2 2026</a></b></p>
 <p><b><a href = "https://mailchi.mp/d7b698fe4c21/ldaca-newsletter-2025-highlights-whats-next-in-2026?" target = "_blank">Quarter 1 2026</a></b></p>
 </details>
 

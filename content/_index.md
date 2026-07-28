@@ -25,9 +25,9 @@
         <h1>Updates</h1>
         <ul>
             <h3><li>Now available: WordFlow, the new LDaCA text analysis tool. <a href = "https://github.com/Australian-Text-Analytics-Platform/LDaCa_Text_Analytics_Tools/#latest" target="_blank">Check it out ➤</a></li>
-            <h3><li>ResBaz Queensland workshops confirmed <a href = "./news/events/" target="_blank">Read more ➤</a></li>
-            <h3><li>Latest blog post: Inside the GDRF2026 <a href = "./news/posts/gdrf-interview-teresa-april2026/" target="_blank">Read more ➤</a></li></h3>
-            <h3><li>Check out our 'What is a .... anyway?' video explainer series <a href = "https://www.youtube.com/watch?v=fE3mo3kcaoI&list=PLpaCkX03fhibjx71L1dMNHLTEioXOECZ4" target="_blank">See more ➤</a></li></h3>
+            <h3><li>Sustainable Data for Humanities Researchers workshop announced <a href = "./news/events/" target="_blank">Read more ➤</a></li>
+            <h3><li>Latest blog post: LDaCA at the Zenadth Kes Language Symposium 2026 <a href = "./news/posts/zk-symposium/" target="_blank">Read more ➤</a></li></h3>
+            <h3><li>Check out Senior Program Manager Robert McLellan's keynote at the Indigenous Data Governance Masterclass <a href = "https://www.youtube.com/watch?v=NvOftm83G_0" target="_blank">See more ➤</a></li></h3>
         </ul>
       </div>  
     </div>

@@ -11,7 +11,7 @@ Language Data Commons of Australia (LDaCA) team members Alistair Harvey and Ben 
 
 <br>
 
-{{<image Src="al-ben-ZK.png" Alt="Photo of two men standing in front of a conference banner" Desc="Ben Foley and Alistair Harvey at the Zenadth Kes Symposium" Title="Ben Foley and Alistair Harvey at the Zenadth Kes Symposium">}}
+{{<image Src="al-ben-ZK.png" Alt="Photo of two men standing in front of a conference banner" Desc="Ben Foley and Alistair Harvey at the Zenadth Kes Symposium" Title="Ben Foley and Alistair Harvey at the Zenadth Kes Symposium" Ref= "Supplied">}}
 
 <br>
 
@@ -23,6 +23,6 @@ Meanwhile, Alistair’s work continues in curating the Saibai archive, with plan
 
 <br>
 
-{{<image Src="saibai-site.png" Alt="A pre-release screenshot of the Saibai archive website" Desc="A pre-release screenshot of the Saibai archive website" Title="A pre-release screenshot of the Saibai archive website" >}}
+{{<image Src="saibai-site.png" Alt="A pre-release screenshot of the Saibai archive website" Desc="A pre-release screenshot of the Saibai archive website" Title="A pre-release screenshot of the Saibai archive website" Ref="Alistair Harvey">}}
 
 <br>
