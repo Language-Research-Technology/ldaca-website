@@ -13,71 +13,20 @@ aliases:
 [Previous Events](#previous-events)&emsp;&emsp;
 [Previous Webinars](#webinars) &emsp;&emsp;
 
-### ARDC Indigenous Data Governance Masterclass 2026
+### Sustainable Data for Humanities Researchers
 
-The free ARDC Indigenous Data Governance Masterclass will equip participants with the knowledge and tools to ethically manage Indigenous data, respecting the cultural protocols and sovereignty of Indigenous communities. It will build the capacity of researchers to engage with Indigenous data, fostering a culturally sensitive and informed approach to data-driven projects.
+ Research data is valuable - we spend time (and often money) in collecting it, and it is fundamental to creating knowledge. Because of this value, we have a responsibility to ensure that data will continue to be useful, minimally to ourselves but ideally also to others.
 
-The Masterclass introduces Indigenous Data Governance principles. It then examines in-depth curating and caring for community collections containing Indigenous data. Indigenous data custodians will have opportunities to discuss the data they manage with each other. The two days will provide guidance on applying the Indigenous Data Matrix.
+This workshop will introduce participants to basic ideas of data management which are oriented to making data sustainable in line with two important sets of principles, [FAIR](https://www.go-fair.org/fair-principles/) and [CARE](https://ardc.edu.au/resource/the-care-principles/)
 
-**When**: 18 and 19 June 2026
+**When**: Monday 17 August 2026, 9 am-4:30 pm
 
-**Where**: Union House, [Adelaide University](https://adelaide.edu.au/)
+**Where**: Room M01+M02, Mezzanine Level, Melbourne Connect
 
-[Details](https://ardc.edu.au/event/indigenous-data-governance-masterclass-2026/)
+**Leaders**: Dr Simon Musgrave, River Smith and Rosanna Smith
 
-ARDC have seen incredible demand for this Masterclass, and both the event and the waitlist are now at full capacity.  They are unable to accept further registrations or individual requests for tickets.
+[Details](https://rduevents.unimelb.edu.au/event/sustainable-data-for-humanities-researchers)
 
-<br>
-
-### Research Bazaar Queensland 2026
-
-LDaCA is presenting four workshops as part of [ResBaz](https://resbaz.github.io/resbaz2026qld/), details below.
-
-**When**: 23 – 25 June 2026
-
-**Where**: QUT Kelvin Grove Campus
-
-**[Registration](https://resbaz.github.io/resbaz2026qld/registration/)**
-
-> **How to wrestle a billion words (of Hansard)**
-> 
-> This workshop aims to show you how you can make the most of the Proceedings of Australian Federal Parliament (1901-present) in your research. We will start by showing you some of how Parliament works through their official transcripts and explore their search interface. Then we will show you how you can take things to the next level with computational tools to analyse a.) the passage of a specific piece of legislation and b.) explore how particular language is used since Australia's Federation.
-> 
-> **Leaders**: Sam Hames, Betsy Alpert and Eve Ansell
-> 
-> **When**: June 23, 11:00am – 12:30pm 
-
-> **From a mess to a map**
-> 
-> This workshop will look at the problems which might be encountered turning messy text data into the very structured data needed for many kinds of computational analysis. As an example, we will start with data collected in an online survey about Australian slang and end with maps showing the comparative distribution of some slang terms across the country. We will look at parts of the workflow where computational approaches are useful (e.g. normalising typography and parsing complex responses), but will also emphasise the decisions which remain the responsibility of the researcher (e.g. categorising responses).
-> 
-> **Leaders**: Simon Musgrave and Sam Hames
-> 
-> **When**: June 24, 9:00am – 10:30am 
-
-> **Making the most of your qualitative transcripts with a little bit of computing**
-> 
-> Qualitative research projects sometimes get away from us and we find that we have more material than we know what to do with. This workshop aims to give you a pathway for navigating 'too much' with a little bit of computational assistance and *without* giving up on the core qualitative foundation of of your work.
-> 
-> We'll work through a case study and some demonstration tools to help you:
-> - Make the most of your transcripts by identifying consistency issues that will confuse a computer (and maybe your collaborators)
-> - Work through marking up some transcripts in a more consistent format
-> - Demonstrate some possibilities for computers to help you search and find things
-> -Demonstrate computational methods that might help you address the 'big picture' or what you might be missing, while still being able to close read your transcripts
-> 
-> **Leader**: Sam Hames
-> 
-> **When**: June 24, 11:00am – 12:30pm
-
-> **Introduction to computational text analytics**
-> 
->  Do you have more text than you know what to do with? Did you collect data including text for your project and now feel overwhelmed when you try to analyse? Is there too much? Are you doing the same thing over and over again and feeling like you're not using your time efficiently? Are you worried about missing the forest for the trees (or the trees for the forest)? If any of these apply to you (or you're just interested in learning more) this workshop is for you.
-> 
-> This workshop will introduce the fundamentals of computational text analysis using LADAL. We'll start with the key questions of why and where computational methods might be appropriate for your work before demonstrating a few key computational methods that are relevant for many researchers.
-> 
-> **Leader**: Sam Hames
-> 
-> **When**: June 25, 9:00am – 10:30am
 
 <br>
 
@@ -99,6 +48,62 @@ The {{< glossary_link display="RO-Crate" id="ro-crate" >}} community run a weekl
 
 <details>
 <summary><b><font color="#79A38D">2026</font></b></summary>
+<details>
+<summary>Research Bazaar Queensland 2026</summary>
+
+<p>LDaCA presented four workshops as part of <a href = https://resbaz.github.io/resbaz2026qld/' target = '_blank'>ResBaz</a>:</p>
+<ul>
+<li><b>How to wrestle a billion words (of Hansard)</b> <i>Sam Hames, Betsy Alpert and Eve Ansell</i></li>
+This workshop aimed to show you how you can make the most of the Proceedings of Australian Federal Parliament (1901-present) in your research. We started by showing you some of how Parliament works through their official transcripts and explore their search interface. Then it showed you how you can take things to the next level with computational tools to analyse a.) the passage of a specific piece of legislation and b.) explored how particular language is used since Australia's Federation.
+<br>
+<br>
+<li><b>From a mess to a map</b><i>Simon Musgrave and Sam Hames</i></li>
+This workshop looked at the problems which might be encountered turning messy text data into the very structured data needed for many kinds of computational analysis. As an example, it started with data collected in an online survey about Australian slang and ended with maps showing the comparative distribution of some slang terms across the country. It looked at parts of the workflow where computational approaches are useful (e.g. normalising typography and parsing complex responses), but also emphasised the decisions which remain the responsibility of the researcher (e.g. categorising responses).
+<br>
+<br>
+<li><b>Making the most of your qualitative transcripts with a little bit of computing</b><i>Sam Hames</i></li>
+Qualitative research projects sometimes get away from us and we find that we have more material than we know what to do with. This workshop aimed to give you a pathway for navigating 'too much' with a little bit of computational assistance and without giving up on the core qualitative foundation of of your work.
+
+It worked through a case study and some tool demonstrations to help you:
+<br>
+- Make the most of your transcripts by identifying consistency issues that will confuse a computer (and maybe your collaborators)
+<br>
+- Work through marking up some transcripts in a more consistent format
+<br>
+- Demonstrate some possibilities for computers to help you search and find things
+<br>
+- Demonstrate computational methods that might help you address the 'big picture' or what you might be missing, while still being able to close read your transcripts
+<br>
+<br>
+<li><b>Introduction to computational text analytics</b><i>Sam Hames</i></li>
+Do you have more text than you know what to do with? Did you collect data including text for your project and now feel overwhelmed when you try to analyse? Is there too much? Are you doing the same thing over and over again and feeling like you're not using your time efficiently? Are you worried about missing the forest for the trees (or the trees for the forest)?
+
+This workshop introduced the fundamentals of computational text analysis using LADAL. It started with the key questions of why and where computational methods might be appropriate for your work before demonstrating a few key computational methods that are relevant for many researchers.
+</ul>
+
+<p><b>When</b>: 23 – 25 June 2026</p>
+
+<p><b>Where</b>: QUT Kelvin Grove Campus</p>
+<br>
+</details>
+
+
+<details>
+<summary>ARDC Indigenous Data Governance Masterclass 2026</summary>
+
+<p>The free ARDC Indigenous Data Governance Masterclass equipped participants with the knowledge and tools to ethically manage Indigenous data, respecting the cultural protocols and sovereignty of Indigenous communities. It built the capacity of researchers to engage with Indigenous data, fostering a culturally sensitive and informed approach to data-driven projects.
+
+The Masterclass introduced Indigenous Data Governance principles. It then examined in-depth curating and caring for community collections containing Indigenous data. Indigenous data custodians had opportunities to discuss the data they manage with each other. The two days provided guidance on applying the Indigenous Data Matrix.
+
+<p><b>When</b>: 18 and 19 June 2026</p>
+
+<p><b>Where</b>: Union House, Adelaide University</p>
+
+<p><a href = https://ardc.edu.au/event/indigenous-data-governance-masterclass-2026/' target = '_blank'>Details</a></p>
+
+<p><b>Organisers</b>: <a href = 'https://ardc.edu.au/hass-and-indigenous-research-data-commons' target = '_blank'>ARDC HASS and Indigenous Research Data Commons</a>
+
+</details>
 
 <details>
 <summary>HASS and Indigenous Research Data Commons Summer School 2026</summary>
