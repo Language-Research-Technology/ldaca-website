@@ -11,7 +11,7 @@ Language Data Commons of Australia (LDaCA) team members Alistair Harvey and Ben 
 
 <br>
 
-{{<image Src="al-ben-ZK.png" Alt="Photo of two men standing in front of a conference banner" Desc="Alistair Harvey and Ben Foley at the Zenadth Kes Symposium" Title="Alistair Harvey and Ben Foley at the Zenadth Kes Symposium">}}
+{{<image Src="al-ben-ZK.png" Alt="Photo of two men standing in front of a conference banner" Desc="Ben Foley and Alistair Harvey at the Zenadth Kes Symposium" Title="Ben Foley and Alistair Harvey at the Zenadth Kes Symposium">}}
 
 <br>
 
