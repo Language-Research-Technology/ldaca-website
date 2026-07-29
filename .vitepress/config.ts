@@ -377,7 +377,7 @@ export default defineConfig({
         ]
       } as any,
       {
-        text: 'Projects & case Studies',
+        text: 'Projects & case studies',
         link: '/projects-case-studies',
         // subtitle: 'something something',
         // items: [
