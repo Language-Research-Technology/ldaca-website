@@ -11,19 +11,19 @@ title: "Guides"
   heading="CRATE-O"
   :items="[
       {
-        title: 'General Information',
+        title: 'General information',
         link: '/resources/guides/crate-o/general'
       },
       {
-        title: 'Basic Navigation',
+        title: 'Basic navigation',
         link: '/resources/guides/crate-o/basic-navigation'
       },
       {
-        title: 'RO-Crate Creation',
+        title: 'RO-Crate creation',
         link: '/resources/guides/crate-o/ro-crate-creation'
       },
       {
-        title: 'Convert Spreadsheet',
+        title: 'Convert spreadsheet',
         link: '/resources/guides/crate-o/convert-spreadsheet'
       }
     ]"/>
@@ -34,7 +34,7 @@ title: "Guides"
   heading="DATA PORTAL"
   :items="[
       {
-        title: 'Basic Navigation',
+        title: 'Basic navigation',
         link: '/resources/guides/portal/basic-navigation'
       },
       {
@@ -46,7 +46,7 @@ title: "Guides"
         link: '/resources/guides/portal/search'
       },
       {
-        title: 'Sort and Order',
+        title: 'Sort and order',
         link: '/resources/guides/portal/sort-and-order'
       },
       {
@@ -54,15 +54,15 @@ title: "Guides"
         link: '/resources/guides/portal/login'
       },
       {
-        title: 'Collection Access',
+        title: 'Collection access',
         link: '/resources/guides/portal/collection-access'
       },
       {
-        title: 'Download Data',
+        title: 'Download data',
         link: '/resources/guides/portal/download-data'
       },
       {
-        title: 'Cite Data',
+        title: 'Cite data',
         link: '/resources/guides/portal/cite-data'
       }
     ]"/>
@@ -73,19 +73,19 @@ title: "Guides"
   heading="WORKING WITH DATA"
   :items="[
       {
-        title: 'Guidance for Data Governance Decisions',
+        title: 'Guidance for data governance decisions',
         link: '/resources/guides/working-with-data/guidance-for-data-governance-decisions'
       },
       {
-        title: 'Data Onboarding Process',
+        title: 'Data onboarding process',
         link: '/resources/guides/working-with-data/data-onboarding-process'
       },
       {
-        title: 'Access Policy',
+        title: 'Access policy',
         link: '/resources/guides/working-with-data/access-policy'
       },
       {
-        title: 'Determining Access Conditions',
+        title: 'Determining access conditions',
         link: '/resources/guides/working-with-data/determining-access-conditions'
       },
       {
@@ -104,11 +104,11 @@ title: "Guides"
   heading="EXTERNAL GUIDES"
   :items="[
       {
-        title: 'Text Analysis',
+        title: 'Text analysis',
         link: 'https://www.atap.edu.au/text-analysis/overview/'
       },
       {
-        title: 'LADAL Tutorials',
+        title: 'LADAL tutorials',
         image: '/images/partner-logos/ladal_logo.png',
         link: 'https://ladal.edu.au/tutorials.html'
       }

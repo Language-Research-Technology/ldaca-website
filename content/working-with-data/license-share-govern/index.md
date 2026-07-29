@@ -1,9 +1,9 @@
 ---
 layout: home
-title: "License, Share & Govern"
+title: "License, share & govern"
 ---
 
-<SimpleHero breadcrumb="Working with Data > License, Share & Govern" title="License, Share & Govern Data" description="Guidance for licensing, sharing and governing data in alignment with FAIR and CARE principles."/>
+<SimpleHero breadcrumb="Working with data > License, share & govern" title="License, share & govern data" description="Guidance for licensing, sharing and governing data in alignment with FAIR and CARE principles."/>
 
 <SimpleNavigation
   title="Caring for and sharing collections ethically"

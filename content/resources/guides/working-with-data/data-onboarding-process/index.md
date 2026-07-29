@@ -1,5 +1,5 @@
 ---
-title: "Data Onboarding Process"
+title: "Data onboarding process"
 date: 2023-10-03T13:59:34+11:00
 draft: false
 description: "Outlines the standards and processes that support the onboarding of data collections to LDaCA."

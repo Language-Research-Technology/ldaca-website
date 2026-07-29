@@ -1,5 +1,5 @@
 ---
-title: "Access Policy"
+title: "Access policy"
 date: 2023-10-03T12:49:58+11:00
 # tags: ["Governance, rights & access"]
 description: "Outlines the LDaCA Access Policy, which makes data appropriately accessible in accordance with legal, moral and ethical considerations of data sharing."

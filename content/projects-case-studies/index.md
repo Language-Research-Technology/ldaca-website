@@ -1,9 +1,9 @@
 ---
 layout: home
-title: "Projects & Case Studies"
+title: "Projects & case studies"
 ---
 
-<SimpleHero title='Projects & Case Studies' description='Find out more about collaborative projects that we have undertaken and supported to make language collections more secure, discoverable and culturally responsive.'/>
+<SimpleHero title='Projects & case studies' description='Find out more about collaborative projects that we have undertaken and supported to make language collections more secure, discoverable and culturally responsive.'/>
 
 <CarouselLarge
   heading="FEATURED PROJECT"

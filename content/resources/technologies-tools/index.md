@@ -1,14 +1,14 @@
 ---
 layout: home
-title: "Technologies & Tools"
+title: "Technologies & tools"
 ---
 
-<SimpleHero breadcrumb='Resources > Technologies & Tools' title="Technologies & Tools" description="Technologies and tools to support finding, accessing and analysing language data."/>
+<SimpleHero breadcrumb='Resources > Technologies & tools' title="Technologies & tools" description="Technologies and tools to support finding, accessing and analysing language data."/>
 
 <Carousel 
   :items="[
       {
-        title: 'LDaCA Software Tools',
+        title: 'LDaCA software tools',
         link: '/resources/technologies-tools/ldaca-software-tools'
       },
       {

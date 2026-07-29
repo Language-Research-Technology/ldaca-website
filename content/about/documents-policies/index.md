@@ -1,9 +1,9 @@
 ---
 layout: home
-title: "Documents & Policies"
+title: "Documents & policies"
 ---
 
-<SimpleHero breadcrumb='About > Documents & Policies' title='Documents & Policies' description='Policy documents, including our data onboarding process and takedown policy, and information about the underlying principles of the project.'/>
+<SimpleHero breadcrumb='About > Documents & policies' title='Documents & policies' description='Policy documents, including our data onboarding process and takedown policy, and information about the underlying principles of the project.'/>
 
 <SimpleNavigation
   title="TODO"
