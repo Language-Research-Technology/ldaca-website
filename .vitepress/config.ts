@@ -291,17 +291,17 @@ export default defineConfig({
       //   link: '/posts/'
       // },
       {
-        text: 'Working with Data',
+        text: 'Working with data',
         subtitle: 'Information for working with language data in different ways',
         items: [
-          { text: 'Find & Access', link: '/working-with-data/find-access' },
-          { text: 'License, Share & Govern', link: '/working-with-data/license-share-govern', image: '/images/how-we-can-help/Govern.jpg' },
-          { text: 'Organise & Describe', link: '/working-with-data/organise-describe' },
-          { text: 'Process & Analyse', link: '/working-with-data/process-analyse', image: '/images/how-we-can-help/Process.png' }
+          { text: 'Find & access', link: '/working-with-data/find-access' },
+          { text: 'License, share & govern', link: '/working-with-data/license-share-govern', image: '/images/how-we-can-help/Govern.jpg' },
+          { text: 'Organise & describe', link: '/working-with-data/organise-describe' },
+          { text: 'Process & analyse', link: '/working-with-data/process-analyse', image: '/images/how-we-can-help/Process.png' }
         ]
       },
       {
-        text: 'Training & Events',
+        text: 'Training & events',
         link: '/training-events/events',
         // subtitle: 'Training materials, tutorials, and upcoming and past events',
         // items: [
@@ -317,12 +317,12 @@ export default defineConfig({
             title: 'By Type',
             divider: true,
             children: [
-              { text: 'Audio & Video', link: '/resources/audio-video' },
+              { text: 'Audio & video', link: '/resources/audio-video' },
               { text: 'Guides', link: '/resources/guides' },
               { text: 'Interviews', link: '/resources/interviews' },
               { text: 'Presentations', link: '/resources/presentations' },
               { text: 'Publications', link: '/resources/publications/' },
-              { text: 'Technologies & Tools', link: '/resources/technologies-tools' },
+              { text: 'Technologies & tools', link: '/resources/technologies-tools' },
             ]
           },
           // {
@@ -377,7 +377,7 @@ export default defineConfig({
         ]
       } as any,
       {
-        text: 'Projects & Case Studies',
+        text: 'Projects & case Studies',
         link: '/projects-case-studies',
         // subtitle: 'something something',
         // items: [
@@ -391,7 +391,7 @@ export default defineConfig({
         items: [
           { text: 'Organisation', link: '/about/organisation', image: '/images/subheadings/Organisation.png' },
           { text: 'People', link: '/about/people', image: '/images/subheadings/People.jpg' },
-          { text: 'Documents & Policies', link: '/about/documents-policies', image: '/images/subheadings/Policies.jpeg' }
+          { text: 'Documents & policies', link: '/about/documents-policies', image: '/images/subheadings/Policies.jpeg' }
         ]
       } as any,
       {
