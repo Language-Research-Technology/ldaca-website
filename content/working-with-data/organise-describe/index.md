@@ -1,9 +1,9 @@
 ---
 layout: home
-title: "Organise & Describe"
+title: "Organise & describe"
 ---
 
-<SimpleHero breadcrumb="Working with Data > Organise & Describe" title="Organise & Describe Data" description="Practical help for making your collections clearer, more accessible and responsibly managed."/>
+<SimpleHero breadcrumb="Working with data > Organise & describe" title="Organise & describe data" description="Practical help for making your collections clearer, more accessible and responsibly managed."/>
 
 <SimpleNavigation
   title="Building clearer, more useable collections"

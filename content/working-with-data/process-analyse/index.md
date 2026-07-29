@@ -1,9 +1,9 @@
 ---
 layout: home
-title: "Process & Analyse"
+title: "Process & analyse"
 ---
 
-<SimpleHero breadcrumb="Working with Data > Process & Analyse" title="Process & Analyse Data" description="Hands-on tutorials and tools for processing and analysing large collections of language data."/>
+<SimpleHero breadcrumb="Working with data > Process & analyse" title="Process & analyse data" description="Hands-on tutorials and tools for processing and analysing large collections of language data."/>
 
 <SimpleNavigation
 title="Analysing language data at scale"

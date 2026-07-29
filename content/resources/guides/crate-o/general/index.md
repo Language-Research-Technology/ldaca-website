@@ -1,5 +1,5 @@
 ---
-title: "General Information"
+title: "General information"
 date: 2024-05-22T15:43:09+10:00
 draft: false
 tags: ["Crate-O"]
@@ -12,10 +12,10 @@ layout: doc
 
 <br>
 
-- [Crate-O Use Cases](#crate-o-use-cases)
-- [RO-Crate Collection Hierarchy](#ro-crate-collection-hierarchy)
-- [Schemas, Profiles and Modes](#schemas-profiles-and-modes)
-- [Schema.org Style Schemas (SOSSs) and RO-Crate Profiles and Modes](#schema.org-style-schemas-(sosss)-and-ro-crate-profiles-and-modes)
+- [Crate-O use cases](#crate-o-use-cases)
+- [RO-Crate collection hierarchy](#ro-crate-collection-hierarchy)
+- [Schemas, profiles and modes](#schemas-profiles-and-modes)
+- [Schema.org style schemas (SOSSs) and RO-Crate profiles and modes](#schema.org-style-schemas-(sosss)-and-ro-crate-profiles-and-modes)
 
 <br>
 
@@ -31,7 +31,7 @@ While the current version of Crate-O is designed for editing self-contained RO-C
 
 <br>
 
-## Crate-O Use Cases
+## Crate-O use cases
 
 <br>
 
@@ -45,7 +45,7 @@ While the current version of Crate-O is designed for editing self-contained RO-C
 
 <br>
 
-## RO-Crate Collection Hierarchy
+## RO-Crate collection hierarchy
 
 <br>
 
@@ -86,7 +86,7 @@ For more details on these and other metadata entities, see [Metadata for Languag
 
 <br>
 
-## Schemas, Profiles and Modes
+## Schemas, profiles and modes
 
 <br>
 
@@ -125,7 +125,7 @@ These are all inter-related, and can be developed together or separately using <
 
 <br>
 
-## Schema.org Style Schemas (SOSSs) and RO-Crate Profiles and Modes
+## Schema.org style schemas (SOSSs) and RO-Crate profiles and modes
 
 <br>
 

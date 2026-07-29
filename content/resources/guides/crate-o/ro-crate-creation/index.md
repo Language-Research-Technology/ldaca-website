@@ -1,5 +1,5 @@
 ---
-title: "RO-Crate Creation"
+title: "RO-Crate creation"
 date: 2022-03-27T16:01:02+10:00
 draft: false
 tags: ["Crate-O"]

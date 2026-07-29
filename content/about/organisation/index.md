@@ -6,7 +6,7 @@ layout: home
 <SimpleHero breadcrumb="About > Organisation" title="Organisation" description="Learn more about what LDaCA is, our execution strategy, who we work with and more."/>
 
 <SimpleNavigation
-  title="Practical Support for Working with Language Data"
+  title="Practical support for working with language data"
   description="LDaCA is connecting people with language data through infrastructure that makes language collections sustainable and accessible in culturally appropriate ways.<br><br>Whether it involves collecting, caring for,  finding, accessing, analysing or reusing language data, LDaCA has resources to help support language work.<br><br>By connecting Australia's language collections, communities and researchers, the project is looking to contribute to a strong foundation for language research and community-led outcomes."
   :contents="[
     { label: 'What is LDaCA?', href: '#what-is-ldaca' },

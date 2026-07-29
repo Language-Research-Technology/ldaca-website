@@ -1,5 +1,5 @@
 ---
-title: "Basic Navigation"
+title: "Basic navigation"
 date: 2023-04-22T15:42:05+10:00
 draft: false
 tags: ["Crate-O"]

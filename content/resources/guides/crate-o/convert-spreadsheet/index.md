@@ -1,5 +1,5 @@
 ---
-title: "Convert Spreadsheet"
+title: "Convert spreadsheet"
 date: 2021-02-28T13:53:43+10:00
 draft: false
 tags: ["Crate-O"]

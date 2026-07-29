@@ -1,9 +1,9 @@
 ---
 layout: home
-title: "Find & Access"
+title: "Find & access"
 ---
 
-<SimpleHero breadcrumb="Working with Data > Find & Access" title="Find & Access Data" description="Digital infrastructure to help you find and access nationally significant language collections."/>
+<SimpleHero breadcrumb="Working with data > Find & access" title="Find & access data" description="Digital infrastructure to help you find and access nationally significant language collections."/>
 
 <SimpleNavigation
   title="Facilitating collection discovery and access"
