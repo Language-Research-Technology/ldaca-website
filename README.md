@@ -90,6 +90,8 @@ pastEvent: false
 ```
 NOTE: change `pastEvent` to `true` if this event has finished. This will update the `link` button from displaying 'Register' to 'More information' instead.
 
+See ## Referencing Images for more detail on adding images to frontmatter.
+
 ### Post
 
 `layout: post`
@@ -150,13 +152,13 @@ Images are either:
 To reference an image in an `.md` file, use the format:
 ```
 <figure>
-	<img src="./image.png" alt="Alt text goes here" title="Image title goes here" />
+	<img src="./image.png" alt="Alt text goes here" title="Image title goes here" style="height: 400px;" />
 	<figcaption>Figure 1: The caption displayed beneath the image goes here. (Photo credit goes here)</figcaption>
 </figure>
 ```
 NOTE: if using an image from `/content/public/images`, use the path `/images/...` instead.
 
-If you need to adjust the size of the image, add `style="height: 400px;"` after `<img `, adjusting the height as needed. This will maintain the aspect ratio of the image while resizing it.
+Adjust the height after `style` as needed. This will maintain the aspect ratio of the image while resizing it.
 
 For setting thumbnail/preview images to be used on other components and pages, add these to the `image` field in the related `.md` file's frontmatter, and use the full file path after `content` (don't include `content` in the path). For example:
 
