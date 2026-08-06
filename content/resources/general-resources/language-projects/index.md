@@ -29,7 +29,7 @@ A guide to materials held in the National Library of Australia, with links to si
 
 <br>
 
-### [Contemporary and Historical Reconstruction in the Indigenous Languages of Australia (CHIRILA)](http://www.pamanyungan.net/chirila/) 
+### [Contemporary and Historical Reconstruction in the Indigenous Languages of Australia (CHIRILA)](https://web.archive.org/web/20230327003703/http://www.pamanyungan.net/chirila/) 
 
 A lexical database (a database with words from different languages). Currently, there are about 780,000 words, from all over Australia, of which about 20% is publicly available.
 
