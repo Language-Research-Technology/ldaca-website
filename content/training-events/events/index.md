@@ -22,6 +22,14 @@ title: "Events"
   :opacity="100"
   heading="UPCOMING EVENTS"
   :items="[
+  {
+        title: 'eResearch Australasia 2026',
+        link: '/training-events/events/2026/e-research-2026',
+    },
+    {
+        title: 'Working With Text Workshops: From Interview Transcripts to 125 years of Hansard',
+        link: '/training-events/events/2026/Working-with-text',
+    },
     {
         title: 'RO-Crate Clinic Drop-in',
         link: '/training-events/events/ro-crate-clinic-drop-in',
@@ -37,6 +45,10 @@ title: "Events"
   heading="EVENT RECORDINGS"
   buttonText="Watch recording"
   :items="[
+  {
+        title: 'The Collaborative Power of a Research Data Commons: LDaCA case studies',
+        link: '/training-events/events/2026/collaborative-power-RDC',
+    },
       {
         title: 'Language Data Commons of Australia - HASS & Indigenous Research Data Commons Symposium 2025',
         link: '/training-events/events/2025/hass-irdc-symposium-2',
@@ -67,6 +79,26 @@ title: "Events"
   :opacity="100"
   heading="PAST EVENTS"
   :items="[
+   {
+                    title: 'Understanding Society Through Data: A Cross-Infrastructure Showcase',
+        link: '/training-events/events/2026/Society-through-data',
+    },
+                    {
+                    title: 'The Collaborative Power of a Research Data Commons: LDaCA case studies',
+        link: '/training-events/events/2026/collaborative-power-RDC',
+    },
+             {
+        title: 'Sustainable Data for Humanities Researchers',
+        link: '/training-events/events/2026/sustainable-data-for-humanities-researchers-2026',
+    },
+  {
+        title: 'Research Bazaar Queensland 2026',
+        link: '/training-events/events/2026/Res-Baz-QLD-2026',
+    },
+  {
+        title: 'ARDC Indigenous Data Governance Masterclass 2026',
+        link: '/training-events/events/2026/ARDC-IDG-Masterclass',
+    },
     {
         title: 'HASS and Indigenous Research Data Commons Summer School 2026',
         link: '/training-events/events/2026/hass-irdc-summer-school',
