@@ -109,6 +109,7 @@ const mapSoftwareItem = (item, crateBaseUrl, imageBase) => ({
   additionalNotes: joinValues(item?.['custom:additionalNotes']),
   codeURL: item?.['custom:codeURL'],
   guideURL: item?.['custom:guideURL'],
+  creditText: item?.creditText,
   image: resolveImageUrl(item?.image, crateBaseUrl, imageBase)
 })
 
@@ -371,6 +372,9 @@ watch(
 
             <p v-if="selectedItem?.dataFormat" class="text-[#79a38d] text-xl font-bold pt-2">Data format required</p>
             <p v-if="selectedItem?.dataFormat" class="text-[#383938] text-xl">{{ selectedItem.dataFormat }}</p>
+
+                        <p v-if="selectedItem?.creditText" class="text-[#79a38d] text-xl font-bold pt-2">Preferred citation</p>
+            <p v-if="selectedItem?.creditText" class="text-[#383938] text-xl">{{ selectedItem.creditText}}</p>
 
             <p v-if="selectedItem?.additionalNotes" class="text-[#79a38d] text-xl font-bold pt-2">Additional notes</p>
             <p v-if="selectedItem?.additionalNotes" class="text-[#383938] text-xl">{{ selectedItem.additionalNotes }}</p>

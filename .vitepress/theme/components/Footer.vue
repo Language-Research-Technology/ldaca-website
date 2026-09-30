@@ -309,6 +309,53 @@ footer {
       <!-- Partner Logos -->
       <PartnerLogos :logos="partnerLogos" />
 
+      <!-- ARDC Acknowledgement -->
+<div class="max-w-4xl mx-auto mt-10 mb-10 px-6 text-center">
+  <img
+    :src="resolveUrl('/images/partner-logos/ARDC - AUS-NCRIS lockup.png')"
+    alt="Australian Research Data Commons and NCRIS"
+    class="h-20 w-auto mx-auto mb-6"
+  >
+
+  <p class="type-small text-[#393939] leading-relaxed">
+    The Language Data Commons of Australia (LDaCA) (DOI:
+    <a
+      href="https://doi.org/10.3565/kq2v-9g52"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="font-bold hover:text-gray-600 transition-colors"
+    >
+      10.3565/kq2v-9g52
+    </a>)
+    is a co-investment partnership with the Australian Research Data Commons (ARDC)
+    through the
+    <a
+      href="https://ardc.edu.au/hass-and-indigenous-research-data-commons/"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="font-bold hover:text-gray-600 transition-colors"
+    >
+      HASS and Indigenous Research Data Commons
+    </a>.
+    The
+    <a
+      :href="resolveUrl('/resources/glossary/#ardc')"
+      class="font-bold hover:text-gray-600 transition-colors"
+      title="Australian Research Data Commons"
+    >
+      ARDC
+    </a>
+    is enabled by the Australian Government’s National Collaborative Research
+    Infrastructure Strategy
+    (<a
+      :href="resolveUrl('/resources/glossary/#ncris')"
+      class="font-bold hover:text-gray-600 transition-colors"
+      title="National Collaborative Research Infrastructure Strategy"
+    >NCRIS</a>).
+  </p>
+</div>
+      
+
       <!-- Bottom Links -->
       <div class="mt-8 pt-6 pb-6 border-t footer-divider">
         <nav class="flex items-center justify-center gap-8 md:gap-32 lg:gap-32 flex-wrap">
