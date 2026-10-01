@@ -2,6 +2,7 @@
 title: "Ayeye thipe-akerte"
 description: 'The sounds and sights of Central Australian birds, along with their Arrernte names and short stories about their appearance, habits and cultural meanings, have been republished on a new website.'
 layout: project
+collaboratorLogo: "/images/partner-logos/BatchelorInstitute_logo.png"
 collaborator: Batchelor Institute of Indigenous Tertiary Education
 projectTeam: "Dr Ben Foley"
 link: "[ayeye-thipe-akerte.bird-apps.com](https://ayeye-thipe-akerte.bird-apps.com/ro-crate-preview.html)"

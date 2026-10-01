@@ -36,6 +36,10 @@ title: "Projects & case studies"
         link: '/projects-case-studies/projects/graduate-digital-research-fellowship',
       },
       {
+        title: 'ARDS Archive',
+        link: '/projects-case-studies/projects/ARDS-Archive',
+      },  
+      {
         title: 'CALL Collection Catalogue',
         link: '/projects-case-studies/projects/CALL-Collection-Catalogue',
       },
@@ -91,6 +95,11 @@ title: "Projects & case studies"
         title: 'First Languages Australia',
         image: '/images/partner-logos/FLA_logo.svg',
         link: 'https://www.firstlanguages.org.au'
+      },
+                  {
+        title: 'ARDS',
+        image: '/images/partner-logos/ARDS_LOGO_2025_w_TEXT.svg',
+        link: 'https://ards.com.au/'
       },
       {
         title: 'ANU',

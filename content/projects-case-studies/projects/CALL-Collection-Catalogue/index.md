@@ -2,11 +2,12 @@
 title: "CALL Collection Catalogue"
 description: Supporting the long-term care and appropriate access of language materials
 layout: project
+collaboratorLogo: "/images/partner-logos/BatchelorInstitute_logo.png"
 collaborator: "Batchelor Institute of Indigenous Tertiary Education"
 projectTeam: "Be Keillor\nDr Ben Foley\nMoises Sacal Bonequi\nRosanna Smith"
 information: "Creating a sustainable, archival version of the Batchelor CALL Collection to support the long-term care, interoperability and appropriate access of its language materials."
 link: "[callcollection.batchelor.edu.au/](https://callcollection.batchelor.edu.au/)"
-image: '/images/partner-logos/BatchelorInstitute_logo.png'
+image: '/images/CALLsite.png'
 ---
 
 **LDaCA is working with the Batchelor CALL Collection to create a sustainable, archivable version of its language data and metadata, supporting its long-term care, interoperability and appropriate access.**

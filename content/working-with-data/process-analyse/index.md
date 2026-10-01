@@ -38,6 +38,12 @@ description="Being able to analyse large amounts of language data opens up vast 
       image: '/images/LDaCAWordflow.png',
       link: 'https://australian-text-analytics-platform.github.io/LDaCa_Text_Analytics_Tools/',
     },
+        {
+      title: 'LADAL',
+      description: `The Language Technology and Data Analysis Laboratory (LADAL) is an open-access learning and research platform that helps researchers build skills in working with language data. It provides more than 60 step-by-step tutorials, structured courses and browser-based tools covering data science, statistics, visualisation, text analytics and computational research methods, with resources designed for everyone from complete beginners to experienced researchers.`,
+      image: '/images/LADAL.png',
+      link: 'https://ladal.edu.au/',
+    },
   ]"
    />
 

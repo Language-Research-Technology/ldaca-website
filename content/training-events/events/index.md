@@ -27,10 +27,6 @@ title: "Events"
         link: '/training-events/events/2026/e-research-2026',
     },
     {
-        title: 'Working With Text Workshops: From Interview Transcripts to 125 years of Hansard',
-        link: '/training-events/events/2026/Working-with-text',
-    },
-    {
         title: 'RO-Crate Clinic Drop-in',
         link: '/training-events/events/ro-crate-clinic-drop-in',
     },
@@ -79,6 +75,10 @@ title: "Events"
   :opacity="100"
   heading="PAST EVENTS"
   :items="[
+       {
+        title: 'Working With Text Workshops: From Interview Transcripts to 125 years of Hansard',
+        link: '/training-events/events/2026/Working-with-text',
+    },
    {
                     title: 'Understanding Society Through Data: A Cross-Infrastructure Showcase',
         link: '/training-events/events/2026/Society-through-data',

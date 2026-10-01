@@ -108,10 +108,20 @@ const informationHtml = computed(() => renderSimpleMarkdownInline(event.value.in
                         <p class="text-2xl font-bold text-white mb-4 bg-[#79a38d] py-2 px-4">At a glance</p>
 
                         <!-- Collaborators -->
-                        <div v-if="event.collaborator" class="mb-4">
-                            <p class="font-bold text-gray-600 uppercase text-xl">Collaborators</p>
-                            <p class="text-gray-700 text-lg whitespace-pre-line">{{ event.collaborator }}</p>
-                        </div>
+                       <div v-if="event.collaborator || event.collaboratorLogo" class="mb-4">
+    <p class="font-bold text-gray-600 uppercase text-xl">Collaborators</p>
+
+    <img
+        v-if="event.collaboratorLogo"
+        :src="resolveUrl(event.collaboratorLogo)"
+        :alt="event.collaborator ? `${event.collaborator} logo` : 'Collaborator logo'"
+        class="collaborator-logo"
+    />
+
+    <p v-if="event.collaborator" class="text-gray-700 text-lg whitespace-pre-line">
+        {{ event.collaborator }}
+    </p>
+</div>
 
                         <!-- Project Team -->
                         <div v-if="event.projectTeam" class="mb-4">
@@ -170,5 +180,16 @@ const informationHtml = computed(() => renderSimpleMarkdownInline(event.value.in
 
 .project-inline-markdown :deep(strong) {
     color: #79a38d;
+    
+}
+
+.collaborator-logo {
+    display: block;
+    max-width: 220px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    margin: 0.75rem 0 1rem;
 }
 </style>
