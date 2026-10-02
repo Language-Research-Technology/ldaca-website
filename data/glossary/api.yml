@@ -1,4 +1,4 @@
 Name: "api"
 "title": "API"
 "short_description": "Application Programming Interface"
-"content": 'Application Programming Interface. A way for a computer program or system to ask another program or system to complete a task, such as provide a {{< glossary_link display="dataset" id="dataset" >}}.'
+"content": 'Application Programming Interface. A way for a computer program or system to ask another program or system to complete a task, such as provide a <GlossaryLink display="dataset" id="dataset" />.'

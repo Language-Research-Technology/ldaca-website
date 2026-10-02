@@ -18,5 +18,5 @@ Tooltip guidelines:
 - If the glossary item already has a direct link, don't add a tooltip (this can be added to the next occurence).
 - If the same glossary item occurs more than once in a single paragraph, only add a tooltip for the first instance.
 
-Glossary Template: {{< glossary_link display="TERM_TO_DISPLAY" id="YML_NAME" >}}
-Glossary Template (blank): {{< glossary_link display="" id="" >}}
+Glossary Template: <GlossaryLink display="TERM_TO_DISPLAY" id="YML_NAME" />
+Glossary Template (blank): <GlossaryLink display="" id="" />

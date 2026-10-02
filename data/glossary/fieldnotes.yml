@@ -1,4 +1,4 @@
 Name: "fieldnotes"
 "title": "Fieldnotes"
 "short_description": "Notes taken by a researcher while conducting fieldwork that record their observations and other relevant information."
-"content": 'Notes taken by a researcher while conducting {{< glossary_link display="fieldwork" id="fieldwork" >}} that record their observations and other relevant information.'
+"content": 'Notes taken by a researcher while conducting <GlossaryLink display="fieldwork" id="fieldwork" /> that record their observations and other relevant information.'

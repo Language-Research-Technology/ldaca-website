@@ -1,4 +1,4 @@
 Name: "format"
 "title": "Format"
 "short_description": "See Data Format."
-"content": 'See {{< glossary_link display="Data Format" id="data-format" >}}'
+"content": 'See <GlossaryLink display="Data Format" id="data-format" />'

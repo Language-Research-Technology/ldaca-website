@@ -1,0 +1,114 @@
+<script setup lang="ts">
+import { computed } from 'vue'
+import { useData, withBase } from 'vitepress'
+import { data as allPages } from '../lib/sections.data'
+
+const { page } = useData()
+
+const sectionPath = computed(() => {
+  const rp = page.value.relativePath || ''
+  // e.g., 'resources/guides/index.md' -> 'resources/guides'
+  const withoutIndex = rp.replace(/\/index\.md$/, '')
+  return withoutIndex || ''
+})
+
+const items = computed(() => {
+  // use the full path after content (so '/resources/guides/')
+  const base = `/${sectionPath.value}/`
+  // filter pages that are immediate children of this section (one path segment after base)
+  const filtered = allPages.filter(p => {
+    if (!p.url.startsWith(base) || p.url === base) return false
+    const remainder = p.url.slice(base.length)
+    // strip a single trailing slash
+    const trimmed = remainder.replace(/\/$/, '')
+    // include only if there is exactly one path segment (no additional '/')
+    return trimmed.length > 0 && trimmed.indexOf('/') === -1
+  })
+
+  // sort by weight asc, then date desc, then title asc
+  return filtered.sort((a, b) => {
+    const wa = a.weight ?? Number.MAX_SAFE_INTEGER
+    const wb = b.weight ?? Number.MAX_SAFE_INTEGER
+    if (wa !== wb) return wa - wb
+    const da = a.date ? new Date(a.date).getTime() : 0
+    const db = b.date ? new Date(b.date).getTime() : 0
+    if (da !== db) return db - da
+    return (a.title || '').localeCompare(b.title || '')
+  })
+})
+</script>
+
+<template>
+  <SimpleHero :title="page.frontmatter?.title || 'Untitled Document'" :description="page.frontmatter?.description || ''"
+    :breadcrumb="page.frontmatter?.breadcrumb || ''" backgroundImage="/images/GreenBackground.png" />
+
+  <div class="VPDoc">
+    <div class="container">
+      <article class="vp-doc">
+        <!-- Title & content (mirrors Hugo: title + .Content) -->
+        <!-- <h2 class="single-title">{{ page.frontmatter.title || page.title }}</h2> -->
+        <Content />
+
+        <!-- Archive list -->
+        <div class="page archive">
+          <article v-for="item in items" :key="item.url" class="archive-item">
+            <a :href="withBase(item.url)" class="archive-item-link">
+              <div class="archive-item-inner">
+                <img v-if="item.frontmatter?.image" :src="withBase(item.frontmatter.image)" :alt="item.title"
+                  class="archive-item-image" />
+                <div class="archive-item-content">
+                  <h2 class="archive-item-title">{{ item.title }}</h2>
+                  <p v-if="item.description" class="archive-item-description">{{ item.description }}</p>
+                </div>
+              </div>
+            </a>
+          </article>
+        </div>
+      </article>
+    </div>
+  </div>
+</template>
+
+<style scoped>
+.single-title {
+  margin: 0 0 1rem;
+}
+
+.archive-item {
+  margin: 1rem 0;
+}
+
+.archive-item-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.archive-item-inner {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.archive-item-image {
+  width: 6rem;
+  height: 6rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+
+.archive-item-content {
+  flex: 1;
+}
+
+.archive-item-title {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.archive-item-description {
+  margin: 0.25rem 0 0;
+  color: var(--vp-c-text-2);
+}
+</style>

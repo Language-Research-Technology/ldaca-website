@@ -1,4 +1,4 @@
 Name: "field-notebook-journal"
 "title": "Field Notebook/Journal"
 "short_description": "A collection of fieldnotes compiled while completing fieldwork."
-"content": 'A collection of {{< glossary_link display="fieldnotes" id="fieldnotes" >}} compiled while completing {{< glossary_link display="fieldwork" id="fieldwork" >}}.'
+"content": 'A collection of <GlossaryLink display="fieldnotes" id="fieldnotes" /> compiled while completing <GlossaryLink display="fieldwork" id="fieldwork" />.'

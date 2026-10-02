@@ -1,0 +1,612 @@
+@import 'vitepress/dist/client/theme-default/styles/vars.css';
+@import 'vitepress/dist/client/theme-default/styles/icons.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    /* 20px -> 16px: renders rem-based site sizing at 80% of the previous scale. */
+    font-size: 16px;
+
+    /* Unified typography tokens */
+    --type-xs: 0.75rem;      /* 12px */
+    --type-sm: 0.8125rem;    /* 13px */
+    --type-base: 0.9rem;     /* 14.4px */
+    --type-lg: 1rem;         /* 16px */
+    --type-xl: 1.125rem;     /* 18px */
+    --type-2xl: 1.35rem;     /* 21.6px */
+    --type-3xl: 1.7rem;      /* 27.2px */
+    --type-4xl: 2.15rem;     /* 34.4px */
+    --type-5xl: 2.7rem;      /* 43.2px */
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+    --radius: 0.5rem;
+    --vp-font-family-base: 'Work Sans', sans-serif;
+    --vp-font-family-mono: monospace;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body, html {
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif !important;
+    font-size: var(--type-base) !important;
+    line-height: 1.6;
+  }
+  /* Semantic heading fallback. Reusable components use the role classes below. */
+  h1 {
+    font-size: var(--type-4xl);
+    font-weight: 700;
+    line-height: 1.12;
+    color: #383938;
+  }
+  h2 {
+    font-size: var(--type-3xl);
+    font-weight: 700;
+    line-height: 1.2;
+    color: #383938;
+  }
+  h3 {
+    font-size: var(--type-2xl);
+    font-weight: 650;
+    line-height: 1.25;
+    color: #383938;
+  }
+  h4 {
+    font-size: var(--type-xl);
+    font-weight: 650;
+    line-height: 1.3;
+    color: #383938;
+  }
+  h5 {
+    font-size: var(--type-lg);
+    font-weight: 650;
+    line-height: 1.35;
+    color: #383938;
+  }
+  h6 {
+    font-size: var(--type-sm);
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #383938;
+  }
+}
+
+@layer components {
+  /*
+   * TYPOGRAPHY ROLES
+   * Use these classes in reusable components instead of choosing a raw text-* size.
+   * This keeps visual hierarchy consistent even when the HTML element changes.
+   */
+  .type-display { font-size: var(--type-5xl); font-weight: 700; line-height: 1.08; letter-spacing: -0.02em; }
+  .type-page-title { font-size: var(--type-4xl); font-weight: 700; line-height: 1.12; letter-spacing: -0.015em; }
+  .type-section-title { font-size: var(--type-3xl); font-weight: 700; line-height: 1.2; letter-spacing: -0.01em; }
+  .type-subsection-title { font-size: var(--type-2xl); font-weight: 650; line-height: 1.25; }
+  .type-card-display { font-size: var(--type-3xl); font-weight: 700; line-height: 1.08; letter-spacing: -0.01em; }
+  .type-card-title { font-size: var(--type-lg); font-weight: 700; line-height: 1.3; }
+  .type-lead { font-size: var(--type-lg); font-weight: 400; line-height: 1.6; }
+  .type-body { font-size: var(--type-base); font-weight: 400; line-height: 1.6; }
+  .type-small { font-size: var(--type-sm); font-weight: 400; line-height: 1.5; }
+  .type-meta { font-size: var(--type-sm); font-weight: 500; line-height: 1.45; }
+  .type-eyebrow, .type-label-heading { font-size: var(--type-sm); font-weight: 700; line-height: 1.3; text-transform: uppercase; letter-spacing: 0.06em; }
+  .type-action, .type-button { font-size: var(--type-base); font-weight: 700; line-height: 1.2; }
+
+  .menu-link {
+    @apply text-lg font-medium text-foreground hover:text-primary transition-colors;
+  }
+
+  /* Main content area */
+  .vp-doc {
+    @apply px-6 py-8;
+  }
+
+  /* Content wrapper with max-width */
+  .vp-doc .container,
+  .content {
+    @apply max-w-7xl mx-auto;
+  }
+
+  /* Responsive padding for content */
+  .VPDoc .container {
+    @apply px-4 md:px-6 lg:px-8;
+  }
+
+  /* Blog post content styles */
+  .blog-post,
+  article,
+  .prose {
+    @apply px-4 md:px-6 lg:px-8 py-6 md:py-8 max-w-7xl mx-auto;
+  }
+
+  /* Figure elements responsive spacing */
+  .blog-post figure,
+  article figure,
+  .prose figure {
+    @apply my-6 md:my-8;
+  }
+
+  /* Images responsive sizing */
+  .blog-post figure img,
+  article figure img,
+  .prose figure img {
+    @apply max-w-full h-auto;
+    width: auto;
+    max-width: 100% !important;
+    height: auto;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin: 0 auto !important;
+    display: block;
+  }
+
+  /* Headings spacing */
+  .blog-post h1, .blog-post h2, .blog-post h3, .blog-post h4, .blog-post h5, .blog-post h6,
+  article h1, article h2, article h3, article h4, article h5, article h6 {
+    @apply mt-8 mb-4;
+  }
+
+  /* Paragraphs and lists */
+  .blog-post p, .blog-post ul, .blog-post ol,
+  article p, article ul, article ol {
+    @apply mb-4;
+  }
+
+  /* Mobile-first breakpoints */
+  @media (max-width: 512px) {
+    .vp-doc {
+      @apply px-4 py-6;
+    }
+    
+    .blog-post figure img,
+    article figure img {
+      @apply max-h-[240px];
+    }
+  }
+
+  /* Tablet */
+  @media (min-width: 512.8px) and (max-width: 819.2px) {
+    .vp-doc {
+      @apply px-6 py-8;
+    }
+    
+    .blog-post figure img,
+    article figure img {
+      @apply max-h-[400px];
+    }
+  }
+}
+
+/* Markdown baseline styles (LDaCA look & feel) */
+@layer components {
+  /* Typography scale for markdown in VitePress docs */
+  .vp-doc h1 { font-size: var(--type-3xl); font-weight: 700; line-height: 1.2; scroll-margin-top: 6rem; }
+  .vp-doc h2 {
+    position: relative;
+    margin: 19.2px 0 12.8px;   /* spacing above + below section */
+    padding-top: 24px;     /* spacing between divider and text */
+    font-size: var(--type-2xl);
+    font-weight: 700;
+    line-height: 1.2;
+    border-top: 3.2px dotted #79a38d;
+    scroll-margin-top: 72px;
+  }
+  .vp-doc h2:first-child { border-top: none; }
+  .vp-doc h3 { font-size: var(--type-xl); font-weight: 650; line-height: 1.3; scroll-margin-top: 6rem; }
+  .vp-doc h4 { font-size: var(--type-lg); font-weight: 650; line-height: 1.35; scroll-margin-top: 6rem; }
+  .vp-doc h5 { font-size: var(--type-base); font-weight: 650; line-height: 1.4; scroll-margin-top: 6rem; }
+  .vp-doc h6 { font-size: var(--type-sm); font-weight: 700; line-height: 1.4; text-transform: uppercase; letter-spacing: 0.04em; scroll-margin-top: 6rem; }
+
+  /* Also style VitePress-rendered page title when frontmatter `title` is present */
+  .VPDoc h1,
+  .VPDoc .title h1,
+  .VPDoc .content h1 {
+    font-size: var(--type-4xl);
+    font-weight: 700;
+    line-height: 1.25;
+    scroll-margin-top: 6rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: var(--vp-c-text-1);
+  }
+
+  /* Fallback: style headings inside VPDoc content even if `.vp-doc` is missing */
+  .VPDoc .content h2 { font-size: var(--type-2xl); font-weight: 700; line-height: 1.25; margin: 1.5rem 0 0.75rem; scroll-margin-top: 6rem; }
+  .VPDoc .content h3 { font-size: var(--type-xl); font-weight: 650; line-height: 1.375; margin: 1.25rem 0 0.5rem; scroll-margin-top: 6rem; }
+  .VPDoc .content h4 { font-size: var(--type-lg); font-weight: 650; line-height: 1.5; margin: 1rem 0 0.5rem; scroll-margin-top: 6rem; }
+  .VPDoc .content h5 { font-size: var(--type-base); font-weight: 650; line-height: 1.5; margin: 0.75rem 0 0.5rem; scroll-margin-top: 6rem; }
+  .VPDoc .content h6 { font-size: var(--type-sm); font-weight: 700; text-transform: uppercase; letter-spacing: 0.02em; line-height: 1.5; margin: 0.75rem 0 0.5rem; scroll-margin-top: 6rem; }
+
+  .vp-doc p { @apply text-base text-foreground; color: var(--vp-c-text-1); line-height: 1.6; }
+  .vp-doc strong { @apply font-semibold text-foreground; font-size: inherit; color: inherit; }
+  .vp-doc em { font-style: italic; font-size: inherit; color: inherit; }
+  .vp-doc hr { margin: 25.6px 0; border: none; border-top: 3.2px dotted #79a38d; }
+
+  /* Links */
+  .vp-doc a { color:#79A38D; font-weight: bold; text-decoration-line: none; }
+  .vp-doc a:hover { color: #79A38D; text-decoration-line: underline; text-decoration-style: dotted; text-underline-offset: 3.2px; text-decoration-thickness: 12%;}
+  .vp-doc [id^="fn-"]::before {
+    content: "";
+    display: block;
+    height: calc(var(--vp-nav-height) + 19.2px);
+    margin-top: calc(-1 * (var(--vp-nav-height) + 19.2px));
+    visibility: hidden;
+  }
+  .vp-doc [id^="back-"]::before {
+    content: "";
+    height: calc(var(--vp-nav-height) + 19.2px);
+    margin-top: calc(-1 * (var(--vp-nav-height) + 19.2px));
+    visibility: hidden;
+  }
+.vp-doc sup { display: inline; line-height: 0; }
+
+  /* Lists */
+  .vp-doc ul { @apply text-base list-disc pl-6 space-y-2; }
+  .vp-doc ol { @apply text-base list-decimal pl-6 space-y-2; }
+  .vp-doc li { font-size: inherit; line-height: 1.6; }
+  .vp-doc ul li::marker { color: #79A38D; content: "●  "; }
+  .vp-doc ul ul li::marker { content: "○  "; }
+
+  /* Blockquotes */
+  .vp-doc blockquote { @apply text-base my-6 px-4 py-4; background: #d4e2db; color: black; }
+  .vp-doc blockquote p { @apply m-0; border-color: #79a38d; font-size: inherit; color: black; }
+  .vp-doc blockquote strong { @apply font-semibold; font-size: inherit; color: black; }
+  .vp-doc blockquote em { font-style: italic; font-size: inherit; color: black; }
+
+  /* Pull quotes */
+  .vp-doc .pull-quote::before {
+  content: "“";
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 72px;
+  line-height: 1;
+  color: #79A38D;
+}
+  .vp-doc .pull-quote { @apply text-2xl m-0; border-color: #79a38d; font-weight: bold; color: black; position: relative;
+  margin: 2rem 0; padding-top: 3.5rem; /* space for the big quote */
+  }
+  .vp-doc .pull-quote cite { @apply text-sm; display: block; font-weight: normal; font-style: normal; color: black; }
+
+  /* Inline code */
+  .vp-doc :not(pre) > code {
+    @apply rounded px-1.5 py-0.5;
+    font-size: var(--type-sm);
+    background: var(--vp-c-default-soft);
+    color: var(--vp-c-text-1);
+  }
+
+  /* Code blocks */
+  .vp-doc pre {
+    @apply my-6 rounded-lg overflow-x-auto p-4;
+    background: var(--vp-c-default-soft);
+    border: 0.8px solid var(--vp-c-default-2);
+    font-size: var(--type-base);
+  }
+  .vp-doc pre code { @apply bg-transparent p-0; }
+
+  /* Tables */
+  .vp-doc table { @apply w-full border-collapse my-6; }
+  .vp-doc th, .vp-doc td { @apply text-left py-2 px-3 border-b; }
+  .vp-doc thead th { @apply text-base; background: #79a38d; color: white; font-weight: bold; border-color: #79a38d; }
+  /* .vp-doc tbody tr:hover { background: color-mix(in oklab, var(--vp-c-default-soft) 80%, transparent); } */
+
+  /* Images */
+  .vp-doc img { @apply rounded-md my-4; }
+
+  /* Figures */
+  .vp-doc figure { @apply my-6; }
+  .vp-doc figcaption { @apply text-base text-muted-foreground text-center mt-2; }
+
+  /* Sup/Sub */
+  .vp-doc sup { vertical-align: super; font-size: 0.75em; }
+  .vp-doc sub { vertical-align: sub; font-size: 0.75em; }
+
+  /* Custom reference blocks used in posts */
+  .vp-doc .reference { @apply text-xl leading-6 text-muted-foreground;}
+}
+
+.vp-doc details {
+  border-bottom: 0.8px solid #b9b9b9;
+  padding: 1rem 0;
+}
+
+.vp-doc summary {
+  font-size: var(--type-base);
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.vp-doc summary::-webkit-details-marker {
+  display: none;
+}
+
+.vp-doc summary::after {
+  content: "+";
+  color: #79a38d;
+  font-size: var(--type-2xl);
+  font-weight: bold;
+  line-height: 1;
+}
+
+.vp-doc details[open] > summary::after {
+  content: "−";
+}
+
+summary {
+  font-size: var(--type-base);
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary::after {
+  content: "+";
+  color: #79a38d;
+  font-size: var(--type-2xl);
+  font-weight: bold;
+  line-height: 1;
+}
+
+details[open] > summary::after {
+  content: "−";
+}
+
+.vp-doc .header-anchor {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.vp-doc .header-anchor::before {
+  content: var(--vp-header-anchor-symbol);
+  color: #79a38d;
+}
+
+.vp-doc h1:hover .header-anchor,
+.vp-doc h1 .header-anchor:focus,
+.vp-doc h2:hover .header-anchor,
+.vp-doc h2 .header-anchor:focus,
+.vp-doc h3:hover .header-anchor,
+.vp-doc h3 .header-anchor:focus,
+.vp-doc h4:hover .header-anchor,
+.vp-doc h4 .header-anchor:focus,
+.vp-doc h5:hover .header-anchor,
+.vp-doc h5 .header-anchor:focus,
+.vp-doc h6:hover .header-anchor,
+.vp-doc h6 .header-anchor:focus {
+  opacity: 1;
+}
+
+/* VitePress content override */
+.VPContent {
+  @apply px-4 md:px-6 lg:px-8;
+}
+
+.VPDoc .container {
+  @apply max-w-5xl mx-auto;
+}
+
+/**
+ * Customize default theme styling by overriding CSS variables:
+ * https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css
+ */
+
+/**
+ * Colors
+ *
+ * Each colors have exact same color scale system with 3 levels of solid
+ * colors with different brightness, and 1 soft color.
+ *
+ * - `XXX-1`: The most solid color used mainly for colored text. It must
+ *   satisfy the contrast ratio against when used on top of `XXX-soft`.
+ *
+ * - `XXX-2`: The color used mainly for hover state of the button.
+ *
+ * - `XXX-3`: The color for solid background, such as bg color of the button.
+ *   It must satisfy the contrast ratio with pure white (#ffffff) text on
+ *   top of it.
+ *
+ * - `XXX-soft`: The color used for subtle background such as custom container
+ *   or badges. It must satisfy the contrast ratio when putting `XXX-1` colors
+ *   on top of it.
+ *
+ *   The soft color must be semi transparent alpha channel. This is crucial
+ *   because it allows adding multiple "soft" colors on top of each other
+ *   to create an accent, such as when having inline code block inside
+ *   custom containers.
+ *
+ * - `default`: The color used purely for subtle indication without any
+ *   special meanings attached to it such as bg color for menu hover state.
+ *
+ * - `brand`: Used for primary brand colors, such as link text, button with
+ *   brand theme, etc.
+ *
+ * - `tip`: Used to indicate useful information. The default theme uses the
+ *   brand color for this by default.
+ *
+ * - `warning`: Used to indicate warning to the users. Used in custom
+ *   container, badges, etc.
+ *
+ * - `danger`: Used to show error, or dangerous message to the users. Used
+ *   in custom container, badges, etc.
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-c-default-1: var(--vp-c-gray-1);
+  --vp-c-default-2: var(--vp-c-gray-2);
+  --vp-c-default-3: var(--vp-c-gray-3);
+  --vp-c-default-soft: var(--vp-c-gray-soft);
+
+  --vp-c-brand-1: var(--vp-c-indigo-1);
+  --vp-c-brand-2: var(--vp-c-indigo-2);
+  --vp-c-brand-3: var(--vp-c-indigo-3);
+  --vp-c-brand-soft: var(--vp-c-indigo-soft);
+
+  --vp-c-tip-1: var(--vp-c-brand-1);
+  --vp-c-tip-2: var(--vp-c-brand-2);
+  --vp-c-tip-3: var(--vp-c-brand-3);
+  --vp-c-tip-soft: var(--vp-c-brand-soft);
+
+  --vp-c-warning-1: var(--vp-c-yellow-1);
+  --vp-c-warning-2: var(--vp-c-yellow-2);
+  --vp-c-warning-3: var(--vp-c-yellow-3);
+  --vp-c-warning-soft: var(--vp-c-yellow-soft);
+
+  --vp-c-danger-1: var(--vp-c-red-1);
+  --vp-c-danger-2: var(--vp-c-red-2);
+  --vp-c-danger-3: var(--vp-c-red-3);
+  --vp-c-danger-soft: var(--vp-c-red-soft);
+}
+
+/**
+ * Component: Button
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-button-brand-border: transparent;
+  --vp-button-brand-text: var(--vp-c-white);
+  --vp-button-brand-bg: var(--vp-c-brand-3);
+  --vp-button-brand-hover-border: transparent;
+  --vp-button-brand-hover-text: var(--vp-c-white);
+  --vp-button-brand-hover-bg: var(--vp-c-brand-2);
+  --vp-button-brand-active-border: transparent;
+  --vp-button-brand-active-text: var(--vp-c-white);
+  --vp-button-brand-active-bg: var(--vp-c-brand-1);
+}
+
+/**
+ * Component: Home
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    120deg,
+    #bd34fe 30%,
+    #41d1ff
+  );
+
+  --vp-home-hero-image-background-image: linear-gradient(
+    -45deg,
+    #bd34fe 50%,
+    #47caff 50%
+  );
+  --vp-home-hero-image-filter: blur(35.2px);
+}
+
+@media (min-width: 512px) {
+  :root {
+    --vp-home-hero-image-filter: blur(44.8px);
+  }
+}
+
+@media (min-width: 768px) {
+  :root {
+    --vp-home-hero-image-filter: blur(54.4px);
+  }
+}
+
+/**
+ * Component: Custom Block
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-custom-block-tip-border: transparent;
+  --vp-custom-block-tip-text: var(--vp-c-text-1);
+  --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
+  --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
+}
+
+/**
+ * Component: Algolia
+ * -------------------------------------------------------------------------- */
+
+.DocSearch {
+  --docsearch-primary-color: var(--vp-c-brand-1) !important;
+}
+
+/* Designer image grid */
+.designer-grid {
+  display: grid;
+  grid-template-columns: calc(66% - 4px) calc(34% - 4px);
+  grid-template-rows: calc(50% - 4px) calc(50% - 4px);
+  grid-gap: 8px;
+  aspect-ratio: 16 / 9;
+}
+
+.designer-grid .left {
+  grid-column: 1 / 2;
+  grid-row: 1 / span 2;
+}
+
+.designer-grid .upper_right {
+  grid-column: 2 / 2;
+  grid-row: 1 / 2;
+}
+
+.designer-grid .lower_right {
+  grid-column: 2 / 2;
+  grid-row: 2 / 2;
+}
+
+.designer-grid .item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

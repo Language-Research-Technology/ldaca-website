@@ -1,0 +1,512 @@
+import { defineConfig, createContentLoader } from 'vitepress'
+import { fileURLToPath, URL } from 'node:url'
+import fs from 'fs'
+import path from 'path'
+import matter from 'gray-matter'
+import { aliasesPlugin } from './plugins/aliases'
+
+function generateGlossaryData() {
+  const glossaryDir = path.join(__dirname, '../content/resources/glossary/items')
+
+  if (!fs.existsSync(glossaryDir)) return []
+
+  return fs.readdirSync(glossaryDir)
+    .filter(f => f.endsWith('.md'))
+    .map(file => {
+      const content = fs.readFileSync(path.join(glossaryDir, file), 'utf-8')
+      const { data } = matter(content)
+      return {
+        id: path.basename(file, '.md'),
+        term: data.term,
+        definition: data.definition
+      }
+    })
+    .sort((a, b) => a.term.localeCompare(b.term))
+}
+
+function generatePagesData() {
+  const contentDir = path.join(__dirname, '../content')
+  if (!fs.existsSync(contentDir)) return {}
+
+  const pages: Record<string, any> = {}
+
+  function walk(dir: string, base = '') {
+    const entries = fs.readdirSync(dir, { withFileTypes: true })
+    for (const entry of entries) {
+      const full = path.join(dir, entry.name)
+      const rel = path.join(base, entry.name)
+      if (entry.isDirectory()) {
+        walk(full, rel)
+      } else if (entry.name === 'index.md') {
+        const content = fs.readFileSync(full, 'utf-8')
+        const { data } = matter(content)
+        let routePath = '/' + rel.replace(/[\\/]index\.md$/, '').replace(/[\\/]+/g, '/')
+        if (routePath.endsWith('/')) routePath = routePath.slice(0, -1)
+        if (routePath === '') routePath = '/'
+        pages[routePath] = {
+          image: data.image,
+          title: data.title,
+          description: data.description,
+          category: data.category,
+          eventDate: data.eventDate,
+          eventTime: data.eventTime,
+          location: data.location,
+          author: data.author,
+        }
+      }
+    }
+  }
+
+  try { walk(contentDir) } catch (e) { /* ignore */ }
+  return pages
+}
+
+function getLatestBlogNavColumn() {
+  const postsDir = path.join(__dirname, '../content/resources/posts')
+  if (!fs.existsSync(postsDir)) {
+    return {
+      title: 'Latest Blog Post',
+      children: [
+        {
+          text: 'Blog',
+          link: '/resources/posts/',
+          image: '/images/Petroglyph_Pattern.svg',
+          bold: true
+        }
+      ]
+    }
+  }
+
+  type PostEntry = {
+    url: string
+    title: string
+    date: number
+    image?: string
+  }
+
+  const posts: PostEntry[] = []
+
+  function walk(dir: string, base = '') {
+    const entries = fs.readdirSync(dir, { withFileTypes: true })
+    for (const entry of entries) {
+      const full = path.join(dir, entry.name)
+      const rel = path.join(base, entry.name)
+
+      if (entry.isDirectory()) {
+        walk(full, rel)
+        continue
+      }
+
+      if (entry.name !== 'index.md') continue
+
+      try {
+        const content = fs.readFileSync(full, 'utf-8')
+        const { data } = matter(content)
+        if (data?.draft) continue
+
+        const timestamp = Date.parse(String(data?.date ?? ''))
+        const slug = rel.replace(/[\\/]index\.md$/, '').replace(/[\\/]+/g, '/').replace(/^\/+|\/+$/g, '')
+        if (!slug) continue
+        const url = slug ? `/resources/posts/${slug}` : '/resources/posts/'
+        const imageRaw = String(data?.image ?? '').trim()
+        const isExternalImage = /^(https?:)?\/\//i.test(imageRaw) || imageRaw.startsWith('data:')
+        const image = !imageRaw
+          ? undefined
+          : imageRaw.startsWith('/') || isExternalImage
+            ? imageRaw
+            : (slug ? `/resources/posts/${slug}/${imageRaw.replace(/^\.?\//, '')}` : `/resources/posts/${imageRaw.replace(/^\.?\//, '')}`)
+
+        posts.push({
+          url,
+          title: String(data?.title ?? '').trim() || 'Untitled post',
+          date: Number.isFinite(timestamp) ? timestamp : fs.statSync(full).mtimeMs,
+          image
+        })
+      } catch (e) {
+        // Ignore invalid post metadata and continue scanning
+      }
+    }
+  }
+
+  walk(postsDir)
+
+  if (!posts.length) {
+    return {
+      title: 'Latest Blog Post',
+      children: [
+        {
+          text: 'Blog',
+          link: '/resources/posts/',
+          image: '/images/Petroglyph_Pattern.svg',
+          bold: true
+        }
+      ]
+    }
+  }
+
+  posts.sort((a, b) => b.date - a.date)
+  const latest = posts[0]
+
+  return {
+    title: 'Latest Blog Post',
+    children: [
+      {
+        text: latest.title || 'Latest blog post',
+        link: latest.url,
+        image: latest.image || '/images/Petroglyph_Pattern.svg',
+        bold: true
+      }
+    ]
+  }
+}
+
+// https://vitepress.dev/reference/site-config
+export default defineConfig({
+  sitemap: {
+    hostname: 'https://www.ldaca.edu.au' // TODO update this to the actual production URL before launch!
+  },
+  // Set GITHUB_PAGES=true when building for GitHub Pages (e.g. https://<user>.github.io/ldaca-website/)
+  base: process.env.GITHUB_PAGES ? '/ldaca-website/' : '/',
+  srcDir: "content",
+  ignoreDeadLinks: true, // Temporarily ignore dead links while site is under development! Verify this!
+  title: "LDaCA",
+  description: "ldaca.edu.au",
+  vite: {
+    resolve: {
+      alias: {
+        '@': fileURLToPath(new URL('.', import.meta.url)),
+        '@/components': fileURLToPath(new URL('./theme/components', import.meta.url)),
+        '@/lib': fileURLToPath(new URL('./theme/lib', import.meta.url))
+      }
+    },
+    plugins: [
+      {
+        name: 'glossary-generator',
+        resolveId(id) {
+          if (id === 'virtual:glossary-data') {
+            return id
+          }
+        },
+        load(id) {
+          if (id === 'virtual:glossary-data') {
+            const data = generateGlossaryData()
+            return `export const glossaryItems = ${JSON.stringify(data)}`
+          }
+        }
+      },
+      {
+        name: 'pages-generator',
+        resolveId(id) {
+          if (id === 'virtual:pages-data') return id
+        },
+        load(id) {
+          if (id === 'virtual:pages-data') {
+            const data = generatePagesData()
+            return `export const pagesData = ${JSON.stringify(data)}`
+          }
+        }
+      },
+      aliasesPlugin(),
+      {
+        name: 'convert-glossary-shortcode',
+        enforce: 'pre',
+        transform(code: string, id: string) {
+          if (!id.endsWith('.md')) return null
+
+          const shortcodeRegex = /\{\{<\s*glossary_link\s+([^>]+)>\}\}/g
+          let replaced = code.replace(shortcodeRegex, (_m, attrs: string) => {
+            const props: Record<string, string> = {}
+            const attrRegex = /(\w+)\s*=\s*"([^"]*)"/g
+            let match: RegExpExecArray | null
+            while ((match = attrRegex.exec(attrs)) !== null) {
+              props[match[1]] = match[2]
+            }
+
+            const display = props.display || ''
+            const gid = props.id || ''
+            if (!display || !gid) return _m
+            return `<GlossaryLink display="${display}" id="${gid}" />`
+          })
+
+          // If GlossaryLink starts a line, Markdown can treat it as an HTML block,
+          // which breaks paragraph-level styling. Prefix with a zero-width space entity
+          // so the component is parsed inline instead.
+          replaced = replaced.replace(/(^|\n)([ \t]*)<GlossaryLink\b/g, '$1$2&#8203;<GlossaryLink')
+
+          if (replaced === code) return null
+          return { code: replaced, map: null }
+        }
+      }
+    ]
+  },
+  themeConfig: {
+    search: {
+      provider: 'local'
+    },
+    // Logo configuration
+    logo: {
+      light: '/images/LDaCAReverseLogo_312x102.svg',
+      dark: '/images/LDaCA_logo_Dark-02-02.svg'
+    },
+    // Header background color
+    headerBgColor: '#383838' as any,
+    // Menu button colors
+    menuButtonColors: {
+      selectedBg: '#1f2937',
+      selectedText: '#ffffffff',
+      unselectedBg: '#f3f4f6',
+      unselectedText: '#111827'
+    } as any,
+    // Button colors
+    buttonColors: {
+      bg: '#79A38D',
+      text: '#ffffff'
+    } as any,
+    // Footer background color
+    footerBgColor: '#EAE4D6' as any,
+    // Custom footer styling options
+    footer: {
+      borderTop: '80px',
+      borderRight: '50vw',
+      borderBottom: '80px',
+      borderLeft: '50vw'
+    } as any,
+    partnerLogos: [
+      { src: "/images/partner-logos/BatchelorInstitute_logo.png", href: 'https://www.batchelor.edu.au/' },
+      { src: "/images/partner-logos/FLA_logo.svg", href: 'https://www.firstlanguages.org.au/' },
+      { src: "/images/partner-logos/QUT.svg", href: 'https://www.qut.edu.au/' },
+      { src: "/images/partner-logos/UoM_logo.svg", href: 'https://www.unimelb.edu.au/' },
+      { src: "/images/partner-logos/Usyd_logo.svg", href: 'https://www.sydney.edu.au/' },
+      { src: "/images/partner-logos/UQlogo-Purple-cmyk.svg", href: 'https://www.uq.edu.au/' },
+      {  src: "/images/partner-logos/ANU_logo.svg", href: 'https://www.anu.edu.au/'}
+    ],
+    // https://vitepress.dev/reference/default-theme-config
+    nav: [
+      // { 
+      //   text: 'Home',
+      //   link: '/',
+      //   siteTitle: false
+      // },
+      // { 
+      //   text: 'Posts',
+      //   link: '/posts/'
+      // },
+      {
+        text: 'Working with data',
+        subtitle: 'Information for working with language data in different ways',
+        items: [
+          { text: 'Find & access', link: '/working-with-data/find-access', image: '/images/how-we-can-help/Share.png' },
+          { text: 'License, share & govern', link: '/working-with-data/license-share-govern', image: '/images/how-we-can-help/Govern.jpg' },
+          { text: 'Organise & describe', link: '/working-with-data/organise-describe', image: '/images/OrganiseandDescribe.jpg'},
+          { text: 'Process & analyse', link: '/working-with-data/process-analyse', image: '/images/how-we-can-help/Process.png' }
+        ]
+      },
+      {
+        text: 'Training & events',
+        link: '/training-events/events',
+        // subtitle: 'Training materials, tutorials, and upcoming and past events',
+        // items: [
+        // { text: 'Training', link: '/training-events/training', image: '/images/subheadings/Training.jpg' },
+        // { text: 'Events', link: '/training-events/events', image: 'https://placehold.co/150x100' }
+        // ]
+      } as any,
+      {
+        text: 'Resources',
+        subtitle: 'Resources from across our ecosystem searchable by type',
+        items: [
+          {
+            title: 'By Type',
+            divider: true,
+            children: [
+              { text: 'Audio & video', link: '/resources/audio-video' },
+              { text: 'Guides', link: '/resources/guides' },
+              { text: 'Interviews', link: '/resources/interviews' },
+              { text: 'Presentations', link: '/resources/presentations' },
+              { text: 'Publications', link: '/resources/publications/' },
+              { text: 'Technologies & tools', link: '/resources/technologies-tools' },
+            ]
+          },
+          // {
+          //   title: 'By Tags',
+          //   divider: true,
+          //   children: (() => {
+          //     // Dynamically get top 5 tags from blog posts
+          //     const postsDir = path.join(__dirname, '../content/resources/posts')
+          //     const tagCounts = {}
+          //     function walk(dir) {
+          //       for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+          //         const full = path.join(dir, entry.name)
+          //         if (entry.isDirectory()) {
+          //           walk(full)
+          //         } else if (entry.name === 'index.md') {
+          //           const content = fs.readFileSync(full, 'utf-8')
+          //           const { data } = matter(content)
+          //           let tags = data.tags || []
+          //           if (typeof tags === 'string') tags = [tags]
+          //           for (const tag of tags) {
+          //             if (!tag) continue
+          //             tagCounts[tag] = (tagCounts[tag] || 0) + 1
+          //           }
+          //         }
+          //       }
+          //     }
+          //     if (fs.existsSync(postsDir)) walk(postsDir)
+          //     const topTags = Object.entries(tagCounts)
+          //       .sort((a, b) => b[1] - a[1])
+          //       .slice(0, 5)
+          //       .map(([tag]) => ({
+          //         text: tag,
+          //         link: `/tags/#${tag.toLowerCase().replace(/\s+/g, '-')}`
+          //       }))
+          //     topTags.push({ text: 'View all', link: '/tags', bold: true })
+          //     return topTags
+          //   })()
+          // },
+          {
+            title: '',
+            divider: true,
+            children: [
+              { text: 'Glossary', link: '/resources/glossary/', bold: true },
+              { text: 'FAQs', link: '/resources/faqs/', bold: true },
+              { text: 'Blog', link: '/resources/posts/', bold: true }
+            ]
+          },
+          {
+            ...getLatestBlogNavColumn(),
+            divider: false
+          }
+        ]
+      } as any,
+      {
+        text: 'Projects & case studies',
+        link: '/projects-case-studies',
+        // subtitle: 'Collaborative projects and in-depth case studies using our tools and approaches',
+        // items: [
+        //   { text: 'Projects', link: '/projects-case-studies/projects', image: '/images/subheadings/Projects.png' },
+        //   { text: 'Case Studies', link: '/projects-case-studies/case-studies/', image: 'https://placehold.co/150x100' }
+        // ]
+      },
+      {
+        text: 'About',
+        subtitle: 'Information about how the project is organised and governed',
+        items: [
+          { text: 'About us', link: '/about/organisation', image: '/images/subheadings/Organisation.png' },
+          { text: 'People', link: '/about/people', image: '/images/subheadings/People.jpg' },
+          { text: 'Documents & policies', link: '/about/documents-policies', image: '/images/subheadings/Policies.jpeg' }
+        ]
+      } as any,
+      {
+        text: 'Contact',
+        link: '/contact/'
+      },
+    ],
+    sidebar: [
+      {
+        text: 'Examples',
+        items: [
+          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'Runtime API Examples', link: '/api-examples' },
+          { text: 'Shadcn UI Example', link: '/shadcn-example' }
+        ]
+      }
+    ],
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+    ]
+  },
+  async buildEnd(siteConfig) {
+    const copied = new Set()
+    const srcDir = siteConfig.srcDir          // e.g. /.../ldaca-website/content
+    const outDir = siteConfig.outDir          // e.g. /.../ldaca-website/.vitepress/dist
+    const CONTENT_GLOBS = [
+      'resources/guides/**/*.md',
+      'resources/posts/**/*.md',
+      'projects-case-studies/**/*.md',
+      'training-events/events/**/*.md',
+      'about/**/*.md'
+    ]
+    const isExternal = (v = '') =>
+      /^(https?:)?\/\//i.test(v) || v.startsWith('data:')
+
+    // Helper to copy a file if it exists, ensuring we only copy each source file once
+    const copyIfExists = (src: string, dst: string) => {
+      if (!fs.existsSync(src)) return
+      fs.mkdirSync(path.dirname(dst), { recursive: true })
+
+      const key = `${src}=>${dst}`
+      if (!copied.has(key)) {
+        fs.copyFileSync(src, dst)
+        copied.add(key)
+      }
+    }
+
+
+    for (const glob of CONTENT_GLOBS) {
+      const items = await createContentLoader(glob).load()
+
+      for (const item of items) {
+        const imageRaw = item?.frontmatter?.image
+        if (!imageRaw) continue
+
+        const image = String(imageRaw).trim()
+        if (isExternal(image)) continue
+
+        const cleanImage = image.split('?')[0].split('#')[0]
+        const normalized = cleanImage.replace(/^\/+/, '')
+        const pagePath = String(item?.url ?? '').replace(/^\/+|\/+$/g, '')
+        const pageDir = pagePath ? path.join(srcDir, pagePath) : srcDir
+
+        if (cleanImage.startsWith('/')) {
+          copyIfExists(path.join(srcDir, normalized), path.join(outDir, normalized))
+          continue
+        }
+
+        const relativeSrc = path.join(pageDir, cleanImage.replace(/^\.\/?/, ''))
+        const relativeDst = path.join(outDir, pagePath, cleanImage.replace(/^\.\/?/, ''))
+        copyIfExists(relativeSrc, relativeDst)
+
+        // Keep the old content-root behavior as a fallback for any pages that already
+        // reference shared assets with site-root style paths.
+        copyIfExists(path.join(srcDir, normalized), path.join(outDir, normalized))
+      }
+    }
+
+    // Copy local media and downloadable files so relative links resolve in dist.
+    const ASSET_EXT = /\.(png|jpe?g|gif|webp|svg|avif|pdf|xlsx?|pptx?|docx?|zip)$/i
+    const walkAndCopyAssets = (dir: string, relBase = '') => {
+      if (!fs.existsSync(dir)) return
+      const entries = fs.readdirSync(dir, { withFileTypes: true })
+
+      for (const entry of entries) {
+        const full = path.join(dir, entry.name)
+        const rel = path.join(relBase, entry.name)
+
+        if (entry.isDirectory()) {
+          walkAndCopyAssets(full, rel)
+          continue
+        }
+
+        if (!ASSET_EXT.test(entry.name)) continue
+        const dst = path.join(outDir, rel)
+        copyIfExists(full, dst)
+      }
+    }
+
+    // Walk content subdirectories where local media and downloadable files are used.
+    const assetRoots = [
+      'training-events/events',
+      'resources/guides',
+      'resources/posts',
+      'resources/publications',
+      'resources/licenses',
+      'projects-case-studies',
+      'about',
+      'about/steering-committee',
+      'contact',
+    ]
+
+    for (const relRoot of assetRoots) {
+      walkAndCopyAssets(path.join(srcDir, relRoot), relRoot)
+    }
+  }
+})

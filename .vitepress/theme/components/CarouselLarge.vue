@@ -1,0 +1,403 @@
+<script setup>
+import { ref, computed, onMounted, onBeforeUnmount, watch, nextTick } from 'vue'
+import { pagesData } from 'virtual:pages-data'
+import { useData, useRoute } from 'vitepress'
+import GlossaryLink from './GlossaryLink.vue'
+import { resolveUrl } from '../lib/url'
+
+const { theme } = useData()
+const route = useRoute()
+const buttonColors = theme.value.buttonColors || { bg: '#79A38D', text: '#ffffff' }
+
+const props = defineProps({
+    heading: {
+        type: String,
+        default: ''
+    },
+    description: {
+        type: String,
+        default: ''
+    },
+    items: {
+        type: Array,
+        required: false,
+        default: () => []
+    },
+    image: {
+        type: Array,
+        required: false,
+        default: () => ['/images/Petroglyph_Pattern.svg']
+    },
+    backgroundColor: {
+        type: String,
+        default: '#f3f0e8'
+    },
+    opacity: {
+        type: Number,
+        default: 100
+    },
+    buttonText: {
+        type: String,
+        default: 'Try it out'
+    },
+    tileView: {
+        type: Boolean,
+        default: false
+    }
+})
+
+// Handle GlossaryLink components
+const descriptionSegments = computed(() => {
+    const text = props.description || ''
+    const segments = []
+    const pattern = /<GlossaryLink\s+([^>]*?)\/?\s*>/g
+    const attrPattern = /(\w+)\s*=\s*"([^"]*)"/g
+    let lastIndex = 0
+    let match
+
+    while ((match = pattern.exec(text)) !== null) {
+        const idx = match.index
+        if (idx > lastIndex) {
+            segments.push({ type: 'text', value: text.slice(lastIndex, idx) })
+        }
+
+        const attrsText = match[1] || ''
+        const attrs = {}
+        let attrMatch
+        while ((attrMatch = attrPattern.exec(attrsText)) !== null) {
+            attrs[attrMatch[1]] = attrMatch[2]
+        }
+
+        if (attrs.display && attrs.id) {
+            segments.push({ type: 'glossary', display: attrs.display, id: attrs.id })
+        } else {
+            segments.push({ type: 'text', value: match[0] })
+        }
+
+        lastIndex = pattern.lastIndex
+    }
+
+    if (lastIndex < text.length) {
+        segments.push({ type: 'text', value: text.slice(lastIndex) })
+    }
+
+    return segments
+})
+
+// Normalize and slugify functions for glossary anchor generation
+const normalizedItems = computed(() =>
+    props.items.map((rawItem) => {
+        const pageMetadata = rawItem.link
+            ? pagesData[rawItem.link]
+            : null
+
+        return {
+            ...rawItem,
+            image:
+                rawItem.image ??
+                pageMetadata?.image ??
+                (Array.isArray(props.image) ? props.image[0] : props.image),
+
+            description:
+                rawItem.description ??
+                pageMetadata?.description,
+        }
+    })
+)
+
+const currentIndex = ref(0)
+const total = computed(() => props.items.length)
+const isLg = ref(false)
+const desktopCarouselHeight = ref(0)
+const measurementRoot = ref(null)
+let resizeFrame = 0
+let measurementObserver = null
+
+// Function to measure the height of the tallest carousel item for desktop layout
+const measureDesktopCarouselHeight = async () => {
+    await nextTick()
+
+    const root = measurementRoot.value
+    if (!root) return
+
+    const heights = Array.from(root.querySelectorAll('[data-carousel-large-measure-item]'))
+        .map((element) => element.getBoundingClientRect().height)
+
+    desktopCarouselHeight.value = heights.length ? Math.ceil(Math.max(...heights)) : 0
+}
+
+const scheduleMeasure = () => {
+    if (resizeFrame) {
+        cancelAnimationFrame(resizeFrame)
+    }
+
+    resizeFrame = requestAnimationFrame(() => {
+        measureDesktopCarouselHeight()
+    })
+}
+
+const updateMatch = (mq) => {
+    isLg.value = mq.matches
+}
+
+let mqListener
+onMounted(() => {
+    const mq = window.matchMedia('(min-width: 819.2px)')
+    updateMatch(mq)
+    mqListener = (event) => updateMatch(event)
+    mq.addEventListener('change', mqListener)
+
+    measurementObserver = new ResizeObserver(() => {
+        scheduleMeasure()
+    })
+
+    if (measurementRoot.value) {
+        measurementObserver.observe(measurementRoot.value)
+    }
+
+    scheduleMeasure()
+    window.addEventListener('resize', scheduleMeasure)
+    window.addEventListener('load', scheduleMeasure)
+})
+
+onBeforeUnmount(() => {
+    const mq = window.matchMedia('(min-width: 819.2px)')
+    mq.removeEventListener('change', mqListener)
+
+    window.removeEventListener('resize', scheduleMeasure)
+    window.removeEventListener('load', scheduleMeasure)
+
+    if (measurementObserver) {
+        measurementObserver.disconnect()
+        measurementObserver = null
+    }
+
+    if (resizeFrame) {
+        cancelAnimationFrame(resizeFrame)
+    }
+})
+
+watch(normalizedItems, scheduleMeasure, { deep: true })
+watch(isLg, scheduleMeasure)
+watch(() => route.path, scheduleMeasure)
+
+const visibleCount = computed(() => {
+    if (total.value === 0) return 0
+    return isLg.value ? Math.min(1, total.value) : 1
+})
+
+const visibleItems = computed(() => {
+    if (total.value === 0) return []
+
+    return Array.from({ length: visibleCount.value }, (_, i) => {
+        return normalizedItems.value[(currentIndex.value + i) % total.value]
+    })
+})
+
+const desktopPanelMinHeight = computed(() => {
+    if (!desktopCarouselHeight.value) return 0
+    return Math.min(desktopCarouselHeight.value, 400)
+})
+
+const desktopItems = computed(() => {
+    return props.tileView ? normalizedItems.value : visibleItems.value
+})
+
+const showArrows = computed(() =>
+    !props.tileView && total.value > visibleCount.value
+)
+
+const prev = () => {
+    if (total.value === 0) return
+    currentIndex.value = (currentIndex.value - 1 + total.value) % total.value
+}
+
+const next = () => {
+    if (total.value === 0) return
+    currentIndex.value = (currentIndex.value + 1) % total.value
+}
+
+const isExternal = (url) => {
+    try {
+        return new URL(url).origin !== window.location.origin
+    } catch {
+        return false
+    }
+}
+</script>
+
+<template>
+    <section class="w-full py-10"
+        :style="props.backgroundColor ? { backgroundColor: props.backgroundColor, opacity: `${props.opacity}%` } : {}">
+        <div class="max-w-[1184px] mx-auto relative px-4 sm:px-6 md:px-8 lg:px-2">
+
+            <!-- Heading -->
+            <div class="mb-12 text-left">
+                <h1 class="mb-0">{{ props.heading }}</h1>
+                <p class="mt-2 mb-6 text-gray-600 text-xl">
+                    <template v-for="(segment, index) in descriptionSegments" :key="index">
+                        <span v-if="segment.type === 'text'">{{ segment.value }}</span>
+                        <GlossaryLink v-else :display="segment.display" :id="segment.id" />
+                    </template>
+                </p>
+            </div>
+
+            <div class="hidden lg:grid lg:grid-cols-[auto_1fr_auto] items-start" :class="{ 'gap-6': showArrows }">
+
+                <!-- LEFT ARROW -->
+                <button v-if="showArrows" type="button" @click="prev"
+                    class="self-start mt-[200px] h-16 w-16 flex items-center justify-center rounded-full bg-[#79a38d] text-white font-sans font-bold text-3xl hover:opacity-80 shadow-sm"
+                    aria-label="Previous">
+                    ←
+                </button>
+
+                <!-- GRID PANELS -->
+                <div class="grid grid-cols-1 gap-10"
+                    :style="desktopPanelMinHeight ? { minHeight: `${desktopPanelMinHeight}px` } : {}">
+
+                    <template v-for="(item, index) in desktopItems" :key="item.title">
+
+                        <div class="grid gap-10 overflow-hidden"
+                            :class="props.tileView && index % 2 === 1
+                                ? 'grid-cols-1 lg:grid-cols-2'
+                                : 'grid-cols-1 lg:grid-cols-2'
+                                ">
+
+                            <!-- IMAGE LEFT -->
+                            <a :href="resolveUrl(item.link)" :target="isExternal(item.link) ? '_blank' : '_self'"
+                                :rel="isExternal(item.link) ? 'noopener noreferrer' : null" class="block h-full"
+                                :class="props.tileView && index % 2 === 1 ? 'lg:order-2' : 'lg:order-1'">
+                                <img :src="resolveUrl(item.image)" :alt="item.title"
+                                    class="w-full h-full object-contain object-center" />
+                            </a>
+
+                            <!-- CONTENT RIGHT -->
+                            <div class="flex flex-col h-full"
+                                :class="props.tileView && index % 2 === 1 ? 'lg:order-1' : 'lg:order-2'">
+                                <!-- Title & description centered vertically -->
+                                <div class="flex-1 flex flex-col justify-center">
+                                    <h2 class="mb-3">{{ item.title }}</h2>
+                                    <p class="leading-relaxed text-l whitespace-pre-line" v-html="item.description">
+                                    </p>
+                                </div>
+
+                                <!-- Buttons at bottom -->
+                                <div v-if="item.link" class="flex flex-wrap gap-4 mt-auto pb-6 pt-6">
+                                    <a :href="resolveUrl(item.link)" :target="isExternal(item.link) ? '_blank' : '_self'"
+                                        :rel="isExternal(item.link) ? 'noopener noreferrer' : null"
+                                        :style="{ backgroundColor: buttonColors.bg, color: buttonColors.text }"
+                                        class="inline-flex items-center justify-center px-6 py-4 text-xl font-bold rounded-lg transition-colors hover:opacity-80">
+                                        {{ props.buttonText }}
+                                    </a>
+
+                                    <a v-if="item.guideLink" :href="resolveUrl(item.guideLink)"
+                                        :target="isExternal(item.guideLink) ? '_blank' : '_self'"
+                                        :rel="isExternal(item.guideLink) ? 'noopener noreferrer' : null"
+                                        class="inline-flex items-center justify-center px-6 py-4 text-xl font-bold rounded-lg bg-[#444544] text-white transition-colors hover:opacity-80">
+                                        Read the user guide
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- DIVIDER: tile view only, and not after the final item -->
+                        <div
+                            v-if="props.tileView && index < desktopItems.length - 1"
+                            class="px-[8px] w-full"
+                        >
+                            <hr class="my-8 border-0 border-t-[2pt] border-dotted border-gray-400">
+                        </div>
+
+                    </template>
+
+                </div>
+
+                <div ref="measurementRoot" aria-hidden="true"
+                    class="absolute inset-0 -z-10 opacity-0 pointer-events-none select-none">
+                    <div class="grid grid-cols-1 gap-6">
+                        <div v-for="item in normalizedItems" :key="`measure-${item.title}`"
+                            data-carousel-large-measure-item class="grid grid-cols-1 lg:grid-cols-2 overflow-hidden">
+
+                            <!-- IMAGE LEFT -->
+                            <img :src="resolveUrl(item.image)" :alt="item.title"
+                                class="w-full h-full object-contain object-center" />
+
+                            <!-- CONTENT RIGHT -->
+                            <div class="flex flex-col h-full">
+                                <div class="flex-1 flex flex-col justify-center">
+                                    <h2 class="mb-3">{{ item.title }}</h2>
+                                    <p class="leading-relaxed text-xl whitespace-pre-line">{{ item.description
+                                    }}</p>
+                                </div>
+
+                                <div class="flex flex-wrap gap-4 mt-auto">
+                                    <a :href="resolveUrl(item.link)" :target="isExternal(item.link) ? '_blank' : '_self'"
+                                        :rel="isExternal(item.link) ? 'noopener noreferrer' : null"
+                                        :style="{ backgroundColor: buttonColors.bg, color: buttonColors.text }"
+                                        class="inline-flex items-center justify-center px-6 py-4 text-xl font-bold rounded-lg transition-colors hover:opacity-80">
+                                        {{ props.buttonText }}
+                                    </a>
+
+                                    <a v-if="item.guideLink" :href="resolveUrl(item.guideLink)"
+                                        :target="isExternal(item.guideLink) ? '_blank' : '_self'"
+                                        :rel="isExternal(item.guideLink) ? 'noopener noreferrer' : null"
+                                        class="inline-flex items-center justify-center px-6 py-4 text-xl font-bold rounded-lg bg-[#444544] text-white transition-colors hover:opacity-80">
+                                        Read the user guide
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RIGHT ARROW -->
+                <button v-if="showArrows" type="button" @click="next"
+                    class="self-start mt-[192px] h-16 w-16 flex items-center justify-center rounded-full bg-[#79a38d] text-white font-sans font-bold text-3xl hover:opacity-80 shadow-sm"
+                    aria-label="Next">
+                    →
+                </button>
+
+            </div>
+
+            <!-- TABLET / MOBILE STACKED PANELS -->
+            <div class="lg:hidden flex flex-col gap-6">
+                <div v-for="item in props.items" :key="item.title" class="overflow-hidden flex flex-col lg:flex-row">
+
+                    <!-- IMAGE TOP -->
+                    <a :href="resolveUrl(item.link)" :target="isExternal(item.link) ? '_blank' : '_self'"
+                        :rel="isExternal(item.link) ? 'noopener noreferrer' : null" class="block">
+                        <img :src="resolveUrl(item.image ?? (Array.isArray(props.image) ? props.image[0] : props.image))"
+                            :alt="item.title" class="w-full h-60 object-contain lg:h-auto lg:w-1/2" />
+                    </a>
+
+                    <!-- CONTENT BOTTOM -->
+                    <div class="flex flex-col px-5 py-5 gap-4 lg:w-1/2 lg:px-6 lg:py-6">
+                        <h3 class="text-2xl font-semibold">{{ item.title }}</h3>
+                        <p class="leading-relaxed flex-1 whitespace-pre-line" v-html="item.description"></p>
+
+                        <!-- Buttons like desktop -->
+                        <div class="flex flex-wrap gap-4 mt-auto">
+                            <a v-if="item.link" :href="resolveUrl(item.link)" :target="isExternal(item.link) ? '_blank' : '_self'"
+                                :rel="isExternal(item.link) ? 'noopener noreferrer' : null"
+                                :style="{ backgroundColor: buttonColors.bg, color: buttonColors.text }"
+                                class="inline-flex items-center justify-center px-6 py-4 text-xl font-bold rounded-lg transition-colors hover:opacity-80">
+                                {{ props.buttonText }}
+                            </a>
+
+                            <a v-if="item.guideLink" :href="resolveUrl(item.guideLink)"
+                                :target="isExternal(item.guideLink) ? '_blank' : '_self'"
+                                :rel="isExternal(item.guideLink) ? 'noopener noreferrer' : null"
+                                class="inline-flex items-center justify-center px-6 py-4 text-xl font-bold rounded-lg bg-[#444544] text-white transition-colors hover:opacity-80">
+                                Read the user guide
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+</template>

@@ -1,5 +1,5 @@
 Name: "ldac"
 "title": "LDAC"
 "short_description": "Language Data Commons"
-"content": 'Language Data Commons. LDAC can refer either to the [schema](https://w3id.org/ldac/terms), [profile](https://w3id.org/ldac/profile) or [modes](https://github.com/Language-Research-Technology/ro-crate-modes/tree/main/modes) associated with it.'
+"content": 'Language Data Commons. LDAC can refer either to the <a href="https://w3id.org/ldac/terms" target="_blank">schema</a>, <a href="https://w3id.org/ldac/profile" target="_blank">profile</a> or <a href="https://github.com/Language-Research-Technology/ro-crate-modes/tree/main/modes" target="_blank">modes</a> associated with it.'
 "external_link": ""

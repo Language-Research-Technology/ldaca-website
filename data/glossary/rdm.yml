@@ -1,4 +1,4 @@
 Name: "rdm"
 "title": "Research Data Management"
 "short_description": "Data management as it relates to a research activity."
-"content": '{{< glossary_link display="Data management" id="data-management" >}} as it relates to a research activity.'
+"content": '<GlossaryLink display="Data management" id="data-management" /> as it relates to a research activity.'

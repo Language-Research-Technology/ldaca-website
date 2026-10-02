@@ -1,267 +1,258 @@
 ## About
 
-This is the source repository for an LDaCA based website
+This is the source repository for an LDaCA based website.
+
+# NEW DESIGN - PROOF OF CONCEPT
 
 # Prerequisites
 
-- [Hugo](https://gohugo.io/installation/) (extended version, required for custom css)
-  - MacOS: Installing it with brew automatically gets you the extended version
-  - Windows: Installing it with package managers: Check that you have installed it with extended version [more](https://gohugo.io/installation/windows/#package-managers)
-  - Linux: With package managers will come with the extended version [more](https://gohugo.io/installation/linux/#package-managers)
-  - Source: From source you will require to install [Go](https://go.dev/doc/install)
-- What hugo version do you have?
-  - Run: `hugo version` example:
-    `hugo v0.110.0+extended darwin/arm64 BuildDate=unknown`
-- Git:
-  - [This](https://www.atlassian.com/git/tutorials/install-git) is a nice guide for you to install git if you do not already have it
+- [Node](https://nodejs.org) 
+  - Follow instructions on how to download on the page above
+  - This was tested using MacOS
+  - Verify installation with packages that you have npm and node commands 
+  - TODO: check what are the node versions this requires
+
+# Notes on specs
+
+- This site is being built using [vitepress](https://vitepress.dev) version 2. See `package.json` for details
+- A `.vitepress` folder is used to theme the website
+- Running a production build will generate static html files that can be served in `.vitepress/dist`
+
 
 # How to use
 
 - Clone the repository
 - Change directory into the repository
-- Add the submodules (Will update [.gitmodules](.gitmodules) file)
-  - Theme
-    - Install `git submodule add https://github.com/dillonzq/LoveIt.git themes/LoveIt`
-  - Embedded pdfs
-    - Install `git submodule add  https://github.com/anvithks/hugo-embed-pdf-shortcode.git themes/hugo-embed-pdf-shortcode`
-  - Update submodules `git submodule update --init --recursive` if required
-- Run `hugo serve`
-  - This will rebuild your website upon file changes and be available on [http://localhost:1313/](http://localhost:1313/) if the port 1313 is free
-  - Optionally run `hugo serve --disableFastRender` which enables full re-renders on changes. This is turned off by default and the website might look different. See [more](https://gohugo.io/commands/hugo_server/).
-- To see what your website **really** looks like generate a `public` folder
-  - Delete the `public` folder if you have one then
-  - Run `hugo`
-  - Then change directory into `public` and run a web server: for example, `python3 -m http.server 8000` with python and go to[ http://localhost:8000/](http://localhost:8000/) to see what it looks like.
+- Run `npm install`
 
-Example:
+### For development
+- Run `npm run dev`
+- See the Local address of where it is being served. Normally it would be 
+   - `Local: http://localhost:5173` but if that port is being used it will push to another port
 
-```sh
-git clone git@github.com:Language-Research-Technology/ya-ldaca-website.git
-cd ldaca-website
-git submodule update --init --recursive
-hugo serve --disableFastRender
-```
+### For QA - Very important! Do not skip
+- See what actually will be produced for production
+- Run `npm run test:production` - this will run vitepress build and preview
+- See the Built address of where it is being served. Normally it would be 
+   - `Built site served at http://localhost:4173/` but if that port is being used it will push to another port
 
-## Git SubModule
+### How to run in production and do updates
 
-Adding the submodule in the step before is required to install the theme used in this Hugo site
-
-The current theme used is called [LoveIt](https://github.com/dillonzq/LoveIt) based on `LeaveIt` and `KeepIt` it has about 2.7K stars and it is updated frequently
+- TODO
 
 # Configuration
 
-Configuring the website is using the `config.toml` file and `assets/css/_custom.scss` file
+Configuring the website is using the `.vitepress/config.ts` file and develop the LDaCA theme in `.vitepress/theme`
 
-The file should be self documented. See [config.toml](./config.toml); you should document as you go.
+# Documentation
 
-# Front Matter
+## Styling
 
-You can specify more metadata for each page you include and it will affect how the page behaves.
+Default styling is handled in `.vitepress/theme/style.css`. Components may also have additional styling within their own `.vue` files, generally in the Tailwind CSS `class=""` sections.
 
-Example:
+## General Tips
 
-Add a table of contents by adding the following into each page.
+- Do not use `_index.md` for root list pages. Instead use `index.md` with `layout: root_list` in the frontmatter. See [RootList](#rootlist) below for more details.
 
-```yaml
+## Page Layouts
+
+All layouts are stored in `/theme/layouts`. To use these, add `layout: layout_name` to the frontmatter of the `.md` file.
+
+### Doc
+
+`layout: doc`
+
+Use this layout as the default for `.md` pages. 
+
+### Event
+
+`layout: event`
+
+Use this layout for events pages, currently stored in `/training-events/events/YYYY`. This layout has two sections:
+- left side: standard Markdown text for event description, videos, etc. taken from the content of the `.md` file
+- right side: an event details box taken from the frontmatter of the `.md` file
+
+Use the following frontmatter template:
+```
 ---
-toc:
-  enable: true
-  auto: true
+title: ""
+description: ""
+layout: event
+image: /path/to/image.png
+link: ""
+eventDate: ""
+eventTime: ""
+location: ""
+cost: ""
+organiser: ""
+pastEvent: false
+---
+```
+NOTE: change `pastEvent` to `true` if this event has finished. This will update the `link` button from displaying 'Register' to 'More information' instead.
+
+See ## Referencing Images for more detail on adding images to frontmatter.
+
+### Post
+
+`layout: post`
+
+Use this layout for blog posts, currently stored in `/resources/posts`. This layout is identical to the `doc` layout, but adds the author to the `SimpleHero` section and contains a link back to 'All Posts' at the top of the page content, as well as the date published.
+
+Use the following frontmatter template:
+```
+---
+title: 
+date: YYYY-MM-DD
+description: ""
+image: /path/to/image.png
+layout: post
+type: 
+author:  <Profile id="smith" />
 ---
 ```
 
-And all your refs like:
+If the blog is a presentation, add `type: presentation` to the frontmatter. This will categorise it as a presentation and display it in the 'Latest Presentations' section on the Resources page, and in the carousel on the Presentations page.
 
-```md
-## This is a #ref on a page
+If the blog is a interview, add `type: interview` to the frontmatter. This will categorise it as an interview and display it in the 'Latest Interviews' section on the Resources page, and in the carousel on the Interviews page.
+
+### Project
+
+`layout: project`
+
+Use this layout for project pages, currently stored in `/projects-case-studies/projects`. This layout has two sections:
+- left side: standard Markdown text for project description, outcomes, further reading, etc. taken from the content of the `.md` file
+- right side: image, project details and information boxes taken from the frontmatter of the `.md` file
+
+Use the following frontmatter template:
 ```
-
-will have a contents dropdown on the page
-
 ---
-
-Example:
-
-Add timestamps and title to your page
-
-```yaml
----
-title: "Resources"
-date: 2022-02-15T17:13:28+10:00
-draft: false
+title: 
+description: 
+collaborator: 
+projectTeam: 
+link: "[howlinkwilldisplay.com](https://url.com)"
+outcomes: "[Project report](https://pdf.pdf) and [online database](https://url.com)"
+information: ""
+image: /path/to/image.png
 ---
 ```
 
-A title will be added to the top of the page and dates could be used if you are using branch page bundle with links to its pages.
+### RootList
 
-## Archetypes
+`layout: root_list`
 
-Preconfigured front matter metadata that are used when doing `hugo new`
+Use this layout for index pages linking to multiple `.md` files. This supercedes the older `_index.md` format for these pages.
 
----
+## Referencing Images
 
-## Empty front matter
+Images are either:
+- stored in the same folder they relate to, e.g. images for a blog post appear in the same folder as the blog's `.md` file, or
+- stored in `/content/public/images` and its subfolders, if the images are more general use.
 
-Sometimes you need to add an empty front matter in order to use some shortcodes, although as a general rule. Always add front matter metadata to your markdown page
+To reference an image in an `.md` file, use the format:
+```
+<figure>
+	<img src="./image.png" alt="Alt text goes here" title="Image title goes here" style="height: 400px;" />
+	<figcaption>Figure 1: The caption displayed beneath the image goes here. (Photo credit goes here)</figcaption>
+</figure>
+```
+NOTE: if using an image from `/content/public/images`, use the path `/images/...` instead.
 
-For more examples see: [LoveIt#front-matter](https://hugoloveit.com/theme-documentation-content/#front-matter) or [Hugo Front Matter](https://gohugo.io/content-management/front-matter/)
+Adjust the height after `style` as needed. This will maintain the aspect ratio of the image while resizing it.
 
-# Adding Content
+For setting thumbnail/preview images to be used on other components and pages, add these to the `image` field in the related `.md` file's frontmatter, and use the full file path after `content` (don't include `content` in the path). For example:
 
-All content is stored in `content` folder.
+`image: "/resources/posts/example-blog/blog-image.png"`
 
-It can be organised using
+## Pull Quotes
 
-- Branch or Leaf styles
+Use the following syntax to create pull quotes in an `.md` file:
 
-You can organise the content by Leaf bundle which means it has no children
-
-- Index filename: `index.md`
-- Allowed Resources: `Page and non-page (like images, PDF, etc.) types`
-- Where can you put it: `At any directory level within the leaf bundle directory.`
-- Layout type: `single`
-- Nesting: `Does not allow nesting of more bundles under it`
-
-**or**
-
-You can organise the content bu Branch which will have a collection of attachments and content, this will be organised as a [List](https://gohugo.io/templates/lists/) If you use list you and include an `_index.md` file in your folder for the purposes of configuring front matter for the lists. You can ommit the `_index.md` name however this will affect children pages on your site.
-
-- Index filename: `_index.md`
-- Allowed Resources: `Only non-page (like images, PDF, etc.) types`
-- Where can you put it: `Only in the directory level of the branch bundle directory i.e. the directory containing the _index.md`
-- Layout type: `list`
-- Nesting: `Allows nesting of leaf or branch bundles under it`
-
-**Note:** When changing from leaf to branch a restart of the hugo server is required.
-
-**Note** Content should be organized in a manner that reflects the rendered website.
-
-**Note** The top levels (i.e. content/<DIRECTORIES>) are special in Hugo and are considered the content type used to determine layouts
-
-This information is copied from [here](https://gohugo.io/content-management/page-bundles)
-
-# Images
-
-1. Using page resources in page bundles. You can reference page resources by the value for Resources.GetMatch or the filepath of the resource relative to the page directory directly.
-2. Store resources in the assets directory, which is /assets by default. The filepath of the resource to reference in the post is relative to the assets directory.
-3. Store resources in the static directory, which is /static by default. The filepath of the resource to reference in the post is relative to the static directory.
-
-## Shortcode
-
-You can add images as shortcodes example:
-
-```go
-{{< image src="/AcknowledgeARDC.png" height=200 >}}
+```
+<p class="pull-quote">
+    Quotation goes here. This will be styled as a pull quote.
+    <cite>Citation information</cite>
+</p>
 ```
 
-Shortcodes will include its theme's css
+## Referencing Glossary Items
 
-## Raw
+To reference glossary terms, use the format:
 
-Or as raw html, then you can include a class you can define in assets/css/\_custom.scss
-
-```go
-{{< raw >}}
-<br/>
-<img src="./ausnc-logo_250px.png" title="AusNC Logo" height=auto class="home_image"/>
-<br/>
-{{< /raw >}}
+```
+<GlossaryLink display="LDaCA" id="ldaca" />
 ```
 
-# Custom CSS
+To add or edit glossary terms, see the `.yml` files in `data/glossary`. To search an `.md` file for possible glossary terms, see `_glossarySearch/glossarySearch.py`.
 
-Use the `assets/css/_custom.scss` file to alter the default style of the theme
+## Referencing Profile Items
 
-Example: Align the title of the text to the left. Sometimes is necessary to use !important sice the style sheet will cascade with other value currently used in the theme.
+To reference a profile item, use the format:
 
-```scss
-.single-title {
-  text-align: left !important;
-}
+```
+<Profile id="smith" />
 ```
 
-# Raw HTML
+If writing a blog post, add the author in the following format in teh frontmatter:
 
-To insert raw html use in each page:
-
-```go
-{{< raw >}}
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WMDduy38zsI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-{{< /raw >}}
+```
+author: '<Profile id="smith" />'
 ```
 
-# More JavaScript
+To add or edit profiles, see the `.yml` files in `data/profiles`.
 
-To add a javascript file either add it in assets or in the conf.toml
+## List of Currently Available Components
 
-Example Twitter Timeline:
+All components are stored in `/theme/components`. To use components, add `<ComponentName />` to the relevant section of your `.md` file, with any properties you need for that component (e.g. `heading`, `description`, `items`). These include:
+| Component | Options |
+| --- | --- |
+| BlogPostsList.vue | N/A |
+| BlogPostsPage.vue | N/A |
+| Carousel.vue | `heading`: text<br>`description`: text<br>`items`: array **OR** `type`: presentation/interview<br>`image`: filepath (default: '/images/Petroglyph_Pattern.svg')<br>`backgroundColor`: colour<br>`opacity`: number (default: 100)<br>`shade`: light (default: dark)<br>`buttonText`: text (default: 'View more')<br>`viewAll`: link<br>`yearFilter`: boolean (default: false)<br>`tileView`: boolean (default: false)<br>`threeTiles`: boolean (default: false) |
+| CarouselLarge.vue | `heading`: text<br>`description`: text<br>`items`: array<br>`image`: filepath (default: '/images/Petroglyph_Pattern.svg')<br>`backgroundColor`: colour (default: '#f3f0e8')<br>`opacity`: number (default: 100)<br>`buttonText`: text (default: 'Try it out')<br>`tileView`: boolean (default: false) |
+| Collaborators.vue | `heading`: text<br>`description`: text<br>`items`: array<br>`backgroundColor`: colour<br>`opacity`: number (default: 100) |
+| CollectionsGrid.vue | `heading`: text<br>`description`: text<br>`backgroundColor`: colour (default: '#79a38d')<br>`backgroundImage`: filepath (default: '/images/Collections_BG.png')<br>`opacity`: number (default: 100)<br>`buttonText`: text (default: 'Learn more') |
+| Contact.vue | `image`: filepath |
+| ContactBox.vue | `heading`: text<br>`description`: text<br>`buttonText`: text<br>`buttonLink`: link |
+| DataPortalBox.vue | `heading`: text<br>`description`: text<br>`buttonText`: text<br>`buttonLink`: link |
+| DocTiles.vue | `heading`: text<br>`items`: array<br>`image`: filepath (default: '/images/Petroglyph_Pattern.svg')<br>`title`: text<br>`link`: link<br>`description`: text |
+| Features.vue | N/A |
+| FeaturesBanner.vue | N/A |
+| Footer.vue | N/A |
+| GlossaryLink.vue | N/A |
+| GlossaryList.vue | N/A |
+| GuideCarousel.vue | `heading`: text<br>`description`: text<br>`items`: array<br>`image`: filepath (default: '/images/Petroglyph_Pattern.svg')<br>`backgroundColor`: colour<br>`opacity`: number (default: 100)<br>`viewAll`: link |
+| Header.vue | N/A |
+| HomeHero.vue | |
+| LatestBlog.vue | N/A |
+| Menu.vue | N/A |
+| PartnerLogos.vue | `logos`: array |
+| People.vue | `heading`: text<br>`description`: text<br>`items`: array<br>`image`: filepath (default: '/images/Petroglyph_Pattern.svg')<br>`name`: text<br>`affiliation`: text<br>`link`: link |
+| Profile.vue | `id`: string |
+| Sidebar.vue | N/A |
+| SimpleHero.vue | `title`: text<br>`description`: text<br>`backgroundImage`: filepath (default: '/images/GreenBackground.png')<br>`breadcrumb`: text |
+| SimpleNavigation.vue | `title`: text<br>`description`: text<br>`contents`: array |
+| TagsList.vue | N/A |
+| ThreeTiles.vue | `heading`: text`items`: array<br>`image`: filepath (default: '/images/Petroglyph_Pattern.svg')<br>`backgroundColor`: colour<br>`opacity`: number (default: 100)<br>`shade`: light (default: dark) |
+| ToolsGrid.vue | `heading`: text<br>`description`: text<br>`backgroundColor`: colour (default: '#79a38d')<br>`backgroundImage`: filepath (default: '/images/Collections_BG.png')<br>`opacity`: number (default: 100)<br>`buttonText`: text (default: 'Learn more')<br>`crateUrl`: filepath or url to ro-crate-metadata.json |
+| TwoTiles.vue | `heading`: text`items`: array **OR** `type`: presentation<br>`image`: filepath (default: '/images/Petroglyph_Pattern.svg')<br>`buttonText`: text (default: 'View all')<br>`viewAll`: link |
+| VerticalTabs.vue | `heading`: text<br>`description`: text<br>`background`: colour<br>`items`: array |
+| VerticalTabsBanner.vue | `heading`: text<br>`description`: text<br>`background`: colour<br>`items`: array<br>`buttonText`: text (default: 'Find out more') |
 
-```toml
-    [params.page.library]
-      [params.page.library.js]
-        twitterWidgets = "https://platform.twitter.com/widgets.js"
-```
 
-It will then be available for any page
+- How to use Tailwind /CSS in place
+- Blog Post
 
-# Posts
+# TODO Development
 
-Blog posts are organised as folders for better access of its resources the same as in content.
+- Tags <Not developed>
+- Footer <Not finished>
+- Search <Not developed>
+- Analytics Page <Not developed>
+- Menu filter by tag? Resources menu
 
-If you organise your page bundle as a single page
-
-Include a folder:
-
-`/posts/post-number-1/`
-
-`index.md` will have the markdown
-`image1.png` some image
-`file.pdf` some file
-
-In each folder your single page will have access to the resources relative to its location, example:
-
-index.md:
-
-```md
-![alt text](image1.png "Some Alternative text shown below the image")
-[Download File](file.pdf)
-```
-
-# Data Folder
-
-The data folder can be used to generate data driven content
-
-Example:
-
-- [Create a photo gallery](https://github.com/jochumdev/hugo-lightslider-example)
-
-[More](https://gohugo.io/templates/data-templates/)
-
-# Layouts
-
-Layouts are used to replace current theme behaviour. There is only one file changed in the theme and that is the 404 page which includes an image that can be provided via configuration
-
-It is best to use layouts as little as possible because when the Themes are updated it would become very hard to mantain and update Hugo and the themes.
-
-# How to embed PDFs
-
-1. Add a file in the folder you are working on
-2. Add the following shortcode
-```md
-{{< embed-pdf url="./your_file_here.pdf" >}}
-```
-
-For more details on how to use this go to: https://github.com/anvithks/hugo-embed-pdf-shortcode
-
-# Recomendations
-
-- Try only to modify the `content` folder and install all of the images/files in each page bundle.
-- Document as you go by editing the config.toml file and delete configurations that are not used
-- If you cannot achieve the style you required try to modify first the assets/css/\_custom.scss first before adding a new layout
-- Your content should be organized in a manner that reflects the rendered website. [more](https://gohugo.io/content-management/organization/#organization-of-content-source)
-- When switching from page bundle types, stop `hugo serve` and start again to see changes reflected becuase the live reload does not capture this.
-- Build your site using `hugo` and test it with a basic http server
-
-# Notes
-
-- Twitter timeline sometimes is not being picked up by the hot-reloading. Test it with a static site/server
+# TODO Cleanups
+- Remove old Hugo Files
+- How to run updates/production
+- Configure .github/workflows
+- about/sample-collections.md

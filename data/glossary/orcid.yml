@@ -1,5 +1,5 @@
 Name: "orcid"
 "title": "ORCID"
 "short_description": "Open Researcher and Contributor ID"
-"content": 'Open Researcher and Contributor ID. A registry providing globally unique persistent identifiers ({{< glossary_link display="PIDs" id="pid" >}}) for researchers, authors and contributors of scholarly works.'
+"content": 'Open Researcher and Contributor ID. A registry providing globally unique persistent identifiers (<GlossaryLink display="PIDs" id="pid" />) for researchers, authors and contributors of scholarly works.'
 "external_link": "https://orcid.org/"

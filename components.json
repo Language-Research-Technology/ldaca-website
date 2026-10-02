@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "default",
+  "tailwind": {
+    "config": "tailwind.config.js",
+    "css": ".vitepress/theme/style.css",
+    "baseColor": "slate"
+  },
+  "framework": "vitepress",
+  "tsx": false,
+  "aliases": {
+    "components": ".vitepress/theme/components",
+    "utils": ".vitepress/theme/lib/utils",
+    "ui": ".vitepress/theme/components/ui"
+  }
+}

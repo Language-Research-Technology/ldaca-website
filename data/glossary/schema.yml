@@ -1,5 +1,5 @@
 Name: "schema"
 "title": "Schema"
 "short_description": "Specifies a metadata vocabulary of Classes and Properties, based on the RO-Crate specification's use of Schema.org classes."
-"content": 'Specifies a {{< glossary_link display="metadata" id="metadata" >}} vocabulary of {{< glossary_link display="Classes" id="class" >}} and {{< glossary_link display="Properties" id="property" >}}, based on the {{< glossary_link display="RO-Crate" id="ro-crate" >}} specification’s use of [Schema.org](https://schema.org/) classes.'
+"content": 'Specifies a <GlossaryLink display="metadata" id="metadata" /> vocabulary of <GlossaryLink display="Classes" id="class" /> and <GlossaryLink display="Properties" id="property" />, based on the <GlossaryLink display="RO-Crate" id="ro-crate" /> specification’s use of <a href="https://schema.org/" target="_blank">Schema.org</a> classes.'
 "external_link": ""

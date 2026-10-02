@@ -1,0 +1,65 @@
+// https://vitepress.dev/guide/custom-theme
+import { h } from 'vue'
+import type { Theme } from 'vitepress'
+import Layout from './Layout.vue'
+import GlossaryLink from './components/GlossaryLink.vue'
+import GlossaryList from './components/GlossaryList.vue'
+import BlogPostsPage from './components/BlogPostsPage.vue'
+import BlogPostsList from './components/BlogPostsList.vue'
+import Profile from './components/Profile.vue'
+import DataPortalBox from './components/DataPortalBox.vue'
+import Carousel from './components/Carousel.vue'
+import CarouselLarge from './components/CarouselLarge.vue'
+import LatestPublications from './components/LatestPublications.vue'
+import SimpleHero from './components/SimpleHero.vue'
+import SimpleNavigation from './components/SimpleNavigation.vue'
+import GuideCarousel from './components/GuideCarousel.vue'
+import ContactBox from './components/ContactBox.vue'
+import ThreeTiles from './components/ThreeTiles.vue'
+import TwoTiles from './components/TwoTiles.vue'
+import Collaborators from './components/Collaborators.vue'
+import CollectionsGrid from './components/CollectionsGrid.vue'
+import People from './components/People.vue'
+import DocTiles from './components/DocTiles.vue'
+import GuideTiles from './components/GuideTiles.vue'
+import VerticalTabs from './components/VerticalTabs.vue'
+import VerticalTabsBanner from './components/VerticalTabsBanner.vue'
+import Contact from './components/Contact.vue'
+import ToolsGrid from './components/ToolsGrid.vue'
+import DefaultTheme from 'vitepress/theme'
+import './style.css'
+import '@fontsource/work-sans/400.css'
+import '@fontsource/work-sans/500.css'
+import '@fontsource/work-sans/600.css'
+import '@fontsource/work-sans/700.css'
+
+export default {
+  ...DefaultTheme,
+  enhanceApp({ app }) {
+    app.component('GlossaryLink', GlossaryLink)
+    app.component('GlossaryList', GlossaryList)
+    app.component('BlogPostsPage', BlogPostsPage)
+    app.component('Profile', Profile)
+    app.component('DataPortalBox', DataPortalBox)
+    app.component('BlogPostsList', BlogPostsList)
+    app.component('Carousel', Carousel)
+    app.component('CarouselLarge', CarouselLarge)
+    app.component('LatestPublications', LatestPublications)
+    app.component('SimpleHero', SimpleHero)
+    app.component('SimpleNavigation', SimpleNavigation)
+    app.component('GuideCarousel', GuideCarousel)
+    app.component('ContactBox', ContactBox)
+    app.component('ThreeTiles', ThreeTiles)
+    app.component('TwoTiles', TwoTiles)
+    app.component('Collaborators', Collaborators)
+    app.component('CollectionsGrid', CollectionsGrid)
+    app.component('People', People)
+    app.component('DocTiles', DocTiles)
+    app.component('GuideTiles', GuideTiles)
+    app.component('VerticalTabs', VerticalTabs)
+    app.component('VerticalTabsBanner', VerticalTabsBanner)
+    app.component('Contact', Contact)
+    app.component('ToolsGrid', ToolsGrid)
+  },
+  Layout: Layout,
+} satisfies Theme

@@ -6,3 +6,7 @@ resources/_gen/
 .hugo_build.lock
 node_modules
 .vitepress/dist
+.vitepress/cache
+package-lock.json
+node_modules/.package-lock.json
+.vitepress/cache/deps/_metadata.json
