@@ -161,7 +161,27 @@ function getLatestBlogNavColumn() {
 }
 
 // https://vitepress.dev/reference/site-config
+const gaMeasurementId = process.env.NODE_ENV === 'production'
+  ? 'G-C3GSGXCYV6'
+  : undefined
+
+if (gaMeasurementId && !/^G-[A-Z0-9]+$/.test(gaMeasurementId)) {
+  throw new Error('GA_MEASUREMENT_ID must be a valid GA4 Measurement ID (G-XXXXXXXXXX).')
+}
+
 export default defineConfig({
+  head: gaMeasurementId ? [
+    ['script', {
+      async: '',
+      src: `https://www.googletagmanager.com/gtag/js?id=${gaMeasurementId}`
+    }],
+    ['script', {}, `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '${gaMeasurementId}');
+    `]
+  ] : [],
   sitemap: {
     hostname: 'https://www.ldaca.edu.au' // TODO update this to the actual production URL before launch!
   },
