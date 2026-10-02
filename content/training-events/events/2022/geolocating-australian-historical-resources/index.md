@@ -1,5 +1,5 @@
 ---
-title: "Geolocating Australian Historical Resources"
+title: "Geolocating Australian historical resources"
 description: "This workshop was part of the Australian Society of Archivists 2022 Conference."
 layout: event
 image: 

@@ -1,5 +1,5 @@
 ---
-title: "AI and Language Data: Setting the Groundwork for 2026"
+title: "AI and language data: Setting the groundwork for 2026"
 date: 2025-12-17T16:34:20+11:00
 draft: false
 description: "LDaCA is assembling a working party of those in our network using AI in their research. We intend to release advice covering particular AI systems, to be used as a guide for creating and working with language data using AI."

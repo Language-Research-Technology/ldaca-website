@@ -1,5 +1,5 @@
 ---
-title: "Professional and Personal growth: Reflections from the AIATSIS Summit 2026"
+title: "Professional and personal growth: Reflections from the AIATSIS Summit 2026"
 date: 2026-06-11
 draft: false
 description: "ARDC intern Blanche Alexander reflects on her experience at the AIATSIS Summit 2026."

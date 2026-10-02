@@ -1,5 +1,5 @@
 ---
-title: RO-Crate Clinic Drop-in
+title: RO-Crate clinic drop-in
 description: "The RO-Crate community run a weekly drop-in call in Australia. For further information contact Peter Sefton."
 layout: event
 image: "https://language-research-technology.github.io/crate-o/logo.svg"

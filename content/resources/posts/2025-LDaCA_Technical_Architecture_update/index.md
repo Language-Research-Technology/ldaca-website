@@ -1,5 +1,5 @@
 ---
-title: "LDaCA Technical Architecture update 2025"
+title: "LDaCA technical architecture update 2025"
 date: 2025-09-17T14:29:40+10:00
 draft: false
 description: "Refresh your knowledge of the principles behind our technical architecture and discover some recent developments, including how we are harmonising the open source tools used across our network of collaborators."

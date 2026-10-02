@@ -1,6 +1,6 @@
 ---
 
-title: "Towards a Generic Research Data Commons: A highly scalable standards-based repository framework for Language and other Humanities data"
+title: "Towards a generic Research Data Commons: A highly scalable standards-based repository framework for Language and other Humanities data"
 date: "2023-06-29"
 slug: "arkisto-stack-or-2023"
 categories: ["LDaCA"]

@@ -41,21 +41,21 @@ title: "Technologies & tools"
       actionText: 'Get code'
     },
         {
-      title: 'arocapi',
+      title: 'Arocapi',
       description: 'Arocapi is an RO-Crate-based API for building data collections, archives and access-controlled data portals, designed to support long-term archival repository services.',
       image: '/images/PlainBackgrounds/Greenplain.png',
       link: 'https://github.com/Language-Research-Technology/arocapi',
       actionText: 'Get code'
     },
         {
-      title: 'crate-o',
+      title: 'Crate-O',
       description: 'Crate-O is a web-based editor for creating and editing RO-Crate metadata, providing an interface for describing datasets and other research materials.',
       image: '/images/PlainBackgrounds/Altblack.png',
       link: 'https://github.com/Language-Research-Technology/crate-o',
       actionText: 'Get code'
     },
         {
-      title: 'ro-crate-playground',
+      title: 'RO-Crate Playground',
       description: 'The RO-Crate Playground is a browser-based environment for learning, experimenting with and prototyping RO-Crate, allowing users to explore how RO-Crates work.',
       image: '/images/PlainBackgrounds/Altorange.png',
       link: 'https://github.com/Language-Research-Technology/ro-crate-playground',

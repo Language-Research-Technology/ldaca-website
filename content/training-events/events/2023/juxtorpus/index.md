@@ -1,5 +1,5 @@
 ---
-title: "Exploring Digital Text Collections with Juxtorpus: A Taster Webinar on the Latest ATAP Text Analysis Tool"
+title: "Exploring digital text collections with Juxtorpus: A taster webinar on the latest ATAP text analysis tool"
 description: "This webinar introduced the latest addition to the suite of Australian Text Analytics Platform (ATAP) text analysis tools — Juxtorpus. Developed to provide a unified framework for managing and exploring text contents and metadata, Juxtorpus offers a Corpus package that enables flexible building, exploration and slicing of your corpus while maintaining its shape."
 layout: event
 image: 

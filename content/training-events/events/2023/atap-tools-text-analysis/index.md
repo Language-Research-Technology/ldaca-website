@@ -1,5 +1,5 @@
 ---
-title: "Australian Text Analytics Platform: New tools for text analysis"
+title: "Australian Text Analytics platform: New tools for text analysis"
 description: "The main means of delivery for the Australian Text Analytics Platform (ATAP) is Jupyter notebooks and this half-day workshop began with a brief introduction to notebooks for participants not already familiar with the technology. The main body of the workshop introduced two tools made available by ATAP, and the session ended with a short summary of other tools being developed in recent work."
 layout: event
 image: "https://languages-cultures.uq.edu.au/files/26797/ISLE%207%20logo.png"

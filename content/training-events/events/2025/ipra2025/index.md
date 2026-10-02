@@ -1,5 +1,5 @@
 ---
-title: "IPrA2025: The Pragmatics of Indigenous Languages"
+title: "IPrA2025: The pragmatics of Indigenous languages"
 description: "The Pragmatics of Indigenous Languages panel showcased efforts by researchers and practitioners who are working with communities on the use of Indigenous languages in the Australian context, as well as to discuss the complex issues such work inevitably raises."
 layout: event
 image: "https://cdn.ymaws.com/pragmatics.international/graphics/logo.jpg"

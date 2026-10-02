@@ -62,7 +62,7 @@ title: "Organise & describe"
         buttonColor:'#393939',
       },
       {
-        title: 'Crate-O User Guide',
+        title: 'Crate-O user guide',
         description: 'A practical guide to using Crate-O, covering key RO-Crate and metadata concepts, navigating the interface, creating RO-Crates and adding metadata in bulk using spreadsheets.',
         image: '/resources/guides/crate-o/ro-crate-creation/add_entity_metadata.png',
         link: '/resources/guides/crate-o',
@@ -118,7 +118,7 @@ title: "Organise & describe"
   heading="ADDITIONAL RESOURCES"
   :items="[
       {
-        title: 'Language Data Commons Schema Terms',
+        title: 'Language Data Commons schema terms',
         description: 'This is a language data schema, in the style of the Schema.org schema. It is based on OLAC terms for use in the LDaCA project. This schema builds on Schema.org and is intended to be used with the Language Data Commons RO-Crate Profile.',
         image:'/images/PlainBackgrounds/Green.png',
         link: 'https://w3id.org/ldac/terms',

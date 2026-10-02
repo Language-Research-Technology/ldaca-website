@@ -1,5 +1,5 @@
 ---
-title: "Safeguarding Cultural Heritage: The Essential Role of Archiving and Data Management"
+title: "Safeguarding cultural heritage: The essential role of archiving and data management"
 date: 2024-07-09T16:24:18+10:00
 draft: false
 # tags: ["Archiving", "Data management"]

@@ -1,5 +1,5 @@
 ---
-title: "Understanding Society Through Data: A Cross-Infrastructure Showcase"
+title: "Understanding society through data: A cross-infrastructure showcase"
 description: "The ARDC Indigenous Data Governance Masterclass equipped participants with the knowledge and tools to ethically manage Indigenous data, respecting the cultural protocols and sovereignty of Indigenous communities."
 layout: event
 image: "https://images.humanitix.com/i/51ff1a7b-bd52-4cd8-88b4-829732957f37.png@responsive-1250.avif"

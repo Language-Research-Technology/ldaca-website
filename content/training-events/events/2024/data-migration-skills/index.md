@@ -1,5 +1,5 @@
 ---
-title: "Data Migration Skills Workshop"
+title: "Data migration skills workshop"
 description: "This workshop aimed to show the application of LDaCA tools to data in a variety of formats to efficiently migrate material to the LDaCA standards."
 layout: event
 image: 

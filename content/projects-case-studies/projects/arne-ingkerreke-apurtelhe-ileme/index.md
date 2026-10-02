@@ -1,21 +1,21 @@
 ---
-title: "Arne ingkerreke apurtelhe ileme: Gathering all the things together"
-description: "A project with Batchelor Institute that brings together the incredible life's work of Veronica Perrurle Dobson AM.\nThis project is a guide to Veronica's life, work and publications, and contains links to archival collections of her work."
+title: "Arne ingkerreke apurtelhe-ileme: Gathering all the things together"
+description: "A project with Batchelor Institute that brings together the incredible life's work of Veronica Perrurle Dobson AM."
 layout: project
-collaboratorLogo: "/images/partner-logos/BatchelorInstitute_logo.png"
 collaborator: Batchelor Institute of Indigenous Tertiary Education
 projectTeam: "Veronica Dobson\nCamille Dobson\nAngela Harrison\nDr Jennifer Green\nDr Ben Foley"
 link: "[veronicadobson.au](https://www.veronicadobson.au/)"
 outcomes:
 information:
 image: '/resources/posts/VeronicaDobson-launch2025/VPD_thumbnail.png'
+
 ---
 
-**Many archival collections revolve around non-Indigenous collectors who have recorded and accumulated material over their lifetime.**
+**The Arne ingkerreke apurtelhe-ileme project is a guide to Veronica's life, work and publications, and contains links to archival collections of her work.**
 
-In collaboration with the Centre for Australian Languages and Linguistics (CALL) at Batchelor Institute of Indigenous Tertiary Education, we developed a pilot “person-centred collection”. Person-centred collections reframe our focus and enhance our understanding of collection items by showing them as the cohesive work of an Indigenous knowledge holder. The Arne ingkerreke apurtelhe ileme (Gathering all the things together) project brought together the incredible life’s work of Veronica Perrurle Dobson (AM).
+Veronica Dobson is an Eastern Arrernte elder, linguist, educator, author and ecologist, whose advocacy and work for language and culture is widely recognised and deeply respected. For over four decades, she has worked in many interrelated fields — language documentation and teaching, lexicography, interpreting, ethnobiology, and land management.
 
-# Outcomes and learnings
+In collaboration with the Centre for Australian Languages and Linguistics (CALL) at Batchelor Institute of Indigenous Tertiary Education, we helped bring together Veronica's significant body of work as Arne ingkerreke apurtelhe-ileme (Gathering all the things together).
 
 # Further reading
 
