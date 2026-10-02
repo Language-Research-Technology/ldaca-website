@@ -1,6 +1,7 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue'
 import { ROCrate } from 'ro-crate'
+import { resolveUrl } from '../lib/url'
 
 const API_URL = 'https://data.ldaca.edu.au/api/object?memberOf=null'
 
@@ -226,7 +227,7 @@ const portalLink = computed(() => {
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         <div v-for="(item, index) in paginatedCollections" :key="`${item.link}-${index}`"
           class="rounded-t-2xl shadow-sm overflow-hidden flex flex-col" :style="{
-            backgroundImage: `url(${props.backgroundImage})`,
+            backgroundImage: `url(${resolveUrl(props.backgroundImage)})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat'

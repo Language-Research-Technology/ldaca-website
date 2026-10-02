@@ -1,6 +1,7 @@
 <script setup>
 import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
 import { pagesData } from 'virtual:pages-data'
+import { resolveUrl } from '../lib/url'
 
 const props = defineProps({
     heading: {
@@ -120,10 +121,10 @@ const isExternal = (url) => {
 
             <!-- LARGE TILE -->
             <article v-if="visibleItems[0]" class="relative overflow-hidden shadow-xl min-h-[416px] w-full h-[650px]">
-                <a :href="visibleItems[0].link" :target="isExternal(visibleItems[0].link) ? '_blank' : '_self'"
+                <a :href="resolveUrl(visibleItems[0].link)" :target="isExternal(visibleItems[0].link) ? '_blank' : '_self'"
                     :rel="isExternal(visibleItems[0].link) ? 'noopener noreferrer' : null"
                     class="absolute inset-0 block">
-                    <img :src="visibleItems[0].image" :alt="visibleItems[0].title"
+                    <img :src="resolveUrl(visibleItems[0].image)" :alt="visibleItems[0].title"
                         class="h-full w-full object-cover bg-[#79a38d]" />
                 </a>
 
@@ -132,7 +133,7 @@ const isExternal = (url) => {
                         <p class="text-white mb-1">{{ visibleItems[0].category }}</p>
                         <h3 class="text-white mt-0 mb-1">{{ visibleItems[0].title }}</h3>
 
-                        <a :href="visibleItems[0].link" :target="isExternal(visibleItems[0].link) ? '_blank' : '_self'"
+                        <a :href="resolveUrl(visibleItems[0].link)" :target="isExternal(visibleItems[0].link) ? '_blank' : '_self'"
                             :rel="isExternal(visibleItems[0].link) ? 'noopener noreferrer' : null"
                             class="mt-1 inline-flex items-center text-white text-xl font-bold hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8">
                             View
@@ -147,10 +148,10 @@ const isExternal = (url) => {
 
                 <!-- TOP RIGHT TILE -->
                 <article v-if="visibleItems[1]" class="relative overflow-hidden shadow-xl w-full h-full">
-                    <a :href="visibleItems[1].link" :target="isExternal(visibleItems[1].link) ? '_blank' : '_self'"
+                    <a :href="resolveUrl(visibleItems[1].link)" :target="isExternal(visibleItems[1].link) ? '_blank' : '_self'"
                         :rel="isExternal(visibleItems[1].link) ? 'noopener noreferrer' : null"
                         class="absolute inset-0 block">
-                        <img :src="visibleItems[1].image" :alt="visibleItems[1].title"
+                        <img :src="resolveUrl(visibleItems[1].image)" :alt="visibleItems[1].title"
                             class="h-full w-full object-cover bg-[#79a38d]" />
                     </a>
 
@@ -159,7 +160,7 @@ const isExternal = (url) => {
                             <p class="text-white mb-1">{{ visibleItems[1].category }}</p>
                             <h3 class="text-white mt-0 mb-1">{{ visibleItems[1].title }}</h3>
 
-                            <a :href="visibleItems[1].link"
+                            <a :href="resolveUrl(visibleItems[1].link)"
                                 :target="isExternal(visibleItems[1].link) ? '_blank' : '_self'"
                                 :rel="isExternal(visibleItems[1].link) ? 'noopener noreferrer' : null"
                                 class="mt-1 inline-flex items-center text-white text-xl font-bold hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8">
@@ -172,10 +173,10 @@ const isExternal = (url) => {
 
                 <!-- BOTTOM RIGHT TILE -->
                 <article v-if="visibleItems[2]" class="relative overflow-hidden shadow-xl w-full h-full">
-                    <a :href="visibleItems[2].link" :target="isExternal(visibleItems[2].link) ? '_blank' : '_self'"
+                    <a :href="resolveUrl(visibleItems[2].link)" :target="isExternal(visibleItems[2].link) ? '_blank' : '_self'"
                         :rel="isExternal(visibleItems[2].link) ? 'noopener noreferrer' : null"
                         class="absolute inset-0 block">
-                        <img :src="visibleItems[2].image" :alt="visibleItems[2].title"
+                        <img :src="resolveUrl(visibleItems[2].image)" :alt="visibleItems[2].title"
                             class="h-full w-full object-cover bg-[#79a38d]" />
                     </a>
 
@@ -184,7 +185,7 @@ const isExternal = (url) => {
                             <p class="text-white mb-1">{{ visibleItems[2].category }}</p>
                             <h3 class="text-white mt-0 mb-1">{{ visibleItems[2].title }}</h3>
 
-                            <a :href="visibleItems[2].link"
+                            <a :href="resolveUrl(visibleItems[2].link)"
                                 :target="isExternal(visibleItems[2].link) ? '_blank' : '_self'"
                                 :rel="isExternal(visibleItems[2].link) ? 'noopener noreferrer' : null"
                                 class="mt-1 inline-flex items-center text-white text-xl font-bold hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8">
@@ -204,9 +205,9 @@ const isExternal = (url) => {
 
             <article v-for="item in props.items" :key="item.title"
                 class="relative overflow-hidden shadow-xl w-full h-full min-h-[240px]">
-                <a :href="item.link" :target="isExternal(item.link) ? '_blank' : '_self'"
+                <a :href="resolveUrl(item.link)" :target="isExternal(item.link) ? '_blank' : '_self'"
                     :rel="isExternal(item.link) ? 'noopener noreferrer' : null" class="absolute inset-0 block">
-                    <img :src="item.image ?? (Array.isArray(props.image) ? props.image[0] : props.image)"
+                    <img :src="resolveUrl(item.image ?? (Array.isArray(props.image) ? props.image[0] : props.image))"
                         :alt="item.title" class="h-full w-full object-cover bg-[#79a38d]" />
                 </a>
 
@@ -215,7 +216,7 @@ const isExternal = (url) => {
                         <p class="text-white">{{ item.category }}</p>
                         <h3 class="text-white">{{ item.title }}</h3>
 
-                        <a :href="item.link"
+                        <a :href="resolveUrl(item.link)"
                             class="mt-3 inline-flex items-center text-white text-xl font-bold hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8">
                             View
                         </a>

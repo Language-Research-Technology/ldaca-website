@@ -2,6 +2,7 @@
 import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
 import { pagesData } from 'virtual:pages-data'
 import { useData } from 'vitepress'
+import { resolveUrl } from '../lib/url'
 
 const { theme } = useData()
 const buttonColors = theme.value.buttonColors || { bg: '#79A38D', text: '#ffffff' }
@@ -151,7 +152,7 @@ const isExternal = (url) => {
 
                     <a
                         v-if="props.viewAll"
-                        :href="props.viewAll"
+                        :href="resolveUrl(props.viewAll)"
                         :style="{
                             backgroundColor: buttonColors.bg,
                             color: buttonColors.text
@@ -196,7 +197,7 @@ const isExternal = (url) => {
                         :key="item.title"
                         class="relative overflow-hidden flex flex-col justify-start h-[440px] p-10 text-white"
                         :style="{
-                            backgroundImage: `url(${item.image})`,
+                            backgroundImage: `url(${resolveUrl(item.image)})`,
                             backgroundSize: 'cover',
                             backgroundPosition: 'bottom',
                             backgroundRepeat: 'no-repeat'
@@ -242,7 +243,7 @@ const isExternal = (url) => {
 
                             <h2 class="text-white mb-6">
                                 <a
-                                    :href="item.link"
+                                    :href="resolveUrl(item.link)"
                                     :target="isExternal(item.link) ? '_blank' : '_self'"
                                     :rel="isExternal(item.link) ? 'noopener noreferrer' : null"
                                     class="hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8"
@@ -273,7 +274,7 @@ const isExternal = (url) => {
 
                             <div class="flex flex-wrap gap-4 mt-auto">
                                 <a
-                                    :href="item.link"
+                                    :href="resolveUrl(item.link)"
                                     :target="isExternal(item.link) ? '_blank' : '_self'"
                                     :rel="isExternal(item.link) ? 'noopener noreferrer' : null"
                                     :style="{
@@ -318,7 +319,7 @@ const isExternal = (url) => {
                 >
 
                     <img
-                        :src="item.image ?? (Array.isArray(props.image) ? props.image[0] : props.image)"
+                        :src="resolveUrl(item.image ?? (Array.isArray(props.image) ? props.image[0] : props.image))"
                         :alt="item.title"
                         class="w-full object-cover h-60"
                     />
@@ -332,7 +333,7 @@ const isExternal = (url) => {
 
                         <h3 class="text-white">
                             <a
-                                :href="item.link"
+                                :href="resolveUrl(item.link)"
                                 :target="isExternal(item.link) ? '_blank' : '_self'"
                                 :rel="isExternal(item.link) ? 'noopener noreferrer' : null"
                                 class="hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8"
@@ -348,7 +349,7 @@ const isExternal = (url) => {
                     </div>
 
                     <a
-                        :href="item.link"
+                        :href="resolveUrl(item.link)"
                         :target="isExternal(item.link) ? '_blank' : '_self'"
                         :rel="isExternal(item.link) ? 'noopener noreferrer' : null"
                         :style="{

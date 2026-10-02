@@ -188,7 +188,7 @@ In brief, the four principles are:
 
 **Find out more about FAIR and CARE:**
 
-- [CARE Principles for Indigenous Data Governance](https://www.gida-global.org/care) (Global Indigenous Data Alliance)
+- [CARE Principles for Indigenous Data Governance](https://www.gida-global.org/careprinciples) (Global Indigenous Data Alliance)
 - [CARE Principles](https://ardc.edu.au/resource/the-care-principles/) (Australian Research Data Commons)
 - Carroll, S. R., Garba, I., Figueroa-Rodríguez, O. L., Holbrook, J., et al. (2020). The CARE Principles for Indigenous Data Governance. Data Science Journal, 19(1), 43.DOI: https://doi.org/10.5334/dsj-2020-043
 - [FAIR Data](https://ardc.edu.au/resource/fair-data/) (Australian Research Data Commons)

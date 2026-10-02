@@ -1,6 +1,7 @@
 <script setup>
 import { computed } from 'vue'
 import { pagesData } from 'virtual:pages-data'
+import { resolveUrl } from '../lib/url'
 
 const props = defineProps({
     heading: {
@@ -81,14 +82,14 @@ const isExternal = (url) => {
             <div class="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3">
                 <article v-for="item in normalizedItems" :key="item.link || item.title"
                     class="flex flex-col items-start gap-4">
-                    <a v-if="item.link" :href="item.link" target="_blank" rel="noopener noreferrer"
+                    <a v-if="item.link" :href="resolveUrl(item.link)" target="_blank" rel="noopener noreferrer"
                         class="block w-[292px]">
-                        <img class="block aspect-square w-full object-cover" :src="item.image" :alt="item.title"
+                        <img class="block aspect-square w-full object-cover" :src="resolveUrl(item.image)" :alt="item.title"
                             loading="lazy">
                     </a>
 
                     <div v-else class="block w-[292px]">
-                        <img class="block aspect-square w-full object-cover" :src="item.image" :alt="item.title"
+                        <img class="block aspect-square w-full object-cover" :src="resolveUrl(item.image)" :alt="item.title"
                             loading="lazy">
                     </div>
 
@@ -102,7 +103,7 @@ const isExternal = (url) => {
                             {{ item.description }}
                         </p>
 
-                        <a :href="item.link" :target="isExternal(item.link) ? '_blank' : '_self'"
+                        <a :href="resolveUrl(item.link)" :target="isExternal(item.link) ? '_blank' : '_self'"
                             :rel="isExternal(item.link) ? 'noopener noreferrer' : null"
                             class="type-action pb-2 inline-flex items-center gap-2 text-[#79a38d] hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8">
                             <span>Read &gt;</span>

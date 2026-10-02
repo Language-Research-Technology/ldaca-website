@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 import { useData } from 'vitepress'
+import { resolveUrl } from '../lib/url'
 
 const props = defineProps({
   heading: {
@@ -81,7 +82,7 @@ const isExternal = (url) => {
           <div class="rounded-none overflow-hidden h-full">
 <div v-if="selectedItem.image" class="h-[200px] overflow-hidden">
   <img
-    :src="selectedItem.image"
+    :src="resolveUrl(selectedItem.image)"
     :alt="selectedItem.title"
     class="w-full h-full object-cover"
   />
@@ -94,7 +95,7 @@ const isExternal = (url) => {
               <p class="type-body text-gray-600" v-html="selectedItem.description"></p>
 
               <p v-if="selectedItem.link" class="type-body text-gray-600 pt-6">
-  <a :href="selectedItem.link" :target="isExternal(selectedItem.link) ? '_blank' : '_self'"
+  <a :href="resolveUrl(selectedItem.link)" :target="isExternal(selectedItem.link) ? '_blank' : '_self'"
     :rel="isExternal(selectedItem.link) ? 'noopener noreferrer' : null"
     :style="{ backgroundColor: buttonColors.bg, color: buttonColors.text }"
     class="type-button inline-flex items-center justify-center px-6 py-4 rounded-lg transition-colors hover:opacity-80">
@@ -121,7 +122,7 @@ const isExternal = (url) => {
           <!-- Image -->
          <img
   v-if="selectedItem.title === item.title && item.image"
-  :src="item.image"
+  :src="resolveUrl(item.image)"
   :alt="item.title"
   class="w-full h-48 object-cover rounded-lg"
 />
@@ -131,7 +132,7 @@ const isExternal = (url) => {
             <h3 class="type-card-title">{{ selectedItem.title }}</h3>
             <p class="type-body text-gray-600" v-html="selectedItem.description"></p>
             <a v-if="selectedItem.link"
-  :href="selectedItem.link"
+  :href="resolveUrl(selectedItem.link)"
   :target="isExternal(selectedItem.link) ? '_blank' : '_self'"
   :rel="isExternal(selectedItem.link) ? 'noopener noreferrer' : null"
   :style="{ backgroundColor: buttonColors.bg, color: buttonColors.text }"

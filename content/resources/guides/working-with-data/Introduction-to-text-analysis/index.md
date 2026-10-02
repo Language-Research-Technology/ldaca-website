@@ -2,7 +2,7 @@
 title: "Introduction to text analysis"
 date: 2023-10-18T12:09:10+11:00
 # tags: ["Governance, rights & access"]
-description: "to add "
+description: "Learn the foundations of text analysis, from preparing text as data to choosing analysis methods and packaging your results for reuse."
 image: ""
 layout: doc
 ---

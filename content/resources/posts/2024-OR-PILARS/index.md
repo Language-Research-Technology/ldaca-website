@@ -143,7 +143,7 @@ The [CARE] principles frame the [FAIR] principles with an emphasis on the rights
 > The current movement toward open data and open science does not fully engage with Indigenous Peoples' rights and interests. Existing principles within the open data movement (e.g. FAIR: findable, accessible, interoperable, reusable) primarily focus on characteristics of data that will facilitate increased data sharing among entities while ignoring power differentials and historical contexts. The emphasis on greater data sharing alone creates a tension for Indigenous Peoples who are also asserting greater control over the application and use of Indigenous data and Indigenous Knowledge for collective benefit.
 
 [FAIR]: https://www.nature.com/articles/sdata201618
-[CARE]: https://www.gida-global.org/care
+[CARE]: https://www.gida-global.org/careprinciples
 
 </section>
 

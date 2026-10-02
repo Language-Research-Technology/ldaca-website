@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 import { useData } from 'vitepress'
+import { resolveUrl } from '../lib/url'
 
 const props = defineProps({
   heading: {
@@ -71,15 +72,15 @@ const selectItem = (item) => {
               :style="props.backgroundColor ? { backgroundColor: props.backgroundColor } : {}">
               <!-- Left: Image -->
               <div class="h-[266.4px] overflow-hidden">
-                <img :src="selectedItem.image" :alt="selectedItem.title"
-                  class="w-full h-full object-cover rounded-none" />
+                <img :src="resolveUrl(selectedItem.image)" :alt="selectedItem.title"
+                    class="w-full h-full object-cover rounded-none" />
               </div>
               <!-- Right: Text -->
               <div class="flex flex-col justify-start gap-4">
                 <h3 class="type-subsection-title">{{ selectedItem.title }}</h3>
                 <p class="type-body text-gray-600" v-html="selectedItem.description"></p>
                 <p class="type-action text-[#85A08C] pb-1">
-                  <a :href="selectedItem.link"
+                  <a :href="resolveUrl(selectedItem.link)"
                     class="font-bold hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-3 ">
                     Find out more
                   </a>
@@ -104,14 +105,14 @@ const selectItem = (item) => {
           </button>
 
           <!-- Image -->
-          <img v-if="selectedItem.title === item.title" :src="selectedItem.image" :alt="selectedItem.title"
+          <img v-if="selectedItem.title === item.title" :src="resolveUrl(selectedItem.image)" :alt="selectedItem.title"
             class="w-full h-48 object-cover rounded-lg" />
 
           <!-- Text -->
           <div v-if="selectedItem.title === item.title" class="p-4 space-y-2">
             <h3 class="type-card-title">{{ selectedItem.title }}</h3>
             <p class="type-body text-gray-600" v-html="selectedItem.description"></p>
-            <a :href="selectedItem.link"
+            <a :href="resolveUrl(selectedItem.link)"
               class="block font-bold hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8">
               Find out more ➜</a>
           </div>

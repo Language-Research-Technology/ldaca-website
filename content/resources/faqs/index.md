@@ -71,7 +71,7 @@ layout: doc
         While the <GlossaryLink display="FAIR" id="fair" /> principles are about making it easier to share and reuse data, the <GlossaryLink display="CARE" id="care" /> principles ensure that data is used ethically.
     </p>
     <p>
-         We have more information about these principles on our <a href="/about/principles/">website</a> and in our <a href="/resources/posts/fair-and-care/">blog</a>.
+         We have more information about these principles on our <a href="../../about/principles/">website</a> and in our <a href="../posts/fair-and-care/">blog</a>.
     </p>
 
 </details> 

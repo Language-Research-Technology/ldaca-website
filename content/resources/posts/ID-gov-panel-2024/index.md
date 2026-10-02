@@ -65,7 +65,7 @@ Importantly, Rose added that collecting institutions who engage with ICIP are be
 
 ## Strategies for implementing Indigenous Data Governance
 
-Indigenous Data Sovereignty (ID-Sov) and ID-Gov are terms sometimes used interchangeably in the Australian public sector. Robert McLellan (Figure 3) sees ID-Gov as *"the mechanism that gives effect to those self-determined ideals [of ID-Sov]."* Important pockets of work developing these ideals are happening nationally and [internationally](https://www.gida-global.org/care). How can collecting institutions meaningfully engage with and practically implement mechanisms for ID-Gov in their work?
+Indigenous Data Sovereignty (ID-Sov) and ID-Gov are terms sometimes used interchangeably in the Australian public sector. Robert McLellan (Figure 3) sees ID-Gov as *"the mechanism that gives effect to those self-determined ideals [of ID-Sov]."* Important pockets of work developing these ideals are happening nationally and [internationally](https://www.gida-global.org/careprinciples). How can collecting institutions meaningfully engage with and practically implement mechanisms for ID-Gov in their work?
 
 <br>
 

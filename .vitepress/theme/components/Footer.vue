@@ -1,6 +1,7 @@
 <script setup>
 import { useData } from 'vitepress'
 import PartnerLogos from './PartnerLogos.vue'
+import { resolveUrl } from '../lib/url'
 
 const { site, theme } = useData()
 const logo = theme.value.logo ?? {}
@@ -90,12 +91,12 @@ footer {
           <!-- Logo at top -->
           <div class="relative z-0 flex items-center justify-center gap-2">
             <a
-              href="/"
+              :href="resolveUrl('/')"
               class="flex items-center gap-2 hover:opacity-80 transition-opacity"
             >
               <img
                 v-if="logo.dark"
-                :src="logo.dark"
+                :src="resolveUrl(logo.dark)"
                 alt="LDaCA"
                 class="h-32 w-auto"
               >
@@ -135,21 +136,21 @@ footer {
             <p class="type-small text-[#393939]">
               Learn more
               <a
-                href="/about/organisation"
+                :href="resolveUrl('/about/organisation')"
                 class="type-small text-[#79A38D] font-bold hover:text-gray-600 transition-colors"
               >
                 about us
               </a>,
               our
               <a
-                href="/about/people"
+                :href="resolveUrl('/about/people')"
                 class="type-small text-[#79A38D] font-bold hover:text-gray-600 transition-colors"
               >
                 people
               </a>
               and our
               <a
-                href="/about/documents-policies"
+                :href="resolveUrl('/about/documents-policies')"
                 class="type-small text-[#79A38D] font-bold hover:text-gray-600 transition-colors"
               >
                 policies and principles
@@ -167,7 +168,7 @@ footer {
           >
             <a
               v-if="navItem.link"
-              :href="navItem.link"
+              :href="resolveUrl(navItem.link)"
             >
               <h3 class="type-label-heading mb-1 text-[#393939]">
                 {{ navItem.text }}
@@ -188,7 +189,7 @@ footer {
               >
                 <li v-if="!item.children && item.link">
                   <a
-                    :href="item.link"
+                    :href="resolveUrl(item.link)"
                     class="type-body text-[#393939] text-muted-foreground hover:text-primary transition-colors pl-2"
                   >
                     {{ item.text }}
@@ -202,7 +203,7 @@ footer {
                   >
                     <a
                       v-if="!child?.bold"
-                      :href="child.link"
+                      :href="resolveUrl(child.link)"
                       class="type-body text-[#393939] text-muted-foreground hover:text-primary transition-colors pl-2"
                     >
                       {{ child.text }}
@@ -237,7 +238,7 @@ footer {
             </a>
 
             <a
-              href="/newsletter"
+              :href="resolveUrl('/newsletter')"
               class="type-body block mt-2 text-[#393939] text-muted-foreground hover:text-primary transition-colors"
             >
               View past newsletters
@@ -308,9 +309,56 @@ footer {
       <!-- Partner Logos -->
       <PartnerLogos :logos="partnerLogos" />
 
+      <!-- ARDC Acknowledgement -->
+<div class="max-w-4xl mx-auto mt-10 mb-10 px-6 text-center">
+  <img
+    :src="resolveUrl('/images/partner-logos/ARDC - AUS-NCRIS lockup.png')"
+    alt="Australian Research Data Commons and NCRIS"
+    class="h-20 w-auto mx-auto mb-6"
+  >
+
+  <p class="type-small text-[#393939] leading-relaxed">
+    The Language Data Commons of Australia (LDaCA) (DOI:
+    <a
+      href="https://doi.org/10.3565/kq2v-9g52"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="font-bold hover:text-gray-600 transition-colors"
+    >
+      10.3565/kq2v-9g52
+    </a>)
+    is a co-investment partnership with the Australian Research Data Commons (ARDC)
+    through the
+    <a
+      href="https://ardc.edu.au/hass-and-indigenous-research-data-commons/"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="font-bold hover:text-gray-600 transition-colors"
+    >
+      HASS and Indigenous Research Data Commons
+    </a>.
+    The
+    <a
+      :href="resolveUrl('/resources/glossary/#ardc')"
+      class="font-bold hover:text-gray-600 transition-colors"
+      title="Australian Research Data Commons"
+    >
+      ARDC
+    </a>
+    is enabled by the Australian Government’s National Collaborative Research
+    Infrastructure Strategy
+    (<a
+      :href="resolveUrl('/resources/glossary/#ncris')"
+      class="font-bold hover:text-gray-600 transition-colors"
+      title="National Collaborative Research Infrastructure Strategy"
+    >NCRIS</a>).
+  </p>
+</div>
+      
+
       <!-- Bottom Links -->
       <div class="mt-8 pt-6 pb-6 border-t footer-divider">
-        <nav class="flex items-center justify-center gap-32 flex-wrap">
+        <nav class="flex items-center justify-center gap-8 md:gap-32 lg:gap-32 flex-wrap">
           <!-- <a
             href="/sitemap.xml"
             class="type-small text-[#383938] hover:text-gray-600 transition-colors"
@@ -319,21 +367,21 @@ footer {
           </a> -->
 
           <a
-            href="/disclaimer"
+            :href="resolveUrl('/disclaimer')"
             class="type-small text-[#383938] hover:text-gray-600 transition-colors"
           >
             Disclaimer ➔
           </a>
 
           <a
-            href="/privacy"
+            :href="resolveUrl('/privacy')"
             class="type-small text-[#383938] hover:text-gray-600 transition-colors"
           >
             Privacy ➔
           </a>
 
           <a
-            href="/terms-conditions"
+            :href="resolveUrl('/terms-conditions')"
             class="type-small text-[#383938] hover:text-gray-600 transition-colors"
           >
             Terms of use ➔

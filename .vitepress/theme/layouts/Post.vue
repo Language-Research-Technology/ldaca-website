@@ -1,6 +1,7 @@
 <script setup>
 import { computed } from 'vue'
 import { useData } from 'vitepress'
+import { resolveUrl } from '../lib/url'
 
 const { page } = useData()
 
@@ -39,7 +40,7 @@ const tagLinks = computed(() => {
       <article class="vp-doc">
         <!-- Back link -->
         <div class="mb-6">
-          <a href="/resources/posts/"
+          <a :href="resolveUrl('/resources/posts/')"
             class="inline-block px-3 py-1 bg-gray-100 text-text-[#79a38d]rounded text-sm no-underline transition-colors hover:bg-gray-200">←
             All Posts</a>
         </div>
@@ -61,7 +62,7 @@ const tagLinks = computed(() => {
         <!-- Tags -->
         <div v-if="tags.length > 0" class="mb-6 pb-6 border-b-4 border-[#79a38d] border-dotted">
           <div class="flex flex-wrap gap-2">
-            <a v-for="tag in tagLinks" :key="tag.label" :href="tag.url"
+            <a v-for="tag in tagLinks" :key="tag.label" :href="resolveUrl(tag.url)"
               class="inline-block px-3 py-1 bg-gray-100 text-[#79a38d] rounded text-sm no-underline transition-colors hover:bg-gray-200">
               {{ tag.label }}
             </a>

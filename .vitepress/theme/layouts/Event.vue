@@ -2,6 +2,7 @@
 import { useData } from 'vitepress'
 import { computed } from 'vue'
 import SimpleHero from '../components/SimpleHero.vue'
+import { resolveUrl } from '../lib/url'
 
 const { page } = useData()
 
@@ -43,7 +44,7 @@ const event = computed(() => page.value?.frontmatter || {})
                     <!-- Tags -->
                     <div v-if="tags.length > 0" class="mb-6 pb-6 border-b-4 border-[#79a38d] border-dotted">
                         <div class="flex flex-wrap gap-2">
-                            <a v-for="tag in tagLinks" :key="tag.label" :href="tag.url"
+                            <a v-for="tag in tagLinks" :key="tag.label" :href="resolveUrl(tag.url)"
                                 class="inline-flex px-3 py-1 bg-gray-100 text-[#79a38d] rounded text-sm hover:bg-gray-200">
                                 {{ tag.label }}
                             </a>
@@ -59,11 +60,11 @@ const event = computed(() => page.value?.frontmatter || {})
 
                     <!-- Event image -->
                     <div v-if="event.image" class="mb-6">
-                        <img :src="event.image" :alt="event.title" class="w-full h-auto object-cover rounded" />
+                        <img :src="resolveUrl(event.image)" :alt="event.title" class="w-full h-auto object-cover rounded" />
                     </div>
 
                     <!-- Button -->
-                    <a v-if="event.link" :href="event.link" target="_blank" rel="noopener noreferrer"
+                    <a v-if="event.link" :href="resolveUrl(event.link)" target="_blank" rel="noopener noreferrer"
                         class="inline-block mb-6 px-6 py-4 bg-[#79A38D] text-white font-semibold rounded-lg transition hover:opacity-90">
                         {{ event.pastEvent ? 'More information' : 'Register' }}
                     </a>

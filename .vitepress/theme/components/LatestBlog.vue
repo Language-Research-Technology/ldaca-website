@@ -1,6 +1,7 @@
 <script setup>
 import { computed } from 'vue'
 import { data as posts } from '../lib/posts.data'
+import { resolveUrl } from '../lib/url'
 
 const latestPosts = computed(() => {
   return posts
@@ -22,12 +23,12 @@ const getImage = (post) =>
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
 
-      <article v-for="post in latestPosts" :key="post.url" class="relative overflow-hidden shadow-xl h-[480px]">
+      <article v-for="post in latestPosts" :key="post.url" class="relative overflow-hidden shadow-xl h-[460px] md:h-[480px]">
 
         <!-- background image link -->
-        <a :href="post.url" class="absolute inset-0 block" :aria-label="post.frontmatter.title">
+        <a :href="resolveUrl(post.url)" class="absolute inset-0 block" :aria-label="post.frontmatter.title">
           <div class="absolute inset-0 bg-cover bg-center bg-[#79a38d] opacity-85"
-            :style="{ backgroundImage: `url(${getImage(post)})` }" aria-hidden="true" />
+            :style="{ backgroundImage: `url(${resolveUrl(getImage(post))})` }" aria-hidden="true" />
         </a>
 
         <!-- content -->
@@ -42,7 +43,7 @@ const getImage = (post) =>
               {{ post.frontmatter.description }}
             </p>
 
-            <a :href="post.url"
+            <a :href="resolveUrl(post.url)"
               class="mt-3 inline-flex items-center text-white text-xl font-bold hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8">
               Read blog
             </a>

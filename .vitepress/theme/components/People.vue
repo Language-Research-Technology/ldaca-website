@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue'
+import { resolveUrl } from '../lib/url'
 
 const props = defineProps({
     heading: {
@@ -63,18 +64,18 @@ const fallbackImage = ((Array.isArray(props.image) && props.image.length > 0
             <div class="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
                 <article v-for="person in items" :key="person.link || person.name"
                     class="flex flex-col items-start gap-4">
-                    <a v-if="person.link" :href="person.link" target="_blank" rel="noopener noreferrer"
+                    <a v-if="person.link" :href="resolveUrl(person.link)" target="_blank" rel="noopener noreferrer"
                         class="block w-[225.6px]">
-                        <img class="block aspect-square w-full object-cover" :src="person.image || fallbackImage"
+                        <img class="block aspect-square w-full object-cover" :src="resolveUrl(person.image || fallbackImage)"
                             :alt="person.name" loading="lazy">
                     </a>
                     <div v-else class="block w-[225.6px]">
-                        <img class="block aspect-square w-full object-cover" :src="person.image || fallbackImage"
+                        <img class="block aspect-square w-full object-cover" :src="resolveUrl(person.image || fallbackImage)"
                             :alt="person.name" loading="lazy">
                     </div>
 
                     <div class="flex flex-col gap-1">
-                        <a v-if="person.link" :href="person.link" target="_blank" rel="noopener noreferrer"
+                        <a v-if="person.link" :href="resolveUrl(person.link)" target="_blank" rel="noopener noreferrer"
                             class="type-card-title pb-2 inline-flex items-center gap-2 text-[#79a38d] hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8">
                             <span>{{ person.name }} &gt;</span>
                         </a>

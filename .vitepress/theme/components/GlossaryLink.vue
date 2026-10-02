@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import { resolveUrl } from '../lib/url'
 
 const props = defineProps<{ display: string; id: string }>()
 
@@ -33,7 +34,7 @@ async function loadShortDesc() {
 
 <template>
   <span class="glossary-link-wrapper" @mouseenter="loadShortDesc" @focusin="loadShortDesc">
-    <a :href="`/resources/glossary/#${props.id}`"
+    <a :href="resolveUrl(`/resources/glossary/#${props.id}`)"
       class="font-bold leading-none text-[#79a38d] hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8"
       :title="shortDesc || props.display" :aria-label="props.display">
       {{ props.display }}

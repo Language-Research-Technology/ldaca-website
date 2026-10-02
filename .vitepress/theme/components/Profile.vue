@@ -1,6 +1,6 @@
 <template>
   <div class="profile-link-wrapper">
-    <a v-if="profile" :href="profile.external_link" target="_blank" rel="noopener noreferrer" class="profile-link"
+    <a v-if="profile" :href="resolveUrl(profile.external_link)" target="_blank" rel="noopener noreferrer" class="profile-link"
       @mouseenter="showTooltip = true" @mouseleave="showTooltip = false">
       {{ profile.fullname || profile.Name }}
     </a>
@@ -21,6 +21,7 @@
 
 <script setup lang="ts">
 import { computed, ref } from 'vue'
+import { resolveUrl } from '../lib/url'
 
 // Import all profile YAML files eagerly with raw content
 const profileModules = import.meta.glob('../../../data/profiles/*.{yml,yaml}', {

@@ -2,6 +2,7 @@
 import { useData } from 'vitepress'
 import { computed } from 'vue'
 import SimpleHero from '../components/SimpleHero.vue'
+import { resolveUrl } from '../lib/url'
 
 const { page } = useData()
 
@@ -82,7 +83,7 @@ const informationHtml = computed(() => renderSimpleMarkdownInline(event.value.in
                     <!-- Tags -->
                     <div v-if="tags.length > 0" class="mb-6 pb-6 border-b-4 border-[#79a38d] border-dotted">
                         <div class="flex flex-wrap gap-2">
-                            <a v-for="tag in tagLinks" :key="tag.label" :href="tag.url"
+                            <a v-for="tag in tagLinks" :key="tag.label" :href="resolveUrl(tag.url)"
                                 class="inline-flex px-3 py-1 bg-gray-100 text-[#79a38d]rounded text-sm hover:bg-gray-200">
                                 {{ tag.label }}
                             </a>
@@ -100,17 +101,27 @@ const informationHtml = computed(() => renderSimpleMarkdownInline(event.value.in
 
                         <!-- Event image -->
                         <div v-if="event.image" class="mb-6">
-                            <img :src="event.image" :alt="event.title" class="w-full h-auto object-cover rounded" />
+                            <img :src="resolveUrl(event.image)" :alt="event.title" class="w-full h-auto object-cover rounded" />
                         </div>
 
                         <!-- Button -->
                         <p class="text-2xl font-bold text-white mb-4 bg-[#79a38d] py-2 px-4">At a glance</p>
 
                         <!-- Collaborators -->
-                        <div v-if="event.collaborator" class="mb-4">
-                            <p class="font-bold text-gray-600 uppercase text-xl">Collaborators</p>
-                            <p class="text-gray-700 text-lg whitespace-pre-line">{{ event.collaborator }}</p>
-                        </div>
+                       <div v-if="event.collaborator || event.collaboratorLogo" class="mb-4">
+    <p class="font-bold text-gray-600 uppercase text-xl">Collaborators</p>
+
+    <img
+        v-if="event.collaboratorLogo"
+        :src="resolveUrl(event.collaboratorLogo)"
+        :alt="event.collaborator ? `${event.collaborator} logo` : 'Collaborator logo'"
+        class="collaborator-logo"
+    />
+
+    <p v-if="event.collaborator" class="text-gray-700 text-lg whitespace-pre-line">
+        {{ event.collaborator }}
+    </p>
+</div>
 
                         <!-- Project Team -->
                         <div v-if="event.projectTeam" class="mb-4">
@@ -133,7 +144,7 @@ const informationHtml = computed(() => renderSimpleMarkdownInline(event.value.in
                     </aside>
 
                     <aside class="bg-[#eae4d6] p-6 h-fit">
-                        <img src="/images/info-green.png" alt="Information" class="rounded block mx-auto pb-4" />
+                        <img :src="resolveUrl('/images/info-green.png')" alt="Information" class="rounded block mx-auto pb-4" />
 
                         <div v-if="event.information" class="mb-4">
                             <div class="text-gray-700 text-xl project-inline-markdown" v-html="informationHtml"></div>
@@ -169,5 +180,16 @@ const informationHtml = computed(() => renderSimpleMarkdownInline(event.value.in
 
 .project-inline-markdown :deep(strong) {
     color: #79a38d;
+    
+}
+
+.collaborator-logo {
+    display: block;
+    max-width: 220px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    margin: 0.75rem 0 1rem;
 }
 </style>

@@ -1,4 +1,6 @@
 <script setup>
+import { resolveUrl } from '../lib/url'
+
 const props = defineProps({
   logos: {
     type: Array,
@@ -18,14 +20,14 @@ const props = defineProps({
       <a
         v-for="(logo, idx) in props.logos"
         :key="logo.href || logo.src || idx"
-        :href="logo.href || '#'"
+        :href="resolveUrl(logo.href) || '#'"
         target="_blank"
         class="opacity-100 hover:opacity-60 transition-opacity"
         :aria-label="logo.alt || 'Partner logo'"
       >
         <img
           v-if="logo.src"
-          :src="logo.src"
+          :src="resolveUrl(logo.src)"
           :alt="logo.alt || 'Partner logo'"
           class="h-14 w-auto"
         />

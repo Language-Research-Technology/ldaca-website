@@ -1,5 +1,6 @@
 <script setup>
 import { useData } from 'vitepress'
+import { resolveUrl } from '../lib/url'
 const { theme } = useData()
 const buttonColors = theme.value.buttonColors || { bg: '#79A38D', text: '#ffffff' }
 
@@ -34,7 +35,7 @@ defineProps({
       </div>
       <!-- BUTTON -->
       <div class="flex-shrink-0">
-        <a :href="buttonLink" target="_blank" rel="noopener noreferrer"
+        <a :href="resolveUrl(buttonLink)" target="_blank" rel="noopener noreferrer"
           :style="{ backgroundColor: buttonColors.bg, color: buttonColors.text }"
           class="type-button inline-flex items-center justify-center p-5 rounded-lg transition-colors hover:opacity-80">
           {{ buttonText }}

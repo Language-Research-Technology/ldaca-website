@@ -3,6 +3,7 @@ import { ref, computed, onMounted, onBeforeUnmount, watch, nextTick } from 'vue'
 import { pagesData } from 'virtual:pages-data'
 import { useData, useRoute } from 'vitepress'
 import GlossaryLink from './GlossaryLink.vue'
+import { resolveUrl } from '../lib/url'
 
 const { theme } = useData()
 const route = useRoute()
@@ -263,10 +264,10 @@ const isExternal = (url) => {
                                 ">
 
                             <!-- IMAGE LEFT -->
-                            <a :href="item.link" :target="isExternal(item.link) ? '_blank' : '_self'"
+                            <a :href="resolveUrl(item.link)" :target="isExternal(item.link) ? '_blank' : '_self'"
                                 :rel="isExternal(item.link) ? 'noopener noreferrer' : null" class="block h-full"
                                 :class="props.tileView && index % 2 === 1 ? 'lg:order-2' : 'lg:order-1'">
-                                <img :src="item.image" :alt="item.title"
+                                <img :src="resolveUrl(item.image)" :alt="item.title"
                                     class="w-full h-full object-contain object-center" />
                             </a>
 
@@ -282,14 +283,14 @@ const isExternal = (url) => {
 
                                 <!-- Buttons at bottom -->
                                 <div v-if="item.link" class="flex flex-wrap gap-4 mt-auto pb-6 pt-6">
-                                    <a :href="item.link" :target="isExternal(item.link) ? '_blank' : '_self'"
+                                    <a :href="resolveUrl(item.link)" :target="isExternal(item.link) ? '_blank' : '_self'"
                                         :rel="isExternal(item.link) ? 'noopener noreferrer' : null"
                                         :style="{ backgroundColor: buttonColors.bg, color: buttonColors.text }"
                                         class="inline-flex items-center justify-center px-6 py-4 text-xl font-bold rounded-lg transition-colors hover:opacity-80">
                                         {{ props.buttonText }}
                                     </a>
 
-                                    <a v-if="item.guideLink" :href="item.guideLink"
+                                    <a v-if="item.guideLink" :href="resolveUrl(item.guideLink)"
                                         :target="isExternal(item.guideLink) ? '_blank' : '_self'"
                                         :rel="isExternal(item.guideLink) ? 'noopener noreferrer' : null"
                                         class="inline-flex items-center justify-center px-6 py-4 text-xl font-bold rounded-lg bg-[#444544] text-white transition-colors hover:opacity-80">
@@ -319,7 +320,7 @@ const isExternal = (url) => {
                             data-carousel-large-measure-item class="grid grid-cols-1 lg:grid-cols-2 overflow-hidden">
 
                             <!-- IMAGE LEFT -->
-                            <img :src="item.image" :alt="item.title"
+                            <img :src="resolveUrl(item.image)" :alt="item.title"
                                 class="w-full h-full object-contain object-center" />
 
                             <!-- CONTENT RIGHT -->
@@ -331,14 +332,14 @@ const isExternal = (url) => {
                                 </div>
 
                                 <div class="flex flex-wrap gap-4 mt-auto">
-                                    <a :href="item.link" :target="isExternal(item.link) ? '_blank' : '_self'"
+                                    <a :href="resolveUrl(item.link)" :target="isExternal(item.link) ? '_blank' : '_self'"
                                         :rel="isExternal(item.link) ? 'noopener noreferrer' : null"
                                         :style="{ backgroundColor: buttonColors.bg, color: buttonColors.text }"
                                         class="inline-flex items-center justify-center px-6 py-4 text-xl font-bold rounded-lg transition-colors hover:opacity-80">
                                         {{ props.buttonText }}
                                     </a>
 
-                                    <a v-if="item.guideLink" :href="item.guideLink"
+                                    <a v-if="item.guideLink" :href="resolveUrl(item.guideLink)"
                                         :target="isExternal(item.guideLink) ? '_blank' : '_self'"
                                         :rel="isExternal(item.guideLink) ? 'noopener noreferrer' : null"
                                         class="inline-flex items-center justify-center px-6 py-4 text-xl font-bold rounded-lg bg-[#444544] text-white transition-colors hover:opacity-80">
@@ -365,9 +366,9 @@ const isExternal = (url) => {
                 <div v-for="item in props.items" :key="item.title" class="overflow-hidden flex flex-col lg:flex-row">
 
                     <!-- IMAGE TOP -->
-                    <a :href="item.link" :target="isExternal(item.link) ? '_blank' : '_self'"
+                    <a :href="resolveUrl(item.link)" :target="isExternal(item.link) ? '_blank' : '_self'"
                         :rel="isExternal(item.link) ? 'noopener noreferrer' : null" class="block">
-                        <img :src="item.image ?? (Array.isArray(props.image) ? props.image[0] : props.image)"
+                        <img :src="resolveUrl(item.image ?? (Array.isArray(props.image) ? props.image[0] : props.image))"
                             :alt="item.title" class="w-full h-60 object-contain lg:h-auto lg:w-1/2" />
                     </a>
 
@@ -378,14 +379,14 @@ const isExternal = (url) => {
 
                         <!-- Buttons like desktop -->
                         <div class="flex flex-wrap gap-4 mt-auto">
-                            <a v-if="item.link" :href="item.link" :target="isExternal(item.link) ? '_blank' : '_self'"
+                            <a v-if="item.link" :href="resolveUrl(item.link)" :target="isExternal(item.link) ? '_blank' : '_self'"
                                 :rel="isExternal(item.link) ? 'noopener noreferrer' : null"
                                 :style="{ backgroundColor: buttonColors.bg, color: buttonColors.text }"
                                 class="inline-flex items-center justify-center px-6 py-4 text-xl font-bold rounded-lg transition-colors hover:opacity-80">
                                 {{ props.buttonText }}
                             </a>
 
-                            <a v-if="item.guideLink" :href="item.guideLink"
+                            <a v-if="item.guideLink" :href="resolveUrl(item.guideLink)"
                                 :target="isExternal(item.guideLink) ? '_blank' : '_self'"
                                 :rel="isExternal(item.guideLink) ? 'noopener noreferrer' : null"
                                 class="inline-flex items-center justify-center px-6 py-4 text-xl font-bold rounded-lg bg-[#444544] text-white transition-colors hover:opacity-80">

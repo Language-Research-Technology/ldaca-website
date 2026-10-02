@@ -29,6 +29,8 @@ For <GlossaryLink display="collections" id="collection" /> where there are a lot
 <div>
   <a
     href="./ro-crate-metadata-template.xlsx"
+    download
+    target="_blank"
     class="p-5 rounded-3xl bg-[#79a38d] !text-white hover:!text-white text-center text-lg hover:opacity-80 inline-block !no-underline"
   >
     ro-crate-metadata-template.xlsx

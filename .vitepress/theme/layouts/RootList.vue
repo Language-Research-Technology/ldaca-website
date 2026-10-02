@@ -52,7 +52,7 @@ const items = computed(() => {
         <!-- Archive list -->
         <div class="page archive">
           <article v-for="item in items" :key="item.url" class="archive-item">
-            <a :href="item.url" class="archive-item-link">
+            <a :href="withBase(item.url)" class="archive-item-link">
               <div class="archive-item-inner">
                 <img v-if="item.frontmatter?.image" :src="withBase(item.frontmatter.image)" :alt="item.title"
                   class="archive-item-image" />

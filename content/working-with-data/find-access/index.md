@@ -44,7 +44,7 @@ title: "Find & access"
         title: 'PARADISEC Portal',
         description: 'PARADISEC has more than 700 collections representing over 1,370 languages.',
         image: '/images/Paradisec_data_portal.png',
-        link: 'https://catalog.paradisec.org.au/oni/'
+        link: 'https://catalog.paradisec.org.au/'
       },
     ]"/>
 
@@ -129,7 +129,7 @@ title: "Find & access"
   :items="[
       {
         title: 'Digital Preservation Masterclass PARADISEC',
-        image: '/working-with-data/find-access/DCC_Masterclass.png',
+        image: '/images/DCC_Masterclass.png',
         link: 'https://www.youtube.com/watch?v=gRuwHx744KU',
         category: 'RECORDING'
       },

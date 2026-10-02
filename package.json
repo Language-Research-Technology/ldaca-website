@@ -10,7 +10,9 @@
     "dev": "vitepress dev",
     "build": "vitepress build",
     "preview": "vitepress preview",
-    "test:production": "vitepress build && vitepress preview"
+    "test:production": "vitepress build && vitepress preview",
+    "build:gh-pages": "GITHUB_PAGES=true vitepress build",
+    "preview:gh-pages": "GITHUB_PAGES=true vitepress build && vitepress preview --base /ldaca-website/"
   },
   "dependencies": {
     "@fontsource/work-sans": "^5.2.8",

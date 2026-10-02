@@ -2,6 +2,7 @@
 import { computed } from 'vue'
 import { data as posts } from '../lib/posts.data'
 import { pagesData } from 'virtual:pages-data'
+import { resolveUrl } from '../lib/url'
 
 const props = defineProps({
   heading: {
@@ -76,7 +77,7 @@ const isExternal = (url) => {
 
     <div class="mb-8 text-left flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
       <h1>{{ props.heading }}</h1>
-      <a v-if="props.viewAll" :href="props.viewAll"
+      <a v-if="props.viewAll" :href="resolveUrl(props.viewAll)"
         class="inline-flex items-center justify-center w-fit px-5 py-3 rounded-lg bg-[#79a38d] text-white font-bold hover:opacity-80 transition-opacity">
         View all
       </a>
@@ -87,11 +88,11 @@ const isExternal = (url) => {
       <article v-for="item in normalizedItems" :key="`${item.link}-${item.title}`" class="relative overflow-hidden shadow-xl h-[560px]">
 
         <!-- background image link -->
-        <a :href="item.link" :target="isExternal(item.link) ? '_blank' : '_self'"
+        <a :href="resolveUrl(item.link)" :target="isExternal(item.link) ? '_blank' : '_self'"
           :rel="isExternal(item.link) ? 'noopener noreferrer' : null" class="absolute inset-0 block"
           :aria-label="item.title">
           <div class="absolute inset-0 bg-cover bg-center bg-[#79a38d] opacity-85"
-            :style="{ backgroundImage: `url(${item.image})` }" aria-hidden="true" />
+            :style="{ backgroundImage: `url(${resolveUrl(item.image)})` }" aria-hidden="true" />
         </a>
 
         <!-- content -->
@@ -106,7 +107,7 @@ const isExternal = (url) => {
               {{ item.description }}
             </p>
 
-            <a :href="item.link" :target="isExternal(item.link) ? '_blank' : '_self'"
+            <a :href="resolveUrl(item.link)" :target="isExternal(item.link) ? '_blank' : '_self'"
               :rel="isExternal(item.link) ? 'noopener noreferrer' : null"
               class="mt-3 inline-flex items-center text-white text-xl font-bold hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8">
               {{ props.buttonText }}

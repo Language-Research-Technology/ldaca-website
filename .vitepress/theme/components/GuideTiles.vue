@@ -1,6 +1,7 @@
 <script setup>
 import { computed } from 'vue'
 import { pagesData } from 'virtual:pages-data'
+import { resolveUrl } from '../lib/url'
 
 const props = defineProps({
     heading: {
@@ -99,7 +100,7 @@ const isExternal = (url) => {
                 >
                     <a
                         v-if="item.link"
-                        :href="item.link"
+                        :href="resolveUrl(item.link)"
                         :target="isExternal(item.link) ? '_blank' : '_self'"
                         :rel="isExternal(item.link) ? 'noopener noreferrer' : null"
                         class="block w-[292px]"
@@ -107,7 +108,7 @@ const isExternal = (url) => {
                         <div class="relative aspect-square w-full overflow-hidden">
                             <img
                                 class="block h-full w-full object-cover"
-                                :src="item.image"
+                                :src="resolveUrl(item.image)"
                                 :alt="item.title"
                                 loading="lazy"
                             >
@@ -139,7 +140,7 @@ const isExternal = (url) => {
                         <div class="relative aspect-square w-full overflow-hidden">
                             <img
                                 class="block h-full w-full object-cover"
-                                :src="item.image"
+                                :src="resolveUrl(item.image)"
                                 :alt="item.title"
                                 loading="lazy"
                             >
@@ -180,7 +181,7 @@ const isExternal = (url) => {
 
                         <a
                             v-if="item.link"
-                            :href="item.link"
+                            :href="resolveUrl(item.link)"
                             :target="isExternal(item.link) ? '_blank' : '_self'"
                             :rel="isExternal(item.link) ? 'noopener noreferrer' : null"
                             class="type-action pb-2 inline-flex items-center gap-2 text-[#79a38d] hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8"

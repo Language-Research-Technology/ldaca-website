@@ -1,11 +1,12 @@
 <script setup>
+import { withBase } from 'vitepress'
 </script>
 
 <template>
   <div class="vp-doc">
     <section class="not-found">
       <figure>
-        <img style="height: 320px;" src="/images/alpaca_404.svg" alt="LDaCA Alpaca" title="LDaCA Alpaca" />
+        <img style="height: 320px;" :src="withBase('/images/alpaca_404.svg')" alt="LDaCA Alpaca" title="LDaCA Alpaca" />
       </figure>
       <h1>404</h1>
       <h3>Sorry, the page you're looking for doesn't exist.</h3>

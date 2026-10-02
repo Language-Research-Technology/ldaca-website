@@ -3,6 +3,7 @@ import { useData } from 'vitepress'
 import { computed } from 'vue'
 import SimpleHero from '../components/SimpleHero.vue'
 import Profile from '../components/Profile.vue'
+import { resolveUrl } from '../lib/url'
 
 const { page } = useData()
 const tags = computed(() => {
@@ -79,7 +80,7 @@ const authorSegments = computed(() => {
         <!-- Tags -->
         <div v-if="tags.length > 0" class="mb-6 pb-6 border-b-4 border-[#79a38d] border-dotted">
           <div class="flex flex-wrap gap-2">
-            <a v-for="tag in tagLinks" :key="tag.label" :href="tag.url"
+            <a v-for="tag in tagLinks" :key="tag.label" :href="resolveUrl(tag.url)"
               class="inline-flex px-3 py-1 bg-gray-100 text--[#79a38d] rounded text-sm hover:bg-gray-200">
               {{ tag.label }}
             </a>

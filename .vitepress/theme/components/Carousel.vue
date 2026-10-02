@@ -2,7 +2,7 @@
 import { ref, computed, onMounted, onBeforeUnmount, watch } from 'vue'
 import { data as posts } from '../lib/posts.data'
 import { pagesData } from 'virtual:pages-data'
-import { withBase } from 'vitepress'
+import { resolveUrl } from '../lib/url'
 
 const props = defineProps({
   heading: {
@@ -220,7 +220,7 @@ const isExternal = (url) => {
       <!-- Heading -->
       <div class="mb-8 text-left flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
         <h1 class="">{{ props.heading }}</h1>
-        <a v-if="props.viewAll" :href="props.viewAll"
+        <a v-if="props.viewAll" :href="resolveUrl(props.viewAll)"
           class="inline-flex items-center justify-center w-fit px-5 py-3 rounded-lg bg-[#79a38d] text-white font-bold hover:opacity-80 transition-opacity">
           View all
         </a>
@@ -252,9 +252,9 @@ const isExternal = (url) => {
         <!-- GRID PANELS -->
         <div class="grid grid-cols-3 gap-4">
           <div v-for="item in desktopItems" :key="item.title" :class="[cardBgClass, 'overflow-hidden flex flex-col']">
-            <a :href="item.link" :target="isExternal(item.link) ? '_blank' : '_self'"
+            <a :href="resolveUrl(item.link)" :target="isExternal(item.link) ? '_blank' : '_self'"
               :rel="isExternal(item.link) ? 'noopener noreferrer' : null" class="block">
-              <img :src="item.image" :alt="item.title"
+              <img :src="resolveUrl(item.image)" :alt="item.title"
                 :class="['w-full object-cover h-60', item.imageWasFallback ? 'bg-[#79a38d]' : '']" />
             </a>
 
@@ -277,7 +277,7 @@ const isExternal = (url) => {
               </p>
             </div>
 
-            <a :href="item.link" :target="isExternal(item.link) ? '_blank' : '_self'"
+            <a :href="resolveUrl(item.link)" :target="isExternal(item.link) ? '_blank' : '_self'"
               :rel="isExternal(item.link) ? 'noopener noreferrer' : null"
               class="flex justify-between items-center w-full font-bold mt-auto bg-[#79A38D] hover:bg-[#8faf9b]"
               style="color:#FFFEF8; padding:12px;">
@@ -301,9 +301,9 @@ const isExternal = (url) => {
         <div v-for="item in (props.threeTiles ? filteredItems.slice(0, 3) : filteredItems)" :key="item.title"
           :class="[cardBgClass, 'overflow-hidden flex flex-col']">
           <!-- compute image with frontmatter fallback -->
-          <a :href="item.link" :target="isExternal(item.link) ? '_blank' : '_self'"
+          <a :href="resolveUrl(item.link)" :target="isExternal(item.link) ? '_blank' : '_self'"
             :rel="isExternal(item.link) ? 'noopener noreferrer' : null" class="block">
-            <img :src="withBase(item.image)" :alt="item.title"
+            <img :src="resolveUrl(item.image)" :alt="item.title"
               :class="['w-full object-cover h-60', item.imageWasFallback ? 'bg-[#79a38d]' : '']" />
           </a>
 
@@ -323,7 +323,7 @@ const isExternal = (url) => {
             </p>
           </div>
 
-          <a :href="item.link" :target="isExternal(item.link) ? '_blank' : '_self'"
+          <a :href="resolveUrl(item.link)" :target="isExternal(item.link) ? '_blank' : '_self'"
             :rel="isExternal(item.link) ? 'noopener noreferrer' : null"
             class="flex justify-between items-center w-full font-bold mt-auto bg-[#79A38D] hover:bg-[#8faf9b]"
             style="color:#FFFEF8; padding:12px;">

@@ -1,4 +1,6 @@
 <script setup>
+import { resolveUrl } from '../lib/url'
+
 const buttonColors = { bg: '#fffef8', text: '#79a38d' }
 
 defineProps({
@@ -32,7 +34,7 @@ defineProps({
       </div>
       <!-- BUTTON -->
       <div class="flex-shrink-0">
-        <a :href="buttonLink" target="_blank" rel="noopener noreferrer"
+        <a :href="resolveUrl(buttonLink)" target="_blank" rel="noopener noreferrer"
           :style="{ backgroundColor: buttonColors.bg, color: buttonColors.text }"
           class="type-button inline-flex items-center justify-center p-5 rounded-lg transition-colors hover:opacity-80">
           {{ buttonText }}

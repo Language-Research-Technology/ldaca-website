@@ -2,6 +2,7 @@
 import { computed, ref, onMounted } from 'vue'
 import { useRoute } from 'vitepress'
 import { data as tagsData } from '../lib/tags.data'
+import { resolveUrl } from '../lib/url'
 
 
 const route = useRoute()
@@ -99,7 +100,7 @@ onMounted(() => {
             <a
               v-for="page in getTagPages(tag)"
               :key="page.url"
-              :href="page.url"
+              :href="resolveUrl(page.url)"
               class="block px-4 py-3 hover:bg-gray-50 transition-colors"
             >
               <div class="font-medium text-text-[#79a38d] hover:text-blue-800">{{ page.title }}</div>

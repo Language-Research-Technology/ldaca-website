@@ -1,6 +1,7 @@
 <script setup>
 import { computed } from 'vue'
 import { useData } from 'vitepress'
+import { resolveUrl } from '../lib/url'
 
 const { theme } = useData()
 const buttonColors = theme.value.buttonColors || { bg: '#79A38D', text: '#ffffff' }
@@ -57,7 +58,7 @@ const isExternal = (url = '') => /^https?:\/\//i.test(url)
             <div class="mb-8 text-left">
                 <div class="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
                     <h1 class="">{{ props.heading }}</h1>
-                    <a v-if="props.viewAll" :href="props.viewAll"
+                    <a v-if="props.viewAll" :href="resolveUrl(props.viewAll)"
                         class="inline-flex items-center justify-center w-fit px-5 py-3 rounded-lg bg-[#79a38d] text-white font-bold hover:opacity-80 transition-opacity">
                         View all
                     </a>
@@ -72,13 +73,13 @@ const isExternal = (url = '') => /^https?:\/\//i.test(url)
 					class="flex flex-col p-6"
 				>
 					<a
-						:href="item.link"
+						:href="resolveUrl(item.link)"
 						:target="isExternal(item.link) ? '_blank' : '_self'"
 						:rel="isExternal(item.link) ? 'noopener noreferrer' : null"
 						class="block"
 					>
 						<img
-							:src="item.image"
+							:src="resolveUrl(item.image)"
 							:alt="item.title"
 							class="w-full h-96 object-contain"
 						>
@@ -87,7 +88,7 @@ const isExternal = (url = '') => /^https?:\/\//i.test(url)
 					<div class="pt-4">
 						<h3 class="text-[#383938] text-2xl leading-snug">
 							<a
-								:href="item.link"
+								:href="resolveUrl(item.link)"
 								:target="isExternal(item.link) ? '_blank' : '_self'"
 								:rel="isExternal(item.link) ? 'noopener noreferrer' : null"
 								class="hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8"

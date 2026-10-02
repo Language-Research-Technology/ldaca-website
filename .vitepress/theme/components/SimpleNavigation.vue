@@ -77,6 +77,21 @@ const scrollTo = (href) => {
 </script>
 
 <template>
+  <!-- Mobile / Tablet sidebar -->
+  <section class="lg:hidden">
+    <div class="max-w-[1184px] mx-auto px-4 py-4">
+      <p class="text-2xl font-bold text-white mb-4 bg-[#79a38d] p-2">On this page</p>
+      <ul class="bg-white p-4" style="padding-left: 8px;">
+        <li v-for="item in contents" :key="item.href"
+          class="text-xl font-bold py-2 border-b border-gray-200 last:border-b-0 hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8">
+          <a href="javascript:void(0)" @click.prevent="scrollTo(item.href)">
+            {{ item.label }}
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
   <!-- TITLE + DESCRIPTION -->
   <section class="p-0">
     <div class="relative w-full bg-cover bg-center bg-no-repeat min-h-[160px]">
@@ -110,21 +125,6 @@ const scrollTo = (href) => {
           </div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- Mobile / Tablet sidebar -->
-  <section class="lg:hidden">
-    <div class="max-w-[1184px] mx-auto px-4 py-4">
-      <p class="text-2xl font-bold text-white mb-4 bg-[#79a38d] p-2">On this page</p>
-      <ul class="bg-white p-4" style="padding-left: 8px;">
-        <li v-for="item in contents" :key="item.href"
-          class="text-xl font-bold py-2 border-b border-gray-200 last:border-b-0 hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8">
-          <a href="javascript:void(0)" @click.prevent="scrollTo(item.href)">
-            {{ item.label }}
-          </a>
-        </li>
-      </ul>
     </div>
   </section>
 </template>

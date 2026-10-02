@@ -1,6 +1,7 @@
 <script setup>
 import { useData } from 'vitepress'
 import { ref, watch } from 'vue'
+import { resolveUrl } from '../lib/url'
 
 const { theme } = useData()
 
@@ -65,13 +66,13 @@ const getGridClass = (items) => {
         <ul class="flex items-center justify-center gap-6">
           <li v-for="item in nav" :key="item.text" class="list-none relative">
             <!-- If item has a link and no sub-items, render as link -->
-            <a v-if="item.link && !item.items" :href="item.link || '#'"
-              class="flex items-center gap-1.5 text-xl font-medium text-white hover:text-[#79A38D] hover:font-bold hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8 transition-colors">
+            <a v-if="item.link && !item.items" :href="resolveUrl(item.link) || '#'"
+              class="flex items-center gap-1.5 text-lg xl:text-xl font-medium text-white hover:text-[#79A38D] hover:font-bold hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8 transition-colors">
               {{ item.text }}
             </a>
             <!-- Otherwise, render as dropdown button -->
             <button v-else @click="toggleMenu(item.text)"
-              class="flex items-center gap-1.5 text-xl font-medium text-white hover:text-[#79A38D] hover:font-bold hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8 transition-colors">
+              class="flex items-center gap-1.5 text-lg xl:text-xl font-medium text-white hover:text-[#79A38D] hover:font-bold hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8 transition-colors">
               {{ item.text }}
               <svg v-if="item.items" class="h-4 w-4 transition-transform"
                 :class="{ 'rotate-180': activeMenu === item.text }" viewBox="0 0 24 24" fill="none"
@@ -88,13 +89,13 @@ const getGridClass = (items) => {
         <ul class="flex items-center justify-center gap-3">
           <li v-for="item in nav" :key="item.text" class="list-none">
             <!-- If item has a link and no sub-items, render as link -->
-            <a v-if="item.link && !item.items" :href="item.link || '#'"
-              class="flex items-center gap-1 text-s font-medium text-white hover:text-gray-300 transition-colors px-2 py-1">
+            <a v-if="item.link && !item.items" :href="resolveUrl(item.link) || '#'"
+              class="flex items-center gap-1 text-lg font-medium text-white hover:text-gray-300 transition-colors px-2 py-1">
               {{ item.text }}
             </a>
             <!-- Otherwise, render as dropdown button -->
             <button v-else @click="toggleMenu(item.text)"
-              class="flex items-center gap-1 text-s font-medium text-white hover:text-gray-300 transition-colors px-2 py-1">
+              class="flex items-center gap-1 text-lg font-medium text-white hover:text-gray-300 transition-colors px-2 py-1">
               {{ item.text }}
               <svg v-if="item.items" class="h-3 w-3 transition-transform"
                 :class="{ 'rotate-180': activeMenu === item.text }" viewBox="0 0 24 24" fill="none"
@@ -152,13 +153,13 @@ const getGridClass = (items) => {
               ]">
                 <!-- Render regular items (buttons/images) -->
                 <template v-for="(subItem, idx) in item.items" :key="`${subItem.text || subItem.title || 'item'}-${subItem.link || idx}`">
-                  <a v-if="!subItem.children && subItem?.link" :href="subItem?.link" @click="closeMenu" :class="[
+                  <a v-if="!subItem.children && subItem?.link" :href="resolveUrl(subItem?.link)" @click="closeMenu" :class="[
                     subItem.image
                       ? 'flex flex-col items-left gap-2 p-0 group'
                       : `inline-flex items-left justify-left px-0 pt-2 text-2xl ${subItem.bold ? 'font-bold' : 'font-medium'} hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-8`
                     , (subItem.divider && idx % 3 !== 2 ? 'sm:border-r border-border pr-4' : '')
                   ]">
-                    <img v-if="subItem.image" :src="subItem.image" :alt="subItem.text"
+                    <img v-if="subItem.image" :src="resolveUrl(subItem.image)" :alt="subItem.text"
                       class="w-full h-32 object-cover" />
                     <span
                       :class="subItem.image ? `mt-1 text-2xl ${subItem.bold ? 'font-bold' : 'font-medium'} hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-4 transition-colors text-left` : ''">
@@ -174,9 +175,9 @@ const getGridClass = (items) => {
                     </div>
                     <ul class="space-y-1">
                       <li v-for="child in subItem.children" :key="child?.link || child?.text" class="flex flex-col">
-                        <a v-if="child && child.link" :href="child.link" @click="closeMenu"
+                        <a v-if="child && child.link" :href="resolveUrl(child.link)" @click="closeMenu"
                           :class="`text-base ${child.bold ? 'font-bold' : 'font-medium'} transition-colors hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-4`">
-                          <img v-if="child.image" :src="child.image" :alt="child.text" class="w-full h-32 object-cover" />
+                          <img v-if="child.image" :src="resolveUrl(child.image)" :alt="child.text" class="w-full h-32 object-cover" />
                           {{ child.text }}
                         </a>
                       </li>
@@ -201,7 +202,7 @@ const getGridClass = (items) => {
       enter-to-class="translate-x-0" leave-active-class="transition ease-in duration-200"
       leave-from-class="translate-x-0" leave-to-class="translate-x-full">
       <div v-if="mobileMenuOpen"
-        class="md:hidden fixed top-0 right-0 bottom-0 w-80 max-w-[85vw] bg-gray-900 shadow-2xl z-50 overflow-y-auto">
+        class="md:hidden fixed top-0 right-0 bottom-0 w-80 max-w-[85vw] bg-[#393939] shadow-2xl z-50 overflow-y-auto">
         <div class="p-6">
           <!-- Close button -->
           <div class="flex justify-end mb-6">
@@ -218,15 +219,15 @@ const getGridClass = (items) => {
             <ul class="space-y-2">
               <li v-for="item in nav" :key="item.text" class="list-none">
                 <!-- Simple link items -->
-                <a v-if="item.link && !item.items" :href="item.link || '#'" @click="closeMobileMenu"
-                  class="block px-4 py-3 text-white hover:bg-gray-800 rounded-lg transition-colors font-medium">
+                <a v-if="item.link && !item.items" :href="resolveUrl(item.link) || '#'" @click="closeMobileMenu"
+                  class="block px-4 py-3 text-white hover:bg-[#79A38D] rounded-lg transition-colors font-medium">
                   {{ item.text }}
                 </a>
 
                 <!-- Expandable menu items -->
                 <div v-else>
                   <button @click="toggleMobileSubmenu(item.text)"
-                    class="w-full flex items-center justify-between px-4 py-3 text-white hover:bg-gray-800 rounded-lg transition-colors font-medium">
+                    class="w-full flex items-center justify-between px-4 py-3 text-white hover:bg-[#79A38D] rounded-lg transition-colors font-medium">
                     <span>{{ item.text }}</span>
                     <svg class="h-5 w-5 transition-transform"
                       :class="{ 'rotate-180': mobileActiveSubmenu === item.text }" viewBox="0 0 24 24" fill="none"
@@ -243,8 +244,8 @@ const getGridClass = (items) => {
                     <div v-show="mobileActiveSubmenu === item.text" class="mt-2 ml-4 space-y-1">
                       <template v-for="subItem in item.items" :key="subItem.text + (subItem.link || '')">
                         <!-- Regular submenu items -->
-                        <a v-if="!subItem.children && subItem.link" :href="subItem.link" @click="closeMobileMenu"
-                          class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-800 rounded-lg transition-colors"
+                        <a v-if="!subItem.children && subItem.link" :href="resolveUrl(subItem.link)" @click="closeMobileMenu"
+                          class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-[#79A38D] rounded-lg transition-colors"
                           :class="{ 'font-bold': subItem.bold }">
                           {{ subItem.text }}
                         </a>
@@ -255,8 +256,8 @@ const getGridClass = (items) => {
                             {{ subItem.title || subItem.text }}
                           </div>
                           <div class="space-y-1" v-for="child in subItem.children" :key="child?.link || child?.text"><a
-                              :href="child.link"
-                              class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-800 rounded-lg transition-colors"
+                              :href="resolveUrl(child.link)"
+                              class="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-[#79A38D] rounded-lg transition-colors"
                               :class="{ 'font-bold': child.bold }" @click="closeMobileMenu">{{ child.text }}</a></div>
                         </div>
                       </template>

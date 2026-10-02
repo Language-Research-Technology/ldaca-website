@@ -33,9 +33,16 @@ description="Being able to analyse large amounts of language data opens up vast 
   :items="[
     {
       title: 'LDaCA Wordflow',
-      description: 'LDaCA Wordflow is a code-free text analytics tool that makes it easier for researchers to explore and analyse text without needing programming skills. Users can build flexible workflows by combining tools for frequency analysis, concordancing, trends, topic modelling and quotation analysis, with results from one tool feeding into the next.',
-      image: '/working-with-data/process-analyse/LDaCAWordflow.png',
+      description: `LDaCA Wordflow is a code-free text analytics tool that makes it easier for researchers to explore and analyse text without needing programming skills. Users can build flexible workflows by combining tools for frequency analysis, concordancing, trends, topic modelling and quotation analysis, with results from one tool feeding into the next.
+      <br>LDaCA Wordflow was developed by the <a href='https://www.sydney.edu.au/research/facilities/sydney-informatics-hub.html' class='text-[#79A38D] hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-2 transition-colors font-bold'> Sydney Informatics Hub </a> and <a href='https://sydneycorpuslab.com/' class='text-[#79A38D] hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-2 transition-colors font-bold'>Sydney Corpus Lab</a>`,
+      image: '/images/LDaCAWordflow.png',
       link: 'https://australian-text-analytics-platform.github.io/LDaCa_Text_Analytics_Tools/',
+    },
+        {
+      title: 'LADAL',
+      description: `The Language Technology and Data Analysis Laboratory (LADAL) is an open-access learning and research platform that helps researchers build skills in working with language data. It provides more than 60 step-by-step tutorials, structured courses and browser-based tools covering data science, statistics, visualisation, text analytics and computational research methods, with resources designed for everyone from complete beginners to experienced researchers.`,
+      image: '/images/LADAL.png',
+      link: 'https://ladal.edu.au/',
     },
   ]"
    />
@@ -103,7 +110,7 @@ description="Being able to analyse large amounts of language data opens up vast 
   :items="[
       {
         title: 'FIB DigiTalk 2025 ke-7, \'Using Large Data Sets for Qualitative Research\'',
-        image: '/working-with-data/process-analyse/FIBDigiTalk2025.png',
+        image: '/images/FIBDigiTalk2025.png',
         link: 'https://www.youtube.com/live/twCAdPazV2M',
         category: 'RECORDING'
       },
@@ -113,7 +120,7 @@ description="Being able to analyse large amounts of language data opens up vast 
       },
        {
         title: 'Vulgarity in English: Language, Creativity & Social Meaning',
-        image: '/working-with-data/process-analyse/ISLE.png',
+        image: '/images/ISLE.png',
         link: 'https://www.youtube.com/watch?v=l3K4v4LtDTQ',
         category: 'RECORDING'
       },
