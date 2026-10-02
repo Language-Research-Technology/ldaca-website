@@ -2,7 +2,7 @@
 
 This is the source repository for an LDaCA based website.
 
-# NEW DESIGN - PROOF OF CONCEPT
+# NEW DESIGN
 
 # Prerequisites
 
