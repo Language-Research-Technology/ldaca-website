@@ -33,9 +33,15 @@ import '@fontsource/work-sans/500.css'
 import '@fontsource/work-sans/600.css'
 import '@fontsource/work-sans/700.css'
 
+declare global {
+  interface Window {
+    gtag?: (...args: unknown[]) => void
+  }
+}
+
 export default {
   ...DefaultTheme,
-  enhanceApp({ app }) {
+  enhanceApp({ app, router }) {
     app.component('GlossaryLink', GlossaryLink)
     app.component('GlossaryList', GlossaryList)
     app.component('BlogPostsPage', BlogPostsPage)
@@ -60,6 +66,16 @@ export default {
     app.component('VerticalTabsBanner', VerticalTabsBanner)
     app.component('Contact', Contact)
     app.component('ToolsGrid', ToolsGrid)
+
+    if (typeof window !== 'undefined') {
+      router.onAfterRouteChange = (to) => {
+        window.gtag?.('event', 'page_view', {
+          page_path: to,
+          page_location: window.location.href,
+          page_title: document.title
+        })
+      }
+    }
   },
   Layout: Layout,
 } satisfies Theme
