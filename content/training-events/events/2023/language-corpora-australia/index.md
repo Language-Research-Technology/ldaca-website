@@ -1,5 +1,5 @@
 ---
-title: "Workshop on Language Corpora in Australia"
+title: "Workshop on language corpora in Australia"
 description: "This provided an opportunity to share information about existing language corpora in Australia that have been amassed through decades of work. The workshop resulted in a special issue of the Australian Journal of Linguistics introducing and discussing a selection of these corpora."
 layout: event
 image: 

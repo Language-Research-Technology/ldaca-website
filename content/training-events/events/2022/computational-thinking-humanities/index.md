@@ -1,5 +1,5 @@
 ---
-title: "Computational Thinking in the Humanities"
+title: "Computational thinking in the Humanities"
 description: "The workshop Computational Thinking in the Humanities was a 3-hour online workshop featuring two plenary talks, lightning presentations, as well as a panel discussion. The workshop was co-organised by the Australian Text Analytics Platform, FIN-CLARIAH and its University of Eastern Finland (UEF) representatives, and the Australian Digital Observatory."
 layout: event
 image: 

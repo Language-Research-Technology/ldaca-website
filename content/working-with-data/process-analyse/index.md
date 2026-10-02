@@ -34,7 +34,7 @@ description="Being able to analyse large amounts of language data opens up vast 
     {
       title: 'LDaCA Wordflow',
       description: `LDaCA Wordflow is a code-free text analytics tool that makes it easier for researchers to explore and analyse text without needing programming skills. Users can build flexible workflows by combining tools for frequency analysis, concordancing, trends, topic modelling and quotation analysis, with results from one tool feeding into the next.
-      <br>LDaCA Wordflow was developed by the <a href='https://www.sydney.edu.au/research/facilities/sydney-informatics-hub.html' class='text-[#79A38D] hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-2 transition-colors font-bold'> Sydney Informatics Hub </a> and <a href='https://sydneycorpuslab.com/' class='text-[#79A38D] hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-2 transition-colors font-bold'>Sydney Corpus Lab</a>`,
+      <br>LDaCA Wordflow was developed by the <a href='https://www.sydney.edu.au/research/facilities/sydney-informatics-hub.html' class='text-[#79A38D] hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-2 transition-colors font-bold'> Sydney Informatics Hub </a> and <a href='https://sydneycorpuslab.com/' class='text-[#79A38D] hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-2 transition-colors font-bold'>Sydney Corpus Lab</a>.`,
       image: '/images/LDaCAWordflow.png',
       link: 'https://australian-text-analytics-platform.github.io/LDaCa_Text_Analytics_Tools/',
     },
@@ -61,7 +61,7 @@ description="Being able to analyse large amounts of language data opens up vast 
   heading="GUIDES"
   :items="[
       {
-        title: 'Introduction to Text Analysis',
+        title: 'Introduction to text analysis',
         description: 'An introduction to working with text as data. Covers key text analysis concepts and the workflow from preparing and analysing text through to documenting and packaging research outputs for reuse.',
         link: '/resources/guides/working-with-data/Introduction-to-text-analysis',
         level: 'Beginner',
@@ -70,7 +70,7 @@ description="Being able to analyse large amounts of language data opens up vast 
         category: 'FIELD GUIDE'
       },
       {
-        title: 'Text Analytics',
+        title: 'Text analytics',
         description: 'A LADAL tutorial introducing text analysis in R and a range of text analytics methods. Some familiarity with R and RStudio is required, so we recommend being comfortable with the material covered in the R Basics section before getting started.',
         level: 'Beginner-Intermediate',
         audience: 'Researchers and students interested in learning R',
@@ -109,7 +109,7 @@ description="Being able to analyse large amounts of language data opens up vast 
   heading="ADDITIONAL RESOURCES"
   :items="[
       {
-        title: 'FIB DigiTalk 2025 ke-7, \'Using Large Data Sets for Qualitative Research\'',
+        title: 'FIB DigiTalk 2025, \'Using large data sets for qualitative research\'',
         image: '/images/FIBDigiTalk2025.png',
         link: 'https://www.youtube.com/live/twCAdPazV2M',
         category: 'RECORDING'
@@ -119,7 +119,7 @@ description="Being able to analyse large amounts of language data opens up vast 
         link: '/training-events/events/2025/parlamint-corpora',
       },
        {
-        title: 'Vulgarity in English: Language, Creativity & Social Meaning',
+        title: 'Vulgarity in English: Language, creativity & social meaning',
         image: '/images/ISLE.png',
         link: 'https://www.youtube.com/watch?v=l3K4v4LtDTQ',
         category: 'RECORDING'

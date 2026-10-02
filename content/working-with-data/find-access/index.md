@@ -32,17 +32,17 @@ title: "Find & access"
   backgroundColor="#fff"
   :opacity="100"
   heading="AVAILABLE PORTALS"
-  description='<GlossaryLink display="Oni" id="oni" />: A web application that provides indexing, searching and access to secure data repositories following the <GlossaryLink display="Arkisto" id="arkisto" /> model. This is used to build the LDaCA Portal: The online interface of the Language Data Commons of Australia where users can discover and access language collections.'
+  description='Our infrastructure underpins a range of data portals for the discovery and access of language collections.'
   :items="[
       {
         title: 'LDaCA Data Portal',
-        description: 'Explore and access significant collections of language data, including the Mitchell and Delbridge corpus and the Australian component of the International Corpus of English (ICE).',
+        description: 'Explore and access significant collections of Australian language data, including the Sydney Speaks corpus and the Australian component of the International Corpus of English (ICE).',
         image: '/images/LDaCA_data_portal.png',
         link: 'https://data.ldaca.edu.au',
       },
       {
         title: 'PARADISEC Portal',
-        description: 'PARADISEC has more than 700 collections representing over 1,370 languages.',
+        description: 'The Pacific and Regional Archive for Digital sources in Endangered Languages (PARADISEC) catalogue is based on a shared API with the LDaCA Portal. PARADISEC houses more than 700 digital collections representing over 1,370 languages.',
         image: '/images/Paradisec_data_portal.png',
         link: 'https://catalog.paradisec.org.au/'
       },
@@ -62,8 +62,8 @@ title: "Find & access"
   description="LDaCA guides to help you navigate language collections."
   :items="[
       {
-        title: 'Data Portal User Guide',
-        description: 'Guide to assist with using the LDaCA data portal.',
+        title: 'Data Portal user guide',
+        description: 'Guide to assist with using the LDaCA Data Portal.',
         image: '/images/PlainBackgrounds/Altblack.png',
         link: '/resources/guides/portal',
         level: 'Beginner',
@@ -71,8 +71,8 @@ title: "Find & access"
         category: 'LDACA TECHNOLOGIES GUIDE'
       },
       {
-        title: 'Cite Data',
-        description: 'A guide to citing collections and data accessed through the LDaCA data portal.',
+        title: 'Cite data',
+        description: 'A guide to citing collections and data accessed through the LDaCA Data Portal.',
         image: '/images/PlainBackgrounds/AltGreen.png',
         buttonColor: '#393939',
         link: '/resources/guides/portal/cite-data',

@@ -3,7 +3,7 @@ title: "Organisation"
 layout: home
 ---
 
-<SimpleHero breadcrumb="About > About us" title="About us" description="Learn more about what we do, our aims, our strategy and who we work with"/>
+<SimpleHero breadcrumb="About > About us" title="About us" description="Learn more about what we do, our aims, our strategy and who we work with."/>
 
 <SimpleNavigation
   title="Practical support for working with language data"
@@ -74,13 +74,13 @@ layout: home
     tileView="true"
     :items="[
     {
-        title: 'FAIR Principles',
+        title: 'FAIR principles',
         description: '<b>Findable, Accessible, Interoperable, Reusable</b>\n\nThe FAIR principles aim to address issues in data management and stewardship. Data and metadata should be easily <b>findable</b> for both humans and computers. Once found, data needs to be <b>accessible</b>. Users need to know how they can access the data, including any authentication and authorisation requirements. The data should be <b>interoperable</b> with other data and with applications or workflows for analysis, storage and processing. The ultimate goal of FAIR is to optimise the <b>reuse</b> of data. To achieve this, metadata and data should be well-described so that they can be replicated and/or combined in different settings. \n\nLDaCA supports FAIR data practices and initiatives that make data and related research outputs FAIR. Implementation will vary across disciplines and will need discipline-specific approaches and standards.',
         image: '/about/organisation/FAIR.png', 
         link: '/about/principles/#fair-principles',
     },
     {
-        title: 'CARE Principles',
+        title: 'CARE principles',
         description: `<b>Collective benefit, Authority to control, Responsibility, Ethics</b>\n\nThe CARE Principles for Indigenous Data Governance, developed by the <a href='https://www.gida-global.org/' class='text-[#79A38D] hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-2 transition-colors font-bold'>Global Indigenous Data Alliance (GIDA)</a>, aim to complement the FAIR principles. \n\nData ecosystems should be designed and function in ways that enable Indigenous Peoples to derive <b>collective benefit</b> from the data. Indigenous Peoples’ rights and interests in Indigenous data must be recognised and their <b>authority to control</b> such data should be empowered. Those working with Indigenous data have a <b>responsibility</b> to share how those data are used to support Indigenous Peoples’ self-determination and collective benefit. With respect to <b>ethics</b>, Indigenous Peoples’ rights and wellbeing should be the primary concern at all stages of the data life cycle and across the data ecosystem.\n\nLDaCA supports the CARE principles to further extend data management principles, ensuring that Indigenous communities benefit from the data.`,
         image: '/about/organisation/CARE.png', 
         link: '/about/principles/#care-principles',
@@ -105,7 +105,7 @@ layout: home
     buttonText="Learn more"
     :items="[
     {
-        title: 'About the steering committee',
+        title: 'About the Steering Committee',
         description: 'LDaCA is guided by a Steering Committee that provides direction on project issues, advocates for the project and ensures clear communication with stakeholders.\n\nThe Steering Committee oversees project outcomes, approves major changes and facilitates access to subject matter experts when needed. It is made up of Chief Investigators and project advisors. \n\nMembers bring expertise in governance, leadership, partnerships, data, technology, research and community engagement, ensuring effective project oversight.\n\n Read more about LDaCA’s Steering Committee including members, Terms of Reference and meeting communiques.',
         image: '/about/organisation/governance.png', 
         link: '/about/steering-committee',

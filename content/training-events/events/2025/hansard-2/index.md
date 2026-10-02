@@ -1,5 +1,5 @@
 ---
-title: "Get Started with Federal Hansard for Humanities, Arts, and Social Sciences Research"
+title: "Get started with Federal Hansard for Humanities, Arts, and Social Sciences research"
 description: "This workshop introduced the Australian Federal Parliament’s transcribed proceedings, exploring their research potential, how to get started with different projects, and key considerations and limitations when working with parliamentary data."
 layout: event
 image: "https://images.humanitix.com/i/hI2fjuIT7Wai6JZJewXw@responsive-1250.webp"

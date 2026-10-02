@@ -1,5 +1,5 @@
 ---
-title: "Indigenous data governance: A discussion"
+title: "Indigenous Data Governance: A discussion"
 date: 2025-01-29T16:34:20+11:00
 draft: false
 # tags: ["Governance, rights & access", "Indigenous data"]

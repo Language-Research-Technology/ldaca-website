@@ -1,5 +1,5 @@
 ---
-title: "Monotreme Mania! Comparative text analytics on Twitter data"
+title: "Monotreme mania! Comparative text analytics on Twitter data"
 description: ""
 layout: event
 image: 

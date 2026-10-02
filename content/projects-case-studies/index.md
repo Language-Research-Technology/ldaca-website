@@ -67,12 +67,12 @@ title: "Projects & case studies"
         image:'/images/PlainBackgrounds/Greenplain.png'
       },
       {
-        title: 'A Master\'s Research Project',
+        title: 'A Master\'s research project',
         link: '/projects-case-studies/case-studies/masters-research-project',
         image:'/images/PlainBackgrounds/Blackplain.png'
       },
       {
-        title: 'Data Management in Language Technology: A Case Study of Appen',
+        title: 'Data management in language technology: A case study of Appen',
         link: '/projects-case-studies/case-studies/data-management-appen',
         image:'/images/PlainBackgrounds/Greenplain.png'
       },

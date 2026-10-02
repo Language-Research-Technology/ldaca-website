@@ -27,7 +27,7 @@ title: "Events"
         link: '/training-events/events/2026/e-research-2026',
     },
     {
-        title: 'RO-Crate Clinic Drop-in',
+        title: 'RO-Crate clinic drop-in',
         link: '/training-events/events/ro-crate-clinic-drop-in',
     },
   ]"/>
@@ -42,15 +42,15 @@ title: "Events"
   buttonText="Watch recording"
   :items="[
   {
-        title: 'The Collaborative Power of a Research Data Commons: LDaCA case studies',
+        title: 'The collaborative power of a Research Data Commons: LDaCA case studies',
         link: '/training-events/events/2026/collaborative-power-RDC',
     },
       {
-        title: 'Language Data Commons of Australia - HASS & Indigenous Research Data Commons Symposium 2025',
+        title: 'Language Data Commons of Australia: HASS & Indigenous Research Data Commons Symposium 2025',
         link: '/training-events/events/2025/hass-irdc-symposium-2',
       },
       {
-        title: 'Showcase of Language Data Infrastructure - Language Data Commons of Australia',
+        title: 'Showcase of language data infrastructure: Language Data Commons of Australia',
         link: '/training-events/events/2025/hass-irdc-symposium-1',
       },
       {
@@ -58,7 +58,7 @@ title: "Events"
         link: '/training-events/events/2025/parlamint-corpora',
       },
       {
-        title: 'IPrA2025: The Pragmatics of Indigenous Languages',
+        title: 'IPrA2025: The pragmatics of Indigenous languages',
         link: '/training-events/events/2025/ipra2025',
       },
       {
@@ -76,19 +76,19 @@ title: "Events"
   heading="PAST EVENTS"
   :items="[
        {
-        title: 'Working With Text Workshops: From Interview Transcripts to 125 years of Hansard',
+        title: 'Working with text workshops: From interview transcripts to 125 years of Hansard',
         link: '/training-events/events/2026/Working-with-text',
     },
    {
-                    title: 'Understanding Society Through Data: A Cross-Infrastructure Showcase',
+                    title: 'Understanding society through data: A cross-infrastructure showcase',
         link: '/training-events/events/2026/Society-through-data',
     },
                     {
-                    title: 'The Collaborative Power of a Research Data Commons: LDaCA case studies',
+                    title: 'The collaborative power of a Research Data Commons: LDaCA case studies',
         link: '/training-events/events/2026/collaborative-power-RDC',
     },
              {
-        title: 'Sustainable Data for Humanities Researchers',
+        title: 'Sustainable data for Humanities researchers',
         link: '/training-events/events/2026/sustainable-data-for-humanities-researchers-2026',
     },
   {
@@ -104,16 +104,16 @@ title: "Events"
         link: '/training-events/events/2026/hass-irdc-summer-school',
     },
     {
-        title: 'Get Started with Federal Hansard for Humanities, Arts, and Social Sciences Research',
+        title: 'Get started with Federal Hansard for Humanities, Arts, and Social Sciences research',
         link: '/training-events/events/2025/hansard-2',
     },
     {
-        title: 'Sustainable Data for Humanities Researchers',
+        title: 'Sustainable data for Humanities researchers',
         link: '/training-events/events/2025/sustainable-data-for-humanities-researchers',
         category: 'WORKSHOP',
     },
     {
-        title: 'Steven Bird: Language Technology and the Metacrisis',
+        title: 'Steven Bird: Language technology and the metacrisis',
         link: '/training-events/events/2025/language-technology-metacrisis',
     },
     {
@@ -149,15 +149,15 @@ title: "Events"
         link: '/training-events/events/2024/indigenous-data-governance',
     },
     {
-        title: 'Using Hansard & Other Parliamentary Proceedings for Your Research',
+        title: 'Using Hansard & other parliamentary proceedings for your research',
         link: '/training-events/events/2024/hansard',
     },
     {
-        title: 'Data Migration Skills Workshop',
+        title: 'Data migration skills workshop',
         link: '/training-events/events/2024/data-migration-skills',
     },
     {
-        title: 'Introduction to Computational Text Analytics',
+        title: 'Introduction to computational text analytics',
         link: '/training-events/events/2024/computational-text-analytics',
     },
     {
@@ -165,7 +165,7 @@ title: "Events"
         link: '/training-events/events/2024/language-variation-australian-english',
     },
     {
-        title: 'Language Data Commons of Australia – Co-Design Workshops',
+        title: 'Language Data Commons of Australia: Co-design workshops',
         link: '/training-events/events/2024/co-design-workshops',
     },
     {
@@ -177,7 +177,7 @@ title: "Events"
         link: '/training-events/events/2023/community-language-corpora-australia',
     },
     {
-        title: 'Workshop on Language Corpora in Australia',
+        title: 'Workshop on language corpora in Australia',
         link: '/training-events/events/2023/language-corpora-australia',
     },
     {
@@ -185,7 +185,7 @@ title: "Events"
         link: '/training-events/events/2023/atap-tools-text-analysis',
     },
     {
-        title: 'Exploring Digital Text Collections with Juxtorpus: A Taster Webinar on the Latest ATAP Text Analysis Tool',
+        title: 'Exploring digital text collections with Juxtorpus: A taster webinar on the latest ATAP text analysis tool',
         link: '/training-events/events/2023/juxtorpus',
     },
     {
@@ -197,7 +197,7 @@ title: "Events"
         link: '/training-events/events/2023/jefferson-transcript-search-tool',
     },
     {
-        title: 'Australian Text Analytics Platform tools: Discursis, Juxtorpus, Quotation tool and Semantic tagger',
+        title: 'Australian Text Analytics Platform tools: Discursis, Juxtorpus, Quotation Tool and Semantic Tagger',
         link: '/training-events/events/2023/atap-tools-discursis-juxtorpus-quotation-semantic-tagger',
     },
     {
@@ -213,7 +213,7 @@ title: "Events"
         link: '/training-events/events/2022/eu-data-protection',
     },
     {
-        title: 'Geolocating Australian Historical Resources',
+        title: 'Geolocating Australian historical resources',
         link: '/training-events/events/2022/geolocating-australian-historical-resources',
     },
     {
@@ -225,7 +225,7 @@ title: "Events"
         link: '/training-events/events/2022/atap-quotation-tools',
     },
     {
-        title: 'Computational Thinking in the Humanities',
+        title: 'Computational thinking in the humanities',
         link: '/training-events/events/2022/computational-thinking-humanities',
     },
     {
@@ -245,11 +245,11 @@ title: "Events"
         link: '/training-events/events/2022/network-analysis-topic-modeling',
     },
     {
-        title: 'Keoni Mahelona: A practical approach to Indigenous data sovereignty',
+        title: 'Keoni Mahelona: A practical approach to Indigenous Data Sovereignty',
         link: '/training-events/events/2022/indigenous-data-sovereignty',
     },
     {
-        title: 'Monotreme Mania! Comparative text analytics on Twitter data',
+        title: 'Monotreme mania! Comparative text analytics on Twitter data',
         link: '/training-events/events/2022/comparative-text-analytics-twitter',
     },
     {

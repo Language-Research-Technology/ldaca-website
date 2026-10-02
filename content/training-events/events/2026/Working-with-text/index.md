@@ -1,5 +1,5 @@
 ---
-title: "Working With Text Workshops: From Interview Transcripts to 125 years of Hansard"
+title: "Working With text workshops: From interview transcripts to 125 years of Hansard"
 description: "Free hands-on workshops at the University of Sydney for researchers who work with text. No coding needed."
 layout: event
 image: "https://ardc.edu.au/wp-content/uploads/2025/05/is-that-unparliamentary-feature-image-583-x-345-580x345.png.webp"

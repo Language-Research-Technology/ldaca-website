@@ -19,8 +19,8 @@ title: "License, share & govern"
   buttonText="Read more"
   :items="[
     {
-      title: 'Framework for the Governance of Indigenous Data: HASS and Indigenous Research Data Commons',
-      description: 'The Framework for the Governance of Indigenous Data provides a practical, culturally grounded approach to embedding Indigenous data governance across the HASS and Indigenous Research Data Commons. Developed through consultation and co-design, it supports Indigenous self-determination by providing principles, guidelines and accountability mechanisms for the ethical governance of Indigenous data throughout its lifecycle.',
+      title: 'Framework for the governance of Indigenous data: HASS and Indigenous Research Data Commons',
+      description: 'The <i>Framework for the governance of Indigenous data</i> provides a practical, culturally grounded approach to embedding Indigenous data governance across the HASS and Indigenous Research Data Commons. Developed through consultation and co-design, it supports Indigenous self-determination by providing principles, guidelines and accountability mechanisms for the ethical governance of Indigenous data throughout its lifecycle.',
       image: '/images/IDGFramework.png',
       link: 'https://zenodo.org/records/11135962',
     },
@@ -33,7 +33,7 @@ title: "License, share & govern"
   heading="GUIDES"
   :items="[
       {
-        title: 'Determining Access Conditions',
+        title: 'Determining access conditions',
         link: '/resources/guides/working-with-data/determining-access-conditions',
         image:'/images/PlainBackgrounds/Blackplain.png',
         level: 'Beginner-intermediate',
@@ -48,7 +48,7 @@ title: "License, share & govern"
         audience: 'Researchers, data custodians and collection managers',
       },
       {
-        title: 'Guidance for Data Governance Decisions',
+        title: 'Guidance for data governance decisions',
         link: '/resources/guides/working-with-data/guidance-for-data-governance-decisions',
         image:'/images/PlainBackgrounds/Blackplain.png',
         level: 'Intermediate',
@@ -67,7 +67,7 @@ title: "License, share & govern"
 
 
 <CarouselLarge
-    id="LDaCA Collection Licenses"
+    id="LDaCA collection licenses"
     heading="LDACA COLLECTION LICENSES"
     backgroundColor="white"
     buttonText="Go to existing licenses"
@@ -136,13 +136,13 @@ title: "License, share & govern"
         category: 'RECORDING'
       },
       {
-        title: 'CARE Principles',
+        title: 'CARE principles',
         description: 'The CARE Principles are a set of guidelines for respecting and protecting Indigenous Peoples\' rights and interests in data and knowledge. They complement the FAIR principles of open data and science, and aim to advance Indigenous innovation and self-determination.',
         image: 'https://images.squarespace-cdn.com/content/v1/5d3799de845604000199cd24/1567592828276-IZWQDX1H6DRCD85GRSWJ/CARE+Principles.png?format=2500w',
         link: 'https://www.gida-global.org/careprinciples'
       },
       {
-        title: 'FAIR Principles',
+        title: 'FAIR principles',
         description: 'FAIR stands for Findable, Accessible, Interoperable, and Reusable, and is a set of guidelines to improve the machine-actionability of digital assets. Learn how to apply the FAIR principles to data, metadata, and infrastructure with examples and resources.',
         image: 'https://www.go-fair.org/wp-content/themes/go-fair/images/logo.svg',
         link: 'https://www.go-fair.org/fair-principles/'

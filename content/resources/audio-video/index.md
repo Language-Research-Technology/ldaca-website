@@ -43,17 +43,17 @@ title: "Audio & video"
         link: '/training-events/events/2025/parlamint-corpora',
       },
       {
-        title: 'Language Data Commons of Australia - HASS & Indigenous Research Data Commons Symposium 2025',
+        title: 'Language Data Commons of Australia: HASS & Indigenous Research Data Commons Symposium 2025',
         link: '/training-events/events/2025/hass-irdc-symposium-2',
         category: 'RECORDING'
       },
       {
-        title: 'Showcase of Language Data Infrastructure - Language Data Commons of Australia',
+        title: 'Showcase of language data infrastructure: Language Data Commons of Australia',
         link: '/training-events/events/2025/hass-irdc-symposium-1',
         category: 'RECORDING'
       },
       {
-        title: 'FAIR and CARE Principles 101 (HASS & Indigenous Summer School 2025)',
+        title: 'FAIR and CARE principles 101 (HASS & Indigenous Summer School 2025)',
         description: 'A basic introduction to two sets of principles providing a framework for researchers to manage data. FAIR makes data as open as possible and as closed as necessary, ensuring data are Findable, Accessible, Interoperable and Reusable. CARE principles respectfully consider how to manage Indigenous data, ensuring Collective Benefit, Authority to Control, Responsibility, Ethics. Presenter:  Simon Musgrave (University of Queensland).',
         image: 'https://img.youtube.com/vi/UGGdLAeNWX8/sddefault.jpg',
         link: 'https://www.youtube.com/watch?v=UGGdLAeNWX8',
@@ -67,7 +67,7 @@ title: "Audio & video"
         category: 'RECORDING'
       },
       {
-        title: 'Language Data Commons of Australia (LDaCA) Project Plan - September 2021',
+        title: 'Language Data Commons of Australia (LDaCA) project plan September 2021',
         description: 'Prof. Michael Haugh from the University of Queensland, presents the project plan for the Language Data Commons of Australia (LDaCA), part of the ARDC-led Humanities, Arts and Social Sciences (HASS) Research Data Commons and Indigenous Research Capability Program. This platform will capitalise on existing infrastructure, rescue vulnerable and dispersed collections, and link with improved analysis environments for new research outcomes.',
         image: 'https://img.youtube.com/vi/N93sHSfjBeI/sddefault.jpg',
         link: 'https://www.youtube.com/watch?v=N93sHSfjBeI',
@@ -81,7 +81,7 @@ title: "Audio & video"
         category: 'RECORDING'
       },
       {
-        title: 'Burridge, Beers Fägersten & Stapleton - Vulgarity in English: Language, Creativity & Social Meaning',
+        title: 'Burridge, Beers Fägersten & Stapleton - Vulgarity in English: Language, creativity & social meaning',
         description: 'ISLE Forum featuring Kate Burridge, Kristy Beers Fägersten & Karyn Stapleton on \'Vulgarity in English: Language, Creativity, and Social Meaning\'; Recorded on 12 December 2025; Moderated by ISLE Vice President (Profession) Martin Schweinberger.',
         image: 'https://img.youtube.com/vi/l3K4v4LtDTQ/sddefault.jpg',
         link: 'https://www.youtube.com/watch?v=l3K4v4LtDTQ',
@@ -95,13 +95,13 @@ title: "Audio & video"
         category: 'RECORDING'
       },
       {
-        title: 'FIB DigiTalk 2025 ke-7, \'Using Large Data Sets for Qualitative Research\'',
+        title: 'FIB DigiTalk 2025, \'Using large data sets for qualitative research\'',
         image: 'https://img.youtube.com/vi/twCAdPazV2M/sddefault.jpg',
         link: 'https://www.youtube.com/live/twCAdPazV2M',
         category: 'RECORDING'
       },
       {
-        title: 'Channel 10 News - Mind Your Language',
+        title: 'Channel 10 News: Mind your language',
         description: 'Research by Chief Investigator Martin Schweinberger and colleague Kate Burridge (Monash University) on vulgar language in online spaces has received national and international media coverage. Martin’s and Kate’s research uncovered who swears the most online by country – with surprising results!',
         image: 'https://mcusercontent.com/ef8667be63aefb1e35062a797/images/6afbb930-5c23-7059-6719-f3a657acb175.png',
         link: 'https://www.linkedin.com/posts/martin-schweinberger-53515a96_linguistics-corpuslinguistics-languageinthemedia-activity-7331647104760573952-T47c?utm_source=share&utm_medium=member_desktop&rcm=ACoAADydwucBJwi3D3vS6WHo-6Ifapj9NyTTxbg',
@@ -115,14 +115,14 @@ title: "Audio & video"
         category: 'RECORDING'
       },
       {
-        title: 'Digital Technology for Language Growth with Ben Foley',
+        title: 'Digital technology for language growth with Ben Foley',
         description: 'This session focuses on: Uses of digital technology in language growth and the challenges that come with it; Longevity of technology – software, apps, computers, devices; ICIP and copyright issues – ownership of material.',
         image: 'https://i.vimeocdn.com/video/2003023297-d4c6518f8c1e5b812bcfef942460c9c0e6f3c79e9b64d58c95679001b6b3c6e9-d_1920x1080?region=us',
         link: 'https://vimeo.com/1058458104',
         category: 'RECORDING'
       },
       {
-        title: 'Indigenous Data Provenance, Local Contexts and the Care Principles for Indigenous Data Governance 1',
+        title: 'Indigenous data provenance, Local Contexts and the CARE principles for Indigenous Data Governance',
         description: 'The provenance of Indigenous data is a key issue in the biodiversity data community particularly in the context of data governance and the establishment of a Multilateral Mechanism for sharing the benefits of DSI. Implementation activities for the CARE Principles for Indigenous Data Governance are under development providing guidance for researchers, repositories and publishers including appropriate attribution for both biocultural resources and associated traditional knowledge. In this session, the Local Contexts team and users of Local Contexts across GBIF, ODIS and TDWG will discuss and show examples of their inplementation of Local Contexts and how this tool supports the operationalization of the CARE Principles of Indigenous Data Governance.',
         image: 'https://img.youtube.com/vi/0cKNjafD0W8/sddefault.jpg',
         link: 'https://www.youtube.com/watch?v=0cKNjafD0W8',

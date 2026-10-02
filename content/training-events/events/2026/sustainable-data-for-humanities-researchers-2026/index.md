@@ -1,5 +1,5 @@
 ---
-title: "Sustainable Data for Humanities Researchers workshop"
+title: "Sustainable data for Humanities researchers workshop"
 description: "Research data is valuable and fundamental to creating knowledge. This workshop introduced basic data management practices to help keep data useful and sustainable, guided by the FAIR and CARE principles."
 layout: event
 image: "https://rduevents.unimelb.edu.au/live/image/scale/2x/gid/23/width/300/height/169/crop/1/609_HASSevent.rev.1754545130.webp"

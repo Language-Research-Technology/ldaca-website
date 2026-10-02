@@ -1,5 +1,5 @@
 ---
-title: "Using Hansard & Other Parliamentary Proceedings for Your Research"
+title: "Using Hansard & other parliamentary proceedings for your research"
 description: "Parliamentary bodies around the world have been publishing transcriptions of their proceedings for decades or even centuries. This workshop aimed to provide a starting point for working with the transcribed proceedings of the Australian Federal Parliament, including evaluating how they might be useful for your research, how to get started for different kinds of projects and cautionary notes on potential limitations."
 layout: event
 image: 

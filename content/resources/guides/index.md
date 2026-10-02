@@ -10,21 +10,21 @@ title: "Guides"
   id="guides"
   :items="[
       {
-        title: 'Data Portal User Guide',
+        title: 'Data Portal user guide',
         description: 'Guide to assist with using the LDaCA data portal.',
         link: '/resources/guides/portal',
         category: 'LDACA TECHNOLOGIES GUIDE',
         image: '/images/PlainBackgrounds/Altblack.png',
       },
       {
-        title: 'Crate-O User Guide',
+        title: 'Crate-O user guide',
         description: 'A practical guide to using Crate-O, covering key RO-Crate and metadata concepts, navigating the interface, creating RO-Crates and adding metadata in bulk using spreadsheets.',
         category: 'LDACA TECHNOLOGIES GUIDE',
         link: '/resources/guides/crate-o',
         image: '/images/PlainBackgrounds/Greenplain.png',
       },
       {
-        title: 'Cite Data',
+        title: 'Cite data',
         description: 'A guide to citing collections and data accessed through the LDaCA data portal.',
         link: '/resources/guides/portal/cite-data/',
         category: 'HOW-TO GUIDE',
@@ -45,21 +45,21 @@ title: "Guides"
         image: '/images/PlainBackgrounds/Altorange.png',
       },
                   {
-        title: 'Determining Access Conditions',
+        title: 'Determining access conditions',
         description: 'Defines a workflow for determining the access conditions for a data collection, to be outlined in the license.',
         link: '/resources/guides/working-with-data/determining-access-conditions',
         category: 'RESOURCE',
         image: '/images/PlainBackgrounds/AltGreen.png',
       },
                       {
-        title: 'Guidance for Data Governance Decisions',
+        title: 'Guidance for data governance decisions',
         description: 'Defines policies, roles, responsibilities and procedures for ongoing use and storage of data, as well as for access to data.',
         link: '/resources/guides/working-with-data/guidance-for-data-governance-decisions',
         category: 'RESOURCE',
         image: '/images/PlainBackgrounds/Altblue.png',
       },
                        {
-        title: 'Introduction to Text Analysis',
+        title: 'Introduction to text analysis',
         description: 'An introduction to working with text as data. Covers key text analysis concepts and the workflow from preparing and analysing text through to documenting and packaging research outputs for reuse.',
         link: '/resources/guides/working-with-data/Introduction-to-text-analysis',
         category: 'FIELD GUIDE',

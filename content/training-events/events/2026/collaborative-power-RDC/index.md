@@ -1,5 +1,5 @@
 ---
-title: "The Collaborative Power of a Research Data Commons: LDaCA case studies"
+title: "The collaborative power of a Research Data Commons: LDaCA case studies"
 description: "HASS researchers are invited to explore the benefits of a research data commons through 4 case studies from the Language Data Commons of Australia (LDaCA), emphasising the importance of people."
 layout: event
 image: "https://ardc.edu.au/wp-content/uploads/2026/07/hassi-web-series-feature-image-583-x-345-580x345.png.webp"

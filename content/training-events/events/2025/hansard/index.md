@@ -1,5 +1,5 @@
 ---
-title: "Get started with Hansard for humanities, arts, and social sciences research"
+title: "Get started with Hansard for Humanities, Arts, and Social Sciences research"
 description: "Parliamentary bodies around the world have been publishing transcriptions of their proceedings for decades or even centuries. This workshop aimed to provide a starting point for working with the transcribed proceedings of the Australian Federal Parliament, including evaluating how they might be useful for your research, how to get started for different kinds of projects and cautionary notes on potential limitations."
 layout: event
 image: "https://images.humanitix.com/i/hI2fjuIT7Wai6JZJewXw@responsive-1250.webp"

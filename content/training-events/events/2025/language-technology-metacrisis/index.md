@@ -1,5 +1,5 @@
 ---
-title: "Steven Bird: Language Technology and the Metacrisis"
+title: "Steven Bird: Language technology and the metacrisis"
 description: "Professor Steven Bird delivered the first webinar in our 2025 series in May. Steven discussed how, despite their manifold benefits, language technologies are contributing to several unfolding crises. These developments — the language crisis, the environmental crisis and the meaning crisis — compound each other in what is being referred to as the metacrisis. How are we to respond, then, as a community of practice who is actively developing still more language technologies?"
 layout: event
 image: "https://www.cdu.edu.au/files/styles/landscape_body/public/2023-10/ni-staff-steven-bird%20%281%29.jpg.webp?h=8c1344d8&itok=w1lIOV7O"
