@@ -58,7 +58,7 @@ title: "Projects & case studies"
   :items="[
       {
         title: 'Putting data to work',
-        link: '/resources/posts/putting-data-to-work',
+        link: '/news/posts/putting-data-to-work',
         image:'/images/PlainBackgrounds/Blackplain.png'
       },
       {

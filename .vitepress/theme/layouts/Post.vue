@@ -40,7 +40,7 @@ const tagLinks = computed(() => {
       <article class="vp-doc">
         <!-- Back link -->
         <div class="mb-6">
-          <a :href="resolveUrl('/resources/posts/')"
+          <a :href="resolveUrl('/news/posts/')"
             class="inline-block px-3 py-1 bg-gray-100 text-text-[#79a38d]rounded text-sm no-underline transition-colors hover:bg-gray-200">←
             All Posts</a>
         </div>

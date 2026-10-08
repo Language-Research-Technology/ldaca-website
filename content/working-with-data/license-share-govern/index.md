@@ -100,15 +100,15 @@ title: "License, share & govern"
   :items="[
       {
         title: 'Implementing PILARS',
-        link: '/resources/posts/implementing-PILARS'
+        link: '/news/posts/implementing-PILARS'
       },
       {
         title: 'Copyrighted data: Options and considerations for working with newspapers and other texts',
-        link: '/resources/posts/copyrighted-data'
+        link: '/news/posts/copyrighted-data'
       },
       {
         title: 'What are the FAIR and CARE principles and why should corpus linguists know about them?',
-        link: '/resources/posts/fair-and-care'
+        link: '/news/posts/fair-and-care'
       },
   ]"/>
  

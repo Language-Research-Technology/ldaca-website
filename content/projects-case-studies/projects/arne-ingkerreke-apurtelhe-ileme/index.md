@@ -7,7 +7,7 @@ projectTeam: "Veronica Dobson\nCamille Dobson\nAngela Harrison\nDr Jennifer Gree
 link: "[veronicadobson.au](https://www.veronicadobson.au/)"
 outcomes:
 information:
-image: '/resources/posts/VeronicaDobson-launch2025/VPD_thumbnail.png'
+image: '/news/posts/VeronicaDobson-launch2025/VPD_thumbnail.png'
 
 ---
 
