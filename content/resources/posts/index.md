@@ -5,6 +5,7 @@ draft: false
 description: "Read blog posts written by members of our team about the Language Research domain."
 aliases: 
 - "/posts/"
+- "/news/posts/"
 layout: home
 ---
 
