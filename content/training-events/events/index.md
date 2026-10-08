@@ -22,9 +22,17 @@ title: "Events"
   :opacity="100"
   heading="UPCOMING EVENTS"
   :items="[
+   {
+        title: 'Point-and-click text analytics: an introduction to LDaCA Wordflow',
+        link: '/training-events/events/2026/point-click-wordflow',
+    },
   {
         title: 'eResearch Australasia 2026',
         link: '/training-events/events/2026/e-research-2026',
+    },
+      {
+        title: 'Organise, Manipulate and Analyse Text Data with Wordflow',
+        link: '/training-events/events/2026/organise-manipulate-analyse',
     },
     {
         title: 'RO-Crate clinic drop-in',

@@ -9,4 +9,4 @@ This policy covers all activities and services operated by the Language Data Com
 Australia (LDaCA), including via the project website, data portals and [Authentication and
 Authorisation Infrastructure (AAI)](https://en.wikipedia.org/wiki/Authentication_and_authorization_infrastructure): 
 
-[View LDaCA AAI Service Privacy Notice](/privacy/LDaCAAAIService_PrivacyNotice.pdf)
+[View LDaCA AAI Service Privacy Notice](/LDaCAAAIService_PrivacyNotice.pdf)

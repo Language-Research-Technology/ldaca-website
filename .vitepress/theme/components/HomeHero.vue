@@ -83,7 +83,7 @@ const thumbnailUrl = computed(() => {
       <div class="flex-1 max-w-[calc(100%-600px)]">
         <h1 class="m-0 text-white">{{ tagline }}</h1>
         <div class="text-xl my-6 text-white/90 leading-relaxed" v-html="description"></div>
-        <a :href="resolveUrl(buttonLink)" target="_blank" rel="noopener noreferrer"
+        <a :href="resolveUrl(buttonLink)" rel="noopener noreferrer"
           :style="{ backgroundColor: buttonColors.bg, color: buttonColors.text }"
           class="inline-block px-6 py-4 rounded-lg font-semibold transition hover:opacity-90">
           {{ buttonText }}

@@ -158,6 +158,18 @@ layout: home
           image: '/about/people/SH_300x300.png',
           link: 'https://about.uq.edu.au/experts/35549',
         },
+                {
+          name: 'Dr Chao Sun',
+          affiliation: 'Sydney Informatics Hub',
+          image: '/about/people/CS_300x300.png',
+          link: '',
+        },
+                        {
+          name: 'Dr Senhui (Alex) Guo',
+          affiliation: 'Sydney Informatics Hub',
+          image: '/about/people/SG_300x300.png',
+          link: '',
+        },
     ]"/>
 
 <People 

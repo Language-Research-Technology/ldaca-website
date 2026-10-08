@@ -9,6 +9,7 @@ eventTime: ""
 location: "Melbourne Cricket Ground (MCG)"
 cost: ""
 organiser: "Australasian eResearch Organisations (AeRO) Inc"
+category: CONFERENCE
 pastEvent: false
 ---
 

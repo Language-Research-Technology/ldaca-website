@@ -102,16 +102,16 @@ description = "Whether you’re collecting, caring for, finding, accessing or re
   heading="EVENTS & RECORDINGS"
   :items="[
     {
-      title: 'Sustainable Data for Humanities Researchers workshop',
-      link: '/training-events/events/2025/sustainable-data-for-humanities-researchers'
+      title: 'Point-and-click text analytics: an introduction to LDaCA Wordflow',
+      link: '/training-events/events/2026/point-click-wordflow'
     },
     {
-      title: 'The ParlaMint corpora of European parliamentary proceedings',
-      link: '/training-events/events/2025/parlamint-corpora'
+      title: 'eResearch Australasia 2026',
+      link: '/training-events/events/2026/e-research-2026'
     },
     {
-      title: 'Get Started with Federal Hansard for Humanities, Arts, and Social Sciences Research',
-      link: '/training-events/events/2025/hansard-2'
+      title: 'Organise, Manipulate and Analyse Text Data with Wordflow',
+      link: '/training-events/events/2026/organise-manipulate-analyse'
     }
   ]"
 />
