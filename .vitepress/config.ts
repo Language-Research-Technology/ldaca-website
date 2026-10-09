@@ -62,14 +62,14 @@ function generatePagesData() {
 }
 
 function getLatestBlogNavColumn() {
-  const postsDir = path.join(__dirname, '../content/resources/posts')
+  const postsDir = path.join(__dirname, '../content/news/posts')
   if (!fs.existsSync(postsDir)) {
     return {
       title: 'Latest Blog Post',
       children: [
         {
           text: 'Blog',
-          link: '/resources/posts/',
+          link: '/news/posts/',
           image: '/images/Petroglyph_Pattern.svg',
           bold: true
         }
@@ -107,14 +107,14 @@ function getLatestBlogNavColumn() {
         const timestamp = Date.parse(String(data?.date ?? ''))
         const slug = rel.replace(/[\\/]index\.md$/, '').replace(/[\\/]+/g, '/').replace(/^\/+|\/+$/g, '')
         if (!slug) continue
-        const url = slug ? `/resources/posts/${slug}` : '/resources/posts/'
+        const url = slug ? `/news/posts/${slug}` : '/news/posts/'
         const imageRaw = String(data?.image ?? '').trim()
         const isExternalImage = /^(https?:)?\/\//i.test(imageRaw) || imageRaw.startsWith('data:')
         const image = !imageRaw
           ? undefined
           : imageRaw.startsWith('/') || isExternalImage
             ? imageRaw
-            : (slug ? `/resources/posts/${slug}/${imageRaw.replace(/^\.?\//, '')}` : `/resources/posts/${imageRaw.replace(/^\.?\//, '')}`)
+            : (slug ? `/news/posts/${slug}/${imageRaw.replace(/^\.?\//, '')}` : `/news/posts/${imageRaw.replace(/^\.?\//, '')}`)
 
         posts.push({
           url,
@@ -136,7 +136,7 @@ function getLatestBlogNavColumn() {
       children: [
         {
           text: 'Blog',
-          link: '/resources/posts/',
+          link: '/news/posts/',
           image: '/images/Petroglyph_Pattern.svg',
           bold: true
         }
@@ -351,7 +351,7 @@ export default defineConfig({
           //   divider: true,
           //   children: (() => {
           //     // Dynamically get top 5 tags from blog posts
-          //     const postsDir = path.join(__dirname, '../content/resources/posts')
+          //     const postsDir = path.join(__dirname, '../content/news/posts')
           //     const tagCounts = {}
           //     function walk(dir) {
           //       for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
@@ -388,7 +388,7 @@ export default defineConfig({
             children: [
               { text: 'Glossary', link: '/resources/glossary/', bold: true },
               { text: 'FAQs', link: '/resources/faqs/', bold: true },
-              { text: 'Blog', link: '/resources/posts/', bold: true }
+              { text: 'Blog', link: '/news/posts/', bold: true }
             ]
           },
           {
@@ -440,7 +440,7 @@ export default defineConfig({
     const outDir = siteConfig.outDir          // e.g. /.../ldaca-website/.vitepress/dist
     const CONTENT_GLOBS = [
       'resources/guides/**/*.md',
-      'resources/posts/**/*.md',
+      'news/posts/**/*.md',
       'projects-case-studies/**/*.md',
       'training-events/events/**/*.md',
       'about/**/*.md'
@@ -516,7 +516,7 @@ export default defineConfig({
     const assetRoots = [
       'training-events/events',
       'resources/guides',
-      'resources/posts',
+      'news/posts',
       'resources/publications',
       'resources/licenses',
       'projects-case-studies',

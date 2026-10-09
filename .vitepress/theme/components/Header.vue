@@ -33,7 +33,7 @@ const headerBgColor = theme.value.headerBgColor ?? 'transparent'
 
           <!-- Links below search -->
           <div class="flex gap-3">
-            <a :href="resolveUrl('/resources/posts/')" class="text-s text-white hover:text-[#79A38D] transition-colors">Blog</a>
+            <a :href="resolveUrl('/news/posts/')" class="text-s text-white hover:text-[#79A38D] transition-colors">Blog</a>
             <a :href="resolveUrl('/newsletter')" class="text-s text-white hover:text-[#79A38D] transition-colors">Newsletter</a>
           </div>
 
@@ -41,7 +41,7 @@ const headerBgColor = theme.value.headerBgColor ?? 'transparent'
 
         <!-- Right quick menu - Desktop (≥1024px) -->
         <div class="hidden xl:flex items-center gap-6 ml-auto pl-32">
-          <a :href="resolveUrl('/resources/posts/')"
+          <a :href="resolveUrl('/news/posts/')"
             class="text-base text-white hover:text-[#79A38D] hover:font-bold transition-colors">Blog</a>
           <a :href="resolveUrl('/newsletter')"
             class="text-base text-white hover:text-[#79A38D] hover:font-bold transition-colors">Newsletter</a>

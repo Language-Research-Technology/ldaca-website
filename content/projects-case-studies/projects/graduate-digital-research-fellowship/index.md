@@ -5,7 +5,7 @@ layout: project
 collaborator: "Digital Observatory at QUT\nMelbourne Data Analytics Platform\nRAPID Community Data Lab\nQCIF"
 projectTeam: "Dr Sam Hames\nDr Simon Musgrave"
 information: The GDRF program has so far supported **10** fellows to enhance their digital skills and strengthen their research projects and is supporting **8** more fellows in 2026.
-image: '/resources/posts/gdrf-2023/gdrf_2023.jpg'
+image: '/news/posts/gdrf-2023/gdrf_2023.jpg'
 ---
 
 **The Graduate Digital Research Fellowship (GDRF) supports research students to explore how digital and computational methods can enhance their research and open up new ways of working with data.**

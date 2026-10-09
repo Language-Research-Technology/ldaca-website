@@ -96,7 +96,7 @@ See ## Referencing Images for more detail on adding images to frontmatter.
 
 `layout: post`
 
-Use this layout for blog posts, currently stored in `/resources/posts`. This layout is identical to the `doc` layout, but adds the author to the `SimpleHero` section and contains a link back to 'All Posts' at the top of the page content, as well as the date published.
+Use this layout for blog posts, currently stored in `/news/posts`. This layout is identical to the `doc` layout, but adds the author to the `SimpleHero` section and contains a link back to 'All Posts' at the top of the page content, as well as the date published.
 
 Use the following frontmatter template:
 ```
@@ -162,7 +162,7 @@ Adjust the height after `style` as needed. This will maintain the aspect ratio o
 
 For setting thumbnail/preview images to be used on other components and pages, add these to the `image` field in the related `.md` file's frontmatter, and use the full file path after `content` (don't include `content` in the path). For example:
 
-`image: "/resources/posts/example-blog/blog-image.png"`
+`image: "/news/posts/example-blog/blog-image.png"`
 
 ## Pull Quotes
 

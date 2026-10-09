@@ -97,7 +97,7 @@ const getPostDate = (post) => {
 const presentationItems = computed(() => {
   return posts
     .filter((post) => {
-      return !post.frontmatter?.draft && post.url.startsWith('/resources/posts') && post.frontmatter?.type === props.type
+      return !post.frontmatter?.draft && post.url.startsWith('/news/posts') && post.frontmatter?.type === props.type
     })
     .sort((a, b) => getPostDate(b) - getPostDate(a))
     .map((post) => {

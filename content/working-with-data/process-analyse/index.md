@@ -90,15 +90,15 @@ description="Being able to analyse large amounts of language data opens up vast 
   :items="[
       {
         title: 'Analyse image collections with the Image Dataset Explorer',
-        link: '/resources/posts/image-dataset-explorer'
+        link: '/news/posts/image-dataset-explorer'
       },
       {
         title: 'Team member tip: There\'s no substitute for looking closely at the data',
-        link: '/resources/posts/team-member-tip-sam-hames'
+        link: '/news/posts/team-member-tip-sam-hames'
       },
       {
         title: 'Putting data to work — 2',
-        link: '/resources/posts/putting-data-to-work-2'
+        link: '/news/posts/putting-data-to-work-2'
       }
     ]"/>
 

@@ -81,7 +81,7 @@ description = "Whether you’re collecting, caring for, finding, accessing or re
   :items="[
       {
         title: 'Arne ingkerreke apurtelhe-ileme: Project launch',
-        link: '/resources/posts/VeronicaDobson-launch2025'
+        link: '/news/posts/VeronicaDobson-launch2025'
       },
       {
         title: 'Sydney Speaks',

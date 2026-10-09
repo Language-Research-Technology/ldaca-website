@@ -2,7 +2,7 @@
 title: "Indigenous Data Governance: A discussion"
 description: "This event presented a panel of Indigenous researchers, data custodians and data stewards discussing current developments in this field including the importance of Indigenous Cultural and Intellectual Property, and tools and methods for Indigenous Data Governance."
 layout: event
-image: "/resources/posts/ID-gov-panel-2024/DSC_5642-Enhanced-NR-cropped.jpg"
+image: "/news/posts/ID-gov-panel-2024/DSC_5642-Enhanced-NR-cropped.jpg"
 link: ""
 eventDate: "30 September 2024"
 eventTime: ""

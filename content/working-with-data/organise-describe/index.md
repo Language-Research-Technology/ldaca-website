@@ -91,15 +91,15 @@ title: "Organise & describe"
       {
         title: 'Five benefits of RO-Crate data packaging for language collections',
         image: 'https://mcusercontent.com/ef8667be63aefb1e35062a797/images/eac5dabf-9dd9-bcce-b80e-7c01da72cb9e.jpg',
-        link: '/resources/posts/ro-crate-benefits'
+        link: '/news/posts/ro-crate-benefits'
       },
       {
         title: 'Team member tip: Mastering metadata',
-        link: '/resources/posts/team-member-tip-mark-raadgever'
+        link: '/news/posts/team-member-tip-mark-raadgever'
       },
       {
         title: 'Crate-O — a drop-in linked data metadata editor for RO-Crate (and other) linked data in repositories and beyond',
-        link: '/resources/posts/2024-OR-Crate-O'
+        link: '/news/posts/2024-OR-Crate-O'
       }
     ]"/>
 <div

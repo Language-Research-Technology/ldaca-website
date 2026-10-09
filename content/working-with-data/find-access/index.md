@@ -101,15 +101,15 @@ title: "Find & access"
   :items="[
       {
         title: 'Corpus spotlight: Mitchell and Delbridge',
-        link: '/resources/posts/mitchell-delbridge'
+        link: '/news/posts/mitchell-delbridge'
       },
       {
         title: 'Putting data to work',
-        link: '/resources/posts/putting-data-to-work'
+        link: '/news/posts/putting-data-to-work'
       },
       {
         title: 'What happened to the Australian National Corpus (AusNC)?',
-        link: '/resources/posts/ausnc'
+        link: '/news/posts/ausnc'
       }
     ]"/>
 <div
