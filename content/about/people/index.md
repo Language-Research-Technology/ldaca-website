@@ -102,12 +102,6 @@ layout: home
           link: 'https://languages-cultures.uq.edu.au/profile/9148/mark-raadgever'
         },
         {
-          name: 'Dr Alvin Sebastian',
-          affiliation: 'University of Queensland',
-          image: '/about/people/AS_300x300.png',
-          link: ''
-        },
-        {
           name: 'Rosanna Smith',
           affiliation: 'University of Queensland',
           image: '/about/people/RosannaS_300x300.png',
