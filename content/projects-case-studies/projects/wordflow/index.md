@@ -6,7 +6,7 @@ collaboratorLogo:
 collaborator: "Sydney Informatics Hub\nSydney Corpus Lab"
 projectTeam: "Dr Chao Sun\nDr Alex Guo\nProfessor Monika Bednarek"
 link: "[LDaCA Wordflow](https://australian-text-analytics-platform.github.io/LDaCa_Text_Analytics_Tools/)"
-information: ""
+information: "Wordflow makes computational text analysis more accessible to researchers, bringing together a range of analytical tools in one workspace."
 image: /projects-case-studies/projects/wordflow/wordflow-ws3-cropped.jpg
 ---
 
