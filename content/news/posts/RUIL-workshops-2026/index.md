@@ -1,6 +1,6 @@
 ---
 title: "LDaCA supports language training workshops in Mareeba"
-date: 2026-10-13
+date: 2026-10-10
 draft: false
 description: "In July 2026, Katie Bicevskis, a linguist from the Research Unit for Indigenous Language at the University of Melbourne, travelled to Mareeba QLD to deliver training workshops to Kunjen Elders working on a revitalisation project for their language, Ow Oykangand."
 layout: post
