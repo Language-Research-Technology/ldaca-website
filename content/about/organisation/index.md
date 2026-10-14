@@ -108,7 +108,7 @@ layout: home
         title: 'About the Steering Committee',
         description: 'LDaCA is guided by a Steering Committee that provides direction on project issues, advocates for the project and ensures clear communication with stakeholders.\n\nThe Steering Committee oversees project outcomes, approves major changes and facilitates access to subject matter experts when needed. It is made up of Chief Investigators and project advisors. \n\nMembers bring expertise in governance, leadership, partnerships, data, technology, research and community engagement, ensuring effective project oversight.\n\n Read more about LDaCA’s Steering Committee including members, Terms of Reference and meeting communiques.',
         image: '/about/organisation/governance.png', 
-        link: '/about/steering-committee',
+        link: '/about/Steering-Committee',
     },
     ]"
 />
