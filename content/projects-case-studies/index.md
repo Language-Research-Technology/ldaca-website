@@ -48,6 +48,10 @@ title: "Projects & case studies"
         link: '/projects-case-studies/projects/Community-language-workshops',
         description:'Working with communities to shape locally controlled approaches to language archiving'
       },
+      {
+        title: 'Wordflow',
+        link: '/projects-case-studies/projects/wordflow',
+      },
     ]"/>
 
 <GuideCarousel 
