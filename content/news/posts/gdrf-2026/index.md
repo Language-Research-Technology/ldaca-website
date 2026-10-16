@@ -2,7 +2,7 @@
 title: "Graduate Digital Research Fellowship — 2026"
 date: 2026-10-15
 draft: false
-image: "/news/posts/gdrf-2025/gdrf-2.png"
+image: "/news/posts/gdrf-2026/GDRF2026.png"
 description: "A blog post about the 2026 Graduate Digital Research Fellowship cohort, co-ordinated by Sam Hames (Research Analytics Lead) and Simon Musgrave (Research Support and Training Lead)."
 author: '<Profile id="musgrave" />'
 layout: post
