@@ -6,11 +6,11 @@ layout: doc
 description: "Catch up with LDaCA by reading our past newsletters."
 ---
 
-### [Latest Issue](https://us13.campaign-archive.com/?u=ef8667be63aefb1e35062a797&id=8087f881bb)
+### [Latest Issue](https://mailchi.mp/4dec5d5bc0ee/ldaca-newsletter-quarter-2-6755063)
 
 <br>
 
-<iframe src="https://us13.campaign-archive.com/?u=ef8667be63aefb1e35062a797&id=8087f881bb" width="100%" height="400px" style="border:0.8px solid black;">
+<iframe src="https://mailchi.mp/4dec5d5bc0ee/ldaca-newsletter-quarter-2-6755063" width="100%" height="400px" style="border:0.8px solid black;">
 </iframe>
 
 <br>
@@ -22,6 +22,9 @@ description: "Catch up with LDaCA by reading our past newsletters."
   <div class="mt-4 space-y-3">
     <details>
       <summary class="cursor-pointer font-semibold text-[#383938]">2026</summary>
+            <div class="mt-3">
+        <p><a class="font-bold text-[#383938] hover:underline" href="https://us13.campaign-archive.com/?u=ef8667be63aefb1e35062a797&id=8087f881bb" target="_blank" rel="noopener noreferrer">Quarter 3 2026</a></p>
+      </div>
       <div class="mt-3">
         <p><a class="font-bold text-[#383938] hover:underline" href="https://us13.campaign-archive.com/?u=ef8667be63aefb1e35062a797&id=62ca105abc" target="_blank" rel="noopener noreferrer">Quarter 2 2026</a></p>
       </div>
