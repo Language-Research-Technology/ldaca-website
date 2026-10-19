@@ -31,6 +31,9 @@ Schweinberger, Martin, Michael Haugh, Mikko Laitinen, Masoud Fatemi, Sam Hames, 
 
 Schweinberger, Martin, Paula Rautionaho & Kate Burridge. 2026. Vulgarity and bad language in online and public discourse: An introduction. *Lingua*. [https://doi.org/10.1016/j.lingua.2026.104133](https://doi.org/10.1016/j.lingua.2026.104133)
 
+Thieberger, Nick. 2026. Nafsan, a language from central Vanuatu: Time depth and variability in a corpus spanning 160 years. *Australian Journal of Linguistics*. [https://doi.org/10.1080/07268602.2026.2728572](https://doi.org/10.1080/07268602.2026.2728572)
+
+
 ### 2025
 
 Bednarek, Monika & Barbra A. Meek. 2025. “Are you Navajo or Inuit?” Identity, television dialogue, and Indigenizing semiotics. *Journal of Linguistic Anthropology* 35(1). e12449. [https://doi.org/10.1111/jola.12449](https://doi.org/10.1111/jola.12449)
