@@ -1,4 +1,4 @@
-import { defineConfig, createContentLoader } from 'vitepress'
+import { defineConfig, createContentLoader, type HeadConfig } from 'vitepress'
 import { fileURLToPath, URL } from 'node:url'
 import fs from 'fs'
 import path from 'path'
@@ -160,6 +160,46 @@ function getLatestBlogNavColumn() {
   }
 }
 
+const SITE_URL = 'https://www.ldaca.edu.au'
+
+const xmlEscape = (s: string) =>
+  s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
+
+async function writeRssFeed(outDir: string) {
+  const posts = (await createContentLoader('news/posts/*/index.md').load())
+    .filter(p => !p.frontmatter?.draft && p.frontmatter?.date)
+    .sort((a, b) => new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime())
+
+  const items = posts.map(p => {
+    const link = `${SITE_URL}${p.url}`
+    const desc = String(p.frontmatter.description ?? '')
+    return `    <item>
+      <title>${xmlEscape(String(p.frontmatter.title ?? 'Untitled'))}</title>
+      <link>${link}</link>
+      <guid isPermaLink="true">${link}</guid>
+      <pubDate>${new Date(p.frontmatter.date).toUTCString()}</pubDate>
+      <description>${xmlEscape(desc)}</description>
+    </item>`
+  }).join('\n')
+
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LDaCA News</title>
+    <link>${SITE_URL}/news/posts/</link>
+    <description>News and posts from the Language Data Commons of Australia</description>
+    <atom:link href="${SITE_URL}/news/posts/rss.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+${items}
+  </channel>
+</rss>
+`
+
+  const dest = path.join(outDir, 'news', 'posts', 'rss.xml')
+  fs.mkdirSync(path.dirname(dest), { recursive: true })
+  fs.writeFileSync(dest, xml)
+}
+
 // https://vitepress.dev/reference/site-config
 const gaMeasurementId = process.env.NODE_ENV === 'production'
   ? 'G-C3GSGXCYV6'
@@ -170,7 +210,9 @@ if (gaMeasurementId && !/^G-[A-Z0-9]+$/.test(gaMeasurementId)) {
 }
 
 export default defineConfig({
-  head: gaMeasurementId ? [
+  head: [
+    ['link', { rel: 'alternate', type: 'application/rss+xml', title: 'LDaCA News', href: `${process.env.GITHUB_PAGES ? '/ldaca-website' : ''}/news/posts/rss.xml` }],
+    ...(gaMeasurementId ? [
     ['script', {
       async: '',
       src: `https://www.googletagmanager.com/gtag/js?id=${gaMeasurementId}`
@@ -181,7 +223,8 @@ export default defineConfig({
       gtag('js', new Date());
       gtag('config', '${gaMeasurementId}');
     `]
-  ] : [],
+    ] : [])
+  ] as HeadConfig[],
   sitemap: {
     hostname: 'https://www.ldaca.edu.au' // TODO update this to the actual production URL before launch!
   },
@@ -438,6 +481,7 @@ export default defineConfig({
     const copied = new Set()
     const srcDir = siteConfig.srcDir          // e.g. /.../ldaca-website/content
     const outDir = siteConfig.outDir          // e.g. /.../ldaca-website/.vitepress/dist
+    await writeRssFeed(outDir)
     const CONTENT_GLOBS = [
       'resources/guides/**/*.md',
       'news/posts/**/*.md',
