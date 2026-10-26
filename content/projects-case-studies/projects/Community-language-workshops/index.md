@@ -1,6 +1,6 @@
 ---
 title: "Community language workshops"
-description: Working with communities to shape locally controlled approaches to language archiving
+description: Working with communities to shape locally controlled approaches to language archiving.
 projectTeam: "Alistair Harvey\nRobert McLellan\nDr Ben Foley"
 information: "Working alongside Indigenous communities to develop locally led approaches to the access, governance and long-term care of digital language materials."
 layout: project
