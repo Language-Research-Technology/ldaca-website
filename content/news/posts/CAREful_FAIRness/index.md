@@ -9,7 +9,7 @@ image: "/news/posts/CAREful_FAIRness/Credit_-_ARDC_D-Hannah_Hass&I—Symposium-A
 author: '<Profile id="mclellan" /> and <Profile id="fewster" />'
 ---
 
-<br>
+ 
 
 Indigenous data encompasses all information collected by, about or for Aboriginal and Torres Strait Islander peoples. As the Indigenous Data Network ([IDN](https://idnau.org/)) notes, it is:
 
@@ -17,12 +17,12 @@ Indigenous data encompasses all information collected by, about or for Aborigina
 <li><i>"...information, in any format or medium, collected, analysed, stored, and interpreted within the context of Indigenous individuals, collectives, populations, entities, lifeways, cultures, knowledge systems, lands, biodiversity, water and other resources. It includes data collected, used, or stored by any agency, department, laboratory, organisation, corporation, statutory body, university or research institute, conducted by, with, and about Indigenous people or people, and data that Indigenous communities have generated and maintained themselves."</i></li>
 </ul>
 
-<br>
+ 
 Embedding both <GlossaryLink display="FAIR" id="fair" /> and <GlossaryLink display="CARE" id="care" /> principles is essential when working with Indigenous data.
 
 While [FAIR Principles (Findable, Accessible, Interoperable, Reusable)](https://ardc.edu.au/resource-hub/making-data-fair/) provide the technical framework for data management, [CARE Principles (Collective Benefit, Authority to Control, Responsibility, Ethics)](https://ardc.edu.au/resource/the-care-principles/) help to centre Indigenous self-determination and worldviews. By integrating both sets of principles, we can develop data-sharing practices that are technically robust and respectful of diverse communities.
 
-<br>
+ 
 
 To ensure Indigenous data is managed ethically and equitably, here are a small selection of examples of CAREful FAIRness Principles for Indigenous Data Governance:
 
@@ -53,7 +53,7 @@ To ensure Indigenous data is managed ethically and equitably, here are a small s
 
 Indigenous Data Network. 2024. IDN Roundtable: Developing & Adopting Indigenous Data Governance Frameworks [Defining Indigenous Data]. Melbourne, Victoria, Australia. (4 April, 2024).
 
-<br>
+ 
 
 ### About the authors
 
@@ -70,4 +70,4 @@ Robert, a Gooreng Gooreng descendant from the Wide Bay region, is a community re
 
 With over 20 years' experience in collecting, managing and disseminating research and cultural heritage data and resources, Jenny is passionate about delivering quality <GlossaryLink display="research infrastructure" id="research-infrastructure" /> and data to meet the diverse needs of <GlossaryLink display="HASS" id="hass" /> and Indigenous researchers and <GlossaryLink display="data custodians" id="data-custodian" />. She is the Director, [HASS and Indigenous Research Data Commons](https://ardc.edu.au/hass-and-indigenous-research-data-commons/) for the Australian Research Data Commons ([ARDC](https://ardc.edu.au/)).
 
-<br>
+ 

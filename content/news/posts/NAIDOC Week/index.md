@@ -8,13 +8,13 @@ layout: post
 type: interview
 ---
 
-<br>
+ 
 
 This year's NAIDOC Week theme, **50 Years of Deadly**, celebrates the strength, resilience and achievements of Aboriginal and Torres Strait Islander peoples over the past five decades, while looking ahead to the future that is being built today.
 
 We invited several of LDaCA's Chief Investigators, Advisors and collaborators to reflect on what the theme means to them, their research and the future of Indigenous-led research. Together, their reflections speak to the importance of community, language, sovereignty and the ongoing work of creating research that serves Indigenous peoples.
-<br>
-<br>
+ 
+ 
 
 # Standing on the shoulders of ancestors
 
@@ -23,7 +23,7 @@ We invited several of LDaCA's Chief Investigators, Advisors and collaborators to
   <figcaption>Alistair Harvey (Image: Marc Grimwade/ARDC)</figcaption>
 </figure>
 
-> **"Saibai language and cultural knowledge are not simply subjects to be studied; they are knowledge canons, with their own frameworks for understanding, interpreting and engaging with the world."** <br>
+> **"Saibai language and cultural knowledge are not simply subjects to be studied; they are knowledge canons, with their own frameworks for understanding, interpreting and engaging with the world."**  
 —  <cite>Alistair Harvey </cite>
 
 Alistair Harvey is of Saibai Island descent and an Industry Fellow with the Language Data Commons of Australia (LDaCA). He reflected on the enduring strength of Saibai Islanders and Torres Strait Islander communities. He highlighted the generations who have protected language, governance and cultural authority and described a future where Indigenous languages and knowledge systems shape research on their own terms. His response reminds us that research is strongest when knowledge remains connected to people, place and community.
@@ -55,7 +55,7 @@ I associate “50 Years of Deadly” with a Saibai saying *‘Saibailgaw za ngar
   <figcaption>Blanche Alexander (Image: Blanche Alexander)</figcaption> 
 </figure>
 
-> **"Deadly research is built on community-led practice across generations."** <br>
+> **"Deadly research is built on community-led practice across generations."**  
 —  <cite>Blanche Alexander</cite>
 
 Blanche Alexander is a Gooreng Gooreng, Yidinji, Pitta Pitta and Mitakoodi woman from tribes spanning Queensland. She is the Data and Research Infrastructure Intern at the Australian Research Data Commons (ARDC) working with LDaCA.
@@ -89,7 +89,7 @@ Indigenous communities have challenged extractive research models and data colle
   <figcaption>Desmond Crump (Image: Desmond Crump)</figcaption> 
 </figure>
 
-> **"It has been inspiring to see the impact of Aboriginal and Torres Strait Islander research coming to the forefront"** <br>
+> **"It has been inspiring to see the impact of Aboriginal and Torres Strait Islander research coming to the forefront"**  
 —  <cite>Desmond Crump</cite>
 
 Desmond Crump is from the Gamilaroi Nation in South-West Queensland and is an Advisor for LDaCA. His reflection is deeply personal, tracing his own journey from being one of the few Aboriginal students at his school to becoming involved in language research. He reflected on the mentors and experiences that shaped his career and his response celebrated the growing recognition of Indigenous knowledges across education and research, while looking ahead to the role these knowledges will play in solving future challenges.
@@ -120,7 +120,7 @@ In Gamilaraay we have a word *dhirrabuu* that means very flash / deadly!!
   <figcaption>Gavin Stanbrook (Image: ARDC)</figcaption> 
 </figure>
 
-> **"Indigenous world-views flip research practice on its head."** <br>
+> **"Indigenous world-views flip research practice on its head."**  
 —  <cite>Gavin Stanbrook</cite>
 
 Gavin Stanbrook is from Gumbaynggirr country on the New South Wales mid-north coast and is the Program Manager (Indigenous Data Governance) for the ARDC. He reflected on the generations of Indigenous leaders whose advocacy made today's research landscape possible. He said that Indigenous protocols are transforming research by shifting the focus from institutions and data towards people, community benefit and accountability. While recognising there is still work to do, he remains optimistic about the growing movement for Indigenous-led research and solidarity across the sector.
@@ -147,12 +147,12 @@ We have a long way to go, embedding Indigenous protocols into research practice 
   <figcaption>Robert McLellan (Image: Marc Grimwade/ARDC)</figcaption> 
 </figure>
 
-> **"Although fifty years of NAIDOC is a significant milestone, it is not the culmination of a journey. It is one chapter in a story that stretches back millennia and forward to generations yet to come."** <br>
+> **"Although fifty years of NAIDOC is a significant milestone, it is not the culmination of a journey. It is one chapter in a story that stretches back millennia and forward to generations yet to come."**  
 —  <cite>Robert McLellan</cite>
 
 Robert McLellan is a proud Gooreng Gooreng descendant of the Wide Bay region and the Senior Project Manager for LDaCA. He reflected on the origins of NAIDOC in protest and advocacy, and the responsibility today's researchers have to honour those who created the opportunities they are now afforded. His response looks both backwards and forwards, recognising the advances made through Indigenous-led research while reminding us that the work of strengthening Indigenous self-determination is ongoing.
 
-<br>
+ 
 
 <div style="margin-left: 80px; margin-right: 80px;">
 NAIDOC was born not from celebration, but from struggle. It emerged through the courage of Aboriginal and Torres Strait Islander people who came before us, those who marched, protested the systemic mistreatment of our people, and tirelessly advocated for our rights, often at great personal cost. Their work was neither easy nor without sacrifice, yet it created opportunities for future generations to occupy spaces from which our people had long been excluded.
@@ -164,10 +164,10 @@ As researchers, we have a responsibility to honour that legacy, not simply by oc
 Although fifty years of NAIDOC is a significant milestone, it is not the culmination of a journey. It is one chapter in a story that stretches back millennia and forward to generations yet to come. We look back with respect for those who carried the struggle before us, and forward with optimism, knowing it is now our responsibility to keep the fire burning.
 
 </div>
-<br>
-<br>
+ 
+ 
 
 Although each reflection offers a different perspective, together they paint a compelling picture of what "50 Years of Deadly" means for research. It is about honouring those who fought for the spaces Indigenous researchers occupy today. It is about recognising the leadership of communities who have always cared for language, culture and knowledge. And it is about building a future where Indigenous-led research, governance and knowledge systems continue to shape the next fifty years and beyond.
 
-<br>
-<br>
+ 
+ 

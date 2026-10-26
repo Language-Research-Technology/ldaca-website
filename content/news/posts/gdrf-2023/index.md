@@ -25,7 +25,7 @@ The Fellows met regularly in activities to develop a sound understanding of digi
 
 The four Fellows who participated in the 2023 program and their projects were:
 
-<br>
+ 
 
 ## Evelyn (Eve) Ansell (UQ, Linguistics):
 
@@ -45,13 +45,13 @@ In Eve's words:
   It's easy to forget how much of our research work happens in the digital space. It's not just the data, it's how we interface with it. The GDRF taught me to think differently about how I treat my research workflow at almost every point.
 </p>
 
-<br>
+ 
 
 ## Mengyan (Kelly) Hou (UQ, Electrical Engineering and Computer Science):
 
 The core of Kelly's PhD project is designing an app to support young people who have completed active cancer treatment to enhance their experience in digital healthcare interventions. In the Fellowship program, Kelly began surveying existing apps with similar functions and aims as the start of her own design process. An important component of this work was considering methodological questions: when we want to answer the question "Is this a good app?", how do we go about that? Can we understand the intentions of the app designers and assess how effectively those intentions have been realised? Or should we try to judge what sort of experience the app provides for users (even if we are not members of the target audience)? Kelly examined these issues in relation to a number of relevant apps, as well as beginning to grapple with the (very topical) question of how an AI-based conversational agent might be included in her design.
 
-<br>
+ 
 
 ## Christina Maxwell (UQ, Psychology):
 
@@ -63,7 +63,7 @@ In Christina's words:
   The Fellowship was instrumental in honing my ideas and offering invaluable hands-on support to bring my vision to life. It played a pivotal role in developing one of the most exciting and interesting projects of my PhD and I look forward to using these new skills and ways of thinking in future digitally-based projects.
 </p>
 
-<br>
+ 
 
 **Update - August 2024**
 
@@ -71,7 +71,7 @@ Christina's work has now been published as a journal article with Sam as one of 
 
 Maxwell, C., Selvanathan, H. P., Hames, S., Crimston, C. R., & Jetten, J. (2024). A mixed-methods approach to understand victimization discourses by opposing feminist sub-groups on social media. _British Journal of Social Psychology_, 00, 1–22. https://doi.org/10.1111/bjso.12785
 
-<br>
+ 
 
 ## Giulio Pitroso (Griffith, Sociology):
 
@@ -84,4 +84,4 @@ Giulio's research examines gaming communities in Australia and in Italy, focused
 
 A GDRF program will be offered again in 2025, this time under the banner of the Language Data Commons of Australia. If you think the program could benefit you, there is an [online form](https://forms.gle/prTfh5hpMWhT8wkW9) for expressions of interest (due by **February 19 2025**). For further information, you can contact [Sam Hames](mailto:sam.hames@uq.edu.au) or [Simon Musgrave](mailto:s.musgrave@uq.edu.au).
 
-<br>
+ 

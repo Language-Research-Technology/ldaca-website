@@ -8,7 +8,7 @@ image: "/news/posts/ausnc/AusNC-logo.jpg"
 author: '<Profile id="musgrave" /> and <Profile id="haugh" />'
 ---
 
-<br>
+ 
 
 ## Overview of the Australian National Corpus (AusNC)
 
@@ -39,13 +39,13 @@ The Alveo virtual laboratory still exists, in principle, but has not been regula
     <figcaption>Figure 1: Results of a frequency search in the Australian National Corpus interface.</figcaption>
 </figure>
 
-<br>
+ 
 
 ## Corpus design
 
 There are three general types of <GlossaryLink display="corpora" id="corpus" /> for language data. In the first type, the data was collected for specific research purposes by individuals. In the second type, the data was collected following a plan. In the third type, the data was collected opportunistically.
 
-<br>
+ 
 
 ### Data collected for specific research purposes by individuals
 
@@ -57,13 +57,13 @@ As mentioned above, the AusNC made only a small part of this dataset available. 
 
 Another example of such a corpus in the AusNC is the Braided Channels <GlossaryLink display="collection" id="collection" />, which contains 70 hours of <GlossaryLink display="oral history" id="oral-history" /> interviews with women from Queensland’s Channel Country. This is an example of a <GlossaryLink display="collection" id="collection" /> that was created to answer historical and cultural questions, but has been repurposed to enable researchers to address linguistic questions as well.
 
-<br>
+ 
 
 ### Data collected following a plan
 
 In the second type of <GlossaryLink display="corpus" id="corpus" />, data is collected according to a defined plan. The kinds of material and the relative amounts of different kinds of material are decided in advance, and then data is collected accordingly. We can distinguish two sub-types within this category: the plan already exists or the plan needs to be developed independently.
 
-<br>
+ 
 
 #### Existing plan
 
@@ -71,7 +71,7 @@ In some cases, data is collected according to the plan of another <GlossaryLink 
 
 An example of this approach in the AusNC is the Australian Corpus of English (ACE), which was designed to be comparable with two previous corpora: the [Brown Corpus](https://varieng.helsinki.fi/CoRD/corpora/BROWN/) of American English and the [Lancaster-Oslo-Bergen Corpus](https://varieng.helsinki.fi/CoRD/corpora/LOB/) of UK English (which was itself designed to be comparable with the Brown Corpus). The Australian component of the International Corpus of English (ICE-AUS) is another example of this type of corpus in the AusNC.
 
-<br>
+ 
 
 #### Independent plan
 
@@ -81,32 +81,32 @@ A classic example of such a corpus is the British National Corpus (BNC: [1994 ve
 
 COOEE was constructed on similar, if less ambitious, lines. The corpus is divided into four time periods, with an approximately equal amount of material in each. Texts are assigned to one of four different types, and the proportion of each of those types is approximately equal in each time period. Such a design makes it easy to examine chronological change or variation between registers.
 
-<br>
+ 
 
 ### Data collected opportunistically
 
 The third type of <GlossaryLink display="corpus" id="corpus" /> is one that is almost without a plan; the collection of data is opportunistic. Again, we can distinguish some sub-types here.
 
-<br>
+ 
 
 #### Restricted amount of data
 
 Sometimes, opportunistic <GlossaryLink display="data collection" id="data-collection" /> is the only viable strategy. An example of this is the approach often taken by linguists documenting languages whose future is uncertain. In that situation, carefully planning what kinds of data to collect and in what proportions would be ideal, but is typically a luxury which cannot be afforded. Collecting anything which is easily available is at least a good starting point — if one becomes aware that there are large gaps in the data collected, one can try to address the problem in the future, but that may not ever be possible. This type of <GlossaryLink display="corpus" id="corpus" /> is the result of making the best one can of limited opportunities, which restrict the amount of data which is available. <GlossaryLink display="Collections" id="collection" /> of spoken interaction are often assembled in this way. The Griffith Corpus of Spoken Australian English (GCSAusE), which includes recordings made and transcribed by students, is an example of this type of corpus in the AusNC.
 
-<br>
+ 
 
 #### Extensive data
 
 Opportunistic <GlossaryLink display="data collection" id="data-collection" /> is also relevant to big data: many researchers work with data from the web nowadays, and this almost inevitably involves opportunistic procedures. However, in this case, the large amount of data which is accessible can justify a claim that a significant part of the variation occurring in language use (at least for a certain type of use) will be represented in the data. On this basis, many linguists are happy to use a <GlossaryLink display="corpus" id="corpus" /> of web data, at least for exploratory research.
 
-<br>
+ 
 
 <figure>
     <img src="./AusNC-logo.jpg" alt="The Australian National Corpus logo." ref="LDaCA" />
     <figcaption>Figure 2: The Australian National Corpus logo." title="The Australian National Corpus logo.</figcaption>
 </figure>
 
-<br>
+ 
 
 ## AusNC as an opportunistic collection
 
@@ -124,7 +124,7 @@ Therefore, we made the decision to include the component datasets of the AusNC a
 
 The corpus is dead, long live the <GlossaryLink display="data commons" id="data-commons" />!
 
-<br>
+ 
 
 ## References
 
@@ -136,7 +136,7 @@ Musgrave, Simon & Michael Haugh. 2020. The Australian National Corpus (and beyon
 
 Pho, Phuong Dzung. 2009. Towards the Design of the Australian National Corpus. In Michael Haugh, Kate Burridge, Jean Mulder & Pam Peters (eds.), _Selected Proceedings of the 2008 HCSNet Workshop on Designing the Australian National Corpus: Mustering Languages_, 25–29. Cascadilla Proceedings Project. http://www.lingref.com/cpp/ausnc/2008/index.html.
 
-<br>
+ 
 
 ### Footnotes
 
@@ -148,4 +148,4 @@ Thanks to Teresa Chan who provided valuable feedback on a draft.
 
 <a name="fn-3">3</a> More details of the history of the AusNC can be found in Musgrave & Haugh (2020). [↩](#back-2)
 
-<br>
+ 

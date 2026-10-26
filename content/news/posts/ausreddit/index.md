@@ -8,14 +8,14 @@ author: '<Profile id="fleet" />'
 layout: post
 ---
 
-<br>
+ 
 
 <figure>
   <img src="./Reddit_icon_brett-jordan.jpg" Alt="Photograph of the Reddit app icon on a smartphone" Title="Reddit app icon"  Ref="Brett Jordan">
   <figcaption>Reddit app icon</figcaption>
 </figure>
 
-<br>
+ 
 
 [AusReddit](https://ausreddit.digitalobservatory.net.au/) is a research databank maintained by the [Australian Digital Observatory](https://www.digitalobservatory.net.au/) at Queensland University of Technology (QUT), containing Reddit posts and comments from Australian-related subreddits. The AusReddit collection is ongoing and continues to grow. With its most recent update in 2026, the databank spans 6.7 million submissions and more than 131 million comments from 593 subreddits considered “Australian”. Searchable aggregate data derived from the collection up to January 2025 is [now available to researchers via the Language Data Commons of Australia (LDaCA)](https://data.ldaca.edu.au/collection?id=arcp%3A%2F%2Fname%2Chdl10.25912~RDF_1754373503052&_crateId=arcp%3A%2F%2Fname%2Chdl10.25912~RDF_1754373503052).
 
@@ -41,14 +41,14 @@ At their most fundamental level, 1-grams are simply individual words and their f
 
 The 3-grams add crucial context to these individual words by capturing three-word phrases as they actually appear in conversation. This is where language really starts to come alive. While a 1-gram might tell you that "housing" is frequently discussed, 3-grams reveal whether people are talking about "housing market crash", "affordable housing crisis" or "public housing waiting". These phrase-level patterns expose the specific ways Australians frame issues, the collocations they naturally use and even the rhetorical patterns that characterise different communities. For linguists, this is a treasure trove for studying Australian English as it's actually used in informal digital spaces, complete with local idioms, slang and the distinctive turns of phrase that mark Australian online discourse.
 
-<br>
+ 
 
 <figure>
   <img src="./AusReddit_Ngram_search.png" Alt="Line graph showing frequency of 'alpacas' in AusReddit over time, from 2009 to 2026. The X axis shows time period, and Y axis shows % of total comments." Title="AusReddit N-gram search"  Ref="LDaCA" />
   <figcaption>Results of an N-gram search for 'alpacas' in the aggregate data, showing frequency over time</figcaption>
 </figure>
 
-<br>
+ 
 
 ### Following the links: Domain analysis
 
@@ -88,4 +88,4 @@ The important thing to remember is that all of these decisions are documented in
 
 If you're interested in exploring the AusReddit aggregate data or accessing the full databank, the best place to start is by checking out the collection on the [Data Portal](https://data.ldaca.edu.au/collection?id=arcp%3A%2F%2Fname%2Chdl10.25912~RDF_1754373503052&_crateId=arcp%3A%2F%2Fname%2Chdl10.25912~RDF_1754373503052) or by contacting the Digital Observatory team at [digitalobservatory@qut.edu.au](mailto:digitalobservatory@qut.edu.au). They can provide advice on everything from navigating the aggregate interface to understanding ethics requirements for accessing raw data, and they're happy to discuss how AusReddit might fit with your research needs.
 
-<br>
+ 

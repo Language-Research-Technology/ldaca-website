@@ -42,7 +42,7 @@ This work is supported by the Australian Research Data Commons.
 
 </section>
 
-<br>
+ 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -58,7 +58,7 @@ We would like to acknowledge the traditional custodians of the lands on which we
 
 </section>
 
-<br>
+ 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -68,7 +68,7 @@ We would like to acknowledge the traditional custodians of the lands on which we
 
 </section>
 
-<br>
+ 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -78,7 +78,7 @@ The <GlossaryLink display="Arkisto" id="arkisto" /> platform started in 2019 as 
 
 </section>
 
-<br>
+ 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -88,7 +88,7 @@ This diagram was used in the bid documents that established LDaCA - it shows the
 
 </section>
 
-<br>
+ 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -98,7 +98,7 @@ This is the data triage process we have been going through in LDaCA — and it s
 
 </section>
 
-<br>
+ 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -108,7 +108,7 @@ This is a taster of what data looks like in the kids of repositories we are talk
 
 </section>
 
-<br>
+ 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -120,7 +120,7 @@ This work has also been [written up](https://digital.library.unt.edu/ark:/67531/
 
 </section>
 
-<br>
+ 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -130,7 +130,7 @@ This is the overall architecture for data storage and delivery — missing is ho
 
 </section>
 
-<br>
+ 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -147,7 +147,7 @@ Two main points we want to get across in this presentation:
 
 </section>
 
-<br>
+ 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -159,7 +159,7 @@ Stian Soiland-Reyes, Peter Sefton, Mercè Crosas, Leyla Jael Castro, Frederik Co
 
 </section>
 
-<br>
+ 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -169,7 +169,7 @@ The core standard for this work is <GlossaryLink display="RO-Crate" id="ro-crate
 
 </section>
 
-<br>
+ 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -179,7 +179,7 @@ This screenshot is a bit of (undated) DSpace documentation found following a tip
 
 </section>
 
-<br>
+ 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -189,7 +189,7 @@ In the early days of the “Open Repositories” movement repositories had Dubli
 
 </section>
 
-<br>
+ 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -199,7 +199,7 @@ These days using linked data it is no longer necessary to have a bevy of <Glossa
 
 </section>
 
-<br>
+ 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -217,7 +217,7 @@ The UTS team presented on this at [eResearch Australasia 2019](https://ptsefton.
 
 </section>
 
-<br>
+ 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -229,7 +229,7 @@ The [structure of an RO-Crate](https://www.researchobject.org/ro-crate/1.1/struc
 
 </section>
 
-<br>
+ 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -241,7 +241,7 @@ This also shows some of what an <GlossaryLink display="OCFL" id="ocfl" /> reposi
 
 </section>
 
-<br>
+ 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -251,7 +251,7 @@ This screenshot shows an example of an <GlossaryLink display="Arkisto" id="arkis
 
 </section>
 
-<br>
+ 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -261,7 +261,7 @@ Now we come to the second core standard in our stack the [Oxford Common File Lay
 
 </section>
 
-<br>
+ 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -271,7 +271,7 @@ This slide shows the interface between our core standards – a compliant <Gloss
 
 </section>
 
-<br>
+ 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -281,7 +281,7 @@ This slide illustrates the flexibility of the approach we’re taking. As LDaCA 
 
 </section>
 
-<br>
+ 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -291,7 +291,7 @@ The storage services may not all be the same in this model, some may be file sys
 
 </section>
 
-<br>
+ 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -307,7 +307,7 @@ Note that our work is also informed by the <GlossaryLink display="CARE" id="care
 
 </section>
 
-<br>
+ 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -317,7 +317,7 @@ Let’s revisit this diagram. What’s missing?
 
 </section>
 
-<br>
+ 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -327,7 +327,7 @@ In the first phase of the LDaCA project, work focused on batch import of data us
 
 </section>
 
-<br>
+ 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -339,7 +339,7 @@ This slide shows some JSON-LD metadata that describes the way this <GlossaryLink
 
 </section>
 
-<br>
+ 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -349,7 +349,7 @@ This part of the architecture we are working on now…
 
 </section>
 
-<br>
+ 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -361,7 +361,7 @@ Here we see the <GlossaryLink display="Crate-O" id="crate-o" /> metadata tool (w
 
 </section>
 
-<br>
+ 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -371,7 +371,7 @@ We hope to work with other editor projects (e.g. [Describo](https://describo.git
 
 </section>
 
-<br>
+ 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -383,7 +383,7 @@ Here’s another repository that uses <GlossaryLink display="RO-Crate" id="ro-cr
 
 </section>
 
-<br>
+ 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -393,7 +393,7 @@ This is a screenshot of a <GlossaryLink display="Jupyter notebook" id="jupyter-n
 
 </section>
 
-<br>
+ 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -403,7 +403,7 @@ This slide shows the <GlossaryLink display="Arkisto" id="arkisto" /> stack power
 
 </section>
 
-<br>
+ 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -413,7 +413,7 @@ This page shows some screenshots of an internal-only application at UTS which gi
 
 </section>
 
-<br>
+ 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -423,7 +423,7 @@ This is a screenshot of data from a history project [Expert Nation](https://expe
 
 </section>
 
-<br>
+ 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
 
@@ -433,4 +433,4 @@ In conclusion, we have given a quick tour of a standards-based repository stack 
 
 </section>
 
-<br>
+ 

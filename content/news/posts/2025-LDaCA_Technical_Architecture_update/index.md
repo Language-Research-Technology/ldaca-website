@@ -9,13 +9,9 @@ type: presentation
 author: '<Profile id="sefton" />, <Profile id="bonequi" /> and <Profile id="foley" />'
 ---
 
-<br>
-
 This blog post provides an update on the Language Data Commons of Australia (LDaCA) technical architecture. It is adapted from a presentation delivered to the LDaCA Steering Committee on 22 August 2025 by Peter Sefton, Mosies Sacal Bonequi and Ben Foley. The full presentation with speaker notes can be found [here](https://ptsefton.com/2025/09/24/ldaca-architecture-update/).
 
 In this post, we will report on some recent developments, mostly in behind-the-scenes improvements to our software stack. We’ll also give a refresher to the principles behind LDaCA’s technical architecture and share more about how our decentralised approach to data management fits with the metadata standards we have been developing for the last few years. As well as this, we aim to show how the open source tools used across LDaCA’s network of collaborators are starting to be harmonised and shared between services, reducing development and maintenance costs and improving sustainability. 
-
-<br>
 
 ## Recent developments
 
@@ -27,18 +23,12 @@ AROCAPI will extend data portals and act as a baseline for other infrastructure 
 
 In addition to AROCAPI,  promising discussions are taking place with one of our partners about taking on LDaCA data long-term (instead of having to distribute the collections across partner institutions). This would give a consolidated basis for a language data repository and a broader Humanities data service.
 
-<br>
-
 ## LDaCA’s Architecture Design
-
-<br>
 
 <figure>
   <img src="./pt-garage.png" alt="Piles of boxes in a garage" title="Figure 1: An unstaged photo of PT Sefton's garage, including a box labelled 'hard drives'."/>
   <figcaption>Figure 1: An unstaged photo of PT Sefton's garage, including a box labelled 'hard drives'. (Image: PT Sefton)</figcaption>
 </figure>
-
-<br>
 
 The image above is an unstaged photo of PT Sefton’s garage. The box of hard drives contains some of PT’s old backups ‘just in case’, as well as his late father Ian Sefton’s physics education research data – things like student feedback from lab programs in the ‘80s trialling different approaches to teaching core physics concepts, and extensive literature reviews. These have been handed on to younger colleagues but could easily have ended up only available in this garage! 
 
@@ -50,7 +40,6 @@ This project is a once-in-a-career opportunity to develop processes for organisi
 
 Remember:
 
-
 * Storage is not data management (particularly if the storage is a shopping bag full of mistreated hard drives).
 * Passing boxes of storage devices hand to hand is NOT a good strategy to conserve data.
 * Hard drives are not archives.
@@ -58,8 +47,6 @@ Remember:
 From the outset of the project, the LDaCA architecture has been designed around the principle that to build a research data commons, we need to look after data above all else. We took an approach that considered long-term data management separately from current uses of the data. This resulted in some design choices which are markedly different from those commonly seen in software development for research.
 
 We put effort into:
-
-
 
 * organising and describing data using open specifications *before* building features into applications
 * designing an access-control system with long-term adaptability in mind (read [the story about that](/news/posts/fair-care-eresearch-2022/) as presented at eResearch Australasia 2022)
@@ -70,12 +57,9 @@ In 2024, we released the Protocols for Implementing Long Term Archival Repositor
 
 With this foundation, and the new interoperability we gain from our collaboration on AROCAPI, we are well placed to collect and conserve more data and make use of data in workspace environments. For instance, the newly established LDaCA analytics forum, a working group formed to advise on the development of research analytics tools, will drive analytical workspaces. Work by the LDaCA technical team will continue to improve data preparation workspaces, for example by potentially collaborating to adapt the Nyingarn Workspace for general purpose use.
 
-<br>
-
 ## Our architecture
 
 For the remainder of this post, we focus on developments in the archival repository functions of the LDaCA architecture – preparing, describing and sharing data so that it is accessible into the future. In the following section, we will share some of the architecture we have developed over the last few years.
-
 
 #### The LDaCA data portal
 
@@ -83,16 +67,13 @@ The first example of LDaCA-developed architecture that we will share here is our
 
 During the project, it has been unclear how we would look after data at the conclusion of the project. No single organisation had put up its hand up to host data for the medium- to long-term. However, we have had some positive talks with one of our partner institutions indicating that they may have an appetite for hosting data that otherwise does not have a home. They may also be able to provide some redundancy for at-risk collections where data custodians are comfortable with a copy residing at the partner institution.
 
-
 #### Other ways of sharing data assets 
 
 Alongside the data portal, we have explored other ways of sharing data assets, including local distribution via portable computers such as Raspberry PI with a local wireless network. We have also discussed establishing regional cooperative networks where communities reduce risk by holding data for each other.
 
-
 #### Additional technical resources
 
 With our partners, we have developed and adapted a suite of other technical resources, including:
-
 
 * Oni portal software for mid-to-large deployments. Version 1 is live and Version 2 is currently under development with PARADISEC, involving a new shared API and code base that can be used across LDaCA and beyond.
 * REMS overlaid with CADRE to manage access control for identified users. A service agreement between LDaCA and CADRE has been signed, to manage access control. REMS is still the backend of this tool, but CADRE’s wrapper makes it more user-friendly. CADRE version 2 will replace the admin component of REMS and is in the testing phase now.
@@ -107,41 +88,28 @@ With our partners, we have developed and adapted a suite of other technical reso
     * [Nyingarn](https://nyingarn.net/) (focussed on creating searchable text from manuscripts)
     * Our next steps will involve a multi-modal workspace, for audio and video transcription.
 
-
 #### Defining metadata schema
 
 We use the following metadata standards:
-
-
 
 * [OLAC - The OLAC Metadata Set and Controlled Vocabularies](https://aclanthology.org/W01-1506.pdf)
 * [CLDF - Cross-linguistic Data Formats](https://github.com/cldf/cldf)
 
 We have worked to define a metadata schema ([the Language Data Commons (LDAC) schema](https://w3id.org/ldac/terms)) for language data based on this existing work, which extends these schema for use in specific contexts.
 
-<br>
-
 <figure>
   <img src="./pilars-implementations-2024.png" alt="A diagram." title="Figure 2: PILARS implementations – mid-2024." />
   <figcaption>Figure 2: PILARS implementations – mid-2024.</figcaption>
 </figure>
 
-<br>
-
 The diagram above attempts to demonstrate how the PILARS principles have been implemented by different organisations. Each example uses open source software, and accepted standards for metadata and storage, meaning that data is portable.  
 
-<br>
-
 ## Future directions
-
 
 <figure>
   <img src="./pilars-implementations-2026.png" alt="A diagram." title="Figure 3: PILARS implementations – mid-2026?" />
   <figcaption>Figure 3: PILARS implementations – mid-2026?</figcaption>
 </figure>
-
-
-<br>
 
 In the image above, we have tried to depict one *potential* view of LDaCA’s architecture in 2026. There may be an opportunity to deepen the collaboration between The University of Queensland LDaCA team and the PARADISEC team at The University of Melbourne, sharing the development of more code.
 
@@ -157,11 +125,7 @@ Some of the changes suggested in this diagram are to:
 
 We have an opportunity now to consider how the distributed LDaCA technical team can collaborate on key pieces of re-deployable infrastructure. This work is having an impact in other Australian Research Data Commons  [(ARDC)](https://ardc.edu.au/) co-investments – for example, the RAPID [Community Data Lab](https://ardc.edu.au/article/draft-project-plans-for-the-ardc-community-data-lab/) project is directly reusing LDaCA developed tools. 
 
-<br>
-
 <a name="fn-1">1</a> This material was edited by <Profile id="lea" />. [↩](#back-1)
-
-<br>
 
 <div class="flex justify-center">
 <iframe src="./LDaCA_Technical_Architecture_update_2025.pdf" 
@@ -171,9 +135,3 @@ width="1200"
 >
 </iframe>
 </div>
-
-<br>
-
-
-
-<br>

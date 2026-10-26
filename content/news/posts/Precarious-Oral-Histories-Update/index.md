@@ -7,14 +7,14 @@ image: /news/posts/Precarious-Oral-Histories-Update/casettestack.jpeg
 layout: post
 ---
 
-<br>
+ 
 
 <figure>
   <img src="./casettestack.jpeg" alt="A stack of classic cassette tapes" title="A stack of classic cassette tapes" />
   <figcaption>A stack of classic cassette tapes (Image: Dmitry Demidov for Pexels)</figcaption> 
 </figure>
 
-<br>
+ 
 
 The next phase of the **Precarious Oral Histories Project** is now underway, building on the success of the Victorian project to identify at-risk oral history collections across Australia.
 
@@ -28,6 +28,6 @@ The next phase is led by **Dr Alexandra Mountain**, an archivist and public hist
 
 Read more in the Precarious Oral Histories Project’s [latest news story](https://precariousoralhistories.com/next-phase-of-the-precarious-oral-histories-project/).
 
-<br>
+ 
 
 

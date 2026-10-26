@@ -8,11 +8,11 @@ author: '<Profile id="lea" />'
 image: "/news/posts/mitchell-delbridge/mitchell-delbridge1965.jpg"
 ---
 
-<br>
+ 
 
 In a [previous blog post](/news/posts/ausnc/), we wrote about what happened to the Australian National Corpus (AusNC). One component of AusNC, *The speech of Australian adolescents: research data and recordings collected by A.G. Mitchell and Arthur Delbridge in 1959 and 1960*, was an early addition to our [data portal](https://data.ldaca.edu.au/search). Read on to find out more about the history of the Mitchell and Delbridge <GlossaryLink display="corpus" id="corpus" />, and its impact on Australian linguistic research.
 
-<br>
+ 
 
 ## Broad, general and cultivated speech
 
@@ -28,65 +28,65 @@ The target words were *beat*, *boot*, *say*, *so*, *high* and *how.*
 
 They used this large collection of adolescent speech to support their claim that Australian English inhabited a "broadness continuum", and that the speech of any individual could be considered to be either *broad*, *general* or *cultivated*. Prior to their study, little scholarly work had identified Australian English as a legitimate object of study within varieties of English. This recognition of the Australian variety contributed to the fact that hearing a range of Australian accents became commonplace in media and politics later in the century.
 
-<br>
+ 
 
 <figure>
   <figcaption> <b>A recording of 'broad' speech from the Mitchell and Delbridge collection.</b> </figcaption>
   <audio controls src="./Broad.mp3" style="display: block; margin: 0 auto;"></audio>
 </figure>
 
-<br>
+ 
 
 <figure>
   <figcaption> <b>A recording of 'general' speech from the Mitchell and Delbridge collection.</b> </figcaption>
   <audio controls src="./General.mp3" style="display: block; margin: 0 auto;"></audio>
 </figure>
 
-<br>
+ 
 
 <figure>
   <figcaption> <b>A recording of 'cultivated' speech from the Mitchell and Delbridge collection.</b> </figcaption>
   <audio controls src="./Cultivated.mp3" style="display: block; margin: 0 auto;"></audio>
 </figure>
 
-<br>
+ 
 
 <figure>
   <figcaption> <b>The speech of Australian Prime Ministers Robert Menzies, Gough Whitlam, Bob Hawke and Julia Gillard.</b> </figcaption>
   <audio controls src="./Slide5_PMs.wav" style="display: block; margin: 0 auto;"></audio>
 </figure>
 
-<br>
+ 
 
 The data collected helped Mitchell and Delbridge demonstrate that Australian English tends not to have major regional differences (but test your ear with [this article on regional accents](https://theconversation.com/quiz-can-you-pick-a-victorian-from-a-queenslander-how-our-accents-change-from-state-to-state-250908)!), and class and rural/urban divides more strongly influence our ways of speaking. Their classification of three (overlapping) categories of speech mapped to a broadness continuum has since been very influential in Australian linguistics, including in <GlossaryLink display="phonetic transcription" id="phonetic-transcription" /> conventions for Australian English vowels (the Mitchell-Delbridge system).
 
-<br>
+ 
 
 <figure>
   <img src="./mitchell-delbridge1965.jpg" alt="The Speech of Australian Adolescents: A Survey." title="The Speech of Australian Adolescents: A Survey." />
   <figcaption>Figure 1: Front cover of Mitchell and Delbridge's 1965 publication, The Speech of Australian Adolescents: A Survey. (Image: Louella Kerr Books)</figcaption>
 </figure>
 
-<br>
+ 
 
 ## Rescuing an at-risk dataset
 
 The reel-to-reel tapes from the study, as well as accompanying paper documents, were stored for several decades in The University of Sydney (USyd) Phonetics Laboratory. When the Phonetics Laboratory moved site, the tapes ended up in a glass cabinet in a hot corridor; the paper records were lost in the move.
 
-<br>
+ 
 
 <figure>
   <img src="./reel-to-reel.png" alt="A Studer reel-to-reel tape player." title="A Studer reel-to-reel tape player." />
   <figcaption>Figure 2: A Studer reel-to-reel tape player. (Image: Bridey Lea)</figcaption>
 </figure>
 
-<br>
+ 
 
 In the late 1990s, members of the Linguistics Department who recognised the value of the collection took steps to improve its condition — by moving it to an air-conditioned space and organising digitisation by the [National Film and Sound Archive](https://www.nfsa.gov.au/). Because of its location and the deteriorating condition of the tapes, the dataset had not been used since Mitchell and Delbridge's initial research.
 
 The digitised corpus was reissued as an online database by USyd in 1997–1998. The database is [still available](https://ses.library.usyd.edu.au/handle/2123/31585), but not easy to find. Part of the collection was then made accessible online via AusNC (through Griffith University) between 2012 and 2023. At the dissolution of AusNC, <GlossaryLink display="LDaCA" id="ldaca" /> initiated discussion with the USyd Library, which resulted in almost all of the collection being made accessible in the LDaCA data portal.
 
-<br>
+ 
 
 ## Australian speech since Mitchell and Delbridge
 
@@ -108,10 +108,10 @@ Harrington, Jonathan, Felicity Cox, and Zoe Evans. 1997. "An acoustic phonetic s
 
 Horvath, Barbara. 1985. *Variation in Australian English: the sociolects of Sydney*. Cambridge; New York: Cambridge University Press.
 
-<br>
+ 
 
 Thanks to Teresa Chan and Simon Musgrave for their helpful comments.
 
-<br>
+ 
 
 

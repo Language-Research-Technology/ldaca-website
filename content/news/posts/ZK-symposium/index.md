@@ -7,18 +7,18 @@ image: /news/posts/ZK-symposium/al-ben-ZK.png
 layout: post
 ---
 
-<br>
+ 
 
 Language Data Commons of Australia (LDaCA) team members Alistair Harvey and Ben Foley presented at the Zenadth Kes (ZK) Language Symposium in Thursday Island on May 25–29. They shared LDaCA's work and the importance of community engagement before commencing community archiving projects.
 
-<br>
+ 
 
 <figure>
   <img src="./al-ben-ZK.png" alt="Photo of two men standing in front of a conference banner" title="Ben Foley and Alistair Harvey at the Zenadth Kes Symposium" />
   <figcaption>Ben Foley and Alistair Harvey at the Zenadth Kes Symposium</figcaption> 
 </figure>
 
-<br>
+ 
 
 Their presentation focussed on four themes of community archiving: Indigenous Data Sovereignty and Governance, information and findability, long-term access and safe-keeping, and continuing cultural knowledge. Alistair demonstrated how these themes underpin his work with the Saibai Island Language and Culture Archive, while Ben spoke about case studies from LDaCA's work with the [ARDS Aboriginal Corporation](https://ards.com.au/), [Batchelor Institute CALL Collection](http://callcollection.batchelor.edu.au/) and other Indigenous knowledge projects.
 
@@ -26,11 +26,11 @@ The presentation provided context for LDaCA's approach in developing community a
 
 Meanwhile, Alistair’s work continues in curating the Saibai archive, with plans to launch a community-controlled website providing access to some of the materials. The site will provide a Saibai perspective of Saibai knowledge, depicting Clan systems, language, and knowledge of the physical world (maps, stars, tides, flora and fauna), through songs, stories, ceremony and relationships.
 
-<br>
+ 
 
 <figure>
   <img src="./saibai-site.png" alt="A pre-release screenshot of the Saibai archive website" title="A pre-release screenshot of the Saibai archive website" />
   <figcaption>A pre-release screenshot of the Saibai archive website (Image: Alistair Harvey)</figcaption> 
 </figure>
 
-<br>
+ 
