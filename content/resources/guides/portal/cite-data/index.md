@@ -1,5 +1,5 @@
 ---
-title: "Cite Data"
+title: "Cite data"
 date: 2016-04-16T13:09:22+10:00
 description: "A guide to citing collections and data accessed through the portal."
 image: "/resources/guides/portal/cite-data/COOEE-Citation-field-wLink.png"
@@ -9,14 +9,14 @@ layout: doc
 
 <br>
 
-> This user guide uses 'portal' to refer to the interface across all of the available <GlossaryLink display="Oni" id="oni" /> portals (see [Available Portals](/working-with-data/find-access/#available-portals) for more details).
+> This user guide uses 'portal' to refer to the interface across all of the available <GlossaryLink display="Oni" id="oni" /> portals (see [Available portals](/working-with-data/find-access/#available-portals) for more details).
 
 <br>
 
-- [Citing a Collection](#citing-a-collection)
-- [Citing Parts of a Collection](#citing-parts-of-a-collection)
-- [Citing Published Work](#citing-published-work)
-- [Citing LDaCA as Access Source](#citing-ldaca-as-access-source)
+- [Citing a collection](#citing-a-collection)
+- [Citing parts of a collection](#citing-parts-of-a-collection)
+- [Citing published work](#citing-published-work)
+- [Citing LDaCA as access source](#citing-ldaca-as-access-source)
 
 <br>
 
@@ -24,7 +24,7 @@ Follow this guide when you need to cite a data source that you accessed through 
 
 <br>
 
-## Citing a Collection
+## Citing a collection
 
 <br>
 
@@ -44,17 +44,17 @@ The citation information is not in any specific format or style (e.g. APA, MLA);
 
 However, the citation information given may be what the <GlossaryLink display="data steward" id="data-steward" /> had approved or had specified in the <GlossaryLink display="data license" id="data-license" />.
 
-For the definitions of the above and additional citation elements, and further advice on citing linguistic data, refer to [Tromsø Recommendations for Citation of Research Data in Linguistics](https://doi.org/10.15497/rda00040).
+For the definitions of the above and additional citation elements, and further advice on citing linguistic data, refer to the [Tromsø recommendations for citation of research data in linguistics](https://doi.org/10.15497/rda00040).
 
 <br>
 
-### Retrieving Citations with Zotero
+### Retrieving citations with Zotero
 
 Collection citations can also be retrieved with the [Zotero extension](https://www.zotero.org/download/) by clicking the dataset icon in the browser toolbar. For further support and integrations, see the [Zotero documentation](https://www.zotero.org/support/).
 
 <br>
 
-## Citing Parts of a Collection
+## Citing parts of a collection
 
 <br>
 
@@ -64,7 +64,7 @@ Note that the manner of citing a collection would most likely be subject to the 
 
 <br>
 
-## Citing Published Work
+## Citing published work
 
 <br>
 
@@ -81,7 +81,7 @@ As an example, the COrpus of Oz Early English (COOEE) shows a Citation field wit
 
 <br>
 
-## Citing LDaCA as Access Source
+## Citing LDaCA as access source
 
 <br>
 

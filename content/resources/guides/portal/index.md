@@ -5,5 +5,5 @@ draft: false
 type: "custom"
 layout: "root_list"
 category: "LDACA TECHNOLOGIES GUIDE"
-description: "Information related to using the LDaCA Data Portal, covering navigation, search, filters, access, and downloads."
+description: "Information related to using the LDaCA Data Portal, covering navigation, search, filters, access and downloads."
 ---

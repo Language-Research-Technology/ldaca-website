@@ -10,7 +10,7 @@ layout: doc
 
 <br>
 
-> This user guide uses 'portal' to refer to the interface across all of the available <GlossaryLink display="Oni" id="oni" /> portals (see [Available Portals](/working-with-data/find-access/#available-portals) for more details).
+> This user guide uses 'portal' to refer to the interface across all of the available <GlossaryLink display="Oni" id="oni" /> portals (see [Available portals](/working-with-data/find-access/#available-portals) for more details).
 
 <br>
 
@@ -20,7 +20,7 @@ Some collections require that you log in either to access, or apply for access, 
 
 <figure>
     <img src="./loginBox.png" Alt="Portal Top Menu Options" Title="Portal Top Menu Options" Ref="LDaCA" />
-    <figcaption>Portal Top Menu Options</figcaption>
+    <figcaption>Portal top menu options</figcaption>
 </figure>
 
 <br>
@@ -30,8 +30,8 @@ You will be taken to the _LDaCAData_ login page. Select ___Sign in with CILogon_
 <br>
 
 <figure>
-    <img src="./LDaCALogon.png" Alt="LDaCA Logon" Title="LDaCA Logon" Ref="LDaCA" />
-    <figcaption>LDaCA Logon</figcaption>
+    <img src="./LDaCALogon.png" Alt="LDaCA logon" Title="LDaCA logon" Ref="LDaCA" />
+    <figcaption>LDaCA logon</figcaption>
 </figure>
 
 <br>
@@ -40,7 +40,7 @@ You will be taken to the CILogon page which:
 - provides details of the _Consent to Attribute Release_
 - allows you to select an identity provider.
 
-CILogon facilitates secure access to cyber infrastructure (CI). In order to use the CILogon Service, you must first select an identity provider. An identity provider is an organisation where you have an account and can log in to gain access to online services.
+CILogon facilitates secure access to cyber infrastructure (CI). In order to use the CILogon service, you must first select an identity provider. An identity provider is an organisation where you have an account and can log in to gain access to online services.
 
 Note that the identity provider defaults to ORCID but this can be changed to your preferred authentication. If you are a faculty, staff or student member of a university or college, please select that for your identity provider. If your school is not listed, please contact help@cilogon.org, and they will try to add your school in the future. You can also select your ORCID, Google, <GlossaryLink display="GitHub" id="github" /> or Microsoft account to authenticate for the CILogon Service.
 
@@ -61,7 +61,7 @@ First select your preferred identity provider in the dropdown before clicking __
 
 <figure>
     <img src="./CILogon_IdentityProvider.png" Alt="CILogon: Select an Identity Provider" Title="CILogon: Select an Identity Provider" Ref="LDaCA" />
-    <figcaption>CILogon: Select an Identity Provider</figcaption>
+    <figcaption>CILogon: Select an identity provider</figcaption>
 </figure>
 
 <br>
@@ -72,7 +72,7 @@ Once your login is successful, you will be redirected back to the portal page an
 
 <figure>
     <img src="./Login-AcctName-DropDown.png" Alt="Portal: Logged In View" Title="Portal: Logged In View" Ref="LDaCA" />
-    <figcaption>Portal: Logged In View</figcaption>
+    <figcaption>Portal: Logged in view</figcaption>
 </figure>
 
 <br>

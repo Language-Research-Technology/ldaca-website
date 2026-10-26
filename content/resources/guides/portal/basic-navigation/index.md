@@ -1,5 +1,5 @@
 ---
-title: "Basic Navigation"
+title: "Basic navigation"
 date: 2023-01-29T11:45:30+11:00
 tags: ["Data portal"]
 description: "A guide to navigating the various sections of the portal interface."
@@ -10,19 +10,19 @@ layout: doc
 
 <br>
 
-> This user guide uses 'portal' to refer to the interface across all of the available <GlossaryLink display="Oni" id="oni" /> portals (see [Available Portals](/working-with-data/find-access/#available-portals) for more details).
+> This user guide uses 'portal' to refer to the interface across all of the available <GlossaryLink display="Oni" id="oni" /> portals (see [Available portals](/working-with-data/find-access/#available-portals) for more details).
 
 <br>
 
-- [Data and Page Structure](#data-and-page-structure)
-- [Home Page](#home-page) ([Top Menu](#top-menu), [Left Panel](#left-panel), [Main Panel](#main-panel))
-- [Collection Page](#collection-page)
-- [Object Page](#object-page) ([Notebooks](#notebooks))
-- [File Page](#file-page)
+- [Data and page structure](#data-and-page-structure)
+- [Home page](#home-page) ([top menu](#top-menu), [left panel](#left-panel), [main panel](#main-panel))
+- [Collection page](#collection-page)
+- [Object page](#object-page) ([notebooks](#notebooks))
+- [File page](#file-page)
 
 <br>
 
-## Data and Page Structure
+## Data and page structure
 
 Both the data and the webpages in the portal are structured in a heirarchy: Collections contain Objects and Objects contain Files.
 
@@ -36,9 +36,9 @@ Both the data and the webpages in the portal are structured in a heirarchy: Coll
 
 <br>
 
-## Home Page
+## Home page
 
-There are three main sections of the Home Page in the portal: the top menu bar, the left panel and the main panel. Each of these is discussed below.
+There are three main sections of the home page in the portal: the top menu bar, the left panel and the main panel. Each of these is discussed below.
 
 <br>
 
@@ -49,7 +49,7 @@ There are three main sections of the Home Page in the portal: the top menu bar, 
 
 <br>
 
-### Top Menu
+### Top menu
 
 <br>
 
@@ -71,7 +71,7 @@ The top menu of the home page allows you to access some of the main features of 
 
 <br>
 
-### Left Panel
+### Left panel
 
 <br>
 
@@ -84,32 +84,22 @@ The top menu of the home page allows you to access some of the main features of 
 
 The left panel of the portal home page allows you to refine your data query through the use of a search field and filters. Searching allows you to view records which include specific information, while filtering allows you to view records which share values for <GlossaryLink display="metadata" id="metadata" /> categories. Hovering over the information icon <img src="./information.png" alt="Information Icon" style="display:inline; width:1.5em; vertical-align:middle;" /> next to each filter will display tooltips related to that filter. See [Search](/resources/guides/portal/search/) and [Filters](/resources/guides/portal/filters/) for more details on how to use the search and filter functions.
 
-<br>
+### Main panel
 
-### Main Panel
-
-The main panel has two views available; [List View](#list-view) and [Map View](#map-view).
+The main panel has two views available: [List View](#list-view) and [Map View](#map-view).
 
 > Note that if you switch views, all current search and filter options will be reset.
 
-<br>
-
-#### List View
+#### List view
 
 By default, the main panel is displayed in **_List View_**, which shows the results as a list. This is the alternative to [Map View](#map-view).
 
-<br>
-
 <figure>
-    <img src="./main-panel.png" Alt="Home Page: Main Panel" Title="Home Page: Main Panel" Ref="LDaCA" />
-    <figcaption>Home Page: Main Panel</figcaption>
+    <img src="./main-panel.png" Alt="Home page: Main panel" Title="Home page: Main panel" Ref="LDaCA" />
+    <figcaption>Home page: Main panel</figcaption>
 </figure>
 
-<br>
-
-The main panel on the right of the home page allows you to view the top-level descriptions of collections, objects, files and notebooks in the portal. The top row shows the total number of Index entries or items; this total will reduce as you apply filters and search queries. Below this is the option to **_Reset Search_**, clearing all (current) filters and searches. The **_Sort by_** and **_Order by_** dropdown boxes can also be configured; see [Sort and Order](/resources/guides/portal/sort-and-order/) to learn more about their usage. Below this, there is a row of buttons which allow you to navigate through pages of results, with 10 results appearing on each page.
-
-<br>
+The main panel on the right of the home page allows you to view the top-level descriptions of collections, objects, files and notebooks in the portal. The top row shows the total number of Index entries or items; this total will reduce as you apply filters and search queries. Below this is the option to **_Reset search_**, clearing all (current) filters and searches. The **_Sort by_** and **_Order by_** dropdown boxes can also be configured; see [Sort and order](/resources/guides/portal/sort-and-order/) to learn more about their usage. Below this, there is a row of buttons which allow you to navigate through pages of results, with 10 results appearing on each page.
 
 The results in the main panel contain a set of top-level descriptions:
 
@@ -122,9 +112,7 @@ The results in the main panel contain a set of top-level descriptions:
 
 > Note that top-level descriptions will not appear in cases where they aren't provided for that item, e.g. usually _Description_ is not present for objects and files, and _Member of_ does not appear for top-level collections.
 
-<br>
-
-##### Item Icons
+##### Item icons
 
 The icons next to each item show you some important information about that item (Access, Communication Mode and File Format). You can hover over a icon to see more detail.
 
@@ -144,39 +132,28 @@ The icons next to each item show you some important information about that item 
 | ![CSV Icon](./file-csv-solid.svg)              | File Format        | text/csv                                                                                                        |
 | ![PDF Icon](./file-pdf-solid.svg)              | File Format        | application/pdf                                                                                                 |
 
-<br>
 
-#### Map View
+#### Map view
 
 Selecting **_Map View_** from the top row of the main panel will display results on a map. This is the alternative to [List View](#list-view).
-
-<br>
 
 <figure>
     <img src="./map-view.png" Alt="Home Page: Map View" Title="Home Page: Map View" Ref="LDaCA" />
     <figcaption>Home Page: Map View</figcaption>
 </figure>
 
-<br>
-
-Both filter and search functions work much the same as in **_List View_**, however Advanced Search is not available. The results on **_Map View_** are displayed in grids, and these divide further into more specific grids as you zoom in. The colours vary depending on the number of results per grid. The results displayed in **_Map View_** are only those in the current visible map area, so in order to view other results, either resize the map or move it to a different section.
+Both filter and search functions work much the same as in **_List View_**, however advanced search is not available. The results on **_Map View_** are displayed in grids, and these divide further into more specific grids as you zoom in. The colours vary depending on the number of results per grid. The results displayed in **_Map View_** are only those in the current visible map area, so in order to view other results, either resize the map or move it to a different section.
 
 > Note that only items with location data will be shown in **_Map View_**.
 
-<br>
-
-## Collection Page
+## Collection page
 
 Clicking on one of the collections from the main page results will take you to the Collection page for that item.
 
-<br>
-
 <figure>
-    <img src="./collection-page.png" Alt="Collection Page: Braided Channels Example" Title="Collection Page: Braided Channels Example" Ref="LDaCA" />
-    <figcaption>Collection Page: Braided Channels Example</figcaption>
+    <img src="./collection-page.png" Alt="Collection page: Braided Channels example" Title="Collection page: Braided Channels example" Ref="LDaCA" />
+    <figcaption>Collection page: Braided Channels example</figcaption>
 </figure>
-
-<br>
 
 The main panel of the Collection page lists the main details and <GlossaryLink display="metadata" id="metadata" /> associated with the collection. Clicking on the question mark icon <img src="./question.png" alt="Question Mark Icon" style="display:inline; width:1.5em; vertical-align:middle;" /> or information icon <img src="./information.png" alt="Information Icon" style="display:inline; width:1.5em; vertical-align:middle;" /> next to each heading will display tooltips related to that item.
 
@@ -193,7 +170,7 @@ The right panel has the following sections:
 
 <br>
 
-## Object Page
+## Object page
 
 Clicking on one of the objects or files from either the main page results or from a Collection page will take you to the Object page for that item.
 
@@ -218,8 +195,6 @@ The right panel has the following sections:
 
 The end of the Object page provides details about the files that form part of the current object. In the example above, the object _Text 1-028 1791 Convict_ has two associated files: a plain text version and a text version including <GlossaryLink display="metadata" id="metadata" /> codes, the details of which can be viewed using the dropdown arrow to the right of the file name. A preview of the file is available (provided that the <GlossaryLink display="access conditions" id="access-conditions" /> permit this), and there are two options: **_View File_** to display the full file in the web browser, and **_Download File_** to save a copy of the file to your local system.
 
-<br>
-
 ### Notebooks
 
 Clicking on one of the <GlossaryLink display="notebooks" id="jupyter-notebook" /> from either the main page results or from a Collection page will take you to the Notebook page for that item.
@@ -234,21 +209,13 @@ The right panel has the following sections:
 - **Try this Notebook**: Displays the <GlossaryLink display="BinderHub" id="binderhub" /> deployments which the current notebook can be launched in. The icons on the right show if any authentication is required to access each deployment.
 - **Takedown Request**: Links to a form for users to make requests for data to be removed.
 
-<br>
-
-## File Page
+## File page
 
 Clicking **_View File_** on one of the files in an Object page will take you the File page for that item.
 
-<br>
-
 <figure>
-    <img src="./file-page.png" Alt="File Page: Braided Channels Example" Title="File Page: Braided Channels Example" Ref="LDaCA" />
-    <figcaption>File Page: Braided Channels Example</figcaption>
+    <img src="./file-page.png" Alt="File page: Braided Channels example" Title="File page: Braided Channels example" Ref="LDaCA" />
+    <figcaption>File page: Braided Channels example</figcaption>
 </figure>
 
-<br>
-
 From this page, you can view the whole file or download it with the option at the end of the page.
-
-<br>

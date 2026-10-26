@@ -1,5 +1,5 @@
 ---
-title: "Collection Access"
+title: "Collection access"
 date: 2018-01-29T11:38:46+11:00
 tags: ["Data portal"]
 description: "A guide to viewing and applying for access to collections in the portal."
@@ -10,16 +10,16 @@ layout: doc
 
 <br>
 
-> This user guide uses 'portal' to refer to the interface across all of the available <GlossaryLink display="Oni" id="oni" /> portals (see [Available Portals](/working-with-data/find-access/#available-portals) for more details).
+> This user guide uses 'portal' to refer to the interface across all of the available <GlossaryLink display="Oni" id="oni" /> portals (see [Available portals](/working-with-data/find-access/#available-portals) for more details).
 
 <br>
 
-- [Apply for Access to Collections with Access Restrictions](#apply-for-access-to-collections-with-access-restrictions)
-- [View your Current Access List](#view-your-current-access-list)
+- [Apply for access to collections with access restrictions](#apply-for-access-to-collections-with-access-restrictions)
+- [View your current access list](#view-your-current-access-list)
 
 <br>
 
-## Apply for Access to Collections with Access Restrictions
+## Apply for access to collections with access restrictions
 
 When viewing an item that has restricted access, you will see one of the following permission warnings, depending on whether or not you are logged in to the portal:
 - You do not have permission to see these files. Sign up or Login
@@ -28,8 +28,8 @@ When viewing an item that has restricted access, you will see one of the followi
 <br>
 
 <figure>
-    <img src="./REMS-ApplyOrRefreshPermissions.png" Alt="Restricted Access Example" Title="Restricted Access Example" Ref="LDaCA" />
-    <figcaption>Restricted Access Example</figcaption>
+    <img src="./REMS-ApplyOrRefreshPermissions.png" Alt="Restricted access example" Title="Restricted access example" Ref="LDaCA" />
+    <figcaption>Restricted access example</figcaption>
 </figure>
 
 <br>
@@ -39,8 +39,8 @@ The LDaCA environment uses <GlossaryLink display="CADRE" id="cadre" /> for acces
 <br>
 
 <figure>
-    <img src="./CADRElogin.png" Alt="CADRE Interface Welcome Page" Title="CADRE Interface Welcome Page" Ref="CADRE" />
-    <figcaption>CADRE Interface Welcome Page</figcaption>
+    <img src="./CADRElogin.png" Alt="CADRE interface welcome page" Title="CADRE interface welcome page" Ref="CADRE" />
+    <figcaption>CADRE interface welcome page</figcaption>
 </figure>
 
 <br>
@@ -53,20 +53,20 @@ Once the data sharing request is approved, navigate back to the data <GlossaryLi
 
 <figure>
     <img src="./access-granted-portal-blur.png" Alt="Access to example custom license displayed in green on the LDaCA data portal." Title="Once the data sharing request is approved, you will be able to access the data in the LDaCA portal." Ref="LDaCA" />
-    <figcaption>Once the data sharing request is approved, you will be able to access the data in the LDaCA portal.</figcaption>
+    <figcaption>Once the data sharing request is approved, you will be able to access the data in the LDaCA portal</figcaption>
 </figure>
 
 <br>
 
-## View your Current Access List
+## View your current access list
 
-To view your current list of licenses you have access to, hover your cursor over the arrow next to your account name to trigger a dropdown menu and select ___User Information___. If you are not logged in, see the steps under [Login](/resources/guides/portal/login/). The _User Memberships_ section shows your current access list, and you can click ___Check Memberships___ to refresh this list. You can also select ___Verify your access in CADRE___ to log into <GlossaryLink display="CADRE" id="cadre" />.
+To view your current list of licenses you have access to, hover your cursor over the arrow next to your account name to trigger a dropdown menu and select ___User Information___. If you are not logged in, see the steps under [Login](/resources/guides/portal/login/). The _User Memberships_ section shows your current access list, and you can click ___Check Memberships___ to refresh this list. You can also select ___Verify your access in CADRE___ to log in to <GlossaryLink display="CADRE" id="cadre" />.
 
 <br>
 
 <figure>
-    <img src="./user-memberships-with-access.png" Alt="User Memberships" Title="User Memberships" Ref="LDaCA" />
-    <figcaption>User Memberships</figcaption>
+    <img src="./user-memberships-with-access.png" Alt="User memberships" Title="User memberships" Ref="LDaCA" />
+    <figcaption>User memberships</figcaption>
 </figure>
 
 <br>
