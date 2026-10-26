@@ -29,7 +29,7 @@ Some queries regexes allow us to do more easily include finding:
 
 Regexes can be tricky to learn at first, but by using even a few of these patterns to refine your searches, you'll quickly feel like a superhero!
 
-<br>
+ 
 
 <figure>
     <img src="https://imgs.xkcd.com/comics/regular_expressions.png" alt="Web comic depicting a crime being heroically solved by someone who swings in on a rope declaring 'Everybody stand back. I know regular expressions'." title="'I know regular expressions'"/>
@@ -45,18 +45,18 @@ Regexes can be tricky to learn at first, but by using even a few of these patter
 * Mozilla's cheat sheet for regular expression syntax with examples: [Regular expression syntax cheat sheet](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Cheatsheet)
 * A regular expression tester with syntax highlighting, explanation and reference guide: [regex101](https://regex101.com/)
 
-<br>
+ 
 
 <figure>
     <img src="./credit-ardc-michelle_mcfarlane-hassi_summerschool26-feb26-lr71-1536x1024.jpg" alt="Rosanna Smith smiling mid-conversation in a group of people" title="Rosanna talking to participants at the ARDC's HASS and Indigenous Research Data Commons Summer School in February 2026" />
     <figcaption>Rosanna talking to participants at the ARDC's HASS and Indigenous Research Data Commons Summer School in February 2026 (Michelle McFarlane, courtesy of the ARDC) </figcaption>
 </figure>
 
-<br>
+ 
 
 ### **Rosanna Smith**
 
 Rosanna is a language technology analyst for the Language Data Commons of Australia, developing metadata schemas, templates and tools for RO-Crated data. She has a background in linguistics, with 10 years' experience as a linguistic project manager in automatic speech recognition and text to speech for machine learning. She is interested in making technology for the governance and management of language materials more accessible to researchers and communities, regardless of the level of digital expertise.
 
-<br>
+ 
 

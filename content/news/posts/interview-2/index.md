@@ -22,7 +22,7 @@ This blog post features [Catherine Travis](https://researchers.anu.edu.au/resear
 
 The interview was undertaken via email, and we are grateful to Kelvin Lee from the [Sydney Corpus Lab](https://sydneycorpuslab.com/) for his assistance in undertaking the interviews and creating these blog posts.
 
-<br>
+ 
 
 ## What is your role in these projects?
 
@@ -34,7 +34,7 @@ The interview was undertaken via email, and we are grateful to Kelvin Lee from t
 
 My role as director of the Sydney Corpus Lab is crucial for these projects. The lab’s mission is to build research capacity in <GlossaryLink display="corpus" id="corpus" /> linguistics at the University of Sydney, to connect Australian corpus linguists, and to promote the method in Australia, both in linguistics and in other disciplines. We organise relevant events on corpus linguistics and text analytics, including guest lectures and workshops, and create resources such as corpora, blog posts, video playlists, and curated introductions in different languages.
 
-<br>
+ 
 
 ## What excites you most about the projects?
 
@@ -44,7 +44,7 @@ My role as director of the Sydney Corpus Lab is crucial for these projects. The 
 
 **MB**: To work across disciplines, to collaborate with data scientists, and to learn many new things myself! And to discover the value that we bring to such collaborations as domain experts in the Humanities and Social Sciences.
 
-<br>
+ 
 
 ## What advice would you give someone who wants to get started with text analytics, corpus linguistics, or language data collection?
 
@@ -54,7 +54,7 @@ My role as director of the Sydney Corpus Lab is crucial for these projects. The 
 
 **MB**: Just give it a go and don’t be daunted! Go to workshops or summer schools, and avail yourself of other free or low-cost opportunities. Be (and remain) critical in your use of tools, and remember the value of your own knowledge and expertise. Discover the joy of mastering a new tool/technique or of knowing enough to find out that it is not for you or for your research project. If you find it useful, practice and also keep good notes so that you can return to the tool later and still know what to do. Always be transparent in how you use the tool/technique and make sure you know why you are using it.
 
-<br>
+ 
 
 ### Acknowledgments
 

@@ -9,11 +9,11 @@ image: "/news/posts/darwin-digital-collections-workshop/darwin_workshop_fig1.jpg
 author: '<Profile id="pettrup" />'
 ---
 
-<br>
+ 
 
 From 24–28 March, the <GlossaryLink display="LDaCA" id="ldaca" /> team hosted the Darwin digital languages collections workshop. This event brought together organisations and individuals from the Top End to exchange ideas and insights about Indigenous language <GlossaryLink display="collections" id="collection" /> and explore collaborative opportunities.
 
-<br>
+ 
 
 ## Connecting through presentations and sharing knowledges
 
@@ -21,14 +21,14 @@ The week began with presentations that introduced participants to technologies, 
 
 Ben Foley kicked off with an introduction to language collections and <GlossaryLink display="metadata" id="metadata" />, where he explained the foundational concepts around language collections, underscoring the importance of metadata for organising and understanding digital materials.
 
-<br>
+ 
 
 <figure>
   <img src="./darwin_workshop_fig1.jpg" alt="Photograph of Ben Foley (LDaCA) presenting at the Darwin digital languages collections workshop." title="Ben Foley (LDaCA) presenting at the Darwin digital languages collections workshop." />
   <figcaption>Ben Foley (LDaCA) presenting at the Darwin digital languages collections workshop. (Image: LDaCA)</figcaption>
 </figure>
 
-<br>
+ 
 
 Moises Sacal Bonequi introduced a structured set of guidelines for designing and evaluating data storage services ([PILARS](https://pilars-protocols.github.io/pilars/)). This framework ensures that digital assets, such as research data, are securely managed and accessible for the long term.
 
@@ -36,14 +36,14 @@ Nick Thieberger joined the workshop virtually to demonstrate [Nyingarn](https://
 
 Ben and Rosanna Smith then introduced [RO-Crate](https://www.researchobject.org/ro-crate/) and [Crate-O](https://language-research-technology.github.io/crate-o/#/). Ben used a physical crate as a metaphor to explain the RO-Crate approach to <GlossaryLink display="packaging data" id="data-packaging" />. He explained how RO-Crate is a <GlossaryLink display="method" id="methods" /> for bundling materials (like audio files, images or manuscripts) with their associated metadata. Rosanna also shared a demonstration of Crate-O, a browser-based platform that can help users convert their materials and metadata into an RO-Crate format.
 
-<br>
+ 
 
 <figure>
   <img src="./darwin_workshop_fig2.jpg" alt="Photograph of Rosanna Smith (LDaCA) presenting a demonstration of Crate-O during the Darwin digital languages collections workshop." title="Rosanna Smith (LDaCA) demonstrating Crate-O" />
   <figcaption>Rosanna Smith (LDaCA) presenting a demonstration of Crate-O during the Darwin digital languages collections workshop. (Image: LDaCA)</figcaption>
 </figure>
 
-<br>
+ 
 
 The workshop also provided a platform for participants to share their efforts in working with language materials, and building digital archives and collections.
 
@@ -53,7 +53,7 @@ Dikuḻ Baker, Salome Harris and Jess Wallace shared the beginnings of the [ARDS
 
 PJ Andrews, Juliet Beale and Karen Manton showcased the [Libraries and Archives NT](https://lant.nt.gov.au/) collections and explained the complexities of managing multiple digital collection spaces, including their Library Management System, their library catalogue, and [Territory Stories](https://territorystories.nt.gov.au/), their interface for searching digital and published collections about the Northern Territory. This session highlighted challenges and opportunities of working across multiple digital tools.
 
-<br>
+ 
 
 ## Collaborating through hands-on exploration
 
@@ -61,20 +61,20 @@ Another highlight of the workshop were the hands-on sessions, where participants
 
 Participants tried their hand at applying the RO-Crate method and using the Crate-O platform, setting up <GlossaryLink display="linked data" id="linked-data" /> collections based on their own collections and datasets. Along the way, an important insight emerged: not all spreadsheet programs are equal. While tools like Microsoft Excel, Apple Numbers and Google Sheets might seem interchangeable, subtle differences in formatting and formula handling can lead to unexpected results. This realisation proved to be a valuable learning moment and will help with refining the application of RO-Crate <GlossaryLink display="standards" id="standard" /> and improve instructional materials. By the end of the workshop, participants successfully set up linked datasets and gained a better understanding of RO-Crate, laying a strong foundation to continue their work beyond the session.
 
-<br>
+ 
 
 <figure>
   <img src="./darwin_workshop_fig3.jpeg" alt="Photograph of workshop participants sitting in a big group around a table, getting involved in hands-on activities for metadata organisation and description." title="Workshop participants getting involved" />
   <figcaption>Workshop participants getting involved in hands-on activities for metadata organisation and description. (Image: LDaCA)</figcaption>
 </figure>
 
-<br>
+ 
 
 Participants also engaged in a collaborative brainstorming session focused on metadata. During this session, they compared data fields across their organisations' metadata, identifying similarities and variations. For instance, fields like 'Name' and 'Title' were sometimes used interchangeably, while other variations arose based on the unique needs of specific collections. Some organisations required broader or more specialised data fields to account for the diverse nature of their materials.
 
 Although fully standardising field names isn't always practical, the discussion inspired ideas for fostering greater connections between metadata fields, where possible. Participants explored the potential of forming a metadata working group to continue these conversations, aiming to better align their collection descriptions through enhanced metadata practices.
 
-<br>
+ 
 
 ## Wrapping up with collaborative discussions
 
@@ -94,7 +94,7 @@ Organisations, depending on their size and complexity, rely on a variety of digi
 
 Digital tools and platforms that users are already familiar with — such as smartphones, Facebook and YouTube — are often used and can be effective for sharing materials. Empowering communities to shape and guide processes of working with language materials ensures resources remain accessible and widely used. However, this approach requires careful consideration, as the evolving nature of these platforms and their procedures can affect the security and long-term availability of shared materials.
 
-<br>
+ 
 
 ## Building Connections for the Future
 
@@ -104,4 +104,4 @@ A heartfelt thank you to [Charles Darwin University Library](https://www.cdu.edu
 
 We look forward to the progress and partnerships that will grow from this incredible gathering!
 
-<br>
+ 

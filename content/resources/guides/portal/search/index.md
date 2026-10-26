@@ -10,12 +10,12 @@ layout: doc
 
 <br>
 
-> This user guide uses 'portal' to refer to the interface across all of the available <GlossaryLink display="Oni" id="oni" /> portals (see [Available Portals](/working-with-data/find-access/#available-portals) for more details).
+> This user guide uses 'portal' to refer to the interface across all of the available <GlossaryLink display="Oni" id="oni" /> portals (see [Available portals](/working-with-data/find-access/#available-portals) for more details).
 
 <br>
 
-- [Basic Search](#basic-search)
-- [Advanced Search](#advanced-search) ([Search Fields](#search-fields), [Boolean Operators](#boolean-operators), [Query String Syntax](#query-string-syntax), [Regular Expressions](#regular-expressions), [Reserved Characters](#reserved-characters), [Show Query](#show-query))
+- [Basic search](#basic-search)
+- [Advanced search](#advanced-search) ([Search fields](#search-fields), [Boolean operators](#boolean-operators), [Query string syntax](#query-string-syntax), [Regular expressions](#regular-expressions), [Reserved characters](#reserved-characters), [Show query](#show-query))
 
 <br>
 
@@ -23,7 +23,7 @@ The portal has both basic and advanced search capabilities. Search allows you to
 
 <br>
 
-## Basic Search
+## Basic search
 
 <br>
 
@@ -32,19 +32,19 @@ The basic search function can be found in the top left section of the portal hom
 <br>
 
 <figure>
-    <img src="./basic-search.png" Alt="Basic Search" Title="Basic Search" Ref="LDaCA" />
-    <figcaption>Basic Search</figcaption>
+    <img src="./basic-search.png" Alt="Basic search" Title="Basic search" Ref="LDaCA" />
+    <figcaption>Basic search</figcaption>
 </figure>
  
 <br>
 
-Basic Search allows you to search for:
+Basic search allows you to search for:
 - single words
 - multiple words (i.e. two or more) where at least one of these words occur in the result (e.g. "northern territory" will return results where "northern" and "territory" occur in isolation, as well as any instances where "northern" and "territory" occur in the same item)
 - case-insensitivity.
 
 
-Basic Search does not allow you to search for:
+Basic search does not allow you to search for:
 - exact phrases
 - parts of words
 - case-sensitivity.
@@ -53,11 +53,11 @@ Basic Search does not allow you to search for:
 
 Selecting the magnifying glass icon or hitting Enter/Return on a keyboard executes a Basic Search (but note that the Enter/Return option is not available in Advanced Search). By default, results are sorted by relevance and ordered in descending order. Each result will display a _Relevance Score_ based on the relevance of the result to the search query. If at least one of the query words occurs in the text field of an <GlossaryLink display="object" id="object" />, this will be highlighted in yellow; however, highlighting will not occur for matches within <GlossaryLink display="metadata" id="metadata" /> fields such as name and description.
 
-Note that queries in Basic Search will be applied to all fields in the collections (e.g. name, description, text). If you need to refine the search field, or search for multiple words in specific fields, use the Advanced Search function.
+Note that queries in basic search will be applied to all fields in the collections (e.g. name, description, text). If you need to refine the search field, or search for multiple words in specific fields, use the advanced search function.
 
 <br>
 
-## Advanced Search
+## Advanced search
 
 <br>
 
@@ -66,15 +66,15 @@ The advanced search function is accessed by selecting ___Advanced Search___ belo
 <br>
 
 <figure>
-    <img src="./advanced-search.png" Alt="Advanced Search" Title="Advanced Search" Ref="LDaCA" />
-    <figcaption>Advanced Search</figcaption>
+    <img src="./advanced-search.png" Alt="Advanced search" Title="Advanced search" Ref="LDaCA" />
+    <figcaption>Advanced search</figcaption>
 </figure>
 
 <br>
 
-### Search Fields
+### Search fields
 
-By default, queries in Advanced Search are applied to all fields, however, this can be refined using the ___All Fields___ dropdown menu on the left. The current search fields available are _Name_, _Description_, _Language_ and _Text_. To search in more than one field, select ___Add New Line___ and specify the additional field you wish to search.
+By default, queries in advanced search are applied to all fields, however, this can be refined using the ___All Fields___ dropdown menu on the left. The current search fields available are _Name_, _Description_, _Language_ and _Text_. To search in more than one field, select ___Add New Line___ and specify the additional field you wish to search.
 
 To reset your search query, select ___Clear___.
 
@@ -85,9 +85,9 @@ The information entered in the Advanced Search text field is treated as part of 
 
 <br>
 
-### Boolean Operators
+### Boolean operators
 
-The standard Boolean operators `AND`, `OR` and `NOT` are supported in Advanced Search. These can either be added in the dropdown menu between fields when ___Add New Line___ is selected, or included within the search text field, using parentheses around the full query, e.g. `(koala AND kangaroo)`.
+The standard Boolean operators `AND`, `OR` and `NOT` are supported in advanced search. These can either be added in the dropdown menu between fields when ___Add New Line___ is selected, or included within the search text field, using parentheses around the full query, e.g. `(koala AND kangaroo)`.
 
 For instance, to search for items that contain both 'rainbow' and 'lorikeet' or 'pink' and 'cockatoo' but not 'galah', the query should be:
 
@@ -100,7 +100,7 @@ To search for the literal words AND, OR and NOT, add a backward slash (\\) befor
 
 <br>
 
-### Query String Syntax
+### Query string syntax
 
 Symbol | Function
 --- | ---
@@ -112,13 +112,13 @@ Symbol | Function
 
 <br>
 
-### Regular Expressions
+### Regular expressions
 
-Some regular expression patterns can be used within the query string by surrounding the pattern in forward slashes, e.g. `/gr[ae]y/` or `/honou*r/`. Currently, regular expressions can only be used for complete word searches and not for partial words or phrases. This search function does not support full Perl-compatible regex syntax. For more information see: [RegExp Syntax](https://www.elastic.co/guide/en/elasticsearch/reference/current/regexp-syntax.html).
+Some regular expression patterns can be used within the query string by surrounding the pattern in forward slashes, e.g. `/gr[ae]y/` or `/honou*r/`. Currently, regular expressions can only be used for complete word searches and not for partial words or phrases. This search function does not support full Perl-compatible regex syntax. For more information see: [RegExp syntax](https://www.elastic.co/guide/en/elasticsearch/reference/current/regexp-syntax.html).
 
 <br>
 
-### Reserved Characters
+### Reserved characters
 
 The following are reserved characters (i.e. part of the 'mini-language') that can have specific search functions and may need 'escaping' with \ if you want to search for the literal characters.
 
@@ -126,7 +126,7 @@ The following are reserved characters (i.e. part of the 'mini-language') that ca
 
 <br>
 
-### Show Query
+### Show query
 
 If you need to check your search query against what it actually sent to the back-end search engine, select ___Show Query___.
 

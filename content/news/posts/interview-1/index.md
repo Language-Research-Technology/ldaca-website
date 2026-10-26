@@ -14,7 +14,7 @@ image: "/images/Petroglyph_Pattern.svg"
 description: "An interview with some former and current LDaCA Chief Investigators. This post features Martin Schweinberger (University of Queensland), Nick Thieberger (University of Melbourne) and former Chief Investigator Louisa Willoughby (Monash University)."
 ---
 
-<br>
+ 
 
 The Australian Text Analytics Platform ([ATAP](https://www.atap.edu.au)) and the Language Data Commons of Australia (LDaCA) are collaborative projects led by the University of Queensland and supported by the [Australian Research Data Commons](https://www.ardc.edu.au) to develop infrastructure for researchers who work with language data. In this blog post series, we feature interviews with the Chief Investigators of the two projects. In each post, we present their answers to three questions:
 
@@ -24,7 +24,7 @@ The Australian Text Analytics Platform ([ATAP](https://www.atap.edu.au)) and the
 
 This blog post features [Louisa Willoughby](https://research.monash.edu/en/persons/louisa-willoughby) (LW), [Martin Schweinberger](https://languages-cultures.uq.edu.au/profile/4295/martin-schweinberger) (MS) and [Nick Thieberger](https://findanexpert.unimelb.edu.au/profile/18278-nick-thieberger) (NT). The interview was undertaken via email, and we are grateful to Kelvin Lee from the [Sydney Corpus Lab](https://sydneycorpuslab.com/) for his assistance in undertaking the interviews and creating these blog posts.
 
-<br>
+ 
 
 ## What is your role in these projects?
 
@@ -34,7 +34,7 @@ This blog post features [Louisa Willoughby](https://research.monash.edu/en/perso
 
 **NT**: I am in charge of work packages 1.1 and 1.2, Indigenous languages of Australia and the Pacific. I worked at <GlossaryLink display="AIATSIS" id="aiatsis" /> in the past and set up an Aboriginal language centre in Port Hedland ([Wangka Maya](https://www.wangkamaya.org.au/home)). I have worked in Vanuatu, and did my PhD research on [Nafsan](https://glottolog.org/resource/languoid/id/sout2856), a language from Efate, sparking an interest in languages of the Pacific. The work of recording speakers of Nafsan also resulted in a <GlossaryLink display="corpus" id="corpus" /> of time-aligned text and media, as well as historical manuscripts that I have been finding in archives around the world. This led me to be concerned that existing records of these languages be made accessible to current speakers and so I helped establish the Pacific and Regional Archive for Digital Sources in Endangered Cultures ([PARADISEC](https://www.paradisec.org.au/)) which has many connections to cultural agencies in the Pacific. I currently lead a project ([Nyingarn](https://nyingarn.net/)) to convert manuscripts in Australian Indigenous languages to text.
 
-<br>
+ 
 
 ## What excites you most about the projects?
 
@@ -44,7 +44,7 @@ This blog post features [Louisa Willoughby](https://research.monash.edu/en/perso
 
 **NT**: Making textual material in these languages available so that speakers can find records in their own languages. Often there is very little available information for these languages, so every record becomes all the more important, especially in the context of colonial dispossession where the languages are no longer spoken everyday and there are efforts to relearn the language. It is exciting that this work can become part of a national commons, and be supported into the future, so that more and more material can be included. The simple task of locating a language record, digitising it, and making the files available with appropriate licenses means that it can be used by speakers, and by researchers for various new purposes.
 
-<br>
+ 
 
 ## What advice would you give someone who wants to get started with text analytics, corpus linguistics, or language data collection?
 
@@ -56,10 +56,10 @@ This blog post features [Louisa Willoughby](https://research.monash.edu/en/perso
 
 (Further information to supplement these suggestions is available from our [Resources](/resources/) page and from the <GlossaryLink display="ATAP" id="atap" /> pages introducing [Text Analysis](https://www.atap.edu.au/text-analysis/overview/))
 
-<br>
+ 
 
 ### Acknowledgments
 
 The Australian Text Analytics Platform program (https://doi.org/10.47486/PL074) and the <GlossaryLink display="HASS" id="hass" /> Research Data Commons and Indigenous Research Capability Program (https://doi.org/10.47486/HIR001) received investment from the Australian Research Data Commons ([ARDC](https://www.ardc.edu.au)). The <GlossaryLink display="ARDC" id="ardc" /> is funded by the National Collaborative Research Infrastructure Strategy ([NCRIS](https://www.education.gov.au/ncris)).
 
-<br>
+ 

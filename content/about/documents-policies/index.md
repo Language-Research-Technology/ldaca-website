@@ -26,7 +26,7 @@ title: "Documents & policies"
           link: 'https://zenodo.org/records/11135962',
         },
         {
-          title: 'Protocols for Implementing Long-term Archival Repositories Services (PILARS)',
+          title: 'Protocols for implementing long-term archival repositories services (PILARS)',
           description: 'Sets out protocols for the design and implementation of sustainable archival repository services to achieve CAREful FAIRness.',
           image: '/about/documents-policies/PILARS.png',
           link: 'https://pilars-protocols.github.io/pilars/'
@@ -98,7 +98,7 @@ title: "Documents & policies"
   :items="[
               {
           title: 'LDaCA phase 2 project plan',
-          description: 'LDaCA’s project plan for 2024 – 2028, including our aims, strategy and work plan',
+          description: 'LDaCA’s project plan for 2024–2028, including our aims, strategy and work plan',
           image: '/about/documents-policies/Phase2ProjectPlan.png',
           link: 'https://ardc.edu.au/wp-content/uploads/2024/08/ldaca-final-project-plan_2024-2028_v7.1_redacted.pdf',
         },

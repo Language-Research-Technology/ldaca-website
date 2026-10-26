@@ -13,7 +13,7 @@ image: "/images/Petroglyph_Pattern.svg"
 description: "The data which is being made accessible through LDaCA will contribute to the task of documenting language use and language behaviour in Australia. But what kinds of data does this include? Find out more in this post."
 ---
 
-<br>
+ 
 
 The data which is being made accessible through the Language Data Commons of Australia will contribute to the task of documenting language use and language behaviour in Australia. But what does this include? We are aware of many data sources and, in the short term, the important questions are about priorities:
 
@@ -57,7 +57,7 @@ Even the question of what should be considered 'Australian language data' does n
 
 _This post is based on presentations given to the LaTrobe University Linguistics Program (27 May 2021) and to the Monash University Linguistics Program (10 May 2022). I am grateful for helpful comments from both those audiences, and for comments on the draft of this post from Leah Gustafson, Sara King and Harriet Sheppard._
 
-<br>
+ 
 
 **References**:
 
@@ -68,4 +68,4 @@ Noone, V. (2012). <i>Hidden Ireland in Victoria</i>. Ballarat: Ballarat Heritage
 O’Farrell, Patrick (1988) <i>The Irish in Australia</i>. Kensington, N.S.W.: New South Wales University Press.</div>
 
 
-<br>
+ 

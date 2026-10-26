@@ -8,11 +8,11 @@ layout: post
 author: '<Profile id = "weaver" />'
 ---
 
-<br>
+ 
 
 We have learned from conversations with data stewards over the last two years that some are new to the practice of using persistent identifiers (<GlossaryLink display="PIDs" id="pid"/>) for <GlossaryLink display="data collections" id="data-collection"/>. This blog post will hopefully offer some guidance by briefly providing some background information and addressing the common questions we receive about PIDs and Digital Object Identifiers (<GlossaryLink display="DOIs" id="doi"/>).
 
-<br>
+ 
 
 ## A brief overview of persistent identifiers
 
@@ -38,13 +38,13 @@ Below are a few examples of PIDs within digital scholarly ecosystems:
 - [The Handle System](https://www.dona.net/handle-system) — A proprietary registry of the Corporation for National Research Initiative ([CNRI](https://www.cnri.reston.va.us/)) that assigns PIDs (“handles”) to information resources in distributed computer systems. It has a central registry to resolve URLs to the current location of the resource. It is the underlying infrastructure for handle-based systems like DOI and [DSpace](https://dspace.lyrasis.org/).
 - [ARK](https://arks.org/) (Archival Resource Key) — A decentralised PID scheme where any organisation that registers for a Name Assigning Authority Number (NAAN) can use their own metadata standard or conventions, resolver system and other ARK features, as well as develop and adhere to their own PID practice policies. ARKs are used by libraries, museums and government agencies worldwide.
 
-<br>
+ 
 
 ## Digital Object Identifiers
 
 Contributors who allow <GlossaryLink display="LDaCA" id="ldaca" /> to make their <GlossaryLink display="data collections" id="data-collection" /> available through the portal can use the <GlossaryLink display="PIDs" id="pid" /> they have if they already follow a specific PID practice. However, if it is their first time obtaining a PID, we recommend <GlossaryLink display="DOIs" id="doi" /> as they are likely obtainable through a university library or institutional research repository. This has been the pattern with <GlossaryLink display="collections" id="collection" /> in the LDaCA portal to date. DOIs are also available through general-purpose repositories like [Zenodo](https://zenodo.org/).
 
-<br>
+ 
 
 ### What is a DOI?
 
@@ -56,44 +56,44 @@ Here’s an example of a DOI for a <GlossaryLink display="collection" id="collec
 
 1. In the partial screenshot below of the record for the collection, the DOI number (10.26181/23089559) is part of the collection’s @id. The full @id value is arcp://name,doi10.26181%2F23089559 and the last part of this is the DOI (the slash which separates parts of the DOI is represented by the encoding %2F here).
 
-<br>
+ 
 
 <figure>
   <img src="./PIDs_Fig_1_collection_record.png" alt="LDaCA Portal Collection Record" title="LDaCA Portal Collection Record" />
   <figcaption>Figure 1: The collection record for the La Trobe Corpus of Spoken Australian English in the LDaCA data portal. (Image: LDaCA)</figcaption>
 </figure>
 
-<br>
+ 
 
 2. The DOI resolves to an item in La Trobe University’s institutional repository. The content of the collection is available here, but there are also links to the record in the LDaCA portal which includes the DOI.
 
-<br>
+ 
 
 <figure>
   <img src="./PIDs_Fig_2_.png" alt="Top of Repository Page" title="Top of Repository Page" />
   <figcaption>Figure 2: Top part of page in La Trobe University's repository showing files in collection. (Image: LDaCA)</figcaption>
 </figure>
 
-<br>
-<br>
+ 
+ 
 
 <figure>
   <img src="./PIDs_Fig_3_.png" alt="Bottom of Repository Page" title="Bottom of Repository Page" />
   <figcaption>Figure 3: Bottom part of page in La Trobe University's repository showing collection details. (Image: LDaCA)</figcaption>
 </figure>
 
-<br>
+ 
 
 3. Clicking the **Cite** button on the La Trobe repository page shows the DOI link in its full form:
 
-<br>
+ 
 
 <figure>
   <img src="./PIDs_Fig_4_citation.png" alt="Full DOI link" title="Full DOI link" />
   <figcaption>Figure 4: Full DOI link displayed under citation on repository page. (Image: LDaCA)</figcaption>
 </figure>
 
-<br>
+ 
 
 The DOI link is comprised of three parts:
 
@@ -101,7 +101,7 @@ The DOI link is comprised of three parts:
 | ---------------- | --------------------------- | --------------------- |
 | https://doi.org/ | 10.26181                    | 23089559.v1           |
 
-<br>
+ 
 
 ### Why should my data collection have a DOI?
 
@@ -113,20 +113,20 @@ The DOI system’s underlying infrastructure supports <GlossaryLink display="int
 
 Below is a screenshot of a section of the DOI landing page for the _La Trobe Corpus of Spoken Australian English_ with some of the key information highlighted and annotated. The DOI was issued by DataCite via the La Trobe University Library’s DOI service.
 
-<br>
+ 
 
 <figure>
   <img src="./PIDs_Fig_5_annotated_record.png" alt="Annotated DOI Landing Page" title="Annotated DOI Landing Page" />
   <figcaption>Figure 5: Annotated screenshot of DOI landing page for the La Trobe Corpus of Spoken Australian English with key information highlighted. (Image: LDaCA)</figcaption>
 </figure>
 
-<br>
+ 
 
 ### How do I get a DOI for my data collection?
 
 We have an article about this topic on our website — see [Obtaining a DOI](/resources/guides/working-with-data/obtaining-a-doi/).
 
-<br>
+ 
 
 ### What format(s) should my data files be in before I share them with LDaCA?
 
@@ -139,7 +139,7 @@ We understand that the choice of file formats during data planning and collectio
 
 Bracketed formats are proprietary and therefore less sustainable.
 
-<br>
+ 
 
 ## References
 
@@ -151,7 +151,7 @@ DataCite. 2024. Add a DOI to Your ORCID Record. DataCite Support. https://suppor
 
 Klump, Jens & Robert Huber. 2017. 20 Years of Persistent Identifiers – Which Systems are Here to Stay? _Data Science Journal_ 16. 09. https://doi.org/10.5334/dsj-2017-009.
 
-<br>
+ 
 
 ## Further reading
 
@@ -159,4 +159,4 @@ Car, Nicholas N. J., Pavel Golodoniuc & Jens Klump. 2017. The Challenge of Ensur
 
 Kunze, John & Richard Rodgers. 2008. The ARK Identifier Scheme. UC Office of the President: California Digital Library. https://escholarship.org/uc/item/9p9863nc. (4 July, 2024).
 
-<br>
+ 
