@@ -50,6 +50,10 @@ title: "Events"
   buttonText="Watch recording"
   :items="[
   {
+        title: 'Text analytics without code: Teach AI your codebook (LDaCA Wordflow)',
+        link: '/training-events/events/2026/wordflow-online-workshop',
+    },
+  {
         title: 'The collaborative power of a Research Data Commons: LDaCA case studies',
         link: '/training-events/events/2026/collaborative-power-RDC',
     },
@@ -92,7 +96,7 @@ title: "Events"
         link: '/training-events/events/2026/Society-through-data',
     },
      {
-                    title: 'Text analytics without code: teach AI your codebook (LDaCA Wordflow)',
+                    title: 'Text analytics without code: Teach AI your codebook (LDaCA Wordflow)',
         link: '/training-events/events/2026/wordflow-online-workshop',
     },
                     {
