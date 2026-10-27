@@ -1,6 +1,6 @@
 ---
 title: "Graduate Digital Research Fellowship"
-description: Building digital research skills through hands-on, interdisciplinary projects
+description: Building digital research skills through hands-on, interdisciplinary projects.
 layout: project
 collaborator: "Digital Observatory at QUT\nMelbourne Data Analytics Platform\nRAPID Community Data Lab\nQCIF"
 projectTeam: "Dr Sam Hames\nDr Simon Musgrave"

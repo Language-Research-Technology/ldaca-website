@@ -8,33 +8,33 @@ category: "RESOURCE"
 layout: doc
 ---
 
-<br>
+ 
 
 > This user guide uses 'portal' to refer to the interface across all of the available <GlossaryLink display="Oni" id="oni" /> portals (see [Available portals](/working-with-data/find-access/#available-portals) for more details).
 
-<br>
+ 
 
 Some collections require that you log in either to access, or apply for access, to the data. This can be done by selecting ___Login___ from the top menu bar.
 
-<br>
+ 
 
 <figure>
     <img src="./loginBox.png" Alt="Portal Top Menu Options" Title="Portal Top Menu Options" Ref="LDaCA" />
     <figcaption>Portal top menu options</figcaption>
 </figure>
 
-<br>
+ 
 
 You will be taken to the _LDaCAData_ login page. Select ___Sign in with CILogon___.
 
-<br>
+ 
 
 <figure>
     <img src="./LDaCALogon.png" Alt="LDaCA logon" Title="LDaCA logon" Ref="LDaCA" />
     <figcaption>LDaCA logon</figcaption>
 </figure>
 
-<br>
+ 
 
 You will be taken to the CILogon page which:
 - provides details of the _Consent to Attribute Release_
@@ -46,39 +46,39 @@ Note that the identity provider defaults to ORCID but this can be changed to you
 
 For further details about CILogon and the identity providers it supports, see [CILogon FAQ](https://www.cilogon.org/faq).
 
-<br>
+ 
 
 <figure>
     <img src="./CILogon.png" Alt="CILogon" Title="CILogon" Ref="LDaCA" />
     <figcaption>CILogon</figcaption>
 </figure>
 
-<br>
+ 
 
 First select your preferred identity provider in the dropdown before clicking ___Log On___ (there is also a search bar available to more easily find your selection). If you want the system to remember your selection on subsequent visits, select ___Remember this selection___.
 
-<br>
+ 
 
 <figure>
     <img src="./CILogon_IdentityProvider.png" Alt="CILogon: Select an Identity Provider" Title="CILogon: Select an Identity Provider" Ref="LDaCA" />
     <figcaption>CILogon: Select an identity provider</figcaption>
 </figure>
 
-<br>
+ 
 
 Once your login is successful, you will be redirected back to the portal page and the ___Login___ section of the top menu bar will instead display your account name.
 
-<br>
+ 
 
 <figure>
     <img src="./Login-AcctName-DropDown.png" Alt="Portal: Logged In View" Title="Portal: Logged In View" Ref="LDaCA" />
     <figcaption>Portal: Logged in view</figcaption>
 </figure>
 
-<br>
+ 
 
 Hovering your cursor on the arrow next to your account name will trigger a dropdown menu with the following two options:
 - ___User Information___: View your user details and memberships to collections that have more specific <GlossaryLink display="access conditions" id="access-conditions" />.
 - ___Logout___: Select to log out of your account.
 
-<br>
+ 

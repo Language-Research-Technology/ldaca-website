@@ -10,7 +10,7 @@ layout: doc
 image: "/images/Petroglyph_Pattern.svg"
 ---
 
-<br>
+ 
 
 - [Template](#template)
 - [Metadata Schemas](#metadata-schemas)
@@ -18,13 +18,13 @@ image: "/images/Petroglyph_Pattern.svg"
 - [Column Breakdown](#column-breakdown) ([RootDataset](#rootdataset), [@context](#context), [Custom Terms](#custom-terms), [Authors](#authors), [Publishers](#publishers), [Licenses](#licenses), [Provenance](#provenance), [People](#people), [Places](#places), [Localities](#localities), [Objects](#objects), [Files](#files), [Schemas](#schemas), [Columns](#columns))
 - [Convert Spreadsheet to an RO-Crate with Crate-O](#convert-spreadsheet-to-an-ro-crate-with-crate-o)
 
-<br>
+ 
 
 ## Template
 
 For <GlossaryLink display="collections" id="collection" /> where there are a lot of interconnected <GlossaryLink display="objects" id="object" /> and files, it may be easier or preferable to add the <GlossaryLink display="metadata" id="metadata" /> for these via converting a spreadsheet to an <GlossaryLink display="RO-Crate" id="ro-crate" /> in <GlossaryLink display="Crate-O" id="crate-o" />, rather than adding these items manually. An RO-Crate metadata spreadsheet template can be downloaded below and populated with metadata specific to your collection:
 
-<br>
+ 
 
 <div>
   <a
@@ -37,7 +37,7 @@ For <GlossaryLink display="collections" id="collection" /> where there are a lot
   </a>
 </div>
 
-<br>
+ 
 
 > This template can be edited in [Microsoft Excel](https://www.microsoft.com/en-au/microsoft-365/excel), [LibreOffice Calc](https://www.libreoffice.org/discover/calc/) or [Google Sheets](https://google.com/sheets). It is not compatible with Apple Numbers.
 
@@ -49,7 +49,7 @@ The template is based on an example <GlossaryLink display="data collection" id="
 
 > Spreadsheet conversion currently only has functionality to add new data, and cannot overwrite or edit existing data in your RO-Crate.
 
-<br>
+ 
 
 ## Metadata Schemas
 
@@ -60,7 +60,7 @@ The spreadsheet uses a number of standard vocabularies for terms. Namespaces suc
 
 In <GlossaryLink display="Crate-O" id="crate-o" />, these prefixes are hidden for legibility.
 
-<br>
+ 
 
 If your collection requires metadata terms that are not present in the template, check if an existing term fits from the schemas below.
 
@@ -72,13 +72,13 @@ If you have terms specific to your collection that aren't covered by the above s
 
 > If using a Defined Term (such as those in [Language Data Commons Schema Terms](https://w3id.org/ldac/terms#definedterms) or [Custom Terms](#custom-terms)), add `isTerm_` to the related property in the column header, e.g. a column header `isTerm_ldac:communicationMode` with the value `ldac:SpokenLanguage`.
 
-<br>
+ 
 
 ## Tab Breakdown
 
 The spreadsheet has the below tabs by default, but depending on your <GlossaryLink display="collection" id="collection" />, you may need to add additional tabs, or others may not be applicable.
 
-<br>
+ 
 
 | Tab          | Description                                                                                                                                                                                                                  |
 | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -99,7 +99,7 @@ The spreadsheet has the below tabs by default, but depending on your <GlossaryLi
 
 > ELAN (.eaf) files can have relative or absolute paths to the data they relate to. The ELAN preferences file is generally not needed for the collection and relates to the particular ELAN user only.
 
-<br>
+ 
 
 ### Examples in the Template
 
@@ -114,19 +114,19 @@ Below the header, at least one example row is included to illustrate how the sec
 The columns provided in the template tabs are illustrative only and may not all apply to your collection; please edit these as needed.
 Where a column header begins with a full stop `.`, this indicates that the column will be ignored when the data is loaded into Crate-O and will not appear in the <GlossaryLink display="RO-Crate" id="ro-crate" />. This can be helpful if you want to retain other information in your spreadsheet that may not be in a format applicable to the RO-Crate.
 
-<br>
+ 
 
 At a minimum, it’s best practice to include `@id` and `@type` columns in each of your spreadsheet tabs, as these appear in Crate-O for each of the entities. The tables in the next sections provide further detail on what constitutes a valid `@id` and `@type` in each tab.
 
 > HINT: To type a column name beginning with `@` in Excel, put an apostrophe before it `'@`. This will force it to be recognised as a text value rather than a formula.
 
-<br>
+ 
 
 ## Column Breakdown
 
 The section below describes each of the columns included in the template, ordered by tab. Please note that the columns provided in the template tabs are illustrative only and should be edited according to the requirements of your <GlossaryLink display="collection" id="collection" />.
 
-<br>
+ 
 
 ### RootDataset
 
@@ -149,7 +149,7 @@ The root dataset tab provides information about the top level of the <GlossaryLi
 
 > The prefix `isRef_` indicates that data in this column should be taken from another `@id` field in the spreadsheet. For example, `isRef_author` uses the `@id` from the Author tab to link all the author details to the RootDataset tab.
 
-<br>
+ 
 
 ### @context
 
@@ -160,7 +160,7 @@ The context specifies the vocabulary or schema that is intended to be used with 
 | name   | Pre-filled | The namespace of the required vocabulary or schema. The template is pre-filled with the `ldac` schema, which is required for this template. It is also pre-filled with `csvw` for [Schemas](#schemas) and [Columns](#columns), and `custom` for [Custom Terms](#custom-terms). |
 | @id    | Pre-filled | Persistent, managed unique ID in URL format of the vocabulary or schema.                                                                                                                                                                                                       |
 
-<br>
+ 
 
 ### Custom Terms
 
@@ -198,7 +198,7 @@ Once you've listed your custom terms, these can be used throughout the spreadshe
 
 > Defined Term Sets are only required in the Custom Terms tab to group a set of Defined Terms and don't need to be used elsewhere in the spreadsheet.
 
-<br>
+ 
 
 ### Authors
 
@@ -210,7 +210,7 @@ An author is a person or organisation responsible for creating the <GlossaryLink
 | @type  | Data entry | The type of the author. Select either `Person` or `Organization`.                                                                                                      |
 | name   | Data entry | The name of the author. Don't include titles such as Dr/Prof.                                                                                                          |
 
-<br>
+ 
 
 ### Publishers
 
@@ -222,7 +222,7 @@ A publisher is an organisation responsible for releasing the <GlossaryLink displ
 | @type  | Pre-filled | The type of the publisher. Only `Organization` is valid.                                             |
 | name   | Data entry | The name of the organisation.                                                                        |
 
-<br>
+ 
 
 ### Licenses
 
@@ -242,7 +242,7 @@ It is possible to leave the <GlossaryLink display="licensing" id="licensing" /> 
 
 > If there are any additional usage restrictions or options for use outside of a given license, this information can be included in a `usageInfo` field, e.g. "For any use not permitted by the CC-BY-ND 4.0 License, please contact the Data Steward".
 
-<br>
+ 
 
 ### Provenance
 
@@ -259,7 +259,7 @@ The provenance for a <GlossaryLink display="collection" id="collection" /> detai
 | instrument   | Data entry | The tool or software app used to create the output file. If a more complete description of the software is required, change the header from `instrument` to `isRef_instrument` instead. |
 | isRef_agent  | Data entry | The direct performer or driver of the action, for example, an ROR for an organisation or an ORCID, personal home page URL or email address for a person.                                |
 
-<br>
+ 
 
 ### People
 
@@ -274,7 +274,7 @@ This tab contains information about the people within the <GlossaryLink display=
 | birthDate                   | Data entry | The birth date (year) of the person. An example of an optional metadata field from the source data, using a [Schema.org](https://schema.org/) term.                                                                                                                                                                                   |
 | isRef_prov:specializationOf | Data entry | A reference to another Person entity, used for collections where a person appears more than once with different demographic info (e.g. a different age). In these collections, there should be a ‘canonical’ person for each participant and another Person entity each time they participate, with different ages or other statuses. |
 
-<br>
+ 
 
 ### Places
 
@@ -288,7 +288,7 @@ This tab contains information about the places within the <GlossaryLink display=
 | description | Data entry | A description of the place, including its alternative names.                                   |
 | isRef_geo   | Data entry | The `@id` of the location to which this object relates from the [Localities](#localities) tab. |
 
-<br>
+ 
 
 ### Localities
 
@@ -302,7 +302,7 @@ This tab contains information about the geometric locations within the <Glossary
 | .longitude | Data entry | The longitude of the location in decimal degree format.                                                                                                              |
 | asWKT      | Pre-filled | The WKT serialisation of the geometry, generated from the `.latitude` and `.longitude` columns. Note that `asWKT` format lists longitude first followed by latitude. |
 
-<br>
+ 
 
 ### Objects
 
@@ -325,7 +325,7 @@ An <GlossaryLink display="object" id="object" /> is a single resource or a group
 | ldac:subjectLanguage     | Data entry | The languages that the materials in the collection are about (not the language that it is in). For example, a work about the Italian language as used in Australia (`ldac:subjectLanguage`) that is written in English (`inLanguage`).                                                                                                                                                                       |
 | isRef_custom:textType    | Data entry | The `@id` of the term to which this object relates from the [Custom Terms](#custom-terms) tab. An example of an optional custom term from the source data.                                                                                                                                                                                                                                                   |
 
-<br>
+ 
 
 ### Files
 
@@ -343,7 +343,7 @@ A file is a container for data and can store data in different formats. A single
 | isRef_ldac:annotationOf     | Data entry | The full filename of the primary material that the given file is an annotation of. Leave this blank if the file is the primary material.                                                                                                                                                                                                                                                                                                                                                                              |
 | isRef_csvw:tableSchema      | Data entry | If the file is a tabular CSV and you have a schema of the columns used, add the schema ID here, otherwise leave this field blank. See [Schemas](#schemas) and [Columns](#columns) for more detail.                                                                                                                                                                                                                                                                                                                    |
 
-<br>
+ 
 
 ### Schemas
 
@@ -356,7 +356,7 @@ If you have tabular CSV files in your collection, a schema allows you to define 
 | name             | Data entry | The name of the schema.                                                      |
 | isRef_conformsTo | Data entry | A standard that the schema follows. Only `tabulatorMapping` is valid.        |
 
-<br>
+ 
 
 ### Columns
 
@@ -371,10 +371,10 @@ If you have tabular CSV files in your collection with multiple columns, this tab
 | csvw:propertyUrl       | Data entry | If any of the columns map directly to another schema term, use this field to provide the unique identifier of that term, otherwise leave this field blank. |
 | isReverse_csvw:columns | Data entry | The `@id` of the schema to which this column relates from the [Schemas](#schemas) tab.                                                                     |
 
-<br>
+ 
 
 ## Convert Spreadsheet to an RO-Crate with Crate-O
 
 For steps on adding your spreadsheet data to an <GlossaryLink display="RO-Crate" id="ro-crate" /> using <GlossaryLink display="Crate-O" id="crate-o" />, see [Append Metadata from Spreadsheet](/resources/guides/crate-o/ro-crate-creation/#append-metadata-from-spreadsheet).
 
-<br>
+ 
