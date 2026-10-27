@@ -8,7 +8,7 @@ category: "RESOURCE"
 layout: doc
 ---
 
-<br />
+ 
 
 - [Purpose](#purpose)
 - [1. Access Conditions](#1.-access-conditions)
@@ -18,7 +18,7 @@ layout: doc
 - [3. Metadata](#3.-metadata)
 - [4. Appendix: Determining Copyright](#4.-appendix-determining-copyright)
 
-<br />
+ 
 
 ## Purpose
 
@@ -26,13 +26,13 @@ layout: doc
 
 This document provides guidance on some components of <GlossaryLink display="data governance" id="data-governance" /> that are key to a <GlossaryLink display="data management plan" id="data-management-plan" />, including <GlossaryLink display="access conditions" id="access-conditions" />, <GlossaryLink display="licensing" id="licensing" />, persistent identifiers and <GlossaryLink display="metadata" id="metadata" />. The principles below are those employed by <GlossaryLink display="LDaCA" id="ldaca" />, but they are widely applicable and represent best practice for <GlossaryLink display="data governance" id="data-governance" />, in accordance with the <GlossaryLink display="FAIR" id="fair" /> and <GlossaryLink display="CARE" id="care" /> principles.
 
-<br />
+ 
 
-> <img src="./thought-bubble.png" alt="Thought bubble" style="float: left; width: 6rem; margin: 0.05rem 0.55rem 0.15rem 0;" /> **Questions for reflection:**<br />
+> <img src="./thought-bubble.png" alt="Thought bubble" style="float: left; width: 6rem; margin: 0.05rem 0.55rem 0.15rem 0;" /> **Questions for reflection:** 
 > In each section, you will find a thought bubble marking some questions for reflection that will help you start to explore these <GlossaryLink display="data governance" id="data-governance" /> topics. This content is designed as guidance for <GlossaryLink display="Data Stewards" id="data-steward" /> considering how to manage their data into the future.
 > <span style="display: block; clear: both;"></span>
 
-<br />
+ 
 
 ## 1. Access Conditions
 
@@ -43,11 +43,11 @@ To determine <GlossaryLink display="access conditions" id="access-conditions" />
 1. understand the legal, moral and ethical constraints to sharing data, and
 2. prepare a license outlining <GlossaryLink display="access conditions" id="access-conditions" />.
 
-<br />
+ 
 
 ### 1.1 Legal, moral and ethical constraints
 
-<br />
+ 
 
 #### Legal constraints
 
@@ -60,13 +60,13 @@ In Australia, as in many other countries, research data is recognised as <Glossa
 - **Economic rights**: The owner has the exclusive right to reproduce, publish, perform, communicate, and adapt or modify their work, for both commercial and non-commercial purposes. This right can be transferred or shared with others via assignment or <GlossaryLink display="licensing" id="licensing" />.
 - **Moral rights**: The work must be correctly attributed and not treated in a derogatory manner. This protects the integrity of the work. Moral rights cannot be transferred or shared.
 
-<br />
+ 
 
-> <img src="./thought-bubble.png" alt="Thought bubble" style="float: left; width: 6rem; margin: 0.05rem 0.55rem 0.15rem 0;" /> **Questions for reflection:**<br />
+> <img src="./thought-bubble.png" alt="Thought bubble" style="float: left; width: 6rem; margin: 0.05rem 0.55rem 0.15rem 0;" /> **Questions for reflection:** 
 > How can I identify the <GlossaryLink display="copyright owner" id="copyright-owner" /> of a language <GlossaryLink display="collection" id="collection" />?
 > <span style="display: block; clear: both;"></span>
 
-<br />
+ 
 
 Unlike trademarks and patents, <GlossaryLink display="copyright" id="copyright" /> doesn’t require registration and there are no official records that can be searched to identify a <GlossaryLink display="copyright owner" id="copyright-owner" /> in Australia. Additionally, the creator of material is not necessarily the <GlossaryLink display="copyright owner" id="copyright-owner" /> and <GlossaryLink display="copyright" id="copyright" /> may also be jointly owned.
 
@@ -74,29 +74,29 @@ Copyright ownership is determined according to a set of complex rules set out in
 
 The <GlossaryLink display="copyright owner" id="copyright-owner" /> of a language collection can be identified by considering the following questions:
 
-<br />
+ 
 
 | Question                                                                                                                                                                                                                    | Further Information                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Does the collection comprise materials all collected under the same conditions? (e.g. as part of the same research project)<ul><li>Yes</li><li>No</li></ul>                                                                 | If the collection includes material from a third party, the <GlossaryLink display="copyright owner" id="copyright-owner" /> and <GlossaryLink display="copyright" id="copyright" /> status should be identified for each subset of the collection.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | Has the <GlossaryLink display="copyright owner" id="copyright-owner" /> been determined by a contract, formal agreement, or other relevant document?<ul><li>Yes</li><li>No </li></ul>                                       | In some cases, existing contracts or agreements will assign copyright ownership in advance. This will take precedence over the rules set out in the Copyright Act.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| What type of material is included in the collection?<ul><li>Textual work</li><li>Musical work</li><li>Dramatic work</li><li>Computer program</li><li>Artistic work</li><li>Film or video</li><li>Sound recordings</li></ul> | Generally, the author of a textual work, musical work, dramatic work, computer program or artistic work (i.e. the person who created the work) is the first owner of copyright.<br />However, the general rules for films, videos and sound recordings are different.<ul><li>For sound recordings, <GlossaryLink display="copyright" id="copyright" /> is owned by the ‘maker’ of the sound recording, typically the person or company who owns the recording equipment.</li><li>For film and video, <GlossaryLink display="copyright" id="copyright" /> is owned by the person or company which made the arrangements for the creation of the work.</li></ul>In the academic context, this is typically the university where the research was conducted. |
+| What type of material is included in the collection?<ul><li>Textual work</li><li>Musical work</li><li>Dramatic work</li><li>Computer program</li><li>Artistic work</li><li>Film or video</li><li>Sound recordings</li></ul> | Generally, the author of a textual work, musical work, dramatic work, computer program or artistic work (i.e. the person who created the work) is the first owner of copyright. However, the general rules for films, videos and sound recordings are different.<ul><li>For sound recordings, <GlossaryLink display="copyright" id="copyright" /> is owned by the ‘maker’ of the sound recording, typically the person or company who owns the recording equipment.</li><li>For film and video, <GlossaryLink display="copyright" id="copyright" /> is owned by the person or company which made the arrangements for the creation of the work.</li></ul>In the academic context, this is typically the university where the research was conducted. |
 | Was the material created by an employee in the course of their employment?<ul><li>Yes</li><li>No </li></ul>                                                                                                                 | When the work was created by an employee as part of their usual work duties, the employer is the <GlossaryLink display="copyright owner" id="copyright-owner" /> (unless there is a specific employment agreement that specifies otherwise).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | Is the work a performance?<ul><li>Yes</li><li>No </li></ul>                                                                                                                                                                 | Performers’ rights apply to live performances including dramatic works, musical works, dances, circus acts, expressions of folklore, readings, and recitations of existing or improved literary works recorded or filmed with or without an audience. Permission must be sought to record the live performance, and to broadcast and distribute recordings.<br/>As of 1 January 2005, performers co-own <GlossaryLink display="copyright" id="copyright" /> in sound recordings of their performances. There are exceptions for commissioned recordings, or those made by an employee.                                                                                                                                                                    |
 
-<br />
+ 
 
-> <img src="./thought-bubble.png" alt="Thought bubble" style="float: left; width: 6rem; margin: 0.05rem 0.55rem 0.15rem 0;" /> **Questions for reflection:**<br />
+> <img src="./thought-bubble.png" alt="Thought bubble" style="float: left; width: 6rem; margin: 0.05rem 0.55rem 0.15rem 0;" /> **Questions for reflection:** 
 > Does <GlossaryLink display="copyright" id="copyright" /> apply to this language collection?
 > <span style="display: block; clear: both;"></span>
 
-<br />
+ 
 
 In Australia, <GlossaryLink display="copyright" id="copyright" /> generally lasts for the life of the author/creator plus 70 years at which point the work becomes part of the public domain. However, it is important to review <GlossaryLink display="copyright" id="copyright" /> on a case-by-case basis given that the rules vary, and amendments have been made to law over time.
 
 To understand how <GlossaryLink display="copyright" id="copyright" /> might apply to a collection, the <GlossaryLink display="Data Steward" id="data-steward" /> should consider the following questions:
 
-<br />
+ 
 
 | Question                                                                                                                                                                                                                      | Further Information                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -105,13 +105,13 @@ To understand how <GlossaryLink display="copyright" id="copyright" /> might appl
 | When was the material first made public?<ul><li>Year:</li><li>Never made public </li></ul>                                                                                                                                    | "Made public" means communicated, published, performed in public or sold to the public. The timing of the publication of the materials is key to the duration of <GlossaryLink display="copyright" id="copyright" /> for sound recordings or films, as the laws have changed (see [Appendix](#4-appendix-determining-copyright)).                                                                                                                                                                                                                                                                                                            |
 | Where was the material made?                                                                                                                                                                                                  | Australian <GlossaryLink display="copyright" id="copyright" /> law applies to any use or sharing of material within Australia, even if the <GlossaryLink display="copyright owner" id="copyright-owner" /> is from outside of Australia.                                                                                                                                                                                                                                                                                                                                                                                                     |
 
-<br />
+ 
 
 Once this information has been confirmed, calculate the duration of <GlossaryLink display="copyright" id="copyright" /> using the Appendix. If <GlossaryLink display="copyright" id="copyright" /> applies, the <GlossaryLink display="copyright owner" id="copyright-owner" /> may consider sharing some of their rights with others via <GlossaryLink display="licensing" id="licensing" />. If <GlossaryLink display="copyright" id="copyright" /> has expired, the material is in the public domain and the <GlossaryLink display="copyright owner" id="copyright-owner" /> cannot restrict access using <GlossaryLink display="licensing" id="licensing" />.
 
-<br />
+ 
 
-**Find out more about copyright, intellectual property and licensing:**<br />
+**Find out more about copyright, intellectual property and licensing:** 
 
 - [What is Intellectual Property?](https://www.wipo.int/edocs/pubdocs/en/wipo_pub_450_2020.pdf) (World Intellectual Property Organisation)
 - Fact sheets (Arts Law Centre of Australia):
@@ -125,7 +125,7 @@ Once this information has been confirmed, calculate the duration of <GlossaryLin
 - [Fact sheet: Intellectual Property – Basics](https://staff.uq.edu.au/files/33574/legal-services-fact-sheet-ip-basics.pdf) (The University of Queensland)
 - [What are the Creative Commons licenses?](https://creativecommons.org.au/learn/fact-sheets/what-are-the-cc-licences/) (Creative Commons Australia)
 
-<br />
+ 
 
 #### Ethical and moral constraints for data access
 
@@ -143,7 +143,7 @@ Research carried out in Australian universities and similar institutions using p
 
 While ethical constraints are often binding, several international frameworks have been developed to further promote data reusability and to address key issues such as Indigenous rights and interests. The <GlossaryLink display="FAIR" id="fair" /> and <GlossaryLink display="CARE" id="care" /> principles are widely accepted standards (see [LDaCA principles](/about/principles/) for more information).
 
-<br />
+ 
 
 ##### FAIR principles
 
@@ -156,7 +156,7 @@ In brief, the four principles are:
 3. Interoperability: Data can be integrated with other data and applications, through standard data formats and compatible metadata vocabularies.
 4. Reusability: Data and metadata are well-described with clear information on <GlossaryLink display="provenance" id="provenance" /> and data <GlossaryLink display="access conditions" id="access-conditions" /> in order to optimise future reuse.
 
-<br />
+ 
 
 ##### CARE principles
 
@@ -169,22 +169,22 @@ In brief, the four principles are:
 3. Responsibility: Those working with Indigenous data have a responsibility to nurture respectful relationships with the communities from which the data originates.
 4. Ethics: <GlossaryLink display="Data governance" id="data-governance" /> prioritises the rights and wellbeing of Indigenous Peoples and minimises harm.
 
-<br />
+ 
 
-> <img src="./thought-bubble.png" alt="Thought bubble" style="float: left; width: 6rem; margin: 0.05rem 0.55rem 0.15rem 0;" /> **Questions for reflection:**<br />
+> <img src="./thought-bubble.png" alt="Thought bubble" style="float: left; width: 6rem; margin: 0.05rem 0.55rem 0.15rem 0;" /> **Questions for reflection:** 
 > What ethical and moral questions need to be considered before sharing this collection?
 > <span style="display: block; clear: both;"></span>
 
-<br />
+ 
 
 | Question                                                                                                                                                    | Further Information                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Does the research ethics proposal (or other relevant documents such as a grant agreement) include data sharing constraints?<ul><li>Yes</li><li>No</li></ul> | What are the conditions for data management and sharing?<br />List the additional constraints which data access must adhere to as they appear in the project/collection documentation.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Does the research ethics proposal (or other relevant documents such as a grant agreement) include data sharing constraints?<ul><li>Yes</li><li>No</li></ul> | What are the conditions for data management and sharing? List the additional constraints which data access must adhere to as they appear in the project/collection documentation.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | How is participant consent considered in the governance decisions?                                                                                          | Consider the following questions.<ul><li>Was informed participant consent documented during <GlossaryLink display="data collection" id="data-collection" />?</li><li>Are there specific constraints for sharing data? In what format? With which audience?</li><li>Is there a risk of harm, discomfort or inconvenience to the participants by making the data available? (e.g. will public access to the data run the risk of amplifying existing negative stereotypes about the participant or the social group(s) they are identified with, will their personal information be easily deduced/tracked in any way, etc.)</li><li>What is the protocol for de-identification and the expectations of the participants? Have these been met?</li></ul>                                                               |
 | Are the <GlossaryLink display="FAIR" id="fair" /> principles being upheld?<ul><li>Yes</li><li>No</li></ul>                                                  | Consider some more specific questions:<ul><li>Does the collection have a persistent identifier?</li><li>Are <GlossaryLink display="access conditions" id="access-conditions" /> clearly defined?</li><li>Are the data formats widely compatible?</li><li>Is the metadata detailed and well-described?</li><li>Is the metadata searchable?</li><li>Does the metadata use a common metadata schema/vocabulary?</li><li>How has the collection been used previously?</li><li>Is there a record of publications and research findings that have used the collection?</li></ul>                                                                                                                                                                                                                                           |
 | Have the <GlossaryLink display="CARE" id="care" /> principles been considered and implemented?<ul><li>Yes</li><li>No</li></ul>                              | Consider some more specific questions:<ul><li>How have communities or individuals been involved in data management?</li><li>How do participants and their communities benefit collectively from the sharing of this data?</li><li>Do participants and their communities have the authority to make decisions about the governance of the collection?</li><li>Are relationships with participants and their communities being nurtured?</li><li>Are the rights and wellbeing of participants and their communities prioritised?</li><li>Does the <GlossaryLink display="data governance" id="data-governance" /> plan consider the role of participants and their communities?</li><li>Does the use of the data reflect community values?</li><li>What cultural meanings of sensitive content are relevant?</li></ul> |
 
-<br />
+ 
 
 **Find out more about FAIR and CARE:**
 
@@ -195,7 +195,7 @@ In brief, the four principles are:
 - [FAIR Principles](https://www.go-fair.org/fair-principles/) (Go Fair)
 - Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. (2016). The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018. https://doi.org/10.1038/sdata.2016.18
 
-<br />
+ 
 
 ### 1.2 Licensing
 
@@ -205,45 +205,45 @@ While <GlossaryLink display="access conditions" id="access-conditions" /> can be
 
 <GlossaryLink display="Licensing" id="licensing" /> allows the <GlossaryLink display="copyright owner" id="copyright-owner" /> to share the right to access and use the data without forfeiting or transferring the ownership of the <GlossaryLink display="copyright" id="copyright" /> of the work. The license sets out the conditions for who can access the data, how it can be used, and what other conditions are required. While <GlossaryLink display="licensing" id="licensing" /> is a legal mechanism, it can also be used to uphold other conditions as determined by the <GlossaryLink display="Data Steward" id="data-steward" />.
 
-<br />
+ 
 
-> <img src="./thought-bubble.png" alt="Thought bubble" style="float: left; width: 6rem; margin: 0.05rem 0.55rem 0.15rem 0;" /> **Questions for reflection:**<br />
+> <img src="./thought-bubble.png" alt="Thought bubble" style="float: left; width: 6rem; margin: 0.05rem 0.55rem 0.15rem 0;" /> **Questions for reflection:** 
 > Is there an existing <GlossaryLink display="data license" id="data-license" />?
 > <span style="display: block; clear: both;"></span>
 
-<br />
+ 
 
 | Question                                                                                                                                        | Further Information                                                                                                                                                                                                                                                                                      |
 | ----------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Is there an existing license outlining the <GlossaryLink display="access conditions" id="access-conditions" />?<ul><li>Yes</li><li>No</li></ul> | If the collection has already been made available, a license may have already been prepared. Avoid duplicating previous work by checking this first.<br />Although it is best practice to have a single license attached to a collection, multiple licenses can exist as long as they are non-exclusive. |
+| Is there an existing license outlining the <GlossaryLink display="access conditions" id="access-conditions" />?<ul><li>Yes</li><li>No</li></ul> | If the collection has already been made available, a license may have already been prepared. Avoid duplicating previous work by checking this first. Although it is best practice to have a single license attached to a collection, multiple licenses can exist as long as they are non-exclusive. |
 
-<br />
+ 
 
-> <img src="./thought-bubble.png" alt="Thought bubble" style="float: left; width: 6rem; margin: 0.05rem 0.55rem 0.15rem 0;" /> **Questions for reflection:**<br />
+> <img src="./thought-bubble.png" alt="Thought bubble" style="float: left; width: 6rem; margin: 0.05rem 0.55rem 0.15rem 0;" /> **Questions for reflection:** 
 > What information needs to be included in the license?
 > <span style="display: block; clear: both;"></span>
 
-<br />
+ 
 
 <figure>
   <img src="./data-license-figure.png" Alt="Key parts of a data license" Title="Key parts of a data license" Ref="LDaCA" />
   <figcaption>Key parts of a data license</figcaption>
 </figure>
 
-<br />
+ 
 
 | Question                                                            | Further Information                                                                                                                                                                                                                                                                                                                                                                        |
 | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| What are the **parties** relevant to this license?                  | Who is the author of the material?<br />Who is the <GlossaryLink display="copyright owner" id="copyright-owner" />?<br />Is access managed by a <GlossaryLink display="Data Steward" id="data-steward" />?<br />Which individuals or groups are permitted access to the material?<br />Who is the Licensor (<GlossaryLink display="copyright owner" id="copyright-owner" />) and Licensee? |
+| What are the **parties** relevant to this license?                  | Who is the author of the material? Who is the <GlossaryLink display="copyright owner" id="copyright-owner" />? Is access managed by a <GlossaryLink display="Data Steward" id="data-steward" />? Which individuals or groups are permitted access to the material? Who is the Licensor (<GlossaryLink display="copyright owner" id="copyright-owner" />) and Licensee? |
 | What **materials** are covered by the license?                      | Does this license cover the entire collection or a subset of the material?                                                                                                                                                                                                                                                                                                                 |
-| Is this an **exclusive** or **non-exclusive** license?              | Does this license grant an individual or group exclusive rights to use and share the material?<br />If yes, this is an exclusive license.                                                                                                                                                                                                                                                  |
-| Describe the **rights** that are being transferred to the licensee. | What rights are being transferred?<br />Can the material be modified? For what purpose?<br />Can the material be shared? Under what conditions?                                                                                                                                                                                                                                            |
-| Does this collection include **sensitive information**?             | Does the material include personal information?<br />What is the protocol for ensuring participant privacy?<br />What are the responsibilities of the licensee?                                                                                                                                                                                                                            |
-| What are the requirements surrounding **citation**?                 | How should the material be correctly attributed?<br />What is the suggested citation for the collection?                                                                                                                                                                                                                                                                                   |
+| Is this an **exclusive** or **non-exclusive** license?              | Does this license grant an individual or group exclusive rights to use and share the material? If yes, this is an exclusive license.                                                                                                                                                                                                                                                  |
+| Describe the **rights** that are being transferred to the licensee. | What rights are being transferred? Can the material be modified? For what purpose? Can the material be shared? Under what conditions?                                                                                                                                                                                                                                            |
+| Does this collection include **sensitive information**?             | Does the material include personal information? What is the protocol for ensuring participant privacy? What are the responsibilities of the licensee?                                                                                                                                                                                                                            |
+| What are the requirements surrounding **citation**?                 | How should the material be correctly attributed? What is the suggested citation for the collection?                                                                                                                                                                                                                                                                                   |
 | Under which **region** is the license legally binding?              | Is the license limited to a specific geographical region?                                                                                                                                                                                                                                                                                                                                  |
-| Other considerations                                                | How long will the license be valid?<br />Does it expire after a specific period of time?<br />Is the licensee required to pay a fee? How is the fee processed?<br />Under what conditions can the license be terminated?<br />How will disputes be resolved?                                                                                                                               |
+| Other considerations                                                | How long will the license be valid? Does it expire after a specific period of time? Is the licensee required to pay a fee? How is the fee processed? Under what conditions can the license be terminated? How will disputes be resolved?                                                                                                                               |
 
-<br />
+ 
 
 While in some cases it may be necessary to write a custom <GlossaryLink display="data license" id="data-license" />, for other collections it may be possible to apply an already-existing license, such as a <GlossaryLink display="Creative Commons license" id="creative-commons-licenses" />. Creative Commons provides a useful option for promoting data reusability while protecting key <GlossaryLink display="access conditions" id="access-conditions" />.
 
@@ -258,7 +258,7 @@ A <GlossaryLink display="copyright owner" id="copyright-owner" /> may also choos
 
 - [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/): A <GlossaryLink display="copyright owner" id="copyright-owner" /> opts out of <GlossaryLink display="copyright" id="copyright" /> and waives their exclusive rights. The material is placed in the public domain before the <GlossaryLink display="copyright" id="copyright" /> duration has expired.
 
-<br />
+ 
 
 ## 2. Persistent Identifiers
 
@@ -270,25 +270,25 @@ A <GlossaryLink display="DOI" id="doi" /> is a unique number made up of a prefix
 
 An example of a <GlossaryLink display="DOI" id="doi" /> for a <GlossaryLink display="data collection" id="data-collection" /> (obtained via the university library) can be viewed here: [Sydney Speaks DOI landing page](https://datacommons.anu.edu.au/DataCommons/rest/display/anudc:6184?layout=def:display).
 
-<br />
+ 
 
-> <img src="./thought-bubble.png" alt="Thought bubble" style="float: left; width: 6rem; margin: 0.05rem 0.55rem 0.15rem 0;" /> **Questions for reflection:**<br />
+> <img src="./thought-bubble.png" alt="Thought bubble" style="float: left; width: 6rem; margin: 0.05rem 0.55rem 0.15rem 0;" /> **Questions for reflection:** 
 > Who can get a <GlossaryLink display="DOI" id="doi" />? How?
 > <span style="display: block; clear: both;"></span>
 
-<br />
+ 
 
 | Question                                                                                                      | Further Information                                                                                                                                                                                                                                                                                                                                          |
 | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Does the collection have an existing <GlossaryLink display="PID" id="pid" />?<ul><li>Yes</li><li>No</li></ul> | Investigate whether the collection already has an existing <GlossaryLink display="PID" id="pid" /> as this is sometimes automatically generated when the collection is listed or archived with an archive or library.                                                                                                                                        |
-| Who can generate a <GlossaryLink display="DOI" id="doi" /> for the collection?                                | The most common <GlossaryLink display="DOI" id="doi" /> minting services are universities, research organisations, research libraries and research repositories.<br />You can make enquiries with your university library or the research repository of the organisation that supported the <GlossaryLink display="data collection" id="data-collection" />. |
+| Who can generate a <GlossaryLink display="DOI" id="doi" /> for the collection?                                | The most common <GlossaryLink display="DOI" id="doi" /> minting services are universities, research organisations, research libraries and research repositories. You can make enquiries with your university library or the research repository of the organisation that supported the <GlossaryLink display="data collection" id="data-collection" />. |
 
-<br />
+ 
 
-**Find out more about PIDs:**<br />
+**Find out more about PIDs:** 
 Klump, J. and Huber, R., 2017. 20 Years of Persistent Identifiers – Which Systems are Here to Stay?. Data Science Journal, 16, p.9. DOI: http://doi.org/10.5334/dsj-2017-009
 
-<br />
+ 
 
 ## 3. Metadata
 
@@ -303,19 +303,19 @@ Metadata is often managed in two different ways:
 
 Where a customised metadata strategy is used, metadata terms should be clearly defined so as to facilitate comprehension of the metadata and to avoid misunderstandings or multiple interpretations. Customised metadata terms can be mapped onto existing vocabularies in order to organise metadata in a manner aligned to a standard.
 
-<br />
+ 
 
-> <img src="./thought-bubble.png" alt="Thought bubble" style="float: left; width: 6rem; margin: 0.05rem 0.55rem 0.15rem 0;" /> **Questions for reflection:**<br />
+> <img src="./thought-bubble.png" alt="Thought bubble" style="float: left; width: 6rem; margin: 0.05rem 0.55rem 0.15rem 0;" /> **Questions for reflection:** 
 > What does it mean to apply standards to metadata?
 > <span style="display: block; clear: both;"></span>
 
-<br />
+ 
 
 | Question                                                                                                     | Further Information                                                                                                                                                                                                                                                                                   |
 | ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Does the collection use metadata terms from an existing metadata vocabulary?<ul><li>Yes</li><li>No</li></ul> | If the collection uses customised metadata terms (i.e. not an existing metadata vocabulary), consider mapping the relationships between the custom system and an existing metadata vocabulary. This will facilitate findability as the metadata aligns with standards used in the research community. |
 
-<br />
+ 
 
 ## 4. Appendix: Determining Copyright
 
@@ -323,7 +323,7 @@ Information is provided as guidance only; legal advice should be sought.
 
 Select the correct table for works and subject matter other than works.
 
-<br />
+ 
 
 **Works:**
 
@@ -373,7 +373,7 @@ Select the correct table for works and subject matter other than works.
 
 \*Different <GlossaryLink display="copyright" id="copyright" /> duration applies to works for which the author is unknown.
 
-<br />
+ 
 
 **Subject matter other than works: sound recordings, films and videos**
 
@@ -415,4 +415,4 @@ Select the correct table for works and subject matter other than works.
 </tbody>
 </table>
 
-<br />
+ 
