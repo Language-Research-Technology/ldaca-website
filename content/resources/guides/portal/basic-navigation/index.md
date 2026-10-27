@@ -8,11 +8,11 @@ category: "RESOURCE"
 layout: doc
 ---
 
-<br>
+ 
 
 > This user guide uses 'portal' to refer to the interface across all of the available <GlossaryLink display="Oni" id="oni" /> portals (see [Available portals](/working-with-data/find-access/#available-portals) for more details).
 
-<br>
+ 
 
 - [Data and page structure](#data-and-page-structure)
 - [Home page](#home-page) ([top menu](#top-menu), [left panel](#left-panel), [main panel](#main-panel))
@@ -20,7 +20,7 @@ layout: doc
 - [Object page](#object-page) ([notebooks](#notebooks))
 - [File page](#file-page)
 
-<br>
+ 
 
 ## Data and page structure
 
@@ -34,31 +34,31 @@ Both the data and the webpages in the portal are structured in a heirarchy: Coll
 | ↓          |
 | File       | A container for data (in the form of bits and bytes). Files can store data in different formats; for example, a single Object could have an audio file as well as a text file containing a transcription of the audio.                                                                          |
 
-<br>
+ 
 
 ## Home page
 
 There are three main sections of the home page in the portal: the top menu bar, the left panel and the main panel. Each of these is discussed below.
 
-<br>
+ 
 
 <figure>
     <img src="./homePage_3sections.png" Alt="Home Page: Top Menu, Left Panel and Main Panel sections" Title="Home Page: Top Menu, Left Panel and Main Panel sections" Ref="LDaCA" />
     <figcaption>Home Page: Top Menu, Left Panel and Main Panel sections</figcaption>
 </figure>
 
-<br>
+ 
 
 ### Top menu
 
-<br>
+ 
 
 <figure>
     <img src="./top-menu.png" Alt="Home Page: Top Menu" Title="Home Page: Top Menu" Ref="LDaCA" />
     <figcaption>Home Page: Top Menu</figcaption>
 </figure>
 
-<br>
+ 
 
 The top menu of the home page allows you to access some of the main features of the portal:
 
@@ -69,18 +69,18 @@ The top menu of the home page allows you to access some of the main features of 
 - **_Login_**: Takes you to the CILogon page where you can login to apply for access to collections or view your current access. See [Login](/resources/guides/portal/login/) for more details.
 - **_Help_**: Provides more general information about the infrastructure the portal was built with, as well as the <GlossaryLink display="Oni" id="oni" /> <GlossaryLink display="API" id="api" /> functionalities. It also links back to this user guide for easy reference.
 
-<br>
+ 
 
 ### Left panel
 
-<br>
+ 
 
 <figure>
     <img src="./left-panel.png" Alt="Home Page: Left Panel" Title="Home Page: Left Panel" Ref="LDaCA" />
     <figcaption>Home Page: Left Panel</figcaption>
 </figure>
 
-<br>
+ 
 
 The left panel of the portal home page allows you to refine your data query through the use of a search field and filters. Searching allows you to view records which include specific information, while filtering allows you to view records which share values for <GlossaryLink display="metadata" id="metadata" /> categories. Hovering over the information icon <img src="./information.png" alt="Information Icon" style="display:inline; width:1.5em; vertical-align:middle;" /> next to each filter will display tooltips related to that filter. See [Search](/resources/guides/portal/search/) and [Filters](/resources/guides/portal/filters/) for more details on how to use the search and filter functions.
 
@@ -168,20 +168,20 @@ The right panel has the following sections:
 - **Notebooks**: Lists any notebooks associated with the current collection.
 - **Takedown Request**: Links to a form for users to make requests for data to be removed.
 
-<br>
+ 
 
 ## Object page
 
 Clicking on one of the objects or files from either the main page results or from a Collection page will take you to the Object page for that item.
 
-<br>
+ 
 
 <figure>
     <img src="./object-page.png" Alt="Object Page: A Corpus of Oz Early English Example" Title="Object Page: A Corpus of Oz Early English Example" Ref="LDaCA" />
     <figcaption>Object Page: A Corpus of Oz Early English Example</figcaption>
 </figure>
 
-<br>
+ 
 
 The left panel of the Object page lists the main details and <GlossaryLink display="metadata" id="metadata" /> associated with the object. Clicking on the question mark icon <img src="./question.png" alt="Question Mark Icon" style="display:inline; width:1.5em; vertical-align:middle;" /> or information icon <img src="./information.png" alt="Information Icon" style="display:inline; width:1.5em; vertical-align:middle;" /> next to each heading will display tooltips related to that item.
 

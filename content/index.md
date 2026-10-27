@@ -14,7 +14,7 @@ import LatestBlog from '../.vitepress/theme/components/LatestBlog.vue'
 
 <HomeHero backgroundImage="/images/black_patternback.svg" 
 :videos = "['vovLkye-xLw']"
-tagline = "Connecting People with Language Data"
+tagline = "Connecting people with language data"
 description = "Whether you’re collecting, caring for, finding, accessing or reusing language data, the Language Data Commons of Australia (LDaCA) has resources to help support your work."
   />
 

@@ -8,7 +8,7 @@ category: "RESOURCE"
 layout: doc
 ---
 
-<br>
+ 
 
 - [Purpose](#purpose)
 - [Onboarding Process](#onboarding-process)
@@ -18,20 +18,20 @@ layout: doc
   - [4. Preparing data for cataloguing in LDaCA](#4-preparing-data-for-cataloguing-in-ldaca)
   - [5. Ongoing engagement](#5-ongoing-engagement)
 
-<br>
+ 
 
 ## Purpose
 
 This document outlines the standards and processes that support the onboarding of language <GlossaryLink display="collections" id="collection" /> to <GlossaryLink display="LDaCA" id="ldaca" />. A successful onboarding will result in the collection being catalogued with LDaCA and made available in accordance with the specified <GlossaryLink display="access conditions" id="access-conditions" />. To determine if you are ready to onboard a collection, check this data management and governance capacity flowchart.
 
- <br>
+  
 
 <figure>
   <img src="./DataManagement&GovernanceCapacity.jpg" Alt="Data Management and Governance Capacity" Title="Data Management and Governance Capacity" Ref="LDaCA" />
   <figcaption>Data Management and Governance Capacity</figcaption>
 </figure>
 
-<br>
+ 
 
 ## Onboarding Process
 
@@ -45,7 +45,7 @@ The LDaCA onboarding process is carried out collaboratively between LDaCA and th
 
 These five steps are covered in detail below, along with the responsibilities of LDaCA and the <GlossaryLink display="Data Steward" id="data-steward" /> for each step, and associated resources.
 
-<br>
+ 
 
 ### 1. Initiating contact between LDaCA and Data Stewards
 
@@ -55,7 +55,7 @@ LDaCA will gather relevant publicly available information, and record that infor
 
 Contact between LDaCA and the <GlossaryLink display="Data Steward" id="data-steward" /> is initiated with the aim of identifying the appropriate <GlossaryLink display="Data Steward" id="data-steward" />, establishing a collaborative relationship, providing information about LDaCA, and discussing shared goals for the onboarding of the collection to LDaCA.
 
-<br>
+ 
 
 #### LDaCA will:
 
@@ -65,13 +65,13 @@ Contact between LDaCA and the <GlossaryLink display="Data Steward" id="data-stew
 4. Help to determine if the <GlossaryLink display="data collection" id="data-collection" /> is ready for onboarding.
 5. Discuss needs and goals for onboarding to LDaCA.
 
-<br>
+ 
 
 #### Additional resources relevant to this step:
 
 - [Initial Contact Checklist](./Initial_Contact_Checklist.pdf)
 
-<br>
+ 
 
 ### 2. Work Plan
 
@@ -79,7 +79,7 @@ Once communication between LDaCA and the <GlossaryLink display="Data Steward" id
 
 At this stage, it is important to share key information and resources about the LDaCA project and manage expectations.
 
-<br>
+ 
 
 #### LDaCA will:
 
@@ -87,14 +87,14 @@ At this stage, it is important to share key information and resources about the 
 2. Collaborate with the <GlossaryLink display="Data Steward" id="data-steward" /> on the development of the <GlossaryLink display="Work Plan" id="work-plan" />.
 3. Provide further information about LDaCA, its services and limitations.
 
-<br>
+ 
 
 #### Data Steward will:
 
 1. Confirm their role as the <GlossaryLink display="Data Steward" id="data-steward" />.
 2. Collaborate with LDaCA on the development of the <GlossaryLink display="Work Plan" id="work-plan" />.
 
-<br>
+ 
 
 #### Additional resources relevant to this step:
 
@@ -102,7 +102,7 @@ At this stage, it is important to share key information and resources about the 
 - [Terms of Use](https://data.ldaca.edu.au/terms)
 <!-- - TODO: ADD LDaCA Privacy Policy (being finalised) -->
 
-<br>
+ 
 
 ### 3. Determining appropriate governance and access conditions
 
@@ -111,13 +111,13 @@ LDaCA will collaborate with the <GlossaryLink display="Data Steward" id="data-st
 At this stage, the <GlossaryLink display="Data Steward" id="data-steward" /> must prepare a data access license that clearly outlines the conditions for data access, sharing and reuse. LDaCA makes available varying levels of access, from open access to restricted access.
 A persistent identifier for the collection must also be provided to support sustainable data management practices.
 
-<br>
+ 
 
 #### LDaCA will:
 
 1. Provide guidance and support with regards to <GlossaryLink display="data governance" id="data-governance" />, persistent identifiers, determining <GlossaryLink display="access conditions" id="access-conditions" /> and <GlossaryLink display="licensing" id="licensing" />.
 
-<br>
+ 
 
 #### Data Steward will:
 
@@ -127,7 +127,7 @@ A persistent identifier for the collection must also be provided to support sust
 4. Provide or develop data access licenses that outline the specific conditions for access to the collection, including citation information.
 5. Provide a persistent identifier for the collection (obtaining a <GlossaryLink display="DOI" id="doi" /> if necessary).
 
-<br>
+ 
 
 #### Additional resources relevant to this step:
 
@@ -136,20 +136,20 @@ A persistent identifier for the collection must also be provided to support sust
 - [Determining Access Conditions](/resources/guides/working-with-data/determining-access-conditions/)
 - [Obtaining a DOI](/resources/guides/working-with-data/obtaining-a-doi/)
 
-<br>
+ 
 
 ### 4. Preparing data for cataloguing in LDaCA
 
 LDaCA coordinates with the <GlossaryLink display="Data Steward" id="data-steward" /> to apply standards to the collection to support its long-term sustainability. The standards applied allow the data to be packaged in <GlossaryLink display="RO-Crates" id="ro-crate" />, the metadata to be mapped onto LDaCA’s metadata schema, and additional metadata to be added where possible/required.
 
-<br>
+ 
 
 #### LDaCA will:
 
 1. Prepare the data for packaging as <GlossaryLink display="RO-Crates" id="ro-crate" />.
 2. Support the metadata mapping process.
 
-<br>
+ 
 
 #### Data Steward will:
 
@@ -157,20 +157,20 @@ LDaCA coordinates with the <GlossaryLink display="Data Steward" id="data-steward
 2. Support the <GlossaryLink display="RO-Crate" id="ro-crate" /> packaging by applying standards to the data and reviewing the packaged data.
 3. Provide metadata and collaborate with metadata mapping.
 
-<br>
+ 
 
 #### Additional resources relevant to this step:
 
 - Information on [Metadata](/resources/guides/metadata/)
 - Information on [RO-Crate](/about/technologies/)
 
-<br>
+ 
 
 ### 5. Ongoing engagement
 
 Finally, we implement ongoing engagement by outlining shared responsibilities and processes in order to ensure that access requests, system updates and user feedback are responded to appropriately by LDaCA and <GlossaryLink display="Data Stewards" id="data-steward" />. This is key for collections that require access approval on a case-by-case basis and for collections that may introduce data updates, such as additional data, transcription, or annotation, edits to existing data, transcription, or annotation etc.
 
-<br>
+ 
 
 #### LDaCA will:
 
@@ -178,7 +178,7 @@ Finally, we implement ongoing engagement by outlining shared responsibilities an
 2. Make the <GlossaryLink display="Data Steward" id="data-steward" /> aware of any takedown requests.
 3. Update the <GlossaryLink display="Work Plan" id="work-plan" /> as relevant, with responsibilities for ongoing maintenance of the collection in LDaCA.
 
-<br>
+ 
 
 #### Data Steward will:
 
@@ -190,4 +190,4 @@ Finally, we implement ongoing engagement by outlining shared responsibilities an
 #### Additional resources relevant to this step:
  - TODO: ADD Takedown policy (being finalised) -->
 
-<br>
+ 
