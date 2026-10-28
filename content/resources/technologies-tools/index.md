@@ -6,7 +6,7 @@ title: "Technologies & tools"
 <SimpleHero
   breadcrumb="Resources > Technologies & tools"
   title="Technologies & tools"
-  description="A range of LDaCA technologies and open-source tools to support finding, accessing and analysing language data. Available online and through GitHub, these tools are designed for developers and people with strong coding skills."
+  description="LDaCA technologies and open-source tools to support finding, accessing and analysing language data. Available online and through GitHub, these tools are designed for a range of users from text analytics novices to developers and people with strong coding skills."
 />
 
 <GuideTiles
