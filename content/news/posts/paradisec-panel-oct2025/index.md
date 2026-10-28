@@ -4,6 +4,7 @@ date: 2025-12-15
 draft: false
 description: "On Wednesday 8 October 2025, The Pacific and Regional Archive for Digital Sources in Endangered Cultures (PARADISEC) hosted a panel discussion offering First Nations perspectives on archival practices."
 layout: post
+image: /news/posts/paradisec-panel-oct2025/exhibition3.png
 author: '<Profile id = "lea" />'
 ---
 
