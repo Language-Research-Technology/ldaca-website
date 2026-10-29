@@ -1,5 +1,5 @@
 ---
-title: "Guidance for data governance decisions"
+title: "Guidance for data governance decisions and licensing"
 date: 2023-10-18T12:09:10+11:00
 # tags: ["Governance, rights & access"]
 description: "Defines policies, roles, responsibilities and procedures for ongoing use and storage of data, as well as for access to data."
@@ -43,7 +43,7 @@ To determine <GlossaryLink display="access conditions" id="access-conditions" />
 1. understand the legal, moral and ethical constraints to sharing data, and
 2. prepare a license outlining <GlossaryLink display="access conditions" id="access-conditions" />.
 
- 
+Also see our flowchart for [determining access conditions](https://www.ldaca.edu.au/resources/guides/working-with-data/determining-access-conditions/).
 
 ### 1.1 Legal, moral and ethical constraints
 
