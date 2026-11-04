@@ -3,7 +3,7 @@ title: "Precarious Oral Histories Project launches NSW and ACT survey"
 date: 2026-11-04
 draft: false
 description: "Oral history collection holders in New South Wales and the ACT are invited to submit details of their at-risk collection in a new survey."
-image: /news/posts/Precarious-Oral-Histories-Update/casettestack.jpeg
+image: /news/posts/grannys-tape.jpg
 layout: post
 ---
 
