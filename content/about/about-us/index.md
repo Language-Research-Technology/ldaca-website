@@ -226,7 +226,7 @@ aliases:
     {
         title: 'About the artist',
         description: 'Dylan Sarra is a Gooreng Gooreng/Taribelang artist from Central Queensland, based in Brisbane. Working across print, digital and sculpture, he explores identity and place — gently drawing audiences toward a more human understanding of the Indigenous experience. Dylan is committed to the research and sharing of cultural knowledge, and hopes his work inspires people to appreciate the role we all play in acknowledging First Nations peoples.',
-        image: '/about/organisation/D_Sarra.jpg', 
+        image: '/about/about-us/D_Sarra.jpg',
     },
     ]"
 />
