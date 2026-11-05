@@ -1,10 +1,10 @@
 ---
-title: "Convert spreadsheet"
+title: "Managing collection metadata in spreadsheets"
 date: 2021-02-28T13:53:43+10:00
 draft: false
 tags: ["Crate-O"]
-description: "Guidance and a template for adding new data to an RO-Crate via spreadsheet."
-category: "RESOURCE"
+description: "Guidance and a spreadsheet template for documenting collection metadata in RO-Crate format."
+category: "HOW-TO"
 weight: 4
 layout: doc
 image: "/images/Petroglyph_Pattern.svg"
@@ -22,7 +22,7 @@ image: "/images/Petroglyph_Pattern.svg"
 
 ## Template
 
-For <GlossaryLink display="collections" id="collection" /> where there are a lot of interconnected <GlossaryLink display="objects" id="object" /> and files, it may be easier or preferable to add the <GlossaryLink display="metadata" id="metadata" /> for these via converting a spreadsheet to an <GlossaryLink display="RO-Crate" id="ro-crate" /> in <GlossaryLink display="Crate-O" id="crate-o" />, rather than adding these items manually. An RO-Crate metadata spreadsheet template can be downloaded below and populated with metadata specific to your collection:
+For <GlossaryLink display="collections" id="collection" /> where there are a lot of interconnected <GlossaryLink display="objects" id="object" /> and files, it may be easier or preferable to add the <GlossaryLink display="metadata" id="metadata" /> for these to a spreadsheet. This spreadsheet can then be used to create an <GlossaryLink display="RO-Crate" id="ro-crate" /> in tools like  <GlossaryLink display="Crate-O" id="crate-o" />.
 
  
 

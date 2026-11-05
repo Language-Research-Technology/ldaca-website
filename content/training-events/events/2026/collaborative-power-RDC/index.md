@@ -9,6 +9,7 @@ eventTime: "2 to 3 pm AEST"
 location: "Online"
 cost: ""
 organiser: "ARDC HASS and Indigenous Research Data Commons"
+category: RECORDING
 pastEvent: true
 ---
 

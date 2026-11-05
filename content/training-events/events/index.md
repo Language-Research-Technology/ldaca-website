@@ -22,14 +22,6 @@ title: "Events"
   :opacity="100"
   heading="UPCOMING EVENTS"
   :items="[
-   {
-        title: 'Point-and-click text analytics: an introduction to LDaCA Wordflow',
-        link: '/training-events/events/2026/point-click-wordflow',
-    },
-  {
-        title: 'eResearch Australasia 2026',
-        link: '/training-events/events/2026/e-research-2026',
-    },
       {
         title: 'Organise, Manipulate and Analyse Text Data with Wordflow',
         link: '/training-events/events/2026/organise-manipulate-analyse',
@@ -86,7 +78,14 @@ title: "Events"
   shade="light"
   :opacity="100"
   heading="PAST EVENTS"
-  :items="[
+  :items="[   {
+        title: 'Point-and-click text analytics: an introduction to LDaCA Wordflow',
+        link: '/training-events/events/2026/point-click-wordflow',
+    },
+  {
+        title: 'eResearch Australasia 2026',
+        link: '/training-events/events/2026/e-research-2026',
+    },
        {
         title: 'Working with text workshops: From interview transcripts to 125 years of Hansard',
         link: '/training-events/events/2026/Working-with-text',

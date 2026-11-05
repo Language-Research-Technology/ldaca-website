@@ -4,12 +4,11 @@ description: "This online workshop introduced participants to the LDaCA Wordflow
 layout: event
 image: "/training-events/events/2026/wordflow-online-workshop/wordflow-online-workshop.jpg"
 link: "https://www.eventbrite.com.au/e/text-analytics-without-code-teach-ai-your-codebook-ldaca-wordflow-tickets-1996765544495"
-eventDate: "Friday 28 August 2026"
 eventTime: "11am – 3:30pm AEST"
 location: "Online"
 cost: "Free"
 organiser: "Sydney Informatics Hub"
-category: WORKSHOP
+category: RECORDING
 pastEvent: true
 ---
 

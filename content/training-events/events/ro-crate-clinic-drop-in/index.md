@@ -10,6 +10,7 @@ location: "Online via Zoom"
 cost: "Free"
 organiser: ""
 pastEvent: false
+category: ONLINE DROP-IN
 ---
 
 The <GlossaryLink display="RO-Crate" id="ro-crate" /> community run a weekly drop-in call in Australia. For further information contact [Peter Sefton](mailto:p.sefton@uq.edu.au).
