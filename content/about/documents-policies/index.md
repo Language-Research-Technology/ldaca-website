@@ -106,6 +106,6 @@ title: "Documents & policies"
         title: '2025 Year in review',
         description: 'Recaps and evaluates our work in 2025.',
         image: '/about/documents-policies/YearinReview2025.png',
-        link: 'https://www.ldaca.edu.au/2025%20Year%20in%20Review/LDaCA_2025YearinReview.pdf',
+        link: '/about/documents-policies/LDaCA_2025YearinReview.pdf',
       },
     ]"/>

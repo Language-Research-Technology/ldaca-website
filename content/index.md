@@ -106,12 +106,12 @@ description = "Whether you’re collecting, caring for, finding, accessing or re
       link: '/training-events/events/2026/point-click-wordflow'
     },
     {
-      title: 'eResearch Australasia 2026',
-      link: '/training-events/events/2026/e-research-2026'
+      title: 'RO-Crate clinic drop-in',
+      link: '/training-events/events/ro-crate-clinic-drop-in'
     },
     {
-      title: 'Organise, Manipulate and Analyse Text Data with Wordflow',
-      link: '/training-events/events/2026/organise-manipulate-analyse'
+      title: 'Text analytics without code: Teach AI your codebook (LDaCA Wordflow)',
+      link: '/training-events/events/2026/wordflow-online-workshop'
     }
   ]"
 />
