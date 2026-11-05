@@ -3,7 +3,7 @@ title: "50 Years of Deadly: Reflections from our Chief Investigators and Advisor
 date: 2026-07-01
 draft: false
 description: "We invited several of LDaCA's Chief Investigators, Advisors and collaborators to reflect on the NAIDOC Week 2026 theme."
-image: /news/posts/NAIDOC Week/NAIDOC-2026-Webinar-Background-1920x1080.jpg
+image: /news/posts/naidoc-week/NAIDOC-2026-Webinar-Background-1920x1080.jpg
 layout: post
 type: interview
 ---

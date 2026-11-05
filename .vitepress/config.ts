@@ -453,7 +453,7 @@ export default defineConfig({
         text: 'About',
         subtitle: 'Information about how the project is organised and governed',
         items: [
-          { text: 'About us', link: '/about/organisation', image: '/images/subheadings/Organisation.png' },
+          { text: 'About us', link: '/about/about-us', image: '/images/subheadings/Organisation.png' },
           { text: 'People', link: '/about/people', image: '/images/subheadings/People.jpg' },
           { text: 'Documents & policies', link: '/about/documents-policies', image: '/images/subheadings/Policies.jpeg' }
         ]
