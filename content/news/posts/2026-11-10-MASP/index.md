@@ -8,7 +8,7 @@
     layout: post
     type: presentation
     description: "Update on RO-Crate Machine Actionable Schemas and profiles work presented as part of the Language Data Commons of Australia session at eResearch Australasia 2026"
-    image: "/news/posts/2024-OR-Crate-O/Slide04.png"
+    image: "/news/posts/2026-11-10-MASP/Slide13.svg"
 ---
 
 <a href="MASP Presentation.pdf">PDF version</a> | <a href="MASP Presentation.pptx">Powerpoint Version</a>
@@ -17,7 +17,9 @@ This presentation was delivered at eResearch 2026 in Melbourne by PT as Rosanna 
 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='./Slide00.svg' alt='A new approach to Machine Actionable Schemas for linked-data, simplifying schema and profile development for metadata systems :: Rosanna SmithPeter (PT) Sefton ::  :: ' title='Slide: 0' border='1'  width='85%'/> 
+<figure>
+    <img src='./Slide00.svg' alt='A new approach to Machine Actionable Schemas for linked-data, simplifying schema and profile development for metadata systems :: Rosanna Smith Peter (PT) Sefton ::  :: ' title='Slide: 0'/> 
+</figure>
 
 
 The Research Object Crate ([RO-Crate](https://www.researchobject.org/ro-crate/)) specification is now widely used for interchanging Research (data) Objects (ROs), and has been used as the basis for several projects in the Australian Research Data Commons (ARDC) Humanities and Social Sciences & Indigenous Research Data Commons (HASS&I RDC). RO-Crates are based on linked-data  and offer a simple, easy-to-implement way of packaging data for interoperability in line with the FAIR principles. They offer a consistency for deposit in repositories, and re-use in analytical pipelines and as the basis for web sites. Until now the RO-Crate community has lacked a similarly simple approach to validating ROs for consistency, or configuring editing environments and other tools used to produce data packages. In this presentation we show a new approach to describing general purpose linked data schemas and specific data profiles for particular domains and systems known as RO-Crate Machine Actionable Schemas and Profiles (MASP), using examples ranging from Indigenous Knowledge systems, to describing research software implemented, all in line with World Wide Web Consortium standards for metadata profiles. We will show easy-to-use tools, and show how schemas and profiles can be maintained using easy-to-understand spreadsheets. RO-Crate MASP tooling includes generating human-readable documentation, a validator and a compatible RO-Crate editor (Crate-O).
@@ -30,7 +32,9 @@ The Research Object Crate ([RO-Crate](https://www.researchobject.org/ro-crate/))
 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='./Slide01.svg' alt='Making nationally significant language data available :: for use by researchers and communities. :: Providing a model for ensuring continued access with appropriate community control. :: What is LDaCA :: Showcasing Australia’s linguistic diversity Australia is a massively multilingual society with the world’s oldest continuous cultures situated in one of the most linguistically diverse regions in the world ::  :: Securing language data :: Large collections of language data have been amassed in Australia, but many remain under-utilised or at risk ::  :: Computational analysis :: Growing demand for text analytics capability and computational methods ::  :: ' title='Slide: 1' border='1'  width='85%'/> 
+<figure>
+    <img src='./Slide01.svg' alt='Making nationally significant language data available :: for use by researchers and communities. :: Providing a model for ensuring continued access with appropriate community control. :: What is LDaCA :: Showcasing Australia’s linguistic diversity Australia is a massively multilingual society with the world’s oldest continuous cultures situated in one of the most linguistically diverse regions in the world ::  :: Securing language data :: Large collections of language data have been amassed in Australia, but many remain under-utilised or at risk ::  :: Computational analysis :: Growing demand for text analytics capability and computational methods ::  :: ' title='Slide: 1'/> 
+</figure>
 
 
 
@@ -44,7 +48,9 @@ This work came of the [LDaCA project](https://ldaca.edu.au) but what we’re tal
 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='./Slide02.svg' alt='2024-2028 Project collaborators :: Rose Barrowcliffe University of Queensland / Macquarie University :: Monika Bednarek :: University of Sydney :: Jenny Fewster and team :: ARDC :: Curtis Roman :: Batchelor Institute :: Michael Haugh :: University of Queensland :: Martin Schweinberger :: University of Queensland :: Marissa Takahashi QUT Australian Digital Observatory :: Nick Thieberger :: University of Melbourne :: Catherine Travis :: ANU :: First Languages Australia ::  :: ' title='Slide: 2' border='1'  width='85%'/> 
+<figure>
+    <img src='./Slide02.svg' alt='2024-2028 Project collaborators :: Rose Barrowcliffe University of Queensland / Macquarie University :: Monika Bednarek :: University of Sydney :: Jenny Fewster and team :: ARDC :: Curtis Roman :: Batchelor Institute :: Michael Haugh :: University of Queensland :: Martin Schweinberger :: University of Queensland :: Marissa Takahashi QUT Australian Digital Observatory :: Nick Thieberger :: University of Melbourne :: Catherine Travis :: ANU :: First Languages Australia ::  :: ' title='Slide: 2'/> 
+</figure>
 
 
 
@@ -58,7 +64,9 @@ LDaCA has a range of collaborators across several universities and institutes.
 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='./Slide03.svg' alt='LANGUAGE DATA CHALLENGES ::  ::  ::  ::  ::  ::  :: Collect &amp; Organise :: Preserve :: Find :: Access :: Analyse :: Guide :: Language data is rarely organised or described in reusable ways, if it’s described at all :: A lot of language data is at risk of being lost forever :: It’s difficult to know what language data exists and where to find it :: Processes for granting permissions and getting access to data are either absent or aren’t easy to understand or apply :: Ad hoc tools, analysis and annotation methods are used, hampering reproducibility :: Guides for collecting, handling and using data are scattered and hard to find ::  ::  :: ' title='Slide: 3' border='1'  width='85%'/> 
+<figure>
+    <img src='./Slide03.svg' alt='LANGUAGE DATA CHALLENGES ::  ::  ::  ::  ::  ::  :: Collect &amp; Organise :: Preserve :: Find :: Access :: Analyse :: Guide :: Language data is rarely organised or described in reusable ways, if it’s described at all :: A lot of language data is at risk of being lost forever :: It’s difficult to know what language data exists and where to find it :: Processes for granting permissions and getting access to data are either absent or aren’t easy to understand or apply :: Ad hoc tools, analysis and annotation methods are used, hampering reproducibility :: Guides for collecting, handling and using data are scattered and hard to find ::  ::  :: ' title='Slide: 3'/> 
+</figure>
 
 
 
@@ -76,7 +84,9 @@ At LDaCA, we’re working with linked data through the use of RO-Crate or Resear
 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='./Slide04.svg' alt='WHAT IS RO-CRATE? ::  :: RO-Crate is a spec for packaging and describing linked data. ::  :: Linked data is an extensible metadata format that uses URLs so everything is documented. ::  :: Accessible, usable approach to linked data. :: ' title='Slide: 4' border='1'  width='85%'/> 
+<figure>
+    <img src='./Slide04.svg' alt='WHAT IS RO-CRATE? ::  :: RO-Crate is a spec for packaging and describing linked data. ::  :: Linked data is an extensible metadata format that uses URLs so everything is documented. ::  :: Accessible, usable approach to linked data. :: ' title='Slide: 4'/> 
+</figure>
 
 
 
@@ -94,7 +104,9 @@ We won’t go into huge detail on RO-Crate this talk, but will focus on how the 
 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='./Slide05.svg' alt='SCHEMAS &amp; PROFILES ::  :: Schemas specify a metadata vocabulary of classes, properties and other terms, and may include additional specifications and requirements for particular terms. :: Profiles describe how a schema is applied to a particular domain or use case, and can take metadata from multiple schemas. They are prose documents that provide more guidance on structuring collections, required metadata, access protocols and other additional details. :: ' title='Slide: 5' border='1'  width='85%'/> 
+<figure>
+    <img src='./Slide05.svg' alt='SCHEMAS &amp; PROFILES ::  :: Schemas specify a metadata vocabulary of classes, properties and other terms, and may include additional specifications and requirements for particular terms. :: Profiles describe how a schema is applied to a particular domain or use case, and can take metadata from multiple schemas. They are prose documents that provide more guidance on structuring collections, required metadata, access protocols and other additional details. :: ' title='Slide: 5'/> 
+</figure>
 
 
 
@@ -112,7 +124,9 @@ Different disciplines can have different standards as well.
 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='./Slide06.svg' alt='general :: specific :: SCHEMAS :: groups of properties :: ARDS :: Darwin Core :: Dublin Core :: schema.org :: PROFILES :: collections of properties from different schemas :: Danala / top end schema :: LDaCA :: ARDS :: Batchelor :: XYZ :: Batchelor :: LDAC :: Schemas and profiles can be published, publicly or privately, and can have terms and conditions, and licences for how they can be used/shared. :: ' title='Slide: 6' border='1'  width='85%'/> 
+<figure>
+    <img src='./Slide06.svg' alt='general :: specific :: SCHEMAS :: groups of properties :: ARDS :: Darwin Core :: Dublin Core :: schema.org :: PROFILES :: collections of properties from different schemas :: Danala / top end schema :: LDaCA :: ARDS :: Batchelor :: XYZ :: Batchelor :: LDAC :: Schemas and profiles can be published, publicly or privately, and can have terms and conditions, and licences for how they can be used/shared. :: ' title='Slide: 6'/> 
+</figure>
 
 
 
@@ -134,7 +148,9 @@ Profiles also have the ability to take metadata from various schemas and codify 
 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='./Slide07.svg' alt='MASP DETAILS ::  :: Machine Actionable Schemas and Profiles - generates schema and profile documentation. ::  :: github.com/Language-Research-Technology/ro-crate-masp ::  :: Applicable to a wide range of metadata description, e.g. LDaCA, ARDS Aboriginal Corporation, Batchelor Institute. ::  :: Can be used in combination with textual summary of the Profile to create documentation with an automatically generated summary of what should be in conformant crates. :: ' title='Slide: 7' border='1'  width='85%'/> 
+<figure>
+    <img src='./Slide07.svg' alt='MASP DETAILS ::  :: Machine Actionable Schemas and Profiles - generates schema and profile documentation. ::  :: github.com/Language-Research-Technology/ro-crate-masp ::  :: Applicable to a wide range of metadata description, e.g. LDaCA, ARDS Aboriginal Corporation, Batchelor Institute. ::  :: Can be used in combination with textual summary of the Profile to create documentation with an automatically generated summary of what should be in conformant crates. :: ' title='Slide: 7'/> 
+</figure>
 
 
 
@@ -155,7 +171,9 @@ The diagram here shows how a profile is generated - it takes a JSON file of the 
 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='./Slide08.svg' alt=' :: ' title='Slide: 8' border='1'  width='85%'/> 
+<figure>
+    <img src='./Slide08.svg' alt=' :: ' title='Slide: 8'/> 
+</figure>
 
 
 
@@ -170,7 +188,9 @@ This slide shows what a MASP profile component looks like “under the bonnet”
 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='./Slide09.svg' alt=' :: ' title='Slide: 9' border='1'  width='85%'/> 
+<figure>
+    <img src='./Slide09.svg' alt=' :: ' title='Slide: 9'/> 
+</figure>
 
 
 
@@ -184,9 +204,9 @@ This slide is a screenshot of the same property definition in an Excel format �
 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='./Slide10.svg' alt='APPLIED MASP: MASP-DRIVEN EDITORS &amp; TOOLS ::  ::  :: In development: ::  :: MASP profiles used to configure Collection2Crate (C2C). ::  :: Plugins and options available according to each profile&#x27;s tool-config. ::  :: Allows users to select the processing options they want to work with for their collection that are available for the matching profile, e.g. LDAC profile provides AustLang lookup, conversation transcript processing, CHAT (.cha) output generation. ::  :: ' title='Slide: 10' border='1'  width='85%'/> 
-
-
+<figure>
+    <img src='./Slide10.svg' alt='APPLIED MASP: MASP-DRIVEN EDITORS &amp; TOOLS ::  ::  :: In development: ::  :: MASP profiles used to configure Collection2Crate (C2C). ::  :: Plugins and options available according to each profile&#x27;s tool-config. ::  :: Allows users to select the processing options they want to work with for their collection that are available for the matching profile, e.g. LDAC profile provides AustLang lookup, conversation transcript processing, CHAT (.cha) output generation. ::  :: ' title='Slide: 10'/> 
+</figure>
 
 
 One of the other major uses for MASP that we’re currently working on is to drive tools for managing collections.
@@ -207,7 +227,9 @@ In the screenshot, the processing options available here are those configured fo
 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='./Slide11.svg' alt='APPLIED MASP: VALIDATING COLLECTIONS ::  :: data.ldaca.edu.au ::  :: catalog.paradisec.org.au :: ' title='Slide: 11' border='1'  width='85%'/> 
+<figure>
+    <img src='./Slide11.svg' alt='APPLIED MASP: VALIDATING COLLECTIONS ::  :: data.ldaca.edu.au ::  :: catalog.paradisec.org.au :: ' title='Slide: 11'/> 
+</figure>
 
 
 
@@ -225,7 +247,9 @@ Both [PARADISEC](https://paradisec.org.au), the Pacific and Regional Archive for
 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='./Slide12.svg' alt='APPLIED MASP: PROFILE-SPECIFIC HTML TEMPLATES ::  :: precariousoralhistories.com/project-database :: ayeye-thipe-akerte.bird-apps.com :: dingolingo.au :: Created with: github.com/crate-works/ro-crate-static-site :: ' title='Slide: 12' border='1'  width='85%'/> 
+<figure>
+    <img src='./Slide12.svg' alt='APPLIED MASP: PROFILE-SPECIFIC HTML TEMPLATES ::  :: precariousoralhistories.com/project-database :: ayeye-thipe-akerte.bird-apps.com :: dingolingo.au :: Created with: github.com/crate-works/ro-crate-static-site :: ' title='Slide: 12'/> 
+</figure>
 
 
 
@@ -249,7 +273,9 @@ The static site approach, coupled with MASP profiles, allows for these unique re
 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='./Slide13.svg' alt='MASP: COMPLETE LINKED DATA ENVIRONMENT ::  ::  :: Data Preparation ::  :: Organise folders of data  :: MASP-driven organisation :: Cleaning tools ::  :: Add derived files :: Migrate format :: Transcribe :: Annotate :: Aggregate ::  :: Describe &amp; Package :: MASP-driven metadata entry ::  ::  :: MASP tool “activation” :: MASP Validation :: RO-Crate :: Data Packages :: Deposit &amp; Display ::  :: Repository deposit :: Static websites :: Portable data appliances :: Analysis ::  :: Notebooks :: Code libraries :: Visualisations :: Computational workflows :: Applications :: ' title='Slide: 13' border='1'  width='85%'/> 
+<figure>
+    <img src='./Slide13.svg' alt='MASP: COMPLETE LINKED DATA ENVIRONMENT ::  ::  :: Data Preparation ::  :: Organise folders of data  :: MASP-driven organisation :: Cleaning tools ::  :: Add derived files :: Migrate format :: Transcribe :: Annotate :: Aggregate ::  :: Describe &amp; Package :: MASP-driven metadata entry ::  ::  :: MASP tool “activation” :: MASP Validation :: RO-Crate :: Data Packages :: Deposit &amp; Display ::  :: Repository deposit :: Static websites :: Portable data appliances :: Analysis ::  :: Notebooks :: Code libraries :: Visualisations :: Computational workflows :: Applications :: ' title='Slide: 13'/> 
+</figure>
 
 
 
@@ -274,7 +300,9 @@ Profiles:
 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='./Slide14.svg' alt=' ::  :: Data Preparation ::  :: Organise folders of data  :: MASP-driven organisation :: Cleaning tools ::  :: Add derived files :: Migrate format :: Transcribe :: Annotate :: Aggregate ::  :: Describe &amp; Package :: MASP-driven metadata entry ::  ::  :: RO-Crate :: Data Packages :: Deposit &amp; Display ::  :: Repository deposit :: Analysis ::  :: Notebooks :: Code libraries :: Visualisations :: Computational workflows :: Applications :: DATA RE-USE OF MASP-VALIDATED PACKAGES :: ' title='Slide: 14' border='1'  width='85%'/> 
+<figure>
+    <img src='./Slide14.svg' alt=' ::  :: Data Preparation ::  :: Organise folders of data  :: MASP-driven organisation :: Cleaning tools ::  :: Add derived files :: Migrate format :: Transcribe :: Annotate :: Aggregate ::  :: Describe &amp; Package :: MASP-driven metadata entry ::  ::  :: RO-Crate :: Data Packages :: Deposit &amp; Display ::  :: Repository deposit :: Analysis ::  :: Notebooks :: Code libraries :: Visualisations :: Computational workflows :: Applications :: DATA RE-USE OF MASP-VALIDATED PACKAGES :: ' title='Slide: 14'/> 
+</figure>
 
 
 
@@ -290,7 +318,9 @@ Since all deposited collections already meet the MASP validation requirements, t
 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='./Slide15.svg' alt='MASP: RESEARCH OUTPUTS PUBLISHED/ARCHIVED ::  ::  :: Data Preparation ::  ::  ::  :: Describe &amp; Package :: MASP-driven metadata entry ::  :: *Provenance information automatically included by tools ::  ::  :: RO-Crate :: Data Packages :: Deposit &amp; Display ::  :: Repository deposit :: Analysis ::  :: Notebooks :: Code libraries :: Visualisations :: Computational workflows :: Applications :: ' title='Slide: 15' border='1'  width='85%'/> 
+<figure>
+    <img src='./Slide15.svg' alt='MASP: RESEARCH OUTPUTS PUBLISHED/ARCHIVED ::  ::  :: Data Preparation ::  ::  ::  :: Describe &amp; Package :: MASP-driven metadata entry ::  :: *Provenance information automatically included by tools ::  ::  :: RO-Crate :: Data Packages :: Deposit &amp; Display ::  :: Repository deposit :: Analysis ::  :: Notebooks :: Code libraries :: Visualisations :: Computational workflows :: Applications :: ' title='Slide: 15'/> 
+</figure>
 
 
 
@@ -306,7 +336,9 @@ This workflow automatically adds provenance information in the RO-Crate, making 
 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='./Slide16.svg' alt='MASP NEXT STEPS ::  :: Establishing MASP under RO-Crate Steering Committee governance :: More tools :: Example crates to MASP :: Legacy/existing linked data ontologies to MASP :: MASP editor app ::  ::  :: ' title='Slide: 16' border='1'  width='85%'/> 
+<figure>
+    <img src='./Slide16.svg' alt='MASP NEXT STEPS ::  :: Establishing MASP under RO-Crate Steering Committee governance :: More tools :: Example crates to MASP :: Legacy/existing linked data ontologies to MASP :: MASP editor app ::  ::  :: ' title='Slide: 16'/> 
+</figure>
 
 
 
@@ -322,7 +354,9 @@ We are also working on new tools to create and use MASPs, for example, creating 
 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
-<img src='./Slide17.svg' alt='' title='Slide: 17' border='1'  width='85%'/> 
+<figure>
+    <img src='./Slide17.svg' alt='' title='Slide: 17' border='1'  width='85%'/> 
+</figure>
 
 
 If you’d like to hear more about what LDaCA is working on, feel free to subscribe to our newsletter or get in contact with us.
