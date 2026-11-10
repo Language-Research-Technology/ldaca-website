@@ -13,7 +13,7 @@
 
 <a href="MASP Presentation.pdf">PDF version</a> | <a href="MASP Presentation.pptx">Powerpoint Version</a>
 
-This presentation was delivered at eResearch 2026 in Melbourne by PT as Rosanna was unable to attend. We wrote the presentation together with the help of the Language Data Commons of Australia (LDaCA) team. Our attendance at the confence was paid by the LDaCA (University of Queensland), supported by coinvestment from the Australian Research Data Commons (ARDC).
+This presentation was delivered at eResearch 2026 in Melbourne by PT as Rosanna was unable to attend. We wrote the presentation together with the help of the Language Data Commons of Australia (LDaCA) team. Our attendance at the conference was paid by the LDaCA (University of Queensland), supported by coinvestment from the Australian Research Data Commons (ARDC).
 
 
 <section typeof='http://purl.org/ontology/bibo/Slide'>
