@@ -81,7 +81,7 @@ With our partners, we have developed and adapted a suite of other technical reso
 * Software libraries for managing data in RO-Crate, maintaining schemas available on our [github organisation](https://github.com/Language-Research-Technology).
 * RO-Crate preparation tools, including:
     * [Crate-O](https://language-research-technology.github.io/crate-o/#/) (now included in Nyingarn)
-    * Crate-O-compatible spreadsheet templates for DIY data import and supporting familiar Excel-based workflows — [documented](/resources/guides/crate-o/convert-spreadsheet/) on the LDaCA website
+    * Crate-O-compatible spreadsheet templates for DIY data import and supporting familiar Excel-based workflows — [documented](/resources/guides/convert-spreadsheet) on the LDaCA website
     * [LaMeta](https://sites.google.com/site/metadatatooldiscussion/home), which now has RO-Crate support
     * [RO-Crate playground](https://ro-crate.ldaca.edu.au/) to experiment with and validate metadata.
 * Data preparation workspaces:
