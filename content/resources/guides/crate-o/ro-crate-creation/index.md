@@ -100,7 +100,7 @@ Crate-O allows two options for entering your metadata to an RO-Crate:
 
 If you have a spreadsheet in a compatible format that you want to add to your <GlossaryLink display="collection" id="collection" /> to assist with <GlossaryLink display="metadata" id="metadata" /> description, or you want to create a new RO-Crate only using spreadsheet data, select **_Bulk Add_** in the [Main Menu](/resources/guides/crate-o/basic-navigation/#main-menu) and load the spreadsheet. This will append it to your existing or new <GlossaryLink display="RO-Crate" id="ro-crate" />.
 
-For more guidance on the spreadsheet requirements and a template, see [Convert Spreadsheet](/resources/guides/crate-o/convert-spreadsheet). If using the template, use the [mode](#ro-crate-creationselect-mode) _Language Data Commons Comprehensive Collection_ in Crate-O.
+For more guidance on the spreadsheet requirements and a template, see [Convert Spreadsheet](/resources/guides/convert-spreadsheet). If using the template, use the [mode](#ro-crate-creationselect-mode) _Language Data Commons Comprehensive Collection_ in Crate-O.
 
 > Note that this option currently only has functionality to add new data, and cannot overwrite or edit existing data in your RO-Crate. **_Bulk Add_** also only reads from the spreadsheet and does not write to it.
 
