@@ -198,6 +198,9 @@ ${items}
   const dest = path.join(outDir, 'news', 'posts', 'rss.xml')
   fs.mkdirSync(path.dirname(dest), { recursive: true })
   fs.writeFileSync(dest, xml)
+  // Legacy URL from the old Hugo site; GitHub Pages can't do HTTP redirects,
+  // so serve the same feed here to keep existing subscribers working.
+  fs.writeFileSync(path.join(outDir, 'news', 'posts', 'index.xml'), xml)
 }
 
 // https://vitepress.dev/reference/site-config
