@@ -1,5 +1,5 @@
 <template>
-  <div class="profile-link-wrapper">
+  <span class="profile-link-wrapper">
     <a v-if="profile" :href="resolveUrl(profile.external_link)" target="_blank" rel="noopener noreferrer" class="profile-link"
       @mouseenter="showTooltip = true" @mouseleave="showTooltip = false">
       {{ profile.fullname || profile.Name }}
@@ -16,7 +16,7 @@
         </div>
       </div>
     </transition>
-  </div>
+  </span>
 </template>
 
 <script setup lang="ts">
