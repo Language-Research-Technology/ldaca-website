@@ -7,8 +7,6 @@ layout: post
 image: "/images/Petroglyph_Pattern.svg"
 ---
 
-<br>
-
 In recent years we have seen an explosion of artificial intelligence (AI) activity in language research, driven by rapid advances in natural language processing (tasks such as translation, sentiment analysis, speech recognition) and large language models (a computer's representation of human language).
 
 The increasing availability of massive language datasets, improved training methods, and more powerful computing resources has accelerated AI progress. The momentum has sparked enthusiasm and concerns around participating in the AI rush, particularly for First Nations peoples globally.
@@ -17,5 +15,3 @@ Watch this space in 2026 for a more comprehensive statement by LDaCA about using
 
 
 Read more about Generative AI in corpus linguistics on the [Sydney Corpus Lab blog](https://sydneycorpuslab.com/generative-ai-in-corpus-linguistics-a-synthesis/).
-
-<br>

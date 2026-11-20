@@ -8,21 +8,21 @@ author: '<Profile id="fleet" />'
 layout: post
 ---
 
-<br>
+ 
 
 <figure>
 <img src="./TwitteronIpad_ASPhotography.jpg" Alt="Photograph of an tablet on a desk displaying the sign on form for Twitter" Title="Twitter displayed on tablet screen"  Ref="Photo by AS Photography" />
 <figcaption>Twitter displayed on tablet screen</figcaption>
 </figure>
 
-<br>
+ 
 
 Imagine having access to over 1.9 billion tweets from Australian Twitter accounts spanning more than a decade, but without the ethical complexities that come with handling raw social media data. This is the promise of the searchable aggregate data now available on the [LDaCA data portal](https://data.ldaca.edu.au/collection?id=arcp%3A%2F%2Fname%2Chdl10.25912~RDF_1758591652309&_crateId=arcp%3A%2F%2Fname%2Chdl10.25912~RDF_1758591652309) and derived from the [Australian Twittersphere dataset](https://www.digitalobservatory.net.au/resources/australian-twittersphere/). The dataset opens up fascinating possibilities for researchers, linguists and anyone interested in understanding how Australians have used Twitter as a platform for communication, debate and cultural expression.
 The Australian Twittersphere, maintained by the Australian Digital Observatory at Queensland University of Technology (QUT), represents a significant collection of Australian social media data. The dataset captures the digital conversations of more than a million Australian Twitter accounts from January 2007 through to June 2023. But here's the challenge: accessing raw tweet data requires ethical clearance, data management plans and a solid research framework. For many researchers, especially those in the early stages of a project or those simply curious about what patterns might exist in the data, these barriers can feel insurmountable.
 
 This is where searchable aggregate data becomes transformative. By deriving specific types of statistical information from the raw dataset, we've created a resource that preserves the analytical potential of the Australian Twittersphere, whilst respecting individual privacy. The aggregate data doesn't contain individual tweets, user identities or the kind of personally identifiable information that raises ethical red flags. Instead, it offers researchers a bird's-eye view of linguistic patterns, trending topics and the digital ecosystem that characterised Australian Twitter discourse over a sixteen-year period.
 
-<br>
+ 
 
 # Building the Australian Twittersphere
 The Australian Twittersphere began its life in 2016 as part of the Tracking Infrastructure for Social Media Analysis (TrISMA) project, initially collecting tweets from approximately 530,000 Twitter accounts that were identified as Australian,  based on profile information. When the Australian Digital Observatory was established in early 2018, it inherited and expanded this collection, developing a sophisticated automated collection methodology that gathered tweets through multiple Twitter API endpoints.
@@ -33,7 +33,7 @@ The result was staggering: by the time collection ended in June 2023, the Austra
 
 The collection ended, not by choice, but by necessity. In late 2022, following Twitter's acquisition by Elon Musk, API instability became increasingly common. Through the first half of 2023, Twitter (later X) announced dramatic changes to its API access, eliminating the academic access track that researchers relied upon and implementing expensive tiered pricing. Even the Pro tier, at approximately US$5,000 per month for one million tweets, would have been insufficient to maintain collection at the scale of the Australian Twittersphere. When Twitter/X revoked the Digital Observatory's API access in early July 2023, collection ceased. The last reliable data is therefore from 30 June 2023, marking the end of an era in Australian social media research.
 
-<br>
+ 
 
 <figure>
 <img src="./TweetspermonthAusTwitter.png" Alt="Line graph representation of the Number of tweets per month from 2016 onwards for all three collections that together form the Australian Twittersphere." Title="Number of tweets per month from 2016 onwards for all three collections that together form the Australian Twittersphere" Ref="AusTwittersphere Factsheet" />
@@ -103,4 +103,4 @@ The Australian Twittersphere might have ended in June 2023, but through this agg
 # Getting started
 If you're interested in exploring the Australian Twittersphere aggregate data please refer to the [LDACA Data Portal](https://data.ldaca.edu.au/collection?id=arcp%3A%2F%2Fname%2Chdl10.25912~RDF_1758591652309&_crateId=arcp%3A%2F%2Fname%2Chdl10.25912~RDF_1758591652309). If you are interested in accessing the full databank, the best place to start is by visiting the [Australian Twittersphere information](https://www.digitalobservatory.net.au/resources/australian-twittersphere/) at the Australian Digital Observatory website or contacting the Digital Observatory team at digitalobservatory@qut.edu.au.
 
-<br>
+ 

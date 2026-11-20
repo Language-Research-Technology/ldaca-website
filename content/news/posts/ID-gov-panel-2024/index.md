@@ -16,11 +16,11 @@ author: '<Profile id="lea" />'
   <figcaption>Figure 1: Panellists and audience at Indigenous Data Governance: A discussion. (Image: Lewis James Bin Doraho)</figcaption>
 </figure>
 
-<br>
+ 
 
 The Language Data Commons of Australia (LDaCA) hosted an Indigenous Data Governance panel discussion on 30 September 2024 at [The University of Queensland (UQ) Anthropology Museum](https://anthropologymuseum.uq.edu.au/) (Figure 1). This event brought together a panel of three speakers — Lesley Acres ([UQ Library](https://www.library.uq.edu.au/)), Dr Rose Barrowcliffe ([Macquarie University](https://www.mq.edu.au/) and LDaCA) and Robert McLellan (UQ and LDaCA). The discussion was facilitated by Grant Sarra.
 
-<br>
+ 
 
 > **_Rose Barrowcliffe_** _is Butchulla and is a post-doctoral research fellow at Macquarie University and an Honorary Senior Research Fellow at UQ. Rose's research examines the representation of Aboriginal and Torres Strait Islander peoples in archives, and her postdoc specifically focusses on embedding Indigenous perspectives in metadata to support discoverability and access of records for Indigenous peoples. Rose is a Chief Investigator on the LDaCA project._
 
@@ -30,11 +30,11 @@ The Language Data Commons of Australia (LDaCA) hosted an Indigenous Data Governa
 
 > **_Grant Sarra_** _is a proud descendant of the Gooreng Gooreng people through his mother and a first-generation Italian through his father. As a highly strategic and analytical cultural leader, Grant has played a key role in designing and developing large-scale social and economic enterprises across Australia. His work has led to increased self-determination, operational success and substantial additional funding for Aboriginal and Torres Strait Islander organisations and communities._
 
-<br>
+ 
 
 The panellists explored topics of data accessibility and discoverability, [Indigenous Cultural and Intellectual Property](https://www.terrijanke.com.au/icip) (ICIP), and tools and <GlossaryLink display="methods" id="methods" /> for Indigenous Data Governance (ID-Gov). What follows is a summarised version of the panellists' contributions organised around the main themes of the discussion.<sup><a name="back-1" >[1](#fn-1)</a></sup> Key takeaways for Galleries, Libraries, Archives and Museums (GLAM) sector workers looking to implement ID-Gov strategies in their <GlossaryLink display="collections" id="collection" /> were the importance of employing First Nations staff and working in respectful partnership with communities.
 
-<br>
+ 
 
 ## Supporting community access to data
 
@@ -54,20 +54,20 @@ A fuller understanding of Indigenous data opens up better pathways to recognise 
 
 Importantly, Rose added that collecting institutions who engage with ICIP are better equipped to build frameworks for ID-Gov.
 
-<br>
+ 
 
 <figure>
   <img src="./DSC_5619.jpg" alt="Rose Barrowcliffe speaks on the panel." title="Rose" />
   <figcaption>Figure 2: Dr Rose Barrowcliffe. (Image: Lewis James Bin Doraho)</figcaption>
 </figure>
 
-<br>
+ 
 
 ## Strategies for implementing Indigenous Data Governance
 
 Indigenous Data Sovereignty (ID-Sov) and ID-Gov are terms sometimes used interchangeably in the Australian public sector. Robert McLellan (Figure 3) sees ID-Gov as *"the mechanism that gives effect to those self-determined ideals [of ID-Sov]."* Important pockets of work developing these ideals are happening nationally and [internationally](https://www.gida-global.org/careprinciples). How can collecting institutions meaningfully engage with and practically implement mechanisms for ID-Gov in their work?
 
-<br>
+ 
 
 ### Transparency of roles
 
@@ -77,7 +77,7 @@ One of the key steps that Robert identified for collecting institutions beginnin
 - <GlossaryLink display="Data custodians" id="data-custodian" /> are those who provide storage and access services.
 - <GlossaryLink display="Data stewards" id="data-steward" /> are those who process data in different ways.
 
-<br>
+ 
 
 Robert commented that:
 
@@ -91,14 +91,14 @@ Rose added that:
 
 Being transparent about these roles will improve accountability in institutions and work to address frustration about access to materials in communities.
 
-<br>
+ 
 
 <figure>
   <img src="./DSC_5637.jpg" alt="Robert McLellan speaks on the panel." title="Robert" />
   <figcaption>Figure 3: Robert McLellan. (Image: Lewis James Bin Doraho)</figcaption>
 </figure>
 
-<br>
+ 
 
 ### Auditing and metadata enrichment
 
@@ -109,20 +109,20 @@ Lesley Acres's (Figure 4) work on the _[Elevating and Respecting Aboriginal and 
 - Record of visit to mission stations (Norman Nelson Collection) (UQFL57)
 - Caroline Kelly Papers (UQFL489).
 
-<br>
+ 
 
 The process uncovered gaps in the library's metadata and was a means of:
 
 <ul> <i>Giving Aboriginal and Torres Strait Islander people control over their own knowledges... Those four collections had never been audited. Back then, there were three of us — three Aboriginal and Torres Strait Islander women — who were looking at that information, and when we started, the first one we looked at was Caroline Tennant Kelly's papers. By the time we finished auditing that collection, we found over 200 people listed in her <GlossaryLink display="fieldnotes" id="fieldnotes" />, 47 we recognised as contributors. That collection was so significant in that we met with <a href=https://www.link-upqld.org.au>LinkUp QLD</a>, and they now use that collection to help connect their clients to ancestors.</i> (LA) </ul>
 
-<br>
+ 
 
 <figure>
   <img src="./DSC_5624.jpg" alt="Lesley Acres speaks on the panel." title="Lesley" />
   <figcaption>Figure 4: Lesley Acres. (Image: Lewis James Bin Doraho)</figcaption>
 </figure>
 
-<br>
+ 
 
 ### Getting out of your comfort zone
 
@@ -130,7 +130,7 @@ The process uncovered gaps in the library's metadata and was a means of:
 
 It is important for collecting institutions to investigate their legacy. A core principle of ICIP is [free, prior and informed consent](https://www.artslaw.com.au/information-sheet/indigenous-cultural-intellectual-property-icip-aitb/), which can be difficult to determine for historical collections. In some cases, we might know that permissions were not obtained, or that they were collected, but not in ways that are current best practice. In other cases, we might not have any information about the <GlossaryLink display="provenance" id="provenance" /> of and permissions surrounding historical materials. Collecting institutions can work to build partnerships, and invest financial and staffing resources, where this is possible, into this reflective and investigative work. Lesley described this type of work as a "_cultural learning journey_."
 
-<br>
+ 
 
 ## Employing First Nations staff
 
@@ -144,14 +144,14 @@ Lived experience also plays an important role in decision making around technolo
 
 <ul> <i>Technology is always an amazing opportunity, if it's used in the right way, but you have to have people who have the lived experience of using it the wrong way too.</i> (RB)</ul>
 
-<br>
+ 
 
 <figure>
   <img src="./DSC_5644-Enhanced-NR.jpg" alt="Members of the audience engage with the panellists." title="Audience members" />
   <figcaption>Figure 5: Members of the audience engaging with the panellists. (Image: Lewis James Bin Doraho)</figcaption>
 </figure>
 
-<br>
+ 
 
 ## Working with archives safely
 
@@ -173,8 +173,8 @@ When communities are not ready to engage with archival processes, this can be an
 
 > **_We are grateful to all three of the panellists for their theoretical and practical insights into Indigenous Data Governance, as well as to Grant Sarra for facilitating the discussion._**
 
-<br>
+ 
 
 <a name="fn-1">1</a> This summary was prepared by <Profile id="lea" />, with helpful comments from the panellists, Teresa Chan and Simon Musgrave. [↩](#back-1)
 
-<br>
+ 

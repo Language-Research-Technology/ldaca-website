@@ -24,30 +24,30 @@ title: "Projects & case studies"
   shade="light"
   :items="[
       {
-        title: 'Identifying Precarious Victorian Oral Histories',
-        link: '/projects-case-studies/projects/identifying-precarious-victorian-oral-histories',
-      },
+        title: 'ARDS Archive',
+        link: '/projects-case-studies/projects/ARDS-Archive',
+      }, 
       {
         title: 'Ayeye thipe-akerte',
         link: '/projects-case-studies/projects/ayeye-thipe-akerte',
       },
       {
-        title: 'Graduate Digital Research Fellowship',
-        link: '/projects-case-studies/projects/graduate-digital-research-fellowship',
-      },
-      {
-        title: 'ARDS Archive',
-        link: '/projects-case-studies/projects/ARDS-Archive',
-      },  
-      {
         title: 'CALL Collection Catalogue',
         link: '/projects-case-studies/projects/CALL-Collection-Catalogue',
       },
-                  {
+      {
         title: 'Community Language Workshops',
         link: '/projects-case-studies/projects/Community-language-workshops',
         description:'Working with communities to shape locally controlled approaches to language archiving'
       },
+      {
+        title: 'Identifying Precarious Victorian Oral Histories',
+        link: '/projects-case-studies/projects/identifying-precarious-victorian-oral-histories',
+      },
+      {
+        title: 'Graduate Digital Research Fellowship',
+        link: '/projects-case-studies/projects/graduate-digital-research-fellowship',
+      },          
       {
         title: 'Wordflow',
         link: '/projects-case-studies/projects/wordflow',

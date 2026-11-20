@@ -1,6 +1,6 @@
 ---
 title: "CALL Collection Catalogue"
-description: Supporting the long-term care and appropriate access of language materials
+description: Supporting the long-term care and appropriate access of language materials.
 layout: project
 collaboratorLogo: "/images/partner-logos/BatchelorInstitute_logo.png"
 collaborator: "Batchelor Institute of Indigenous Tertiary Education"

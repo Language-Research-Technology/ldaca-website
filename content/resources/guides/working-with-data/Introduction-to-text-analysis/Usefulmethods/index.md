@@ -6,24 +6,24 @@ image: ""
 layout: doc
 ---
 
-<br>
+ 
 
 
 
-<br>
+ 
 
 - [Counting Words](#counting-words)
 - [More complex methods: Classification](#more-complex-methods-:-classification)
 - [More complex methods: Others](#more-complex-methods:-Others)
 
-<br>
+ 
 
 
 Throughout this page, we have given links to further information in Wikipedia and in the tutorials provided by the Language Technology and Data Analysis Laboratory LADAL at The University of Queensland. We also have given references to published research using the methods we discuss.
 
 LADAL has an overview of text analysis and distant reading.
 
-<br>
+ 
 
 ## Counting Words
 

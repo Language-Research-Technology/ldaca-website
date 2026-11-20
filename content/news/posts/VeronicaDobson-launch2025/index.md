@@ -9,22 +9,22 @@ image: "/news/posts/VeronicaDobson-launch2025/VPDLaunch-2.jpg"
 category: "PROJECT"
 ---
 
-<br>
+ 
 
 **A new project brings together the incredible life's work of Veronica Perrurle Dobson (AM).**
 
-<br>
+ 
 
 On Wednesday 2 April, the Centre for Australian Languages and Linguistics ([CALL](https://callcollection.batchelor.edu.au/)) at [Batchelor Institute](https://www.batchelor.edu.au/) launched *Arne ingkerreke apurtelhe-ileme* (Gathering all the things together) at their Mparntwe (Alice Springs) campus. 
 
-<br>
+ 
 
 <figure>
   <img src="./VPDLaunch-1.jpg" alt="A large group of people sit applauding the project launch out of shot." title="Attendees of the Arne ingkerreke apurtelhe-ileme launch at Batchelor Institute." />
   <figcaption>Attendees of the Arne ingkerreke apurtelhe-ileme launch at Batchelor Institute. (Image: Charlee-Ann Ah Chee)</figcaption>
 </figure>
 
-<br>
+ 
 
 Veronica Dobson is an Eastern Arrernte elder, linguist, educator, author and ecologist, whose advocacy and work for language and culture is widely recognised and deeply respected. For over four decades, Veronica has worked in many inter-related fields — language documentation and teaching, lexicography, interpreting, ethnobiology and land management. The result is a vast body of work, which is presented for the first time through *Arne ingkerreke apurtelhe-ileme*. The [veronicadobson.au](https://veronicadobson.au) website is a guide to Veronica's life, work and publications, and contains links to archival <GlossaryLink display="collections" id="collection" /> of her work.
 
@@ -47,11 +47,11 @@ Veronica's dedication to and passion for language and culture fills the project 
     <cite>Veronica Dobson</cite>
 </p>
 
-<br>
+ 
 
 <figure>
   <img src="./VPDLaunch-2.jpg" alt="A photograph of Veronica Perrurle Dobson with a celebratory cake. In the background is a large screen projecting the Arne ingkerreke apurtelhe-ileme website homepage." title="Veronica Perrurle Dobson celebrates the launch of Arne ingkerreke apurtelhe-ileme." />
   <figcaption>Veronica Perrurle Dobson celebrates the launch of Arne ingkerreke apurtelhe-ileme. (Image: Charlee-Ann Ah Chee)</figcaption>
 </figure>
 
-<br>
+ 

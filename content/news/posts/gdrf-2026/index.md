@@ -13,9 +13,9 @@ LDaCA has run its Graduate Digital Research Fellowship (GDRF) program in 2026, f
 <figure>
   <img src="./GDRF2026.png" Alt="Zoom screenshot of the eight GDRF participants and program leader Simon Musgrave" Title="2026 GDRF Participants"/>
   <figcaption>Top Row: Simon, Sam, Oscar, Lindsey
-  <br>
+   
   Middle Row: Yvette, Sara, Mili, Teresa
-  <br>
+   
  Bottom Row: Chili, Anastasia
 </figcaption>
 </figure>

@@ -5,7 +5,7 @@ draft: false
 description: "Further information relating to Indigenous research."
 ---
 
-<br>
+ 
 
 - [Protocols](https://australiacouncil.gov.au/wp-content/uploads/2021/07/protocols-for-using-first-nati-5f72716d09f01.pdf)
   for using First Nations Cultural and <GlossaryLink display="Intellectual Property" id="intellectual-property" /> in the Arts (Australia Council).
@@ -19,4 +19,4 @@ description: "Further information relating to Indigenous research."
 - Rawlings, V, Flexner, J L, Riley, L (eds.) (2021) _[Community-Led Research: Walking New Pathways Together](https://open.sydneyuniversitypress.com.au/files/9781743327630.pdf)_. Sydney University Press
 - [The Linguistics and Applied Linguistics Indigenous Curriculum Resource Project](https://arts-icrp.unimelb.edu.au/static/assets/media/Linguistics%20and%20Applied%20Linguistics.pdf) ([The University of Melbourne](https://www.unimelb.edu.au/)) This report, prepared by [Sasha Wilmoth](https://sashawilmoth.com/), includes a bibliography of linguistic work by Australian Indigenous authors.
 
-<br>
+ 

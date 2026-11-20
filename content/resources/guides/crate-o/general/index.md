@@ -10,14 +10,14 @@ weight: 1
 layout: doc
 ---
 
-<br>
+ 
 
 - [Crate-O use cases](#crate-o-use-cases)
 - [RO-Crate collection hierarchy](#ro-crate-collection-hierarchy)
 - [Schemas, profiles and modes](#schemas-profiles-and-modes)
 - [Schema.org style schemas (SOSSs) and RO-Crate profiles and modes](#schema.org-style-schemas-(sosss)-and-ro-crate-profiles-and-modes)
 
-<br>
+ 
 
 [Crate-O](https://language-research-technology.github.io/crate-o/#/) is a browser-based editor that allows you to create and update [Research Object Crates](https://www.researchobject.org/ro-crate) (RO-Crates), either using the web interface or with <GlossaryLink display="metadata" id="metadata" /> from a spreadsheet. It provides researchers with a relatively simple way to describe their data using best practice in formal metadata description.
 
@@ -29,11 +29,11 @@ Crate-O is implemented in the GitHub page [Crate-O](https://language-research-te
 
 While the current version of Crate-O is designed for editing self-contained RO-Crates (and works fine with crates containing tens of thousands of entities), our roadmap includes adding the ability to edit fragments of larger linked-data resources and to integrate with repositories, such as the <GlossaryLink display="Oni" id="oni" /> repository, data <GlossaryLink display="API" id="api" /> and archival repositories such as the Language Data Commons of Australia.
 
-<br>
+ 
 
 ## Crate-O use cases
 
-<br>
+ 
 
 <GlossaryLink display="Crate-O" id="crate-o" /> is designed to work with any of the following use cases:
 
@@ -43,22 +43,22 @@ While the current version of Crate-O is designed for editing self-contained RO-C
 - Submit a data collection to the <GlossaryLink display="LDaCA" id="ldaca" /> Portal
 - Edit a <GlossaryLink display="Schema" id="schema" /> that contains a set of vocabulary terms, such as the [terms](https://w3id.org/ldac/terms) used by LDaCA.
 
-<br>
+ 
 
 ## RO-Crate collection hierarchy
 
-<br>
+ 
 
 The diagram below shows the hierarchical relationship between <GlossaryLink display="collections" id="collection" />, <GlossaryLink display="objects" id="object" /> and files in a corpus, together with the <GlossaryLink display="metadata" id="metadata" /> categories which track these relationships.
 
-<br>
+ 
 
 <figure>
   <img src="./my_corpus.png" Alt="Self-contained corpus crate with all resources" Title="Self-contained corpus crate with all resources" Ref="LDaCA" />
   <figcaption>Self-contained corpus crate with all resources</figcaption>
 </figure>
 
-<br>
+ 
 
 The metadata is organised according to Schema.org entity types.
 
@@ -68,7 +68,7 @@ The metadata is organised according to Schema.org entity types.
 | Property    | `rdfs:Property` is an attribute of an instance of a Class. For example, on an entity that is an instance of Class Person the property “name” would be their name, expressed as a text string, while “affiliation” would be a property that referenced another entity, their university.                                                |
 | DefinedTerm | A 'word, name, acronym, phrase, etc. with a formal definition', 'often used in the context of category or subject classification.' DefinedTerms allow us to a) have accurate definitions of the values we want to give to properties, and b) group such definitions in DefinedTermSets, which can function as controlled vocabularies. |
 
-<br>
+ 
 
 The table below shows an example of the relationship between each of these entities:
 
@@ -84,22 +84,22 @@ The table below shows an example of the relationship between each of these entit
 
 For more details on these and other metadata entities, see [Metadata for Language Data](https://ldaca.gitbook.io/metadata-for-language-data/).
 
-<br>
+ 
 
 ## Schemas, profiles and modes
 
-<br>
+ 
 
 This diagram shows the relationship between the three main components used by <GlossaryLink display="Crate-O" id="crate-o" /> and other <GlossaryLink display="tools" id="tools" /> employed by LDaCA for specifying and validating <GlossaryLink display="RO-Crates" id="ro-crate" />. This section explains what these components are and how they relate.
 
-<br>
+ 
 
 <figure>
   <img src="./schema-mode-profile.svg" Alt="The three main components for RO-Crate editing with Crate-O" Title="The three main components for RO-Crate editing with Crate-O" Ref="LDaCA" />
   <figcaption>The three main components for RO-Crate editing with Crate-O</figcaption>
 </figure>
 
-<br>
+ 
 
 1. A [Schema](#soss) specifies a <GlossaryLink display="metadata" id="metadata" /> vocabulary of <GlossaryLink display="Classes" id="class" /> and <GlossaryLink display="Properties" id="property" />, based on the RO-Crate specification's use of Schema.org classes.
 
@@ -113,7 +113,7 @@ This diagram shows the relationship between the three main components used by <G
 
 These are all inter-related, and can be developed together or separately using <GlossaryLink display="tools" id="tools" />.
 
-<br>
+ 
 
 > See the links below to the <GlossaryLink display="LDAC" id="ldac" /> schema, profile and modes:
 >
@@ -123,19 +123,19 @@ These are all inter-related, and can be developed together or separately using <
 
 <a name="soss"> </a>
 
-<br>
+ 
 
 ## Schema.org style schemas (SOSSs) and RO-Crate profiles and modes
 
-<br>
+ 
 
 Schema.org, which provides the basic vocabulary for <GlossaryLink display="RO-Crate" id="ro-crate" />, has a light-touch approach to describing what it refers to as its _schema_ (with a small-s), which might also be thought of as an _ontology_. Schema.org is defined as a set of <GlossaryLink display="Classes" id="class" /> and <GlossaryLink display="Properties" id="property" />, each of which has an online definition. The below example illustrates that the base class [Thing](https://schema.org/Thing) and its subclass [Person](https://schema.org/Person) has properties such as [birthDate](https://schema.org/birthDate).
 
-<br>
+ 
 
 **Class**: Thing → **Sub-Class**: Person → **Property**: birthDate
 
-<br>
+ 
 
 Schema.org specifies which Classes can have particular Properties.
 
@@ -161,7 +161,7 @@ Here is the definition for Person:
 }
 ```
 
-<br>
+ 
 
 The Class definition does not have any information about the occurrence of properties -- that is found in a Property definition:
 
@@ -180,17 +180,17 @@ The Class definition does not have any information about the occurrence of prope
 }
 ```
 
-<br>
+ 
 
 A SOSS is a Flattened <GlossaryLink display="JSON" id="json" />-LD graph, just like an RO-Crate. Some members of the RO-Crate community are beginning to define its basic <GlossaryLink display="schema" id="schema" /> and RO-Crate <GlossaryLink display="Profiles" id="profile" /> using the SOSS's same approach.
 
 To make an RO-Crate <GlossaryLink display="Mode" id="mode" /> File, we transform the flat graph of a schema into something optimised for driving an editor or a validator; it creates a list of Classes, and what properties each may have.
 
-<br>
+ 
 
 <figure>
   <img src="./soss-to-profile.svg" Alt="Base Mode File creation, combining the Schema.org schema and RO-Crate additions using the rocsoss script" Title="Base Mode File creation, combining the Schema.org schema and RO-Crate additions using the rocsoss script" Ref="LDaCA" />
   <figcaption>Base Mode File creation, combining the Schema.org schema and RO-Crate additions using the rocsoss script</figcaption>
 </figure>
 
-<br>
+ 

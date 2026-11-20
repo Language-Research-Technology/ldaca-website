@@ -23,6 +23,13 @@ title: "Guides"
         link: '/resources/guides/crate-o',
         image: '/images/PlainBackgrounds/Greenplain.png',
       },
+            {
+        title: 'Managing collection metadata in spreadsheets',
+        description: 'Guidance and a spreadsheet template for documenting collection metadata in RO-Crate format.',
+        category: 'HOW-TO GUIDE',
+        link: '/resources/guides/convert-spreadsheet',
+        image: '/images/PlainBackgrounds/Altblue.png',
+      },
       {
         title: 'Cite data',
         description: 'A guide to citing collections and data accessed through the LDaCA data portal.',

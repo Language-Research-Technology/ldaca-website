@@ -10,7 +10,7 @@ author:  <Profile id="chan" />
 
 What is it actually like to take part in LDaCA's Graduate Digital Research Fellowship (GDRF)? We put the question to Teresa Chan, LDaCA’s Senior Research Project Officer in Research Support and Training and a 2026 GDRF participant. Running for the fourth consecutive year and led by Simon Musgrave and Sam Hames, the program is designed to open up the world of digital scholarship to research students.
 
-<br>
+ 
 
 <figure>
     <img src="./teresa-chan.jpg" alt="Headshot of Teresa" title="Teresa Chan" />
@@ -51,4 +51,4 @@ Although the program is specifically process-oriented, rather than output-orient
 
 As a non graduate research student, I’ve loved getting an insight into their experiences and what completing a PhD thesis can look like. It’s also incredibly fascinating to see the connections they are making, based on tackling similar problems. For instance, a few participants are working with transcripts, and they suggested transcription software and methods to each other. It shows that even though we are all from different fields of research, we’re on the same journey and encountering the same issues. Another added benefit is hearing first hand about how digital methods are new to some students. Being somewhat familiar with programming and working with incredibly tech-savvy colleagues, I sometimes forget how much of a learning curve it can be to novices. This will definitely inform my work in the Research Support and Training area of LDaCA.
 
-<br>
+ 

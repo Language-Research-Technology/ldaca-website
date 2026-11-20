@@ -29,7 +29,7 @@ description: "Catch up with LDaCA by reading our past newsletters."
         <p><a class="font-bold text-[#383938] hover:underline" href="https://us13.campaign-archive.com/?u=ef8667be63aefb1e35062a797&id=62ca105abc" target="_blank" rel="noopener noreferrer">Quarter 2 2026</a></p>
       </div>
             <div class="mt-3">
-        <p><a class="font-bold text-[#383938] hover:underline" href="https://us13.campaign-archive.com/?u=ef8667be63aefb1e35062a797&id=62ca105abc" target="_blank" rel="noopener noreferrer">Quarter 1 2026</a></p>
+        <p><a class="font-bold text-[#383938] hover:underline" href="https://mailchi.mp/d7b698fe4c21/ldaca-newsletter-2025-highlights-whats-next-in-2026" target="_blank" rel="noopener noreferrer">Quarter 1 2026</a></p>
       </div>
     </details>
     </div>

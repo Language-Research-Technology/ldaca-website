@@ -36,7 +36,7 @@ const props = defineProps({
   },
   buttonLink: {
     type: String,
-    default: '/about'
+    default: '/about/organisation'
   }
 })
 

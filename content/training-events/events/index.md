@@ -22,14 +22,6 @@ title: "Events"
   :opacity="100"
   heading="UPCOMING EVENTS"
   :items="[
-   {
-        title: 'Point-and-click text analytics: an introduction to LDaCA Wordflow',
-        link: '/training-events/events/2026/point-click-wordflow',
-    },
-  {
-        title: 'eResearch Australasia 2026',
-        link: '/training-events/events/2026/e-research-2026',
-    },
       {
         title: 'Organise, Manipulate and Analyse Text Data with Wordflow',
         link: '/training-events/events/2026/organise-manipulate-analyse',
@@ -49,6 +41,10 @@ title: "Events"
   heading="EVENT RECORDINGS"
   buttonText="Watch recording"
   :items="[
+  {
+        title: 'Text analytics without code: Teach AI your codebook (LDaCA Wordflow)',
+        link: '/training-events/events/2026/wordflow-online-workshop',
+    },
   {
         title: 'The collaborative power of a Research Data Commons: LDaCA case studies',
         link: '/training-events/events/2026/collaborative-power-RDC',
@@ -82,7 +78,14 @@ title: "Events"
   shade="light"
   :opacity="100"
   heading="PAST EVENTS"
-  :items="[
+  :items="[   {
+        title: 'Point-and-click text analytics: an introduction to LDaCA Wordflow',
+        link: '/training-events/events/2026/point-click-wordflow',
+    },
+  {
+        title: 'eResearch Australasia 2026',
+        link: '/training-events/events/2026/e-research-2026',
+    },
        {
         title: 'Working with text workshops: From interview transcripts to 125 years of Hansard',
         link: '/training-events/events/2026/Working-with-text',
@@ -90,6 +93,10 @@ title: "Events"
    {
                     title: 'Understanding society through data: A cross-infrastructure showcase',
         link: '/training-events/events/2026/Society-through-data',
+    },
+     {
+                    title: 'Text analytics without code: Teach AI your codebook (LDaCA Wordflow)',
+        link: '/training-events/events/2026/wordflow-online-workshop',
     },
                     {
                     title: 'The collaborative power of a Research Data Commons: LDaCA case studies',

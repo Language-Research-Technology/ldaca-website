@@ -7,19 +7,19 @@ layout: doc
 ---
 
 
-<br>
+ 
 
 - [Introduction](#introduction)
 - [Common Cleaning Techniques](#common-cleaning-techniques)
 - [Annotation](#annotation)
 
-<br>
+ 
 
 <figure>
     <img src="./data-prep.jpg"/>
 </figure>
 
-<br>
+ 
 
 ## Introduction
 
@@ -27,7 +27,7 @@ This graphic is, sadly, all too true. Data scientists and those who are using da
 
 There are two main processes that are needed to prepare text data for analysis, [cleaning](#common-cleaning-techniques) and [annotation](#annotation), and the ones that you will need to use will depend on the dataset that you are using.
 
-<br>
+ 
 
 ## Common Cleaning Techniques
 
@@ -43,7 +43,7 @@ There are two main processes that are needed to prepare text data for analysis, 
 
 - **Removing whitespace:** Whitespace can be another possible source of artefacts in analysis, especially if the source material uses a lot of tabs.
 
-<br>
+ 
 
 ## Annotation
 

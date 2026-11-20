@@ -8,7 +8,7 @@ category: "RESOURCE"
 layout: doc
 ---
 
-<br>
+ 
 
 - [Purpose](#purpose)
 - [1. Access Types and Licensing](#1.-access-types-and-licensing) ([Classification of Access Types](#classification-of-access-types))
@@ -16,7 +16,7 @@ layout: doc
 - [3. Ongoing Data Management Strategy](#3.-ongoing-data-management-strategy)
 - [4. Supporting Information](#4.-supporting-information) ([LDaCA Terms of Use](#ldaca-terms-of-use), [Privacy Policy](#privacy-policy), [Takedown Policy](#takedown-policy))
 
-<br>
+ 
 
 ## Purpose
 
@@ -30,13 +30,13 @@ The Access Policy comprises three key components, as outlined in this document:
 - Onboarding data to LDaCA
 - Ongoing data management
 
-<br>
+ 
 
 ## 1. Access Types and Licensing
 
 The foundation of the LDaCA Access Policy is <GlossaryLink display="licensing" id="licensing" />, i.e. the action of setting out conditions for accessing and using data in a license that is attached to all data in our systems. <GlossaryLink display="Access conditions" id="access-conditions" /> are defined by the <GlossaryLink display="Data Steward" id="data-steward" /> for each collection, and they may restrict access as little or as much as desired, from open access, to an automated click-through license, to case-by-case approval prior to gaining access to the data.
 
-<br>
+ 
 
 ### Classification of Access Types
 
@@ -45,13 +45,13 @@ The foundation of the LDaCA Access Policy is <GlossaryLink display="licensing" i
 | **Open Access**                                                                                                                                                           | Data is openly available under a <GlossaryLink display="Creative Commons license" id="creative-commons-licenses" /> or similar (including for data in the public domain).                                                                                                                                                                                                                                                                                                                                                                                                        | The user can read the license and directly access the data.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | **Authorization Required** <br>Different levels of implementation:<ol><li>click-through license</li><li>by invitation</li><li>by application (case-by-case approval by <GlossaryLink display="Data Steward" id="data-steward" />) </li></ol>| Data is available with some restrictive conditions of use, as outlined in the license. Users must authenticate their identity to access these materials.<br>In some cases, access to the license is limited to specific users, who can be defined by invitation and/or application (note that these are not mutually exclusive – either or both options may be implemented). Such authorisation requires ongoing engagement from the <GlossaryLink display="Data Steward" id="data-steward" /> in order to manage access lists and approve/decline access requests. | A number of levels of authorization can be implemented depending on the <GlossaryLink display="access conditions" id="access-conditions" />:<ol><li> **License acceptance** : the user must read and accept the license (click-through) before accessing the data.</li><li> **By invitation** : the <GlossaryLink display="Data Steward" id="data-steward" /> invites users to access and accept the license. Only invited users can gain access.</li><li> **By application** : specific conditions apply, and the user must provide extra information to gain access, which they do through a linked application form which must be reviewed and approved by the <GlossaryLink display="Data Steward" id="data-steward" /> before access is granted.<br>Approval may be dependent on, for example, the community or academic affiliation of the applicant; the specific use of the data requested; payment of a fee; or other.</li></ol>|
 
-<br>
+ 
 
 ## 2. Onboarding Data to LDaCA
 
 In accordance with the Access Policy, LDaCA has an established process for onboarding to LDaCA. Throughout this process, the LDaCA team will work with the <GlossaryLink display="Data Steward" id="data-steward" /> to develop an effective strategy for managing access, in accordance with relevant legal, moral and ethical considerations applying to that data. Read more about [our data onboarding process.](/resources/guides/working-with-data/data-onboarding-process/)
 
-<br>
+ 
 
 ### LDaCA Responsibilities
 
@@ -59,7 +59,7 @@ In accordance with the Access Policy, LDaCA has an established process for onboa
 2. Adapting the onboarding process as relevant to the specific needs and requirements of the collection and Data Steward, and working to facilitate a successful and efficient onboarding process.
 3. Providing clear information to the Data Steward to ensure comprehension of the purpose of each step in the onboarding process, and responding to questions and concerns.
 
-<br>
+ 
 
 ### Data Steward Responsibilities
 
@@ -70,7 +70,7 @@ In accordance with the Access Policy, LDaCA has an established process for onboa
    Metadata are mapped to open schemas including the Open Language Archives Community (<GlossaryLink display="OLAC" id="olac" />) vocabularies for describing language data and Schema.org for generic descriptions (e.g. Name, Identifier, Description). This approach allows many metadata terms to be linked to openly available and widely used definitions.<br>
    Some metadata may be specific to a corpus or difficult to map to existing vocabulary terms. LDaCA makes use of the Language Data Ontology, which has been developed in consultation with <GlossaryLink display="OLAC" id="olac" /> and metadata specialists, to ensure consistency across terms. See [Metadata](/resources/guides/metadata) for more information.
 
-<br>
+ 
 
 ## 3. Ongoing Data Management Strategy
 
@@ -78,13 +78,13 @@ A strategy for ongoing access and data management of the collection in LDaCA mus
 
 Both LDaCA and the <GlossaryLink display="Data Steward" id="data-steward" /> are jointly responsible for ongoing maintenance of the collection in LDaCA, and updating the <GlossaryLink display="Work Plan" id="work-plan" /> as needed. Read more about [our ongoing engagement.](/resources/guides/working-with-data/data-onboarding-process/#5-ongoing-engagement)
 
-<br>
+ 
 
 ## 4. Supporting Information
 
 The Access Policy is supported by the LDaCA Terms of Use, Privacy Policy, and <GlossaryLink display="Takedown Policy" id="takedown-policy" />. These are summarised below; please go to the links to view the actual policies online.
 
-<br>
+ 
 
 ### LDaCA Terms of Use
 
@@ -102,14 +102,14 @@ The key points included in the Terms of Use are:
 
 The Terms of Use can be viewed [here](https://data.ldaca.edu.au/terms).
 
-<br>
+ 
 
 <figure>
   <img src="./LDaCA_Terms_of_Use-updated.jpg" alt="LDaCA Terms of Use: Key Points" title="LDaCA Terms of Use: Key Points" />
   <figcaption>LDaCA Terms of Use: Key Points. (LDaCA)</figcaption>
 </figure>
 
-<br>
+ 
 
 ### Privacy Policy
 
@@ -121,7 +121,7 @@ The LDaCA Privacy Policy outlines the limitations of the use of personal informa
 
 The policy document is currently under development. <!-- TODO: Link will be posted here when available. -->
 
-<br>
+ 
 
 ### Takedown Policy
 
@@ -131,4 +131,4 @@ The Takedown Request mechanism supports <GlossaryLink display="FAIR" id="fair" /
 
 The policy document is currently under development. <!-- TODO: Link will be posted here when available. -->
 
-<br>
+ 

@@ -8,11 +8,11 @@ author: '<Profile id="pettrup" />'
 image: "/news/posts/team-member-tip-chenoa-pettrup/Chenoa-photo.png"
 ---
 
-<br>
+ 
 
 > *As part of a regular feature in our quarterly newsletter, we asked LDaCA's Industry Engagement and Communications lead, Chenoa Pettrup, for a tip to pass on to readers. Read on to find out her tip for turning your data into useful visuals.*
 
-<br>
+ 
 
 If you're new to data visualisation, don’t feel like you have to rush straight into coding. Take time to plan an approach with these simple practices:
 
@@ -37,18 +37,18 @@ Effective data visualisation is not just about showcasing numbers — it's about
 
 [Storytelling with data](https://trove.nla.gov.au/work/200778188?keyword=Story%20telling%20with%20data%20cole) by Cole Nussbaumer Knaflic  is a great starting point for learning more about how to do effective storytelling with data. 
 
-<br>
+ 
 
 <figure>
   <img src="./Chenoa-photo.png" alt="A photograph of a group of people talking" title="Chenoa, left, at ARDC's HASS and Indigenous Research Data Commons Summer School in February 2025." />
   <figcaption>Chenoa, left, at ARDC's HASS and Indigenous Research Data Commons Summer School in February 2025. (Image: Photo by Marc Grimwade, courtesy of ARDC)</figcaption>
 </figure>
 
-<br>
+ 
 
 ### Chenoa Pettrup
 Chenoa Pettrup is the Industry Engagement and Communications Lead for the Language Data Commons of Australia. 
  
 She has 10 years’ experience working within the GLAM sector and has applied knowledge of engagement, digital initiatives, and design.  She has a passion for making complex ideas accessible and collaborating with a wide range of stakeholders to deliver impactful projects.
 
-<br>
+ 

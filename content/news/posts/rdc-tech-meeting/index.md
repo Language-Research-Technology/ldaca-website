@@ -13,7 +13,7 @@ description: "A presentation Peter Sefton gave to the Humanities, Arts and Socia
 image: "/news/posts/rdc-tech-meeting/Slide09.png"
 ---
 
-<br>
+ 
 
 This is a presentation Peter Sefton gave to the
 [Humanities, Arts and Social Sciences Research Data Commons and Indigenous Research Capability Program](https://ardc.edu.au/collaborations/strategic-activities/hass-and-indigenous-research-data-commons/) Technical Advisory Group on Friday 11th February 2022.
@@ -25,7 +25,7 @@ and there.
 
 [PDF version](HASS%20RDC%20Technical%20Advisory%20Group%20Meeting%20LDaCA%20&%20ATAP%20Intro.pdf)
 
-<br>
+ 
 
 <figure>
    <img src="./Slide00.png" alt="HASS RDC Technical Avisory Group Meeting" title="HASS RDC Technical Avisory Group Meeting" />
@@ -35,7 +35,7 @@ and there.
 The Language Data Commons of Australia Data Partnerships (LDaCA) and the Australian Text Analytics Platform (<GlossaryLink display="ATAP" id="atap" />) are establishing a scalable and flexible language data and analytics commons. These projects will be part of the Humanities and Social Sciences Research Data Commons (<GlossaryLink display="HASS" id="hass" /> <GlossaryLink display="RDC" id="rdc" />).
 The Data Commons will focus on preservation and discovery of distributed multi-modal language <GlossaryLink display="data collections" id="data-collection" /> under a variety of governance frameworks. This will include access control that reflects ethical constraints and <GlossaryLink display="intellectual property" id="intellectual-property" /> rights, including those of Aboriginal and Torres Strait Islander, migrant and Pacific communities.
 
-<br>
+ 
 
 <figure>
    <img src="./Slide01.png" alt="Arkisto Platform" title="Arkisto Platform" />
@@ -53,7 +53,7 @@ of some hard-to-maintain application.
 
 We are using three key standards on this project …
 
-<br>
+ 
 
 <figure>
    <img src="./Slide02.png" alt="Oxford Common File Layout" title="Oxford Common File Layout" />
@@ -95,7 +95,7 @@ Here’s the introduction to the spec:
 > **Storage diversity**
 > Finally, the community expressed a need to store content on a wide variety of storage technologies. With that in mind, the <GlossaryLink display="OCFL" id="ocfl" /> was written with an eye toward various storage infrastructures including cloud object stores.
 
-<br>
+ 
 
 <figure>
    <img src="./Slide03.png" alt="RO-Crate" title="RO-Crate" />
@@ -110,7 +110,7 @@ a **single linked-data metadata document**.
 repository, and for delivering metadata over the <GlossaryLink display="API" id="api" /> (which we’ll show in
 architecture diagrams and screenshots below).
 
-<br>
+ 
 
 <figure>
    <img src="./Slide04.png" alt="RO-Crate contents" title="RO-Crate contents" />
@@ -122,7 +122,7 @@ as a file or URL - it’s not just for language data; there are also many
 projects in the sciences starting to
 [use RO-Crate](https://www.researchobject.org/ro-crate/in-use/).
 
-<br>
+ 
 
 <figure>
    <img src="./Slide05.png" alt="Portland Common Data Model" title="Portland Common Data Model" />
@@ -145,7 +145,7 @@ collections as <GlossaryLink display="OCFL" id="ocfl" /> objects or across many 
 show the structure of the <GlossaryLink display="data collections" id="data-collection" /> regardless of how they happen to
 be stored.
 
-<br>
+ 
 
 <figure>
    <img src="./Slide06.png" alt="HTML file: Collection level" title="HTML file: Collection level" />
@@ -166,7 +166,7 @@ it may be redistributed. As we are dealing with language data which is (almost
 ) always created by people, it is important that their <GlossaryLink display="intellectual property" id="intellectual-property" />
 rights and privacy are respected. More on this later.
 
-<br>
+ 
 
 <figure>
    <img src="./Slide07.png" alt="HTML file: Object level" title="HTML file: Object level" />
@@ -192,7 +192,7 @@ Simon Musgrave and Peter Sefton
 [presented our progress with multilingual text](https://ptsefton.com/2022/01/27/DAMTA_Slides_v1/)
 at a virtual workshop run by ANU in January.
 
-<br>
+ 
 
 <figure>
    <img src="./Slide08.png" alt="HTML file: File level" title="HTML file: File level" />
@@ -203,7 +203,7 @@ Here’s another screenshot showing one of the government documents in PDF
 format - with a link back to the abstract RepositoryObject that houses all of
 the manifestations of the document in various languages.
 
-<br>
+ 
 
 <figure>
    <img src="./Slide09.png" alt="Research data management" title="Research data management" />
@@ -234,7 +234,7 @@ that consumes datasets in a predictable way) it must be well described. The
 standards and standard approaches to describe both data and re-runnable
 software such as workflows or notebooks.
 
-<br>
+ 
 
 <figure>
    <img src="./Slide10.png" alt="LDaCA research data commons architecture" title="LDaCA research data commons architecture" />
@@ -253,7 +253,7 @@ primarily an educational enterprise encouraging researchers to adopt new
 research practices - which will be underpinned by services built on the
 <GlossaryLink display="Arkisto" id="arkisto" /> standards that allow for rigorous, re-runnable research.
 
-<br>
+ 
 
 <figure>
    <img src="./Slide11.png" alt="LDaCA portal repository architecture" title="LDaCA portal repository architecture" />
@@ -270,7 +270,7 @@ wrapped in <GlossaryLink display="RO-Crates" id="ro-crate" /> with re-use inform
 though - it’s a workspace, not a repository; it does not have governance in
 place for long-term preservation.
 
-<br>
+ 
 
 <figure>
    <img src="./Slide12.png" alt="LDaCA core infrastructure" title="LDaCA core infrastructure" />
@@ -303,7 +303,7 @@ can search for text and/or drill down using _facets_ (which are called
 aggregations in Elastic-land). e.g. which language am interested in or do I
 want [ ] Spoken or [ ] Written material?
 
-<br>
+ 
 
 <figure>
    <img src="./Slide13.png" alt="LDaCA core infrastructure annotated" title="LDaCA core infrastructure annotated" />
@@ -318,7 +318,7 @@ tabular data or domain-specific discovery tools such as corpus analysis
 software. And, there may be collection-specific portals that show a slice of
 a bigger repository with features or branding specific to a subset of data.
 
-<br>
+ 
 
 <figure>
    <img src="./Slide14.png" alt="Oni" title="Oni" />
@@ -330,7 +330,7 @@ not really an acronym anymore though it once stood for <GlossaryLink display="OC
 server) or Node (a Javascript framework) and an Index. An Oni is a kind of
 Japanese demon. 👹
 
-<br>
+ 
 
 <figure>
    <img src="./Slide15.png" alt="Collection conversion" title="Collection conversion" />
@@ -347,7 +347,7 @@ shows how we will be converting data from existing collections into a form
 where they can be preserved in an <GlossaryLink display="OCFL" id="ocfl" /> repository and be part of a bigger
 collection, ALWAYS with access control based on licenses.
 
-<br>
+ 
 
 <figure>
    <img src="./Slide16.png" alt="Corpus tools" title="Corpus tools" />
@@ -360,7 +360,7 @@ cleaning tool). These repositories have not all been made public yet, but
 they will be - they contain tools to build <GlossaryLink display="Arkisto" id="arkisto" />-ready file repositories
 that can be made available in one or more portals
 
-<br>
+ 
 
 <figure>
    <img src="./Slide17.png" alt="Alveo portal" title="Alveo portal" />
@@ -375,7 +375,7 @@ Oh yes, so it is.
 
 Alveo was built ten years ago - and has not seen much uptake.
 
-<br>
+ 
 
 <figure>
    <img src="./Slide18.png" alt="Alveo browse facets" title="Alveo browse facets" />
@@ -411,7 +411,7 @@ we have an in-house (though distributed) development team rather than an
 external contractor so feedback is very fast - we can jump onto a call and
 demo stuff at any time.
 
-<br>
+ 
 
 <figure>
    <img src="./Slide19.png" alt="API demo with Postman" title="API demo with Postman" />
@@ -439,7 +439,7 @@ Travis at ANU - we are hoping to publish this work as a re-usable notebook
 that can be adapted for other projects, and to allow the techniques the ANU
 team have been developing to be applied to other similar data in LDaCA.
 
-<br>
+ 
 
 <figure>
    <img src="./Slide20.png" alt="Farms to Freeways notebook" title="Farms to Freeways notebook" />
@@ -456,7 +456,7 @@ scientist might explore what’s in it and start asking questions about the data
 like the age distribution of the participants and start digging in to what
 they were talking about.
 
-<br>
+ 
 
 <figure>
    <img src="./Slide21.png" alt="Oni portal" title="Oni portal" />
@@ -468,7 +468,7 @@ about above in action, showing how search and browse might be used to find
 repository objects from the index - in this case, searching for Arabic words
 in a small set of Australian Government documents.
 
-<br>
+ 
 
 <figure>
    <img src="./Slide22.png" alt="'It\'s not just for Christmas\'" title="'It\'s not just for Christmas\'" />
@@ -487,7 +487,7 @@ here but it is important to remember that a repository needs to be considered
 an institution rather than a software stack or collection of files, more
 "University Library" than "My Database".
 
-<br>
+ 
 
 <figure>
    <img src="./Slide23.png" alt="Access control" title="Access control" />
@@ -517,7 +517,7 @@ reproducible using this model, but without a culture of sharing datasets
 without regard for the rights of those who were involved in the creation of
 the data.
 
-<br>
+ 
 
 <figure>
    <img src="./Slide24.png" alt="CARE Principles for Indigenous Data Governance" title="CARE Principles for Indigenous Data Governance" />
@@ -543,7 +543,7 @@ moral rights in the material (even if they do not have legal rights) and
 taking the <GlossaryLink display="CARE" id="care" /> principles as relevant in such cases ensures serious thinking
 about the protection of those moral rights.
 
-<br>
+ 
 
 <figure>
    <img src="./Slide25.png" alt="Traditional Knowledge Labels" title="Traditional Knowledge Labels" />
@@ -558,7 +558,7 @@ labels. The idea is to separate safe storage of data with a license on each
 item, which may reference the <GlossaryLink display="TK labels" id="tk-labels" /> from a system that is administered by
 the data custodians who can make decisions about who is allowed to access data.
 
-<br>
+ 
 
 <figure>
    <img src="./Slide26.png" alt="Sydney Speaks" title="Sydney Speaks" />
@@ -597,7 +597,7 @@ Because this involved human participants there are restrictions on the
 distribution of data - a situation we see with lots of studies involving
 people in a huge range of disciplines.
 
-<br>
+ 
 
 <figure>
    <img src="./Slide27.png" alt="Sydney Speaks licenses" title="Sydney Speaks licenses" />
@@ -613,7 +613,7 @@ people - and a large amount of the data both Indigenous and non-Indigenous we
 are using will require access control that ensures that data sharing is
 appropriate.
 
-<br>
+ 
 
 <figure>
    <img src="./Slide28.png" alt="ATAP demo" title="ATAP demo" />
@@ -640,7 +640,7 @@ Now in <GlossaryLink display="GitHub" id="github" /> we can see the group manage
 I have given access to all the licenses to myself, as you can see here and
 given access to license A to others.
 
-<br>
+ 
 
 <figure>
    <img src="./Slide29.png" alt="Repository autthorisation delegation" title="Repository autthorisation delegation" />
@@ -653,7 +653,7 @@ this case, <GlossaryLink display="GitHub" id="github" /> rather than CILogon. Bu
 up a trial with the Australian Access Federation to allow CILogon access for
 the <GlossaryLink display="HASS" id="hass" /> Research Data Commons so we can pilot group-based access control.
 
-<br>
+ 
 
 <figure>
    <img src="./Slide30.png" alt="Items TODO" title="Items TODO" />
@@ -662,4 +662,4 @@ the <GlossaryLink display="HASS" id="hass" /> Research Data Commons so we can pi
 
 There’s a lot still to do.
 
-<br>
+ 

@@ -49,7 +49,7 @@ title: "Organise & describe"
   backgroundColor="#fff"
   :opacity="100"
   heading="GUIDES"
-  description="LDaCA provides hands-on support to make language data usable, ethical and future-ready."
+  description="LDaCA guides to support making language data usable, ethical and future-ready."
   :items="[
       {
         title: 'Metadata',

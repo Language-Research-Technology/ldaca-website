@@ -8,34 +8,34 @@ category: "RESOURCE"
 layout: doc
 ---
 
-<br>
+ 
 
-> This user guide uses 'portal' to refer to the interface across all of the available <GlossaryLink display="Oni" id="oni" /> portals (see [Available Portals](/working-with-data/find-access/#available-portals) for more details).
+> This user guide uses 'portal' to refer to the interface across all of the available <GlossaryLink display="Oni" id="oni" /> portals (see [Available portals](/working-with-data/find-access/#available-portals) for more details).
 
-<br>
+ 
 
 Filters allow you to refine what items are available to view and search according to a set of major <GlossaryLink display="metadata" id="metadata" /> categories and can be accessed from the left panel of the portal home page. Select a filter in order to see the dropdown list of options; the number icons beside each filter indicate how many options are available. A total of five options are visible per page; to access more options, use the pagination icons, or the search bar if you are looking for a particular option.
 
-<br>
+ 
 
 Part of the Filter List | Linguistic Genre Filter Expanded
 :---: | :---:
 <img src="./filters1.png" Alt="Filter List Example" Title="Filter List Example" Ref="LDaCA" /> | <img src="./filters2.png" Alt="Linguistic Genre Filter Example" Title="Linguistic Genre Filter Example" Ref="LDaCA" />
 
 
-<br>
+ 
 
-Within each filter, the number icons beside each option indicate how many items are available for that particular option. For example, in the images above, there are 11 options under the _Linguistic Genre_ filter, and there are 8098 items available for the Linguistic Genre _Narrative_.
+Within each filter, the number icons beside each option indicate how many items are available for that particular option. For example, in the images above, there are 11 options under the _Linguistic Genre_ filter, and there are 8098 items available for the linguistic genre _Narrative_.
 
 Once you have selected all the filters you wish to apply, select the ___Apply Filters___ button, which appears on a floating pop-up box and also above the ___Reset Search___ button. The top of the results section will show the filters and selected options that were applied next to the _Filtering by:_ heading, and these can either be removed individually by clicking the __×__ next to that filter or in bulk with the ___Clear Filters___ button.
 
 If needed, you can further select or deselect options by repeating this process with the left panel filters, at which point the ___Apply Filters___ button will reappear.
 
-<br>
+ 
 
-## Filter Categories
+## Filter categories
 
-<br>
+ 
 
 ### Collection
 
@@ -46,9 +46,9 @@ __Examples:__
 - Braided Channels
 - International Corpus of English (ICE-AUS)
 
-<br>
+ 
 
-### Sub-Collection
+### Sub-collection
 
 The sub-collections, if any, that comprise a <GlossaryLink display="collection" id="collection" />.
 
@@ -57,7 +57,7 @@ __Examples:__
 - ICE: S2A: Dialogues
 - ICE: S2B: Monologues
 
-<br>
+ 
 
 ### Access
 
@@ -68,9 +68,9 @@ __Examples:__
 - Attribution 4.0 International (CC BY 4.0)
 - Attribution-NoDerivs 3.0 Australia (CC BY-ND 3.0 AU)
 
-<br>
+ 
 
-### Record Type
+### Record type
 
 The type or categorisation of an item, i.e. a <GlossaryLink display="collection" id="collection" />, <GlossaryLink display="object" id="object" /> or file. For individual files, this field also gives information about the nature of the material, i.e. primary material, transcription, annotation etc.
 
@@ -79,7 +79,7 @@ __Examples:__
 - Video
 - Transcription
 
-<br>
+ 
 
 ### Language
 
@@ -90,9 +90,9 @@ __Examples:__
 - Waanyi
 - Vietnamese
 
-<br>
+ 
 
-### Communication Mode
+### Communication mode
 
 The mode(s) (spoken, written, signed, etc.) in which the content of the resource was created.
 
@@ -101,9 +101,9 @@ __Examples:__
 - SpokenLanguage
 - SignedLanguage
 
-<br>
+ 
 
-### Linguistic Genre
+### Linguistic genre
 
 The style or form of communication to which the item can be assigned.
 
@@ -112,9 +112,9 @@ __Examples:__
 - Report
 - Interview
 
-<br>
+ 
 
-### File Format
+### File format
 
 The media type and encoding format of the file.
 
@@ -123,4 +123,4 @@ __Examples:__
 - application/mp4 (.mp4)
 - audio/x-wav (.wav)
 
-<br>
+ 

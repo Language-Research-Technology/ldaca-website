@@ -40,7 +40,7 @@ Research Object Crate is a linked data metadata packaging standard which has bee
 
 - And if you’re looking for a sustainable repository solution, there are tools which can run a repository from a set of static files on a storage service, in line with the ideas put forward by Suleman in the closing keynote for OR2023.
 
-<br>
+ 
 
 </section>
 
@@ -55,7 +55,7 @@ RO-Crates enable data to travel with metadata.
 
 Beyond simply allowing the upload of opaque RO-Crates, there are opportunities for repository software to recognise metadata in an uploaded package and to pre-populate built-in metadata forms and/or datastores. This is not a pattern the authors have seen widely implemented in comprehensive institutionally focussed repositories, although at the time of writing it is being explored in Dataverse and InvenioRDM/Zenodo. We would encourage repository developers to explore this further, particularly those working with research data. RO-Crate support is increasing in research-domain repositories; e.g. RO-Crate upload with metadata extract is supported by WorkflowHub and ROHub).
 
-<br>
+ 
 
 </section>
 
@@ -64,7 +64,7 @@ Beyond simply allowing the upload of opaque RO-Crates, there are opportunities f
 
 One of the design features of an RO-Crate is that as it can be “just a ZIP file” it can be used with any old repository that can handle ZIP files. The JSON file can also be uploaded separately. As RO-Crate adoption increases, the repository may be able to start to use the RO-Crate metadata it already has. You can/will have heard from Dieuwertje Bloemen here at OR2024 that DataVerse has support for RO-Crate metadata preview and building import/export mechanisms.
 
-<br>
+ 
 
 </section>
 
@@ -75,7 +75,7 @@ The RO-Crate specification described a method of packaging data in a folder, whi
 
 This slide shows a folder of data, including a file with a typical obscure file name based on a timestamp (in this case created by a Dropbox upload from a digital camera). The RO-Crate Metadata file, in JSON Linked Data Format, can describe files. This one has a name (i.e. a title) for the file; “Cute puppy”.
 
-<br>
+ 
 
 </section>
 
@@ -84,7 +84,7 @@ This slide shows a folder of data, including a file with a typical obscure file 
 
 A human-readable description and preview (ro-crate-preview.html) can be in an HTML file that lives alongside the metadata. This slide shows an HTML view of the data that shows the image with its metadata, including the Schema.org `name` (equivalent to a Dublin Core `title`) for the file.
 
-<br>
+ 
 
 </section>
 
@@ -93,7 +93,7 @@ A human-readable description and preview (ro-crate-preview.html) can be in an HT
 
 Increasingly, research repository infrastructure is accepting RO-Crate input - this screenshot from WorkflowHub [documents the upload API](https://about.workflowhub.eu/developer/ro-crate-api/) for submitting RO-Crate packaged descriptions of scientific workflows to the system. These can then be downloaded by others for reuse. Here, RO-Crate allows bypassing of the traditional “title, author, license, description” fields (rendered from the crate), as well as permitting user extensions on metadata to be kept in the repository.
 
-<br>
+ 
 
 </section>
 
@@ -120,7 +120,7 @@ RO-Crate download is already available in many data repositories. Examples inclu
 
 We will encourage developers from other repository platforms to follow the Dataverse project’s lead and add RO-Crate support.
 
-<br>
+ 
 
 </section>
 
@@ -129,7 +129,7 @@ We will encourage developers from other repository platforms to follow the Datav
 
 This is a screenshot of the [Gazetteer of Historical Australian Places](https://uqz.zoom.us/j/85861337752) – not exactly a repository but an example of a place where people can download datasets.
 
-<br>
+ 
 
 </section>
 
@@ -138,7 +138,7 @@ This is a screenshot of the [Gazetteer of Historical Australian Places](https://
 
 This kind of download could be added to any repository system where there is at least one file that has metadata; offer a download ZIP option that has machine-readable JSON metadata (linked data in JSON-LD) and a human-readable summary of the metadata – this one has descriptions of a few files in it.
 
-<br>
+ 
 
 </section>
 
@@ -151,7 +151,7 @@ Every repository implementer should add FAIR Signposting – just a couple of HT
 
 As we mentioned above, data should travel with the metadata – one example of this from the WorkflowHub is how other services like the LifeMonitor retrieves the RO-Crate and then looks for custom annotations in the metadata to pick up and connect to the testing infrastructure. This was only possible because RO-Crate is extensible - you are not trapped with whatever 25 properties we’ve selected. The vessel is still RO-Crate, the repository didn't need to add anything to support the LifeMonitor.
 
-<br>
+ 
 
 </section>
 
@@ -160,7 +160,7 @@ As we mentioned above, data should travel with the metadata – one example of t
 
 One of the key benefits of linked-data metadata over previous ‘legacy’ approaches, is that multiple vocabularies can be combined into a single metadata document in a way that is not possible with, say MARC, or MODS XML, and that all these vocabularies can use the same syntax and approach to describing data. This means that a simple generic RO-Crate viewer can be used to visualise any metadata whether it is basic “Who, What, Where” metadata (like Dublin Core) or domain-specific metadata like the RO-Crate metadata profile (https://w3id.org/ldac/profile) used by the Language Data Commons of Australia. This can be displayed alongside the core RO-Crate metadata without any expensive configuration or coding. If the recommendations are followed, the RO-Crate metadata terms are self-documenting, e.g. all the Language Data Commons terms which use a Schema.org Style approach, are defined here: https://w3id.org/ldac/terms.
 
-<br>
+ 
 
 </section>
 
@@ -169,7 +169,7 @@ One of the key benefits of linked-data metadata over previous ‘legacy’ appro
 
 This slide is a repeat of one we used last year – this screenshot is a bit of (undated) DSpace documentation found following a tip from Kim Sheppard – we have included it here to illustrate that storing additional metadata (in this case METS) for an object was done by convention – it had to be stored in a special file called METS.xml. Using a linked-data system means that we no longer have to do this kind of thing – there’s still one magic file name in RO-Crate but it’s only one for the metadata and one for the HTML preview – everything else is labelled and extensible.
 
-<br>
+ 
 
 </section>
 
@@ -180,7 +180,7 @@ This is an example of a data object in RO-Hub, which has a variety of files desc
 
 This site does not need to have multiple plugins for different kinds of data, as linked data has a generic structure. We saw another example of how the generic structure can be rendered in the opening example with a picture of Sefton's dog.
 
-<br>
+ 
 
 </section>
 
@@ -189,7 +189,7 @@ This site does not need to have multiple plugins for different kinds of data, as
 
 So now we can tell all these research software developers, I know you like making new file formats, and I would love to support that in my repository, so could you perhaps use RO-Crate as the basis for making that format? Then we can pull out all the boring stuff, even for new file extensions, we just detect it’s a ZIP file and look for that magic file. If it says it’s an RO-Crate we’ll believe you.
 
-<br>
+ 
 
 </section>
 
@@ -201,7 +201,7 @@ We argue that the core functionality of a repository is keeping data safe and ma
 
 There is an opportunity, if RO-Crate is adopted as an interchange format, for the metadata editing functions (and authorisation) functions of a repository to be decoupled from it so the editor components for a particular metadata profile can be shared between repository instances, or handled in a more distributed architecture than in typical current repositories.
 
-<br>
+ 
 
 </section>
 
@@ -210,7 +210,7 @@ There is an opportunity, if RO-Crate is adopted as an interchange format, for th
 
 The [Describo](https://describo.github.io/describo-users.html) website mentions this integration with the Dataverse repository where the Describo RO-Crate editor can be used to enter metadata. The pattern is potentially very powerful - separate the creation of metadata from the repository so that repositories can focus on data retention and multiple other applications can be built for use by researchers or other users – closer to or embedded in systems they are already using.
 
-<br>
+ 
 
 </section>
 
@@ -219,7 +219,7 @@ The [Describo](https://describo.github.io/describo-users.html) website mentions 
 
 The Language Data Commons of Australia team has produced an alternative to Describo known as Crate-O – this is available as a web component ready to drop in to any web app or can function stand-alone – we use it as part of the workflow in maintaining the [data portal for the Language Data Commons of Australia](https://data.ldaca.edu.au/collection?id=arcp%3A%2F%2Fname%2Cdoi10.26180%252F23961609&_crateId=arcp%3A%2F%2Fname%2Cdoi10.26180%252F23961609).
 
-<br>
+ 
 
 </section>
 
@@ -228,7 +228,7 @@ The Language Data Commons of Australia team has produced an alternative to Descr
 
 This slide shows the beginning of an access-control process. The data was prepared in RO-Crate format using batch-processing scripts and has a license attached. The repository portal is shown here - with an indication that the user needs to log in to access the data.
 
-<br>
+ 
 
 </section>
 
@@ -237,7 +237,7 @@ This slide shows the beginning of an access-control process. The data was prepar
 
 The user logs in using CILogon (or another federated authentication service).
 
-<br>
+ 
 
 </section>
 
@@ -246,7 +246,7 @@ The user logs in using CILogon (or another federated authentication service).
 
 The user is then directed to an instance of REMS - the [Resource Entitlement Management System](https://github.com/CSCfi/rems/) (REMS) to request that a licence be granted to access the data. REMS is open-source software.
 
-<br>
+ 
 
 </section>
 
@@ -255,7 +255,7 @@ The user is then directed to an instance of REMS - the [Resource Entitlement Man
 
 After an approval process which may be automated, or may involve humans checking credentials, the user is directed back to the repository.
 
-<br>
+ 
 
 </section>
 
@@ -266,7 +266,7 @@ With a repository to keep data safe and serve it using persistent identifiers, R
 
 RO-Crate is increasingly being used to describe the provenance <a name="back-3" >[[3]](#fn-3)</a> of derived data in such a way that the workflows/computation that produced it can be re-run automatically to validate it, or as a basis for new research. This might be a button on a repository to run a bioinformatics workflow, or re-run a Jupyter notebook that produces a set of plots.
 
-<br>
+ 
 
 </section>
 
@@ -275,7 +275,7 @@ RO-Crate is increasingly being used to describe the provenance <a name="back-3" 
 
 RO-Crate helps to enable FAIR research practice; RO-Crates can describe inputs, outputs and code in any combination to record research processes, and can be used to provision services.
 
-<br>
+ 
 
 </section>
 
@@ -284,7 +284,7 @@ RO-Crate helps to enable FAIR research practice; RO-Crates can describe inputs, 
 
 This slide is a collage from a [presentation at eResearch Australasia](https://conference.eresearch.edu.au/wp-content/uploads/2023/11/1045-Alex-Ip.pdf), lead author Alex Ip put together showing some examples of code notebooks for text analytics and geophysics. Alex is working with the Language Data Commons of Australia team to make RO-Crate Profiles that can describe code, not just in terms of its authorship, language and inputs and outputs, but the (usually virtual) execution environment and hardware requirements needed to run it. This is a key step forward in the Interoperability and Reuse of data called for by the FAIR principles.
 
-<br>
+ 
 
 </section>
 
@@ -294,7 +294,7 @@ This slide is a collage from a [presentation at eResearch Australasia](https://c
 There are tools which can run a repository from a set of static files on a storage service, in line with the ideas put forward by Prof Suleman at OR 2023.
 The team at the Language Data Commons of Australia, with partner institutions and colleagues, has been working to produce a set of tools for building Archival Repository software stacks that is based on a principled approach to keeping data safe, based on the principles presented in the Arkisto website <a name="back-4" >[[4]](#fn-4)</a> and more recently at <https://w3id.org/ldac/pilars>. The core idea is that a collection of RO-Crates in a storage service can be the basis of a repository – either using a simple on-disk directory layout or something more complicated such as an Oxford Common File Layout (OCFL) specification.
 
-<br>
+ 
 
 </section>
 
@@ -303,7 +303,7 @@ The team at the Language Data Commons of Australia, with partner institutions an
 
 The [UTS Research Data Portal](https://data.research.uts.edu.au) is an example of a very minimal data repository system which uses a standard RO-Crate viewer to show RO-Crates that are sitting on file storage. This example is of an [engineering dataset](https://data.research.uts.edu.au/#view/0bacede4bd5a39993ec5088e6247cac8).
 
-<br>
+ 
 
 </section>
 
@@ -326,4 +326,4 @@ The ARDC is funded by the National Collaborative Research Infrastructure Strateg
 
 <a name="fn-4">[4]</a> P. Sefton, M. La Rosa, and Mi. Lynch, “Arkisto: a repository based platform for managing all kinds of research data,” in ptsefton.com, Jun. 2021. Accessed: Jan. 31, 2022. [Online]. Available: http://ptsefton.com/2021/06/11/or-2021-arkisto/index.html [↩](#back-4)
 
-<br>
+ 

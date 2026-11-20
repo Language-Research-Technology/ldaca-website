@@ -7,20 +7,20 @@ layout: post
 type: interview
 image: "/news/posts/kalin-stefanov/kalins.jpg"
 ---
-<br>
+ 
 
 <br />
 
 This blog post features an interview with [Kalin Stefanov](https://research.monash.edu/en/persons/kalin-stefanov) ([ARC DECRA](https://www.arc.gov.au/funding-research/funding-schemes/discovery-program/discovery-early-career-researcher-award-decra) Fellow at [Monash University](https://www.monash.edu)), who is working on an Australian Sign Language (Auslan) project. We would like to thank Chief Investigator [Louisa Willoughby](https://research.monash.edu/en/persons/louisa-willoughby) for first letting us know about Kalin’s work, and Kalin for graciously agreeing to the interview and providing his thoughts.
 
-<br>
+ 
 
 <figure>
     <img src="./kalins.jpg" alt="Close-up shot of Kalin Stefanov’s face, who is smiling" title="Kalin Stefanov, Monash University" ref="Kalin Stefanov" height="400" />
     <figcaption>Kalin Stefanov, Monash University</figcaption>
 </figure>
 
-<br>
+ 
 
 **How did you get interested in sign language?**
 
@@ -30,7 +30,7 @@ For this project, I developed a real-time hand gesture recognition technology ap
 
 The project involved close collaboration with researchers (native signers) at the [Department of Linguistics](https://www.su.se/department-of-linguistics), Stockholm University and technology evaluation with the target end-users. This was my (immersed) introduction to the fascinating world of sign language communication and since then I have participated in a range of research projects related to different sign language technologies.
 
-<br>
+ 
 
 **Can you tell us about the project you are currently undertaking?**
 
@@ -40,7 +40,7 @@ The Auslan recogniser will be able to distinguish 1000+ isolated Auslan signs. T
 
 The Auslan generator will operate in the reverse direction and be able to synthesise 1000+ isolated Auslan signs. This means that by providing a written or spoken English word, the generator will ‘translate’ it to a video of an isolated Auslan sign. We also aim to provide mechanisms for the personalisation of the generator to account for individual preferences in appearance and signing style.
 
-<br>
+ 
 
 **Who will be helped by the output of your project, and how?**
 
@@ -50,22 +50,22 @@ In education, on the one hand, I can envision an application for individual Ausl
 
 In research, collecting and annotating sign language data is an expensive task that needs the collaboration of linguistic experts and native signers, hence, current datasets are scarce and small. I envision annotation support <GlossaryLink display="tools" id="tools" /> that incorporate the technologies, and significantly reduce the time and effort currently needed to create such important resources.
 
-<br>
+ 
 
 **How did you first hear about our work on Auslan data?**
 
 The first time I heard of <GlossaryLink display="LDaCA" id="ldaca" /> and its work on Auslan data was from A/Prof Louisa Willoughby while developing the project proposal. The partnership between Monash University and LDaCA on making Auslan data more accessible is instrumental in developing advanced Auslan-related technologies.
 
-<br>
+ 
 
 **You say that your project is “creating the largest Auslan dataset”. How does this relate to the existing datasets and the work of LDaCA?**
 
 The main focus of the project is the Auslan recogniser and generator; the dataset will be a useful by-product. The project starts with the available annotated Auslan data. The first-generation recogniser will enable the extension of that data with cost-effective annotation of unannotated data, e.g. through known and unknown sign localisation and discovery. This will facilitate bootstrapping for iterative improvement of the recogniser’s performance and robustness. On the other hand, the generator will produce potentially unlimited amounts of annotated synthetic data that could be very useful for computational modelling. It is important to note that this whole process is possible because of the existing datasets and the work of LDaCA.
 
-<br>
+ 
 
 **After this project, what else do you hope to work on in the future?**
 
 This project will build the foundations for the use of the technologies in more advanced communication instances, including cheap and effective real-time on-screen spoken language translation during newscasts and emergency broadcasts. I hope to continue this line of research in the future and build upon these foundations. Given the complexity and richness of sign language communication, building this type of advanced technology is a truly ambitious endeavour that requires long-term dedication and effort.
 
-<br>
+ 

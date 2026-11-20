@@ -1,6 +1,6 @@
 ---
 title: "ARDS Archive"
-description:  Collaborating on a digital archive grounded in Yolŋu governance
+description:  Collaborating on a digital archive grounded in Yolŋu governance.
 layout: project
 collaboratorLogo: "/images/partner-logos/ARDS_LOGO_2025_w_TEXT.svg"
 collaborator: "Aboriginal Resource and Development Services (ARDS)"
