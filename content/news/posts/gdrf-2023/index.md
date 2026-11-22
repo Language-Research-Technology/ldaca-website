@@ -3,7 +3,7 @@ title: "Graduate Digital Research Fellowship — 2023"
 date: 2024-01-10T09:00:00+10:00
 draft: false
 aliases:
-  - "/posts/gdrf/"
+  - "/news/posts/gdrf/"
 layout: post
 description: "A blog post about the 2023 Graduate Digital Research Fellowship cohort, co-ordinated by Sam Hames (Research Analytics Lead) and Simon Musgrave (Research Support and Training Lead)."
 image: "/news/posts/gdrf-2023/gdrf_2023.jpg"
