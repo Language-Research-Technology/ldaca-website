@@ -12,7 +12,7 @@ layout: post
 
  
 
-LDaCA ran a Graduate Digital Research Fellowship (GDRF) program in [2023](../gdrf/) and [2024](../gdrf-2024/). In 2025,  Research Support and Training Lead <Profile id="musgrave" /> and Research Analytics Lead <Profile id="hames" /> again coordinated the program, making two key changes intended to enable the program to expand in future years.
+LDaCA ran a Graduate Digital Research Fellowship (GDRF) program in [2023](../gdrf-2023/) and [2024](../gdrf-2024/). In 2025,  Research Support and Training Lead <Profile id="musgrave" /> and Research Analytics Lead <Profile id="hames" /> again coordinated the program, making two key changes intended to enable the program to expand in future years.
 
 The changes were:
 1. We ran the program entirely online. In previous years, the inclusion of face-to-face activities limited the pool of potential participants to people in South East Queensland. Moving online was intended to open the program to participants from anywhere in Australia. We met this goal, with one participant joining us from Sydney and another from Perth (and posing a scheduling challenge!).
