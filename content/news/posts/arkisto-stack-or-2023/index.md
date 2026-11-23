@@ -419,7 +419,7 @@ This page shows some screenshots of an internal-only application at UTS which gi
 
 <img src='./Slide35.png' alt='  ' title='Slide: 35' border='1'  width='85%%'/>
 
-This is a screenshot of data from a history project [Expert Nation](https://expertnation.org/) exported to <GlossaryLink display="RO-Crate" id="ro-crate" /> format and [put online to support a book](https://expertnation.research.uts.edu.au/).
+This is a screenshot of data from a history project, [Expert Nation](https://melbourne-cshe.unimelb.edu.au/research/research-projects/higher-education-policy-and-history/expert-nation-universities,-war-and-1920s-and-30s-australia), exported to <GlossaryLink display="RO-Crate" id="ro-crate" /> format and [put online to support a book](https://expertnation.research.uts.edu.au/).
 
 </section>
 

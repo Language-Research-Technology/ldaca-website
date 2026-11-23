@@ -13,8 +13,6 @@ description: "A presentation Peter Sefton gave to the Humanities, Arts and Socia
 image: "/news/posts/rdc-tech-meeting/Slide09.png"
 ---
 
- 
-
 This is a presentation Peter Sefton gave to the
 [Humanities, Arts and Social Sciences Research Data Commons and Indigenous Research Capability Program](https://ardc.edu.au/collaborations/strategic-activities/hass-and-indigenous-research-data-commons/) Technical Advisory Group on Friday 11th February 2022.
 
@@ -130,7 +128,7 @@ projects in the sciences starting to
 </figure>
 
 This image is taken from a
-[presentation on digital preservation](https://slideplayer.com/slide/3919920/).
+presentation on digital preservation.
 
 [Models](https://pcdm.org/2016/04/18/models)
 The third key standard for <GlossaryLink display="Arkisto" id="arkisto" /> is the Portland Common Data Model. Like

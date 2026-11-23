@@ -112,7 +112,7 @@ RO-Crate download is already available in many data repositories. Examples inclu
 
 - [TLCMap](https://tlcmap.org/): The Time Layered Cultural map is a set of tools that work together for mapping Australian history and culture.
 
-- The [Language Data Commons of Australia data portal](https://data.ldaca.org.au): entirely built on RO-Crates, the underlying data consists of crates-on-disk and the API is based on RO-Crate metadata.
+- The [Language Data Commons of Australia data portal](https://data.ldaca.edu.au/): entirely built on RO-Crates, the underlying data consists of crates-on-disk and the API is based on RO-Crate metadata.
 
 - [Senckenberg Wildlive portal](https://wildlive.senckenberg.de/): exposes metadata about automatic photo captures of endangered animals using RO-Crate.
 

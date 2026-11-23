@@ -11,7 +11,7 @@ image: "/news/posts/kalin-stefanov/kalins.jpg"
 
 <br />
 
-This blog post features an interview with [Kalin Stefanov](https://research.monash.edu/en/persons/kalin-stefanov) ([ARC DECRA](https://www.arc.gov.au/funding-research/funding-schemes/discovery-program/discovery-early-career-researcher-award-decra) Fellow at [Monash University](https://www.monash.edu)), who is working on an Australian Sign Language (Auslan) project. We would like to thank Chief Investigator [Louisa Willoughby](https://research.monash.edu/en/persons/louisa-willoughby) for first letting us know about Kalin’s work, and Kalin for graciously agreeing to the interview and providing his thoughts.
+This blog post features an interview with [Kalin Stefanov](https://kalin-stefanov.github.io/) ([ARC DECRA](https://www.arc.gov.au/funding-research/funding-schemes/discovery-program/discovery-early-career-researcher-award-decra) Fellow at [Monash University](https://www.monash.edu)), who is working on an Australian Sign Language (Auslan) project. We would like to thank Chief Investigator [Louisa Willoughby](https://research.monash.edu/en/persons/louisa-willoughby) for first letting us know about Kalin’s work, and Kalin for graciously agreeing to the interview and providing his thoughts.
 
  
 

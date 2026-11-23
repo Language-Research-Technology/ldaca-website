@@ -191,7 +191,7 @@ Additionally, I would drastically change how I approach data capture and analysi
 
 Aijmer, K. (2013). General Extenders. In H. Pichler (Ed.). _Understanding Pragmatic Markers: A Variational Pragmatic Approach_ (pp. 127–147). Edinburgh, United Kingdom: Edinburgh University Press.
 
-Burnham, D., Estival, D., Fazio, S., Viethen, J. Cox, J., Dale, R., Cassidy, S., Epps, J., Togneri, R., Wagner, M., Kinoshita, Y., Göcke, R., Arciuli, J., Onslow. M., Lewis, T., Butcher, A., & Hajek, J. (2011). Building an audio-visual corpus of Australian English: large corpus collection with an economical portable and replicable Black Box. _Proceedings of 12th Annual Conference of the International Speech Communication Association (Interspeech 2011)_ (pp. 841–844). Retrieved from [https://austalk.edu.au/bibliography](https://austalk.edu.au/bibliography)
+Burnham, D., Estival, D., Fazio, S., Viethen, J. Cox, J., Dale, R., Cassidy, S., Epps, J., Togneri, R., Wagner, M., Kinoshita, Y., Göcke, R., Arciuli, J., Onslow. M., Lewis, T., Butcher, A., & Hajek, J. (2011). Building an audio-visual corpus of Australian English: large corpus collection with an economical portable and replicable Black Box. _Proceedings of 12th Annual Conference of the International Speech Communication Association (Interspeech 2011)_ (pp. 841–844): [https://web.science.mq.edu.au/~rdale/publications/papers/2011/Interspeech2011.pdf](https://web.science.mq.edu.au/~rdale/publications/papers/2011/Interspeech2011.pdf)
 
 Cheshire, J. (2007). Discourse variation, grammaticalisation and stuff like that. _Journal of Sociolinguistics, 11_(2), 155–193.
 
