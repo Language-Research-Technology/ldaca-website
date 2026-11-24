@@ -445,7 +445,7 @@ team have been developing to be applied to other similar data in LDaCA.
 </figure>
 
 And one of the data scientists who was working with us at <GlossaryLink display="UQ" id="uq" />, Mel Mistica,
-developed a [demonstration notebook](https://github.com/Australian-Text-Analytics-Platform/ro-crate-metadata/blob/main/ro-crate-metadata.ipynb)
+developed a [demonstration notebook](https://github.com/Australian-Text-Analytics-Platform/farms-to-freeways)
 with our tech team that used the <GlossaryLink display="API" id="api" /> to access another full collection (which
 is also suitable for the ANU topic modelling approach) - this notebook gets
 all the metadata for a small social history collection which contains
