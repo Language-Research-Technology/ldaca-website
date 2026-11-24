@@ -112,7 +112,7 @@ RO-Crate download is already available in many data repositories. Examples inclu
 
 - [TLCMap](https://tlcmap.org/): The Time Layered Cultural map is a set of tools that work together for mapping Australian history and culture.
 
-- The [Language Data Commons of Australia data portal](https://data.ldaca.org.au): entirely built on RO-Crates, the underlying data consists of crates-on-disk and the API is based on RO-Crate metadata.
+- The [Language Data Commons of Australia data portal](https://data.ldaca.edu.au/): entirely built on RO-Crates, the underlying data consists of crates-on-disk and the API is based on RO-Crate metadata.
 
 - [Senckenberg Wildlive portal](https://wildlive.senckenberg.de/): exposes metadata about automatic photo captures of endangered animals using RO-Crate.
 
@@ -145,9 +145,9 @@ This kind of download could be added to any repository system where there is at 
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='./Slide09.png' alt='Enable programmatic downloads – include the metadata and its extensions :: signposting.org  :: ' title='Slide: 9' border='1'  width='85%%'/>
 
-Every repository implementer should add FAIR Signposting – just a couple of HTTP headers – this means machines can go from an HTML landing page to the actual download without guesswork – or even better – to an RO-Crate! I’m sure you’ll hear this mentioned in one of the [talks](https://www.conftool.net/or2024/index.php?page=browseSessions&presentations=show&search=herbert) by Herbert van de Sompel and colleagues, such as the one on [FAIRiCat]. Again, DataVerse is ahead of the curve and has already implemented this.
+Every repository implementer should add FAIR Signposting – just a couple of HTTP headers – this means machines can go from an HTML landing page to the actual download without guesswork – or even better – to an RO-Crate! I’m sure you’ll hear this mentioned in one of the talks by Herbert van de Sompel and colleagues, such as the one on [FAIRiCat]. Again, DataVerse is ahead of the curve and has already implemented this.
 
-[FAIRiCat]: https://www.conftool.net/or2024/index.php?page=browseSessions&form_session=475#paperID246 "FAIRiCat: Supporting Discovery of a Repository's Interoperability Affordances"
+[FAIRiCat]: https://zenodo.org/records/12542567 "FAIRiCat: Supporting Discovery of a Repository's Interoperability Affordances"
 
 As we mentioned above, data should travel with the metadata – one example of this from the WorkflowHub is how other services like the LifeMonitor retrieves the RO-Crate and then looks for custom annotations in the metadata to pick up and connect to the testing infrastructure. This was only possible because RO-Crate is extensible - you are not trapped with whatever 25 properties we’ve selected. The vessel is still RO-Crate, the repository didn't need to add anything to support the LifeMonitor.
 
@@ -217,7 +217,7 @@ The [Describo](https://describo.github.io/describo-users.html) website mentions 
 <section  typeof='http://purl.org/ontology/bibo/Slide' class="or_section">
 <img src='./Slide16.png' alt=' :: RO-Crate editing :: Data Portal :: ' title='Slide: 16' border='1'  width='85%%'/>
 
-The Language Data Commons of Australia team has produced an alternative to Describo known as Crate-O – this is available as a web component ready to drop in to any web app or can function stand-alone – we use it as part of the workflow in maintaining the [data portal for the Language Data Commons of Australia](https://data.ldaca.edu.au/collection?id=arcp%3A%2F%2Fname%2Cdoi10.26180%252F23961609&_crateId=arcp%3A%2F%2Fname%2Cdoi10.26180%252F23961609).
+The Language Data Commons of Australia team has produced an alternative to Describo known as Crate-O – this is available as a web component ready to drop in to any web app or can function stand-alone – we use it as part of the workflow in maintaining the [data portal for the Language Data Commons of Australia](https://data.ldaca.edu.au/).
 
  
 

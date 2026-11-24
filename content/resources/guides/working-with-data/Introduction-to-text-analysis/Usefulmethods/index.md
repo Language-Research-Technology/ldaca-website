@@ -143,7 +143,7 @@ Named Entity Recognition involves two levels of classification. First, segments 
 
 The Wikipedia entry explaining [named-entity recognition](https://en.wikipedia.org/wiki/Named-entity_recognition) gives further detail about the technique.
 
-This article looks at the problems encountered when applying a well-known entity recognition package ([Stanford](https://nlp.stanford.edu/software/CRF-NER.html)) to historical newspapers in the National Library of Australia’s Trove collection:
+This article looks at the problems encountered when applying a well-known entity recognition package (Stanford) to historical newspapers in the National Library of Australia’s Trove collection:
 
 >Mac Kim, Sunghwan & Steve Cassidy. 2015. Finding names in Trove: Named Entity Recognition for Australian historical newspapers. In *Proceedings of the Australasian Language Technology Association Workshop 2015*, 57–65. ([pdf](https://aclanthology.org/U15-1007.pdf))
 

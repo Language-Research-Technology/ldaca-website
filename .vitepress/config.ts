@@ -539,7 +539,7 @@ export default defineConfig({
     }
 
     // Copy local media and downloadable files so relative links resolve in dist.
-    const ASSET_EXT = /\.(png|jpe?g|gif|webp|svg|avif|pdf|xlsx?|pptx?|docx?|zip)$/i
+    const ASSET_EXT = /\.(png|jpe?g|gif|webp|svg|avif|pdf|xlsx?|pptx?|docx?|zip|mp3|wav)$/i
     const walkAndCopyAssets = (dir: string, relBase = '') => {
       if (!fs.existsSync(dir)) return
       const entries = fs.readdirSync(dir, { withFileTypes: true })

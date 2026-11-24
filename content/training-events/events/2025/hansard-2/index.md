@@ -3,7 +3,7 @@ title: "Get started with Federal Hansard for Humanities, Arts, and Social Scienc
 description: "This workshop introduced the Australian Federal Parliament’s transcribed proceedings, exploring their research potential, how to get started with different projects, and key considerations and limitations when working with parliamentary data."
 layout: event
 image: "https://images.humanitix.com/i/hI2fjuIT7Wai6JZJewXw@responsive-1250.webp"
-link: "https://hass.uq.edu.au/event/session/17466"
+link:
 eventDate: "11 September 2025"
 eventTime: "9:30am–12:30pm AEST"
 location: "The University of Queensland"

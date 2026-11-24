@@ -10,7 +10,7 @@ author: '<Profile id="lea" />'
 
  
 
-*This blog post is adapted from a presentation delivered by Peter Sefton and Stian Soiland-Reyes in June 2024. A copy of the original presentation can be found [here](/news/posts/open-repositories-2024-ro-crate/).*
+*This blog post is adapted from a presentation delivered by Peter Sefton and Stian Soiland-Reyes in June 2024. A copy of the original presentation can be found [here](/news/posts/2024-OR-RO-Crate/).*
 
  
 

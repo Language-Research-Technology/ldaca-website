@@ -61,7 +61,7 @@ __Examples:__
 
 ### Access
 
-The <GlossaryLink display="access conditions" id="access-conditions" /> associated with an item. Note that these differ from the three general categories of the [Access icons](resources/guides/portal/basic-navigation/#item-icons) and are instead the specific licenses for the item's usage.
+The <GlossaryLink display="access conditions" id="access-conditions" /> associated with an item. Note that these differ from the three general categories of the [Access icons](https://www.ldaca.edu.au/resources/guides/portal/basic-navigation/#item-icons) and are instead the specific licenses for the item's usage.
 
 __Examples:__
 - Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)

@@ -12,7 +12,7 @@ category: WEBINAR
 pastEvent: true
 ---
 
-**<a href="https://ucnk.ff.cuni.cz/en/institute/people/vaclav-cvrcek-2/" target="_blank">Václav Cvrček</a>** is a linguist who deals with the description of the Czech language, especially with the use of large electronic corpora and quantitative methods. In 2013-2016 he worked as the director of the <a href="https://ucnk.ff.cuni.cz/en/" target="_blank">Czech National Corpus</a> project; since 2016 he has been the deputy director. Recently, he has been focusing on research on textual variability and corpus-based discourse analysis with a focus on online media.
+**<a href="https://ocnk.ff.cuni.cz/en/people/vaclav-cvrcek-2/" target="_blank">Václav Cvrček</a>** is a linguist who deals with the description of the Czech language, especially with the use of large electronic corpora and quantitative methods. In 2013-2016 he worked as the director of the <a href="https://ucnk.ff.cuni.cz/en/" target="_blank">Czech National Corpus</a> project; since 2016 he has been the deputy director. Recently, he has been focusing on research on textual variability and corpus-based discourse analysis with a focus on online media.
 
 ---
 

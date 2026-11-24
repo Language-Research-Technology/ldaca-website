@@ -19,4 +19,4 @@ In collaboration with the Centre for Australian Languages and Linguistics (CALL)
 
 # Further reading
 
-[Arne ingkerreke apurtelhe-ileme: Project launch](https://www.ldaca.edu.au/news/posts/veronicadobson-launch2025/)
+[Arne ingkerreke apurtelhe-ileme: Project launch](https://www.ldaca.edu.au/news/posts/VeronicaDobson-launch2025/)

@@ -32,7 +32,7 @@ They used this large collection of adolescent speech to support their claim that
 
 <figure>
   <figcaption> <b>A recording of 'broad' speech from the Mitchell and Delbridge collection.</b> </figcaption>
-  <audio controls src="./Broad.mp3" style="display: block; margin: 0 auto;"></audio>
+  <audio controls src="/news/posts/mitchell-delbridge/Broad.mp3" style="display: block; margin: 0 auto;"></audio>
 </figure>
 
  
